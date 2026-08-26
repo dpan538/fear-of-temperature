@@ -7,5 +7,6 @@
   "measurement_map_rows": 180,
   "postgres_runtime": "PASS",
   "figure_count": 15,
-  "workbook_status": "PASS"
+  "workbook_status": "PASS",
+  "semantic_shortlist_count": 20
 }

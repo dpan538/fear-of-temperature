@@ -345,7 +345,7 @@ const renderRanges = new Map([
   ["Anchor Layer", "A1:J10"], ["Anchor Voice", "A1:L10"], ["Anchor Family", "A1:D20"],
   ["Voice Family", "A1:C20"], ["Candidate Relations", "A1:I18"], ["Comparability", "A1:G18"],
   ["Ngram Trajectories", "A1:H18"], ["Dictionary Analysis", "A1:C20"], ["Search Analysis", "A1:C20"],
-  ["Coverage Bias", "A1:F22"], ["Semantic Shortlist", shortlistExists ? "A1:J20" : "A1:B8"],
+  ["Coverage Bias", "A1:F22"], ["Semantic Shortlist", shortlistExists ? "A1:P24" : "A1:B8"],
   ["Priority 180 Coverage", "A1:N18"], ["Ngram Coverage", "A1:O18"], ["Dictionary 180", "A1:T18"],
   ["Search 180", "A1:R18"], ["Seed Ledger", "A1:R18"], ["Master Frequency", "A1:O18"],
   ["Anchor Matrix", "A1:M18"], ["Family Summary", "A1:K18"], ["Voice Matrix", "A1:F20"],

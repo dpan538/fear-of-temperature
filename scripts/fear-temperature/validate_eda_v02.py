@@ -34,6 +34,7 @@ def main() -> None:
     voice = load("anchor_voice_counts.csv")
     family = load("anchor_family_counts.csv")
     bias = load("coverage_bias_matrix.csv")
+    shortlist = load("semantic_analysis_shortlist.csv")
 
     require(len(candidate) == 180, "candidate_analysis_180 must contain exactly 180 rows")
     require(candidate.candidate_id.nunique() == 180, "candidate IDs must be unique")
@@ -64,6 +65,25 @@ def main() -> None:
     require(len(family) == 84, "anchor-family grid must include 6 x 14 cells")
     require(set(comparison.comparison_status) <= {"STRONGLY_COMPARABLE", "PARTIALLY_COMPARABLE", "NOT_COMPARABLE", "UNRESOLVED"}, "invalid comparability state")
     require({"NOT_APPLICABLE", "ZERO_RESULT"}.intersection(set(bias.status)), "bias matrix must retain zero/not-applicable states")
+    require(15 <= len(shortlist) <= 25, "semantic shortlist must contain 15–25 assessed items")
+    require(shortlist.priority.nunique() == len(shortlist), "semantic shortlist priorities must be unique")
+    require(shortlist.term_or_family.str.len().gt(0).all(), "semantic shortlist item missing")
+    require(shortlist.semantic_question.str.len().gt(0).all(), "semantic question missing")
+    require(shortlist.observed_quantitative_pattern.str.len().gt(0).all(), "shortlist observation missing")
+    require((shortlist.hypothesis_status == "SEMANTIC_HYPOTHESIS_NOT_YET_TESTED").all(), "shortlist must not claim completed semantic validation")
+    require(set(shortlist.observed_pattern_class) <= {"OBSERVED_CORPUS_PATTERN", "CONSTRUCTED_INVENTORY_PATTERN"}, "invalid shortlist pattern label")
+    require(shortlist.data_sources.str.contains("candidate_analysis_180.csv").all(), "shortlist source map incomplete")
+
+    interpretation_path = ROOT / "docs" / "research" / "fear-temperature" / "EXPLORATORY_ANALYSIS_V02.md"
+    interpretation = interpretation_path.read_text(encoding="utf-8")
+    for label in [
+        "OBSERVED_CORPUS_PATTERN", "CONSTRUCTED_INVENTORY_PATTERN",
+        "SOURCE_COMPOSITION_PATTERN", "SEARCHABILITY_PATTERN",
+        "SEMANTIC_HYPOTHESIS", "UNRESOLVED",
+    ]:
+        require(label in interpretation, f"interpretation label missing: {label}")
+    require("No passage collection was performed" in interpretation, "semantic-pilot boundary not explicit")
+    require("Fear Score" in interpretation, "composite-index safeguard missing")
 
     raw_columns = ["ngram_peak_frequency_raw", "ngram_anchor_frequency_raw", "ngram_2022_frequency_raw"]
     ppm_columns = ["ngram_peak_per_million", "ngram_anchor_per_million", "ngram_2022_per_million"]
@@ -114,6 +134,7 @@ def main() -> None:
         require(workbook_validation.get("priority_rows") == 180, "workbook Priority count is stale")
         require(workbook_validation.get("annual_observations") == 23892, "workbook Ngram observation count is stale")
         require(workbook_validation.get("sheet_count", 0) >= 27, "workbook analytical/detail sheet set incomplete")
+        require(workbook_validation.get("semantic_shortlist_status") == "POPULATED", "workbook semantic shortlist is stale")
         require(workbook_path.exists() and workbook_path.stat().st_size > 500_000, "workbook output missing or unexpectedly small")
         with zipfile.ZipFile(workbook_path) as archive:
             names = archive.namelist()
@@ -131,7 +152,7 @@ def main() -> None:
         "relationship_rows": len(relationships), "semantic_relationship_rows": len(semantic),
         "comparability_rows": len(comparison), "measurement_map_rows": len(measurement),
         "postgres_runtime": runtime_status, "figure_count": figure_count,
-        "workbook_status": workbook_status,
+        "workbook_status": workbook_status, "semantic_shortlist_count": len(shortlist),
     }
     REPORT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
