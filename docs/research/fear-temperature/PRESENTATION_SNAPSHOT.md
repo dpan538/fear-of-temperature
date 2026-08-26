@@ -69,6 +69,22 @@ Selected anchor values below are normalized occurrences per million words. The 2
 
 The complete raw anchor matrix, contextual-window matrix, family summaries, full annual series, compatibility audit, and chart-source CSVs remain available alongside these figures.
 
+### Full Priority-candidate accounting
+
+The candidate-level audit now accounts for all **180 Priority Candidates** across three independent evidence channels:
+
+| Evidence channel | Candidate accounting | Important exceptions retained |
+| --- | ---: | --- |
+| Google Books Ngram | 174 exact + 2 normalized variants + 3 validated aliases + 1 technically unrepresentable | 17 represented measurements returned no series; these remain empty-source results, not historical absence |
+| Dictionary / lexicography | 25 direct headwords + 49 technical glossary records + 106 no-standalone-headword records | 0 unresolved; phrases and legal/instrument wording are not presented as invented dictionary entries |
+| Bounded search | 180/180 completed primary searches | Internet Archive all-period metadata counts: 141 non-zero, 39 zero |
+
+The primary search metric is `INTERNET_ARCHIVE_METADATA_TEXT_ITEM_COUNT`: an exact-phrase count over searchable metadata for text items at retrieval time. It is a discovery metric, not a full-text lexical frequency and not language prevalence. Strict and contextual date-window searches also completed for all 180 candidates.
+
+OpenAlex supplies a partial secondary scholarly-discoverability check: 36 candidate all-period rows completed before the anonymous daily budget was exhausted. Google Books API volume search returned project quota `0`, so no `totalItems` counts are claimed. These provider limits do not affect the separate Ngram baseline.
+
+The audit also makes historically meaningful sense differences visible: 1842 `climate` is only partially compatible with the modern issue meaning; 1842 `depressing effect` differs from modern clinical depression; `common concern of humankind` is a legal formula; and 2022 `climate anxiety` remains a research construct unless participant self-use is independently evidenced.
+
 ## D. Important methodological warning
 
 Google Books Ngram reports normalized frequency of character strings in a digitized book corpus. Generic string frequency is not climate-specific semantic frequency. In particular, overall uses of `fear`, `anxiety`, `concern`, `risk`, `threat`, `crisis`, `emergency`, `heat`, or `temperature` cannot be converted into a historical “fear index.”
