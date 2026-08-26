@@ -1,0 +1,19 @@
+Metric,Value,Definition,Source
+Historical anchors,6,Distinct design anchors,historical_anchors.csv
+Priority candidates,180,Candidate-level denominator,priority180_full_coverage_matrix.csv
+Expansion candidates,36,Separate expansion inventory,seed_ledger_supervisor.csv
+Lexical layers,4,A-D controlled layers,layers.csv
+Voices,5,V1-V5 controlled voices,voices.csv
+Lexical families,14,Semantic research families; not synonym sets,lexical_families.csv
+Ngram query rules,143,All provisional baseline rules,ngram_supervisor_coverage.csv
+Ngram executable,138,Rules eligible for retrieval,ngram_supervisor_coverage.csv
+Ngram successful nonzero,132,Returned 181 annual observations,ngram_supervisor_coverage.csv
+Ngram zero result,6,Legitimate zero-return series,ngram_supervisor_coverage.csv
+Ngram incompatible,5,Not directly representable in Ngram,ngram_supervisor_coverage.csv
+Baseline annual observations,23892,Numeric 1842-2022 observations across successful baseline rules,ngram_supervisor_coverage.csv
+Priority Ngram accounted,180,Exact 174; normalized 2; alias 3; unrepresentable 1,priority180_full_coverage_matrix.csv
+Priority dictionary accounted,180,Direct 25; glossary 49; no headword 106,dictionary_coverage_180.csv
+Priority search accounted,180,Nonzero 141; zero 39,search_statistics_180.csv
+Controlled missingness cells,1310,Explicit source/report limitations in supervisor seed ledger,seed_ledger_supervisor.csv
+Initial evidence IDs backfilled,180,Report-exposed E-prefixed evidence identifiers,seed_ledger_supervisor.csv
+Unexplained metadata blanks,0,Validated annotation fields only,supervisor export validation

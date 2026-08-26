@@ -1,0 +1,12 @@
+{
+  "seed_rows": 396,
+  "priority_rows": 180,
+  "dictionary_rows": 180,
+  "search_rows": 180,
+  "ngram_rule_rows": 143,
+  "ngram_unexplained": 0,
+  "initial_evidence_ids_backfilled": 180,
+  "controlled_missingness_count": 1310,
+  "blank_annotation_cells": 0,
+  "baseline_annual_observations": 23892
+}
