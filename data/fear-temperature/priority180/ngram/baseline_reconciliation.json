@@ -1,0 +1,86 @@
+{
+  "five_incompatible_rules": [
+    {
+      "error_reason": "Slash construction is not a defensible isolated Ngram phrase.",
+      "execution_status": "NOT_RUN_INCOMPATIBLE",
+      "query_id": "FT-Q-V01-050",
+      "request_surface_form": "heat wave/drought occurrences"
+    },
+    {
+      "error_reason": "Degree/subscript notation is not queried as an isolated public-interface Ngram.",
+      "execution_status": "NOT_RUN_INCOMPATIBLE",
+      "query_id": "FT-Q-V01-068",
+      "request_surface_form": "anthropogenic CO₂"
+    },
+    {
+      "error_reason": "Degree/subscript notation is not queried as an isolated public-interface Ngram.",
+      "execution_status": "NOT_RUN_INCOMPATIBLE",
+      "query_id": "FT-Q-V01-084",
+      "request_surface_form": "well below 2°C above pre-industrial levels"
+    },
+    {
+      "error_reason": "Degree/subscript notation is not queried as an isolated public-interface Ngram.",
+      "execution_status": "NOT_RUN_INCOMPATIBLE",
+      "query_id": "FT-Q-V01-085",
+      "request_surface_form": "1.5°C above pre-industrial levels"
+    },
+    {
+      "error_reason": "Sentence-level punctuation makes this a corpus-context rule, not an Ngram phrase.",
+      "execution_status": "NOT_RUN_INCOMPATIBLE",
+      "query_id": "FT-Q-V01-141",
+      "request_surface_form": "Be Worried. Be Very Worried."
+    }
+  ],
+  "ngram_executable_count": 138,
+  "ngram_failed_count": 0,
+  "ngram_incompatible_count": 5,
+  "ngram_success_count": 132,
+  "ngram_zero_result_count": 6,
+  "query_rule_count": 143,
+  "reconciliation_note": "The six executable rules not included among 132 numeric series are six explicit ZERO_RESULT records; they were not dropped.",
+  "six_executable_zero_result_rules": [
+    {
+      "execution_status": "ZERO_RESULT",
+      "query_id": "FT-Q-V01-006",
+      "raw_response_path": "data/fear-temperature/ngram/raw/3821c7b527e63ea16225f9ddeb9ceaf467e51e1486c0c84fca0bc5502dcf20d4.json",
+      "request_surface_form": "mean temperature of sea at surface",
+      "retrieved_at": "2026-08-26T02:33:49Z"
+    },
+    {
+      "execution_status": "ZERO_RESULT",
+      "query_id": "FT-Q-V01-016",
+      "raw_response_path": "data/fear-temperature/ngram/raw/a5e0c6f662bea7df30da2af8d6f74cfa8d7e2db15acbb2556c3ecd3d4ba34a26.json",
+      "request_surface_form": "sun's heat",
+      "retrieved_at": "2026-08-26T02:33:58Z"
+    },
+    {
+      "execution_status": "ZERO_RESULT",
+      "query_id": "FT-Q-V01-036",
+      "raw_response_path": "data/fear-temperature/ngram/raw/d6d0759da43a3f360d038f003e572d16c77ddbfc718996d3d12107850601cb5e.json",
+      "request_surface_form": "small increases in mean temperature",
+      "retrieved_at": "2026-08-26T02:34:22Z"
+    },
+    {
+      "execution_status": "ZERO_RESULT",
+      "query_id": "FT-Q-V01-039",
+      "raw_response_path": "data/fear-temperature/ngram/raw/7c1cabc675b2da12af25d48ca83988bcbc1381ceee50bb7b5e8500626cbe9b00.json",
+      "request_surface_form": "Hottest Day for Ten Years",
+      "retrieved_at": "2026-08-26T02:34:25Z"
+    },
+    {
+      "execution_status": "ZERO_RESULT",
+      "query_id": "FT-Q-V01-040",
+      "raw_response_path": "data/fear-temperature/ngram/raw/ff4de47b36b0ffff4f03545db968f819af528c6de47ea4be4984876b37550a41.json",
+      "request_surface_form": "Heat Wave Over Queensland",
+      "retrieved_at": "2026-08-26T02:34:26Z"
+    },
+    {
+      "execution_status": "ZERO_RESULT",
+      "query_id": "FT-Q-V01-058",
+      "raw_response_path": "data/fear-temperature/ngram/raw/e3c721797f491dbfd313d1ebf26dce903f725eee8b0becece08b3766489bec5e.json",
+      "request_surface_form": "changed climatic extremes",
+      "retrieved_at": "2026-08-26T02:34:40Z"
+    }
+  ],
+  "unexplained_rules": 0
+}
