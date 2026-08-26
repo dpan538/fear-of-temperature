@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "artifact_tool_reopen_check": "PASS",
+  "libreoffice_headless_open_and_pdf_export": "PASS",
+  "embedded_dashboard_images": 6,
+  "xlsx_package_check": "PASS",
+  "checked_on": "2026-08-26",
+  "note": "The PDF conversion was a temporary open-check artifact and is not part of the research deliverables."
+}

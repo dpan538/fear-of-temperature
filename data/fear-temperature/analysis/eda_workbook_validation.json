@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "output_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/outputs/quantitative-v01/fear_temperature_quantitative_v01.xlsx",
+  "sheet_count": 27,
+  "priority_rows": 180,
+  "relationship_rows": 337,
+  "comparability_rows": 32,
+  "figure_count": 15,
+  "semantic_shortlist_status": "PENDING_STAGE_4",
+  "annual_observations": 23892,
+  "formula_check": "PASS",
+  "render_count": 27,
+  "embedded_dashboard_images": 6,
+  "artifact_tool_reopen_check": "PASS"
+}

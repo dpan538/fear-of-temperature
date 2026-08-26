@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import json
+import zipfile
 from pathlib import Path
 
 import pandas as pd
@@ -103,6 +104,24 @@ def main() -> None:
                 require(image.size == (1600, 920), f"unexpected figure dimensions: {stem}")
         figure_count = len(figure_metadata)
 
+    workbook_status = "NOT_BUILT"
+    workbook_path = ROOT / "outputs" / "quantitative-v01" / "fear_temperature_quantitative_v01.xlsx"
+    workbook_validation_path = ANALYSIS / "eda_workbook_validation.json"
+    if workbook_validation_path.exists():
+        workbook_validation = json.loads(workbook_validation_path.read_text(encoding="utf-8"))
+        require(workbook_validation.get("status") == "PASS", "workbook build validation did not pass")
+        require(workbook_validation.get("formula_check") == "PASS", "workbook formula check did not pass")
+        require(workbook_validation.get("priority_rows") == 180, "workbook Priority count is stale")
+        require(workbook_validation.get("annual_observations") == 23892, "workbook Ngram observation count is stale")
+        require(workbook_validation.get("sheet_count", 0) >= 27, "workbook analytical/detail sheet set incomplete")
+        require(workbook_path.exists() and workbook_path.stat().st_size > 500_000, "workbook output missing or unexpectedly small")
+        with zipfile.ZipFile(workbook_path) as archive:
+            names = archive.namelist()
+            image_count = sum(name.startswith("xl/media/") for name in names)
+            require(image_count >= 6, "workbook dashboard does not contain the required embedded figures")
+            require("xl/workbook.xml" in names, "invalid XLSX package")
+        workbook_status = "PASS"
+
     runtime_path = ANALYSIS / "postgres_eda_runtime_validation.json"
     runtime_status = "NOT_RUN"
     if runtime_path.exists():
@@ -112,6 +131,7 @@ def main() -> None:
         "relationship_rows": len(relationships), "semantic_relationship_rows": len(semantic),
         "comparability_rows": len(comparison), "measurement_map_rows": len(measurement),
         "postgres_runtime": runtime_status, "figure_count": figure_count,
+        "workbook_status": workbook_status,
     }
     REPORT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))
