@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "postgres_version": "16.13",
+  "runtime": "isolated temporary PostgreSQL cluster",
+  "migrations_applied": [
+    "001_fear_temperature_fast_pilot.sql",
+    "002_priority180_candidate_coverage.sql",
+    "003_eda_relationship_views.sql"
+  ],
+  "seeds_applied": [
+    "001_reference_data.sql",
+    "002_provisional_lexicon.sql",
+    "003_quantitative_query_inventory.sql",
+    "004_ngram_quantitative.sql",
+    "005_priority180_acquisition_evidence.sql"
+  ],
+  "integrity_check": "db/validation/eda_v02_integrity.sql",
+  "candidate_view_rows": 180,
+  "candidate_view_unique_ids": 180,
+  "candidate_relationship_rows": 337,
+  "candidate_measurement_map_unique_ids": 180,
+  "validated_on": "2026-08-26"
+}

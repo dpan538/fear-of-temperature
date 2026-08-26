@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "priority_rows": 180,
+  "relationship_rows": 337,
+  "semantic_relationship_rows": 6,
+  "comparability_rows": 32,
+  "measurement_map_rows": 180,
+  "postgres_runtime": "PASS"
+}

@@ -1,0 +1,33 @@
+term_or_family,source_anchor,target_anchor,source_voice,target_voice,comparison_status,reason
+temperature,1842,1938,V1; V2,V1; V3,STRONGLY_COMPARABLE,Instrumental/aggregate referents must still be separated.
+temperature,1938,1988,V1; V3,V1,STRONGLY_COMPARABLE,Instrumental/aggregate referents must still be separated.
+temperature,1988,2006–2007,V1,V1,STRONGLY_COMPARABLE,Instrumental/aggregate referents must still be separated.
+temperature,2006–2007,2015,V1,V2,STRONGLY_COMPARABLE,Instrumental/aggregate referents must still be separated.
+heat,1842,1938,V1; V5,V3,PARTIALLY_COMPARABLE,"Physical heat, embodied exposure, heatwaves and hazard framing are related but not equivalent."
+heat,1938,1988,V3,V1,PARTIALLY_COMPARABLE,"Physical heat, embodied exposure, heatwaves and hazard framing are related but not equivalent."
+heat,1988,2022,V1,V1,PARTIALLY_COMPARABLE,"Physical heat, embodied exposure, heatwaves and hazard framing are related but not equivalent."
+climate,1842,1938,V1,V1,NOT_COMPARABLE,The 1842 historical climatological sense cannot be treated as modern climate-change issue language.
+climate,1938,1988,V1,V1; V2,NOT_COMPARABLE,The 1842 historical climatological sense cannot be treated as modern climate-change issue language.
+climate,1988,2006–2007,V1; V2,V1; V2; V4,NOT_COMPARABLE,The 1842 historical climatological sense cannot be treated as modern climate-change issue language.
+climate,2006–2007,2015,V1; V2; V4,V2,NOT_COMPARABLE,The 1842 historical climatological sense cannot be treated as modern climate-change issue language.
+climate,2015,2022,V2,V5,NOT_COMPARABLE,The 1842 historical climatological sense cannot be treated as modern climate-change issue language.
+warming,1938,1988,V1,V1; V2; V3,PARTIALLY_COMPARABLE,"Temperature increase, climate-system warming and the issue label global warming differ in scope."
+warming,1988,2006–2007,V1; V2; V3,V1; V3,PARTIALLY_COMPARABLE,"Temperature increase, climate-system warming and the issue label global warming differ in scope."
+warming,2006–2007,2022,V1; V3,V5,PARTIALLY_COMPARABLE,"Temperature increase, climate-system warming and the issue label global warming differ in scope."
+concern,1842,1938,V3,V1; V3,NOT_COMPARABLE,"Legal common concern, institutional concern and personal concern are different discourse functions."
+concern,1938,1988,V1; V3,V3,NOT_COMPARABLE,"Legal common concern, institutional concern and personal concern are different discourse functions."
+concern,1988,2015,V3,V2; V4,NOT_COMPARABLE,"Legal common concern, institutional concern and personal concern are different discourse functions."
+concern,2015,2022,V2; V4,V5,NOT_COMPARABLE,"Legal common concern, institutional concern and personal concern are different discourse functions."
+worry,2006–2007,2015,V3; V5,V5,PARTIALLY_COMPARABLE,"Media prescription, elicited response and participant wording require expression-mode separation."
+worry,2015,2022,V5,V5,PARTIALLY_COMPARABLE,"Media prescription, elicited response and participant wording require expression-mode separation."
+fear,2022,NOT_LOCATED,V5,NOT_LOCATED,UNRESOLVED,Generic fear strings do not establish a stable climate/temperature referent. Cross-anchor comparison cannot be resolved from the current Priority inventory.
+anxiety,2022,NOT_LOCATED,V1; V5,NOT_LOCATED,UNRESOLVED,Researcher-coded climate anxiety and lay self-description require provenance separation. Cross-anchor comparison cannot be resolved from the current Priority inventory.
+threat,1938,1988,V1,V2,PARTIALLY_COMPARABLE,"Institutional threat can recur, but threat is not affect and referents vary."
+threat,1988,2006–2007,V2,V2; V4; V5,PARTIALLY_COMPARABLE,"Institutional threat can recur, but threat is not affect and referents vary."
+threat,2006–2007,2022,V2; V4; V5,V5,PARTIALLY_COMPARABLE,"Institutional threat can recur, but threat is not affect and referents vary."
+risk,1988,2015,V2,V2,PARTIALLY_COMPARABLE,"Institutional, scientific and public risk framings are not automatically interchangeable."
+crisis,1988,2015,V2,V2,PARTIALLY_COMPARABLE,Generic crisis and climate-specific crisis differ in semantic constraint.
+crisis,2015,2022,V2,V4,PARTIALLY_COMPARABLE,Generic crisis and climate-specific crisis differ in semantic constraint.
+emergency,1988,2015,V2,V2,PARTIALLY_COMPARABLE,Emergency declarations and generic emergency language have different institutional force.
+emergency,2015,2022,V2,V4,PARTIALLY_COMPARABLE,Emergency declarations and generic emergency language have different institutional force.
+distress/depression,1842,2022,V5,V1; V5,NOT_COMPARABLE,1842 depressing effect is a false friend for modern psychological depression.

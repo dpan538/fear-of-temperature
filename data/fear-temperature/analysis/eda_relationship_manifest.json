@@ -1,0 +1,23 @@
+{
+  "analysis_version": "exploratory-analysis-v0.2",
+  "generated_on": "2026-08-26",
+  "source": "data/fear-temperature/exports/priority180_full_coverage_matrix.csv",
+  "priority_rows": 180,
+  "relationship_rows": 337,
+  "comparability_rows": 32,
+  "outputs": {
+    "candidate_analysis_180.csv": 180,
+    "anchor_layer_counts.csv": 6,
+    "anchor_voice_counts.csv": 6,
+    "anchor_family_counts.csv": 84,
+    "voice_family_counts.csv": 70,
+    "anchor_voice_family_counts.csv": 74,
+    "term_anchor_presence.csv": 171,
+    "family_anchor_presence.csv": 14,
+    "candidate_measurement_map.csv": 180,
+    "candidate_relationship.csv": 337,
+    "candidate_comparability.csv": 32,
+    "coverage_bias_matrix.csv": 86
+  },
+  "principle": "Derived analytical layer; source candidate ledger is not modified."
+}
