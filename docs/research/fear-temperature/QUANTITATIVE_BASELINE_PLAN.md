@@ -13,7 +13,7 @@ No original workbook, Priority CSV, Expansion table, source registry, or machine
 
 - Database: PostgreSQL relational schema and SQL seeds; JSONB only for raw/irregular collector metadata.
 - Seed ledger: deterministic extraction of 180 initial, 180 Priority, and 36 Expansion report rows.
-- Query inventory: 143 newly identified, anchor-specific provisional rules reconstructed from report-visible Priority terms and the methodological contract; unsupported rules remain in the audit export.
+- Query inventory: 143 newly identified, anchor-specific provisional rules reconstructed from report-visible Priority terms and the methodological contract; unsupported rules remain in the audit export. The live July-2024 Ngram interface documentation permits up to seven ordinary words per query.
 - Frequency source: public Google Books Ngram JSON interface, with corpus and maximum year verified at run time; annual unsmoothed observations are cached and checkpointed.
 - Analysis: Python standard library plus Matplotlib/Pillow where available; CSV remains the canonical analysis output.
 - Workbook: a formula-linked supervisor workbook built from the canonical exports.

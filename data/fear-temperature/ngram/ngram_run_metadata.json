@@ -1,0 +1,41 @@
+{
+  "research_version": "fear-temperature-quant-v0.1-provisional",
+  "provider": "Google Books Ngram Viewer",
+  "provider_info_url": "https://books.google.com/ngrams/info",
+  "endpoint": "https://books.google.com/ngrams/json",
+  "corpus_identifier": "eng",
+  "corpus_version": "current English corpus (July 2024 dataset; public shorthand eng; mutable current corpus)",
+  "persistent_current_corpus_identifier": "NOT_EXPOSED_FOR_CURRENT_ENG_IN_PUBLIC_CORPUS_TABLE",
+  "year_start": 1842,
+  "year_end": 2022,
+  "retrieval_smoothing": 0,
+  "case_insensitive": true,
+  "retrieved_at": "2026-08-26T02:37:07Z",
+  "parameter_set_hash": "03c6b3b7aec17c75d6066c3ad33475123246728a6d70514bc6c4b2fac975aa04",
+  "query_rule_count": 143,
+  "ngram_eligible_count": 138,
+  "execution_counts": {
+    "SUCCEEDED": 132,
+    "ZERO_RESULT": 6,
+    "NOT_RUN_INCOMPATIBLE": 5
+  },
+  "annual_observation_count": 23892,
+  "unique_surface_request_count": 132,
+  "corpus_probe": {
+    "probe_url": "https://books.google.com/ngrams/json?content=climate+change&year_start=2019&year_end=2026&corpus=eng&smoothing=0&case_insensitive=true",
+    "probe_year_start": 2019,
+    "probe_year_end_requested": 2026,
+    "probe_observation_count": 4,
+    "inferred_supported_year_end": 2022,
+    "probe_response_ngram": "climate change (All)",
+    "probe_attempt_count": 0,
+    "probe_content_type": "application/json (cached probe)",
+    "raw_probe_path": "data/fear-temperature/ngram/raw/_corpus_probe_2019_current.json",
+    "interface_release": "July 2024 new dataset",
+    "ordinary_word_limit": 7,
+    "persistent_current_eng_identifier": "NOT_EXPOSED_FOR_CURRENT_ENG_IN_PUBLIC_CORPUS_TABLE",
+    "verification_note": "End year inferred from the length of a recent bounded live response; the interface truncates at the current supported corpus year."
+  },
+  "method_note": "Raw annual normalized values retained; radius-3 smoothing exists only in figure-source CSVs.",
+  "interpretation_warning": "Generic string frequency is not climate-specific semantic frequency; voice and meaning require passage-level validation."
+}
