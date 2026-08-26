@@ -84,7 +84,7 @@ def read_csv(path: Path) -> list[dict[str, str]]:
 def write_csv(path: Path, rows: Iterable[dict[str, Any]], fields: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -605,17 +605,19 @@ def main() -> None:
                     raw = raw_path.read_bytes()
                     payload = json.loads(raw.decode("utf-8"))
                     attempts, content_type = 0, "application/json (cached)"
+                    raw_retrieved_at = datetime.fromtimestamp(raw_path.stat().st_mtime, timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
                 elif args.reuse_raw:
                     raise FileNotFoundError(f"Missing cached response: {raw_path}")
                 else:
                     raw, payload, attempts, content_type = fetch_json(url)
                     raw_path.write_bytes(raw)
+                    raw_retrieved_at = utc_now()
                     time.sleep(args.throttle)
                 raw_sha = hashlib.sha256(raw).hexdigest()
                 selected = select_series(payload)
                 fetched = {
                     "raw": raw, "payload": payload, "attempts": attempts, "content_type": content_type,
-                    "raw_sha": raw_sha, "selected": selected,
+                    "raw_sha": raw_sha, "selected": selected, "raw_retrieved_at": raw_retrieved_at,
                 }
                 surface_cache[cache_key] = fetched
             selected = fetched["selected"]
@@ -637,7 +639,7 @@ def main() -> None:
                         "concept_id": rule["concept_id"], "year": year,
                         "normalized_frequency": f"{value:.20g}", "corpus": CORPUS_ID,
                         "version": CORPUS_VERSION, "response_ngram": response_ngram,
-                        "retrieval_smoothing": 0, "retrieved_at": retrieved_at,
+                        "retrieval_smoothing": 0, "retrieved_at": fetched["raw_retrieved_at"],
                         "raw_response_path": str(raw_path.relative_to(ROOT)),
                         "raw_payload_sha256": fetched["raw_sha"], "parameter_set_hash": parameter_hash,
                     })
@@ -645,7 +647,7 @@ def main() -> None:
                 "query_id": query_id, "request_surface_form": surface, "execution_status": status,
                 "attempt_count": fetched["attempts"], "observation_count": len(values),
                 "first_response_ngram": response_ngram, "raw_response_path": str(raw_path.relative_to(ROOT)),
-                "raw_payload_sha256": fetched["raw_sha"], "error_reason": "", "retrieved_at": retrieved_at,
+                "raw_payload_sha256": fetched["raw_sha"], "error_reason": "", "retrieved_at": fetched["raw_retrieved_at"],
                 "request_url": url, "content_type": fetched["content_type"],
             })
         except Exception as exc:

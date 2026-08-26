@@ -114,7 +114,7 @@ def read_csv(path: Path) -> list[dict[str, str]]:
 def write_csv(path: Path, rows: list[dict[str, Any]], fields: list[str]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore")
+        writer = csv.DictWriter(handle, fieldnames=fields, extrasaction="ignore", lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -422,7 +422,7 @@ def main() -> None:
             "source_strata": source.get("source_id", "") or "Cross-corpus lexical baseline; passage-level source stratum unresolved.",
             "review_priority": "HIGH" if precision == "HIGH" or ambiguity == "HIGH" else "MEDIUM",
             "minimum_context": "Matching sentence plus preceding/following sentence and enclosing paragraph; preserve source, date, speaker, and quotation boundary.",
-            "exclusions_note": exclusion,
+            "exclusions_note": exclusion or "No predefined term-specific exclusion; apply source, date, sense, voice, and context review.",
             "valid_match_pattern": "Exact report-visible surface string; semantic acceptance requires source-level review.",
             "invalid_match_pattern": exclusion or "Wrong referent, sense, date, voice, or insufficient context.",
             "reconstructed": True,

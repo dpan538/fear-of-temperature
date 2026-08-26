@@ -339,6 +339,9 @@ CREATE TABLE search_observation (
     query_id text NOT NULL REFERENCES query_rule(query_id),
     corpus_identifier text NOT NULL,
     observed_at timestamptz NOT NULL,
+    collection_status text NOT NULL DEFAULT 'NOT_RUN' CHECK (collection_status IN (
+        'NOT_RUN', 'SUCCEEDED', 'PARTIAL', 'FAILED'
+    )),
     raw_hits bigint CHECK (raw_hits >= 0),
     unique_documents bigint CHECK (unique_documents >= 0),
     passages_retrieved bigint CHECK (passages_retrieved >= 0),
