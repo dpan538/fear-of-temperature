@@ -1,0 +1,13 @@
+{
+  "body_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": [],
+  "request_url": "https://books.google.com/ngrams/json?content=well+below+two+degrees+above+pre-industrial+levels&year_start=1842&year_end=2022&corpus=eng&smoothing=0&case_insensitive=true",
+  "response_headers": {
+    "content-type": "application/json",
+    "date": "Wed, 26 Aug 2026 06:08:06 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:08:06Z"
+}

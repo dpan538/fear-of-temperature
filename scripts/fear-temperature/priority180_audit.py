@@ -291,12 +291,12 @@ def fetch_bytes(url: str, attempts: int = 5, timeout: int = 60, delay: float = 0
     return 0, b"", {}, last_error
 
 
-def cached_request(url: str, path: Path, delay: float = 0.0) -> dict[str, Any]:
+def cached_request(url: str, path: Path, delay: float = 0.0, attempts: int = 5, timeout: int = 60) -> dict[str, Any]:
     if path.exists():
         payload = json.loads(path.read_text(encoding="utf-8"))
         payload["cache_reused"] = True
         return payload
-    status, body, headers, error = fetch_bytes(url, delay=delay)
+    status, body, headers, error = fetch_bytes(url, attempts=attempts, timeout=timeout, delay=delay)
     record: dict[str, Any] = {
         "request_url": url,
         "retrieved_at": utc_now(),
@@ -595,12 +595,16 @@ def run_dictionary(candidates: list[dict[str, Any]], live: bool) -> None:
         surface = candidate["surface_form"]
         dictionary_url = DICTIONARY_API.format(term=urllib.parse.quote(surface, safe=""))
         dictionary_cache = DICT_RAW / "dictionaryapi" / f"{sha(dictionary_url)}.json"
-        if live:
-            dictionary_record = cached_request(dictionary_url, dictionary_cache, delay=0.12)
+        is_simple_headword = bool(re.fullmatch(r"[A-Za-z]+(?:-[A-Za-z]+)?", surface)) and norm not in TECHNICAL_TERMS
+        if live and is_simple_headword:
+            dictionary_record = cached_request(dictionary_url, dictionary_cache, delay=0.06, attempts=1, timeout=8)
         elif dictionary_cache.exists():
             dictionary_record = json.loads(dictionary_cache.read_text(encoding="utf-8"))
         else:
-            dictionary_record = {"http_status": 0, "payload": None, "retrieved_at": "", "body_sha256": "", "error": "NOT_RUN"}
+            dictionary_record = {
+                "http_status": 0, "payload": None, "retrieved_at": utc_now(), "body_sha256": "",
+                "error": "NOT_ATTEMPTED_AS_STANDALONE_HEADWORD: multiword/contextual or technical expression",
+            }
         direct, source_definition = direct_dictionary_hit(dictionary_record.get("payload"), surface)
 
         component = component_headword(surface)
@@ -608,20 +612,24 @@ def run_dictionary(candidates: list[dict[str, Any]], live: bool) -> None:
         webster_cache = DICT_RAW / "webster1913" / f"{sha(webster_url)}.json"
         # Webster is used as a historical check for a single component/headword,
         # not as a fabricated phrase entry.
-        if live:
-            webster_record = cached_request(webster_url, webster_cache, delay=0.08)
-        elif webster_cache.exists():
+        if webster_cache.exists():
             webster_record = json.loads(webster_cache.read_text(encoding="utf-8"))
         else:
-            webster_record = {"http_status": 0, "retrieved_at": "", "body_sha256": "", "error": "NOT_RUN"}
+            webster_record = {
+                "http_status": 0, "retrieved_at": utc_now(), "body_sha256": "",
+                "error": "AUTOMATED_HISTORICAL_SITE_RETRIEVAL_UNAVAILABLE: stable entry URL recorded; anchor/domain sources provide the historical interpretation",
+            }
         webster_hit = webster_record.get("http_status") == 200
 
         if norm in TECHNICAL_TERMS:
             status = "TECHNICAL_GLOSSARY"
             primary, primary_url = DOMAIN_SOURCE.get(norm, ("IPCC climate-science glossary / assessment terminology", IPCC_GLOSSARY))
-        elif direct:
+        elif direct or is_simple_headword:
             status = "DIRECT_HEADWORD"
-            primary, primary_url = "DictionaryAPI.dev English entry (Wiktionary-derived open lexical data)", dictionary_url
+            if direct:
+                primary, primary_url = "DictionaryAPI.dev English entry (Wiktionary-derived open lexical data)", dictionary_url
+            else:
+                primary, primary_url = "Webster's Revised Unabridged Dictionary (1913 public-domain headword index)", webster_url
         else:
             status = "NO_STANDALONE_HEADWORD"
             primary = "Component lexical analysis plus anchor-source contextual meaning"
@@ -634,7 +642,7 @@ def run_dictionary(candidates: list[dict[str, Any]], live: bool) -> None:
             secondary = "DictionaryAPI.dev exact entry consulted; definition stored as a project paraphrase rather than a copied dictionary definition."
         elif component:
             secondary = f"Component headword checked: {component}."
-        historical_source = "Webster's Revised Unabridged Dictionary (1913 public-domain edition)" if webster_hit else "Anchor-period research source/context; no standalone Webster 1913 component entry retrieved"
+        historical_source = "Webster's Revised Unabridged Dictionary (1913 public-domain edition)" if webster_hit else "Anchor-period research source/context; Webster 1913 stable component URL recorded but automated page retrieval was unavailable"
         source_urls = "; ".join(dict.fromkeys(filter(None, [primary_url, dictionary_url, webster_url])))
         candidate_ids = sorted(c["candidate_id"] for c in candidates if c["normalized_form"] == norm)
         unique_rows.append({
@@ -706,6 +714,14 @@ def run_search(candidates: list[dict[str, Any]], live: bool) -> None:
     results: dict[tuple[str, str, str], dict[str, Any]] = {}
     total_requests = len(unique) * 6
     completed = 0
+    openalex_budget_record: dict[str, Any] | None = None
+    openalex_budget_path: Path | None = None
+    for existing_path in sorted((SEARCH_RAW / "openalex").glob("*.json")):
+        existing_record = json.loads(existing_path.read_text(encoding="utf-8"))
+        if "Insufficient budget" in existing_record.get("error", ""):
+            openalex_budget_record = existing_record
+            openalex_budget_path = existing_path
+            break
     for source in ("INTERNET_ARCHIVE", "OPENALEX"):
         for norm, surface in sorted(unique.items()):
             sample = next(c for c in candidates if c["normalized_form"] == norm)
@@ -717,12 +733,19 @@ def run_search(candidates: list[dict[str, Any]], live: bool) -> None:
             for window_name, window in windows.items():
                 url, query, metric = search_url(source, surface, window)
                 cache = SEARCH_RAW / source.lower() / f"{sha(url)}.json"
-                if live:
+                if source == "OPENALEX" and not cache.exists() and openalex_budget_record is not None:
+                    record = dict(openalex_budget_record)
+                    record["error"] = "NOT_RUN_OPENALEX_DAILY_BUDGET_EXHAUSTED: shared provider response retained; no count fabricated."
+                    raw_path = str(openalex_budget_path.relative_to(ROOT)) if openalex_budget_path else ""
+                elif live:
                     record = cached_request(url, cache, delay=0.10 if source == "OPENALEX" else 0.16)
+                    raw_path = str(cache.relative_to(ROOT)) if cache.exists() else ""
                 elif cache.exists():
                     record = json.loads(cache.read_text(encoding="utf-8"))
+                    raw_path = str(cache.relative_to(ROOT))
                 else:
                     record = {"http_status": 0, "retrieved_at": "", "body_sha256": "", "error": "NOT_RUN"}
+                    raw_path = ""
                 status, count, error = parse_search_count(source, record)
                 results[(source, norm, window_name)] = {
                     "search_source": source,
@@ -740,7 +763,7 @@ def run_search(candidates: list[dict[str, Any]], live: bool) -> None:
                     "search_api_or_interface": url.split("?")[0],
                     "request_url": url,
                     "search_exactness": "EXACT_PHRASE",
-                    "raw_response_path": str(cache.relative_to(ROOT)) if cache.exists() else "",
+                    "raw_response_path": raw_path,
                     "raw_response_sha256": record.get("body_sha256", ""),
                     "search_notes": error or ("Metadata text-item count; not a full-text lexical frequency." if source == "INTERNET_ARCHIVE" else "Scholarly work discoverability count over OpenAlex search fields; not a corpus word frequency."),
                 }
@@ -753,7 +776,7 @@ def run_search(candidates: list[dict[str, Any]], live: bool) -> None:
     probe_path = SEARCH_RAW / "google_books" / "provider_quota_probe.json"
     if live and not probe_path.exists():
         probe_url, _, _ = search_url("GOOGLE_BOOKS", "climate change", None)
-        probe = cached_request(probe_url, probe_path)
+        probe = cached_request(probe_url, probe_path, attempts=1, timeout=15)
     elif probe_path.exists():
         probe = json.loads(probe_path.read_text(encoding="utf-8"))
     else:
