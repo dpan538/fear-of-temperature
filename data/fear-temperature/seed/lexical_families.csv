@@ -1,0 +1,15 @@
+family_id,family_code,label,primary_layer_code,is_synonym_group
+FT-F01,temperature_threshold,Temperature / Threshold,A,false
+FT-F02,heat,Heat,A,false
+FT-F03,warming,Warming,A,false
+FT-F04,climate,Climate,B,false
+FT-F05,carbon_greenhouse,Carbon / Greenhouse,B,false
+FT-F06,concern_alarm,Concern / Alarm,C,false
+FT-F07,worry,Worry,C,false
+FT-F08,fear_afraid,Fear / Afraid,C,false
+FT-F09,anxiety,Anxiety,C,false
+FT-F10,distress_depression,Distress / Depression,C,false
+FT-F11,danger_threat,Danger / Threat,D,false
+FT-F12,risk,Risk,D,false
+FT-F13,crisis_emergency,Crisis / Emergency,D,false
+FT-F14,harm_loss_consequences,Harm / Loss / Consequences,D,false

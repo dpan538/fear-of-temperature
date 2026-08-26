@@ -1,0 +1,18 @@
+surface_form,rule_type,valid_context_examples,excluded_context_examples,minimum_evidence
+temperature,REQUIRE_CONTEXT,atmosphere; environment; measurement; global aggregate; governance threshold,body/fever; cooking; unrelated industrial temperature,Require the measured object or environmental/climate referent.
+heat,EXCLUDE_DOMAIN,environmental heat; occupational heat; sun heat; heatwave,cooking; oven; machinery; process heat; political metaphor,"Require environmental, weather, occupational, or bodily-exposure context."
+climate,EXCLUDE_DOMAIN,climatology; climate system; climate change,business climate; political climate; social climate; school climate,Require a physical/environmental or historically reviewed climatological sense.
+warming,EXCLUDE_DOMAIN,temperature increase; climate-system warming,warming food; warming rooms; interpersonal metaphor,Require the warmed object or a climate/temperature referent.
+concern,REQUIRE_PROVENANCE_SPLIT,personal concern; institutional evaluation; legal formula,business concern; matter/enterprise concern; unspecified concern,"Store speaker, object, and discourse function; legal formula is not personal affect."
+alarm,EXCLUDE_DOMAIN,public alarm about heat/climate; attributed reaction,alarm clock; device; unrelated warning system,Require an attributed public/actor reaction or climate/heat object.
+fear,REQUIRE_PROVENANCE_SPLIT,identified experiencer fears climate/heat/consequence,unrelated fear; fearmongering accusation; rhetorical mention,"Require experiencer, target, and quotation boundary."
+worry,REQUIRE_PROVENANCE_SPLIT,media imperative; instrument wording; participant endorsement; spontaneous worry,unrelated worry; negated worry,Record who produced the wording; never infer E1 from E3.
+anxiety,REQUIRE_PROVENANCE_SPLIT,climate-linked affect; symptom measure; named construct,unrelated clinical anxiety; researcher label treated as participant wording,"Require construct, instrument, or participant provenance and a climate target."
+distress,EXCLUDE_DOMAIN,climate/heat psychological or bodily distress,financial distress; distress signal; unrelated clinical context,Require climate/heat target and affect/health sense.
+depression,FALSE_FRIEND,explicit climate-related depressed affect,economic depression; topographic depression; meteorological depression; unrelated clinical depression,Mandatory anti-presentist sense check; 1842 depressing effect is not modern depression.
+danger,REQUIRE_CONTEXT,climate; carbon dioxide; heat danger,unrelated danger,Require danger object and threatened subject.
+threat,EXCLUDE_DOMAIN,explicit climate/heat threat,military; cyber; unrelated political threat,Require threat object and affected subject; do not infer affect.
+risk,EXCLUDE_DOMAIN,climate/heat risk with specified outcome,investment; credit; surgery; unrelated insurance,Store domain and outcome; risk is not emotion.
+crisis,REQUIRE_CONTEXT,climate crisis; explicitly climate-linked crisis,generic economic; political; health crisis,Require an explicit climate referent or enclosing governance section.
+emergency,REQUIRE_CONTEXT,climate emergency; climate-context emergency preparedness,medical emergency; unrelated emergency services,Separate issue label/declaration from response category.
+change,PROHIBIT_STANDALONE,climate change; climatic change; historically validated change of climate,standalone change,Standalone change must never become a production query.

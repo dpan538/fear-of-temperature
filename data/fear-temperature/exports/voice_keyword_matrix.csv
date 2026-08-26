@@ -1,0 +1,31 @@
+anchor_id,anchor_label,voice_code,coverage_status,representative_high_value_lexical_forms,source_evidence_note
+FT-A1842,1842,V1,STRONG,wet bulb temperature; mean temperature; meteorological observations,Royal Society Colaba and Ross observation records; measurement-centred.
+FT-A1842,1842,V2,THIN_CONTEXTUAL,changes of temperature; sickness and mortality,"Institutional inquiry context is present, but substantive worker testimony remains V5."
+FT-A1842,1842,V3,THIN_CONTEXTUAL,alarm to the public,Possible/negated public-health formulation; not proof that a public reported alarm.
+FT-A1842,1842,V4,NOT_LOCATED,,No defensible organised-civic stratum located; cell intentionally unfilled.
+FT-A1842,1842,V5,ATTESTED,heat of the irons; most suffocating; faint away; depressing effect,"Worker testimony and correspondence show embodied heat experience, not climate fear."
+FT-A1938,1938,V1,STRONG,artificial production of carbon dioxide; mean temperature; radiation absorption,Callendar causal-science configuration.
+FT-A1938,1938,V2,THIN_CONTEXTUAL,meteorological stations,Official/institutional material is secondary to the scientific anchor.
+FT-A1938,1938,V3,ATTESTED,heat wave; scorching westerly wind; pitiless sun; unbearable heat,"Heat-event journalism, partly from secondary reproduction; not reception of Callendar."
+FT-A1938,1938,V4,NOT_LOCATED,,No defensible organised-civic stratum located; cell intentionally unfilled.
+FT-A1938,1938,V5,NOT_LOCATED,,No strong exact-year lay reception of Callendar located.
+FT-A1988,1988,V1,STRONG,greenhouse effect; global warming; global temperature; regional heat waves,Hansen scientific work/testimony.
+FT-A1988,1988,V2,STRONG,global security; major threat; impending crisis; harmful consequences,Toronto institutional threat/security framing.
+FT-A1988,1988,V3,ATTESTED,Global Warming Has Begun; too much carbon dioxide is dangerous,Public-facing journalism; does not substitute for V5 evidence.
+FT-A1988,1988,V4,THIN_NOT_ALLOCATED,,No strong exact-year V4 passage allocation in the current pilot plan.
+FT-A1988,1988,V5,NOT_LOCATED,,Exact-year direct-public fear/worry/anxiety evidence remains weak/not located.
+FT-A0607,2006–2007,V1,STRONG,warming of the climate system; unequivocal; temperature increase,IPCC scientific assessment language.
+FT-A0607,2006–2007,V2,STRONG,serious global threat; costs and risks; damage,Stern and institutional risk/governance framing.
+FT-A0607,2006–2007,V3,ATTESTED,Be Worried. Be Very Worried.; global warming,Media-prescribed affect; not evidence readers felt worried.
+FT-A0607,2006–2007,V4,ATTESTED,dangerous climate change; serious negative effects,Organised civic/advocacy framing.
+FT-A0607,2006–2007,V5,ATTESTED_ELICITED,personally worry; worry a great deal; urgent threat,Survey/instrument evidence; participant endorsement is E3.
+FT-A2015,2015,V1,THIN_CONTEXTUAL,global average temperature; climate change,Scientific context supports governance thresholds but is not the dominant documentary voice.
+FT-A2015,2015,V2,STRONG,well below 2°C; 1.5°C; common concern of humankind; loss and damage,Paris legal/governance language; common concern is not personal affect.
+FT-A2015,2015,V3,ATTESTED,extreme heat; climate change,Public-facing circulation exists but is not the anchor's strongest evidence stratum.
+FT-A2015,2015,V4,ATTESTED,climate justice; red line; We are nature defending itself,COP21 mobilisation and protest.
+FT-A2015,2015,V5,ATTESTED_ELICITED,very worried; serious problem; harm them personally,Survey-elicited public appraisal.
+FT-A2022,2022,V1,STRONG,climate anxiety; eco-anxiety; anxiety and stress; heat-related mortality,Research constructs and assessment categories; not automatically participant self-labelling.
+FT-A2022,2022,V2,ATTESTED,climate-related risk; heatwaves; mental-health challenges,Institutional/assessment framing remains distinct from individual affect.
+FT-A2022,2022,V3,ATTESTED,extreme heat; climate emergency,Public-facing media framing requires source-specific verification.
+FT-A2022,2022,V4,ATTESTED,climate crisis; climate emergency,Advocacy/threat framing; crisis is not itself affect.
+FT-A2022,2022,V5,STRONG_ELICITED,very worried; afraid; anxious; hopeless,Dense survey-elicited endorsement; instrument wording and participant-generated wording remain separate.

@@ -1,0 +1,9 @@
+semantic_rule_id,anchor_id,surface_form,voice_code,expression_mode_code,affect_status,threat_status,review_outcome,rule_note
+FT-SR-1842-DEPRESSING,FT-A1842,depressing effect,V5,E3,AFFECT_ADJACENT,NO_THREAT,ACCEPT_WITH_QUALIFICATION,Embodied/bodily energetic sense; FALSE_FRIEND with modern clinical depression.
+FT-SR-1938-COINCIDENCE,FT-A1938,rather a coincidence,V1,E2,NO_AFFECT,NO_THREAT,ACCEPT_WITH_QUALIFICATION,Epistemic evaluation; normally no affect; inspect the original discussion turn before stronger coding.
+FT-SR-1988-SECURITY,FT-A1988,global security,V2,E1,NO_AFFECT,THREAT_WITHOUT_AFFECT,ACCEPT,Institutional threat/security frame; threat is not evidence of fear.
+FT-SR-2006-WORRIED,FT-A0607,Be Worried. Be Very Worried.,V3,E1,AFFECT_PRESCRIPTION,THREAT_WITH_AFFECT,ACCEPT,Media imperative prescribing affect to readers; it does not establish reader emotion.
+FT-SR-2007-PERSONALLY-WORRY,FT-A0607,personally worry,V5,E3,EXPLICIT_AFFECT,UNRESOLVED,ACCEPT_WITH_QUALIFICATION,"Instrument wording and participant endorsement must be separate; participant response is elicited, not spontaneous vocabulary."
+FT-SR-2015-COMMON-CONCERN,FT-A2015,common concern of humankind,V2,E1,NO_AFFECT,THREAT_WITHOUT_AFFECT,ACCEPT,Legal/institutional formula; never personal concern or emotion.
+FT-SR-2022-CLIMATE-ANXIETY,FT-A2022,climate anxiety,V1,E4,RESEARCH_CONSTRUCT,NO_THREAT,ACCEPT_WITH_QUALIFICATION,Research construct unless an underlying passage independently proves participant self-use.
+FT-SR-2022-VERY-WORRIED,FT-A2022,very worried,V5,E3,EXPLICIT_AFFECT,UNRESOLVED,ACCEPT_WITH_QUALIFICATION,Participant endorsement when tied to a response; wording remains instrument-supplied.

@@ -1,0 +1,45 @@
+lexical_form_id,surface_form,normalized_form,concept_id,ambiguity_class,is_high_value,provenance_note
+FT-LF-TEMPERATURE,temperature,temperature,FT-C-LOCAL_INSTRUMENTAL_TEMPERATURE,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-MEAN_TEMPERATURE,mean temperature,mean temperature,FT-C-MEAN_TEMPERATURE,CONTEXT_REQUIRED,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-GLOBAL_AVERAGE_TEMPERATURE,global average temperature,global average temperature,FT-C-GLOBAL_AGGREGATE_TEMPERATURE,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-2C,2°C,2°c,FT-C-TEMPERATURE_THRESHOLD_2C,CONTEXT_REQUIRED,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-1_5C,1.5°C,1.5°c,FT-C-TEMPERATURE_THRESHOLD_1_5C,CONTEXT_REQUIRED,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-HEAT,heat,heat,FT-C-PHYSICAL_HEAT_STATE,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-HEAT_WAVE,heat wave,heat wave,FT-C-HEATWAVE_WEATHER_EVENT,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-EXTREME_HEAT,extreme heat,extreme heat,FT-C-EXTREME_HEAT_HAZARD,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-TEMPERATURE_INCREASE,temperature increase,temperature increase,FT-C-TEMPERATURE_INCREASE,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-WARMING,warming,warming,FT-C-CLIMATE_SYSTEM_WARMING,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-GLOBAL_WARMING,global warming,global warming,FT-C-GLOBAL_WARMING_ISSUE_LABEL,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CLIMATIC_CHANGE,climatic change,climatic change,FT-C-HISTORICAL_CLIMATIC_CHANGE,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CLIMATE_CHANGE,climate change,climate change,FT-C-MODERN_CLIMATE_CHANGE,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CLIMATE,climate,climate,FT-C-HISTORICAL_CLIMATE_CONDITION,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CLIMATE_SYSTEM,climate system,climate system,FT-C-CLIMATE_SYSTEM,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CHANGING_ATMOSPHERE,changing atmosphere,changing atmosphere,FT-C-CHANGING_ATMOSPHERE,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-GREENHOUSE_EFFECT,greenhouse effect,greenhouse effect,FT-C-GREENHOUSE_MECHANISM,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CONCERN,concern,concern,FT-C-PERSONAL_CONCERN,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-COMMON_CONCERN,common concern of humankind,common concern of humankind,FT-C-COMMON_CONCERN_LEGAL_FORMULA,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-ALARM,alarm,alarm,FT-C-PUBLIC_ALARM,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-WORRY,worry,worry,FT-C-SPONTANEOUS_WORRY,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-WORRIED,worried,worried,FT-C-SPONTANEOUS_WORRY,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-BE_WORRIED,Be Worried. Be Very Worried.,be worried. be very worried.,FT-C-PRESCRIBED_WORRY,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-PERSONALLY_WORRY,personally worry,personally worry,FT-C-ELICITED_WORRY_CATEGORY,CONTEXT_REQUIRED,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-VERY_WORRIED,very worried,very worried,FT-C-PARTICIPANT_WORRY_ENDORSEMENT,CONTEXT_REQUIRED,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-FEAR,fear,fear,FT-C-DIRECT_FEAR,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-AFRAID,afraid,afraid,FT-C-PARTICIPANT_AFRAID_ENDORSEMENT,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-ANXIETY,anxiety,anxiety,FT-C-ANXIOUS_AFFECT,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CLIMATE_ANXIETY,climate anxiety,climate anxiety,FT-C-CLIMATE_ANXIETY_RESEARCH_CONSTRUCT,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-ECO_ANXIETY,eco-anxiety,eco-anxiety,FT-C-ECO_ANXIETY_RESEARCH_CONSTRUCT,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-DISTRESS,distress,distress,FT-C-PSYCHOLOGICAL_DISTRESS,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-DEPRESSION,depression,depression,FT-C-DEPRESSED_AFFECT,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-DEPRESSING_EFFECT,depressing effect,depressing effect,FT-C-HISTORICAL_DEPRESSING_EFFECT,CONTEXT_REQUIRED,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-DANGER,danger,danger,FT-C-HAZARD_EVALUATION,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-THREAT,threat,threat,FT-C-INSTITUTIONAL_CLIMATE_THREAT,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-GLOBAL_SECURITY,global security,global security,FT-C-GLOBAL_SECURITY_FRAME,CONTEXT_REQUIRED,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-RISK,risk,risk,FT-C-PROBABILISTIC_RISK,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CRISIS,crisis,crisis,FT-C-SEVERITY_CRISIS_PREDICATE,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CLIMATE_CRISIS,climate crisis,climate crisis,FT-C-CLIMATE_CRISIS_ISSUE_LABEL,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-EMERGENCY,emergency,emergency,FT-C-EMERGENCY_RESPONSE_CATEGORY,BACKGROUND_OR_AMBIGUOUS,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CLIMATE_EMERGENCY,climate emergency,climate emergency,FT-C-CLIMATE_EMERGENCY_DECLARATION,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-LOSS_AND_DAMAGE,loss and damage,loss and damage,FT-C-LOSS_AND_DAMAGE,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-NON_ECONOMIC_LOSSES,non-economic losses,non-economic losses,FT-C-NON_ECONOMIC_LOSSES,CLIMATE_SPECIFIC,True,High-value provisional form supported by the semantic-validation contract.
+FT-LF-CHANGE,change,change,FT-C-HISTORICAL_CLIMATIC_CHANGE,PROHIBITED_STANDALONE,True,High-value provisional form supported by the semantic-validation contract.
