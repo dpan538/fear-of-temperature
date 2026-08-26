@@ -81,6 +81,28 @@ Suggested GitHub description:
 
 Suggested topics: `digital-humanities`, `climate-change`, `climate-history`, `historical-linguistics`, `corpus-linguistics`, `semantic-analysis`, `history-of-emotions`, `climate-communication`, `postgresql`, `research-data`, `data-provenance`, and `nlp`.
 
-## Current status
+## Quantitative baseline v0.1
 
-This initial repository establishes research scope, structure, provenance expectations and development hygiene. It intentionally contains no collectors, database implementation, quantitative baseline, analysis dependencies or licence. Licensing for source code, research data and restricted third-party sources will be decided separately.
+The current implementation branch contains a complete provisional lexical and Google Books Ngram baseline:
+
+- a PostgreSQL research schema and deterministic SQL seeds;
+- 396 provenance-labelled seed-stage records;
+- 143 provisional anchor-specific query rules and compatibility decisions;
+- 132 successful non-zero annual Ngram series for 1842–2022, plus preserved zero/not-run outcomes;
+- full frequency, anchor, family, and voice exports;
+- 21 presentation-ready figures and a formula-linked supervisor workbook.
+
+Reproduce and validate the project from the repository root:
+
+```bash
+python3 -m pip install -r requirements.txt
+python3 scripts/fear-temperature/build_seed.py
+python3 scripts/fear-temperature/build_query_inventory.py
+python3 scripts/fear-temperature/ngram_quantitative_pipeline.py --reuse-raw
+python3 scripts/fear-temperature/validate_quantitative_baseline.py
+node scripts/fear-temperature/build_supervisor_workbook.mjs
+```
+
+The presentation entry point is `docs/research/fear-temperature/PRESENTATION_SNAPSHOT.md`. Canonical outputs are under `data/fear-temperature/`, figures under `figures/fear-temperature/`, and the supervisor workbook under `outputs/quantitative-v01/`.
+
+This remains a provisional baseline. Original later-stage structured artifacts were unavailable, so reconstructed records and rules use new project IDs and explicit provenance labels. The next implementation step is the 200-passage source-linked semantic retrieval pilot. Licensing for source code, research data, and restricted third-party sources remains to be decided separately.
