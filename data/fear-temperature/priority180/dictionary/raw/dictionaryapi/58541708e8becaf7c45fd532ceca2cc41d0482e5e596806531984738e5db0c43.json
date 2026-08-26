@@ -1,0 +1,10 @@
+{
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cache_reused": false,
+  "error": "HTTP 522: {\"type\":\"https://developers.cloudflare.com/support/troubleshooting/http-status-codes/cloudflare-5xx-errors/error-522/\",\"title\":\"Error 522: Connection timed out\",\"status\":522,\"detail\":\"Cloudflare could not establish a TCP connection to the o",
+  "http_status": 0,
+  "payload": null,
+  "request_url": "https://api.dictionaryapi.dev/api/v2/entries/en/1.5%C2%B0C%20above%20pre-industrial%20levels",
+  "response_headers": {},
+  "retrieved_at": "2026-08-26T06:10:27Z"
+}

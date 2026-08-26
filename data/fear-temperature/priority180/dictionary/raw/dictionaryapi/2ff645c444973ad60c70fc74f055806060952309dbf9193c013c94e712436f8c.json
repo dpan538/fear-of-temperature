@@ -1,0 +1,10 @@
+{
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cache_reused": false,
+  "error": "TimeoutError: The read operation timed out",
+  "http_status": 0,
+  "payload": null,
+  "request_url": "https://api.dictionaryapi.dev/api/v2/entries/en/disgusted",
+  "response_headers": {},
+  "retrieved_at": "2026-08-26T06:15:19Z"
+}
