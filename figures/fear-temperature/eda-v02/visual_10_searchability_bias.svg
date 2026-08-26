@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<rect width="1600" height="920" fill="#F7F8FA"/>
+<text x="70.0" y="48.0" fill="#172033" font-family="Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="auto">Searchability and archival bias</text>
+<text x="70.0" y="94.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="auto">Internet Archive metadata-search outcomes by anchor</text>
+<text x="70.0" y="875.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">Easier modern retrieval must not be interpreted as historical lexical abundance.</text>
+<rect x="180.0" y="190.0" width="1300.0" height="575.0" fill="#FFFFFF" fill-opacity="1.000" stroke="#D9DEE8" stroke-width="1"/>
+<polyline points="180.0,190.0 180.0,765.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="180.0" y="793.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">0</text>
+<polyline points="440.0,190.0 440.0,765.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="440.0" y="793.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">6</text>
+<polyline points="700.0,190.0 700.0,765.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="700.0" y="793.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">12</text>
+<polyline points="960.0,190.0 960.0,765.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="960.0" y="793.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">18</text>
+<polyline points="1220.0,190.0 1220.0,765.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1220.0" y="793.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">24</text>
+<polyline points="1480.0,190.0 1480.0,765.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1480.0" y="793.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">30</text>
+<text x="158.0" y="248.8" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">1842</text>
+<rect x="180.0" y="216.0" width="910.0" height="65.5" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="635.0" y="248.8" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">21</text>
+<rect x="1090.0" y="216.0" width="390.0" height="65.5" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1285.0" y="248.8" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">9</text>
+<text x="158.0" y="340.2" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">1938</text>
+<rect x="180.0" y="307.5" width="866.7" height="65.5" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="613.3" y="340.2" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">20</text>
+<rect x="1046.7" y="307.5" width="433.3" height="65.5" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1263.3" y="340.2" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">10</text>
+<text x="158.0" y="431.8" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">1988</text>
+<rect x="180.0" y="399.0" width="910.0" height="65.5" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="635.0" y="431.8" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">21</text>
+<rect x="1090.0" y="399.0" width="390.0" height="65.5" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1285.0" y="431.8" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">9</text>
+<text x="158.0" y="523.2" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">2006–2007</text>
+<rect x="180.0" y="490.5" width="953.3" height="65.5" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="656.7" y="523.2" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">22</text>
+<rect x="1133.3" y="490.5" width="346.7" height="65.5" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1306.7" y="523.2" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">8</text>
+<text x="158.0" y="614.8" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">2015</text>
+<rect x="180.0" y="582.0" width="1213.3" height="65.5" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="786.7" y="614.8" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">28</text>
+<rect x="1393.3" y="582.0" width="86.7" height="65.5" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1436.7" y="614.8" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="158.0" y="706.2" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">2022</text>
+<rect x="180.0" y="673.5" width="1256.7" height="65.5" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="808.3" y="706.2" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="14" font-weight="700" text-anchor="middle" dominant-baseline="middle">29</text>
+<rect x="1436.7" y="673.5" width="43.3" height="65.5" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<rect x="180.0" y="145.0" width="22.0" height="16.0" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="212.0" y="160.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">SUCCEEDED</text>
+<rect x="410.0" y="145.0" width="22.0" height="16.0" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="442.0" y="160.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">ZERO_RESULT</text>
+<rect x="640.0" y="145.0" width="22.0" height="16.0" fill="#D95D39" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="672.0" y="160.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">UNRESOLVED</text>
+</svg>

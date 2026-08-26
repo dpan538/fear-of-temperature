@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_07_ngram_vs_validated_attestation",
+  "title": "Ngram versus validated evidence",
+  "caption": "Raw string appearance versus project evidence.",
+  "metric_definition": "Year",
+  "interpretation_warning": "Project evidence is not first-ever attestation.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_07_ngram_vs_validated_attestation_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

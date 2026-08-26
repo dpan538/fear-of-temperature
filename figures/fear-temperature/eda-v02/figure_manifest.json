@@ -1,0 +1,10 @@
+{
+  "version": "exploratory-analysis-v0.2",
+  "figure_count": 15,
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "source_table_count": 15,
+  "generator": "scripts/fear-temperature/generate_eda_figures.py"
+}

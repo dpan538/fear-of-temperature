@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<rect width="1600" height="920" fill="#F7F8FA"/>
+<text x="70.0" y="48.0" fill="#172033" font-family="Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="auto">Raw Ngram appearance versus project-validated evidence</text>
+<text x="70.0" y="94.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="auto">First string occurrence and sustained presence are separated from validated anchor evidence</text>
+<text x="70.0" y="875.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">Raw string occurrence ≠ validated historical meaning; validated year means earliest evidence in this project, not coinage.</text>
+<polyline points="230.0,190.0 230.0,760.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="230.0" y="788.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1842</text>
+<polyline points="493.9,190.0 493.9,760.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="493.9" y="788.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1880</text>
+<polyline points="771.7,190.0 771.7,760.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="771.7" y="788.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1920</text>
+<polyline points="1049.4,190.0 1049.4,760.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1049.4" y="788.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1960</text>
+<polyline points="1327.2,190.0 1327.2,760.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1327.2" y="788.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">2000</text>
+<polyline points="1480.0,190.0 1480.0,760.0" fill="none" stroke="#D9DEE8" stroke-opacity="1.000" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="1480.0" y="788.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">2022</text>
+<text x="212.0" y="229.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">climatic change</text>
+<circle cx="243.9" cy="225.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="257.8" cy="225.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="896.7" cy="225.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="243.9,225.0 896.7,225.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.0" y="295.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">greenhouse effect</text>
+<circle cx="236.9" cy="291.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="632.8" cy="291.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="1243.9" cy="291.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="236.9,291.0 1243.9,291.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.0" y="361.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">global warming</text>
+<circle cx="236.9" cy="357.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="375.8" cy="357.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="1243.9" cy="357.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="236.9,357.0 1243.9,357.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.0" y="427.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">climate change</text>
+<circle cx="230.0" cy="423.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="230.0" cy="423.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="1368.9" cy="423.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="230.0,423.0 1368.9,423.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.0" y="493.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">climate crisis</text>
+<circle cx="403.6" cy="489.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="1070.3" cy="489.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="1368.9" cy="489.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="403.6,489.0 1368.9,489.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.0" y="559.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">climate emergency</text>
+<circle cx="257.8" cy="555.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="1174.4" cy="555.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="1480.0" cy="555.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="257.8,555.0 1480.0,555.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.0" y="625.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">climate anxiety</text>
+<circle cx="1132.8" cy="621.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="1396.7" cy="621.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="1480.0" cy="621.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="1132.8,621.0 1480.0,621.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<text x="212.0" y="691.0" fill="#172033" font-family="Arial,sans-serif" font-size="15" font-weight="700" text-anchor="end" dominant-baseline="auto">eco-anxiety</text>
+<circle cx="639.7" cy="687.0" r="7.0" fill="#A7AFBE" stroke="#FFFFFF"/>
+<circle cx="1361.9" cy="687.0" r="7.0" fill="#E9C46A" stroke="#FFFFFF"/>
+<circle cx="1480.0" cy="687.0" r="9.0" fill="#D95D39" stroke="#FFFFFF"/>
+<polyline points="639.7,687.0 1480.0,687.0" fill="none" stroke="#7B8496" stroke-opacity="0.588" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>
+<circle cx="270.0" cy="145.0" r="7.0" fill="#A7AFBE" stroke="none"/>
+<text x="286.0" y="150.0" fill="#172033" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">first Ngram nonzero</text>
+<circle cx="640.0" cy="145.0" r="7.0" fill="#E9C46A" stroke="none"/>
+<text x="656.0" y="150.0" fill="#172033" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">first sustained (3 years)</text>
+<circle cx="1010.0" cy="145.0" r="7.0" fill="#D95D39" stroke="none"/>
+<text x="1026.0" y="150.0" fill="#172033" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">project-validated anchor evidence</text>
+</svg>

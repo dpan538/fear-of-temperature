@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_01b_anchor_layer_percentages",
+  "title": "Composition of the constructed lexical inventory",
+  "caption": "Within-anchor candidate shares by layer.",
+  "metric_definition": "Candidate share within anchor",
+  "interpretation_warning": "Inventory composition \u2260 historical prevalence.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_01b_anchor_layer_percentages_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

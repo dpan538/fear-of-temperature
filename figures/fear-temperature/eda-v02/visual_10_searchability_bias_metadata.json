@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_10_searchability_bias",
+  "title": "Searchability bias",
+  "caption": "Bounded-search outcomes by anchor.",
+  "metric_definition": "Candidate count",
+  "interpretation_warning": "Retrieval ease is not lexical abundance.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_10_searchability_bias_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

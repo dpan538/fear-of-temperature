@@ -7,6 +7,7 @@ import json
 from pathlib import Path
 
 import pandas as pd
+from PIL import Image
 
 
 ROOT = Path(__file__).resolve().parents[2]
@@ -81,6 +82,27 @@ def main() -> None:
     ]:
         require(object_name in migration, f"missing PostgreSQL object: {object_name}")
 
+    figure_dir = ROOT / "figures" / "fear-temperature" / "eda-v02"
+    figure_count = 0
+    if (figure_dir / "figure_manifest.json").exists():
+        figure_metadata = pd.read_csv(figure_dir / "figure_metadata.csv", keep_default_na=False)
+        require(len(figure_metadata) >= 10, "at least ten EDA figures required")
+        required_meta = {"title", "caption", "metric_definition", "interpretation_warning", "source_csv", "generation_script"}
+        require(required_meta <= set(figure_metadata.columns), "figure metadata fields incomplete")
+        for _, item in figure_metadata.iterrows():
+            stem = item.figure_id
+            png = figure_dir / f"{stem}.png"
+            svg = figure_dir / f"{stem}.svg"
+            source_csv = ROOT / item.source_csv
+            meta_json = figure_dir / f"{stem}_metadata.json"
+            require(png.exists() and png.stat().st_size > 10_000, f"missing/blank PNG: {stem}")
+            require(svg.exists() and svg.stat().st_size > 1_000, f"missing/blank SVG: {stem}")
+            require(source_csv.exists() and source_csv.stat().st_size > 20, f"missing source CSV: {stem}")
+            require(meta_json.exists(), f"missing figure metadata JSON: {stem}")
+            with Image.open(png) as image:
+                require(image.size == (1600, 920), f"unexpected figure dimensions: {stem}")
+        figure_count = len(figure_metadata)
+
     runtime_path = ANALYSIS / "postgres_eda_runtime_validation.json"
     runtime_status = "NOT_RUN"
     if runtime_path.exists():
@@ -89,7 +111,7 @@ def main() -> None:
         "status": "PASS", "priority_rows": len(candidate),
         "relationship_rows": len(relationships), "semantic_relationship_rows": len(semantic),
         "comparability_rows": len(comparison), "measurement_map_rows": len(measurement),
-        "postgres_runtime": runtime_status,
+        "postgres_runtime": runtime_status, "figure_count": figure_count,
     }
     REPORT.write_text(json.dumps(result, indent=2) + "\n", encoding="utf-8")
     print(json.dumps(result, indent=2))

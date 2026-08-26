@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_11_candidate_missingness_heatmap",
+  "title": "Missingness heatmap",
+  "caption": "Coverage across seven candidate dimensions.",
+  "metric_definition": "Controlled status",
+  "interpretation_warning": "Zero and missing states are not imputed.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_11_candidate_missingness_heatmap_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

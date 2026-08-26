@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="920" viewBox="0 0 1600 920">
+<rect width="1600" height="920" fill="#F7F8FA"/>
+<text x="70.0" y="48.0" fill="#172033" font-family="Arial,sans-serif" font-size="34" font-weight="700" text-anchor="start" dominant-baseline="auto">Structure of the constructed lexical inventory</text>
+<text x="70.0" y="94.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="start" dominant-baseline="auto">Metadata flow: Anchor → Layer → Voice → Lexical family; ribbon width = candidate count</text>
+<text x="70.0" y="875.0" fill="#5C667A" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">This is a metadata structure, not a historical process, causal flow, or semantic-evolution network.</text>
+<polygon points="192.0,190.0 590.0,190.0 590.0,240.7 192.0,240.7" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,240.7 590.0,351.0 590.0,366.8 192.0,256.5" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,256.5 590.0,453.4 590.0,462.9 192.0,266.0" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,266.0 590.0,568.9 590.0,587.9 192.0,285.0" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,293.0 590.0,240.7 590.0,281.8 192.0,334.2" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,334.2 590.0,366.8 590.0,395.3 192.0,362.7" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,362.7 590.0,462.9 590.0,469.3 192.0,369.0" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,369.0 590.0,587.9 590.0,606.9 192.0,388.0" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,396.0 590.0,281.8 590.0,307.2 192.0,421.3" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,421.3 590.0,395.3 590.0,417.5 192.0,443.5" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,443.5 590.0,469.3 590.0,472.4 192.0,446.7" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,446.7 590.0,606.9 590.0,651.2 192.0,491.0" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,499.0 590.0,307.2 590.0,323.0 192.0,514.8" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,514.8 590.0,417.5 590.0,430.2 192.0,527.5" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,527.5 590.0,472.4 590.0,481.9 192.0,537.0" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,537.0 590.0,651.2 590.0,708.2 192.0,594.0" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,602.0 590.0,323.0 590.0,332.5 192.0,611.5" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,611.5 590.0,430.2 590.0,439.7 192.0,621.0" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,621.0 590.0,481.9 590.0,494.6 192.0,633.7" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,633.7 590.0,708.2 590.0,771.5 192.0,697.0" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,705.0 590.0,332.5 590.0,338.8 192.0,711.3" fill="#4D908E" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,711.3 590.0,439.7 590.0,442.8 192.0,714.5" fill="#4D908E" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,714.5 590.0,494.6 590.0,557.9 192.0,777.8" fill="#4D908E" fill-opacity="0.216" stroke="none"/>
+<polygon points="192.0,777.8 590.0,771.5 590.0,793.7 192.0,800.0" fill="#4D908E" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,190.0 1010.0,190.0 1010.0,287.7 612.0,287.7" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,287.7 1010.0,426.0 1010.0,442.3 612.0,303.9" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,303.9 1010.0,591.3 1010.0,617.4 612.0,330.0" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,330.0 1010.0,678.0 1010.0,691.0 612.0,343.0" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,351.0 1010.0,287.7 1010.0,359.3 612.0,422.6" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,422.6 1010.0,442.3 1010.0,461.8 612.0,442.2" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,442.2 1010.0,691.0 1010.0,694.3 612.0,445.4" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,453.4 1010.0,359.3 1010.0,385.3 612.0,479.5" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,479.5 1010.0,461.8 1010.0,465.1 612.0,482.7" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,482.7 1010.0,617.4 1010.0,630.4 612.0,495.7" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,495.7 1010.0,657.1 1010.0,660.4 612.0,499.0" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,499.0 1010.0,694.3 1010.0,756.1 612.0,560.9" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,568.9 1010.0,385.3 1010.0,421.1 612.0,604.7" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,604.7 1010.0,465.1 1010.0,585.5 612.0,725.1" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,725.1 1010.0,630.4 1010.0,649.9 612.0,744.7" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,744.7 1010.0,660.4 1010.0,670.2 612.0,754.4" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="612.0,754.4 1010.0,756.1 1010.0,801.7 612.0,800.0" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,190.0 1430.0,546.4 1430.0,556.0 1032.0,199.6" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,199.6 1430.0,446.9 1430.0,466.2 1032.0,218.9" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,218.9 1430.0,371.4 1430.0,416.4 1032.0,263.9" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,263.9 1430.0,480.2 1430.0,483.4 1032.0,267.1" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,267.1 1430.0,610.1 1430.0,613.4 1032.0,270.3" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,270.3 1430.0,568.4 1430.0,581.3 1032.0,283.1" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,283.1 1430.0,681.9 1430.0,707.6 1032.0,308.8" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,308.8 1430.0,271.1 1430.0,296.8 1032.0,334.5" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,334.5 1430.0,190.0 1430.0,257.4 1032.0,401.9" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,401.9 1430.0,338.1 1430.0,354.2 1032.0,418.0" fill="#2457A7" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,426.0 1430.0,466.2 1430.0,472.6 1032.0,432.4" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,432.4 1430.0,416.4 1430.0,442.1 1032.0,458.1" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,458.1 1430.0,483.4 1430.0,486.6 1032.0,461.3" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,461.3 1430.0,665.5 1430.0,671.9 1032.0,467.7" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,467.7 1430.0,613.4 1430.0,626.2 1032.0,480.6" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,480.6 1430.0,707.6 1430.0,781.5 1032.0,554.4" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,554.4 1430.0,646.3 1430.0,659.1 1032.0,567.3" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,567.3 1430.0,257.4 1430.0,270.3 1032.0,580.1" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,580.1 1430.0,354.2 1430.0,357.4 1032.0,583.3" fill="#2A9D8F" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,591.3 1430.0,472.6 1430.0,475.8 1032.0,594.5" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,594.5 1430.0,486.6 1430.0,496.2 1032.0,604.2" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,604.2 1430.0,781.5 1430.0,787.9 1032.0,610.6" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,610.6 1430.0,296.8 1430.0,322.5 1032.0,636.3" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,636.3 1430.0,270.3 1430.0,273.5 1032.0,639.5" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,639.5 1430.0,357.4 1430.0,363.8 1032.0,645.9" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,645.9 1430.0,507.9 1430.0,511.1 1032.0,649.1" fill="#E9C46A" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,657.1 1430.0,442.1 1430.0,445.3 1032.0,660.3" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,660.3 1430.0,496.2 1430.0,499.5 1032.0,663.6" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,663.6 1430.0,671.9 1430.0,675.1 1032.0,666.8" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,666.8 1430.0,626.2 1430.0,629.4 1032.0,670.0" fill="#E76F51" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,678.0 1430.0,556.0 1430.0,562.4 1032.0,684.4" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,684.4 1430.0,445.3 1430.0,448.5 1032.0,687.6" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,687.6 1430.0,499.5 1430.0,502.7 1032.0,690.8" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,690.8 1430.0,629.4 1430.0,642.3 1032.0,703.7" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,703.7 1430.0,581.3 1430.0,606.9 1032.0,729.4" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,729.4 1430.0,535.5 1430.0,538.8 1032.0,732.6" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,732.6 1430.0,787.9 1430.0,816.8 1032.0,761.5" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,761.5 1430.0,322.5 1430.0,338.5 1032.0,777.5" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,777.5 1430.0,363.8 1430.0,367.0 1032.0,780.7" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<polygon points="1032.0,780.7 1430.0,511.1 1430.0,530.3 1032.0,800.0" fill="#7B61A8" fill-opacity="0.216" stroke="none"/>
+<text x="181.0" y="145.0" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="auto">anchor label</text>
+<rect x="170.0" y="190.0" width="22.0" height="95.0" fill="#2457A7" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="160.0" y="241.5" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">1842</text>
+<rect x="170.0" y="293.0" width="22.0" height="95.0" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="160.0" y="344.5" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">1938</text>
+<rect x="170.0" y="396.0" width="22.0" height="95.0" fill="#E9C46A" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="160.0" y="447.5" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">1988</text>
+<rect x="170.0" y="499.0" width="22.0" height="95.0" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="160.0" y="550.5" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">2006–2007</text>
+<rect x="170.0" y="602.0" width="22.0" height="95.0" fill="#7B61A8" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="160.0" y="653.5" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">2015</text>
+<rect x="170.0" y="705.0" width="22.0" height="95.0" fill="#4D908E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="160.0" y="756.5" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">2022</text>
+<text x="601.0" y="145.0" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="auto">layer code</text>
+<rect x="590.0" y="190.0" width="22.0" height="153.0" fill="#2457A7" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="580.0" y="270.5" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">A</text>
+<rect x="590.0" y="351.0" width="22.0" height="94.4" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="580.0" y="402.2" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">B</text>
+<rect x="590.0" y="453.4" width="22.0" height="107.4" fill="#E9C46A" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="580.0" y="511.1" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">C</text>
+<rect x="590.0" y="568.9" width="22.0" height="231.1" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="580.0" y="688.4" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">D</text>
+<text x="1021.0" y="145.0" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="auto">voice code</text>
+<rect x="1010.0" y="190.0" width="22.0" height="228.0" fill="#2457A7" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1000.0" y="308.0" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">V1</text>
+<rect x="1010.0" y="426.0" width="22.0" height="157.3" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1000.0" y="508.7" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">V2</text>
+<rect x="1010.0" y="591.3" width="22.0" height="57.8" fill="#E9C46A" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1000.0" y="624.2" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">V3</text>
+<rect x="1010.0" y="657.1" width="22.0" height="12.8" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1000.0" y="667.6" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">V4</text>
+<rect x="1010.0" y="678.0" width="22.0" height="122.0" fill="#7B61A8" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1000.0" y="743.0" fill="#172033" font-family="Arial,sans-serif" font-size="13" font-weight="700" text-anchor="end" dominant-baseline="auto">V5</text>
+<text x="1441.0" y="145.0" fill="#172033" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="auto">lexical family</text>
+<rect x="1430.0" y="190.0" width="22.0" height="73.1" fill="#2457A7" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="230.5" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">temperature threshold</text>
+<rect x="1430.0" y="271.1" width="22.0" height="59.0" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="304.6" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">heat</text>
+<rect x="1430.0" y="338.1" width="22.0" height="25.3" fill="#E9C46A" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="354.8" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">warming</text>
+<rect x="1430.0" y="371.4" width="22.0" height="67.5" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="409.2" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">climate</text>
+<rect x="1430.0" y="446.9" width="22.0" height="25.3" fill="#7B61A8" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="463.5" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">carbon greenhouse</text>
+<rect x="1430.0" y="480.2" width="22.0" height="19.7" fill="#4D908E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="494.0" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">concern alarm</text>
+<rect x="1430.0" y="507.9" width="22.0" height="19.7" fill="#F8961E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="521.7" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">worry</text>
+<rect x="1430.0" y="535.5" width="22.0" height="2.8" fill="#577590" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="541.0" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">fear afraid</text>
+<rect x="1430.0" y="546.4" width="22.0" height="14.1" fill="#2457A7" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="557.4" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">anxiety</text>
+<rect x="1430.0" y="568.4" width="22.0" height="33.7" fill="#2A9D8F" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="589.3" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">distress depression</text>
+<rect x="1430.0" y="610.1" width="22.0" height="28.1" fill="#E9C46A" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="628.2" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">danger threat</text>
+<rect x="1430.0" y="646.3" width="22.0" height="11.2" fill="#E76F51" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="655.9" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">risk</text>
+<rect x="1430.0" y="665.5" width="22.0" height="8.4" fill="#7B61A8" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="673.7" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">crisis emergency</text>
+<rect x="1430.0" y="681.9" width="22.0" height="118.1" fill="#4D908E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1460.0" y="745.0" fill="#172033" font-family="Arial,sans-serif" font-size="11" font-weight="400" text-anchor="start" dominant-baseline="auto">harm loss consequences</text>
+</svg>

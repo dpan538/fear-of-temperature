@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_04_voice_family_heatmap",
+  "title": "Voice \u00d7 family",
+  "caption": "Candidate count heatmap.",
+  "metric_definition": "Priority Candidate count",
+  "interpretation_warning": "Source/speaker composition, not prevalence.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_04_voice_family_heatmap_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

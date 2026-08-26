@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_09_dictionary_status_by_anchor",
+  "title": "Dictionary status",
+  "caption": "Candidate lexicographic treatment by anchor.",
+  "metric_definition": "Priority Candidate count",
+  "interpretation_warning": "Does not establish semantic evolution.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_09_dictionary_status_by_anchor_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

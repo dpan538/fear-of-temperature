@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_12_structural_alluvial",
+  "title": "Structural alluvial",
+  "caption": "Metadata composition flow.",
+  "metric_definition": "Candidate count",
+  "interpretation_warning": "Not a historical process or causal flow.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_12_structural_alluvial_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_01a_anchor_layer_counts",
+  "title": "Composition of the constructed lexical inventory",
+  "caption": "Raw candidate counts by anchor/layer.",
+  "metric_definition": "Priority Candidate count",
+  "interpretation_warning": "Inventory composition \u2260 historical prevalence.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_01a_anchor_layer_counts_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

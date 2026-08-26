@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_03b_anchor_family_row_normalized",
+  "title": "Anchor \u00d7 family normalized",
+  "caption": "Family-wise maximum-normalized display.",
+  "metric_definition": "Count divided by family maximum",
+  "interpretation_warning": "Within-family normalized display \u2014 not frequency.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_03b_anchor_family_row_normalized_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

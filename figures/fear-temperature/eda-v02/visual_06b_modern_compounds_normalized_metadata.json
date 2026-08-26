@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_06b_modern_compounds_normalized",
+  "title": "Modern compounds normalized",
+  "caption": "Each trajectory scaled to its own peak.",
+  "metric_definition": "Term value / term maximum",
+  "interpretation_warning": "Normalized display is not corpus frequency.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_06b_modern_compounds_normalized_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

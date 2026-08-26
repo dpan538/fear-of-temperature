@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_02_anchor_voice_counts",
+  "title": "Voice composition",
+  "caption": "Candidate counts by anchor/voice.",
+  "metric_definition": "Priority Candidate count",
+  "interpretation_warning": "Source composition may shape apparent lexical change.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_02_anchor_voice_counts_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

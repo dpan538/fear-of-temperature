@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_06a_modern_compounds_raw",
+  "title": "Modern specialised compounds",
+  "caption": "Raw annual Ngram series.",
+  "metric_definition": "Normalized frequency \u00d7 1,000,000",
+  "interpretation_warning": "String occurrence is not validated target sense.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_06a_modern_compounds_raw_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

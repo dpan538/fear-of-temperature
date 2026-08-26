@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_08_ngram_vs_search_discoverability",
+  "title": "Frequency versus discoverability",
+  "caption": "Parallel measurement comparison.",
+  "metric_definition": "Ngram peak per million; IA count log10",
+  "interpretation_warning": "Metrics answer different questions.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_08_ngram_vs_search_discoverability_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}

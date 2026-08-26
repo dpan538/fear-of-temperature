@@ -1,0 +1,9 @@
+{
+  "figure_id": "visual_03a_anchor_family_counts",
+  "title": "Anchor \u00d7 family",
+  "caption": "Candidate count heatmap.",
+  "metric_definition": "Priority Candidate count",
+  "interpretation_warning": "Not corpus frequency.",
+  "source_csv": "figures/fear-temperature/eda-v02/sources/visual_03a_anchor_family_counts_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_eda_figures.py"
+}
