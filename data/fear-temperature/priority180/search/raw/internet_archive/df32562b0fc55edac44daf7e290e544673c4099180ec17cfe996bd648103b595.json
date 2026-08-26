@@ -1,0 +1,31 @@
+{
+  "body_sha256": "bd97df586073ab427179c6dfd42286330a5b44e69b805e2fbf3155f0e2be65b8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 532,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 46,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;drastic action&quot; AND mediatype:texts",
+        "query": "(text:&quot;drastic action&quot; OR text:&quot;drastic action&quot; OR text__reviews:&quot;drastic action&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22drastic+action%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:59 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:59Z"
+}

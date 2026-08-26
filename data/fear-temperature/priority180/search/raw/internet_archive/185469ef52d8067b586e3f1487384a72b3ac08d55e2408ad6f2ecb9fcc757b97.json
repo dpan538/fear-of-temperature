@@ -1,0 +1,31 @@
+{
+  "body_sha256": "dd600b681201438cf054d0e984be4950cfc41b30d810d06ab035c1f7cd7a96db",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 25,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 37,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;heat-related mortality&quot; AND mediatype:texts",
+        "query": "(text:&quot;heat-related mortality&quot; OR text:&quot;heat-related mortality&quot; OR text__reviews:&quot;heat-related mortality&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22heat-related+mortality%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:58 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:58Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "e7f6faa065b28ca742af200c4584d42bec9894389467ee9171048cd22196740f",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 15,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 25,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;hopeless&quot; AND mediatype:texts AND date:[2022-01-01 TO 2022-12-31]",
+        "query": "(text:hopeless OR text:hopeless OR text__reviews:hopeless) AND mediatype:texts AND date:[2022-01-01T00\\:00\\:00Z TO 2022-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22hopeless%22+AND+mediatype%3Atexts+AND+date%3A%5B2022-01-01+TO+2022-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:08 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:08Z"
+}

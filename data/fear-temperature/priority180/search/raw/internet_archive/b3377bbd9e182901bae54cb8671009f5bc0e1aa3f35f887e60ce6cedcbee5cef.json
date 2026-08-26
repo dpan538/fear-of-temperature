@@ -1,0 +1,31 @@
+{
+  "body_sha256": "5ad49a64c2cfeecc775aa471e1d1961aa76d3bcc1d9c2edc8aa56d199d2a49e6",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 63,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;pre-industrial levels&quot; AND mediatype:texts AND date:[2015-01-01 TO 2015-12-31]",
+        "query": "(text:&quot;pre-industrial levels&quot; OR text:&quot;pre-industrial levels&quot; OR text__reviews:&quot;pre-industrial levels&quot;) AND mediatype:texts AND date:[2015-01-01T00\\:00\\:00Z TO 2015-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22pre-industrial+levels%22+AND+mediatype%3Atexts+AND+date%3A%5B2015-01-01+TO+2015-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:32 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:32Z"
+}

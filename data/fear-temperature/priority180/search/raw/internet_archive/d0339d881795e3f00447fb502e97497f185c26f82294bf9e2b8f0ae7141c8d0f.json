@@ -1,0 +1,31 @@
+{
+  "body_sha256": "8e44e74964cac5e34b3fe357a4db4d105c7bb4b88bf8fe184f850b73cb730000",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 193717,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 28,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;temperature&quot; AND mediatype:texts",
+        "query": "(text:temperature OR text:temperature OR text__reviews:temperature) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22temperature%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:50 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:50Z"
+}

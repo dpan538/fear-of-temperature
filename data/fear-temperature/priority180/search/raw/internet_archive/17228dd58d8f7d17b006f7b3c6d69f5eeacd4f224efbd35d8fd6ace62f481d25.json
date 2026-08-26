@@ -1,0 +1,31 @@
+{
+  "body_sha256": "f2f3250938d0083cc5a1a17cf5482e2d1f5e3c66bdb66cd50f56530a20ff32ba",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 124,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 25,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;anxious&quot; AND mediatype:texts AND date:[2021-01-01 TO 2023-12-31]",
+        "query": "(text:anxious OR text:anxious OR text__reviews:anxious) AND mediatype:texts AND date:[2021-01-01T00\\:00\\:00Z TO 2023-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22anxious%22+AND+mediatype%3Atexts+AND+date%3A%5B2021-01-01+TO+2023-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:15 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:15Z"
+}

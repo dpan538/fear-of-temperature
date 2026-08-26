@@ -1,0 +1,31 @@
+{
+  "body_sha256": "7990aaa0cef59e2264dd3e252ab79e0605895d06bbceb99284e80a3c1d6693cb",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 2,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 105,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;very worried&quot; AND mediatype:texts AND date:[2015-01-01 TO 2015-12-31]",
+        "query": "(text:&quot;very worried&quot; OR text:&quot;very worried&quot; OR text__reviews:&quot;very worried&quot;) AND mediatype:texts AND date:[2015-01-01T00\\:00\\:00Z TO 2015-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22very+worried%22+AND+mediatype%3Atexts+AND+date%3A%5B2015-01-01+TO+2015-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:34 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:34Z"
+}

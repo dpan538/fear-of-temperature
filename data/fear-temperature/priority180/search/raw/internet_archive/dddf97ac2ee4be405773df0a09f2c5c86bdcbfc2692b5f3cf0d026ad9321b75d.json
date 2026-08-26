@@ -1,0 +1,31 @@
+{
+  "body_sha256": "6dc6dc050fb17e405eab14f3a0319e2f6ccc547dc831867d246a76e1925d0e47",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 59,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;perspiration&quot; AND mediatype:texts AND date:[1842-01-01 TO 1842-12-31]",
+        "query": "(text:perspiration OR text:perspiration OR text__reviews:perspiration) AND mediatype:texts AND date:[1842-01-01T00\\:00\\:00Z TO 1842-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22perspiration%22+AND+mediatype%3Atexts+AND+date%3A%5B1842-01-01+TO+1842-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:23 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:23Z"
+}

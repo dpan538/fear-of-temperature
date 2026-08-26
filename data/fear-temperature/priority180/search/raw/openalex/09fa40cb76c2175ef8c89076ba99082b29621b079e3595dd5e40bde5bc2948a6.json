@@ -1,0 +1,51 @@
+{
+  "body_sha256": "cc664b5e7f713334b3ae70abd6662e3e8aeb4ed3fca84fefbccb9cc907183ad7",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 924,
+      "db_response_time_ms": 97,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (2014-01-01)\n  and full text has (\"adverse effects of climate change\")\n  and date <= (2016-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2014-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"adverse effects of climate change\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2016-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2014-01-01,fulltext.search.exact:%22adverse effects of climate change%22,to_publication_date:2016-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2559298198"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22adverse+effects+of+climate+change%22&per-page=1&select=id&filter=from_publication_date%3A2014-01-01%2Cto_publication_date%3A2016-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:31 GMT",
+    "X-RateLimit-Remaining": "880"
+  },
+  "retrieved_at": "2026-08-26T06:27:31Z"
+}

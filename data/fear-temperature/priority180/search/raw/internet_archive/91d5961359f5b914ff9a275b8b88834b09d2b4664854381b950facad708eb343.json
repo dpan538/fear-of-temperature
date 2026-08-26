@@ -1,0 +1,31 @@
+{
+  "body_sha256": "188263e9103869f04e47c4cb2f87da6fef9df2d2c8d9cd69854cb65f68ae5869",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 7,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 51,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;heat wave&quot; AND mediatype:texts AND date:[1938-01-01 TO 1938-12-31]",
+        "query": "(text:&quot;heat wave&quot; OR text:&quot;heat wave&quot; OR text__reviews:&quot;heat wave&quot;) AND mediatype:texts AND date:[1938-01-01T00\\:00\\:00Z TO 1938-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22heat+wave%22+AND+mediatype%3Atexts+AND+date%3A%5B1938-01-01+TO+1938-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:50 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:50Z"
+}

@@ -1,0 +1,43 @@
+{
+  "body_sha256": "bfe766597dfcaf3f315f1da17572d8eeb0ac9e47e3cbc7c8a5a2acbc679bf81b",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 5913,
+      "db_response_time_ms": 389,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"anthropogenic GHG emissions\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"anthropogenic GHG emissions\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22anthropogenic GHG emissions%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W3135170646"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22anthropogenic+GHG+emissions%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:44 GMT",
+    "X-RateLimit-Remaining": "690"
+  },
+  "retrieved_at": "2026-08-26T06:27:44Z"
+}

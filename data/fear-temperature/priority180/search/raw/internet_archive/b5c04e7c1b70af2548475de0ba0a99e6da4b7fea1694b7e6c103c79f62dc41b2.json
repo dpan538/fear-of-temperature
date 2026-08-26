@@ -1,0 +1,31 @@
+{
+  "body_sha256": "1b6afc6671dc6a975308a9aec579658cfb120c67f7be970aff9a00ba94d34a7d",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 72,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;severe economic and social dislocation&quot; AND mediatype:texts",
+        "query": "(text:&quot;severe economic and social dislocation&quot; OR text:&quot;severe economic and social dislocation&quot; OR text__reviews:&quot;severe economic and social dislocation&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22severe+economic+and+social+dislocation%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:21 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:21Z"
+}

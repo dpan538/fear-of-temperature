@@ -1,0 +1,43 @@
+{
+  "body_sha256": "1112d61754b56d0d3bd38e8f2a5d4c5393d07c82ce7454ed4df3987794d7b6c1",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 1,
+      "db_response_time_ms": 338,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"changed climatic extremes\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"changed climatic extremes\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22changed climatic extremes%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2978303791"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22changed+climatic+extremes%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:11 GMT",
+    "X-RateLimit-Remaining": "360"
+  },
+  "retrieved_at": "2026-08-26T06:28:11Z"
+}

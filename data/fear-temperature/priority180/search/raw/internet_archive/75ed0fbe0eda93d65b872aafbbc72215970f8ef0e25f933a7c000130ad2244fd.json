@@ -1,0 +1,31 @@
+{
+  "body_sha256": "40154dafa5d44d80670d022ae696febffba1b400c7baa5f012a6b0db2dab5e02",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 39,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 53,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;grass fires&quot; AND mediatype:texts",
+        "query": "(text:&quot;grass fires&quot; OR text:&quot;grass fires&quot; OR text__reviews:&quot;grass fires&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22grass+fires%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:12 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:12Z"
+}

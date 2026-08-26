@@ -1,0 +1,43 @@
+{
+  "body_sha256": "626d6aecec040102dc75ea5d78a65548455a86ff7e86e2666987a88e1a19a2ba",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 106345,
+      "db_response_time_ms": 282,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"climate warming\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"climate warming\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22climate warming%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W1985936925"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22climate+warming%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:31 GMT",
+    "X-RateLimit-Remaining": "90"
+  },
+  "retrieved_at": "2026-08-26T06:28:31Z"
+}

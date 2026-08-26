@@ -1,0 +1,31 @@
+{
+  "body_sha256": "5142e0d85d553507078785c4b295281633e857ded78a0b51995b70da4035db02",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 328,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 31,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;global temperature&quot; AND mediatype:texts",
+        "query": "(text:&quot;global temperature&quot; OR text:&quot;global temperature&quot; OR text__reviews:&quot;global temperature&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22global+temperature%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:03 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:03Z"
+}

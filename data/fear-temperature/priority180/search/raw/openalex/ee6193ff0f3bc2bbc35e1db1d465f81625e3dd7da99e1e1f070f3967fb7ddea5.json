@@ -1,0 +1,51 @@
+{
+  "body_sha256": "c52172825946c0ba13f0248cb2afe6a3c81a1b071a5faeb8babebb88273faceb",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 9,
+      "db_response_time_ms": 56,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1938-01-01)\n  and full text has (\"actually increased\")\n  and date <= (1938-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1938-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"actually increased\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1938-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1938-01-01,fulltext.search.exact:%22actually increased%22,to_publication_date:1938-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2006447055"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22actually+increased%22&per-page=1&select=id&filter=from_publication_date%3A1938-01-01%2Cto_publication_date%3A1938-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:27 GMT",
+    "X-RateLimit-Remaining": "920"
+  },
+  "retrieved_at": "2026-08-26T06:27:27Z"
+}

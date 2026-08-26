@@ -1,0 +1,31 @@
+{
+  "body_sha256": "bf44ad82dd2c969889155b78f7e4747f69d8c13dd9641ba24527b9e53bdf8981",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 3,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 119,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;global climate models&quot; AND mediatype:texts AND date:[1986-01-01 TO 1990-12-31]",
+        "query": "(text:&quot;global climate models&quot; OR text:&quot;global climate models&quot; OR text__reviews:&quot;global climate models&quot;) AND mediatype:texts AND date:[1986-01-01T00\\:00\\:00Z TO 1990-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22global+climate+models%22+AND+mediatype%3Atexts+AND+date%3A%5B1986-01-01+TO+1990-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:53 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:54Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "ecafba1a68b302b8e9ea351ff82d9266ed39ad13a02575ed1a29eee0fe830d3b",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 575,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 37,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;powerlessness&quot; AND mediatype:texts",
+        "query": "(text:powerlessness OR text:powerlessness OR text__reviews:powerlessness) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22powerlessness%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:28 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:28Z"
+}

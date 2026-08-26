@@ -1,0 +1,10 @@
+{
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cache_reused": false,
+  "error": "HTTP 429: {\"error\":\"Rate limit exceeded\",\"message\":\"Insufficient budget. This request costs $0.001 but you only have $0 remaining. Resets at midnight UTC. Need more? Add funds at https://openalex.org/pricing\",\"retryAfter\":62799,\"costUsd\":0.001,\"daily",
+  "http_status": 0,
+  "payload": null,
+  "request_url": "https://api.openalex.org/works?search.exact=%22danger%22&per-page=1&select=id&filter=from_publication_date%3A2006-01-01%2Cto_publication_date%3A2007-12-31",
+  "response_headers": {},
+  "retrieved_at": "2026-08-26T06:33:21Z"
+}

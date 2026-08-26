@@ -1,0 +1,51 @@
+{
+  "body_sha256": "7824c6984bb14d25b3261123d7bdb8a430b07a4acea21b4a298ab1198e410c65",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 70,
+      "db_response_time_ms": 65,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1842-01-01)\n  and full text has (\"climate\")\n  and date <= (1842-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1842-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "climate"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1842-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1842-01-01,fulltext.search.exact:climate,to_publication_date:1842-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4232911185"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22climate%22&per-page=1&select=id&filter=from_publication_date%3A1842-01-01%2Cto_publication_date%3A1842-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:20 GMT",
+    "X-RateLimit-Remaining": "260"
+  },
+  "retrieved_at": "2026-08-26T06:28:20Z"
+}

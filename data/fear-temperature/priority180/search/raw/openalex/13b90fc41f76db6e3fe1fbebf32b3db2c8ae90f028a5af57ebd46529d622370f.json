@@ -1,0 +1,43 @@
+{
+  "body_sha256": "eb183bedce898a9cc59c8f63ac027262737190a8ac0ddbde6f300ddf2032e6de",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 40274,
+      "db_response_time_ms": 359,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"actually increased\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"actually increased\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22actually increased%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2006447055"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22actually+increased%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:27 GMT",
+    "X-RateLimit-Remaining": "930"
+  },
+  "retrieved_at": "2026-08-26T06:27:27Z"
+}

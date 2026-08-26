@@ -1,0 +1,31 @@
+{
+  "body_sha256": "bfca945bd30184fe2aa9a64f4ebbbffda26a5bd1fc2b9a87fbe094251d626a79",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 3,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 44,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;serious global threat&quot; AND mediatype:texts",
+        "query": "(text:&quot;serious global threat&quot; OR text:&quot;serious global threat&quot; OR text__reviews:&quot;serious global threat&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22serious+global+threat%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:14 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:15Z"
+}

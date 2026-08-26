@@ -1,0 +1,43 @@
+{
+  "body_sha256": "5194ed395847ab6ac5c9cbbd11f1585db8fa624618d001a65e57b5b3cba2174b",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 382339,
+      "db_response_time_ms": 213,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"angry\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "angry"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:angry&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2158180452"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22angry%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:40 GMT",
+    "X-RateLimit-Remaining": "750"
+  },
+  "retrieved_at": "2026-08-26T06:27:40Z"
+}

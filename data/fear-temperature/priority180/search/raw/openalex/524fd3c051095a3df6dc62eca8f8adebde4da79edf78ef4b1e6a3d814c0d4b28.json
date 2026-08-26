@@ -1,0 +1,51 @@
+{
+  "body_sha256": "c13bb811428d439f17d7d99323abea2514a8f9589c565512c512d96c6cab6bff",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 751,
+      "db_response_time_ms": 182,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1986-01-01)\n  and full text has (\"cause-and-effect relationship\")\n  and date <= (1990-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1986-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"cause-and-effect relationship\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1990-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1986-01-01,fulltext.search.exact:%22cause-and-effect relationship%22,to_publication_date:1990-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2006734497"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22cause-and-effect+relationship%22&per-page=1&select=id&filter=from_publication_date%3A1986-01-01%2Cto_publication_date%3A1990-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:10 GMT",
+    "X-RateLimit-Remaining": "370"
+  },
+  "retrieved_at": "2026-08-26T06:28:10Z"
+}

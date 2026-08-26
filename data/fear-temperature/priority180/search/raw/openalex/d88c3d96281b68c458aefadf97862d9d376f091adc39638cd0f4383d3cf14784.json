@@ -1,0 +1,51 @@
+{
+  "body_sha256": "b293251aaab63b52c52296184cb542f668179d50c3ba7fa382498141a5ad12da",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 388,
+      "db_response_time_ms": 92,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (2006-01-01)\n  and full text has (\"anthropogenic CO₂\")\n  and date <= (2007-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2006-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"anthropogenic CO₂\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2007-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2006-01-01,fulltext.search.exact:%22anthropogenic CO%E2%82%82%22,to_publication_date:2007-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2098186643"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22anthropogenic+CO%E2%82%82%22&per-page=1&select=id&filter=from_publication_date%3A2006-01-01%2Cto_publication_date%3A2007-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:43 GMT",
+    "X-RateLimit-Remaining": "710"
+  },
+  "retrieved_at": "2026-08-26T06:27:43Z"
+}

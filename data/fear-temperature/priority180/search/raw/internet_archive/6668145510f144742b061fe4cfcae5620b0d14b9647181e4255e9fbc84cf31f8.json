@@ -1,0 +1,31 @@
+{
+  "body_sha256": "cdbd0d7fa40528f65f9c8b5c6b7048fdc593f0f96a2de1acfe09a5eeaadb8727",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 44,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;radiation absorption coefficients&quot; AND mediatype:texts AND date:[1936-01-01 TO 1940-12-31]",
+        "query": "(text:&quot;radiation absorption coefficients&quot; OR text:&quot;radiation absorption coefficients&quot; OR text__reviews:&quot;radiation absorption coefficients&quot;) AND mediatype:texts AND date:[1936-01-01T00\\:00\\:00Z TO 1940-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22radiation+absorption+coefficients%22+AND+mediatype%3Atexts+AND+date%3A%5B1936-01-01+TO+1940-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:46 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:47Z"
+}

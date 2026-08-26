@@ -1,0 +1,43 @@
+{
+  "body_sha256": "bce5c320599295814ffee2ee2afef8ed8868047e60861f4f577e442cac4bdae4",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 22058,
+      "db_response_time_ms": 219,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"coastal flooding\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"coastal flooding\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22coastal flooding%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W1974527622"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22coastal+flooding%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:33 GMT",
+    "X-RateLimit-Remaining": "60"
+  },
+  "retrieved_at": "2026-08-26T06:28:33Z"
+}

@@ -1,0 +1,43 @@
+{
+  "body_sha256": "d09f80615912c91732ba4b3557205f3fecdf9238940be00e34ed88e3a0e9d87d",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 18,
+      "db_response_time_ms": 724,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"40-degree temperatures\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"40-degree temperatures\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%2240-degree temperatures%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2263258851"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%2240-degree+temperatures%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:25 GMT",
+    "X-RateLimit-Remaining": "960"
+  },
+  "retrieved_at": "2026-08-26T06:27:25Z"
+}

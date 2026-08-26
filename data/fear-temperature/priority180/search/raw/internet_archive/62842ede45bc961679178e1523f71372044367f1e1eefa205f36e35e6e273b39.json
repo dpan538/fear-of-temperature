@@ -1,0 +1,31 @@
+{
+  "body_sha256": "206e5b7e961983c773fc77fe91c54380dfd97e71d68f5b9f46e9e2d4053d7959",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 25,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 26,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;adverse impacts&quot; AND mediatype:texts AND date:[2014-01-01 TO 2016-12-31]",
+        "query": "(text:&quot;adverse impacts&quot; OR text:&quot;adverse impacts&quot; OR text__reviews:&quot;adverse impacts&quot;) AND mediatype:texts AND date:[2014-01-01T00\\:00\\:00Z TO 2016-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22adverse+impacts%22+AND+mediatype%3Atexts+AND+date%3A%5B2014-01-01+TO+2016-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:18:49 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:18:49Z"
+}

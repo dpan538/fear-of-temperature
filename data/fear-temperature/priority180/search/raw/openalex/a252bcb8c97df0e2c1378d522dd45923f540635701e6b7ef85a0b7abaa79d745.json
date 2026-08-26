@@ -1,0 +1,51 @@
+{
+  "body_sha256": "986a71c963eb405aa4c20f1b94e33b1e9cca26ed8ba22814e1deb95091a87e6e",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 19,
+      "db_response_time_ms": 47,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1988-01-01)\n  and full text has (\"climate warming\")\n  and date <= (1988-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1988-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"climate warming\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1988-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1988-01-01,fulltext.search.exact:%22climate warming%22,to_publication_date:1988-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2616615537"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22climate+warming%22&per-page=1&select=id&filter=from_publication_date%3A1988-01-01%2Cto_publication_date%3A1988-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:31 GMT",
+    "X-RateLimit-Remaining": "80"
+  },
+  "retrieved_at": "2026-08-26T06:28:31Z"
+}

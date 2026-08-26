@@ -1,0 +1,31 @@
+{
+  "body_sha256": "054bd5d38de79399c9e0d2b5a4562d4d4e3fa2db0e7623d0036c169743405568",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 101,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 40,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;very serious problem&quot; AND mediatype:texts",
+        "query": "(text:&quot;very serious problem&quot; OR text:&quot;very serious problem&quot; OR text__reviews:&quot;very serious problem&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22very+serious+problem%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:26 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:26Z"
+}

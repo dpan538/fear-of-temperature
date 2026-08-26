@@ -1,0 +1,31 @@
+{
+  "body_sha256": "1788b9316524378e24597c47f703309a7a1e8be0369c7d30066aa9bfa036c588",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 31,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;temperature observations&quot; AND mediatype:texts AND date:[1936-01-01 TO 1940-12-31]",
+        "query": "(text:&quot;temperature observations&quot; OR text:&quot;temperature observations&quot; OR text__reviews:&quot;temperature observations&quot;) AND mediatype:texts AND date:[1936-01-01T00\\:00\\:00Z TO 1940-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22temperature+observations%22+AND+mediatype%3Atexts+AND+date%3A%5B1936-01-01+TO+1940-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:58 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:58Z"
+}

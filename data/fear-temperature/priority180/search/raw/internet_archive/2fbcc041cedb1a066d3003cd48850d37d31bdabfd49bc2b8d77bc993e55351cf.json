@@ -1,0 +1,31 @@
+{
+  "body_sha256": "5987857e652b9c3acfc272e5c4e90c12977fb3b24eda01844cac69e19d0912a5",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 41908,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 37,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;atmosphere&quot; AND mediatype:texts",
+        "query": "(text:atmosphere OR text:atmosphere OR text__reviews:atmosphere) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22atmosphere%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:19 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:19Z"
+}

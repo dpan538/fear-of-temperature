@@ -1,0 +1,43 @@
+{
+  "body_sha256": "30b5fc8f21c70d6aaf5d0dbcb711bf677cfc8fdb608cf2e64b6e6225a38a80ea",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 53072,
+      "db_response_time_ms": 340,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"atmospheric pollution\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"atmospheric pollution\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22atmospheric pollution%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2170606104"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22atmospheric+pollution%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:55 GMT",
+    "X-RateLimit-Remaining": "540"
+  },
+  "retrieved_at": "2026-08-26T06:27:55Z"
+}

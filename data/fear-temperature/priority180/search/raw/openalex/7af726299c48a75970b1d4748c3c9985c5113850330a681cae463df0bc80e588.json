@@ -1,0 +1,51 @@
+{
+  "body_sha256": "80a9d58d49eca28a15aa203cd1775ab69eb9d4ff7e4e528d50d824fb980e0cd5",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 218,
+      "db_response_time_ms": 41,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (2006-01-01)\n  and full text has (\"coastal flooding\")\n  and date <= (2007-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2006-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"coastal flooding\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2007-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2006-01-01,fulltext.search.exact:%22coastal flooding%22,to_publication_date:2007-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2120136586"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22coastal+flooding%22&per-page=1&select=id&filter=from_publication_date%3A2006-01-01%2Cto_publication_date%3A2007-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:34 GMT",
+    "X-RateLimit-Remaining": "50"
+  },
+  "retrieved_at": "2026-08-26T06:28:34Z"
+}

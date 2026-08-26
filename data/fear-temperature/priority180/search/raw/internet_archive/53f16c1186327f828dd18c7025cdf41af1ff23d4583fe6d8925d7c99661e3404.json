@@ -1,0 +1,31 @@
+{
+  "body_sha256": "53ee5cead2783003c517876528b18a872dddcd964ea2f792e1bd0a46d77a6085",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 75,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 88,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;changes of temperature&quot; AND mediatype:texts",
+        "query": "(text:&quot;changes of temperature&quot; OR text:&quot;changes of temperature&quot; OR text__reviews:&quot;changes of temperature&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22changes+of+temperature%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:42 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:42Z"
+}

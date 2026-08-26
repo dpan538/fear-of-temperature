@@ -1,0 +1,31 @@
+{
+  "body_sha256": "d2cca39bc3b68ccd83953565446e88dbbda5469ba34159bfa41d9de199490d6f",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 34,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 27,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;angry&quot; AND mediatype:texts AND date:[2022-01-01 TO 2022-12-31]",
+        "query": "(text:angry OR text:angry OR text__reviews:angry) AND mediatype:texts AND date:[2022-01-01T00\\:00\\:00Z TO 2022-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22angry%22+AND+mediatype%3Atexts+AND+date%3A%5B2022-01-01+TO+2022-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:00 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:00Z"
+}

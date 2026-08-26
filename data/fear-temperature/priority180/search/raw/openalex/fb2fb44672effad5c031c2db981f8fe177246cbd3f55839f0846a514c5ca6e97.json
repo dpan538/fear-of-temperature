@@ -1,0 +1,43 @@
+{
+  "body_sha256": "f6e89969d6cef7758abd776062311ac61361c13a3a2a93cbafd76ca02849dcc0",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 41,
+      "db_response_time_ms": 958,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"Be Worried. Be Very Worried.\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"Be Worried. Be Very Worried.\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22Be Worried. Be Very Worried.%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2906123627"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22Be+Worried.+Be+Very+Worried.%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:02 GMT",
+    "X-RateLimit-Remaining": "450"
+  },
+  "retrieved_at": "2026-08-26T06:28:02Z"
+}

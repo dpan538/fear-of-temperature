@@ -1,0 +1,51 @@
+{
+  "body_sha256": "13587b1d5c6b8d2fa655b68b120b168e77a2a6d18194fe38b517b07c5f6d9424",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 127,
+      "db_response_time_ms": 83,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (2014-01-01)\n  and full text has (\"1.5°C above pre-industrial levels\")\n  and date <= (2016-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2014-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"1.5°C above pre-industrial levels\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2016-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2014-01-01,fulltext.search.exact:%221.5%C2%B0C above pre-industrial levels%22,to_publication_date:2016-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2490334915"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%221.5%C2%B0C+above+pre-industrial+levels%22&per-page=1&select=id&filter=from_publication_date%3A2014-01-01%2Cto_publication_date%3A2016-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:23 GMT",
+    "X-RateLimit-Remaining": "970"
+  },
+  "retrieved_at": "2026-08-26T06:27:23Z"
+}

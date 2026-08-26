@@ -1,0 +1,31 @@
+{
+  "body_sha256": "4588117390f626b37616898ca864c6a44f520c323fbebb99a4d9a57e2910f837",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 49,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;urgent global response&quot; AND mediatype:texts",
+        "query": "(text:&quot;urgent global response&quot; OR text:&quot;urgent global response&quot; OR text__reviews:&quot;urgent global response&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22urgent+global+response%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:20 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:20Z"
+}

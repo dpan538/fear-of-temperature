@@ -1,0 +1,31 @@
+{
+  "body_sha256": "0d1ab1ed98709ddff0357380aefa3c66f3ff7d72bc72f92100f8631512210ae8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 107,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;hottest spell for years&quot; AND mediatype:texts",
+        "query": "(text:&quot;hottest spell for years&quot; OR text:&quot;hottest spell for years&quot; OR text__reviews:&quot;hottest spell for years&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22hottest+spell+for+years%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:12 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:12Z"
+}

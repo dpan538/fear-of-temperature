@@ -1,0 +1,31 @@
+{
+  "body_sha256": "ef0485cedebf1ef2ea6a2c518a7392388c9a1b5e11e571cfde2f4d4e0d5ff7ad",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 24,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;worst impacts&quot; AND mediatype:texts AND date:[2005-01-01 TO 2008-12-31]",
+        "query": "(text:&quot;worst impacts&quot; OR text:&quot;worst impacts&quot; OR text__reviews:&quot;worst impacts&quot;) AND mediatype:texts AND date:[2005-01-01T00\\:00\\:00Z TO 2008-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22worst+impacts%22+AND+mediatype%3Atexts+AND+date%3A%5B2005-01-01+TO+2008-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:20 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:27:20Z"
+}

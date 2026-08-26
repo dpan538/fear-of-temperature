@@ -1,0 +1,31 @@
+{
+  "body_sha256": "2cefee5dde1e0729a9b2f9d01f1d1e7b4222f1373087d4c2c4f3eac750956941",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 23,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 29,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;eco-anxiety&quot; AND mediatype:texts",
+        "query": "(text:&quot;eco-anxiety&quot; OR text:&quot;eco-anxiety&quot; OR text__reviews:&quot;eco-anxiety&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22eco-anxiety%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:16 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:16Z"
+}

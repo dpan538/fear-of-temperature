@@ -1,0 +1,31 @@
+{
+  "body_sha256": "90d573fe4c0e696c0f40e954a571d855870372e4e5f23e3e78dbf5d8e87a1625",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 401,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;very serious threat&quot; AND mediatype:texts AND date:[2021-01-01 TO 2023-12-31]",
+        "query": "(text:&quot;very serious threat&quot; OR text:&quot;very serious threat&quot; OR text__reviews:&quot;very serious threat&quot;) AND mediatype:texts AND date:[2021-01-01T00\\:00\\:00Z TO 2023-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22very+serious+threat%22+AND+mediatype%3Atexts+AND+date%3A%5B2021-01-01+TO+2023-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:31 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:31Z"
+}

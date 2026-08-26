@@ -1,0 +1,31 @@
+{
+  "body_sha256": "8c7e32785bf9d0d836dfccc6957410cf7cdd750eb7824e4348fdae32e33ce9bc",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 61,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;evidence is pretty strong&quot; AND mediatype:texts AND date:[1986-01-01 TO 1990-12-31]",
+        "query": "(text:&quot;evidence is pretty strong&quot; OR text:&quot;evidence is pretty strong&quot; OR text__reviews:&quot;evidence is pretty strong&quot;) AND mediatype:texts AND date:[1986-01-01T00\\:00\\:00Z TO 1990-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22evidence+is+pretty+strong%22+AND+mediatype%3Atexts+AND+date%3A%5B1986-01-01+TO+1990-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:25 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:25Z"
+}

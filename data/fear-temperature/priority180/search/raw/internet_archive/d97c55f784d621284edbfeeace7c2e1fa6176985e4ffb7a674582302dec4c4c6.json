@@ -1,0 +1,31 @@
+{
+  "body_sha256": "35d98540e84b9733c76d8b2a122e859c1bd98e9eb83c68966d0505a30c8a8c45",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 659,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 39,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;major threat&quot; AND mediatype:texts",
+        "query": "(text:&quot;major threat&quot; OR text:&quot;major threat&quot; OR text__reviews:&quot;major threat&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22major+threat%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:40 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:40Z"
+}

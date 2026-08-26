@@ -1,0 +1,31 @@
+{
+  "body_sha256": "c92a958658773fbdbba612dfd116b8d3fa42260acee238f20a611fba8248ff71",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 333,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 53,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;vulnerability&quot; AND mediatype:texts AND date:[2015-01-01 TO 2015-12-31]",
+        "query": "(text:vulnerability OR text:vulnerability OR text__reviews:vulnerability) AND mediatype:texts AND date:[2015-01-01T00\\:00\\:00Z TO 2015-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22vulnerability%22+AND+mediatype%3Atexts+AND+date%3A%5B2015-01-01+TO+2015-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:37 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:37Z"
+}

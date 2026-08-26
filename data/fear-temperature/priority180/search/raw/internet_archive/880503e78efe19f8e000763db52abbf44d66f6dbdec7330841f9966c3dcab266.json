@@ -1,0 +1,31 @@
+{
+  "body_sha256": "79a4c631524ca552e6818a172aaea582d8c0ac402354fe60cb25a35a89113386",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 7,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 26,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;carbon dioxide&quot; AND mediatype:texts AND date:[1938-01-01 TO 1938-12-31]",
+        "query": "(text:&quot;carbon dioxide&quot; OR text:&quot;carbon dioxide&quot; OR text__reviews:&quot;carbon dioxide&quot;) AND mediatype:texts AND date:[1938-01-01T00\\:00\\:00Z TO 1938-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22carbon+dioxide%22+AND+mediatype%3Atexts+AND+date%3A%5B1938-01-01+TO+1938-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:34 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:35Z"
+}

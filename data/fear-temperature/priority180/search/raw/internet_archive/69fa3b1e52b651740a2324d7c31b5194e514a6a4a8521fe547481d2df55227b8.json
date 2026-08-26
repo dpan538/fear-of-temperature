@@ -1,0 +1,31 @@
+{
+  "body_sha256": "5fe24a85ec45f7974890ce48ffc4e551188062131b9d06ce4cb7a41859ffdf4a",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 281,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;premature heat of the weather&quot; AND mediatype:texts",
+        "query": "(text:&quot;premature heat of the weather&quot; OR text:&quot;premature heat of the weather&quot; OR text__reviews:&quot;premature heat of the weather&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22premature+heat+of+the+weather%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:38 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:38Z"
+}

@@ -1,0 +1,43 @@
+{
+  "body_sha256": "35579d07a6f1151537946f1b0c9c349a94ac27e928498d117f4ae9e437267562",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 3201156,
+      "db_response_time_ms": 295,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"atmosphere\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "atmosphere"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:atmosphere&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W67812752"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22atmosphere%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:54 GMT",
+    "X-RateLimit-Remaining": "570"
+  },
+  "retrieved_at": "2026-08-26T06:27:54Z"
+}

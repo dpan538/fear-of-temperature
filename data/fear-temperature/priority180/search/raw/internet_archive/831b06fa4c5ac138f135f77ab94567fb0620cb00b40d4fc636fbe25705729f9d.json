@@ -1,0 +1,31 @@
+{
+  "body_sha256": "a79b98ec53ee3007612cf2d35594f15fd04efbc4473c9089c0f5ff948f5f0df9",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 56,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;heat-related mortality&quot; AND mediatype:texts AND date:[2021-01-01 TO 2023-12-31]",
+        "query": "(text:&quot;heat-related mortality&quot; OR text:&quot;heat-related mortality&quot; OR text__reviews:&quot;heat-related mortality&quot;) AND mediatype:texts AND date:[2021-01-01T00\\:00\\:00Z TO 2023-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22heat-related+mortality%22+AND+mediatype%3Atexts+AND+date%3A%5B2021-01-01+TO+2023-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:00 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:00Z"
+}

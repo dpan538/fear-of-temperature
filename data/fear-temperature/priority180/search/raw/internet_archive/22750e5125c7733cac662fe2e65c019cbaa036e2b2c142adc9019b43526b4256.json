@@ -1,0 +1,31 @@
+{
+  "body_sha256": "8044421bdcca1bbab39ad4e6de0e4ca0dd0766907941e9afda059863cd9d910d",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 31,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;harm future generations&quot; AND mediatype:texts AND date:[2021-01-01 TO 2023-12-31]",
+        "query": "(text:&quot;harm future generations&quot; OR text:&quot;harm future generations&quot; OR text__reviews:&quot;harm future generations&quot;) AND mediatype:texts AND date:[2021-01-01T00\\:00\\:00Z TO 2023-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22harm+future+generations%22+AND+mediatype%3Atexts+AND+date%3A%5B2021-01-01+TO+2023-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:33 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:33Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "a28778d21f43670bee23e9ef0da641989fe77de51e99a68a496590937791bee6",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 181,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;harm them personally&quot; AND mediatype:texts AND date:[2014-01-01 TO 2016-12-31]",
+        "query": "(text:&quot;harm them personally&quot; OR text:&quot;harm them personally&quot; OR text__reviews:&quot;harm them personally&quot;) AND mediatype:texts AND date:[2014-01-01T00\\:00\\:00Z TO 2016-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22harm+them+personally%22+AND+mediatype%3Atexts+AND+date%3A%5B2014-01-01+TO+2016-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:36 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:36Z"
+}

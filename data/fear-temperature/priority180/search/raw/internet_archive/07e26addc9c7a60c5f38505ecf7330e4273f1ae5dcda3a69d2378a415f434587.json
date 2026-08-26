@@ -1,0 +1,31 @@
+{
+  "body_sha256": "29375374e439bb8ff57eeae5a1c3aaf50dba63291aa482a187abcfc5c6190a7e",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 25,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;scorching westerly wind&quot; AND mediatype:texts",
+        "query": "(text:&quot;scorching westerly wind&quot; OR text:&quot;scorching westerly wind&quot; OR text__reviews:&quot;scorching westerly wind&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22scorching+westerly+wind%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:12 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:12Z"
+}

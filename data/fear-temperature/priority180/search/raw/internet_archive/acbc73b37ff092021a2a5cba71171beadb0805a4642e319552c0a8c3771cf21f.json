@@ -1,0 +1,31 @@
+{
+  "body_sha256": "43cb7fb26f278ab317718ff4421c2b3bd26c4199fa28156db86ef17ce5d2077c",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 660,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 38,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;fuel combustion&quot; AND mediatype:texts",
+        "query": "(text:&quot;fuel combustion&quot; OR text:&quot;fuel combustion&quot; OR text__reviews:&quot;fuel combustion&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22fuel+combustion%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:42 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:42Z"
+}

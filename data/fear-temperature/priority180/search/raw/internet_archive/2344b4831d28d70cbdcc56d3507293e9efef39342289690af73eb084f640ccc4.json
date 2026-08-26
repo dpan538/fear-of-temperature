@@ -1,0 +1,31 @@
+{
+  "body_sha256": "82e7afc77752ff30bac528fac58f9e5b003a7d474942b7fd223312b325572814",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 38,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;weather is just bearable&quot; AND mediatype:texts",
+        "query": "(text:&quot;weather is just bearable&quot; OR text:&quot;weather is just bearable&quot; OR text__reviews:&quot;weather is just bearable&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22weather+is+just+bearable%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:59 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:27:00Z"
+}

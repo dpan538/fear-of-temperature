@@ -1,0 +1,31 @@
+{
+  "body_sha256": "c886a480ec94ac4b210636d514d4253e8e1f3fd7f1c52063f93a4579733543f8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 30,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;degradation of the atmosphere&quot; AND mediatype:texts",
+        "query": "(text:&quot;degradation of the atmosphere&quot; OR text:&quot;degradation of the atmosphere&quot; OR text__reviews:&quot;degradation of the atmosphere&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22degradation+of+the+atmosphere%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:40 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:40Z"
+}

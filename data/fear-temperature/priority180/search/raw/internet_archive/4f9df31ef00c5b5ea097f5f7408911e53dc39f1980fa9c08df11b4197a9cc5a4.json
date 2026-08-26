@@ -1,0 +1,31 @@
+{
+  "body_sha256": "01ec17600691119e9abac7dcf1f3f8fa8c4a34379384d746c43b334675ef4551",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 5,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 40,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;atmospheric pollution&quot; AND mediatype:texts AND date:[1988-01-01 TO 1988-12-31]",
+        "query": "(text:&quot;atmospheric pollution&quot; OR text:&quot;atmospheric pollution&quot; OR text__reviews:&quot;atmospheric pollution&quot;) AND mediatype:texts AND date:[1988-01-01T00\\:00\\:00Z TO 1988-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22atmospheric+pollution%22+AND+mediatype%3Atexts+AND+date%3A%5B1988-01-01+TO+1988-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:23 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:23Z"
+}

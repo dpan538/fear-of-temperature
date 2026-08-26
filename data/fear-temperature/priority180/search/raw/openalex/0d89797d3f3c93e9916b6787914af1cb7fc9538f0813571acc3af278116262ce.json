@@ -1,0 +1,51 @@
+{
+  "body_sha256": "ecf948a4858a4fe46656ce5e6132464f3e85e5b7e555e268c7d4061fe77f9226",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 36414,
+      "db_response_time_ms": 19,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (2022-01-01)\n  and full text has (\"anxious\")\n  and date <= (2022-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2022-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "anxious"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2022-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2022-01-01,fulltext.search.exact:anxious,to_publication_date:2022-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4293659845"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22anxious%22&per-page=1&select=id&filter=from_publication_date%3A2022-01-01%2Cto_publication_date%3A2022-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:50 GMT",
+    "X-RateLimit-Remaining": "620"
+  },
+  "retrieved_at": "2026-08-26T06:27:49Z"
+}

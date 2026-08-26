@@ -1,0 +1,31 @@
+{
+  "body_sha256": "022b1be908da13b46618c02535d8290d0ca376b29116484d773833c80831c4ee",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 115,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 16,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;heatwaves&quot; AND mediatype:texts",
+        "query": "(text:heatwaves OR text:heatwaves OR text__reviews:heatwaves) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22heatwaves%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:01 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:01Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "89d50363fb458a4db66b9d6b490cc0d9d6f656a275086d50b555a8187d73114a",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 120,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;heat of the men&quot; AND mediatype:texts",
+        "query": "(text:&quot;heat of the men&quot; OR text:&quot;heat of the men&quot; OR text__reviews:&quot;heat of the men&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22heat+of+the+men%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:43 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:43Z"
+}

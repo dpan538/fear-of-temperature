@@ -1,0 +1,31 @@
+{
+  "body_sha256": "2db4bbd6bf428340e8b470421d2464f19b275e6816aeceb3a2a8dd2e914f0995",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 4932,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 26,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;hopeful&quot; AND mediatype:texts",
+        "query": "(text:hopeful OR text:hopeful OR text__reviews:hopeful) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22hopeful%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:04 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:04Z"
+}

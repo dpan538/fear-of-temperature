@@ -1,0 +1,31 @@
+{
+  "body_sha256": "5347010584abc38d352b6e9a56ec12e9292ed581485e0fe1e6623845b6aedea9",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 50,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;slow onset events&quot; AND mediatype:texts AND date:[2014-01-01 TO 2016-12-31]",
+        "query": "(text:&quot;slow onset events&quot; OR text:&quot;slow onset events&quot; OR text__reviews:&quot;slow onset events&quot;) AND mediatype:texts AND date:[2014-01-01T00\\:00\\:00Z TO 2016-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22slow+onset+events%22+AND+mediatype%3Atexts+AND+date%3A%5B2014-01-01+TO+2016-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:31 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:31Z"
+}

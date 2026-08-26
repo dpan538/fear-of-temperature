@@ -1,0 +1,51 @@
+{
+  "body_sha256": "246a4c529f2960d5598d2923024d55a5a67c2ab3bb2800340bf8d47af518604a",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 714,
+      "db_response_time_ms": 46,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1986-01-01)\n  and full text has (\"atmospheric pollution\")\n  and date <= (1990-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1986-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"atmospheric pollution\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1990-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1986-01-01,fulltext.search.exact:%22atmospheric pollution%22,to_publication_date:1990-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2000984687"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22atmospheric+pollution%22&per-page=1&select=id&filter=from_publication_date%3A1986-01-01%2Cto_publication_date%3A1990-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:57 GMT",
+    "X-RateLimit-Remaining": "520"
+  },
+  "retrieved_at": "2026-08-26T06:27:57Z"
+}

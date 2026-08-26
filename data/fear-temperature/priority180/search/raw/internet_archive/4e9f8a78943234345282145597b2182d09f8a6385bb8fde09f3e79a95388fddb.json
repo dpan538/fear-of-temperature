@@ -1,0 +1,31 @@
+{
+  "body_sha256": "b3b2cd587f02516d0172c33e02c0c1532221fdb5be9dc780357349fba90e3cb8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 45,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;threatens serious negative effects&quot; AND mediatype:texts",
+        "query": "(text:&quot;threatens serious negative effects&quot; OR text:&quot;threatens serious negative effects&quot; OR text__reviews:&quot;threatens serious negative effects&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22threatens+serious+negative+effects%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:08 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:08Z"
+}

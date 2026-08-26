@@ -1,0 +1,31 @@
+{
+  "body_sha256": "a33c75b208b95f40fc798467b08477faf50f4083c26ff7bfc70e1665cc5f9654",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 32,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;hottest spell for years&quot; AND mediatype:texts AND date:[1936-01-01 TO 1940-12-31]",
+        "query": "(text:&quot;hottest spell for years&quot; OR text:&quot;hottest spell for years&quot; OR text__reviews:&quot;hottest spell for years&quot;) AND mediatype:texts AND date:[1936-01-01T00\\:00\\:00Z TO 1940-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22hottest+spell+for+years%22+AND+mediatype%3Atexts+AND+date%3A%5B1936-01-01+TO+1940-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:14 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:14Z"
+}

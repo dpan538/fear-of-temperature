@@ -1,0 +1,31 @@
+{
+  "body_sha256": "0f5a7d55b40449f9ffe6ec11f0442c27532b7434cbcffc09d930dda0724c297d",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 52,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;earth is warmer&quot; AND mediatype:texts",
+        "query": "(text:&quot;earth is warmer&quot; OR text:&quot;earth is warmer&quot; OR text__reviews:&quot;earth is warmer&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22earth+is+warmer%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:13 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:13Z"
+}

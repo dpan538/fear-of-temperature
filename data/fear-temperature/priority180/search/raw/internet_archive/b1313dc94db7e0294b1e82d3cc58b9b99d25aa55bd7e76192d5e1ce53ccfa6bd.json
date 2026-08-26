@@ -1,0 +1,31 @@
+{
+  "body_sha256": "5d6148aa0fda84b4665a479f20aaf9c8c130d28cc454339ca6824e6e382a46e3",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 2,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 36,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;standard thermometer&quot; AND mediatype:texts",
+        "query": "(text:&quot;standard thermometer&quot; OR text:&quot;standard thermometer&quot; OR text__reviews:&quot;standard thermometer&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22standard+thermometer%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:39 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:39Z"
+}

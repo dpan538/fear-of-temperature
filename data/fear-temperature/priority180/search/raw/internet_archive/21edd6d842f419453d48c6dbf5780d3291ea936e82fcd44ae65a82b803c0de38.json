@@ -1,0 +1,31 @@
+{
+  "body_sha256": "f7091ef17201c869d1aecf5de81104ddb634e63934e2e5a89a185d366d0ebc6e",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 250,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;heat of the irons&quot; AND mediatype:texts AND date:[1839-01-01 TO 1845-12-31]",
+        "query": "(text:&quot;heat of the irons&quot; OR text:&quot;heat of the irons&quot; OR text__reviews:&quot;heat of the irons&quot;) AND mediatype:texts AND date:[1839-01-01T00\\:00\\:00Z TO 1845-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22heat+of+the+irons%22+AND+mediatype%3Atexts+AND+date%3A%5B1839-01-01+TO+1845-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:42 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:42Z"
+}

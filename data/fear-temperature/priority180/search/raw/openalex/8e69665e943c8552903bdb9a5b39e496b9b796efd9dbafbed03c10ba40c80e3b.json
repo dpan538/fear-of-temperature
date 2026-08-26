@@ -1,0 +1,51 @@
+{
+  "body_sha256": "4bc3fb2ed9227eca3a437e64d41709245d7cf7727b1a1600e0ab182b4d030a2b",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 2378,
+      "db_response_time_ms": 57,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1938-01-01)\n  and full text has (\"air\")\n  and date <= (1938-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1938-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "air"
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1938-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1938-01-01,fulltext.search.exact:air,to_publication_date:1938-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2333134974"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22air%22&per-page=1&select=id&filter=from_publication_date%3A1938-01-01%2Cto_publication_date%3A1938-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:36 GMT",
+    "X-RateLimit-Remaining": "800"
+  },
+  "retrieved_at": "2026-08-26T06:27:36Z"
+}

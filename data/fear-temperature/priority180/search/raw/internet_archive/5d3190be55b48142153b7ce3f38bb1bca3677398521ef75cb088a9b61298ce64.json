@@ -1,0 +1,31 @@
+{
+  "body_sha256": "f22535571688082da62787b2beefe42a370c6623ec30ea4017b75101a3c3ae32",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 551,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 16,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;perspiration&quot; AND mediatype:texts",
+        "query": "(text:perspiration OR text:perspiration OR text__reviews:perspiration) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22perspiration%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:21 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:22Z"
+}

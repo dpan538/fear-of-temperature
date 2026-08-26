@@ -1,0 +1,31 @@
+{
+  "body_sha256": "c9aa42dbfce09345d1c5dc74d63f9e588dfb8a7a14252788bd3806695ca976d8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 62,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 44,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;depressing effect&quot; AND mediatype:texts",
+        "query": "(text:&quot;depressing effect&quot; OR text:&quot;depressing effect&quot; OR text__reviews:&quot;depressing effect&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22depressing+effect%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:47 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:47Z"
+}

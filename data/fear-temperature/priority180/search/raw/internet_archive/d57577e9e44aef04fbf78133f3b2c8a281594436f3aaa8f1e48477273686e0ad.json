@@ -1,0 +1,31 @@
+{
+  "body_sha256": "b861823c11c747e49e3420857836cc59796c92246eabbc354138538f0996b4aa",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1084,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 71,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;ill health&quot; AND mediatype:texts",
+        "query": "(text:&quot;ill health&quot; OR text:&quot;ill health&quot; OR text__reviews:&quot;ill health&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22ill+health%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:18 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:18Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "bcce8bf286f6496b484c839397a21efe681b3fde1d32beabcdd9c7e995b674e1",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 61,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 28,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;premature deaths&quot; AND mediatype:texts",
+        "query": "(text:&quot;premature deaths&quot; OR text:&quot;premature deaths&quot; OR text__reviews:&quot;premature deaths&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22premature+deaths%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:34 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:34Z"
+}

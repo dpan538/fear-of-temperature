@@ -1,0 +1,31 @@
+{
+  "body_sha256": "101905f137eaf4e209c8ee42d73c7b346b1ea3d06014ff1368d5b1c30e6354d2",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 3,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 80,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;1.5&deg;C above pre-industrial levels&quot; AND mediatype:texts",
+        "query": "(text:&quot;1.5&deg;C above pre-industrial levels&quot; OR text:&quot;1.5&deg;C above pre-industrial levels&quot; OR text__reviews:&quot;1.5&deg;C above pre-industrial levels&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%221.5%C2%B0C+above+pre-industrial+levels%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:18:33 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:18:33Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "bb951da5496c5bdbcafa5e56ebbc747bf95189513f9e703ff6cfe9ab74147f3e",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 694,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 49,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;psychological distress&quot; AND mediatype:texts",
+        "query": "(text:&quot;psychological distress&quot; OR text:&quot;psychological distress&quot; OR text__reviews:&quot;psychological distress&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22psychological+distress%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:41 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:41Z"
+}

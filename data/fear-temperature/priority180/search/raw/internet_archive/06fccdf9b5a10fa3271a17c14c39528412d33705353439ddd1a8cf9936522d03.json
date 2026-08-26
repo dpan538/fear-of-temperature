@@ -1,0 +1,31 @@
+{
+  "body_sha256": "59da74a9a190e3cd8bfe91bd7a4a0a4ef1c20edda9e7c37663018ab05e17103b",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 28,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;pitiless sun&quot; AND mediatype:texts AND date:[1936-01-01 TO 1940-12-31]",
+        "query": "(text:&quot;pitiless sun&quot; OR text:&quot;pitiless sun&quot; OR text__reviews:&quot;pitiless sun&quot;) AND mediatype:texts AND date:[1936-01-01T00\\:00\\:00Z TO 1940-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22pitiless+sun%22+AND+mediatype%3Atexts+AND+date%3A%5B1936-01-01+TO+1940-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:27 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:27Z"
+}

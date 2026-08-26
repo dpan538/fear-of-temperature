@@ -1,0 +1,31 @@
+{
+  "body_sha256": "a24e2d74bd18cf7f6e0bcf137ce2a76b5a56ec34cd6afd634508e78db4862d89",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 411,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 169,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;meteorological journal&quot; AND mediatype:texts",
+        "query": "(text:&quot;meteorological journal&quot; OR text:&quot;meteorological journal&quot; OR text__reviews:&quot;meteorological journal&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22meteorological+journal%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:55 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:55Z"
+}

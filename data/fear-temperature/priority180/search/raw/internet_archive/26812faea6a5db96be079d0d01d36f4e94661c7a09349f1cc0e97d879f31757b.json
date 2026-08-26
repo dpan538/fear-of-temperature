@@ -1,0 +1,31 @@
+{
+  "body_sha256": "b4ec592d7abf680ce86cbe4dbfee440f38ebf9f33c403531cd19efaffcf18214",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1217,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 37,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;dew point&quot; AND mediatype:texts",
+        "query": "(text:&quot;dew point&quot; OR text:&quot;dew point&quot; OR text__reviews:&quot;dew point&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22dew+point%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:49 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:50Z"
+}

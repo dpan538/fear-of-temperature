@@ -1,0 +1,31 @@
+{
+  "body_sha256": "3ae3720e07d3342ad97c547e4e7b6be19f14856be17d3125b651ff1a1ea3f76f",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 21,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 23,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;climate&quot; AND mediatype:texts AND date:[1842-01-01 TO 1842-12-31]",
+        "query": "(text:climate OR text:climate OR text__reviews:climate) AND mediatype:texts AND date:[1842-01-01T00\\:00\\:00Z TO 1842-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22climate%22+AND+mediatype%3Atexts+AND+date%3A%5B1842-01-01+TO+1842-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:49 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:49Z"
+}

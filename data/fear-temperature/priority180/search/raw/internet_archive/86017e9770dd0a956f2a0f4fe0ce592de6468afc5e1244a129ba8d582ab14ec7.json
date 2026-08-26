@@ -1,0 +1,31 @@
+{
+  "body_sha256": "c27566d57a5b08d9a31a79e75a379e65f0f02fd95e404d5914b40a8933629ee0",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 56,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;rather a coincidence&quot; AND mediatype:texts",
+        "query": "(text:&quot;rather a coincidence&quot; OR text:&quot;rather a coincidence&quot; OR text__reviews:&quot;rather a coincidence&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22rather+a+coincidence%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:51 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:51Z"
+}

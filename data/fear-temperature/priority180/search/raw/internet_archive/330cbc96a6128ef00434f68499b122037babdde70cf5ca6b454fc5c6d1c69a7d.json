@@ -1,0 +1,31 @@
+{
+  "body_sha256": "95c9e4da1f7b4a4bb19c25f1b90ce3f0b2e219709ce2999fd88c3c0c0d1ec5a3",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 27,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;fuel combustion&quot; AND mediatype:texts AND date:[1938-01-01 TO 1938-12-31]",
+        "query": "(text:&quot;fuel combustion&quot; OR text:&quot;fuel combustion&quot; OR text__reviews:&quot;fuel combustion&quot;) AND mediatype:texts AND date:[1938-01-01T00\\:00\\:00Z TO 1938-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22fuel+combustion%22+AND+mediatype%3Atexts+AND+date%3A%5B1938-01-01+TO+1938-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:43 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:43Z"
+}

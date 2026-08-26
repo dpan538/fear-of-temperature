@@ -1,0 +1,31 @@
+{
+  "body_sha256": "33da38f2296e69536047e99ba40a297c5c43762887dd3f6bc621142d6315df58",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 8299,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 45,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;guilt&quot; AND mediatype:texts",
+        "query": "(text:guilt OR text:guilt OR text__reviews:guilt) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22guilt%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:28 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:28Z"
+}

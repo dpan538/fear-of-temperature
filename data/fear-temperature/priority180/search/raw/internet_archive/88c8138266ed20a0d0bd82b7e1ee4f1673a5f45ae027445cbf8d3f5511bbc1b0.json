@@ -1,0 +1,31 @@
+{
+  "body_sha256": "d5efff5772a0876b92078a776fc42dd017b6d999673759cfdcd3c2d2643d5551",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 145,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 33,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;climate justice&quot; AND mediatype:texts",
+        "query": "(text:&quot;climate justice&quot; OR text:&quot;climate justice&quot; OR text__reviews:&quot;climate justice&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22climate+justice%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:00 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:00Z"
+}

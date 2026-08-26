@@ -1,0 +1,31 @@
+{
+  "body_sha256": "ca81814567f92ac6fafd720731b301510d921fd39506abad03bcd44e631306d4",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 9,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 24,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;disgusted&quot; AND mediatype:texts AND date:[2021-01-01 TO 2023-12-31]",
+        "query": "(text:disgusted OR text:disgusted OR text__reviews:disgusted) AND mediatype:texts AND date:[2021-01-01T00\\:00\\:00Z TO 2023-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22disgusted%22+AND+mediatype%3Atexts+AND+date%3A%5B2021-01-01+TO+2023-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:55 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:55Z"
+}

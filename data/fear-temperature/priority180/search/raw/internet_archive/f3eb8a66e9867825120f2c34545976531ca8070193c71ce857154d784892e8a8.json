@@ -1,0 +1,31 @@
+{
+  "body_sha256": "fb968046305de510af94a8d3de9841f801c0f3aace0e37725a1954025aee0de8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 55,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;We are nature defending itself&quot; AND mediatype:texts",
+        "query": "(text:&quot;We are nature defending itself&quot; OR text:&quot;We are nature defending itself&quot; OR text__reviews:&quot;We are nature defending itself&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22We+are+nature+defending+itself%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:54 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:54Z"
+}

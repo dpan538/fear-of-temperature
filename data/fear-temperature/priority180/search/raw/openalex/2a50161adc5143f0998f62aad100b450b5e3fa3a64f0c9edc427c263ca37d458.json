@@ -1,0 +1,43 @@
+{
+  "body_sha256": "ca061eae0e1c6e3630a94c178f1acf3b0f9af20abf0a6739c212546f3bc6842a",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 2549592,
+      "db_response_time_ms": 414,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"climate change\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"climate change\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22climate change%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2939474406"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22climate+change%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:23 GMT",
+    "X-RateLimit-Remaining": "210"
+  },
+  "retrieved_at": "2026-08-26T06:28:23Z"
+}

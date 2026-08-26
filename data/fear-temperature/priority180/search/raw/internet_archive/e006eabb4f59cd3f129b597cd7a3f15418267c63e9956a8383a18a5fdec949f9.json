@@ -1,0 +1,31 @@
+{
+  "body_sha256": "787a483930c44fcff22176d2a4c81907e9b8f5b0cc005085152d5dfab036f6fc",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 50,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;40-degree temperatures&quot; AND mediatype:texts",
+        "query": "(text:&quot;40-degree temperatures&quot; OR text:&quot;40-degree temperatures&quot; OR text__reviews:&quot;40-degree temperatures&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%2240-degree+temperatures%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:18:37 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:18:37Z"
+}

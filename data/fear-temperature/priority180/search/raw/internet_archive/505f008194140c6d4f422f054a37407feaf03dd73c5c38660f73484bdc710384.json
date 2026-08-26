@@ -1,0 +1,31 @@
+{
+  "body_sha256": "16e71e6a407d017ec52c721cfe51005640b1cd2048d496c3c422ef2b0e8ffa35",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 48,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;Global Warming Has Begun&quot; AND mediatype:texts AND date:[1988-01-01 TO 1988-12-31]",
+        "query": "(text:&quot;Global Warming Has Begun&quot; OR text:&quot;Global Warming Has Begun&quot; OR text__reviews:&quot;Global Warming Has Begun&quot;) AND mediatype:texts AND date:[1988-01-01T00\\:00\\:00Z TO 1988-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22Global+Warming+Has+Begun%22+AND+mediatype%3Atexts+AND+date%3A%5B1988-01-01+TO+1988-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:10 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:10Z"
+}

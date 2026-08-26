@@ -1,0 +1,31 @@
+{
+  "body_sha256": "2f8491e52f86d33524122b885022530f5f7967b823fe6b4b9a7261cc2305b745",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 30,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;grave threats&quot; AND mediatype:texts AND date:[1986-01-01 TO 1990-12-31]",
+        "query": "(text:&quot;grave threats&quot; OR text:&quot;grave threats&quot; OR text__reviews:&quot;grave threats&quot;) AND mediatype:texts AND date:[1986-01-01T00\\:00\\:00Z TO 1990-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22grave+threats%22+AND+mediatype%3Atexts+AND+date%3A%5B1986-01-01+TO+1990-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:17 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:17Z"
+}

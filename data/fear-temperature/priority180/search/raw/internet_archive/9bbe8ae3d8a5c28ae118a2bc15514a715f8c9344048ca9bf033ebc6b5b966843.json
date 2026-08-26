@@ -1,0 +1,31 @@
+{
+  "body_sha256": "1ca5bac14e0e2839816369990876ac7bf5422a23cbeef3468f15b05dd156e24a",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 35,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;most suffocating&quot; AND mediatype:texts",
+        "query": "(text:&quot;most suffocating&quot; OR text:&quot;most suffocating&quot; OR text__reviews:&quot;most suffocating&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22most+suffocating%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:08 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:08Z"
+}

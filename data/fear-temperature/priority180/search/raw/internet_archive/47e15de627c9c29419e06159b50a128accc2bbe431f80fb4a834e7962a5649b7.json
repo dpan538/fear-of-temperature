@@ -1,0 +1,31 @@
+{
+  "body_sha256": "54e23ecbbe36204bd65e0b795ee4cc51665bd065cc14bb385b143d747a9f5d98",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 4,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 200,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;pitiless sun&quot; AND mediatype:texts",
+        "query": "(text:&quot;pitiless sun&quot; OR text:&quot;pitiless sun&quot; OR text__reviews:&quot;pitiless sun&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22pitiless+sun%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:25 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:25Z"
+}

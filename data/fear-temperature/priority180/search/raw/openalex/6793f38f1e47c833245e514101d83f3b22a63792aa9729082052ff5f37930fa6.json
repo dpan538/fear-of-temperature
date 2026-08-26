@@ -1,0 +1,51 @@
+{
+  "body_sha256": "2fc285bcccb8a5affe15dd0e6698d7308477ba752207dbafb845a642dee23cc9",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 2,
+      "db_response_time_ms": 64,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (2005-01-01)\n  and full text has (\"Be Worried. Be Very Worried.\")\n  and date <= (2008-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2005-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"Be Worried. Be Very Worried.\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2008-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2005-01-01,fulltext.search.exact:%22Be Worried. Be Very Worried.%22,to_publication_date:2008-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2029996155"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22Be+Worried.+Be+Very+Worried.%22&per-page=1&select=id&filter=from_publication_date%3A2005-01-01%2Cto_publication_date%3A2008-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:03 GMT",
+    "X-RateLimit-Remaining": "430"
+  },
+  "retrieved_at": "2026-08-26T06:28:03Z"
+}

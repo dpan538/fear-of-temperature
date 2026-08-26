@@ -1,0 +1,31 @@
+{
+  "body_sha256": "8cab25e97637816d42503967979ec63c54c7e6b4f1fa228ebc9802f6f730242d",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 221,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 35,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;atmospheric pollution&quot; AND mediatype:texts",
+        "query": "(text:&quot;atmospheric pollution&quot; OR text:&quot;atmospheric pollution&quot; OR text__reviews:&quot;atmospheric pollution&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22atmospheric+pollution%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:22 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:22Z"
+}

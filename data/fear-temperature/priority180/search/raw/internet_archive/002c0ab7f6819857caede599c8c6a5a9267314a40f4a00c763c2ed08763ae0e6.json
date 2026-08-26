@@ -1,0 +1,31 @@
+{
+  "body_sha256": "a22e2e8d5547609f0f0ae993d40f5f01224d8262f17173a16830f2dd4e0770aa",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 42,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;artificial production of carbon dioxide&quot; AND mediatype:texts AND date:[1936-01-01 TO 1940-12-31]",
+        "query": "(text:&quot;artificial production of carbon dioxide&quot; OR text:&quot;artificial production of carbon dioxide&quot; OR text__reviews:&quot;artificial production of carbon dioxide&quot;) AND mediatype:texts AND date:[1936-01-01T00\\:00\\:00Z TO 1940-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22artificial+production+of+carbon+dioxide%22+AND+mediatype%3Atexts+AND+date%3A%5B1936-01-01+TO+1940-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:18 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:18Z"
+}

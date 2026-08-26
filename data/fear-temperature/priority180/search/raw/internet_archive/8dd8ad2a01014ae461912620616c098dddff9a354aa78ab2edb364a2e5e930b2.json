@@ -1,0 +1,31 @@
+{
+  "body_sha256": "8a625ed7f3b93d787e25766fcea637ddf1e842f1b3487f1b48f42ce7da342ee4",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 8,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 47,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;anthropogenic CO₂&quot; AND mediatype:texts",
+        "query": "(text:&quot;anthropogenic CO₂&quot; OR text:&quot;anthropogenic CO₂&quot; OR text__reviews:&quot;anthropogenic CO₂&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22anthropogenic+CO%E2%82%82%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:03 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:03Z"
+}

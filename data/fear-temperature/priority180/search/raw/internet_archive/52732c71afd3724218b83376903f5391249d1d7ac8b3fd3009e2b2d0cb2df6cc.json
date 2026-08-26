@@ -1,0 +1,31 @@
+{
+  "body_sha256": "a7cac6620cd628bece3c981aba6979c6ba3d8f78f755b343442fecd1be995748",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 6,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 84,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;increase in mean temperature&quot; AND mediatype:texts",
+        "query": "(text:&quot;increase in mean temperature&quot; OR text:&quot;increase in mean temperature&quot; OR text__reviews:&quot;increase in mean temperature&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22increase+in+mean+temperature%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:27 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:27Z"
+}

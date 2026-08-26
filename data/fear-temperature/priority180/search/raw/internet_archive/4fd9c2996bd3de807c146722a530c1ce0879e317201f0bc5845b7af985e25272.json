@@ -1,0 +1,31 @@
+{
+  "body_sha256": "afdd13e4538b52420f54089bb86992b79dec652d7cbb4b3ef38fb06edfa27b02",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 2,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 38,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;harmful consequences&quot; AND mediatype:texts AND date:[1988-01-01 TO 1988-12-31]",
+        "query": "(text:&quot;harmful consequences&quot; OR text:&quot;harmful consequences&quot; OR text__reviews:&quot;harmful consequences&quot;) AND mediatype:texts AND date:[1988-01-01T00\\:00\\:00Z TO 1988-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22harmful+consequences%22+AND+mediatype%3Atexts+AND+date%3A%5B1988-01-01+TO+1988-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:38 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:38Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "dfd24091b7df89dadb295b86be207c2914dce6058d892205f05d458e448ba465",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 359,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 42,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;vulnerable groups&quot; AND mediatype:texts",
+        "query": "(text:&quot;vulnerable groups&quot; OR text:&quot;vulnerable groups&quot; OR text__reviews:&quot;vulnerable groups&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22vulnerable+groups%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:39 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:39Z"
+}

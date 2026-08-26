@@ -1,0 +1,43 @@
+{
+  "body_sha256": "44e743148a6243fa1064fafb3e85db5e0d384bc9925b8230f17bf6f21880d311",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 12037,
+      "db_response_time_ms": 3324,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"changes of temperature\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"changes of temperature\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22changes of temperature%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2160084442"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22changes+of+temperature%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:16 GMT",
+    "X-RateLimit-Remaining": "330"
+  },
+  "retrieved_at": "2026-08-26T06:28:16Z"
+}

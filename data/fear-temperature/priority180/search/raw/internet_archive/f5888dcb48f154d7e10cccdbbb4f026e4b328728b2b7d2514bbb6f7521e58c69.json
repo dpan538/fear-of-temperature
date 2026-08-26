@@ -1,0 +1,31 @@
+{
+  "body_sha256": "587ec5d3bab052f4c86b2124f63d566ca2aba4ac1e675b2408915ab4de7514ab",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1441,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 45,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;greenhouse effect&quot; AND mediatype:texts",
+        "query": "(text:&quot;greenhouse effect&quot; OR text:&quot;greenhouse effect&quot; OR text__reviews:&quot;greenhouse effect&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22greenhouse+effect%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:18 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:18Z"
+}

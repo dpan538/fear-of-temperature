@@ -1,0 +1,31 @@
+{
+  "body_sha256": "01d0b765eac215702754689a30bbb2ffcb36729ea3558da6190c9325ae63f4fc",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 241,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;adverse effects of climate change&quot; AND mediatype:texts AND date:[2015-01-01 TO 2015-12-31]",
+        "query": "(text:&quot;adverse effects of climate change&quot; OR text:&quot;adverse effects of climate change&quot; OR text__reviews:&quot;adverse effects of climate change&quot;) AND mediatype:texts AND date:[2015-01-01T00\\:00\\:00Z TO 2015-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22adverse+effects+of+climate+change%22+AND+mediatype%3Atexts+AND+date%3A%5B2015-01-01+TO+2015-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:18:45 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:18:45Z"
+}

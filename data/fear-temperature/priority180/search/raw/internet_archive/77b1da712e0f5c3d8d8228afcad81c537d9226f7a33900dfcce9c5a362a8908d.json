@@ -1,0 +1,31 @@
+{
+  "body_sha256": "d18b500af5569cc92599fb1ec5cd29593f4f438c864ced26afa01f80a2bd952c",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 19,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 34,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;greenhouse effect&quot; AND mediatype:texts AND date:[1988-01-01 TO 1988-12-31]",
+        "query": "(text:&quot;greenhouse effect&quot; OR text:&quot;greenhouse effect&quot; OR text__reviews:&quot;greenhouse effect&quot;) AND mediatype:texts AND date:[1988-01-01T00\\:00\\:00Z TO 1988-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22greenhouse+effect%22+AND+mediatype%3Atexts+AND+date%3A%5B1988-01-01+TO+1988-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:19 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:19Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "2b14fd987273f2436a0ef9c2a4407d4c7520d071da904b847a0bf43335684619",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 25,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 34,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;global average temperature&quot; AND mediatype:texts",
+        "query": "(text:&quot;global average temperature&quot; OR text:&quot;global average temperature&quot; OR text__reviews:&quot;global average temperature&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22global+average+temperature%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:48 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:48Z"
+}

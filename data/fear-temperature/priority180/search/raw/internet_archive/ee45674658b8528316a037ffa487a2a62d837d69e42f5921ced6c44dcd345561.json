@@ -1,0 +1,31 @@
+{
+  "body_sha256": "1a2d96607af62007ae5a7cb8e89c4088f82aa2a6205034e9148f18cf9d1859ee",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 26,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;minimum temperature&quot; AND mediatype:texts AND date:[1839-01-01 TO 1845-12-31]",
+        "query": "(text:&quot;minimum temperature&quot; OR text:&quot;minimum temperature&quot; OR text__reviews:&quot;minimum temperature&quot;) AND mediatype:texts AND date:[1839-01-01T00\\:00\\:00Z TO 1845-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22minimum+temperature%22+AND+mediatype%3Atexts+AND+date%3A%5B1839-01-01+TO+1845-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:07 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:07Z"
+}

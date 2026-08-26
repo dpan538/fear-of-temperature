@@ -1,0 +1,31 @@
+{
+  "body_sha256": "0376a233986302da0d89d2c48bc1eb68f0b59aa82ce345a45824462bf6223968",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 54,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;comprehensive risk assessment and management&quot; AND mediatype:texts",
+        "query": "(text:&quot;comprehensive risk assessment and management&quot; OR text:&quot;comprehensive risk assessment and management&quot; OR text__reviews:&quot;comprehensive risk assessment and management&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22comprehensive+risk+assessment+and+management%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:19 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:19Z"
+}

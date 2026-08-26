@@ -1,0 +1,43 @@
+{
+  "body_sha256": "057d4566c542ee7bcddbe340a09b2951d9245b13114a61dd4e34645402a3babe",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 122176,
+      "db_response_time_ms": 1622,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"anxiety and stress\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"anxiety and stress\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22anxiety and stress%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2092862146"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22anxiety+and+stress%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:47 GMT",
+    "X-RateLimit-Remaining": "660"
+  },
+  "retrieved_at": "2026-08-26T06:27:47Z"
+}

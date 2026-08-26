@@ -1,0 +1,31 @@
+{
+  "body_sha256": "154ba0a2395425c8acfc4d45e86d5d2230e593198fd162d43296e32ca5328a4a",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 256,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 64,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;anxiety and stress&quot; AND mediatype:texts",
+        "query": "(text:&quot;anxiety and stress&quot; OR text:&quot;anxiety and stress&quot; OR text__reviews:&quot;anxiety and stress&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22anxiety+and+stress%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:10 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:10Z"
+}

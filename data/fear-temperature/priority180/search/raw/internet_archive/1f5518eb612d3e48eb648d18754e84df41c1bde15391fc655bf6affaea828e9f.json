@@ -1,0 +1,31 @@
+{
+  "body_sha256": "2acad99e5419a935f2f3fa1b7200d4675b27a518fa33ceeca201ec3281cf73bb",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 37158,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 28,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;danger&quot; AND mediatype:texts",
+        "query": "(text:danger OR text:danger OR text__reviews:danger) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22danger%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:27 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:27Z"
+}

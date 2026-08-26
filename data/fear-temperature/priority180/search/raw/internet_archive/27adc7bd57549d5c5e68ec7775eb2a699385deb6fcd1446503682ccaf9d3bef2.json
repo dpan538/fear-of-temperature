@@ -1,0 +1,31 @@
+{
+  "body_sha256": "2fa228d33f15353f4a8fe095e057849f3c70400e8f817530bd3098412179a56d",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 891,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 48,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;average rate&quot; AND mediatype:texts",
+        "query": "(text:&quot;average rate&quot; OR text:&quot;average rate&quot; OR text__reviews:&quot;average rate&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22average+rate%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:27 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:27Z"
+}

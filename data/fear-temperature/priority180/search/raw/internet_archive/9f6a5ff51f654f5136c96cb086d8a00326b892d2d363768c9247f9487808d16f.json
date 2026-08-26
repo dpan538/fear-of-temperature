@@ -1,0 +1,31 @@
+{
+  "body_sha256": "7e6ec939f4f92382762fcaf53f0a91c05468b54014643c2d1747d61db993dfd6",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 9,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 43,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;anxiety and stress&quot; AND mediatype:texts AND date:[2022-01-01 TO 2022-12-31]",
+        "query": "(text:&quot;anxiety and stress&quot; OR text:&quot;anxiety and stress&quot; OR text__reviews:&quot;anxiety and stress&quot;) AND mediatype:texts AND date:[2022-01-01T00\\:00\\:00Z TO 2022-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22anxiety+and+stress%22+AND+mediatype%3Atexts+AND+date%3A%5B2022-01-01+TO+2022-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:11 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:11Z"
+}

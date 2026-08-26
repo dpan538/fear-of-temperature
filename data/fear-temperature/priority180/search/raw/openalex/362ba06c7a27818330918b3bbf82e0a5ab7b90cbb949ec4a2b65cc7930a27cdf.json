@@ -1,0 +1,43 @@
+{
+  "body_sha256": "8b307c28bf483231a6940441e8739b481258a2adef34f24b3df6f4d8896e9d44",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 557474,
+      "db_response_time_ms": 68,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"anxious\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "anxious"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:anxious&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2752617332"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22anxious%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:49 GMT",
+    "X-RateLimit-Remaining": "630"
+  },
+  "retrieved_at": "2026-08-26T06:27:49Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "1af1dee2d5504013337b979e511dcb6a88aaf622c65d7149d089e5736489f350",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 22,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;sickness and mortality&quot; AND mediatype:texts AND date:[1842-01-01 TO 1842-12-31]",
+        "query": "(text:&quot;sickness and mortality&quot; OR text:&quot;sickness and mortality&quot; OR text__reviews:&quot;sickness and mortality&quot;) AND mediatype:texts AND date:[1842-01-01T00\\:00\\:00Z TO 1842-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22sickness+and+mortality%22+AND+mediatype%3Atexts+AND+date%3A%5B1842-01-01+TO+1842-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:25 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:25Z"
+}

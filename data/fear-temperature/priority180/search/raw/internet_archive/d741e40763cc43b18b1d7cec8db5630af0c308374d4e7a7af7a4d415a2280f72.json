@@ -1,0 +1,31 @@
+{
+  "body_sha256": "a25c88e0cfbd863fa2aee4fa7aebd5a5f7dc16ddbfcb242f6172bc7d46e43840",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 33,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;attached thermometer&quot; AND mediatype:texts",
+        "query": "(text:&quot;attached thermometer&quot; OR text:&quot;attached thermometer&quot; OR text__reviews:&quot;attached thermometer&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22attached+thermometer%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:19:24 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:19:24Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "9946ebafa50678550007bf1708618697d26bede17960b1564ff7451336b10886",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1458,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 43,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;meteorological observations&quot; AND mediatype:texts",
+        "query": "(text:&quot;meteorological observations&quot; OR text:&quot;meteorological observations&quot; OR text__reviews:&quot;meteorological observations&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22meteorological+observations%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:58 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:58Z"
+}

@@ -1,0 +1,51 @@
+{
+  "body_sha256": "2bfce03dd9e42c1d9a73250849b7dacf15fd3aa961896db566fa05c318a51890",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 47,
+      "db_response_time_ms": 55,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1938-01-01)\n  and full text has (\"average rate\")\n  and date <= (1938-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1938-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"average rate\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1938-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1938-01-01,fulltext.search.exact:%22average rate%22,to_publication_date:1938-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2006447055"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22average+rate%22&per-page=1&select=id&filter=from_publication_date%3A1938-01-01%2Cto_publication_date%3A1938-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:00 GMT",
+    "X-RateLimit-Remaining": "470"
+  },
+  "retrieved_at": "2026-08-26T06:28:00Z"
+}

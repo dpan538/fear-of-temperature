@@ -1,0 +1,31 @@
+{
+  "body_sha256": "aa46e43d14d2437a67d6bd6ee81fd90652cc2b6811191ce8c9619d440471cd58",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 336,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 31,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;meteorological stations&quot; AND mediatype:texts",
+        "query": "(text:&quot;meteorological stations&quot; OR text:&quot;meteorological stations&quot; OR text__reviews:&quot;meteorological stations&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22meteorological+stations%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:24:01 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:24:02Z"
+}

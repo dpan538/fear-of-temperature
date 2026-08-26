@@ -1,0 +1,31 @@
+{
+  "body_sha256": "c831dca1de87ff1adc5539676cec4790cde33c2ea21a00b8331b81e2e3662e47",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 86,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 114,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;loss and damage&quot; AND mediatype:texts",
+        "query": "(text:&quot;loss and damage&quot; OR text:&quot;loss and damage&quot; OR text__reviews:&quot;loss and damage&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22loss+and+damage%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:23:36 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:23:37Z"
+}

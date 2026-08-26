@@ -1,0 +1,31 @@
+{
+  "body_sha256": "2f48b20786f127c919132858684838bf6145e761815a1024329ef6039c4a64a3",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 22,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;dangerous impacts&quot; AND mediatype:texts AND date:[2006-01-01 TO 2007-12-31]",
+        "query": "(text:&quot;dangerous impacts&quot; OR text:&quot;dangerous impacts&quot; OR text__reviews:&quot;dangerous impacts&quot;) AND mediatype:texts AND date:[2006-01-01T00\\:00\\:00Z TO 2007-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22dangerous+impacts%22+AND+mediatype%3Atexts+AND+date%3A%5B2006-01-01+TO+2007-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:34 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:35Z"
+}

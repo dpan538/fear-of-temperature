@@ -1,0 +1,31 @@
+{
+  "body_sha256": "711e72b0d98f3a584b6ef356eaa3538e461a86450ae204bc880689e2ca0d3a81",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 10884,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 36,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;distress&quot; AND mediatype:texts",
+        "query": "(text:distress OR text:distress OR text__reviews:distress) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22distress%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:55 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:56Z"
+}

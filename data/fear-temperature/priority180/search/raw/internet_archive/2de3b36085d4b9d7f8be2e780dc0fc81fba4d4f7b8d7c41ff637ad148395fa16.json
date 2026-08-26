@@ -1,0 +1,31 @@
+{
+  "body_sha256": "dc48300853c759543899fcdd1efbe3134391fe11738dff7a7c60e4f05e75137b",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 8904,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 36,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;air&quot; AND mediatype:texts AND date:[1936-01-01 TO 1940-12-31]",
+        "query": "(text:air OR text:air OR text__reviews:air) AND mediatype:texts AND date:[1936-01-01T00\\:00\\:00Z TO 1940-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22air%22+AND+mediatype%3Atexts+AND+date%3A%5B1936-01-01+TO+1940-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:18:55 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:18:56Z"
+}

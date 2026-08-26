@@ -1,0 +1,31 @@
+{
+  "body_sha256": "506a1554220a5bb0befdbb5ab1f20f2297e0b1892676141e54e0d27a67228d63",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 957,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 42,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;heat wave&quot; AND mediatype:texts",
+        "query": "(text:&quot;heat wave&quot; OR text:&quot;heat wave&quot; OR text__reviews:&quot;heat wave&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22heat+wave%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:22:49 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:22:49Z"
+}

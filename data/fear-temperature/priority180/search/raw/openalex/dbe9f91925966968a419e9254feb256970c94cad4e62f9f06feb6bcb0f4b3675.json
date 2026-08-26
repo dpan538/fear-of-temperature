@@ -1,0 +1,43 @@
+{
+  "body_sha256": "294be3633d818033a81e5ac86b5160703b1f6940eed09bbfebe13d1b953ea4f7",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 9,
+      "db_response_time_ms": 523,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"complain of the heat\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"complain of the heat\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22complain of the heat%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W1984907942"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22complain+of+the+heat%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:37 GMT",
+    "X-RateLimit-Remaining": "0"
+  },
+  "retrieved_at": "2026-08-26T06:28:37Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "4a0b7d01c9c80dc4be4d080152bf0ae35e38d381b1049e61738927b176abe880",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 34,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 43,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;depressed&quot; AND mediatype:texts AND date:[2022-01-01 TO 2022-12-31]",
+        "query": "(text:depressed OR text:depressed OR text__reviews:depressed) AND mediatype:texts AND date:[2022-01-01T00\\:00\\:00Z TO 2022-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22depressed%22+AND+mediatype%3Atexts+AND+date%3A%5B2022-01-01+TO+2022-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:44 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:44Z"
+}

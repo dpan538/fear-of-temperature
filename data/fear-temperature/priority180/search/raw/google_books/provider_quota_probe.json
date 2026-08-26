@@ -1,0 +1,10 @@
+{
+  "body_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "cache_reused": false,
+  "error": "HTTP 429: {\n  \"error\": {\n    \"code\": 429,\n    \"message\": \"Quota exceeded for quota metric 'Queries' and limit 'Queries per day' of service 'books.googleapis.com' for consumer 'project_number:624717413613'.\",\n    \"errors\": [\n      {\n        \"message\":",
+  "http_status": 0,
+  "payload": null,
+  "request_url": "https://www.googleapis.com/books/v1/volumes?q=%22climate+change%22&langRestrict=en&maxResults=1&printType=books",
+  "response_headers": {},
+  "retrieved_at": "2026-08-26T06:34:48Z"
+}

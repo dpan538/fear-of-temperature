@@ -1,0 +1,31 @@
+{
+  "body_sha256": "34f8d6c3ca550c9d990ef1f9986f64e7b5a4cb73fc7e0a9e4391307ed70d3280",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 73,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;too much carbon dioxide is dangerous&quot; AND mediatype:texts AND date:[1986-01-01 TO 1990-12-31]",
+        "query": "(text:&quot;too much carbon dioxide is dangerous&quot; OR text:&quot;too much carbon dioxide is dangerous&quot; OR text__reviews:&quot;too much carbon dioxide is dangerous&quot;) AND mediatype:texts AND date:[1986-01-01T00\\:00\\:00Z TO 1990-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22too+much+carbon+dioxide+is+dangerous%22+AND+mediatype%3Atexts+AND+date%3A%5B1986-01-01+TO+1990-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:13 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:13Z"
+}

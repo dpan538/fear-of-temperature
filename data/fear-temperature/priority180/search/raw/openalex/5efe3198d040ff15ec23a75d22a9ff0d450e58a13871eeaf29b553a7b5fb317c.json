@@ -1,0 +1,51 @@
+{
+  "body_sha256": "f7c6b713f95b13fdb5d7b3f202979cfdc3cf599779a593838286935fa33d3af8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 2,
+      "db_response_time_ms": 36,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1842-01-01)\n  and full text has (\"changes of temperature\")\n  and date <= (1842-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1842-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"changes of temperature\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1842-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1842-01-01,fulltext.search.exact:%22changes of temperature%22,to_publication_date:1842-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4390067310"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22changes+of+temperature%22&per-page=1&select=id&filter=from_publication_date%3A1842-01-01%2Cto_publication_date%3A1842-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:16 GMT",
+    "X-RateLimit-Remaining": "320"
+  },
+  "retrieved_at": "2026-08-26T06:28:16Z"
+}

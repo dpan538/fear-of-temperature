@@ -1,0 +1,31 @@
+{
+  "body_sha256": "4b0fae107d08a04fadbdb4d602cdf06f0ea3cf55820a910a3c254866c95498e8",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 237,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 190,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;climate warming&quot; AND mediatype:texts",
+        "query": "(text:&quot;climate warming&quot; OR text:&quot;climate warming&quot; OR text__reviews:&quot;climate warming&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22climate+warming%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:06 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:06Z"
+}

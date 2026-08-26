@@ -1,0 +1,31 @@
+{
+  "body_sha256": "c80a95fa2a7b9a86f7d77d6cbdffb7b1717252df68119ea9120c2281194501bd",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 180,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 43,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;global climate models&quot; AND mediatype:texts",
+        "query": "(text:&quot;global climate models&quot; OR text:&quot;global climate models&quot; OR text__reviews:&quot;global climate models&quot;) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22global+climate+models%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:51 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:51Z"
+}

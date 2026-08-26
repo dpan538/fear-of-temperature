@@ -1,0 +1,43 @@
+{
+  "body_sha256": "772f7772241f4e6621d2ff9e173782752b76962c0012161a9dd47e768f830772",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 270,
+      "db_response_time_ms": 1229,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"artificial production of carbon dioxide\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"artificial production of carbon dioxide\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22artificial production of carbon dioxide%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2006447055"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22artificial+production+of+carbon+dioxide%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:52 GMT",
+    "X-RateLimit-Remaining": "600"
+  },
+  "retrieved_at": "2026-08-26T06:27:52Z"
+}

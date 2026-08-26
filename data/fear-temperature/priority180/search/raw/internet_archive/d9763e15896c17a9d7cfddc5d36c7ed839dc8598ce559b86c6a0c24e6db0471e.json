@@ -1,0 +1,31 @@
+{
+  "body_sha256": "ffacd82124b8a9861cfd07d771d07845863472a346505c26764b423a9ceb0cd1",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 21781,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 29,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;sad&quot; AND mediatype:texts",
+        "query": "(text:sad OR text:sad OR text__reviews:sad) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22sad%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:25:09 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:25:09Z"
+}

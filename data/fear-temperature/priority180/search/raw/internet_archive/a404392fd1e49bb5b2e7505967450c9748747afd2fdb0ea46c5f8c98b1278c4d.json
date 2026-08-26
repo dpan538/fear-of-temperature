@@ -1,0 +1,31 @@
+{
+  "body_sha256": "62d642d605e32f3db05abb6471dd61cc9bdd3ca93051a5ec4a215d11b60f3ccb",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 13888,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 29,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;vulnerability&quot; AND mediatype:texts",
+        "query": "(text:vulnerability OR text:vulnerability OR text__reviews:vulnerability) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22vulnerability%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:26:36 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:26:36Z"
+}

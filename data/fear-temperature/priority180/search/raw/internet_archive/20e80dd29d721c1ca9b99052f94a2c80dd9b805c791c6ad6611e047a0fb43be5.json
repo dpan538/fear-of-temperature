@@ -1,0 +1,31 @@
+{
+  "body_sha256": "fa87fdcd6f7fbef3d349376faefb3dd395baf7ce88dfaf0f4bc1a418fd7b6617",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 155,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;dry bulb thermometer&quot; AND mediatype:texts AND date:[1839-01-01 TO 1845-12-31]",
+        "query": "(text:&quot;dry bulb thermometer&quot; OR text:&quot;dry bulb thermometer&quot; OR text__reviews:&quot;dry bulb thermometer&quot;) AND mediatype:texts AND date:[1839-01-01T00\\:00\\:00Z TO 1845-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22dry+bulb+thermometer%22+AND+mediatype%3Atexts+AND+date%3A%5B1839-01-01+TO+1845-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:09 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:09Z"
+}

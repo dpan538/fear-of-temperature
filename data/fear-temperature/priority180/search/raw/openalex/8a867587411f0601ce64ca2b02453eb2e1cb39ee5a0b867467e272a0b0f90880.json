@@ -1,0 +1,43 @@
+{
+  "body_sha256": "787eefdbc66bf54c117d49590d0131a729f799e24574d682f39d1dde5290a385",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 110,
+      "db_response_time_ms": 1226,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"alarm to the public\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"alarm to the public\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22alarm to the public%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W3034758157"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22alarm+to+the+public%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:38 GMT",
+    "X-RateLimit-Remaining": "780"
+  },
+  "retrieved_at": "2026-08-26T06:27:38Z"
+}

@@ -1,0 +1,31 @@
+{
+  "body_sha256": "03feeb17769aefcb74647fe87997906a1ae7790fbec621cff1e64198851733ca",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 71319,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 40,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;damage&quot; AND mediatype:texts",
+        "query": "(text:damage OR text:damage OR text__reviews:damage) AND mediatype:texts",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22damage%22+AND+mediatype%3Atexts&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:24 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:25Z"
+}

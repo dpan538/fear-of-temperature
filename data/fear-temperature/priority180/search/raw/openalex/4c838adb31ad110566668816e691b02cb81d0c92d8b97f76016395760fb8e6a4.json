@@ -1,0 +1,51 @@
+{
+  "body_sha256": "91e7d8dd658a70b69b49df98a1a187dcf9eaa41a1fafffa7f4ef75638e23fb91",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 40915,
+      "db_response_time_ms": 299,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (2021-01-01)\n  and full text has (\"anxiety and stress\")\n  and date <= (2023-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "2021-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"anxiety and stress\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "2023-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:2021-01-01,fulltext.search.exact:%22anxiety and stress%22,to_publication_date:2023-12-31&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W4386469742"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22anxiety+and+stress%22&per-page=1&select=id&filter=from_publication_date%3A2021-01-01%2Cto_publication_date%3A2023-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:49 GMT",
+    "X-RateLimit-Remaining": "640"
+  },
+  "retrieved_at": "2026-08-26T06:27:48Z"
+}

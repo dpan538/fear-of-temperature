@@ -1,0 +1,31 @@
+{
+  "body_sha256": "6435be00365a2159bba5f1f6c33a88c9e84d1d9ef3461afd1899f29d47da694e",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 2,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 35,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;dangerous climate change&quot; AND mediatype:texts AND date:[2006-01-01 TO 2007-12-31]",
+        "query": "(text:&quot;dangerous climate change&quot; OR text:&quot;dangerous climate change&quot; OR text__reviews:&quot;dangerous climate change&quot;) AND mediatype:texts AND date:[2006-01-01T00\\:00\\:00Z TO 2007-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22dangerous+climate+change%22+AND+mediatype%3Atexts+AND+date%3A%5B2006-01-01+TO+2007-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:20:31 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:20:31Z"
+}

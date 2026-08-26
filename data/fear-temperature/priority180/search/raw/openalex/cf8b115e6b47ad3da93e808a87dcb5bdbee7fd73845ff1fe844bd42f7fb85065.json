@@ -1,0 +1,47 @@
+{
+  "body_sha256": "656049c77291d18fe29e0f942fd3e31700077f7830b3d29a53960f35626ffdaa",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 0,
+      "db_response_time_ms": 18,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1839-01-01)\n  and full text has (\"attached thermometer\")\n  and date <= (1845-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1839-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"attached thermometer\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1845-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1839-01-01,fulltext.search.exact:%22attached thermometer%22,to_publication_date:1845-12-31&per_page=1"
+      }
+    },
+    "results": []
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22attached+thermometer%22&per-page=1&select=id&filter=from_publication_date%3A1839-01-01%2Cto_publication_date%3A1845-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:58 GMT",
+    "X-RateLimit-Remaining": "490"
+  },
+  "retrieved_at": "2026-08-26T06:27:58Z"
+}

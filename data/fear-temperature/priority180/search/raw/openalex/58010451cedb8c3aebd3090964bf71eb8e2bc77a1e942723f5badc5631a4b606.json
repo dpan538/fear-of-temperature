@@ -1,0 +1,47 @@
+{
+  "body_sha256": "d0d039927e0a7ff3eb5c1d157a74842bdd6696e106186cb43a05ba43b0ca661a",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 0,
+      "db_response_time_ms": 28,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where date >= (1842-01-01)\n  and full text has (\"alarm to the public\")\n  and date <= (1842-12-31)",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "from_publication_date",
+              "value": "1842-01-01"
+            },
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"alarm to the public\""
+            },
+            {
+              "column_id": "to_publication_date",
+              "value": "1842-12-31"
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=from_publication_date:1842-01-01,fulltext.search.exact:%22alarm to the public%22,to_publication_date:1842-12-31&per_page=1"
+      }
+    },
+    "results": []
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22alarm+to+the+public%22&per-page=1&select=id&filter=from_publication_date%3A1842-01-01%2Cto_publication_date%3A1842-12-31",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:39 GMT",
+    "X-RateLimit-Remaining": "770"
+  },
+  "retrieved_at": "2026-08-26T06:27:39Z"
+}

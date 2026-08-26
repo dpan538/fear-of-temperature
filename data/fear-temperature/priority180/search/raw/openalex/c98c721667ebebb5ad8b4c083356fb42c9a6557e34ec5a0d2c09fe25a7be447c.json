@@ -1,0 +1,43 @@
+{
+  "body_sha256": "7aa2e44bfb31a446315fd030229587499f6031f497a17afd7db8d35239c04e16",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 1078,
+      "db_response_time_ms": 471,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"common concern of humankind\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"common concern of humankind\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22common concern of humankind%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2106902265"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22common+concern+of+humankind%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:35 GMT",
+    "X-RateLimit-Remaining": "30"
+  },
+  "retrieved_at": "2026-08-26T06:28:35Z"
+}

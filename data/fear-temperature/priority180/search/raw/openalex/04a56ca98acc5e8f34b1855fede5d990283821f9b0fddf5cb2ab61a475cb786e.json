@@ -1,0 +1,43 @@
+{
+  "body_sha256": "a935f54292981ad9e670e12b740a12bb7bfc888823616ae7eb166f366799d0bc",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "group_by": [],
+    "meta": {
+      "cost_usd": 0.001,
+      "count": 50251,
+      "db_response_time_ms": 3094,
+      "groups_count": null,
+      "page": 1,
+      "per_page": 1,
+      "x_query": {
+        "oql": "works where full text has (\"cause-and-effect relationship\")",
+        "oqo": {
+          "filter_rows": [
+            {
+              "column_id": "fulltext.search.exact",
+              "operator": "has",
+              "value": "\"cause-and-effect relationship\""
+            }
+          ],
+          "get_rows": "works"
+        },
+        "url": "/works?filter=fulltext.search.exact:%22cause-and-effect relationship%22&per_page=1"
+      }
+    },
+    "results": [
+      {
+        "id": "https://openalex.org/W2768578200"
+      }
+    ]
+  },
+  "request_url": "https://api.openalex.org/works?search.exact=%22cause-and-effect+relationship%22&per-page=1&select=id",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:28:09 GMT",
+    "X-RateLimit-Remaining": "390"
+  },
+  "retrieved_at": "2026-08-26T06:28:09Z"
+}

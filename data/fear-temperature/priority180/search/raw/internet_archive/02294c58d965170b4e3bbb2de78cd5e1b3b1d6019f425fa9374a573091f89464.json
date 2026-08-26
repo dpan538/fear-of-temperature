@@ -1,0 +1,31 @@
+{
+  "body_sha256": "eb71c1d0c33242142ae3e2df310637869ae6f5ec4e44bfcb861a59d1649ca48f",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 1,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 74,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;well below 2&deg;C above pre-industrial levels&quot; AND mediatype:texts AND date:[2014-01-01 TO 2016-12-31]",
+        "query": "(text:&quot;well below 2&deg;C above pre-industrial levels&quot; OR text:&quot;well below 2&deg;C above pre-industrial levels&quot; OR text__reviews:&quot;well below 2&deg;C above pre-industrial levels&quot;) AND mediatype:texts AND date:[2014-01-01T00\\:00\\:00Z TO 2016-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22well+below+2%C2%B0C+above+pre-industrial+levels%22+AND+mediatype%3Atexts+AND+date%3A%5B2014-01-01+TO+2016-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:27:04 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:27:04Z"
+}

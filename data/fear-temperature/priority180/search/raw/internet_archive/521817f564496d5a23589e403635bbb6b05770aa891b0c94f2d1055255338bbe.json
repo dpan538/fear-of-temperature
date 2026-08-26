@@ -1,0 +1,31 @@
+{
+  "body_sha256": "7481c3308d34d5ef9b556edd3f7ca5cb8b1f68a1a0451cb37e1177e3532b1a0f",
+  "cache_reused": false,
+  "error": "",
+  "http_status": 200,
+  "payload": {
+    "response": {
+      "docs": [],
+      "numFound": 0,
+      "start": 0
+    },
+    "responseHeader": {
+      "QTime": 36,
+      "params": {
+        "fields": "identifier",
+        "qin": "&quot;global average air and ocean temperatures&quot; AND mediatype:texts AND date:[2006-01-01 TO 2007-12-31]",
+        "query": "(text:&quot;global average air and ocean temperatures&quot; OR text:&quot;global average air and ocean temperatures&quot; OR text__reviews:&quot;global average air and ocean temperatures&quot;) AND mediatype:texts AND date:[2006-01-01T00\\:00\\:00Z TO 2007-12-31T23\\:59\\:59Z]",
+        "rows": 0,
+        "start": 0,
+        "wt": "json"
+      },
+      "status": 0
+    }
+  },
+  "request_url": "https://archive.org/advancedsearch.php?q=%22global+average+air+and+ocean+temperatures%22+AND+mediatype%3Atexts+AND+date%3A%5B2006-01-01+TO+2007-12-31%5D&fl%5B%5D=identifier&rows=0&page=1&output=json",
+  "response_headers": {
+    "Content-Type": "application/json",
+    "Date": "Wed, 26 Aug 2026 06:21:46 GMT"
+  },
+  "retrieved_at": "2026-08-26T06:21:46Z"
+}
