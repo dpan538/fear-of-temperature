@@ -19,5 +19,8 @@
     "warming",
     "carbon/greenhouse"
   ],
-  "output_directory": "data/fear-temperature/analysis/relational-v01"
+  "output_directory": "data/fear-temperature/analysis/relational-v01",
+  "lexicalisation_sustained_rule": "First of three consecutive annual nonzero observations.",
+  "lexicalisation_term_count": 17,
+  "voice_summary_cells": 30
 }

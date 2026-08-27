@@ -5,6 +5,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import math
 from pathlib import Path
 
 
@@ -63,12 +64,60 @@ def validate_linkage() -> None:
         require(object_name in migration, f"database scaffold missing {object_name}")
 
 
+def validate_comparison() -> None:
+    voice = rows("voice_linkage_summary.csv")
+    require(len(voice) == 30, "voice summary must contain 6 x 5 cells")
+    for row in voice:
+        require(row["AB_Object_Passage_Count"] == "0", "voice denominator mismatch")
+        require(row["Threat_Link_Rate"] == "" and row["Affect_Link_Rate"] == "", "unsupported rates must be blank")
+        require(row["Threat_to_Affect_Ratio"] == "", "ratio must be blank when component rates are missing")
+        require(row["Ratio_Status"] == "UNSUPPORTED_MISSING_RATES", "ratio status missing")
+        require(row["Low_N_Flag"] == "True", "low-N flag missing from voice summary")
+
+    inventory = rows("inventory_voice_layer_balance.csv")
+    require(len(inventory) == 30, "inventory balance must contain 6 x 5 cells")
+    require(sum(int(row["Total_Priority_Candidates"]) for row in inventory) == 180, "inventory voice totals must reconcile to 180")
+    require(
+        all(row["Evidence_Class"] == "CONSTRUCTED_INVENTORY_PATTERN" for row in inventory),
+        "inventory counts must be labelled as constructed",
+    )
+
+    lexical = rows("lexicalisation_comparison.csv")
+    require(len(lexical) == 17, "lexicalisation comparison must contain 17 selected terms")
+    require(len({row["term"] for row in lexical}) == 17, "lexicalisation terms must be unique")
+    required_families = {"climate_framing", "affect_specialisation", "threat_specialisation"}
+    require({row["family"] for row in lexical} == required_families, "lexicalisation family set incomplete")
+    for row in lexical:
+        for field in [
+            "first_ngram_nonzero_year", "first_sustained_ngram_year",
+            "first_validated_attestation_year", "first_validated_target_sense_year",
+        ]:
+            require(row[field] != "", f"{field} must be a year or explicit UNRESOLVED")
+        require(row["current_status_note"] != "" and row["ambiguity_warning"] != "", "lexical caution missing")
+
+    timeseries = rows("lexicalisation_term_timeseries.csv")
+    require(len(timeseries) == 17 * 181, "selected lexical series must contain 17 x 181 observations")
+    grouped: dict[str, list[dict[str, str]]] = {}
+    for row in timeseries:
+        grouped.setdefault(row["term"], []).append(row)
+    for row in lexical:
+        term_rows = grouped[row["term"]]
+        positive = [int(item["year"]) for item in term_rows if float(item["normalized_frequency"]) > 0]
+        expected_first = str(min(positive)) if positive else "UNRESOLVED"
+        require(row["first_ngram_nonzero_year"] == expected_first, f"first nonzero mismatch for {row['term']}")
+        peak = max(term_rows, key=lambda item: (float(item["normalized_frequency"]), -int(item["year"])))
+        require(row["ngram_peak_year"] == peak["year"], f"peak year mismatch for {row['term']}")
+        require(math.isclose(float(row["ngram_peak_per_million"]), float(peak["normalized_frequency"]) * 1_000_000, rel_tol=1e-12), f"peak unit mismatch for {row['term']}")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--stage", choices=["linkage", "all"], default="all")
+    parser.add_argument("--stage", choices=["linkage", "comparison", "all"], default="all")
     args = parser.parse_args()
     if args.stage in {"linkage", "all"}:
         validate_linkage()
+    if args.stage in {"comparison", "all"}:
+        validate_comparison()
     print(f"PASS relational-v01 validation stage={args.stage}")
 
 
