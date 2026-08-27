@@ -1,0 +1,2 @@
+gap_id,module,required_grain,available_record_count,blocking_tables,impact,resolution
+REL-V01-GAP-001,THREAT_AND_AFFECT_PASSAGE_LINKAGE,Validated passage with accepted A/B object annotation and explicit validated C/D relation,0,evidence_passage; lexical_occurrence; semantic_annotation; review_decision; passage_linkage_validation,All passage denominators are zero and all linkage rates are unsupported.,"Run targeted semantic passage retrieval, annotation, independent review, and relation validation."

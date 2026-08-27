@@ -1,0 +1,23 @@
+{
+  "analysis_id": "fear-temperature-relational-v0.1",
+  "analytical_object": "Validated passage-level relations from A/B temperature-climate objects to D threat or C affect",
+  "methodological_principle": "D is not the same as C; co-occurrence is not a validated relation.",
+  "source_state": "NO_POPULATED_PASSAGE_CHAIN",
+  "available_validated_ab_object_passages": 0,
+  "low_n_threshold": 5,
+  "rate_policy": "Leave rate blank when denominator is zero; never encode missing or unsupported as 0%.",
+  "affect_modes": [
+    "AFFECT_MODE_DIRECT",
+    "AFFECT_MODE_PRESCRIBED",
+    "AFFECT_MODE_ELICITED",
+    "AFFECT_MODE_RESEARCHER_LABELLED"
+  ],
+  "object_families": [
+    "temperature",
+    "heat",
+    "climate",
+    "warming",
+    "carbon/greenhouse"
+  ],
+  "output_directory": "data/fear-temperature/analysis/relational-v01"
+}
