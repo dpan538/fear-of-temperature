@@ -1,0 +1,34 @@
+{
+  "version": "exploratory-analysis-v0.2-ultra-hd",
+  "figure_count": 15,
+  "formats": [
+    "png",
+    "svg"
+  ],
+  "png_dimensions": [
+    8000,
+    4600
+  ],
+  "png_dpi": 601,
+  "native_scale_factor": 5,
+  "bbox_inches": "tight",
+  "content_changes": "none",
+  "generator": "scripts/fear-temperature/generate_eda_figures_uhd.py",
+  "figures": [
+    "visual_01a_anchor_layer_counts_uhd",
+    "visual_01b_anchor_layer_percentages_uhd",
+    "visual_02_anchor_voice_counts_uhd",
+    "visual_03a_anchor_family_counts_uhd",
+    "visual_03b_anchor_family_row_normalized_uhd",
+    "visual_04_voice_family_heatmap_uhd",
+    "visual_05_climate_framing_trajectories_uhd",
+    "visual_06a_modern_compounds_raw_uhd",
+    "visual_06b_modern_compounds_normalized_uhd",
+    "visual_07_ngram_vs_validated_attestation_uhd",
+    "visual_08_ngram_vs_search_discoverability_uhd",
+    "visual_09_dictionary_status_by_anchor_uhd",
+    "visual_10_searchability_bias_uhd",
+    "visual_11_candidate_missingness_heatmap_uhd",
+    "visual_12_structural_alluvial_uhd"
+  ]
+}
