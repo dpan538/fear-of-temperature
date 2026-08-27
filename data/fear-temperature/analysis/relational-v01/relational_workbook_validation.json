@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "output_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/outputs/quantitative-v01/fear_temperature_quantitative_v01.xlsx",
+  "new_sheet_names": [
+    "Relational Analysis",
+    "Threat Linkage",
+    "Affect Linkage",
+    "Voice Comparison",
+    "Lexicalisation",
+    "Figure Gallery",
+    "Supervisor Summary"
+  ],
+  "new_sheet_count": 7,
+  "source_priority_candidates": 180,
+  "validated_ab_object_passages": 0,
+  "threat_linked_passages": 0,
+  "affect_linked_passages": 0,
+  "lexicalisation_terms": 17,
+  "relational_figure_count": 12,
+  "embedded_relational_images": 16,
+  "rendered_new_sheets": 7,
+  "formula_check": "PASS",
+  "artifact_tool_reopen_check": "PASS",
+  "sheet_inspection_contains_all_new_sheets": true,
+  "workbook_size_bytes": 1386816
+}

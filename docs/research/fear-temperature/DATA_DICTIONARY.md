@@ -45,9 +45,24 @@ Canonical CSV exports use normalized frequencies in the provider's native propor
 | `lexical_occurrence` | Locates the matched form within a passage. |
 | `semantic_annotation` | Records sense, family/layer, voice, expression mode, referent, and semantic qualifications. |
 | `review_decision` | Stores reviewer outcome and rationale without deleting rejected evidence. |
+| `passage_linkage_validation` | Stores an explicit validated relation from an accepted A/B object annotation to a C affect or D threat annotation. Co-occurrence never creates this relation automatically. |
 | `provenance_event` | Provides an append-only audit trail for import, transformation, retrieval, and review events. |
 
 The intended traceability chain is `source → document → passage → occurrence → annotation → review`.
+
+Relational analysis adds `passage → accepted A/B object annotation → validated C/D linkage`. Affect linkages also require one preserved mode: direct, prescribed, elicited, or researcher-labelled.
+
+## Relational-analysis exports
+
+| File | Grain |
+| --- | --- |
+| `AB_object_passages.csv` | One validated A/B object annotation within a passage; currently header-only because no passage chain is populated. |
+| `threat_linkage_passages.csv` | One explicitly validated A/B → D passage relation. |
+| `affect_linkage_passages.csv` | One explicitly validated A/B → C passage relation with affect mode. |
+| `voice_linkage_summary.csv` | One anchor × voice cell with denominators, counts, rates, ratios and low-N status. |
+| `lexicalisation_comparison.csv` | One selected term with four distinct temporal markers and ambiguity notes. |
+
+When the A/B denominator is zero, the exported rate is blank and `Rate_Status=UNSUPPORTED_DENOMINATOR_ZERO`; it is never encoded as `0%`.
 
 ## Main exports
 

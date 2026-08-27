@@ -7,6 +7,7 @@ import argparse
 import csv
 import math
 import json
+import zipfile
 from PIL import Image
 from pathlib import Path
 
@@ -138,6 +139,44 @@ def validate_figures() -> None:
         require("zero" in item["interpretation_warning"].lower() or "not estimable" in item["caption"].lower() or "unsupported" in item["caption"].lower(), f"missing zero/missing safeguard in figure {number}")
 
 
+def validate_workbook() -> None:
+    validation_path = OUT / "relational_workbook_validation.json"
+    require(validation_path.exists(), "relational workbook validation record missing")
+    validation = json.loads(validation_path.read_text(encoding="utf-8"))
+    require(validation["status"] == "PASS", "workbook status did not pass")
+    require(validation["formula_check"] == "PASS", "workbook formula scan did not pass")
+    require(validation["artifact_tool_reopen_check"] == "PASS", "artifact-tool reopen check failed")
+    require(validation["sheet_inspection_contains_all_new_sheets"], "new workbook sheet set incomplete")
+    require(validation["new_sheet_count"] == 7, "seven presentation sheets required")
+    require(validation["source_priority_candidates"] == 180, "workbook candidate total mismatch")
+    require(validation["validated_ab_object_passages"] == 0, "workbook passage denominator mismatch")
+    require(validation["threat_linked_passages"] == 0 and validation["affect_linked_passages"] == 0, "workbook link counts mismatch")
+    require(validation["lexicalisation_terms"] == 17, "workbook lexical term total mismatch")
+    require(validation["relational_figure_count"] == 12, "workbook figure total mismatch")
+    require(validation["rendered_new_sheets"] == 7, "all new sheets must be rendered")
+    open_check_path = OUT / "relational_workbook_open_check.json"
+    require(open_check_path.exists(), "independent workbook open check missing")
+    open_check = json.loads(open_check_path.read_text(encoding="utf-8"))
+    require(open_check["status"] == "PASS" and open_check["exported_pdf_pages"] > 0, "independent workbook open check failed")
+    workbook_path = ROOT / "outputs/quantitative-v01/fear_temperature_quantitative_v01.xlsx"
+    require(workbook_path.exists() and workbook_path.stat().st_size > 1_000_000, "workbook missing or unexpectedly small")
+    with zipfile.ZipFile(workbook_path) as archive:
+        names = archive.namelist()
+        require("xl/workbook.xml" in names, "invalid XLSX package")
+        require(sum(name.startswith("xl/media/") for name in names) >= 22, "embedded relational figures missing")
+        workbook_xml = archive.read("xl/workbook.xml").decode("utf-8")
+        for sheet_name in validation["new_sheet_names"]:
+            require(sheet_name in workbook_xml, f"workbook XML missing sheet: {sheet_name}")
+    brief = ROOT / "docs/research/fear-temperature/SUPERVISOR_BRIEFING_ONEPAGE.md"
+    require(brief.exists(), "supervisor briefing missing")
+    text = brief.read_text(encoding="utf-8")
+    for phrase in [
+        "Threat is not affect", "180 Priority Candidates", "not yet estimable",
+        "targeted semantic passage validation",
+    ]:
+        require(phrase in text, f"supervisor briefing missing required point: {phrase}")
+
+
 def rows_from_path(path: Path) -> list[dict[str, str]]:
     with path.open(encoding="utf-8", newline="") as handle:
         return list(csv.DictReader(handle))
@@ -145,7 +184,7 @@ def rows_from_path(path: Path) -> list[dict[str, str]]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--stage", choices=["linkage", "comparison", "figures", "all"], default="all")
+    parser.add_argument("--stage", choices=["linkage", "comparison", "figures", "workbook", "all"], default="all")
     args = parser.parse_args()
     if args.stage in {"linkage", "all"}:
         validate_linkage()
@@ -153,6 +192,8 @@ def main() -> None:
         validate_comparison()
     if args.stage in {"figures", "all"}:
         validate_figures()
+    if args.stage in {"workbook", "all"}:
+        validate_workbook()
     print(f"PASS relational-v01 validation stage={args.stage}")
 
 

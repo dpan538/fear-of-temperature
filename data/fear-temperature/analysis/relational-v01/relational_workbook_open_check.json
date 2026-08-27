@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "workbook": "outputs/quantitative-v01/fear_temperature_quantitative_v01.xlsx",
+  "engine": "LibreOfficeDev Calc 26.8.0.0.alpha0 (AARCH64)",
+  "operation": "Headless open and PDF export",
+  "exported_pdf_pages": 724,
+  "exported_pdf_size_bytes": 16551910,
+  "note": "The PDF is a temporary validation artifact and is not a project deliverable. Successful export independently confirms that the XLSX opens and all sheets can be traversed."
+}
