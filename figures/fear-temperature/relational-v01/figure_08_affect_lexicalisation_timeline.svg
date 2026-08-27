@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFFFFF"/>
+<text x="70.0" y="52.0" fill="#182435" font-family="Arial,sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="auto">Affect lexicalisation</text>
+<text x="70.0" y="102.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="auto">First sustained Ngram · peak · candidate-level target-sense anchor</text>
+<text x="70.0" y="944.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">Markers separate raw sustained Ngram presence and peak publication-string frequency from the earliest candidate-level target-sense anchor.</text>
+<polyline points="360.0,205.0 360.0,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="360.0" y="854.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1842</text>
+<polyline points="598.6,205.0 598.6,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="598.6" y="854.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1880</text>
+<polyline points="849.7,205.0 849.7,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="849.7" y="854.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1920</text>
+<polyline points="1100.8,205.0 1100.8,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="1100.8" y="854.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">1960</text>
+<polyline points="1351.9,205.0 1351.9,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="1351.9" y="854.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">2000</text>
+<polyline points="1490.0,205.0 1490.0,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="1490.0" y="854.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">2022</text>
+<text x="336.0" y="272.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">anxiety</text>
+<polyline points="360.0,266.5 1490.0,266.5" fill="none" stroke="#EEF1F4" stroke-width="2" stroke-opacity="1.000"/>
+<circle cx="360.0" cy="256.5" r="7.0" fill="#8B96A5" stroke="none" stroke-width="1"/>
+<text x="360.0" y="242.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="auto">1842</text>
+<polygon points="1490.0,257.5 1499.0,266.5 1490.0,275.5 1481.0,266.5" fill="#6655A4" fill-opacity="1.000" stroke="none"/>
+<text x="1490.0" y="294.5" fill="#6655A4" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2022</text>
+<rect x="1482.0" y="258.5" width="16.0" height="16.0" fill="#FFFFFF" fill-opacity="1.000" stroke="#182435" stroke-width="3"/>
+<text x="1490.0" y="242.5" fill="#182435" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2022</text>
+<text x="336.0" y="395.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">climate anxiety</text>
+<polyline points="360.0,389.5 1490.0,389.5" fill="none" stroke="#EEF1F4" stroke-width="2" stroke-opacity="1.000"/>
+<circle cx="1414.7" cy="379.5" r="7.0" fill="#8B96A5" stroke="none" stroke-width="1"/>
+<text x="1414.7" y="365.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="auto">2010</text>
+<polygon points="1490.0,380.5 1499.0,389.5 1490.0,398.5 1481.0,389.5" fill="#6655A4" fill-opacity="1.000" stroke="none"/>
+<text x="1490.0" y="417.5" fill="#6655A4" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2022</text>
+<rect x="1482.0" y="381.5" width="16.0" height="16.0" fill="#FFFFFF" fill-opacity="1.000" stroke="#182435" stroke-width="3"/>
+<text x="1490.0" y="365.5" fill="#182435" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2022</text>
+<text x="336.0" y="518.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">eco-anxiety</text>
+<polyline points="360.0,512.5 1490.0,512.5" fill="none" stroke="#EEF1F4" stroke-width="2" stroke-opacity="1.000"/>
+<circle cx="1383.3" cy="502.5" r="7.0" fill="#8B96A5" stroke="none" stroke-width="1"/>
+<text x="1383.3" y="488.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="auto">2005</text>
+<polygon points="1490.0,503.5 1499.0,512.5 1490.0,521.5 1481.0,512.5" fill="#6655A4" fill-opacity="1.000" stroke="none"/>
+<text x="1490.0" y="540.5" fill="#6655A4" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2022</text>
+<rect x="1482.0" y="504.5" width="16.0" height="16.0" fill="#FFFFFF" fill-opacity="1.000" stroke="#182435" stroke-width="3"/>
+<text x="1490.0" y="488.5" fill="#182435" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2022</text>
+<text x="336.0" y="641.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">worry</text>
+<polyline points="360.0,635.5 1490.0,635.5" fill="none" stroke="#EEF1F4" stroke-width="2" stroke-opacity="1.000"/>
+<circle cx="360.0" cy="625.5" r="7.0" fill="#8B96A5" stroke="none" stroke-width="1"/>
+<text x="360.0" y="611.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="auto">1842</text>
+<polygon points="1477.4,626.5 1486.4,635.5 1477.4,644.5 1468.4,635.5" fill="#6655A4" fill-opacity="1.000" stroke="none"/>
+<text x="1477.4" y="663.5" fill="#6655A4" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2020</text>
+<rect x="1381.6" y="627.5" width="16.0" height="16.0" fill="#FFFFFF" fill-opacity="1.000" stroke="#182435" stroke-width="3"/>
+<text x="1389.6" y="611.5" fill="#182435" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">2006</text>
+<text x="336.0" y="764.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">fear</text>
+<polyline points="360.0,758.5 1490.0,758.5" fill="none" stroke="#EEF1F4" stroke-width="2" stroke-opacity="1.000"/>
+<circle cx="360.0" cy="748.5" r="7.0" fill="#8B96A5" stroke="none" stroke-width="1"/>
+<text x="360.0" y="734.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="12" font-weight="400" text-anchor="middle" dominant-baseline="auto">1842</text>
+<polygon points="410.2,749.5 419.2,758.5 410.2,767.5 401.2,758.5" fill="#6655A4" fill-opacity="1.000" stroke="none"/>
+<text x="410.2" y="786.5" fill="#6655A4" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="middle" dominant-baseline="auto">1850</text>
+<text x="1485.0" y="742.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="12" font-weight="700" text-anchor="end" dominant-baseline="auto">target sense unresolved</text>
+<circle cx="830.0" cy="158.0" r="7.0" fill="#8B96A5" stroke="none" stroke-width="1"/>
+<text x="846.0" y="163.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">First sustained</text>
+<polygon points="1025.0,150.0 1033.0,158.0 1025.0,166.0 1017.0,158.0" fill="#6655A4" fill-opacity="1.000" stroke="none"/>
+<text x="1042.0" y="163.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">Peak</text>
+<rect x="1135.0" y="150.0" width="16.0" height="16.0" fill="#FFFFFF" fill-opacity="1.000" stroke="#182435" stroke-width="3"/>
+<text x="1165.0" y="163.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">Target-sense anchor</text>
+</svg>

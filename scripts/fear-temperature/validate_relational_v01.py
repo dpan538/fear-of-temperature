@@ -6,6 +6,8 @@ from __future__ import annotations
 import argparse
 import csv
 import math
+import json
+from PIL import Image
 from pathlib import Path
 
 
@@ -110,14 +112,47 @@ def validate_comparison() -> None:
         require(math.isclose(float(row["ngram_peak_per_million"]), float(peak["normalized_frequency"]) * 1_000_000, rel_tol=1e-12), f"peak unit mismatch for {row['term']}")
 
 
+def validate_figures() -> None:
+    figure_dir = ROOT / "figures/fear-temperature/relational-v01"
+    manifest = json.loads((figure_dir / "figure_manifest.json").read_text(encoding="utf-8"))
+    require(manifest["figure_count"] == 12, "exactly 12 relational figures required")
+    metadata = rows_from_path(figure_dir / "sources/figure_metadata_source.csv")
+    require(len(metadata) == 12, "figure metadata must contain 12 rows")
+    required_ids = {f"figure_{number:02d}" for number in range(1, 13)}
+    require({row["figure_id"][:9] for row in metadata} == required_ids, "required figure numbering incomplete")
+    for row in metadata:
+        stem = row["figure_id"]
+        png = figure_dir / f"{stem}.png"
+        svg = figure_dir / f"{stem}.svg"
+        source = ROOT / row["source_csv"]
+        meta = figure_dir / f"{stem}_metadata.json"
+        require(png.exists() and png.stat().st_size > 10_000, f"missing or blank PNG: {stem}")
+        require(svg.exists() and svg.stat().st_size > 1_000, f"missing or blank SVG: {stem}")
+        require(source.exists() and source.stat().st_size > 20, f"missing figure source: {stem}")
+        require(meta.exists(), f"missing figure metadata: {stem}")
+        require(row["caption"] and row["interpretation_warning"], f"figure caveat missing: {stem}")
+        with Image.open(png) as image:
+            require(image.size == (1600, 1000), f"unexpected figure dimensions: {stem}")
+    for number in [2, 3, 4, 5, 6]:
+        item = next(row for row in metadata if row["figure_id"].startswith(f"figure_{number:02d}_"))
+        require("zero" in item["interpretation_warning"].lower() or "not estimable" in item["caption"].lower() or "unsupported" in item["caption"].lower(), f"missing zero/missing safeguard in figure {number}")
+
+
+def rows_from_path(path: Path) -> list[dict[str, str]]:
+    with path.open(encoding="utf-8", newline="") as handle:
+        return list(csv.DictReader(handle))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--stage", choices=["linkage", "comparison", "all"], default="all")
+    parser.add_argument("--stage", choices=["linkage", "comparison", "figures", "all"], default="all")
     args = parser.parse_args()
     if args.stage in {"linkage", "all"}:
         validate_linkage()
     if args.stage in {"comparison", "all"}:
         validate_comparison()
+    if args.stage in {"figures", "all"}:
+        validate_figures()
     print(f"PASS relational-v01 validation stage={args.stage}")
 
 

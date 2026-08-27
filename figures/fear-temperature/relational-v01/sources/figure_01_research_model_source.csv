@@ -1,0 +1,3 @@
+from,to,validation
+A/B temperature-climate object,D threat/risk/harm,explicit relation required
+A/B temperature-climate object,C explicit affect,explicit relation + affect mode required

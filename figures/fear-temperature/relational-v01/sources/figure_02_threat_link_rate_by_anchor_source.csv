@@ -1,0 +1,7 @@
+anchor,AB_Object_Passage_Count,Threat_Link_Count,Threat_Link_Rate,Rate_Status,Low_N_Flag,Data_Status,Denominator_Note
+1842,0,0,,UNSUPPORTED_DENOMINATOR_ZERO,True,UNSUPPORTED_NO_VALIDATED_AB_PASSAGES,"No validated A/B object passages exist in the current source-of-truth data; 0 records is a dataset state, not evidence of historical absence."
+1938,0,0,,UNSUPPORTED_DENOMINATOR_ZERO,True,UNSUPPORTED_NO_VALIDATED_AB_PASSAGES,"No validated A/B object passages exist in the current source-of-truth data; 0 records is a dataset state, not evidence of historical absence."
+1988,0,0,,UNSUPPORTED_DENOMINATOR_ZERO,True,UNSUPPORTED_NO_VALIDATED_AB_PASSAGES,"No validated A/B object passages exist in the current source-of-truth data; 0 records is a dataset state, not evidence of historical absence."
+2006–2007,0,0,,UNSUPPORTED_DENOMINATOR_ZERO,True,UNSUPPORTED_NO_VALIDATED_AB_PASSAGES,"No validated A/B object passages exist in the current source-of-truth data; 0 records is a dataset state, not evidence of historical absence."
+2015,0,0,,UNSUPPORTED_DENOMINATOR_ZERO,True,UNSUPPORTED_NO_VALIDATED_AB_PASSAGES,"No validated A/B object passages exist in the current source-of-truth data; 0 records is a dataset state, not evidence of historical absence."
+2022,0,0,,UNSUPPORTED_DENOMINATOR_ZERO,True,UNSUPPORTED_NO_VALIDATED_AB_PASSAGES,"No validated A/B object passages exist in the current source-of-truth data; 0 records is a dataset state, not evidence of historical absence."

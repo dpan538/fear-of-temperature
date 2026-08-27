@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFFFFF"/>
+<text x="70.0" y="52.0" fill="#182435" font-family="Arial,sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="auto">Threat versus affect linkage by anchor</text>
+<text x="70.0" y="102.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="auto">Paired linkage rates within each historical anchor</text>
+<text x="70.0" y="944.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">A dumbbell comparison becomes estimable only after validated A/B passages exist. Missing markers are shown as N/A, not placed at 0%.</text>
+<polyline points="260.0,195.0 260.0,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="260.0" y="852.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">0%</text>
+<polyline points="570.0,195.0 570.0,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="570.0" y="852.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">25%</text>
+<polyline points="880.0,195.0 880.0,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="880.0" y="852.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">50%</text>
+<polyline points="1190.0,195.0 1190.0,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="1190.0" y="852.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">75%</text>
+<polyline points="1500.0,195.0 1500.0,820.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="1500.0" y="852.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="middle" dominant-baseline="auto">100%</text>
+<text x="230.0" y="260.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="auto">1842</text>
+<polyline points="260.0,255.0 1500.0,255.0" fill="none" stroke="#EEF1F4" stroke-width="1" stroke-opacity="1.000"/>
+<text x="880.0" y="248.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Threat N/A   ·   Affect N/A</text>
+<text x="880.0" y="279.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB denominator 0</text>
+<text x="230.0" y="353.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="auto">1938</text>
+<polyline points="260.0,348.0 1500.0,348.0" fill="none" stroke="#EEF1F4" stroke-width="1" stroke-opacity="1.000"/>
+<text x="880.0" y="341.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Threat N/A   ·   Affect N/A</text>
+<text x="880.0" y="372.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB denominator 0</text>
+<text x="230.0" y="446.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="auto">1988</text>
+<polyline points="260.0,441.0 1500.0,441.0" fill="none" stroke="#EEF1F4" stroke-width="1" stroke-opacity="1.000"/>
+<text x="880.0" y="434.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Threat N/A   ·   Affect N/A</text>
+<text x="880.0" y="465.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB denominator 0</text>
+<text x="230.0" y="539.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="auto">2006–2007</text>
+<polyline points="260.0,534.0 1500.0,534.0" fill="none" stroke="#EEF1F4" stroke-width="1" stroke-opacity="1.000"/>
+<text x="880.0" y="527.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Threat N/A   ·   Affect N/A</text>
+<text x="880.0" y="558.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB denominator 0</text>
+<text x="230.0" y="632.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="auto">2015</text>
+<polyline points="260.0,627.0 1500.0,627.0" fill="none" stroke="#EEF1F4" stroke-width="1" stroke-opacity="1.000"/>
+<text x="880.0" y="620.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Threat N/A   ·   Affect N/A</text>
+<text x="880.0" y="651.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB denominator 0</text>
+<text x="230.0" y="725.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="700" text-anchor="end" dominant-baseline="auto">2022</text>
+<polyline points="260.0,720.0 1500.0,720.0" fill="none" stroke="#EEF1F4" stroke-width="1" stroke-opacity="1.000"/>
+<text x="880.0" y="713.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Threat N/A   ·   Affect N/A</text>
+<text x="880.0" y="744.0" fill="#8B96A5" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB denominator 0</text>
+<circle cx="965.0" cy="154.0" r="7.0" fill="#D05A32" stroke="none" stroke-width="1"/>
+<text x="983.0" y="159.0" fill="#182435" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">Threat</text>
+<circle cx="1085.0" cy="154.0" r="7.0" fill="#6655A4" stroke="none" stroke-width="1"/>
+<text x="1103.0" y="159.0" fill="#182435" font-family="Arial,sans-serif" font-size="15" font-weight="400" text-anchor="start" dominant-baseline="auto">Affect</text>
+<text x="1200.0" y="159.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">(markers withheld while unsupported)</text>
+</svg>

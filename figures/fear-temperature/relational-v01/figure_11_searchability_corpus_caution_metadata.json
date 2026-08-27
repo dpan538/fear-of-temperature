@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_11_searchability_corpus_caution",
+  "title": "Searchability differs across historical anchors",
+  "caption": "Supported, zero-result, and unsupported are query/provider states. A zero metadata result is not evidence that the language was historically absent.",
+  "metric_definition": "Candidate count by bounded-search result state",
+  "interpretation_warning": "Discoverability reflects digitisation, metadata, provider indexing, and query construction.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_11_searchability_corpus_caution_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}

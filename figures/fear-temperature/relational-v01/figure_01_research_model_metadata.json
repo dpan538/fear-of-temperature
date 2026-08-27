@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_01_research_model",
+  "title": "How temperature and climate become historically consequential",
+  "caption": "The analysis validates relations from A/B objects to D threat and C affect separately. Co-occurrence alone does not establish either relation.",
+  "metric_definition": "Conceptual relation model",
+  "interpretation_warning": "Threat language must never be used as a proxy for affect.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_01_research_model_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}

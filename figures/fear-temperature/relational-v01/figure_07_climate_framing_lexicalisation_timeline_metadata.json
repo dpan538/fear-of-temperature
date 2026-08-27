@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_07_climate_framing_lexicalisation_timeline",
+  "title": "Climate framing lexicalisation",
+  "caption": "Markers separate raw sustained Ngram presence and peak publication-string frequency from the earliest candidate-level target-sense anchor.",
+  "metric_definition": "Three temporal markers per term",
+  "interpretation_warning": "Ngram markers are raw-string observations; target markers remain candidate-level until passage review.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_07_climate_framing_lexicalisation_timeline_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}

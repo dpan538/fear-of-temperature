@@ -1,0 +1,122 @@
+{
+  "analysis_id": "fear-temperature-relational-v0.1",
+  "figure_count": 12,
+  "formats": [
+    "PNG",
+    "SVG"
+  ],
+  "dimensions": [
+    1600,
+    1000
+  ],
+  "figures": [
+    {
+      "figure_id": "figure_01_research_model",
+      "title": "How temperature and climate become historically consequential",
+      "caption": "The analysis validates relations from A/B objects to D threat and C affect separately. Co-occurrence alone does not establish either relation.",
+      "metric_definition": "Conceptual relation model",
+      "interpretation_warning": "Threat language must never be used as a proxy for affect.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_01_research_model_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_02_threat_link_rate_by_anchor",
+      "title": "Threat-link rate by anchor",
+      "caption": "No validated A/B object passages are currently populated. Blank rates are unsupported, not zero historical linkage.",
+      "metric_definition": "Threat_Link_Count / AB_Object_Passage_Count",
+      "interpretation_warning": "All six rates are not estimable because all six denominators are zero.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_02_threat_link_rate_by_anchor_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_03_affect_link_rate_by_anchor",
+      "title": "Affect-link rate by anchor",
+      "caption": "No validated A/B object passages are currently populated. Blank rates are unsupported, not zero historical linkage.",
+      "metric_definition": "Affect_Link_Count / AB_Object_Passage_Count",
+      "interpretation_warning": "All six rates are not estimable because all six denominators are zero.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_03_affect_link_rate_by_anchor_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_04_threat_vs_affect_by_anchor",
+      "title": "Threat versus affect linkage by anchor",
+      "caption": "A dumbbell comparison becomes estimable only after validated A/B passages exist. Missing markers are shown as N/A, not placed at 0%.",
+      "metric_definition": "Paired Threat_Link_Rate and Affect_Link_Rate",
+      "interpretation_warning": "No points are plotted at zero because zero is not the observed rate.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_04_threat_vs_affect_by_anchor_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_05_threat_linkage_heatmap",
+      "title": "Threat linkage by anchor and voice",
+      "caption": "Every cell is low-N and unsupported because no validated A/B object passages are populated. The dash encodes missing estimands, not 0%.",
+      "metric_definition": "Threat_Link_Rate by anchor × voice",
+      "interpretation_warning": "Low-N flags do not convert unsupported cells into zero rates.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_05_threat_linkage_heatmap_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_06_affect_linkage_heatmap",
+      "title": "Affect linkage by anchor and voice",
+      "caption": "Every cell is low-N and unsupported because no validated A/B object passages are populated. The dash encodes missing estimands, not 0%.",
+      "metric_definition": "Affect_Link_Rate by anchor × voice",
+      "interpretation_warning": "Low-N flags do not convert unsupported cells into zero rates.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_06_affect_linkage_heatmap_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_07_climate_framing_lexicalisation_timeline",
+      "title": "Climate framing lexicalisation",
+      "caption": "Markers separate raw sustained Ngram presence and peak publication-string frequency from the earliest candidate-level target-sense anchor.",
+      "metric_definition": "Three temporal markers per term",
+      "interpretation_warning": "Ngram markers are raw-string observations; target markers remain candidate-level until passage review.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_07_climate_framing_lexicalisation_timeline_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_08_affect_lexicalisation_timeline",
+      "title": "Affect lexicalisation",
+      "caption": "Markers separate raw sustained Ngram presence and peak publication-string frequency from the earliest candidate-level target-sense anchor.",
+      "metric_definition": "Three temporal markers per term",
+      "interpretation_warning": "Ngram markers are raw-string observations; target markers remain candidate-level until passage review.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_08_affect_lexicalisation_timeline_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_09_threat_lexicalisation_timeline",
+      "title": "Threat lexicalisation",
+      "caption": "Markers separate raw sustained Ngram presence and peak publication-string frequency from the earliest candidate-level target-sense anchor.",
+      "metric_definition": "Three temporal markers per term",
+      "interpretation_warning": "Ngram markers are raw-string observations; target markers remain candidate-level until passage review.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_09_threat_lexicalisation_timeline_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_10_inventory_structure_flow",
+      "title": "Structure of the constructed inventory",
+      "caption": "Ribbon widths are counts among the 180 Priority Candidates. This figure describes the designed inventory, not historical prevalence or passage linkage.",
+      "metric_definition": "Priority Candidate count by anchor × layer × voice",
+      "interpretation_warning": "Inventory structure must not be interpreted as historical prevalence.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_10_inventory_structure_flow_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_11_searchability_corpus_caution",
+      "title": "Searchability differs across historical anchors",
+      "caption": "Supported, zero-result, and unsupported are query/provider states. A zero metadata result is not evidence that the language was historically absent.",
+      "metric_definition": "Candidate count by bounded-search result state",
+      "interpretation_warning": "Discoverability reflects digitisation, metadata, provider indexing, and query construction.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_11_searchability_corpus_caution_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    },
+    {
+      "figure_id": "figure_12_ngram_vs_validated_sense",
+      "title": "Raw string appearance and validated sense are different events",
+      "caption": "Four markers are kept separate. Candidate-level attestation and target-sense years remain provisional until source-linked passage validation.",
+      "metric_definition": "Four temporal markers for 17 selected terms",
+      "interpretation_warning": "Raw Ngram observations must not be narrated as first historical meaning.",
+      "source_csv": "figures/fear-temperature/relational-v01/sources/figure_12_ngram_vs_validated_sense_source.csv",
+      "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+    }
+  ]
+}

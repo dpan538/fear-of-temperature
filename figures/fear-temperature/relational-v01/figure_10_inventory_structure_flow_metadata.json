@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_10_inventory_structure_flow",
+  "title": "Structure of the constructed inventory",
+  "caption": "Ribbon widths are counts among the 180 Priority Candidates. This figure describes the designed inventory, not historical prevalence or passage linkage.",
+  "metric_definition": "Priority Candidate count by anchor × layer × voice",
+  "interpretation_warning": "Inventory structure must not be interpreted as historical prevalence.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_10_inventory_structure_flow_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}

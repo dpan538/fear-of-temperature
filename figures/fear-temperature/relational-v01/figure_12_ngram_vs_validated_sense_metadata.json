@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_12_ngram_vs_validated_sense",
+  "title": "Raw string appearance and validated sense are different events",
+  "caption": "Four markers are kept separate. Candidate-level attestation and target-sense years remain provisional until source-linked passage validation.",
+  "metric_definition": "Four temporal markers for 17 selected terms",
+  "interpretation_warning": "Raw Ngram observations must not be narrated as first historical meaning.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_12_ngram_vs_validated_sense_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}

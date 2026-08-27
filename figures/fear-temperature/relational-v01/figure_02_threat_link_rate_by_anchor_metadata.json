@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_02_threat_link_rate_by_anchor",
+  "title": "Threat-link rate by anchor",
+  "caption": "No validated A/B object passages are currently populated. Blank rates are unsupported, not zero historical linkage.",
+  "metric_definition": "Threat_Link_Count / AB_Object_Passage_Count",
+  "interpretation_warning": "All six rates are not estimable because all six denominators are zero.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_02_threat_link_rate_by_anchor_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}

@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_05_threat_linkage_heatmap",
+  "title": "Threat linkage by anchor and voice",
+  "caption": "Every cell is low-N and unsupported because no validated A/B object passages are populated. The dash encodes missing estimands, not 0%.",
+  "metric_definition": "Threat_Link_Rate by anchor × voice",
+  "interpretation_warning": "Low-N flags do not convert unsupported cells into zero rates.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_05_threat_linkage_heatmap_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}

@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFFFFF"/>
+<text x="70.0" y="52.0" fill="#182435" font-family="Arial,sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="auto">Searchability differs across historical anchors</text>
+<text x="70.0" y="102.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="auto">Internet Archive metadata discoverability among 30 Priority Candidates per anchor</text>
+<text x="70.0" y="944.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">Supported, zero-result, and unsupported are query/provider states. A zero metadata result is not evidence that the language was historically absent.</text>
+<polyline points="260.0,235.0 260.0,800.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="260.0" y="830.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">0</text>
+<polyline points="666.7,235.0 666.7,800.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="666.7" y="830.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">10</text>
+<polyline points="1073.3,235.0 1073.3,800.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="1073.3" y="830.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">20</text>
+<polyline points="1480.0,235.0 1480.0,800.0" fill="none" stroke="#DCE2E8" stroke-width="1" stroke-opacity="1.000"/>
+<text x="1480.0" y="830.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="middle" dominant-baseline="auto">30</text>
+<text x="235.0" y="268.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">1842</text>
+<rect x="260.0" y="235.0" width="854.0" height="55.0" fill="#3C7F78" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="687.0" y="263.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">21</text>
+<rect x="1114.0" y="235.0" width="366.0" height="55.0" fill="#E0A44E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1297.0" y="263.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">9</text>
+<text x="1492.0" y="267.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="auto">unsupported 0</text>
+<text x="235.0" y="357.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">1938</text>
+<rect x="260.0" y="324.0" width="813.3" height="55.0" fill="#3C7F78" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="666.7" y="352.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">20</text>
+<rect x="1073.3" y="324.0" width="406.7" height="55.0" fill="#E0A44E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1276.7" y="352.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">10</text>
+<text x="1492.0" y="356.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="auto">unsupported 0</text>
+<text x="235.0" y="446.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">1988</text>
+<rect x="260.0" y="413.0" width="854.0" height="55.0" fill="#3C7F78" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="687.0" y="441.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">21</text>
+<rect x="1114.0" y="413.0" width="366.0" height="55.0" fill="#E0A44E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1297.0" y="441.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">9</text>
+<text x="1492.0" y="445.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="auto">unsupported 0</text>
+<text x="235.0" y="535.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">2006–2007</text>
+<rect x="260.0" y="502.0" width="894.7" height="55.0" fill="#3C7F78" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="707.3" y="530.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">22</text>
+<rect x="1154.7" y="502.0" width="325.3" height="55.0" fill="#E0A44E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1317.3" y="530.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">8</text>
+<text x="1492.0" y="534.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="auto">unsupported 0</text>
+<text x="235.0" y="624.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">2015</text>
+<rect x="260.0" y="591.0" width="1138.7" height="55.0" fill="#3C7F78" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="829.3" y="619.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">28</text>
+<rect x="1398.7" y="591.0" width="81.3" height="55.0" fill="#E0A44E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1439.3" y="619.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">2</text>
+<text x="1492.0" y="623.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="auto">unsupported 0</text>
+<text x="235.0" y="713.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">2022</text>
+<rect x="260.0" y="680.0" width="1179.3" height="55.0" fill="#3C7F78" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="849.7" y="708.5" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">29</text>
+<rect x="1439.3" y="680.0" width="40.7" height="55.0" fill="#E0A44E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1492.0" y="712.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="start" dominant-baseline="auto">unsupported 0</text>
+<rect x="820.0" y="165.0" width="22.0" height="18.0" fill="#3C7F78" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="852.0" y="182.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">supported</text>
+<rect x="1010.0" y="165.0" width="22.0" height="18.0" fill="#E0A44E" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1042.0" y="182.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">zero</text>
+<rect x="1200.0" y="165.0" width="22.0" height="18.0" fill="#8B96A5" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="1232.0" y="182.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">unsupported</text>
+</svg>

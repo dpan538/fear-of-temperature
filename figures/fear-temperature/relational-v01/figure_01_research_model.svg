@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFFFFF"/>
+<text x="70.0" y="52.0" fill="#182435" font-family="Arial,sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="auto">How temperature and climate become historically consequential</text>
+<text x="70.0" y="102.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="auto">Relationship-centred research model</text>
+<text x="70.0" y="944.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">The analysis validates relations from A/B objects to D threat and C affect separately. Co-occurrence alone does not establish either relation.</text>
+<rect x="90.0" y="260.0" width="485.0" height="460.0" fill="#E3F0F5" fill-opacity="1.000" stroke="#2F6B8A" stroke-width="3"/>
+<text x="332.0" y="320.0" fill="#2F6B8A" font-family="Arial,sans-serif" font-size="38" font-weight="700" text-anchor="middle" dominant-baseline="middle">A / B</text>
+<text x="332.0" y="375.0" fill="#182435" font-family="Arial,sans-serif" font-size="24" font-weight="700" text-anchor="middle" dominant-baseline="middle">Temperature + climate objects</text>
+<text x="332.0" y="440.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="auto">temperature · heat · warming ·</text>
+<text x="332.0" y="472.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="auto">climate · greenhouse effect ·</text>
+<text x="332.0" y="504.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="middle" dominant-baseline="auto">thresholds</text>
+<rect x="1010.0" y="210.0" width="500.0" height="280.0" fill="#F6DED5" fill-opacity="1.000" stroke="#D05A32" stroke-width="3"/>
+<text x="1260.0" y="270.0" fill="#D05A32" font-family="Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="middle">D — Threat / risk / harm</text>
+<text x="1260.0" y="335.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="auto">danger · threat · risk · crisis ·</text>
+<text x="1260.0" y="364.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="auto">emergency · loss · damage</text>
+<text x="1260.0" y="450.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Evaluated consequence; not automatically emotion</text>
+<rect x="1010.0" y="560.0" width="500.0" height="280.0" fill="#E8E3F4" fill-opacity="1.000" stroke="#6655A4" stroke-width="3"/>
+<text x="1260.0" y="620.0" fill="#6655A4" font-family="Arial,sans-serif" font-size="27" font-weight="700" text-anchor="middle" dominant-baseline="middle">C — Explicit affect</text>
+<text x="1260.0" y="680.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="auto">fear · worry · anxiety · distress ·</text>
+<text x="1260.0" y="709.0" fill="#182435" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="auto">concern</text>
+<text x="1260.0" y="795.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="middle" dominant-baseline="middle">Direct · prescribed · elicited · researcher-labelled</text>
+<polyline points="585.0,420.0 995.0,350.0" fill="none" stroke="#D05A32" stroke-width="5" stroke-opacity="1.000"/>
+<polygon points="995.0,350.0 984.5,359.2 982.0,344.8" fill="#D05A32" fill-opacity="1.000" stroke="none"/>
+<polyline points="585.0,570.0 995.0,695.0" fill="none" stroke="#6655A4" stroke-width="5" stroke-opacity="1.000"/>
+<polygon points="995.0,695.0 981.4,698.5 985.7,684.5" fill="#6655A4" fill-opacity="1.000" stroke="none"/>
+<rect x="625.0" y="455.0" width="340.0" height="150.0" fill="#182435" fill-opacity="1.000" stroke="none" stroke-width="1"/>
+<text x="795.0" y="515.0" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">THREAT ≠ AFFECT</text>
+<text x="795.0" y="562.0" fill="#FFFFFF" font-family="Arial,sans-serif" font-size="18" font-weight="400" text-anchor="middle" dominant-baseline="middle">D is not the same as C</text>
+</svg>

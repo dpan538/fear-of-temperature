@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="1600" height="1000" fill="#FFFFFF"/>
+<text x="70.0" y="52.0" fill="#182435" font-family="Arial,sans-serif" font-size="38" font-weight="700" text-anchor="start" dominant-baseline="auto">Threat linkage by anchor and voice</text>
+<text x="70.0" y="102.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="19" font-weight="400" text-anchor="start" dominant-baseline="auto">Cell value = validated passage-level link rate</text>
+<text x="70.0" y="944.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">Every cell is low-N and unsupported because no validated A/B object passages are populated. The dash encodes missing estimands, not 0%.</text>
+<text x="454.2" y="181.0" fill="#182435" font-family="Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="auto">1842</text>
+<text x="642.5" y="181.0" fill="#182435" font-family="Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="auto">1938</text>
+<text x="830.8" y="181.0" fill="#182435" font-family="Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="auto">1988</text>
+<text x="1019.2" y="181.0" fill="#182435" font-family="Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="auto">2006–2007</text>
+<text x="1207.5" y="181.0" fill="#182435" font-family="Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="auto">2015</text>
+<text x="1395.8" y="181.0" fill="#182435" font-family="Arial,sans-serif" font-size="16" font-weight="700" text-anchor="middle" dominant-baseline="auto">2022</text>
+<text x="340.0" y="266.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">V1</text>
+<text x="340.0" y="292.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="end" dominant-baseline="auto">Scientific / research</text>
+<rect x="360.0" y="215.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="454.2" y="266.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="454.2" y="299.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="526.3,220.0 543.3,220.0 543.3,237.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="548.3" y="215.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="642.5" y="266.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="642.5" y="299.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="714.7,220.0 731.7,220.0 731.7,237.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="736.7" y="215.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="830.8" y="266.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="830.8" y="299.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="903.0,220.0 920.0,220.0 920.0,237.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="925.0" y="215.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1019.2" y="266.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1019.2" y="299.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1091.3,220.0 1108.3,220.0 1108.3,237.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1113.3" y="215.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1207.5" y="266.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1207.5" y="299.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1279.7,220.0 1296.7,220.0 1296.7,237.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1301.7" y="215.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1395.8" y="266.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1395.8" y="299.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1468.0,220.0 1485.0,220.0 1485.0,237.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<text x="340.0" y="385.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">V2</text>
+<text x="340.0" y="411.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="end" dominant-baseline="auto">Institutional / governance</text>
+<rect x="360.0" y="334.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="454.2" y="385.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="454.2" y="418.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="526.3,339.0 543.3,339.0 543.3,356.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="548.3" y="334.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="642.5" y="385.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="642.5" y="418.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="714.7,339.0 731.7,339.0 731.7,356.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="736.7" y="334.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="830.8" y="385.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="830.8" y="418.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="903.0,339.0 920.0,339.0 920.0,356.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="925.0" y="334.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1019.2" y="385.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1019.2" y="418.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1091.3,339.0 1108.3,339.0 1108.3,356.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1113.3" y="334.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1207.5" y="385.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1207.5" y="418.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1279.7,339.0 1296.7,339.0 1296.7,356.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1301.7" y="334.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1395.8" y="385.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1395.8" y="418.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1468.0,339.0 1485.0,339.0 1485.0,356.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<text x="340.0" y="504.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">V3</text>
+<text x="340.0" y="530.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="end" dominant-baseline="auto">Mediated public</text>
+<rect x="360.0" y="453.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="454.2" y="504.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="454.2" y="537.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="526.3,458.0 543.3,458.0 543.3,475.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="548.3" y="453.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="642.5" y="504.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="642.5" y="537.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="714.7,458.0 731.7,458.0 731.7,475.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="736.7" y="453.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="830.8" y="504.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="830.8" y="537.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="903.0,458.0 920.0,458.0 920.0,475.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="925.0" y="453.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1019.2" y="504.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1019.2" y="537.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1091.3,458.0 1108.3,458.0 1108.3,475.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1113.3" y="453.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1207.5" y="504.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1207.5" y="537.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1279.7,458.0 1296.7,458.0 1296.7,475.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1301.7" y="453.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1395.8" y="504.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1395.8" y="537.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1468.0,458.0 1485.0,458.0 1485.0,475.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<text x="340.0" y="623.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">V4</text>
+<text x="340.0" y="649.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="end" dominant-baseline="auto">Civic / advocacy</text>
+<rect x="360.0" y="572.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="454.2" y="623.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="454.2" y="656.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="526.3,577.0 543.3,577.0 543.3,594.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="548.3" y="572.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="642.5" y="623.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="642.5" y="656.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="714.7,577.0 731.7,577.0 731.7,594.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="736.7" y="572.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="830.8" y="623.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="830.8" y="656.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="903.0,577.0 920.0,577.0 920.0,594.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="925.0" y="572.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1019.2" y="623.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1019.2" y="656.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1091.3,577.0 1108.3,577.0 1108.3,594.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1113.3" y="572.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1207.5" y="623.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1207.5" y="656.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1279.7,577.0 1296.7,577.0 1296.7,594.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1301.7" y="572.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1395.8" y="623.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1395.8" y="656.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1468.0,577.0 1485.0,577.0 1485.0,594.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<text x="340.0" y="742.5" fill="#182435" font-family="Arial,sans-serif" font-size="17" font-weight="700" text-anchor="end" dominant-baseline="auto">V5</text>
+<text x="340.0" y="768.5" fill="#5E6A79" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="end" dominant-baseline="auto">Direct public / lay</text>
+<rect x="360.0" y="691.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="454.2" y="742.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="454.2" y="775.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="526.3,696.0 543.3,696.0 543.3,713.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="548.3" y="691.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="642.5" y="742.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="642.5" y="775.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="714.7,696.0 731.7,696.0 731.7,713.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="736.7" y="691.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="830.8" y="742.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="830.8" y="775.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="903.0,696.0 920.0,696.0 920.0,713.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="925.0" y="691.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1019.2" y="742.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1019.2" y="775.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1091.3,696.0 1108.3,696.0 1108.3,713.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1113.3" y="691.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1207.5" y="742.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1207.5" y="775.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1279.7,696.0 1296.7,696.0 1296.7,713.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="1301.7" y="691.0" width="188.3" height="119.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#FFFFFF" stroke-width="2"/>
+<text x="1395.8" y="742.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="30" font-weight="700" text-anchor="middle" dominant-baseline="middle">—</text>
+<text x="1395.8" y="775.5" fill="#8B96A5" font-family="Arial,sans-serif" font-size="13" font-weight="400" text-anchor="middle" dominant-baseline="middle">AB n=0</text>
+<polygon points="1468.0,696.0 1485.0,696.0 1485.0,713.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<rect x="950.0" y="150.0" width="28.0" height="28.0" fill="#E5E9EE" fill-opacity="1.000" stroke="#8B96A5" stroke-width="1"/>
+<text x="990.0" y="173.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">Unsupported</text>
+<polygon points="1115.0,153.0 1135.0,153.0 1135.0,173.0" fill="#D79A2B" fill-opacity="1.000" stroke="none"/>
+<text x="1148.0" y="173.0" fill="#5E6A79" font-family="Arial,sans-serif" font-size="14" font-weight="400" text-anchor="start" dominant-baseline="auto">Low denominator (&lt;5)</text>
+</svg>

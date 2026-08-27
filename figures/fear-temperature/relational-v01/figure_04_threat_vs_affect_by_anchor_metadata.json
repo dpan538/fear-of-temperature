@@ -1,0 +1,9 @@
+{
+  "figure_id": "figure_04_threat_vs_affect_by_anchor",
+  "title": "Threat versus affect linkage by anchor",
+  "caption": "A dumbbell comparison becomes estimable only after validated A/B passages exist. Missing markers are shown as N/A, not placed at 0%.",
+  "metric_definition": "Paired Threat_Link_Rate and Affect_Link_Rate",
+  "interpretation_warning": "No points are plotted at zero because zero is not the observed rate.",
+  "source_csv": "figures/fear-temperature/relational-v01/sources/figure_04_threat_vs_affect_by_anchor_source.csv",
+  "generation_script": "scripts/fear-temperature/generate_relational_figures.py"
+}
