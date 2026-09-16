@@ -1,126 +1,223 @@
 # Fear of temperature
 
-**Fear of temperature: Computational analysis of policy, media and public climate emotions** is a computational social science / climate communication thesis project. It studies how warming-related attention, fear, worry, anticipated harm, causes, blame and response duties are expressed across policy, news media and public discourse.
+**Fear of temperature: Computational analysis of policy, media and public climate emotions**
+is a computational social science and climate communication project. It investigates how
+warming-related attention, fear, worry, anticipated harm, causal explanation, blame and
+response duties are expressed across policy, news media and public discourse.
 
-The current repository provides a reproducible Python/NLP research workspace and a fully executed synthetic demonstration. It does **not** yet report thesis findings, validate population mental-health claims, establish a new model architecture, or treat cultural heritage as a core conclusion.
+This repository contains the project's reproducible Python/NLP research infrastructure and a
+fully executed synthetic demonstration. It does not yet contain the final research corpus or
+report empirical thesis findings.
 
-**第一次在 VS Code 中使用？请从 [`00_START_HERE.md`](00_START_HERE.md) 开始。**
+## Project context
 
-The authoritative proposal is maintained in the local `proposal/` tree. Because that pre-existing tree also contains private working material and generated runtimes, it is not included in this public workspace snapshot. The implemented boundary is recorded in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) and [`docs/WORKSPACE_VALIDATION.md`](docs/WORKSPACE_VALIDATION.md).
+Rising temperature is simultaneously a physical process, a policy problem and an object of
+social anticipation. A heatwave warning, anxiety about children's futures, a newspaper's risk
+frame and a government duty statement may concern the same climate issue while expressing
+different emotions, time horizons and responsibilities.
 
-## Research scope
+The project therefore treats discourse roles and attribution explicitly:
 
-- Core language and regions: English-language material associated with the United States, European settings, Australia and New Zealand. Chinese and additional regions remain extension candidates.
-- Target collection period: 1988–2026. Recoverable material from 1938 onward may provide historical context; statistical comparisons use only sufficiently dense common coverage.
-- Primary discourse roles: government/policy, news media and public expression. Scientific material remains a source subtype rather than a fourth interchangeable denominator.
-- Attribution is explicit: publisher, quoted speaker and emotion holder are separate fields. A scientist quoted by a newspaper and a resident quoted by a journalist are not recoded as the publisher's own emotion.
-- Direct heat danger and longer-term warming concern are collected together but labelled separately by emotion, target, holder, horizon, quotation scope and negation.
-- Required NLP directions: event/relation candidates, aspect-specific emotion candidates, and diachronic topic/semantic analysis. Relevance retrieval is their shared entry point.
+- **policy/government**, **news media** and **public expression** are the primary comparison
+  roles;
+- scientific material is retained as a source subtype, not treated as an interchangeable
+  fourth public agenda;
+- publisher, quoted speaker and emotion holder remain separate;
+- direct heat danger and longer-term warming concern are collected together but labelled
+  separately;
+- textual emotion is not interpreted as population prevalence or a mental-health diagnosis.
 
-The main temporal questions concern leading, lagging, synchrony and possible feedback among the three roles. CCF, conditional small VAR and segmented regression/ITS are bounded diagnostics: prediction or a discontinuity is not causal proof.
+The core planned corpus covers English-language material associated with the United States,
+European settings, Australia and New Zealand, with a target collection window of 1988–2026.
+Recoverable material from 1938 onward may provide historical context, but statistical
+comparisons will use only sufficiently dense common coverage windows.
 
-## Implemented now
+## Research questions
 
-- An installable `src/fear_temperature` package with shared configuration and deterministic seeds.
-- CSV, JSONL and Parquet input; Unicode/whitespace normalisation; deterministic IDs; exact deduplication; raw-to-derived lineage.
-- Local DuckDB plus Parquet storage for sources, documents, passages, lineage and analysis tables. Existing PostgreSQL migrations remain untouched and available for the production route.
-- TF-IDF retrieval and a real pinned Sentence-Transformer comparison, with persistent 384-dimensional vectors and model metadata.
-- A pinned GoEmotions RoBERTa candidate plus interpretable emotion/horizon/negation cues. GoEmotions `nervousness` is explicitly **not** treated as climate anxiety.
-- spaCy NER/dependency relation candidates labelled as a rule baseline, not SRL.
-- A real BERTopic interface check using the shared sentence embeddings and deterministic K-means clustering.
-- Role/time aggregation with separate attention `S`, conditional emotion `E`, derived joint share `B = S × E`, coverage counts, and distinct missing versus observed-zero states.
-- Reproducible synthetic CCF, ITS, conditional VAR and channel-transition diagnostics, including a fixed-source comparison.
-- PNG, PDF, SVG and self-contained interactive HTML exports.
-- Pytest, Ruff, an environment doctor, registered Jupyter kernel, executable notebooks and VS Code tasks/debug settings.
+1. **Temporal ordering:** when do policy, media and public climate attention or emotion lead,
+   lag, move together or appear to feed back on one another?
+2. **Emotional meaning:** how do fear, worry and anticipated harm vary by target, holder,
+   horizon, quotation scope, negation, source role and period?
+3. **Explanation and responsibility:** how are warming-related causes, threatened outcomes,
+   blame and response duties attributed, and how do those narratives change around physical,
+   institutional or communication events?
 
-The fixture under [`data/fixtures/`](data/fixtures/) is invented test text. Its expected fields are neither historical evidence nor human gold labels.
+Channel and source transitions are analysed as possible composition changes. A discontinuity
+after a platform, archive or coverage change is a bias warning, not by itself a causal effect.
 
-## Quick start: fresh clone to VS Code
+## Contributions
 
-Prerequisites are macOS or Linux, [uv](https://docs.astral.sh/uv/) and VS Code. This workspace is pinned to Python 3.12. The bootstrap installs the full research profile, downloads the three configured public model artefacts, registers the kernel, runs the offline synthetic demo, and finishes with the full doctor.
+### Intended research contribution
+
+- A source-role-aware account of how climate emotions and responsibility narratives develop
+  across policy, media and public discourse.
+- A longitudinal comparison of attention, emotion and framing that states temporal and causal
+  limits instead of treating correlation, prediction or discontinuity as proof of influence.
+- Contextual evidence for distinguishing future-oriented concern from immediate bodily heat
+  danger, and discourse expression from population mental health.
+
+These are research objectives, not completed findings. They depend on corpus access,
+permission review, human annotation, model evaluation and adequate temporal coverage.
+
+### Implemented methodological and engineering contribution
+
+- An auditable ingestion and provenance model linking raw records, sources, documents,
+  canonical passages and exact-duplicate lineage.
+- A modular NLP workflow joining lexical/TF-IDF baselines, semantic retrieval, emotion
+  candidates, relation candidates and diachronic topic candidates without claiming a new
+  model architecture.
+- Explicit measurement denominators: attention `S`, emotion conditional on relevant text
+  `E`, and joint share `B = S × E`, with observed zero distinguished from missing coverage.
+- Reproducible temporal diagnostics for CCF, conditional small VAR, segmented regression/ITS
+  and fixed-source channel-transition checks.
+- A locked Python environment, model revision register, device/fallback reporting, executable
+  notebooks, tests and machine-readable output manifests.
+
+## What the repository contains
+
+| Layer | Contents | Current status |
+|---|---|---|
+| Ingestion | CSV, JSONL and Parquet readers; normalisation, dates, stable IDs and exact deduplication | Implemented and tested |
+| Evidence storage | Source/document/passage/lineage tables, DuckDB and Parquet exports | Implemented locally; PostgreSQL route preserved |
+| Relevance | TF-IDF and pinned Sentence-Transformer retrieval on identical passages | Executed on synthetic fixtures |
+| Emotion | Interpretable cues plus a pinned GoEmotions RoBERTa transfer candidate | Implemented candidate; climate validity not yet established |
+| Relations | spaCy dependency/entity rules with actor, predicate, object and scope fields | Implemented baseline; explicitly not SRL |
+| Topics | BERTopic interface using shared sentence embeddings and deterministic clustering | Implemented interface; stability validation remains planned |
+| Measurement | Role/time aggregation with `S`, `E`, `B`, denominators and coverage states | Implemented and unit tested |
+| Temporal analysis | Synthetic CCF, ITS, conditional VAR and channel-transition diagnostics | Implemented interface; not empirical evidence |
+| Outputs | DuckDB, Parquet/CSV, NumPy vectors, PNG/PDF/SVG and self-contained HTML | Generated by the verified demo |
+| Research workspace | Jupyter notebooks, registered kernel, environment doctor, Pytest, Ruff and Mypy | Installed and validated on Apple Silicon |
+
+The tracked fixture in [`data/fixtures/`](data/fixtures/) is invented test material. Its
+expected fields are software checks, not historical evidence or human gold labels.
+
+## Method overview
+
+```text
+source records
+      ↓
+normalisation + metadata + provenance + duplicate lineage
+      ↓
+relevance retrieval ── TF-IDF / sentence embeddings
+      ↓
+      ├── emotion and horizon candidates
+      ├── event/relation candidates
+      └── diachronic topic candidates
+      ↓
+role/time measures ── S attention / E conditional emotion / B joint share
+      ↓
+CCF / conditional VAR / ITS / channel-composition diagnostics
+      ↓
+traceable tables, figures and contextual interpretation
+```
+
+Detailed module boundaries are documented in
+[`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md).
+
+## Technical stack
+
+| Area | Technologies |
+|---|---|
+| Runtime and reproducibility | Python 3.12, uv, `pyproject.toml`, `uv.lock`, dotenv, YAML |
+| Data processing | pandas, NumPy, PyArrow, SciPy |
+| Storage | DuckDB and Parquet for the service-free workspace; preserved PostgreSQL migrations for the production route |
+| Retrieval and NLP | scikit-learn TF-IDF, PyTorch, Transformers, Sentence-Transformers, spaCy, GoEmotions candidate, BERTopic |
+| Statistical analysis | statsmodels, cross-correlation, segmented regression/ITS and conditional VAR |
+| Visualisation | Matplotlib, Seaborn and Plotly |
+| Research workflow | JupyterLab, ipykernel and nbformat/nbconvert |
+| Quality controls | Pytest, Ruff, Mypy, deterministic seeds, model/output manifests and SHA-256 records |
+
+Exact dependency versions are locked in [`uv.lock`](uv.lock). Model IDs, revisions, licences,
+cache behaviour and interpretation limits are recorded in
+[`docs/DATA_MODELS_AND_GOVERNANCE.md`](docs/DATA_MODELS_AND_GOVERNANCE.md).
+
+## Current status and evidence boundary
+
+The synthetic end-to-end run has verified real model download/inference, Apple MPS execution,
+cleaning, provenance storage, embeddings, retrieval, emotion/relation/topic candidates,
+aggregation, temporal diagnostics and figure export. The current acceptance record includes
+10 unit/data-contract tests and the preserved legacy validator's 11 checks and 21 figures.
+
+The repository does **not** currently claim:
+
+- a completed historical, policy, media or platform corpus;
+- empirical changes in public or institutional emotion;
+- a validated climate-anxiety classifier;
+- production semantic role labelling;
+- stable historical topics or causal influence among discourse roles;
+- a novel neural architecture.
+
+See [`docs/WORKSPACE_VALIDATION.md`](docs/WORKSPACE_VALIDATION.md) for executed checks and
+remaining research gates.
+
+## Data and research governance
+
+Public visibility is not blanket permission to collect, quote, infer from or redistribute
+source material. Restricted originals, identifiers, text, features and embeddings require
+source-specific permission and release review. Human annotation and later evaluation remain
+subject to the project's supervisory and UQ ethics process.
+
+The authoritative proposal is maintained in the local `proposal/` working tree. It is
+reviewed separately for publication because it also contains private course material,
+historical drafts and generated runtimes. This public snapshot applies no blanket licence to
+the repository and asserts no licence over third-party corpora.
+
+## Reproducibility
+
+The complete verified environment can be rebuilt from a fresh clone with:
 
 ```bash
-cd fear_of_temperature
 ./scripts/bootstrap.sh
-code .
 ```
 
-On first open, accept VS Code workspace trust if you trust this repository. The interpreter is configured as `.venv/bin/python`. For a notebook, select **Python (Fear of Temperature)** if VS Code does not select it automatically; workspace settings cannot bypass the trust or kernel-confirmation UI.
-
-Run the verified workflow from the terminal or the matching VS Code tasks:
-
-```bash
-.venv/bin/fear-temperature-doctor --full-models
-.venv/bin/pytest
-.venv/bin/fear-temperature-demo --offline
-./scripts/run_notebooks.sh
-```
-
-The main notebooks are:
+The two supplied notebooks separate environment verification from the synthetic end-to-end
+demonstration:
 
 1. [`notebooks/01_workspace_check.ipynb`](notebooks/01_workspace_check.ipynb)
 2. [`notebooks/02_synthetic_end_to_end.ipynb`](notebooks/02_synthetic_end_to_end.ipynb)
 
-Executed copies, model/device manifests, DuckDB/Parquet tables, vectors and figures are written to `outputs/demo/` and are intentionally not tracked.
-
-## Environment and reproducibility
-
-`pyproject.toml` is the single dependency declaration and `uv.lock` is the exact cross-platform lock. `requirements.txt` is only a compatibility entry point for old `pip install -r requirements.txt` commands; it delegates to the `legacy` extra in `pyproject.toml`.
+The same workflows can be executed non-interactively:
 
 ```bash
-# Recreate exactly from the checked-in lock
-UV_CACHE_DIR="$PWD/.cache/uv" uv sync --locked --all-extras --group dev --python 3.12
-
-# Update intentionally, then review uv.lock
-UV_CACHE_DIR="$PWD/.cache/uv" uv lock --upgrade
+.venv/bin/fear-temperature-doctor --full-models
+.venv/bin/fear-temperature-demo --offline
+.venv/bin/pytest
+./scripts/run_notebooks.sh
 ```
 
-Local non-secret defaults live in ignored `.env`; the tracked template is [`.env.example`](.env.example). Paths, model cache, seed, device and optional database URL are shared by scripts and notebooks. No API key is supplied or expected by the synthetic demo.
+Generated model/device manifests, tables, vectors, databases, notebook execution copies and
+figures are written under ignored `outputs/demo/`.
 
-See [`docs/ENVIRONMENT.md`](docs/ENVIRONMENT.md) for kernel maintenance, first-download/offline use, CPU/MPS selection and troubleshooting. Model IDs, exact revisions, licences and measured cache size are documented in [`docs/DATA_MODELS_AND_GOVERNANCE.md`](docs/DATA_MODELS_AND_GOVERNANCE.md).
-
-## Project layout
+## Repository structure
 
 ```text
-src/fear_temperature/  installable ingestion, NLP, temporal and visualisation code
-configs/               model and run configuration
-notebooks/             numbered, kernel-bound research notebooks
+src/fear_temperature/  installable ingestion, NLP, temporal and visualisation package
+configs/               run and pinned-model configuration
+notebooks/             environment check and synthetic end-to-end demonstration
 scripts/               bootstrap, model, kernel, notebook and legacy entry points
 tests/                 data-contract and temporal-analysis tests
 data/fixtures/         tracked synthetic inputs only
-data/raw|interim|processed|exports/
-                       local research data stages; raw/interim outputs are ignored
-outputs/demo/          regenerable demo artefacts and manifests; ignored
+data/raw/              ignored local source material
+outputs/demo/          ignored, reproducible demonstration artefacts
 db/                    preserved PostgreSQL migrations, seeds and validations
-proposal/              local authoritative proposal and working records; publication reviewed separately
-docs/                  environment, architecture, migration and validation records
-.vscode/               portable interpreter, test, task and debug configuration
+docs/                  architecture, environment, governance, migration and validation records
+.vscode/               optional editor tasks, tests and debug configuration
 ```
 
-The incremental migration and protection inventory is in [`docs/MIGRATION_INVENTORY.md`](docs/MIGRATION_INVENTORY.md). No existing data, old script, database migration, proposal file, figure or uncommitted user artefact was moved or deleted.
-
-## Planned research work
-
-The next phase is the access- and ethics-governed pilot described by the proposal. It will verify source permissions and common windows; freeze source roles, denominators and sampling weights; create role/period-stratified human-reviewed labels; evaluate retrieval and the three NLP components; and only then fit real temporal/event models. Production SRL/contextual relation extraction, topic stability analysis and climate-specific emotion validation remain planned, not claimed as completed here.
-
-Restricted originals, quotations, identifiers, features and embeddings require source-specific permission and release review. Public visibility is not blanket consent. Only permitted data and derivatives may be published. The repository currently assigns no blanket open-source licence to the code and no licence to third-party corpora.
+The migration and protection inventory is in
+[`docs/MIGRATION_INVENTORY.md`](docs/MIGRATION_INVENTORY.md).
 
 ## Legacy baseline
 
-The earlier 1842–2022 lexical/Google Books Ngram work remains a preserved, provisional baseline under `scripts/fear-temperature/`, `data/fear-temperature/`, `db/`, `figures/fear-temperature/` and `outputs/quantitative-v01/`. It is background and a comparison baseline, not the current thesis scope or a gold semantic corpus.
-
-Validate it without writing raw data:
+The earlier 1842–2022 lexical and Google Books Ngram work remains a preserved provisional
+baseline under `scripts/fear-temperature/`, `data/fear-temperature/`, `db/`,
+`figures/fear-temperature/` and `outputs/quantitative-v01/`. It provides historical
+background and a comparison baseline; it is not the current thesis scope or a gold semantic
+corpus.
 
 ```bash
 .venv/bin/python scripts/fear-temperature/validate_quantitative_baseline.py
 ```
 
-The current run passes 11 checks and confirms 21 legacy figures. See [`docs/research/fear-temperature/VALIDATION_REPORT.md`](docs/research/fear-temperature/VALIDATION_REPORT.md).
-
-## Repository metadata
-
-GitHub description:
-
-> Computational study of warming-related fear and anxiety across policy, news media and public discourse, using a reproducible NLP pipeline and temporal analysis.
-
-Suggested topics: `computational-social-science`, `climate-communication`, `nlp`, `climate-emotions`, `sentence-transformers`, `bertopic`, `time-series`, `jupyter`, `duckdb`, `postgresql`, `research-data`, `data-provenance`.
+The current run passes 11 checks and confirms 21 legacy figures. See
+[`docs/research/fear-temperature/VALIDATION_REPORT.md`](docs/research/fear-temperature/VALIDATION_REPORT.md).
