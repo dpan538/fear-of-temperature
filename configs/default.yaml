@@ -1,0 +1,19 @@
+project:
+  name: fear-of-temperature
+  random_seed: 20260916
+
+demo:
+  input: data/fixtures/synthetic_passages.jsonl
+  output: outputs/demo
+  retrieval_query: "fear or worry about future harm caused by global warming"
+  semantic_top_k: 10
+  topic_count: 3
+  temporal_periods: 96
+  transition_index: 56
+
+aggregation:
+  frequency: MS
+  roles:
+    - policy
+    - media
+    - public

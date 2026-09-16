@@ -1,0 +1,25 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Demo pipeline",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "fear_temperature.pipeline",
+      "args": ["--offline"],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Doctor",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "fear_temperature.doctor",
+      "args": ["--full-models"],
+      "cwd": "${workspaceFolder}",
+      "envFile": "${workspaceFolder}/.env",
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,108 +1,126 @@
-# Fear of Temperature
+# Fear of temperature
 
-Fear of Temperature is a reproducible digital humanities research project investigating how rising temperature has been measured, experienced, causally explained, framed as risk or threat, communicated, and expressed affectively across different historical documentary contexts.
+**Fear of temperature: Computational analysis of policy, media and public climate emotions** is a computational social science / climate communication thesis project. It studies how warming-related attention, fear, worry, anticipated harm, causes, blame and response duties are expressed across policy, news media and public discourse.
 
-The thesis does not assume a simple linear history from “no fear” to “fear.” Instead, it examines relationships among:
+The current repository provides a reproducible Python/NLP research workspace and a fully executed synthetic demonstration. It does **not** yet report thesis findings, validate population mental-health claims, establish a new model architecture, or treat cultural heritage as a core conclusion.
 
-- temperature measurement;
-- lived heat experience;
-- climatic causation;
-- institutional risk and threat;
-- mediated public warning;
-- civic mobilisation;
-- public appraisal;
-- named affect.
+**第一次在 VS Code 中使用？请从 [`00_START_HERE.md`](00_START_HERE.md) 开始。**
 
-## Historical framework
+The authoritative proposal is maintained in the local `proposal/` tree. Because that pre-existing tree also contains private working material and generated runtimes, it is not included in this public workspace snapshot. The implemented boundary is recorded in [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) and [`docs/WORKSPACE_VALIDATION.md`](docs/WORKSPACE_VALIDATION.md).
 
-| Anchor | Research role |
-| --- | --- |
-| 1842 | Meteorological/environmental and embodied-heat baseline |
-| 1938 | CO₂–temperature causal-science bridge |
-| 1988 | Institutional climate-risk and mediated-warning anchor |
-| 2006–2007 | Public-communication and threat-framing bridge |
-| 2015 | Temperature-threshold governance anchor |
-| 2022 | Contemporary heat/risk/affect endpoint |
+## Research scope
 
-These anchors are analytical historical positions, not assumed stages of a single stable emotion.
+- Core language and regions: English-language material associated with the United States, European settings, Australia and New Zealand. Chinese and additional regions remain extension candidates.
+- Target collection period: 1988–2026. Recoverable material from 1938 onward may provide historical context; statistical comparisons use only sufficiently dense common coverage.
+- Primary discourse roles: government/policy, news media and public expression. Scientific material remains a source subtype rather than a fourth interchangeable denominator.
+- Attribution is explicit: publisher, quoted speaker and emotion holder are separate fields. A scientist quoted by a newspaper and a resident quoted by a journalist are not recoded as the publisher's own emotion.
+- Direct heat danger and longer-term warming concern are collected together but labelled separately by emotion, target, holder, horizon, quotation scope and negation.
+- Required NLP directions: event/relation candidates, aspect-specific emotion candidates, and diachronic topic/semantic analysis. Relevance retrieval is their shared entry point.
 
-## Lexical framework
+The main temporal questions concern leading, lagging, synchrony and possible feedback among the three roles. CCF, conditional small VAR and segmented regression/ITS are bounded diagnostics: prediction or a discontinuity is not causal proof.
 
-The current lexical layers are:
+## Implemented now
 
-- **A — Temperature / Physical Phenomenon**
-- **B — Climate / Atmospheric / Causal**
-- **C — Affect**
-- **D — Threat / Risk / Harm**
+- An installable `src/fear_temperature` package with shared configuration and deterministic seeds.
+- CSV, JSONL and Parquet input; Unicode/whitespace normalisation; deterministic IDs; exact deduplication; raw-to-derived lineage.
+- Local DuckDB plus Parquet storage for sources, documents, passages, lineage and analysis tables. Existing PostgreSQL migrations remain untouched and available for the production route.
+- TF-IDF retrieval and a real pinned Sentence-Transformer comparison, with persistent 384-dimensional vectors and model metadata.
+- A pinned GoEmotions RoBERTa candidate plus interpretable emotion/horizon/negation cues. GoEmotions `nervousness` is explicitly **not** treated as climate anxiety.
+- spaCy NER/dependency relation candidates labelled as a rule baseline, not SRL.
+- A real BERTopic interface check using the shared sentence embeddings and deterministic K-means clustering.
+- Role/time aggregation with separate attention `S`, conditional emotion `E`, derived joint share `B = S × E`, coverage counts, and distinct missing versus observed-zero states.
+- Reproducible synthetic CCF, ITS, conditional VAR and channel-transition diagnostics, including a fixed-source comparison.
+- PNG, PDF, SVG and self-contained interactive HTML exports.
+- Pytest, Ruff, an environment doctor, registered Jupyter kernel, executable notebooks and VS Code tasks/debug settings.
 
-The current voice categories are:
+The fixture under [`data/fixtures/`](data/fixtures/) is invented test text. Its expected fields are neither historical evidence nor human gold labels.
 
-- **V1 — Scientific / Research**
-- **V2 — Institutional / Governance**
-- **V3 — Mediated Public**
-- **V4 — Organised Civic / Advocacy**
-- **V5 — Direct Public / Lay**
+## Quick start: fresh clone to VS Code
 
-Voice and source genre are separate analytical dimensions. A scientist quoted by a newspaper remains a scientific voice; a survey participant represented in an academic paper remains a public/lay voice.
+Prerequisites are macOS or Linux, [uv](https://docs.astral.sh/uv/) and VS Code. This workspace is pinned to Python 3.12. The bootstrap installs the full research profile, downloads the three configured public model artefacts, registers the kernel, runs the offline synthetic demo, and finishes with the full doctor.
 
-## Research Data Principles
-
-1. Raw evidence is never silently overwritten.
-2. Derived, normalised, candidate, canonical and reviewed states remain distinguishable.
-3. Historical source, later reproduction and scholarly interpretation must remain traceable.
-4. Researcher terminology, survey instrument wording and participant wording must not be conflated.
-5. A keyword hit is not automatically accepted research evidence.
-6. Negative and rejected evidence remains auditable.
-7. Historical source gaps must not be filled artificially for symmetry.
-8. All later collection and review operations should be versioned.
-
-## Repository structure
-
-```text
-docs/           research reports, methodology and decision records
-data/raw/       immutable or minimally transformed collected data
-data/interim/   intermediate processing outputs
-data/processed/ validated research datasets
-data/exports/   presentation and research exports
-db/             PostgreSQL migrations and seed data
-scripts/        reproducible collectors and analysis scripts
-notebooks/      exploratory analysis only
-figures/        generated research figures
-tests/          validation and regression tests
+```bash
+cd fear_of_temperature
+./scripts/bootstrap.sh
+code .
 ```
 
-Raw source data should not be manually edited after capture.
+On first open, accept VS Code workspace trust if you trust this repository. The interpreter is configured as `.venv/bin/python`. For a notebook, select **Python (Fear of Temperature)** if VS Code does not select it automatically; workspace settings cannot bypass the trust or kernel-confirmation UI.
+
+Run the verified workflow from the terminal or the matching VS Code tasks:
+
+```bash
+.venv/bin/fear-temperature-doctor --full-models
+.venv/bin/pytest
+.venv/bin/fear-temperature-demo --offline
+./scripts/run_notebooks.sh
+```
+
+The main notebooks are:
+
+1. [`notebooks/01_workspace_check.ipynb`](notebooks/01_workspace_check.ipynb)
+2. [`notebooks/02_synthetic_end_to_end.ipynb`](notebooks/02_synthetic_end_to_end.ipynb)
+
+Executed copies, model/device manifests, DuckDB/Parquet tables, vectors and figures are written to `outputs/demo/` and are intentionally not tracked.
+
+## Environment and reproducibility
+
+`pyproject.toml` is the single dependency declaration and `uv.lock` is the exact cross-platform lock. `requirements.txt` is only a compatibility entry point for old `pip install -r requirements.txt` commands; it delegates to the `legacy` extra in `pyproject.toml`.
+
+```bash
+# Recreate exactly from the checked-in lock
+UV_CACHE_DIR="$PWD/.cache/uv" uv sync --locked --all-extras --group dev --python 3.12
+
+# Update intentionally, then review uv.lock
+UV_CACHE_DIR="$PWD/.cache/uv" uv lock --upgrade
+```
+
+Local non-secret defaults live in ignored `.env`; the tracked template is [`.env.example`](.env.example). Paths, model cache, seed, device and optional database URL are shared by scripts and notebooks. No API key is supplied or expected by the synthetic demo.
+
+See [`docs/ENVIRONMENT.md`](docs/ENVIRONMENT.md) for kernel maintenance, first-download/offline use, CPU/MPS selection and troubleshooting. Model IDs, exact revisions, licences and measured cache size are documented in [`docs/DATA_MODELS_AND_GOVERNANCE.md`](docs/DATA_MODELS_AND_GOVERNANCE.md).
+
+## Project layout
+
+```text
+src/fear_temperature/  installable ingestion, NLP, temporal and visualisation code
+configs/               model and run configuration
+notebooks/             numbered, kernel-bound research notebooks
+scripts/               bootstrap, model, kernel, notebook and legacy entry points
+tests/                 data-contract and temporal-analysis tests
+data/fixtures/         tracked synthetic inputs only
+data/raw|interim|processed|exports/
+                       local research data stages; raw/interim outputs are ignored
+outputs/demo/          regenerable demo artefacts and manifests; ignored
+db/                    preserved PostgreSQL migrations, seeds and validations
+proposal/              local authoritative proposal and working records; publication reviewed separately
+docs/                  environment, architecture, migration and validation records
+.vscode/               portable interpreter, test, task and debug configuration
+```
+
+The incremental migration and protection inventory is in [`docs/MIGRATION_INVENTORY.md`](docs/MIGRATION_INVENTORY.md). No existing data, old script, database migration, proposal file, figure or uncommitted user artefact was moved or deleted.
+
+## Planned research work
+
+The next phase is the access- and ethics-governed pilot described by the proposal. It will verify source permissions and common windows; freeze source roles, denominators and sampling weights; create role/period-stratified human-reviewed labels; evaluate retrieval and the three NLP components; and only then fit real temporal/event models. Production SRL/contextual relation extraction, topic stability analysis and climate-specific emotion validation remain planned, not claimed as completed here.
+
+Restricted originals, quotations, identifiers, features and embeddings require source-specific permission and release review. Public visibility is not blanket consent. Only permitted data and derivatives may be published. The repository currently assigns no blanket open-source licence to the code and no licence to third-party corpora.
+
+## Legacy baseline
+
+The earlier 1842–2022 lexical/Google Books Ngram work remains a preserved, provisional baseline under `scripts/fear-temperature/`, `data/fear-temperature/`, `db/`, `figures/fear-temperature/` and `outputs/quantitative-v01/`. It is background and a comparison baseline, not the current thesis scope or a gold semantic corpus.
+
+Validate it without writing raw data:
+
+```bash
+.venv/bin/python scripts/fear-temperature/validate_quantitative_baseline.py
+```
+
+The current run passes 11 checks and confirms 21 legacy figures. See [`docs/research/fear-temperature/VALIDATION_REPORT.md`](docs/research/fear-temperature/VALIDATION_REPORT.md).
 
 ## Repository metadata
 
-Suggested GitHub description:
+GitHub description:
 
-> A reproducible digital humanities research project tracing how temperature, climate risk, threat, and affect are represented across historical scientific, institutional, media, civic, and public discourse.
+> Computational study of warming-related fear and anxiety across policy, news media and public discourse, using a reproducible NLP pipeline and temporal analysis.
 
-Suggested topics: `digital-humanities`, `climate-change`, `climate-history`, `historical-linguistics`, `corpus-linguistics`, `semantic-analysis`, `history-of-emotions`, `climate-communication`, `postgresql`, `research-data`, `data-provenance`, and `nlp`.
-
-## Quantitative baseline v0.1
-
-The current implementation branch contains a complete provisional lexical and Google Books Ngram baseline:
-
-- a PostgreSQL research schema and deterministic SQL seeds;
-- 396 provenance-labelled seed-stage records;
-- 143 provisional anchor-specific query rules and compatibility decisions;
-- 132 successful non-zero annual Ngram series for 1842–2022, plus preserved zero/not-run outcomes;
-- full frequency, anchor, family, and voice exports;
-- 21 presentation-ready figures and a formula-linked supervisor workbook.
-
-Reproduce and validate the project from the repository root:
-
-```bash
-python3 -m pip install -r requirements.txt
-python3 scripts/fear-temperature/build_seed.py
-python3 scripts/fear-temperature/build_query_inventory.py
-python3 scripts/fear-temperature/ngram_quantitative_pipeline.py --reuse-raw
-python3 scripts/fear-temperature/validate_quantitative_baseline.py
-node scripts/fear-temperature/build_supervisor_workbook.mjs
-```
-
-The presentation entry point is `docs/research/fear-temperature/PRESENTATION_SNAPSHOT.md`. Canonical outputs are under `data/fear-temperature/`, figures under `figures/fear-temperature/`, and the supervisor workbook under `outputs/quantitative-v01/`.
-
-This remains a provisional baseline. Original later-stage structured artifacts were unavailable, so reconstructed records and rules use new project IDs and explicit provenance labels. The next implementation step is the 200-passage source-linked semantic retrieval pilot. Licensing for source code, research data, and restricted third-party sources remains to be decided separately.
+Suggested topics: `computational-social-science`, `climate-communication`, `nlp`, `climate-emotions`, `sentence-transformers`, `bertopic`, `time-series`, `jupyter`, `duckdb`, `postgresql`, `research-data`, `data-provenance`.

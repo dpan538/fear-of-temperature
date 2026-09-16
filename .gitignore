@@ -9,6 +9,7 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+.cache/
 
 .venv/
 venv/
@@ -29,6 +30,13 @@ data/interim/*
 
 *.sqlite
 *.sqlite3
+*.duckdb
+
+# Rebuildable NLP artefacts. Small synthetic fixtures remain tracked.
+models/
+outputs/demo/
+data/processed/demo/
+data/interim/demo/
 
 .postgres/
 postgres-data/
