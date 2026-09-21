@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-21T01:46:34Z",
+  "content_objects": 3025,
+  "webpages": 1020,
+  "attachments": 2005,
+  "successful": 0,
+  "failed": 0,
+  "skipped": 0,
+  "pending": 3025,
+  "failed_or_pending": 3025,
+  "status_counts": {
+    "blocked_pending_ethics_route": 3025
+  }
+}

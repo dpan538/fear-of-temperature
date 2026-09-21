@@ -1,0 +1,20 @@
+{
+  "retrieved_at": "2026-09-21",
+  "request_url": "https://www.gov.uk/api/content/government/organisations/department-for-environment-food-rural-affairs",
+  "purpose": "Historical coverage investigation only; this is a minimal metadata projection, not a content-enumeration source.",
+  "organisation": {
+    "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+    "title": "Department for Environment, Food & Rural Affairs",
+    "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+    "status": "live"
+  },
+  "superseded_organisations": [
+    {
+      "content_id": "971eb79c-9236-47ff-9af1-b32c835a88fc",
+      "title": "Department of the Environment, Transport and the Regions",
+      "base_path": "/government/organisations/department-of-the-environment-transport-and-the-regions",
+      "status": "split"
+    }
+  ],
+  "interpretation_limit": "The relationship does not establish that predecessor publications were completely migrated or retagged."
+}

@@ -1,0 +1,22 @@
+{
+  "generated_at": "2026-09-21T02:03:01Z",
+  "unique_documents": 1020,
+  "organisation_links": 1473,
+  "webpages": 1020,
+  "unique_attachments": 2005,
+  "successful_content": 0,
+  "text_segments": 0,
+  "enumeration_status": "complete_as_visible",
+  "batch_status": "partial",
+  "fetch_status_counts": {
+    "blocked_pending_ethics_route": 3025
+  },
+  "document_type_drifts": 1,
+  "cross_run_rebuild_passed": true,
+  "metadata_enumeration_status": "complete",
+  "normalisation_ingest_recovery_status": "passed",
+  "schema_review_status": "prepared_awaiting_dai_review",
+  "body_collection_status": "blocked",
+  "fulltext_corpus_status": "incomplete",
+  "batch_frozen": true
+}

@@ -1,0 +1,32 @@
+{
+  "batch_id": "govuk_defra_policy_paper_1988_20260921_v1",
+  "frozen": true,
+  "frozen_at": "2026-09-21T02:00:14Z",
+  "schema_version": "m1_government_batch_v2",
+  "normalisation_rule_version": "govuk_metadata_v3",
+  "statuses": {
+    "metadata_enumeration": "complete",
+    "normalisation_ingest_recovery": "passed",
+    "schema_review": "prepared_awaiting_dai_review",
+    "body_collection": "blocked",
+    "fulltext_corpus": "incomplete"
+  },
+  "observation_cutoff_at": "2026-09-21T01:10:54Z",
+  "counts": {
+    "unique_documents": 1020,
+    "webpages": 1020,
+    "unique_attachments": 2005,
+    "content_objects_pending": 3025,
+    "successful_content": 0,
+    "text_segments": 0
+  },
+  "logical_fingerprint": "72d4f0601a8a82f6912ea6813f4e12cc8a2454f35d956706da71867464198af5",
+  "sha256": {
+    "config.yaml": "32c1dea725d46ea55efe80522fcf88e7146d7199912f6230a0c56afb515a71d5",
+    "query_partitions.csv": "7cd4402a169a1d5519f62edcfe48318000f96a58358a9ff0ee5576e9e7456666",
+    "enumeration_manifest.csv": "1340e85a841ebb1ab261d7160abdc8474a302d39bfca97cb488be4388150e786",
+    "fetch_manifest.csv": "d293fc787d4bcca0b93bdaa919b5553b6af84fa6f3c7d68c17e9b42f9a1fc391",
+    "fear_temperature_government_batch.duckdb": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396"
+  },
+  "freeze_rule": "Do not mutate this batch. If body collection is later authorised, start a new content-acquisition batch referencing this frozen enumeration manifest."
+}

@@ -1,0 +1,111 @@
+{
+  "generated_at": "2026-09-21T01:55:04Z",
+  "batch_id": "govuk_defra_policy_paper_1988_20260921_v1",
+  "passed": true,
+  "batch_status": "partial",
+  "enumeration_status": "complete_as_visible",
+  "content_status": "blocked",
+  "checks": [
+    {
+      "name": "partition_count",
+      "passed": true,
+      "observed": 39,
+      "expected": 39,
+      "note": "Every calendar-year partition is present."
+    },
+    {
+      "name": "partition_status",
+      "passed": true,
+      "observed": [],
+      "expected": [],
+      "note": "All partitions met pagination, metadata and end-total checks."
+    },
+    {
+      "name": "api_total_matches_manifest",
+      "passed": true,
+      "observed": {
+        "api_total": 1020,
+        "manifest": 1020
+      },
+      "expected": "equal",
+      "note": "Partition totals reconcile to manifest rows."
+    },
+    {
+      "name": "unique_external_ids",
+      "passed": true,
+      "observed": 1020,
+      "expected": 1020,
+      "note": "GOV.UK content_id is complete and unique across partitions."
+    },
+    {
+      "name": "metadata_record_status",
+      "passed": true,
+      "observed": [],
+      "expected": [],
+      "note": "All key dates, types and DEFRA organisation links were rechecked in Content API metadata."
+    },
+    {
+      "name": "date_boundaries",
+      "passed": true,
+      "observed": [],
+      "expected": [],
+      "note": "Content API first_published_at falls inside the batch boundary."
+    },
+    {
+      "name": "metadata_hashes",
+      "passed": true,
+      "observed": [],
+      "expected": [],
+      "note": "Every manifest row traces to a saved, checksum-matched metadata projection."
+    },
+    {
+      "name": "raw_file_index",
+      "passed": true,
+      "observed": [],
+      "expected": [],
+      "note": "Indexed raw/search and metadata evidence files exist and match hashes."
+    },
+    {
+      "name": "webpage_parent_coverage",
+      "passed": true,
+      "observed": 1020,
+      "expected": 1020,
+      "note": "Every enumerated document has a landing-page content object."
+    },
+    {
+      "name": "failure_pending_manifest_complete",
+      "passed": true,
+      "observed": 3025,
+      "expected": 3025,
+      "note": "Every failed, blocked or pending content object is exported explicitly."
+    },
+    {
+      "name": "fetch_outcome_exports_partition_manifest",
+      "passed": true,
+      "observed": {
+        "success": 0,
+        "failed": 0,
+        "skipped": 0,
+        "pending": 3025
+      },
+      "expected": {
+        "classified_once": 3025
+      },
+      "note": "Success, failed, skipped and pending exports partition the fetch manifest exactly once."
+    },
+    {
+      "name": "content_gate_enforced",
+      "passed": true,
+      "observed": [],
+      "expected": [],
+      "note": "No body or attachment bytes were downloaded while the gate is pending."
+    }
+  ],
+  "counts": {
+    "partitions": 39,
+    "unique_documents": 1020,
+    "webpages": 1020,
+    "attachments": 2005,
+    "successful_content": 0
+  }
+}

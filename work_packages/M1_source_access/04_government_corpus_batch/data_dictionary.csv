@@ -1,0 +1,217 @@
+table_name,table_purpose,field_name,duckdb_type,nullable,definition
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,batch_id,VARCHAR,NO,collection_batches.batch_id；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_id,VARCHAR,NO,collection_batches.source_id；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,accessed_at,TIMESTAMP WITH TIME ZONE,NO,collection_batches.accessed_at；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,query_url,VARCHAR,NO,collection_batches.query_url；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,query_conditions_json,VARCHAR,NO,collection_batches.query_conditions_json；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,window_start,DATE,NO,collection_batches.window_start；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,window_end,DATE,NO,collection_batches.window_end；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,date_filter_field,VARCHAR,NO,collection_batches.date_filter_field；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,pagination_json,VARCHAR,NO,collection_batches.pagination_json；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,reported_total,INTEGER,NO,collection_batches.reported_total；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,returned_count,INTEGER,NO,collection_batches.returned_count；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,completeness_status,VARCHAR,NO,collection_batches.completeness_status；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,completeness_reason,VARCHAR,NO,collection_batches.completeness_reason；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,search_snapshot_path,VARCHAR,NO,collection_batches.search_snapshot_path；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,search_snapshot_sha256,VARCHAR,NO,collection_batches.search_snapshot_sha256；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,metadata_snapshot_path,VARCHAR,NO,collection_batches.metadata_snapshot_path；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,metadata_snapshot_sha256,VARCHAR,NO,collection_batches.metadata_snapshot_sha256；保留来源语义，不以猜测补缺。
+collection_batches,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,research_sample,BOOLEAN,NO,collection_batches.research_sample；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,fetch_id,VARCHAR,NO,content_fetches.fetch_id；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,batch_id,VARCHAR,NO,content_fetches.batch_id；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,content_object_id,VARCHAR,NO,content_fetches.content_object_id；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,request_url,VARCHAR,NO,content_fetches.request_url；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,final_url,VARCHAR,YES,content_fetches.final_url；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,retrieved_at,TIMESTAMP WITH TIME ZONE,YES,content_fetches.retrieved_at；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,status_code,INTEGER,YES,content_fetches.status_code；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,mime_type,VARCHAR,YES,content_fetches.mime_type；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,content_sha256,VARCHAR,YES,content_fetches.content_sha256；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,raw_path,VARCHAR,YES,content_fetches.raw_path；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,fetch_version,VARCHAR,NO,content_fetches.fetch_version；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,collection_status,VARCHAR,NO,content_fetches.collection_status；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,research_processing_status,VARCHAR,NO,content_fetches.research_processing_status；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,redistribution_status,VARCHAR,NO,content_fetches.redistribution_status；保留来源语义，不以猜测补缺。
+content_fetches,每个内容对象在本批次的成功、失败、跳过或 blocked 状态。,failure_reason,VARCHAR,NO,content_fetches.failure_reason；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,content_object_id,VARCHAR,NO,content_objects.content_object_id；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,object_kind,VARCHAR,NO,content_objects.object_kind；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,external_content_id,VARCHAR,YES,content_objects.external_content_id；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,canonical_url,VARCHAR,NO,content_objects.canonical_url；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,declared_mime_type,VARCHAR,YES,content_objects.declared_mime_type；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,declared_file_size,BIGINT,YES,content_objects.declared_file_size；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,declared_page_count,INTEGER,YES,content_objects.declared_page_count；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,public_access_status,VARCHAR,NO,content_objects.public_access_status；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,rights_status,VARCHAR,NO,content_objects.rights_status；保留来源语义，不以猜测补缺。
+content_objects,网页与附件的独立内容对象、权利和伦理状态。,ethics_status,VARCHAR,NO,content_objects.ethics_status；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,coverage_id,VARCHAR,NO,coverage_records.coverage_id；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,batch_id,VARCHAR,NO,coverage_records.batch_id；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,coverage_unit,VARCHAR,NO,coverage_records.coverage_unit；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,denominator_value,INTEGER,NO,coverage_records.denominator_value；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,actual_coverage,VARCHAR,NO,coverage_records.actual_coverage；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,sampling_rule,VARCHAR,NO,coverage_records.sampling_rule；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,denominator_scope_limit,VARCHAR,NO,coverage_records.denominator_scope_limit；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,completeness_status,VARCHAR,NO,coverage_records.completeness_status；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,channel_era_status,VARCHAR,NO,coverage_records.channel_era_status；保留来源语义，不以猜测补缺。
+coverage_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,channel_era_reason,VARCHAR,NO,coverage_records.channel_era_reason；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_id,VARCHAR,YES,current_document_traceability.document_id；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,external_id,VARCHAR,YES,current_document_traceability.external_id；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,title,VARCHAR,YES,current_document_traceability.title；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_version_id,VARCHAR,YES,current_document_traceability.document_version_id；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_record_id,VARCHAR,YES,current_document_traceability.raw_record_id；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_payload_sha256,VARCHAR,YES,current_document_traceability.raw_payload_sha256；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,batch_id,VARCHAR,YES,current_document_traceability.batch_id；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,query_url,VARCHAR,YES,current_document_traceability.query_url；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,accessed_at,TIMESTAMP WITH TIME ZONE,YES,current_document_traceability.accessed_at；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,body_status,VARCHAR,YES,current_document_traceability.body_status；保留来源语义，不以猜测补缺。
+current_document_traceability,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,ethics_status,VARCHAR,YES,current_document_traceability.ethics_status；保留来源语义，不以猜测补缺。
+document_content_objects,文档到 landing page/附件的多对多父关系。,document_id,VARCHAR,NO,document_content_objects.document_id；保留来源语义，不以猜测补缺。
+document_content_objects,文档到 landing page/附件的多对多父关系。,content_object_id,VARCHAR,NO,document_content_objects.content_object_id；保留来源语义，不以猜测补缺。
+document_content_objects,文档到 landing page/附件的多对多父关系。,relationship_type,VARCHAR,NO,document_content_objects.relationship_type；保留来源语义，不以猜测补缺。
+document_content_objects,文档到 landing page/附件的多对多父关系。,ordinal,INTEGER,NO,document_content_objects.ordinal；保留来源语义，不以猜测补缺。
+document_organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_id,VARCHAR,NO,document_organisations.document_id；保留来源语义，不以猜测补缺。
+document_organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,organisation_id,VARCHAR,NO,document_organisations.organisation_id；保留来源语义，不以猜测补缺。
+document_organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,association_type,VARCHAR,NO,document_organisations.association_type；保留来源语义，不以猜测补缺。
+document_organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,lead_status,VARCHAR,NO,document_organisations.lead_status；保留来源语义，不以猜测补缺。
+document_organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,full_count_weight,DOUBLE,NO,document_organisations.full_count_weight；保留来源语义，不以猜测补缺。
+document_organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,fractional_count_weight,DOUBLE,NO,document_organisations.fractional_count_weight；保留来源语义，不以猜测补缺。
+document_organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,allocation_status,VARCHAR,NO,document_organisations.allocation_status；保留来源语义，不以猜测补缺。
+document_relationships,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,relationship_id,VARCHAR,NO,document_relationships.relationship_id；保留来源语义，不以猜测补缺。
+document_relationships,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,from_document_id,VARCHAR,NO,document_relationships.from_document_id；保留来源语义，不以猜测补缺。
+document_relationships,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,to_document_id,VARCHAR,NO,document_relationships.to_document_id；保留来源语义，不以猜测补缺。
+document_relationships,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,relationship_type,VARCHAR,NO,document_relationships.relationship_type；保留来源语义，不以猜测补缺。
+document_relationships,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,evidence_status,VARCHAR,NO,document_relationships.evidence_status；保留来源语义，不以猜测补缺。
+document_relationships,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,evidence_note,VARCHAR,NO,document_relationships.evidence_note；保留来源语义，不以猜测补缺。
+document_relationships,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,rule_version,VARCHAR,NO,document_relationships.rule_version；保留来源语义，不以猜测补缺。
+document_version_raw_links,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_version_id,VARCHAR,NO,document_version_raw_links.document_version_id；保留来源语义，不以猜测补缺。
+document_version_raw_links,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_record_id,VARCHAR,NO,document_version_raw_links.raw_record_id；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_version_id,VARCHAR,NO,document_versions.document_version_id；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_id,VARCHAR,NO,document_versions.document_id；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,normalisation_rule_version,VARCHAR,NO,document_versions.normalisation_rule_version；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_payload_sha256,VARCHAR,NO,document_versions.raw_payload_sha256；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,normalised_payload_json,VARCHAR,NO,document_versions.normalised_payload_json；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,normalised_payload_sha256,VARCHAR,NO,document_versions.normalised_payload_sha256；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,normalised_at,TIMESTAMP WITH TIME ZONE,NO,document_versions.normalised_at；保留来源语义，不以猜测补缺。
+document_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,is_current,BOOLEAN,NO,document_versions.is_current；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_id,VARCHAR,NO,documents.document_id；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_id,VARCHAR,NO,documents.source_id；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,external_id,VARCHAR,NO,documents.external_id；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,canonical_url,VARCHAR,NO,documents.canonical_url；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,title,VARCHAR,NO,documents.title；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,language,VARCHAR,NO,documents.language；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,publication_date,DATE,YES,documents.publication_date；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,publication_timestamp,TIMESTAMP WITH TIME ZONE,YES,documents.publication_timestamp；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,publication_date_basis,VARCHAR,NO,documents.publication_date_basis；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,updated_timestamp,TIMESTAMP WITH TIME ZONE,YES,documents.updated_timestamp；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,collected_at,TIMESTAMP WITH TIME ZONE,NO,documents.collected_at；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,publisher_role,VARCHAR,NO,documents.publisher_role；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,content_type,VARCHAR,NO,documents.content_type；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,unit_type,VARCHAR,NO,documents.unit_type；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,parent_document_id,VARCHAR,YES,documents.parent_document_id；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,interaction_type,VARCHAR,NO,documents.interaction_type；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,body_status,VARCHAR,NO,documents.body_status；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,body_status_reason,VARCHAR,NO,documents.body_status_reason；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,deduplication_status,VARCHAR,NO,documents.deduplication_status；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_overlap_status,VARCHAR,NO,documents.source_overlap_status；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,licence_status,VARCHAR,NO,documents.licence_status；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,ethics_status,VARCHAR,NO,documents.ethics_status；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,ethics_reason,VARCHAR,NO,documents.ethics_reason；保留来源语义，不以猜测补缺。
+documents,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,research_sample,BOOLEAN,NO,documents.research_sample；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_id,VARCHAR,YES,embedding_ready_segments.segment_id；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_id,VARCHAR,YES,embedding_ready_segments.document_id；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,parent_segment_id,VARCHAR,YES,embedding_ready_segments.parent_segment_id；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_kind,VARCHAR,YES,embedding_ready_segments.segment_kind；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_order,INTEGER,YES,embedding_ready_segments.segment_order；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_text,VARCHAR,YES,embedding_ready_segments.segment_text；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,locator,VARCHAR,YES,embedding_ready_segments.locator；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,start_char,INTEGER,YES,embedding_ready_segments.start_char；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,end_char,INTEGER,YES,embedding_ready_segments.end_char；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,text_sha256,VARCHAR,YES,embedding_ready_segments.text_sha256；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,origin_kind,VARCHAR,YES,embedding_ready_segments.origin_kind；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,permission_status,VARCHAR,YES,embedding_ready_segments.permission_status；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,research_sample,BOOLEAN,YES,embedding_ready_segments.research_sample；保留来源语义，不以猜测补缺。
+embedding_ready_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,created_at,TIMESTAMP WITH TIME ZONE,YES,embedding_ready_segments.created_at；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,batch_id,VARCHAR,NO,enumeration_records.batch_id；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,query_partition_id,VARCHAR,NO,enumeration_records.query_partition_id；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,document_id,VARCHAR,NO,enumeration_records.document_id；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,raw_record_id,VARCHAR,NO,enumeration_records.raw_record_id；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,retrieved_at,TIMESTAMP WITH TIME ZONE,NO,enumeration_records.retrieved_at；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,record_status,VARCHAR,NO,enumeration_records.record_status；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,metadata_path,VARCHAR,NO,enumeration_records.metadata_path；保留来源语义，不以猜测补缺。
+enumeration_records,正式 manifest 记录到文档、原始记录和分区的追溯边。,metadata_sha256,VARCHAR,NO,enumeration_records.metadata_sha256；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,extraction_run_id,VARCHAR,NO,extraction_runs.extraction_run_id；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,batch_id,VARCHAR,NO,extraction_runs.batch_id；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,extractor_version,VARCHAR,NO,extraction_runs.extractor_version；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,started_at,TIMESTAMP WITH TIME ZONE,NO,extraction_runs.started_at；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,finished_at,TIMESTAMP WITH TIME ZONE,NO,extraction_runs.finished_at；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,input_content_count,INTEGER,NO,extraction_runs.input_content_count；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,output_segment_count,INTEGER,NO,extraction_runs.output_segment_count；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,status,VARCHAR,NO,extraction_runs.status；保留来源语义，不以猜测补缺。
+extraction_runs,文本提取运行及 blocked/failed/success 结果。,status_reason,VARCHAR,NO,extraction_runs.status_reason；保留来源语义，不以猜测补缺。
+normalisation_rules,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,rule_version,VARCHAR,NO,normalisation_rules.rule_version；保留来源语义，不以猜测补缺。
+normalisation_rules,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,rule_sha256,VARCHAR,NO,normalisation_rules.rule_sha256；保留来源语义，不以猜测补缺。
+normalisation_rules,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,rules_json,VARCHAR,NO,normalisation_rules.rules_json；保留来源语义，不以猜测补缺。
+normalisation_rules,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,status,VARCHAR,NO,normalisation_rules.status；保留来源语义，不以猜测补缺。
+organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,organisation_id,VARCHAR,NO,organisations.organisation_id；保留来源语义，不以猜测补缺。
+organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,external_id,VARCHAR,NO,organisations.external_id；保留来源语义，不以猜测补缺。
+organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,organisation_name,VARCHAR,NO,organisations.organisation_name；保留来源语义，不以猜测补缺。
+organisations,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,canonical_url,VARCHAR,NO,organisations.canonical_url；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,query_partition_id,VARCHAR,NO,query_partitions.query_partition_id；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,batch_id,VARCHAR,NO,query_partitions.batch_id；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,window_start,DATE,NO,query_partitions.window_start；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,window_end,DATE,NO,query_partitions.window_end；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,query_url,VARCHAR,NO,query_partitions.query_url；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,started_at,TIMESTAMP WITH TIME ZONE,NO,query_partitions.started_at；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,finished_at,TIMESTAMP WITH TIME ZONE,NO,query_partitions.finished_at；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,page_count,INTEGER,NO,query_partitions.page_count；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,initial_total,INTEGER,NO,query_partitions.initial_total；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,returned_count,INTEGER,NO,query_partitions.returned_count；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,unique_count,INTEGER,NO,query_partitions.unique_count；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,recheck_total,INTEGER,YES,query_partitions.recheck_total；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,status,VARCHAR,NO,query_partitions.status；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,status_reason,VARCHAR,NO,query_partitions.status_reason；保留来源语义，不以猜测补缺。
+query_partitions,年度查询分区、分页、total 漂移和原始响应证据。,raw_response_paths_json,VARCHAR,NO,query_partitions.raw_response_paths_json；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_record_id,VARCHAR,NO,raw_records.raw_record_id；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,batch_id,VARCHAR,NO,raw_records.batch_id；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_id,VARCHAR,NO,raw_records.source_id；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,external_id,VARCHAR,NO,raw_records.external_id；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_payload_json,VARCHAR,NO,raw_records.raw_payload_json；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_payload_sha256,VARCHAR,NO,raw_records.raw_payload_sha256；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,acquired_at,TIMESTAMP WITH TIME ZONE,NO,raw_records.acquired_at；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_artifact_path,VARCHAR,NO,raw_records.source_artifact_path；保留来源语义，不以猜测补缺。
+raw_records,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,validation_status,VARCHAR,NO,raw_records.validation_status；保留来源语义，不以猜测补缺。
+schema_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,schema_version,VARCHAR,NO,schema_versions.schema_version；保留来源语义，不以猜测补缺。
+schema_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,recorded_at,TIMESTAMP WITH TIME ZONE,NO,schema_versions.recorded_at；保留来源语义，不以猜测补缺。
+schema_versions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,description,VARCHAR,NO,schema_versions.description；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_id,VARCHAR,NO,sources.source_id；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_name,VARCHAR,NO,sources.source_name；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,publisher_role,VARCHAR,NO,sources.publisher_role；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,raw_role_label,VARCHAR,NO,sources.raw_role_label；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,content_type,VARCHAR,NO,sources.content_type；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,access_method,VARCHAR,NO,sources.access_method；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,actual_coverage,VARCHAR,NO,sources.actual_coverage；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,licence_status,VARCHAR,NO,sources.licence_status；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,licence_reason,VARCHAR,NO,sources.licence_reason；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,ethics_status,VARCHAR,NO,sources.ethics_status；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,ethics_reason,VARCHAR,NO,sources.ethics_reason；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,source_documentation_urls,VARCHAR,NO,sources.source_documentation_urls；保留来源语义，不以猜测补缺。
+sources,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,local_source_register_path,VARCHAR,NO,sources.local_source_register_path；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_id,VARCHAR,NO,text_segments.segment_id；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_id,VARCHAR,NO,text_segments.document_id；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,parent_segment_id,VARCHAR,YES,text_segments.parent_segment_id；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_kind,VARCHAR,NO,text_segments.segment_kind；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_order,INTEGER,NO,text_segments.segment_order；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_text,VARCHAR,NO,text_segments.segment_text；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,locator,VARCHAR,NO,text_segments.locator；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,start_char,INTEGER,YES,text_segments.start_char；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,end_char,INTEGER,YES,text_segments.end_char；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,text_sha256,VARCHAR,NO,text_segments.text_sha256；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,origin_kind,VARCHAR,NO,text_segments.origin_kind；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,permission_status,VARCHAR,NO,text_segments.permission_status；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,research_sample,BOOLEAN,NO,text_segments.research_sample；保留来源语义，不以猜测补缺。
+text_segments,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,created_at,TIMESTAMP WITH TIME ZONE,NO,text_segments.created_at；保留来源语义，不以猜测补缺。
+voice_attributions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,attribution_id,VARCHAR,NO,voice_attributions.attribution_id；保留来源语义，不以猜测补缺。
+voice_attributions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,document_id,VARCHAR,NO,voice_attributions.document_id；保留来源语义，不以猜测补缺。
+voice_attributions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,segment_id,VARCHAR,YES,voice_attributions.segment_id；保留来源语义，不以猜测补缺。
+voice_attributions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,actor_name,VARCHAR,YES,voice_attributions.actor_name；保留来源语义，不以猜测补缺。
+voice_attributions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,attribution_role,VARCHAR,NO,voice_attributions.attribution_role；保留来源语义，不以猜测补缺。
+voice_attributions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,evidence_locator,VARCHAR,YES,voice_attributions.evidence_locator；保留来源语义，不以猜测补缺。
+voice_attributions,沿用 M1.2 临时 schema；定义见 03_database_pilot/data_dictionary.csv。,status,VARCHAR,NO,voice_attributions.status；保留来源语义，不以猜测补缺。

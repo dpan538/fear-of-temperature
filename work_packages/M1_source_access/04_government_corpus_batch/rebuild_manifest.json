@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "generated_at": "2026-09-21T01:59:01Z",
+  "database": "work_packages/M1_source_access/04_government_corpus_batch/fear_temperature_government_batch.duckdb",
+  "database_sha256": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396",
+  "schema_version": "m1_government_batch_v2",
+  "normalisation_rule_version": "govuk_metadata_v3",
+  "counts": {
+    "sources": 1,
+    "collection_batches": 2,
+    "coverage_records": 2,
+    "query_partitions": 39,
+    "raw_records": 1029,
+    "documents": 1020,
+    "document_versions": 1029,
+    "document_version_raw_links": 1029,
+    "enumeration_records": 1020,
+    "organisations": 69,
+    "document_organisations": 1473,
+    "content_objects": 3025,
+    "document_content_objects": 3027,
+    "content_fetches": 3025,
+    "extraction_runs": 1,
+    "text_segments": 0
+  },
+  "checks": {
+    "manifest_database_match": true,
+    "unique_documents_match": true,
+    "one_current_version_per_document": true,
+    "formal_records_traceable": true,
+    "idempotent_counts": true,
+    "clean_rebuild_fingerprint": true
+  },
+  "logical_fingerprint": "72d4f0601a8a82f6912ea6813f4e12cc8a2454f35d956706da71867464198af5",
+  "exports": {
+    "schema_versions.csv": {
+      "rows": 2,
+      "sha256": "824b6fd79e39fa453a8bc7fe12aaefa6b195713920f1832c36fc42854580e4de"
+    },
+    "normalisation_rules.csv": {
+      "rows": 2,
+      "sha256": "d6b9ae040ef4a8ddba4bedbc1613520702fdf23a7dd26922cafad82bec48bd3a"
+    },
+    "sources.csv": {
+      "rows": 1,
+      "sha256": "7ee51e36cf0808055d37fe57bafdee005ff65e121463894128ea9a0a9ea71d0f"
+    },
+    "collection_batches.csv": {
+      "rows": 2,
+      "sha256": "ae823f5521292f7a9eb35b58f2475de9041ebbca1205eddcf61d66131ddeb4fa"
+    },
+    "coverage_records.csv": {
+      "rows": 2,
+      "sha256": "57e08a4305c7b724df0c2d70b038715b3988d7c9caa64d2ba3236276b1243c9b"
+    },
+    "raw_records.csv": {
+      "rows": 1029,
+      "sha256": "21746b39da40b6b8064a437c14ebc7f690a66c697488ecd4d74fa689a884b96f"
+    },
+    "documents.csv": {
+      "rows": 1020,
+      "sha256": "78e9090c6ff9573343353e72e30017ab8b3cd3d50164f2a6e25a1cac6acb5240"
+    },
+    "document_versions.csv": {
+      "rows": 1029,
+      "sha256": "3e758a7d56075c61c0d39a832fe3e2101a98c2b124e764a3d1b66e01e5fbaf7f"
+    },
+    "document_version_raw_links.csv": {
+      "rows": 1029,
+      "sha256": "747c346cb64fe76bef1bc46ccf87887e313a64c457d878a7f04321a991540ec6"
+    },
+    "organisations.csv": {
+      "rows": 69,
+      "sha256": "27704915662c50873bfd2d883108457616bbd5932f807bcd649136ed63c69d33"
+    },
+    "document_organisations.csv": {
+      "rows": 1473,
+      "sha256": "515ffd2ace280218e709c0f17349df1034a933eb2fcfd96c45eb9b324067561e"
+    },
+    "text_segments.csv": {
+      "rows": 0,
+      "sha256": "7e0cfad90722d7ff2c935708e8c3b83d121ad946125c65d6907f4d800ca7d31d"
+    },
+    "voice_attributions.csv": {
+      "rows": 0,
+      "sha256": "7a779648bff1fdcad01a594882fde7419f1cde0bcd281483d2e0a4c0a0bb0f1e"
+    },
+    "document_relationships.csv": {
+      "rows": 0,
+      "sha256": "6eb72e8ce091430907f7bd03170027731e75d929f2a5b9b0f83648a5f1a42447"
+    },
+    "traceability.csv": {
+      "rows": 1020,
+      "sha256": "98e3028e7183cdabbc951867169c829c4478cab62c2e095f97153c156ee5c311"
+    },
+    "institution_counting.csv": {
+      "rows": 69,
+      "sha256": "ad97be24da6827e1ac11f4c455f76b584f89cb382dadee997827d6fdba68d528"
+    },
+    "query_partitions.csv": {
+      "rows": 39,
+      "sha256": "26e4e9d75432b80934f9efd24915732bdce3364db03d4c2a8432b0e6750e2fb9"
+    },
+    "enumeration_records.csv": {
+      "rows": 1020,
+      "sha256": "e11715d5222de850cca1e85ee01353e4d91c18cff30ed6e5809c839548190ec3"
+    },
+    "content_objects.csv": {
+      "rows": 3025,
+      "sha256": "656e255efceefb6250a457d403e3d6849c46273b3ee612911a16130e04f9130a"
+    },
+    "document_content_objects.csv": {
+      "rows": 3027,
+      "sha256": "410b64233d5604defefb020810e5ec61e9c22786837edaea145e0f782bdefa81"
+    },
+    "content_fetches.csv": {
+      "rows": 3025,
+      "sha256": "3c2f8de8c5311c14a16a93c93ce435d31c1f2c63dec1237df1d4ca5dcf9b858d"
+    },
+    "extraction_runs.csv": {
+      "rows": 1,
+      "sha256": "f21b27fdd510d67818a1ce201ff171e444b3b6d37002c5353323fc6b382c5c3c"
+    }
+  },
+  "data_dictionary_sha256": "60d5f608bf5c57a9b969b6341c7c6dcebb684d4eb5271dbd255986ebe962b07e"
+}

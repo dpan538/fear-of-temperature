@@ -1,0 +1,17 @@
+{
+  "batch_id": "govuk_defra_policy_paper_1988_20260921_v1",
+  "run_kind": "formal",
+  "generated_at": "2026-09-21T01:10:55Z",
+  "partition_count": 39,
+  "complete_partition_count": 39,
+  "api_total_sum": 1020,
+  "manifest_rows": 1020,
+  "unique_external_ids": 1020,
+  "duplicate_external_ids": [],
+  "record_status_counts": {
+    "metadata_verified": 1019,
+    "metadata_verified_type_drift": 1
+  },
+  "attachment_links": 2007,
+  "body_persisted_count": 0
+}

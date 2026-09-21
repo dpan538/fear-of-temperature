@@ -1,0 +1,19 @@
+{
+  "check": "offline_rebuild_logical_fingerprint_stable_after_verification_timestamp_change",
+  "passed": true,
+  "first_run": {
+    "generated_at": "2026-09-21T01:54:57Z",
+    "verification_generated_at_before_run": "2026-09-21T01:46:36Z",
+    "database_sha256": "f6151f5dddb8e61231edeb8bee98a7d58cbbc3816fc1bbab89b370bd21efaf60",
+    "logical_fingerprint": "72d4f0601a8a82f6912ea6813f4e12cc8a2454f35d956706da71867464198af5"
+  },
+  "second_run": {
+    "generated_at": "2026-09-21T01:59:01Z",
+    "verification_generated_at_before_run": "2026-09-21T01:55:04Z",
+    "database_sha256": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396",
+    "logical_fingerprint": "72d4f0601a8a82f6912ea6813f4e12cc8a2454f35d956706da71867464198af5"
+  },
+  "schema_version": "m1_government_batch_v2",
+  "normalisation_rule_version": "govuk_metadata_v3",
+  "interpretation": "Logical table content is stable across two independent v3 offline rebuilds after the verification timestamp changed. DuckDB physical file hashes are build-specific and identify each produced file."
+}
