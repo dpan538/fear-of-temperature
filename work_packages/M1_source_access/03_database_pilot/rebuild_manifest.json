@@ -1,0 +1,297 @@
+{
+  "status": "passed",
+  "scope": "GOV.UK policy_paper publication landing-page content items tagged to DEFRA and first published from 2026-07-01 through 2026-07-31 inclusive, as observed in the saved 2026-09-16 metadata snapshot",
+  "database": "work_packages/M1_source_access/03_database_pilot/fear_temperature_m1_pilot.duckdb",
+  "database_sha256": "0f894e89041da73b5a0997cef567d78cbf6c1cd91f769721e9c78b4edc360b3a",
+  "inputs": {
+    "work_packages/M1_source_access/01_feasibility/evidence/search_index_snapshot.json": "dfd5befd0911c2795143fe85decf600c6d554fc5819bb5c08786131bb78a77f3",
+    "work_packages/M1_source_access/01_feasibility/evidence/content_metadata_snapshot.json": "27c1692518fa3f14e787204340b3aa73f1cd96b736b0037d9d34ec7efec35306",
+    "work_packages/M1_source_access/01_feasibility/checks.json": "0c1267eb4330d3a81b4aa90314580a49c524112975afb6539866c413a37b4d1e",
+    "work_packages/M1_source_access/01_feasibility/source_access_register.csv": "2aa7a99cc9c15b022f65618daf46fd26767987313b37aa2a1ef18d5c76ab98b2"
+  },
+  "schema_version": "m1_database_pilot_v1",
+  "normalisation_rule_version": "govuk_metadata_v1",
+  "validation": {
+    "passed": true,
+    "checks": [
+      {
+        "name": "unique_research_documents",
+        "observed": 9,
+        "expected": 9,
+        "passed": true,
+        "note": "Organisation links must not inflate the document denominator."
+      },
+      {
+        "name": "distinct_document_ids",
+        "observed": 9,
+        "expected": 9,
+        "passed": true,
+        "note": "Stable IDs remain unique."
+      },
+      {
+        "name": "raw_records",
+        "observed": 9,
+        "expected": 9,
+        "passed": true,
+        "note": "One saved Content API metadata record per item in this batch."
+      },
+      {
+        "name": "current_document_versions",
+        "observed": 9,
+        "expected": 9,
+        "passed": true,
+        "note": "Every document has one current normalised version."
+      },
+      {
+        "name": "traceable_documents",
+        "observed": 9,
+        "expected": 9,
+        "passed": true,
+        "note": "Current documents trace to raw records and the collection batch."
+      },
+      {
+        "name": "multi_organisation_documents",
+        "observed": 3,
+        "expected": 3,
+        "passed": true,
+        "note": "Matches the saved M1 check."
+      },
+      {
+        "name": "document_organisation_links",
+        "observed": 14,
+        "expected": 14,
+        "passed": true,
+        "note": "All six organisations and all document links are retained."
+      },
+      {
+        "name": "full_count_weight_sum",
+        "observed": 14.0,
+        "expected": 14.0,
+        "passed": true,
+        "note": "Full counting counts every institution link."
+      },
+      {
+        "name": "fractional_weight_sum",
+        "observed": 9.0,
+        "expected": 9.0,
+        "passed": true,
+        "note": "Fractional weights sum to the nine unique documents."
+      },
+      {
+        "name": "missing_first_publication_dates",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "Unknown dates would remain NULL rather than borrowing update dates."
+      },
+      {
+        "name": "wrong_date_basis",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "Search public_timestamp is not used as first publication."
+      },
+      {
+        "name": "dates_outside_window",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "All documents match the bounded first-publication window."
+      },
+      {
+        "name": "null_titles_or_urls",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "Required inspection fields are populated."
+      },
+      {
+        "name": "duplicate_external_ids",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "No duplicate source IDs."
+      },
+      {
+        "name": "duplicate_urls",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "No duplicate canonical URLs."
+      },
+      {
+        "name": "coverage_denominator",
+        "observed": 9,
+        "expected": 9,
+        "passed": true,
+        "note": "Only the exact bounded query may reuse this denominator."
+      },
+      {
+        "name": "real_text_segments",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "No unapproved body text is invented or collected."
+      },
+      {
+        "name": "all_text_segments",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "The paragraph interface is present but empty in the research database."
+      },
+      {
+        "name": "embedding_ready_segments",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "No real text is eligible for vectors yet."
+      },
+      {
+        "name": "non_pending_source_ethics",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "No approval or exemption is invented."
+      },
+      {
+        "name": "non_pending_document_ethics",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "All human-language records retain the pending gate."
+      },
+      {
+        "name": "foreign_key_orphans",
+        "observed": 0,
+        "expected": 0,
+        "passed": true,
+        "note": "Manual orphan audit complements enforced database constraints."
+      }
+    ],
+    "table_counts": {
+      "sources": 1,
+      "collection_batches": 1,
+      "coverage_records": 1,
+      "raw_records": 9,
+      "documents": 9,
+      "document_versions": 9,
+      "document_version_raw_links": 9,
+      "organisations": 6,
+      "document_organisations": 14,
+      "text_segments": 0,
+      "voice_attributions": 0,
+      "document_relationships": 0
+    }
+  },
+  "reproducibility": {
+    "passed": true,
+    "idempotent_counts_unchanged": true,
+    "clean_rebuild_fingerprint_match": true,
+    "logical_fingerprint": "7122c5c25c1af8de50da2442812ec7fb8b98176d711b5e5463049d68afe39146",
+    "counts_before_repeat": {
+      "sources": 1,
+      "collection_batches": 1,
+      "coverage_records": 1,
+      "raw_records": 9,
+      "documents": 9,
+      "document_versions": 9,
+      "document_version_raw_links": 9,
+      "organisations": 6,
+      "document_organisations": 14,
+      "text_segments": 0,
+      "voice_attributions": 0,
+      "document_relationships": 0
+    },
+    "counts_after_repeat": {
+      "sources": 1,
+      "collection_batches": 1,
+      "coverage_records": 1,
+      "raw_records": 9,
+      "documents": 9,
+      "document_versions": 9,
+      "document_version_raw_links": 9,
+      "organisations": 6,
+      "document_organisations": 14,
+      "text_segments": 0,
+      "voice_attributions": 0,
+      "document_relationships": 0
+    }
+  },
+  "versioning_self_check": {
+    "passed": true,
+    "repeat_import_counts_unchanged": true,
+    "raw_change_document_version_delta": 1,
+    "rule_change_document_version_delta": 9,
+    "current_versions_after_changes": 9,
+    "note": "Executed only in an in-memory test database; self-check records are absent from the pilot database and coverage counts."
+  },
+  "exports": {
+    "schema_versions.csv": {
+      "rows": 1,
+      "sha256": "f8bda39567f422be220acb6d72ec9633b9ffe489bb3e13949e38183d33472e3c"
+    },
+    "normalisation_rules.csv": {
+      "rows": 1,
+      "sha256": "c67e1eba1215a504e86698e58700adde1e2abac6b6ce14e1c1dcb2edb1add3b1"
+    },
+    "sources.csv": {
+      "rows": 1,
+      "sha256": "701ba259dc453cdb163fde8c0a533e21683a95b290940170113d4a9936912216"
+    },
+    "collection_batches.csv": {
+      "rows": 1,
+      "sha256": "9307c8601d44f1e4711409321db4b04bc06cf474356b66498b62177d06624400"
+    },
+    "coverage_records.csv": {
+      "rows": 1,
+      "sha256": "ddfcebe1dc5968227f6a92c53b3cae0a1f25562276e3c043119bda5326bc2e06"
+    },
+    "raw_records.csv": {
+      "rows": 9,
+      "sha256": "2d37f4af816ccdfd220ed61076726962f359c8b306f6ef5adcf839d36fe6e7b3"
+    },
+    "documents.csv": {
+      "rows": 9,
+      "sha256": "6b10a89aa2b5e0a032a11b95e1babf6cca37fbf0f3ebeffcada314d89b2da39e"
+    },
+    "document_versions.csv": {
+      "rows": 9,
+      "sha256": "8577c5b0b06e8c53632d36b19ecdbd04223009e1e1b288ec7b9fa6c577c1a41e"
+    },
+    "document_version_raw_links.csv": {
+      "rows": 9,
+      "sha256": "77443a54450896f9667df142b2f5c022b48e6c54be89339bf7e39dcd03c9c7b2"
+    },
+    "organisations.csv": {
+      "rows": 6,
+      "sha256": "9194c1a6c20735834db6a3e07cf9da5c119486f0cdff51af184ffe6314f2d45a"
+    },
+    "document_organisations.csv": {
+      "rows": 14,
+      "sha256": "a0d214c010e3dbc2878eaeed1774b6cd746329be10bb46aaca838bb5055b3586"
+    },
+    "text_segments.csv": {
+      "rows": 0,
+      "sha256": "7e0cfad90722d7ff2c935708e8c3b83d121ad946125c65d6907f4d800ca7d31d"
+    },
+    "voice_attributions.csv": {
+      "rows": 0,
+      "sha256": "7a779648bff1fdcad01a594882fde7419f1cde0bcd281483d2e0a4c0a0bb0f1e"
+    },
+    "document_relationships.csv": {
+      "rows": 0,
+      "sha256": "6eb72e8ce091430907f7bd03170027731e75d929f2a5b9b0f83648a5f1a42447"
+    },
+    "traceability.csv": {
+      "rows": 9,
+      "sha256": "24a78c6681e3d50444b207fb09970992c4dabfbf10ad8d50c888cc152bd5864b"
+    },
+    "institution_counting.csv": {
+      "rows": 6,
+      "sha256": "03284010aed9bc7afe999f34be68dafe138950c2a0c29ca66e2c7d17b9fdd8eb"
+    }
+  },
+  "data_dictionary_sha256": "913e89e30c1c850caa317d3b856a60f631eabfdf3186d140700857c13c715b62",
+  "quality_report_sha256": "7e6a366f802d2cf0f956ab80dad761a2f83d3db05b0f3a7a636c2a22956c23bf"
+}

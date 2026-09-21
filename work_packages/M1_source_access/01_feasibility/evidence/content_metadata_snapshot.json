@@ -1,0 +1,255 @@
+{
+  "accessed_at": "2026-09-16T01:44:09Z",
+  "records": [
+    {
+      "base_path": "/government/publications/air-pollution-awareness-coalition-apac",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/air-pollution-awareness-coalition-apac",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/air-pollution-awareness-coalition-apac",
+      "content_id": "21c2af3c-36e6-459a-a508-e5a77f4740c5",
+      "description": "The Air Pollution Awareness Coalition (APAC) is a cross-sector coalition to improve public understanding of air pollution and support action to reduce harm.",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-03T13:53:00+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        },
+        {
+          "base_path": "/government/organisations/department-of-health-and-social-care",
+          "content_id": "7cd6bf12-bbe9-4118-8523-f927b0442156",
+          "title": "Department of Health and Social Care"
+        },
+        {
+          "base_path": "/government/organisations/department-for-transport",
+          "content_id": "4c717efc-f47b-478e-a76d-ce1ae0af1946",
+          "title": "Department for Transport"
+        }
+      ],
+      "public_updated_at": "2026-08-21T15:12:16+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "Air Pollution Awareness Coalition (APAC)"
+    },
+    {
+      "base_path": "/government/publications/our-vision-for-a-thriving-veterinary-sector",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/our-vision-for-a-thriving-veterinary-sector",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/our-vision-for-a-thriving-veterinary-sector",
+      "content_id": "d4d2ecb8-9c0c-4c1f-877f-c420011b4e36",
+      "description": "Our proposals for a thriving veterinary sector that enhances animal welfare, supports professionals, builds trust for consumers, and grows the economy.",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-09T09:34:00+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        }
+      ],
+      "public_updated_at": "2026-07-22T18:21:51+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "Our vision for a thriving veterinary sector"
+    },
+    {
+      "base_path": "/government/publications/30by30-on-land-in-england-delivery-plan",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/30by30-on-land-in-england-delivery-plan",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/30by30-on-land-in-england-delivery-plan",
+      "content_id": "7fbe4b69-4f20-4319-bc68-ce700af23570",
+      "description": "How the government will deliver on the UK's 30by30 target on land in England.",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-13T00:01:10+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        }
+      ],
+      "public_updated_at": "2026-07-13T00:01:10+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "30by30 on land in England: Delivery plan"
+    },
+    {
+      "base_path": "/government/publications/east-marine-plans-fourth-three-year-report",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/east-marine-plans-fourth-three-year-report",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/east-marine-plans-fourth-three-year-report",
+      "content_id": "6fb66794-7058-4df1-8fdc-7c11dbb4128b",
+      "description": "Three-year progress report on the East Marine Plans covering the period 2 April 2023 to 1 April 2026. ",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-14T14:16:00+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        },
+        {
+          "base_path": "/government/organisations/marine-management-organisation",
+          "content_id": "8d56bb52-2f79-4b6d-9fc6-6d7dcc4f7586",
+          "title": "Marine Management Organisation"
+        }
+      ],
+      "public_updated_at": "2026-07-14T14:16:00+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "East Marine Plans: fourth three-year report"
+    },
+    {
+      "base_path": "/government/publications/british-sign-language-5-year-plan-department-for-environment-food-and-rural-affairs-1-year-update-july-2026",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/british-sign-language-5-year-plan-department-for-environment-food-and-rural-affairs-1-year-update-july-2026",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/british-sign-language-5-year-plan-department-for-environment-food-and-rural-affairs-1-year-update-july-2026",
+      "content_id": "0ad7d31d-39ed-49ee-84fd-7f8b240ed38e",
+      "description": "An annual progress update on how the Department for Environment, Food and Rural Affairs has used BSL in its communications.",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-15T09:30:00+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        },
+        {
+          "base_path": "/government/organisations/disability-unit",
+          "content_id": "0f97b85f-190d-42c9-8e3a-716f7a7033ff",
+          "title": "Disability Unit"
+        },
+        {
+          "base_path": "/government/organisations/office-for-equality-and-opportunity",
+          "content_id": "398859b6-695e-42dd-ad68-826f06db871d",
+          "title": "Office for Equality and Opportunity"
+        }
+      ],
+      "public_updated_at": "2026-07-15T09:30:00+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "British Sign Language 5-year plan: Department for Environment, Food and Rural Affairs – 1-year update, July 2026"
+    },
+    {
+      "base_path": "/government/publications/future-of-rural-england-report",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/future-of-rural-england-report",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/future-of-rural-england-report",
+      "content_id": "85e11571-e9aa-4812-b649-7f7f68b75e26",
+      "description": "How the government is supporting rural communities to overcome challenges and maximise opportunities available to the rural economy. ",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-16T08:30:00+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        }
+      ],
+      "public_updated_at": "2026-07-16T08:30:00+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "Future of Rural England Report"
+    },
+    {
+      "base_path": "/government/publications/government-response-to-the-oep-report-environmental-improvement-plan-progress-from-2024-to-2025",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/government-response-to-the-oep-report-environmental-improvement-plan-progress-from-2024-to-2025",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/government-response-to-the-oep-report-environmental-improvement-plan-progress-from-2024-to-2025",
+      "content_id": "730dc81d-6f90-494c-815a-ef1fb8606568",
+      "description": "Government response to the Office for Environmental Protection (OEP) 2026 report on progress in improving England’s natural environment 2024 to 2025.",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-16T09:42:46+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        }
+      ],
+      "public_updated_at": "2026-07-16T09:42:46+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "Government response to the OEP report: Environmental Improvement Plan progress from 2024 to 2025"
+    },
+    {
+      "base_path": "/government/publications/fisheries-act-2020-post-legislative-assessment",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/fisheries-act-2020-post-legislative-assessment",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/fisheries-act-2020-post-legislative-assessment",
+      "content_id": "f5a18ac2-7177-45c8-b69e-98afa57d7ca1",
+      "description": "Post-Legislative assessment of the Fisheries Act 2020.",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-29T10:54:10+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        }
+      ],
+      "public_updated_at": "2026-07-29T10:54:10+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "Fisheries Act 2020: Post-Legislative assessment"
+    },
+    {
+      "base_path": "/government/publications/government-response-to-the-animal-sentience-committee-report-on-the-restriction-of-lead-in-ammunition",
+      "body_persisted": false,
+      "canonical_http_status": 200,
+      "canonical_url": "https://www.gov.uk/government/publications/government-response-to-the-animal-sentience-committee-report-on-the-restriction-of-lead-in-ammunition",
+      "content_api_http_status": 200,
+      "content_api_url": "https://www.gov.uk/api/content/government/publications/government-response-to-the-animal-sentience-committee-report-on-the-restriction-of-lead-in-ammunition",
+      "content_id": "24fa7683-16c5-4bb5-b994-4c2ec48c02d1",
+      "description": "Response to the Animal Sentience Committee report on the restriction of lead in ammunition.",
+      "document_type": "policy_paper",
+      "document_type_label": "Policy paper",
+      "first_published_at": "2026-07-31T16:43:52+01:00",
+      "organisations": [
+        {
+          "base_path": "/government/organisations/department-for-environment-food-rural-affairs",
+          "content_id": "de4e9dc6-cca4-43af-a594-682023b84d6c",
+          "title": "Department for Environment, Food & Rural Affairs"
+        }
+      ],
+      "public_updated_at": "2026-07-31T16:43:52+01:00",
+      "publishing_app": "whitehall",
+      "rendering_app": "frontend",
+      "schema_name": "publication",
+      "title": "Government response to the Animal Sentience Committee report on the restriction of lead in ammunition"
+    }
+  ]
+}

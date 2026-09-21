@@ -1,0 +1,123 @@
+{
+  "accessed_at": "2026-09-16T01:44:09Z",
+  "final_url": "https://www.gov.uk/api/search.json?filter_organisations=department-for-environment-food-rural-affairs&filter_content_store_document_type=policy_paper&filter_first_published_at=from%3A2026-07-01%2Cto%3A2026-07-31&count=50&order=public_timestamp",
+  "http_status": 200,
+  "query_url": "https://www.gov.uk/api/search.json?filter_organisations=department-for-environment-food-rural-affairs&filter_content_store_document_type=policy_paper&filter_first_published_at=from%3A2026-07-01%2Cto%3A2026-07-31&count=50&order=public_timestamp",
+  "results": [
+    {
+      "content_id": null,
+      "description": "How the government will deliver on the UK's 30by30 target on land in England.",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/30by30-on-land-in-england-delivery-plan",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs"
+      ],
+      "public_timestamp": "2026-07-12T23:01:10Z",
+      "title": "30by30 on land in England: Delivery plan"
+    },
+    {
+      "content_id": null,
+      "description": "Three-year progress report on the East Marine Plans covering the period 2 April 2023 to 1 April 2026. ",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/east-marine-plans-fourth-three-year-report",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs",
+        "Marine Management Organisation"
+      ],
+      "public_timestamp": "2026-07-14T13:16:00Z",
+      "title": "East Marine Plans: fourth three-year report"
+    },
+    {
+      "content_id": null,
+      "description": "An annual progress update on how the Department for Environment, Food and Rural Affairs has used BSL in its communications.",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/british-sign-language-5-year-plan-department-for-environment-food-and-rural-affairs-1-year-update-july-2026",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs",
+        "Disability Unit",
+        "Office for Equality and Opportunity"
+      ],
+      "public_timestamp": "2026-07-15T08:30:00Z",
+      "title": "British Sign Language 5-year plan: Department for Environment, Food and Rural Affairs – 1-year update, July 2026"
+    },
+    {
+      "content_id": null,
+      "description": "How the government is supporting rural communities to overcome challenges and maximise opportunities available to the rural economy. ",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/future-of-rural-england-report",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs"
+      ],
+      "public_timestamp": "2026-07-16T07:30:00Z",
+      "title": "Future of Rural England Report"
+    },
+    {
+      "content_id": null,
+      "description": "Government response to the Office for Environmental Protection (OEP) 2026 report on progress in improving England’s natural environment 2024 to 2025.",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/government-response-to-the-oep-report-environmental-improvement-plan-progress-from-2024-to-2025",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs"
+      ],
+      "public_timestamp": "2026-07-16T08:42:46Z",
+      "title": "Government response to the OEP report: Environmental Improvement Plan progress from 2024 to 2025"
+    },
+    {
+      "content_id": null,
+      "description": "Our proposals for a thriving veterinary sector that enhances animal welfare, supports professionals, builds trust for consumers, and grows the economy.",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/our-vision-for-a-thriving-veterinary-sector",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs"
+      ],
+      "public_timestamp": "2026-07-22T17:21:51Z",
+      "title": "Our vision for a thriving veterinary sector"
+    },
+    {
+      "content_id": null,
+      "description": "Post-Legislative assessment of the Fisheries Act 2020.",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/fisheries-act-2020-post-legislative-assessment",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs"
+      ],
+      "public_timestamp": "2026-07-29T09:54:10Z",
+      "title": "Fisheries Act 2020: Post-Legislative assessment"
+    },
+    {
+      "content_id": null,
+      "description": "Response to the Animal Sentience Committee report on the restriction of lead in ammunition.",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/government-response-to-the-animal-sentience-committee-report-on-the-restriction-of-lead-in-ammunition",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs"
+      ],
+      "public_timestamp": "2026-07-31T15:43:52Z",
+      "title": "Government response to the Animal Sentience Committee report on the restriction of lead in ammunition"
+    },
+    {
+      "content_id": null,
+      "description": "The Air Pollution Awareness Coalition (APAC) is a cross-sector coalition to improve public understanding of air pollution and support action to reduce harm.",
+      "first_published_at_as_returned_by_search": null,
+      "format": "policy_paper",
+      "link": "/government/publications/air-pollution-awareness-coalition-apac",
+      "organisation_titles": [
+        "Department for Environment, Food & Rural Affairs",
+        "Department of Health and Social Care",
+        "Department for Transport"
+      ],
+      "public_timestamp": "2026-08-21T14:12:16Z",
+      "title": "Air Pollution Awareness Coalition (APAC)"
+    }
+  ],
+  "start": 0,
+  "total": 9
+}

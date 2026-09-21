@@ -1,0 +1,131 @@
+table_name,table_purpose,field_name,duckdb_type,nullable,definition
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,batch_id,VARCHAR,NO,由来源、查询、采集时间和快照校验值生成的稳定批次 ID。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,source_id,VARCHAR,NO,由规范化角色和来源名称生成的稳定 ID。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,accessed_at,TIMESTAMP WITH TIME ZONE,NO,API/网页元数据的采集时间，不是发布日期。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,query_url,VARCHAR,NO,本批次的有界查询 URL。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,query_conditions_json,VARCHAR,NO,机构、类型、日期字段和筛选规则。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,window_start,DATE,NO,查询时间窗起点（inclusive）。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,window_end,DATE,NO,查询时间窗终点（inclusive）。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,date_filter_field,VARCHAR,NO,用于筛选时间窗的来源字段。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,pagination_json,VARCHAR,NO,分页 URL、页数和集合一致性证据。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,reported_total,INTEGER,NO,来源接口报告的数量。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,returned_count,INTEGER,NO,保存并核验的返回记录数。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,completeness_status,VARCHAR,NO,只针对明示范围的完整性状态。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,completeness_reason,VARCHAR,NO,支持完整性状态的证据。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,search_snapshot_path,VARCHAR,NO,保存的 Search API 最小证据快照。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,search_snapshot_sha256,VARCHAR,NO,Search API 快照 SHA-256。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,metadata_snapshot_path,VARCHAR,NO,保存的逐项 Content API 元数据快照。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,metadata_snapshot_sha256,VARCHAR,NO,Content API 元数据快照 SHA-256。
+collection_batches,一次有界查询及其时间窗、分页、数量和证据快照。,research_sample,BOOLEAN,NO,是否计入研究样本/覆盖统计；合成接口必须为 false。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,coverage_id,VARCHAR,NO,覆盖记录稳定 ID。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,batch_id,VARCHAR,NO,由来源、查询、采集时间和快照校验值生成的稳定批次 ID。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,coverage_unit,VARCHAR,NO,分母单位；本轮是唯一 publication landing-page document。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,denominator_value,INTEGER,NO,仅在同范围、同单位、同筛选和同去重规则下有效的分母。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,actual_coverage,VARCHAR,NO,实测范围，不外推到完整历史或总体。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,sampling_rule,VARCHAR,NO,纳入与去重规则。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,denominator_scope_limit,VARCHAR,NO,防止把 9 外推成 DEFRA/英国政策/气候关注度总体。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,completeness_status,VARCHAR,NO,只针对明示范围的完整性状态。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,channel_era_status,VARCHAR,NO,历史渠道连续性审核状态。
+coverage_records,批次对应的分母单位、范围限制及完整性/渠道状态。,channel_era_reason,VARCHAR,NO,渠道/年代覆盖未决原因。
+document_organisations,文档—机构多对多关系以及完整/分数计数权重。,document_id,VARCHAR,NO,source_id + external_id 生成的跨重建稳定文档 ID。
+document_organisations,文档—机构多对多关系以及完整/分数计数权重。,organisation_id,VARCHAR,NO,来源机构稳定 ID。
+document_organisations,文档—机构多对多关系以及完整/分数计数权重。,association_type,VARCHAR,NO,机构与文档的关系；本轮仅确认 GOV.UK tagged organisation。
+document_organisations,文档—机构多对多关系以及完整/分数计数权重。,lead_status,VARCHAR,NO,lead/emphasised 机构未核验时为 unknown。
+document_organisations,文档—机构多对多关系以及完整/分数计数权重。,full_count_weight,DOUBLE,NO,分机构完整计数权重；每条关联为 1。
+document_organisations,文档—机构多对多关系以及完整/分数计数权重。,fractional_count_weight,DOUBLE,NO,跨机构汇总的分数计数候选权重；每文档关联权重和为 1。
+document_organisations,文档—机构多对多关系以及完整/分数计数权重。,allocation_status,VARCHAR,NO,计数规则是否已批准；本轮两种权重仅供明确选择，不做机构统计。
+document_relationships,重复、来源重叠、引用、回复与转发关系接口。,relationship_id,VARCHAR,NO,文档关系稳定 ID。
+document_relationships,重复、来源重叠、引用、回复与转发关系接口。,from_document_id,VARCHAR,NO,关系起点文档。
+document_relationships,重复、来源重叠、引用、回复与转发关系接口。,to_document_id,VARCHAR,NO,关系终点文档。
+document_relationships,重复、来源重叠、引用、回复与转发关系接口。,relationship_type,VARCHAR,NO,duplicate/overlap/quote/repost/reply 等明确类型。
+document_relationships,重复、来源重叠、引用、回复与转发关系接口。,evidence_status,VARCHAR,NO,关系证据确认状态。
+document_relationships,重复、来源重叠、引用、回复与转发关系接口。,evidence_note,VARCHAR,NO,关系判定证据或未决原因。
+document_relationships,重复、来源重叠、引用、回复与转发关系接口。,rule_version,VARCHAR,NO,规则的语义版本标识。
+document_version_raw_links,规范化版本到原始记录的多对多追溯边。,document_version_id,VARCHAR,NO,文档 + 原始载荷哈希 + 规则版本生成的规范化版本 ID。
+document_version_raw_links,规范化版本到原始记录的多对多追溯边。,raw_record_id,VARCHAR,NO,批次、外部 ID 和原始载荷哈希生成的不可变 ID。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,document_version_id,VARCHAR,NO,文档 + 原始载荷哈希 + 规则版本生成的规范化版本 ID。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,document_id,VARCHAR,NO,source_id + external_id 生成的跨重建稳定文档 ID。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,normalisation_rule_version,VARCHAR,NO,产生此记录的字段规范版本。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,raw_payload_sha256,VARCHAR,NO,单条原始载荷的 SHA-256；变化会产生新版本。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,normalised_payload_json,VARCHAR,NO,决定当前文档字段的规范化载荷。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,normalised_payload_sha256,VARCHAR,NO,规范化载荷 SHA-256。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,normalised_at,TIMESTAMP WITH TIME ZONE,NO,本批证据进入规范结构的可重复时间戳（采用证据采集时间）。
+document_versions,原始内容或规范化规则变化时新增的规范化版本。,is_current,BOOLEAN,NO,同一文档目前采用的规范化版本。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,document_id,VARCHAR,NO,source_id + external_id 生成的跨重建稳定文档 ID。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,source_id,VARCHAR,NO,由规范化角色和来源名称生成的稳定 ID。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,external_id,VARCHAR,NO,来源系统 ID；本轮为 GOV.UK content_id。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,canonical_url,VARCHAR,NO,来源规范 URL。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,title,VARCHAR,NO,规范化标题。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,language,VARCHAR,NO,记录语言；unknown 时保留 unknown。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,publication_date,DATE,YES,来源时间戳中的日历日期；用于时间窗核验，避免运行机器时区改变日期。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,publication_timestamp,TIMESTAMP WITH TIME ZONE,YES,首次发布时间；缺失时为 NULL，不以更新时间代填。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,publication_date_basis,VARCHAR,NO,publication_timestamp 的来源字段与核验依据。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,updated_timestamp,TIMESTAMP WITH TIME ZONE,YES,公开更新时间，与首次发布时间和采集时间分离。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,collected_at,TIMESTAMP WITH TIME ZONE,NO,元数据采集时间。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,publisher_role,VARCHAR,NO,按发布功能定义的 policy/media/public/unknown；不是被引用说话者。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,content_type,VARCHAR,NO,来源或文档内容类型；本轮为 policy_paper。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,unit_type,VARCHAR,NO,document/post/comment/unknown，预留公众主帖与评论分离。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,parent_document_id,VARCHAR,YES,评论/回复等父项；本轮 policy documents 为 NULL。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,interaction_type,VARCHAR,NO,original/reply/quote/repost/unknown；本轮为 original。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,body_status,VARCHAR,NO,正文是否取得及可处理状态。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,body_status_reason,VARCHAR,NO,正文未采集或不可用的原因。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,deduplication_status,VARCHAR,NO,文档去重核验边界；不把无正文误写成内容去重。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,source_overlap_status,VARCHAR,NO,跨来源重叠检查状态。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,licence_status,VARCHAR,NO,许可审核状态；pending 不等于拒绝或批准。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,ethics_status,VARCHAR,NO,approved/exempt/pending/not_applicable/unknown；不得凭公开可访问改成 approved。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,ethics_reason,VARCHAR,NO,伦理状态的可审计原因。
+documents,当前规范化文档/帖子/评论接口；本轮仅含真实 policy documents。,research_sample,BOOLEAN,NO,是否计入研究样本/覆盖统计；合成接口必须为 false。
+normalisation_rules,可核验的字段映射与计数规则版本。,rule_version,VARCHAR,NO,规则的语义版本标识。
+normalisation_rules,可核验的字段映射与计数规则版本。,rule_sha256,VARCHAR,NO,规则 JSON 的 SHA-256；同名规则变更会被拒绝。
+normalisation_rules,可核验的字段映射与计数规则版本。,rules_json,VARCHAR,NO,可机读规范化规则。
+normalisation_rules,可核验的字段映射与计数规则版本。,status,VARCHAR,NO,当前状态；含义由所属表限定。
+organisations,发布页面关联的机构实体。,organisation_id,VARCHAR,NO,来源机构稳定 ID。
+organisations,发布页面关联的机构实体。,external_id,VARCHAR,NO,来源系统 ID；本轮为 GOV.UK content_id。
+organisations,发布页面关联的机构实体。,organisation_name,VARCHAR,NO,来源记录中的机构名称。
+organisations,发布页面关联的机构实体。,canonical_url,VARCHAR,NO,来源规范 URL。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,raw_record_id,VARCHAR,NO,批次、外部 ID 和原始载荷哈希生成的不可变 ID。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,batch_id,VARCHAR,NO,由来源、查询、采集时间和快照校验值生成的稳定批次 ID。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,source_id,VARCHAR,NO,由规范化角色和来源名称生成的稳定 ID。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,external_id,VARCHAR,NO,来源系统 ID；本轮为 GOV.UK content_id。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,raw_payload_json,VARCHAR,NO,原样字段的规范 JSON 序列化，不含正文。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,raw_payload_sha256,VARCHAR,NO,单条原始载荷的 SHA-256；变化会产生新版本。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,acquired_at,TIMESTAMP WITH TIME ZONE,NO,该原始记录被观察的时间。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,source_artifact_path,VARCHAR,NO,原始记录来自的本地证据文件。
+raw_records,原始保存元数据的不可变版本及逐记录校验值。,validation_status,VARCHAR,NO,导入前字段/范围核验状态。
+schema_versions,数据库结构版本；不是研究数据版本。,schema_version,VARCHAR,NO,数据库结构版本。
+schema_versions,数据库结构版本；不是研究数据版本。,recorded_at,TIMESTAMP WITH TIME ZONE,NO,结构版本记录时间。
+schema_versions,数据库结构版本；不是研究数据版本。,description,VARCHAR,NO,该版本/对象的简短说明。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,source_id,VARCHAR,NO,由规范化角色和来源名称生成的稳定 ID。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,source_name,VARCHAR,NO,来源登记：角色、访问、覆盖、许可、伦理与文档依据。 字段 source_name。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,publisher_role,VARCHAR,NO,按发布功能定义的 policy/media/public/unknown；不是被引用说话者。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,raw_role_label,VARCHAR,NO,来源登记表中的原始角色标签，保留映射前证据。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,content_type,VARCHAR,NO,来源或文档内容类型；本轮为 policy_paper。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,access_method,VARCHAR,NO,实际使用或核验的访问路径。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,actual_coverage,VARCHAR,NO,实测范围，不外推到完整历史或总体。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,licence_status,VARCHAR,NO,许可审核状态；pending 不等于拒绝或批准。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,licence_reason,VARCHAR,NO,许可状态的依据与未决条件。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,ethics_status,VARCHAR,NO,approved/exempt/pending/not_applicable/unknown；不得凭公开可访问改成 approved。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,ethics_reason,VARCHAR,NO,伦理状态的可审计原因。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,source_documentation_urls,VARCHAR,NO,API、条款和许可文档链接的 JSON 数组。
+sources,来源登记：角色、访问、覆盖、许可、伦理与文档依据。,local_source_register_path,VARCHAR,NO,本地来源登记表相对路径。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,segment_id,VARCHAR,NO,文档内文本段稳定 ID。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,document_id,VARCHAR,NO,source_id + external_id 生成的跨重建稳定文档 ID。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,parent_segment_id,VARCHAR,YES,嵌套引用等父段 ID。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,segment_kind,VARCHAR,NO,paragraph/post_body/comment_body/quoted_block/unknown。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,segment_order,INTEGER,NO,父文档内零起始顺序。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,segment_text,VARCHAR,NO,合法取得的段落文本；本轮不填。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,locator,VARCHAR,NO,段落在来源中的 CSS/XPath/页码/字符范围等定位。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,start_char,INTEGER,YES,可选的父文本起始字符位置。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,end_char,INTEGER,YES,可选的父文本结束字符位置。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,text_sha256,VARCHAR,NO,原段落文本 SHA-256。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,origin_kind,VARCHAR,NO,acquired 或 synthetic_test；合成文本不得计入研究样本。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,permission_status,VARCHAR,NO,该文本可处理/存储状态。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,research_sample,BOOLEAN,NO,是否计入研究样本/覆盖统计；合成接口必须为 false。
+text_segments,段落/正文接口；本轮真实数据库为空，不伪造正文。,created_at,TIMESTAMP WITH TIME ZONE,NO,段落记录建立时间。
+voice_attributions,引用说话者、情绪持有者等接口；与 publisher_role 分离。,attribution_id,VARCHAR,NO,声音归因稳定 ID。
+voice_attributions,引用说话者、情绪持有者等接口；与 publisher_role 分离。,document_id,VARCHAR,NO,source_id + external_id 生成的跨重建稳定文档 ID。
+voice_attributions,引用说话者、情绪持有者等接口；与 publisher_role 分离。,segment_id,VARCHAR,YES,文档内文本段稳定 ID。
+voice_attributions,引用说话者、情绪持有者等接口；与 publisher_role 分离。,actor_name,VARCHAR,YES,来源明确给出的说话者/持有者；不推断身份。
+voice_attributions,引用说话者、情绪持有者等接口；与 publisher_role 分离。,attribution_role,VARCHAR,NO,quoted_speaker/emotion_holder/reported_actor/unknown。
+voice_attributions,引用说话者、情绪持有者等接口；与 publisher_role 分离。,evidence_locator,VARCHAR,YES,支持归因的文本位置。
+voice_attributions,引用说话者、情绪持有者等接口；与 publisher_role 分离。,status,VARCHAR,NO,当前状态；含义由所属表限定。
