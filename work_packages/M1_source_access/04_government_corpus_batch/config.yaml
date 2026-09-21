@@ -1,0 +1,55 @@
+batch_id: govuk_defra_policy_paper_1988_20260921_v1
+schema_version: m1_government_batch_v2
+normalisation_rule_version: govuk_metadata_v3
+
+source:
+  name: "GOV.UK — Department for Environment, Food & Rural Affairs policy papers"
+  publisher_role: policy
+  country: United Kingdom
+  search_api: https://www.gov.uk/api/search.json
+  content_api_base: https://www.gov.uk/api/content
+  canonical_base: https://www.gov.uk
+  organisation_slug: department-for-environment-food-rural-affairs
+  organisation_content_id: de4e9dc6-cca4-43af-a594-682023b84d6c
+  document_type: policy_paper
+  date_filter_field: first_published_at
+
+scope:
+  start_date: 1988-01-01
+  end_date: 2026-09-21
+  end_boundary: inclusive_utc_calendar_date
+  observation_started_at: 2026-09-21T01:05:02Z
+  observation_cutoff_at: 2026-09-21T01:10:54Z
+  observation_timezone: UTC
+  partition: calendar_year
+  page_size: 100
+  maximum_api_count: 1500
+
+http:
+  user_agent: "FearOfTemperature/0.2 government corpus audit; contact via repository"
+  timeout_seconds: 30
+  retries: 4
+  backoff_seconds: 1.0
+  minimum_interval_seconds: 0.20
+  workers: 4
+
+content_fetch:
+  enabled: false
+  public_access_status: publicly_listed_not_fetch_verified
+  collection_status: blocked_pending_ethics_route
+  research_processing_status: pending
+  redistribution_status: item_and_attachment_review_required
+  ethics_status: pending
+  rights_basis: >-
+    GOV.UK states that most content is published under OGL v3, subject to exclusions.
+    The repository has no verifiable UQ approval or exemption covering substantive body use,
+    and attachment-level third-party rights have not been reviewed.
+  decision_evidence: >-
+    proposal/thesis_proposal.md section 3.11 and
+    work_packages/M1_source_access/03_database_pilot/data_quality_report.md
+
+paths:
+  work_package: work_packages/M1_source_access/04_government_corpus_batch
+  feasibility_input: work_packages/M1_source_access/01_feasibility
+  database: work_packages/M1_source_access/04_government_corpus_batch/fear_temperature_government_batch.duckdb
+  exports: work_packages/M1_source_access/04_government_corpus_batch/exports
