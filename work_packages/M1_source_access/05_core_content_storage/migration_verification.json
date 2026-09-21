@@ -1,0 +1,160 @@
+{
+  "status": "passed",
+  "generated_at": "2026-09-21T05:44:38Z",
+  "source_database": "work_packages/M1_source_access/04_government_corpus_batch/fear_temperature_government_batch.duckdb",
+  "source_database_sha256_before": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396",
+  "source_database_sha256_after": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396",
+  "database": "work_packages/M1_source_access/05_core_content_storage/fear_temperature_core_storage.duckdb",
+  "database_sha256": "5aa96f0f52fb499253853e62adecf0b307eee5f39b9d31e74141bae07fd0bf91",
+  "source_schema_version": "m1_government_batch_v2",
+  "schema_version": "m1_government_content_storage_v3",
+  "document_normalisation_rule_version": "govuk_metadata_v3",
+  "content_object_rule_version": "govuk_content_object_v2",
+  "counts": {
+    "collection_batches": 2,
+    "content_fetches": 3025,
+    "content_objects": 3025,
+    "content_versions": 0,
+    "coverage_records": 2,
+    "document_content_objects": 3027,
+    "document_organisations": 1473,
+    "document_relationships": 0,
+    "document_version_raw_links": 1029,
+    "document_versions": 1029,
+    "documents": 1020,
+    "enumeration_records": 1020,
+    "extraction_runs": 1,
+    "normalisation_rules": 3,
+    "organisations": 69,
+    "query_partitions": 39,
+    "raw_records": 1029,
+    "schema_migrations": 1,
+    "schema_versions": 3,
+    "sources": 1,
+    "text_segments": 0,
+    "voice_attributions": 0
+  },
+  "checks": {
+    "frozen_source_hash_preserved": true,
+    "duplicate_ingest_idempotent": true,
+    "offline_clean_rebuild_reproducible": true,
+    "documents_preserved": true,
+    "webpages_preserved": true,
+    "attachments_preserved": true,
+    "attachment_relations_preserved": true,
+    "organisations_preserved": true,
+    "document_organisation_relations_preserved": true,
+    "shared_attachments_preserved": true,
+    "document_content_foreign_keys_resolve": true,
+    "content_version_foreign_keys_resolve": true,
+    "fetch_version_foreign_keys_resolve": true,
+    "blocked_or_failed_fetches_have_no_version": true,
+    "successful_fetches_have_version": true,
+    "content_versions_are_deduplicated": true,
+    "segments_reference_exact_versions": true,
+    "segment_interface_is_version_based": true,
+    "current_blocked_batch_has_no_content_versions": true,
+    "current_blocked_batch_has_no_segments": true
+  },
+  "logical_fingerprint": "a44dddcc2c85b2694d4360787c7abf1ca7e314a9f3d701913d3034b8b31b66d2",
+  "exports": {
+    "schema_versions.csv": {
+      "rows": 3,
+      "sha256": "15c88cb949c826f38b23bafbc9ccaf38e0327c319a369f4761658e6282b67aa0"
+    },
+    "normalisation_rules.csv": {
+      "rows": 3,
+      "sha256": "684ea559713a5bde43f66b6c50253018d08ed85f1bada61504fc5386ae132348"
+    },
+    "sources.csv": {
+      "rows": 1,
+      "sha256": "7ee51e36cf0808055d37fe57bafdee005ff65e121463894128ea9a0a9ea71d0f"
+    },
+    "collection_batches.csv": {
+      "rows": 2,
+      "sha256": "ae823f5521292f7a9eb35b58f2475de9041ebbca1205eddcf61d66131ddeb4fa"
+    },
+    "coverage_records.csv": {
+      "rows": 2,
+      "sha256": "57e08a4305c7b724df0c2d70b038715b3988d7c9caa64d2ba3236276b1243c9b"
+    },
+    "raw_records.csv": {
+      "rows": 1029,
+      "sha256": "21746b39da40b6b8064a437c14ebc7f690a66c697488ecd4d74fa689a884b96f"
+    },
+    "documents.csv": {
+      "rows": 1020,
+      "sha256": "78e9090c6ff9573343353e72e30017ab8b3cd3d50164f2a6e25a1cac6acb5240"
+    },
+    "document_versions.csv": {
+      "rows": 1029,
+      "sha256": "3e758a7d56075c61c0d39a832fe3e2101a98c2b124e764a3d1b66e01e5fbaf7f"
+    },
+    "document_version_raw_links.csv": {
+      "rows": 1029,
+      "sha256": "747c346cb64fe76bef1bc46ccf87887e313a64c457d878a7f04321a991540ec6"
+    },
+    "organisations.csv": {
+      "rows": 69,
+      "sha256": "27704915662c50873bfd2d883108457616bbd5932f807bcd649136ed63c69d33"
+    },
+    "document_organisations.csv": {
+      "rows": 1473,
+      "sha256": "515ffd2ace280218e709c0f17349df1034a933eb2fcfd96c45eb9b324067561e"
+    },
+    "text_segments.csv": {
+      "rows": 0,
+      "sha256": "bc7a30e8f696ae273140867cc1136f7abd00029955a0410c19c3567a4e83eec8"
+    },
+    "voice_attributions.csv": {
+      "rows": 0,
+      "sha256": "7a779648bff1fdcad01a594882fde7419f1cde0bcd281483d2e0a4c0a0bb0f1e"
+    },
+    "document_relationships.csv": {
+      "rows": 0,
+      "sha256": "6eb72e8ce091430907f7bd03170027731e75d929f2a5b9b0f83648a5f1a42447"
+    },
+    "traceability.csv": {
+      "rows": 1020,
+      "sha256": "98e3028e7183cdabbc951867169c829c4478cab62c2e095f97153c156ee5c311"
+    },
+    "institution_counting.csv": {
+      "rows": 69,
+      "sha256": "7c1abd091e3ba9bbb90a2343bca792f4975a394ae360fc90084522e2204a2af8"
+    },
+    "query_partitions.csv": {
+      "rows": 39,
+      "sha256": "26e4e9d75432b80934f9efd24915732bdce3364db03d4c2a8432b0e6750e2fb9"
+    },
+    "enumeration_records.csv": {
+      "rows": 1020,
+      "sha256": "e11715d5222de850cca1e85ee01353e4d91c18cff30ed6e5809c839548190ec3"
+    },
+    "content_objects.csv": {
+      "rows": 3025,
+      "sha256": "7190fafa575414b5d3d9404ba83cecbf009d63cdcbdcda49d7dcfec005e70591"
+    },
+    "document_content_objects.csv": {
+      "rows": 3027,
+      "sha256": "410b64233d5604defefb020810e5ec61e9c22786837edaea145e0f782bdefa81"
+    },
+    "content_fetches.csv": {
+      "rows": 3025,
+      "sha256": "9a658052c5ae0aadfd1cd2fd93607b235c20c1010b3c04c2d192d5835048fa32"
+    },
+    "extraction_runs.csv": {
+      "rows": 1,
+      "sha256": "f21b27fdd510d67818a1ce201ff171e444b3b6d37002c5353323fc6b382c5c3c"
+    },
+    "content_versions.csv": {
+      "rows": 0,
+      "sha256": "fceefd78af92d9fabfcb72539fc97858d042671bf7e1b5b5685c01deb736fb6d"
+    },
+    "schema_migrations.csv": {
+      "rows": 1,
+      "sha256": "ae8247f928bc1a6096bae7783248fed2c4d9ab6e7dbeda01bcc5bae7d67810e9"
+    }
+  },
+  "body_collection_status": "blocked",
+  "successful_body_fetches": 0
+}
