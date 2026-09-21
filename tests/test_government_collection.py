@@ -7,14 +7,17 @@ from datetime import date
 from email.message import Message
 from pathlib import Path
 
+import duckdb
 import pytest
 
 from fear_temperature.government_collection import (
     HttpClient,
     HttpResult,
+    _initialise_core_database,
     _validate_download,
     build_content_objects,
     build_year_partitions,
+    content_version_from_fetch,
     project_content_metadata,
 )
 
@@ -218,3 +221,74 @@ def test_download_validation_rejects_error_shells_and_fake_pdfs() -> None:
     assert _validate_download(fake_pdf, "application/pdf") == (
         "declared PDF did not have a PDF file signature"
     )
+
+
+def test_blocked_fetch_does_not_establish_content_version() -> None:
+    assert content_version_from_fetch(
+        {
+            "collection_status": "blocked_pending_ethics_route",
+            "content_object_id": "content-1",
+        }
+    ) is None
+
+
+def test_successful_same_content_maps_to_one_stable_version() -> None:
+    fetch = {
+        "fetch_id": "fetch-1",
+        "collection_status": "success",
+        "content_object_id": "content-1",
+        "final_url": "https://example.test/final.pdf",
+        "retrieved_at": "2026-09-21T00:00:00Z",
+        "status_code": 200,
+        "mime_type": "application/pdf",
+        "content_sha256": "a" * 64,
+        "raw_path": "raw/content.pdf",
+    }
+
+    first = content_version_from_fetch(fetch)
+    second = content_version_from_fetch({**fetch, "fetch_id": "fetch-2"})
+    changed = content_version_from_fetch(
+        {**fetch, "fetch_id": "fetch-3", "content_sha256": "b" * 64}
+    )
+
+    assert first is not None
+    assert second is not None
+    assert changed is not None
+    assert first["content_version_id"] == second["content_version_id"]
+    assert first["content_version_id"] != changed["content_version_id"]
+    assert first["first_fetch_id"] != second["first_fetch_id"]
+
+
+def test_success_status_without_saved_evidence_is_rejected() -> None:
+    with pytest.raises(ValueError, match="missing"):
+        content_version_from_fetch(
+            {
+                "fetch_id": "fetch-1",
+                "collection_status": "success",
+                "content_object_id": "content-1",
+                "status_code": 200,
+            }
+        )
+
+
+def test_core_segment_interface_requires_exact_content_version(tmp_path: Path) -> None:
+    database = tmp_path / "core.duckdb"
+    with duckdb.connect(str(database)) as connection:
+        _initialise_core_database(connection)
+        columns = {
+            row[1] for row in connection.execute("PRAGMA table_info('text_segments')").fetchall()
+        }
+        assert "content_version_id" in columns
+        assert "extraction_run_id" in columns
+        assert "document_id" not in columns
+        with pytest.raises(duckdb.ConstraintException):
+            connection.execute(
+                """
+                INSERT INTO text_segments VALUES (
+                    'seg-1', 'missing-version', 'missing-run', NULL,
+                    'source_extracted', 'paragraph', 0, NULL, 'text',
+                    'p[1]', 0, 4, ?, 'pending', false, TIMESTAMPTZ '2026-09-21 00:00:00+00'
+                )
+                """,
+                ["b" * 64],
+            )

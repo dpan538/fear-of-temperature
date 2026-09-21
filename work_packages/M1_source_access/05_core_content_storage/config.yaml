@@ -1,0 +1,23 @@
+schema_version: m1_government_content_storage_v3
+source_schema_version: m1_government_batch_v2
+normalisation_rule_version: govuk_metadata_v3
+content_object_rule_version: govuk_content_object_v2
+migration_recorded_at: 2026-09-21T05:33:31Z
+decision_record: docs/decisions/2026-09-21-five-core-tables.md
+
+expected_counts:
+  documents: 1020
+  webpages: 1020
+  attachments: 2005
+  attachment_relations: 2007
+  organisations: 69
+  document_organisation_relations: 1473
+  shared_attachments: 1
+
+paths:
+  work_package: work_packages/M1_source_access/05_core_content_storage
+  frozen_database: work_packages/M1_source_access/04_government_corpus_batch/fear_temperature_government_batch.duckdb
+  frozen_manifest: work_packages/M1_source_access/04_government_corpus_batch/enumeration_manifest.csv
+  freeze_record: work_packages/M1_source_access/04_government_corpus_batch/batch_freeze.json
+  database: work_packages/M1_source_access/05_core_content_storage/fear_temperature_core_storage.duckdb
+  exports: work_packages/M1_source_access/05_core_content_storage/exports

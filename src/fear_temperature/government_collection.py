@@ -19,6 +19,7 @@ from collections.abc import Iterable, Sequence
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import UTC, date, datetime
+from decimal import Decimal
 from pathlib import Path
 from typing import Any
 
@@ -175,6 +176,97 @@ CREATE TABLE IF NOT EXISTS extraction_runs (
 );
 """
 
+CORE_STORAGE_SQL = """
+ALTER TABLE content_objects ADD COLUMN title VARCHAR DEFAULT '';
+ALTER TABLE content_objects ADD COLUMN acquisition_status VARCHAR DEFAULT 'not_attempted';
+ALTER TABLE content_objects ADD COLUMN identity_metadata_json VARCHAR DEFAULT '{}';
+
+CREATE TABLE content_versions (
+    content_version_id VARCHAR PRIMARY KEY,
+    content_object_id VARCHAR NOT NULL REFERENCES content_objects(content_object_id),
+    content_sha256 VARCHAR NOT NULL,
+    resolved_url VARCHAR NOT NULL,
+    retrieved_at TIMESTAMPTZ NOT NULL,
+    status_code INTEGER NOT NULL CHECK (status_code >= 200 AND status_code < 300),
+    mime_type VARCHAR NOT NULL,
+    byte_size BIGINT,
+    raw_path VARCHAR NOT NULL,
+    storage_sha256 VARCHAR NOT NULL,
+    first_fetch_id VARCHAR NOT NULL,
+    version_status VARCHAR NOT NULL CHECK (version_status IN ('saved', 'verified')),
+    UNIQUE (content_object_id, content_sha256)
+);
+
+CREATE TABLE core_content_fetches (
+    fetch_id VARCHAR PRIMARY KEY,
+    batch_id VARCHAR NOT NULL REFERENCES collection_batches(batch_id),
+    content_object_id VARCHAR NOT NULL REFERENCES content_objects(content_object_id),
+    content_version_id VARCHAR REFERENCES content_versions(content_version_id),
+    request_url VARCHAR NOT NULL,
+    final_url VARCHAR,
+    retrieved_at TIMESTAMPTZ,
+    status_code INTEGER,
+    mime_type VARCHAR,
+    content_sha256 VARCHAR,
+    raw_path VARCHAR,
+    fetch_version VARCHAR NOT NULL,
+    collection_status VARCHAR NOT NULL,
+    research_processing_status VARCHAR NOT NULL,
+    redistribution_status VARCHAR NOT NULL,
+    failure_reason VARCHAR NOT NULL,
+    UNIQUE (batch_id, content_object_id)
+);
+
+CREATE TABLE schema_migrations (
+    migration_id VARCHAR PRIMARY KEY,
+    source_schema_version VARCHAR NOT NULL,
+    target_schema_version VARCHAR NOT NULL,
+    source_database_path VARCHAR NOT NULL,
+    source_database_sha256 VARCHAR NOT NULL,
+    decision_record_path VARCHAR NOT NULL,
+    migrated_at TIMESTAMPTZ NOT NULL,
+    status VARCHAR NOT NULL
+);
+"""
+
+CORE_TEXT_STORAGE_SQL = """
+CREATE TABLE text_segments (
+    segment_id VARCHAR PRIMARY KEY,
+    content_version_id VARCHAR NOT NULL REFERENCES content_versions(content_version_id),
+    extraction_run_id VARCHAR NOT NULL REFERENCES extraction_runs(extraction_run_id),
+    parent_segment_id VARCHAR REFERENCES text_segments(segment_id),
+    representation_kind VARCHAR NOT NULL CHECK (
+        representation_kind IN ('source_extracted', 'cleaned', 'derived')
+    ),
+    segment_kind VARCHAR NOT NULL CHECK (
+        segment_kind IN ('paragraph', 'post_body', 'comment_body', 'quoted_block', 'unknown')
+    ),
+    segment_order INTEGER NOT NULL CHECK (segment_order >= 0),
+    heading VARCHAR,
+    segment_text VARCHAR NOT NULL,
+    locator VARCHAR NOT NULL,
+    start_char INTEGER,
+    end_char INTEGER,
+    text_sha256 VARCHAR NOT NULL,
+    permission_status VARCHAR NOT NULL,
+    research_sample BOOLEAN NOT NULL,
+    created_at TIMESTAMPTZ NOT NULL,
+    UNIQUE (content_version_id, extraction_run_id, representation_kind, segment_order)
+);
+
+CREATE TABLE voice_attributions (
+    attribution_id VARCHAR PRIMARY KEY,
+    document_id VARCHAR NOT NULL REFERENCES documents(document_id),
+    segment_id VARCHAR REFERENCES text_segments(segment_id),
+    actor_name VARCHAR,
+    attribution_role VARCHAR NOT NULL CHECK (
+        attribution_role IN ('quoted_speaker', 'emotion_holder', 'reported_actor', 'unknown')
+    ),
+    evidence_locator VARCHAR,
+    status VARCHAR NOT NULL CHECK (status IN ('confirmed', 'pending', 'unknown'))
+);
+"""
+
 NEW_EXPORT_QUERIES: dict[str, str] = {
     "query_partitions": "SELECT * FROM query_partitions ORDER BY window_start, query_partition_id",
     "enumeration_records": (
@@ -188,6 +280,28 @@ NEW_EXPORT_QUERIES: dict[str, str] = {
         "SELECT * FROM content_fetches ORDER BY content_object_id, fetch_id"
     ),
     "extraction_runs": "SELECT * FROM extraction_runs ORDER BY extraction_run_id",
+}
+
+CORE_EXPORT_QUERIES: dict[str, str] = {
+    "content_objects": "SELECT * FROM content_objects ORDER BY object_kind, canonical_url",
+    "content_versions": (
+        "SELECT * FROM content_versions ORDER BY content_object_id, retrieved_at, content_version_id"
+    ),
+    "content_fetches": "SELECT * FROM content_fetches ORDER BY content_object_id, fetch_id",
+    "text_segments": (
+        "SELECT * FROM text_segments ORDER BY content_version_id, extraction_run_id, "
+        "representation_kind, segment_order, segment_id"
+    ),
+    "voice_attributions": "SELECT * FROM voice_attributions ORDER BY attribution_id",
+    "schema_migrations": "SELECT * FROM schema_migrations ORDER BY migration_id",
+    "institution_counting": (
+        "SELECT o.organisation_id, o.organisation_name, COUNT(*) AS linked_document_count, "
+        "SUM(CAST(r.full_count_weight AS DECIMAL(38, 18))) AS full_count, "
+        "SUM(CAST(r.fractional_count_weight AS DECIMAL(38, 18))) AS fractional_count "
+        "FROM document_organisations r JOIN organisations o USING (organisation_id) "
+        "GROUP BY o.organisation_id, o.organisation_name "
+        "ORDER BY o.organisation_name, o.organisation_id"
+    ),
 }
 
 
@@ -972,6 +1086,8 @@ def build_content_objects(
                 "external_content_id": external_id,
                 "parent_external_ids": [],
                 "request_url": web_url,
+                "title": row.get("title", ""),
+                "observed_titles": [row.get("title", "")],
                 "declared_mime_type": "text/html",
                 "declared_file_size": "",
                 "declared_page_count": "",
@@ -996,12 +1112,19 @@ def build_content_objects(
                     "external_content_id": str(attachment.get("id") or ""),
                     "parent_external_ids": [],
                     "request_url": url,
+                    "title": str(attachment.get("title") or ""),
+                    "observed_titles": [],
                     "declared_mime_type": str(attachment.get("content_type") or ""),
                     "declared_file_size": attachment.get("file_size") or "",
                     "declared_page_count": attachment.get("number_of_pages") or "",
                     "relations": [],
                 },
             )
+            attachment_title = str(attachment.get("title") or "")
+            if attachment_title and not content_object["title"]:
+                content_object["title"] = attachment_title
+            if attachment_title and attachment_title not in content_object["observed_titles"]:
+                content_object["observed_titles"].append(attachment_title)
             content_object["parent_external_ids"].append(external_id)
             content_object["relations"].append(
                 {"parent_external_id": external_id, "ordinal": position}
@@ -1416,7 +1539,13 @@ def _query_payload(connection: duckdb.DuckDBPyConnection, query: str) -> dict[st
     for row in cursor.fetchall():
         rows.append(
             [
-                value.isoformat() if isinstance(value, (date, datetime)) else value
+                (
+                    value.isoformat()
+                    if isinstance(value, (date, datetime))
+                    else str(value)
+                    if isinstance(value, Decimal)
+                    else value
+                )
                 for value in row
             ]
         )
@@ -1427,6 +1556,603 @@ def logical_fingerprint(connection: duckdb.DuckDBPyConnection) -> str:
     queries = {**PILOT_EXPORT_QUERIES, **NEW_EXPORT_QUERIES}
     payload = {name: _query_payload(connection, query) for name, query in queries.items()}
     return sha256_bytes(canonical_json(payload).encode("utf-8"))
+
+
+def _core_export_queries() -> dict[str, str]:
+    return {**PILOT_EXPORT_QUERIES, **NEW_EXPORT_QUERIES, **CORE_EXPORT_QUERIES}
+
+
+def core_logical_fingerprint(connection: duckdb.DuckDBPyConnection) -> str:
+    payload = {
+        name: _query_payload(connection, query)
+        for name, query in _core_export_queries().items()
+    }
+    return sha256_bytes(canonical_json(payload).encode("utf-8"))
+
+
+def core_logical_fingerprint_parts(
+    connection: duckdb.DuckDBPyConnection,
+) -> dict[str, str]:
+    return {
+        name: sha256_bytes(canonical_json(_query_payload(connection, query)).encode("utf-8"))
+        for name, query in _core_export_queries().items()
+    }
+
+
+def _upgrade_to_core_storage(connection: duckdb.DuckDBPyConnection) -> None:
+    """Replace the legacy body interface in a new database, never in the frozen source."""
+    connection.execute(CORE_STORAGE_SQL)
+    connection.execute("DROP TABLE voice_attributions")
+    connection.execute("DROP TABLE text_segments")
+    connection.execute("DROP TABLE content_fetches")
+    connection.execute("ALTER TABLE core_content_fetches RENAME TO content_fetches")
+    connection.execute(CORE_TEXT_STORAGE_SQL)
+
+
+def content_version_from_fetch(fetch: dict[str, Any]) -> dict[str, Any] | None:
+    """Return a saved-version record only for a complete, successful fetch."""
+    if fetch.get("collection_status") != "success":
+        return None
+    required = [
+        "content_object_id",
+        "final_url",
+        "retrieved_at",
+        "status_code",
+        "mime_type",
+        "content_sha256",
+        "raw_path",
+        "fetch_id",
+    ]
+    missing = [name for name in required if fetch.get(name) in {None, ""}]
+    if missing:
+        raise ValueError(
+            "Successful fetch cannot establish a content version; missing "
+            + ", ".join(missing)
+        )
+    status_code = int(fetch["status_code"])
+    if not 200 <= status_code < 300:
+        raise ValueError("Successful fetch must have a 2xx status code")
+    content_sha = str(fetch["content_sha256"])
+    if len(content_sha) != 64:
+        raise ValueError("Successful fetch must have a SHA-256 content hash")
+    return {
+        "content_version_id": stable_id(
+            "cntv", str(fetch["content_object_id"]), content_sha
+        ),
+        "content_object_id": str(fetch["content_object_id"]),
+        "content_sha256": content_sha,
+        "resolved_url": str(fetch["final_url"]),
+        "retrieved_at": fetch["retrieved_at"],
+        "status_code": status_code,
+        "mime_type": str(fetch["mime_type"]),
+        "raw_path": str(fetch["raw_path"]),
+        "storage_sha256": content_sha,
+        "first_fetch_id": str(fetch["fetch_id"]),
+    }
+
+
+CORE_COPY_TABLES = [
+    "schema_versions",
+    "normalisation_rules",
+    "sources",
+    "collection_batches",
+    "coverage_records",
+    "raw_records",
+    "documents",
+    "document_versions",
+    "document_version_raw_links",
+    "organisations",
+    "document_organisations",
+    "document_relationships",
+    "query_partitions",
+    "enumeration_records",
+    "extraction_runs",
+]
+
+
+def _attach_read_only(
+    connection: duckdb.DuckDBPyConnection, source_database: Path
+) -> None:
+    escaped = str(source_database.resolve()).replace("'", "''")
+    connection.execute(f"ATTACH '{escaped}' AS frozen_source (READ_ONLY)")
+
+
+def _source_rows(
+    connection: duckdb.DuckDBPyConnection, query: str
+) -> list[dict[str, Any]]:
+    cursor = connection.execute(query)
+    columns = [item[0] for item in cursor.description]
+    return [dict(zip(columns, row, strict=True)) for row in cursor.fetchall()]
+
+
+def _initialise_core_database(connection: duckdb.DuckDBPyConnection) -> None:
+    connection.execute(PILOT_SCHEMA_SQL)
+    connection.execute(MIGRATION_SQL)
+    _upgrade_to_core_storage(connection)
+
+
+def _populate_core_database(
+    connection: duckdb.DuckDBPyConnection,
+    config: dict[str, Any],
+    source_database: Path,
+    source_database_sha256: str,
+) -> None:
+    attached = connection.execute(
+        "SELECT COUNT(*) FROM duckdb_databases() WHERE database_name = 'frozen_source'"
+    ).fetchone()
+    if not attached or not attached[0]:
+        _attach_read_only(connection, source_database)
+    legacy_segments = _scalar_int(
+        connection, "SELECT COUNT(*) FROM frozen_source.text_segments"
+    )
+    legacy_attributions = _scalar_int(
+        connection, "SELECT COUNT(*) FROM frozen_source.voice_attributions"
+    )
+    if legacy_segments or legacy_attributions:
+        raise RuntimeError(
+            "Frozen source has legacy text rows that cannot be assigned to an exact "
+            "content version without additional evidence"
+        )
+    for table in CORE_COPY_TABLES:
+        connection.execute(
+            f"INSERT OR IGNORE INTO {table} SELECT * FROM frozen_source.{table}"
+        )
+
+    manifest_path = resolve_path(config["paths"]["frozen_manifest"])
+    manifest = read_csv(manifest_path)
+    projected_objects = {
+        item["content_object_id"]: item for item in build_content_objects(config, manifest)
+    }
+    source_object_ids = {
+        row[0]
+        for row in connection.execute(
+            "SELECT content_object_id FROM frozen_source.content_objects"
+        ).fetchall()
+    }
+    if source_object_ids != set(projected_objects):
+        raise RuntimeError(
+            "Frozen content-object identities differ from the frozen manifest projection"
+        )
+    latest_status = {
+        row[0]: row[1]
+        for row in connection.execute(
+            """
+            SELECT content_object_id, collection_status
+            FROM frozen_source.content_fetches
+            ORDER BY retrieved_at NULLS FIRST, fetch_id
+            """
+        ).fetchall()
+    }
+    source_objects = _source_rows(
+        connection,
+        "SELECT * FROM frozen_source.content_objects ORDER BY content_object_id",
+    )
+    for row in source_objects:
+        projected = projected_objects[str(row["content_object_id"])]
+        identity_metadata = {
+            "parent_external_ids": sorted(set(projected["parent_external_ids"])),
+            "observed_titles": projected["observed_titles"],
+            "external_content_id": projected["external_content_id"] or None,
+        }
+        connection.execute(
+            """
+            INSERT INTO content_objects (
+                content_object_id, object_kind, external_content_id, canonical_url,
+                declared_mime_type, declared_file_size, declared_page_count,
+                public_access_status, rights_status, ethics_status, title,
+                acquisition_status, identity_metadata_json
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (content_object_id) DO NOTHING
+            """,
+            [
+                row["content_object_id"],
+                row["object_kind"],
+                row["external_content_id"],
+                row["canonical_url"],
+                row["declared_mime_type"],
+                row["declared_file_size"],
+                row["declared_page_count"],
+                row["public_access_status"],
+                row["rights_status"],
+                row["ethics_status"],
+                projected["title"],
+                latest_status.get(str(row["content_object_id"]), "not_attempted"),
+                canonical_json(identity_metadata),
+            ],
+        )
+    connection.execute(
+        """
+        INSERT OR IGNORE INTO document_content_objects
+        SELECT * FROM frozen_source.document_content_objects
+        """
+    )
+
+    source_fetches = _source_rows(
+        connection,
+        "SELECT * FROM frozen_source.content_fetches ORDER BY content_object_id, fetch_id",
+    )
+    for fetch in source_fetches:
+        version = content_version_from_fetch(fetch)
+        version_id = None
+        if version is not None:
+            raw_path = resolve_path(version["raw_path"])
+            if not raw_path.is_file():
+                raise RuntimeError(f"Saved content file is missing: {raw_path}")
+            actual_sha = sha256_file(raw_path)
+            if actual_sha != version["content_sha256"]:
+                raise RuntimeError(f"Saved content hash mismatch: {raw_path}")
+            version_id = version["content_version_id"]
+            connection.execute(
+                """
+                INSERT INTO content_versions VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT (content_object_id, content_sha256) DO NOTHING
+                """,
+                [
+                    version_id,
+                    version["content_object_id"],
+                    version["content_sha256"],
+                    version["resolved_url"],
+                    version["retrieved_at"],
+                    version["status_code"],
+                    version["mime_type"],
+                    raw_path.stat().st_size,
+                    version["raw_path"],
+                    actual_sha,
+                    version["first_fetch_id"],
+                    "verified",
+                ],
+            )
+        connection.execute(
+            """
+            INSERT INTO content_fetches VALUES (
+                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+            ) ON CONFLICT (fetch_id) DO NOTHING
+            """,
+            [
+                fetch["fetch_id"],
+                fetch["batch_id"],
+                fetch["content_object_id"],
+                version_id,
+                fetch["request_url"],
+                fetch["final_url"],
+                fetch["retrieved_at"],
+                fetch["status_code"],
+                fetch["mime_type"],
+                fetch["content_sha256"],
+                fetch["raw_path"],
+                fetch["fetch_version"],
+                fetch["collection_status"],
+                fetch["research_processing_status"],
+                fetch["redistribution_status"],
+                fetch["failure_reason"],
+            ],
+        )
+
+    recorded_at = datetime.fromisoformat(
+        str(config["migration_recorded_at"]).replace("Z", "+00:00")
+    )
+    connection.execute(
+        "INSERT INTO schema_versions VALUES (?, ?, ?) ON CONFLICT DO NOTHING",
+        [
+            config["schema_version"],
+            recorded_at,
+            "Implement approved document/content-object/content-version/text-segment storage boundaries",
+        ],
+    )
+    _register_rule(
+        connection,
+        str(config["content_object_rule_version"]),
+        {
+            "source": "frozen GOV.UK metadata projection",
+            "identity": "stable object ID from object kind and canonical URL",
+            "title": "landing-page title or attachment title retained from the frozen projection",
+            "shared_attachment": "one object with all parent publication associations",
+            "version_gate": "only successful 2xx fetches with saved bytes and a verified SHA-256 establish a content version",
+        },
+    )
+    migration_id = stable_id(
+        "mig", source_database_sha256, str(config["schema_version"])
+    )
+    connection.execute(
+        """
+        INSERT INTO schema_migrations VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+        ON CONFLICT (migration_id) DO NOTHING
+        """,
+        [
+            migration_id,
+            config["source_schema_version"],
+            config["schema_version"],
+            relative_path(source_database),
+            source_database_sha256,
+            config["decision_record"],
+            recorded_at,
+            "passed",
+        ],
+    )
+
+
+def _core_table_counts(connection: duckdb.DuckDBPyConnection) -> dict[str, int]:
+    tables = [
+        row[0]
+        for row in connection.execute(
+            """
+            SELECT table_name
+            FROM information_schema.tables
+            WHERE table_catalog = current_database()
+              AND table_schema = 'main'
+              AND table_type = 'BASE TABLE'
+            ORDER BY table_name
+            """
+        ).fetchall()
+    ]
+    return {
+        table: _scalar_int(connection, f"SELECT COUNT(*) FROM {table}")
+        for table in tables
+    }
+
+
+def _core_validation(
+    connection: duckdb.DuckDBPyConnection, config: dict[str, Any]
+) -> dict[str, bool]:
+    expected = config["expected_counts"]
+
+    def scalar(query: str) -> int:
+        return _scalar_int(connection, query)
+
+    segment_columns = {
+        row[1]
+        for row in connection.execute("PRAGMA table_info('text_segments')").fetchall()
+    }
+    return {
+        "documents_preserved": scalar("SELECT COUNT(*) FROM documents")
+        == int(expected["documents"]),
+        "webpages_preserved": scalar(
+            "SELECT COUNT(*) FROM content_objects WHERE object_kind = 'webpage'"
+        )
+        == int(expected["webpages"]),
+        "attachments_preserved": scalar(
+            "SELECT COUNT(*) FROM content_objects WHERE object_kind = 'attachment'"
+        )
+        == int(expected["attachments"]),
+        "attachment_relations_preserved": scalar(
+            "SELECT COUNT(*) FROM document_content_objects WHERE relationship_type = 'attachment'"
+        )
+        == int(expected["attachment_relations"]),
+        "organisations_preserved": scalar("SELECT COUNT(*) FROM organisations")
+        == int(expected["organisations"]),
+        "document_organisation_relations_preserved": scalar(
+            "SELECT COUNT(*) FROM document_organisations"
+        )
+        == int(expected["document_organisation_relations"]),
+        "shared_attachments_preserved": scalar(
+            """
+            SELECT COUNT(*) FROM (
+                SELECT content_object_id
+                FROM document_content_objects
+                WHERE relationship_type = 'attachment'
+                GROUP BY content_object_id
+                HAVING COUNT(*) > 1
+            )
+            """
+        )
+        == int(expected["shared_attachments"]),
+        "document_content_foreign_keys_resolve": scalar(
+            """
+            SELECT COUNT(*) FROM document_content_objects x
+            LEFT JOIN documents d USING (document_id)
+            LEFT JOIN content_objects c USING (content_object_id)
+            WHERE d.document_id IS NULL OR c.content_object_id IS NULL
+            """
+        )
+        == 0,
+        "content_version_foreign_keys_resolve": scalar(
+            """
+            SELECT COUNT(*) FROM content_versions v
+            LEFT JOIN content_objects c USING (content_object_id)
+            WHERE c.content_object_id IS NULL
+            """
+        )
+        == 0,
+        "fetch_version_foreign_keys_resolve": scalar(
+            """
+            SELECT COUNT(*) FROM content_fetches f
+            LEFT JOIN content_versions v USING (content_version_id)
+            WHERE f.content_version_id IS NOT NULL AND v.content_version_id IS NULL
+            """
+        )
+        == 0,
+        "blocked_or_failed_fetches_have_no_version": scalar(
+            """
+            SELECT COUNT(*) FROM content_fetches
+            WHERE collection_status <> 'success' AND content_version_id IS NOT NULL
+            """
+        )
+        == 0,
+        "successful_fetches_have_version": scalar(
+            """
+            SELECT COUNT(*) FROM content_fetches
+            WHERE collection_status = 'success' AND content_version_id IS NULL
+            """
+        )
+        == 0,
+        "content_versions_are_deduplicated": scalar(
+            """
+            SELECT COUNT(*) FROM (
+                SELECT content_object_id, content_sha256
+                FROM content_versions
+                GROUP BY content_object_id, content_sha256
+                HAVING COUNT(*) > 1
+            )
+            """
+        )
+        == 0,
+        "segments_reference_exact_versions": scalar(
+            """
+            SELECT COUNT(*) FROM text_segments s
+            LEFT JOIN content_versions v USING (content_version_id)
+            LEFT JOIN extraction_runs e USING (extraction_run_id)
+            WHERE v.content_version_id IS NULL OR e.extraction_run_id IS NULL
+            """
+        )
+        == 0,
+        "segment_interface_is_version_based": (
+            "content_version_id" in segment_columns and "document_id" not in segment_columns
+        ),
+        "current_blocked_batch_has_no_content_versions": scalar(
+            "SELECT COUNT(*) FROM content_versions"
+        )
+        == 0,
+        "current_blocked_batch_has_no_segments": scalar(
+            "SELECT COUNT(*) FROM text_segments"
+        )
+        == 0,
+    }
+
+
+def _export_core_database(
+    connection: duckdb.DuckDBPyConnection, directory: Path
+) -> dict[str, Any]:
+    directory.mkdir(parents=True, exist_ok=True)
+    outputs: dict[str, Any] = {}
+    for name, query in _core_export_queries().items():
+        payload = _query_payload(connection, query)
+        path = directory / f"{name}.csv"
+        rows = [dict(zip(payload["columns"], row, strict=True)) for row in payload["rows"]]
+        write_csv_atomic(path, payload["columns"], rows)
+        outputs[path.name] = {"rows": len(rows), "sha256": sha256_file(path)}
+    return outputs
+
+
+def run_core_migration(config: dict[str, Any]) -> dict[str, Any]:
+    root = resolve_path(config["paths"]["work_package"])
+    root.mkdir(parents=True, exist_ok=True)
+    source_database = resolve_path(config["paths"]["frozen_database"])
+    destination = resolve_path(config["paths"]["database"])
+    if source_database.resolve() == destination.resolve():
+        raise ValueError("Core migration destination must not be the frozen database")
+    freeze = json.loads(
+        resolve_path(config["paths"]["freeze_record"]).read_text(encoding="utf-8")
+    )
+    source_sha_before = sha256_file(source_database)
+    expected_source_sha = str(freeze["sha256"][source_database.name])
+    if source_sha_before != expected_source_sha:
+        raise RuntimeError("Frozen source database hash does not match batch_freeze.json")
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with tempfile.TemporaryDirectory(prefix="core_migration_", dir=destination.parent) as temporary:
+        temp_root = Path(temporary)
+        first_db = temp_root / "first.duckdb"
+        second_db = temp_root / "second.duckdb"
+        with duckdb.connect(str(first_db)) as connection:
+            _initialise_core_database(connection)
+            _populate_core_database(
+                connection, config, source_database, source_sha_before
+            )
+            counts_before = _core_table_counts(connection)
+            _populate_core_database(
+                connection, config, source_database, source_sha_before
+            )
+            counts_after = _core_table_counts(connection)
+            first_fingerprint = core_logical_fingerprint(connection)
+            first_fingerprint_parts = core_logical_fingerprint_parts(connection)
+        with duckdb.connect(str(second_db)) as connection:
+            _initialise_core_database(connection)
+            _populate_core_database(
+                connection, config, source_database, source_sha_before
+            )
+            second_fingerprint = core_logical_fingerprint(connection)
+            second_fingerprint_parts = core_logical_fingerprint_parts(connection)
+            final_counts = _core_table_counts(connection)
+        idempotent = counts_before == counts_after
+        reproducible = first_fingerprint == second_fingerprint
+        if not idempotent or not reproducible:
+            changed_counts = {
+                table: (counts_before.get(table), counts_after.get(table))
+                for table in sorted(set(counts_before) | set(counts_after))
+                if counts_before.get(table) != counts_after.get(table)
+            }
+            changed_fingerprint_parts = {
+                name: (first_fingerprint_parts.get(name), second_fingerprint_parts.get(name))
+                for name in sorted(
+                    set(first_fingerprint_parts) | set(second_fingerprint_parts)
+                )
+                if first_fingerprint_parts.get(name) != second_fingerprint_parts.get(name)
+            }
+            raise RuntimeError(
+                "Core migration idempotence or clean rebuild failed: "
+                f"idempotent={idempotent}, reproducible={reproducible}, "
+                f"changed_counts={changed_counts}, "
+                f"changed_fingerprint_parts={changed_fingerprint_parts}, "
+                f"fingerprints=({first_fingerprint}, {second_fingerprint})"
+            )
+        os.replace(second_db, destination)
+    source_sha_after = sha256_file(source_database)
+    with duckdb.connect(str(destination), read_only=True) as connection:
+        relationship_checks = _core_validation(connection, config)
+        exports = _export_core_database(
+            connection, resolve_path(config["paths"]["exports"])
+        )
+        _export_dictionary(connection, root / "data_dictionary.csv")
+    checks = {
+        "frozen_source_hash_preserved": source_sha_before == source_sha_after,
+        "duplicate_ingest_idempotent": idempotent,
+        "offline_clean_rebuild_reproducible": reproducible,
+        **relationship_checks,
+    }
+    result = {
+        "status": "passed" if all(checks.values()) else "failed",
+        "generated_at": utc_now(),
+        "source_database": relative_path(source_database),
+        "source_database_sha256_before": source_sha_before,
+        "source_database_sha256_after": source_sha_after,
+        "database": relative_path(destination),
+        "database_sha256": sha256_file(destination),
+        "source_schema_version": config["source_schema_version"],
+        "schema_version": config["schema_version"],
+        "document_normalisation_rule_version": config["normalisation_rule_version"],
+        "content_object_rule_version": config["content_object_rule_version"],
+        "counts": final_counts,
+        "checks": checks,
+        "logical_fingerprint": second_fingerprint,
+        "exports": exports,
+        "body_collection_status": "blocked",
+        "successful_body_fetches": 0,
+    }
+    write_json_atomic(root / "migration_verification.json", result)
+    if result["status"] != "passed":
+        raise RuntimeError("Core storage migration verification failed")
+    return result
+
+
+def run_core_verification(config: dict[str, Any]) -> dict[str, Any]:
+    root = resolve_path(config["paths"]["work_package"])
+    source_database = resolve_path(config["paths"]["frozen_database"])
+    destination = resolve_path(config["paths"]["database"])
+    freeze = json.loads(
+        resolve_path(config["paths"]["freeze_record"]).read_text(encoding="utf-8")
+    )
+    source_sha = sha256_file(source_database)
+    with duckdb.connect(str(destination), read_only=True) as connection:
+        checks = {
+            "frozen_source_hash_matches_freeze_record": source_sha
+            == str(freeze["sha256"][source_database.name]),
+            **_core_validation(connection, config),
+        }
+        counts = _core_table_counts(connection)
+        fingerprint = core_logical_fingerprint(connection)
+    result = {
+        "status": "passed" if all(checks.values()) else "failed",
+        "generated_at": utc_now(),
+        "database": relative_path(destination),
+        "database_sha256": sha256_file(destination),
+        "logical_fingerprint": fingerprint,
+        "counts": counts,
+        "checks": checks,
+        "body_collection_status": "blocked",
+    }
+    write_json_atomic(root / "verification.json", result)
+    if result["status"] != "passed":
+        raise RuntimeError("Core storage verification failed")
+    return result
 
 
 def _create_batch_base(
@@ -1888,10 +2614,13 @@ def _export_dictionary(connection: duckdb.DuckDBPyConnection, path: Path) -> Non
     purposes = {
         "query_partitions": "年度查询分区、分页、total 漂移和原始响应证据。",
         "enumeration_records": "正式 manifest 记录到文档、原始记录和分区的追溯边。",
-        "content_objects": "网页与附件的独立内容对象、权利和伦理状态。",
+        "content_objects": "网页与附件的稳定逻辑身份、标题、获取、权利和伦理状态。",
         "document_content_objects": "文档到 landing page/附件的多对多父关系。",
         "content_fetches": "每个内容对象在本批次的成功、失败、跳过或 blocked 状态。",
+        "content_versions": "仅由成功保存且哈希核验的原始字节建立的不可变内容版本。",
         "extraction_runs": "文本提取运行及 blocked/failed/success 结果。",
+        "text_segments": "指向具体内容版本和提取运行的段落；当前 gate 下为空。",
+        "schema_migrations": "冻结源库到新工作库的迁移证据和批准记录引用。",
     }
     output = []
     for table, column, data_type, nullable, _ in rows:
@@ -2457,7 +3186,15 @@ def run_report(config: dict[str, Any]) -> dict[str, Any]:
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Recoverable GOV.UK government corpus batch")
     subparsers = parser.add_subparsers(dest="command", required=True)
-    for command in ["enum", "fetch", "verify", "ingest", "report"]:
+    for command in [
+        "enum",
+        "fetch",
+        "verify",
+        "ingest",
+        "report",
+        "migrate-core",
+        "verify-core",
+    ]:
         child = subparsers.add_parser(command)
         child.add_argument("--config", type=Path, required=True)
         if command in {"enum", "fetch"}:
@@ -2480,6 +3217,10 @@ def main(argv: Sequence[str] | None = None) -> int:
         result = run_verification(config)
     elif args.command == "ingest":
         result = run_ingest(config)
+    elif args.command == "migrate-core":
+        result = run_core_migration(config)
+    elif args.command == "verify-core":
+        result = run_core_verification(config)
     else:
         result = run_report(config)
     print(json.dumps(result, ensure_ascii=False, indent=2))
