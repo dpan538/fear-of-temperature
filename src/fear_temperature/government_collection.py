@@ -6,14 +6,19 @@ import argparse
 import csv
 import email.utils
 import hashlib
+import io
 import json
 import os
+import re
+import shutil
 import tempfile
 import threading
 import time
 import urllib.error
 import urllib.parse
 import urllib.request
+import xml.etree.ElementTree as ET
+import zipfile
 from collections import Counter, defaultdict
 from collections.abc import Iterable, Sequence
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -264,6 +269,77 @@ CREATE TABLE voice_attributions (
     ),
     evidence_locator VARCHAR,
     status VARCHAR NOT NULL CHECK (status IN ('confirmed', 'pending', 'unknown'))
+);
+"""
+
+ACQUISITION_AUDIT_SQL = """
+CREATE TABLE IF NOT EXISTS acquisition_authorizations (
+    authorization_id VARCHAR PRIMARY KEY,
+    recorded_at TIMESTAMPTZ NOT NULL,
+    actor VARCHAR NOT NULL,
+    authorization_text VARCHAR NOT NULL,
+    supervisor_statement_basis VARCHAR NOT NULL,
+    supervisor_statement_text VARCHAR NOT NULL,
+    project_authorization_status VARCHAR NOT NULL,
+    institutional_ethics_status VARCHAR NOT NULL,
+    allowed_use VARCHAR NOT NULL,
+    redistribution_status VARCHAR NOT NULL,
+    scope_json VARCHAR NOT NULL,
+    source_thread_id VARCHAR NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS acquisition_runs (
+    run_id VARCHAR PRIMARY KEY,
+    batch_id VARCHAR NOT NULL REFERENCES collection_batches(batch_id),
+    authorization_id VARCHAR NOT NULL REFERENCES acquisition_authorizations(authorization_id),
+    started_at TIMESTAMPTZ NOT NULL,
+    finished_at TIMESTAMPTZ,
+    phase VARCHAR NOT NULL,
+    script_version VARCHAR NOT NULL,
+    command_line VARCHAR NOT NULL,
+    input_manifest_path VARCHAR NOT NULL,
+    input_manifest_sha256 VARCHAR NOT NULL,
+    output_database_path VARCHAR NOT NULL,
+    status VARCHAR NOT NULL,
+    attempted_count INTEGER NOT NULL,
+    successful_download_count INTEGER NOT NULL,
+    successful_extraction_count INTEGER NOT NULL,
+    failure_count INTEGER NOT NULL,
+    result_json VARCHAR NOT NULL
+);
+
+CREATE TABLE IF NOT EXISTS acquisition_object_statuses (
+    batch_id VARCHAR NOT NULL REFERENCES collection_batches(batch_id),
+    content_object_id VARCHAR NOT NULL REFERENCES content_objects(content_object_id),
+    fetch_id VARCHAR NOT NULL REFERENCES content_fetches(fetch_id),
+    content_version_id VARCHAR REFERENCES content_versions(content_version_id),
+    object_kind VARCHAR NOT NULL,
+    declared_mime_type VARCHAR,
+    actual_mime_type VARCHAR,
+    actual_format VARCHAR,
+    attempt_count INTEGER NOT NULL,
+    redirected BOOLEAN NOT NULL,
+    download_status VARCHAR NOT NULL,
+    validation_status VARCHAR NOT NULL,
+    extraction_status VARCHAR NOT NULL,
+    extraction_reason VARCHAR NOT NULL,
+    byte_size BIGINT,
+    content_sha256 VARCHAR,
+    raw_path VARCHAR,
+    segment_count INTEGER NOT NULL,
+    checkpoint_path VARCHAR NOT NULL,
+    updated_at TIMESTAMPTZ NOT NULL,
+    PRIMARY KEY (batch_id, content_object_id)
+);
+
+CREATE TABLE IF NOT EXISTS acquisition_events (
+    event_id VARCHAR PRIMARY KEY,
+    run_id VARCHAR NOT NULL REFERENCES acquisition_runs(run_id),
+    content_object_id VARCHAR NOT NULL REFERENCES content_objects(content_object_id),
+    event_at TIMESTAMPTZ NOT NULL,
+    stage VARCHAR NOT NULL,
+    outcome VARCHAR NOT NULL,
+    details_json VARCHAR NOT NULL
 );
 """
 
@@ -3183,6 +3259,1603 @@ def run_report(config: dict[str, Any]) -> dict[str, Any]:
     return result
 
 
+ACQUISITION_SCRIPT_VERSION = "govuk_content_acquisition_v1"
+EXTRACTOR_VERSION = "govuk_source_text_extractor_v1"
+PDF_EXTRACTION_LOCK = threading.Lock()
+
+
+def _normalise_space(value: str) -> str:
+    return re.sub(r"\s+", " ", value).strip()
+
+
+def _url_extension(url: str) -> str:
+    suffix = Path(urllib.parse.urlsplit(url).path).suffix.lower()
+    return suffix if re.fullmatch(r"\.[a-z0-9]{1,8}", suffix) else ""
+
+
+def _detect_content_format(
+    body: bytes, mime_type: str, declared_mime_type: str, final_url: str
+) -> str:
+    prefix = body[:4096].lstrip().lower()
+    mime = mime_type.lower().split(";", 1)[0].strip()
+    declared = declared_mime_type.lower().split(";", 1)[0].strip()
+    extension = _url_extension(final_url)
+    if body.startswith(b"%PDF-"):
+        return "pdf"
+    if body.startswith(b"\x89PNG\r\n\x1a\n"):
+        return "png"
+    if body.startswith((b"\xff\xd8\xff", b"II*\x00", b"MM\x00*")):
+        return "image"
+    if prefix.startswith((b"<!doctype html", b"<html", b"<main")) or b"<html" in prefix:
+        return "html"
+    if zipfile.is_zipfile(io.BytesIO(body)):
+        try:
+            with zipfile.ZipFile(io.BytesIO(body)) as archive:
+                names = set(archive.namelist())
+                if "word/document.xml" in names:
+                    return "docx"
+                if any(name.startswith("ppt/slides/slide") for name in names):
+                    return "pptx"
+                if "content.xml" in names:
+                    package_mime = ""
+                    if "mimetype" in names:
+                        package_mime = archive.read("mimetype").decode("ascii", "ignore")
+                    if "spreadsheet" in package_mime or "spreadsheet" in declared:
+                        return "ods"
+                    if "text" in package_mime or "opendocument.text" in declared:
+                        return "odt"
+        except (OSError, zipfile.BadZipFile):
+            pass
+        return "zip"
+    if body.startswith(b"\xd0\xcf\x11\xe0\xa1\xb1\x1a\xe1"):
+        if extension == ".xls" or "excel" in declared or "spreadsheet" in declared:
+            return "xls"
+        return "ole"
+    if extension in {".csv", ".tsv"} or mime in {"text/csv", "text/tab-separated-values"}:
+        return "csv"
+    if extension in {".txt", ".md"} or mime.startswith("text/plain"):
+        return "text"
+    if extension in {".htm", ".html", ".aspx", ".php"} or mime == "text/html":
+        return "html"
+    return "binary"
+
+
+def _format_extension(content_format: str, final_url: str) -> str:
+    preferred = {
+        "pdf": ".pdf",
+        "html": ".html",
+        "docx": ".docx",
+        "pptx": ".pptx",
+        "odt": ".odt",
+        "ods": ".ods",
+        "csv": ".csv",
+        "text": ".txt",
+        "xls": ".xls",
+        "zip": ".zip",
+        "png": ".png",
+        "image": _url_extension(final_url) or ".img",
+        "ole": _url_extension(final_url) or ".ole",
+        "binary": _url_extension(final_url) or ".bin",
+    }
+    return preferred[content_format]
+
+
+def _declared_format_family(value: str) -> str:
+    lowered = value.lower()
+    if not lowered or lowered == "application/octet-stream":
+        return ""
+    if "pdf" in lowered:
+        return "pdf"
+    if "html" in lowered:
+        return "html"
+    if "opendocument.text" in lowered:
+        return "odt"
+    if "opendocument.spreadsheet" in lowered:
+        return "ods"
+    if "presentation" in lowered or "powerpoint" in lowered:
+        return "pptx"
+    if "spreadsheetml" in lowered:
+        return "xlsx"
+    if "excel" in lowered:
+        return "xls"
+    if "csv" in lowered:
+        return "csv"
+    if lowered.startswith("image/"):
+        return "image"
+    if lowered.startswith("text/"):
+        return "text"
+    if "zip" in lowered:
+        return "zip"
+    return ""
+
+
+def _validation_status(declared_mime: str, actual_format: str) -> str:
+    declared_family = _declared_format_family(declared_mime)
+    actual_family = "image" if actual_format in {"png", "image"} else actual_format
+    compatible = {
+        ("text", "csv"),
+        ("text", "html"),
+        ("xlsx", "zip"),
+        ("xls", "ole"),
+    }
+    if declared_family and declared_family != actual_family and (
+        declared_family,
+        actual_family,
+    ) not in compatible:
+        return "mime_mismatch"
+    return "validated"
+
+
+def _validate_acquisition_download(
+    result: HttpResult, object_kind: str, declared_mime: str, actual_format: str
+) -> tuple[str, str]:
+    if result.status_code == 403:
+        return "access_denied", result.error or "HTTP 403"
+    if result.status_code == 404:
+        return "not_found", result.error or "HTTP 404"
+    if result.status_code == 429:
+        return "rate_limited", result.error or "HTTP 429"
+    if not 200 <= result.status_code < 300:
+        return "failed_http", result.error or f"HTTP {result.status_code}"
+    if not result.body:
+        return "empty_response", "2xx response had no content bytes"
+    # Error banners can be rendered late in large client-side HTML documents,
+    # so validate the full saved response rather than only an initial prefix.
+    lowered = result.body.lower()
+    error_markers = [
+        b"<title>access denied",
+        b"<title>forbidden",
+        b"the requested page could not be found",
+        b"error 404",
+        b"404 - page not found",
+        b"sorry, we can't find the page you're looking for",
+        b"request blocked",
+    ]
+    if actual_format == "html" and any(marker in lowered for marker in error_markers):
+        return "error_page", "2xx HTML response resembled an access/error page"
+    if "pdf" in declared_mime.lower() and actual_format != "pdf":
+        return "mime_mismatch", "declared PDF did not have a PDF signature"
+    if object_kind == "webpage" and actual_format != "html":
+        return "mime_mismatch", "landing page response was not HTML"
+    return "success", ""
+
+
+def _decode_text(body: bytes) -> str:
+    for encoding in ("utf-8-sig", "utf-8", "windows-1252", "latin-1"):
+        try:
+            return body.decode(encoding)
+        except UnicodeDecodeError:
+            continue
+    return body.decode("utf-8", "replace")
+
+
+def _extract_html(body: bytes) -> list[dict[str, Any]]:
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(body, "html.parser")
+    for element in soup.select(
+        "nav, footer, script, style, noscript, template, dialog, "
+        ".gem-c-cookie-banner, .govuk-cookie-banner, [aria-label='Cookie banner']"
+    ):
+        element.decompose()
+    main = soup.find("main") or soup.find(attrs={"role": "main"}) or soup.find("article")
+    if main is None:
+        main = soup.find(id="content") or soup.find(id="main")
+    if main is None:
+        refresh = soup.find(
+            "meta",
+            attrs={"http-equiv": lambda value: value and value.lower() == "refresh"},
+        )
+        if refresh is not None:
+            main = soup.body
+    if main is None:
+        raise ValueError("main_content_not_found")
+    segments: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    title = _normalise_space(soup.title.get_text(" ", strip=True)) if soup.title else ""
+    if title:
+        seen.add(title)
+        segments.append(
+            {"segment_kind": "paragraph", "text": title, "locator": "html:title", "heading": title}
+        )
+    current_heading = title or None
+    counters: Counter[str] = Counter()
+    for element in main.find_all(["h1", "h2", "h3", "h4", "h5", "h6", "p", "li", "blockquote"]):
+        if element.find_parent(["nav", "footer", "aside"]):
+            continue
+        text = _normalise_space(element.get_text(" ", strip=True))
+        if not text or text in seen:
+            continue
+        seen.add(text)
+        tag = element.name.lower()
+        counters[tag] += 1
+        if tag.startswith("h"):
+            current_heading = text
+        segments.append(
+            {
+                "segment_kind": "quoted_block" if tag == "blockquote" else "paragraph",
+                "text": text,
+                "locator": f"main:{tag}[{counters[tag]}]",
+                "heading": current_heading,
+            }
+        )
+    if not segments:
+        raise ValueError("main_content_empty")
+    return segments
+
+
+def _extract_pdf(body: bytes) -> list[dict[str, Any]]:
+    import pypdfium2 as pdfium
+
+    segments: list[dict[str, Any]] = []
+    # PDFium is fast but its native document lifecycle is not safe to exercise
+    # concurrently from this process. Downloads remain concurrent; page-text
+    # extraction is deliberately serialized.
+    with PDF_EXTRACTION_LOCK:
+        pdf = pdfium.PdfDocument(body)
+        try:
+            for page_index in range(len(pdf)):
+                page = pdf[page_index]
+                text_page = page.get_textpage()
+                try:
+                    text = text_page.get_text_range() or ""
+                finally:
+                    text_page.close()
+                    page.close()
+                block_number = 0
+                for line in text.splitlines():
+                    value = _normalise_space(line)
+                    if not value:
+                        continue
+                    block_number += 1
+                    segments.append(
+                        {
+                            "segment_kind": "unknown",
+                            "text": value,
+                            "locator": f"page={page_index + 1};block={block_number}",
+                            "heading": None,
+                        }
+                    )
+        finally:
+            pdf.close()
+    return segments
+
+
+def _xml_text(element: ET.Element) -> str:
+    return _normalise_space(" ".join(value for value in element.itertext() if value))
+
+
+def _extract_office_zip(body: bytes, content_format: str) -> list[dict[str, Any]]:
+    segments: list[dict[str, Any]] = []
+    with zipfile.ZipFile(io.BytesIO(body)) as archive:
+        if content_format == "docx":
+            root = ET.fromstring(archive.read("word/document.xml"))
+            for index, element in enumerate(root.findall(".//{*}p"), start=1):
+                text = _xml_text(element)
+                if text:
+                    segments.append({"segment_kind": "paragraph", "text": text, "locator": f"paragraph={index}", "heading": None})
+        elif content_format == "pptx":
+            slide_names = sorted(
+                (name for name in archive.namelist() if re.fullmatch(r"ppt/slides/slide\d+\.xml", name)),
+                key=lambda value: int(re.search(r"(\d+)", Path(value).stem).group(1)),
+            )
+            for slide_number, name in enumerate(slide_names, start=1):
+                root = ET.fromstring(archive.read(name))
+                for block_number, element in enumerate(root.findall(".//{*}p"), start=1):
+                    text = _xml_text(element)
+                    if text:
+                        segments.append({"segment_kind": "unknown", "text": text, "locator": f"slide={slide_number};block={block_number}", "heading": None})
+        else:
+            root = ET.fromstring(archive.read("content.xml"))
+            if content_format == "odt":
+                elements = root.findall(".//{*}h") + root.findall(".//{*}p")
+                for index, element in enumerate(elements, start=1):
+                    text = _xml_text(element)
+                    if text:
+                        segments.append({"segment_kind": "paragraph", "text": text, "locator": f"block={index}", "heading": None})
+            else:
+                for row_number, row in enumerate(root.findall(".//{*}table-row"), start=1):
+                    cells = [_xml_text(cell) for cell in row.findall("./{*}table-cell")]
+                    text = _normalise_space(" | ".join(value for value in cells if value))
+                    if text:
+                        segments.append({"segment_kind": "unknown", "text": text, "locator": f"row={row_number}", "heading": None})
+    return segments
+
+
+def _extract_csv(body: bytes) -> list[dict[str, Any]]:
+    text = _decode_text(body)
+    dialect = csv.excel_tab if "\t" in text[:4096] and "," not in text[:4096] else csv.excel
+    output = []
+    for row_number, row in enumerate(csv.reader(io.StringIO(text), dialect=dialect), start=1):
+        value = _normalise_space(" | ".join(row))
+        if value:
+            output.append({"segment_kind": "unknown", "text": value, "locator": f"row={row_number}", "heading": None})
+    return output
+
+
+def _extract_source_text(body: bytes, content_format: str) -> tuple[str, str, list[dict[str, Any]]]:
+    try:
+        if content_format == "html":
+            segments = _extract_html(body)
+        elif content_format == "pdf":
+            segments = _extract_pdf(body)
+            if not segments:
+                return "needs_ocr", "PDF contained no readable text; OCR was not attempted", []
+        elif content_format in {"docx", "pptx", "odt", "ods"}:
+            segments = _extract_office_zip(body, content_format)
+        elif content_format == "csv":
+            segments = _extract_csv(body)
+        elif content_format == "text":
+            segments = [
+                {"segment_kind": "paragraph", "text": value, "locator": f"line={index}", "heading": None}
+                for index, line in enumerate(_decode_text(body).splitlines(), start=1)
+                if (value := _normalise_space(line))
+            ]
+        elif content_format in {"png", "image"}:
+            return "needs_ocr", "Image content requires OCR; OCR was not attempted", []
+        else:
+            return "unsupported_format", f"No extractor for detected format {content_format}", []
+        if not segments:
+            return "extraction_failed", "Extractor returned no non-empty text blocks", []
+        return "success", "source text extracted without semantic cleaning", segments
+    except Exception as exc:  # per-object failures must not stop the batch
+        return "extraction_failed", f"{type(exc).__name__}: {exc}", []
+
+
+def _acquisition_paths(config: dict[str, Any]) -> tuple[Path, Path, Path]:
+    root = resolve_path(config["paths"]["work_package"])
+    database = resolve_path(config["paths"]["database"])
+    manifest = resolve_path(config["paths"]["frozen_manifest"])
+    return root, database, manifest
+
+
+def _initialise_acquisition_workspace(config: dict[str, Any]) -> dict[str, Any]:
+    root, database, manifest = _acquisition_paths(config)
+    root.mkdir(parents=True, exist_ok=True)
+    source_database = resolve_path(config["paths"]["source_database"])
+    source_sha = sha256_file(source_database)
+    expected_sha = str(config["source_database_sha256"])
+    if source_sha != expected_sha:
+        raise RuntimeError(
+            f"05 source database hash changed: expected {expected_sha}, observed {source_sha}"
+        )
+    if sha256_file(manifest) != str(config["frozen_manifest_sha256"]):
+        raise RuntimeError("Frozen enumeration manifest hash changed")
+    if not database.exists():
+        database.parent.mkdir(parents=True, exist_ok=True)
+        temporary = database.with_suffix(database.suffix + ".tmp")
+        shutil.copy2(source_database, temporary)
+        os.replace(temporary, database)
+    authorization = config["authorization"]
+    recorded_at = datetime.fromisoformat(str(authorization["recorded_at"]).replace("Z", "+00:00"))
+    authorization_id = stable_id(
+        "auth", str(authorization["recorded_at"]), str(authorization["authorization_text"])
+    )
+    batch_id = str(config["acquisition_batch_id"])
+    with duckdb.connect(str(database)) as connection:
+        connection.execute(ACQUISITION_AUDIT_SQL)
+        connection.execute(
+            """
+            UPDATE acquisition_runs
+            SET status = 'interrupted_abnormally',
+                finished_at = COALESCE(finished_at, current_timestamp),
+                result_json = CASE
+                    WHEN result_json = '{}' THEN '{"reason":"process ended before run finalization"}'
+                    ELSE result_json
+                END
+            WHERE status = 'running'
+            """
+        )
+        source_row = connection.execute(
+            "SELECT source_id FROM collection_batches WHERE batch_id = ?",
+            [config["frozen_batch_id"]],
+        ).fetchone()
+        if source_row is None:
+            raise RuntimeError("Frozen enumeration batch is absent from the 05 source database")
+        connection.execute(
+            """
+            INSERT INTO collection_batches (
+                batch_id, source_id, accessed_at, query_url, query_conditions_json,
+                window_start, window_end, date_filter_field, pagination_json,
+                reported_total, returned_count, completeness_status, completeness_reason,
+                search_snapshot_path, search_snapshot_sha256, metadata_snapshot_path,
+                metadata_snapshot_sha256, research_sample
+            ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (batch_id) DO NOTHING
+            """,
+            [
+                batch_id,
+                source_row[0],
+                recorded_at,
+                str(config["paths"]["frozen_manifest"]),
+                canonical_json({
+                    "mode": "content_acquisition_from_frozen_manifest",
+                    "frozen_batch_id": config["frozen_batch_id"],
+                    "content_objects": int(config["expected_counts"]["content_objects"]),
+                }),
+                config["scope"]["start_date"],
+                config["scope"]["end_date"],
+                "frozen_manifest_no_reenumeration",
+                canonical_json({"resume": "per-object atomic checkpoint", "workers": config["http"]["workers"]}),
+                int(config["expected_counts"]["content_objects"]),
+                0,
+                "acquisition_running",
+                "Current accessible versions are being attempted from the frozen 3,025-object list.",
+                str(config["paths"]["frozen_manifest"]),
+                str(config["frozen_manifest_sha256"]),
+                str(config["paths"]["frozen_manifest"]),
+                str(config["frozen_manifest_sha256"]),
+                True,
+            ],
+        )
+        connection.execute(
+            """
+            INSERT INTO acquisition_authorizations VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (authorization_id) DO NOTHING
+            """,
+            [
+                authorization_id,
+                recorded_at,
+                authorization["actor"],
+                authorization["authorization_text"],
+                authorization["supervisor_statement_basis"],
+                authorization["supervisor_statement_text"],
+                authorization["project_authorization_status"],
+                authorization["institutional_ethics_status"],
+                authorization["allowed_use"],
+                authorization["redistribution_status"],
+                canonical_json(authorization["scope"]),
+                authorization["source_thread_id"],
+            ],
+        )
+        extraction_run_id = stable_id("ext", batch_id, EXTRACTOR_VERSION)
+        connection.execute(
+            """
+            INSERT INTO extraction_runs VALUES (?, ?, ?, ?, ?, 0, 0, ?, ?)
+            ON CONFLICT (extraction_run_id) DO NOTHING
+            """,
+            [
+                extraction_run_id,
+                batch_id,
+                EXTRACTOR_VERSION,
+                recorded_at,
+                recorded_at,
+                "running",
+                "Source extraction only; no semantic cleaning, vectorisation or analysis.",
+            ],
+        )
+    write_json_atomic(
+        root / "authorization_record.json",
+        {
+            "authorization_id": authorization_id,
+            **{
+                key: value.isoformat() if isinstance(value, datetime) else value
+                for key, value in authorization.items()
+            },
+            "recording_note": (
+                "Project collection authorization and institutional ethics status are separate. "
+                "The supervisor statement is Dai's report and is not recorded as UQ HREC approval or exemption."
+            ),
+        },
+    )
+    return {
+        "authorization_id": authorization_id,
+        "extraction_run_id": extraction_run_id,
+        "database": database,
+        "root": root,
+        "manifest": manifest,
+    }
+
+
+def _load_acquisition_objects(database: Path) -> list[dict[str, Any]]:
+    with duckdb.connect(str(database), read_only=True) as connection:
+        cursor = connection.execute(
+            """
+            SELECT content_object_id, object_kind, external_content_id, canonical_url,
+                   declared_mime_type, declared_file_size, declared_page_count, title
+            FROM content_objects
+            ORDER BY CASE WHEN object_kind = 'webpage' THEN 0 ELSE 1 END,
+                     canonical_url, content_object_id
+            """
+        )
+        columns = [item[0] for item in cursor.description]
+        return [dict(zip(columns, row, strict=True)) for row in cursor.fetchall()]
+
+
+def _select_smoke_objects(database: Path, publication_limit: int) -> tuple[list[str], list[str]]:
+    with duckdb.connect(str(database), read_only=True) as connection:
+        documents = connection.execute(
+            """
+            SELECT d.document_id
+            FROM documents d
+            JOIN document_content_objects x USING (document_id)
+            JOIN content_objects c USING (content_object_id)
+            GROUP BY d.document_id, d.publication_date
+            HAVING COUNT(*) FILTER (WHERE x.relationship_type = 'attachment') = 1
+               AND COUNT(*) FILTER (
+                   WHERE x.relationship_type = 'attachment'
+                     AND lower(COALESCE(c.declared_mime_type, '')) LIKE '%pdf%'
+                     AND COALESCE(c.declared_file_size, 0) BETWEEN 1000 AND 10000000
+               ) = 1
+            ORDER BY d.publication_date DESC, d.document_id
+            LIMIT ?
+            """,
+            [publication_limit],
+        ).fetchall()
+        document_ids = [row[0] for row in documents]
+        if not document_ids:
+            raise RuntimeError("No frozen publication with a webpage and manageable PDF was found")
+        placeholders = ",".join("?" for _ in document_ids)
+        object_ids = [
+            row[0]
+            for row in connection.execute(
+                f"""
+                SELECT DISTINCT x.content_object_id
+                FROM document_content_objects x
+                JOIN content_objects c USING (content_object_id)
+                WHERE x.document_id IN ({placeholders})
+                ORDER BY x.content_object_id
+                """,
+                document_ids,
+            ).fetchall()
+        ]
+    return document_ids, object_ids
+
+
+def _checkpoint_payload_is_valid(payload: dict[str, Any]) -> bool:
+    if payload.get("download_status") not in {"success", "error_page"} or not payload.get(
+        "raw_path"
+    ):
+        return False
+    raw_path = resolve_path(str(payload["raw_path"]))
+    return raw_path.is_file() and sha256_file(raw_path) == payload.get("content_sha256")
+
+
+def _acquire_one_object(
+    content_object: dict[str, Any],
+    config: dict[str, Any],
+    client: HttpClient,
+    checkpoint_root: Path,
+    raw_root: Path,
+    *,
+    force_network: bool = False,
+    request_url_override: str | None = None,
+    retry_metadata: dict[str, Any] | None = None,
+) -> dict[str, Any]:
+    object_id = str(content_object["content_object_id"])
+    checkpoint_path = checkpoint_root / f"{object_id}.json"
+    body: bytes | None = None
+    checkpoint: dict[str, Any] | None = None
+    if checkpoint_path.exists() and not force_network:
+        try:
+            loaded = json.loads(checkpoint_path.read_text(encoding="utf-8"))
+            if isinstance(loaded, dict) and _checkpoint_payload_is_valid(loaded):
+                checkpoint = loaded
+                body = resolve_path(str(loaded["raw_path"])).read_bytes()
+        except (OSError, json.JSONDecodeError):
+            checkpoint = None
+    if checkpoint is not None and body is not None:
+        saved_result = HttpResult(
+            request_url=str(checkpoint["request_url"]),
+            final_url=str(checkpoint["final_url"]),
+            retrieved_at=str(checkpoint["retrieved_at"]),
+            status_code=int(checkpoint["status_code"]),
+            mime_type=str(checkpoint.get("actual_mime_type") or ""),
+            body=body,
+            headers={},
+            attempts=int(checkpoint.get("attempt_count") or 0),
+        )
+        download_status, failure_reason = _validate_acquisition_download(
+            saved_result,
+            str(content_object["object_kind"]),
+            str(content_object.get("declared_mime_type") or ""),
+            str(checkpoint["actual_format"]),
+        )
+        checkpoint["download_status"] = download_status
+        checkpoint["failure_reason"] = failure_reason
+        checkpoint["validation_status"] = (
+            "error_page"
+            if download_status == "error_page"
+            else _validation_status(
+                str(content_object.get("declared_mime_type") or ""),
+                str(checkpoint["actual_format"]),
+            )
+        )
+        if download_status not in {"success", "error_page"}:
+            checkpoint.pop("content_version_id", None)
+            checkpoint["byte_size"] = 0
+            checkpoint["content_sha256"] = ""
+            checkpoint["raw_path"] = ""
+            body = None
+            write_json_atomic(checkpoint_path, checkpoint)
+    if checkpoint is None:
+        canonical_url = str(content_object["canonical_url"])
+        request_url = request_url_override or urllib.parse.urljoin(
+            str(config.get("source_base_url", "https://www.gov.uk")), canonical_url
+        )
+        try:
+            result = client.get(request_url)
+        except Exception as exc:  # malformed/unsupported URLs are per-object failures
+            result = HttpResult(
+                request_url=request_url,
+                final_url=request_url,
+                retrieved_at=utc_now(),
+                status_code=0,
+                mime_type="",
+                body=b"",
+                headers={},
+                attempts=0,
+                error=f"{type(exc).__name__}: {exc}",
+            )
+        actual_format = _detect_content_format(
+            result.body,
+            result.mime_type,
+            str(content_object.get("declared_mime_type") or ""),
+            result.final_url,
+        )
+        download_status, failure_reason = _validate_acquisition_download(
+            result,
+            str(content_object["object_kind"]),
+            str(content_object.get("declared_mime_type") or ""),
+            actual_format,
+        )
+        validation_status = (
+            "error_page"
+            if download_status == "error_page"
+            else _validation_status(
+                str(content_object.get("declared_mime_type") or ""), actual_format
+            )
+        )
+        checkpoint = {
+            "content_object_id": object_id,
+            "object_kind": content_object["object_kind"],
+            "request_url": request_url,
+            "final_url": result.final_url,
+            "retrieved_at": result.retrieved_at,
+            "status_code": result.status_code,
+            "actual_mime_type": result.mime_type,
+            "declared_mime_type": content_object.get("declared_mime_type") or "",
+            "actual_format": actual_format,
+            "attempt_count": result.attempts,
+            "redirected": result.final_url != request_url,
+            "download_status": download_status,
+            "validation_status": validation_status,
+            "failure_reason": failure_reason,
+            "byte_size": 0,
+            "content_sha256": "",
+            "raw_path": "",
+            "checkpoint_path": relative_path(checkpoint_path),
+            "canonical_url": canonical_url,
+            "retry_metadata": retry_metadata or {},
+        }
+        if download_status in {"success", "error_page"}:
+            content_sha = sha256_bytes(result.body)
+            version_id = stable_id("cntv", object_id, content_sha)
+            extension = _format_extension(actual_format, result.final_url)
+            raw_path = raw_root / object_id / f"{version_id}{extension}"
+            raw_path.parent.mkdir(parents=True, exist_ok=True)
+            if not raw_path.exists() or sha256_file(raw_path) != content_sha:
+                temporary = raw_path.with_suffix(raw_path.suffix + ".tmp")
+                temporary.write_bytes(result.body)
+                os.replace(temporary, raw_path)
+            if sha256_file(raw_path) != content_sha:
+                raise RuntimeError(f"Atomic storage hash mismatch for {object_id}")
+            checkpoint.update(
+                {
+                    "content_version_id": version_id,
+                    "byte_size": len(result.body),
+                    "content_sha256": content_sha,
+                    "raw_path": relative_path(raw_path),
+                }
+            )
+            body = result.body
+        write_json_atomic(checkpoint_path, checkpoint)
+    if checkpoint["download_status"] == "error_page":
+        extraction_status = "error_page"
+        extraction_reason = str(checkpoint.get("failure_reason") or "HTTP error page")
+        segments = []
+    elif checkpoint["download_status"] == "success" and body is not None:
+        extraction_status, extraction_reason, segments = _extract_source_text(
+            body, str(checkpoint["actual_format"])
+        )
+    else:
+        extraction_status = "not_attempted_download_failed"
+        extraction_reason = str(checkpoint.get("failure_reason") or "download failed")
+        segments = []
+    return {
+        **checkpoint,
+        "extraction_status": extraction_status,
+        "extraction_reason": extraction_reason,
+        "segments": segments,
+    }
+
+
+def _persist_acquisition_result(
+    connection: duckdb.DuckDBPyConnection,
+    config: dict[str, Any],
+    run_id: str,
+    extraction_run_id: str,
+    result: dict[str, Any],
+) -> None:
+    batch_id = str(config["acquisition_batch_id"])
+    object_id = str(result["content_object_id"])
+    # The schema keeps one current fetch row per batch/object. Immutable attempt
+    # and address history is recorded in acquisition_events, while any saved byte
+    # versions remain immutable in content_versions.
+    fetch_id = stable_id("fet", batch_id, object_id)
+    retrieved_at = datetime.fromisoformat(str(result["retrieved_at"]).replace("Z", "+00:00"))
+    content_version_id = result.get("content_version_id") or None
+    # DuckDB's current foreign-key implementation cannot replace a referenced
+    # primary-key row inside the same transaction.  Remove only the replaceable
+    # latest-state edge and its replaceable current fetch. Immutable byte versions
+    # and acquisition-event history remain in place.
+    connection.execute(
+        "DELETE FROM acquisition_object_statuses WHERE batch_id = ? AND content_object_id = ?",
+        [batch_id, object_id],
+    )
+    connection.execute("DELETE FROM content_fetches WHERE fetch_id = ?", [fetch_id])
+    connection.execute("BEGIN TRANSACTION")
+    try:
+        if content_version_id:
+            connection.execute(
+                """
+                INSERT INTO content_versions VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT (content_object_id, content_sha256) DO NOTHING
+                """,
+                [
+                    content_version_id,
+                    object_id,
+                    result["content_sha256"],
+                    result["final_url"],
+                    retrieved_at,
+                    int(result["status_code"]),
+                    result["actual_mime_type"] or "application/octet-stream",
+                    int(result["byte_size"]),
+                    result["raw_path"],
+                    result["content_sha256"],
+                    fetch_id,
+                    "saved" if result["download_status"] == "error_page" else "verified",
+                ],
+            )
+        connection.execute(
+            """
+            INSERT INTO content_fetches VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """,
+            [
+                fetch_id,
+                batch_id,
+                object_id,
+                content_version_id,
+                result["request_url"],
+                result.get("final_url") or None,
+                retrieved_at,
+                int(result["status_code"]) if result.get("status_code") else None,
+                result.get("actual_mime_type") or None,
+                result.get("content_sha256") or None,
+                result.get("raw_path") or None,
+                ACQUISITION_SCRIPT_VERSION,
+                result["download_status"],
+                result["extraction_status"],
+                "internal_only_not_cleared_for_redistribution",
+                result.get("failure_reason") or "",
+            ],
+        )
+        if content_version_id:
+            connection.execute(
+                "DELETE FROM text_segments WHERE content_version_id = ? AND extraction_run_id = ?",
+                [content_version_id, extraction_run_id],
+            )
+            segment_rows = []
+            for index, segment in enumerate(result["segments"]):
+                text = str(segment["text"])
+                text_sha = sha256_bytes(text.encode("utf-8"))
+                segment_id = stable_id(
+                    "seg", content_version_id, extraction_run_id, str(index), text_sha
+                )
+                segment_rows.append(
+                    {
+                        "segment_id": segment_id,
+                        "content_version_id": content_version_id,
+                        "extraction_run_id": extraction_run_id,
+                        "parent_segment_id": None,
+                        "representation_kind": "source_extracted",
+                        "segment_kind": segment["segment_kind"],
+                        "segment_order": index,
+                        "heading": segment.get("heading"),
+                        "segment_text": text,
+                        "locator": segment["locator"],
+                        "start_char": None,
+                        "end_char": None,
+                        "text_sha256": text_sha,
+                        "permission_status": (
+                            "project_authorized_internal_use_institutional_ethics_not_asserted"
+                        ),
+                        "research_sample": True,
+                        "created_at": retrieved_at,
+                    }
+                )
+            if segment_rows:
+                import pyarrow as pa
+
+                segment_batch = pa.Table.from_pylist(segment_rows)
+                connection.register("_acquisition_segment_batch", segment_batch)
+                try:
+                    connection.execute(
+                        """
+                        INSERT INTO text_segments (
+                            segment_id, content_version_id, extraction_run_id,
+                            parent_segment_id, representation_kind, segment_kind,
+                            segment_order, heading, segment_text, locator, start_char,
+                            end_char, text_sha256, permission_status, research_sample,
+                            created_at
+                        )
+                        SELECT segment_id, content_version_id, extraction_run_id,
+                               CAST(parent_segment_id AS VARCHAR), representation_kind,
+                               segment_kind, segment_order, heading, segment_text, locator,
+                               CAST(start_char AS INTEGER), CAST(end_char AS INTEGER),
+                               text_sha256, permission_status, research_sample, created_at
+                        FROM _acquisition_segment_batch
+                        """
+                    )
+                finally:
+                    connection.unregister("_acquisition_segment_batch")
+        connection.execute(
+            """
+            INSERT INTO acquisition_object_statuses VALUES (
+                ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?
+            ) ON CONFLICT (batch_id, content_object_id) DO UPDATE SET
+                fetch_id = excluded.fetch_id,
+                content_version_id = excluded.content_version_id,
+                actual_mime_type = excluded.actual_mime_type,
+                actual_format = excluded.actual_format,
+                attempt_count = excluded.attempt_count,
+                redirected = excluded.redirected,
+                download_status = excluded.download_status,
+                validation_status = excluded.validation_status,
+                extraction_status = excluded.extraction_status,
+                extraction_reason = excluded.extraction_reason,
+                byte_size = excluded.byte_size,
+                content_sha256 = excluded.content_sha256,
+                raw_path = excluded.raw_path,
+                segment_count = excluded.segment_count,
+                checkpoint_path = excluded.checkpoint_path,
+                updated_at = excluded.updated_at
+            """,
+            [
+                batch_id,
+                object_id,
+                fetch_id,
+                content_version_id,
+                result["object_kind"],
+                result.get("declared_mime_type") or None,
+                result.get("actual_mime_type") or None,
+                result.get("actual_format") or None,
+                int(result.get("attempt_count") or 0),
+                bool(result.get("redirected")),
+                result["download_status"],
+                result["validation_status"],
+                result["extraction_status"],
+                result["extraction_reason"],
+                int(result.get("byte_size") or 0) or None,
+                result.get("content_sha256") or None,
+                result.get("raw_path") or None,
+                len(result["segments"]),
+                result["checkpoint_path"],
+                retrieved_at,
+            ],
+        )
+        connection.execute(
+            "UPDATE content_objects SET acquisition_status = ? WHERE content_object_id = ?",
+            [
+                result["extraction_status"]
+                if result["download_status"] == "success"
+                else result["download_status"],
+                object_id,
+            ],
+        )
+        event_id = stable_id("evt", run_id, object_id, str(result["retrieved_at"]))
+        connection.execute(
+            """
+            INSERT INTO acquisition_events VALUES (?, ?, ?, ?, ?, ?, ?)
+            ON CONFLICT (event_id) DO NOTHING
+            """,
+            [
+                event_id,
+                run_id,
+                object_id,
+                retrieved_at,
+                "download_and_extract",
+                result["download_status"],
+                canonical_json(
+                    {
+                        "request_url": result["request_url"],
+                        "final_url": result.get("final_url"),
+                        "status_code": result.get("status_code"),
+                        "attempt_count": result.get("attempt_count"),
+                        "validation_status": result["validation_status"],
+                        "extraction_status": result["extraction_status"],
+                        "segment_count": len(result["segments"]),
+                        "canonical_url": result.get("canonical_url"),
+                        "retry_metadata": result.get("retry_metadata") or {},
+                    }
+                ),
+            ],
+        )
+        connection.execute("COMMIT")
+    except Exception:
+        connection.execute("ROLLBACK")
+        raise
+
+
+def _phase_counts(connection: duckdb.DuckDBPyConnection, batch_id: str) -> dict[str, int]:
+    row = connection.execute(
+        """
+        SELECT COUNT(*),
+               COUNT(*) FILTER (WHERE download_status = 'success'),
+               COUNT(*) FILTER (WHERE extraction_status = 'success'),
+               COUNT(*) FILTER (WHERE download_status <> 'success'),
+               COALESCE(SUM(segment_count), 0),
+               COUNT(*) FILTER (WHERE extraction_status = 'needs_ocr'),
+               COUNT(*) FILTER (WHERE extraction_status = 'unsupported_format')
+        FROM acquisition_object_statuses WHERE batch_id = ?
+        """,
+        [batch_id],
+    ).fetchone()
+    keys = ["attempted", "downloaded", "extracted", "failed", "segments", "needs_ocr", "unsupported"]
+    return dict(zip(keys, (int(value) for value in row), strict=True))
+
+
+def _run_acquisition_phase(
+    config: dict[str, Any],
+    context: dict[str, Any],
+    objects: list[dict[str, Any]],
+    phase: str,
+    *,
+    retry_all_selected: bool = False,
+    force_network: bool = False,
+    url_overrides: dict[str, dict[str, Any]] | None = None,
+) -> dict[str, Any]:
+    database = context["database"]
+    root = context["root"]
+    batch_id = str(config["acquisition_batch_id"])
+    started = utc_now()
+    run_id = stable_id("run", batch_id, phase, started)
+    command_line = f"{phase} --config {config['_config_path']}"
+    with duckdb.connect(str(database)) as connection:
+        connection.execute(
+            """
+            INSERT INTO acquisition_runs VALUES (
+                ?, ?, ?, ?, NULL, ?, ?, ?, ?, ?, ?, 'running', 0, 0, 0, 0, '{}'
+            )
+            """,
+            [
+                run_id,
+                batch_id,
+                context["authorization_id"],
+                datetime.fromisoformat(started.replace("Z", "+00:00")),
+                phase,
+                ACQUISITION_SCRIPT_VERSION,
+                command_line,
+                relative_path(context["manifest"]),
+                sha256_file(context["manifest"]),
+                relative_path(database),
+            ],
+        )
+        already_final = {
+            row[0]
+            for row in connection.execute(
+                """
+                SELECT content_object_id FROM acquisition_object_statuses
+                WHERE batch_id = ? AND (
+                    (download_status = 'success'
+                     AND extraction_status IN ('success','needs_ocr','unsupported_format'))
+                    OR (download_status = 'error_page' AND extraction_status = 'error_page')
+                )
+                """,
+                [batch_id],
+            ).fetchall()
+        }
+    pending_objects = (
+        objects
+        if retry_all_selected
+        else [
+            item for item in objects if str(item["content_object_id"]) not in already_final
+        ]
+    )
+    client = HttpClient(config["http"])
+    checkpoint_root = root / "checkpoints"
+    raw_root = root / "raw" / "content"
+    checkpoint_root.mkdir(parents=True, exist_ok=True)
+    raw_root.mkdir(parents=True, exist_ok=True)
+    completed = 0
+    try:
+        with duckdb.connect(str(database)) as connection:
+            with ThreadPoolExecutor(max_workers=int(config["http"]["workers"])) as executor:
+                futures = {
+                    executor.submit(
+                        _acquire_one_object,
+                        item,
+                        config,
+                        client,
+                        checkpoint_root,
+                        raw_root,
+                        force_network=force_network,
+                        request_url_override=(url_overrides or {})
+                        .get(str(item["content_object_id"]), {})
+                        .get("new_url"),
+                        retry_metadata=(url_overrides or {}).get(
+                            str(item["content_object_id"]), {}
+                        ),
+                    ): item
+                    for item in pending_objects
+                }
+                for future in as_completed(futures):
+                    result = future.result()
+                    _persist_acquisition_result(
+                        connection,
+                        config,
+                        run_id,
+                        context["extraction_run_id"],
+                        result,
+                    )
+                    completed += 1
+                    result_for_checkpoint = {key: value for key, value in result.items() if key != "segments"}
+                    result_for_checkpoint["segment_count"] = len(result["segments"])
+                    result_for_checkpoint["database_committed"] = True
+                    write_json_atomic(resolve_path(result["checkpoint_path"]), result_for_checkpoint)
+                    if completed == 1 or completed % int(config["progress_every"]) == 0 or completed == len(pending_objects):
+                        counts = _phase_counts(connection, batch_id)
+                        print(
+                            f"[{phase}] attempted={counts['attempted']}/{config['expected_counts']['content_objects']} "
+                            f"downloaded={counts['downloaded']} extracted={counts['extracted']} "
+                            f"failed={counts['failed']} segments={counts['segments']} "
+                            f"needs_ocr={counts['needs_ocr']} unsupported={counts['unsupported']}",
+                            flush=True,
+                        )
+            counts = _phase_counts(connection, batch_id)
+            finished = datetime.now(UTC)
+            connection.execute(
+                """
+                UPDATE acquisition_runs SET finished_at = ?, status = 'completed',
+                    attempted_count = ?, successful_download_count = ?,
+                    successful_extraction_count = ?, failure_count = ?, result_json = ?
+                WHERE run_id = ?
+                """,
+                [
+                    finished,
+                    completed,
+                    counts["downloaded"],
+                    counts["extracted"],
+                    counts["failed"],
+                    canonical_json(counts),
+                    run_id,
+                ],
+            )
+        return counts
+    except BaseException as exc:
+        with duckdb.connect(str(database)) as connection:
+            connection.execute(
+                "UPDATE acquisition_runs SET finished_at=?, status=?, result_json=? WHERE run_id=?",
+                [datetime.now(UTC), "interrupted", canonical_json({"error": f"{type(exc).__name__}: {exc}", "completed": completed}), run_id],
+            )
+        raise
+
+
+def _smoke_passed(database: Path, batch_id: str, object_ids: list[str]) -> dict[str, Any]:
+    placeholders = ",".join("?" for _ in object_ids)
+    with duckdb.connect(str(database), read_only=True) as connection:
+        rows = connection.execute(
+            f"""
+            SELECT object_kind, actual_format, download_status, extraction_status,
+                   raw_path, content_sha256, segment_count
+            FROM acquisition_object_statuses
+            WHERE batch_id = ? AND content_object_id IN ({placeholders})
+            """,
+            [batch_id, *object_ids],
+        ).fetchall()
+    hashes_ok = all(
+        raw_path and resolve_path(raw_path).is_file() and sha256_file(resolve_path(raw_path)) == content_sha
+        for _, _, download, _, raw_path, content_sha, _ in rows
+        if download == "success"
+    )
+    passed = (
+        len(rows) == len(object_ids)
+        and all(row[2] == "success" for row in rows)
+        and any(row[0] == "webpage" and row[3] == "success" and row[6] > 0 for row in rows)
+        and any(row[1] == "pdf" and row[3] == "success" and row[6] > 0 for row in rows)
+        and hashes_ok
+    )
+    return {"passed": passed, "target_count": len(object_ids), "observed_count": len(rows), "hashes_ok": hashes_ok}
+
+
+def _refresh_acquisition_exports(config: dict[str, Any], context: dict[str, Any]) -> dict[str, Any]:
+    root = context["root"]
+    database = context["database"]
+    batch_id = str(config["acquisition_batch_id"])
+    export_dir = root / "exports"
+    export_dir.mkdir(parents=True, exist_ok=True)
+    queries = {
+        "fetch_manifest": """
+            SELECT f.*, s.object_kind, s.declared_mime_type, s.actual_mime_type,
+                   s.actual_format, s.attempt_count, s.redirected, s.validation_status,
+                   s.extraction_status, s.extraction_reason, s.byte_size, s.segment_count,
+                   s.checkpoint_path
+            FROM content_fetches f JOIN acquisition_object_statuses s ON s.fetch_id=f.fetch_id
+            WHERE f.batch_id = ? ORDER BY s.object_kind, f.content_object_id
+        """,
+        "failure_manifest": """
+            SELECT * FROM acquisition_object_statuses
+            WHERE batch_id = ?
+              AND (download_status <> 'success' OR extraction_status <> 'success')
+            ORDER BY download_status, content_object_id
+        """,
+        "extraction_status": """
+            SELECT * FROM acquisition_object_statuses
+            WHERE batch_id = ? ORDER BY extraction_status, content_object_id
+        """,
+        "content_versions": """
+            SELECT v.* FROM content_versions v
+            WHERE v.content_object_id IN (
+                SELECT content_object_id FROM acquisition_object_statuses WHERE batch_id = ?
+            ) ORDER BY v.content_object_id, v.retrieved_at
+        """,
+        "acquisition_runs": "SELECT * FROM acquisition_runs WHERE batch_id = ? ORDER BY started_at, run_id",
+        "authorization": "SELECT * FROM acquisition_authorizations ORDER BY recorded_at, authorization_id",
+    }
+    outputs = {}
+    with duckdb.connect(str(database), read_only=True) as connection:
+        for name, query in queries.items():
+            cursor = connection.execute(query, [batch_id] if "authorizations" not in query else [])
+            columns = [item[0] for item in cursor.description]
+            rows = [dict(zip(columns, row, strict=True)) for row in cursor.fetchall()]
+            path = export_dir / f"{name}.csv"
+            write_csv_atomic(path, columns, rows)
+            outputs[name] = {"rows": len(rows), "sha256": sha256_file(path)}
+    return outputs
+
+
+def _acquisition_verification(config: dict[str, Any], context: dict[str, Any]) -> dict[str, Any]:
+    root = context["root"]
+    database = context["database"]
+    batch_id = str(config["acquisition_batch_id"])
+    expected = int(config["expected_counts"]["content_objects"])
+    with duckdb.connect(str(database), read_only=True) as connection:
+        counts = _phase_counts(connection, batch_id)
+        relation_count = _scalar_int(connection, "SELECT COUNT(*) FROM document_content_objects")
+        shared_relations = _scalar_int(
+            connection,
+            """
+            SELECT COUNT(*) FROM (
+                SELECT content_object_id FROM document_content_objects
+                WHERE relationship_type='attachment'
+                GROUP BY content_object_id HAVING COUNT(*) > 1
+            )
+            """,
+        )
+        fetch_version_missing = _scalar_int(
+            connection,
+            """
+            SELECT COUNT(*) FROM content_fetches f
+            JOIN acquisition_object_statuses s USING (batch_id, content_object_id)
+            WHERE f.batch_id=? AND f.collection_status='success'
+              AND (f.content_version_id IS NULL OR s.content_version_id IS NULL)
+            """,
+            [batch_id],
+        )
+        status_version_missing = _scalar_int(
+            connection,
+            """
+            SELECT COUNT(*) FROM acquisition_object_statuses s
+            LEFT JOIN content_versions v USING (content_version_id)
+            WHERE s.batch_id=? AND s.content_version_id IS NOT NULL
+              AND v.content_version_id IS NULL
+            """,
+            [batch_id],
+        )
+        orphan_acquisition_versions = _scalar_int(
+            connection,
+            """
+            SELECT COUNT(*) FROM content_versions v
+            LEFT JOIN content_objects o USING (content_object_id)
+            WHERE o.content_object_id IS NULL
+            """,
+        )
+        orphan_segments = _scalar_int(
+            connection,
+            """
+            SELECT COUNT(*) FROM text_segments s
+            LEFT JOIN content_versions v USING (content_version_id)
+            LEFT JOIN extraction_runs e USING (extraction_run_id)
+            WHERE v.content_version_id IS NULL OR e.extraction_run_id IS NULL
+            """,
+        )
+        local_rows = connection.execute(
+            """
+            SELECT content_object_id, raw_path, content_sha256
+            FROM acquisition_object_statuses
+            WHERE batch_id=? AND content_version_id IS NOT NULL
+            """,
+            [batch_id],
+        ).fetchall()
+        current_status_count = _scalar_int(
+            connection,
+            "SELECT COUNT(*) FROM acquisition_object_statuses WHERE batch_id=?",
+            [batch_id],
+        )
+        distinct_current_status_objects = _scalar_int(
+            connection,
+            "SELECT COUNT(DISTINCT content_object_id) FROM acquisition_object_statuses WHERE batch_id=?",
+            [batch_id],
+        )
+        missing_current_fetches = _scalar_int(
+            connection,
+            """
+            SELECT COUNT(*) FROM acquisition_object_statuses s
+            LEFT JOIN content_fetches f ON f.fetch_id=s.fetch_id
+            WHERE s.batch_id=? AND f.fetch_id IS NULL
+            """,
+            [batch_id],
+        )
+        segment_count = _scalar_int(
+            connection,
+            "SELECT COUNT(*) FROM text_segments WHERE extraction_run_id=?",
+            [context["extraction_run_id"]],
+        )
+        last_full_run = connection.execute(
+            """
+            SELECT attempted_count FROM acquisition_runs
+            WHERE batch_id=? AND phase='full' AND status='completed'
+            ORDER BY started_at DESC, run_id DESC LIMIT 1
+            """,
+            [batch_id],
+        ).fetchone()
+        last_resume_attempted = int(last_full_run[0]) if last_full_run else expected
+    bad_files = [
+        object_id
+        for object_id, raw_path, content_sha in local_rows
+        if not raw_path
+        or not resolve_path(raw_path).is_file()
+        or sha256_file(resolve_path(raw_path)) != content_sha
+    ]
+    original_hashes = {
+        "04_database": sha256_file(resolve_path(config["paths"]["frozen_database"])),
+        "04_manifest": sha256_file(context["manifest"]),
+        "05_database": sha256_file(resolve_path(config["paths"]["source_database"])),
+    }
+    checks = {
+        "all_frozen_objects_attempted": counts["attempted"] == expected,
+        "one_current_status_per_object_in_acquisition_batch": (
+            current_status_count == expected
+            and distinct_current_status_objects == expected
+        ),
+        "current_statuses_link_fetch_history": missing_current_fetches == 0,
+        "successful_files_exist_and_hash_match": not bad_files,
+        "successful_fetches_link_content_versions": fetch_version_missing == 0,
+        "saved_statuses_link_content_versions": status_version_missing == 0,
+        "historical_content_versions_link_objects": orphan_acquisition_versions == 0,
+        "segments_trace_to_version_and_extraction_run": orphan_segments == 0,
+        "segment_count_matches_status_sum": segment_count == counts["segments"],
+        "document_content_relations_preserved": relation_count == int(config["expected_counts"]["document_content_relations"]),
+        "shared_attachment_relations_preserved": shared_relations == int(config["expected_counts"]["shared_attachments"]),
+        "04_database_unchanged": original_hashes["04_database"] == config["frozen_database_sha256"],
+        "04_manifest_unchanged": original_hashes["04_manifest"] == config["frozen_manifest_sha256"],
+        "05_database_unchanged": original_hashes["05_database"] == config["source_database_sha256"],
+        "resume_skipped_completed_objects": 0 < last_resume_attempted < expected,
+    }
+    verification = {
+        "generated_at": utc_now(),
+        "passed": all(checks.values()),
+        "checks": checks,
+        "counts": counts,
+        "bad_file_content_object_ids": bad_files,
+        "original_hashes": original_hashes,
+        "last_resume_attempted_count": last_resume_attempted,
+        "scope_note": "All attempted means the frozen 3,025-object list, not all UK government policy.",
+    }
+    write_json_atomic(root / "verification.json", verification)
+    return verification
+
+
+def _write_acquisition_reports(
+    config: dict[str, Any], context: dict[str, Any], verification: dict[str, Any], exports: dict[str, Any]
+) -> None:
+    root = context["root"]
+    counts = verification["counts"]
+    with duckdb.connect(str(context["database"]), read_only=True) as connection:
+        download_statuses = connection.execute(
+            "SELECT download_status, COUNT(*) FROM acquisition_object_statuses WHERE batch_id=? GROUP BY 1 ORDER BY 1",
+            [config["acquisition_batch_id"]],
+        ).fetchall()
+        extraction_statuses = connection.execute(
+            "SELECT extraction_status, COUNT(*) FROM acquisition_object_statuses WHERE batch_id=? GROUP BY 1 ORDER BY 1",
+            [config["acquisition_batch_id"]],
+        ).fetchall()
+        webpage_success = _scalar_int(connection, "SELECT COUNT(*) FROM acquisition_object_statuses WHERE batch_id=? AND object_kind='webpage' AND download_status='success'", [config["acquisition_batch_id"]])
+        attachment_success = _scalar_int(connection, "SELECT COUNT(*) FROM acquisition_object_statuses WHERE batch_id=? AND object_kind='attachment' AND download_status='success'", [config["acquisition_batch_id"]])
+    status_table = "\n".join(f"| `{name}` | {count} |" for name, count in download_statuses)
+    extraction_table = "\n".join(f"| `{name}` | {count} |" for name, count in extraction_statuses)
+    report = f"""# Government content acquisition quality report
+
+Generated: {utc_now()}
+
+## Scope and authorization boundary
+
+This work package attempts the frozen 1,020 publication webpages and 2,005 unique
+attachments (3,025 content objects). It does not re-enumerate sources and does not
+claim coverage of all UK government policy.
+
+Dai explicitly authorized internal project downloading, storage and source-text
+extraction. The statement that the supervisor has given a green light is recorded
+as Dai's report. No UQ HREC approval, exemption or not-applicable determination is
+asserted. Raw full text is not cleared for public redistribution.
+
+## Results
+
+- Attempted: {counts['attempted']} / {config['expected_counts']['content_objects']}.
+- Webpages downloaded: {webpage_success} / {config['expected_counts']['webpages']}.
+- Attachments downloaded: {attachment_success} / {config['expected_counts']['attachments']}.
+- Download failures: {counts['failed']}.
+- Objects with successful text extraction: {counts['extracted']}.
+- Source text segments/blocks: {counts['segments']}.
+- `needs_ocr`: {counts['needs_ocr']}; `unsupported_format`: {counts['unsupported']}.
+- Recovery audit attempted only {verification['last_resume_attempted_count']} non-final objects;
+  completed objects were skipped from network retrieval.
+
+### Download states
+
+| State | Objects |
+|---|---:|
+{status_table}
+
+### Extraction states
+
+| State | Objects |
+|---|---:|
+{extraction_table}
+
+## Verification
+
+Overall: **{'PASS' if verification['passed'] else 'FAIL'}**.
+
+""" + "\n".join(
+        f"- {'PASS' if passed else 'FAIL'} — `{name}`" for name, passed in verification["checks"].items()
+    ) + "\n\nPDF locators identify page and extracted text block; blocks are not asserted to be natural paragraphs.\n"
+    (root / "data_quality_report.md").write_text(report, encoding="utf-8")
+    summary = f"""# Government content acquisition summary
+
+The frozen 3,025-object list was {'fully attempted' if counts['attempted'] == config['expected_counts']['content_objects'] else 'not fully attempted'}.
+Successful downloads: {counts['downloaded']}; successful text extractions: {counts['extracted']}.
+Failures and non-extractable records are itemised in `exports/failure_manifest.csv`
+and `exports/extraction_status.csv`. Current-access versions only are claimed;
+retrieval time is not used as publication time.
+
+## Recovery command
+
+```bash
+.venv/bin/python -m fear_temperature.government_collection acquire \\
+  --config work_packages/M1_source_access/06_government_content_acquisition/config.yaml \\
+  --resume
+```
+
+The command validates 04/05 hashes, skips hash-verified successful objects, and
+retries incomplete or failed objects. It does not re-enumerate the source.
+"""
+    (root / "README.md").write_text(summary, encoding="utf-8")
+    write_json_atomic(
+        root / "acquisition_summary.json",
+        {
+            "generated_at": utc_now(),
+            "counts": counts,
+            "verification_passed": verification["passed"],
+            "exports": exports,
+            "full_frozen_list_attempted": counts["attempted"] == config["expected_counts"]["content_objects"],
+            "all_downloads_successful": counts["failed"] == 0,
+        },
+    )
+
+
+def run_acquisition(config: dict[str, Any], *, resume: bool, smoke_only: bool) -> dict[str, Any]:
+    del resume  # successful rows and hash-verified checkpoints are always resumed safely
+    context = _initialise_acquisition_workspace(config)
+    objects = _load_acquisition_objects(context["database"])
+    expected = int(config["expected_counts"]["content_objects"])
+    if len(objects) != expected:
+        raise RuntimeError(f"Expected {expected} frozen content objects, found {len(objects)}")
+    document_ids, smoke_ids = _select_smoke_objects(
+        context["database"], int(config["smoke_publication_limit"])
+    )
+    object_by_id = {str(item["content_object_id"]): item for item in objects}
+    smoke_objects = [object_by_id[object_id] for object_id in smoke_ids]
+    write_json_atomic(
+        context["root"] / "smoke_selection.json",
+        {"document_ids": document_ids, "content_object_ids": smoke_ids, "selected_at": utc_now()},
+    )
+    _run_acquisition_phase(config, context, smoke_objects, "smoke")
+    smoke = _smoke_passed(context["database"], config["acquisition_batch_id"], smoke_ids)
+    write_json_atomic(context["root"] / "smoke_verification.json", smoke)
+    if not smoke["passed"]:
+        raise RuntimeError("Real webpage/PDF smoke acquisition did not pass; inspect smoke_verification.json")
+    if not smoke_only:
+        _run_acquisition_phase(config, context, objects, "full")
+    exports = _refresh_acquisition_exports(config, context)
+    verification = _acquisition_verification(config, context)
+    with duckdb.connect(str(context["database"])) as connection:
+        counts = verification["counts"]
+        connection.execute(
+            """
+            UPDATE collection_batches SET returned_count=?, completeness_status=?, completeness_reason=?
+            WHERE batch_id=?
+            """,
+            [
+                counts["attempted"],
+                "all_frozen_objects_attempted" if counts["attempted"] == expected else "partial",
+                f"{counts['downloaded']} downloads succeeded; {counts['failed']} failed; success and attempt are reported separately.",
+                config["acquisition_batch_id"],
+            ],
+        )
+        connection.execute(
+            """
+            UPDATE extraction_runs SET finished_at=?, input_content_count=?, output_segment_count=?,
+                status=?, status_reason=? WHERE extraction_run_id=?
+            """,
+            [
+                datetime.now(UTC),
+                counts["downloaded"],
+                counts["segments"],
+                "completed" if counts["attempted"] == expected else "partial",
+                "Source extraction only; download and extraction outcomes remain distinct.",
+                context["extraction_run_id"],
+            ],
+        )
+    _write_acquisition_reports(config, context, verification, exports)
+    if not smoke_only and not verification["passed"]:
+        raise RuntimeError("Acquisition verification failed; inspect 06 verification.json")
+    return {
+        "smoke": smoke,
+        "verification": verification,
+        "exports": exports,
+        "database": relative_path(context["database"]),
+    }
+
+
+def run_download_exception_retry(
+    config: dict[str, Any], *, url_overrides_json: Path | None = None
+) -> dict[str, Any]:
+    """Retry only current download exceptions in the frozen acquisition batch.
+
+    With no mapping, every current download exception is retried once at its
+    canonical URL.  With a mapping, only the named still-failed objects are
+    retried using the reviewed official replacement URL.  Successful objects
+    and downloaded extraction exceptions are never selected.
+    """
+
+    context = _initialise_acquisition_workspace(config)
+    batch_id = str(config["acquisition_batch_id"])
+    all_objects = {
+        str(item["content_object_id"]): item
+        for item in _load_acquisition_objects(context["database"])
+    }
+    with duckdb.connect(str(context["database"]), read_only=True) as connection:
+        before_rows = connection.execute(
+            """
+            SELECT o.content_object_id,
+                   COALESCE(s.download_status, f.collection_status, 'missing_status'),
+                   COALESCE(s.extraction_status, f.research_processing_status, 'missing_status'),
+                   COALESCE(s.updated_at, f.retrieved_at),
+                   COALESCE(s.fetch_id, f.fetch_id, '')
+            FROM content_objects o
+            LEFT JOIN acquisition_object_statuses s
+              ON s.content_object_id=o.content_object_id AND s.batch_id=?
+            LEFT JOIN content_fetches f
+              ON f.content_object_id=o.content_object_id AND f.batch_id=?
+            WHERE s.content_object_id IS NULL OR s.download_status <> 'success'
+            ORDER BY o.content_object_id
+            """,
+            [batch_id, batch_id],
+        ).fetchall()
+    before = {
+        str(row[0]): {
+            "download_status": str(row[1]),
+            "extraction_status": str(row[2]),
+            "updated_at": row[3].isoformat() if row[3] is not None else None,
+            "fetch_id": str(row[4]),
+        }
+        for row in before_rows
+    }
+
+    overrides: dict[str, dict[str, Any]] = {}
+    phase = "download_exception_retry_original_url"
+    if url_overrides_json is not None:
+        loaded = json.loads(url_overrides_json.read_text(encoding="utf-8"))
+        raw_items = loaded.get("overrides", loaded) if isinstance(loaded, dict) else loaded
+        if isinstance(raw_items, list):
+            raw_items = {
+                str(item["content_object_id"]): item
+                for item in raw_items
+                if isinstance(item, dict) and item.get("content_object_id")
+            }
+        if not isinstance(raw_items, dict):
+            raise ValueError("URL override file must contain an object mapping or list")
+        for object_id, metadata in raw_items.items():
+            if not isinstance(metadata, dict):
+                raise ValueError(f"Override metadata for {object_id} must be an object")
+            new_url = str(metadata.get("new_url") or "")
+            parsed = urllib.parse.urlsplit(new_url)
+            if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+                raise ValueError(f"Override for {object_id} is not an absolute HTTP(S) URL")
+            if not metadata.get("discovery_evidence") or not metadata.get("identity_basis"):
+                raise ValueError(
+                    f"Override for {object_id} requires discovery_evidence and identity_basis"
+                )
+            if object_id not in before:
+                raise ValueError(f"Override target {object_id} is not a current download exception")
+            overrides[str(object_id)] = dict(metadata)
+        phase = "download_exception_retry_official_replacement"
+
+    selected_ids = sorted(overrides) if overrides else sorted(before)
+    selected = [all_objects[object_id] for object_id in selected_ids]
+    if not selected:
+        return {
+            "phase": phase,
+            "selected_count": 0,
+            "before_download_exceptions": before,
+            "after_download_exceptions": before,
+            "message": "No current download exceptions matched the requested retry.",
+        }
+    _run_acquisition_phase(
+        config,
+        context,
+        selected,
+        phase,
+        retry_all_selected=True,
+        force_network=True,
+        url_overrides=overrides,
+    )
+    exports = _refresh_acquisition_exports(config, context)
+    verification = _acquisition_verification(config, context)
+    _write_acquisition_reports(config, context, verification, exports)
+    with duckdb.connect(str(context["database"]), read_only=True) as connection:
+        after_rows = connection.execute(
+            """
+            SELECT content_object_id, download_status, extraction_status,
+                   updated_at, fetch_id
+            FROM acquisition_object_statuses
+            WHERE batch_id=? AND download_status <> 'success'
+            ORDER BY content_object_id
+            """,
+            [batch_id],
+        ).fetchall()
+    after = {
+        str(row[0]): {
+            "download_status": str(row[1]),
+            "extraction_status": str(row[2]),
+            "updated_at": row[3].isoformat(),
+            "fetch_id": str(row[4]),
+        }
+        for row in after_rows
+    }
+    return {
+        "phase": phase,
+        "selected_count": len(selected),
+        "selected_content_object_ids": selected_ids,
+        "before_download_exceptions": before,
+        "after_download_exceptions": after,
+        "recovered_content_object_ids": sorted(set(before) - set(after)),
+        "verification_passed": verification["passed"],
+        "database": relative_path(context["database"]),
+    }
+
+
+def run_acquisition_verification(config: dict[str, Any]) -> dict[str, Any]:
+    context = _initialise_acquisition_workspace(config)
+    exports = _refresh_acquisition_exports(config, context)
+    verification = _acquisition_verification(config, context)
+    _write_acquisition_reports(config, context, verification, exports)
+    if not verification["passed"]:
+        raise RuntimeError("Acquisition verification failed")
+    return verification
+
+
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(description="Recoverable GOV.UK government corpus batch")
     subparsers = parser.add_subparsers(dest="command", required=True)
@@ -3194,6 +4867,9 @@ def build_parser() -> argparse.ArgumentParser:
         "report",
         "migrate-core",
         "verify-core",
+        "acquire",
+        "retry-download-exceptions",
+        "verify-acquisition",
     ]:
         child = subparsers.add_parser(command)
         child.add_argument("--config", type=Path, required=True)
@@ -3201,6 +4877,11 @@ def build_parser() -> argparse.ArgumentParser:
             child.add_argument("--resume", action="store_true")
             child.add_argument("--smoke", action="store_true")
             child.add_argument("--limit", type=int)
+        if command == "acquire":
+            child.add_argument("--resume", action="store_true")
+            child.add_argument("--smoke-only", action="store_true")
+        if command == "retry-download-exceptions":
+            child.add_argument("--url-overrides-json", type=Path)
     return parser
 
 
@@ -3221,6 +4902,16 @@ def main(argv: Sequence[str] | None = None) -> int:
         result = run_core_migration(config)
     elif args.command == "verify-core":
         result = run_core_verification(config)
+    elif args.command == "acquire":
+        result = run_acquisition(
+            config, resume=args.resume, smoke_only=args.smoke_only
+        )
+    elif args.command == "retry-download-exceptions":
+        result = run_download_exception_retry(
+            config, url_overrides_json=args.url_overrides_json
+        )
+    elif args.command == "verify-acquisition":
+        result = run_acquisition_verification(config)
     else:
         result = run_report(config)
     print(json.dumps(result, ensure_ascii=False, indent=2))

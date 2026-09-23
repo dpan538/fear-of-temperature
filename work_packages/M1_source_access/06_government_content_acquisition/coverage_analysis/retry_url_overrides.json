@@ -1,0 +1,69 @@
+{
+  "reviewed_at": "2026-09-21T19:15:00+10:00",
+  "review_scope": "Only official publisher or institutional pages for the nine frozen download exceptions; no source expansion.",
+  "overrides": {
+    "cnt_299152ebeada5607089a": {
+      "original_url": "https://www.nationalgrid.com/gas-transmission/document/140476/download",
+      "new_url": "https://www.nationalgas.com/sites/default/files/documents/Third%20Round%20Climate%20Adaptation%20Report.pdf",
+      "discovery_evidence": "National Gas official PDF found from an official-domain search after the original National Grid Gas URL remained HTTP 403.",
+      "identity_basis": "PDF cover states 'Third Round Climate Change Adaptation Report', 'National Grid Gas plc', October 2021; this exactly matches the frozen GOV.UK attachment title and reporting round.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_48a6f19a6607e492dc7b": {
+      "original_url": "https://www.nationalgrid.com/electricity-transmission/document/143211/download",
+      "new_url": "https://www.nationalgrid.com/document/343211/download",
+      "discovery_evidence": "National Grid's current official environmental-plan page links document 343211 as the 2021 third-round Climate Change Adaptation Report.",
+      "identity_basis": "PDF cover and contents identify National Grid Electricity Transmission, July 2021, Climate Change Adaptation Report; the title, organisation, year and reporting round match the frozen attachment.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_531ef7729743e1c8bd31": {
+      "original_url": "https://www.portsmouthwater.co.uk/policies-reports/",
+      "new_url": "https://www.portsmouthwater.co.uk/wp-content/uploads/2022/01/Portsmouth-Water_Climate-Change-Adaptation-Report_December-2021.pdf",
+      "discovery_evidence": "Portsmouth Water official-domain search returned the direct PDF after its policies-and-reports page remained HTTP 403.",
+      "identity_basis": "PDF title is Portsmouth Water's Climate Change Adaptation Report 2021 and its introduction states that it is the third-round report to Defra.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_64382de7be6292e95543": {
+      "original_url": "https://www.oecd-ilibrary.org/environment/biodiversity-natural-capital-and-the-economy_1a1ae114-en",
+      "new_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/05/biodiversity-natural-capital-and-the-economy_940af1d4/1a1ae114-en.pdf",
+      "discovery_evidence": "The current OECD publication page for DOI 10.1787/1a1ae114-en links this official OECD PDF.",
+      "identity_basis": "DOI suffix, full title, OECD authorship, 2021 G7 purpose and policy-paper number 26 match the frozen attachment.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_7971dcf871bb3136e535": {
+      "original_url": "https://www.anglianwater.co.uk/environment/climate-change/adapting-to-climate-change/",
+      "new_url": "https://www.anglianwater.co.uk/siteassets/household/in-the-community/climate-change-adaptation-report-2020.pdf",
+      "discovery_evidence": "An official/public record identifying Anglian Water's third-round report points to this Anglian Water official-domain PDF; the company reports submission in December 2020.",
+      "identity_basis": "The official PDF is Anglian Water's 2020 Climate Change Adaptation Report, identified by the organisation as its third-round submission.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_874c6030598f56b158bf": {
+      "original_url": "https://www.oecd-ilibrary.org/environment/towards-g7-action-to-combat-ghost-fishing-gear_a4c86e42-en",
+      "new_url": "https://www.oecd.org/content/dam/oecd/en/publications/reports/2021/05/towards-g7-action-to-combat-ghost-fishing-gear_6288764d/a4c86e42-en.pdf",
+      "discovery_evidence": "The current OECD publication page for DOI 10.1787/a4c86e42-en links this official OECD PDF.",
+      "identity_basis": "DOI suffix, full title, OECD authorship, 2021 UK G7 purpose and policy-paper number 25 match the frozen attachment.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_968313db5fb8a50f393d": {
+      "original_url": "https://www.birminghamairport.co.uk/about-us/community-and-environment/sustainability-strategy/supporting-policies-plans/",
+      "new_url": "https://authoring.birminghamairport.co.uk/media/6746/birmingham-airport-climate-change-adaptation-progress-report-final.pdf",
+      "discovery_evidence": "Birmingham Airport's official authoring/media domain exposes the direct report PDF after the supporting-policies page remained HTTP 403.",
+      "identity_basis": "PDF title is Birmingham Airport Climate Change Adaptation Progress Report 2021 and the report content identifies the Defra adaptation reporting process.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_9fffa8707949d2e58a6e": {
+      "original_url": "https://www.thameswater.co.uk/about-us/responsibility/climate-change",
+      "new_url": "https://www.thameswater.co.uk/media-library/pcjjeaop/climate-change-adaptability-report.pdf",
+      "discovery_evidence": "Thames Water's current official climate-change page links this as the main 2015-2020 climate change adaptation report.",
+      "identity_basis": "The official PDF title and 2015-2020 reporting period match Thames Water's December 2021 third-round submission referenced by GOV.UK.",
+      "review_status": "confirmed_same_object_address_change"
+    },
+    "cnt_b7920fe7e4b7e2b7377c": {
+      "original_url": "https://historicengland.org.uk/research/results/reports/17-2022?searchType=research+report&search=17%2F2022",
+      "new_url": "https://historicengland.org.uk/research/results/reports/8614/ClimateChangeAdaptationReport",
+      "discovery_evidence": "Historic England's official research-report index exposes the report through its current numeric report endpoint.",
+      "identity_basis": "Report number 17/2022, title Climate Change Adaptation Report, authors, 44-page extent and joint Historic England/English Heritage Trust responsibility match the frozen attachment.",
+      "review_status": "confirmed_same_object_address_change"
+    }
+  }
+}

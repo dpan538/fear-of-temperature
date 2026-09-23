@@ -1,0 +1,60 @@
+acquisition_batch_id: govuk_defra_policy_paper_content_20260921_v1
+frozen_batch_id: govuk_defra_policy_paper_1988_20260921_v1
+source_base_url: https://www.gov.uk
+source_database_sha256: 5aa96f0f52fb499253853e62adecf0b307eee5f39b9d31e74141bae07fd0bf91
+frozen_database_sha256: 16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396
+frozen_manifest_sha256: 1340e85a841ebb1ab261d7160abdc8474a302d39bfca97cb488be4388150e786
+
+scope:
+  start_date: 1988-01-01
+  end_date: 2026-09-21
+
+expected_counts:
+  documents: 1020
+  webpages: 1020
+  attachments: 2005
+  content_objects: 3025
+  document_content_relations: 3027
+  shared_attachments: 1
+
+smoke_publication_limit: 1
+progress_every: 25
+
+http:
+  user_agent: "FearOfTemperature/0.2 government content acquisition; internal research; contact via repository"
+  timeout_seconds: 45
+  retries: 4
+  backoff_seconds: 1.0
+  minimum_interval_seconds: 0.20
+  workers: 4
+
+authorization:
+  recorded_at: 2026-09-21T06:01:20Z
+  actor: Dai Pan
+  authorization_text: >-
+    Dai 已明确批准本阶段真实下载、保存和提取政府文本，并转述导师目前已开绿灯，要求完整记录操作和用途。
+  supervisor_statement_basis: Dai 转述
+  supervisor_statement_text: 导师目前已开绿灯
+  project_authorization_status: authorized_for_internal_collection_storage_and_source_text_extraction
+  institutional_ethics_status: not_asserted_no_uq_hrec_approval_or_exemption_recorded
+  allowed_use: internal_project_collection_storage_and_source_text_extraction_only
+  redistribution_status: raw_full_text_not_authorized_for_public_redistribution
+  source_thread_id: 01a0c16d-8ef8-7381-8ecd-37dc774b8fe5
+  scope:
+    frozen_publication_pages: 1020
+    frozen_unique_attachments: 2005
+    frozen_content_objects: 3025
+    analysis_excluded:
+      - vectorization
+      - emotion_classification
+      - semantic_search
+      - clustering
+      - time_series
+      - other_statistical_analysis
+
+paths:
+  work_package: work_packages/M1_source_access/06_government_content_acquisition
+  source_database: work_packages/M1_source_access/05_core_content_storage/fear_temperature_core_storage.duckdb
+  frozen_database: work_packages/M1_source_access/04_government_corpus_batch/fear_temperature_government_batch.duckdb
+  frozen_manifest: work_packages/M1_source_access/04_government_corpus_batch/enumeration_manifest.csv
+  database: work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb

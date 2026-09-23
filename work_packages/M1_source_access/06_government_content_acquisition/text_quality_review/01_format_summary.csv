@@ -1,0 +1,15 @@
+row_type,format_group,format_group_zh,object_kind,actual_format,object_count,download_success_count,extraction_success_count,segment_count,segment_share_pct,character_count,character_share_pct,record_model
+group,webpage,网页,ALL,ALL,1020,1020,1020,19116,0.67,1308969,0.91,webpage_html_paragraph
+group,pdf,PDF,ALL,ALL,1375,1375,1362,2745617,96.22,125381080,87.24,pdf_line_block
+group,csv,CSV,ALL,ALL,22,22,22,11520,0.4,3049298,2.12,csv_row
+group,other,其他,ALL,ALL,608,599,591,77090,2.7,13985846,9.73,html_attachment_paragraph | no_text_or_unsupported | ods_row | odt_paragraph | pptx_slide_block
+detail,webpage,网页,webpage,html,1020,1020,1020,19116,0.67,1308969,0.91,webpage_html_paragraph
+detail,pdf,PDF,attachment,pdf,1375,1375,1362,2745617,96.22,125381080,87.24,pdf_line_block
+detail,csv,CSV,attachment,csv,22,22,22,11520,0.4,3049298,2.12,csv_row
+detail,other,其他,attachment,html,538,529,527,69807,2.45,13390875,9.32,html_attachment_paragraph
+detail,other,其他,attachment,ods,2,2,2,1768,0.06,157659,0.11,ods_row
+detail,other,其他,attachment,odt,60,60,60,5120,0.18,423912,0.29,odt_paragraph
+detail,other,其他,attachment,png,1,1,0,0,0.0,0,0.0,no_text_or_unsupported
+detail,other,其他,attachment,pptx,2,2,2,395,0.01,13400,0.01,pptx_slide_block
+detail,other,其他,attachment,xls,1,1,0,0,0.0,0,0.0,no_text_or_unsupported
+detail,other,其他,attachment,zip,4,4,0,0,0.0,0,0.0,no_text_or_unsupported

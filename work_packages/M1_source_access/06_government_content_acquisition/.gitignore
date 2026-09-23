@@ -1,0 +1,6 @@
+/raw/
+/checkpoints/
+/exports/
+/*.duckdb
+/*.duckdb.wal
+/text_quality_review/04_readable_samples.csv

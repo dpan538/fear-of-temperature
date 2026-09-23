@@ -1,0 +1,27 @@
+{
+  "authorization_id": "auth_72adb7448c6e4d845bda",
+  "recorded_at": "2026-09-21T06:01:20+00:00",
+  "actor": "Dai Pan",
+  "authorization_text": "Dai 已明确批准本阶段真实下载、保存和提取政府文本，并转述导师目前已开绿灯，要求完整记录操作和用途。",
+  "supervisor_statement_basis": "Dai 转述",
+  "supervisor_statement_text": "导师目前已开绿灯",
+  "project_authorization_status": "authorized_for_internal_collection_storage_and_source_text_extraction",
+  "institutional_ethics_status": "not_asserted_no_uq_hrec_approval_or_exemption_recorded",
+  "allowed_use": "internal_project_collection_storage_and_source_text_extraction_only",
+  "redistribution_status": "raw_full_text_not_authorized_for_public_redistribution",
+  "source_thread_id": "01a0c16d-8ef8-7381-8ecd-37dc774b8fe5",
+  "scope": {
+    "frozen_publication_pages": 1020,
+    "frozen_unique_attachments": 2005,
+    "frozen_content_objects": 3025,
+    "analysis_excluded": [
+      "vectorization",
+      "emotion_classification",
+      "semantic_search",
+      "clustering",
+      "time_series",
+      "other_statistical_analysis"
+    ]
+  },
+  "recording_note": "Project collection authorization and institutional ethics status are separate. The supervisor statement is Dai's report and is not recorded as UQ HREC approval or exemption."
+}

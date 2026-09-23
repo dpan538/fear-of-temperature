@@ -1,0 +1,14 @@
+metric_group,metric,object_scope,numerator,denominator,percent,interpretation
+frozen_list,Frozen-list attempt completion,all objects,3025,3025,100.0,"Attempted within the frozen 3,025-object list"
+download,Download success,all objects,3021,3025,99.867769,Current object download state after bounded retry
+download,Download success,webpages,1020,1020,100.0,Webpage objects only
+download,Download success,attachments,2001,2005,99.800499,Unique attachment objects only
+extraction_given_download,Extraction success among downloaded objects,all objects,3000,3021,99.304866,"Successful source-text extraction, not full-text completeness"
+extraction_given_download,Extraction success among downloaded objects,webpages,1020,1020,100.0,Webpage objects only
+extraction_given_download,Extraction success among downloaded objects,attachments,1980,2001,98.950525,Unique attachment objects only
+target_text_availability,Target-object text availability,all objects,3000,3025,99.173554,Successful extraction divided by all target objects
+target_text_availability,Target-object text availability,webpages,1020,1020,100.0,Webpage objects only
+target_text_availability,Target-object text availability,attachments,1980,2005,98.753117,Unique attachment objects only
+publication_attachment_text,All linked attachments extracted,publication records with attachments,998,1016,98.228346,Mutually exclusive record-level state
+publication_attachment_text,Some but not all linked attachments extracted,publication records with attachments,10,1016,0.984252,Mutually exclusive record-level state
+publication_attachment_text,No linked attachment extracted,publication records with attachments,8,1016,0.787402,Mutually exclusive record-level state

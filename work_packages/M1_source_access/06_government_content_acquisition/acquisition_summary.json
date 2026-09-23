@@ -1,0 +1,41 @@
+{
+  "generated_at": "2026-09-21T09:29:34Z",
+  "counts": {
+    "attempted": 3025,
+    "downloaded": 3021,
+    "extracted": 3000,
+    "failed": 4,
+    "segments": 2865202,
+    "needs_ocr": 14,
+    "unsupported": 5
+  },
+  "verification_passed": true,
+  "exports": {
+    "fetch_manifest": {
+      "rows": 3025,
+      "sha256": "bb0429ad082917745cb1c04073884f6d00b1d528709c07e2935df3cc16b9f13e"
+    },
+    "failure_manifest": {
+      "rows": 25,
+      "sha256": "1c7bb6e7968fe02433d43b9cbf93ca151211c563289e4683220732eb288195d8"
+    },
+    "extraction_status": {
+      "rows": 3025,
+      "sha256": "e517f23e2cd008df414d2805a3b4fbcbb8e5bb28249b1c76f2386d10dbc51e78"
+    },
+    "content_versions": {
+      "rows": 3023,
+      "sha256": "d6351a05307fd0f2eacfa7a838cf3a4e1650410a96eeb75ac92f2dafefaf34ff"
+    },
+    "acquisition_runs": {
+      "rows": 24,
+      "sha256": "364d5e572ba8d3e6925b2636cb93580e2f05b86517037d9883d5d1caf770ee3f"
+    },
+    "authorization": {
+      "rows": 1,
+      "sha256": "2bab2a7993654b55ca9dd4d81d6621f784c487c5ecf94b2ededec0364dddc967"
+    }
+  },
+  "full_frozen_list_attempted": true,
+  "all_downloads_successful": false
+}

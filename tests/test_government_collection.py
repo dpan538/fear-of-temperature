@@ -13,7 +13,11 @@ import pytest
 from fear_temperature.government_collection import (
     HttpClient,
     HttpResult,
+    _acquire_one_object,
+    _detect_content_format,
+    _extract_source_text,
     _initialise_core_database,
+    _validate_acquisition_download,
     _validate_download,
     build_content_objects,
     build_year_partitions,
@@ -221,6 +225,121 @@ def test_download_validation_rejects_error_shells_and_fake_pdfs() -> None:
     assert _validate_download(fake_pdf, "application/pdf") == (
         "declared PDF did not have a PDF file signature"
     )
+
+
+def test_acquisition_validation_records_http_200_error_page_separately() -> None:
+    body = b"<html><body><div>Sorry, we can't find the page you're looking for</div></body></html>"
+    result = HttpResult(
+        request_url="https://example.test/old",
+        final_url="https://example.test/new",
+        retrieved_at="2026-09-21T00:00:00Z",
+        status_code=200,
+        mime_type="text/html",
+        body=body,
+        headers={},
+        attempts=1,
+    )
+
+    assert _detect_content_format(body, "text/html", "", result.final_url) == "html"
+    assert _validate_acquisition_download(result, "attachment", "", "html") == (
+        "error_page",
+        "2xx HTML response resembled an access/error page",
+    )
+
+
+def test_forced_exception_retry_ignores_checkpoint_and_records_url_override(
+    tmp_path: Path,
+) -> None:
+    object_id = "cnt_test"
+    checkpoint_root = tmp_path / "checkpoints"
+    raw_root = tmp_path / "raw"
+    checkpoint_root.mkdir()
+    old_raw = tmp_path / "old-error.html"
+    old_body = b"<html><body>Sorry, we can't find the page you're looking for</body></html>"
+    old_raw.write_bytes(old_body)
+    import hashlib
+
+    old_sha = hashlib.sha256(old_body).hexdigest()
+    (checkpoint_root / f"{object_id}.json").write_text(
+        json.dumps(
+            {
+                "content_object_id": object_id,
+                "object_kind": "attachment",
+                "request_url": "https://old.example/report",
+                "final_url": "https://old.example/report",
+                "retrieved_at": "2026-09-21T00:00:00Z",
+                "status_code": 200,
+                "actual_mime_type": "text/html",
+                "actual_format": "html",
+                "attempt_count": 1,
+                "download_status": "error_page",
+                "byte_size": len(old_body),
+                "content_sha256": old_sha,
+                "raw_path": str(old_raw),
+            }
+        ),
+        encoding="utf-8",
+    )
+
+    requested: list[str] = []
+
+    class _Client:
+        def get(self, url: str) -> HttpResult:
+            requested.append(url)
+            body = b"<html><main><h1>Replacement report</h1><p>Verified text</p></main></html>"
+            return HttpResult(
+                request_url=url,
+                final_url=url,
+                retrieved_at="2026-09-21T01:00:00Z",
+                status_code=200,
+                mime_type="text/html",
+                body=body,
+                headers={},
+                attempts=1,
+            )
+
+    replacement_url = "https://official.example/report.html"
+    result = _acquire_one_object(
+        {
+            "content_object_id": object_id,
+            "object_kind": "attachment",
+            "canonical_url": "https://old.example/report",
+            "declared_mime_type": "text/html",
+        },
+        {"source_base_url": "https://www.gov.uk"},
+        _Client(),  # type: ignore[arg-type]
+        checkpoint_root,
+        raw_root,
+        force_network=True,
+        request_url_override=replacement_url,
+        retry_metadata={"identity_basis": "exact official report identity"},
+    )
+
+    assert requested == [replacement_url]
+    assert result["request_url"] == replacement_url
+    assert result["canonical_url"] == "https://old.example/report"
+    assert result["retry_metadata"]["identity_basis"] == "exact official report identity"
+    assert result["download_status"] == "success"
+    assert result["extraction_status"] == "success"
+
+
+def test_html_extraction_supports_id_main_and_explicit_refresh_notice() -> None:
+    main_body = (
+        b"<html><head><title>T</title></head><body><div id='main'>"
+        b"<h1>H</h1><p>P</p></div></body></html>"
+    )
+    refresh_body = (
+        b"<html><head><meta http-equiv='refresh' content='0;url=/new'>"
+        b"<title>R</title></head><body><p>Moved</p></body></html>"
+    )
+
+    main_status, _, main_segments = _extract_source_text(main_body, "html")
+    refresh_status, _, refresh_segments = _extract_source_text(refresh_body, "html")
+
+    assert main_status == "success"
+    assert [item["text"] for item in main_segments] == ["T", "H", "P"]
+    assert refresh_status == "success"
+    assert [item["text"] for item in refresh_segments] == ["R", "Moved"]
 
 
 def test_blocked_fetch_does_not_establish_content_version() -> None:

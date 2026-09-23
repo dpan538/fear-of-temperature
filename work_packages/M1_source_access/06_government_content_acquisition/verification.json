@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-09-21T09:29:34Z",
+  "passed": true,
+  "checks": {
+    "all_frozen_objects_attempted": true,
+    "one_current_status_per_object_in_acquisition_batch": true,
+    "current_statuses_link_fetch_history": true,
+    "successful_files_exist_and_hash_match": true,
+    "successful_fetches_link_content_versions": true,
+    "saved_statuses_link_content_versions": true,
+    "historical_content_versions_link_objects": true,
+    "segments_trace_to_version_and_extraction_run": true,
+    "segment_count_matches_status_sum": true,
+    "document_content_relations_preserved": true,
+    "shared_attachment_relations_preserved": true,
+    "04_database_unchanged": true,
+    "04_manifest_unchanged": true,
+    "05_database_unchanged": true,
+    "resume_skipped_completed_objects": true
+  },
+  "counts": {
+    "attempted": 3025,
+    "downloaded": 3021,
+    "extracted": 3000,
+    "failed": 4,
+    "segments": 2865202,
+    "needs_ocr": 14,
+    "unsupported": 5
+  },
+  "bad_file_content_object_ids": [],
+  "original_hashes": {
+    "04_database": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396",
+    "04_manifest": "1340e85a841ebb1ab261d7160abdc8474a302d39bfca97cb488be4388150e786",
+    "05_database": "5aa96f0f52fb499253853e62adecf0b307eee5f39b9d31e74141bae07fd0bf91"
+  },
+  "last_resume_attempted_count": 12,
+  "scope_note": "All attempted means the frozen 3,025-object list, not all UK government policy."
+}
