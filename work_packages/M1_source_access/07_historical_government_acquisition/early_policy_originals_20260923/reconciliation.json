@@ -1,0 +1,44 @@
+{
+  "generated_at_utc": "2026-09-23T01:47:55.726480+00:00",
+  "formal_db_size_bytes_unchanged": 3590598656,
+  "formal_db_mtime_ns_unchanged": 1790084251704838709,
+  "totals": {
+    "documents": 248035,
+    "text_segments": 3668275,
+    "policy_source_records": 1055
+  },
+  "periods": [
+    {
+      "period": "1988-1994",
+      "stored_policy_before": 3,
+      "stored_policy_after": 3,
+      "research_exact_month_view": 3,
+      "new_originals": 0,
+      "months": 84,
+      "historical_population_denominator": "unknown"
+    },
+    {
+      "period": "1995-2000",
+      "stored_policy_before": 7,
+      "stored_policy_after": 7,
+      "research_exact_month_view": 7,
+      "new_originals": 0,
+      "months": 72,
+      "historical_population_denominator": "unknown"
+    },
+    {
+      "period": "2001-2009",
+      "stored_policy_before": 80,
+      "stored_policy_after": 80,
+      "research_exact_month_view": 83,
+      "new_originals": 0,
+      "months": 108,
+      "historical_population_denominator": "unknown"
+    }
+  ],
+  "new_documents": 0,
+  "new_text_segments": 0,
+  "formal_db_writes": 0,
+  "monthly_rows": 264,
+  "prior_stored_months_match_db": true
+}

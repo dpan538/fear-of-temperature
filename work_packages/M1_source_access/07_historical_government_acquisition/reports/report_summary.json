@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-22",
+  "series_totals": {
+    "policy_document": 1054,
+    "ministerial_written_answer": 235420,
+    "ministerial_written_statement": 2705
+  },
+  "pre2010": {
+    "policy": 89,
+    "answers": 158178,
+    "statements": 1193
+  },
+  "integrity_passed": true
+}

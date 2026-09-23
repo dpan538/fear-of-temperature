@@ -1,0 +1,25 @@
+{
+  "records": 248033,
+  "months": 465,
+  "empty_months": 31,
+  "panels": [
+    {
+      "period": "1988–2000",
+      "months": 156,
+      "empty_months": 23,
+      "records": 108510
+    },
+    {
+      "period": "2001–2013",
+      "months": 156,
+      "empty_months": 6,
+      "records": 70607
+    },
+    {
+      "period": "2014–September 2026",
+      "months": 153,
+      "empty_months": 2,
+      "records": 68916
+    }
+  ]
+}

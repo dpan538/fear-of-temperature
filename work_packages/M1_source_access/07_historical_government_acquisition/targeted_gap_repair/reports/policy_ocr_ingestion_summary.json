@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-09-22T05:32:15Z",
+  "files_recovered": 4,
+  "ocr_segments_added": 340,
+  "extraction_run_id": "ext_ea5e4575fdcb6e8f3f9e",
+  "quality_rows": [
+    {
+      "content_object_id": "cnt_0aa8b706f4aa08143acd",
+      "page_count": 162,
+      "pages_with_text": 158,
+      "character_count": 378702,
+      "line_count": 6838,
+      "mean_line_confidence": 0.989237,
+      "minimum_line_confidence": 0.3,
+      "ocr_jsonl_path": "work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair/ocr/cnt_0aa8b706f4aa08143acd/pages.jsonl"
+    },
+    {
+      "content_object_id": "cnt_288983a51d52e5bf716a",
+      "page_count": 4,
+      "pages_with_text": 4,
+      "character_count": 5808,
+      "line_count": 121,
+      "mean_line_confidence": 1.0,
+      "minimum_line_confidence": 1.0,
+      "ocr_jsonl_path": "work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair/ocr/cnt_288983a51d52e5bf716a/pages.jsonl"
+    },
+    {
+      "content_object_id": "cnt_e49545040f3fcacbd835",
+      "page_count": 40,
+      "pages_with_text": 35,
+      "character_count": 86488,
+      "line_count": 1255,
+      "mean_line_confidence": 0.992669,
+      "minimum_line_confidence": 0.3,
+      "ocr_jsonl_path": "work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair/ocr/cnt_e49545040f3fcacbd835/pages.jsonl"
+    },
+    {
+      "content_object_id": "cnt_c0159b01f1562ec03be0",
+      "page_count": 144,
+      "pages_with_text": 143,
+      "character_count": 361195,
+      "line_count": 9154,
+      "mean_line_confidence": 0.992976,
+      "minimum_line_confidence": 0.3,
+      "ocr_jsonl_path": "work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair/ocr/cnt_c0159b01f1562ec03be0/pages.jsonl"
+    }
+  ]
+}

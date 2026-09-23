@@ -1,0 +1,79 @@
+source_tranche,series,year,enumerated_records,already_in_06_records,net_new_record_targets,ingested_records,attempted_content_objects,downloaded_content_objects,extracted_content_objects,confirmed_target_exceptions,count_basis
+Commons archive/API 2010–2014 gap backfill,ministerial_written_answer,2010,1943,0,1943,1943,120,120,120,17,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_statement,2010,59,0,59,59,59,59,59,0,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_answer,2011,4499,0,4499,4499,227,227,227,35,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_statement,2011,125,0,125,125,125,125,125,0,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_answer,2012,3016,0,3016,3016,173,173,173,71,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_statement,2012,102,0,102,102,102,102,102,0,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_answer,2013,1677,0,1677,1677,106,106,106,102,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_statement,2013,145,0,145,145,145,145,145,0,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+Commons archive/API 2010–2014 gap backfill,ministerial_written_statement,2014,62,0,62,62,62,62,62,0,archive-derived answer records may share an official daily HTML page; API statement details are one object per record
+GOV.UK historical policy,policy_document,1993,1,0,1,1,2,2,1,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,1994,1,0,1,1,2,2,1,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,1998,1,0,1,1,2,2,1,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2001,2,0,2,2,4,4,4,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2003,2,0,2,2,4,4,3,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2004,1,0,1,1,2,2,2,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2005,1,0,1,1,2,2,2,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2006,1,0,1,1,2,2,2,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2007,1,0,1,1,2,2,2,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2008,3,1,2,2,4,4,4,0,record targets; policy object counts are within-year associations and may repeat across years
+GOV.UK historical policy,policy_document,2009,21,0,21,21,58,58,58,0,record targets; policy object counts are within-year associations and may repeat across years
+Hansard API 2005–2010,ministerial_written_answer,2005,3919,0,3919,3919,3919,3919,3919,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_statement,2005,138,0,138,138,138,138,138,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_answer,2006,4172,0,4172,4091,4091,4091,4091,81,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_statement,2006,195,0,195,195,195,195,195,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_answer,2007,4793,0,4793,4789,4789,4789,4789,4,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_statement,2007,192,0,192,192,192,192,192,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_answer,2008,5321,0,5321,5321,5321,5321,5321,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_statement,2008,142,0,142,142,142,142,142,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_answer,2009,4690,0,4690,4690,4690,4690,4690,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_statement,2009,133,0,133,133,133,133,133,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_answer,2010,1095,0,1095,1095,1095,1095,1095,0,one official detail content object per record target
+Hansard API 2005–2010,ministerial_written_statement,2010,43,0,43,43,43,43,43,0,one official detail content object per record target
+Historic Hansard bulk XML,ministerial_written_answer,1988,9375,0,9375,9375,20,20,20,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1989,10779,0,10779,10779,20,20,20,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1990,11289,0,11289,11289,19,19,19,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1991,6833,0,6833,6833,17,17,17,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1992,6815,0,6815,6815,16,16,16,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1993,7693,0,7693,7693,18,18,18,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1994,7419,0,7419,7419,16,16,16,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1995,7138,0,7138,7138,16,16,16,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1996,6831,0,6831,6831,18,18,18,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1997,7507,0,7507,7507,15,15,15,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1998,9339,0,9339,9339,18,18,18,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,1999,8244,0,8244,8244,18,18,18,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,2000,8917,0,8917,8917,18,18,18,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,2001,7562,0,7562,7562,18,18,18,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,2002,8458,0,8458,8458,19,19,19,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_statement,2002,31,0,31,31,3,3,3,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,2003,5838,0,5838,5838,17,17,17,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_statement,2003,219,0,219,219,16,16,16,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_answer,2004,5331,0,5331,5331,8,8,8,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Historic Hansard bulk XML,ministerial_written_statement,2004,143,0,143,143,8,8,8,0,derived records linked to downloaded archive-volume content objects; a volume may be associated with records in more than one year
+Questions/Statements API 2014–2026,ministerial_written_answer,2014,753,0,753,753,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2014,12,0,12,12,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2015,2674,0,2674,2674,6,6,6,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2015,64,0,64,64,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2016,3465,0,3465,3465,9,9,9,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2016,55,0,55,55,3,3,3,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2017,3992,0,3992,3992,9,9,9,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2017,72,0,72,72,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2018,4498,0,4498,4498,10,10,10,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2018,101,0,101,101,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2019,4296,0,4296,4296,10,10,10,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2019,108,0,108,108,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2020,5573,0,5573,5573,12,12,12,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2020,78,0,78,78,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2021,6612,0,6612,6612,15,15,15,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2021,90,0,90,90,3,3,3,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2022,7698,0,7698,7698,17,17,17,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2022,84,0,84,84,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2023,6086,0,6086,6086,13,13,13,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2023,70,0,70,70,3,3,3,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2024,4643,0,4643,4643,10,10,10,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2024,77,0,77,77,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2025,8785,0,8785,8785,19,19,19,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2025,87,0,87,87,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_answer,2026,5937,0,5937,5937,13,13,13,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page
+Questions/Statements API 2014–2026,ministerial_written_statement,2026,78,0,78,78,2,2,2,0,records are derived by official ID from complete-text API list responses; many records share one downloaded JSON parent page

@@ -1,0 +1,35 @@
+[
+  {
+    "period": "1988\u20132000",
+    "months": 156,
+    "empty_months": 23,
+    "records": 108510,
+    "counts": {
+      "ministerial_written_answer": 108500,
+      "ministerial_written_statement": 0,
+      "policy_document": 10
+    }
+  },
+  {
+    "period": "2001\u20132013",
+    "months": 156,
+    "empty_months": 6,
+    "records": 70609,
+    "counts": {
+      "ministerial_written_answer": 68521,
+      "ministerial_written_statement": 1713,
+      "policy_document": 375
+    }
+  },
+  {
+    "period": "2014\u2013September 2026",
+    "months": 153,
+    "empty_months": 2,
+    "records": 68916,
+    "counts": {
+      "ministerial_written_answer": 67208,
+      "ministerial_written_statement": 1038,
+      "policy_document": 670
+    }
+  }
+]

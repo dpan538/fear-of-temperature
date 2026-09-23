@@ -1,0 +1,12 @@
+# Local acquisition evidence and rebuildable working data stay outside Git.
+**/raw/
+**/recovery/
+**/evidence/
+**/manifests/
+**/checkpoints/
+**/*checkpoints/
+**/ocr/
+**/outputs/
+node_modules
+*.tiff
+*.xlsx

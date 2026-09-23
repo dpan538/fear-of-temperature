@@ -1,0 +1,20 @@
+source,metric,value,unit,denominator,note
+ParlParse/TWFY bounded mirror,Frozen target dates,388,date partition,388,Distinct from files and records.
+ParlParse/TWFY bounded mirror,Dates with enumerated files,373,date partition,388,"No-file dates remain unknown, not confirmed zero."
+ParlParse/TWFY bounded mirror,Frozen files,816,XML file,816,wrans and bounded 2004-Q4 wms files.
+ParlParse/TWFY bounded mirror,Original files acquired,816,XML file,816,Actual HTTP request metadata retained per file.
+ParlParse/TWFY bounded mirror,Files failed,0,XML file,816,Not converted to document counts.
+ParlParse/TWFY bounded mirror,Files unrequested after host stop,0,XML file,816,Separate from download failure.
+ParlParse/TWFY bounded mirror,In-scope derived records parsed,10853,derived record,n/a,Question/context retained but not counted as government response.
+ParlParse/TWFY bounded mirror,Already present,2405,derived record,10853,Matched to formal 06 records; not reinserted.
+ParlParse/TWFY bounded mirror,New stable identities,8448,derived record,10853,Eligible for formal incremental insertion.
+ParlParse/TWFY bounded mirror,Written answers formally committed,8405,ministerial written answer,8448,Question/context segments are retained but not counted as government responses.
+ParlParse/TWFY bounded mirror,Written statements formally committed,43,ministerial written statement,8448,Independent statement series.
+ParlParse/TWFY bounded mirror,Duplicate mirror representations,0,derived record,10853,Not independent documents.
+Official GOV.UK command paper,Exact policy targets acquired,1,policy publication,1,Cm 2428 only; not a historical-population denominator.
+Official GOV.UK command paper,Extracted text lines,12822,source line segment,194,188 pages contain text; six no-text pages were visually verified as blank or image-only separators.
+Formal 06 database,New documents committed,8449,document,8449,Only successful COMMIT deltas count.
+Formal 06 database,Recovery batch documents present,8449,document,8449,Post-commit read-only reconciliation.
+Formal 06 database,Duplicate source/external-id groups,0,duplicate group,n/a,Must remain zero.
+ParlParse/TWFY bounded mirror,Target date × genre units complete,411,date × genre,431,A unit is complete only when every enumerated file was acquired and parsed.
+ParlParse/TWFY bounded mirror,Target date × genre units non-complete,20,date × genre,431,"Unknown, blocked, unrequested and partial remain distinct in the date ledger."

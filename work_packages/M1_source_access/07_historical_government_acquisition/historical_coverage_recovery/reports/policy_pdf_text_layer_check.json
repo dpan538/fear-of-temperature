@@ -1,0 +1,19 @@
+{
+  "checked_at": "2026-09-22T13:50:00Z",
+  "document": "Biodiversity: the UK action plan",
+  "publication_number": "Cm 2428",
+  "pdf_pages": 194,
+  "text_segments": 12822,
+  "pages_with_extracted_text": 188,
+  "pages_without_extracted_text": [2, 10, 52, 162, 176, 192],
+  "visual_classification": {
+    "2": "blank page",
+    "10": "image-only globe separator",
+    "52": "image-only globe separator",
+    "162": "image-only globe separator",
+    "176": "image-only globe separator",
+    "192": "blank page"
+  },
+  "conclusion": "No policy prose is hidden by the six zero-text pages; no OCR is required for those pages.",
+  "original_pdf_modified": false
+}

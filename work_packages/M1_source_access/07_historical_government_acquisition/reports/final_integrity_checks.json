@@ -1,0 +1,54 @@
+{
+  "generated_at": "2026-09-22",
+  "series_totals_database": {
+    "policy_document": 1054,
+    "ministerial_written_answer": 235420,
+    "ministerial_written_statement": 2705
+  },
+  "series_totals_annual_csv": {
+    "policy_document": 1054,
+    "ministerial_written_answer": 235420,
+    "ministerial_written_statement": 2705
+  },
+  "annual_csv_matches_database": true,
+  "quarterly_matches_annual": true,
+  "database_checks": {
+    "source_external_duplicates": 0,
+    "canonical_url_duplicates": 0,
+    "orphan_segments": 0,
+    "orphan_voice": 0,
+    "historic_raw_records_not_marked_derived": 0,
+    "historic_content_objects_not_zip_xml": 0,
+    "archive_answer_raw_records_not_marked_derived": 0,
+    "archive_parent_objects_not_html": 0,
+    "archive_derived_record_count_mismatch": 0,
+    "modern_raw_records_not_marked_derived": 0,
+    "modern_parent_objects_not_json": 0,
+    "modern_derived_record_count_mismatch": 0,
+    "successful_parliament_fetches_without_http_200": 0
+  },
+  "frozen_artifacts": [
+    {
+      "artifact": "04_database",
+      "path": "work_packages/M1_source_access/04_government_corpus_batch/fear_temperature_government_batch.duckdb",
+      "expected_sha256": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396",
+      "observed_sha256": "16690bc540f8194cc2bf8ec1cba3794fb9745d0986e0dae2643306d6cb48c396",
+      "passed": true
+    },
+    {
+      "artifact": "04_manifest",
+      "path": "work_packages/M1_source_access/04_government_corpus_batch/enumeration_manifest.csv",
+      "expected_sha256": "1340e85a841ebb1ab261d7160abdc8474a302d39bfca97cb488be4388150e786",
+      "observed_sha256": "1340e85a841ebb1ab261d7160abdc8474a302d39bfca97cb488be4388150e786",
+      "passed": true
+    },
+    {
+      "artifact": "05_database",
+      "path": "work_packages/M1_source_access/05_core_content_storage/fear_temperature_core_storage.duckdb",
+      "expected_sha256": "5aa96f0f52fb499253853e62adecf0b307eee5f39b9d31e74141bae07fd0bf91",
+      "observed_sha256": "5aa96f0f52fb499253853e62adecf0b307eee5f39b9d31e74141bae07fd0bf91",
+      "passed": true
+    }
+  ],
+  "passed": true
+}

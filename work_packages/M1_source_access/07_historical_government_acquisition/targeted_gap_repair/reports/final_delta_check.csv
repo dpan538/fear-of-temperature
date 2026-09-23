@@ -1,0 +1,6 @@
+metric,before,addition,after,reconciles,addition_note
+documents,239179,407,239586,True,83 saved-payload answer repairs + 321 Historic answers + 3 statement children
+policy_document,1054,0,1054,True,No new policy record; OCR added extraction lineage to four existing objects
+ministerial_written_answer,235420,404,235824,True,83 local parser repairs + 321 Historic daily records
+ministerial_written_statement,2705,3,2708,True,Three official search-response child records
+text_segments,3622039,1398,3623437,True,243 local answer segments + 340 OCR pages + 815 new-record segments

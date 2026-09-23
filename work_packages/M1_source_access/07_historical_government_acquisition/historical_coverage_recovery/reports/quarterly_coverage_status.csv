@@ -1,0 +1,466 @@
+series,series_label,year_quarter,year,quarter,status,status_label,record_count,months_in_period,aggregation_rule
+ministerial_written_answer,Written answers,1988Q1,1988,1,partial,Partial coverage / bounded exclusion,3012,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1988Q2,1988,2,complete,Verified route complete for known scope,2530,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1988Q3,1988,3,complete,Verified route complete for known scope,1431,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1988Q4,1988,4,complete,Verified route complete for known scope,2402,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1989Q1,1989,1,complete,Verified route complete for known scope,3250,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1989Q2,1989,2,complete,Verified route complete for known scope,3217,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1989Q3,1989,3,complete,Verified route complete for known scope,1430,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1989Q4,1989,4,complete,Verified route complete for known scope,2882,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1990Q1,1990,1,complete,Verified route complete for known scope,4350,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1990Q2,1990,2,complete,Verified route complete for known scope,3349,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1990Q3,1990,3,complete,Verified route complete for known scope,1267,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1990Q4,1990,4,complete,Verified route complete for known scope,2323,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1991Q1,1991,1,complete,Verified route complete for known scope,2372,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1991Q2,1991,2,complete,Verified route complete for known scope,1946,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1991Q3,1991,3,complete,Verified route complete for known scope,940,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1991Q4,1991,4,partial,Partial coverage / bounded exclusion,1896,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1992Q1,1992,1,complete,Verified route complete for known scope,1822,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1992Q2,1992,2,complete,Verified route complete for known scope,1706,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1992Q3,1992,3,complete,Verified route complete for known scope,880,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1992Q4,1992,4,complete,Verified route complete for known scope,2407,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1993Q1,1993,1,complete,Verified route complete for known scope,2824,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1993Q2,1993,2,complete,Verified route complete for known scope,1968,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1993Q3,1993,3,complete,Verified route complete for known scope,1043,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1993Q4,1993,4,complete,Verified route complete for known scope,1858,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1994Q1,1994,1,complete,Verified route complete for known scope,2987,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1994Q2,1994,2,complete,Verified route complete for known scope,1853,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1994Q3,1994,3,complete,Verified route complete for known scope,730,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1994Q4,1994,4,complete,Verified route complete for known scope,1849,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1995Q1,1995,1,complete,Verified route complete for known scope,2423,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1995Q2,1995,2,complete,Verified route complete for known scope,1860,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1995Q3,1995,3,complete,Verified route complete for known scope,834,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1995Q4,1995,4,complete,Verified route complete for known scope,2021,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1996Q1,1996,1,complete,Verified route complete for known scope,2365,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1996Q2,1996,2,complete,Verified route complete for known scope,1934,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1996Q3,1996,3,complete,Verified route complete for known scope,798,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1996Q4,1996,4,complete,Verified route complete for known scope,1734,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1997Q1,1997,1,complete,Verified route complete for known scope,1911,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1997Q2,1997,2,complete,Verified route complete for known scope,1872,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1997Q3,1997,3,complete,Verified route complete for known scope,1672,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1997Q4,1997,4,complete,Verified route complete for known scope,2052,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1998Q1,1998,1,complete,Verified route complete for known scope,2846,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1998Q2,1998,2,complete,Verified route complete for known scope,2637,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1998Q3,1998,3,complete,Verified route complete for known scope,1630,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1998Q4,1998,4,complete,Verified route complete for known scope,2226,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1999Q1,1999,1,complete,Verified route complete for known scope,3036,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1999Q2,1999,2,complete,Verified route complete for known scope,1912,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1999Q3,1999,3,complete,Verified route complete for known scope,1147,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,1999Q4,1999,4,complete,Verified route complete for known scope,2149,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2000Q1,2000,1,complete,Verified route complete for known scope,2641,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2000Q2,2000,2,complete,Verified route complete for known scope,2693,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2000Q3,2000,3,complete,Verified route complete for known scope,1128,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2000Q4,2000,4,complete,Verified route complete for known scope,2455,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2001Q1,2001,1,complete,Verified route complete for known scope,2861,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2001Q2,2001,2,complete,Verified route complete for known scope,1411,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2001Q3,2001,3,complete,Verified route complete for known scope,685,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2001Q4,2001,4,complete,Verified route complete for known scope,2605,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2002Q1,2002,1,complete,Verified route complete for known scope,2619,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2002Q2,2002,2,complete,Verified route complete for known scope,2522,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2002Q3,2002,3,complete,Verified route complete for known scope,1486,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2002Q4,2002,4,complete,Verified route complete for known scope,1831,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2003Q1,2003,1,complete,Verified route complete for known scope,1441,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2003Q2,2003,2,complete,Verified route complete for known scope,1870,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2003Q3,2003,3,complete,Verified route complete for known scope,1182,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2003Q4,2003,4,complete,Verified route complete for known scope,1345,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2004Q1,2004,1,complete,Verified route complete for known scope,2846,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2004Q2,2004,2,complete,Verified route complete for known scope,1801,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2004Q3,2004,3,complete,Verified route complete for known scope,684,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2004Q4,2004,4,unknown,Enumeration incomplete / denominator unknown,1930,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2005Q1,2005,1,complete,Verified route complete for known scope,1163,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2005Q2,2005,2,complete,Verified route complete for known scope,678,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2005Q3,2005,3,complete,Verified route complete for known scope,475,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2005Q4,2005,4,complete,Verified route complete for known scope,1603,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2006Q1,2006,1,complete,Verified route complete for known scope,1543,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2006Q2,2006,2,complete,Verified route complete for known scope,935,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2006Q3,2006,3,partial,Partial coverage / bounded exclusion,533,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2006Q4,2006,4,complete,Verified route complete for known scope,1160,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2007Q1,2007,1,complete,Verified route complete for known scope,1515,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2007Q2,2007,2,complete,Verified route complete for known scope,1259,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2007Q3,2007,3,complete,Verified route complete for known scope,608,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2007Q4,2007,4,complete,Verified route complete for known scope,1411,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2008Q1,2008,1,complete,Verified route complete for known scope,1849,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2008Q2,2008,2,complete,Verified route complete for known scope,1308,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2008Q3,2008,3,complete,Verified route complete for known scope,704,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2008Q4,2008,4,complete,Verified route complete for known scope,1460,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2009Q1,2009,1,complete,Verified route complete for known scope,1954,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2009Q2,2009,2,complete,Verified route complete for known scope,1274,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2009Q3,2009,3,complete,Verified route complete for known scope,470,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2009Q4,2009,4,complete,Verified route complete for known scope,992,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2010Q1,2010,1,complete,Verified route complete for known scope,1015,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2010Q2,2010,2,unknown,Enumeration incomplete / denominator unknown,344,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2010Q3,2010,3,complete,Verified route complete for known scope,755,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2010Q4,2010,4,complete,Verified route complete for known scope,1280,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2011Q1,2011,1,complete,Verified route complete for known scope,1620,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2011Q2,2011,2,complete,Verified route complete for known scope,1070,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2011Q3,2011,3,complete,Verified route complete for known scope,1005,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2011Q4,2011,4,complete,Verified route complete for known scope,1550,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2012Q1,2012,1,complete,Verified route complete for known scope,1375,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2012Q2,2012,2,unknown,Enumeration incomplete / denominator unknown,1233,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2012Q3,2012,3,complete,Verified route complete for known scope,568,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2012Q4,2012,4,complete,Verified route complete for known scope,989,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2013Q1,2013,1,complete,Verified route complete for known scope,1253,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2013Q2,2013,2,unknown,Enumeration incomplete / denominator unknown,832,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2013Q3,2013,3,complete,Verified route complete for known scope,562,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2013Q4,2013,4,complete,Verified route complete for known scope,1057,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2014Q1,2014,1,complete,Verified route complete for known scope,1121,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2014Q2,2014,2,unknown,Enumeration incomplete / denominator unknown,641,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2014Q3,2014,3,partial,Partial coverage / bounded exclusion,445,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2014Q4,2014,4,complete,Verified route complete for known scope,742,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2015Q1,2015,1,complete,Verified route complete for known scope,845,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2015Q2,2015,2,complete,Verified route complete for known scope,383,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2015Q3,2015,3,complete,Verified route complete for known scope,559,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2015Q4,2015,4,complete,Verified route complete for known scope,887,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2016Q1,2016,1,complete,Verified route complete for known scope,866,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2016Q2,2016,2,complete,Verified route complete for known scope,623,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2016Q3,2016,3,complete,Verified route complete for known scope,567,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2016Q4,2016,4,complete,Verified route complete for known scope,1409,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2017Q1,2017,1,complete,Verified route complete for known scope,1161,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2017Q2,2017,2,complete,Verified route complete for known scope,355,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2017Q3,2017,3,complete,Verified route complete for known scope,857,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2017Q4,2017,4,complete,Verified route complete for known scope,1619,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2018Q1,2018,1,complete,Verified route complete for known scope,1400,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2018Q2,2018,2,complete,Verified route complete for known scope,1186,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2018Q3,2018,3,complete,Verified route complete for known scope,747,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2018Q4,2018,4,complete,Verified route complete for known scope,1165,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2019Q1,2019,1,complete,Verified route complete for known scope,1242,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2019Q2,2019,2,complete,Verified route complete for known scope,1302,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2019Q3,2019,3,complete,Verified route complete for known scope,1019,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2019Q4,2019,4,complete,Verified route complete for known scope,733,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2020Q1,2020,1,complete,Verified route complete for known scope,1227,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2020Q2,2020,2,complete,Verified route complete for known scope,1305,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2020Q3,2020,3,complete,Verified route complete for known scope,1330,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2020Q4,2020,4,complete,Verified route complete for known scope,1711,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2021Q1,2021,1,complete,Verified route complete for known scope,2121,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2021Q2,2021,2,complete,Verified route complete for known scope,1516,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2021Q3,2021,3,complete,Verified route complete for known scope,1284,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2021Q4,2021,4,complete,Verified route complete for known scope,1691,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2022Q1,2022,1,complete,Verified route complete for known scope,2146,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2022Q2,2022,2,complete,Verified route complete for known scope,1524,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2022Q3,2022,3,complete,Verified route complete for known scope,1225,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2022Q4,2022,4,complete,Verified route complete for known scope,2803,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2023Q1,2023,1,complete,Verified route complete for known scope,2467,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2023Q2,2023,2,complete,Verified route complete for known scope,1506,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2023Q3,2023,3,complete,Verified route complete for known scope,1070,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2023Q4,2023,4,complete,Verified route complete for known scope,1043,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2024Q1,2024,1,complete,Verified route complete for known scope,1363,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2024Q2,2024,2,complete,Verified route complete for known scope,859,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2024Q3,2024,3,complete,Verified route complete for known scope,662,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2024Q4,2024,4,complete,Verified route complete for known scope,1759,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2025Q1,2025,1,complete,Verified route complete for known scope,2407,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2025Q2,2025,2,complete,Verified route complete for known scope,2439,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2025Q3,2025,3,complete,Verified route complete for known scope,1589,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2025Q4,2025,4,complete,Verified route complete for known scope,2350,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2026Q1,2026,1,complete,Verified route complete for known scope,2444,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2026Q2,2026,2,complete,Verified route complete for known scope,1936,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_answer,Written answers,2026Q3,2026,3,partial,Partial coverage / bounded exclusion,1557,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1988Q1,1988,1,partial,Partial coverage / bounded exclusion,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1988Q2,1988,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1988Q3,1988,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1988Q4,1988,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1989Q1,1989,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1989Q2,1989,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1989Q3,1989,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1989Q4,1989,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1990Q1,1990,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1990Q2,1990,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1990Q3,1990,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1990Q4,1990,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1991Q1,1991,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1991Q2,1991,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1991Q3,1991,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1991Q4,1991,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1992Q1,1992,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1992Q2,1992,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1992Q3,1992,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1992Q4,1992,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1993Q1,1993,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1993Q2,1993,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1993Q3,1993,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1993Q4,1993,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1994Q1,1994,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1994Q2,1994,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1994Q3,1994,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1994Q4,1994,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1995Q1,1995,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1995Q2,1995,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1995Q3,1995,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1995Q4,1995,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1996Q1,1996,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1996Q2,1996,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1996Q3,1996,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1996Q4,1996,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1997Q1,1997,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1997Q2,1997,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1997Q3,1997,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1997Q4,1997,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1998Q1,1998,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1998Q2,1998,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1998Q3,1998,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1998Q4,1998,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1999Q1,1999,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1999Q2,1999,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1999Q3,1999,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,1999Q4,1999,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2000Q1,2000,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2000Q2,2000,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2000Q3,2000,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2000Q4,2000,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2001Q1,2001,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2001Q2,2001,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2001Q3,2001,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2001Q4,2001,4,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2002Q1,2002,1,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2002Q2,2002,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2002Q3,2002,3,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2002Q4,2002,4,complete,Verified route complete for known scope,31,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2003Q1,2003,1,complete,Verified route complete for known scope,86,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2003Q2,2003,2,complete,Verified route complete for known scope,31,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2003Q3,2003,3,complete,Verified route complete for known scope,39,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2003Q4,2003,4,complete,Verified route complete for known scope,63,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2004Q1,2004,1,complete,Verified route complete for known scope,43,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2004Q2,2004,2,complete,Verified route complete for known scope,35,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2004Q3,2004,3,complete,Verified route complete for known scope,65,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2004Q4,2004,4,unknown,Enumeration incomplete / denominator unknown,43,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2005Q1,2005,1,complete,Verified route complete for known scope,41,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2005Q2,2005,2,complete,Verified route complete for known scope,17,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2005Q3,2005,3,complete,Verified route complete for known scope,25,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2005Q4,2005,4,complete,Verified route complete for known scope,55,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2006Q1,2006,1,complete,Verified route complete for known scope,55,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2006Q2,2006,2,complete,Verified route complete for known scope,46,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2006Q3,2006,3,complete,Verified route complete for known scope,37,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2006Q4,2006,4,complete,Verified route complete for known scope,57,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2007Q1,2007,1,complete,Verified route complete for known scope,56,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2007Q2,2007,2,complete,Verified route complete for known scope,62,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2007Q3,2007,3,complete,Verified route complete for known scope,22,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2007Q4,2007,4,complete,Verified route complete for known scope,53,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2008Q1,2008,1,complete,Verified route complete for known scope,33,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2008Q2,2008,2,complete,Verified route complete for known scope,41,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2008Q3,2008,3,complete,Verified route complete for known scope,23,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2008Q4,2008,4,complete,Verified route complete for known scope,45,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2009Q1,2009,1,complete,Verified route complete for known scope,44,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2009Q2,2009,2,complete,Verified route complete for known scope,46,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2009Q3,2009,3,complete,Verified route complete for known scope,15,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2009Q4,2009,4,complete,Verified route complete for known scope,29,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2010Q1,2010,1,complete,Verified route complete for known scope,41,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2010Q2,2010,2,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2010Q3,2010,3,partial,Partial coverage / bounded exclusion,23,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2010Q4,2010,4,complete,Verified route complete for known scope,27,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2011Q1,2011,1,complete,Verified route complete for known scope,38,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2011Q2,2011,2,complete,Verified route complete for known scope,32,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2011Q3,2011,3,complete,Verified route complete for known scope,18,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2011Q4,2011,4,complete,Verified route complete for known scope,37,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2012Q1,2012,1,complete,Verified route complete for known scope,30,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2012Q2,2012,2,complete,Verified route complete for known scope,24,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2012Q3,2012,3,complete,Verified route complete for known scope,14,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2012Q4,2012,4,complete,Verified route complete for known scope,34,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2013Q1,2013,1,complete,Verified route complete for known scope,39,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2013Q2,2013,2,complete,Verified route complete for known scope,31,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2013Q3,2013,3,complete,Verified route complete for known scope,24,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2013Q4,2013,4,complete,Verified route complete for known scope,51,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2014Q1,2014,1,complete,Verified route complete for known scope,31,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2014Q2,2014,2,complete,Verified route complete for known scope,17,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2014Q3,2014,3,partial,Partial coverage / bounded exclusion,14,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2014Q4,2014,4,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2015Q1,2015,1,complete,Verified route complete for known scope,24,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2015Q2,2015,2,complete,Verified route complete for known scope,8,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2015Q3,2015,3,complete,Verified route complete for known scope,11,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2015Q4,2015,4,complete,Verified route complete for known scope,21,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2016Q1,2016,1,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2016Q2,2016,2,complete,Verified route complete for known scope,11,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2016Q3,2016,3,complete,Verified route complete for known scope,7,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2016Q4,2016,4,complete,Verified route complete for known scope,25,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2017Q1,2017,1,complete,Verified route complete for known scope,21,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2017Q2,2017,2,complete,Verified route complete for known scope,5,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2017Q3,2017,3,complete,Verified route complete for known scope,14,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2017Q4,2017,4,complete,Verified route complete for known scope,32,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2018Q1,2018,1,complete,Verified route complete for known scope,30,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2018Q2,2018,2,complete,Verified route complete for known scope,23,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2018Q3,2018,3,complete,Verified route complete for known scope,13,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2018Q4,2018,4,complete,Verified route complete for known scope,35,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2019Q1,2019,1,complete,Verified route complete for known scope,26,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2019Q2,2019,2,complete,Verified route complete for known scope,34,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2019Q3,2019,3,complete,Verified route complete for known scope,21,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2019Q4,2019,4,complete,Verified route complete for known scope,27,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2020Q1,2020,1,complete,Verified route complete for known scope,18,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2020Q2,2020,2,complete,Verified route complete for known scope,16,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2020Q3,2020,3,complete,Verified route complete for known scope,21,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2020Q4,2020,4,complete,Verified route complete for known scope,23,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2021Q1,2021,1,complete,Verified route complete for known scope,21,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2021Q2,2021,2,complete,Verified route complete for known scope,22,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2021Q3,2021,3,complete,Verified route complete for known scope,22,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2021Q4,2021,4,complete,Verified route complete for known scope,25,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2022Q1,2022,1,complete,Verified route complete for known scope,18,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2022Q2,2022,2,complete,Verified route complete for known scope,20,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2022Q3,2022,3,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2022Q4,2022,4,complete,Verified route complete for known scope,27,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2023Q1,2023,1,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2023Q2,2023,2,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2023Q3,2023,3,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2023Q4,2023,4,complete,Verified route complete for known scope,20,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2024Q1,2024,1,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2024Q2,2024,2,complete,Verified route complete for known scope,18,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2024Q3,2024,3,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2024Q4,2024,4,complete,Verified route complete for known scope,28,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2025Q1,2025,1,complete,Verified route complete for known scope,25,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2025Q2,2025,2,complete,Verified route complete for known scope,15,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2025Q3,2025,3,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2025Q4,2025,4,complete,Verified route complete for known scope,28,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2026Q1,2026,1,complete,Verified route complete for known scope,38,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2026Q2,2026,2,complete,Verified route complete for known scope,24,3,worst evidence state; confirmed zero only when all months are confirmed zero
+ministerial_written_statement,Written statements,2026Q3,2026,3,partial,Partial coverage / bounded exclusion,16,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1988Q1,1988,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1988Q2,1988,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1988Q3,1988,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1988Q4,1988,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1989Q1,1989,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1989Q2,1989,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1989Q3,1989,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1989Q4,1989,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1990Q1,1990,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1990Q2,1990,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1990Q3,1990,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1990Q4,1990,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1991Q1,1991,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1991Q2,1991,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1991Q3,1991,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1991Q4,1991,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1992Q1,1992,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1992Q2,1992,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1992Q3,1992,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1992Q4,1992,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1993Q1,1993,1,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1993Q2,1993,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1993Q3,1993,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1993Q4,1993,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1994Q1,1994,1,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1994Q2,1994,2,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1994Q3,1994,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1994Q4,1994,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1995Q1,1995,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1995Q2,1995,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1995Q3,1995,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1995Q4,1995,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1996Q1,1996,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1996Q2,1996,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1996Q3,1996,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1996Q4,1996,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1997Q1,1997,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1997Q2,1997,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1997Q3,1997,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1997Q4,1997,4,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1998Q1,1998,1,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1998Q2,1998,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1998Q3,1998,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1998Q4,1998,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1999Q1,1999,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1999Q2,1999,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1999Q3,1999,3,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,1999Q4,1999,4,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2000Q1,2000,1,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2000Q2,2000,2,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2000Q3,2000,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2000Q4,2000,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2001Q1,2001,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2001Q2,2001,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2001Q3,2001,3,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2001Q4,2001,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2002Q1,2002,1,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2002Q2,2002,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2002Q3,2002,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2002Q4,2002,4,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2003Q1,2003,1,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2003Q2,2003,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2003Q3,2003,3,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2003Q4,2003,4,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2004Q1,2004,1,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2004Q2,2004,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2004Q3,2004,3,blocked,Access / parsing blocked,3,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2004Q4,2004,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2005Q1,2005,1,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2005Q2,2005,2,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2005Q3,2005,3,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2005Q4,2005,4,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2006Q1,2006,1,blocked,Access / parsing blocked,1,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2006Q2,2006,2,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2006Q3,2006,3,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2006Q4,2006,4,blocked,Access / parsing blocked,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2007Q1,2007,1,blocked,Access / parsing blocked,4,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2007Q2,2007,2,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2007Q3,2007,3,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2007Q4,2007,4,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2008Q1,2008,1,blocked,Access / parsing blocked,6,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2008Q2,2008,2,blocked,Access / parsing blocked,3,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2008Q3,2008,3,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2008Q4,2008,4,blocked,Access / parsing blocked,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2009Q1,2009,1,blocked,Access / parsing blocked,10,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2009Q2,2009,2,blocked,Access / parsing blocked,6,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2009Q3,2009,3,blocked,Access / parsing blocked,6,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2009Q4,2009,4,blocked,Access / parsing blocked,17,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2010Q1,2010,1,complete,Verified route complete for known scope,6,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2010Q2,2010,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2010Q3,2010,3,complete,Verified route complete for known scope,4,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2010Q4,2010,4,complete,Verified route complete for known scope,4,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2011Q1,2011,1,complete,Verified route complete for known scope,21,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2011Q2,2011,2,complete,Verified route complete for known scope,39,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2011Q3,2011,3,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2011Q4,2011,4,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2012Q1,2012,1,complete,Verified route complete for known scope,32,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2012Q2,2012,2,complete,Verified route complete for known scope,15,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2012Q3,2012,3,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2012Q4,2012,4,complete,Verified route complete for known scope,17,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2013Q1,2013,1,complete,Verified route complete for known scope,27,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2013Q2,2013,2,complete,Verified route complete for known scope,49,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2013Q3,2013,3,complete,Verified route complete for known scope,28,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2013Q4,2013,4,complete,Verified route complete for known scope,10,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2014Q1,2014,1,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2014Q2,2014,2,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2014Q3,2014,3,complete,Verified route complete for known scope,9,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2014Q4,2014,4,complete,Verified route complete for known scope,18,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2015Q1,2015,1,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2015Q2,2015,2,confirmed_zero,Verified enumeration; zero in-scope records,0,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2015Q3,2015,3,complete,Verified route complete for known scope,6,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2015Q4,2015,4,complete,Verified route complete for known scope,14,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2016Q1,2016,1,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2016Q2,2016,2,complete,Verified route complete for known scope,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2016Q3,2016,3,complete,Verified route complete for known scope,5,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2016Q4,2016,4,complete,Verified route complete for known scope,6,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2017Q1,2017,1,complete,Verified route complete for known scope,11,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2017Q2,2017,2,complete,Verified route complete for known scope,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2017Q3,2017,3,complete,Verified route complete for known scope,7,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2017Q4,2017,4,complete,Verified route complete for known scope,7,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2018Q1,2018,1,complete,Verified route complete for known scope,4,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2018Q2,2018,2,complete,Verified route complete for known scope,7,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2018Q3,2018,3,complete,Verified route complete for known scope,6,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2018Q4,2018,4,complete,Verified route complete for known scope,16,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2019Q1,2019,1,complete,Verified route complete for known scope,5,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2019Q2,2019,2,complete,Verified route complete for known scope,5,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2019Q3,2019,3,complete,Verified route complete for known scope,4,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2019Q4,2019,4,complete,Verified route complete for known scope,4,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2020Q1,2020,1,complete,Verified route complete for known scope,2,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2020Q2,2020,2,complete,Verified route complete for known scope,4,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2020Q3,2020,3,complete,Verified route complete for known scope,7,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2020Q4,2020,4,complete,Verified route complete for known scope,10,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2021Q1,2021,1,complete,Verified route complete for known scope,11,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2021Q2,2021,2,complete,Verified route complete for known scope,20,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2021Q3,2021,3,complete,Verified route complete for known scope,16,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2021Q4,2021,4,complete,Verified route complete for known scope,11,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2022Q1,2022,1,complete,Verified route complete for known scope,29,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2022Q2,2022,2,complete,Verified route complete for known scope,28,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2022Q3,2022,3,complete,Verified route complete for known scope,16,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2022Q4,2022,4,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2023Q1,2023,1,complete,Verified route complete for known scope,12,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2023Q2,2023,2,complete,Verified route complete for known scope,26,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2023Q3,2023,3,complete,Verified route complete for known scope,17,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2023Q4,2023,4,complete,Verified route complete for known scope,22,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2024Q1,2024,1,complete,Verified route complete for known scope,27,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2024Q2,2024,2,complete,Verified route complete for known scope,20,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2024Q3,2024,3,complete,Verified route complete for known scope,10,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2024Q4,2024,4,complete,Verified route complete for known scope,18,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2025Q1,2025,1,complete,Verified route complete for known scope,19,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2025Q2,2025,2,complete,Verified route complete for known scope,20,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2025Q3,2025,3,complete,Verified route complete for known scope,21,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2025Q4,2025,4,complete,Verified route complete for known scope,24,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2026Q1,2026,1,complete,Verified route complete for known scope,28,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2026Q2,2026,2,complete,Verified route complete for known scope,32,3,worst evidence state; confirmed zero only when all months are confirmed zero
+policy_document,Policy records,2026Q3,2026,3,complete,Verified route complete for known scope,15,3,worst evidence state; confirmed zero only when all months are confirmed zero

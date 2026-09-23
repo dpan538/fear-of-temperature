@@ -1,0 +1,10 @@
+department,series,peak_year,fractional_record_count,series_year_records,peak_share
+DTI,ministerial_written_answer,2005,1940.0,3919,0.49502424087777497
+DTI,ministerial_written_statement,2003,122.0,219,0.5570776255707762
+DTI,policy_document,2001,2.0,2,1.0
+BERR,ministerial_written_answer,2008,2110.0,5321,0.3965420033828228
+BERR,ministerial_written_statement,2008,47.0,142,0.33098591549295775
+BERR,policy_document,2008,2.0,13,0.15384615384615385
+BEIS,ministerial_written_answer,2022,4917.0,7698,0.6387373343725643
+BEIS,ministerial_written_statement,2022,69.0,84,0.8214285714285714
+BEIS,policy_document,2020,0.5595238095238095,23,0.02432712215320911

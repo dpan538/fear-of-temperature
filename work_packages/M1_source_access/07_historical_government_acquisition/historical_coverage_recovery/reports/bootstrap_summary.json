@@ -1,0 +1,13 @@
+{
+  "generated_at": "2026-09-22T12:33:51Z",
+  "baseline": {
+    "documents": 239586,
+    "text_segments": 3623437
+  },
+  "failed_date_indexes": 20,
+  "failed_known_pages": 225,
+  "unrequested_known_pages": 212,
+  "seam_sitting_dates_checked": 43,
+  "unique_target_dates": 388,
+  "exclusions": 4
+}

@@ -1,0 +1,25 @@
+{
+  "generated_at": "2026-09-22T13:37:45Z",
+  "totals": {
+    "documents": 248035,
+    "policy_document": 1055,
+    "ministerial_written_answer": 244229,
+    "ministerial_written_statement": 2751,
+    "text_segments": 3668275
+  },
+  "new_mirror_ids_expected": 8448,
+  "new_mirror_ids_present": 8448,
+  "new_mirror_ids_missing": [],
+  "policy_ids_expected": 1,
+  "policy_ids_present": 1,
+  "source_external_duplicate_groups": 0,
+  "mirror_question_response_segments": {
+    "Government response": 23097,
+    "Ministerial written statement": 480,
+    "Question/context — excluded from government-response counts": 8439
+  },
+  "mirror_records_with_original_parliament_url": 8448,
+  "exclusions_retained": 4,
+  "excluded_records_inserted_by_recovery": 0,
+  "passed": true
+}

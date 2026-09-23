@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-09-23T01:21:44Z",
+  "database_read_only": true,
+  "database_counts": {
+    "documents": 248035,
+    "policy_records": 1055,
+    "written_answers": 244229,
+    "written_statements": 2751,
+    "text_segments": 3668275,
+    "reviewed_document_ids_present": 5,
+    "reviewed_content_versions_present": 5,
+    "database_mtime_ns": 1790084251704838709,
+    "snapshot_at": "2026-09-23T01:21:44Z"
+  },
+  "ledger_rows": 93,
+  "ledger_months": 31,
+  "ledger_genres_per_month_ok": true,
+  "all_before_after_counts_zero": true,
+  "date_mappings": 5,
+  "exact_month_mappings": 3,
+  "year_only_mappings": 2,
+  "new_originals": 0,
+  "database_delta": 0,
+  "research_exact_month_total": 248033,
+  "stored_total": 248035,
+  "zero_months_after": 31,
+  "cm1200_month_policy_count": 0,
+  "cm1200_month_answer_count": 7,
+  "figure_files_exist": true
+}

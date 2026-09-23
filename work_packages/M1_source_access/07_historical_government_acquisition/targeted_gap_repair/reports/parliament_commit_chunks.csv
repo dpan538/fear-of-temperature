@@ -1,0 +1,3 @@
+batch_key,offset,source_rows,new_documents,checkpoint
+hansard,0,3,3,work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair/checkpoints/parliament_hansard_000000.json
+historic,0,321,321,work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair/checkpoints/parliament_historic_000000.json

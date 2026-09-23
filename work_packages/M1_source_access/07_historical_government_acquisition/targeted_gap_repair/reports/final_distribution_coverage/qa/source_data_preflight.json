@@ -1,0 +1,20 @@
+{
+  "generated_at": "2026-09-22T06:20:19Z",
+  "source_snapshot": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+  "document_rows_in_range": 239586,
+  "duplicate_document_ids": 0,
+  "missing_publication_dates_in_selected_rows": 0,
+  "unexpected_series_rows": 0,
+  "negative_character_counts": 0,
+  "negative_segment_counts": 0,
+  "invalid_fractional_weights": 0,
+  "coverage_status_values": [
+    "complete",
+    "complete_with_failures",
+    "confirmed_zero",
+    "enumeration_incomplete",
+    "not_requested",
+    "source_not_supported"
+  ],
+  "passed": true
+}

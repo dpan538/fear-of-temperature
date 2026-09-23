@@ -1,0 +1,66 @@
+{
+  "generated_at": "2026-09-21T21:16:33Z",
+  "database": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+  "sources": [
+    {
+      "frozen_target_records": 34,
+      "original_text_acquired_records": 34,
+      "parsed_records": 34,
+      "failed_or_retry_objects": 0,
+      "source_key": "policy",
+      "batch_id": "govuk_historical_policy_1988_2009_20260921_v1",
+      "formally_committed_records": 34,
+      "unprocessed_source_objects": 0,
+      "failed_target_records": 0,
+      "not_yet_processed_records": 0
+    },
+    {
+      "frozen_target_records": 135761,
+      "original_text_acquired_records": 135761,
+      "parsed_records": 135761,
+      "failed_or_retry_objects": 1,
+      "source_key": "historic",
+      "batch_id": "commons_historic_hansard_1988_2004_20260921_v1",
+      "formally_committed_records": 135761,
+      "unprocessed_source_objects": 0,
+      "failed_target_records": 0,
+      "not_yet_processed_records": 0
+    },
+    {
+      "frozen_target_records": 24833,
+      "original_text_acquired_records": 24748,
+      "parsed_records": 24748,
+      "failed_or_retry_objects": 92,
+      "failed_target_records": 85,
+      "source_key": "hansard",
+      "batch_id": "commons_hansard_api_2005_20100430_20260921_v1",
+      "formally_committed_records": 24748,
+      "unprocessed_source_objects": 0,
+      "not_yet_processed_records": 0
+    },
+    {
+      "frozen_target_records": 11628,
+      "original_text_acquired_records": 11628,
+      "parsed_records": 11628,
+      "failed_or_retry_objects": 247,
+      "unprocessed_source_objects": 212,
+      "source_key": "hansard_gap",
+      "batch_id": "commons_hansard_api_20100501_20140911_20260921_v1",
+      "formally_committed_records": 11628,
+      "failed_target_records": 0,
+      "not_yet_processed_records": 0
+    },
+    {
+      "frozen_target_records": 65988,
+      "original_text_acquired_records": 65988,
+      "parsed_records": 65988,
+      "failed_or_retry_objects": 0,
+      "source_key": "modern",
+      "batch_id": "commons_questions_statements_20140912_20260921_v1",
+      "formally_committed_records": 65988,
+      "unprocessed_source_objects": 0,
+      "failed_target_records": 0,
+      "not_yet_processed_records": 0
+    }
+  ]
+}

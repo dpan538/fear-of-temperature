@@ -1,0 +1,10 @@
+{
+  "pdf": "work_packages/M1_source_access/07_historical_government_acquisition/zero_month_policy_recovery/reports/figures/05_government_corpus_coverage_over_time_updated.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.5,
+  "minimum_found_pt": 7.2,
+  "text_run_count": 88,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

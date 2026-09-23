@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-21T17:20:00Z",
+  "status": "network_phase_stopped_with_explicit_gap",
+  "reason": "After lowering the aggregate interval from 0.75 to 2.0 seconds, the fourth 200-page block returned 110 failures out of 200. Continuing would have amplified access failures, so the bounded network phase stopped without bypassing the official site's controls.",
+  "frozen_unique_text_pages": 1063,
+  "last_committed_fetch_checkpoint_status_rows": 800,
+  "downloaded_at_checkpoint": 592,
+  "failed_at_checkpoint": 208,
+  "unprocessed_at_checkpoint": 263,
+  "post_checkpoint_complete_fetch_evidence_reconciled_locally": true,
+  "reconciled_attempted_pages": 851,
+  "reconciled_successful_pages": 626,
+  "reconciled_failed_pages": 225,
+  "reconciled_unprocessed_pages": 212,
+  "additional_network_retry_authorized": false,
+  "formal_database_rows_affected_at_stop": 0
+}

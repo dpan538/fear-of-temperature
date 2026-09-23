@@ -1,0 +1,9 @@
+source,interval,issue,count,unit,missing_record_count
+Historic Hansard bulk XML,1991-12-02..1991-12-13,alternative daily route recovered 321/322 frozen items; one malformed item has unresolved attribution,1,written-answer item,1 known unresolved item
+Commons 2004-Q4 cross-route seam,2004-10-05..2004-12-31,Historic route is Lords-only and ordinary Commons routes returned three consecutive 403s per host,43,observed Historic sitting-day index (not Commons target count),unknown Commons denominator
+Hansard API 2005–2010 answers,2005-01-01..2010-04-30,two answer targets remain unresolved after 83 saved-payload parser recoveries,2,answer-section target,2 known unresolved targets
+Hansard API 2005–2010 statement candidates,2005-01-01..2010-04-30,candidate anomalies remaining after child-level resolution,0,candidate detail,0; three in-scope child statements recovered and out-of-scope children excluded
+Commons archive gap answers,2010-05-01..2014-09-11,failed dated indexes,20,date index,unknown
+Commons archive gap answers,2010-05-01..2014-09-11,failed known page targets,225,HTML page target,unknown records within pages
+Commons archive gap answers,2010-05-01..2014-09-11,known page targets not requested after throttle stop,212,HTML page target,unknown records within pages
+Hansard API gap statements,2010-05-01..2014-09-11,one repeated cross-date container remains unresolved; Defence candidate excluded,1,candidate detail,eligibility unresolved

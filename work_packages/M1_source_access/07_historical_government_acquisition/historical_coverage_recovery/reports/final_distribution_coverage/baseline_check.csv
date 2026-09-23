@@ -1,0 +1,10 @@
+metric,expected,observed,match
+snapshot_at,,2026-09-22T13:40:04Z,
+all_documents,248035.0,248035,True
+policy_document,1055.0,1055,True
+ministerial_written_answer,244229.0,244229,True
+ministerial_written_statement,2751.0,2751,True
+text_segments,3668275.0,3668275,True
+missing_dates,,0,
+schema_policy_paper,,1054,
+schema_guidance_in_policy_source,,1,

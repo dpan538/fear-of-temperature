@@ -1,0 +1,17 @@
+{
+  "recorded_at": "2026-09-21T15:37:00Z",
+  "source": "Historic Hansard bulk XML",
+  "revision_type": "bounded_parser_identity_correction_before_resumed_formal_ingestion",
+  "previous_frozen_target_records": 117672,
+  "previous_reported_duplicates_removed": 18039,
+  "revised_frozen_target_records": 135761,
+  "target_change": 18089,
+  "reason": "Later XML volumes omit paragraph IDs for some records. The previous fallback identity used only date, department, genre and title, which merged distinct same-day same-title answers and allowed later derived JSON to overwrite earlier content. The revised identity adds a canonical question/response content fingerprint while retaining official paragraph IDs unchanged.",
+  "numbered_question_fix": "Anchored numeric and member-name prefixes are stripped before testing the official To ask opening; the detector still does not match To ask phrases occurring later in ministerial prose.",
+  "already_committed_before_detection": 41000,
+  "task_created_parser_artifacts_excluded": 16,
+  "valid_committed_records_retained": 40984,
+  "raw_zip_and_json_evidence_retained": true,
+  "full_temporary_smoke_rerun": false,
+  "resumed_segment_order_namespace_base": 1000000
+}

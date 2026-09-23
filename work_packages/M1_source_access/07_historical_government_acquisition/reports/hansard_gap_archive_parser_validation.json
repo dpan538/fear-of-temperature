@@ -1,0 +1,24 @@
+{
+  "validated_at": "2026-09-21T17:31:47Z",
+  "validation_scope": "bounded real-page checks followed by local parse of all successfully downloaded parents",
+  "sample_pages_checked": 12,
+  "sample_zero_record_pages_after_fix": 0,
+  "continuation_page_example": {
+    "raw_path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_publications_gap/text/2010/2010-06-10/100610w0006.htm",
+    "department": "ENERGY AND CLIMATE CHANGE",
+    "parsed_records": 3,
+    "method": "column anchor establishes the continued department before the first dpthd heading"
+  },
+  "department_heading_example": {
+    "raw_path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_publications_gap/text/2011/2011-07-18/110718w0003.htm",
+    "department": "ENVIRONMENT, FOOD AND RURAL AFFAIRS",
+    "parsed_records": 42,
+    "method": "exact official dpthd department section followed until the next department heading"
+  },
+  "successful_parent_pages_parsed": 626,
+  "eligible_answer_records": 11135,
+  "records_with_question_context": 11135,
+  "parse_errors": 0,
+  "derived_json_is_independent_http_response": false,
+  "validation_status": "passed_with_source_access_gaps_retained"
+}

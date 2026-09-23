@@ -1,0 +1,14 @@
+{
+  "generated_at": "2026-09-22T06:09:56Z",
+  "january_1988_first_sitting": "1988-01-11",
+  "daily_indexes_planned": 53,
+  "daily_indexes_successful": 53,
+  "daily_indexes_commons_supported": 10,
+  "daily_indexes_lords_only_not_commons": 43,
+  "frozen_item_targets": 322,
+  "item_requests_successful": 321,
+  "record_manifest_rows": 321,
+  "new_record_candidates": 321,
+  "unresolved_items": 1,
+  "host_stopped": false
+}

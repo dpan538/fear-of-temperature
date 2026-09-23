@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-09-22T13:37:31Z",
+  "backup": "work_packages/M1_source_access/07_historical_government_acquisition/historical_coverage_recovery/recovery/fear_temperature_government_content.before_commons_parlparse_targeted_gap_recovery_20260922_v1.duckdb",
+  "before": {
+    "documents": 239586,
+    "content_objects": 29838,
+    "content_versions": 29836,
+    "text_segments": 3623437,
+    "voice_attributions": 633827
+  },
+  "after": {
+    "documents": 248035,
+    "content_objects": 30238,
+    "content_versions": 30236,
+    "text_segments": 3668275,
+    "voice_attributions": 665843
+  },
+  "added": {
+    "documents": 8449,
+    "content_objects": 400,
+    "content_versions": 400,
+    "text_segments": 44838,
+    "voice_attributions": 32016
+  },
+  "parliament_candidates_new": 8448,
+  "committed_chunks": 18
+}

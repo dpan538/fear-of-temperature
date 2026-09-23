@@ -1,0 +1,46 @@
+source,series_scope,metric,numerator,denominator,unit,percent,note
+GOV.UK frozen DEFRA query,policy records,Index/enumeration completion,39,39,annual query partition,100.0,Complete as visible in the frozen current-DEFRA Search API query.
+GOV.UK frozen DEFRA query,policy records,Frozen-target processing,3025,3025,content object,100.0,Webpage and unique attachment objects; not publication records.
+GOV.UK frozen DEFRA query,policy records,Original acquisition,3021,3025,content object,99.86776859504133,Current post-retry download state.
+GOV.UK frozen DEFRA query,policy records,Text availability,3000,3025,content object,99.17355371900827,Successful extraction; not full-policy completeness.
+GOV.UK frozen DEFRA query,policy records,Formal ingestion completion,1020,1020,eligible publication record,100.0,All frozen publication records retained; object-level extraction gaps remain.
+GOV.UK historical organisation tags,policy records,Index/enumeration completion,88,88,organisation-year partition,100.0,"Only DTI, DECC, BERR and DETR GOV.UK tags; UK DoE/MAFF archive routes unresolved."
+GOV.UK historical organisation tags,policy records,Frozen-target processing,84,84,content object,100.0,34 webpages and 50 attachments.
+GOV.UK historical organisation tags,policy records,Original acquisition,84,84,content object,100.0,All frozen objects downloaded.
+GOV.UK historical organisation tags,policy records,Text availability,84,84,content object,100.0,Four downloaded PDFs were recovered with local page-mapped OCR; original bytes retained.
+GOV.UK historical organisation tags,policy records,Formal ingestion completion,34,34,eligible net-new publication record,100.0,One of 35 enumerated records already existed in the 06 batch.
+Historic Hansard bulk XML,answers + statements,Index/enumeration completion,319,320,planned volume,99.6875,Volume 200 failed; the number of records hidden by that failure is unknown.
+Historic Hansard bulk XML,answers + statements,Frozen-target processing,320,320,planned volume,100.0,All planned volume URLs attempted.
+Historic Hansard bulk XML,answers + statements,Original acquisition,319,320,volume,99.6875,Valid ZIP/XML volumes.
+Historic Hansard bulk XML,answers + statements,Text availability,319,320,volume,99.6875,"All valid acquired volumes parsed; denominator is volumes, not records."
+Historic Hansard bulk XML,answers + statements,Formal ingestion completion,135761,135761,eligible record from acquired volumes,100.0,Known eligible subset only; excludes unknown records in volume 200.
+Historic Hansard volume 200 daily repair,written answers,Index/enumeration completion,10,10,actual Commons sitting-day index,100.0,Official December calendar bounds the failed volume to 1991-12-02..13; weekends/non-sittings are excluded.
+Historic Hansard volume 200 daily repair,written answers,Frozen-target processing,322,322,written-answer item,100.0,All exact approved-department item links were requested once through the official daily route.
+Historic Hansard volume 200 daily repair,written answers,Original acquisition,322,322,written-answer item HTML,100.0,All item pages returned HTTP 200 and were retained.
+Historic Hansard volume 200 daily repair,written answers,Text availability,321,322,written-answer item,99.68944099378882,One page merges unrelated text inside the questioner contribution and remains unresolved.
+Historic Hansard volume 200 daily repair,written answers,Formal ingestion completion,321,321,eligible parsed record,100.0,All records with deterministic question/response attribution were formally committed.
+Hansard API 2005–2010 answers,written answers,Index/enumeration completion,64,64,calendar-month partition,100.0,794/794 sitting-day trees also downloaded.
+Hansard API 2005–2010 answers,written answers,Frozen-target processing,23990,23990,answer-section target,100.0,All frozen details attempted.
+Hansard API 2005–2010 answers,written answers,Original acquisition,23990,23990,answer-section target,100.0,All original payload requests completed; 85 were parser/detail-validation anomalies rather than transport failures.
+Hansard API 2005–2010 answers,written answers,Text availability,23988,23990,answer-section target,99.99166319299708,Eighty-three saved payloads were deterministically reparsed; Asda and Companies House remain unresolved.
+Hansard API 2005–2010 answers,written answers,Formal ingestion completion,23988,23988,eligible resolved record,100.0,Successful resolved subset only; not whole-source coverage.
+Hansard API 2005–2010 statement candidates,written statements,Index/enumeration completion,6,6,annual candidate-search partition,100.0,Candidate enumeration complete within the route.
+Hansard API 2005–2010 statement candidates,written statements,Frozen-target processing,7013,7013,candidate detail,100.0,Candidate unit is not an eligible statement record.
+Hansard API 2005–2010 statement candidates,written statements,Original acquisition,7006,7013,candidate detail,99.90018537002709,"Seven detail routes failed, but their saved official search parents remained available for bounded resolution."
+Hansard API 2005–2010 statement candidates,written statements,Candidate resolution,7013,7013,candidate detail,100.0,Failed containers were decomposed using official ContributionExtId evidence; out-of-scope children were excluded.
+Hansard API 2005–2010 statement candidates,written statements,Formal ingestion completion,846,846,eligible acquired statement record,100.0,Three newly verified child statements were committed; candidate and statement units remain distinct.
+Commons publications archive gap answers,written answers,Index/enumeration completion,618,638,dated sitting-day index,96.86520376175548,Twenty failed indexes leave an unknown record denominator.
+Commons publications archive gap answers,written answers,Frozen-target processing,851,1063,known HTML page target,80.05644402634054,212 known pages were not requested after the throttle stop.
+Commons publications archive gap answers,written answers,Original acquisition,626,1063,known HTML page target,58.88993414863594,225 attempted pages failed; failed indexes may hide additional unknown targets.
+Commons publications archive gap answers,written answers,Text availability,626,1063,known HTML page target,58.88993414863594,Successfully downloaded pages parsed without recorded parser errors.
+Commons publications archive gap answers,written answers,Formal ingestion completion,11135,11135,eligible record parsed from acquired pages,100.0,Known successful subset only; page and record units are not interchangeable.
+Hansard API gap statement candidates,written statements,Index/enumeration completion,5,5,annual candidate-search partition,100.0,Date-bounded candidate partitions completed.
+Hansard API gap statement candidates,written statements,Frozen-target processing,5676,5676,candidate detail,100.0,Candidate unit is not an eligible statement record.
+Hansard API gap statement candidates,written statements,Original acquisition,5674,5676,candidate detail,99.96476391825229,Two detail failures were retained; saved official search evidence resolved one as out-of-scope Defence.
+Hansard API gap statement candidates,written statements,Candidate resolution,5675,5676,candidate detail,99.98238195912614,One repeated cross-date header/container remains unresolved and is not inserted as a statement.
+Hansard API gap statement candidates,written statements,Formal ingestion completion,493,493,eligible acquired statement record,100.0,Ingestion denominator excludes non-eligible candidates.
+Questions/Statements API 2014–2026,answers + statements,Index/enumeration completion,62,62,department-year-genre partition,100.0,Complete as visible through 2026-09-21.
+Questions/Statements API 2014–2026,answers + statements,Frozen-target processing,65988,65988,derived record target,100.0,All records parsed from acquired parent list responses.
+Questions/Statements API 2014–2026,answers + statements,Original acquisition,174,174,parent API response,100.0,"Parent-response unit; never combined with the 65,988-record denominator."
+Questions/Statements API 2014–2026,answers + statements,Text availability,65988,65988,derived record target,100.0,Full text present in verified parent responses.
+Questions/Statements API 2014–2026,answers + statements,Formal ingestion completion,65988,65988,eligible derived record,100.0,Per-record JSON is derived evidence; no fictitious per-record HTTP status.

@@ -1,0 +1,15 @@
+{
+  "validated_at": "2026-09-21T17:03:00Z",
+  "scope": "one bounded real-record preparation check before formal modern ingestion",
+  "external_id": "written_question:89578",
+  "derived_record_path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/questions_statements_api/derived_records/ministerial_written_answer/2014/mrec_b8d475ece52f83886453.json",
+  "parent_raw_path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/questions_statements_api/lists/answers/63/2014/page_000000.json",
+  "parent_request_url": "https://questions-statements-api.parliament.uk/api/writtenquestions/questions?house=Commons&answeredWhenFrom=2014-09-12&answeredWhenTo=2014-12-31&answeringBodies=63&sessionStatus=Any&skip=0&take=500",
+  "parent_http_status": 200,
+  "prepared_documents": 1,
+  "prepared_segments": 2,
+  "prepared_question_context_segments": 1,
+  "prepared_government_response_segments": 1,
+  "per_record_http_response_claimed": false,
+  "validation_status": "passed"
+}

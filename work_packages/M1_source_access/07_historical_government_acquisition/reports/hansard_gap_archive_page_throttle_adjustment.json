@@ -1,0 +1,12 @@
+{
+  "recorded_at": "2026-09-21T16:58:00Z",
+  "status": "stopped_before_formal_database_ingestion",
+  "reason": "The first bounded page pass at a 0.75-second aggregate interval produced an unexpectedly high proportion of HTTP 403 responses. The network-only phase was stopped so the official source could be resumed more slowly without repeating verified successes.",
+  "frozen_unique_text_pages": 1063,
+  "fetch_metadata_files_at_stop": 444,
+  "verified_html_pages_retained_at_stop": 251,
+  "new_minimum_request_interval_seconds": 2.0,
+  "new_page_checkpoint_size": 200,
+  "verified_successes_redownloaded_on_resume": false,
+  "formal_database_rows_affected": 0
+}

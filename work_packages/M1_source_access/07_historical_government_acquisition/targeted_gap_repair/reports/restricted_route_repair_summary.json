@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-09-22T06:10:34Z",
+  "actual_requests": 6,
+  "request_statuses": {
+    "200": 0,
+    "403": 6,
+    "429": 0
+  },
+  "host_state": {
+    "publications.parliament.uk": {
+      "attempted": 3,
+      "consecutive_denials_at_stop": 3,
+      "stopped": true,
+      "minimum_interval_seconds": 3.0
+    },
+    "hansard.parliament.uk": {
+      "attempted": 3,
+      "consecutive_denials_at_stop": 3,
+      "stopped": true,
+      "minimum_interval_seconds": 3.0
+    }
+  },
+  "failed_index_units": 20,
+  "known_page_queue_units": 437,
+  "known_page_previously_failed": 225,
+  "known_page_previously_unrequested": 212,
+  "seam_denominator": "unknown"
+}

@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-09-21T21:16:34Z",
+  "database": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+  "database_before_sha256": "10605d8f1aa47a3bb830d71fc1b0d9f3d97324c1b0746391c8445ec2546d3167",
+  "database_after_sha256": "ebfa3680d18b961a432f1f7040d954c349d9318bf480d2b58fabc22308211f06",
+  "recovery_backup": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/07_historical_government_acquisition/recovery/fear_temperature_government_content.before_historical.8d26ec74c222.duckdb",
+  "recovery_backup_sha256": "8d26ec74c22214b6fae17ba32b2c3d01b24a4638fce8fae2a4508e5e2be01ec2",
+  "before_counts": {
+    "documents": 173191,
+    "content_objects": 29257,
+    "content_versions": 29255,
+    "text_segments": 3491039,
+    "voice_attributions": 501769
+  },
+  "after_counts": {
+    "documents": 239179,
+    "content_objects": 29431,
+    "content_versions": 29429,
+    "text_segments": 3622039,
+    "voice_attributions": 632769
+  },
+  "added_counts": {
+    "documents": 65988,
+    "content_objects": 174,
+    "content_versions": 174,
+    "text_segments": 131000,
+    "voice_attributions": 131000
+  },
+  "duplicate_and_link_checks": {
+    "document_source_external_duplicates": 0,
+    "document_canonical_url_duplicates": 0,
+    "content_object_url_duplicates": 0,
+    "orphan_segments": 0,
+    "orphan_voice_attributions": 0
+  },
+  "passed": true
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-09-22T13:53:00Z",
+  "source_preflight": {
+    "strict": true,
+    "ready": true,
+    "pass": 21,
+    "warn": 0,
+    "fail": 0
+  },
+  "panel_alignment": {
+    "verdict": "PASS",
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 5
+  },
+  "pdf_text": {
+    "auditable": true,
+    "minimum_required_pt": 5.0,
+    "minimum_found_pt": 6.2,
+    "below_minimum_count": 0
+  },
+  "rendered_collision_audit": {
+    "strict": true,
+    "verdict": "PASS",
+    "fail": 0,
+    "warn": 0
+  },
+  "visual_inspection": {
+    "completed": true,
+    "result": "PASS",
+    "note": "Panel titles, year ticks, footnote and legend were revised after the first render; the final image has no visible overlap or clipped annotation."
+  }
+}

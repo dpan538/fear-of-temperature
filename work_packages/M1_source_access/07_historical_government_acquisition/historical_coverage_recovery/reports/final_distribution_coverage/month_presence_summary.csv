@@ -1,0 +1,4 @@
+series,total_month_slots,months_with_records,months_without_records,interpretation
+policy_document,465,229,236,Database observation only; a zero month is not automatically a completed source partition.
+ministerial_written_answer,465,421,44,Database observation only; a zero month is not automatically a completed source partition.
+ministerial_written_statement,465,257,208,Database observation only; a zero month is not automatically a completed source partition.

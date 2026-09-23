@@ -14,6 +14,11 @@ Future decision records may cover:
 
 Each record should identify the date, decision, rationale, evidence or constraints, consequences and superseded decisions where applicable.
 
+Current acquisition-stage decision:
+
+- [2026-09-21: historical policy and separate ministerial series](2026-09-21-historical-policy-and-ministerial-series.md): approved related-department historical backfill plus separately counted ministerial answers/statements; see the linked execution handoff.
+- [2026-09-21: single ingestion, extraction repair and stage boundaries](2026-09-21-single-ingestion-and-stage-boundaries.md): use the existing 06 database, report fixed-target acquisition progress, repair extraction defects and perform consolidated final acceptance; defer cleaning and vector work.
+
 Workspace decisions implemented on 16 September 2026 are recorded in:
 
 - [`../MIGRATION_INVENTORY.md`](../MIGRATION_INVENTORY.md): additive rebuild and protected assets;

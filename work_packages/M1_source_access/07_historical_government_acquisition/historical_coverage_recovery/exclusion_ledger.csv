@@ -1,0 +1,5 @@
+target_id,disposition,reason,raw_evidence_retained,counted_as_recovered
+90ab8a69-5a83-41d5-8761-35c4051f3a77,excluded_ambiguous_text_or_attribution,Asda: saved navigator/detail evidence resolves to inconsistent department attribution,True,False
+06071282000011,excluded_ambiguous_text_or_attribution,Asda: saved detail contains no separable question/response text,True,False
+historic-item_4d25e8510d84ee46f2e3,excluded_ambiguous_text_or_attribution,Self-regulating Bodies: mixed text cannot be reliably separated or attributed,True,False
+1009068000001,excluded_non_includable_container,Cross-date Written Ministerial Statements container; identified children retained separately,True,False

@@ -1,0 +1,13 @@
+{
+  "recorded_at": "2026-09-21T16:10:00Z",
+  "status": "stopped_not_restarted",
+  "formal_progress_credit": 0,
+  "full_smoke_rerun_authorized": false,
+  "diagnostic_artifacts_retained": [
+    "/private/tmp/historical_ingest_smoke.aborted_20260921T1334Z.duckdb",
+    "/private/tmp/historical_ingest_smoke.duckdb",
+    "/private/tmp/historical_ingest_smoke_recovery/fear_temperature_government_content.before_historical.8d26ec74c222.duckdb",
+    "/private/tmp/historical_ingest_smoke_recovery_v2/fear_temperature_government_content.before_historical.8d26ec74c222.duckdb"
+  ],
+  "note": "No temporary full-corpus smoke ingestion is running in the managed acquisition sessions. These diagnostic copies are not authoritative and are excluded from formal ingestion counts. A second full smoke pass will not be run."
+}

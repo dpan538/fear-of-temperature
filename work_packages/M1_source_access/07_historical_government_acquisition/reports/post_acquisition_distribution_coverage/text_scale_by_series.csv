@@ -1,0 +1,4 @@
+series,unique_segment_count,unique_character_count,record_count,record_associated_segment_count,record_associated_character_count,count_note
+ministerial_written_answer,627397,184124378,235420,627397,184124378,Unique segments measure stored text; record-associated totals can repeat a shared policy object across linked publication records.
+ministerial_written_statement,5372,4872256,2705,5372,4872256,Unique segments measure stored text; record-associated totals can repeat a shared policy object across linked publication records.
+policy_document,2989270,151355178,1054,2989274,151355474,Unique segments measure stored text; record-associated totals can repeat a shared policy object across linked publication records.

@@ -1,0 +1,9 @@
+{
+  "generated_at": "2026-09-22T13:01:50Z",
+  "frozen_files": 816,
+  "attempted_or_resumed": 816,
+  "acquired": 816,
+  "failed": 0,
+  "unrequested_after_stop": 0,
+  "host_stopped": false
+}

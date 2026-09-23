@@ -1,0 +1,26 @@
+{
+  "generated_at": "2026-09-22T06:12:11Z",
+  "candidate_records": 407,
+  "before": {
+    "documents": 239262,
+    "content_objects": 29514,
+    "content_versions": 29512,
+    "text_segments": 3622622,
+    "voice_attributions": 633012
+  },
+  "after": {
+    "documents": 239586,
+    "content_objects": 29838,
+    "content_versions": 29836,
+    "text_segments": 3623437,
+    "voice_attributions": 633827
+  },
+  "added": {
+    "documents": 324,
+    "content_objects": 324,
+    "content_versions": 324,
+    "text_segments": 815,
+    "voice_attributions": 815
+  },
+  "committed_chunks": 2
+}

@@ -1,0 +1,10 @@
+metric,before,after,delta,unit,note
+documents,248035,248035,0,record,Formal 06 database was opened read-only; no current-tranche original met insertion conditions.
+policy_records,1055,1055,0,record,Formal 06 database was opened read-only; no current-tranche original met insertion conditions.
+written_answers,244229,244229,0,record,Formal 06 database was opened read-only; no current-tranche original met insertion conditions.
+written_statements,2751,2751,0,record,Formal 06 database was opened read-only; no current-tranche original met insertion conditions.
+text_segments,3668275,3668275,0,text segment,Formal 06 database was opened read-only; no current-tranche original met insertion conditions.
+reviewed_existing_originals,0,5,5,existing policy original,Versioned analytical evidence only; not a database insert.
+exact_month_reassignments,0,3,3,date mapping,Used only in research-date view.
+year_only_dates_withheld,0,2,2,date mapping,Not assigned to a month.
+blank_months_made_nonzero,31,31,0,month,No evidence-sufficient new full original acquired.

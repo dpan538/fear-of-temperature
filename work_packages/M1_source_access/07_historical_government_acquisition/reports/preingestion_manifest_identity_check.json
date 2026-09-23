@@ -1,0 +1,9 @@
+{
+  "checked_at": "2026-09-21T17:35:00Z",
+  "historic": {"rows": 135761, "unique_external_ids": 135761, "duplicate_external_ids": 0, "unique_canonical_urls": 135761, "duplicate_canonical_urls": 0},
+  "hansard_2005_2010": {"rows": 24748, "unique_external_ids": 24748, "duplicate_external_ids": 0, "unique_canonical_urls": 24748, "duplicate_canonical_urls": 0},
+  "hansard_gap_2010_2014_acquired_subset": {"rows": 11628, "unique_external_ids": 11628, "duplicate_external_ids": 0, "unique_canonical_urls": 11628, "duplicate_canonical_urls": 0},
+  "questions_statements_2014_2026": {"rows": 65988, "unique_external_ids": 65988, "duplicate_external_ids": 0, "unique_canonical_urls": 65988, "duplicate_canonical_urls": 0},
+  "cross_manifest_external_id_overlaps": 0,
+  "passed": true
+}

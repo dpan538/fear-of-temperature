@@ -1,0 +1,35 @@
+{
+  "reviewed_at": "2026-09-22T06:23:00Z",
+  "pdf_text_minimum_pt": 5.5,
+  "figures": {
+    "01_annual_distribution": {
+      "minimum_text_pt": 5.8,
+      "below_minimum_count": 0,
+      "collision_audit": "PASS",
+      "visual_review": "PASS"
+    },
+    "02_year_month_heatmaps": {
+      "minimum_text_pt": 5.7,
+      "below_minimum_count": 0,
+      "collision_audit": "PASS",
+      "visual_review": "PASS"
+    },
+    "03_collection_coverage_status": {
+      "minimum_text_pt": 5.5,
+      "below_minimum_count": 0,
+      "collision_audit": "PASS",
+      "visual_review": "PASS"
+    },
+    "04_department_annual_composition": {
+      "minimum_text_pt": 5.5,
+      "below_minimum_count": 0,
+      "collision_audit": "PASS",
+      "visual_review": "PASS"
+    }
+  },
+  "notes": [
+    "All four PDFs passed strict rendered collision audit with zero FAIL and zero WARN findings.",
+    "All four PNG exports were inspected at final layout; labels, legends, scales and cutoff notes are legible.",
+    "Coverage status remains categorical and is not encoded as record-count zero."
+  ]
+}

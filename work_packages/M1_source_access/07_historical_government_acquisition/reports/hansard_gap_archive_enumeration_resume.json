@@ -1,0 +1,9 @@
+{
+  "recorded_at": "2026-09-21T16:24:00Z",
+  "status": "resumed_from_verified_per_date_cache",
+  "interruption_reason": "The official archive uses both an additional cm201012 directory for part of 2010–2011 and, on some sitting days, only the comprehensive /indexes/dxYYMMDD.html route rather than a dedicated written-answer index. Continuing either diagnostic run unchanged would have produced avoidable invalid requests.",
+  "change": "Added cm201012 as a bounded session candidate, added the comprehensive daily-index route after the dedicated route, restricted its parser to the Written Answers section, and retained a verified-cache preflight so successful HTML and fetch metadata are reused before unresolved dates are tried.",
+  "successful_pages_redownloaded_on_resume": false,
+  "formal_database_rows_affected": 0,
+  "scope_changed": false
+}

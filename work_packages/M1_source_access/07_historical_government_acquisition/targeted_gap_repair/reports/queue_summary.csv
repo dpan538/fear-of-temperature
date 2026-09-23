@@ -1,0 +1,8 @@
+queue,unit,expected,repair_pass_attempted,recovered_or_resolved,excluded,already_present,unresolved,genuinely_new_documents,note
+Saved Hansard answer payload parser repair,answer target,85,85,83,0,0,2,83,All original payloads were HTTP 200; Asda and Companies House remain unresolved after normal rendered-page 403s.
+Failed written-statement candidates,candidate container,9,9,3,5,0,1,3,Three in-scope child statements use official ContributionExtId; one repeated cross-date container remains unresolved.
+Historic Hansard volume 200 daily repair,written-answer item,322,322,321,0,0,1,321,Ten actual Commons sitting days; one malformed official page has unresolved attribution.
+Historic policy OCR,downloaded PDF file,4,4,4,0,0,0,0,Existing objects/versions retained; 340 page segments added in a new OCR extraction lineage.
+2010–2014 failed date indexes,date index,20,1,0,0,0,20,0,Corrected normal route returned 403; host stopped at three consecutive denials across bounded tasks. Record denominator remains unknown.
+2010–2014 known page repair queue,archive HTML page,437,1,0,0,0,437,0,225 were previously failed and 212 unrequested; page units are not missing-document counts.
+2004-Q4 Commons cross-route seam,date range with unknown target denominator,unknown,2,0,0,0,1,0,Forty-three Historic day indexes were Lords-only; two normal Commons route probes returned 403. No Lords material admitted.

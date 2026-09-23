@@ -1,0 +1,14 @@
+identity,action,observed_result,original_bytes_saved,hash_recorded,formal_new_document,reason_or_boundary,next_route
+Cm 1200,Reused archived Internet Archive metadata and checked official catalogue,Access-restricted 291-page scan; no public original,0,0,0,Access control respected,TNA copy request or authorised ProQuest consultation
+Cm 2426,Checked command-paper catalogue and public web results,Title/ISBN confirmed; full text not found,0,0,0,Catalogue is not complete policy text,TNA copy request or authorised ProQuest consultation
+Cm 2427,Checked official citation and library holding,Full 80-page original not obtained; 17-page UNFCCC item is summary only,0,0,0,Do not substitute summary,Barking Library or TNA copy request
+Cm 2429,Checked Hansard announcement and NBS catalogue,1994-01-25 policy identity confirmed; full text not obtained,0,0,0,Additional issuer-scope review needed,TNA copy request after scope check
+Cm 3040,Checked NAO attribution and NBS catalogue,1995-12 command-paper identity confirmed; full text not obtained,0,0,0,NAO comparison is not original,TNA copy request or authorised ProQuest consultation
+NC2 1997,Checked Hansard publication date and UNFCCC indexed file,81-page rendered PDF visible to search but direct request returned HTML access page,0,0,0,HTTP 200 was not PDF acquisition,Normal institutional repository or library access
+Cm 3587,Checked later official air-quality strategy historical citation,1997-03 identity found; no matching complete 1997 original,0,0,0,Later 2007 edition is not 1997 original,TNA/ProQuest copy request
+Cm 4345,Reused archived Internet Archive metadata and checked parliamentary citation,Access-restricted 96-page scan; no public original,0,0,0,Access control respected,TNA copy request or authorised ProQuest consultation
+Cm 4548,Checked later official air-quality strategy historical citation,2000-01 identity found; no matching complete 2000 original,0,0,0,Later 2007 edition is not 2000 original,TNA/ProQuest copy request
+Cm 4913,Reused prior UKGWA access record and checked public-library holdings,Archived endpoint previously blocked; 209-page print copies held,0,0,0,No repeat WAF request,Redbridge or Havering physical/copy request
+Forestry Commission 1991,HEAD request to official annual-report PDF at 2026-09-23T01:42:05Z,HTTP 403 text/html; official appendix may reproduce statement,0,0,0,Issuer scope not established and access restricted,Resolve scope then lawful 13-page standalone copy
+Cm 2235,Formal DB identity check,Existing 1993-03-25 DTI policy record doc_818f352602971a732e26,0,0,0,Deduplicated existing original,No action
+Cm 6467,Formal DB identity check,Existing 2005-03 original doc_58c8b99baa34eb825cbb and prior research date mapping,0,0,0,Deduplicated existing original,No action

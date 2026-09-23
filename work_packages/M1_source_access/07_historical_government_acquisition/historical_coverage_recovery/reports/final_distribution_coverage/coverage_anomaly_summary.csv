@@ -1,0 +1,9 @@
+source,interval,issue,count,unit,missing_record_count
+Historic Hansard bulk XML,1991-12-02..1991-12-13,alternative daily route recovered 321/322 frozen items; one malformed item has unresolved attribution,1,written-answer item,1 known unresolved item
+Commons 2004-Q4 cross-route seam,2004-10-05..2004-12-31,bounded mirror recovery completed where wrans/wms files exist; expected date×genre units with no file remain unknown,8,date × genre target,unknown for residual units; not a document count
+Hansard API 2005–2010 answers,2005-01-01..2010-04-30,Companies House recovered from the bounded mirror; Asda excluded because text/department attribution cannot be separated reliably,1,excluded ambiguous answer target,0 access failures; one non-usable ambiguous target retained as exclusion
+Hansard API 2005–2010 statement candidates,2005-01-01..2010-04-30,candidate anomalies remaining after child-level resolution,0,candidate detail,0; three in-scope child statements recovered and out-of-scope children excluded
+Commons archive gap answers,2010-05-01..2014-09-11,failed dated indexes without a matching bounded mirror wrans file after recovery,12,date index,unknown
+Commons archive gap answers,2010-05-01..2014-09-11,baseline failed known page targets; all affected dates obtained as complete alternative XML files,225,baseline HTML page target,0 residual affected dates in the chosen mirror; page and record units remain distinct
+Commons archive gap answers,2010-05-01..2014-09-11,baseline known pages not requested; all affected dates obtained as complete alternative XML files,212,baseline HTML page target,0 residual affected dates in the chosen mirror; page and record units remain distinct
+Hansard API gap statements,2010-05-01..2014-09-11,one repeated cross-date container remains unresolved; Defence candidate excluded,1,candidate detail,eligibility unresolved

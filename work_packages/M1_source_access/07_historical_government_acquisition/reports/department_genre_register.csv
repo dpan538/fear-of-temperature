@@ -1,0 +1,13 @@
+period,official_label_or_body,series,mapping_status,scope_note
+1988–1992,ENERGY,Commons answers,verified official XML group,Energy department.
+1988–1997,ENVIRONMENT,Commons answers,verified official XML group,UK department group; not Northern Ireland DoE.
+1988–2001,"AGRICULTURE, FISHERIES AND FOOD",Commons answers,verified official XML group,MAFF predecessor remit.
+1988–2007,TRADE AND INDUSTRY,policy + Commons,verified GOV.UK ID / official Hansard label,Broad DTI material; not all records are climate-specific.
+1997–2001,"ENVIRONMENT, TRANSPORT AND THE REGIONS",Commons answers,verified official XML group,Mixed environment/transport/regional remit.
+2001–2026,"Department for Environment, Food and Rural Affairs",policy + Commons,verified official labels/body 13,DEFRA lineage; current API starts 2014-09-12.
+2007–2009,"Business, Enterprise and Regulatory Reform",policy + Commons,verified GOV.UK ID / Hansard label,Broad business mixture explicitly retained.
+2008–2016,Department of Energy and Climate Change,policy + Commons,verified GOV.UK ID / body 63,2005–2010 Hansard overlap and 2014–2016 API.
+2016–2023,"Department for Business, Energy and Industrial Strategy",Commons,verified body 201,Broad business/energy mixture; no topic filtering.
+2020–2022,COP26,Commons,verified body 210,Time-limited climate body.
+2023–cutoff,Department for Energy Security and Net Zero,Commons,verified body 215,2026 partial through cutoff.
+pre-2001 policy,UK DoE / MAFF GOV.UK policy index,policy,unresolved route,No verified searchable UK organisation identifier; NI DoE not substituted.

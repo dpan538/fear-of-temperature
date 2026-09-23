@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-09-22T12:34:38Z",
+  "target_dates": 388,
+  "enumerated_files": 816,
+  "dates_with_files": 373,
+  "dates_without_files": 15,
+  "by_kind": {
+    "wms": 55,
+    "wrans": 761
+  }
+}

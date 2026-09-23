@@ -1,0 +1,19 @@
+{
+  "generated_at": "2026-09-21T15:36:41Z",
+  "excluded_documents": 16,
+  "excluded_segments": 37,
+  "raw_evidence_retained": true,
+  "shared_volume_objects_retained": true,
+  "transaction_committed": true,
+  "committed_fk_stages": [
+    "voice_attributions",
+    "text_segments",
+    "document_content_objects",
+    "document_organisations",
+    "document_version_raw_links",
+    "document_versions",
+    "enumeration_records",
+    "raw_records",
+    "documents"
+  ]
+}

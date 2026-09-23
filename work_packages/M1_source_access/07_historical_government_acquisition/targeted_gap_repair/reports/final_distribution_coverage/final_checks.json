@@ -1,0 +1,42 @@
+{
+  "generated_at": "2026-09-22T06:20:34Z",
+  "database_opened_read_only": true,
+  "database_stat_before": {
+    "size": 3497013248,
+    "mtime_ns": 1790057531314913825
+  },
+  "database_stat_after": {
+    "size": 3497013248,
+    "mtime_ns": 1790057531314913825
+  },
+  "database_stat_unchanged": true,
+  "baseline_matches_expected": true,
+  "annual_totals": {
+    "ministerial_written_answer": 235824,
+    "ministerial_written_statement": 2708,
+    "policy_document": 1054
+  },
+  "quarter_totals": {
+    "ministerial_written_answer": 235824,
+    "ministerial_written_statement": 2708,
+    "policy_document": 1054
+  },
+  "month_totals": {
+    "ministerial_written_answer": 235824,
+    "ministerial_written_statement": 2708,
+    "policy_document": 1054
+  },
+  "decade_totals": {
+    "ministerial_written_answer": 235824,
+    "ministerial_written_statement": 2708,
+    "policy_document": 1054
+  },
+  "time_reconciliation_passed": true,
+  "coverage_rate_denominators_valid": true,
+  "coverage_status_rows": 4185,
+  "coverage_status_expected_rows": 4185,
+  "coverage_status_grid_complete": true,
+  "figures_exist": true,
+  "full_database_hash_rerun": false,
+  "passed": true
+}

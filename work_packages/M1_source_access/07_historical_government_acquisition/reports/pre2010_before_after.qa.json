@@ -1,0 +1,20 @@
+{
+  "figure_contract": {
+    "conclusion": "Historical expansion materially increases pre-2010 coverage while source regimes remain discontinuous.",
+    "comparison": "annual or quarterly counts by independent series",
+    "data_source": "existing 06 DuckDB after incremental ingestion",
+    "graphic_form": "aligned small multiples / restrained bars",
+    "backend": "Python matplotlib",
+    "width_mm": 183,
+    "minimum_font_pt": 6.2,
+    "exports": [
+      "SVG",
+      "PDF",
+      "PNG"
+    ]
+  },
+  "data_sha256": "fb7ac4a3054e890421db1911b481ad33ab0984e2bd6275b433e635cefe136a1e",
+  "text_outside_figure": [],
+  "collision_audit_passed": true,
+  "editable_text_svg": true
+}

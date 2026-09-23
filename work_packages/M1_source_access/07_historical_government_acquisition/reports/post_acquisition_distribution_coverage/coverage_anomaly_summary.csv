@@ -1,0 +1,8 @@
+source,interval,issue,count,unit,missing_record_count
+Historic Hansard bulk XML,1991-12-02..1991-12-13,HTTP 200 invalid ZIP for volume 200,1,volume,unknown
+Hansard API 2005–2010 answers,2005-01-01..2010-04-30,frozen answer targets failed validation/acquisition,85,answer-section target,85 known targets
+Hansard API 2005–2010 statement candidates,2005-01-01..2010-04-30,candidate detail anomalies,7,candidate detail,eligibility unresolved; not added to answer failures
+Commons archive gap answers,2010-05-01..2014-09-11,failed dated indexes,20,date index,unknown
+Commons archive gap answers,2010-05-01..2014-09-11,failed known page targets,225,HTML page target,unknown records within pages
+Commons archive gap answers,2010-05-01..2014-09-11,known page targets not requested after throttle stop,212,HTML page target,unknown records within pages
+Hansard API gap statements,2010-05-01..2014-09-11,unresolved candidate details,2,candidate detail,eligibility unresolved

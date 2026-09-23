@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-09-22T13:07:44Z",
+  "parsed_in_scope_records": 10853,
+  "already_present": 2405,
+  "new_recovered_identity": 8448,
+  "duplicate_within_mirror_files": 0,
+  "source_files_parse_failed": 0,
+  "by_genre": {
+    "ministerial_written_answer": 10810,
+    "ministerial_written_statement": 43
+  }
+}

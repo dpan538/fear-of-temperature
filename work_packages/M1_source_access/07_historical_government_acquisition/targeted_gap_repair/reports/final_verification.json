@@ -1,0 +1,27 @@
+{
+  "generated_at": "2026-09-22T06:28:35Z",
+  "database": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+  "manifest_records": 407,
+  "manifest_records_present": 407,
+  "manifest_records_missing": [],
+  "linked_enumeration_records": 407,
+  "linked_content_records": 407,
+  "voice_attribution_roles": {
+    "quoted_speaker": 1058
+  },
+  "segment_semantic_roles": {
+    "ministerial_written_answer:question_context": 447,
+    "ministerial_written_answer:government_response": 608,
+    "ministerial_written_statement:government_response": 3
+  },
+  "source_external_duplicate_groups": 0,
+  "ocr_targets": 4,
+  "ocr_targets_extraction_success": 4,
+  "ocr_segments": 340,
+  "missing_record_evidence_paths": [],
+  "record_evidence_hash_mismatches": [],
+  "all_deltas_reconcile": true,
+  "distribution_checks_passed": true,
+  "full_database_hash_rerun": false,
+  "passed": true
+}

@@ -1,0 +1,10 @@
+{
+  "recorded_at": "2026-09-21T16:51:07Z",
+  "reason": "Official frozen list responses already contain complete text for every enumerated record; redundant per-record detail acquisition was stopped after its first checkpoint.",
+  "frozen_target_records": 65988,
+  "preserved_detail_request_status_rows": 1000,
+  "preserved_successful_detail_responses": 985,
+  "preserved_failed_detail_responses": 15,
+  "preserved_status_manifest": "work_packages/M1_source_access/07_historical_government_acquisition/manifests/modern_detail_request_status_preserved.csv",
+  "formal_database_rows_affected": 0
+}

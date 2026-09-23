@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-09-22",
+  "backend": "Python/matplotlib only",
+  "source_preflight": {
+    "strict": true,
+    "ready": true,
+    "pass": 21,
+    "warn": 0,
+    "fail": 0
+  },
+  "figures": [
+    {
+      "figure": "01_annual_distribution",
+      "alignment": "PASS",
+      "minimum_pdf_text_pt": 5.8,
+      "collision_audit": "PASS",
+      "visual_inspection": "PASS",
+      "note": "Three independent y-axes are explicit; partial opening and closing years are shaded."
+    },
+    {
+      "figure": "02_year_month_heatmaps",
+      "alignment": "PASS",
+      "minimum_pdf_text_pt": 5.7,
+      "collision_audit": "PASS",
+      "visual_inspection": "PASS",
+      "note": "Each genre uses an independently labelled log scale; month and year labels remain legible."
+    },
+    {
+      "figure": "03_collection_coverage_status",
+      "alignment": "NOT APPLICABLE (single plot area)",
+      "minimum_pdf_text_pt": 5.2,
+      "collision_audit": "PASS",
+      "visual_inspection": "PASS",
+      "note": "Categorical statuses and the volume-200 annotation are legible; unsupported and confirmed-zero states are visibly distinct."
+    },
+    {
+      "figure": "04_department_annual_composition",
+      "alignment": "PASS",
+      "minimum_pdf_text_pt": 5.0,
+      "collision_audit": "PASS",
+      "visual_inspection": "PASS",
+      "note": "Normalized department shares, source-specific legend labels and fractional policy-count note are legible."
+    }
+  ],
+  "overall": "PASS"
+}

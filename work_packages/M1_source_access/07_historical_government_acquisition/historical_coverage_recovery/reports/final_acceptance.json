@@ -1,0 +1,63 @@
+{
+  "checked_at": "2026-09-22T13:54:00Z",
+  "database": {
+    "documents": 248035,
+    "policy_records": 1055,
+    "ministerial_written_answers": 244229,
+    "ministerial_written_statements": 2751,
+    "text_segments": 3668275,
+    "duplicate_source_external_groups": 0,
+    "duplicate_canonical_url_groups": 0,
+    "orphan_text_segments": 0,
+    "orphan_voice_attributions": 0
+  },
+  "incremental_recovery": {
+    "documents_added": 8449,
+    "written_answers_added": 8405,
+    "written_statements_added": 43,
+    "policy_records_added": 1,
+    "text_segments_added": 44838,
+    "expected_mirror_ids_present": 8448,
+    "expected_mirror_ids_missing": 0,
+    "excluded_records_inserted": 0,
+    "commit_chunks": 18
+  },
+  "source_units": {
+    "target_dates": 388,
+    "dates_with_any_enumerated_file": 373,
+    "xml_files_frozen": 816,
+    "xml_files_acquired": 816,
+    "xml_files_failed": 0,
+    "xml_files_unrequested_after_stop": 0,
+    "parsed_in_scope_records": 10853,
+    "already_present_records": 2405,
+    "new_stable_identities": 8448,
+    "date_genre_units": 431,
+    "date_genre_units_complete": 411,
+    "date_genre_units_unknown": 20
+  },
+  "time_tables": {
+    "annual_quarterly_monthly_decade_reconcile": true,
+    "monthly_coverage_rows": 1395,
+    "quarterly_coverage_rows": 465,
+    "coverage_grid_unique": true,
+    "database_unchanged_during_read_only_reporting": true
+  },
+  "figure_5": {
+    "strict_source_preflight": "PASS",
+    "panel_alignment": "PASS",
+    "minimum_pdf_text_pt": 6.2,
+    "rendered_collision_audit": "PASS",
+    "visual_inspection": "PASS"
+  },
+  "scope_guards": {
+    "proposal_modified": false,
+    "cleaning_run": false,
+    "vectorisation_run": false,
+    "model_analysis_run": false,
+    "modern_corpus_expanded": false,
+    "full_database_hash_rerun": false,
+    "commit_or_push_performed": false
+  },
+  "passed": true
+}
