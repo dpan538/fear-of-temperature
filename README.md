@@ -3,11 +3,24 @@
 ### Computational analysis of policy, media and public climate emotions
 
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![Status: validated synthetic demo](https://img.shields.io/badge/status-validated%20synthetic%20demo-2ea44f)](docs/WORKSPACE_VALIDATION.md)
+[![Status: corpus acquisition](https://img.shields.io/badge/status-corpus%20acquisition-2ea44f)](docs/PROJECT_LOG.md)
 ![Platform: macOS Apple Silicon](https://img.shields.io/badge/validated-macOS%20Apple%20Silicon-555555?logo=apple)
 ![License: not yet assigned](https://img.shields.io/badge/license-not%20yet%20assigned-lightgrey)
 
 ## 30-second overview
+
+**Current direction:** build an international temporal record of climate and warming discourse,
+its affective associations and macro feedback across government, media and public sources.
+Fear is a later evidence-linked interpretation, not an early collection filter. Prioritise real event and
+documentary evidence across months and research checkpoints, with shared knowledge, memory
+and culture as the interpretive perspective. Follow
+[`docs/PROJECT_DIRECTION.md`](docs/PROJECT_DIRECTION.md) for priorities and stopping rules;
+exhaustive national coverage is not a prerequisite for advancing the research.
+
+**Current stage (4 October):** the publication interval is fixed at 1 January 1988–21 September
+2026. Audit source/genre distributions, provenance quality and structural/numerical defects.
+Climate relevance and emotion interpretation belong to later analysis, not current data-quality
+gates. Retrieval and report dates may advance without extending the study endpoint.
 
 | Question | Answer |
 |---|---|
@@ -15,7 +28,7 @@
 | **What works now?** | A reproducible Python/NLP workspace, real local model inference, provenance-aware ingestion, retrieval, candidate emotion/relation/topic analysis, temporal diagnostics, notebooks, tests and exportable figures. |
 | **Can I use it?** | Yes, for the verified synthetic demonstration and as research infrastructure. It does not yet contain the final corpus or empirical thesis findings. |
 | **What should I run first?** | `./scripts/bootstrap.sh`, then `.venv/bin/fear-temperature-doctor --full-models`. |
-| **Where are the results?** | Regenerable outputs are written to ignored `outputs/demo/`; validation evidence is in [`docs/WORKSPACE_VALIDATION.md`](docs/WORKSPACE_VALIDATION.md). |
+| **Where are the results?** | Real acquisition evidence is in `work_packages/M1_source_access/` and [`docs/PROJECT_LOG.md`](docs/PROJECT_LOG.md); the synthetic demo and its validation remain separately documented. |
 
 ## Contents
 
@@ -66,15 +79,21 @@ to `outputs/demo/`. The main notebooks are
 
 ## Project context and research questions
 
-The planned corpus compares English-language policy, media and public discourse associated
-with the United States, European settings, Australia and New Zealand during 1988–2026; earlier
-material may provide context only where coverage supports it. The project asks:
+The corpus combines English-language policy, media and public discourse across regions
+during 1988–2026 to study temporal macro feedback. UK, US, EU and Australian government
+acquisition is the current focus; additional Ireland/New Zealand acquisition is deferred.
+Source and region remain identifiable, while the primary questions concern the international
+record rather than compulsory national comparisons. The project asks:
 
 1. When do the three discourse roles lead, lag, move together or appear to feed back?
-2. How do fear, worry and anticipated harm vary by holder, target, horizon, quotation,
-   negation, role and period?
-3. How are causes, threatened outcomes, blame and response duties attributed around physical,
-   institutional and communication events?
+2. What changes around independently dated physical, scientific and policy events?
+3. How are fear expressions organised through similarity structures and original passages?
+
+RQ1/RQ2 take priority. Acquisition, cleaning and validated climate-topic similarity retrieval
+precede temporal estimation. Early role/time measures concern documented attention and
+affective or risk associations where valid; they do not directly score population fear.
+RQ3 returns to traceable passages to interpret fear, its targets and attributed causes.
+Available experimental modules do not add compulsory research tasks.
 
 Publisher, quoted speaker and emotion holder remain separate; direct heat danger and
 longer-term concern are separately labelled. Textual emotion is not a population diagnosis.
@@ -151,6 +170,8 @@ interpretation limits are recorded in
 
 | Document | Purpose |
 |---|---|
+| [Current project direction](docs/PROJECT_DIRECTION.md) | Global temporal objective, gap-recovery priorities and stopping rules |
+| [Project log](docs/PROJECT_LOG.md) | Real acquisition progress, decisions and remaining work |
 | [Architecture](docs/ARCHITECTURE.md) | Pipeline, modules, provenance, denominators and storage boundaries |
 | [Environment](docs/ENVIRONMENT.md) | Installation, model cache, CPU/MPS selection and troubleshooting |
 | [Data, models and governance](docs/DATA_MODELS_AND_GOVERNANCE.md) | Model register, licences, data access and interpretation limits |
