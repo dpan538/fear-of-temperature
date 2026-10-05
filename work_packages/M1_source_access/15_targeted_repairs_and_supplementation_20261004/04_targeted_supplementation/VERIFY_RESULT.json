@@ -1,0 +1,87 @@
+{
+  "checked_at_utc": "2026-10-04T09:42:43.755024+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "frozen manifest content hash",
+      "passed": true
+    },
+    {
+      "check": "source population accounts for targets and no-links",
+      "passed": true
+    },
+    {
+      "check": "unique Work and selected Item identities",
+      "passed": true
+    },
+    {
+      "check": "all consecutive 2015 months retained",
+      "passed": true
+    },
+    {
+      "check": "published dates stay in declared tranche",
+      "passed": true
+    },
+    {
+      "check": "monthly route counts reconcile",
+      "passed": true
+    },
+    {
+      "check": "current Task4 acquired/body counts are zero",
+      "passed": true
+    },
+    {
+      "check": "A leads remain provisional without invented dates",
+      "passed": true
+    },
+    {
+      "check": "no semantic selection or database writes in contract",
+      "passed": true
+    },
+    {
+      "check": "15 GiB floor preserved",
+      "passed": true
+    },
+    {
+      "check": "frozen metadata inputs unchanged",
+      "passed": true
+    },
+    {
+      "check": "hashed selected metadata/composition inputs unchanged",
+      "passed": true
+    },
+    {
+      "check": "local helper syntax",
+      "passed": true
+    },
+    {
+      "check": "default runner performs no download",
+      "passed": true
+    },
+    {
+      "check": "execute flag without reviewed release fails closed",
+      "passed": true
+    },
+    {
+      "check": "absent repair marker fails closed",
+      "passed": true
+    }
+  ],
+  "passed_checks": 16,
+  "network_download_tests": 0,
+  "formal_database_tests": 0,
+  "execution_limit": "runner syntax and guarded no-download path verified; released network stream path not executed",
+  "preflight": {
+    "checked_at_utc": "2026-10-04T09:42:43.707720+00:00",
+    "status": "waiting_on_repair",
+    "repair_gate_passes": false,
+    "release_evidence": {},
+    "storage_gate_passes": true,
+    "free_bytes": 22560956416,
+    "free_gib": 21.01152801513672,
+    "projected_remaining_gib": 17.85589575767517,
+    "floor_bytes": 16106127360,
+    "reserve_bytes": 3388334336,
+    "downloads_started": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "checked_at_utc": "2026-10-04T09:32:32.270604+00:00",
+  "free_bytes": 22663061504,
+  "free_gib": 21.10662078857422,
+  "floor_bytes": 16106127360,
+  "projected_max_footprint_plus_reserves_bytes": 3388334336,
+  "projected_remaining_gib": 17.95098853111267,
+  "storage_gate_passes": true,
+  "repair_marker_exists": false,
+  "repair_marker_evaluated": false,
+  "status": "waiting_on_repair",
+  "downloads_started": false
+}

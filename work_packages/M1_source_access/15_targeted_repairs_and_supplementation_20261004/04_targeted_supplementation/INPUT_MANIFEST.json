@@ -1,0 +1,336 @@
+{
+  "generated_at_utc": "2026-10-04T09:32:31.850638+00:00",
+  "root": "/Users/jarlgiovanni/Desktop/fear_of_temperature",
+  "inputs": {
+    "AGENTS.md": {
+      "bytes": 7468,
+      "sha256": "543ed79f406359d36cef7e90a4ecb773fea36bf98831c4943093cd1c0876ebba",
+      "mtime_utc": "2026-10-04T09:21:26.410882+00:00"
+    },
+    "docs/PROJECT_DIRECTION.md": {
+      "bytes": 9127,
+      "sha256": "908b61f4617413474e1670dca57de386fd2f2fb9da5367d96bac3046c01ce9bd",
+      "mtime_utc": "2026-10-04T05:00:07.332159+00:00"
+    },
+    "docs/PROJECT_LOG.md": {
+      "bytes": 123055,
+      "sha256": "c9568bce8b74f318749b2f8db6280f772c36db216f570ee2598a1c911bda833c",
+      "mtime_utc": "2026-10-04T09:24:18.516335+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/ACCEPTANCE_AND_SCOPE.md": {
+      "bytes": 7590,
+      "sha256": "62d5faf80c80d7303b43d8a1ea956d8f39289269697dac8b76a4704443c22f29",
+      "mtime_utc": "2026-10-04T09:22:28.896304+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/COORDINATION.json": {
+      "bytes": 976,
+      "sha256": "b56c7833d1bcf735f3ca52cc025aff4d732fd841d2aaa0461afd37e0a0e94dc2",
+      "mtime_utc": "2026-10-04T09:23:34.463221+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/storage_status.json": {
+      "bytes": 356,
+      "sha256": "fd197adc6058f50b3922834d7994066d392eeeabe87cbbed8342d109c8eae941",
+      "mtime_utc": "2026-10-04T09:23:34.462929+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/FILTER_CONTRACT.md": {
+      "bytes": 2003,
+      "sha256": "daefe03b2856f774124d95e54f4b68ba4fa2f3a99b5bba86237f92ac5b5973eb",
+      "mtime_utc": "2026-09-26T13:39:34.045865+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/RUNBOOK.md": {
+      "bytes": 12155,
+      "sha256": "43b55896da7c70f5c7d0a4ab4e1d3d6c6969de66e8959d12b95cfd7f2bf1ddc4",
+      "mtime_utc": "2026-09-27T10:36:33.284716+00:00"
+    },
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/REPORT.md": {
+      "bytes": 10776,
+      "sha256": "cab8059f9b90e39f457badcf179082f0bea8fac5eeb969f81389b602cf3ec074",
+      "mtime_utc": "2026-10-04T05:35:58.949296+00:00"
+    },
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/REPAIR_LIST.md": {
+      "bytes": 2471,
+      "sha256": "a419c4e18a45c9284025ec6dc88c54c4aac70739721cbe102b08acb9fc29e21d",
+      "mtime_utc": "2026-10-04T05:36:36.236615+00:00"
+    },
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/anomaly_ledger.csv": {
+      "bytes": 17933,
+      "sha256": "e9d8d0292d023e0ef0c75b85816ac6153824e3a19bfedb64541d6d055471f027",
+      "mtime_utc": "2026-10-04T05:34:23.167661+00:00"
+    },
+    "work_packages/M1_source_access/14_structural_validation_20261004/01_archive_split/RESULT.json": {
+      "bytes": 4881,
+      "sha256": "6adb78586b95c59215c8a08d61a3d6536a20fe1e0f5e344add5c02d948f24b85",
+      "mtime_utc": "2026-10-04T07:13:20.009611+00:00"
+    },
+    "work_packages/M1_source_access/14_structural_validation_20261004/02_provenance_logic/RESULT.json": {
+      "bytes": 1782,
+      "sha256": "64250613f76d37f97b23813a92c1c09f80d7f7132b6f0edac115220b966830b3",
+      "mtime_utc": "2026-10-04T06:29:38.053603+00:00"
+    },
+    "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/SCOPE.md": {
+      "bytes": 4353,
+      "sha256": "02a3ad5d051399616063a21d6b5c6d335a312305d779f451f23d5b6513613dd4",
+      "mtime_utc": "2026-09-27T13:14:36.193145+00:00"
+    },
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/monthly_source_genre_counts.csv": {
+      "bytes": 1597360,
+      "sha256": "80bb61149aef158d4a1e4e180d029d78d11c939f5715d6e81604a84c7479f7ab",
+      "mtime_utc": "2026-10-04T05:34:22.327079+00:00"
+    },
+    "work_packages/M1_source_access/14_structural_validation_20261004/01_archive_split/exceptions.csv": {
+      "bytes": 899739,
+      "sha256": "0d50d93014739d1bdf643e726dea8eff26529650c9aa7ba203bd31a04f209352",
+      "mtime_utc": "2026-10-04T07:09:30.117548+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/item_selection_overrides.json": {
+      "bytes": 437,
+      "sha256": "5d1ec82be317b8a9e59027e01ceffe63da951ec294a85c0de60cabf601379d92",
+      "mtime_utc": "2026-09-26T23:57:40.989873+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-01.csv": {
+      "bytes": 13811,
+      "sha256": "58564fbc1a60e3c7aedb73ddf03f8d912a094f51df47c8773c60fe172d356483",
+      "mtime_utc": "2026-09-26T14:39:16.265902+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-01.csv": {
+      "bytes": 158098,
+      "sha256": "24ff93380a547b608ef3ccb1f01eef2bfe47ee3d68f25c9a9d6d5cb2b5bea616",
+      "mtime_utc": "2026-09-26T17:12:57.179530+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-01.json": {
+      "bytes": 216,
+      "sha256": "a5519421b4a55190570da4dfc6636d0eb43bef8996f901add04cd306bc9a9cb1",
+      "mtime_utc": "2026-09-26T14:39:16.266437+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-01.json": {
+      "bytes": 239,
+      "sha256": "d2fc7ccc477e70a709fb933760df7f3872e9d6f2d7c9d8bb1aabe40d6916f451",
+      "mtime_utc": "2026-09-26T17:12:57.180624+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-02.csv": {
+      "bytes": 18399,
+      "sha256": "df039e2b0022bda7c5455bc48364557c840cf604c87448189f674ddb98669662",
+      "mtime_utc": "2026-09-26T14:39:19.078191+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-02.csv": {
+      "bytes": 192766,
+      "sha256": "53542ab19ff9f222895bdbb8508fed64b1e3215b58939c2364bde147fd465c59",
+      "mtime_utc": "2026-09-26T17:13:15.387931+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-02.json": {
+      "bytes": 219,
+      "sha256": "5890d651f848f644a95a5e97947ad07d218d6f4b18f04ece8bdccc433849f8dc",
+      "mtime_utc": "2026-09-26T14:39:19.079128+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-02.json": {
+      "bytes": 241,
+      "sha256": "835bfbdb08d8fc4bd2b4f57c8b67fcb0235246941d11a80ab5ad0f73172d44cf",
+      "mtime_utc": "2026-09-26T17:13:15.388327+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-03.csv": {
+      "bytes": 21359,
+      "sha256": "908483f07ca19cef2bac6124e750224fb756b63207b2bb289f27fabb87673267",
+      "mtime_utc": "2026-09-26T14:39:22.422877+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-03.csv": {
+      "bytes": 280754,
+      "sha256": "2573de5b6c196977b064fe9326242041ac9725e7a909bd7cb495f353f357f158",
+      "mtime_utc": "2026-09-26T17:13:33.509999+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-03.json": {
+      "bytes": 219,
+      "sha256": "25104510a0e6c84615db610a5b2fe6ca956fa4b701023c631898132378b1c493",
+      "mtime_utc": "2026-09-26T14:39:22.423530+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-03.json": {
+      "bytes": 241,
+      "sha256": "b451a088cf83c2dc0d7b088085bf42a6b5e93038e13fbea78c2e0571c1424d1c",
+      "mtime_utc": "2026-09-26T17:13:33.510822+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-04.csv": {
+      "bytes": 10555,
+      "sha256": "41fbaa2728da30f43ace878bb8370e6195f8e935561a5fca8a7d7e16ec350c63",
+      "mtime_utc": "2026-09-26T14:39:25.020864+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-04.csv": {
+      "bytes": 147076,
+      "sha256": "efd20a71e47fdab2f2483135c0401a641c4820ac035a99e4572b824adac289cc",
+      "mtime_utc": "2026-09-26T17:13:45.026028+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-04.json": {
+      "bytes": 216,
+      "sha256": "0227b1146f586925768c979428ee061158c071f9a619037026549e0f9ffd0f10",
+      "mtime_utc": "2026-09-26T14:39:25.021268+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-04.json": {
+      "bytes": 239,
+      "sha256": "6bb454d6c950d76dc9fb23899d8cb451439289bf8c04a512093e8680fd5d71f7",
+      "mtime_utc": "2026-09-26T17:13:45.028199+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-05.csv": {
+      "bytes": 13663,
+      "sha256": "aebb792777ee17fa3737be118a72a7c51c2841926cff65641ef91ee082a85f12",
+      "mtime_utc": "2026-09-26T14:39:27.854774+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-05.csv": {
+      "bytes": 217040,
+      "sha256": "28c2bdc8caba3d795d8c3dd2143aee8291458d0841ec11aade8ede8198cb7580",
+      "mtime_utc": "2026-09-26T17:13:56.532521+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-05.json": {
+      "bytes": 216,
+      "sha256": "d74db215634ce90b7dab159cb02761b189cce3098c2ca989f28ddbab6c5512d8",
+      "mtime_utc": "2026-09-26T14:39:27.855286+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-05.json": {
+      "bytes": 239,
+      "sha256": "d06d75a19009348a73ac761d3d9160b61fbac99c73c269056a0fc19b691d9dc0",
+      "mtime_utc": "2026-09-26T17:13:56.533103+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-06.csv": {
+      "bytes": 7299,
+      "sha256": "f96bef4664a72adea8e30e2c02725dabe74f700f1ad7ac5dfa2759b9ca2f2e5d",
+      "mtime_utc": "2026-09-26T14:39:30.179663+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-06.csv": {
+      "bytes": 126743,
+      "sha256": "ddfe13c4146bd96834f158458582fc16af3d742641262e85eaedc855d68d7cea",
+      "mtime_utc": "2026-09-26T17:14:02.221979+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-06.json": {
+      "bytes": 216,
+      "sha256": "b16aa9a419d03c6c2d5f8578db9a71bc91304395e99dc34272a56782eeffafaa",
+      "mtime_utc": "2026-09-26T14:39:30.180380+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-06.json": {
+      "bytes": 239,
+      "sha256": "06ccca03400ffe49730ffe9e368f3dc7235d524a787a0fb64f2168935438f7f6",
+      "mtime_utc": "2026-09-26T17:14:02.222835+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-07.csv": {
+      "bytes": 11591,
+      "sha256": "885f72b39eaf14845ff60b6766020c6135dc80398e9980ef266204bd8f9cbe7d",
+      "mtime_utc": "2026-09-26T14:39:34.153447+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-07.csv": {
+      "bytes": 629331,
+      "sha256": "f578d7a8eae4df780099f0a3454460781913112425b41011cb31331b203872c7",
+      "mtime_utc": "2026-09-26T17:14:15.035683+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-07.json": {
+      "bytes": 216,
+      "sha256": "dfb7c37ae2ee90be425da635f2df6fbff0b519bc4e7e693e213cbb538cece81d",
+      "mtime_utc": "2026-09-26T14:39:34.154085+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-07.json": {
+      "bytes": 240,
+      "sha256": "df56ca52c129fe08b4d885a41be000cf040e55084d3fa25f0d4c5b4d6772f651",
+      "mtime_utc": "2026-09-26T17:14:15.037376+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-08.csv": {
+      "bytes": 3895,
+      "sha256": "11386ee22af6b2663a151aee231d446625c3d771421979b889afabb836dd2128",
+      "mtime_utc": "2026-09-26T14:39:39.112270+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-08.csv": {
+      "bytes": 75187,
+      "sha256": "2ead292f376d750146161439924e298530f6b86055c46691ab2c2e151444a770",
+      "mtime_utc": "2026-09-26T17:14:20.013552+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-08.json": {
+      "bytes": 216,
+      "sha256": "47c519167471fed9c4dd9cf7fc68dddb8665badc05aaf97c29aacf6b5432fa8c",
+      "mtime_utc": "2026-09-26T14:39:39.112832+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-08.json": {
+      "bytes": 239,
+      "sha256": "39d7e58a20394dfc7d4ac8be4634ec672b716125735b37ce44a3dd644dc85944",
+      "mtime_utc": "2026-09-26T17:14:20.014162+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-09.csv": {
+      "bytes": 10555,
+      "sha256": "7796132c4705c5d88bbaa3a33375559a4170bfd0b325cfee61eabc4590a3aec3",
+      "mtime_utc": "2026-09-26T14:39:42.304853+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-09.csv": {
+      "bytes": 343782,
+      "sha256": "1a5b4e81f7951cf5cec70e6012288fda1c466e2f1604db597f555e022d7f18fa",
+      "mtime_utc": "2026-09-26T17:14:30.535473+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-09.json": {
+      "bytes": 216,
+      "sha256": "216673672b36e7b8f1aae572d2dfc08bdd9c1cbc85140368e585d0c2c6974e5a",
+      "mtime_utc": "2026-09-26T14:39:42.305276+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-09.json": {
+      "bytes": 239,
+      "sha256": "591ed385972ae92bb2d6e37f208985151bdd0947e5707d0e1dead15c6ea8c5bc",
+      "mtime_utc": "2026-09-26T17:14:30.536585+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-10.csv": {
+      "bytes": 9223,
+      "sha256": "6b40e93d525f234f2a616ad88ab41a88592639372183f34196f6884c5bca5fbe",
+      "mtime_utc": "2026-09-26T14:39:44.796577+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-10.csv": {
+      "bytes": 260096,
+      "sha256": "33f5bb4f07469639ad949e1104257297356b389adb00424bd71ff3bf7b6f8a4b",
+      "mtime_utc": "2026-09-26T17:14:41.597286+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-10.json": {
+      "bytes": 216,
+      "sha256": "f162a533515cf536d127da7354b0c9bb2350628a92f6cc21af4454e1a341cdc2",
+      "mtime_utc": "2026-09-26T14:39:44.797365+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-10.json": {
+      "bytes": 239,
+      "sha256": "7e359b7351fb48f59d643f7838be9cc851ae5964ff16e261c82c155bde4c378a",
+      "mtime_utc": "2026-09-26T17:14:41.598017+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-11.csv": {
+      "bytes": 14403,
+      "sha256": "dab58cec6daf150e7f6b8a3a98c10bc02d361a2726ce5e36a85f4783af20e772",
+      "mtime_utc": "2026-09-26T14:39:47.570514+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-11.csv": {
+      "bytes": 676898,
+      "sha256": "dbe74e64ec6034c4827ca750924148b82b4d8ab9002b382f96a6f292d8023797",
+      "mtime_utc": "2026-09-26T17:14:53.206888+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-11.json": {
+      "bytes": 216,
+      "sha256": "d816dd24578a6d335e36d9b79c7921e5fe4fb4b68e3e26fd41d6285009e3bccb",
+      "mtime_utc": "2026-09-26T14:39:47.570759+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-11.json": {
+      "bytes": 240,
+      "sha256": "64f3261b17f92b8f1ebd009182d89320a84a8a03f29b13370a3083f951a47bf3",
+      "mtime_utc": "2026-09-26T17:14:53.210388+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-12.csv": {
+      "bytes": 15143,
+      "sha256": "cb52663e9fa135273261d1d08847d1e88dbfcc996ea75b94fa34115cea3d4b43",
+      "mtime_utc": "2026-09-26T14:39:50.165429+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-12.csv": {
+      "bytes": 332303,
+      "sha256": "f0c229c00e9163f6c9ad263ea5aefd88b6ac737e6302ef4b18b87381504c9ce9",
+      "mtime_utc": "2026-09-26T17:15:08.947824+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/months/2015-12.json": {
+      "bytes": 219,
+      "sha256": "ace3803b1ba35da31a78dbe71e6772c53f726f480b9beccceaf8e1972b7e1b3b",
+      "mtime_utc": "2026-09-26T14:39:50.165681+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/manifests/wemi/2015-12.json": {
+      "bytes": 240,
+      "sha256": "6708802643b56291c58c8a55501b312d49c7d97e3ebb2c5dc9c3a3533504ffcb",
+      "mtime_utc": "2026-09-26T17:15:08.949236+00:00"
+    }
+  },
+  "formal_databases_opened": [],
+  "raw_body_files_read": [],
+  "heavy_read_attempt": "shared heavy_io.lock busy; 24.6 MB disposition-ledger scan not run",
+  "bounded_metadata_method": "12 month manifests, 12 WEMI manifests and exception/distribution CSVs; path existence only",
+  "provenance": "saved metadata checkpoints, not fresh full-text enumeration"
+}

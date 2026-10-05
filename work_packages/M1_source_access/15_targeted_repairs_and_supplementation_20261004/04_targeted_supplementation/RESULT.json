@@ -1,0 +1,197 @@
+{
+  "status": "waiting_on_repair",
+  "plan_status": "complete_frozen_bounded_manifest",
+  "acquisition_status": "not_started",
+  "generated_at_utc": "2026-10-04T09:42:43.811211+00:00",
+  "publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "september_2026_partial": true,
+  "tranche_A": {
+    "status": "provisional_ID_route_plan",
+    "parents": 3,
+    "acquired_originals": 0,
+    "actual_Task3_request_manifest_exists": false,
+    "request_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+    "fetch_permitted": false,
+    "independence_benefit": "same utterance mapping only"
+  },
+  "tranche_B": {
+    "status": "frozen_not_acquired",
+    "source": "existing EU CELLAR COM act_preparatory ENG frame",
+    "publication_interval_inclusive": [
+      "2015-01-01",
+      "2015-12-31"
+    ],
+    "months": 12,
+    "population_works": 1009,
+    "frozen_candidate_item_targets": 979,
+    "no_item_works": 30,
+    "selected_formats": {
+      "pdf1x": 361,
+      "pdfa1a": 179,
+      "pdf": 435,
+      "pdfa1b": 4
+    },
+    "selected_works_multiple_item_alternatives": 973,
+    "relationship_rows_preserved": 8409,
+    "provisional_A_parents": 3,
+    "enumeration_is_preexisting": true,
+    "new_metadata_parents": 0,
+    "downloaded_candidates": 0,
+    "verified_readable_complete_bodies": 0,
+    "expected_bytes_scenario": 1026555904,
+    "byte_estimate_is_measured": false,
+    "raw_cap_bytes": 2147483648,
+    "independence_expected_not_verified": true,
+    "independence_benefit": "may add executive publication process/genre depth; not guaranteed reduction of bias"
+  },
+  "repair_gate": {
+    "marker_exists": false,
+    "marker_content_evaluated": false,
+    "marker_written_or_modified_by_Task4": false,
+    "required": "Task3 committed checked before/after checkpoint with actual target request paths; staged-only does not release"
+  },
+  "storage_gate": {
+    "checked_at_utc": "2026-10-04T09:42:43.750816+00:00",
+    "status": "waiting_on_repair",
+    "repair_gate_passes": false,
+    "release_evidence": {},
+    "storage_gate_passes": true,
+    "free_bytes": 22560956416,
+    "free_gib": 21.01152801513672,
+    "projected_remaining_gib": 17.85589575767517,
+    "floor_bytes": 16106127360,
+    "reserve_bytes": 3388334336,
+    "downloads_started": false
+  },
+  "execution_counts": {
+    "raw_downloads": 0,
+    "formal_database_reads": 0,
+    "formal_database_writes": 0,
+    "raw_body_files_read": 0,
+    "model_or_semantic_filter_runs": 0,
+    "commits": 0,
+    "pushes": 0,
+    "focused_plan_checks_passed": 16,
+    "released_network_execution_path_tested": false,
+    "background_downloaders_or_polls": 0
+  },
+  "evidence_levels": {
+    "1": "saved dated metadata/routes established; new readable original text zero",
+    "2": "climate/warming relevance and similarity unassessed",
+    "3": "affect/risk/future-harm/responsibility unassessed",
+    "4": "fear-specific interpretation unassessed"
+  },
+  "routes_assessed": 2,
+  "selected_added_source_tranches": 1,
+  "limits": [
+    "973 selected Works have multiple Item alternatives; candidate Item is not verified complete Work.",
+    "Cross-source work identity and historical-body equivalence pending.",
+    "Thirty no-Item Works remain explicit source outcomes.",
+    "2015 alone does not support a post-Paris ITS or comparable government/media/public series.",
+    "Heavy lock was busy; substantial disposition-ledger read was not performed."
+  ],
+  "next_action": "Coordinator accepts Task3 committed checked REPAIR_READY.json, reads actual missing_original_requests.csv, finalises and handles A, then repeats storage/release preflight and stages the unchanged 979-row B manifest; submit ingestion manifest to single writer.",
+  "exclusive_output": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation",
+  "primary_outputs": [
+    "SOURCE_FRAME_PLAN.md",
+    "potential_requests.csv",
+    "frozen_acquisition_manifest.csv",
+    "source_frame_population.csv",
+    "selected_work_item_relationships.csv",
+    "source_composition_2015.csv",
+    "coverage_expected_vs_observed.csv",
+    "ACQUISITION_CONTRACT.json",
+    "INPUT_MANIFEST.json",
+    "PREFLIGHT.json",
+    "EXECUTION_PREFLIGHT.json",
+    "WEB_PROBES.json",
+    "VERIFY_RESULT.json",
+    "REPORT.md",
+    "SUMMARY_zh.md",
+    "LOG_ENTRY.md",
+    "build_plan.py",
+    "stage_frozen_items.py",
+    "verify_plan.py"
+  ],
+  "output_hashes": {
+    "SOURCE_FRAME_PLAN.md": {
+      "bytes": 15781,
+      "sha256": "e3d2867b5261ad5a54e849f7281457725fb6367fc8440b7c886dfac5fcc79cbc"
+    },
+    "potential_requests.csv": {
+      "bytes": 2237,
+      "sha256": "2ee63cb72fba14917043491a3ffc70e2be6b532ffea6126d2cfff879457d6c19"
+    },
+    "frozen_acquisition_manifest.csv": {
+      "bytes": 1560606,
+      "sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7"
+    },
+    "source_frame_population.csv": {
+      "bytes": 945251,
+      "sha256": "443e3f6217ce72c63f9969cd70d41bce078f21a8305c0602289b888f5f5963fe"
+    },
+    "selected_work_item_relationships.csv": {
+      "bytes": 4027325,
+      "sha256": "288c6127f8bb870ee4b3ba7497afd1e3859b550bb38abceded6e44126918b0a1"
+    },
+    "source_composition_2015.csv": {
+      "bytes": 41562,
+      "sha256": "7da2276c12018681108634d18de723a944fba69deee8b1961d84fd8bc45001f1"
+    },
+    "coverage_expected_vs_observed.csv": {
+      "bytes": 2201,
+      "sha256": "26a6b4f55fc73c80630307a14f49779d3c06d61ecb1c173876fcbcc2aac9b08d"
+    },
+    "ACQUISITION_CONTRACT.json": {
+      "bytes": 1764,
+      "sha256": "0dc0cfcbac91936ef5f6a7888adecbeeb4466b8752acec9969ee19bca4d6bbec"
+    },
+    "INPUT_MANIFEST.json": {
+      "bytes": 17302,
+      "sha256": "c895614a26bf0f8aa0d11e0086b0b0547268310d47601fb171f23a69ac2c9c0a"
+    },
+    "PREFLIGHT.json": {
+      "bytes": 423,
+      "sha256": "081d205ada2530f1f9c819eeefd203c1058a70265e802af1c83ea7128ea11eab"
+    },
+    "EXECUTION_PREFLIGHT.json": {
+      "bytes": 381,
+      "sha256": "fe130affd5faebf906df21eaa54d68551a9c146530a38528a53d67c4d932cbf2"
+    },
+    "WEB_PROBES.json": {
+      "bytes": 3651,
+      "sha256": "76579a7194ea475ab73591326093c4f893073a93940c394190028ac664631fb8"
+    },
+    "VERIFY_RESULT.json": {
+      "bytes": 2184,
+      "sha256": "635799a7f6246d6fae06adfa81557ee5470129b83a09141103c41b32e0c705be"
+    },
+    "REPORT.md": {
+      "bytes": 4463,
+      "sha256": "17a2630772529763cb7745792ea55bee0cba1baf7af9f8c761929a12911e33df"
+    },
+    "SUMMARY_zh.md": {
+      "bytes": 2646,
+      "sha256": "7eee195390076b91e829990efa36f9fb057a744e74a421db81ca56d8af889bbf"
+    },
+    "LOG_ENTRY.md": {
+      "bytes": 1837,
+      "sha256": "98eee2ec809e08035aa3104c0ec23a85eeb25bccab6a77afa9b8f7a9a5dced6a"
+    },
+    "build_plan.py": {
+      "bytes": 15502,
+      "sha256": "37488d50159f36f54429510b492e0ab7cfdfae59b8b30dced8a5595e7dbb7bdf"
+    },
+    "stage_frozen_items.py": {
+      "bytes": 13529,
+      "sha256": "fff95478edeec2109577dc165fc809634d34d0a32edd057c8bbea2c674497da0"
+    },
+    "verify_plan.py": {
+      "bytes": 4824,
+      "sha256": "71a54180c44a49eada5f997550bc06420fe760fc563e6a610ab978c96c2d20ce"
+    }
+  }
+}
