@@ -1,0 +1,77 @@
+{
+  "ready": true,
+  "status": "committed_repairs_checked_targeted_acquisition_released",
+  "released_at_utc": "2026-10-04T10:15:39.294515+00:00",
+  "run_id": "repair_20261004_task3_v1",
+  "rule_version": "targeted_structural_repair_v1_20261004",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "pre_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1790084251704838709
+  },
+  "post_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "pre_legacy_counts": {
+    "documents": 248035,
+    "document_versions": 248044,
+    "text_segments": 3668275,
+    "voice_attributions": 665843,
+    "content_versions": 30236,
+    "content_fetches": 33263,
+    "raw_records": 248044,
+    "acquisition_object_statuses": 30238
+  },
+  "post_legacy_counts": {
+    "documents": 248035,
+    "document_versions": 248044,
+    "text_segments": 3668275,
+    "voice_attributions": 665843,
+    "content_versions": 30236,
+    "content_fetches": 33263,
+    "raw_records": 248044,
+    "acquisition_object_statuses": 30238
+  },
+  "post_effective_parent_count": 248319,
+  "counts": {
+    "repairs": 1256,
+    "dates": 124,
+    "states": 1054,
+    "new_parents": 284,
+    "annotations": 1488,
+    "dispositions": 3080,
+    "requests": 5,
+    "source_state_addenda": 1
+  },
+  "unresolved_issue_rows": 318,
+  "unresolved_distinct_units": 165,
+  "named_frozen_adapter_limit_parent_checks": 37,
+  "fixture_tests_passed": 15,
+  "acceptance_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/ACCEPTANCE.json",
+  "result_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/RESULT.json",
+  "change_manifest_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/CHANGE_MANIFEST.json",
+  "missing_original_requests_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+  "source_composition_needs_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/source_composition_needs.csv",
+  "unresolved_cases_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/unresolved_cases.csv",
+  "plan_sha256": "e29a298b026f352ed76f70d3c6a8ca2dbb66ad5ff07d3d37907e859f1730d314",
+  "free_bytes_at_release": 22378016768,
+  "collector_floor_bytes": 16106127360,
+  "authority": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+  "consumer_interface": [
+    "repair_current_documents",
+    "repair_current_parent_segments",
+    "repair_current_document_content_objects",
+    "repair_current_provenance_annotations",
+    "repair_current_source_state_addenda"
+  ],
+  "compatibility": "Legacy tables are frozen extraction history. The committed effective views include all repairs and 284 newly derived parent identities. Do not ingest an already represented identity by checking documents alone; use repair_parent_inventory. Copied UK09 tables are not an additional corpus.",
+  "task4_conditions": "Only the predeclared targeted manifest and storage checks are released. Task4 stages separately; it cannot write formal databases. No original ZIP redownload, blanket uncheckable-row queue, endpoint extension or semantic filtering.",
+  "last_formal_write_at_utc": "2026-10-04T10:12:26.291943+00:00",
+  "request_reconciliation_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/REQUEST_RECONCILIATION.json"
+}

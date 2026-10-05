@@ -1,0 +1,19 @@
+{
+  "status": "staged_checked_plan",
+  "counts": {
+    "repairs": 1259,
+    "dates": 124,
+    "states": 1054,
+    "new_parents": 0,
+    "annotations": 1488,
+    "dispositions": 3080,
+    "requests": 7
+  },
+  "dispositions": {
+    "unresolved": 520,
+    "repaired": 2437,
+    "confirmed": 123
+  },
+  "plan_bytes": 34087374,
+  "plan_sha256": "b88da23ab3bd23ec04948be85b2f42225d6ea79fa01ca41fe8361581abc68994"
+}

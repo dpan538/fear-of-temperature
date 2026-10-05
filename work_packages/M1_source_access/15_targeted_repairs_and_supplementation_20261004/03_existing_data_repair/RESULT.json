@@ -1,0 +1,100 @@
+{
+  "status": "complete_with_named_unresolved_cases",
+  "repair_ready": true,
+  "requested_task_model": "gpt-6.1-sol / xhigh",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "primary_committed_at_utc": "2026-10-04T09:57:26.603489+00:00",
+  "last_formal_write_at_utc": "2026-10-04T10:12:26.291943+00:00",
+  "pre_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1790084251704838709
+  },
+  "post_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "formal_authority": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+  "storage_model": "append-only versioned correction layer; legacy tables unchanged",
+  "counts": {
+    "existing_parent_projections": 1256,
+    "recovered_ZIP_parents": 202,
+    "repartitioned_existing_HTML_groups": 82,
+    "total_additional_parent_projections": 284,
+    "legacy_parents": 248035,
+    "effective_parents": 248319,
+    "corrected_recovered_segments": 6852,
+    "date_intervals": 124,
+    "GOVUK_current_technical_states": 1054,
+    "companion_provenance_annotations": 1488,
+    "named_current_source_state_addenda": 1,
+    "coordinator_issue_instances": 3080,
+    "repaired_issue_instances": 2636,
+    "confirmed_issue_instances": 126,
+    "unresolved_issue_instances": 318,
+    "unresolved_distinct_units": 165,
+    "ineligible_issue_instances": 0,
+    "final_named_original_requests": 5
+  },
+  "checks": {
+    "fixtures_passed": 15,
+    "transaction_and_postcommit_acceptance": "passed",
+    "named_addendum_transaction_and_postcommit": "passed",
+    "unchanged_legacy_before_images": 2444,
+    "shared_and_ordinary_regression_parents": 9,
+    "independent_frozen_validator_supported_parents": 1503,
+    "named_HTML_frozen_adapter_limit_parents": 37,
+    "unexpected_source_conflicts_in_applied_tranche": 0,
+    "idempotent_second_apply": "no_write"
+  },
+  "untouched": [
+    "raw_bytes",
+    "legacy_extraction_runs",
+    "historic_fetch_attempts",
+    "ethics_and_licence_fields",
+    "modern_shared_answers",
+    "US_AU09_and_EU10_databases",
+    "active_collectors",
+    "submitted_proposal",
+    "historical_pilot_labels",
+    "frozen_reports"
+  ],
+  "outputs": [
+    "REPORT.md",
+    "SUMMARY_zh.md",
+    "INPUT_MANIFEST.json",
+    "PLAN.json",
+    "CHANGE_MANIFEST.json",
+    "APPLIED.json",
+    "ACCEPTANCE.json",
+    "issue_dispositions.csv",
+    "unresolved_cases.csv",
+    "omission_dispositions.csv",
+    "html_group_repartition.csv",
+    "missing_original_requests.csv",
+    "source_composition_needs.csv",
+    "EU_CURRENT_STATE_ADDENDUM.json",
+    "REQUEST_RECONCILIATION.json",
+    "FINAL_SAVED_TRANCHE_CHECKS.json",
+    "TEST_RESULTS.json",
+    "IDEMPOTENCY.json",
+    "LOG_ENTRY.md"
+  ],
+  "limits": [
+    "Effective views must be used; old documents/text tables remain historical extraction evidence.",
+    "318 review instances are unresolved; 37 frozen HTML adapter limits remain visible.",
+    "Exact date absent for received-between ranges; source-local/UTC convention undecided.",
+    "Recovered historic URLs are reconstructed routes, not freshly checked URL reachability.",
+    "Current saved wording is not proven identical to historical publication wording.",
+    "No climate/affect/fear labelling, comparable emotion-prevalence claim, claim-truth proof or causal inference."
+  ],
+  "no_network_acquisition": true,
+  "no_commit_or_push": true,
+  "release_marker": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/REPAIR_READY.json",
+  "released_at_utc": "2026-10-04T10:15:39.294515+00:00",
+  "free_gib_at_release": 20.841
+}

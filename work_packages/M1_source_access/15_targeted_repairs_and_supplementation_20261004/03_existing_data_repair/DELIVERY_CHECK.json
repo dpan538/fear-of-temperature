@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "result_status": "complete_with_named_unresolved_cases",
+  "release_ready": true,
+  "request_manifest_rows": 5,
+  "issue_manifest_rows": 3080,
+  "raw_input_stats_preserved": 1270,
+  "active_shared_parser_unchanged": true,
+  "formal_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "release_time_utc": "2026-10-04T10:15:39.294515+00:00"
+}
