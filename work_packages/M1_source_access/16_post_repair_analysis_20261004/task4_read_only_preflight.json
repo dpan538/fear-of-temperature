@@ -1,0 +1,22 @@
+{
+  "checked_at_utc": "2026-10-04T14:21:27.700969+00:00",
+  "status": "release_content_not_recognised_as_committed_checked_checkpoint_with_request_paths",
+  "repair_gate_passes": false,
+  "release_evidence": {
+    "marker_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+    "committed_assertion": false,
+    "checked_assertion": false,
+    "before_checkpoint_fields": false,
+    "after_checkpoint_fields": false,
+    "request_paths": [
+      "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv"
+    ]
+  },
+  "storage_gate_passes": true,
+  "free_bytes": 22189895680,
+  "free_gib": 20.665950775146484,
+  "projected_remaining_gib": 17.510318517684937,
+  "floor_bytes": 16106127360,
+  "reserve_bytes": 3388334336,
+  "downloads_started": false
+}

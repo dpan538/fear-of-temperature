@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-10-04T14:21:27.701426+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "database_checkpoint_matches_release": true,
+  "checkpoint_before": {
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "checkpoint_after": {
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "effective_UK_parents": 248319,
+  "UK_month_assignable_parents": 248268,
+  "UK_exact_day_parents": 248195,
+  "interval_parents": 124,
+  "cross_month_unassigned_parents": 51,
+  "locally_derived_additional_parents": 284,
+  "UK_month_parent_net_change": 233,
+  "calendar_months_changed": 9,
+  "outside_fixed_interval": 0,
+  "no_supported_date": 0,
+  "unresolved_issue_instances": 318,
+  "unresolved_units": 165,
+  "final_original_requests": 5,
+  "EU_population_works": 1009,
+  "EU_selected_item_targets": 979,
+  "EU_no_link_works": 30,
+  "EU_selected_works_multiple_item_alternatives": 973,
+  "EU_selected_works_multiple_selected_manifestation_items": 253,
+  "EU_selected_works_multiple_selected_format_items": 253,
+  "EU_new_downloads_in_this_analysis": 0,
+  "aggregate_queries": 1,
+  "aggregate_scope": "UK effective document metadata only; no text scan or pooled readable-text recalculation",
+  "pooled_465_month_text_presence": "historical checkpoint; not freshly calculated",
+  "task4_script_gate_compatible_with_release": false,
+  "storage_gate_passes_at_check": true,
+  "figure_count": 0
+}
