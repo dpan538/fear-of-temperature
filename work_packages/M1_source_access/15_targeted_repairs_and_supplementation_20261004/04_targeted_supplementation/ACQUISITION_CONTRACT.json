@@ -1,0 +1,48 @@
+{
+  "contract_version": "task4_eu_com_2015_v1",
+  "created_at_utc": "2026-10-04T09:32:31.850638+00:00",
+  "study_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "tranche_publication_interval": [
+    "2015-01-01",
+    "2015-12-31"
+  ],
+  "months": 12,
+  "manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "stats": {
+    "population_works": 1009,
+    "frozen_candidate_item_targets": 979,
+    "no_item_works": 30,
+    "selected_formats": {
+      "pdf1x": 361,
+      "pdfa1a": 179,
+      "pdf": 435,
+      "pdfa1b": 4
+    },
+    "selected_works_multiple_item_alternatives": 973,
+    "relationship_rows_preserved": 8409,
+    "provisional_A_parents": 3
+  },
+  "expected_raw_bytes_scenario": 1026555904,
+  "budget": {
+    "collector_floor_bytes": 16106127360,
+    "aggregate_new_raw_cap_bytes": 2147483648,
+    "inflight_object_reserve_bytes": 100000000,
+    "checkpoint_error_reserve_bytes": 67108864,
+    "repair_other_activity_reserve_bytes": 1073741824,
+    "extraction_in_this_download_tranche": false
+  },
+  "rate_limit": {
+    "parallel_requests": 1,
+    "minimum_request_spacing_seconds": 2,
+    "retries": "one attempt per object per invocation; checkpoint failure and stop; no automatic restart"
+  },
+  "dedup": "Work URI parent; Item URI + byte SHA256 version; recheck existing target paths before requests",
+  "parent_metadata_new_rows": 0,
+  "semantic_filters": null,
+  "formal_database_writes": false,
+  "repair_request_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+  "repair_release_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/REPAIR_READY.json"
+}

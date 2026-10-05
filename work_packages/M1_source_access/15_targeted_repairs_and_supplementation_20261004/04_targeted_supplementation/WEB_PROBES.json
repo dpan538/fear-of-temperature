@@ -1,0 +1,93 @@
+{
+  "recorded_at_utc": "2026-10-04T09:40:58.517868+00:00",
+  "method": "web tool search/open/find/click; summaries of returned official documentation, not downloaded HTML or object streams",
+  "actions": [
+    {
+      "kind": "search",
+      "query": "site.op.europa.eu Cellar REST API item content reuse copyright European Commission documents"
+    },
+    {
+      "kind": "search",
+      "query": "site.federalregister.gov reader aids developer resources API legal status public inspection official edition"
+    },
+    {
+      "kind": "open",
+      "url": "https://op.europa.eu/en/web/cellar/cellar-data/publications",
+      "outcome": "readable official REST language/format/stream-size documentation"
+    },
+    {
+      "kind": "open",
+      "url": "https://eur-lex.europa.eu/content/help/data-reuse/reuse-contents-eurlex-details.html",
+      "outcome": "robot/JavaScript verification page; no bypass or retry"
+    },
+    {
+      "kind": "open",
+      "url": "https://www.federalregister.gov/reader-aids/developer-resources",
+      "outcome": "readable official developer/legal-edition documentation"
+    },
+    {
+      "kind": "open",
+      "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html",
+      "outcome": "readable official copyright/reuse notice"
+    },
+    {
+      "kind": "find",
+      "url": "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html",
+      "patterns": [
+        "Re-use",
+        "copyright",
+        "third",
+        "2011/833"
+      ],
+      "outcome": "document-specific conditions and third-party exceptions located"
+    },
+    {
+      "kind": "click",
+      "url": "https://www.federalregister.gov/reader-aids/developer-resources/rest-api",
+      "outcome": "readable official REST API documentation"
+    },
+    {
+      "kind": "search",
+      "query": "site.unfccc.int Paris Agreement adopted 12 December 2015 COP21"
+    },
+    {
+      "kind": "open",
+      "url": "https://unfccc.int/process-and-meetings/the-paris-agreement",
+      "outcome": "official 2015-12-12 adoption date; no current-party-count claim used"
+    },
+    {
+      "kind": "open",
+      "url": "https://www.federalregister.gov/reader-aids/developer-resources/rest-api",
+      "outcome": "no-key API, since-1994 document route and 2,000-result pagination limit inspected"
+    },
+    {
+      "kind": "open",
+      "url": "https://op.europa.eu/en/web/cellar/cellar-data/metadata",
+      "outcome": "grouped language/format views and unique publication identity documentation"
+    }
+  ],
+  "web_tool_calls": 4,
+  "search_queries": 3,
+  "open_actions": 7,
+  "click_actions": 1,
+  "find_actions": 4,
+  "official_sources_used": [
+    "https://op.europa.eu/en/web/cellar/cellar-data/publications",
+    "https://op.europa.eu/en/web/cellar/cellar-data/metadata",
+    "https://eur-lex.europa.eu/content/legal-notice/legal-notice.html",
+    "https://www.federalregister.gov/reader-aids/developer-resources",
+    "https://www.federalregister.gov/reader-aids/developer-resources/rest-api",
+    "https://unfccc.int/process-and-meetings/the-paris-agreement"
+  ],
+  "limits": {
+    "object_stream_requests": 0,
+    "catalogue_pagination_requests": 0,
+    "authenticated_requests": 0,
+    "challenge_bypasses": 0,
+    "actual_Item_access_live_test": "not performed; repair gate closed",
+    "rights_scope": "document-specific conditions retained; not a blanket attachment licence",
+    "publication_cutoff": "1988-01-01..2026-09-21; September partial",
+    "new_SPARQL_queries": 0
+  },
+  "note": "Search results outside official domains were not used as access evidence; saved EU metadata supplies the exact frozen Item routes."
+}

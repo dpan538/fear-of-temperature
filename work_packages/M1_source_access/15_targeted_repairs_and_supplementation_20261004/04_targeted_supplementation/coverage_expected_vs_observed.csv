@@ -1,0 +1,13 @@
+source_id,genre,month,enumerated_parent_works,candidate_item_works,no_item_link_works,expected_new_candidate_bodies_upper_bound,expected_bytes_scenario,observed_saved_local_raw_files,observed_local_request_checkpoints,audit_operational_extracted_status_parents,observed_task4_downloads,observed_task4_verified_full_bodies,readable_complete_body_count,coverage_claim
+EU_CELLAR_COM,COM act_preparatory,2015-01,93,91,2,91,95420416,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-02,124,124,0,124,130023424,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-03,144,142,2,142,148897792,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-04,71,69,2,69,72351744,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-05,92,91,1,91,95420416,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-06,49,47,2,47,49283072,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-07,78,75,3,75,78643200,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-08,26,25,1,25,26214400,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-09,71,66,5,66,69206016,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-10,62,58,4,58,60817408,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-11,97,94,3,94,98566144,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
+EU_CELLAR_COM,COM act_preparatory,2015-12,102,97,5,97,101711872,0,0,0,0,0,unassessed,enumerated metadata and candidate routes only; no acquisition claim
