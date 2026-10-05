@@ -1,0 +1,8 @@
+{
+  "status": "proposal_only_not_applied",
+  "target": "work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair.py",
+  "base_sha256": "12394294c0664aaafbe4c40f647799c67fde3d9d2fc5365965f5449f784c0358",
+  "patch_sha256": "5ce4435746ba103b78e93b5d81f8ab22c473756e02d9874939679b71f22109c3",
+  "syntax_check": "passed",
+  "scope": "Prevent future one-parent merges across numbered or Lords questions; a future controlled collector integration must use the group-returning local parser for all retained groups. Existing Hansard Question/ERR_Question collector handling is already present and was not edited."
+}

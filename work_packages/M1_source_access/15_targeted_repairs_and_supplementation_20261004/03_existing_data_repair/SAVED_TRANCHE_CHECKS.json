@@ -1,0 +1,36 @@
+{
+  "checked_at_utc": "2026-10-04T09:50:21.713255+00:00",
+  "changed_and_repartitioned_parent_checks": 1543,
+  "saved_containers_read": 1263,
+  "statuses": {
+    "supported_split": 1503,
+    "insufficient_evidence": 2,
+    "boundary_conflict": 38
+  },
+  "named_adapter_limits": 38,
+  "unexpected_conflicts": [
+    {
+      "document_id": "doc_0ef3ec165703e15b48df",
+      "adapter": "archive_detail_json",
+      "original_group_id": "07112753000093",
+      "frozen_validator_status": "boundary_conflict",
+      "rules": "R-SPAN;R-SPEAKER",
+      "details": "mismatch source span: 07112753001352 | speaker differs at 07112753001352 | mismatch source span: 07112753001353 | speaker differs at 07112753001353",
+      "adapter_limit": "",
+      "evidence": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/written_answer_details/2007/07112753000093.json",
+      "unexpected_conflict": true
+    },
+    {
+      "document_id": "doc_9e2d4c3363a4075b1553",
+      "adapter": "historic_xml_zip",
+      "original_group_id": "S6CV0137P0-09031",
+      "frozen_validator_status": "insufficient_evidence",
+      "rules": "R-SPEAKER",
+      "details": "speaker differs at S6CV0137P0-09031",
+      "adapter_limit": "",
+      "evidence": "work_packages/M1_source_access/07_historical_government_acquisition/raw/historic_hansard/volumes/S6CV0137P0.zip",
+      "unexpected_conflict": true
+    }
+  ],
+  "scope": "Frozen validator on changed/recovered parents only; no full audit; its HTML/column-furniture limits remain visible."
+}

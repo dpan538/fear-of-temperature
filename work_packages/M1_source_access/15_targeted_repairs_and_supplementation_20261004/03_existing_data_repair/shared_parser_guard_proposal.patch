@@ -1,0 +1,13 @@
+--- a/work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair.py
++++ b/work_packages/M1_source_access/07_historical_government_acquisition/targeted_gap_repair.py
+@@ -872,7 +872,9 @@
+     responses: list[dict[str, str]] = []
+     response_started = False
+     for index, value in enumerate(contributions):
+-        questionish = bool(re.match(r"^(?:\(\d+\)\s*)?To ask\b", value["text"], flags=re.IGNORECASE))
++        questionish = bool(re.match(r"^(?:(?:\d+\.|\(\d+\))\s*)?(?:To ask\b|asked Her Majesty[’']s Government\b)", value["text"], flags=re.IGNORECASE))
++        if response_started and questionish:
++            raise ValueError("Multiple independent question/reply groups require the versioned contribution parser; refusing a merged parent")
+         if not response_started and (questionish or index == 0):
+             questions.append(value)
+         else:

@@ -1,0 +1,19 @@
+{
+  "status": "staged_checked_plan_after_bounded_amendment",
+  "counts": {
+    "repairs": 1259,
+    "dates": 124,
+    "states": 1054,
+    "new_parents": 202,
+    "annotations": 1488,
+    "dispositions": 3080,
+    "requests": 6
+  },
+  "dispositions": {
+    "repaired": 2639,
+    "unresolved": 316,
+    "confirmed": 125
+  },
+  "plan_bytes": 35151237,
+  "plan_sha256": "e403ec07602fd7f71e3344a254ad20a011abec8e731c845b33a063c8a366d3b0"
+}

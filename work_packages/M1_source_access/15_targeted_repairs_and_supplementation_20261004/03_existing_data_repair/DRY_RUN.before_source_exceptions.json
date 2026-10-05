@@ -1,0 +1,25 @@
+{
+  "status": "staged_checked_with_original_group_conservation",
+  "counts": {
+    "repairs": 1259,
+    "dates": 124,
+    "states": 1054,
+    "new_parents": 284,
+    "annotations": 1488,
+    "dispositions": 3080,
+    "requests": 6
+  },
+  "dispositions": {
+    "repaired": 2639,
+    "unresolved": 316,
+    "confirmed": 125
+  },
+  "plan_sha256": "9d1b3b6a2e3f3c7ee1bef70e565ce08d5a5f8eab648feff51d5311666ea7e8ce",
+  "html_amendment": {
+    "time_utc": "2026-10-04T09:49:24.095693+00:00",
+    "flagged_saved_item_pages_checked": 135,
+    "already_stored_other_question_reply_groups_repartitioned": 82,
+    "date_scoped_cross_source_peers_checked": 321,
+    "scope": "Only other groups with a reply node already present in a flagged legacy parent; no new HTML acquisition or uncollected item expansion."
+  }
+}

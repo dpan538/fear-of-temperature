@@ -1,0 +1,23 @@
+{
+  "status": "passed_no_write",
+  "verified_at_utc": "2026-10-04T10:01:10.184679+00:00",
+  "method": "Second --apply returned idempotent=no_write with same layer counts and all acceptance checks; database stat exactly equals first committed post checkpoint.",
+  "database_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791107846584364750
+  },
+  "unchanged_companion_databases": [
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb",
+      "unchanged": true
+    }
+  ],
+  "annotations": 1488,
+  "derived_segments": 6852,
+  "new_parent_projections": 284
+}

@@ -1,0 +1,16 @@
+{
+  "time_utc": "2026-10-04T09:57:18.049686+00:00",
+  "process_check": {
+    "checked_at_utc": "2026-10-04T09:57:17.572256+00:00",
+    "process_check": "no_matching_external_collector_or_DB_process",
+    "pid": 356
+  },
+  "free_bytes": 22409826304,
+  "reserved_transaction_WAL_rollback_bytes": 536870912,
+  "floor_bytes": 16106127360,
+  "strategy": "append-only compact layer; no existing table rewritten; no whole DB backup; native DuckDB lock plus two advisory locks",
+  "lock_order": [
+    "heavy_io.lock",
+    "formal_database_writer.lock"
+  ]
+}

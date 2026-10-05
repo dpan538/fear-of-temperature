@@ -1,0 +1,7 @@
+{
+  "prior_requests": 6,
+  "current_requests": 5,
+  "withdrawn_unit_id": "http://publications.europa.eu/resource/cellar/509beb66-6809-4935-81bd-e56e439eb40b",
+  "reason": "Exact selected original is already saved; current availability verified from HTTP/version/size/hash and registered extracted-text metadata. No download. Layout completeness remains an annotation/review need.",
+  "evidence_path": "EU_CURRENT_STATE_ADDENDUM.json"
+}

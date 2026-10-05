@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-04T09:23:34.462250+00:00",
+  "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature",
+  "free_bytes": 22686457856,
+  "free_gib": 21.13,
+  "collector_floor_gib": 15,
+  "above_floor": true,
+  "note": "User cleared Trash. Actual future writes must still budget projected footprint; repair release gate remains independent."
+}

@@ -1,0 +1,19 @@
+{
+  "status": "passed_with_named_adapter_limits",
+  "final_plan_sha256": "e29a298b026f352ed76f70d3c6a8ca2dbb66ad5ff07d3d37907e859f1730d314",
+  "final_changed_and_recovered_parent_checks": 1540,
+  "statuses": {
+    "supported_split": 1503,
+    "boundary_conflict": 37
+  },
+  "named_adapter_limits": 37,
+  "unexpected_conflicts": [],
+  "method": "Reuse unchanged saved-source checks; remove the three explicitly inspected nonrepair cases. No changed tranche full recheck repeated. Source integrity rechecked as apply preconditions.",
+  "held_source_exceptions": {
+    "time_utc": "2026-10-04T09:53:04.336407+00:00",
+    "saved_detail_external_id_collision_parents": 2,
+    "literal_XML_actor_delimiter_false_positive_parents": 1,
+    "supported_repair_projections_removed": 3,
+    "raw_and_legacy_unchanged": true
+  }
+}

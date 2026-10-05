@@ -1,0 +1,33 @@
+{
+  "status": "applied_and_checked",
+  "committed_at_utc": "2026-10-04T09:57:26.603489+00:00",
+  "run_id": "repair_20261004_task3_v1",
+  "plan_sha256": "e29a298b026f352ed76f70d3c6a8ca2dbb66ad5ff07d3d37907e859f1730d314",
+  "pre_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1790084251704838709
+  },
+  "post_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "acceptance": {
+    "status": "passed",
+    "checked_at_utc": "2026-10-04T09:57:26.249799+00:00",
+    "changed_parent_projections": 1256,
+    "new_parent_projections": 284,
+    "changed_segment_rows": 6852,
+    "date_intervals": 124,
+    "technical_states": 1054,
+    "issue_dispositions": 3080,
+    "effective_parent_count": 248319,
+    "unchanged_legacy_before_images": 2444,
+    "shared_answer_and_other_regression_parents": 9,
+    "failures": []
+  },
+  "free_bytes_after": 22404583424,
+  "named_current_state_addendum_path": "EU_CURRENT_STATE_ADDENDUM.json",
+  "last_formal_write_at_utc": "2026-10-04T10:12:26.291943+00:00"
+}

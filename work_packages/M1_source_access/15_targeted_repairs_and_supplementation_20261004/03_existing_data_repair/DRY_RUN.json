@@ -1,0 +1,18 @@
+{
+  "status": "staged_supported_repairs_with_named_source_exceptions",
+  "counts": {
+    "repairs": 1256,
+    "dates": 124,
+    "states": 1054,
+    "new_parents": 284,
+    "annotations": 1488,
+    "dispositions": 3080,
+    "requests": 6
+  },
+  "dispositions": {
+    "repaired": 2636,
+    "unresolved": 318,
+    "confirmed": 126
+  },
+  "plan_sha256": "e29a298b026f352ed76f70d3c6a8ca2dbb66ad5ff07d3d37907e859f1730d314"
+}

@@ -1,0 +1,44 @@
+{
+  "work_uri": "http://publications.europa.eu/resource/cellar/509beb66-6809-4935-81bd-e56e439eb40b",
+  "item_uri": "http://publications.europa.eu/resource/cellar/509beb66-6809-4935-81bd-e56e439eb40b.0004.02/DOC_1",
+  "publication_date": "2002-11-08",
+  "current_technical_state": "saved_original_present_with_extracted_text_metadata",
+  "saved_version": {
+    "version_id": "euver:1083c41c13e8d269017d293b898d34aa",
+    "item_uri": "http://publications.europa.eu/resource/cellar/509beb66-6809-4935-81bd-e56e439eb40b.0004.02/DOC_1",
+    "work_uri": "http://publications.europa.eu/resource/cellar/509beb66-6809-4935-81bd-e56e439eb40b",
+    "sha256": "d1c98bb04d29cd323fee8eacb0907ff76ab5444aa5bbfe23b05f42b341a98e1e",
+    "raw_path": "raw/items/9b/9b4c12d411334cdea4ba19bfcbfa3f13ae30c872d83204b0d67e6378b15a629b.bin",
+    "retrieved_at_utc": "2026-09-27T07:17:42.547696+00:00",
+    "http_status": 200,
+    "mime_type": "application/pdf;charset=UTF-8",
+    "bytes": 84771,
+    "extraction_status": "text_extracted",
+    "pdf_pages": 3,
+    "text_characters": 9683
+  },
+  "raw_input": {
+    "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/raw/items/9b/9b4c12d411334cdea4ba19bfcbfa3f13ae30c872d83204b0d67e6378b15a629b.bin",
+    "bytes": 84771,
+    "mtime_ns": 1790493462546130539,
+    "sha256": "d1c98bb04d29cd323fee8eacb0907ff76ab5444aa5bbfe23b05f42b341a98e1e"
+  },
+  "historical_disposition": "selected_item_failed",
+  "historical_disposition_preserved": true,
+  "reason": "The very same selected Item later has a saved HTTP200 PDF with matching size/hash and 9,683 registered extracted characters. Historical failure is not current absence. Full layout/completeness remains unverified; this is an availability addendum only.",
+  "no_new_download": true,
+  "checked_at_utc": "2026-10-04T10:12:26.234505+00:00",
+  "formal_pre_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791107846584364750
+  },
+  "formal_post_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "acceptance": "passed_transaction_and_postcommit",
+  "reserved_bytes": 67108864,
+  "free_bytes_after": 22409093120
+}
