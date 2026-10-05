@@ -1,6 +1,6 @@
 # Current project direction and execution priorities
 
-Updated: 4 October 2026. Governing development brief following Dai's explicit clarification. It supersedes conflicting acquisition and stage priorities in older handoffs; frozen source filters and historical evidence retain their original meaning.
+Updated: 5 October 2026. Governing development brief following Dai's explicit clarifications. It supersedes conflicting acquisition and stage priorities in older handoffs; frozen source filters and historical evidence retain their original meaning.
 
 ## Research objective
 
@@ -29,6 +29,18 @@ The recorded pooled government source-text union covers **465/465** months. This
 The primary view is month × discourse role, with independently dated events/checkpoints and supporting parent records. Show contributing sources/jurisdictions as detail. Report observed records, readable parents and later validated relevant parents separately. Unrelated official records do not establish climate-event coverage; chunks do not inflate independent counts. Government coverage alone does not establish public/media response.
 
 Distinguish documented events, evidence of discourse responses and missing evidence. Preserve routine/low-attention periods and existing eligible-document denominators. Source-composition changes remain visible and receive proportionate sensitivity checks during analysis. Temporal presence supports a corpus coverage claim; stronger claims depend on the measurements.
+
+### Separate newspaper and social-media acquisition
+
+Dai's 5 October clarifications restore full-period content coverage as the corpus-building objective and require newspaper and social-media streams to be collected and accounted for separately. A pilot first identifies proposal-aligned acquisition parents (websites, public archives and API families), verifies historical extent and observed interface behaviour, and demonstrates a restartable/idempotent staging-ingestion chain. Small real bodies validate that chain; they are not the main pilot deliverable. Source parents and independent article/post parents remain distinct. The pilot provides source registries, bounded request evidence, estimates with explicit unknowns and a concrete scale-ingestion plan, not a claim that the full archive has already been downloaded.
+
+The full acquisition calendar contains 465 monthly bins from January 1988 to September 2026, with the fixed 21 September cutoff. Three demonstration months and 150 pilot targets do not cover this calendar, even when the pilot is fully executed. Pilot interface readiness and actual corpus coverage are separate acceptance results.
+
+For newspaper material, maintain the five disjoint EU/Europe (excluding UK), UK, AU, US and NZ strata and concrete title/edition/country identities. Report monthly readable independent parents and gaps by stratum plus the pooled 465-month view. The 2,325 geographic-month cells are a planning ledger, not observed content; pooled presence does not certify every stratum or every newspaper. Broadcasters, commentary sites and news networks remain their actual editorial subtypes until newspaper classification is evidenced.
+
+For social media, retain native posts and separate comments/replies in explicit platform/community/era frames. Mark pre-foundation months structurally inapplicable and existing-era archive/access gaps missing. Report both the full-calendar limitation and applicable-era coverage. Historical letters/forums may extend public expression in a separate subframe; they do not establish that modern platforms existed in 1988. Platform carrier and discourse role remain separate for government/editorial accounts.
+
+Coverage requires saved readable text and auditable identity/date/body boundaries, not catalogue entries, query hits or fixture totals. At least one qualified parent per claimed month establishes basic temporal presence only; density, frame completeness and analytical comparability require separate evidence. Preserve existing raw data and pilot outcomes. Subsequent acquisition must work against the full calendar in bounded tranches, beginning with viable historical routes and named gaps, rather than repeatedly expanding recent-only pilots. See [the scope correction](decisions/2026-10-05-separated-newspaper-and-social-media-coverage.md). This clarification does not itself release bulk downloads or alter existing resource/access safeguards.
 
 ## Acquisition priorities and stopping rules
 
