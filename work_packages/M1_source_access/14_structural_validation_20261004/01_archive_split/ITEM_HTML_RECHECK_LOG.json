@@ -1,0 +1,18 @@
+{
+  "saved_pages": 321,
+  "parent_links": 321,
+  "statuses": {
+    "boundary_conflict": 135,
+    "supported_split": 186
+  },
+  "lock_holds": [
+    {
+      "phase": "saved_historic_item_html_exception_tranche",
+      "acquired_utc": "2026-10-04T06:42:24.725902+00:00",
+      "wait_seconds": 0.0,
+      "held_seconds": 1.901,
+      "released_utc": "2026-10-04T06:42:26.626834+00:00"
+    }
+  ],
+  "elapsed_seconds": 9.25
+}

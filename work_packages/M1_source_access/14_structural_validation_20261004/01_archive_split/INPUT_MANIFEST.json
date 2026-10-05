@@ -1,0 +1,130 @@
+{
+  "generated_utc": "2026-10-04T06:21:21.362030+00:00",
+  "publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "db_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "mtime_utc": "2026-09-22T13:37:31.704839+00:00",
+    "bytes": 3590598656
+  },
+  "source_ids": {
+    "src_549acfda11091ff8c9b8": "historic_xml_zip_or_item_html",
+    "src_9e8f487d372ed011db82": "archive_detail_or_html",
+    "src_90b3a872375c9e7fd267": "questions_statements_list_json",
+    "src_3c349b00120866c263a3": "parlparse_xml_mirror"
+  },
+  "query_scope": "all registered UK ministerial_written_answer/statement parents in UK 06, joined once to content versions and voice-attributed child segments; no topic filter",
+  "raw_check": "saved ZIP XML, JSON list/detail, HTML archive and ParlParse XML read once per mapped container; no HTTP or full raw-file hashing",
+  "lock_path": "work_packages/M1_source_access/14_structural_validation_20261004/control/heavy_io.lock",
+  "lock_holds": [
+    {
+      "phase": "single_db_inventory_and_saved_original_pass",
+      "acquired_utc": "2026-10-04T06:18:30.978381+00:00",
+      "wait_seconds": 0.0,
+      "held_seconds": 162.326,
+      "released_utc": "2026-10-04T06:21:13.305951+00:00"
+    }
+  ],
+  "elapsed_seconds": 170.38,
+  "cross_source_mirror_candidates": "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/cross_source_title_date_candidates.csv (83 mirror parents / 138 title-date pairs; candidate identity only)",
+  "targeted_recheck": {
+    "generated_utc": "2026-10-04T06:32:58.303256+00:00",
+    "containers": 943,
+    "parent_links": 92734,
+    "scope": "Only first-pass exception containers for historic ZIP ID/date and local fallback locator checks; no full corpus rerun",
+    "lock_holds": [
+      {
+        "phase": "targeted_exception_containers_only",
+        "acquired_utc": "2026-10-04T06:31:25.997109+00:00",
+        "wait_seconds": 0.0,
+        "held_seconds": 84.069,
+        "released_utc": "2026-10-04T06:32:50.066638+00:00"
+      }
+    ],
+    "elapsed_seconds": 92.31
+  },
+  "date_range_recheck": {
+    "generated_utc": "2026-10-04T06:36:14.058425+00:00",
+    "zip_containers": 9,
+    "corrected_parent_dates": 734,
+    "scope": "Only saved historic ZIPs with R-DATE and range-heading ambiguity; no database scan",
+    "lock_holds": [
+      {
+        "phase": "nine_historic_range_heading_zip_recheck",
+        "acquired_utc": "2026-10-04T06:36:08.548294+00:00",
+        "wait_seconds": 0.001,
+        "held_seconds": 1.421,
+        "released_utc": "2026-10-04T06:36:09.969922+00:00"
+      }
+    ],
+    "elapsed_seconds": 5.51
+  },
+  "single_day_punctuation_recheck": {
+    "generated_utc": "2026-10-04T06:38:56.432058+00:00",
+    "zip_containers": 1,
+    "corrected_parent_dates": 47,
+    "scope": "Only S6CV0192P0.zip; no database scan",
+    "lock_holds": [
+      {
+        "phase": "one_historic_single_day_punctuation_zip",
+        "acquired_utc": "2026-10-04T06:38:51.956637+00:00",
+        "wait_seconds": 0.0,
+        "held_seconds": 0.157,
+        "released_utc": "2026-10-04T06:38:52.113638+00:00"
+      }
+    ],
+    "elapsed_seconds": 4.48
+  },
+  "historic_item_html_recheck": {
+    "generated_utc": "2026-10-04T06:42:33.977498+00:00",
+    "saved_pages": 321,
+    "parent_links": 321,
+    "scope": "Only registered 1991 repair item HTML links; no full corpus rerun",
+    "lock_holds": [
+      {
+        "phase": "saved_historic_item_html_exception_tranche",
+        "acquired_utc": "2026-10-04T06:42:24.725902+00:00",
+        "wait_seconds": 0.0,
+        "held_seconds": 1.901,
+        "released_utc": "2026-10-04T06:42:26.626834+00:00"
+      }
+    ],
+    "elapsed_seconds": 9.25
+  },
+  "omission_reconciliation": {
+    "generated_utc": "2026-10-04T06:45:03.191012+00:00",
+    "candidates": 202,
+    "results": {
+      "unregistered_source_group_candidate": 202
+    },
+    "scope": "Exact same-source external ID only; no cross-source title/semantic merge",
+    "lock_holds": [
+      {
+        "phase": "exact_id_historic_omission_reconciliation",
+        "acquired_utc": "2026-10-04T06:45:02.743021+00:00",
+        "wait_seconds": 0.0,
+        "held_seconds": 0.446,
+        "released_utc": "2026-10-04T06:45:03.189242+00:00"
+      }
+    ],
+    "elapsed_seconds": 0.45
+  },
+  "historic_item_continuation_recheck": {
+    "generated_utc": "2026-10-04T07:09:31.871848+00:00",
+    "saved_pages": 135,
+    "parent_links": 135,
+    "scope": "Only registered 1991 repair item HTML links; no full corpus rerun",
+    "lock_holds": [
+      {
+        "phase": "saved_historic_item_html_item_continuations",
+        "acquired_utc": "2026-10-04T07:09:22.066651+00:00",
+        "wait_seconds": 0.0,
+        "held_seconds": 2.291,
+        "released_utc": "2026-10-04T07:09:24.357835+00:00"
+      }
+    ],
+    "elapsed_seconds": 9.81
+  }
+}

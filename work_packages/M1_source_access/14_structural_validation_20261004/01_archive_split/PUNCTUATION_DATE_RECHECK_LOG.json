@@ -1,0 +1,15 @@
+{
+  "zip_containers": 1,
+  "corrected_parent_dates": 47,
+  "remaining_date_flags": 124,
+  "lock_holds": [
+    {
+      "phase": "one_historic_single_day_punctuation_zip",
+      "acquired_utc": "2026-10-04T06:38:51.956637+00:00",
+      "wait_seconds": 0.0,
+      "held_seconds": 0.157,
+      "released_utc": "2026-10-04T06:38:52.113638+00:00"
+    }
+  ],
+  "elapsed_seconds": 4.52
+}
