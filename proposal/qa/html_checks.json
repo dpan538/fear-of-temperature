@@ -1,0 +1,217 @@
+{
+  "images": [
+    {
+      "src": "assets/UQ_Logo.png",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_01_relationships.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_06_mechanisms.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_07_rq_routes.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_08_sampling.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/equations/attention.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/equations/emotion.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/equations/joint.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_02_pipeline.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/equations/ccf.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/equations/its.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_04_temporal.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_03_evidence.svg",
+      "ok": true
+    },
+    {
+      "src": "assets/figure_05_schedule.svg",
+      "ok": true
+    }
+  ],
+  "pages": [
+    {
+      "id": "",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": null
+    },
+    {
+      "id": "page-ai",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 365.4375
+    },
+    {
+      "id": "page-contents",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 102.421875
+    },
+    {
+      "id": "page-introduction",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 102.71875
+    },
+    {
+      "id": "page-scope",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 131.078125
+    },
+    {
+      "id": "page-background",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 84.546875
+    },
+    {
+      "id": "page-mechanisms",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 82.859375
+    },
+    {
+      "id": "page-literature_methods",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 65.890625
+    },
+    {
+      "id": "page-questions_pipeline",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 76.953125
+    },
+    {
+      "id": "page-sources",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 114.109375
+    },
+    {
+      "id": "page-measures",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 183.609375
+    },
+    {
+      "id": "page-labels",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 243.65625
+    },
+    {
+      "id": "page-extraction",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 188.296875
+    },
+    {
+      "id": "page-temporal",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 62.921875
+    },
+    {
+      "id": "page-events",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 39.328125
+    },
+    {
+      "id": "page-evaluation",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 164.515625
+    },
+    {
+      "id": "page-risks",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 32.484375
+    },
+    {
+      "id": "page-timetable",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 67.734375
+    },
+    {
+      "id": "page-ethics",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 78.25
+    },
+    {
+      "id": "page-references",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 147.921875
+    },
+    {
+      "id": "page-references_2",
+      "width": 794,
+      "scrollWidth": 794,
+      "footerGap": 169.90625
+    }
+  ],
+  "brokenAnchors": [],
+  "equations": 5,
+  "tables": 9,
+  "mobile": {
+    "viewport": 390,
+    "width": 390,
+    "equationWidths": [
+      {
+        "width": 318,
+        "scrollWidth": 318
+      },
+      {
+        "width": 318,
+        "scrollWidth": 318
+      },
+      {
+        "width": 318,
+        "scrollWidth": 318
+      },
+      {
+        "width": 318,
+        "scrollWidth": 318
+      },
+      {
+        "width": 318,
+        "scrollWidth": 318
+      }
+    ]
+  }
+}

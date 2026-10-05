@@ -1,0 +1,55 @@
+{
+  "pages": 23,
+  "figures": 9,
+  "tables": 11,
+  "references": 36,
+  "peer_reviewed_entries": 15,
+  "body_words": 6048,
+  "outputs": {
+    "thesis_proposal.md": "8c43d7a02a8de587d4e66c2b0ef6d10763b7be22401ab0bf8f676cd3893e2af9",
+    "thesis_proposal.html": "9dfd7a7885744d3ccb7268c9faee7132531b329ec4ad4dc83b9a349a222f45f3",
+    "thesis_proposal.pdf": "3d67e49d1f773e1e35691d94583b175fab1a977b2fcd3b9a2f31cd57a86d66d3",
+    "thesis_proposal.txt": "11af3a51e7f9b08a8fa852d46189c3a7ef988cdf7b1ea557922720b86db5cea8",
+    "references.bib": "28e851e636183ce29be208cc0240cba8eb98084252fc4ba3310ceee3e11b1b44"
+  },
+  "figure_min_font_size": 6.5,
+  "assets": {
+    "figure_08_sampling.svg": "eef0fcbd96aec4db4d16dc23df24ed83ab99200faa44baef4f88c8c459aa8cf5",
+    "figure_04_temporal.svg": "5d55adfa90626ef88c349a1fab4fd49aadb13fa4f064858592a906bfe8442bca",
+    "figure_09_topology.svg": "d1b3ab74de3b472f1f837f423b0b437fde7a5082b34432ada716bbf2c997bd9a",
+    "figure_06_mechanisms.svg": "fd7dae26679de633d51fa3bb8c42281e4a15005d868212ebd2ee74771dc71b0d",
+    "figure_03_evidence.svg": "f7cc92f2b9e333d32d1fba0a7587ba505447e06e686febd3fea1459371bc2e1c",
+    "figure_01_relationships.svg": "63bcecf19d95f6a995aae6d798449f23a0f215593cc9106f1c8efb15a5d9be68",
+    "figure_05_schedule.svg": "d88d9cd9888eab76ce08351794c7785d88b07b18597addef4d0ef497d9f7b9eb",
+    "figure_09_risk_routes.svg": "25e2c4ba595f2277c4e6843863155db92d3778de7b07b0b5745e33c96f12adec",
+    "figure_02_pipeline.svg": "9dcc604b9b3dbc0c6fcd98e435081ea137019cb684b69eda11c44b20ccb24e05",
+    "figure_07_rq_routes.svg": "fa46cd04ad539514eb86b2c26fd8b7ae989b724815f6d06cc7db793dba4c91a6"
+  },
+  "equations": {
+    "attention": {
+      "number": 1,
+      "latex": "S_{rt}=\\frac{\\sum_{i\\in\\mathcal{U}_{rt}}w_i R_i}{\\sum_{i\\in\\mathcal{U}_{rt}}w_i}",
+      "plain": "S_rt = sum(w_i R_i) / sum(w_i)"
+    },
+    "emotion": {
+      "number": 2,
+      "latex": "q_p=\\frac{1}{|\\mathcal{A}|}\\sum_{a\\in\\mathcal{A}}\\cos(\\boldsymbol{z}_p,\\boldsymbol{z}_a)",
+      "plain": "q_p = mean cosine similarity to fixed reference set A"
+    },
+    "joint": {
+      "number": 3,
+      "latex": "Q_{rt}=\\frac{\\sum_{i\\in\\mathcal{U}_{rt}}w_i R_i \\bar{q}_i}{\\sum_{i\\in\\mathcal{U}_{rt}}w_i R_i}",
+      "plain": "Q_rt = sum(w_i R_i mean_passage_q_i) / sum(w_i R_i)"
+    },
+    "ccf": {
+      "number": 4,
+      "latex": "C_{XY}(k)=\\operatorname{Corr}\\,\\left(X_t,\\,Y_{t+k}\\right)",
+      "plain": "C_XY(k) = Corr(X_t, Y_(t+k)); positive k: X precedes Y"
+    },
+    "its": {
+      "number": 5,
+      "latex": "Y_t=\\beta_0+\\beta_1t+\\beta_2D_t+\\beta_3(tD_t)+u_t",
+      "plain": "Y_t = beta_0 + beta_1 t + beta_2 D_t + beta_3 (t D_t) + u_t"
+    }
+  }
+}
