@@ -1,5 +1,9 @@
 # NLP workspace architecture
 
+Current research priorities and acquisition stopping rules are set by
+[PROJECT_DIRECTION.md](PROJECT_DIRECTION.md). This document inventories implemented
+infrastructure; available modules do not establish additional compulsory research tasks.
+
 ## Execution flow
 
 ```text

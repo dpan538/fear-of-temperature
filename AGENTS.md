@@ -1,0 +1,42 @@
+# Project instructions for Codex agents
+
+These instructions apply to work in this repository. Read [docs/PROJECT_DIRECTION.md](docs/PROJECT_DIRECTION.md) and the latest [docs/PROJECT_LOG.md](docs/PROJECT_LOG.md) entry before choosing a new research or acquisition task. Preserve the provenance and scope of frozen reports, source filters and raw data.
+
+## Research objective and stage order
+
+*Fear of Temperature* studies how climate and rising-temperature discourse relates to social emotions, anticipated harm and collective responses across government, media and public/civic texts. Fear remains a thesis-level interpretive question. The development order is: fixed collection period and source provenance → distribution audit and structural/numerical cleaning → later analysis-stage climate/warming retrieval and similarity validation → validated role/time attention or affect/risk associations where supported → evidence-linked interpretation and attribution of fear. RQ1/RQ2 precede the deferred RQ3.
+
+## Current stage: fixed endpoint, distribution and source quality
+
+The study's publication-date interval is fixed at **1988-01-01 through 2026-09-21**, using the existing cutoff from the first extraction period. September 2026 is partial. Do not replace the upper bound with today's date, a rerun date, the latest fetched record or a later report timestamp. Preserve narrower source observation times; a day-level cutoff does not prove end-of-day completeness. Later recovery of eligible older records is allowed within the fixed interval. Keep publication time, retrieval/extraction time, content-version time and report/snapshot time separate; later retrieval does not prove that today's body equals its historical version. A changed endpoint requires an explicit Dai decision and a new corpus version.
+
+Pooled government source-text presence has reached 465/465 study months in the recorded snapshot. The current work has two priorities:
+
+- **Distribution:** inspect counts by month, source, genre and independent parent; investigate peaks against pagination, duplicate IDs/URLs, syndicated or mirrored works, version multiplication, parent/attachment splitting, batch boundaries and date assignments. Preserve legitimate high-volume periods. A peak can be a candidate research checkpoint only with independent dated evidence; do not assume it is a climate event or delete/downsample it merely to flatten the distribution.
+- **Source quality:** report direct/original, archival reproduction, indirect/secondary, mixed and unresolved provenance; separately record verified identity/date/content mapping, pending checks, conflicting provenance and access limits. Directness is relative to the recorded utterance: an original news article is direct evidence of media discourse, and a public post is direct evidence of that author's expression even when it reports someone else's claim. Verifying provenance does not establish the truth of every claim. Do not substitute one opaque confidence score or rank all secondary/public sources below official sources.
+
+**Climate relevance is deferred to the later analysis stage. It is not a current inclusion, cleaning, data-quality or progression gate.** Current cleaning is structural and numerical: dates, missingness, identity, duplicates, extraction artefacts, length distributions and parent/version/segment consistency. Preserve raw evidence and log derived changes. Algorithm and evaluation design may be prepared, but do not execute corpus-wide topic/emotion labelling or semantic exclusion under a cleaning task. Do not pre-attribute all records or volume peaks to climate change. Existing topic/fear pilot labels remain historical diagnostics, not retrospective exclusion rules.
+
+**Never use “can this source produce a fear time series?” as a source-inclusion, acquisition, cleaning, data-quality, pilot-success or next-stage gate.** Do not require explicit fear words, a fear classifier score or an anticipated-harm cue to retain a record within its otherwise eligible source frame. A zero explicit-fear result in a small diagnostic sample is neither a source failure nor evidence that fear is absent. Keep neutral, routine, quoted and low-emotion climate discourse available for comparison.
+
+Separate these evidence levels in every report:
+
+1. Dated source presence and readable original text.
+2. Climate/warming relevance and similarity, under a defined unit and source frame.
+3. Affective, risk, future-harm or responsibility association, after validation; this is **not** automatically fear.
+4. Fear-specific interpretation from traceable original passages, with speaker/holder, target, time horizon, quotation and negation checked. Quantify fear only if the annotation and measurement support it.
+
+Coverage counts, query hits, embeddings and emotion-model outputs do not by themselves establish emotion prevalence or a comparable three-role time series. Government risk statements are not automatically government emotions; a media quotation is not automatically the journalist's emotion; a civic petition channel is not the whole public. A source can pass a provenance or topic-readiness check while later emotion-specific analysis remains undecided. If a candidate fear measure is unsupported, mark that *measure* unavailable and continue useful climate-topic and macro-association work.
+
+## Execution boundaries
+
+- Dai specifies **GPT-6.1 Sol / Extra High** (`gpt-6.1-sol`, `xhigh`) for subsequent delegated project tasks unless explicitly overridden. The accepted Task 3/4 scope and acquisition release conditions are recorded in `work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/ACCEPTANCE_AND_SCOPE.md`.
+
+- The current follow-through is [independent structural checks before repair and backfill](docs/decisions/2026-10-04-structural-checks-before-repair-and-backfill.md): complete archive reply-split and provenance/date validators first; annotate unresolved cases without claiming universal correctness. Coordinate heavy reads and serialize formal database writes. Do not launch downstream repair/backfill before coordinator acceptance of these two tasks and resolution of their scope.
+- Use cross-regional pooled temporal evidence while retaining source, jurisdiction, genre, parent identity, date, version and observed coverage. Do not demand exhaustive coverage of each country as a prerequisite for progress.
+- Keep RQ1/RQ2 temporal findings descriptive or predictive unless their own identification requirements are met. Do not infer causal emotional influence from lead/lag alone.
+- Do not revise the submitted proposal or retrospectively change frozen pilot labels/counts to match this instruction. Record methodological clarifications in `docs/decisions/` and progress in `docs/PROJECT_LOG.md`.
+- Avoid repeated full-corpus audits and collection without a specified unresolved research need. Verify the changed tranche once and advance usable intervals to the next research stage.
+- Independent distribution-audit code is sealed outside the extraction repository by Dai's explicit instruction. Extraction windows receive only named evidence issues, must not locate/read/decrypt/execute/probe the reviewer code or credentials, and must not optimise collection for entropy, HHI, coverage or length scores. Preserve the frozen input/evidence receipt for independent review. See [independent audit sealing](docs/decisions/2026-10-05-independent-distribution-audit-sealing.md).
+
+The current stage is governed by [fixed cutoff, distribution and source quality](docs/decisions/2026-10-04-fixed-cutoff-distribution-and-source-quality.md), which refines [staged climate, affect and fear interpretation](docs/decisions/2026-09-27-staged-climate-affect-and-fear-interpretation.md). If an older report says a monthly *fear measure* is not ready, interpret that as a limit on that measure, **not** a failed data-quality or source-acquisition gate.
