@@ -1,0 +1,5 @@
+source_id,adapter,inventory_parents,inventory_containers,original_containers_read,supported_split,legitimate_shared_span,duplicate_import,boundary_conflict,insufficient_evidence,omitted_candidate_groups,original_verification_scope
+src_549acfda11091ff8c9b8,historic_xml_zip_or_item_html,136082,602,602,135809,0,0,268,5,202,mapped selected parents/nodes; no all-source omission claim
+src_9e8f487d372ed011db82,archive_detail_or_html,36462,25953,25950,35345,0,0,1113,4,0,mapped selected parents/nodes; no all-source omission claim
+src_90b3a872375c9e7fd267,questions_statements_list_json,65988,174,174,59944,6044,0,0,0,0,mapped selected parents/nodes; no all-source omission claim
+src_3c349b00120866c263a3,parlparse_xml_mirror,8448,398,398,8448,0,0,0,0,0,mapped selected parents/nodes; no all-source omission claim

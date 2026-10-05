@@ -1,0 +1,152 @@
+{
+  "status": "complete_with_evidence_linked_review_queue",
+  "publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "mtime_utc": "2026-09-22T13:37:31.704839+00:00",
+    "bytes": 3590598656
+  },
+  "execution": {
+    "full_pass_parent_links": 246980,
+    "full_pass_containers": 27127,
+    "saved_original_containers_read": 27124,
+    "full_pass_seconds": 170.38,
+    "targeted_recheck_containers": 943,
+    "historic_item_html_pages": 321,
+    "historic_item_continuation_pages": 135,
+    "network_requests": 0,
+    "formal_database_writes": 0,
+    "raw_file_writes": 0,
+    "fixture_tests_passed": 10,
+    "historic_text_inferred_supported_parents": 58937
+  },
+  "parent_statuses": {
+    "supported_split": 239546,
+    "insufficient_evidence": 9,
+    "boundary_conflict": 1381,
+    "legitimate_shared_span": 6044
+  },
+  "adapter_statuses": {
+    "parlparse_xml_mirror": {
+      "supported_split": 8448
+    },
+    "historic_xml_zip": {
+      "supported_split": 135623,
+      "insufficient_evidence": 5,
+      "boundary_conflict": 133
+    },
+    "historic_item_html": {
+      "boundary_conflict": 135,
+      "supported_split": 186
+    },
+    "modern_list_json": {
+      "supported_split": 59944,
+      "legitimate_shared_span": 6044
+    },
+    "archive_detail_json": {
+      "supported_split": 24210,
+      "insufficient_evidence": 4,
+      "boundary_conflict": 1113
+    },
+    "archive_html": {
+      "supported_split": 11135
+    }
+  },
+  "source_coverage": [
+    {
+      "source_id": "src_549acfda11091ff8c9b8",
+      "adapter": "historic_xml_zip_or_item_html",
+      "inventory_parents": 136082,
+      "inventory_containers": 602,
+      "original_containers_read": 602,
+      "supported_split": 135809,
+      "legitimate_shared_span": 0,
+      "duplicate_import": 0,
+      "boundary_conflict": 268,
+      "insufficient_evidence": 5,
+      "omitted_candidate_groups": 202,
+      "original_verification_scope": "mapped selected parents/nodes; no all-source omission claim"
+    },
+    {
+      "source_id": "src_9e8f487d372ed011db82",
+      "adapter": "archive_detail_or_html",
+      "inventory_parents": 36462,
+      "inventory_containers": 25953,
+      "original_containers_read": 25950,
+      "supported_split": 35345,
+      "legitimate_shared_span": 0,
+      "duplicate_import": 0,
+      "boundary_conflict": 1113,
+      "insufficient_evidence": 4,
+      "omitted_candidate_groups": 0,
+      "original_verification_scope": "mapped selected parents/nodes; no all-source omission claim"
+    },
+    {
+      "source_id": "src_90b3a872375c9e7fd267",
+      "adapter": "questions_statements_list_json",
+      "inventory_parents": 65988,
+      "inventory_containers": 174,
+      "original_containers_read": 174,
+      "supported_split": 59944,
+      "legitimate_shared_span": 6044,
+      "duplicate_import": 0,
+      "boundary_conflict": 0,
+      "insufficient_evidence": 0,
+      "omitted_candidate_groups": 0,
+      "original_verification_scope": "mapped selected parents/nodes; no all-source omission claim"
+    },
+    {
+      "source_id": "src_3c349b00120866c263a3",
+      "adapter": "parlparse_xml_mirror",
+      "inventory_parents": 8448,
+      "inventory_containers": 398,
+      "original_containers_read": 398,
+      "supported_split": 8448,
+      "legitimate_shared_span": 0,
+      "duplicate_import": 0,
+      "boundary_conflict": 0,
+      "insufficient_evidence": 0,
+      "omitted_candidate_groups": 0,
+      "original_verification_scope": "mapped selected parents/nodes; no all-source omission claim"
+    }
+  ],
+  "exception_queue": {
+    "parent_rows": 1390,
+    "keyed_historic_original_groups": 202,
+    "historic_unregistered_exact_id_candidates": 202
+  },
+  "modern_answer_groups": {
+    "group_counts": {
+      "single_question": 42527,
+      "different_text_or_incomplete": 6287,
+      "legitimate_shared_span": 2405
+    },
+    "parent_counts": {
+      "single_question": 42527,
+      "different_text_or_incomplete": 16441,
+      "legitimate_shared_span": 6044
+    },
+    "explicit_joint_same_text_parent_count": 6044
+  },
+  "scope_limits": [
+    "Only registered UK parliamentary parent frames and saved originals are validated.",
+    "Historic unkeyed groups use unique exact text; hashed IDs are not independently reproduced.",
+    "Cross-source mirror identity and historical content-version equivalence remain separate questions.",
+    "Climate relevance, affect, risk and fear were not labelled or used as gates."
+  ],
+  "primary_outputs": [
+    "parent_results.csv",
+    "container_results.csv",
+    "exceptions.csv",
+    "answer_groups.csv",
+    "omission_reconciliation.csv",
+    "execution_coverage.csv",
+    "INPUT_MANIFEST.json",
+    "RULES.md",
+    "REPORT.md",
+    "SUMMARY_zh.md"
+  ]
+}

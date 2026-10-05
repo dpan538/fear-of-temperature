@@ -1,0 +1,5 @@
+source_id,adapter,inventory_parents,inventory_containers,original_containers_read,supported_split,legitimate_shared_span,duplicate_import,boundary_conflict,insufficient_evidence,omitted_candidate_groups,original_verification_scope
+src_549acfda11091ff8c9b8,historic_xml_zip,136082,602,281,75231,0,0,60529,322,59406,mapped parent/node text + approved department omitted-candidate inventory
+src_9e8f487d372ed011db82,archive_detail_or_html,36462,25953,25950,33132,0,1839,1487,4,0,mapped selected parents/nodes; no all-source omission claim
+src_90b3a872375c9e7fd267,questions_statements_list_json,65988,174,174,59944,6044,0,0,0,0,mapped selected parents/nodes; no all-source omission claim
+src_3c349b00120866c263a3,parlparse_xml_mirror,8448,398,398,7458,0,757,233,0,0,mapped selected parents/nodes; no all-source omission claim

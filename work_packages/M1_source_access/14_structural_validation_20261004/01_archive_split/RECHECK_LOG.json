@@ -1,0 +1,69 @@
+{
+  "before": {
+    "parlparse_xml_mirror": {
+      "supported_split": 7458,
+      "duplicate_import": 757,
+      "boundary_conflict": 233
+    },
+    "historic_xml_zip": {
+      "supported_split": 75231,
+      "boundary_conflict": 60529,
+      "insufficient_evidence": 1
+    },
+    "unsupported": {
+      "insufficient_evidence": 321
+    },
+    "modern_list_json": {
+      "supported_split": 59944,
+      "legitimate_shared_span": 6044
+    },
+    "archive_detail_json": {
+      "supported_split": 24210,
+      "insufficient_evidence": 4,
+      "boundary_conflict": 1113
+    },
+    "archive_html": {
+      "supported_split": 8922,
+      "duplicate_import": 1839,
+      "boundary_conflict": 374
+    }
+  },
+  "after": {
+    "parlparse_xml_mirror": {
+      "supported_split": 8448
+    },
+    "historic_xml_zip": {
+      "supported_split": 134842,
+      "insufficient_evidence": 5,
+      "boundary_conflict": 914
+    },
+    "unsupported": {
+      "insufficient_evidence": 321
+    },
+    "modern_list_json": {
+      "supported_split": 59944,
+      "legitimate_shared_span": 6044
+    },
+    "archive_detail_json": {
+      "supported_split": 24210,
+      "insufficient_evidence": 4,
+      "boundary_conflict": 1113
+    },
+    "archive_html": {
+      "supported_split": 11135
+    }
+  },
+  "target_containers": 943,
+  "rechecked_parent_links": 92734,
+  "new_exceptions": 936,
+  "lock_holds": [
+    {
+      "phase": "targeted_exception_containers_only",
+      "acquired_utc": "2026-10-04T06:31:25.997109+00:00",
+      "wait_seconds": 0.0,
+      "held_seconds": 84.069,
+      "released_utc": "2026-10-04T06:32:50.066638+00:00"
+    }
+  ],
+  "elapsed_seconds": 92.31
+}
