@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="964.8pt" height="518.4pt" viewBox="0 0 964.8 518.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-27T23:05:31.823440</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 518.4 
+L 964.8 518.4 
+L 964.8 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 164.016 373.248 
+L 916.56 373.248 
+L 916.56 108.864 
+L 164.016 108.864 
+z
+" style="fill: #ffffff"/>
+   </g>
+   <g clip-path="url(#p967b792c51)">
+    <image xlink:href="data:image/png;base64,
+iVBORw0KGgoAAAANSUhEUgAAAdEAAAAHCAYAAABX03cdAAAA8klEQVR4nO3YvwqCQBzA8ZOeoK2X6BXaI2ppCoIaBcGHCQShpSBoagmivVdobWqItp4gCgWlLM3L7E7u+1nOPz/ldz+F36nldqc3kcL1OuE4cTZpIYXj88bqen+V8cn5/aM+utWzzPx1Y9p8VZN9H2EmK6uJAqZy7IvqFAAUUGsOxXW/EGWzDscTTTRDsAqNVqRZ5x9HwFQ6LT48v/6UT7CfN8coNiJzza9qkMwfeqKJVryJQ/+aqnyGvD/UFuXidy4AAF/iSxQAJA38Xby9tFvUz2A0UQD4oL2axdvz8zocR43eS1xw7t3xNNv+mNqLarsDekiMyQHCkBsAAAAASUVORK5CYII=" id="imagec043b13bf2" width="465" height="7" transform="matrix(1.618374 0 0 33.895385 164.016 135.980308)" style="image-rendering:crisp-edges;image-rendering:pixelated"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m0c6c3e74b5" d="M 0 0 
+L 0 3.5 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m0c6c3e74b5" x="164.825187" y="373.248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="164.825187" y="386.326125" transform="rotate(-0 164.825187 386.326125)">1988-01</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m0c6c3e74b5" x="300.768619" y="373.248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="300.768619" y="386.326125" transform="rotate(-0 300.768619 386.326125)">1995-01</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m0c6c3e74b5" x="436.712052" y="373.248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="436.712052" y="386.326125" transform="rotate(-0 436.712052 386.326125)">2002-01</text>
+     </g>
+    </g>
+    <g id="xtick_4">
+     <g id="line2d_4">
+      <g>
+       <use xlink:href="#m0c6c3e74b5" x="572.655484" y="373.248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="572.655484" y="386.326125" transform="rotate(-0 572.655484 386.326125)">2009-01</text>
+     </g>
+    </g>
+    <g id="xtick_5">
+     <g id="line2d_5">
+      <g>
+       <use xlink:href="#m0c6c3e74b5" x="708.598916" y="373.248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="708.598916" y="386.326125" transform="rotate(-0 708.598916 386.326125)">2016-01</text>
+     </g>
+    </g>
+    <g id="xtick_6">
+     <g id="line2d_6">
+      <g>
+       <use xlink:href="#m0c6c3e74b5" x="844.542348" y="373.248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="844.542348" y="386.326125" transform="rotate(-0 844.542348 386.326125)">2023-01</text>
+     </g>
+    </g>
+    <g id="xtick_7">
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m0c6c3e74b5" x="915.750813" y="373.248" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: middle" x="915.750813" y="386.326125" transform="rotate(-0 915.750813 386.326125)">2026-09</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_8">
+      <defs>
+       <path id="m1bbcc1885f" d="M 0 0 
+L -3.5 0 
+" style="stroke: #000000; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m1bbcc1885f" x="164.016" y="152.928" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="157.016" y="155.967062" transform="rotate(-0 157.016 155.967062)">UK</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m1bbcc1885f" x="164.016" y="186.823385" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="157.016" y="189.862447" transform="rotate(-0 157.016 189.862447)">EU</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_10">
+      <g>
+       <use xlink:href="#m1bbcc1885f" x="164.016" y="220.718769" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="157.016" y="223.757832" transform="rotate(-0 157.016 223.757832)">US</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m1bbcc1885f" x="164.016" y="254.614154" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_11">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="157.016" y="257.653216" transform="rotate(-0 157.016 257.653216)">AU</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <g>
+       <use xlink:href="#m1bbcc1885f" x="164.016" y="288.509538" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_12">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="157.016" y="291.548913" transform="rotate(-0 157.016 291.548913)">Pooled government</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m1bbcc1885f" x="164.016" y="322.404923" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_13">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="157.016" y="325.444298" transform="rotate(-0 157.016 325.444298)">Media pilot</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_14">
+      <g>
+       <use xlink:href="#m1bbcc1885f" x="164.016" y="356.300308" style="stroke: #000000; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_14">
+      <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: end" x="157.016" y="359.339683" transform="rotate(-0 157.016 359.339683)">Public pilot</text>
+     </g>
+    </g>
+   </g>
+   <g id="line2d_15">
+    <path d="M 693.224361 373.248 
+L 693.224361 108.864 
+" clip-path="url(#p967b792c51)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #c67738; stroke-width: 1.5"/>
+   </g>
+   <g id="line2d_16">
+    <path d="M 696.46111 373.248 
+L 696.46111 108.864 
+" clip-path="url(#p967b792c51)" style="fill: none; stroke-dasharray: 5.55,2.4; stroke-dashoffset: 0; stroke: #c67738; stroke-width: 1.5"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 164.016 373.248 
+L 164.016 108.864 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 164.016 373.248 
+L 916.56 373.248 
+" style="fill: none; stroke: #000000; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #c67738" x="711.835665" y="119.032615" transform="rotate(-0 711.835665 119.032615)">2015 bridge</text>
+   </g>
+  </g>
+  <g id="patch_5">
+   <path d="M 164.016 430.272 
+L 175.5936 430.272 
+L 175.5936 420.9408 
+L 164.016 420.9408 
+z
+" style="fill: #dce2e6; stroke: #dce2e6; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_6">
+   <path d="M 287.5104 430.272 
+L 299.088 430.272 
+L 299.088 420.9408 
+L 287.5104 420.9408 
+z
+" style="fill: #d9b58a; stroke: #d9b58a; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_7">
+   <path d="M 411.0048 430.272 
+L 422.5824 430.272 
+L 422.5824 420.9408 
+L 411.0048 420.9408 
+z
+" style="fill: #6e4d9b; stroke: #6e4d9b; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_8">
+   <path d="M 534.4992 430.272 
+L 546.0768 430.272 
+L 546.0768 420.9408 
+L 534.4992 420.9408 
+z
+" style="fill: #357aa8; stroke: #357aa8; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_9">
+   <path d="M 657.9936 430.272 
+L 669.5712 430.272 
+L 669.5712 420.9408 
+L 657.9936 420.9408 
+z
+" style="fill: #c67738; stroke: #c67738; stroke-linejoin: miter"/>
+  </g>
+  <g id="patch_10">
+   <path d="M 781.488 430.272 
+L 793.0656 430.272 
+L 793.0656 420.9408 
+L 781.488 420.9408 
+z
+" style="fill: #258f86; stroke: #258f86; stroke-linejoin: miter"/>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 16px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2d3a" x="53.064" y="31.104" transform="rotate(-0 53.064 31.104)">02  Government text touches every study month</text>
+  </g>
+  <g id="text_17">
+   <text style="font-size: 9px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #637485" x="53.064" y="51.3216" transform="rotate(-0 53.064 51.3216)">465 monthly bins, January 1988–September 2026; pilot channels remain partial.</text>
+  </g>
+  <g id="text_18">
+   <text style="font-size: 7.3px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #637485" x="53.064" y="501.8112" transform="rotate(-0 53.064 501.8112)">Presence of stored text, not climate relevance. September 2026 is partial; gray is unaudited or absent, not verified zero.</text>
+  </g>
+  <g id="text_19">
+   <text style="font-size: 7.1px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2d3a" x="177.5232" y="430.7904" transform="rotate(-0 177.5232 430.7904)">Unaudited / absent</text>
+  </g>
+  <g id="text_20">
+   <text style="font-size: 7.1px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2d3a" x="301.0176" y="430.7904" transform="rotate(-0 301.0176 430.7904)">Dated, no text</text>
+  </g>
+  <g id="text_21">
+   <text style="font-size: 7.1px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2d3a" x="424.512" y="430.7904" transform="rotate(-0 424.512 430.7904)">Government text</text>
+  </g>
+  <g id="text_22">
+   <text style="font-size: 7.1px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2d3a" x="548.0064" y="430.7904" transform="rotate(-0 548.0064 430.7904)">Media body pilot</text>
+  </g>
+  <g id="text_23">
+   <text style="font-size: 7.1px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2d3a" x="671.5008" y="430.7904" transform="rotate(-0 671.5008 430.7904)">Query-zero</text>
+  </g>
+  <g id="text_24">
+   <text style="font-size: 7.1px; font-family: 'DejaVu Sans', sans-serif; text-anchor: start; fill: #1f2d3a" x="794.9952" y="430.7904" transform="rotate(-0 794.9952 430.7904)">Published query hit</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p967b792c51">
+   <rect x="164.016" y="108.864" width="752.544" height="264.384"/>
+  </clipPath>
+ </defs>
+</svg>

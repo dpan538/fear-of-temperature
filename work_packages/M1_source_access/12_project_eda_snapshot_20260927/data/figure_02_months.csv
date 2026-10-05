@@ -1,0 +1,3256 @@
+month,source,dated_count,text_count_or_presence,status
+1988-01,UK,962,962,readable
+1988-01,EU,62,46,readable
+1988-01,US,0,0,unaudited or absent
+1988-01,AU,0,0,unaudited or absent
+1988-01,Pooled government,1024,1,readable
+1988-01,Media pilot,0,0,unaudited or absent
+1988-01,Public pilot,0,0,unaudited or absent
+1988-02,UK,994,994,readable
+1988-02,EU,113,71,readable
+1988-02,US,0,0,unaudited or absent
+1988-02,AU,0,0,unaudited or absent
+1988-02,Pooled government,1107,1,readable
+1988-02,Media pilot,0,0,unaudited or absent
+1988-02,Public pilot,0,0,unaudited or absent
+1988-03,UK,1056,1056,readable
+1988-03,EU,163,107,readable
+1988-03,US,0,0,unaudited or absent
+1988-03,AU,0,0,unaudited or absent
+1988-03,Pooled government,1219,1,readable
+1988-03,Media pilot,0,0,unaudited or absent
+1988-03,Public pilot,0,0,unaudited or absent
+1988-04,UK,621,621,readable
+1988-04,EU,186,136,readable
+1988-04,US,0,0,unaudited or absent
+1988-04,AU,0,0,unaudited or absent
+1988-04,Pooled government,807,1,readable
+1988-04,Media pilot,0,0,unaudited or absent
+1988-04,Public pilot,0,0,unaudited or absent
+1988-05,UK,998,998,readable
+1988-05,EU,110,70,readable
+1988-05,US,0,0,unaudited or absent
+1988-05,AU,0,0,unaudited or absent
+1988-05,Pooled government,1108,1,readable
+1988-05,Media pilot,0,0,unaudited or absent
+1988-05,Public pilot,0,0,unaudited or absent
+1988-06,UK,911,911,readable
+1988-06,EU,98,64,readable
+1988-06,US,0,0,unaudited or absent
+1988-06,AU,0,0,unaudited or absent
+1988-06,Pooled government,1009,1,readable
+1988-06,Media pilot,0,0,unaudited or absent
+1988-06,Public pilot,0,0,unaudited or absent
+1988-07,UK,1431,1431,readable
+1988-07,EU,97,60,readable
+1988-07,US,0,0,unaudited or absent
+1988-07,AU,0,0,unaudited or absent
+1988-07,Pooled government,1528,1,readable
+1988-07,Media pilot,0,0,unaudited or absent
+1988-07,Public pilot,0,0,unaudited or absent
+1988-08,UK,0,0,unaudited or absent
+1988-08,EU,25,21,readable
+1988-08,US,0,0,unaudited or absent
+1988-08,AU,0,0,unaudited or absent
+1988-08,Pooled government,25,1,readable
+1988-08,Media pilot,0,0,unaudited or absent
+1988-08,Public pilot,0,0,unaudited or absent
+1988-09,UK,0,0,unaudited or absent
+1988-09,EU,137,84,readable
+1988-09,US,0,0,unaudited or absent
+1988-09,AU,0,0,unaudited or absent
+1988-09,Pooled government,137,1,readable
+1988-09,Media pilot,0,0,unaudited or absent
+1988-09,Public pilot,0,0,unaudited or absent
+1988-10,UK,542,542,readable
+1988-10,EU,181,112,readable
+1988-10,US,0,0,unaudited or absent
+1988-10,AU,0,0,unaudited or absent
+1988-10,Pooled government,723,1,readable
+1988-10,Media pilot,0,0,unaudited or absent
+1988-10,Public pilot,0,0,unaudited or absent
+1988-11,UK,824,824,readable
+1988-11,EU,168,109,readable
+1988-11,US,0,0,unaudited or absent
+1988-11,AU,0,0,unaudited or absent
+1988-11,Pooled government,992,1,readable
+1988-11,Media pilot,0,0,unaudited or absent
+1988-11,Public pilot,0,0,unaudited or absent
+1988-12,UK,1036,1036,readable
+1988-12,EU,215,141,readable
+1988-12,US,0,0,unaudited or absent
+1988-12,AU,0,0,unaudited or absent
+1988-12,Pooled government,1251,1,readable
+1988-12,Media pilot,0,0,unaudited or absent
+1988-12,Public pilot,0,0,unaudited or absent
+1989-01,UK,959,959,readable
+1989-01,EU,150,119,readable
+1989-01,US,0,0,unaudited or absent
+1989-01,AU,0,0,unaudited or absent
+1989-01,Pooled government,1109,1,readable
+1989-01,Media pilot,0,0,unaudited or absent
+1989-01,Public pilot,0,0,unaudited or absent
+1989-02,UK,1197,1197,readable
+1989-02,EU,122,80,readable
+1989-02,US,0,0,unaudited or absent
+1989-02,AU,0,0,unaudited or absent
+1989-02,Pooled government,1319,1,readable
+1989-02,Media pilot,0,0,unaudited or absent
+1989-02,Public pilot,0,0,unaudited or absent
+1989-03,UK,1094,1094,readable
+1989-03,EU,105,68,readable
+1989-03,US,0,0,unaudited or absent
+1989-03,AU,0,0,unaudited or absent
+1989-03,Pooled government,1199,1,readable
+1989-03,Media pilot,0,0,unaudited or absent
+1989-03,Public pilot,0,0,unaudited or absent
+1989-04,UK,1181,1181,readable
+1989-04,EU,82,57,readable
+1989-04,US,0,0,unaudited or absent
+1989-04,AU,0,0,unaudited or absent
+1989-04,Pooled government,1263,1,readable
+1989-04,Media pilot,0,0,unaudited or absent
+1989-04,Public pilot,0,0,unaudited or absent
+1989-05,UK,1029,1029,readable
+1989-05,EU,68,55,readable
+1989-05,US,0,0,unaudited or absent
+1989-05,AU,0,0,unaudited or absent
+1989-05,Pooled government,1097,1,readable
+1989-05,Media pilot,0,0,unaudited or absent
+1989-05,Public pilot,0,0,unaudited or absent
+1989-06,UK,1007,1007,readable
+1989-06,EU,83,59,readable
+1989-06,US,0,0,unaudited or absent
+1989-06,AU,0,0,unaudited or absent
+1989-06,Pooled government,1090,1,readable
+1989-06,Media pilot,0,0,unaudited or absent
+1989-06,Public pilot,0,0,unaudited or absent
+1989-07,UK,1430,1430,readable
+1989-07,EU,72,57,readable
+1989-07,US,0,0,unaudited or absent
+1989-07,AU,0,0,unaudited or absent
+1989-07,Pooled government,1502,1,readable
+1989-07,Media pilot,0,0,unaudited or absent
+1989-07,Public pilot,0,0,unaudited or absent
+1989-08,UK,0,0,unaudited or absent
+1989-08,EU,36,27,readable
+1989-08,US,0,0,unaudited or absent
+1989-08,AU,0,0,unaudited or absent
+1989-08,Pooled government,36,1,readable
+1989-08,Media pilot,0,0,unaudited or absent
+1989-08,Public pilot,0,0,unaudited or absent
+1989-09,UK,0,0,unaudited or absent
+1989-09,EU,66,54,readable
+1989-09,US,0,0,unaudited or absent
+1989-09,AU,0,0,unaudited or absent
+1989-09,Pooled government,66,1,readable
+1989-09,Media pilot,0,0,unaudited or absent
+1989-09,Public pilot,0,0,unaudited or absent
+1989-10,UK,489,489,readable
+1989-10,EU,77,63,readable
+1989-10,US,0,0,unaudited or absent
+1989-10,AU,0,0,unaudited or absent
+1989-10,Pooled government,566,1,readable
+1989-10,Media pilot,0,0,unaudited or absent
+1989-10,Public pilot,0,0,unaudited or absent
+1989-11,UK,1211,1211,readable
+1989-11,EU,76,62,readable
+1989-11,US,0,0,unaudited or absent
+1989-11,AU,0,0,unaudited or absent
+1989-11,Pooled government,1287,1,readable
+1989-11,Media pilot,0,0,unaudited or absent
+1989-11,Public pilot,0,0,unaudited or absent
+1989-12,UK,1182,1182,readable
+1989-12,EU,71,54,readable
+1989-12,US,0,0,unaudited or absent
+1989-12,AU,0,0,unaudited or absent
+1989-12,Pooled government,1253,1,readable
+1989-12,Media pilot,0,0,unaudited or absent
+1989-12,Public pilot,0,0,unaudited or absent
+1990-01,UK,1277,1277,readable
+1990-01,EU,112,98,readable
+1990-01,US,0,0,unaudited or absent
+1990-01,AU,0,0,unaudited or absent
+1990-01,Pooled government,1389,1,readable
+1990-01,Media pilot,0,0,unaudited or absent
+1990-01,Public pilot,0,0,unaudited or absent
+1990-02,UK,1552,1552,readable
+1990-02,EU,49,36,readable
+1990-02,US,0,0,unaudited or absent
+1990-02,AU,0,0,unaudited or absent
+1990-02,Pooled government,1601,1,readable
+1990-02,Media pilot,0,0,unaudited or absent
+1990-02,Public pilot,0,0,unaudited or absent
+1990-03,UK,1521,1521,readable
+1990-03,EU,50,32,readable
+1990-03,US,0,0,unaudited or absent
+1990-03,AU,0,0,unaudited or absent
+1990-03,Pooled government,1571,1,readable
+1990-03,Media pilot,0,0,unaudited or absent
+1990-03,Public pilot,0,0,unaudited or absent
+1990-04,UK,1043,1043,readable
+1990-04,EU,45,23,readable
+1990-04,US,0,0,unaudited or absent
+1990-04,AU,0,0,unaudited or absent
+1990-04,Pooled government,1088,1,readable
+1990-04,Media pilot,0,0,unaudited or absent
+1990-04,Public pilot,0,0,unaudited or absent
+1990-05,UK,1022,1022,readable
+1990-05,EU,74,58,readable
+1990-05,US,0,0,unaudited or absent
+1990-05,AU,0,0,unaudited or absent
+1990-05,Pooled government,1096,1,readable
+1990-05,Media pilot,0,0,unaudited or absent
+1990-05,Public pilot,0,0,unaudited or absent
+1990-06,UK,1284,1284,readable
+1990-06,EU,83,44,readable
+1990-06,US,0,0,unaudited or absent
+1990-06,AU,0,0,unaudited or absent
+1990-06,Pooled government,1367,1,readable
+1990-06,Media pilot,0,0,unaudited or absent
+1990-06,Public pilot,0,0,unaudited or absent
+1990-07,UK,1260,1260,readable
+1990-07,EU,80,37,readable
+1990-07,US,0,0,unaudited or absent
+1990-07,AU,0,0,unaudited or absent
+1990-07,Pooled government,1340,1,readable
+1990-07,Media pilot,0,0,unaudited or absent
+1990-07,Public pilot,0,0,unaudited or absent
+1990-08,UK,0,0,unaudited or absent
+1990-08,EU,48,22,readable
+1990-08,US,0,0,unaudited or absent
+1990-08,AU,0,0,unaudited or absent
+1990-08,Pooled government,48,1,readable
+1990-08,Media pilot,0,0,unaudited or absent
+1990-08,Public pilot,0,0,unaudited or absent
+1990-09,UK,7,7,readable
+1990-09,EU,61,32,readable
+1990-09,US,0,0,unaudited or absent
+1990-09,AU,0,0,unaudited or absent
+1990-09,Pooled government,68,1,readable
+1990-09,Media pilot,0,0,unaudited or absent
+1990-09,Public pilot,0,0,unaudited or absent
+1990-10,UK,902,902,readable
+1990-10,EU,116,77,readable
+1990-10,US,0,0,unaudited or absent
+1990-10,AU,0,0,unaudited or absent
+1990-10,Pooled government,1018,1,readable
+1990-10,Media pilot,0,0,unaudited or absent
+1990-10,Public pilot,0,0,unaudited or absent
+1990-11,UK,775,775,readable
+1990-11,EU,73,49,readable
+1990-11,US,0,0,unaudited or absent
+1990-11,AU,0,0,unaudited or absent
+1990-11,Pooled government,848,1,readable
+1990-11,Media pilot,0,0,unaudited or absent
+1990-11,Public pilot,0,0,unaudited or absent
+1990-12,UK,646,646,readable
+1990-12,EU,71,36,readable
+1990-12,US,0,0,unaudited or absent
+1990-12,AU,0,0,unaudited or absent
+1990-12,Pooled government,717,1,readable
+1990-12,Media pilot,0,0,unaudited or absent
+1990-12,Public pilot,0,0,unaudited or absent
+1991-01,UK,629,629,readable
+1991-01,EU,52,37,readable
+1991-01,US,0,0,unaudited or absent
+1991-01,AU,0,0,unaudited or absent
+1991-01,Pooled government,681,1,readable
+1991-01,Media pilot,0,0,unaudited or absent
+1991-01,Public pilot,0,0,unaudited or absent
+1991-02,UK,863,863,readable
+1991-02,EU,62,55,readable
+1991-02,US,0,0,unaudited or absent
+1991-02,AU,0,0,unaudited or absent
+1991-02,Pooled government,925,1,readable
+1991-02,Media pilot,0,0,unaudited or absent
+1991-02,Public pilot,0,0,unaudited or absent
+1991-03,UK,880,880,readable
+1991-03,EU,111,102,readable
+1991-03,US,0,0,unaudited or absent
+1991-03,AU,0,0,unaudited or absent
+1991-03,Pooled government,991,1,readable
+1991-03,Media pilot,0,0,unaudited or absent
+1991-03,Public pilot,0,0,unaudited or absent
+1991-04,UK,423,423,readable
+1991-04,EU,57,33,readable
+1991-04,US,0,0,unaudited or absent
+1991-04,AU,0,0,unaudited or absent
+1991-04,Pooled government,480,1,readable
+1991-04,Media pilot,0,0,unaudited or absent
+1991-04,Public pilot,0,0,unaudited or absent
+1991-05,UK,756,756,readable
+1991-05,EU,62,39,readable
+1991-05,US,0,0,unaudited or absent
+1991-05,AU,0,0,unaudited or absent
+1991-05,Pooled government,818,1,readable
+1991-05,Media pilot,0,0,unaudited or absent
+1991-05,Public pilot,0,0,unaudited or absent
+1991-06,UK,767,767,readable
+1991-06,EU,57,36,readable
+1991-06,US,0,0,unaudited or absent
+1991-06,AU,0,0,unaudited or absent
+1991-06,Pooled government,824,1,readable
+1991-06,Media pilot,0,0,unaudited or absent
+1991-06,Public pilot,0,0,unaudited or absent
+1991-07,UK,940,940,readable
+1991-07,EU,90,75,readable
+1991-07,US,0,0,unaudited or absent
+1991-07,AU,0,0,unaudited or absent
+1991-07,Pooled government,1030,1,readable
+1991-07,Media pilot,0,0,unaudited or absent
+1991-07,Public pilot,0,0,unaudited or absent
+1991-08,UK,0,0,unaudited or absent
+1991-08,EU,20,19,readable
+1991-08,US,0,0,unaudited or absent
+1991-08,AU,0,0,unaudited or absent
+1991-08,Pooled government,20,1,readable
+1991-08,Media pilot,0,0,unaudited or absent
+1991-08,Public pilot,0,0,unaudited or absent
+1991-09,UK,0,0,unaudited or absent
+1991-09,EU,44,32,readable
+1991-09,US,0,0,unaudited or absent
+1991-09,AU,0,0,unaudited or absent
+1991-09,Pooled government,44,1,readable
+1991-09,Media pilot,0,0,unaudited or absent
+1991-09,Public pilot,0,0,unaudited or absent
+1991-10,UK,432,432,readable
+1991-10,EU,91,77,readable
+1991-10,US,0,0,unaudited or absent
+1991-10,AU,0,0,unaudited or absent
+1991-10,Pooled government,523,1,readable
+1991-10,Media pilot,0,0,unaudited or absent
+1991-10,Public pilot,0,0,unaudited or absent
+1991-11,UK,865,865,readable
+1991-11,EU,92,78,readable
+1991-11,US,0,0,unaudited or absent
+1991-11,AU,0,0,unaudited or absent
+1991-11,Pooled government,957,1,readable
+1991-11,Media pilot,0,0,unaudited or absent
+1991-11,Public pilot,0,0,unaudited or absent
+1991-12,UK,599,599,readable
+1991-12,EU,94,78,readable
+1991-12,US,0,0,unaudited or absent
+1991-12,AU,0,0,unaudited or absent
+1991-12,Pooled government,693,1,readable
+1991-12,Media pilot,0,0,unaudited or absent
+1991-12,Public pilot,0,0,unaudited or absent
+1992-01,UK,585,585,readable
+1992-01,EU,44,19,readable
+1992-01,US,0,0,unaudited or absent
+1992-01,AU,0,0,unaudited or absent
+1992-01,Pooled government,629,1,readable
+1992-01,Media pilot,0,0,unaudited or absent
+1992-01,Public pilot,0,0,unaudited or absent
+1992-02,UK,769,769,readable
+1992-02,EU,59,36,readable
+1992-02,US,0,0,unaudited or absent
+1992-02,AU,0,0,unaudited or absent
+1992-02,Pooled government,828,1,readable
+1992-02,Media pilot,0,0,unaudited or absent
+1992-02,Public pilot,0,0,unaudited or absent
+1992-03,UK,468,468,readable
+1992-03,EU,136,111,readable
+1992-03,US,0,0,unaudited or absent
+1992-03,AU,0,0,unaudited or absent
+1992-03,Pooled government,604,1,readable
+1992-03,Media pilot,0,0,unaudited or absent
+1992-03,Public pilot,0,0,unaudited or absent
+1992-04,UK,63,63,readable
+1992-04,EU,52,39,readable
+1992-04,US,0,0,unaudited or absent
+1992-04,AU,0,0,unaudited or absent
+1992-04,Pooled government,115,1,readable
+1992-04,Media pilot,0,0,unaudited or absent
+1992-04,Public pilot,0,0,unaudited or absent
+1992-05,UK,458,458,readable
+1992-05,EU,81,46,readable
+1992-05,US,0,0,unaudited or absent
+1992-05,AU,0,0,unaudited or absent
+1992-05,Pooled government,539,1,readable
+1992-05,Media pilot,0,0,unaudited or absent
+1992-05,Public pilot,0,0,unaudited or absent
+1992-06,UK,1185,1185,readable
+1992-06,EU,87,57,readable
+1992-06,US,0,0,unaudited or absent
+1992-06,AU,0,0,unaudited or absent
+1992-06,Pooled government,1272,1,readable
+1992-06,Media pilot,0,0,unaudited or absent
+1992-06,Public pilot,0,0,unaudited or absent
+1992-07,UK,877,877,readable
+1992-07,EU,88,43,readable
+1992-07,US,0,0,unaudited or absent
+1992-07,AU,0,0,unaudited or absent
+1992-07,Pooled government,965,1,readable
+1992-07,Media pilot,0,0,unaudited or absent
+1992-07,Public pilot,0,0,unaudited or absent
+1992-08,UK,0,0,unaudited or absent
+1992-08,EU,12,4,readable
+1992-08,US,0,0,unaudited or absent
+1992-08,AU,0,0,unaudited or absent
+1992-08,Pooled government,12,1,readable
+1992-08,Media pilot,0,0,unaudited or absent
+1992-08,Public pilot,0,0,unaudited or absent
+1992-09,UK,3,3,readable
+1992-09,EU,68,38,readable
+1992-09,US,0,0,unaudited or absent
+1992-09,AU,0,0,unaudited or absent
+1992-09,Pooled government,71,1,readable
+1992-09,Media pilot,0,0,unaudited or absent
+1992-09,Public pilot,0,0,unaudited or absent
+1992-10,UK,472,472,readable
+1992-10,EU,59,33,readable
+1992-10,US,0,0,unaudited or absent
+1992-10,AU,0,0,unaudited or absent
+1992-10,Pooled government,531,1,readable
+1992-10,Media pilot,0,0,unaudited or absent
+1992-10,Public pilot,0,0,unaudited or absent
+1992-11,UK,1143,1143,readable
+1992-11,EU,101,59,readable
+1992-11,US,0,0,unaudited or absent
+1992-11,AU,0,0,unaudited or absent
+1992-11,Pooled government,1244,1,readable
+1992-11,Media pilot,0,0,unaudited or absent
+1992-11,Public pilot,0,0,unaudited or absent
+1992-12,UK,792,792,readable
+1992-12,EU,134,80,readable
+1992-12,US,0,0,unaudited or absent
+1992-12,AU,0,0,unaudited or absent
+1992-12,Pooled government,926,1,readable
+1992-12,Media pilot,0,0,unaudited or absent
+1992-12,Public pilot,0,0,unaudited or absent
+1993-01,UK,839,839,readable
+1993-01,EU,37,30,readable
+1993-01,US,0,0,unaudited or absent
+1993-01,AU,0,0,unaudited or absent
+1993-01,Pooled government,876,1,readable
+1993-01,Media pilot,0,0,unaudited or absent
+1993-01,Public pilot,0,0,unaudited or absent
+1993-02,UK,912,912,readable
+1993-02,EU,70,51,readable
+1993-02,US,0,0,unaudited or absent
+1993-02,AU,0,0,unaudited or absent
+1993-02,Pooled government,982,1,readable
+1993-02,Media pilot,0,0,unaudited or absent
+1993-02,Public pilot,0,0,unaudited or absent
+1993-03,UK,1074,1074,readable
+1993-03,EU,78,69,readable
+1993-03,US,0,0,unaudited or absent
+1993-03,AU,0,0,unaudited or absent
+1993-03,Pooled government,1152,1,readable
+1993-03,Media pilot,0,0,unaudited or absent
+1993-03,Public pilot,0,0,unaudited or absent
+1993-04,UK,529,529,readable
+1993-04,EU,44,41,readable
+1993-04,US,0,0,unaudited or absent
+1993-04,AU,0,0,unaudited or absent
+1993-04,Pooled government,573,1,readable
+1993-04,Media pilot,0,0,unaudited or absent
+1993-04,Public pilot,0,0,unaudited or absent
+1993-05,UK,641,641,readable
+1993-05,EU,75,67,readable
+1993-05,US,0,0,unaudited or absent
+1993-05,AU,0,0,unaudited or absent
+1993-05,Pooled government,716,1,readable
+1993-05,Media pilot,0,0,unaudited or absent
+1993-05,Public pilot,0,0,unaudited or absent
+1993-06,UK,798,798,readable
+1993-06,EU,63,53,readable
+1993-06,US,0,0,unaudited or absent
+1993-06,AU,0,0,unaudited or absent
+1993-06,Pooled government,861,1,readable
+1993-06,Media pilot,0,0,unaudited or absent
+1993-06,Public pilot,0,0,unaudited or absent
+1993-07,UK,1043,1043,readable
+1993-07,EU,96,71,readable
+1993-07,US,0,0,unaudited or absent
+1993-07,AU,0,0,unaudited or absent
+1993-07,Pooled government,1139,1,readable
+1993-07,Media pilot,0,0,unaudited or absent
+1993-07,Public pilot,0,0,unaudited or absent
+1993-08,UK,0,0,unaudited or absent
+1993-08,EU,9,7,readable
+1993-08,US,0,0,unaudited or absent
+1993-08,AU,0,0,unaudited or absent
+1993-08,Pooled government,9,1,readable
+1993-08,Media pilot,0,0,unaudited or absent
+1993-08,Public pilot,0,0,unaudited or absent
+1993-09,UK,0,0,unaudited or absent
+1993-09,EU,75,56,readable
+1993-09,US,0,0,unaudited or absent
+1993-09,AU,0,0,unaudited or absent
+1993-09,Pooled government,75,1,readable
+1993-09,Media pilot,0,0,unaudited or absent
+1993-09,Public pilot,0,0,unaudited or absent
+1993-10,UK,476,476,readable
+1993-10,EU,66,66,readable
+1993-10,US,0,0,unaudited or absent
+1993-10,AU,0,0,unaudited or absent
+1993-10,Pooled government,542,1,readable
+1993-10,Media pilot,0,0,unaudited or absent
+1993-10,Public pilot,0,0,unaudited or absent
+1993-11,UK,616,616,readable
+1993-11,EU,111,84,readable
+1993-11,US,0,0,unaudited or absent
+1993-11,AU,0,0,unaudited or absent
+1993-11,Pooled government,727,1,readable
+1993-11,Media pilot,0,0,unaudited or absent
+1993-11,Public pilot,0,0,unaudited or absent
+1993-12,UK,766,766,readable
+1993-12,EU,100,69,readable
+1993-12,US,0,0,unaudited or absent
+1993-12,AU,0,0,unaudited or absent
+1993-12,Pooled government,866,1,readable
+1993-12,Media pilot,0,0,unaudited or absent
+1993-12,Public pilot,0,0,unaudited or absent
+1994-01,UK,934,934,readable
+1994-01,EU,30,22,readable
+1994-01,US,18,18,readable
+1994-01,AU,0,0,unaudited or absent
+1994-01,Pooled government,982,1,readable
+1994-01,Media pilot,0,0,unaudited or absent
+1994-01,Public pilot,0,0,unaudited or absent
+1994-02,UK,955,955,readable
+1994-02,EU,80,77,readable
+1994-02,US,0,0,unaudited or absent
+1994-02,AU,0,0,unaudited or absent
+1994-02,Pooled government,1035,1,readable
+1994-02,Media pilot,0,0,unaudited or absent
+1994-02,Public pilot,0,0,unaudited or absent
+1994-03,UK,1099,1099,readable
+1994-03,EU,71,64,readable
+1994-03,US,0,0,unaudited or absent
+1994-03,AU,0,0,unaudited or absent
+1994-03,Pooled government,1170,1,readable
+1994-03,Media pilot,0,0,unaudited or absent
+1994-03,Public pilot,0,0,unaudited or absent
+1994-04,UK,606,606,readable
+1994-04,EU,56,50,readable
+1994-04,US,0,0,unaudited or absent
+1994-04,AU,0,0,unaudited or absent
+1994-04,Pooled government,662,1,readable
+1994-04,Media pilot,0,0,unaudited or absent
+1994-04,Public pilot,0,0,unaudited or absent
+1994-05,UK,699,699,readable
+1994-05,EU,42,37,readable
+1994-05,US,0,0,unaudited or absent
+1994-05,AU,0,0,unaudited or absent
+1994-05,Pooled government,741,1,readable
+1994-05,Media pilot,0,0,unaudited or absent
+1994-05,Public pilot,0,0,unaudited or absent
+1994-06,UK,549,549,readable
+1994-06,EU,88,76,readable
+1994-06,US,0,0,unaudited or absent
+1994-06,AU,0,0,unaudited or absent
+1994-06,Pooled government,637,1,readable
+1994-06,Media pilot,0,0,unaudited or absent
+1994-06,Public pilot,0,0,unaudited or absent
+1994-07,UK,730,730,readable
+1994-07,EU,81,66,readable
+1994-07,US,0,0,unaudited or absent
+1994-07,AU,0,0,unaudited or absent
+1994-07,Pooled government,811,1,readable
+1994-07,Media pilot,0,0,unaudited or absent
+1994-07,Public pilot,0,0,unaudited or absent
+1994-08,UK,0,0,unaudited or absent
+1994-08,EU,5,5,readable
+1994-08,US,0,0,unaudited or absent
+1994-08,AU,0,0,unaudited or absent
+1994-08,Pooled government,5,1,readable
+1994-08,Media pilot,0,0,unaudited or absent
+1994-08,Public pilot,0,0,unaudited or absent
+1994-09,UK,0,0,unaudited or absent
+1994-09,EU,65,61,readable
+1994-09,US,5,5,readable
+1994-09,AU,0,0,unaudited or absent
+1994-09,Pooled government,70,1,readable
+1994-09,Media pilot,0,0,unaudited or absent
+1994-09,Public pilot,0,0,unaudited or absent
+1994-10,UK,552,552,readable
+1994-10,EU,59,54,readable
+1994-10,US,0,0,unaudited or absent
+1994-10,AU,0,0,unaudited or absent
+1994-10,Pooled government,611,1,readable
+1994-10,Media pilot,0,0,unaudited or absent
+1994-10,Public pilot,0,0,unaudited or absent
+1994-11,UK,583,583,readable
+1994-11,EU,90,87,readable
+1994-11,US,16,16,readable
+1994-11,AU,0,0,unaudited or absent
+1994-11,Pooled government,689,1,readable
+1994-11,Media pilot,0,0,unaudited or absent
+1994-11,Public pilot,0,0,unaudited or absent
+1994-12,UK,714,714,readable
+1994-12,EU,134,105,readable
+1994-12,US,0,0,unaudited or absent
+1994-12,AU,0,0,unaudited or absent
+1994-12,Pooled government,848,1,readable
+1994-12,Media pilot,0,0,unaudited or absent
+1994-12,Public pilot,0,0,unaudited or absent
+1995-01,UK,764,764,readable
+1995-01,EU,16,13,readable
+1995-01,US,143,143,readable
+1995-01,AU,0,0,unaudited or absent
+1995-01,Pooled government,923,1,readable
+1995-01,Media pilot,0,0,unaudited or absent
+1995-01,Public pilot,0,0,unaudited or absent
+1995-02,UK,770,770,readable
+1995-02,EU,65,62,readable
+1995-02,US,92,92,readable
+1995-02,AU,0,0,unaudited or absent
+1995-02,Pooled government,927,1,readable
+1995-02,Media pilot,0,0,unaudited or absent
+1995-02,Public pilot,0,0,unaudited or absent
+1995-03,UK,889,889,readable
+1995-03,EU,64,50,readable
+1995-03,US,143,143,readable
+1995-03,AU,0,0,unaudited or absent
+1995-03,Pooled government,1096,1,readable
+1995-03,Media pilot,0,0,unaudited or absent
+1995-03,Public pilot,0,0,unaudited or absent
+1995-04,UK,517,517,readable
+1995-04,EU,50,43,readable
+1995-04,US,119,119,readable
+1995-04,AU,0,0,unaudited or absent
+1995-04,Pooled government,686,1,readable
+1995-04,Media pilot,0,0,unaudited or absent
+1995-04,Public pilot,0,0,unaudited or absent
+1995-05,UK,649,649,readable
+1995-05,EU,87,71,readable
+1995-05,US,160,160,readable
+1995-05,AU,0,0,unaudited or absent
+1995-05,Pooled government,896,1,readable
+1995-05,Media pilot,0,0,unaudited or absent
+1995-05,Public pilot,0,0,unaudited or absent
+1995-06,UK,694,694,readable
+1995-06,EU,80,70,readable
+1995-06,US,132,132,readable
+1995-06,AU,0,0,unaudited or absent
+1995-06,Pooled government,906,1,readable
+1995-06,Media pilot,0,0,unaudited or absent
+1995-06,Public pilot,0,0,unaudited or absent
+1995-07,UK,834,834,readable
+1995-07,EU,116,108,readable
+1995-07,US,106,106,readable
+1995-07,AU,0,0,unaudited or absent
+1995-07,Pooled government,1056,1,readable
+1995-07,Media pilot,0,0,unaudited or absent
+1995-07,Public pilot,0,0,unaudited or absent
+1995-08,UK,0,0,unaudited or absent
+1995-08,EU,2,2,readable
+1995-08,US,152,152,readable
+1995-08,AU,0,0,unaudited or absent
+1995-08,Pooled government,154,1,readable
+1995-08,Media pilot,0,0,unaudited or absent
+1995-08,Public pilot,0,0,unaudited or absent
+1995-09,UK,0,0,unaudited or absent
+1995-09,EU,61,57,readable
+1995-09,US,155,155,readable
+1995-09,AU,0,0,unaudited or absent
+1995-09,Pooled government,216,1,readable
+1995-09,Media pilot,0,0,unaudited or absent
+1995-09,Public pilot,0,0,unaudited or absent
+1995-10,UK,485,485,readable
+1995-10,EU,70,66,readable
+1995-10,US,102,102,readable
+1995-10,AU,0,0,unaudited or absent
+1995-10,Pooled government,657,1,readable
+1995-10,Media pilot,0,0,unaudited or absent
+1995-10,Public pilot,0,0,unaudited or absent
+1995-11,UK,911,911,readable
+1995-11,EU,103,84,readable
+1995-11,US,56,56,readable
+1995-11,AU,0,0,unaudited or absent
+1995-11,Pooled government,1070,1,readable
+1995-11,Media pilot,0,0,unaudited or absent
+1995-11,Public pilot,0,0,unaudited or absent
+1995-12,UK,625,625,readable
+1995-12,EU,130,79,readable
+1995-12,US,83,83,readable
+1995-12,AU,0,0,unaudited or absent
+1995-12,Pooled government,838,1,readable
+1995-12,Media pilot,0,0,unaudited or absent
+1995-12,Public pilot,0,0,unaudited or absent
+1996-01,UK,696,696,readable
+1996-01,EU,59,56,readable
+1996-01,US,72,72,readable
+1996-01,AU,0,0,unaudited or absent
+1996-01,Pooled government,827,1,readable
+1996-01,Media pilot,0,0,unaudited or absent
+1996-01,Public pilot,0,0,unaudited or absent
+1996-02,UK,756,756,readable
+1996-02,EU,46,46,readable
+1996-02,US,194,194,readable
+1996-02,AU,0,0,unaudited or absent
+1996-02,Pooled government,996,1,readable
+1996-02,Media pilot,0,0,unaudited or absent
+1996-02,Public pilot,0,0,unaudited or absent
+1996-03,UK,913,913,readable
+1996-03,EU,91,88,readable
+1996-03,US,119,119,readable
+1996-03,AU,0,0,unaudited or absent
+1996-03,Pooled government,1123,1,readable
+1996-03,Media pilot,0,0,unaudited or absent
+1996-03,Public pilot,0,0,unaudited or absent
+1996-04,UK,617,617,readable
+1996-04,EU,63,62,readable
+1996-04,US,121,121,readable
+1996-04,AU,0,0,unaudited or absent
+1996-04,Pooled government,801,1,readable
+1996-04,Media pilot,0,0,unaudited or absent
+1996-04,Public pilot,0,0,unaudited or absent
+1996-05,UK,570,570,readable
+1996-05,EU,76,76,readable
+1996-05,US,130,130,readable
+1996-05,AU,0,0,unaudited or absent
+1996-05,Pooled government,776,1,readable
+1996-05,Media pilot,0,0,unaudited or absent
+1996-05,Public pilot,0,0,unaudited or absent
+1996-06,UK,747,747,readable
+1996-06,EU,63,63,readable
+1996-06,US,139,139,readable
+1996-06,AU,0,0,unaudited or absent
+1996-06,Pooled government,949,1,readable
+1996-06,Media pilot,0,0,unaudited or absent
+1996-06,Public pilot,0,0,unaudited or absent
+1996-07,UK,798,798,readable
+1996-07,EU,114,114,readable
+1996-07,US,139,139,readable
+1996-07,AU,0,0,unaudited or absent
+1996-07,Pooled government,1051,1,readable
+1996-07,Media pilot,0,0,unaudited or absent
+1996-07,Public pilot,0,0,unaudited or absent
+1996-08,UK,0,0,unaudited or absent
+1996-08,EU,3,3,readable
+1996-08,US,85,85,readable
+1996-08,AU,0,0,unaudited or absent
+1996-08,Pooled government,88,1,readable
+1996-08,Media pilot,0,0,unaudited or absent
+1996-08,Public pilot,0,0,unaudited or absent
+1996-09,UK,0,0,unaudited or absent
+1996-09,EU,61,60,readable
+1996-09,US,87,87,readable
+1996-09,AU,1,1,readable
+1996-09,Pooled government,149,1,readable
+1996-09,Media pilot,0,0,unaudited or absent
+1996-09,Public pilot,0,0,unaudited or absent
+1996-10,UK,454,454,readable
+1996-10,EU,76,75,readable
+1996-10,US,120,120,readable
+1996-10,AU,0,0,unaudited or absent
+1996-10,Pooled government,650,1,readable
+1996-10,Media pilot,0,0,unaudited or absent
+1996-10,Public pilot,0,0,unaudited or absent
+1996-11,UK,774,774,readable
+1996-11,EU,81,79,readable
+1996-11,US,84,84,readable
+1996-11,AU,0,0,unaudited or absent
+1996-11,Pooled government,939,1,readable
+1996-11,Media pilot,0,0,unaudited or absent
+1996-11,Public pilot,0,0,unaudited or absent
+1996-12,UK,506,506,readable
+1996-12,EU,89,89,readable
+1996-12,US,81,81,readable
+1996-12,AU,0,0,unaudited or absent
+1996-12,Pooled government,676,1,readable
+1996-12,Media pilot,0,0,unaudited or absent
+1996-12,Public pilot,0,0,unaudited or absent
+1997-01,UK,521,521,readable
+1997-01,EU,38,36,readable
+1997-01,US,76,76,readable
+1997-01,AU,0,0,unaudited or absent
+1997-01,Pooled government,635,1,readable
+1997-01,Media pilot,0,0,unaudited or absent
+1997-01,Public pilot,0,0,unaudited or absent
+1997-02,UK,689,689,readable
+1997-02,EU,65,63,readable
+1997-02,US,77,77,readable
+1997-02,AU,0,0,unaudited or absent
+1997-02,Pooled government,831,1,readable
+1997-02,Media pilot,0,0,unaudited or absent
+1997-02,Public pilot,0,0,unaudited or absent
+1997-03,UK,701,701,readable
+1997-03,EU,79,77,readable
+1997-03,US,108,108,readable
+1997-03,AU,0,0,unaudited or absent
+1997-03,Pooled government,888,1,readable
+1997-03,Media pilot,0,0,unaudited or absent
+1997-03,Public pilot,0,0,unaudited or absent
+1997-04,UK,0,0,unaudited or absent
+1997-04,EU,51,50,readable
+1997-04,US,110,110,readable
+1997-04,AU,0,0,unaudited or absent
+1997-04,Pooled government,161,1,readable
+1997-04,Media pilot,0,0,unaudited or absent
+1997-04,Public pilot,0,0,unaudited or absent
+1997-05,UK,217,217,readable
+1997-05,EU,71,68,readable
+1997-05,US,109,109,readable
+1997-05,AU,0,0,unaudited or absent
+1997-05,Pooled government,397,1,readable
+1997-05,Media pilot,0,0,unaudited or absent
+1997-05,Public pilot,0,0,unaudited or absent
+1997-06,UK,1655,1655,readable
+1997-06,EU,86,82,readable
+1997-06,US,130,130,readable
+1997-06,AU,0,0,unaudited or absent
+1997-06,Pooled government,1871,1,readable
+1997-06,Media pilot,0,0,unaudited or absent
+1997-06,Public pilot,0,0,unaudited or absent
+1997-07,UK,1672,1672,readable
+1997-07,EU,96,89,readable
+1997-07,US,119,119,readable
+1997-07,AU,0,0,unaudited or absent
+1997-07,Pooled government,1887,1,readable
+1997-07,Media pilot,0,0,unaudited or absent
+1997-07,Public pilot,0,0,unaudited or absent
+1997-08,UK,0,0,unaudited or absent
+1997-08,EU,4,4,readable
+1997-08,US,134,134,readable
+1997-08,AU,0,0,unaudited or absent
+1997-08,Pooled government,138,1,readable
+1997-08,Media pilot,0,0,unaudited or absent
+1997-08,Public pilot,0,0,unaudited or absent
+1997-09,UK,0,0,unaudited or absent
+1997-09,EU,48,42,readable
+1997-09,US,98,98,readable
+1997-09,AU,0,0,unaudited or absent
+1997-09,Pooled government,146,1,readable
+1997-09,Media pilot,0,0,unaudited or absent
+1997-09,Public pilot,0,0,unaudited or absent
+1997-10,UK,169,169,readable
+1997-10,EU,101,88,readable
+1997-10,US,93,93,readable
+1997-10,AU,0,0,unaudited or absent
+1997-10,Pooled government,363,1,readable
+1997-10,Media pilot,0,0,unaudited or absent
+1997-10,Public pilot,0,0,unaudited or absent
+1997-11,UK,950,950,readable
+1997-11,EU,94,77,readable
+1997-11,US,80,80,readable
+1997-11,AU,0,0,unaudited or absent
+1997-11,Pooled government,1124,1,readable
+1997-11,Media pilot,0,0,unaudited or absent
+1997-11,Public pilot,0,0,unaudited or absent
+1997-12,UK,934,934,readable
+1997-12,EU,84,73,readable
+1997-12,US,96,96,readable
+1997-12,AU,0,0,unaudited or absent
+1997-12,Pooled government,1114,1,readable
+1997-12,Media pilot,0,0,unaudited or absent
+1997-12,Public pilot,0,0,unaudited or absent
+1998-01,UK,801,801,readable
+1998-01,EU,69,52,readable
+1998-01,US,81,81,readable
+1998-01,AU,0,0,unaudited or absent
+1998-01,Pooled government,951,1,readable
+1998-01,Media pilot,0,0,unaudited or absent
+1998-01,Public pilot,0,0,unaudited or absent
+1998-02,UK,1062,1062,readable
+1998-02,EU,97,78,readable
+1998-02,US,110,110,readable
+1998-02,AU,0,0,unaudited or absent
+1998-02,Pooled government,1269,1,readable
+1998-02,Media pilot,0,0,unaudited or absent
+1998-02,Public pilot,0,0,unaudited or absent
+1998-03,UK,984,984,readable
+1998-03,EU,128,115,readable
+1998-03,US,103,103,readable
+1998-03,AU,0,0,unaudited or absent
+1998-03,Pooled government,1215,1,readable
+1998-03,Media pilot,0,0,unaudited or absent
+1998-03,Public pilot,0,0,unaudited or absent
+1998-04,UK,906,906,readable
+1998-04,EU,70,62,readable
+1998-04,US,107,107,readable
+1998-04,AU,0,0,unaudited or absent
+1998-04,Pooled government,1083,1,readable
+1998-04,Media pilot,0,0,unaudited or absent
+1998-04,Public pilot,0,0,unaudited or absent
+1998-05,UK,538,538,readable
+1998-05,EU,88,80,readable
+1998-05,US,110,110,readable
+1998-05,AU,0,0,unaudited or absent
+1998-05,Pooled government,736,1,readable
+1998-05,Media pilot,0,0,unaudited or absent
+1998-05,Public pilot,0,0,unaudited or absent
+1998-06,UK,1193,1193,readable
+1998-06,EU,61,57,readable
+1998-06,US,91,91,readable
+1998-06,AU,0,0,unaudited or absent
+1998-06,Pooled government,1345,1,readable
+1998-06,Media pilot,0,0,unaudited or absent
+1998-06,Public pilot,0,0,unaudited or absent
+1998-07,UK,1596,1596,readable
+1998-07,EU,110,73,readable
+1998-07,US,100,100,readable
+1998-07,AU,0,0,unaudited or absent
+1998-07,Pooled government,1806,1,readable
+1998-07,Media pilot,0,0,unaudited or absent
+1998-07,Public pilot,0,0,unaudited or absent
+1998-08,UK,0,0,unaudited or absent
+1998-08,EU,4,3,readable
+1998-08,US,109,109,readable
+1998-08,AU,0,0,unaudited or absent
+1998-08,Pooled government,113,1,readable
+1998-08,Media pilot,0,0,unaudited or absent
+1998-08,Public pilot,0,0,unaudited or absent
+1998-09,UK,34,34,readable
+1998-09,EU,54,37,readable
+1998-09,US,124,124,readable
+1998-09,AU,0,0,unaudited or absent
+1998-09,Pooled government,212,1,readable
+1998-09,Media pilot,0,0,unaudited or absent
+1998-09,Public pilot,0,0,unaudited or absent
+1998-10,UK,522,522,readable
+1998-10,EU,58,41,readable
+1998-10,US,104,104,readable
+1998-10,AU,0,0,unaudited or absent
+1998-10,Pooled government,684,1,readable
+1998-10,Media pilot,0,0,unaudited or absent
+1998-10,Public pilot,0,0,unaudited or absent
+1998-11,UK,995,995,readable
+1998-11,EU,81,42,readable
+1998-11,US,67,67,readable
+1998-11,AU,0,0,unaudited or absent
+1998-11,Pooled government,1143,1,readable
+1998-11,Media pilot,0,0,unaudited or absent
+1998-11,Public pilot,0,0,unaudited or absent
+1998-12,UK,709,709,readable
+1998-12,EU,109,52,readable
+1998-12,US,127,127,readable
+1998-12,AU,0,0,unaudited or absent
+1998-12,Pooled government,945,1,readable
+1998-12,Media pilot,0,0,unaudited or absent
+1998-12,Public pilot,0,0,unaudited or absent
+1999-01,UK,768,768,readable
+1999-01,EU,53,27,readable
+1999-01,US,103,103,readable
+1999-01,AU,0,0,unaudited or absent
+1999-01,Pooled government,924,1,readable
+1999-01,Media pilot,0,0,unaudited or absent
+1999-01,Public pilot,0,0,unaudited or absent
+1999-02,UK,884,884,readable
+1999-02,EU,75,53,readable
+1999-02,US,79,79,readable
+1999-02,AU,0,0,unaudited or absent
+1999-02,Pooled government,1038,1,readable
+1999-02,Media pilot,0,0,unaudited or absent
+1999-02,Public pilot,0,0,unaudited or absent
+1999-03,UK,1384,1384,readable
+1999-03,EU,51,24,readable
+1999-03,US,115,115,readable
+1999-03,AU,0,0,unaudited or absent
+1999-03,Pooled government,1550,1,readable
+1999-03,Media pilot,0,0,unaudited or absent
+1999-03,Public pilot,0,0,unaudited or absent
+1999-04,UK,614,614,readable
+1999-04,EU,65,31,readable
+1999-04,US,104,104,readable
+1999-04,AU,0,0,unaudited or absent
+1999-04,Pooled government,783,1,readable
+1999-04,Media pilot,0,0,unaudited or absent
+1999-04,Public pilot,0,0,unaudited or absent
+1999-05,UK,637,637,readable
+1999-05,EU,68,31,readable
+1999-05,US,103,103,readable
+1999-05,AU,0,0,unaudited or absent
+1999-05,Pooled government,808,1,readable
+1999-05,Media pilot,0,0,unaudited or absent
+1999-05,Public pilot,0,0,unaudited or absent
+1999-06,UK,661,661,readable
+1999-06,EU,59,33,readable
+1999-06,US,152,152,readable
+1999-06,AU,0,0,unaudited or absent
+1999-06,Pooled government,872,1,readable
+1999-06,Media pilot,0,0,unaudited or absent
+1999-06,Public pilot,0,0,unaudited or absent
+1999-07,UK,1147,1147,readable
+1999-07,EU,82,68,readable
+1999-07,US,100,100,readable
+1999-07,AU,0,0,unaudited or absent
+1999-07,Pooled government,1329,1,readable
+1999-07,Media pilot,0,0,unaudited or absent
+1999-07,Public pilot,0,0,unaudited or absent
+1999-08,UK,0,0,unaudited or absent
+1999-08,EU,4,4,readable
+1999-08,US,134,134,readable
+1999-08,AU,0,0,unaudited or absent
+1999-08,Pooled government,138,1,readable
+1999-08,Media pilot,0,0,unaudited or absent
+1999-08,Public pilot,0,0,unaudited or absent
+1999-09,UK,1,1,readable
+1999-09,EU,52,34,readable
+1999-09,US,130,130,readable
+1999-09,AU,0,0,unaudited or absent
+1999-09,Pooled government,183,1,readable
+1999-09,Media pilot,0,0,unaudited or absent
+1999-09,Public pilot,0,0,unaudited or absent
+1999-10,UK,437,437,readable
+1999-10,EU,83,43,readable
+1999-10,US,97,97,readable
+1999-10,AU,0,0,unaudited or absent
+1999-10,Pooled government,617,1,readable
+1999-10,Media pilot,0,0,unaudited or absent
+1999-10,Public pilot,0,0,unaudited or absent
+1999-11,UK,946,946,readable
+1999-11,EU,100,87,readable
+1999-11,US,103,103,readable
+1999-11,AU,0,0,unaudited or absent
+1999-11,Pooled government,1149,1,readable
+1999-11,Media pilot,0,0,unaudited or absent
+1999-11,Public pilot,0,0,unaudited or absent
+1999-12,UK,767,767,readable
+1999-12,EU,91,83,readable
+1999-12,US,122,122,readable
+1999-12,AU,0,0,unaudited or absent
+1999-12,Pooled government,980,1,readable
+1999-12,Media pilot,0,0,unaudited or absent
+1999-12,Public pilot,0,0,unaudited or absent
+2000-01,UK,704,704,readable
+2000-01,EU,71,69,readable
+2000-01,US,79,79,readable
+2000-01,AU,0,0,unaudited or absent
+2000-01,Pooled government,854,1,readable
+2000-01,Media pilot,0,0,unaudited or absent
+2000-01,Public pilot,0,0,unaudited or absent
+2000-02,UK,960,960,readable
+2000-02,EU,70,69,readable
+2000-02,US,87,87,readable
+2000-02,AU,0,0,unaudited or absent
+2000-02,Pooled government,1117,1,readable
+2000-02,Media pilot,0,0,unaudited or absent
+2000-02,Public pilot,0,0,unaudited or absent
+2000-03,UK,979,979,readable
+2000-03,EU,85,84,readable
+2000-03,US,92,92,readable
+2000-03,AU,0,0,unaudited or absent
+2000-03,Pooled government,1156,1,readable
+2000-03,Media pilot,0,0,unaudited or absent
+2000-03,Public pilot,0,0,unaudited or absent
+2000-04,UK,664,664,readable
+2000-04,EU,83,82,readable
+2000-04,US,108,108,readable
+2000-04,AU,0,0,unaudited or absent
+2000-04,Pooled government,855,1,readable
+2000-04,Media pilot,0,0,unaudited or absent
+2000-04,Public pilot,0,0,unaudited or absent
+2000-05,UK,800,800,readable
+2000-05,EU,79,78,readable
+2000-05,US,95,95,readable
+2000-05,AU,0,0,unaudited or absent
+2000-05,Pooled government,974,1,readable
+2000-05,Media pilot,0,0,unaudited or absent
+2000-05,Public pilot,0,0,unaudited or absent
+2000-06,UK,1230,1230,readable
+2000-06,EU,96,93,readable
+2000-06,US,87,87,readable
+2000-06,AU,0,0,unaudited or absent
+2000-06,Pooled government,1413,1,readable
+2000-06,Media pilot,0,0,unaudited or absent
+2000-06,Public pilot,0,0,unaudited or absent
+2000-07,UK,1128,1128,readable
+2000-07,EU,103,103,readable
+2000-07,US,108,108,readable
+2000-07,AU,0,0,unaudited or absent
+2000-07,Pooled government,1339,1,readable
+2000-07,Media pilot,0,0,unaudited or absent
+2000-07,Public pilot,0,0,unaudited or absent
+2000-08,UK,0,0,unaudited or absent
+2000-08,EU,11,11,readable
+2000-08,US,103,103,readable
+2000-08,AU,0,0,unaudited or absent
+2000-08,Pooled government,114,1,readable
+2000-08,Media pilot,0,0,unaudited or absent
+2000-08,Public pilot,0,0,unaudited or absent
+2000-09,UK,0,0,unaudited or absent
+2000-09,EU,115,115,readable
+2000-09,US,94,94,readable
+2000-09,AU,0,0,unaudited or absent
+2000-09,Pooled government,209,1,readable
+2000-09,Media pilot,0,0,unaudited or absent
+2000-09,Public pilot,0,0,unaudited or absent
+2000-10,UK,285,285,readable
+2000-10,EU,100,99,readable
+2000-10,US,92,92,readable
+2000-10,AU,0,0,unaudited or absent
+2000-10,Pooled government,477,1,readable
+2000-10,Media pilot,0,0,unaudited or absent
+2000-10,Public pilot,0,0,unaudited or absent
+2000-11,UK,1761,1761,readable
+2000-11,EU,120,111,readable
+2000-11,US,77,77,readable
+2000-11,AU,0,0,unaudited or absent
+2000-11,Pooled government,1958,1,readable
+2000-11,Media pilot,0,0,unaudited or absent
+2000-11,Public pilot,0,0,unaudited or absent
+2000-12,UK,409,409,readable
+2000-12,EU,126,123,readable
+2000-12,US,107,107,readable
+2000-12,AU,0,0,unaudited or absent
+2000-12,Pooled government,642,1,readable
+2000-12,Media pilot,0,0,unaudited or absent
+2000-12,Public pilot,0,0,unaudited or absent
+2001-01,UK,840,840,readable
+2001-01,EU,78,78,readable
+2001-01,US,71,71,readable
+2001-01,AU,0,0,unaudited or absent
+2001-01,Pooled government,989,1,readable
+2001-01,Media pilot,0,0,unaudited or absent
+2001-01,Public pilot,0,0,unaudited or absent
+2001-02,UK,955,955,readable
+2001-02,EU,74,73,readable
+2001-02,US,56,56,readable
+2001-02,AU,0,0,unaudited or absent
+2001-02,Pooled government,1085,1,readable
+2001-02,Media pilot,0,0,unaudited or absent
+2001-02,Public pilot,0,0,unaudited or absent
+2001-03,UK,1066,1066,readable
+2001-03,EU,109,104,readable
+2001-03,US,67,67,readable
+2001-03,AU,0,0,unaudited or absent
+2001-03,Pooled government,1242,1,readable
+2001-03,Media pilot,0,0,unaudited or absent
+2001-03,Public pilot,0,0,unaudited or absent
+2001-04,UK,739,739,readable
+2001-04,EU,73,69,readable
+2001-04,US,63,63,readable
+2001-04,AU,0,0,unaudited or absent
+2001-04,Pooled government,875,1,readable
+2001-04,Media pilot,0,0,unaudited or absent
+2001-04,Public pilot,0,0,unaudited or absent
+2001-05,UK,610,610,readable
+2001-05,EU,90,89,readable
+2001-05,US,116,116,readable
+2001-05,AU,0,0,unaudited or absent
+2001-05,Pooled government,816,1,readable
+2001-05,Media pilot,0,0,unaudited or absent
+2001-05,Public pilot,0,0,unaudited or absent
+2001-06,UK,62,62,readable
+2001-06,EU,113,108,readable
+2001-06,US,104,104,readable
+2001-06,AU,0,0,unaudited or absent
+2001-06,Pooled government,279,1,readable
+2001-06,Media pilot,0,0,unaudited or absent
+2001-06,Public pilot,0,0,unaudited or absent
+2001-07,UK,687,687,readable
+2001-07,EU,131,129,readable
+2001-07,US,119,119,readable
+2001-07,AU,0,0,unaudited or absent
+2001-07,Pooled government,937,1,readable
+2001-07,Media pilot,0,0,unaudited or absent
+2001-07,Public pilot,0,0,unaudited or absent
+2001-08,UK,0,0,unaudited or absent
+2001-08,EU,72,72,readable
+2001-08,US,194,194,readable
+2001-08,AU,0,0,unaudited or absent
+2001-08,Pooled government,266,1,readable
+2001-08,Media pilot,0,0,unaudited or absent
+2001-08,Public pilot,0,0,unaudited or absent
+2001-09,UK,0,0,unaudited or absent
+2001-09,EU,80,79,readable
+2001-09,US,131,131,readable
+2001-09,AU,0,0,unaudited or absent
+2001-09,Pooled government,211,1,readable
+2001-09,Media pilot,0,0,unaudited or absent
+2001-09,Public pilot,0,0,unaudited or absent
+2001-10,UK,727,727,readable
+2001-10,EU,130,129,readable
+2001-10,US,168,168,readable
+2001-10,AU,0,0,unaudited or absent
+2001-10,Pooled government,1025,1,readable
+2001-10,Media pilot,0,0,unaudited or absent
+2001-10,Public pilot,0,0,unaudited or absent
+2001-11,UK,1107,1107,readable
+2001-11,EU,145,145,readable
+2001-11,US,124,124,readable
+2001-11,AU,0,0,unaudited or absent
+2001-11,Pooled government,1376,1,readable
+2001-11,Media pilot,0,0,unaudited or absent
+2001-11,Public pilot,0,0,unaudited or absent
+2001-12,UK,771,771,readable
+2001-12,EU,178,175,readable
+2001-12,US,89,89,readable
+2001-12,AU,0,0,unaudited or absent
+2001-12,Pooled government,1038,1,readable
+2001-12,Media pilot,0,0,unaudited or absent
+2001-12,Public pilot,0,0,unaudited or absent
+2002-01,UK,977,977,readable
+2002-01,EU,159,143,readable
+2002-01,US,73,73,readable
+2002-01,AU,0,0,unaudited or absent
+2002-01,Pooled government,1209,1,readable
+2002-01,Media pilot,0,0,unaudited or absent
+2002-01,Public pilot,0,0,unaudited or absent
+2002-02,UK,828,828,readable
+2002-02,EU,148,143,readable
+2002-02,US,99,99,readable
+2002-02,AU,0,0,unaudited or absent
+2002-02,Pooled government,1075,1,readable
+2002-02,Media pilot,0,0,unaudited or absent
+2002-02,Public pilot,0,0,unaudited or absent
+2002-03,UK,814,814,readable
+2002-03,EU,147,147,readable
+2002-03,US,70,70,readable
+2002-03,AU,0,0,unaudited or absent
+2002-03,Pooled government,1031,1,readable
+2002-03,Media pilot,0,0,unaudited or absent
+2002-03,Public pilot,0,0,unaudited or absent
+2002-04,UK,859,859,readable
+2002-04,EU,136,136,readable
+2002-04,US,98,98,readable
+2002-04,AU,0,0,unaudited or absent
+2002-04,Pooled government,1093,1,readable
+2002-04,Media pilot,0,0,unaudited or absent
+2002-04,Public pilot,0,0,unaudited or absent
+2002-05,UK,763,763,readable
+2002-05,EU,130,130,readable
+2002-05,US,96,96,readable
+2002-05,AU,0,0,unaudited or absent
+2002-05,Pooled government,989,1,readable
+2002-05,Media pilot,0,0,unaudited or absent
+2002-05,Public pilot,0,0,unaudited or absent
+2002-06,UK,900,900,readable
+2002-06,EU,156,156,readable
+2002-06,US,116,116,readable
+2002-06,AU,0,0,unaudited or absent
+2002-06,Pooled government,1172,1,readable
+2002-06,Media pilot,0,0,unaudited or absent
+2002-06,Public pilot,0,0,unaudited or absent
+2002-07,UK,1062,1062,readable
+2002-07,EU,188,185,readable
+2002-07,US,106,106,readable
+2002-07,AU,0,0,unaudited or absent
+2002-07,Pooled government,1356,1,readable
+2002-07,Media pilot,0,0,unaudited or absent
+2002-07,Public pilot,0,0,unaudited or absent
+2002-08,UK,0,0,unaudited or absent
+2002-08,EU,100,100,readable
+2002-08,US,129,129,readable
+2002-08,AU,0,0,unaudited or absent
+2002-08,Pooled government,229,1,readable
+2002-08,Media pilot,0,0,unaudited or absent
+2002-08,Public pilot,0,0,unaudited or absent
+2002-09,UK,424,424,readable
+2002-09,EU,346,345,readable
+2002-09,US,113,113,readable
+2002-09,AU,0,0,unaudited or absent
+2002-09,Pooled government,883,1,readable
+2002-09,Media pilot,0,0,unaudited or absent
+2002-09,Public pilot,0,0,unaudited or absent
+2002-10,UK,515,515,readable
+2002-10,EU,151,145,readable
+2002-10,US,94,94,readable
+2002-10,AU,0,0,unaudited or absent
+2002-10,Pooled government,760,1,readable
+2002-10,Media pilot,0,0,unaudited or absent
+2002-10,Public pilot,0,0,unaudited or absent
+2002-11,UK,847,847,readable
+2002-11,EU,157,150,readable
+2002-11,US,69,69,readable
+2002-11,AU,0,0,unaudited or absent
+2002-11,Pooled government,1073,1,readable
+2002-11,Media pilot,0,0,unaudited or absent
+2002-11,Public pilot,0,0,unaudited or absent
+2002-12,UK,501,501,readable
+2002-12,EU,181,177,readable
+2002-12,US,85,85,readable
+2002-12,AU,0,0,unaudited or absent
+2002-12,Pooled government,767,1,readable
+2002-12,Media pilot,0,0,unaudited or absent
+2002-12,Public pilot,0,0,unaudited or absent
+2003-01,UK,707,707,readable
+2003-01,EU,115,101,readable
+2003-01,US,110,110,readable
+2003-01,AU,0,0,unaudited or absent
+2003-01,Pooled government,932,1,readable
+2003-01,Media pilot,0,0,unaudited or absent
+2003-01,Public pilot,0,0,unaudited or absent
+2003-02,UK,39,39,readable
+2003-02,EU,107,105,readable
+2003-02,US,70,70,readable
+2003-02,AU,0,0,unaudited or absent
+2003-02,Pooled government,216,1,readable
+2003-02,Media pilot,0,0,unaudited or absent
+2003-02,Public pilot,0,0,unaudited or absent
+2003-03,UK,782,782,readable
+2003-03,EU,145,140,readable
+2003-03,US,89,89,readable
+2003-03,AU,0,0,unaudited or absent
+2003-03,Pooled government,1016,1,readable
+2003-03,Media pilot,0,0,unaudited or absent
+2003-03,Public pilot,0,0,unaudited or absent
+2003-04,UK,444,444,readable
+2003-04,EU,150,149,readable
+2003-04,US,92,92,readable
+2003-04,AU,0,0,unaudited or absent
+2003-04,Pooled government,686,1,readable
+2003-04,Media pilot,0,0,unaudited or absent
+2003-04,Public pilot,0,0,unaudited or absent
+2003-05,UK,589,589,readable
+2003-05,EU,150,147,readable
+2003-05,US,93,93,readable
+2003-05,AU,0,0,unaudited or absent
+2003-05,Pooled government,832,1,readable
+2003-05,Media pilot,0,0,unaudited or absent
+2003-05,Public pilot,0,0,unaudited or absent
+2003-06,UK,868,868,readable
+2003-06,EU,145,142,readable
+2003-06,US,108,108,readable
+2003-06,AU,0,0,unaudited or absent
+2003-06,Pooled government,1121,1,readable
+2003-06,Media pilot,0,0,unaudited or absent
+2003-06,Public pilot,0,0,unaudited or absent
+2003-07,UK,790,790,readable
+2003-07,EU,170,170,readable
+2003-07,US,81,81,readable
+2003-07,AU,0,0,unaudited or absent
+2003-07,Pooled government,1041,1,readable
+2003-07,Media pilot,0,0,unaudited or absent
+2003-07,Public pilot,0,0,unaudited or absent
+2003-08,UK,0,0,unaudited or absent
+2003-08,EU,155,155,readable
+2003-08,US,88,88,readable
+2003-08,AU,0,0,unaudited or absent
+2003-08,Pooled government,243,1,readable
+2003-08,Media pilot,0,0,unaudited or absent
+2003-08,Public pilot,0,0,unaudited or absent
+2003-09,UK,431,431,readable
+2003-09,EU,96,96,readable
+2003-09,US,112,112,readable
+2003-09,AU,0,0,unaudited or absent
+2003-09,Pooled government,639,1,readable
+2003-09,Media pilot,0,0,unaudited or absent
+2003-09,Public pilot,0,0,unaudited or absent
+2003-10,UK,379,379,readable
+2003-10,EU,182,180,readable
+2003-10,US,80,80,readable
+2003-10,AU,1,1,readable
+2003-10,Pooled government,642,1,readable
+2003-10,Media pilot,0,0,unaudited or absent
+2003-10,Public pilot,0,0,unaudited or absent
+2003-11,UK,134,134,readable
+2003-11,EU,193,191,readable
+2003-11,US,54,54,readable
+2003-11,AU,0,0,unaudited or absent
+2003-11,Pooled government,381,1,readable
+2003-11,Media pilot,0,0,unaudited or absent
+2003-11,Public pilot,0,0,unaudited or absent
+2003-12,UK,896,896,readable
+2003-12,EU,184,176,readable
+2003-12,US,66,66,readable
+2003-12,AU,0,0,unaudited or absent
+2003-12,Pooled government,1146,1,readable
+2003-12,Media pilot,0,0,unaudited or absent
+2003-12,Public pilot,0,0,unaudited or absent
+2004-01,UK,905,905,readable
+2004-01,EU,142,137,readable
+2004-01,US,65,65,readable
+2004-01,AU,0,0,unaudited or absent
+2004-01,Pooled government,1112,1,readable
+2004-01,Media pilot,0,0,unaudited or absent
+2004-01,Public pilot,0,0,unaudited or absent
+2004-02,UK,751,751,readable
+2004-02,EU,153,149,readable
+2004-02,US,64,64,readable
+2004-02,AU,0,0,unaudited or absent
+2004-02,Pooled government,968,1,readable
+2004-02,Media pilot,0,0,unaudited or absent
+2004-02,Public pilot,0,0,unaudited or absent
+2004-03,UK,1234,1234,readable
+2004-03,EU,219,216,readable
+2004-03,US,82,82,readable
+2004-03,AU,0,0,unaudited or absent
+2004-03,Pooled government,1535,1,readable
+2004-03,Media pilot,0,0,unaudited or absent
+2004-03,Public pilot,0,0,unaudited or absent
+2004-04,UK,591,591,readable
+2004-04,EU,258,257,readable
+2004-04,US,87,87,readable
+2004-04,AU,0,0,unaudited or absent
+2004-04,Pooled government,936,1,readable
+2004-04,Media pilot,0,0,unaudited or absent
+2004-04,Public pilot,0,0,unaudited or absent
+2004-05,UK,845,845,readable
+2004-05,EU,58,58,readable
+2004-05,US,76,76,readable
+2004-05,AU,0,0,unaudited or absent
+2004-05,Pooled government,979,1,readable
+2004-05,Media pilot,0,0,unaudited or absent
+2004-05,Public pilot,0,0,unaudited or absent
+2004-06,UK,400,400,readable
+2004-06,EU,98,97,readable
+2004-06,US,80,80,readable
+2004-06,AU,0,0,unaudited or absent
+2004-06,Pooled government,578,1,readable
+2004-06,Media pilot,0,0,unaudited or absent
+2004-06,Public pilot,0,0,unaudited or absent
+2004-07,UK,383,383,readable
+2004-07,EU,117,0,metadata only
+2004-07,US,93,93,readable
+2004-07,AU,0,0,unaudited or absent
+2004-07,Pooled government,593,1,readable
+2004-07,Media pilot,0,0,unaudited or absent
+2004-07,Public pilot,0,0,unaudited or absent
+2004-08,UK,1,1,readable
+2004-08,EU,78,0,metadata only
+2004-08,US,82,82,readable
+2004-08,AU,0,0,unaudited or absent
+2004-08,Pooled government,161,1,readable
+2004-08,Media pilot,0,0,unaudited or absent
+2004-08,Public pilot,0,0,unaudited or absent
+2004-09,UK,368,368,readable
+2004-09,EU,94,0,metadata only
+2004-09,US,91,91,readable
+2004-09,AU,0,0,unaudited or absent
+2004-09,Pooled government,553,1,readable
+2004-09,Media pilot,0,0,unaudited or absent
+2004-09,Public pilot,0,0,unaudited or absent
+2004-10,UK,446,446,readable
+2004-10,EU,166,0,metadata only
+2004-10,US,57,57,readable
+2004-10,AU,0,0,unaudited or absent
+2004-10,Pooled government,669,1,readable
+2004-10,Media pilot,0,0,unaudited or absent
+2004-10,Public pilot,0,0,unaudited or absent
+2004-11,UK,904,904,readable
+2004-11,EU,75,0,metadata only
+2004-11,US,55,55,readable
+2004-11,AU,0,0,unaudited or absent
+2004-11,Pooled government,1034,1,readable
+2004-11,Media pilot,0,0,unaudited or absent
+2004-11,Public pilot,0,0,unaudited or absent
+2004-12,UK,623,623,readable
+2004-12,EU,128,0,metadata only
+2004-12,US,81,81,readable
+2004-12,AU,0,0,unaudited or absent
+2004-12,Pooled government,832,1,readable
+2004-12,Media pilot,0,0,unaudited or absent
+2004-12,Public pilot,0,0,unaudited or absent
+2005-01,UK,394,394,readable
+2005-01,EU,103,0,metadata only
+2005-01,US,58,58,readable
+2005-01,AU,0,0,unaudited or absent
+2005-01,Pooled government,555,1,readable
+2005-01,Media pilot,0,0,unaudited or absent
+2005-01,Public pilot,0,0,unaudited or absent
+2005-02,UK,349,349,readable
+2005-02,EU,120,0,metadata only
+2005-02,US,84,84,readable
+2005-02,AU,0,0,unaudited or absent
+2005-02,Pooled government,553,1,readable
+2005-02,Media pilot,0,0,unaudited or absent
+2005-02,Public pilot,0,0,unaudited or absent
+2005-03,UK,463,463,readable
+2005-03,EU,128,0,metadata only
+2005-03,US,86,86,readable
+2005-03,AU,0,0,unaudited or absent
+2005-03,Pooled government,677,1,readable
+2005-03,Media pilot,0,0,unaudited or absent
+2005-03,Public pilot,0,0,unaudited or absent
+2005-04,UK,242,242,readable
+2005-04,EU,185,0,metadata only
+2005-04,US,83,83,readable
+2005-04,AU,0,0,unaudited or absent
+2005-04,Pooled government,510,1,readable
+2005-04,Media pilot,0,0,unaudited or absent
+2005-04,Public pilot,0,0,unaudited or absent
+2005-05,UK,58,58,readable
+2005-05,EU,142,0,metadata only
+2005-05,US,93,93,readable
+2005-05,AU,0,0,unaudited or absent
+2005-05,Pooled government,293,1,readable
+2005-05,Media pilot,0,0,unaudited or absent
+2005-05,Public pilot,0,0,unaudited or absent
+2005-06,UK,396,396,readable
+2005-06,EU,181,0,metadata only
+2005-06,US,86,86,readable
+2005-06,AU,0,0,unaudited or absent
+2005-06,Pooled government,663,1,readable
+2005-06,Media pilot,0,0,unaudited or absent
+2005-06,Public pilot,0,0,unaudited or absent
+2005-07,UK,445,445,readable
+2005-07,EU,151,0,metadata only
+2005-07,US,97,97,readable
+2005-07,AU,0,0,unaudited or absent
+2005-07,Pooled government,693,1,readable
+2005-07,Media pilot,0,0,unaudited or absent
+2005-07,Public pilot,0,0,unaudited or absent
+2005-08,UK,1,1,readable
+2005-08,EU,109,0,metadata only
+2005-08,US,109,109,readable
+2005-08,AU,0,0,unaudited or absent
+2005-08,Pooled government,219,1,readable
+2005-08,Media pilot,0,0,unaudited or absent
+2005-08,Public pilot,0,0,unaudited or absent
+2005-09,UK,56,56,readable
+2005-09,EU,148,0,metadata only
+2005-09,US,95,95,readable
+2005-09,AU,0,0,unaudited or absent
+2005-09,Pooled government,299,1,readable
+2005-09,Media pilot,0,0,unaudited or absent
+2005-09,Public pilot,0,0,unaudited or absent
+2005-10,UK,438,438,readable
+2005-10,EU,185,0,metadata only
+2005-10,US,86,86,readable
+2005-10,AU,0,0,unaudited or absent
+2005-10,Pooled government,709,1,readable
+2005-10,Media pilot,0,0,unaudited or absent
+2005-10,Public pilot,0,0,unaudited or absent
+2005-11,UK,736,736,readable
+2005-11,EU,158,0,metadata only
+2005-11,US,74,74,readable
+2005-11,AU,0,0,unaudited or absent
+2005-11,Pooled government,968,1,readable
+2005-11,Media pilot,0,0,unaudited or absent
+2005-11,Public pilot,0,0,unaudited or absent
+2005-12,UK,485,485,readable
+2005-12,EU,250,0,metadata only
+2005-12,US,76,76,readable
+2005-12,AU,0,0,unaudited or absent
+2005-12,Pooled government,811,1,readable
+2005-12,Media pilot,0,0,unaudited or absent
+2005-12,Public pilot,0,0,unaudited or absent
+2006-01,UK,509,509,readable
+2006-01,EU,124,0,metadata only
+2006-01,US,66,66,readable
+2006-01,AU,0,0,unaudited or absent
+2006-01,Pooled government,699,1,readable
+2006-01,Media pilot,0,0,unaudited or absent
+2006-01,Public pilot,0,0,unaudited or absent
+2006-02,UK,521,521,readable
+2006-02,EU,154,0,metadata only
+2006-02,US,75,75,readable
+2006-02,AU,1,1,readable
+2006-02,Pooled government,751,1,readable
+2006-02,Media pilot,0,0,unaudited or absent
+2006-02,Public pilot,0,0,unaudited or absent
+2006-03,UK,569,569,readable
+2006-03,EU,163,0,metadata only
+2006-03,US,104,104,readable
+2006-03,AU,0,0,unaudited or absent
+2006-03,Pooled government,836,1,readable
+2006-03,Media pilot,0,0,unaudited or absent
+2006-03,Public pilot,0,0,unaudited or absent
+2006-04,UK,152,152,readable
+2006-04,EU,119,0,metadata only
+2006-04,US,81,81,readable
+2006-04,AU,0,0,unaudited or absent
+2006-04,Pooled government,352,1,readable
+2006-04,Media pilot,0,0,unaudited or absent
+2006-04,Public pilot,0,0,unaudited or absent
+2006-05,UK,276,276,readable
+2006-05,EU,154,0,metadata only
+2006-05,US,83,83,readable
+2006-05,AU,0,0,unaudited or absent
+2006-05,Pooled government,513,1,readable
+2006-05,Media pilot,0,0,unaudited or absent
+2006-05,Public pilot,0,0,unaudited or absent
+2006-06,UK,553,553,readable
+2006-06,EU,206,0,metadata only
+2006-06,US,102,102,readable
+2006-06,AU,0,0,unaudited or absent
+2006-06,Pooled government,861,1,readable
+2006-06,Media pilot,0,0,unaudited or absent
+2006-06,Public pilot,0,0,unaudited or absent
+2006-07,UK,467,467,readable
+2006-07,EU,205,0,metadata only
+2006-07,US,73,73,readable
+2006-07,AU,0,0,unaudited or absent
+2006-07,Pooled government,745,1,readable
+2006-07,Media pilot,0,0,unaudited or absent
+2006-07,Public pilot,0,0,unaudited or absent
+2006-08,UK,1,1,readable
+2006-08,EU,130,0,metadata only
+2006-08,US,88,88,readable
+2006-08,AU,0,0,unaudited or absent
+2006-08,Pooled government,219,1,readable
+2006-08,Media pilot,0,0,unaudited or absent
+2006-08,Public pilot,0,0,unaudited or absent
+2006-09,UK,104,104,readable
+2006-09,EU,192,0,metadata only
+2006-09,US,80,80,readable
+2006-09,AU,0,0,unaudited or absent
+2006-09,Pooled government,376,1,readable
+2006-09,Media pilot,0,0,unaudited or absent
+2006-09,Public pilot,0,0,unaudited or absent
+2006-10,UK,401,401,readable
+2006-10,EU,240,0,metadata only
+2006-10,US,62,62,readable
+2006-10,AU,0,0,unaudited or absent
+2006-10,Pooled government,703,1,readable
+2006-10,Media pilot,0,0,unaudited or absent
+2006-10,Public pilot,0,0,unaudited or absent
+2006-11,UK,423,423,readable
+2006-11,EU,228,0,metadata only
+2006-11,US,69,69,readable
+2006-11,AU,0,0,unaudited or absent
+2006-11,Pooled government,720,1,readable
+2006-11,Media pilot,0,0,unaudited or absent
+2006-11,Public pilot,0,0,unaudited or absent
+2006-12,UK,393,393,readable
+2006-12,EU,344,0,metadata only
+2006-12,US,90,90,readable
+2006-12,AU,0,0,unaudited or absent
+2006-12,Pooled government,827,1,readable
+2006-12,Media pilot,0,0,unaudited or absent
+2006-12,Public pilot,0,0,unaudited or absent
+2007-01,UK,556,556,readable
+2007-01,EU,143,0,metadata only
+2007-01,US,75,75,readable
+2007-01,AU,0,0,unaudited or absent
+2007-01,Pooled government,774,1,readable
+2007-01,Media pilot,0,0,unaudited or absent
+2007-01,Public pilot,0,0,unaudited or absent
+2007-02,UK,508,508,readable
+2007-02,EU,164,0,metadata only
+2007-02,US,44,44,readable
+2007-02,AU,0,0,unaudited or absent
+2007-02,Pooled government,716,1,readable
+2007-02,Media pilot,0,0,unaudited or absent
+2007-02,Public pilot,0,0,unaudited or absent
+2007-03,UK,511,511,readable
+2007-03,EU,234,0,metadata only
+2007-03,US,73,73,readable
+2007-03,AU,0,0,unaudited or absent
+2007-03,Pooled government,818,1,readable
+2007-03,Media pilot,0,0,unaudited or absent
+2007-03,Public pilot,0,0,unaudited or absent
+2007-04,UK,308,308,readable
+2007-04,EU,186,0,metadata only
+2007-04,US,74,74,readable
+2007-04,AU,0,0,unaudited or absent
+2007-04,Pooled government,568,1,readable
+2007-04,Media pilot,0,0,unaudited or absent
+2007-04,Public pilot,0,0,unaudited or absent
+2007-05,UK,383,383,readable
+2007-05,EU,172,0,metadata only
+2007-05,US,95,95,readable
+2007-05,AU,0,0,unaudited or absent
+2007-05,Pooled government,650,1,readable
+2007-05,Media pilot,0,0,unaudited or absent
+2007-05,Public pilot,0,0,unaudited or absent
+2007-06,UK,632,632,readable
+2007-06,EU,196,0,metadata only
+2007-06,US,75,75,readable
+2007-06,AU,0,0,unaudited or absent
+2007-06,Pooled government,903,1,readable
+2007-06,Media pilot,0,0,unaudited or absent
+2007-06,Public pilot,0,0,unaudited or absent
+2007-07,UK,441,441,readable
+2007-07,EU,216,0,metadata only
+2007-07,US,80,80,readable
+2007-07,AU,0,0,unaudited or absent
+2007-07,Pooled government,737,1,readable
+2007-07,Media pilot,0,0,unaudited or absent
+2007-07,Public pilot,0,0,unaudited or absent
+2007-08,UK,0,0,unaudited or absent
+2007-08,EU,123,0,metadata only
+2007-08,US,105,105,readable
+2007-08,AU,0,0,unaudited or absent
+2007-08,Pooled government,228,1,readable
+2007-08,Media pilot,0,0,unaudited or absent
+2007-08,Public pilot,0,0,unaudited or absent
+2007-09,UK,191,191,readable
+2007-09,EU,166,0,metadata only
+2007-09,US,89,89,readable
+2007-09,AU,0,0,unaudited or absent
+2007-09,Pooled government,446,1,readable
+2007-09,Media pilot,0,0,unaudited or absent
+2007-09,Public pilot,0,0,unaudited or absent
+2007-10,UK,546,546,readable
+2007-10,EU,281,0,metadata only
+2007-10,US,97,97,readable
+2007-10,AU,0,0,unaudited or absent
+2007-10,Pooled government,924,1,readable
+2007-10,Media pilot,0,0,unaudited or absent
+2007-10,Public pilot,0,0,unaudited or absent
+2007-11,UK,440,440,readable
+2007-11,EU,256,0,metadata only
+2007-11,US,50,50,readable
+2007-11,AU,0,0,unaudited or absent
+2007-11,Pooled government,746,1,readable
+2007-11,Media pilot,0,0,unaudited or absent
+2007-11,Public pilot,0,0,unaudited or absent
+2007-12,UK,480,480,readable
+2007-12,EU,228,0,metadata only
+2007-12,US,69,69,readable
+2007-12,AU,0,0,unaudited or absent
+2007-12,Pooled government,777,1,readable
+2007-12,Media pilot,0,0,unaudited or absent
+2007-12,Public pilot,0,0,unaudited or absent
+2008-01,UK,714,714,readable
+2008-01,EU,164,0,metadata only
+2008-01,US,85,85,readable
+2008-01,AU,0,0,unaudited or absent
+2008-01,Pooled government,963,1,readable
+2008-01,Media pilot,0,0,unaudited or absent
+2008-01,Public pilot,0,0,unaudited or absent
+2008-02,UK,506,506,readable
+2008-02,EU,210,0,metadata only
+2008-02,US,67,67,readable
+2008-02,AU,0,0,unaudited or absent
+2008-02,Pooled government,783,1,readable
+2008-02,Media pilot,0,0,unaudited or absent
+2008-02,Public pilot,0,0,unaudited or absent
+2008-03,UK,668,668,readable
+2008-03,EU,117,0,metadata only
+2008-03,US,81,81,readable
+2008-03,AU,0,0,unaudited or absent
+2008-03,Pooled government,866,1,readable
+2008-03,Media pilot,0,0,unaudited or absent
+2008-03,Public pilot,0,0,unaudited or absent
+2008-04,UK,389,389,readable
+2008-04,EU,224,0,metadata only
+2008-04,US,89,89,readable
+2008-04,AU,0,0,unaudited or absent
+2008-04,Pooled government,702,1,readable
+2008-04,Media pilot,0,0,unaudited or absent
+2008-04,Public pilot,0,0,unaudited or absent
+2008-05,UK,398,398,readable
+2008-05,EU,194,0,metadata only
+2008-05,US,67,67,readable
+2008-05,AU,0,0,unaudited or absent
+2008-05,Pooled government,659,1,readable
+2008-05,Media pilot,0,0,unaudited or absent
+2008-05,Public pilot,0,0,unaudited or absent
+2008-06,UK,565,565,readable
+2008-06,EU,194,0,metadata only
+2008-06,US,72,72,readable
+2008-06,AU,0,0,unaudited or absent
+2008-06,Pooled government,831,1,readable
+2008-06,Media pilot,0,0,unaudited or absent
+2008-06,Public pilot,0,0,unaudited or absent
+2008-07,UK,516,516,readable
+2008-07,EU,267,0,metadata only
+2008-07,US,92,92,readable
+2008-07,AU,0,0,unaudited or absent
+2008-07,Pooled government,875,1,readable
+2008-07,Media pilot,0,0,unaudited or absent
+2008-07,Public pilot,0,0,unaudited or absent
+2008-08,UK,0,0,unaudited or absent
+2008-08,EU,123,0,metadata only
+2008-08,US,62,62,readable
+2008-08,AU,0,0,unaudited or absent
+2008-08,Pooled government,185,1,readable
+2008-08,Media pilot,0,0,unaudited or absent
+2008-08,Public pilot,0,0,unaudited or absent
+2008-09,UK,213,213,readable
+2008-09,EU,199,0,metadata only
+2008-09,US,65,65,readable
+2008-09,AU,1,1,readable
+2008-09,Pooled government,478,1,readable
+2008-09,Media pilot,0,0,unaudited or absent
+2008-09,Public pilot,0,0,unaudited or absent
+2008-10,UK,568,568,readable
+2008-10,EU,245,0,metadata only
+2008-10,US,93,93,readable
+2008-10,AU,0,0,unaudited or absent
+2008-10,Pooled government,906,1,readable
+2008-10,Media pilot,0,0,unaudited or absent
+2008-10,Public pilot,0,0,unaudited or absent
+2008-11,UK,704,704,readable
+2008-11,EU,228,0,metadata only
+2008-11,US,61,61,readable
+2008-11,AU,0,0,unaudited or absent
+2008-11,Pooled government,993,1,readable
+2008-11,Media pilot,0,0,unaudited or absent
+2008-11,Public pilot,0,0,unaudited or absent
+2008-12,UK,235,235,readable
+2008-12,EU,213,0,metadata only
+2008-12,US,93,93,readable
+2008-12,AU,0,0,unaudited or absent
+2008-12,Pooled government,541,1,readable
+2008-12,Media pilot,0,0,unaudited or absent
+2008-12,Public pilot,0,0,unaudited or absent
+2009-01,UK,539,539,readable
+2009-01,EU,131,0,metadata only
+2009-01,US,41,41,readable
+2009-01,AU,0,0,unaudited or absent
+2009-01,Pooled government,711,1,readable
+2009-01,Media pilot,0,0,unaudited or absent
+2009-01,Public pilot,0,0,unaudited or absent
+2009-02,UK,596,596,readable
+2009-02,EU,167,0,metadata only
+2009-02,US,26,26,readable
+2009-02,AU,0,0,unaudited or absent
+2009-02,Pooled government,789,1,readable
+2009-02,Media pilot,0,0,unaudited or absent
+2009-02,Public pilot,0,0,unaudited or absent
+2009-03,UK,873,873,readable
+2009-03,EU,154,0,metadata only
+2009-03,US,94,94,readable
+2009-03,AU,0,0,unaudited or absent
+2009-03,Pooled government,1121,1,readable
+2009-03,Media pilot,0,0,unaudited or absent
+2009-03,Public pilot,0,0,unaudited or absent
+2009-04,UK,503,503,readable
+2009-04,EU,181,0,metadata only
+2009-04,US,76,76,readable
+2009-04,AU,0,0,unaudited or absent
+2009-04,Pooled government,760,1,readable
+2009-04,Media pilot,0,0,unaudited or absent
+2009-04,Public pilot,0,0,unaudited or absent
+2009-05,UK,321,321,readable
+2009-05,EU,114,0,metadata only
+2009-05,US,74,74,readable
+2009-05,AU,0,0,unaudited or absent
+2009-05,Pooled government,509,1,readable
+2009-05,Media pilot,0,0,unaudited or absent
+2009-05,Public pilot,0,0,unaudited or absent
+2009-06,UK,502,502,readable
+2009-06,EU,194,0,metadata only
+2009-06,US,82,82,readable
+2009-06,AU,0,0,unaudited or absent
+2009-06,Pooled government,778,1,readable
+2009-06,Media pilot,0,0,unaudited or absent
+2009-06,Public pilot,0,0,unaudited or absent
+2009-07,UK,421,421,readable
+2009-07,EU,228,0,metadata only
+2009-07,US,93,93,readable
+2009-07,AU,0,0,unaudited or absent
+2009-07,Pooled government,742,1,readable
+2009-07,Media pilot,0,0,unaudited or absent
+2009-07,Public pilot,0,0,unaudited or absent
+2009-08,UK,2,2,readable
+2009-08,EU,134,0,metadata only
+2009-08,US,74,74,readable
+2009-08,AU,0,0,unaudited or absent
+2009-08,Pooled government,210,1,readable
+2009-08,Media pilot,0,0,unaudited or absent
+2009-08,Public pilot,0,0,unaudited or absent
+2009-09,UK,68,68,readable
+2009-09,EU,170,0,metadata only
+2009-09,US,77,77,readable
+2009-09,AU,0,0,unaudited or absent
+2009-09,Pooled government,315,1,readable
+2009-09,Media pilot,0,0,unaudited or absent
+2009-09,Public pilot,0,0,unaudited or absent
+2009-10,UK,388,388,readable
+2009-10,EU,245,0,metadata only
+2009-10,US,67,67,readable
+2009-10,AU,0,0,unaudited or absent
+2009-10,Pooled government,700,1,readable
+2009-10,Media pilot,0,0,unaudited or absent
+2009-10,Public pilot,0,0,unaudited or absent
+2009-11,UK,321,321,readable
+2009-11,EU,154,0,metadata only
+2009-11,US,58,58,readable
+2009-11,AU,0,0,unaudited or absent
+2009-11,Pooled government,533,1,readable
+2009-11,Media pilot,0,0,unaudited or absent
+2009-11,Public pilot,0,0,unaudited or absent
+2009-12,UK,329,329,readable
+2009-12,EU,186,0,metadata only
+2009-12,US,80,80,readable
+2009-12,AU,0,0,unaudited or absent
+2009-12,Pooled government,595,1,readable
+2009-12,Media pilot,0,0,unaudited or absent
+2009-12,Public pilot,0,0,unaudited or absent
+2010-01,UK,342,342,readable
+2010-01,EU,144,0,metadata only
+2010-01,US,68,68,readable
+2010-01,AU,0,0,unaudited or absent
+2010-01,Pooled government,554,1,readable
+2010-01,Media pilot,0,0,unaudited or absent
+2010-01,Public pilot,0,0,unaudited or absent
+2010-02,UK,260,260,readable
+2010-02,EU,157,0,metadata only
+2010-02,US,58,58,readable
+2010-02,AU,0,0,unaudited or absent
+2010-02,Pooled government,475,1,readable
+2010-02,Media pilot,0,0,unaudited or absent
+2010-02,Public pilot,0,0,unaudited or absent
+2010-03,UK,460,460,readable
+2010-03,EU,188,0,metadata only
+2010-03,US,87,87,readable
+2010-03,AU,0,0,unaudited or absent
+2010-03,Pooled government,735,1,readable
+2010-03,Media pilot,0,0,unaudited or absent
+2010-03,Public pilot,0,0,unaudited or absent
+2010-04,UK,83,83,readable
+2010-04,EU,190,0,metadata only
+2010-04,US,88,88,readable
+2010-04,AU,0,0,unaudited or absent
+2010-04,Pooled government,361,1,readable
+2010-04,Media pilot,0,0,unaudited or absent
+2010-04,Public pilot,0,0,unaudited or absent
+2010-05,UK,1,1,readable
+2010-05,EU,202,0,metadata only
+2010-05,US,91,91,readable
+2010-05,AU,0,0,unaudited or absent
+2010-05,Pooled government,294,1,readable
+2010-05,Media pilot,0,0,unaudited or absent
+2010-05,Public pilot,0,0,unaudited or absent
+2010-06,UK,272,272,readable
+2010-06,EU,185,0,metadata only
+2010-06,US,97,97,readable
+2010-06,AU,0,0,unaudited or absent
+2010-06,Pooled government,554,1,readable
+2010-06,Media pilot,0,0,unaudited or absent
+2010-06,Public pilot,0,0,unaudited or absent
+2010-07,UK,513,513,readable
+2010-07,EU,173,0,metadata only
+2010-07,US,82,82,readable
+2010-07,AU,0,0,unaudited or absent
+2010-07,Pooled government,768,1,readable
+2010-07,Media pilot,0,0,unaudited or absent
+2010-07,Public pilot,0,0,unaudited or absent
+2010-08,UK,2,2,readable
+2010-08,EU,111,0,metadata only
+2010-08,US,92,92,readable
+2010-08,AU,0,0,unaudited or absent
+2010-08,Pooled government,205,1,readable
+2010-08,Media pilot,0,0,unaudited or absent
+2010-08,Public pilot,0,0,unaudited or absent
+2010-09,UK,267,267,readable
+2010-09,EU,176,0,metadata only
+2010-09,US,95,95,readable
+2010-09,AU,0,0,unaudited or absent
+2010-09,Pooled government,538,1,readable
+2010-09,Media pilot,0,0,unaudited or absent
+2010-09,Public pilot,0,0,unaudited or absent
+2010-10,UK,338,338,readable
+2010-10,EU,193,0,metadata only
+2010-10,US,59,59,readable
+2010-10,AU,0,0,unaudited or absent
+2010-10,Pooled government,590,1,readable
+2010-10,Media pilot,0,0,unaudited or absent
+2010-10,Public pilot,0,0,unaudited or absent
+2010-11,UK,529,529,readable
+2010-11,EU,198,0,metadata only
+2010-11,US,91,91,readable
+2010-11,AU,0,0,unaudited or absent
+2010-11,Pooled government,818,1,readable
+2010-11,Media pilot,0,0,unaudited or absent
+2010-11,Public pilot,0,0,unaudited or absent
+2010-12,UK,444,444,readable
+2010-12,EU,218,0,metadata only
+2010-12,US,101,9,readable
+2010-12,AU,0,0,unaudited or absent
+2010-12,Pooled government,763,1,readable
+2010-12,Media pilot,0,0,unaudited or absent
+2010-12,Public pilot,0,0,unaudited or absent
+2011-01,UK,410,410,readable
+2011-01,EU,119,0,metadata only
+2011-01,US,85,0,metadata only
+2011-01,AU,0,0,unaudited or absent
+2011-01,Pooled government,614,1,readable
+2011-01,Media pilot,0,0,unaudited or absent
+2011-01,Public pilot,0,0,unaudited or absent
+2011-02,UK,497,497,readable
+2011-02,EU,157,0,metadata only
+2011-02,US,64,0,metadata only
+2011-02,AU,0,0,unaudited or absent
+2011-02,Pooled government,718,1,readable
+2011-02,Media pilot,0,0,unaudited or absent
+2011-02,Public pilot,0,0,unaudited or absent
+2011-03,UK,772,772,readable
+2011-03,EU,193,0,metadata only
+2011-03,US,114,0,metadata only
+2011-03,AU,0,0,unaudited or absent
+2011-03,Pooled government,1079,1,readable
+2011-03,Media pilot,0,0,unaudited or absent
+2011-03,Public pilot,0,0,unaudited or absent
+2011-04,UK,219,219,readable
+2011-04,EU,200,0,metadata only
+2011-04,US,104,0,metadata only
+2011-04,AU,0,0,unaudited or absent
+2011-04,Pooled government,523,1,readable
+2011-04,Media pilot,0,0,unaudited or absent
+2011-04,Public pilot,0,0,unaudited or absent
+2011-05,UK,367,367,readable
+2011-05,EU,178,0,metadata only
+2011-05,US,95,0,metadata only
+2011-05,AU,0,0,unaudited or absent
+2011-05,Pooled government,640,1,readable
+2011-05,Media pilot,0,0,unaudited or absent
+2011-05,Public pilot,0,0,unaudited or absent
+2011-06,UK,555,555,readable
+2011-06,EU,209,0,metadata only
+2011-06,US,86,0,metadata only
+2011-06,AU,0,0,unaudited or absent
+2011-06,Pooled government,850,1,readable
+2011-06,Media pilot,0,0,unaudited or absent
+2011-06,Public pilot,0,0,unaudited or absent
+2011-07,UK,523,523,readable
+2011-07,EU,190,0,metadata only
+2011-07,US,129,0,metadata only
+2011-07,AU,0,0,unaudited or absent
+2011-07,Pooled government,842,1,readable
+2011-07,Media pilot,0,0,unaudited or absent
+2011-07,Public pilot,0,0,unaudited or absent
+2011-08,UK,88,88,readable
+2011-08,EU,115,0,metadata only
+2011-08,US,95,0,metadata only
+2011-08,AU,0,0,unaudited or absent
+2011-08,Pooled government,298,1,readable
+2011-08,Media pilot,0,0,unaudited or absent
+2011-08,Public pilot,0,0,unaudited or absent
+2011-09,UK,424,424,readable
+2011-09,EU,157,0,metadata only
+2011-09,US,122,0,metadata only
+2011-09,AU,0,0,unaudited or absent
+2011-09,Pooled government,703,1,readable
+2011-09,Media pilot,0,0,unaudited or absent
+2011-09,Public pilot,0,0,unaudited or absent
+2011-10,UK,406,406,readable
+2011-10,EU,256,0,metadata only
+2011-10,US,73,0,metadata only
+2011-10,AU,0,0,unaudited or absent
+2011-10,Pooled government,735,1,readable
+2011-10,Media pilot,0,0,unaudited or absent
+2011-10,Public pilot,0,0,unaudited or absent
+2011-11,UK,700,700,readable
+2011-11,EU,252,0,metadata only
+2011-11,US,89,0,metadata only
+2011-11,AU,0,0,unaudited or absent
+2011-11,Pooled government,1041,1,readable
+2011-11,Media pilot,0,0,unaudited or absent
+2011-11,Public pilot,0,0,unaudited or absent
+2011-12,UK,500,500,readable
+2011-12,EU,262,0,metadata only
+2011-12,US,109,0,metadata only
+2011-12,AU,0,0,unaudited or absent
+2011-12,Pooled government,871,1,readable
+2011-12,Media pilot,0,0,unaudited or absent
+2011-12,Public pilot,0,0,unaudited or absent
+2012-01,UK,509,509,readable
+2012-01,EU,118,0,metadata only
+2012-01,US,86,0,metadata only
+2012-01,AU,0,0,unaudited or absent
+2012-01,Pooled government,713,1,readable
+2012-01,Media pilot,0,0,unaudited or absent
+2012-01,Public pilot,0,0,unaudited or absent
+2012-02,UK,482,482,readable
+2012-02,EU,152,0,metadata only
+2012-02,US,112,0,metadata only
+2012-02,AU,0,0,unaudited or absent
+2012-02,Pooled government,746,1,readable
+2012-02,Media pilot,0,0,unaudited or absent
+2012-02,Public pilot,0,0,unaudited or absent
+2012-03,UK,446,446,readable
+2012-03,EU,172,0,metadata only
+2012-03,US,113,0,metadata only
+2012-03,AU,0,0,unaudited or absent
+2012-03,Pooled government,731,1,readable
+2012-03,Media pilot,0,0,unaudited or absent
+2012-03,Public pilot,0,0,unaudited or absent
+2012-04,UK,411,411,readable
+2012-04,EU,121,0,metadata only
+2012-04,US,104,0,metadata only
+2012-04,AU,0,0,unaudited or absent
+2012-04,Pooled government,636,1,readable
+2012-04,Media pilot,0,0,unaudited or absent
+2012-04,Public pilot,0,0,unaudited or absent
+2012-05,UK,257,257,readable
+2012-05,EU,194,0,metadata only
+2012-05,US,120,0,metadata only
+2012-05,AU,0,0,unaudited or absent
+2012-05,Pooled government,571,1,readable
+2012-05,Media pilot,0,0,unaudited or absent
+2012-05,Public pilot,0,0,unaudited or absent
+2012-06,UK,604,604,readable
+2012-06,EU,168,0,metadata only
+2012-06,US,103,0,metadata only
+2012-06,AU,0,0,unaudited or absent
+2012-06,Pooled government,875,1,readable
+2012-06,Media pilot,0,0,unaudited or absent
+2012-06,Public pilot,0,0,unaudited or absent
+2012-07,UK,300,300,readable
+2012-07,EU,180,0,metadata only
+2012-07,US,102,0,metadata only
+2012-07,AU,0,0,unaudited or absent
+2012-07,Pooled government,582,1,readable
+2012-07,Media pilot,0,0,unaudited or absent
+2012-07,Public pilot,0,0,unaudited or absent
+2012-08,UK,3,3,readable
+2012-08,EU,115,0,metadata only
+2012-08,US,120,0,metadata only
+2012-08,AU,0,0,unaudited or absent
+2012-08,Pooled government,238,1,readable
+2012-08,Media pilot,0,0,unaudited or absent
+2012-08,Public pilot,0,0,unaudited or absent
+2012-09,UK,291,291,readable
+2012-09,EU,183,0,metadata only
+2012-09,US,78,0,metadata only
+2012-09,AU,0,0,unaudited or absent
+2012-09,Pooled government,552,1,readable
+2012-09,Media pilot,0,0,unaudited or absent
+2012-09,Public pilot,0,0,unaudited or absent
+2012-10,UK,259,259,readable
+2012-10,EU,181,0,metadata only
+2012-10,US,121,0,metadata only
+2012-10,AU,0,0,unaudited or absent
+2012-10,Pooled government,561,1,readable
+2012-10,Media pilot,0,0,unaudited or absent
+2012-10,Public pilot,0,0,unaudited or absent
+2012-11,UK,416,416,readable
+2012-11,EU,204,0,metadata only
+2012-11,US,71,0,metadata only
+2012-11,AU,0,0,unaudited or absent
+2012-11,Pooled government,691,1,readable
+2012-11,Media pilot,0,0,unaudited or absent
+2012-11,Public pilot,0,0,unaudited or absent
+2012-12,UK,365,365,readable
+2012-12,EU,175,0,metadata only
+2012-12,US,110,0,metadata only
+2012-12,AU,0,0,unaudited or absent
+2012-12,Pooled government,650,1,readable
+2012-12,Media pilot,0,0,unaudited or absent
+2012-12,Public pilot,0,0,unaudited or absent
+2013-01,UK,511,511,readable
+2013-01,EU,90,0,metadata only
+2013-01,US,91,0,metadata only
+2013-01,AU,0,0,unaudited or absent
+2013-01,Pooled government,692,1,readable
+2013-01,Media pilot,0,0,unaudited or absent
+2013-01,Public pilot,0,0,unaudited or absent
+2013-02,UK,331,331,readable
+2013-02,EU,170,0,metadata only
+2013-02,US,96,0,metadata only
+2013-02,AU,0,0,unaudited or absent
+2013-02,Pooled government,597,1,readable
+2013-02,Media pilot,0,0,unaudited or absent
+2013-02,Public pilot,0,0,unaudited or absent
+2013-03,UK,477,477,readable
+2013-03,EU,186,0,metadata only
+2013-03,US,73,0,metadata only
+2013-03,AU,0,0,unaudited or absent
+2013-03,Pooled government,736,1,readable
+2013-03,Media pilot,0,0,unaudited or absent
+2013-03,Public pilot,0,0,unaudited or absent
+2013-04,UK,314,314,readable
+2013-04,EU,178,0,metadata only
+2013-04,US,103,0,metadata only
+2013-04,AU,0,0,unaudited or absent
+2013-04,Pooled government,595,1,readable
+2013-04,Media pilot,0,0,unaudited or absent
+2013-04,Public pilot,0,0,unaudited or absent
+2013-05,UK,201,201,readable
+2013-05,EU,256,0,metadata only
+2013-05,US,101,0,metadata only
+2013-05,AU,0,0,unaudited or absent
+2013-05,Pooled government,558,1,readable
+2013-05,Media pilot,0,0,unaudited or absent
+2013-05,Public pilot,0,0,unaudited or absent
+2013-06,UK,397,397,readable
+2013-06,EU,220,0,metadata only
+2013-06,US,91,0,metadata only
+2013-06,AU,0,0,unaudited or absent
+2013-06,Pooled government,708,1,readable
+2013-06,Media pilot,0,0,unaudited or absent
+2013-06,Public pilot,0,0,unaudited or absent
+2013-07,UK,380,380,readable
+2013-07,EU,163,0,metadata only
+2013-07,US,113,0,metadata only
+2013-07,AU,0,0,unaudited or absent
+2013-07,Pooled government,656,1,readable
+2013-07,Media pilot,0,0,unaudited or absent
+2013-07,Public pilot,0,0,unaudited or absent
+2013-08,UK,19,19,readable
+2013-08,EU,128,0,metadata only
+2013-08,US,99,0,metadata only
+2013-08,AU,0,0,unaudited or absent
+2013-08,Pooled government,246,1,readable
+2013-08,Media pilot,0,0,unaudited or absent
+2013-08,Public pilot,0,0,unaudited or absent
+2013-09,UK,215,215,readable
+2013-09,EU,163,0,metadata only
+2013-09,US,91,0,metadata only
+2013-09,AU,0,0,unaudited or absent
+2013-09,Pooled government,469,1,readable
+2013-09,Media pilot,0,0,unaudited or absent
+2013-09,Public pilot,0,0,unaudited or absent
+2013-10,UK,440,440,readable
+2013-10,EU,185,0,metadata only
+2013-10,US,56,0,metadata only
+2013-10,AU,0,0,unaudited or absent
+2013-10,Pooled government,681,1,readable
+2013-10,Media pilot,0,0,unaudited or absent
+2013-10,Public pilot,0,0,unaudited or absent
+2013-11,UK,394,394,readable
+2013-11,EU,202,0,metadata only
+2013-11,US,84,0,metadata only
+2013-11,AU,0,0,unaudited or absent
+2013-11,Pooled government,680,1,readable
+2013-11,Media pilot,0,0,unaudited or absent
+2013-11,Public pilot,0,0,unaudited or absent
+2013-12,UK,284,284,readable
+2013-12,EU,190,0,metadata only
+2013-12,US,83,3,readable
+2013-12,AU,0,0,unaudited or absent
+2013-12,Pooled government,557,1,readable
+2013-12,Media pilot,0,0,unaudited or absent
+2013-12,Public pilot,0,0,unaudited or absent
+2014-01,UK,353,353,readable
+2014-01,EU,152,0,metadata only
+2014-01,US,82,0,metadata only
+2014-01,AU,0,0,unaudited or absent
+2014-01,Pooled government,587,1,readable
+2014-01,Media pilot,0,0,unaudited or absent
+2014-01,Public pilot,0,0,unaudited or absent
+2014-02,UK,419,419,readable
+2014-02,EU,121,0,metadata only
+2014-02,US,83,0,metadata only
+2014-02,AU,0,0,unaudited or absent
+2014-02,Pooled government,623,1,readable
+2014-02,Media pilot,0,0,unaudited or absent
+2014-02,Public pilot,0,0,unaudited or absent
+2014-03,UK,392,392,readable
+2014-03,EU,205,0,metadata only
+2014-03,US,109,0,metadata only
+2014-03,AU,0,0,unaudited or absent
+2014-03,Pooled government,706,1,readable
+2014-03,Media pilot,0,0,unaudited or absent
+2014-03,Public pilot,0,0,unaudited or absent
+2014-04,UK,259,259,readable
+2014-04,EU,133,0,metadata only
+2014-04,US,92,3,readable
+2014-04,AU,0,0,unaudited or absent
+2014-04,Pooled government,484,1,readable
+2014-04,Media pilot,0,0,unaudited or absent
+2014-04,Public pilot,0,0,unaudited or absent
+2014-05,UK,147,147,readable
+2014-05,EU,156,0,metadata only
+2014-05,US,107,3,readable
+2014-05,AU,0,0,unaudited or absent
+2014-05,Pooled government,410,1,readable
+2014-05,Media pilot,0,0,unaudited or absent
+2014-05,Public pilot,0,0,unaudited or absent
+2014-06,UK,264,264,readable
+2014-06,EU,208,0,metadata only
+2014-06,US,77,0,metadata only
+2014-06,AU,0,0,unaudited or absent
+2014-06,Pooled government,549,1,readable
+2014-06,Media pilot,0,0,unaudited or absent
+2014-06,Public pilot,0,0,unaudited or absent
+2014-07,UK,335,335,readable
+2014-07,EU,149,0,metadata only
+2014-07,US,119,0,metadata only
+2014-07,AU,0,0,unaudited or absent
+2014-07,Pooled government,603,1,readable
+2014-07,Media pilot,0,0,unaudited or absent
+2014-07,Public pilot,0,0,unaudited or absent
+2014-08,UK,4,4,readable
+2014-08,EU,82,0,metadata only
+2014-08,US,85,0,metadata only
+2014-08,AU,0,0,unaudited or absent
+2014-08,Pooled government,171,1,readable
+2014-08,Media pilot,0,0,unaudited or absent
+2014-08,Public pilot,0,0,unaudited or absent
+2014-09,UK,129,129,readable
+2014-09,EU,140,0,metadata only
+2014-09,US,78,0,metadata only
+2014-09,AU,0,0,unaudited or absent
+2014-09,Pooled government,347,1,readable
+2014-09,Media pilot,0,0,unaudited or absent
+2014-09,Public pilot,0,0,unaudited or absent
+2014-10,UK,253,253,readable
+2014-10,EU,190,0,metadata only
+2014-10,US,132,0,metadata only
+2014-10,AU,0,0,unaudited or absent
+2014-10,Pooled government,575,1,readable
+2014-10,Media pilot,0,0,unaudited or absent
+2014-10,Public pilot,0,0,unaudited or absent
+2014-11,UK,277,277,readable
+2014-11,EU,105,0,metadata only
+2014-11,US,78,0,metadata only
+2014-11,AU,0,0,unaudited or absent
+2014-11,Pooled government,460,1,readable
+2014-11,Media pilot,0,0,unaudited or absent
+2014-11,Public pilot,0,0,unaudited or absent
+2014-12,UK,242,242,readable
+2014-12,EU,93,0,metadata only
+2014-12,US,107,0,metadata only
+2014-12,AU,0,0,unaudited or absent
+2014-12,Pooled government,442,1,readable
+2014-12,Media pilot,0,0,unaudited or absent
+2014-12,Public pilot,0,0,unaudited or absent
+2015-01,UK,274,274,readable
+2015-01,EU,93,0,metadata only
+2015-01,US,73,0,metadata only
+2015-01,AU,0,0,unaudited or absent
+2015-01,Pooled government,440,1,readable
+2015-01,Media pilot,0,0,unaudited or absent
+2015-01,Public pilot,0,0,unaudited or absent
+2015-02,UK,299,299,readable
+2015-02,EU,124,0,metadata only
+2015-02,US,99,0,metadata only
+2015-02,AU,0,0,unaudited or absent
+2015-02,Pooled government,522,1,readable
+2015-02,Media pilot,0,0,unaudited or absent
+2015-02,Public pilot,0,0,unaudited or absent
+2015-03,UK,308,308,readable
+2015-03,EU,144,0,metadata only
+2015-03,US,112,3,readable
+2015-03,AU,0,0,unaudited or absent
+2015-03,Pooled government,564,1,readable
+2015-03,Media pilot,0,0,unaudited or absent
+2015-03,Public pilot,0,0,unaudited or absent
+2015-04,UK,0,0,unaudited or absent
+2015-04,EU,71,0,metadata only
+2015-04,US,129,63,readable
+2015-04,AU,0,0,unaudited or absent
+2015-04,Pooled government,200,1,readable
+2015-04,Media pilot,0,0,unaudited or absent
+2015-04,Public pilot,0,0,unaudited or absent
+2015-05,UK,0,0,unaudited or absent
+2015-05,EU,92,0,metadata only
+2015-05,US,81,38,readable
+2015-05,AU,0,0,unaudited or absent
+2015-05,Pooled government,173,1,readable
+2015-05,Media pilot,0,0,unaudited or absent
+2015-05,Public pilot,0,0,unaudited or absent
+2015-06,UK,391,391,readable
+2015-06,EU,49,0,metadata only
+2015-06,US,96,3,readable
+2015-06,AU,0,0,unaudited or absent
+2015-06,Pooled government,536,1,readable
+2015-06,Media pilot,0,0,unaudited or absent
+2015-06,Public pilot,0,0,unaudited or absent
+2015-07,UK,312,312,readable
+2015-07,EU,78,0,metadata only
+2015-07,US,150,0,metadata only
+2015-07,AU,0,0,unaudited or absent
+2015-07,Pooled government,540,1,readable
+2015-07,Media pilot,0,0,unaudited or absent
+2015-07,Public pilot,1,1,readable pilot
+2015-08,UK,5,5,readable
+2015-08,EU,26,0,metadata only
+2015-08,US,117,0,metadata only
+2015-08,AU,0,0,unaudited or absent
+2015-08,Pooled government,148,1,readable
+2015-08,Media pilot,0,0,unaudited or absent
+2015-08,Public pilot,2,2,readable pilot
+2015-09,UK,259,259,readable
+2015-09,EU,71,0,metadata only
+2015-09,US,101,0,metadata only
+2015-09,AU,0,0,unaudited or absent
+2015-09,Pooled government,431,1,readable
+2015-09,Media pilot,0,0,unaudited or absent
+2015-09,Public pilot,2,2,readable pilot
+2015-10,UK,255,255,readable
+2015-10,EU,62,0,metadata only
+2015-10,US,111,0,metadata only
+2015-10,AU,0,0,unaudited or absent
+2015-10,Pooled government,428,1,readable
+2015-10,Media pilot,0,0,unaudited or absent
+2015-10,Public pilot,0,0,confirmed query zero
+2015-11,UK,424,424,readable
+2015-11,EU,97,0,metadata only
+2015-11,US,92,0,metadata only
+2015-11,AU,0,0,unaudited or absent
+2015-11,Pooled government,613,1,readable
+2015-11,Media pilot,2,2,readable pilot
+2015-11,Public pilot,0,0,confirmed query zero
+2015-12,UK,243,243,readable
+2015-12,EU,102,0,metadata only
+2015-12,US,83,0,metadata only
+2015-12,AU,1,1,readable
+2015-12,Pooled government,429,1,readable
+2015-12,Media pilot,396,4,readable pilot
+2015-12,Public pilot,8,8,readable pilot
+2016-01,UK,339,339,readable
+2016-01,EU,45,0,metadata only
+2016-01,US,73,0,metadata only
+2016-01,AU,0,0,unaudited or absent
+2016-01,Pooled government,457,1,readable
+2016-01,Media pilot,1,1,readable pilot
+2016-01,Public pilot,5,5,readable pilot
+2016-02,UK,274,274,readable
+2016-02,EU,75,0,metadata only
+2016-02,US,86,0,metadata only
+2016-02,AU,0,0,unaudited or absent
+2016-02,Pooled government,435,1,readable
+2016-02,Media pilot,0,0,unaudited or absent
+2016-02,Public pilot,5,5,readable pilot
+2016-03,UK,284,284,readable
+2016-03,EU,71,0,metadata only
+2016-03,US,72,0,metadata only
+2016-03,AU,0,0,unaudited or absent
+2016-03,Pooled government,427,1,readable
+2016-03,Media pilot,0,0,unaudited or absent
+2016-03,Public pilot,2,2,readable pilot
+2016-04,UK,207,207,readable
+2016-04,EU,94,0,metadata only
+2016-04,US,83,3,readable
+2016-04,AU,0,0,unaudited or absent
+2016-04,Pooled government,384,1,readable
+2016-04,Media pilot,0,0,unaudited or absent
+2016-04,Public pilot,3,3,readable pilot
+2016-05,UK,241,241,readable
+2016-05,EU,80,0,metadata only
+2016-05,US,92,3,readable
+2016-05,AU,0,0,unaudited or absent
+2016-05,Pooled government,413,1,readable
+2016-05,Media pilot,0,0,unaudited or absent
+2016-05,Public pilot,0,0,confirmed query zero
+2016-06,UK,188,188,readable
+2016-06,EU,117,0,metadata only
+2016-06,US,109,0,metadata only
+2016-06,AU,0,0,unaudited or absent
+2016-06,Pooled government,414,1,readable
+2016-06,Media pilot,0,0,unaudited or absent
+2016-06,Public pilot,1,1,readable pilot
+2016-07,UK,237,237,readable
+2016-07,EU,99,0,metadata only
+2016-07,US,95,0,metadata only
+2016-07,AU,0,0,unaudited or absent
+2016-07,Pooled government,431,1,readable
+2016-07,Media pilot,0,0,unaudited or absent
+2016-07,Public pilot,5,5,readable pilot
+2016-08,UK,42,42,readable
+2016-08,EU,54,0,metadata only
+2016-08,US,148,0,metadata only
+2016-08,AU,0,0,unaudited or absent
+2016-08,Pooled government,244,1,readable
+2016-08,Media pilot,0,0,unaudited or absent
+2016-08,Public pilot,3,3,readable pilot
+2016-09,UK,300,300,readable
+2016-09,EU,106,0,metadata only
+2016-09,US,93,0,metadata only
+2016-09,AU,0,0,unaudited or absent
+2016-09,Pooled government,499,1,readable
+2016-09,Media pilot,0,0,unaudited or absent
+2016-09,Public pilot,3,3,readable pilot
+2016-10,UK,460,460,readable
+2016-10,EU,93,0,metadata only
+2016-10,US,108,0,metadata only
+2016-10,AU,0,0,unaudited or absent
+2016-10,Pooled government,661,1,readable
+2016-10,Media pilot,0,0,unaudited or absent
+2016-10,Public pilot,3,3,readable pilot
+2016-11,UK,508,508,readable
+2016-11,EU,131,0,metadata only
+2016-11,US,85,0,metadata only
+2016-11,AU,0,0,unaudited or absent
+2016-11,Pooled government,724,1,readable
+2016-11,Media pilot,0,0,unaudited or absent
+2016-11,Public pilot,9,9,readable pilot
+2016-12,UK,472,472,readable
+2016-12,EU,92,0,metadata only
+2016-12,US,122,0,metadata only
+2016-12,AU,0,0,unaudited or absent
+2016-12,Pooled government,686,1,readable
+2016-12,Media pilot,0,0,unaudited or absent
+2016-12,Public pilot,4,4,readable pilot
+2017-01,UK,416,416,readable
+2017-01,EU,82,0,metadata only
+2017-01,US,71,0,metadata only
+2017-01,AU,0,0,unaudited or absent
+2017-01,Pooled government,569,1,readable
+2017-01,Media pilot,0,0,unaudited or absent
+2017-01,Public pilot,8,8,readable pilot
+2017-02,UK,286,286,readable
+2017-02,EU,128,0,metadata only
+2017-02,US,39,0,metadata only
+2017-02,AU,0,0,unaudited or absent
+2017-02,Pooled government,453,1,readable
+2017-02,Media pilot,0,0,unaudited or absent
+2017-02,Public pilot,6,6,readable pilot
+2017-03,UK,491,491,readable
+2017-03,EU,71,0,metadata only
+2017-03,US,72,0,metadata only
+2017-03,AU,0,0,unaudited or absent
+2017-03,Pooled government,634,1,readable
+2017-03,Media pilot,0,0,unaudited or absent
+2017-03,Public pilot,3,3,readable pilot
+2017-04,UK,255,255,readable
+2017-04,EU,61,0,metadata only
+2017-04,US,65,0,metadata only
+2017-04,AU,0,0,unaudited or absent
+2017-04,Pooled government,381,1,readable
+2017-04,Media pilot,0,0,unaudited or absent
+2017-04,Public pilot,4,4,readable pilot
+2017-05,UK,3,3,readable
+2017-05,EU,114,0,metadata only
+2017-05,US,104,0,metadata only
+2017-05,AU,0,0,unaudited or absent
+2017-05,Pooled government,221,1,readable
+2017-05,Media pilot,0,0,unaudited or absent
+2017-05,Public pilot,0,0,unaudited or absent
+2017-06,UK,104,104,readable
+2017-06,EU,99,0,metadata only
+2017-06,US,97,0,metadata only
+2017-06,AU,0,0,unaudited or absent
+2017-06,Pooled government,300,1,readable
+2017-06,Media pilot,0,0,unaudited or absent
+2017-06,Public pilot,0,0,unaudited or absent
+2017-07,UK,480,480,readable
+2017-07,EU,68,0,metadata only
+2017-07,US,103,0,metadata only
+2017-07,AU,0,0,unaudited or absent
+2017-07,Pooled government,651,1,readable
+2017-07,Media pilot,0,0,unaudited or absent
+2017-07,Public pilot,0,0,unaudited or absent
+2017-08,UK,4,4,readable
+2017-08,EU,41,0,metadata only
+2017-08,US,129,0,metadata only
+2017-08,AU,0,0,unaudited or absent
+2017-08,Pooled government,174,1,readable
+2017-08,Media pilot,0,0,unaudited or absent
+2017-08,Public pilot,0,0,unaudited or absent
+2017-09,UK,394,394,readable
+2017-09,EU,97,0,metadata only
+2017-09,US,105,0,metadata only
+2017-09,AU,0,0,unaudited or absent
+2017-09,Pooled government,596,1,readable
+2017-09,Media pilot,0,0,unaudited or absent
+2017-09,Public pilot,0,0,unaudited or absent
+2017-10,UK,496,496,readable
+2017-10,EU,88,0,metadata only
+2017-10,US,123,0,metadata only
+2017-10,AU,0,0,unaudited or absent
+2017-10,Pooled government,707,1,readable
+2017-10,Media pilot,0,0,unaudited or absent
+2017-10,Public pilot,0,0,unaudited or absent
+2017-11,UK,531,531,readable
+2017-11,EU,138,0,metadata only
+2017-11,US,69,0,metadata only
+2017-11,AU,0,0,unaudited or absent
+2017-11,Pooled government,738,1,readable
+2017-11,Media pilot,0,0,unaudited or absent
+2017-11,Public pilot,0,0,unaudited or absent
+2017-12,UK,631,631,readable
+2017-12,EU,124,0,metadata only
+2017-12,US,108,3,readable
+2017-12,AU,0,0,unaudited or absent
+2017-12,Pooled government,863,1,readable
+2017-12,Media pilot,0,0,unaudited or absent
+2017-12,Public pilot,0,0,unaudited or absent
+2018-01,UK,536,536,readable
+2018-01,EU,95,0,metadata only
+2018-01,US,56,0,metadata only
+2018-01,AU,0,0,unaudited or absent
+2018-01,Pooled government,687,1,readable
+2018-01,Media pilot,0,0,unaudited or absent
+2018-01,Public pilot,0,0,unaudited or absent
+2018-02,UK,429,429,readable
+2018-02,EU,45,0,metadata only
+2018-02,US,79,0,metadata only
+2018-02,AU,0,0,unaudited or absent
+2018-02,Pooled government,553,1,readable
+2018-02,Media pilot,0,0,unaudited or absent
+2018-02,Public pilot,0,0,unaudited or absent
+2018-03,UK,469,469,readable
+2018-03,EU,126,0,metadata only
+2018-03,US,85,0,metadata only
+2018-03,AU,0,0,unaudited or absent
+2018-03,Pooled government,680,1,readable
+2018-03,Media pilot,0,0,unaudited or absent
+2018-03,Public pilot,0,0,unaudited or absent
+2018-04,UK,318,318,readable
+2018-04,EU,120,0,metadata only
+2018-04,US,73,0,metadata only
+2018-04,AU,0,0,unaudited or absent
+2018-04,Pooled government,511,1,readable
+2018-04,Media pilot,0,0,unaudited or absent
+2018-04,Public pilot,0,0,unaudited or absent
+2018-05,UK,410,410,readable
+2018-05,EU,209,0,metadata only
+2018-05,US,91,0,metadata only
+2018-05,AU,0,0,unaudited or absent
+2018-05,Pooled government,710,1,readable
+2018-05,Media pilot,0,0,unaudited or absent
+2018-05,Public pilot,0,0,unaudited or absent
+2018-06,UK,488,488,readable
+2018-06,EU,165,0,metadata only
+2018-06,US,107,0,metadata only
+2018-06,AU,0,0,unaudited or absent
+2018-06,Pooled government,760,1,readable
+2018-06,Media pilot,0,0,unaudited or absent
+2018-06,Public pilot,0,0,unaudited or absent
+2018-07,UK,429,429,readable
+2018-07,EU,70,0,metadata only
+2018-07,US,91,0,metadata only
+2018-07,AU,0,0,unaudited or absent
+2018-07,Pooled government,590,1,readable
+2018-07,Media pilot,0,0,unaudited or absent
+2018-07,Public pilot,0,0,unaudited or absent
+2018-08,UK,3,3,readable
+2018-08,EU,36,0,metadata only
+2018-08,US,105,0,metadata only
+2018-08,AU,0,0,unaudited or absent
+2018-08,Pooled government,144,1,readable
+2018-08,Media pilot,0,0,unaudited or absent
+2018-08,Public pilot,0,0,unaudited or absent
+2018-09,UK,334,334,readable
+2018-09,EU,79,0,metadata only
+2018-09,US,76,0,metadata only
+2018-09,AU,0,0,unaudited or absent
+2018-09,Pooled government,489,1,readable
+2018-09,Media pilot,0,0,unaudited or absent
+2018-09,Public pilot,0,0,unaudited or absent
+2018-10,UK,430,430,readable
+2018-10,EU,74,0,metadata only
+2018-10,US,95,0,metadata only
+2018-10,AU,0,0,unaudited or absent
+2018-10,Pooled government,599,1,readable
+2018-10,Media pilot,0,0,unaudited or absent
+2018-10,Public pilot,0,0,unaudited or absent
+2018-11,UK,483,483,readable
+2018-11,EU,77,0,metadata only
+2018-11,US,62,0,metadata only
+2018-11,AU,0,0,unaudited or absent
+2018-11,Pooled government,622,1,readable
+2018-11,Media pilot,0,0,unaudited or absent
+2018-11,Public pilot,0,0,unaudited or absent
+2018-12,UK,303,303,readable
+2018-12,EU,75,0,metadata only
+2018-12,US,91,0,metadata only
+2018-12,AU,0,0,unaudited or absent
+2018-12,Pooled government,469,1,readable
+2018-12,Media pilot,0,0,unaudited or absent
+2018-12,Public pilot,0,0,unaudited or absent
+2019-01,UK,341,341,readable
+2019-01,EU,52,0,metadata only
+2019-01,US,2,0,metadata only
+2019-01,AU,0,0,unaudited or absent
+2019-01,Pooled government,395,1,readable
+2019-01,Media pilot,0,0,unaudited or absent
+2019-01,Public pilot,0,0,unaudited or absent
+2019-02,UK,523,523,readable
+2019-02,EU,139,0,metadata only
+2019-02,US,108,0,metadata only
+2019-02,AU,0,0,unaudited or absent
+2019-02,Pooled government,770,1,readable
+2019-02,Media pilot,0,0,unaudited or absent
+2019-02,Public pilot,0,0,unaudited or absent
+2019-03,UK,409,409,readable
+2019-03,EU,65,0,metadata only
+2019-03,US,85,0,metadata only
+2019-03,AU,0,0,unaudited or absent
+2019-03,Pooled government,559,1,readable
+2019-03,Media pilot,0,0,unaudited or absent
+2019-03,Public pilot,0,0,unaudited or absent
+2019-04,UK,467,467,readable
+2019-04,EU,82,0,metadata only
+2019-04,US,86,0,metadata only
+2019-04,AU,0,0,unaudited or absent
+2019-04,Pooled government,635,1,readable
+2019-04,Media pilot,0,0,unaudited or absent
+2019-04,Public pilot,0,0,unaudited or absent
+2019-05,UK,418,418,readable
+2019-05,EU,47,0,metadata only
+2019-05,US,95,0,metadata only
+2019-05,AU,0,0,unaudited or absent
+2019-05,Pooled government,560,1,readable
+2019-05,Media pilot,0,0,unaudited or absent
+2019-05,Public pilot,0,0,unaudited or absent
+2019-06,UK,456,456,readable
+2019-06,EU,78,0,metadata only
+2019-06,US,73,0,metadata only
+2019-06,AU,0,0,unaudited or absent
+2019-06,Pooled government,607,1,readable
+2019-06,Media pilot,0,0,unaudited or absent
+2019-06,Public pilot,0,0,unaudited or absent
+2019-07,UK,571,571,readable
+2019-07,EU,91,0,metadata only
+2019-07,US,146,0,metadata only
+2019-07,AU,0,0,unaudited or absent
+2019-07,Pooled government,808,1,readable
+2019-07,Media pilot,0,0,unaudited or absent
+2019-07,Public pilot,0,0,unaudited or absent
+2019-08,UK,48,48,readable
+2019-08,EU,22,0,metadata only
+2019-08,US,109,0,metadata only
+2019-08,AU,0,0,unaudited or absent
+2019-08,Pooled government,179,1,readable
+2019-08,Media pilot,0,0,unaudited or absent
+2019-08,Public pilot,0,0,unaudited or absent
+2019-09,UK,425,425,readable
+2019-09,EU,40,0,metadata only
+2019-09,US,104,0,metadata only
+2019-09,AU,0,0,unaudited or absent
+2019-09,Pooled government,569,1,readable
+2019-09,Media pilot,0,0,unaudited or absent
+2019-09,Public pilot,0,0,unaudited or absent
+2019-10,UK,679,679,readable
+2019-10,EU,107,0,metadata only
+2019-10,US,91,0,metadata only
+2019-10,AU,0,0,unaudited or absent
+2019-10,Pooled government,877,1,readable
+2019-10,Media pilot,0,0,unaudited or absent
+2019-10,Public pilot,0,0,unaudited or absent
+2019-11,UK,84,84,readable
+2019-11,EU,47,0,metadata only
+2019-11,US,63,0,metadata only
+2019-11,AU,0,0,unaudited or absent
+2019-11,Pooled government,194,1,readable
+2019-11,Media pilot,0,0,unaudited or absent
+2019-11,Public pilot,0,0,unaudited or absent
+2019-12,UK,1,1,readable
+2019-12,EU,40,0,metadata only
+2019-12,US,75,0,metadata only
+2019-12,AU,0,0,unaudited or absent
+2019-12,Pooled government,116,1,readable
+2019-12,Media pilot,0,0,unaudited or absent
+2019-12,Public pilot,0,0,unaudited or absent
+2020-01,UK,299,299,readable
+2020-01,EU,29,0,metadata only
+2020-01,US,57,0,metadata only
+2020-01,AU,0,0,unaudited or absent
+2020-01,Pooled government,385,1,readable
+2020-01,Media pilot,0,0,unaudited or absent
+2020-01,Public pilot,0,0,unaudited or absent
+2020-02,UK,386,386,readable
+2020-02,EU,86,0,metadata only
+2020-02,US,99,0,metadata only
+2020-02,AU,0,0,unaudited or absent
+2020-02,Pooled government,571,1,readable
+2020-02,Media pilot,0,0,unaudited or absent
+2020-02,Public pilot,0,0,unaudited or absent
+2020-03,UK,562,562,readable
+2020-03,EU,48,0,metadata only
+2020-03,US,75,0,metadata only
+2020-03,AU,0,0,unaudited or absent
+2020-03,Pooled government,685,1,readable
+2020-03,Media pilot,0,0,unaudited or absent
+2020-03,Public pilot,0,0,unaudited or absent
+2020-04,UK,172,172,readable
+2020-04,EU,58,0,metadata only
+2020-04,US,81,0,metadata only
+2020-04,AU,0,0,unaudited or absent
+2020-04,Pooled government,311,1,readable
+2020-04,Media pilot,0,0,unaudited or absent
+2020-04,Public pilot,0,0,unaudited or absent
+2020-05,UK,417,417,readable
+2020-05,EU,96,0,metadata only
+2020-05,US,92,0,metadata only
+2020-05,AU,0,0,unaudited or absent
+2020-05,Pooled government,605,1,readable
+2020-05,Media pilot,0,0,unaudited or absent
+2020-05,Public pilot,0,0,unaudited or absent
+2020-06,UK,736,736,readable
+2020-06,EU,66,0,metadata only
+2020-06,US,95,0,metadata only
+2020-06,AU,0,0,unaudited or absent
+2020-06,Pooled government,897,1,readable
+2020-06,Media pilot,0,0,unaudited or absent
+2020-06,Public pilot,0,0,unaudited or absent
+2020-07,UK,701,701,readable
+2020-07,EU,91,0,metadata only
+2020-07,US,128,0,metadata only
+2020-07,AU,0,0,unaudited or absent
+2020-07,Pooled government,920,1,readable
+2020-07,Media pilot,0,0,unaudited or absent
+2020-07,Public pilot,0,0,unaudited or absent
+2020-08,UK,1,1,readable
+2020-08,EU,89,0,metadata only
+2020-08,US,67,0,metadata only
+2020-08,AU,0,0,unaudited or absent
+2020-08,Pooled government,157,1,readable
+2020-08,Media pilot,0,0,unaudited or absent
+2020-08,Public pilot,0,0,unaudited or absent
+2020-09,UK,656,656,readable
+2020-09,EU,146,0,metadata only
+2020-09,US,101,0,metadata only
+2020-09,AU,0,0,unaudited or absent
+2020-09,Pooled government,903,1,readable
+2020-09,Media pilot,0,0,unaudited or absent
+2020-09,Public pilot,0,0,unaudited or absent
+2020-10,UK,558,558,readable
+2020-10,EU,97,0,metadata only
+2020-10,US,85,0,metadata only
+2020-10,AU,0,0,unaudited or absent
+2020-10,Pooled government,740,1,readable
+2020-10,Media pilot,0,0,unaudited or absent
+2020-10,Public pilot,0,0,unaudited or absent
+2020-11,UK,620,620,readable
+2020-11,EU,100,0,metadata only
+2020-11,US,48,0,metadata only
+2020-11,AU,0,0,unaudited or absent
+2020-11,Pooled government,768,1,readable
+2020-11,Media pilot,0,0,unaudited or absent
+2020-11,Public pilot,0,0,unaudited or absent
+2020-12,UK,566,566,readable
+2020-12,EU,128,0,metadata only
+2020-12,US,45,0,metadata only
+2020-12,AU,0,0,unaudited or absent
+2020-12,Pooled government,739,1,readable
+2020-12,Media pilot,0,0,unaudited or absent
+2020-12,Public pilot,0,0,unaudited or absent
+2021-01,UK,629,629,readable
+2021-01,EU,52,0,metadata only
+2021-01,US,54,0,metadata only
+2021-01,AU,0,0,unaudited or absent
+2021-01,Pooled government,735,1,readable
+2021-01,Media pilot,0,0,unaudited or absent
+2021-01,Public pilot,0,0,unaudited or absent
+2021-02,UK,671,671,readable
+2021-02,EU,68,0,metadata only
+2021-02,US,99,0,metadata only
+2021-02,AU,0,0,unaudited or absent
+2021-02,Pooled government,838,1,readable
+2021-02,Media pilot,0,0,unaudited or absent
+2021-02,Public pilot,0,0,unaudited or absent
+2021-03,UK,853,853,readable
+2021-03,EU,79,0,metadata only
+2021-03,US,109,0,metadata only
+2021-03,AU,0,0,unaudited or absent
+2021-03,Pooled government,1041,1,readable
+2021-03,Media pilot,0,0,unaudited or absent
+2021-03,Public pilot,0,0,unaudited or absent
+2021-04,UK,560,560,readable
+2021-04,EU,66,0,metadata only
+2021-04,US,61,0,metadata only
+2021-04,AU,0,0,unaudited or absent
+2021-04,Pooled government,687,1,readable
+2021-04,Media pilot,0,0,unaudited or absent
+2021-04,Public pilot,0,0,unaudited or absent
+2021-05,UK,353,353,readable
+2021-05,EU,61,0,metadata only
+2021-05,US,80,0,metadata only
+2021-05,AU,0,0,unaudited or absent
+2021-05,Pooled government,494,1,readable
+2021-05,Media pilot,0,0,unaudited or absent
+2021-05,Public pilot,0,0,unaudited or absent
+2021-06,UK,645,645,readable
+2021-06,EU,127,0,metadata only
+2021-06,US,95,0,metadata only
+2021-06,AU,0,0,unaudited or absent
+2021-06,Pooled government,867,1,readable
+2021-06,Media pilot,0,0,unaudited or absent
+2021-06,Public pilot,0,0,unaudited or absent
+2021-07,UK,698,698,readable
+2021-07,EU,196,0,metadata only
+2021-07,US,57,0,metadata only
+2021-07,AU,0,0,unaudited or absent
+2021-07,Pooled government,951,1,readable
+2021-07,Media pilot,0,0,unaudited or absent
+2021-07,Public pilot,0,0,unaudited or absent
+2021-08,UK,7,7,readable
+2021-08,EU,63,0,metadata only
+2021-08,US,85,0,metadata only
+2021-08,AU,0,0,unaudited or absent
+2021-08,Pooled government,155,1,readable
+2021-08,Media pilot,0,0,unaudited or absent
+2021-08,Public pilot,0,0,unaudited or absent
+2021-09,UK,617,617,readable
+2021-09,EU,70,0,metadata only
+2021-09,US,87,0,metadata only
+2021-09,AU,0,0,unaudited or absent
+2021-09,Pooled government,774,1,readable
+2021-09,Media pilot,0,0,unaudited or absent
+2021-09,Public pilot,0,0,unaudited or absent
+2021-10,UK,479,479,readable
+2021-10,EU,95,0,metadata only
+2021-10,US,67,0,metadata only
+2021-10,AU,0,0,unaudited or absent
+2021-10,Pooled government,641,1,readable
+2021-10,Media pilot,0,0,unaudited or absent
+2021-10,Public pilot,0,0,unaudited or absent
+2021-11,UK,733,733,readable
+2021-11,EU,107,0,metadata only
+2021-11,US,66,0,metadata only
+2021-11,AU,0,0,unaudited or absent
+2021-11,Pooled government,906,1,readable
+2021-11,Media pilot,0,0,unaudited or absent
+2021-11,Public pilot,0,0,unaudited or absent
+2021-12,UK,515,515,readable
+2021-12,EU,158,0,metadata only
+2021-12,US,76,0,metadata only
+2021-12,AU,0,0,unaudited or absent
+2021-12,Pooled government,749,1,readable
+2021-12,Media pilot,0,0,unaudited or absent
+2021-12,Public pilot,0,0,unaudited or absent
+2022-01,UK,709,709,readable
+2022-01,EU,41,0,metadata only
+2022-01,US,83,0,metadata only
+2022-01,AU,0,0,unaudited or absent
+2022-01,Pooled government,833,1,readable
+2022-01,Media pilot,0,0,unaudited or absent
+2022-01,Public pilot,0,0,unaudited or absent
+2022-02,UK,670,670,readable
+2022-02,EU,62,0,metadata only
+2022-02,US,79,0,metadata only
+2022-02,AU,0,0,unaudited or absent
+2022-02,Pooled government,811,1,readable
+2022-02,Media pilot,0,0,unaudited or absent
+2022-02,Public pilot,0,0,unaudited or absent
+2022-03,UK,814,814,readable
+2022-03,EU,86,0,metadata only
+2022-03,US,97,0,metadata only
+2022-03,AU,0,0,unaudited or absent
+2022-03,Pooled government,997,1,readable
+2022-03,Media pilot,0,0,unaudited or absent
+2022-03,Public pilot,0,0,unaudited or absent
+2022-04,UK,563,563,readable
+2022-04,EU,70,0,metadata only
+2022-04,US,68,0,metadata only
+2022-04,AU,0,0,unaudited or absent
+2022-04,Pooled government,701,1,readable
+2022-04,Media pilot,0,0,unaudited or absent
+2022-04,Public pilot,0,0,unaudited or absent
+2022-05,UK,374,374,readable
+2022-05,EU,128,0,metadata only
+2022-05,US,105,0,metadata only
+2022-05,AU,0,0,unaudited or absent
+2022-05,Pooled government,607,1,readable
+2022-05,Media pilot,0,0,unaudited or absent
+2022-05,Public pilot,0,0,unaudited or absent
+2022-06,UK,635,635,readable
+2022-06,EU,86,0,metadata only
+2022-06,US,69,0,metadata only
+2022-06,AU,0,0,unaudited or absent
+2022-06,Pooled government,790,1,readable
+2022-06,Media pilot,0,0,unaudited or absent
+2022-06,Public pilot,0,0,unaudited or absent
+2022-07,UK,664,664,readable
+2022-07,EU,90,0,metadata only
+2022-07,US,64,0,metadata only
+2022-07,AU,0,0,unaudited or absent
+2022-07,Pooled government,818,1,readable
+2022-07,Media pilot,0,0,unaudited or absent
+2022-07,Public pilot,0,0,unaudited or absent
+2022-08,UK,29,29,readable
+2022-08,EU,38,0,metadata only
+2022-08,US,80,0,metadata only
+2022-08,AU,0,0,unaudited or absent
+2022-08,Pooled government,147,1,readable
+2022-08,Media pilot,0,0,unaudited or absent
+2022-08,Public pilot,0,0,unaudited or absent
+2022-09,UK,567,567,readable
+2022-09,EU,138,0,metadata only
+2022-09,US,70,0,metadata only
+2022-09,AU,0,0,unaudited or absent
+2022-09,Pooled government,775,1,readable
+2022-09,Media pilot,0,0,unaudited or absent
+2022-09,Public pilot,0,0,unaudited or absent
+2022-10,UK,865,865,readable
+2022-10,EU,90,0,metadata only
+2022-10,US,68,0,metadata only
+2022-10,AU,0,0,unaudited or absent
+2022-10,Pooled government,1023,1,readable
+2022-10,Media pilot,0,0,unaudited or absent
+2022-10,Public pilot,0,0,unaudited or absent
+2022-11,UK,1139,1139,readable
+2022-11,EU,101,0,metadata only
+2022-11,US,58,0,metadata only
+2022-11,AU,0,0,unaudited or absent
+2022-11,Pooled government,1298,1,readable
+2022-11,Media pilot,0,0,unaudited or absent
+2022-11,Public pilot,0,0,unaudited or absent
+2022-12,UK,838,838,readable
+2022-12,EU,105,0,metadata only
+2022-12,US,74,0,metadata only
+2022-12,AU,0,0,unaudited or absent
+2022-12,Pooled government,1017,1,readable
+2022-12,Media pilot,0,0,unaudited or absent
+2022-12,Public pilot,0,0,unaudited or absent
+2023-01,UK,1116,1116,readable
+2023-01,EU,47,0,metadata only
+2023-01,US,58,0,metadata only
+2023-01,AU,0,0,unaudited or absent
+2023-01,Pooled government,1221,1,readable
+2023-01,Media pilot,0,0,unaudited or absent
+2023-01,Public pilot,0,0,unaudited or absent
+2023-02,UK,721,721,readable
+2023-02,EU,72,0,metadata only
+2023-02,US,75,0,metadata only
+2023-02,AU,0,0,unaudited or absent
+2023-02,Pooled government,868,1,readable
+2023-02,Media pilot,0,0,unaudited or absent
+2023-02,Public pilot,0,0,unaudited or absent
+2023-03,UK,661,661,readable
+2023-03,EU,76,0,metadata only
+2023-03,US,84,0,metadata only
+2023-03,AU,0,0,unaudited or absent
+2023-03,Pooled government,821,1,readable
+2023-03,Media pilot,0,0,unaudited or absent
+2023-03,Public pilot,0,0,unaudited or absent
+2023-04,UK,406,406,readable
+2023-04,EU,81,0,metadata only
+2023-04,US,59,0,metadata only
+2023-04,AU,0,0,unaudited or absent
+2023-04,Pooled government,546,1,readable
+2023-04,Media pilot,0,0,unaudited or absent
+2023-04,Public pilot,0,0,unaudited or absent
+2023-05,UK,541,541,readable
+2023-05,EU,102,0,metadata only
+2023-05,US,66,0,metadata only
+2023-05,AU,0,0,unaudited or absent
+2023-05,Pooled government,709,1,readable
+2023-05,Media pilot,0,0,unaudited or absent
+2023-05,Public pilot,0,0,unaudited or absent
+2023-06,UK,597,597,readable
+2023-06,EU,116,0,metadata only
+2023-06,US,73,0,metadata only
+2023-06,AU,0,0,unaudited or absent
+2023-06,Pooled government,786,1,readable
+2023-06,Media pilot,0,0,unaudited or absent
+2023-06,Public pilot,0,0,unaudited or absent
+2023-07,UK,473,473,readable
+2023-07,EU,146,0,metadata only
+2023-07,US,55,0,metadata only
+2023-07,AU,0,0,unaudited or absent
+2023-07,Pooled government,674,1,readable
+2023-07,Media pilot,0,0,unaudited or absent
+2023-07,Public pilot,0,0,unaudited or absent
+2023-08,UK,5,5,readable
+2023-08,EU,16,0,metadata only
+2023-08,US,82,0,metadata only
+2023-08,AU,0,0,unaudited or absent
+2023-08,Pooled government,103,1,readable
+2023-08,Media pilot,0,0,unaudited or absent
+2023-08,Public pilot,0,0,unaudited or absent
+2023-09,UK,628,628,readable
+2023-09,EU,85,0,metadata only
+2023-09,US,52,0,metadata only
+2023-09,AU,0,0,unaudited or absent
+2023-09,Pooled government,765,1,readable
+2023-09,Media pilot,0,0,unaudited or absent
+2023-09,Public pilot,0,0,unaudited or absent
+2023-10,UK,395,395,readable
+2023-10,EU,91,0,metadata only
+2023-10,US,50,0,metadata only
+2023-10,AU,0,0,unaudited or absent
+2023-10,Pooled government,536,1,readable
+2023-10,Media pilot,0,0,unaudited or absent
+2023-10,Public pilot,0,0,unaudited or absent
+2023-11,UK,331,331,readable
+2023-11,EU,122,0,metadata only
+2023-11,US,42,0,metadata only
+2023-11,AU,0,0,unaudited or absent
+2023-11,Pooled government,495,1,readable
+2023-11,Media pilot,0,0,unaudited or absent
+2023-11,Public pilot,0,0,unaudited or absent
+2023-12,UK,359,359,readable
+2023-12,EU,45,0,metadata only
+2023-12,US,58,0,metadata only
+2023-12,AU,0,0,unaudited or absent
+2023-12,Pooled government,462,1,readable
+2023-12,Media pilot,0,0,unaudited or absent
+2023-12,Public pilot,0,0,unaudited or absent
+2024-01,UK,389,389,readable
+2024-01,EU,43,0,metadata only
+2024-01,US,42,0,metadata only
+2024-01,AU,0,0,unaudited or absent
+2024-01,Pooled government,474,1,readable
+2024-01,Media pilot,0,0,unaudited or absent
+2024-01,Public pilot,0,0,unaudited or absent
+2024-02,UK,543,543,readable
+2024-02,EU,47,0,metadata only
+2024-02,US,52,0,metadata only
+2024-02,AU,0,0,unaudited or absent
+2024-02,Pooled government,642,1,readable
+2024-02,Media pilot,0,0,unaudited or absent
+2024-02,Public pilot,0,0,unaudited or absent
+2024-03,UK,477,477,readable
+2024-03,EU,44,0,metadata only
+2024-03,US,54,0,metadata only
+2024-03,AU,0,0,unaudited or absent
+2024-03,Pooled government,575,1,readable
+2024-03,Media pilot,0,0,unaudited or absent
+2024-03,Public pilot,0,0,unaudited or absent
+2024-04,UK,455,455,readable
+2024-04,EU,18,0,metadata only
+2024-04,US,69,0,metadata only
+2024-04,AU,0,0,unaudited or absent
+2024-04,Pooled government,542,1,readable
+2024-04,Media pilot,0,0,unaudited or absent
+2024-04,Public pilot,0,0,unaudited or absent
+2024-05,UK,441,441,readable
+2024-05,EU,16,0,metadata only
+2024-05,US,62,0,metadata only
+2024-05,AU,0,0,unaudited or absent
+2024-05,Pooled government,519,1,readable
+2024-05,Media pilot,0,0,unaudited or absent
+2024-05,Public pilot,0,0,unaudited or absent
+2024-06,UK,1,1,readable
+2024-06,EU,57,0,metadata only
+2024-06,US,40,0,metadata only
+2024-06,AU,0,0,unaudited or absent
+2024-06,Pooled government,98,1,readable
+2024-06,Media pilot,0,0,unaudited or absent
+2024-06,Public pilot,0,0,unaudited or absent
+2024-07,UK,203,203,readable
+2024-07,EU,72,0,metadata only
+2024-07,US,76,0,metadata only
+2024-07,AU,0,0,unaudited or absent
+2024-07,Pooled government,351,1,readable
+2024-07,Media pilot,0,0,unaudited or absent
+2024-07,Public pilot,0,0,unaudited or absent
+2024-08,UK,67,67,readable
+2024-08,EU,0,0,unaudited or absent
+2024-08,US,75,0,metadata only
+2024-08,AU,0,0,unaudited or absent
+2024-08,Pooled government,142,1,readable
+2024-08,Media pilot,0,0,unaudited or absent
+2024-08,Public pilot,0,0,unaudited or absent
+2024-09,UK,414,414,readable
+2024-09,EU,33,0,metadata only
+2024-09,US,59,0,metadata only
+2024-09,AU,0,0,unaudited or absent
+2024-09,Pooled government,506,1,readable
+2024-09,Media pilot,0,0,unaudited or absent
+2024-09,Public pilot,0,0,unaudited or absent
+2024-10,UK,664,664,readable
+2024-10,EU,49,0,metadata only
+2024-10,US,67,0,metadata only
+2024-10,AU,0,0,unaudited or absent
+2024-10,Pooled government,780,1,readable
+2024-10,Media pilot,0,0,unaudited or absent
+2024-10,Public pilot,0,0,unaudited or absent
+2024-11,UK,541,541,readable
+2024-11,EU,24,0,metadata only
+2024-11,US,56,0,metadata only
+2024-11,AU,0,0,unaudited or absent
+2024-11,Pooled government,621,1,readable
+2024-11,Media pilot,0,0,unaudited or absent
+2024-11,Public pilot,0,0,unaudited or absent
+2024-12,UK,600,600,readable
+2024-12,EU,16,0,metadata only
+2024-12,US,110,0,metadata only
+2024-12,AU,0,0,unaudited or absent
+2024-12,Pooled government,726,1,readable
+2024-12,Media pilot,0,0,unaudited or absent
+2024-12,Public pilot,0,0,unaudited or absent
+2025-01,UK,606,606,readable
+2025-01,EU,14,0,metadata only
+2025-01,US,62,0,metadata only
+2025-01,AU,0,0,unaudited or absent
+2025-01,Pooled government,682,1,readable
+2025-01,Media pilot,0,0,unaudited or absent
+2025-01,Public pilot,0,0,unaudited or absent
+2025-02,UK,677,677,readable
+2025-02,EU,45,0,metadata only
+2025-02,US,24,0,metadata only
+2025-02,AU,0,0,unaudited or absent
+2025-02,Pooled government,746,1,readable
+2025-02,Media pilot,0,0,unaudited or absent
+2025-02,Public pilot,0,0,unaudited or absent
+2025-03,UK,1168,1168,readable
+2025-03,EU,17,0,metadata only
+2025-03,US,39,0,metadata only
+2025-03,AU,0,0,unaudited or absent
+2025-03,Pooled government,1224,1,readable
+2025-03,Media pilot,0,0,unaudited or absent
+2025-03,Public pilot,0,0,unaudited or absent
+2025-04,UK,739,739,readable
+2025-04,EU,23,0,metadata only
+2025-04,US,33,0,metadata only
+2025-04,AU,0,0,unaudited or absent
+2025-04,Pooled government,795,1,readable
+2025-04,Media pilot,0,0,unaudited or absent
+2025-04,Public pilot,0,0,unaudited or absent
+2025-05,UK,678,678,readable
+2025-05,EU,28,0,metadata only
+2025-05,US,85,0,metadata only
+2025-05,AU,0,0,unaudited or absent
+2025-05,Pooled government,791,1,readable
+2025-05,Media pilot,0,0,unaudited or absent
+2025-05,Public pilot,0,0,unaudited or absent
+2025-06,UK,1057,1057,readable
+2025-06,EU,80,0,metadata only
+2025-06,US,55,0,metadata only
+2025-06,AU,0,0,unaudited or absent
+2025-06,Pooled government,1192,1,readable
+2025-06,Media pilot,0,0,unaudited or absent
+2025-06,Public pilot,0,0,unaudited or absent
+2025-07,UK,841,841,readable
+2025-07,EU,124,0,metadata only
+2025-07,US,86,0,metadata only
+2025-07,AU,0,0,unaudited or absent
+2025-07,Pooled government,1051,1,readable
+2025-07,Media pilot,0,0,unaudited or absent
+2025-07,Public pilot,0,0,unaudited or absent
+2025-08,UK,7,7,readable
+2025-08,EU,2,0,metadata only
+2025-08,US,51,0,metadata only
+2025-08,AU,0,0,unaudited or absent
+2025-08,Pooled government,60,1,readable
+2025-08,Media pilot,0,0,unaudited or absent
+2025-08,Public pilot,0,0,unaudited or absent
+2025-09,UK,781,781,readable
+2025-09,EU,38,0,metadata only
+2025-09,US,82,0,metadata only
+2025-09,AU,0,0,unaudited or absent
+2025-09,Pooled government,901,1,readable
+2025-09,Media pilot,0,0,unaudited or absent
+2025-09,Public pilot,0,0,unaudited or absent
+2025-10,UK,914,914,readable
+2025-10,EU,34,0,metadata only
+2025-10,US,24,0,metadata only
+2025-10,AU,0,0,unaudited or absent
+2025-10,Pooled government,972,1,readable
+2025-10,Media pilot,0,0,unaudited or absent
+2025-10,Public pilot,0,0,unaudited or absent
+2025-11,UK,860,860,readable
+2025-11,EU,65,0,metadata only
+2025-11,US,86,0,metadata only
+2025-11,AU,0,0,unaudited or absent
+2025-11,Pooled government,1011,1,readable
+2025-11,Media pilot,0,0,unaudited or absent
+2025-11,Public pilot,0,0,unaudited or absent
+2025-12,UK,628,628,readable
+2025-12,EU,67,0,metadata only
+2025-12,US,40,0,metadata only
+2025-12,AU,0,0,unaudited or absent
+2025-12,Pooled government,735,1,readable
+2025-12,Media pilot,0,0,unaudited or absent
+2025-12,Public pilot,0,0,unaudited or absent
+2026-01,UK,777,777,readable
+2026-01,EU,23,0,metadata only
+2026-01,US,51,0,metadata only
+2026-01,AU,0,0,unaudited or absent
+2026-01,Pooled government,851,1,readable
+2026-01,Media pilot,0,0,unaudited or absent
+2026-01,Public pilot,0,0,unaudited or absent
+2026-02,UK,715,715,readable
+2026-02,EU,40,0,metadata only
+2026-02,US,60,0,metadata only
+2026-02,AU,0,0,unaudited or absent
+2026-02,Pooled government,815,1,readable
+2026-02,Media pilot,0,0,unaudited or absent
+2026-02,Public pilot,0,0,unaudited or absent
+2026-03,UK,1018,1018,readable
+2026-03,EU,28,0,metadata only
+2026-03,US,52,0,metadata only
+2026-03,AU,0,0,unaudited or absent
+2026-03,Pooled government,1098,1,readable
+2026-03,Media pilot,0,0,unaudited or absent
+2026-03,Public pilot,0,0,unaudited or absent
+2026-04,UK,702,702,readable
+2026-04,EU,20,0,metadata only
+2026-04,US,62,0,metadata only
+2026-04,AU,0,0,unaudited or absent
+2026-04,Pooled government,784,1,readable
+2026-04,Media pilot,0,0,unaudited or absent
+2026-04,Public pilot,0,0,unaudited or absent
+2026-05,UK,277,277,readable
+2026-05,EU,36,0,metadata only
+2026-05,US,58,0,metadata only
+2026-05,AU,0,0,unaudited or absent
+2026-05,Pooled government,371,1,readable
+2026-05,Media pilot,0,0,unaudited or absent
+2026-05,Public pilot,0,0,unaudited or absent
+2026-06,UK,1013,1013,readable
+2026-06,EU,87,0,metadata only
+2026-06,US,54,0,metadata only
+2026-06,AU,0,0,unaudited or absent
+2026-06,Pooled government,1154,1,readable
+2026-06,Media pilot,0,0,unaudited or absent
+2026-06,Public pilot,0,0,unaudited or absent
+2026-07,UK,624,624,readable
+2026-07,EU,87,0,metadata only
+2026-07,US,55,0,metadata only
+2026-07,AU,0,0,unaudited or absent
+2026-07,Pooled government,766,1,readable
+2026-07,Media pilot,0,0,unaudited or absent
+2026-07,Public pilot,0,0,unaudited or absent
+2026-08,UK,9,9,readable
+2026-08,EU,6,0,metadata only
+2026-08,US,51,0,metadata only
+2026-08,AU,0,0,unaudited or absent
+2026-08,Pooled government,66,1,readable
+2026-08,Media pilot,0,0,unaudited or absent
+2026-08,Public pilot,0,0,unaudited or absent
+2026-09,UK,955,955,readable
+2026-09,EU,49,0,metadata only
+2026-09,US,19,0,metadata only
+2026-09,AU,0,0,unaudited or absent
+2026-09,Pooled government,1023,1,readable
+2026-09,Media pilot,0,0,unaudited or absent
+2026-09,Public pilot,0,0,unaudited or absent

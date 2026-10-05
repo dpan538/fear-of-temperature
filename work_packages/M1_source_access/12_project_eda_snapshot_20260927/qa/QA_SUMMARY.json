@@ -1,0 +1,47 @@
+{
+  "figures": {
+    "figure_01": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    },
+    "figure_02": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    },
+    "figure_03": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    },
+    "figure_04": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    },
+    "figure_05": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    },
+    "figure_06": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    },
+    "figure_07": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    },
+    "figure_08": {
+      "pdf_text": "pass",
+      "collisions": "pass",
+      "png_dpi": 320
+    }
+  },
+  "data_invariants": "pass",
+  "source_preflight": "pass with nonblocking journal-template warnings",
+  "visual_review": "all eight PNGs inspected; final figure 05 reinspected after status update"
+}

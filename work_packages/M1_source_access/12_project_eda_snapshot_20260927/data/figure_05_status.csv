@@ -1,0 +1,6 @@
+snapshot,status,objects_or_items
+UK quality snapshot,needs_ocr,14
+UK quality snapshot,unsupported_format,5
+UK quality snapshot,extraction_failed,2
+EU 10:53 UTC checkpoint,ocr_review_candidate,100
+EU 10:53 UTC checkpoint,scan_ocr_pending,29

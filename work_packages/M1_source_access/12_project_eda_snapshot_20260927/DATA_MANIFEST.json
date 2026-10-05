@@ -1,0 +1,94 @@
+{
+  "created_utc": "2026-09-27 15:05:29 UTC",
+  "source_checkpoints": {
+    "UK": "read-only DB and 12:36 UTC corrected source-text ledger",
+    "US": "10:53 UTC pooled checkpoint plus 12:36 UTC committed 125-parent EPA bridge",
+    "EU": "10:53 UTC pooled checkpoint; 15,299 usable text Works",
+    "AU": "10:53 UTC pooled checkpoint",
+    "Paris": "14:16 UTC round-2 table"
+  },
+  "inputs": [
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/pooled_month_role_coverage_2026-09-27.csv",
+      "modified_utc": "2026-09-27 10:53:16 UTC",
+      "bytes": 88233
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/targeted_2015_bridge/updated_monthly_government_presence.csv",
+      "modified_utc": "2026-09-27 12:41:57 UTC",
+      "bytes": 29707
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/targeted_2015_bridge/parent_acceptance.csv",
+      "modified_utc": "2026-09-27 12:41:57 UTC",
+      "bytes": 106968
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/paris_month_role_readiness_49x3_round2.csv",
+      "modified_utc": "2026-09-27 14:16:50 UTC",
+      "bytes": 66047
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/reports/post_acquisition_distribution_coverage/record_text_length_distribution.csv",
+      "modified_utc": "2026-09-22 01:26:01 UTC",
+      "bytes": 3533
+    },
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "modified_utc": "2026-09-22 13:37:31 UTC",
+      "bytes": 3590598656
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/government_pilot_review.csv",
+      "modified_utc": "2026-09-27 13:21:44 UTC",
+      "bytes": 27311
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/media_pilot_review.csv",
+      "modified_utc": "2026-09-27 13:21:44 UTC",
+      "bytes": 4110
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/public_pilot_review.csv",
+      "modified_utc": "2026-09-27 13:21:44 UTC",
+      "bytes": 23894
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/pooled_month_role_snapshot_2026-09-27.md",
+      "modified_utc": "2026-09-27 12:14:03 UTC",
+      "bytes": 7300
+    },
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/text_quality_review/01_format_summary.csv",
+      "modified_utc": "2026-09-21 08:41:28 UTC",
+      "bytes": 1429
+    },
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/text_quality_review/03_segment_length_distribution.csv",
+      "modified_utc": "2026-09-21 08:41:31 UTC",
+      "bytes": 2387
+    },
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/text_quality_review/text_quality_report_for_dai.md",
+      "modified_utc": "2026-09-21 08:41:36 UTC",
+      "bytes": 33477
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_article_metadata.csv",
+      "modified_utc": "2026-09-27 13:53:45 UTC",
+      "bytes": 149855
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/petition_177_id_date_mapping.csv",
+      "modified_utc": "2026-09-27 14:12:34 UTC",
+      "bytes": 37363
+    }
+  ],
+  "boundaries": [
+    "source-specific checkpoints, not a synchronized census",
+    "parent/Work units are not summed across sources",
+    "465 pooled government text months are source presence, not climate relevance",
+    "pilot labels are deliberately enriched diagnostics, not prevalence",
+    "partial September 2026 bin"
+  ]
+}

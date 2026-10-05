@@ -1,0 +1,5 @@
+format,objects,extracted_objects,segments,median_segment_characters
+UK webpage,1020,1020,19116,43
+UK PDF,1375,1362,2745617,38
+UK CSV,22,22,11520,273
+UK other,608,591,77090,114
