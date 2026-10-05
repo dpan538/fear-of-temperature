@@ -1,0 +1,5 @@
+measure,count,unit,status
+official_question_index,3171,all-house written questions in month,verified_month_index
+retrieved_unique_question_records,3171,question URI,verified
+target_Dail_question_records,357,question URI addressed to two named minister portfolios,verified
+target_Dail_records_with_answer_field,357,question URI with nonempty answerText,verified
