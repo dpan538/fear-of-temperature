@@ -1,0 +1,3 @@
+# Fixed body spot-check selection, 2026-09-27 13:54 UTC
+
+After the 396/396 metadata-date audit and before opening any additional article bodies, choose exactly one URL from each original UTC date band: 1–11 December (before agreement), 12–13 December (agreement), and 14–31 December (after agreement). Restrict to archive titles containing `climate`, `Paris`, or `warming` case-insensitively; choose the lowest SHA-256 of `paris-readiness-20260927-v2|article_url` in each band. This deliberately enriched spot check tests body readability and original-date/source boundaries. It gives no full-month topical or fear denominator and is not a random sample.

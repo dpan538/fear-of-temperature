@@ -1,0 +1,35 @@
+{
+  "snapshot_utc": "2026-09-27T13:20:51.746810+00:00",
+  "media": {
+    "archive_days": [
+      [
+        "2015/nov/30",
+        22
+      ],
+      [
+        "2015/dec/13",
+        17
+      ],
+      [
+        "2016/jan/17",
+        7
+      ]
+    ],
+    "article_samples": 4
+  },
+  "public": {
+    "query_pages": 8,
+    "query_hits": 177,
+    "duplicate_ids_across_pages": [
+      "155275",
+      "178721"
+    ],
+    "pilot_subset": 21,
+    "pilot_months": {
+      "2015-11": 4,
+      "2015-12": 14,
+      "2016-01": 3
+    },
+    "query_url": "https://petition.parliament.uk/archived/petitions.json?parliament=1&q=climate"
+  }
+}
