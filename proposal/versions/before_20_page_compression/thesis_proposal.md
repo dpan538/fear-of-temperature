@@ -1,0 +1,409 @@
+---
+title: "Fear of temperature: Computational analysis of policy, media and public climate emotions"
+author: "Dai Pan"
+supervisor: "Mashhuda Glencross"
+date: "16 September 2026"
+lang: en-AU
+bibliography: references.bib
+status: "Project proposal; prepared for supervisor review"
+---
+
+<!-- page: ai -->
+# Use of AI Statement
+
+**Topic exploration:** Yes; AI supported discussion of the topic and candidate approaches.
+
+**Research questions:** Yes; AI assisted formulation and critique of Section 3.1; I selected the research focus.
+
+**Literature review:** Yes; AI assisted searches and selected claim/reference checks for Section 2. Reading depth is recorded separately.
+
+**Formatting and language:** Yes; AI assisted English drafting, translation, editing and document layout.
+
+**Other uses:** Methodological discussion, planning, Figures 1-8 and export code. No empirical research-data analysis is reported here.
+
+I acknowledge the use of generative AI tools in completing this assessment. Details of which tools were used and how they were used are provided in the table below, along with appropriate in-text and full references. I take responsibility for critically evaluating and integrating the AI-generated content, and ensuring it adheres to academic integrity standards.
+
+<!-- table: ai | 0.28,0.72 -->
+**Table A. AI tool use.**
+
+| Tool and recorded use | Main activities |
+|---|---|
+| ChatGPT; 11 and 15 September 2026 | Topic and question development, literature assistance, methodological discussion, writing and language editing. |
+| Gemini; date/version unrecorded | Suggested NLP modules and event/lag analysis; suggestions were assessed and revised by the author. |
+| Codex; 15 September 2026 | Source and feasibility checks, discussion records, drafting, figures, export code and layout inspection. |
+
+Tools: ChatGPT [@openai_chatgpt], Gemini [@google_gemini], Codex [@openai_codex]. Model versions are retained in the working record where available. This declaration concerns proposal preparation; it reports no empirical research-data analysis.
+
+<!-- page: contents -->
+# Contents
+
+<!-- contents -->
+
+## Figures and tables
+
+**Figures:** 1. Research relationships; 2. Competing mechanisms; 3. RQ evidence routes; 4. Source denominators; 5. NLP pipeline; 6. Measurement and timing; 7. Contextual evidence; 8. Calendar and workload.
+
+**Tables:** A. AI use; 1. Literature synthesis; 2. Source register; 3a-b. Measures and annotation; 4. Event plan; 5. Evaluation; 6. Risk assessment; 7. OHS and ethics.
+
+**Reading note.** This proposal describes planned research; it does not report completed experiments. Numerical examples and diagram trajectories explain the design. Access-dependent choices will be resolved through the documented pilot. The provisional submission date is 16 September 2026; the course deadline is 17 September 2026 at 15:00.
+
+<!-- page: introduction -->
+# 1. Introduction
+## 1.1 Motivation and significance
+
+Rising temperature is both a physical process and an object of social anticipation. People may describe immediate danger during a heatwave, worry about the world their children will inherit, or assign responsibility for future disruption. These expressions involve different emotions, time horizons and social relationships. Climate-anxiety research recognises psychological responses to anticipated environmental change as well as direct exposure [@clayton2020]. Studying how such responses are communicated can illuminate the changing social meaning of warming without assuming that every negative statement expresses fear.
+
+Fear of Temperature asks how warming-related fear and anxiety develop across government and policy discourse, news media and public expression. A central problem is temporal ordering: does public concern follow physical events, institutional communication or media attention, and when might it precede them? Earlier work links climate concern to political cues, media and other conditions [@brulle2012]. Research on affective agenda dynamics also demonstrates the relevance of comparing government, media and public expressions [@zhou2023]. Figure 1 frames these as competing relationships to investigate rather than a predetermined chain of influence.
+
+![Figure 1. Three discourse roles. Dashed links are candidate relationships, not causal findings.](assets/figure_01_relationships.svg)
+
+## 1.2 A methodological transition
+
+This computational social science study investigates climate communication through a reproducible corpus, an NLP pipeline and temporal analysis. Earlier dictionary and n-gram exploration develops into natural-language collection, database construction and Transformer representations. We compare computational measurements against explicit baselines and contextual evidence, reducing discretionary passage selection while testing construct validity. The purpose remains the author's investigation of social emotions at scale; the principal scholarly outcome is the thesis.
+
+<!-- page: scope -->
+## 1.3 Scope and historical framing
+
+The core collection will prioritise English-language texts associated with the United States, European settings, Australia and New Zealand. Broad geographical coverage is an objective, while the main comparison concerns source roles and identifiable communities. Chinese-language material, East Asian settings and AOSIS members are extension candidates rather than dependencies of the core study. Publication location, author location and the place discussed in a text will be distinguished. English language alone will not establish geographic or cultural identity.
+
+The target collection begins in January 1988 and extends to a documented cutoff in 2026. The establishment of the IPCC in 1988 motivates an institutional anchor [@ipcc_history]. It does not establish an emotional turning point. Recoverable material from 1938 onwards may form an earlier contextual layer, with Callendar's work providing a scientific-historical reference [@callendar1938]. A claim about change across 1988 requires adequate observations on both sides; the main collection alone cannot demonstrate that transition.
+
+Historical span and analytical coverage are therefore different. Each comparison will use a sufficiently dense common window, with incomplete months, archive gaps and changes of source explicitly recorded. Letters to editors and early forums may extend the record of public expression, but their selection processes differ from contemporary platforms. The intended inference concerns the sampled discourse. Claims about population emotion require additional sampling or validation evidence.
+
+Longer-term anticipated consequences are the substantive priority. Direct heat danger will be collected alongside them and labelled after collection. Emotional category, immediate bodily-threat cues, time horizon and threatened group will be separate, potentially overlapping attributes. Fear can concern the future, and collective anxiety can arise during a present emergency. Cultural heritage may inform discussion, but the project does not presuppose heritage status.
+
+## 1.4 Broad aim and intended contribution
+
+The broad aim is to understand how warming-related social emotions, anticipated futures and responsibility narratives change across policy, news and public discourse, and how their temporal relationships vary with physical and institutional events.
+
+**Technical resource.** A versioned, traceable corpus and reproducible pipeline with documented coverage, denominators, sampling weights and a data dictionary. Code, configurations and random seeds will support reproduction; only permitted material will be released.
+
+**Validated method.** A modular workflow connecting relevance detection, emotion, relations and topics to temporal analysis, evaluated against baselines and across sources and periods. Any algorithmic novelty claim depends on demonstrated improvement, not simply combining existing models.
+
+**Empirical contribution.** A thesis explaining temporal relationships and responsibility narratives through statistical estimates and contextual evidence, with explicit causal limits and potential for publication. Small or uncertain associations remain legitimate findings; success does not require a dominant driver or significant policy effect.
+
+<!-- page: background -->
+# 2. Background and Literature Review
+## 2.1 Climate emotions and anticipated futures
+
+Climate anxiety concerns responses to possible as well as experienced environmental harm. Clayton cautions against assuming that concern is necessarily maladaptive [@clayton2020]. Solastalgia instead describes distress associated with environmental change in a place to which people remain attached [@albrecht2007]. These accounts connect emotion to anticipated futures and lived environments, but neither makes all negative climate language equivalent to anxiety. 
+
+Pihkala's taxonomy distinguishes fear, worry, grief, anger, guilt and hope [@pihkala2022]. For this project, that diversity argues against a single scale running from bodily panic to existential anxiety. Emotional category, target, time horizon and affected group need separate labels. Textual worry does not establish a persistent psychological condition; keyword cues require contextual validation.
+
+O'Neill and Nicholson-Cole examine fear-inducing climate imagery and engagement [@oneill2009]. Their distinction between attracting attention and supporting engagement matters here: a rise in threatening representations need not indicate stronger policy support. The proposed measurements therefore separate issue attention, emotional expression and stance. This gives a more specific account of discourse than a negative-sentiment score, while retaining the limitation that expressions are not direct observations of population mental health.
+
+## 2.2 Agenda-setting and responsibility frames
+
+Agenda-setting addresses relationships between the prominence of issues in media and public agendas [@mccombs1972].  A corpus share, however, measures the prominence of an issue in sampled output; without audience information it does not measure exposure or establish whose agenda changed.
+
+Framing concerns how communication selects a problem, causal interpretation, evaluation and response [@entman1993]. Increased climate coverage can frame warming as economic disruption, physical danger or intergenerational injustice. These are different interpretations even if their overall issue attention is similar. Cause, blame and response duty also differ: an actor may be asked to respond without being blamed for creating the problem. Relations and contextual evidence are therefore needed alongside frequency and emotion measures.
+
+Similar policy and public language may reflect adoption, quotation or opposition; convergence alone does not establish agreement.
+
+<!-- table: literature | 0.25,0.35,0.40 -->
+**Table 1. Literature and design.**
+
+| Evidence strand | What it contributes | Requirement for this study |
+|---|---|---|
+| Climate emotions | Multiple responses to threat | Separate emotion, target and horizon |
+| Agenda and framing | Prominence versus interpretation | Measure attention and narrative content |
+| Climate concern | Elite/media and physical explanations | Compare roles and exposure scales |
+| Contextual NLP | Retrieval and structured text labels | Validate by source and period |
+| Temporal methods | Ordering and event-related changes | State estimands and causal limits |
+
+<!-- page: mechanisms -->
+## 2.3 Evidence from climate concern and role comparisons
+
+Brulle and colleagues construct quarterly U.S. climate-concern measures from 74 surveys during 2002-2010, comparing weather, science information, media and political factors [@brulle2012]. Their findings motivate institutional explanations, but aggregate concern is not specifically future-oriented fear. National quarterly observations may also conceal responses to local, short-lived heat exposure. The proposed text measures add narrative detail and shorter eligible windows; they introduce selection and classification errors that survey-based concern does not share in the same form. They should complement this evidence rather than be assumed more accurate.
+
+Zhou and colleagues compare public, government and media emotional communication on Weibo during COVID-19 [@zhou2023]. This is a close precedent for role-based temporal comparison, but one platform and a pandemic period differ from a historical climate corpus spanning institutions and media systems. The present design retains the role comparison while testing source continuity, emotional targets and independent physical observations. Neither precedent establishes that a fixed direction of influence applies across all periods.
+
+## 2.4 Competing temporal mechanisms and expectations
+
+Institutional signals can supply authoritative risk interpretations [@brulle2012]; media can select and frame issues [@mccombs1972; @entman1993]; public expression may supply news material and pressure for response. Figure 2 makes the competing temporal expectations visible. H3 is a project hypothesis informed by role-comparison research [@zhou2023], not an established climate result.
+
+![Figure 2. Competing temporal mechanisms. Arrows indicate candidate orderings; colours identify roles.](assets/figure_06_mechanisms.svg)
+
+The same ordering can arise from anticipation, shared releases, reposting or changing participants. A coarse monthly bin can hide a faster ordering. Local heat exposure also differs from global climate background. These expectations may coexist across windows; temporal prediction alone cannot identify social feedback or individual emotional contagion.
+
+<!-- page: literature_methods -->
+## 2.5 NLP for emotion, relations and temporal text analysis
+
+Sentence-BERT supports efficient semantic comparison of sentences [@reimers2019]. This can locate relevant expressions beyond exact dictionary phrases, but similarity does not by itself measure emotion, intensity or agreement. A shared encoder will maintain a common representation; validated relevance decisions will determine which texts enter the climate subset. A lexical/TF-IDF baseline remains useful for assessing what contextual representations recover and which relevant expressions they miss.
+
+Aspect-based sentiment analysis links evaluations to their objects [@pontiki2014]. This matters when a negative statement concerns the cost of a policy rather than warming. GoEmotions distinguishes fine-grained emotions in English Reddit comments [@demszky2020]; it includes fear and nervousness, but no dedicated climate-anxiety category. Neither general sentiment nor an unvalidated model label can supply the project's future-worry measure. Cross-period and cross-source validation will assess this transfer before monthly means are interpreted.
+
+PropBank describes predicate-argument roles [@palmer2005], while emotion-cause pair extraction links emotional expressions with reported causes [@xia2019]. These inform complementary parts of the relation layer. A grammatical subject is not automatically culpable: in "government blamed industry", the speaker and blamed actor differ. The project must also distinguish described causes from attributed blame and response duties, retaining the predicate and evidence span rather than reducing every relation to an unqualified triple.
+
+BERTopic combines embeddings, clustering and class-based term representation [@grootendorst2022]. It provides a practical topic-analysis candidate, although the cited account is a preprint and suitability for this corpus remains to be tested. A change in topic prevalence can arise from source composition or vocabulary rather than changing meaning. A shared encoder, fixed-source checks, stable clusters and contextual passages are needed before describing semantic or metaphorical evolution.
+
+The three modules jointly connect response and target (emotion), explanation (relations), and recurring narratives (topics). Their combination serves the substantive questions. Agreement is not independent confirmation when modules inherit the same retrieval or representation error.
+
+## 2.6 Selected research gap
+
+The research gap is a missing connection between role-specific temporal change, the emotion expressed and its attributed cause or responsibility. Attention studies do not by themselves establish whether fear increased, while emotion labels alone do not explain how a threat was framed. This project addresses the gap by joining validated attention, future-oriented emotion and responsibility measures to traceable policy, media and public passages, then comparing their timing within verified common coverage windows. The contribution is an integrated, auditable account of this relationship, not a claim that no previous study combined NLP and climate discourse.
+
+The temporal methods answer bounded questions. Granger analysis concerns added prediction [@shojaie2022]; ITS separates level and slope changes [@lopezbernal2017], while a temporal cutoff alone does not identify a causal effect [@hausman2018]. Cross-lagged interpretations also require distinguishing stable unit differences from within-unit change [@hamaker2015]. These limitations support the existing small-model pathway, rather than additional methods. The scholarly contribution depends on interpretable evidence and validated measurement, not a predetermined direction of influence.
+
+<!-- page: questions_pipeline -->
+# 3. Project Plan
+## 3.1 Research questions
+
+**RQ1 - Who changes first?** Which roles lead, lag or change together in warming-related attention and emotion? CCF and conditional VAR assess timing and held-out predictive gain over an own-history baseline, accounting for trends, seasonality and serial dependence.
+
+**RQ2 - What changes around events?** How do heat, scientific and policy events relate to attention, emotion and framing? Segmented regression/ITS estimates level and slope changes, with window sensitivity and placebo-date checks.
+
+**RQ3 - How is fear explained?** How are causes, blame, duties and threatened futures adopted, contested or reinterpreted across roles? Evidence-linked relations and topics support interpretation; span precision/recall and source/period holdouts test extraction quality.
+
+Future-oriented warming fear or worry in public texts remains the main substantive outcome. The computational tasks make each question testable.
+
+![Figure 3. Research questions and computational evidence. Temporal comparisons use common bins; RQ3 retains passage-level evidence.](assets/figure_07_rq_routes.svg)
+
+S measures attention; E measures emotion within relevant discourse. B = S × E is derived, not independent evidence. Prediction does not establish causation.
+
+## 3.2 Evidence-driven implementation
+
+The common-window pilot tests ingestion, role/date assignment, all three NLP modules and aggregation. Select by source overlap and independent dates. Expansion depends on measured processing and annotation costs.
+
+Freeze outcomes, weights, labels, lag ranges and event windows before final comparisons. Figure 5 shows the shared pipeline; secondary measures support interpretation.
+
+<!-- page: sources -->
+## 3.3 Corpus construction and sampling
+
+Table 2 separates archive history from obtainable coverage. Sources remain candidates until access and a sample extraction are verified.
+
+<!-- table: sources | 0.29,0.18,0.32,0.21 -->
+**Table 2. Sources and coverage.**
+
+| Candidate source | Role / type | Time coverage to establish | Access state |
+|---|---|---|---|
+| EPA, White House; UK/EU/AU/NZ records | Policy / institutional | Target 1988-2026; archive-specific gaps | ◐ Candidate |
+| UNFCCC; IPCC reports | Policy decisions; science | Publication-specific; discontinuous | ◐ Candidate |
+| NYT, Guardian, WSJ, FT; AU/NZ news | Media / articles | Title, edition and year entitlement | ◐ Candidate |
+| Letters, Usenet, preserved forums | Public / historical | Surviving dated records; no continuity assumed | ◐ Candidate |
+| Reddit research route | Public / platform | Rolling 5 years; 6-month delay [@reddit_research] | ◐ Candidate |
+| Facebook, YouTube, Bluesky, Mastodon; forums | Public / platform | API/archive-specific; overlap unverified | ◐ Candidate |
+
+Status: ● access/sample verified; ◐ candidate; ○ unresolved. Record advertised, accessible and acquired dates, gaps and release conditions.
+
+![Figure 4. Attention denominators. Numerator and denominator share an eligible collection; posts and comments remain separate.](assets/figure_08_sampling.svg)
+
+An issue-independent sample estimates attention. Enriched climate retrieval supports emotion/relations; prevalence requires known inclusion weights. Fixed stratum weights describe a stable source mix; size weights target the documented eligible population. Their effects will be checked.
+
+Historical public channels remain separate unless overlap supports comparison. IPCC assessments retain a scientific subtype; climate-specialist collections cannot supply government-wide denominators. Missing bins differ from zero counts. Record IDs, publication/collection dates, parent documents, roles, quoted speakers, location evidence and duplicates to preserve provenance and control repeated-text weight.
+
+<!-- page: measures -->
+## 3.4 Operational definitions and construct validity
+
+The primary outcome is future-oriented warming fear or worry expressed in public texts. Fear, anxiety and worry will be treated as distinguishable, potentially overlapping expressions rather than diagnoses. Fear may concern an anticipated threat; worry often describes thinking about possible consequences. Neither category fixes a time horizon. Immediate heat danger and long-term concern will be collected together and labelled separately.
+
+<!-- table: measures | 0.21,0.41,0.38 -->
+**Table 3a. Constructs and measures.**
+
+| Construct | Operational measure | Interpretation boundary |
+|---|---|---|
+| Attention S | Weighted relevant share of eligible units | Sampled output, not audience exposure |
+| Emotion E | Validated label/share within relevant units | Expression, not clinical severity |
+| Joint share B | Relevant emotional units / eligible units | Derived from S and E |
+| Risk framing | Validated multi-label prototype/classifier scores | Mixed/other frames retained |
+| Responsibility | Evidence-linked cause, blame and duty | Grammatical subject is not culpability |
+| Stance | Position on a stated threat or policy | Policy opposition is not denial |
+
+For source stratum r and time bin t, U denotes the eligible unit set and i indexes its members. The weight w accounts for sampling; R indicates warming relevance and F with superscript future indicates expressed fear/worry targeting anticipated warming impacts. Equations (1)-(3) use identical units, weights and inclusion rules.
+
+<!-- equation: attention -->
+$$S_{rt}=\frac{\sum_{i\in\mathcal{U}_{rt}}w_i R_i}{\sum_{i\in\mathcal{U}_{rt}}w_i}\tag{1}$$
+
+<!-- equation: emotion -->
+$$E_{rt}=\frac{\sum_{i\in\mathcal{U}_{rt}}w_i R_i F_i^{\mathrm{future}}}{\sum_{i\in\mathcal{U}_{rt}}w_i R_i}\tag{2}$$
+
+<!-- equation: joint -->
+$$B_{rt}=\frac{\sum_{i\in\mathcal{U}_{rt}}w_i R_i F_i^{\mathrm{future}}}{\sum_{i\in\mathcal{U}_{rt}}w_i}=S_{rt}E_{rt}\tag{3}$$
+
+S separates discussion volume from E, the emotional composition of relevant discussion. B describes their joint prevalence and will not enter a model as independent evidence alongside both S and E. An empty denominator produces a missing value. Scores require calibration or an explicitly score-based interpretation; a classifier probability is not a validated measure of psychological intensity.
+
+Weights and aggregation rules remain fixed within a comparison. Media article shares and policy paragraph shares can support within-series changes and temporal comparisons, but their levels are not identical quantities. Differences between such shares will not be interpreted as a direct ranking of which role is more fearful.
+
+<!-- page: labels -->
+## 3.4 Operational definitions (continued)
+
+Each annotated passage will retain its emotional target, temporal horizon, publisher/source role, quoted speaker, emotion-holder, and assertion/quotation scope. A newspaper can report a scientist describing residents' fear: these are three distinct positions. An institution's risk statement will not automatically count as an institutional emotion. Multiple or unknown holders remain explicit. Quoted public emotion stays attached to its institutional or media source; it is not silently transferred into the public-source series.
+
+Negation and modality will be attached to the expression or relation they modify. A reassurance such as "should not panic" does not establish that panic occurred. A conditional future statement can express present worry about a possible event, so hypothetical wording is not a reason to discard the whole passage. Counterfactual and explicitly denied emotions require separate handling. Uncertain cases remain available for review and will not be forced into the positive class.
+
+<!-- table: labels | 0.39,0.29,0.32 -->
+**Table 3b. Annotation boundaries (synthetic examples).**
+
+| Synthetic passage | Emotion / target / horizon | Speaker, holder and scope |
+|---|---|---|
+| I worry about my children's future. | Worry; target unspecified; future | Self-expression; climate context needed |
+| I fear warming will harm my children. | Fear; warming impacts; future | Self-expression; anticipated harm |
+| The government said people should not panic. | Reassurance; no observed fear established | Government reported; negated advice |
+| Scientists warn heatwaves are deadly. | Risk statement; heat; unspecified time | Reported warning; no fear required |
+| If warming worsens, I fear our town will become unsafe. | Fear; warming impacts; future | Present fear; conditional consequence |
+| I am not afraid of warming; I oppose this tax. | Fear denied; policy opposition | Negation of fear; distinct stance |
+
+Time horizon and threatened group will be coded independently: immediate/near-term versus longer/intergenerational futures, and self/family/community where expressed. Ambiguous phrases will retain an unspecified category. The guide will record evidence spans and counterexamples for each label; development and held-out checks will be separated. This is a text annotation convention to be validated, not a new clinical taxonomy.
+
+Semantic relevance will use several natural-language prototypes and development-set thresholds. Frame directions are not assumed orthogonal; the absolute projection onto one vector can assign the same magnitude to opposite directions and is not sufficient validation. Continuous alternatives face the same construct checks as classification. The fear/anxiety ratio and stance-distribution bimodality remain secondary: unstable denominators and classification mixtures can distort either, and bimodality alone does not demonstrate population polarisation.
+
+These distinctions connect RQ3 back to the temporal results. A public-emotion rise will be examined alongside evidence about what was feared, who was described as affected, and whether the text assigned a cause, blame or duty. An unexpressed attribution will remain missing, rather than being inferred from a nearby event date.
+
+
+<!-- page: extraction -->
+## 3.5 Representation and three NLP components
+
+We evaluate a modular NLP pipeline: relevance detection feeds three required components for relations, emotion and temporal topics. A shared sentence encoder produces versioned embeddings linked to context. We compare lexical/TF-IDF retrieval with Sentence-BERT using precision, recall, F1 and missed cases [@reimers2019], then freeze the encoder within comparisons. We report throughput (documents/hour), peak memory, runtime and annotation cost. Selection also depends on licence and local compatibility; MPS acceleration remains conditional. Shared representation does not imply joint multi-task training.
+
+![Figure 5. NLP pipeline. Context and provenance accompany all three components; validation precedes interpretation.](assets/figure_02_pipeline.svg)
+
+**Event and relation extraction.** Named entities and parsing support event candidates, followed by an evaluated semantic role labelling (SRL) or contextual relation model. Outputs distinguish event, speaker, described cause, blamed actor, response duty and affected group [@palmer2005; @xia2019]. Evidence spans, negation, modality and quotation remain attached. Events used as external analytical dates are verified independently of narrative extraction.
+
+**Aspect-specific sentiment and emotion.** A suitable GoEmotions-derived candidate will be compared with interpretable cues [@demszky2020]. The aspect is the object being evaluated; the emotion layer distinguishes fear and project-defined future worry. Nervousness will not simply be renamed climate anxiety. The same procedure will check risks reported by institutions and emotions expressed by identifiable holders.
+
+**Temporal topics and semantics.** BERTopic will use a shared embedding space and inspected representations [@grootendorst2022]. Topic prevalence, frame distributions and representative passages will be compared by role and time, with resampling stability and outlier coverage checks. Matched-source context is required before interpreting a shift as changing meaning. The three components remain the agreed method set; validation determines their usable distinctions.
+
+
+<!-- page: temporal -->
+## 3.6 Temporal alignment and analysis
+
+Comparisons require common coverage and frequency: monthly where supported, daily/weekly for dense heat pilots, or common quarters for sparse institutions. Recompute ratios from aggregated counts; never repeat quarterly values into artificial months. Regional GISTEMP anomalies describe climate background; station/ERA5 measures address local exposure [@gistemp; @era5]. Record location evidence, baselines and versions; publication location is not exposure.
+
+**RQ1: ordering and conditional prediction.** Cross-correlation (CCF) explores candidate lags after addressing trends, seasonality and serial dependence. In Equation (4), X and Y are processed series; positive k means X precedes Y. Compare role attention, or policy/media attention with public emotion.
+
+<!-- equation: ccf -->
+$$C_{XY}(k)=\operatorname{Corr}\,\left(X_t,\,Y_{t+k}\right)\tag{4}$$
+
+A small vector autoregression (VAR), where observations and diagnostics permit, will test whether other roles add predictive information beyond the outcome's own history [@shojaie2022]. Report direction, lag range, uncertainty and held-out predictive gain. The largest CCF peak alone will not choose the lag order. Separate role-specific S from public E; B is secondary. Freeze lag limits, outcomes and processing before final comparisons.
+
+**RQ2: event-associated change.** Segmented regression/interrupted time series (ITS) estimates a level change and a post-event slope change [@lopezbernal2017]. Equation (5) uses outcome Y and time t centred on event onset. D switches from 0 to 1 at onset; β₂ is the level change and β₃ the slope change. Disturbance u requires serial-dependence diagnostics and appropriate uncertainty treatment.
+
+<!-- equation: its -->
+$$Y_t=\beta_0+\beta_1t+\beta_2D_t+\beta_3(tD_t)+u_t\tag{5}$$
+
+![Figure 6. Temporal analysis. All curves are schematic, not observed results.](assets/figure_04_temporal.svg)
+
+<!-- page: events -->
+## 3.6 Event selection and narrative interpretation (continued)
+
+Select events from independent records before inspecting outcome peaks. Require a verified date, common coverage and an auditable denominator; pilot one eligible event. Distinguish announcement, adoption, implementation and scientific release dates.
+
+<!-- table: events | 0.26,0.20,0.27,0.27 -->
+**Table 4. Candidate events.**
+
+| Candidate / type | External date | Window / outcome | Comparison and limit |
+|---|---|---|---|
+| Kyoto adoption / policy | 11 Dec 1997 | Initially ±6 months; S/E level and slope | Historical overlap unverified |
+| Paris adoption / policy | 12 Dec 2015 | Initially ±6 months; S/E level and slope | Anticipation; concurrent coverage |
+| Heat episode / physical | ○ Independent onset, peak and end | Dense local window; danger and future worry | Matched exposure; seasonality |
+| IPCC release / scientific | ○ Report-specific release date | Common coverage; S/E and frames | Shared shock; media spillover |
+
+The adoption dates follow UNFCCC records [@unfccc_kyoto; @unfccc_paris]. Six-month windows are initial specifications, not guaranteed adequate time series. Longer baselines are needed where trend, seasonality or serial dependence cannot be assessed within them. Inferential windows and aggregation will be fixed before final tests, using coverage and seasonal-baseline adequacy rather than outcome peaks.
+
+Comparison series require comparable pre-event measurement and defensibly different exposure. Another outlet/topic is not automatically a control. Register concurrent shocks and anticipation; inseparable events form a joint window. Placebo dates and alternative windows test sensitivity, not causal identification [@hausman2018].
+
+**RQ3: narrative explanation.** Relations and topics locate causes, blame, duties and threatened futures. Check quotation and stance before interpreting adoption, contestation or reinterpretation. Narrative attribution differs from estimated event effects; retain representative and contradictory passages.
+
+
+![Figure 7. Evidence-linked annotation. Synthetic text illustrates labels and attribution; timing does not establish causation.](assets/figure_03_evidence.svg)
+
+<!-- page: evaluation -->
+## 3.7 Evaluation and validity
+
+A development batch of approximately 150 passages, balanced across roles, will expose label ambiguities and estimate annotation cost. It is not a powered final test. We size a separate stratified test set using class prevalence, annotation cost and desired precision. Enriched samples for rare labels will document their sampling implications.
+
+The author will prepare an annotation guide and seek an independent second reader for a subset. Agreement will be reported only where independent ratings exist. If a second reader is unavailable, a separated repeat assessment and documented disagreements will be reported as limited single-author validation, without claiming inter-rater reliability. Development and test sets will be separated by document/duplicate cluster; source and period holdouts will probe transfer.
+
+<!-- table: evaluation | 0.16,0.18,0.24,0.19,0.23 -->
+**Table 5. Computational evaluation plan.**
+
+| Task | Baseline / reference | Candidate / comparison | Metric / output | Validation setting |
+|---|---|---|---|---|
+| Relevance | Lexical / TF-IDF | Sentence-BERT retrieval | Precision, recall, F1 | Source/period holdout; background misses |
+| Emotion | Interpretable cues | GoEmotions-derived candidate | Macro/per-label F1; calibration | Annotated targets/holders; source/period transfer |
+| Relations | Predicate/entity rules | SRL + contextual relations | Span and relation P/R | Annotated evidence; source/period transfer |
+| Topics | Matched-source reference | BERTopic configurations | Stability, coverage; coherence review | Resampled texts; contextual passages |
+| RQ1 | Own-history model | Conditional VAR + roles | Held-out MSE gain; lag uncertainty | Common window; chronological holdout |
+| RQ2 | Pre-event trend | Segmented regression / ITS | Level/slope; uncertainty | Event windows; placebo dates |
+| RQ3 | Annotation guide | Relations + topic evidence | Agreement; traceable spans | Quotation/stance checks; counterexamples |
+
+Comparisons use identical eligible test texts and documented configurations. P/R denotes precision/recall; MSE is mean squared error. Corpus audits verify dates, roles, duplicate clusters and usable coverage. Topic and RQ3 interpretations require contextual evidence.
+
+F1 below 0.70 or two-rater kappa below 0.65 may trigger review during development; these are provisional warning levels, not universal adequacy standards. Passing them alone will not validate the aggregate measures. Classification error will also be tested for its impact on temporal estimates through resampling or plausible error perturbations. Time-block and source/author/duplicate dependence will inform uncertainty estimation.
+
+The primary analysis plan will freeze outcomes, thresholds, weighting and lag ranges before final comparisons. Alternative windows and models will be identified as sensitivity or exploratory analyses. Non-significance will not be interpreted as proof of no physical influence or exclusive policy control [@wasserstein2016].
+
+<!-- page: risks -->
+## 3.8 Project risks and scope adjustment
+
+Database construction is the main delivery risk: delays consume validation and analysis time. Table 6 links observable triggers to specific fallbacks. Ratings indicate management priority, not estimated probabilities; Section 3.10 covers ethics and OHS.
+
+### 3.8.1 Risk assessment
+
+<!-- table: risks | 0.20,0.23,0.12,0.45 -->
+**Table 6. Risks, triggers and fallbacks.**
+
+| Risk | Trigger / consequence | Rating | Concrete fallback |
+|---|---|---|---|
+| R1. Database overrun | Core freeze missed: analysis time shrinks. | High | At 18 December, stop optional ingestion; freeze validated batches and reduce source/window breadth. |
+| R2. Access or release | Access denied, delayed or incompatible with reuse. | High | If Reddit is unavailable at the pilot gate, assess a permitted Mastodon community; restrict comparison to its verified common window. |
+| R3. Sparse coverage | Low effective counts or insufficient common bins. | High | Use common non-overlapping quarters; otherwise shorten the window. Sparse historical texts remain contextual evidence. |
+| R4. NLP validity | Source/period audit misses prespecified quality targets. | High | Refine labels and revalidate; narrow unreliable distinctions. Report unsupported constructs qualitatively rather than substitute unvalidated scores. |
+| R5. Temporal validity | Diagnostics fail or events overlap; estimates unstable. | High | Reduce lag/model complexity or retain descriptive CCF/event profiles with uncertainty. Null results do not establish another driver. |
+| R6. Composition drift | Source mix or encoder changes produce a break. | High | Recompute on a fixed-source subset and frozen encoder; separate incompatible periods rather than splice trends. |
+| R7. Compute / review | Pilot throughput or reviewer availability misses budget. | Medium | Cache batches, cap comparisons and use CPU inference; reduce validation sample breadth and disclose any single-reader limitation. |
+| R8. Disruption / loss | Illness, corruption or failed restore threatens delivery. | Medium | Restore tested, versioned backups; prioritise core analyses with the supervisor and use protected contingency. |
+
+### 3.8.2 Review points and scope adjustment
+
+Mastodon is a candidate fallback, not a guaranteed archive: instance permissions, dated coverage and an all-topic denominator must be verified [@mastodon_timelines]. Permitted letters or forum archives may support earlier public strata. These sources will not be spliced into a continuous population series. If no public source qualifies, narrow the three-role comparison to a supported window; document any RQ left unanswered.
+
+Review gates are 16 October (pilot), 18 December (core corpus), 15 January (validation) and 28 February 2027 (all analyses). A missed gate or sustained workload above 10-20 hours/week triggers scope review. Protect the three roles, three NLP components and validation. Counts below 100 flag review; effective counts, uncertainty and usable time points determine aggregation.
+
+<!-- page: timetable -->
+## 3.9 Milestones, resources and time allocation
+
+At 10-20 hours/week, the provisional budget is 450-590 hours plus 15% contingency. All analysis and robustness checks must finish by 28 February 2027. The 320-400 hours allocated before March require about 14-17 hours/week before contingency; sustained lower capacity will trigger early scope reduction.
+
+![Figure 8. Work programme and effort. Solid/outlined bars show lower/upper estimates; hatching denotes optional work. Hours are planned.](assets/figure_05_schedule.svg)
+
+Resource dependencies are permitted archives, storage/local compute, annotation time and supervisory feedback. The pilot is due by 16 October; core data and denominator checks freeze on 18 December. Measurement validation freezes on 15 January, followed by all temporal, event, topic and attribution analyses by 28 February. Release requires a permissions review and reproduction instructions.
+
+Assessment anchors: seminar, 12-16 October; Thesis Plan, 1-19 March 2027; rehearsal, 10-14 May; final pitch/poster/demonstration/Q&A, 7-11 June [@reit7842]. March-June centres on writing and feedback using completed analyses.
+
+Missed freezes trigger narrower comparisons while preserving three roles, three modules and the February target.
+
+<!-- page: ethics -->
+## 3.10 OHS, ethics and data governance
+
+This computer-based documentary study involves no planned fieldwork or participant recruitment. Workstation, data-handling and ethics requirements will be reviewed with the supervisor before relevant work.
+
+<!-- table: ethics | 0.25,0.43,0.32 -->
+**Table 7. OHS and data controls.**
+
+| Issue | Preventive control | Review / residual issue |
+|---|---|---|
+| Posture and repetitive work | Ergonomic setup, breaks and task rotation | Adjust if discomfort develops. |
+| Workload / distressing text | Bounded sessions and annotation batches; university support | Monitor fatigue and distress. |
+| Personal data / quotations | Minimise identifiers; restrict raw access; assess quotation reidentification | Public access is not blanket consent. |
+| Group representation | Use observable source roles; retain uncertainty | Do not infer sensitive identities or population prevalence. |
+| Services / release | Review licences, transfer, retention and deletion; favour local processing | Features and embeddings may remain restricted. |
+
+**Supervisory review.** Before accessing human-authored datasets, Dai Pan will obtain Mashhuda Glencross's documented review of permissions, identifiability, storage and release. This project gate is separate from formal clearance. UQ students cannot be Chief Investigator (CI); the supervisor will submit as CI where appropriate [@uq_myresearch].
+
+**UQ determination.** Seek advice from Research Ethics and Integrity (humanethics@research.uq.edu.au) on research involving people or their data, and document the outcome. Public availability does not establish exemption; intended publication cannot rely on the teaching-only exception. Apply through MyResearch for lower-risk or Human Research Ethics Committee (HREC) review, or register an eligible exemption. Relevant work begins only after clearance or exemption conditions are established [@uq_ethics; @uq_ethics_application]. No approval is claimed here.
+
+**Later human evaluation.** If human A/B evaluation is proposed, the supervisor will first review the protocol, recruitment, consent, tasks and data plan. Whether reviewers become research participants will be checked with Research Ethics and Integrity. Any required new approval or amendment must precede recruitment and data collection; a supervisor's quality check is not institutional approval [@uq_ethics_application].
+
+Restricted originals remain separate from permitted derivatives. Storage, external inference and release require source-specific checks of permissions, retention and deletion conditions.
+
+## 3.11 Outputs, interpretation and research record
+
+The database will record source-time keys, permitted IDs/URLs, weights, missingness, climate metadata, model versions, features and uncertainty. Permitted CSV/Parquet exports and code will include a data dictionary and versioned configuration; restricted data will have access descriptions.
+
+The thesis will connect temporal findings to validated passages, including contradictory evidence and limits of population inference. A decision log, source register and progress notes will support supervisory discussion. Reproducible evidence will underpin subsequent publication or algorithmic claims.
+
+<!-- page: references -->
+# References
+
+<!-- bibliography -->

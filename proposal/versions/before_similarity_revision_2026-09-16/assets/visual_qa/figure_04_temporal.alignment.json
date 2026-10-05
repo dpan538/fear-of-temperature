@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 1,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 453.54,
+      "height_pt": 248.0
+    },
+    "panels": [
+      {
+        "id": "p0",
+        "bbox_pt": [
+          10.0,
+          57.0,
+          216.0,
+          139.0
+        ]
+      },
+      {
+        "id": "p1",
+        "bbox_pt": [
+          251.00000000000003,
+          57.0,
+          446.0,
+          139.0
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "comparison",
+        "panels": [
+          "p0",
+          "p1"
+        ]
+      }
+    ],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "p0",
+          "p1"
+        ],
+        "checks": [
+          "panel-width"
+        ],
+        "reason": "Schematic timing and event alternatives use intentionally different plot widths."
+      }
+    ]
+  },
+  "findings": []
+}

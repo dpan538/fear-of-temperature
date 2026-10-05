@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "applicable": true,
+  "auditable": true,
+  "verdict": "PASS",
+  "backend": "python-matplotlib",
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "comparisons": 1,
+    "exemptions": 1
+  },
+  "tolerances": {
+    "alignment_pt": 1.5,
+    "gutter_pt": 1.5
+  },
+  "layout": {
+    "schema_version": 1,
+    "backend": "python-matplotlib",
+    "figure": {
+      "width_pt": 453.5400000024,
+      "height_pt": 246.0000000024
+    },
+    "panels": [
+      {
+        "id": "a",
+        "bbox_pt": [
+          101.5929600005376,
+          54.120000000527995,
+          330.6306600017496,
+          199.26000000194398
+        ]
+      },
+      {
+        "id": "b",
+        "bbox_pt": [
+          370.5421800019608,
+          54.120000000527995,
+          443.1085800023448,
+          199.26000000194398
+        ]
+      }
+    ],
+    "row_groups": [
+      {
+        "id": "shared-task-rows",
+        "panels": [
+          "a",
+          "b"
+        ]
+      }
+    ],
+    "column_groups": [],
+    "boundary_groups": [],
+    "exemptions": [
+      {
+        "panels": [
+          "a",
+          "b"
+        ],
+        "checks": [
+          "panel-width"
+        ],
+        "reason": "Calendar hero panel requires ten month bins; workload is a subordinate common-row comparison."
+      }
+    ]
+  },
+  "findings": []
+}

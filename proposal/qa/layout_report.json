@@ -1,0 +1,1724 @@
+[
+  {
+    "page": "ai",
+    "physical_page": 2,
+    "used": 456.0,
+    "available": 720.89,
+    "remaining": 264.89,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 23,
+        "cumulative": 36
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 13.8,
+        "cumulative": 57.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 93.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 129.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 164.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 200.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 263.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 284.7
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 111.9,
+        "cumulative": 406.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 456.0
+      }
+    ]
+  },
+  {
+    "page": "contents",
+    "physical_page": 3,
+    "used": 705.4,
+    "available": 720.89,
+    "remaining": 15.49,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 23,
+        "cumulative": 36
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 18.2,
+        "cumulative": 54.2
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 69.6
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 85.0
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 100.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 115.8
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 18.2,
+        "cumulative": 134.0
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 149.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 164.8
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 180.2
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 195.6
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 211.0
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 226.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 18.2,
+        "cumulative": 244.6
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 260.0
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 275.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 290.8
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 306.2
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 321.6
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 337.0
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 352.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 367.8
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 383.2
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 398.6
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 414.0
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 429.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 444.8
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 460.2
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 475.6
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 491.0
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 506.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 15.4,
+        "cumulative": 521.8
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 18.2,
+        "cumulative": 540.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 571.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 620.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 669.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 705.4
+      }
+    ]
+  },
+  {
+    "page": "introduction",
+    "physical_page": 4,
+    "used": 698.7,
+    "available": 720.89,
+    "remaining": 22.19,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 23,
+        "cumulative": 36
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 67
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 96.6,
+        "cumulative": 171.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 110.4,
+        "cumulative": 290.0
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 230.0,
+        "cumulative": 520.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 541.3
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 572.3
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 635.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 698.7
+      }
+    ]
+  },
+  {
+    "page": "scope",
+    "physical_page": 5,
+    "used": 671.0,
+    "available": 720.89,
+    "remaining": 49.89,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 96.6,
+        "cumulative": 128.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 96.6,
+        "cumulative": 233.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 324.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 401.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 432.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 481.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 544.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 607.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 671.0
+      }
+    ]
+  },
+  {
+    "page": "background",
+    "physical_page": 6,
+    "used": 705.4,
+    "available": 720.89,
+    "remaining": 15.49,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 23,
+        "cumulative": 36
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 67
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 157.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 234.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 311.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 342.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 406.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 96.6,
+        "cumulative": 510.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 546.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 567.5
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 127.9,
+        "cumulative": 705.4
+      }
+    ]
+  },
+  {
+    "page": "mechanisms",
+    "physical_page": 7,
+    "used": 705.5,
+    "available": 720.89,
+    "remaining": 15.39,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 110.4,
+        "cumulative": 142.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 233.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 264.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 299.8
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 258.0,
+        "cumulative": 557.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 579.1
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 642.3
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 705.5
+      }
+    ]
+  },
+  {
+    "page": "literature_methods",
+    "physical_page": 8,
+    "used": 713.6,
+    "available": 720.89,
+    "remaining": 7.29,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 63.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 126.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 189.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 220.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 311.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 402.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 479.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 528.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 559.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 650.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 713.6
+      }
+    ]
+  },
+  {
+    "page": "questions_pipeline",
+    "physical_page": 9,
+    "used": 687.8,
+    "available": 720.89,
+    "remaining": 33.09,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 23,
+        "cumulative": 36
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 67
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 130.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 193.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 256.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 292.2
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 247.0,
+        "cumulative": 539.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 22.6,
+        "cumulative": 571.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 602.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 652.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 687.8
+      }
+    ]
+  },
+  {
+    "page": "sources",
+    "physical_page": 10,
+    "used": 704.6,
+    "available": 720.89,
+    "remaining": 16.29,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 59.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 80.9
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 249.9,
+        "cumulative": 340.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 390.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 453.4
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 183.0,
+        "cumulative": 636.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 22.6,
+        "cumulative": 669.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 704.6
+      }
+    ]
+  },
+  {
+    "page": "harmonisation",
+    "physical_page": 11,
+    "used": 661.6,
+    "available": 720.89,
+    "remaining": 59.29,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 87.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 108.5
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 235.1,
+        "cumulative": 353.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 430.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 507.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 584.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 661.6
+      }
+    ]
+  },
+  {
+    "page": "measures",
+    "physical_page": 12,
+    "used": 708.8,
+    "available": 720.89,
+    "remaining": 12.09,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 55
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 90.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 111.9
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 150.7,
+        "cumulative": 272.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 322.0
+      },
+      {
+        "type": "Equation",
+        "width": 453.54,
+        "height": 49,
+        "cumulative": 382.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 431.4
+      },
+      {
+        "type": "Equation",
+        "width": 453.54,
+        "height": 49,
+        "cumulative": 491.4
+      },
+      {
+        "type": "Equation",
+        "width": 453.54,
+        "height": 49,
+        "cumulative": 551.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 614.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 645.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 708.8
+      }
+    ]
+  },
+  {
+    "page": "labels",
+    "physical_page": 13,
+    "used": 707.9,
+    "available": 720.89,
+    "remaining": 12.99,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 63.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 112.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 175.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 211.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 232.7
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 181.5,
+        "cumulative": 424.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 13.8,
+        "cumulative": 446.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 481.6
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 205.0,
+        "cumulative": 686.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 707.9
+      }
+    ]
+  },
+  {
+    "page": "extraction",
+    "physical_page": 14,
+    "used": 711.4,
+    "available": 720.89,
+    "remaining": 9.49,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 101.0
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 263.0,
+        "cumulative": 364.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 22.6,
+        "cumulative": 396.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 487.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 550.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 586.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 617.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 648.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 711.4
+      }
+    ]
+  },
+  {
+    "page": "temporal",
+    "physical_page": 15,
+    "used": 639.3,
+    "available": 720.89,
+    "remaining": 81.59,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 35.6
+      },
+      {
+        "type": "Equation",
+        "width": 453.54,
+        "height": 35,
+        "cumulative": 81.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 117.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 180.4
+      },
+      {
+        "type": "Equation",
+        "width": 453.54,
+        "height": 35,
+        "cumulative": 226.4
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 248.0,
+        "cumulative": 474.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 495.7
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 526.7
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 576.1
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 639.3
+      }
+    ]
+  },
+  {
+    "page": "events",
+    "physical_page": 16,
+    "used": 658.8,
+    "available": 720.89,
+    "remaining": 62.09,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 77.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 154.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 231.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 262.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 297.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 318.9
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 154.1,
+        "cumulative": 483.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 560.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 609.4
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 658.8
+      }
+    ]
+  },
+  {
+    "page": "topology",
+    "physical_page": 17,
+    "used": 706.5,
+    "available": 720.89,
+    "remaining": 14.39,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 59.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 122.8
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 228.0,
+        "cumulative": 350.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 372.1
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 393.4
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 204.3,
+        "cumulative": 607.7
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 657.1
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 706.5
+      }
+    ]
+  },
+  {
+    "page": "evaluation",
+    "physical_page": 18,
+    "used": 674.1,
+    "available": 720.89,
+    "remaining": 46.79,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 101.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 191.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 213.1
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 261.4,
+        "cumulative": 484.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 561.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 624.7
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 674.1
+      }
+    ]
+  },
+  {
+    "page": "risks",
+    "physical_page": 19,
+    "used": 712.8,
+    "available": 720.89,
+    "remaining": 8.09,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 87.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 108.5
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 517.3,
+        "cumulative": 635.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 712.8
+      }
+    ]
+  },
+  {
+    "page": "timetable",
+    "physical_page": 20,
+    "used": 677.8,
+    "available": 720.89,
+    "remaining": 43.09,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 87.2
+      },
+      {
+        "type": "VectorFigure",
+        "width": 453.54,
+        "height": 396.0,
+        "cumulative": 483.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 22.6,
+        "cumulative": 515.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 592.8
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 41.4,
+        "cumulative": 642.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 27.6,
+        "cumulative": 677.8
+      }
+    ]
+  },
+  {
+    "page": "ethics",
+    "physical_page": 21,
+    "used": 661.0,
+    "available": 720.89,
+    "remaining": 59.89,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 24
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 55.2,
+        "cumulative": 87.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 11.3,
+        "cumulative": 108.5
+      },
+      {
+        "type": "Table",
+        "width": 453.54,
+        "height": 162.1,
+        "cumulative": 280.6
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 96.6,
+        "cumulative": 385.2
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 82.8,
+        "cumulative": 476.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 553.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 16,
+        "cumulative": 584.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 69.0,
+        "cumulative": 661.0
+      }
+    ]
+  },
+  {
+    "page": "references",
+    "physical_page": 22,
+    "used": 633.0,
+    "available": 720.89,
+    "remaining": 87.89,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 23,
+        "cumulative": 36
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 77.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 119.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 160.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 189.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 218.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 247.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 289.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 318.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 347.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 376.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 405.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 434.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 475.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 504.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 546.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 575.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 604.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 633.0
+      }
+    ]
+  },
+  {
+    "page": "references_2",
+    "physical_page": 23,
+    "used": 645.5,
+    "available": 720.89,
+    "remaining": 75.39,
+    "flowables": [
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 23,
+        "cumulative": 36
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 77.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 106.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 135.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 164.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 193.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 222.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 62.5,
+        "cumulative": 289.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 318.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 347.0
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 37.5,
+        "cumulative": 388.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 417.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 446.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 475.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 504.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 533.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 562.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 25.0,
+        "cumulative": 591.5
+      },
+      {
+        "type": "Paragraph",
+        "width": 453.54,
+        "height": 50.0,
+        "cumulative": 645.5
+      }
+    ]
+  }
+]

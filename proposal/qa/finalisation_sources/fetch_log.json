@@ -1,0 +1,135 @@
+[
+  {
+    "key": "clayton2020",
+    "url": "https://api.crossref.org/works/10.1016/j.janxdis.2020.102263",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "key": "brulle2012",
+    "url": "https://api.crossref.org/works/10.1007/s10584-012-0403-y",
+    "ok": true
+  },
+  {
+    "key": "zhou2023",
+    "url": "https://api.crossref.org/works/10.1057/s41599-023-02265-x",
+    "ok": true
+  },
+  {
+    "key": "callendar1938",
+    "url": "https://api.crossref.org/works/10.1002/qj.49706427503",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "key": "albrecht2007",
+    "url": "https://api.crossref.org/works/10.1080/10398560701701288",
+    "ok": true
+  },
+  {
+    "key": "pihkala2022",
+    "url": "https://api.crossref.org/works/10.3389/fclim.2021.738154",
+    "ok": true
+  },
+  {
+    "key": "oneill2009",
+    "url": "https://api.crossref.org/works/10.1177/1075547008329201",
+    "ok": true
+  },
+  {
+    "key": "mccombs1972",
+    "url": "https://api.crossref.org/works/10.1086/267990",
+    "ok": true
+  },
+  {
+    "key": "entman1993",
+    "url": "https://api.crossref.org/works/10.1111/j.1460-2466.1993.tb01304.x",
+    "ok": true
+  },
+  {
+    "key": "reimers2019",
+    "url": "https://api.crossref.org/works/10.18653/v1/D19-1410",
+    "ok": false,
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "key": "pontiki2014",
+    "url": "https://api.crossref.org/works/10.3115/v1/S14-2004",
+    "ok": true
+  },
+  {
+    "key": "demszky2020",
+    "url": "https://api.crossref.org/works/10.18653/v1/2020.acl-main.372",
+    "ok": true
+  },
+  {
+    "key": "palmer2005",
+    "url": "https://api.crossref.org/works/10.1162/0891201053630264",
+    "ok": true
+  },
+  {
+    "key": "xia2019",
+    "url": "https://api.crossref.org/works/10.18653/v1/P19-1096",
+    "ok": true
+  },
+  {
+    "key": "shojaie2022",
+    "url": "https://api.crossref.org/works/10.1146/annurev-statistics-040120-010930",
+    "ok": true
+  },
+  {
+    "key": "lopezbernal2017",
+    "url": "https://api.crossref.org/works/10.1093/ije/dyw098",
+    "ok": true
+  },
+  {
+    "key": "hausman2018",
+    "url": "https://api.crossref.org/works/10.1146/annurev-resource-121517-033306",
+    "ok": true
+  },
+  {
+    "key": "hamaker2015",
+    "url": "https://api.crossref.org/works/10.1037/a0038889",
+    "ok": true
+  },
+  {
+    "key": "wasserstein2016",
+    "url": "https://api.crossref.org/works/10.1080/00031305.2016.1154108",
+    "ok": true
+  },
+  {
+    "key": "uq_ethics",
+    "url": "https://policies.uq.edu.au/document/view-current.php?id=346",
+    "ok": true
+  },
+  {
+    "key": "uq_applications",
+    "url": "https://research-support.uq.edu.au/resources-and-support/ethics-integrity-and-compliance/human-ethics/ethics-application",
+    "ok": true
+  },
+  {
+    "key": "apa_dois",
+    "url": "https://apastyle.apa.org/style-grammar-guidelines/references/dois-urls",
+    "ok": true
+  },
+  {
+    "key": "reimers2019_acl",
+    "url": "https://aclanthology.org/D19-1410.bib",
+    "ok": true
+  },
+  {
+    "key": "pontiki2014_acl",
+    "url": "https://aclanthology.org/S14-2004.bib",
+    "ok": true
+  },
+  {
+    "key": "demszky2020_acl",
+    "url": "https://aclanthology.org/2020.acl-main.372.bib",
+    "ok": true
+  },
+  {
+    "key": "xia2019_acl",
+    "url": "https://aclanthology.org/P19-1096.bib",
+    "ok": true
+  }
+]

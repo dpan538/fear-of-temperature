@@ -1,0 +1,19 @@
+{
+  "pages": 21,
+  "bounds_or_encoding_issues": [],
+  "citation_keys_match": true,
+  "citation_count": 31,
+  "figures": [
+    "Figure 1",
+    "Figure 2",
+    "Figure 3",
+    "Figure 4",
+    "Figure 5"
+  ],
+  "equation_count": 5,
+  "ai_statement_pages": [
+    2
+  ],
+  "no_abstract_page": true,
+  "time_requirement": true
+}

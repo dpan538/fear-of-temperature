@@ -1,0 +1,14 @@
+{
+  "page_count": 21,
+  "method_net_words_removed": 406,
+  "figures": 8,
+  "tables": 9,
+  "references": 31,
+  "all_final_checks": true,
+  "images_loaded": true,
+  "no_broken_anchors": true,
+  "no_horizontal_page_overflow": true,
+  "minimum_html_footer_gap": 32.484375,
+  "uq_entries": 1,
+  "pdf_sha256": "71d429a4ce203762878ebd5cec17b987ff88c3b3ea4780752c7ca776f3d7c85a"
+}

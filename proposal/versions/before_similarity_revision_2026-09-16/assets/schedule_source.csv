@@ -1,0 +1,7 @@
+code,label,start,end,hours_low,hours_high,gate,color,status
+M1,Source access,2026-09-16,2026-09-30,20,30,G1,#8068A6,provisional
+M2,Corpus + pipeline,2026-09-21,2026-12-18,100,130,,#3C8C88,provisional
+M3,NLP validation,2026-10-05,2027-01-15,100,130,G2,#3C8C88,provisional
+M4,Temporal analysis,2026-11-16,2027-02-28,100,110,G3,#477DAB,provisional
+M5,Thesis / feedback,2027-03-01,2027-05-14,90,130,,#8068A6,provisional
+M6,Revision / release,2027-05-17,2027-06-11,40,60,G4,#8068A6,provisional
