@@ -1,0 +1,12 @@
+source_id,source_label,genre,parent_count,exact_day_parents,interval_parents,locally_derived_additional_parents,state_annotation_parents,month_assignable_parents
+src_3c349b00120866c263a3,UK ParlParse mirror,ministerial_written_answer,8405,8405,0,0,0,8405
+src_3c349b00120866c263a3,UK ParlParse mirror,ministerial_written_statement,43,43,0,0,0,43
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,135973,135849,124,284,0,135922
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_statement,393,393,0,0,0,393
+src_90b3a872375c9e7fd267,UK Questions API,ministerial_written_answer,65012,65012,0,0,0,65012
+src_90b3a872375c9e7fd267,UK Questions API,ministerial_written_statement,976,976,0,0,0,976
+src_9e8f487d372ed011db82,UK Hansard archive,ministerial_written_answer,35123,35123,0,0,0,35123
+src_9e8f487d372ed011db82,UK Hansard archive,ministerial_written_statement,1339,1339,0,0,0,1339
+src_ac30b1ae596ab5ab5379,UK DEFRA papers,guidance,1,1,0,0,1,1
+src_ac30b1ae596ab5ab5379,UK DEFRA papers,policy_paper,1019,1019,0,0,1019,1019
+src_eaf57ccafde8ffd97f7e,UK historic policy,policy_paper,35,35,0,0,34,35

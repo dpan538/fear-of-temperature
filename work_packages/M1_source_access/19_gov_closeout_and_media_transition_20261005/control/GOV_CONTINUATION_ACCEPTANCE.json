@@ -1,0 +1,28 @@
+{
+  "reviewed_at_utc": "2026-10-04T19:37:01.306014+00:00",
+  "status": "passed_released_one_combined_continuation",
+  "transport_sha256": "73e5bd472a98c690971638c88237ab73d30761143f587eab9e68090dfae4f47c",
+  "release_sha256": "56acd7de09d6116cc332ca82637158dcfc8e6f53a0dca74a1cac9e9c5e1442b9",
+  "input_manifest_sha256": "fc2f9f9b9d72e863911e78fe6140fa539c9182e20630adfb9630aedbc0ebb418",
+  "evidence_and_request_receipt_files_checked": 70,
+  "changed_raw_rehashed_by_coordinator": false,
+  "changed_raw_owner_verified_count": 20,
+  "fixture_tests_passed": 16,
+  "network_requests": 0,
+  "formal_database_writes": 0,
+  "targeted_readonly_run_record_queries": 1,
+  "fresh_budget": {
+    "free_bytes": 20606500864,
+    "raw_bytes": 9020646,
+    "partial_bytes": 0,
+    "reserve_bytes": 3379313690,
+    "remaining_shared_raw_bytes": 2138463002
+  },
+  "root_cause_status": "candidate inference; one live validation pending",
+  "old_A_stop_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+  "old_B_stop_sha256": "cce5f183e656d5b24e52e426b34b6a7f1c58d06be60350bf9d3d2173b3cde011",
+  "authorized_phases": [
+    "B_CORRECTED",
+    "AU_ORIGINALS"
+  ]
+}

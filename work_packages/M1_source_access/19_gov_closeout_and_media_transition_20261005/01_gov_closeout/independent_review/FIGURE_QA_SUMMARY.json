@@ -1,0 +1,23 @@
+{
+  "status": "passed_with_reviewed_source_preflight_warnings",
+  "all_figures_visually_inspected": true,
+  "minimum_pdf_text_pt": 6,
+  "collision_failures": 0,
+  "collision_warnings": 0,
+  "synthetic_evaluator_tests_passed": 18,
+  "figure_count": 4,
+  "PNG_dpi": 320,
+  "vector_formats": [
+    "PDF",
+    "SVG"
+  ],
+  "single_axes_alignment_receipts": "passed; colourbar excluded; multi-panel geometry not applicable",
+  "preflight_warning_dispositions": [
+    "PNG 320 dpi and editable PDF/SVG satisfy the internal diagnostic contract; no TIFF/journal-submission claim.",
+    "Actual figure widths are180/183 mm; static preflight misinterprets millimetre-to-inch arithmetic.",
+    "Random jitter changes horizontal display positions only; every ordinate is a real saved Item codepoint count; no simulated observation.",
+    "Log1p operates on nonnegative native counts, with unknowns masked; all47 Item lengths are strictly positive.",
+    "Initial clipped hatch-path collision flags were resolved by rendering declared-query zero cells in solid amber, preserving all observations. Final rendered geometry has no collision flags."
+  ],
+  "pdf_dependency": "PyMuPDF1.28.2 isolated temporary QA dependency; project environment unchanged"
+}

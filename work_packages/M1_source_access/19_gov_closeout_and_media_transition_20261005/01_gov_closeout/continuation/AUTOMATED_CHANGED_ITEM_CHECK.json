@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-04T19:45:31.564982+00:00",
+  "new_Items": 27,
+  "new_raw_bytes_rechecked": 13210928,
+  "all_new_raw_hashes_match": true,
+  "old_20_text_or_PDF_rereads_in_this_check": 0,
+  "raw_modified": false,
+  "pdf_parse_status_counts": {
+    "parsed": 27
+  },
+  "pdf_pages": 257,
+  "empty_text_pages": 0,
+  "printed_date_comparison_counts": {
+    "agrees_with_saved_Work_day": 23,
+    "unresolved_or_multiple_printed_dates": 3,
+    "conflict": 1
+  },
+  "new_unique_raw_sha256": 27,
+  "new_sha256_matches_old_Item_count": 2,
+  "multiple_selected_manifestation_Item_count": 4,
+  "multi_OJ_notice_first_pages": 3,
+  "visual_first_page_check": "pending",
+  "complete_Work_acceptance": "not established",
+  "certified_parent_length_rows": 0,
+  "production_extraction_started": false,
+  "network_requests": 0,
+  "database_queries": 0,
+  "database_writes": 0,
+  "corpus_wide_reads": false
+}

@@ -1,0 +1,49 @@
+{
+  "status": "optional single bounded export proposal; not executed; not a media progression gate",
+  "reason": "parent length by type and department crosswalk absent from saved aggregate inputs; Item lengths cannot substitute",
+  "publication_interval": [
+    "2015-01-01",
+    "2015-12-31"
+  ],
+  "fixed_study_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "frames": [
+    "UK effective source/genre parents",
+    "US frozen EPA/DOE rules",
+    "EU frozen COM Work frame",
+    "AU verified original subset only"
+  ],
+  "columns": [
+    "source_id",
+    "jurisdiction",
+    "native_parent_id",
+    "effective_publication_date_or_interval",
+    "date_basis",
+    "date_precision",
+    "genre",
+    "verified_issuer_id",
+    "department_mapping_evidence_or_unknown",
+    "mirror_or_shared_utterance_group",
+    "selected_content_version_id",
+    "version_time",
+    "retrieval_time",
+    "raw_sha256",
+    "readability_status",
+    "complete_Work_or_component_state",
+    "stored_full_parent_text_char_count",
+    "stored_full_parent_word_count",
+    "length_definition",
+    "count_eligibility",
+    "evidence_locator"
+  ],
+  "rules": [
+    "one source×date export under shared heavy-I/O lock from accepted stored views",
+    "no full-corpus text scan, embeddings or fresh raw OCR; unavailable counts stay unknown",
+    "reply/Work/source-container/component/version/segment remain distinct",
+    "mirror sensitivity retained; department not guessed from platform",
+    "no official write required; independent reviewer chooses any further analysis"
+  ],
+  "export_executed": false
+}

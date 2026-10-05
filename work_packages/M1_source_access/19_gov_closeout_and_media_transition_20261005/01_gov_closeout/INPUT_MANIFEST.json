@@ -1,0 +1,680 @@
+{
+  "frozen_at_utc": "2026-10-04T19:31:23.143820+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "partial_month": "2026-09",
+  "input_status": "usable source-specific frozen input; no synchronized pooled independent-parent total",
+  "source_snapshots_not_synchronous": true,
+  "evidence_files": [
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/stage_frozen_items.py",
+      "bytes": 30628,
+      "sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+      "purpose": "acceptedV3 preserved"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv",
+      "bytes": 1560606,
+      "sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+      "purpose": "frozen979targets, no changes"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/selected_work_item_relationships.csv",
+      "bytes": 4027325,
+      "sha256": "288c6127f8bb870ee4b3ba7497afd1e3859b550bb38abceded6e44126918b0a1",
+      "purpose": "WEMI relation and selected component accounting"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/ACQUISITION_CONTRACT.json",
+      "bytes": 1764,
+      "sha256": "0dc0cfcbac91936ef5f6a7888adecbeeb4466b8752acec9969ee19bca4d6bbec",
+      "purpose": "original caps/source frame"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+      "bytes": 4739,
+      "sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+      "purpose": "final five original requests"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/REPAIR_READY.json",
+      "bytes": 3960,
+      "sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+      "purpose": "old committed repair release, not modified"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/control/EU_STAGING_RELEASE.json",
+      "bytes": 1938,
+      "sha256": "58adca9fc2aaf574f0dfad7e52ccf694717bbcc239f5f3db45e9bb7de27f359d",
+      "purpose": "old signed B release, not modified"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/EXECUTION_RESULT.json",
+      "bytes": 8923,
+      "sha256": "3bb1e284fa5d93c43ec6d7a601ea56599f08f5717834d0e666c3dfd72e278da6",
+      "purpose": "original stopped run, known downloads_started reporting defect retained"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/RESULT.json",
+      "bytes": 5337,
+      "sha256": "3533981edaeaa924d342a870225fee528d1625924fcfa0abda0301fec02510b8",
+      "purpose": "derived actual run result"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/PHASE_HTTP_STATE.json",
+      "bytes": 243,
+      "sha256": "cce5f183e656d5b24e52e426b34b6a7f1c58d06be60350bf9d3d2173b3cde011",
+      "purpose": "old406persistent stop"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/STAGING_INGESTION_HANDOFF.csv",
+      "bytes": 55041,
+      "sha256": "7f48f50894187a8d9068d446b22f9db85e62a92f94008bdedffea92b74b894ad",
+      "purpose": "20raw provenance/checkpoint inputs"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/B_STATUS_LEDGER.csv",
+      "bytes": 605308,
+      "sha256": "ba807f96d70b5390b62b5bab14c3d0e101a6943dadebb7a0d05b048491846ae9",
+      "purpose": "full979status ledger"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/B_REMAINING_TARGETS.csv",
+      "bytes": 1693910,
+      "sha256": "f6af54071c3c3fa9d33df1da731284c760b3fc4ac12dae42994b96276e1e72d9",
+      "purpose": "959remaining"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/B_NO_LINK_WORKS.csv",
+      "bytes": 25548,
+      "sha256": "c3de25f14808fbb810bcf372e51118e0906dfbd9f18ceb6f55e193dd0a55adf9",
+      "purpose": "30no-link within1009Workpopulation"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/SHARED_HTTP_STATE.json",
+      "bytes": 242,
+      "sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+      "purpose": "oldHansard403persistent stop"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_DISPOSITIONS.csv",
+      "bytes": 3907,
+      "sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+      "purpose": "A5dispositions"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_ACCOUNTING.json",
+      "bytes": 2396,
+      "sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f",
+      "purpose": "prior A raw0 terminal accounting"
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_attachment_candidates.csv",
+      "bytes": 151526,
+      "sha256": "049b0d3dd1ada0c4207027aded7df7ffc456b117e6a04c112a136a92c7c633bb",
+      "purpose": "previous link candidates, not fetched originals"
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_candidate_outcomes.csv",
+      "bytes": 495599,
+      "sha256": "4fcdfd020ce07e17a81321266a326a88c270b862757bb87ae242c57f20f4ebd5",
+      "purpose": "prior catalogue/source-date outcomes"
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/RESULT.json",
+      "bytes": 5486,
+      "sha256": "7db878f92afbca8d8283c7f19a98459cb57dac54c8e7c4af9a45b6d7f3c9a9ea",
+      "purpose": "prior non-synchronous source checkpoint facts only"
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/monthly_source_genre_counts.csv",
+      "bytes": 1597360,
+      "sha256": "80bb61149aef158d4a1e4e180d029d78d11c939f5715d6e81604a84c7479f7ab",
+      "purpose": "saved old monthly source data only; no evaluator code"
+    },
+    {
+      "path": "work_packages/M1_source_access/16_post_repair_analysis_20261004/CHECKED_STATE.json",
+      "bytes": 1456,
+      "sha256": "30075f1d07dfc55843663c4a55e6fc036e6744df4de75e53c16f42596cad19bd",
+      "purpose": "accepted UK effective checkpoint"
+    },
+    {
+      "path": "work_packages/M1_source_access/16_post_repair_analysis_20261004/uk_effective_month_source_genre.csv",
+      "bytes": 71380,
+      "sha256": "ec12f7fbcb65dd51b1edf3e1547ace5bda5ba8748e74c9ac1e6ae4897da64c97",
+      "purpose": "UK latest effective aggregates"
+    },
+    {
+      "path": "work_packages/M1_source_access/16_post_repair_analysis_20261004/uk_effective_source_genre.csv",
+      "bytes": 1139,
+      "sha256": "31251ee17b907218c55196fcac50f6a5aa50154a4a71ea8170291c04caa6a5c1",
+      "purpose": "UK current11source/genre totals"
+    },
+    {
+      "path": "work_packages/M1_source_access/08_cross_region_government_coverage/reports/source_register.csv",
+      "bytes": 7611,
+      "sha256": "df83301c355152dd63a31043847e0de2e32822e733d45aa614848808ca9f2b17",
+      "purpose": "historical route frame register, annotations supersede stale EU entrance row"
+    },
+    {
+      "path": "work_packages/M1_source_access/08_cross_region_government_coverage/ie_written_question_month_index.csv",
+      "bytes": 81526,
+      "sha256": "9b51039abc6c7cc6976588645af527f9c5e5ee257b828af8b6518c8afb7b6bf9",
+      "purpose": "IE171question index receipts"
+    },
+    {
+      "path": "work_packages/M1_source_access/08_cross_region_government_coverage/nz_parliament_climate_answered_2025_month_index.csv",
+      "bytes": 8756,
+      "sha256": "30f34a43b1ee5b6057c4597872e39ef571759d4319549d7817f91a10ddf77170",
+      "purpose": "NZ12UIquestion index receipts"
+    },
+    {
+      "path": "docs/research/2026-09-26-ie-eu-nz-source-sufficiency-review.md",
+      "bytes": 13649,
+      "sha256": "4aae052e35374ec0d92b824ae956a68c968552a17a00763586231146e193dda3",
+      "purpose": "saved bounded source/answer-unit evidence"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/EU_PRIOR_MONTHLY_STATUS.csv",
+      "bytes": 43434,
+      "sha256": "477368e5ef5db2244c4544adf86b21882ee8a830dd8330340abac1e63a36f0ed",
+      "purpose": "frozen reviewer input; native units and old availability caveats in frame register"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/IE_WRITTEN_QUESTION_MONTH_INDEX.csv",
+      "bytes": 81526,
+      "sha256": "9b51039abc6c7cc6976588645af527f9c5e5ee257b828af8b6518c8afb7b6bf9",
+      "purpose": "frozen reviewer input; native units and old availability caveats in frame register"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/NZ_2025_PORTFOLIO_QUESTION_MONTH_INDEX.csv",
+      "bytes": 8756,
+      "sha256": "30f34a43b1ee5b6057c4597872e39ef571759d4319549d7817f91a10ddf77170",
+      "purpose": "frozen reviewer input; native units and old availability caveats in frame register"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/UK_EFFECTIVE_MONTH_SOURCE_GENRE.csv",
+      "bytes": 71380,
+      "sha256": "ec12f7fbcb65dd51b1edf3e1547ace5bda5ba8748e74c9ac1e6ae4897da64c97",
+      "purpose": "frozen reviewer input; native units and old availability caveats in frame register"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/UK_EFFECTIVE_SOURCE_GENRE.csv",
+      "bytes": 1139,
+      "sha256": "31251ee17b907218c55196fcac50f6a5aa50154a4a71ea8170291c04caa6a5c1",
+      "purpose": "frozen reviewer input; native units and old availability caveats in frame register"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/US_EU_AU_SAVED_MONTH_SOURCE_GENRE.csv",
+      "bytes": 560836,
+      "sha256": "a7b41acfe00cbf637d59214d617fcbb889a10075ed1c4b6bffcc80cf2af30e46",
+      "purpose": "frozen reviewer input; native units and old availability caveats in frame register"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_TEXT_SHAPE.csv",
+      "bytes": 42905,
+      "sha256": "07465d8eb232703aeeca7c80982d335f689e2a9e8a3aeaf4819c795471cf1847",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_IDENTITY_DATE.csv",
+      "bytes": 10708,
+      "sha256": "e987e665b1aa6ed8bf3230188d1ae89e769414275f6a300bafdbb8ab31229d2d",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/PDF_PAGE_SHAPE.csv",
+      "bytes": 22246,
+      "sha256": "a21923392109c919d8c69c003a304353710c1f23d75a0335737b64118c0e74e5",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_CHECK.json",
+      "bytes": 1084,
+      "sha256": "7fde5679d6c798a6db438b24309a63e2aa51a55c43b51caa96d021594573b9ec",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/AU_ORIGINAL_CHECK_PLAN.csv",
+      "bytes": 2596,
+      "sha256": "32d49cb6ef5a25b4360a201fe8d58cbd04e93e54bc9f36b2f9bd92607bd772a8",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/GOV_FRAME_REGISTER.csv",
+      "bytes": 31232,
+      "sha256": "adfdb46bfb3e30ee63ecbcccb9288c5c32d2bbf995b5f7037a26d62faef5add8",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CURRENT_GAPS.csv",
+      "bytes": 9531,
+      "sha256": "a76a179fed80d7682f13bbe31f755b7e319605b85e5fcdc89ad50108c41ea362",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/BOUNDED_PARENT_EXPORT_REQUEST.json",
+      "bytes": 1594,
+      "sha256": "23e9ebb9dbc6e228899ac37c28db9eea1a3deff5d9f67a0a5b9877c6c0cbf011",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/transport_continuation.py",
+      "bytes": 21144,
+      "sha256": "73e5bd472a98c690971638c88237ab73d30761143f587eab9e68090dfae4f47c",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/test_transport_continuation.py",
+      "bytes": 10392,
+      "sha256": "8f1b3c622c6fa08386dc682ca0aec36f4faf5b4b4a92adb1b31d1ccc2b8102c0",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/TRANSPORT_TESTS.log",
+      "bytes": 1983,
+      "sha256": "9b76d3247658bafc1f92defbe8040cde604653e03321defd75ed30ea0a99e192",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/TRANSPORT_DIAGNOSIS_zh.md",
+      "bytes": 4258,
+      "sha256": "b64590a7970939faaea2362f27da35f7a234c0f7d98502f2c73780fb5b4787a9",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/evidence/FIRST_PAGE_IDENTITY.json",
+      "bytes": 35458,
+      "sha256": "79b03b758ecc61e405eb54a807e94024cd18c364dfe6c53e86aff712c9b429c1",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/evidence/FIRST_PAGES_01.png",
+      "bytes": 695923,
+      "sha256": "ef6346f4ecc1e2907bd79dc1692015b6959f6ffe8c3c2c013d4b0b4f80b7401a",
+      "purpose": "this window derived evidence / offline tested candidate"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/evidence/FIRST_PAGES_02.png",
+      "bytes": 509583,
+      "sha256": "69fa0c1d77499fce50009b67902d95616bbb45c50ba056a6b4438774e6439882",
+      "purpose": "this window derived evidence / offline tested candidate"
+    }
+  ],
+  "staging_request_sidecars": [
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/1441efa551c25d9c8cd0db2316e72ee1546f9206a7648263429adc144c031504.json",
+      "bytes": 1713,
+      "sha256": "bbbaa26ae585446fb18ff186edcde2d58eda42e4f415370283da3b28c9eb148f"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/39aea6e341a2efd3a560d8e37f850955021490622b408a4e10289b5b7325fdb9.json",
+      "bytes": 1715,
+      "sha256": "1c63765aed3e7a6acf99a72fcd90c773f4d72f1cd4999a28f71cd14b98edfb8d"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/439921a82fe41aede9a712bb8f8673cfcb3b5d3242a91cbb20e2b0cd8f6c6239.json",
+      "bytes": 1715,
+      "sha256": "04d42a34512a19ce3950a2cb2fdb07c17717ae369d1c641278124fbed2ac0dec"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/b795c38fc6ea3d400439c89d60262ee660aa6fef2e16439240dcf9f58934455a.json",
+      "bytes": 1716,
+      "sha256": "da3418cf71d511ba37dc5081fd443b3ecdfe29f2e4b4d0d5a4370259ce7bbbb9"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/2e2de5acdc3bb9f62d7d26053e1ea7d5c303ea13740fcd3c055161b8a602f1f2.json",
+      "bytes": 1715,
+      "sha256": "a83b8d539975322827447d9354d83967431a0462d579fbb8424cbc3fd6c99716"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/a5c1ea5cbea704343768163a3296562031fed7d32d1b2904502380053925dcaf.json",
+      "bytes": 1716,
+      "sha256": "d9d9c8fad59d9426f14b7cb87708fa0c0e2f0b4bf8ed5bd6112cfcd2a1c70446"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/de070ff2b34b6f4c256b759199fd6b533c45a3c00aa3309f8340033ed8531fed.json",
+      "bytes": 1715,
+      "sha256": "232a5e795741fe3a7c486f174043030e7c7d356ebe44179ed7f5964f661dab6b"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/58b4f7af404f370a17663e6ac24fc55f7cc044416ce55bb08612d7dd60d979d0.json",
+      "bytes": 1715,
+      "sha256": "d50240f58436711d592967287206d43721f7254a7a87fb46b2c8b26297fb4973"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/cdc189de085065c6257ed2ef0c3bcfdc3e650b92454bb4971c5e6a6417372d22.json",
+      "bytes": 1713,
+      "sha256": "0b4ad82fb52ca81589da0cf3eb917516ba06fccd6a627d4e2dc21c7a405e1f1b"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/2243ec51bcd94f169486ef95345cf5d0a8c006f670c1cb580e81b844db0b8018.json",
+      "bytes": 1715,
+      "sha256": "54542c8879e8858ab99c7572ecb1934d3b0070bcda2610b5efd4f03448159df2"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/6e79b3cc4bdb22ed6a80c90de32feacc282084cd00170f022680f99a0afa7774.json",
+      "bytes": 1715,
+      "sha256": "e50bbdb46e7adc70ea5806b7a3686f1a34da3bb97222da00aa4f8586e823f34a"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/e0ba5406a5142ac3f67e7c0ecf3d557b9cd3d9382ec0246f866fbfd3447f5002.json",
+      "bytes": 1715,
+      "sha256": "888dc977d20df8d03bb4021f7d81f0941c122d560a7865fc1a4ec27aca1a20ba"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/712c6cca8c40a838db8b040134c7424a608f934fd4bca36e443e1e7e0b2f3c9f.json",
+      "bytes": 1713,
+      "sha256": "3e6214eeb2fbff1327c1dbb3a4a108d8e1fe12eda3521e6cec08b67414b74d5e"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/d32312eefcde3b039d5d10d694d38cd2ea4385d64592a2dbe1faa3a16ea2c8a2.json",
+      "bytes": 1715,
+      "sha256": "2a80715612c3f8e03a920486e4e014fb7ccdceeee80f99f6583b375821fee985"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/819ef4dc1d4004201d1e47ce755f183b38774702dfdb3b4d908b1f078f53abb1.json",
+      "bytes": 1713,
+      "sha256": "a048ac030a1a9b125546517019349c8c6c891e054cbc2dceb53d38d90c33d7a0"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/5d575c5683782e97d815349b8efe173a50050fb650f30d961e2441d6e960bafa.json",
+      "bytes": 1716,
+      "sha256": "371e5b5d0de7b34be5d7063c934446ac3f8aec41338cc090d493d7e7f73b987c"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/2ba4d386b1bb938017e5a6ad5d528fffc2de4d4692f475ac558a5157cf18ffd0.json",
+      "bytes": 1715,
+      "sha256": "ad37ad56badf644e9659a6baa3d4c00ebb5e87e8ce92ac5afd7bbcd4b73ae2d4"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/de607d0394033e5818e1c14b29e0b94e9219fd6994ce5d7595b5db1b51ef28cc.json",
+      "bytes": 1713,
+      "sha256": "0483a49a45aada349254d38e782435958108f85cc05f4dd3f14776bf3723ac82"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/89c97eb0005fd81958d9037fbf27621d544c0707adeb2ceeb47c92160dca4292.json",
+      "bytes": 1714,
+      "sha256": "fd3671559e70c7e9730b4c4743f852fcaf0d4d4a4bb6176a13349af6c8730cf6"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/40aafa3bfef19a985e044d2ab17496d4751b79ba0b23242278a939bb5e695555.json",
+      "bytes": 1714,
+      "sha256": "7d42ef7a35d5bf9999ff58a69a5e299ecbc233e3aa9240c8981cca7e8cb2efea"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/857251ccc1e5593056fbf490ff87c569d31eb81d8b68aa151af03c8a544ecc4f.json",
+      "bytes": 1442,
+      "sha256": "6eaff21a3569f61b7956b3ede49af7147dba9ca1aaf92be7d17f63cac09b0880"
+    }
+  ],
+  "changed_raw_files": [
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/a8/a8ef37bbf51a1cafe9ece170dfd77c293efb4db06125522af7d6f82615a0c183.bin",
+      "bytes": 49855,
+      "sha256": "b1a1d0424814186e52da85ec2f67e121dc73795ce70786b9ec45b87690aa888a",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/cd/cd507358d7744520b177452809c8bec6094ccb36e15b4d30f915083208ffd4da.bin",
+      "bytes": 343323,
+      "sha256": "6ecd905c79b345a279c01431f678fb73f3a0dbcff3edb1caf158db77f3822c3e",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/6e/6ed1441069e1f7179339c0feab21c9ad24790e11e1d34a8d1725ff6bec7f2afc.bin",
+      "bytes": 355346,
+      "sha256": "e74f8bdb5509d505d89a753832f48e84ea562435ea32d4ed02575d5d0eab0f85",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/31/313245abc6af7cb190da018363e5116e6ecb0a82a16efa7cf697c22d72d5563a.bin",
+      "bytes": 1182690,
+      "sha256": "8141d855d907168375b59f3c326191d009cf88268aaab31fe4b1c2c624d5ddf1",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/14/14991c30e329b00041ec6d5ff769879faa7a9c4656bf516d076c8cc165390195.bin",
+      "bytes": 477389,
+      "sha256": "ebe808980ac92be1b4fe6b6d884254cfa316eaf1a03749af0e497c7205a30c7a",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/15/154be44e2057d2a622ed35f3c829b102f5f9afe56cc50ffee71e21cf494a7950.bin",
+      "bytes": 1867876,
+      "sha256": "f899c65c89a7ce53e719c6225b9d9bcec9d6f2ee8dfff614055df49b21e2aa28",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/93/93d5c2063fd2bb8cfa605ed03f564a41d91fcf6d79dea1be94914e01cc10e7f5.bin",
+      "bytes": 355046,
+      "sha256": "2352d4ce6d15fe9db1c0a99499ca3eb53424570d936cb55b72e405d1877e5085",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/30/3010990d99711373c5b704b72ba9e1ed6fe102e120dc4abb92e3bfe46851c078.bin",
+      "bytes": 495252,
+      "sha256": "6cd24f952df909de4a2fbf9b1cdfbfb5968322a5e746886b35599f0a153ef70b",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/2b/2be0c32c0932d952cb4e0e79240b6a46d4d004860282fa26da64920470d34e6f.bin",
+      "bytes": 50402,
+      "sha256": "e3acaef22b0ea5bed931b38333c76c2aa78ee0b95bfb4b4e8e1db4c3d89ad667",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/c3/c35827bebc7876365843fe5ae1660de2270b67347d6097f3f81d303916b0558f.bin",
+      "bytes": 266406,
+      "sha256": "1c32f6d273ef8544b20af4832daa1757146af026fe294425e92de029cdabf5b1",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/1d/1daac02b9fa75ab697f96bef1fef5dc0a537285c6f7f3388c10e971bec162e7e.bin",
+      "bytes": 354444,
+      "sha256": "b5765777efd9d8ebe7b4acea103e49e3feb27b3028152b8cd2ed369884df5200",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/a2/a2860d7bb17c3a3ded50ce444b02e07a88256f8347c1eca6b5bd60ea2a245023.bin",
+      "bytes": 404137,
+      "sha256": "340dd93b111555b33455352a4c1506dfbe8c825a160ce2a9f30edf2a710a3ab4",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/9e/9efbfaa9ee33418cfc68234e0bf48a10534108973cd580e3d70754683530aa26.bin",
+      "bytes": 48167,
+      "sha256": "001bd3ba27f5d434de338bbc48eff4ae308b3b00b9d08ed68accd9b64d9231dd",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/d6/d61cdb094fd456631071543990aeb3e70a586453b198d13e8f71b6329af5f7f1.bin",
+      "bytes": 337031,
+      "sha256": "780aaf1a932680b06bf776e6d3dba59b91865d7a187aaf89dd71c2568fec0834",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/28/28f6febf7c506adf6f24fbeece4c5e41f261cfdeeddbfa69d5fc465a967f648f.bin",
+      "bytes": 64011,
+      "sha256": "5bb40c1c014277afbed0cf428fed30dbdccf6e02f08c8c7feb181b00ef35234b",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/9f/9ff6d43f1132cdac4921124bd3a37be490bd90af99258d7410a3f6863ccf1330.bin",
+      "bytes": 1480361,
+      "sha256": "c9fdddd740c4cc5db1dbd9031ab258d52de0ff71897fcf69a731bd5ccc8abd9b",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/63/63a0113e1cc6ff04f00603f4c0c6749109128b74a11035a52007d54fb099a3ea.bin",
+      "bytes": 392640,
+      "sha256": "9b8f1c72e8f3515453dd2de08ba509f88c2ec98111679458a1d742db259cdd79",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/7c/7c0884445efc380156c96aa0f13ce013722d3971bb4fa1d3e1dfe6e84fda7e76.bin",
+      "bytes": 50680,
+      "sha256": "2d80be67710eba75391a7aa6564b45e8950f33dfccf977b7582046b83e076ee7",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/e4/e42177a5fcde78c117751d697f9e6b4e387c9dd1de72401b2ac9a676fcd85691.bin",
+      "bytes": 187858,
+      "sha256": "5fe635350b7c8075041f177bb69833b1da15e1424160bf02bc43ef582b792132",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/82/828f234998f736934f0fc745ed73f7851e8f3731fcceff5b8751a346188d00b2.bin",
+      "bytes": 257732,
+      "sha256": "59952e7df1308ccc16bcd2d003d399ab4b98dd4d5637256ae853136d24a14aaa",
+      "verified_once_at_utc": "2026-10-04T19:08:12.803089+00:00",
+      "unit": "saved selected Item version"
+    }
+  ],
+  "database_checkpoints": [
+    {
+      "source": "UK",
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "prior_snapshot": {
+        "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+        "file_mtime_utc": "2026-09-22T13:37:31.704839+00:00",
+        "size_bytes": 3590598656,
+        "retrieval_range": {
+          "first_retrieval": "2026-09-21 14:08:38+08:00",
+          "last_retrieval": "2026-09-22 21:01:49+08:00"
+        }
+      },
+      "current_file_stat_only": {
+        "bytes": 3590598656,
+        "mtime_ns": 1791108746288675852
+      },
+      "sha256": "not computed; no whole-database hash/read",
+      "current_database_queried": false
+    },
+    {
+      "source": "US_AU",
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb",
+      "prior_snapshot": {
+        "path": "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb",
+        "file_mtime_utc": "2026-09-27T12:36:23.210504+00:00",
+        "size_bytes": 6682587136,
+        "retrieval_range": {
+          "first_retrieval": "2026-09-21 14:08:38+08:00",
+          "last_retrieval": "2026-09-27 20:31:31.618256+08:00"
+        }
+      },
+      "current_file_stat_only": {
+        "bytes": 6682587136,
+        "mtime_ns": 1790512583210504381
+      },
+      "sha256": "not computed; no whole-database hash/read",
+      "current_database_queried": false
+    },
+    {
+      "source": "EU",
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb",
+      "prior_snapshot": {
+        "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb",
+        "file_mtime_utc": "2026-09-27T15:31:29.765522+00:00",
+        "size_bytes": 2567188480,
+        "retrieval_range": {
+          "first_retrieval": "2026-09-26T14:28:22.549862+00:00",
+          "last_retrieval": "2026-09-27T15:31:23.954179+00:00"
+        }
+      },
+      "current_file_stat_only": {
+        "bytes": 2567188480,
+        "mtime_ns": 1790523089765522288
+      },
+      "sha256": "not computed; no whole-database hash/read",
+      "current_database_queried": false
+    },
+    {
+      "source": "AU_original",
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/au_browser_stage.duckdb",
+      "prior_snapshot": {
+        "path": "work_packages/M1_source_access/09_us_au_government_acquisition/au_browser_stage.duckdb",
+        "file_mtime_utc": "2026-09-26T17:12:20.944330+00:00",
+        "size_bytes": 9711616,
+        "retrieval_range": {
+          "first_retrieval": "2026-09-26T14:21:54.536040+00:00",
+          "last_retrieval": "2026-09-26T17:11:42.319813+00:00"
+        }
+      },
+      "current_file_stat_only": {
+        "bytes": 9711616,
+        "mtime_ns": 1790442740944330560
+      },
+      "sha256": "not computed; no whole-database hash/read",
+      "current_database_queried": false
+    }
+  ],
+  "current_UK_effective_checkpoint": {
+    "checked_at_utc": "2026-10-04T14:21:27.701426+00:00",
+    "fixed_publication_interval": [
+      "1988-01-01",
+      "2026-09-21"
+    ],
+    "database_checkpoint_matches_release": true,
+    "checkpoint_before": {
+      "bytes": 3590598656,
+      "mtime_ns": 1791108746288675852
+    },
+    "checkpoint_after": {
+      "bytes": 3590598656,
+      "mtime_ns": 1791108746288675852
+    },
+    "effective_UK_parents": 248319,
+    "UK_month_assignable_parents": 248268,
+    "UK_exact_day_parents": 248195,
+    "interval_parents": 124,
+    "cross_month_unassigned_parents": 51,
+    "locally_derived_additional_parents": 284,
+    "UK_month_parent_net_change": 233,
+    "calendar_months_changed": 9,
+    "outside_fixed_interval": 0,
+    "no_supported_date": 0,
+    "unresolved_issue_instances": 318,
+    "unresolved_units": 165,
+    "final_original_requests": 5,
+    "EU_population_works": 1009,
+    "EU_selected_item_targets": 979,
+    "EU_no_link_works": 30,
+    "EU_selected_works_multiple_item_alternatives": 973,
+    "EU_selected_works_multiple_selected_manifestation_items": 253,
+    "EU_selected_works_multiple_selected_format_items": 253,
+    "EU_new_downloads_in_this_analysis": 0,
+    "aggregate_queries": 1,
+    "aggregate_scope": "UK effective document metadata only; no text scan or pooled readable-text recalculation",
+    "pooled_465_month_text_presence": "historical checkpoint; not freshly calculated",
+    "task4_script_gate_compatible_with_release": false,
+    "storage_gate_passes_at_check": true,
+    "figure_count": 0
+  },
+  "receipt_scope": "named evidence/data only; no sealed audit code or credentials located/read/probed",
+  "current_run_network_source_requests": 0,
+  "current_run_database_queries": 0,
+  "current_run_database_writes": 0,
+  "historical_pooled_465_month_presence": "preserved prior checkpoint only, not recalculated"
+}

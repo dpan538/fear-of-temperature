@@ -1,0 +1,38 @@
+{
+  "input_manifest_sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1",
+  "native_frames": 13,
+  "monthly_grid": 465,
+  "source_cells": 6045,
+  "native_counts_not_pooled": true,
+  "new_pooled_readable_coverage_not_computed": true,
+  "item_shape": {
+    "Item_count": 47,
+    "raw_hash_count": 45,
+    "shared_raw_instances": 4,
+    "complete_parent_length_rows": 0,
+    "families": [
+      {
+        "file_family": "COM/JOIN Files",
+        "Item_count": 18,
+        "median_codepoints": 13356.5,
+        "p95_codepoints": 103577.55,
+        "min_codepoints": 5069,
+        "max_codepoints": 105309,
+        "shared_raw_Item_instances": 0
+      },
+      {
+        "file_family": "OJ Renditions",
+        "Item_count": 29,
+        "median_codepoints": 8175.0,
+        "p95_codepoints": 49006.39999999999,
+        "min_codepoints": 506,
+        "max_codepoints": 69723,
+        "shared_raw_Item_instances": 4
+      }
+    ]
+  },
+  "network_requests": 0,
+  "formal_database_queries": 0,
+  "formal_database_writes": 0,
+  "new_sampler_execution": false
+}

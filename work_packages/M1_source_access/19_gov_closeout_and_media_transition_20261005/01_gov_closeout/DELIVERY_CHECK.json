@@ -1,0 +1,387 @@
+{
+  "checked_at_utc": "2026-10-04T19:32:49.698301+00:00",
+  "status": "passed",
+  "checks": [
+    {
+      "check": "receipt:work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/stage_frozen_items.py",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/selected_work_item_relationships.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/ACQUISITION_CONTRACT.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/REPAIR_READY.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/control/EU_STAGING_RELEASE.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/EXECUTION_RESULT.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/RESULT.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/PHASE_HTTP_STATE.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/STAGING_INGESTION_HANDOFF.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/B_STATUS_LEDGER.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/B_REMAINING_TARGETS.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/B_NO_LINK_WORKS.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/SHARED_HTTP_STATE.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_DISPOSITIONS.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_ACCOUNTING.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_attachment_candidates.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_candidate_outcomes.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/RESULT.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/monthly_source_genre_counts.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/16_post_repair_analysis_20261004/CHECKED_STATE.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/16_post_repair_analysis_20261004/uk_effective_month_source_genre.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/16_post_repair_analysis_20261004/uk_effective_source_genre.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/08_cross_region_government_coverage/reports/source_register.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/08_cross_region_government_coverage/ie_written_question_month_index.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/08_cross_region_government_coverage/nz_parliament_climate_answered_2025_month_index.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:docs/research/2026-09-26-ie-eu-nz-source-sufficiency-review.md",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/EU_PRIOR_MONTHLY_STATUS.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/IE_WRITTEN_QUESTION_MONTH_INDEX.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/NZ_2025_PORTFOLIO_QUESTION_MONTH_INDEX.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/UK_EFFECTIVE_MONTH_SOURCE_GENRE.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/UK_EFFECTIVE_SOURCE_GENRE.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/US_EU_AU_SAVED_MONTH_SOURCE_GENRE.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_TEXT_SHAPE.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_IDENTITY_DATE.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/PDF_PAGE_SHAPE.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_CHECK.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/AU_ORIGINAL_CHECK_PLAN.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/GOV_FRAME_REGISTER.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CURRENT_GAPS.csv",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/BOUNDED_PARENT_EXPORT_REQUEST.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/transport_continuation.py",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/test_transport_continuation.py",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/TRANSPORT_TESTS.log",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/TRANSPORT_DIAGNOSIS_zh.md",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/evidence/FIRST_PAGE_IDENTITY.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/evidence/FIRST_PAGES_01.png",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/evidence/FIRST_PAGES_02.png",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/1441efa551c25d9c8cd0db2316e72ee1546f9206a7648263429adc144c031504.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/39aea6e341a2efd3a560d8e37f850955021490622b408a4e10289b5b7325fdb9.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/439921a82fe41aede9a712bb8f8673cfcb3b5d3242a91cbb20e2b0cd8f6c6239.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/b795c38fc6ea3d400439c89d60262ee660aa6fef2e16439240dcf9f58934455a.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/2e2de5acdc3bb9f62d7d26053e1ea7d5c303ea13740fcd3c055161b8a602f1f2.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/a5c1ea5cbea704343768163a3296562031fed7d32d1b2904502380053925dcaf.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/de070ff2b34b6f4c256b759199fd6b533c45a3c00aa3309f8340033ed8531fed.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/58b4f7af404f370a17663e6ac24fc55f7cc044416ce55bb08612d7dd60d979d0.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/cdc189de085065c6257ed2ef0c3bcfdc3e650b92454bb4971c5e6a6417372d22.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/2243ec51bcd94f169486ef95345cf5d0a8c006f670c1cb580e81b844db0b8018.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/6e79b3cc4bdb22ed6a80c90de32feacc282084cd00170f022680f99a0afa7774.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/e0ba5406a5142ac3f67e7c0ecf3d557b9cd3d9382ec0246f866fbfd3447f5002.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/712c6cca8c40a838db8b040134c7424a608f934fd4bca36e443e1e7e0b2f3c9f.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/d32312eefcde3b039d5d10d694d38cd2ea4385d64592a2dbe1faa3a16ea2c8a2.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/819ef4dc1d4004201d1e47ce755f183b38774702dfdb3b4d908b1f078f53abb1.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/5d575c5683782e97d815349b8efe173a50050fb650f30d961e2441d6e960bafa.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/2ba4d386b1bb938017e5a6ad5d528fffc2de4d4692f475ac558a5157cf18ffd0.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/de607d0394033e5818e1c14b29e0b94e9219fd6994ce5d7595b5db1b51ef28cc.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/89c97eb0005fd81958d9037fbf27621d544c0707adeb2ceeb47c92160dca4292.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/40aafa3bfef19a985e044d2ab17496d4751b79ba0b23242278a939bb5e695555.json",
+      "passed": true
+    },
+    {
+      "check": "receipt:work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/857251ccc1e5593056fbf490ff87c569d31eb81d8b68aa151af03c8a544ecc4f.json",
+      "passed": true
+    },
+    {
+      "check": "ready binds exact input manifest",
+      "passed": true
+    },
+    {
+      "check": "20distinct unchanged Item hashes",
+      "passed": true
+    },
+    {
+      "check": "raw total9020646",
+      "passed": true
+    },
+    {
+      "check": "135page rows and no empty layers",
+      "passed": true
+    },
+    {
+      "check": "page counts sum135",
+      "passed": true
+    },
+    {
+      "check": "19printed-day matches and1conflict",
+      "passed": true
+    },
+    {
+      "check": "7COM13OJ printed body genres",
+      "passed": true
+    },
+    {
+      "check": "4first-page multi-notice Items",
+      "passed": true
+    },
+    {
+      "check": "6multiple selectedManifestation Items",
+      "passed": true
+    },
+    {
+      "check": "no Item promoted to complete parent length",
+      "passed": true
+    },
+    {
+      "check": "23native source frames",
+      "passed": true
+    },
+    {
+      "check": "UK248319effective parents",
+      "passed": true
+    },
+    {
+      "check": "US33544selected metadata parents",
+      "passed": true
+    },
+    {
+      "check": "IE684809question indices",
+      "passed": true
+    },
+    {
+      "check": "NZ536question indices",
+      "passed": true
+    },
+    {
+      "check": "AU2cases4requests54MiBmaximum",
+      "passed": true
+    },
+    {
+      "check": "one merged pending release, never self-authorized",
+      "passed": true
+    },
+    {
+      "check": "all oldBoutputs intact",
+      "passed": true
+    },
+    {
+      "check": "oldA403stop intact",
+      "passed": true
+    },
+    {
+      "check": "oldV3 code unchanged",
+      "passed": true
+    },
+    {
+      "check": "UKfile stat still releasedcheckpoint",
+      "passed": true
+    },
+    {
+      "check": "16offline tests passed",
+      "passed": true
+    },
+    {
+      "check": "fixed interval maintained",
+      "passed": true
+    },
+    {
+      "check": "allrequiredartifacts present",
+      "passed": true
+    }
+  ],
+  "failures": [],
+  "raw_PDF_rereads_in_delivery_check": 0,
+  "database_queries": 0,
+  "new_source_requests": 0,
+  "sealed_evaluator_access": false
+}

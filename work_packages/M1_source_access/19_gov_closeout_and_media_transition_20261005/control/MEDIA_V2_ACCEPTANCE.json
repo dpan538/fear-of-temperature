@@ -1,0 +1,23 @@
+{
+  "status": "accepted_v2_design_and_access_gap_package_not_real_body_pipeline",
+  "version_receipt_sha256": "80e560bfd2d986d8fd5fd9a74e037fc31cc14d6100580713c37371a4fc7aa3d2",
+  "schema_sha256": "b9c460de6b609e35e59a8e3a23c74fcb3e301f6de2c7554125639f042b5d8d98",
+  "prototype_sha256": "aae79bdb96228850ad79903b91225a5d24f5d468ee56975ffa44dd1d98aec999",
+  "coordinator_network_denied_fixture_tests_passed": 37,
+  "sqlite_integrity_and_foreign_keys": "passed",
+  "real_table_counts": {
+    "article_parent": 0,
+    "article_version": 0,
+    "sample_slot": 150,
+    "request_attempt": 1,
+    "raw_object": 1
+  },
+  "raw_bytes": 212,
+  "new_readable_article_bodies": 0,
+  "access_readiness_sources": 10,
+  "source_and_edition_identity_scope_accepted": true,
+  "five_strata_planned_slots_each": 30,
+  "next_step": "Confirm existing lawful access and validate original150 slots; adjacent months deferred",
+  "new_HTTP_batch_authorized": false,
+  "formal_government_database_access": false
+}

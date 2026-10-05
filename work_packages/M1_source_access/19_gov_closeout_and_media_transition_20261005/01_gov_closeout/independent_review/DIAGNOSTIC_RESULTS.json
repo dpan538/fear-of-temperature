@@ -1,0 +1,69 @@
+{
+  "run_at_utc": "2026-10-04T19:59:29.768439+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "input_snapshot_at_utc": "2026-10-04T14:21:27.701426+00:00",
+  "inventory_parents_including_mirror": 248319,
+  "month_assignable_parents_including_mirror": 248268,
+  "cross_month_interval_parents": 51,
+  "official_route_inventory_parents": 239871,
+  "official_route_composition": {
+    "n": 239871.0,
+    "declared_k": 5,
+    "observed_k": 5,
+    "entropy_nats": 0.9869753475628038,
+    "entropy_fixed_k": 0.6132422629898848,
+    "entropy_observed_k": 0.6132422629898848,
+    "effective_categories": 2.6831067214505953,
+    "hhi": 0.42199208153330414,
+    "inverse_hhi": 2.3697127120644295,
+    "top_share": 0.568497233929904,
+    "gini_fixed_k": 0.5630192895347916
+  },
+  "with_mirror_composition": {
+    "n": 248319.0,
+    "declared_k": 6,
+    "observed_k": 6,
+    "entropy_nats": 1.1018499160364488,
+    "entropy_fixed_k": 0.6149541470045417,
+    "entropy_observed_k": 0.6149541470045417,
+    "effective_categories": 3.009728622434004,
+    "hhi": 0.3949249330521047,
+    "inverse_hhi": 2.532126782352494,
+    "top_share": 0.549156528497618,
+    "gini_fixed_k": 0.6071310156156664
+  },
+  "coverage_indices": {
+    "quarter_grid_denominator": 155,
+    "month_grid_denominator": 465,
+    "quarter_metadata_presence_ratio": 1.0,
+    "month_metadata_presence_ratio": 0.9333333333333333,
+    "rectangular_source_month_presence_ratio": 0.25340501792114695,
+    "source_month_grid_cells": 2790,
+    "evidence_classified_coverage_cells": 0,
+    "confirmed_complete_zero_cells": 0,
+    "applicable_source_period_denominator": null,
+    "applicable_source_period_presence_ratio": null,
+    "applicable_source_period_coverage_ratio": null,
+    "readable_text_coverage_ratio": null,
+    "unavailable_reason": "No complete applicability/enumeration/readability ledger supplied"
+  },
+  "quarterly_source_mix_ranges": {
+    "official_hhi_min": 0.34429065743944637,
+    "official_hhi_max": 1.0
+  },
+  "unavailable": {
+    "department_metrics": "No verified department/era and affiliation-allocation map in this saved export",
+    "record_level_lengths_and_violin": "Existing saved lengths are quantile summaries; effective parent-level lengths absent",
+    "token_counts": "No bounded parent-text/tokenizer input supplied; no model/tokenizer download performed",
+    "collection_completeness": "First/last observed months are not API/archive coverage bounds"
+  },
+  "formal_data_writes": 0,
+  "network_body_downloads": 0,
+  "production_sampling": false,
+  "python_version": "3.12.13",
+  "pandas_version": "2.3.3",
+  "input_sha256": "ec12f7fbcb65dd51b1edf3e1547ace5bda5ba8748e74c9ac1e6ae4897da64c97"
+}

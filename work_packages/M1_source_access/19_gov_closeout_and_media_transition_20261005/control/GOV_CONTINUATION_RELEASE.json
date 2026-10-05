@@ -1,0 +1,57 @@
+{
+  "ready": true,
+  "issuer": "coordinator",
+  "status": "accepted_gov_same_item_correction_and_au_bounded_checks",
+  "authorized_phases": [
+    "B_CORRECTED",
+    "AU_ORIGINALS"
+  ],
+  "post_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "transport_version": "gov_closeout_transport_candidate_v1_20261005",
+  "transport_sha256": "73e5bd472a98c690971638c88237ab73d30761143f587eab9e68090dfae4f47c",
+  "accepted_v3_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+  "frozen_b_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "corrected_item_uri": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+  "corrected_item_accept": "*/*",
+  "maximum_new_b_attempts": 959,
+  "unattempted_b_accept": "application/pdf",
+  "aggregate_government_raw_cap_bytes": 2147483648,
+  "collector_floor_bytes": 16106127360,
+  "au_maximum_raw_bytes": 56623104,
+  "maximum_au_requests": 4,
+  "au_original_unit_ids": [
+    "doc:7c7006b4ea3168ebe548e229915d853b",
+    "doc:bc6340389c3977a04993b0a20f55bcca"
+  ],
+  "old_hansard_stop_remains_effective": true,
+  "old_b_406_one_corrected_validation_accepted": true,
+  "b_and_au_are_independent_phases": true,
+  "automatic_restart": false,
+  "old_a_stop_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+  "old_b_stop_sha256": "cce5f183e656d5b24e52e426b34b6a7f1c58d06be60350bf9d3d2173b3cde011",
+  "old_eu_release_sha256": "58adca9fc2aaf574f0dfad7e52ccf694717bbcc239f5f3db45e9bb7de27f359d",
+  "old_b_result_sha256": "3bb1e284fa5d93c43ec6d7a601ea56599f08f5717834d0e666c3dfd72e278da6",
+  "old_failed_checkpoint_sha256": "6eaff21a3569f61b7956b3ede49af7147dba9ca1aaf92be7d17f63cac09b0880",
+  "input_manifest_sha256": "fc2f9f9b9d72e863911e78fe6140fa539c9182e20630adfb9630aedbc0ebb418",
+  "input_ready_sha256": "bc496846e35ff121dd6aef8351474ab73a32e4ef2fe551f2a42be15a1f6d500f",
+  "au_plan_sha256": "32d49cb6ef5a25b4360a201fe8d58cbd04e93e54bc9f36b2f9bd92607bd772a8",
+  "repair_ready_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+  "accepted_at_utc": "2026-10-04T19:37:00.009181+00:00",
+  "offline_fixture_tests_passed": 16,
+  "candidate_root_cause_proven": false,
+  "decision_basis": "Official exact-Item URI wildcard Accept support; one corrected validation only, then original unrequested queue. AU never-attempted exact landing/PDF pairs in independent phase. Preserve all historical stops.",
+  "official_references": [
+    "https://op.europa.eu/documents/10530/676542/ao10463_annex_17_cellar_dissemination_interface_en.pdf",
+    "https://op.europa.eu/documents/d/cellar/cellar_ml_dataset_guide"
+  ],
+  "formal_database_writes_authorized": false,
+  "extraction_or_complete_work_acceptance_authorized": false
+}

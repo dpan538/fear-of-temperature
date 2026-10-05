@@ -1,0 +1,26 @@
+{
+  "status": "accepted_bounded_terminal_input_for_independent_analysis",
+  "final_input_manifest_sha256": "793ca6f51f8ee88f745100f2c83abdf3ac456847bdc8dd39e4bce041765a6036",
+  "final_input_ready_sha256": "033e423600cb9dd14cdce27cbe65c6c46c88d9d1663c3ceaa7f2e0f63e3f7ec3",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "evidence_files_checked": 71,
+  "raw_hashes_reused_from_owner_once_checks": 47,
+  "coordinator_raw_rehashes": 0,
+  "Item_rows": 47,
+  "distinct_raw_hashes": 45,
+  "complete_parent_length_rows": 0,
+  "prior_Items": 20,
+  "new_Items": 27,
+  "A_dispositions": 5,
+  "frozen_B_targets": 979,
+  "failed": 1,
+  "not_attempted": 931,
+  "no_link_Work_count_outside_selected_targets": 30,
+  "metadata_checkpoints_reused": true,
+  "coordinator_database_queries": 0,
+  "coordinator_database_writes": 0,
+  "additional_HTTP_authorized": false
+}

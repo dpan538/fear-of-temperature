@@ -1,0 +1,39 @@
+{
+  "automation_id": "automation",
+  "checked_heartbeat_at_utc": "2026-10-04T19:34:30.395Z",
+  "phase": "complete_review_delivered_automation_paused",
+  "gov_thread": {
+    "id": "01a10639-811d-73a2-bacc-fcede2e06848",
+    "cursor": "30494388-76d3-4f90-b265-3840ac425973:28",
+    "turn_id": "01a1086c-a8e9-7071-85aa-aab49b17f7d8",
+    "status": "idle_completed",
+    "new_transport_release_issued": true,
+    "release_sha256": "56acd7de09d6116cc332ca82637158dcfc8e6f53a0dca74a1cac9e9c5e1442b9",
+    "corrected_same_item_HTTP_status_reported": 200,
+    "corrected_same_item_causality_proven": false,
+    "final_input_accepted": true,
+    "actual_saved_Item_count": 47,
+    "current_failed_Item_count": 1,
+    "unattempted_Item_count": 931
+  },
+  "media_thread": {
+    "id": "01a10638-e552-7313-a19d-88a0c672255d",
+    "cursor": "e9553e82-6dbe-42fb-916f-067091c724ee:43",
+    "turn_id": "01a1086e-fe66-7a33-b3f1-565f0348756c",
+    "status": "idle_completed",
+    "v1_coordinator_fixture_tests_passed": 31,
+    "new_articles_from_v1": 0,
+    "edition_identity_revision_pending": false,
+    "v2_coordinator_fixture_tests_passed": 37,
+    "new_articles_from_v2": 0,
+    "v2_accepted": true
+  },
+  "private_audit_executed_after_final_input": true,
+  "formal_database_writes_by_coordinator": 0,
+  "credentials_distributed": false,
+  "next_action": "Recommended next complete task: confirm existing lawful media access and validate original150 slots; no automatic government retry, adjacent-month expansion or bulk media collection.",
+  "updated_at_utc": "2026-10-04T20:21:58.770568+00:00",
+  "private_evaluator_resealed": true,
+  "task_created_plaintext_removed": true,
+  "followup_status": "PAUSED"
+}

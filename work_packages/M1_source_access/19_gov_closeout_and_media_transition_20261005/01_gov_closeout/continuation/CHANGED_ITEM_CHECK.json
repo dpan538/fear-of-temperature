@@ -1,0 +1,40 @@
+{
+  "checked_at_utc": "2026-10-04T19:45:31.564982+00:00",
+  "new_Items": 27,
+  "new_raw_bytes_rechecked": 13210928,
+  "all_new_raw_hashes_match": true,
+  "old_20_text_or_PDF_rereads_in_this_check": 0,
+  "raw_modified": false,
+  "pdf_parse_status_counts": {
+    "parsed": 27
+  },
+  "pdf_pages": 257,
+  "empty_text_pages": 0,
+  "printed_date_comparison_counts": {
+    "agrees_with_saved_Work_day": 26,
+    "conflict_one_day_same_month": 1
+  },
+  "new_unique_raw_sha256": 27,
+  "new_sha256_matches_old_Item_count": 2,
+  "multiple_selected_manifestation_Item_count": 4,
+  "multi_OJ_notice_first_pages": 3,
+  "visual_first_page_check": "all27newfirst pages inspected;257totalpages not all visually inspected",
+  "complete_Work_acceptance": "not established",
+  "certified_parent_length_rows": 0,
+  "production_extraction_started": false,
+  "network_requests": 0,
+  "database_queries": 0,
+  "database_writes": 0,
+  "corpus_wide_reads": false,
+  "annotated_at_utc": "2026-10-04T19:57:43.700008+00:00",
+  "manual_parser_limit_resolutions": 3,
+  "new_first_page_day_conflicts": 1,
+  "cumulative_Item_rows": 47,
+  "cumulative_raw_sha256_unique": 45,
+  "cross_Work_identical_rendition_groups": 2,
+  "cross_Work_identical_group_Item_rows": 4,
+  "new_observed_COM_JOIN_documents": 11,
+  "new_observed_OJ_renditions": 16,
+  "raw_rereads_during_annotation": 0,
+  "old20_rechecked_during_annotation": false
+}
