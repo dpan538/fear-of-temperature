@@ -1,0 +1,12 @@
+{
+  "measured_at_utc": "2026-10-05T10:42:38.680119+00:00",
+  "measured_at_cst": "2026-10-05T18:42:38.680119+08:00",
+  "free_bytes": 18836041728,
+  "original_remaining_reserve_bytes": 3335940580,
+  "minimum_free_floor_bytes": 16106127360,
+  "projected_free_after_original_reserves": 15500101148,
+  "passes_original_reserve_floor": false,
+  "shortfall_bytes": 606026212,
+  "source_reserve_receipt": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/FINAL_STORAGE.json",
+  "interpretation": "No reserve relaxation; compact source research and offline work can proceed; actual local downloading waits for passing fresh preflight."
+}

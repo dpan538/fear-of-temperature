@@ -1,0 +1,53 @@
+# Newspaper acquisition and parallel source-transition research
+
+Dai authorised newspaper acquisition first across the fixed study period and one new parallel window to investigate newspaper/social-media transition evidence. The existing acquisition owner handles newspaper source preparation and actual collection; the new window handles research only. Both use GPT-6.1 Sol / Extra High. Keep these as two complete work lines, without additional windows or subagents. All new reports, logs and commit messages are English.
+
+## Fixed objective and source roles
+
+The publication interval is **1988-01-01 through 2026-09-21**, including a partial September 2026. Newspaper acquisition targets the continuous 465-month calendar, not three pilot dates. Maintain disjoint EU/Europe excluding UK, UK, AU, US and NZ strata, concrete European countries and title/edition identities. A website/archive/API is an acquisition parent; an article is an independent corpus parent. Do not count issue containers, page components, passages, broadcaster transcripts or commentary sites as independent newspaper articles without source/unit evidence.
+
+The parallel research does not hold up newspaper acquisition and does not authorise social-post collection. It must distinguish audience use, print circulation, newspaper-brand digital use, social news reach/main source, referrals and content availability. A survey crossover year is not an automatic corpus cutoff or sampling weight. Preserve newspaper coverage after any evidenced social growth and historical public-source gaps before platform availability.
+
+## Newspaper source and interface preparation
+
+Read governing direction, the latest project log, the submitted proposal and the 5 October separated-stream decision. Preserve packages 19–22 and reuse their accepted evidence. Deliver a proposal-aligned source registry covering historical and contemporary routes, with newspaper identity, original/archive mapping, era, metadata/body availability, pagination, rights/access and readiness. Register at most four candidate newspaper titles per stratum for this initial pass; a title may have multiple evidenced archive/publisher routes. Recent-only publishers cannot be the whole historical design. Retain other editorial samples separately.
+
+Verify source-era evidence before attempting historical bodies. Probe applicable early, middle and recent intervals, including 1988 and the fixed 2026 endpoint where supported. Bound probes to 32 metadata/discovery/policy requests per candidate title, including at most three domain/date public-search responses, with declared pagination limits. An empty search or one failed URL does not exhaust unrelated routes. Do not reopen an explicit refusal or cooldown through another transport without new viable evidence; tool failure, authentication and publisher prohibition are separate states.
+
+New primary-source leads supplied by the coordinator are **unvalidated collection routes**, not bodies or approved interfaces:
+
+- NZ: Papers Past / The Press; verify its actual digitised era and article/OCR boundaries. The National Library describes full-text collections and title-specific availability: https://natlib.govt.nz/collections/a-z/papers-past .
+- AU: Canberra Times / Trove; Libraries ACT records searchable 1926–1994 coverage, while the NLA2026 newsletter describes 1926–1995. Preserve this end-year discrepancy pending actual title evidence; both support investigating 1988. https://www.library.act.gov.au/find/history/search/local_and_regional_newspapers and https://www.library.gov.au/sites/default/files/documents/2026-03/Friends%20Newsletter%20-%20Autumn%202026%20-%20Kookaburra%20collection%2C%20artists%20books%2C%20Director-General%20farewell.pdf .
+- UK: Guardian Open Platform is proposal-aligned but publicly documents a key requirement and archive dating back to 1999; neither a key nor pre-1999 completeness is established. Preserve that gap rather than calling the API a 1988 solution: https://open-platform.theguardian.com/ and https://open-platform.theguardian.com/access/ . Investigate independently evidenced historical newspaper archives.
+- EU: Cyprus Mail has a publisher archive and a recorded newspaper identity; publication since 1945 does not prove saved 1988 bodies. https://archive.cyprus-mail.com/ . Investigate historical archive holdings separately.
+- US: do not mistake the LOC all-year newspaper catalogue for digitised bodies. Its modern API is public, but eligible 1988-era newspaper holdings require actual evidence: https://www.loc.gov/apis/additional-apis/chronicling-america-api/ . University/regional newspapers can be declared supplementary subframes, with composition limitations; they do not silently become nationally representative press.
+
+Use public Internet only. No account registration, purchased or assumed institutional access, credential search or third-party messages. A public UI with no documented API can have a declared adapter; do not invent or probe hidden authenticated endpoints. Record retention and redistribution conditions separately; raw material remains local.
+
+## Executable collection and ingestion
+
+Prepare reusable declared parser/transport paths, record their exact digests at execution, and repair the evidenced inline-node word-splitting bug in a new derivative version. Preserve old raw/body versions. Validate changed code with targeted fixtures and small real saved payloads, including article/issue/post distinctions, previews, pagination, stable identities, duplicate reruns and interrupted staging transactions. Do not repeat all old tests or replace acquisition evidence with test totals.
+
+After an applicable route's access, identity/era, changed-code and budget preflight are evidenced, actual newspaper retrieval is authorised within the bounds below without a separate field-by-field approval cycle. Use a new local newspaper staging database with this owner as the only writer; no formal government DB access/import. Demonstrate a restartable download → raw receipt → extraction → article/version mapping → idempotent staging write chain. Small source probes are not the final content objective.
+
+The first collection pass seeks at least one qualified independent article in each applicable stratum-month cell, up to 2,325 distinct planned coordinates. This is a basic presence pass, not adequate density or archive completeness. Freeze each discovered source-month selection before bodies; use declared native/date order without climate/fear/length filters. Unknown eligible counts and inclusion probabilities remain unknown. Preserve failed targets; do not replace them silently or transfer gaps to another stratum. Retain available within-era sources while historical gaps remain explicit. The 150 target pilot cap is historical and is not this calendar plan.
+
+Report metadata-only, readable article presence, access/recovery gap, unassessed, structural inapplicability and genuinely verified empty frames separately. Never initialise unassessed cells as observed zero publication. Track all 465 months and all 2,325 regional coordinates even when resource limits stop the first tranche. Frame completion, actual retained counts, complete prose versus embedded components, OCR uncertainty and current versus historical version are distinct.
+
+## Resource and closure bounds
+
+The existing media lifetime raw/text/partial cap remains **128 MiB**, including accepted 25,819,723 bytes. No government acquisition or reserve relaxation is authorised. Preserve the existing 15 GiB free floor, original remaining reserves and shared heavy-I/O lock at work_packages/M1_source_access/14_structural_validation_20261004/control/heavy_io.lock; never unlink it. Fresh preflight must include planned payload, staging/WAL and recovery overhead. Default raw object cap 2 MiB; an archive object exceeding it stops that object with truthful truncation, not false fulltext. Stream bounded responses and respect published rates/Retry-After, with at least two seconds per source. No blind retry loop.
+
+The coordinator's latest space measurement may fail the original-reserve-aware preflight even though unreserved free space exceeds 15 GiB. If so, source research, compact offline repair and rollout planning may proceed; local article/index downloading waits for an actual passing preflight. Do not delete user data, lower safeguards or turn a blocked download into an access-denial claim. A later fresh check may use genuinely changed free space; no simulated capacity.
+
+This initial owner turn has a two-hour network execution bound recorded in control/SCOPE.json. Close the bounded tranche with a cursor and specific stop condition, not a full-period completion claim. Do not declare independent discovery exhausted merely because one route stopped; record unused paths and concrete viable continuation. Do not extend the task indefinitely or launch another window. The continuous collection goal survives the tranche deadline.
+
+## Parallel research deliverable
+
+The new research window produces a single English report, verified scholarly bibliography, country/metric-specific evidence table and source-era recommendations under transition_research/. Primary survey reports are distinct from peer-reviewed papers. Exact transition years require primary page/table/figure support; otherwise give an interval or unresolved result. Do not fabricate a global switch year, interpolate unlike survey populations or impose 50/50 article/post quotas. Use evidence to distinguish archival/platform availability gaps from actual changes in the news environment; it cannot validate our observed corpus counts by itself.
+
+## Ownership and final acceptance
+
+Newspaper owner writes newspaper/ only, including its own compact log, source registry, code/fixtures, request/identity/version manifests, monthly coverage ledger, staging checkpoint, budget evidence and an English FINAL_REPORT.md. Research owner writes transition_research/ only. Coordinator owns root plan/control, shared PROJECT_LOG and Git. Neither worker edits prior packages, root instructions, proposal, isolated government log, hidden audit source/fixtures/ciphertext/credentials or Git. No corpus-wide raw scan, semantic/emotion model or independent-score optimisation.
+
+The coordinator performs one changed-tranche review and integrates substantive English commits directly into main after checks. Deliver actual paths/requests/writes and honest remaining gaps. Source-interface readiness, actual newspaper coverage and research evidence are separate results; no new automation is created by this launch.

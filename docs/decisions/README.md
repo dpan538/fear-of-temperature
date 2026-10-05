@@ -16,6 +16,7 @@ Each record should identify the date, decision, rationale, evidence or constrain
 
 Current acquisition-stage decision:
 
+- [2026-10-05: newspaper first, with parallel transition research](2026-10-05-newspaper-first-and-transition-research.md): resume the acquisition owner for full-calendar newspaper source/interface preparation and collection; one new research window verifies country/metric-specific newspaper/social-media transition evidence.
 - [2026-10-05: separate newspaper and social-media acquisition; restore full-period coverage](2026-10-05-separated-newspaper-and-social-media-coverage.md): identify source parents and test interface/ingestion readiness first; keep separate coverage ledgers against the 465-month calendar.
 - [2026-10-05: real-payload acquisition round](2026-10-05-real-payload-acquisition-round.md): one new window validates five-stratum real media bodies and a tightly bounded consistent EU transport policy, preserving the government seal.
 - [2026-10-05: government phase1 qualitative seal](2026-10-05-government-phase1-qualitative-seal.md): close the bounded government round, preserve an isolated hash-chained log and verified independent figures, and integrate authorised commits into main after checks.

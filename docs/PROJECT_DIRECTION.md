@@ -32,6 +32,8 @@ Distinguish documented events, evidence of discourse responses and missing evide
 
 ### Separate newspaper and social-media acquisition
 
+Newspaper is the current acquisition priority. One parallel literature task investigates country/metric-specific newspaper/social-media transition evidence for coverage/distribution interpretation; it does not start social-post collection or determine an automatic corpus cutoff/weight. See [newspaper-first execution](decisions/2026-10-05-newspaper-first-and-transition-research.md).
+
 Dai's 5 October clarifications restore full-period content coverage as the corpus-building objective and require newspaper and social-media streams to be collected and accounted for separately. A pilot first identifies proposal-aligned acquisition parents (websites, public archives and API families), verifies historical extent and observed interface behaviour, and demonstrates a restartable/idempotent staging-ingestion chain. Small real bodies validate that chain; they are not the main pilot deliverable. Source parents and independent article/post parents remain distinct. The pilot provides source registries, bounded request evidence, estimates with explicit unknowns and a concrete scale-ingestion plan, not a claim that the full archive has already been downloaded.
 
 The full acquisition calendar contains 465 monthly bins from January 1988 to September 2026, with the fixed 21 September cutoff. Three demonstration months and 150 pilot targets do not cover this calendar, even when the pilot is fully executed. Pilot interface readiness and actual corpus coverage are separate acceptance results.

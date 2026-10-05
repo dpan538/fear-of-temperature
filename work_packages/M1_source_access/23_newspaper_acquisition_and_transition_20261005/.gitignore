@@ -1,0 +1,8 @@
+newspaper/raw/
+newspaper/bodies/
+newspaper/parsed/
+newspaper/staging/
+newspaper/previews/
+transition_research/downloads/
+**/__pycache__/
+**/*.part
