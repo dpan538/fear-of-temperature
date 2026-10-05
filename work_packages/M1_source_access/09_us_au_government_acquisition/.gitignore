@@ -1,0 +1,9 @@
+raw/
+checkpoints/
+*.duckdb
+*.duckdb.wal
+reports/*.csv
+reports/*.pdf
+reports/*.svg
+reports/*.png
+reports/*.json

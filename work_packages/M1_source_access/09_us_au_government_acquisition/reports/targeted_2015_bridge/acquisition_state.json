@@ -1,0 +1,8 @@
+{
+  "updated_at_utc": "2026-09-27T12:36:23.456559+00:00",
+  "attempted_requests": 125,
+  "fetched_parents_this_run": 125,
+  "failed_parents_this_run": 0,
+  "stop_reason": "selection_processed",
+  "ingestion_exit_code": 0
+}
