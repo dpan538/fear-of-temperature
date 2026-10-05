@@ -1,0 +1,69 @@
+{
+  "snapshot_recorded_at_utc": "2026-10-04T19:24:09.315694+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "september_2026_partial": true,
+  "source_selection_before_new_editorial_article_retrieval": true,
+  "input_files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 7960,
+      "sha256": "dda834df60e742dbbab635d866f4a7b15a461f05f9a6e3c3ca49cd580e356b8a"
+    },
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "bytes": 9127,
+      "sha256": "908b61f4617413474e1670dca57de386fd2f2fb9da5367d96bac3046c01ce9bd"
+    },
+    {
+      "path": "docs/PROJECT_LOG.md",
+      "bytes": 137202,
+      "sha256": "470b23dd343318e743afa24af387a6c60c30e2214edf3e5ddb3a5413e0dc6e64"
+    },
+    {
+      "path": "proposal/thesis_proposal.md",
+      "bytes": 47552,
+      "sha256": "8c43d7a02a8de587d4e66c2b0ef6d10763b7be22401ab0bf8f676cd3893e2af9"
+    },
+    {
+      "path": "docs/proposal/round2/proposal_working_draft_en.md",
+      "bytes": 18990,
+      "sha256": "f836c88e91707802b97ef8fc558b642a2b3d860947aca7f144e18b0b835d145e"
+    },
+    {
+      "path": "docs/research/2026-09-26-ie-eu-nz-source-sufficiency-review.md",
+      "bytes": 13649,
+      "sha256": "4aae052e35374ec0d92b824ae956a68c968552a17a00763586231146e193dda3"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/PLAN_zh.md",
+      "bytes": 7399,
+      "sha256": "5181f9f508d2b65b6fcb113fb2a2569889c60735db53cc818b2d3a956f4864a9"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/SOURCE_SELECTION_FROZEN.csv",
+      "bytes": 1867,
+      "sha256": "11abb4f9421424ba9330b1ae133e8ee467722f639131c54de139a6d6b04bf8bb"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/PILOT_SCOPE.json",
+      "bytes": 6711,
+      "sha256": "162a7536b09f7d2a381aeb336d414da388604b79b67c0b28d3931d2d5561c10a"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/SOURCE_ROUTE_POLICY.json",
+      "bytes": 6769,
+      "sha256": "2e2f33d4c036296cd63484d50682c7c1b40a29b4a5b6422c1e202a09be3fc5a6"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/ROUTE_PLAN.json",
+      "bytes": 1298,
+      "sha256": "f49d6cdab3b0a01b0ce17a978c1b0ec7708bcab914550270dcaf39cd2756bed7"
+    }
+  ],
+  "legacy_receipts_reference": "LEGACY_GUARDIAN_RECEIPTS.json",
+  "government_database_access": false,
+  "sealed_reviewer_access": false
+}

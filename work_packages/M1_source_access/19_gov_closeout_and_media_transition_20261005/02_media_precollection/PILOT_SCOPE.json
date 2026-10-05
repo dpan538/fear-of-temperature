@@ -1,0 +1,159 @@
+{
+  "version": "media_precollection_v1_20261005",
+  "frozen_before_article_requests_at_utc": "2026-10-04T18:57:25.045714+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "probe_months": [
+    "1995-07",
+    "2015-12",
+    "2025-07"
+  ],
+  "disjoint_region_layers": [
+    "EU_Europe",
+    "UK",
+    "AU",
+    "US",
+    "NZ"
+  ],
+  "UK_counted_in_Europe_quota": false,
+  "publisher_country_distinct_from_edition_market_author_and_reported_place": true,
+  "source_selection_sha256": "11abb4f9421424ba9330b1ae133e8ee467722f639131c54de139a6d6b04bf8bb",
+  "sources": [
+    {
+      "region_layer": "EU_Europe",
+      "source_id": "irish_times",
+      "outlet": "The Irish Times",
+      "publisher_country": "IE",
+      "outlet_type": "newspaper",
+      "publisher": "Irish Times DAC",
+      "edition_market": "Ireland/global English digital; item edition unverified",
+      "official_home": "https://www.irishtimes.com",
+      "official_route_candidate": "https://www.irishtimes.com/archive/"
+    },
+    {
+      "region_layer": "EU_Europe",
+      "source_id": "dw",
+      "outlet": "Deutsche Welle",
+      "publisher_country": "DE",
+      "outlet_type": "news_broadcaster",
+      "publisher": "Deutsche Welle",
+      "edition_market": "Global English; Germany publisher, not German audience census",
+      "official_home": "https://www.dw.com",
+      "official_route_candidate": "https://www.dw.com/en/top-stories/s-9097"
+    },
+    {
+      "region_layer": "UK",
+      "source_id": "guardian",
+      "outlet": "The Guardian",
+      "publisher_country": "GB",
+      "outlet_type": "newspaper",
+      "publisher": "Guardian News & Media",
+      "edition_market": "UK publisher/global archive; historical item edition unverified",
+      "official_home": "https://www.theguardian.com",
+      "official_route_candidate": "https://open-platform.theguardian.com/documentation/"
+    },
+    {
+      "region_layer": "UK",
+      "source_id": "bbc",
+      "outlet": "BBC News",
+      "publisher_country": "GB",
+      "outlet_type": "news_broadcaster",
+      "publisher": "BBC",
+      "edition_market": "UK News web route; historical edition unverified",
+      "official_home": "https://www.bbc.co.uk",
+      "official_route_candidate": "https://www.bbc.co.uk/news"
+    },
+    {
+      "region_layer": "AU",
+      "source_id": "smh",
+      "outlet": "The Sydney Morning Herald",
+      "publisher_country": "AU",
+      "outlet_type": "newspaper",
+      "publisher": "Nine Publishing",
+      "edition_market": "Sydney/NSW; digital edition unverified",
+      "official_home": "https://www.smh.com.au",
+      "official_route_candidate": "https://www.smh.com.au/sitemaps/smh-sitemaps-articles.xml"
+    },
+    {
+      "region_layer": "AU",
+      "source_id": "abc",
+      "outlet": "ABC News Australia",
+      "publisher_country": "AU",
+      "outlet_type": "news_broadcaster",
+      "publisher": "Australian Broadcasting Corporation",
+      "edition_market": "Australia English News; not ABC US",
+      "official_home": "https://www.abc.net.au",
+      "official_route_candidate": "https://www.abc.net.au/news/archive"
+    },
+    {
+      "region_layer": "US",
+      "source_id": "nyt",
+      "outlet": "The New York Times",
+      "publisher_country": "US",
+      "outlet_type": "newspaper",
+      "publisher": "The New York Times Company",
+      "edition_market": "US publisher/global digital; print edition unverified",
+      "official_home": "https://www.nytimes.com",
+      "official_route_candidate": "https://developer.nytimes.com/docs/archive-product/1/overview"
+    },
+    {
+      "region_layer": "US",
+      "source_id": "npr",
+      "outlet": "NPR",
+      "publisher_country": "US",
+      "outlet_type": "news_broadcaster",
+      "publisher": "National Public Radio",
+      "edition_market": "US English digital; member adoptions separate",
+      "official_home": "https://www.npr.org",
+      "official_route_candidate": "https://www.npr.org/sections/news/archive"
+    },
+    {
+      "region_layer": "NZ",
+      "source_id": "nzherald",
+      "outlet": "New Zealand Herald",
+      "publisher_country": "NZ",
+      "outlet_type": "newspaper",
+      "publisher": "NZME",
+      "edition_market": "Auckland/NZ English; edition unverified",
+      "official_home": "https://www.nzherald.co.nz",
+      "official_route_candidate": "https://www.nzherald.co.nz"
+    },
+    {
+      "region_layer": "NZ",
+      "source_id": "rnz",
+      "outlet": "RNZ",
+      "publisher_country": "NZ",
+      "outlet_type": "news_broadcaster",
+      "publisher": "Radio New Zealand",
+      "edition_market": "NZ English news; Pacific edition separate",
+      "official_home": "https://www.rnz.co.nz",
+      "official_route_candidate": "https://www.rnz.co.nz/news/archive"
+    }
+  ],
+  "per_source_month_article_slots": 5,
+  "per_region_slots": 30,
+  "article_target_cap": 150,
+  "raw_cap_bytes": 134217728,
+  "raw_includes_partial_and_route_evidence": true,
+  "object_cap_bytes": 2097152,
+  "minimum_request_spacing_seconds": 2,
+  "requests_serial": true,
+  "max_frame_pages_per_source_month": 1,
+  "max_body_checks_per_source_month": 1,
+  "selection": "Up to first five stable native article URLs in the bounded official date/type frame, stable URL order; no topic query. Non-probability route pilot, not a national random sample. No redistribution of unfilled slots.",
+  "pi_rule": "Only a separately justified probability design on a completely enumerated declared frame receives pi. This deterministic pilot has pi=NULL.",
+  "monthly_denominator_rule": "Observed links and provider-visible counts retain provider/date/type/filter. Partial page never becomes monthly publication total; verified zero requires applicable complete frame.",
+  "no_topic_emotion_fear_or_length_selection": true,
+  "rights_gate": "Official current restrictions and configured access only; known automation/TDM restrictions block new article scraping. Metadata and access evidence may be terminal. Private allowed diagnostic content is restricted, not an open corpus.",
+  "source_failure_stop": "Per-source 401/403/429/Retry-After/exception halt persists; no automatic retry or replacement; unopened later months get stopped/unattempted states.",
+  "storage_floor_bytes": 16106127360,
+  "government_batch_reserved_bytes": 2147483648,
+  "government_transient_checkpoint_other_reserve_bytes": 1240850688,
+  "media_charged_to_existing_other_activity_reserve": true,
+  "heavy_io_lock": "work_packages/M1_source_access/14_structural_validation_20261004/control/heavy_io.lock",
+  "production_gov_database_access": false,
+  "credential_search_or_account_creation": false,
+  "historic_Guardian_environment_396_pool_used_as_background_frame": false
+}

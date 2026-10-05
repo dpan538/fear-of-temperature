@@ -1,0 +1,102 @@
+{
+  "irish_times": {
+    "frame_state": "month_day_index_transport_stop",
+    "rights_status": "restricted_personal_diagnostic_not_TDM_grant",
+    "reason": "Official month index exposes day navigation; first 2025-07-01 index probe timed out in web tool. Source stopped; no direct-client retry. Print archive sign-in not accessed.",
+    "route": "https://www.irishtimes.com/article-index/2025/07/",
+    "evidence_url": "https://www.irishtimes.com/policy-and-terms/terms-conditions/",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "dw": {
+    "frame_state": "robots_access_stop",
+    "rights_status": "current_news_TDM_rights_unverified",
+    "reason": "Official domain returned a non-retryable robots restriction; current terms could not be read. Historic special-project imprint is limited evidence, not news licence.",
+    "route": "https://www.dw.com/en/top-stories/s-9097",
+    "evidence_url": "https://specials.dw.com/scorpions-en/imprint-contact/",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "guardian": {
+    "frame_state": "rights_gate_no_new_scraping",
+    "rights_status": "automation_TDM_restricted",
+    "reason": "Current official terms gate new acquisition. Historical environment archive and four diagnostic receipts are retained separately. API route starts 1999; 1995 print route is a separate licensed frame.",
+    "route": "https://open-platform.theguardian.com/documentation/",
+    "evidence_url": "https://www.theguardian.com/open-platform/terms-and-conditions",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "bbc": {
+    "frame_state": "official_terms_robots_stop",
+    "rights_status": "rights_unverified_no_new_collection",
+    "reason": "Official terms route was robots-blocked in the web tool. News Online launched 1997; 1995 broadcasts are a different medium. No current article frame enumerated.",
+    "route": "https://www.bbc.co.uk/news",
+    "evidence_url": "https://www.bbc.co.uk/usingthebbc/terms/",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "smh": {
+    "frame_state": "official_access_probe_stop",
+    "rights_status": "licensed_archive_entitlement_unverified",
+    "reason": "Official robots/terms probes failed in web tool; no alternate transport attempted. National Library NZ lists SMH 1955–1995 archives as on-site access; this is not our entitlement.",
+    "route": "https://www.smh.com.au/sitemaps/smh-sitemaps-articles.xml",
+    "evidence_url": "https://natlib.govt.nz/a-z/subscription-e-resources",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "abc": {
+    "frame_state": "retired_archive_no_date_frame",
+    "rights_status": "personal_use_not_verified_TDM",
+    "reason": "Official old archive says no longer updated; guessed month route failed and is terminal. RSS discontinuation and licensed syndication are distinct routes; no article enumeration.",
+    "route": "https://www.abc.net.au/news/archive",
+    "evidence_url": "https://help.abc.net.au/hc/en-us/articles/360001548096-ABC-Terms-of-Use",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "nyt": {
+    "frame_state": "API_key_entitlement_not_established",
+    "rights_status": "API_terms_and_publisher_grant_pending",
+    "reason": "Publisher GitHub Archive API documents monthly metadata from 1851 and requires a key. No configured entitlement established; credentials were not inspected; no API call. Full response size may exceed object cap.",
+    "route": "https://developer.nytimes.com/docs/archive-product/1/overview",
+    "evidence_url": "https://github.com/nytimes/public_api_specs/blob/master/archive_api/archive_api.md",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "npr": {
+    "frame_state": "robots_access_stop",
+    "rights_status": "partner_CDS_entitlement_not_established",
+    "reason": "Official NPR host robots restriction is terminal. NPR CDS premium route requires partner agreement; none established. Member-reproduced NPR terms are explicitly an archival reproduction.",
+    "route": "https://www.npr.org/sections/news/archive",
+    "evidence_url": "https://npr.github.io/content-distribution-service/legal/premium-content/index",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "nzherald": {
+    "frame_state": "publisher_rights_gate_catalogue_only",
+    "rights_status": "archiving_database_permission_required",
+    "reason": "Publisher gate. Only National Library catalogue identity metadata may be probed; it is not an article frame or full-text entitlement.",
+    "route": "https://natlib.govt.nz/records/42616616",
+    "evidence_url": "https://www.nzherald.co.nz/nz/terms-of-use/LE3ABZBLNLAWAQLS6BRNVZPCWQ/",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  },
+  "rnz": {
+    "frame_state": "rights_gate_no_new_scraping",
+    "rights_status": "written_permission_for_scraping_required",
+    "reason": "Official legal conditions gate new article/index acquisition. Schedule-data permissions do not establish news-text permissions.",
+    "route": "https://www.rnz.co.nz/news/archive",
+    "evidence_url": "https://www.rnz.co.nz/about/legal",
+    "checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+    "entitlement_state": "not_established; no credentials inspected",
+    "redistribution_status": "not_openly_licensed; share derived facts/receipts only"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "recorded_at_utc": "2026-10-04T19:29:36.659767+00:00",
+  "version": "media_route_pilot_v1_20261005",
+  "frame_cells": 30,
+  "slots": 150,
+  "filled_metadata_slots": 0,
+  "new_article_targets": 0,
+  "new_full_bodies": 0,
+  "requests": 1,
+  "access_challenge_payloads": 1,
+  "raw_accounting": {
+    "total_bytes": 212,
+    "partial_bytes": 0,
+    "files": [
+      {
+        "path": "raw/188e83c4903d51777bc577b5165f0651.html",
+        "bytes": 212,
+        "partial": false,
+        "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+      }
+    ]
+  },
+  "monthly_complete_frames": 0,
+  "verified_monthly_zeroes": 0,
+  "pi_assigned": 0,
+  "government_DB_queries_or_writes": 0,
+  "actual_records_separate_from_fixtures": true
+}

@@ -1,0 +1,16 @@
+geography,scope_class,adopted_layer,exact_source_path,section,line,basis
+US,core,US,proposal/thesis_proposal.md,1.3,70,"Core collection prioritises United States, European settings, Australia and New Zealand; no additional named core country."
+EU_Europe,core,EU_Europe,proposal/thesis_proposal.md,1.3,70,"Core collection prioritises United States, European settings, Australia and New Zealand; no additional named core country."
+AU,core,AU,proposal/thesis_proposal.md,1.3,70,"Core collection prioritises United States, European settings, Australia and New Zealand; no additional named core country."
+NZ,core,NZ,proposal/thesis_proposal.md,1.3,70,"Core collection prioritises United States, European settings, Australia and New Zealand; no additional named core country."
+US,core_working_draft,US,docs/proposal/round2/proposal_working_draft_en.md,1.2 / source assessment,59,Same four geographical priorities; source assessment repeats them at line 100.
+EU_Europe,core_working_draft,EU_Europe,docs/proposal/round2/proposal_working_draft_en.md,1.2 / source assessment,59,Same four geographical priorities; source assessment repeats them at line 100.
+AU,core_working_draft,AU,docs/proposal/round2/proposal_working_draft_en.md,1.2 / source assessment,59,Same four geographical priorities; source assessment repeats them at line 100.
+NZ,core_working_draft,NZ,docs/proposal/round2/proposal_working_draft_en.md,1.2 / source assessment,59,Same four geographical priorities; source assessment repeats them at line 100.
+UK,initial_source_and_current_explicit_user_scope,UK,proposal/thesis_proposal.md,3.3 / Table 2a,182,Guardian is initial news primary; explicit current instruction separates UK from Europe quota.
+US/EU/AU/NZ archives,acquisition_sequence_extension_strata_not_geography_reclassification,US;EU_Europe;AU;NZ,proposal/thesis_proposal.md,3.3 / Table 2a,194,"Table calls archive routes extension strata, while 1.3 names these settings core geography. Retain this wording distinction."
+China/Chinese-language,extension,not_opened,proposal/thesis_proposal.md,1.3,70,"Explicit extension candidate, not core dependency; no bulk collection authorised."
+East Asian settings,extension,not_opened,proposal/thesis_proposal.md,1.3,70,"Explicit extension candidate, not core dependency; no bulk collection authorised."
+AOSIS members,extension,not_opened,proposal/thesis_proposal.md,1.3,70,"Explicit extension candidate, not core dependency; no bulk collection authorised."
+Ireland,Europe_internal_source_candidate,EU_Europe,docs/research/2026-09-26-ie-eu-nz-source-sufficiency-review.md,source review,1,"Prior review concerns Oireachtas/government sources only. It establishes Ireland as prior regional context, not Irish Times/media validation, entitlement or an additional core geography."
+all layers,harmonisation,five_disjoint_layers,proposal/thesis_proposal.md,3.4,226,Source-era register; missing coverage not zero expression; publisher location not author location.

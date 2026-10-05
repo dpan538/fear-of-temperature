@@ -1,0 +1,11 @@
+region_layer,source_id,outlet,publisher_country,outlet_type,publisher,edition_market,official_home,official_route_candidate
+EU_Europe,irish_times,The Irish Times,IE,newspaper,Irish Times DAC,Ireland/global English digital; item edition unverified,https://www.irishtimes.com,https://www.irishtimes.com/archive/
+EU_Europe,dw,Deutsche Welle,DE,news_broadcaster,Deutsche Welle,"Global English; Germany publisher, not German audience census",https://www.dw.com,https://www.dw.com/en/top-stories/s-9097
+UK,guardian,The Guardian,GB,newspaper,Guardian News & Media,UK publisher/global archive; historical item edition unverified,https://www.theguardian.com,https://open-platform.theguardian.com/documentation/
+UK,bbc,BBC News,GB,news_broadcaster,BBC,UK News web route; historical edition unverified,https://www.bbc.co.uk,https://www.bbc.co.uk/news
+AU,smh,The Sydney Morning Herald,AU,newspaper,Nine Publishing,Sydney/NSW; digital edition unverified,https://www.smh.com.au,https://www.smh.com.au/sitemaps/smh-sitemaps-articles.xml
+AU,abc,ABC News Australia,AU,news_broadcaster,Australian Broadcasting Corporation,Australia English News; not ABC US,https://www.abc.net.au,https://www.abc.net.au/news/archive
+US,nyt,The New York Times,US,newspaper,The New York Times Company,US publisher/global digital; print edition unverified,https://www.nytimes.com,https://developer.nytimes.com/docs/archive-product/1/overview
+US,npr,NPR,US,news_broadcaster,National Public Radio,US English digital; member adoptions separate,https://www.npr.org,https://www.npr.org/sections/news/archive
+NZ,nzherald,New Zealand Herald,NZ,newspaper,NZME,Auckland/NZ English; edition unverified,https://www.nzherald.co.nz,https://www.nzherald.co.nz
+NZ,rnz,RNZ,NZ,news_broadcaster,Radio New Zealand,NZ English news; Pacific edition separate,https://www.rnz.co.nz,https://www.rnz.co.nz/news/archive

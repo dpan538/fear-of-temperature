@@ -1,0 +1,42 @@
+test_403_stops_before_response_body (__main__.HTTPTests.test_403_stops_before_response_body) ... ok
+test_429_persists_cooldown_and_halt (__main__.HTTPTests.test_429_persists_cooldown_and_halt) ... ok
+test_busy_lock_creates_no_attempt (__main__.HTTPTests.test_busy_lock_creates_no_attempt) ... ok
+test_cap_includes_existing_partial (__main__.HTTPTests.test_cap_includes_existing_partial) ... ok
+test_frozen_exact_plan_rejects_unapproved_route (__main__.HTTPTests.test_frozen_exact_plan_rejects_unapproved_route) ... ok
+test_halt_applies_to_unattempted_distinct_route (__main__.HTTPTests.test_halt_applies_to_unattempted_distinct_route) ... ok
+test_no_automatic_redirect (__main__.HTTPTests.test_no_automatic_redirect) ... ok
+test_oversized_content_length_stops_without_body (__main__.HTTPTests.test_oversized_content_length_stops_without_body) ... ok
+test_partial_stream_counted_on_cap_failure (__main__.HTTPTests.test_partial_stream_counted_on_cap_failure) ... ok
+test_storage_reserves_not_double_counted (__main__.HTTPTests.test_storage_reserves_not_double_counted) ... ok
+test_success_hash_and_bytes (__main__.HTTPTests.test_success_hash_and_bytes) ... ok
+test_truncation_preserves_partial (__main__.HTTPTests.test_truncation_preserves_partial) ... ok
+test_HTTP_200_challenge_is_not_readable (__main__.ParseTests.test_HTTP_200_challenge_is_not_readable) ... ok
+test_date_filter_without_topic_or_title_filter (__main__.ParseTests.test_date_filter_without_topic_or_title_filter) ... ok
+test_dated_navigation_not_article (__main__.ParseTests.test_dated_navigation_not_article) ... ok
+test_frame_passes_declared_edition_to_parent (__main__.ParseTests.test_frame_passes_declared_edition_to_parent) ... ok
+test_nested_jsonld_and_missing_body (__main__.ParseTests.test_nested_jsonld_and_missing_body) ... ok
+test_parent_ids_include_edition_scope (__main__.ParseTests.test_parent_ids_include_edition_scope) ... ok
+test_preview_not_full_body (__main__.ParseTests.test_preview_not_full_body) ... ok
+test_print_issue_local_ids_keep_different_issues (__main__.ParseTests.test_print_issue_local_ids_keep_different_issues) ... ok
+test_retired_route_is_not_zero (__main__.ParseTests.test_retired_route_is_not_zero) ... ok
+test_sources_keep_distinct_publication_ids (__main__.ParseTests.test_sources_keep_distinct_publication_ids) ... ok
+test_tracking_only_removed (__main__.ParseTests.test_tracking_only_removed) ... ok
+test_complete_probability_pi_allowed (__main__.SchemaTests.test_complete_probability_pi_allowed) ... ok
+test_foreign_key_parent_required (__main__.SchemaTests.test_foreign_key_parent_required) ... ok
+test_missingness_keeps_null_pi (__main__.SchemaTests.test_missingness_keeps_null_pi) ... ok
+test_nonprobability_pi_forbidden (__main__.SchemaTests.test_nonprobability_pi_forbidden) ... ok
+test_paper_locator_rejects_other_edition_issue (__main__.SchemaTests.test_paper_locator_rejects_other_edition_issue) ... ok
+test_partial_count_is_not_monthly_zero (__main__.SchemaTests.test_partial_count_is_not_monthly_zero) ... ok
+test_partial_probability_pi_forbidden (__main__.SchemaTests.test_partial_probability_pi_forbidden) ... ok
+test_quoted_government_does_not_change_media_role (__main__.SchemaTests.test_quoted_government_does_not_change_media_role) ... ok
+test_same_edition_duplicate_native_identity_rejected (__main__.SchemaTests.test_same_edition_duplicate_native_identity_rejected) ... ok
+test_same_source_different_editions_keep_same_native_id (__main__.SchemaTests.test_same_source_different_editions_keep_same_native_id) ... ok
+test_same_wire_two_publications_retained (__main__.SchemaTests.test_same_wire_two_publications_retained) ... ok
+test_source_edition_mismatch_rejected_on_insert_and_update (__main__.SchemaTests.test_source_edition_mismatch_rejected_on_insert_and_update) ... ok
+test_unknown_dates_not_imputed_from_retrieval (__main__.SchemaTests.test_unknown_dates_not_imputed_from_retrieval) ... ok
+test_verified_zero_requires_complete_frame (__main__.SchemaTests.test_verified_zero_requires_complete_frame) ... ok
+
+----------------------------------------------------------------------
+Ran 37 tests in 0.175s
+
+OK
