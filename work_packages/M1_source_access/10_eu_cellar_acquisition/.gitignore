@@ -1,0 +1,5 @@
+raw/
+manifests/
+*.duckdb
+*.duckdb.wal
+checkpoints/

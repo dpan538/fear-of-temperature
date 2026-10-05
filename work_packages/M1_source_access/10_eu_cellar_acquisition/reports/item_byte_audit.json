@@ -1,0 +1,13 @@
+{
+  "audited_at_utc": "2026-09-27T09:13:46.405344+00:00",
+  "checkpoint_files": 14001,
+  "outcomes": {
+    "downloaded": 14000,
+    "extract_text_extracted": 13873,
+    "extract_scanned_or_empty_text_layer": 127,
+    "ocr_ocr_candidate_text_extracted": 100,
+    "failed": 1
+  },
+  "issue_count": 0,
+  "issues": []
+}
