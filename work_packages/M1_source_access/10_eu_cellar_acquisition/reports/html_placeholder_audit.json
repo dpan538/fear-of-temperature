@@ -1,0 +1,10 @@
+{
+  "audited_at_utc": "2026-09-27T07:08:27.938203+00:00",
+  "selected_placeholder_works": 23,
+  "source_checked": 23,
+  "status_counts": {
+    "source_placeholder_no_html_table": 23
+  },
+  "issue_count": 0,
+  "issues": []
+}

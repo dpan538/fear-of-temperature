@@ -1,0 +1,186 @@
+{
+  "generated_at_utc": "2026-09-27T07:11:32.334075+00:00",
+  "unique_works": 50578,
+  "status_counts": {
+    "no_english_digital_item_link": 3106,
+    "source_text_extracted_relevance_unreviewed": 12347,
+    "ocr_candidate_layout_review": 100,
+    "source_html_table_placeholder_review": 23,
+    "selected_item_failed": 1,
+    "selected_item_not_requested": 35001
+  },
+  "by_year": {
+    "1988": {
+      "no_english_digital_item_link": 534,
+      "source_text_extracted_relevance_unreviewed": 1021
+    },
+    "1989": {
+      "source_text_extracted_relevance_unreviewed": 755,
+      "no_english_digital_item_link": 253
+    },
+    "1990": {
+      "ocr_candidate_layout_review": 1,
+      "source_text_extracted_relevance_unreviewed": 544,
+      "no_english_digital_item_link": 317
+    },
+    "1991": {
+      "source_text_extracted_relevance_unreviewed": 661,
+      "no_english_digital_item_link": 169,
+      "ocr_candidate_layout_review": 1,
+      "source_html_table_placeholder_review": 1
+    },
+    "1992": {
+      "no_english_digital_item_link": 325,
+      "source_text_extracted_relevance_unreviewed": 565,
+      "ocr_candidate_layout_review": 31
+    },
+    "1993": {
+      "source_text_extracted_relevance_unreviewed": 664,
+      "ocr_candidate_layout_review": 22,
+      "no_english_digital_item_link": 138
+    },
+    "1994": {
+      "source_text_extracted_relevance_unreviewed": 704,
+      "no_english_digital_item_link": 95,
+      "ocr_candidate_layout_review": 2
+    },
+    "1995": {
+      "source_text_extracted_relevance_unreviewed": 705,
+      "no_english_digital_item_link": 129,
+      "ocr_candidate_layout_review": 10
+    },
+    "1996": {
+      "source_text_extracted_relevance_unreviewed": 811,
+      "no_english_digital_item_link": 11
+    },
+    "1997": {
+      "source_text_extracted_relevance_unreviewed": 749,
+      "no_english_digital_item_link": 64,
+      "ocr_candidate_layout_review": 4
+    },
+    "1998": {
+      "source_text_extracted_relevance_unreviewed": 692,
+      "no_english_digital_item_link": 232,
+      "ocr_candidate_layout_review": 1,
+      "source_html_table_placeholder_review": 4
+    },
+    "1999": {
+      "source_text_extracted_relevance_unreviewed": 518,
+      "no_english_digital_item_link": 250,
+      "ocr_candidate_layout_review": 4,
+      "source_html_table_placeholder_review": 11
+    },
+    "2000": {
+      "source_text_extracted_relevance_unreviewed": 1037,
+      "no_english_digital_item_link": 20,
+      "source_html_table_placeholder_review": 1,
+      "ocr_candidate_layout_review": 1
+    },
+    "2001": {
+      "source_text_extracted_relevance_unreviewed": 1250,
+      "no_english_digital_item_link": 22,
+      "source_html_table_placeholder_review": 1
+    },
+    "2002": {
+      "ocr_candidate_layout_review": 23,
+      "source_text_extracted_relevance_unreviewed": 1671,
+      "no_english_digital_item_link": 10,
+      "source_html_table_placeholder_review": 5,
+      "selected_item_failed": 1,
+      "selected_item_not_requested": 289
+    },
+    "2003": {
+      "selected_item_not_requested": 1781,
+      "no_english_digital_item_link": 11
+    },
+    "2004": {
+      "selected_item_not_requested": 1543,
+      "no_english_digital_item_link": 43
+    },
+    "2005": {
+      "selected_item_not_requested": 1836,
+      "no_english_digital_item_link": 24
+    },
+    "2006": {
+      "selected_item_not_requested": 2169,
+      "no_english_digital_item_link": 90
+    },
+    "2007": {
+      "no_english_digital_item_link": 28,
+      "selected_item_not_requested": 2337
+    },
+    "2008": {
+      "selected_item_not_requested": 2371,
+      "no_english_digital_item_link": 7
+    },
+    "2009": {
+      "selected_item_not_requested": 2054,
+      "no_english_digital_item_link": 4
+    },
+    "2010": {
+      "selected_item_not_requested": 2129,
+      "no_english_digital_item_link": 6
+    },
+    "2011": {
+      "selected_item_not_requested": 2287,
+      "no_english_digital_item_link": 1
+    },
+    "2012": {
+      "selected_item_not_requested": 1960,
+      "no_english_digital_item_link": 3
+    },
+    "2013": {
+      "selected_item_not_requested": 2120,
+      "no_english_digital_item_link": 11
+    },
+    "2014": {
+      "selected_item_not_requested": 1719,
+      "no_english_digital_item_link": 15
+    },
+    "2015": {
+      "selected_item_not_requested": 979,
+      "no_english_digital_item_link": 30
+    },
+    "2016": {
+      "selected_item_not_requested": 996,
+      "no_english_digital_item_link": 61
+    },
+    "2017": {
+      "no_english_digital_item_link": 74,
+      "selected_item_not_requested": 1037
+    },
+    "2018": {
+      "selected_item_not_requested": 1104,
+      "no_english_digital_item_link": 67
+    },
+    "2019": {
+      "selected_item_not_requested": 775,
+      "no_english_digital_item_link": 35
+    },
+    "2020": {
+      "selected_item_not_requested": 1020,
+      "no_english_digital_item_link": 14
+    },
+    "2021": {
+      "selected_item_not_requested": 1134,
+      "no_english_digital_item_link": 8
+    },
+    "2022": {
+      "selected_item_not_requested": 1030,
+      "no_english_digital_item_link": 5
+    },
+    "2023": {
+      "selected_item_not_requested": 999
+    },
+    "2024": {
+      "selected_item_not_requested": 419
+    },
+    "2025": {
+      "selected_item_not_requested": 537
+    },
+    "2026": {
+      "selected_item_not_requested": 376
+    }
+  },
+  "notes": "Text extraction is not a relevance or complete-body review; pages, formats and annexes do not add Works."
+}

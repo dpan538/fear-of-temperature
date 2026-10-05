@@ -1,0 +1,3 @@
+source,scope,observed_at_utc,http_status,retry_after_seconds,retry_not_before_utc,evidence_path,effect,next_action
+CELLAR_SPARQL,English_WEMI_1997-02_batch_0001,2026-09-26T14:50:02.881745+00:00,503,1800,2026-09-26T15:20:06Z,raw/wemi_pages/1997/1997-02_batch_0001.request.json,metadata_relationship_harvest_paused_after_1997-01,honor_Retry-After_then_resume_same_checkpoint
+CELLAR_SPARQL,English_WEMI_2007-04_batch_0002,2026-09-26T15:53:43.471788+00:00,503,1800,2026-09-26T16:23:47+00:00,raw/wemi_pages/2007/2007-04_batch_0002.request.json,metadata_relationship_harvest_paused_after_2007-03,honor_Retry-After_then_resume_same_checkpoint
