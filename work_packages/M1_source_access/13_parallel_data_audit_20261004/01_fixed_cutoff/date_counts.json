@@ -1,0 +1,110 @@
+{
+  "generated_at_utc": "2026-10-04T05:16:26.741581+00:00",
+  "input_file_mtimes_utc": {
+    "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb": "2026-09-22T13:37:31.704839+00:00",
+    "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb": "2026-09-27T12:36:23.210504+00:00",
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb": "2026-09-27T15:31:29.765522+00:00",
+    "work_packages/M1_source_access/04_government_corpus_batch/enumeration_manifest.csv": "2026-09-21T01:10:54.754616+00:00",
+    "work_packages/M1_source_access/07_historical_government_acquisition/manifests/policy_manifest.csv": "2026-09-21T10:46:56.488890+00:00",
+    "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_candidate_outcomes.csv": "2026-09-27T07:44:27.327955+00:00"
+  },
+  "units": "UK and US/AU documents are independent parent rows; EU is distinct Work URI; 09 contains a UK copy, not an additional UK corpus",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "uk_original_db": {
+    "parents": 248035,
+    "unknown": 0,
+    "before": 0,
+    "after": 0
+  },
+  "09_source_counts": [
+    {
+      "source_id": "au_dcceew_current_catalogue_2026_snapshot",
+      "parents": 821,
+      "unknown": 819,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 0
+    },
+    {
+      "source_id": "src_3c349b00120866c263a3",
+      "parents": 8448,
+      "unknown": 0,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 0
+    },
+    {
+      "source_id": "src_549acfda11091ff8c9b8",
+      "parents": 136082,
+      "unknown": 0,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 0
+    },
+    {
+      "source_id": "src_90b3a872375c9e7fd267",
+      "parents": 65988,
+      "unknown": 0,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 0
+    },
+    {
+      "source_id": "src_9e8f487d372ed011db82",
+      "parents": 36462,
+      "unknown": 0,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 0
+    },
+    {
+      "source_id": "src_ac30b1ae596ab5ab5379",
+      "parents": 1020,
+      "unknown": 0,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 113
+    },
+    {
+      "source_id": "src_eaf57ccafde8ffd97f7e",
+      "parents": 35,
+      "unknown": 0,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 6
+    },
+    {
+      "source_id": "us_fr_epa_doe_rules_1994",
+      "parents": 33544,
+      "unknown": 0,
+      "before": 0,
+      "after": 0,
+      "utc_day_difference": 0
+    }
+  ],
+  "eu_stage": {
+    "works": 50578,
+    "work_date_rows": 50578,
+    "date_before_start": 0,
+    "date_after_end": 0,
+    "invalid_date": 0,
+    "month_mismatch": 0,
+    "multiple_dates_per_work": 0
+  },
+  "exception_ledger_rows": 938,
+  "exception_types": {
+    "original_publication_date_unresolved": 819,
+    "source_calendar_day_vs_utc_day": 119
+  },
+  "govuk_month_boundary_differences": 3,
+  "govuk_mismatch_rows_without_raw_timestamp": 0,
+  "AU_missing_date_evidence_precision": {
+    "unknown": 813,
+    "month": 4,
+    "year": 2
+  },
+  "AU_CMS_dates_after_cutoff_among_unresolved": 2
+}

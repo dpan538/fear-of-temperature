@@ -1,0 +1,282 @@
+{
+  "generated_at_utc": "2026-10-04T05:32:38.159616+00:00",
+  "study_publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "inputs": [
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "modified_utc": "2026-09-22T13:37:31.704839+00:00",
+      "bytes": 3590598656
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/object_status.csv",
+      "modified_utc": "2026-09-27T08:34:37.109234+00:00",
+      "bytes": 16601766
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/identity_spot_checks.csv",
+      "modified_utc": "2026-09-26T12:57:18.463585+00:00",
+      "bytes": 2307
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_candidate_outcomes.csv",
+      "modified_utc": "2026-09-27T07:44:27.327955+00:00",
+      "bytes": 495599
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/reports/eu_work_dispositions.csv",
+      "modified_utc": "2026-09-27T07:11:32.333129+00:00",
+      "bytes": 24554804
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_article_metadata.csv",
+      "modified_utc": "2026-09-27T13:53:45.893345+00:00",
+      "bytes": 149855
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/media_pilot_review.csv",
+      "modified_utc": "2026-09-27T13:21:44.780413+00:00",
+      "bytes": 4110
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/petition_177_id_date_mapping.csv",
+      "modified_utc": "2026-09-27T14:12:34.368290+00:00",
+      "bytes": 37363
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/public_pilot_review.csv",
+      "modified_utc": "2026-09-27T13:21:44.781449+00:00",
+      "bytes": 23894
+    },
+    {
+      "path": "work_packages/M1_source_access/08_cross_region_government_coverage/au_primary_originals_manifest.csv",
+      "modified_utc": "2026-09-23T06:48:14.880683+00:00",
+      "bytes": 1895
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/FILTER_CONTRACT.md",
+      "modified_utc": "2026-09-26T13:04:01.642701+00:00",
+      "bytes": 5365
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/FILTER_CONTRACT.md",
+      "modified_utc": "2026-09-26T13:39:34.045865+00:00",
+      "bytes": 2003
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/browser_observations.jsonl",
+      "modified_utc": "2026-09-26T17:12:08.590691+00:00",
+      "bytes": 7032
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/reports/html_placeholder_audit.csv",
+      "modified_utc": "2026-09-27T07:08:27.938110+00:00",
+      "bytes": 6518
+    },
+    {
+      "path": "work_packages/M1_source_access/12_project_eda_snapshot_20260927/DATA_MANIFEST.json",
+      "modified_utc": "2026-09-27T15:05:29.030713+00:00",
+      "bytes": 3948
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/targeted_2015_bridge/parent_acceptance.csv",
+      "modified_utc": "2026-09-27T12:41:57.069173+00:00",
+      "bytes": 106968
+    }
+  ],
+  "sample_local_originals": [
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/raw/content/cnt_8f8ae98d42c60f39e771/cntv_8e2f98a27f76dac4054e.html",
+      "modified_utc": "2026-09-21T06:13:04.543957+00:00",
+      "bytes": 73113
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/historical_coverage_recovery/raw/parlparse/wrans/2011/answers2011-04-04a.xml",
+      "modified_utc": "2026-09-22T12:42:07.749417+00:00",
+      "bytes": 928201
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/written_answer_details/2010/10033124000023.json",
+      "modified_utc": "2026-09-21T15:23:14.184855+00:00",
+      "bytes": 2661
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/historic_hansard/volumes/S6CV0243P0.zip",
+      "modified_utc": "2026-09-21T10:49:24.585561+00:00",
+      "bytes": 1888114
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/historic_hansard/volumes/S6CV0270P0.zip",
+      "modified_utc": "2026-09-21T10:49:29.731493+00:00",
+      "bytes": 2330557
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/policy_content/cnt_50e776a48e7bf6b12b52.html",
+      "modified_utc": "2026-09-21T10:47:55.087004+00:00",
+      "bytes": 70011
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/questions_statements_api/lists/answers/201/2019/page_001000.json",
+      "modified_utc": "2026-09-21T12:09:06.960904+00:00",
+      "bytes": 670901
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/questions_statements_api/lists/answers/215/2026/page_002000.json",
+      "modified_utc": "2026-09-21T12:32:33.658562+00:00",
+      "bytes": 152288
+    },
+    {
+      "path": "work_packages/M1_source_access/08_cross_region_government_coverage/evidence/au_primary_originals/au_epbc_policy_2008.pdf",
+      "modified_utc": "2026-09-23T06:48:14.878247+00:00",
+      "bytes": 161071
+    },
+    {
+      "path": "work_packages/M1_source_access/08_cross_region_government_coverage/evidence/au_primary_originals/au_ncras_2015.pdf",
+      "modified_utc": "2026-09-23T06:48:14.603662+00:00",
+      "bytes": 3935644
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/us_fr/1995/1995-06-26_95-14725_:53d69cfa251f6169d2fd3f726a9a2e31.txt",
+      "modified_utc": "2026-09-26T12:33:24.289965+00:00",
+      "bytes": 180320
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/us_fr/1995/1995-09-29_95-24211_:31631feb143bd0f41e9676309491e373.txt",
+      "modified_utc": "2026-09-26T12:49:13.025751+00:00",
+      "bytes": 22346
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/us_fr/1995/1995-11-13_95-24211_:947da9c32e758949d7492c7bafad9229.txt",
+      "modified_utc": "2026-09-26T12:54:00.290194+00:00",
+      "bytes": 22233
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/us_fr/2000/2000-12-22_00-32301_:a3c5c63a5df7e7fac793e6fb66b7fd42.txt",
+      "modified_utc": "2026-09-26T18:25:25.221940+00:00",
+      "bytes": 3506
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/us_fr_govinfo_html/2000/2000-03-08_00-5635_:410f4b271f97a30c51ab5e8afe1dd0fc.htm",
+      "modified_utc": "2026-09-27T00:02:26.419220+00:00",
+      "bytes": 39314
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/raw/items/5e/5ea0edebe9854ae2fd44dff64958a140d7628b093e22c8098a2f967f60268c00.bin",
+      "modified_utc": "2026-09-27T03:37:17.153660+00:00",
+      "bytes": 11549
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/raw/items/78/7872e037c536fb60c701c67fe4fd86de364377d693adcf3002abb2c653bad7d9.bin",
+      "modified_utc": "2026-09-26T17:13:32.666571+00:00",
+      "bytes": 658446
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/raw/items/b4/b48e5eca1f8cdaa9051d81c955e01548582cae116b0887023a6aafd337f5701e.bin",
+      "modified_utc": "2026-09-27T06:26:36.514156+00:00",
+      "bytes": 106647
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/raw/items/db/db5d08e7b6db35dbabbbe15361d8beea020586b87de492efef4114d66bdd31f3.bin",
+      "modified_utc": "2026-09-27T01:07:02.710864+00:00",
+      "bytes": 1723687
+    }
+  ],
+  "review_annotation_path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/review_annotations.json",
+  "frames": [
+    {
+      "frame_id": "UK_HISTORIC",
+      "unit": "independent document parent",
+      "denominator": 136082,
+      "filter": "source_id=src_549acfda11091ff8c9b8; publication_date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "UK_QS_API",
+      "unit": "independent document parent",
+      "denominator": 65988,
+      "filter": "source_id=src_90b3a872375c9e7fd267; publication_date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "UK_HANSARD_ARCHIVE",
+      "unit": "independent document parent",
+      "denominator": 36462,
+      "filter": "source_id=src_9e8f487d372ed011db82; publication_date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "UK_TWFY_MIRROR",
+      "unit": "independent document parent",
+      "denominator": 8448,
+      "filter": "source_id=src_3c349b00120866c263a3; publication_date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "UK_GOVUK_DEFRA",
+      "unit": "independent document parent",
+      "denominator": 1020,
+      "filter": "source_id=src_ac30b1ae596ab5ab5379; publication_date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "UK_GOVUK_HIST",
+      "unit": "independent document parent",
+      "denominator": 35,
+      "filter": "source_id=src_eaf57ccafde8ffd97f7e; publication_date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "US_FR_RAW",
+      "unit": "selected document parent",
+      "denominator": 33523,
+      "filter": "series=us_fr_epa_doe_rules_1994; source_route=federalregister_raw_text; date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "US_GOVINFO_FALLBACK",
+      "unit": "selected document parent",
+      "denominator": 21,
+      "filter": "series=us_fr_epa_doe_rules_1994; source_route=govinfo_html_fallback; date 1988-01-01..2026-09-21"
+    },
+    {
+      "frame_id": "EU_ITEM",
+      "unit": "preparatory Work",
+      "denominator": 47472,
+      "filter": "Works dated 1988-01-01..2026-09-21; selected_item_uri present"
+    },
+    {
+      "frame_id": "EU_NO_ITEM",
+      "unit": "preparatory Work",
+      "denominator": 3106,
+      "filter": "Works dated 1988-01-01..2026-09-21; selected_item_uri absent"
+    },
+    {
+      "frame_id": "AU_ORIGINAL_PAIR",
+      "unit": "catalogue landing parent",
+      "denominator": 8,
+      "filter": "821 deduplicated catalogue landing URLs; original dates only where verified"
+    },
+    {
+      "frame_id": "AU_UNRESOLVED",
+      "unit": "catalogue landing parent",
+      "denominator": 813,
+      "filter": "821 deduplicated catalogue landing URLs; original dates only where verified"
+    },
+    {
+      "frame_id": "GUARDIAN_DEC2015",
+      "unit": "distinct nonvideo article URL",
+      "denominator": 396,
+      "filter": "December 2015 /environment/all; nonvideo; distinct URL"
+    },
+    {
+      "frame_id": "PETITION_QUERY",
+      "unit": "distinct q=climate query petition ID",
+      "denominator": 177,
+      "filter": "official archived q=climate query; 177 distinct IDs; created date within fixed interval"
+    }
+  ],
+  "conventions": [
+    "UK document_id is independent parent; attachments and text segments excluded from counts.",
+    "US document_id/canonical URL is selected parent; document number alone is not unique; later 125-parent EPA bridge is a separate checkpoint, not added here.",
+    "EU work_uri is Work; Expressions/Items/versions do not add Works.",
+    "AU catalogue landing URL is candidate parent, not proven original publication; CMS timestamp is not original date.",
+    "Guardian article URL and petition ID are separate limited pilot frames, never pooled with government counts.",
+    "Rule-derived directness describes route evidence; individually checked fields exist only for 30 sampled parents.",
+    "Snapshot/export timestamps do not change publication endpoint or prove historical body version."
+  ]
+}

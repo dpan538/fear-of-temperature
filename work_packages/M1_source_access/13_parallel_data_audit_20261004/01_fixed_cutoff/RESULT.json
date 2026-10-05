@@ -1,0 +1,59 @@
+{
+  "status": "complete_for_coordinator_review",
+  "fixed_publication_interval": {
+    "start": "1988-01-01",
+    "end": "2026-09-21",
+    "inclusive": true,
+    "September_2026": "partial"
+  },
+  "input_checkpoint": {
+    "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb": "2026-09-22T13:37:31.704839+00:00",
+    "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb": "2026-09-27T12:36:23.210504+00:00",
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb": "2026-09-27T15:31:29.765522+00:00",
+    "work_packages/M1_source_access/04_government_corpus_batch/enumeration_manifest.csv": "2026-09-21T01:10:54.754616+00:00",
+    "work_packages/M1_source_access/07_historical_government_acquisition/manifests/policy_manifest.csv": "2026-09-21T10:46:56.488890+00:00",
+    "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_candidate_outcomes.csv": "2026-09-27T07:44:27.327955+00:00"
+  },
+  "principal_findings": [
+    "First GOV.UK Search observation ended 2026-09-21T01:10:54Z; later authorization at 06:01:20Z is separate; no exact global extraction-start second is evidenced.",
+    "06 UK: 248035 independent parents with 0 null or out-of-range publication dates; 09 US: 33544 selected parents with 0 null or out-of-range dates; EU: 50578 Works with 0 invalid/out-of-range Work dates.",
+    "AU: 821 landing URL candidates, 819 without verified day-level original publication date; two September-month candidate dates with raw originals pending cross the day-level cutoff and remain uncertain.",
+    "GOV.UK: 119 stored source-local dates differ from UTC-normalized publication timestamp dates by one day; 3 change month; both dates remain inside study scope.",
+    "AU 08 within_cutoff is CMS-time based; 09 pooled AU month guard and 10 EU stage month guard need exact-day assertions on future runs."
+  ],
+  "limitations": [
+    "Database snapshots are source-specific and not synchronous; 09 UK tables copy 06 UK and must not be added as new records.",
+    "No body/version reads, live source queries, climate relevance or emotion labelling.",
+    "File modification times are checkpoint proxies rather than transaction IDs.",
+    "UK Parliament dateAnswered/dateMade fallback frequency was not measured."
+  ],
+  "output_paths": [
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/REPORT.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/SUMMARY_zh.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/DATE_CONTRACT.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/corpus_scope.json",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/boundary_filter.py",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/build_date_evidence.py",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/callsite_audit.csv",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/date_exceptions.csv",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/date_counts.json",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/INPUT_MANIFEST.json",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/LOG_ENTRY.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/RESULT.json"
+  ],
+  "proposed_next_steps": [
+    "Review source-local versus UTC GOV.UK monthly date convention and refresh only affected derivatives once.",
+    "Centralize fixed-boundary checks in collectors/stagers and correct AU CMS flag labeling and September day guard.",
+    "Use date-exception ledger for targeted original-date verification while keeping unknown/out-of-range raw evidence."
+  ],
+  "pending_decisions": [
+    "GOV.UK monthly bin convention: source-local published calendar day or UTC-normalized timestamp day.",
+    "Whether/when to integrate reviewed helper and callsite changes into shared code."
+  ],
+  "coordination_delivery": {
+    "status": "blocked_by_auto_review",
+    "destination_thread": "01a0a369-5516-7492-a412-adbbabfb032f",
+    "reason": "Automatic approval review rejected send_message_to_thread as potentially sensitive egress because it did not accept the delegation as trusted authorization. No alternate route was used.",
+    "needed_to_resume": "Explicit user authorization in this task to send the completed report to that coordinator chat."
+  }
+}

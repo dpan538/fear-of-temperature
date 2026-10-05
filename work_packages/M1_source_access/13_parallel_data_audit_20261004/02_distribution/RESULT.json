@@ -1,0 +1,97 @@
+{
+  "status": "complete_with_unresolved_source_frame_checks",
+  "study_publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "partial_month": "2026-09",
+  "input_checkpoint": {
+    "UK": {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "file_mtime_utc": "2026-09-22T13:37:31.704839+00:00",
+      "size_bytes": 3590598656,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-21 14:08:38+08:00",
+        "last_retrieval": "2026-09-22 21:01:49+08:00"
+      }
+    },
+    "US_AU": {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb",
+      "file_mtime_utc": "2026-09-27T12:36:23.210504+00:00",
+      "size_bytes": 6682587136,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-21 14:08:38+08:00",
+        "last_retrieval": "2026-09-27 20:31:31.618256+08:00"
+      }
+    },
+    "EU": {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb",
+      "file_mtime_utc": "2026-09-27T15:31:29.765522+00:00",
+      "size_bytes": 2567188480,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-26T14:28:22.549862+00:00",
+        "last_retrieval": "2026-09-27T15:31:23.954179+00:00"
+      }
+    },
+    "AU_original": {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/au_browser_stage.duckdb",
+      "file_mtime_utc": "2026-09-26T17:12:20.944330+00:00",
+      "size_bytes": 9711616,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-26T14:21:54.536040+00:00",
+        "last_retrieval": "2026-09-26T17:11:42.319813+00:00"
+      }
+    }
+  },
+  "source_specific_snapshots_not_synchronous": true,
+  "principal_findings": [
+    "7,442 monthly/unknown rows across 16 source-genre frames; 465 study months, two UNKNOWN-date rows; 85 reproducible flags and 20 selected anomalies.",
+    "UK historic written answers: 135,689 independent parent IDs but 602 shared linked source objects; DEFRA policy: 1,019 parents, 3,023 objects and 2,008 attachment links.",
+    "US selected EPA/DOE metadata: 33,544 parent records with 18,590 saved content versions; EU frozen COM: 50,578 Works with 19,114 staged Item versions.",
+    "AU current catalogue: 821 candidate URLs, 819 without a main-table publication date; separately verified overlapping subset: five month/day originals and two year-only originals.",
+    "Calendar evidence supports several UK low months; UK 2013-05 official archive is partial and DEFRA 2013-04 has a dated policy-series concentration.",
+    "US 1994 selected-frame gaps, EU 1988-04 date concentration/recent COM lows and UK 2024-08 answer dates remain unresolved.",
+    "Long PDF/attachment texts inflate segment totals; the recorded UK format summary has 1,362 PDFs yielding 2,745,617 line/block segments, not independent parents."
+  ],
+  "limitations": [
+    "Different committed source checkpoints; no synchronized pooled parent total.",
+    "Source-specific IDs and URLs are unique, but cross-source mirror/syndication equivalence is not fully resolved; title/date matches are only candidates.",
+    "Extracted-status columns are not new verification of readable historical text; saved body version is not necessarily the body as published on its original date.",
+    "No climate, affect, risk, anticipated-harm or fear labeling/interpretation was performed.",
+    "Figure PDFs passed text-size audit; automatic collision QA was unavailable because PyMuPDF is not installed."
+  ],
+  "output_paths": {
+    "report": "REPORT.md",
+    "summary_zh": "SUMMARY_zh.md",
+    "input_manifest": "INPUT_MANIFEST.json",
+    "monthly_counts": "monthly_source_genre_counts.csv",
+    "anomaly_ledger": "anomaly_ledger.csv",
+    "unit_duplicate_diagnostics": "unit_and_duplicate_diagnostics.csv",
+    "all_anomaly_scores": "anomaly_scores_all_months.csv",
+    "ordinary_comparisons": "ordinary_comparison_periods.csv",
+    "absolute_peak_context": "absolute_peak_context.csv",
+    "bounded_parent_samples": "bounded_parent_object_samples.csv",
+    "mirror_match_candidates": "cross_source_title_date_candidates.csv",
+    "length_evidence": "long_text_segment_evidence.csv",
+    "repair_list": "REPAIR_LIST.md",
+    "figure_notes": "FIGURE_NOTES.md",
+    "figure_1_png": "figures/figure_01_monthly_intensity.png",
+    "figure_1_svg": "figures/figure_01_monthly_intensity.svg",
+    "figure_1_pdf": "figures/figure_01_monthly_intensity.pdf",
+    "figure_2_png": "figures/figure_02_count_units.png",
+    "figure_2_svg": "figures/figure_02_count_units.svg",
+    "figure_2_pdf": "figures/figure_02_count_units.pdf",
+    "data_script": "build_distribution.py",
+    "figure_script": "plot_distribution.py",
+    "proposed_log": "LOG_ENTRY.md"
+  },
+  "proposed_next_steps": [
+    "Coordinator reconcile source/date units with parallel cutoff and provenance tasks before an integrated conclusion.",
+    "Prioritize bounded DEFRA status/version and 2013-04 date checks; UK 2024-08 original-answer date check; EU 1988-04-05 Work date sample.",
+    "Annotate documented UK dissolution/recess months; investigate 1994 US or recent EU source-class gaps only for a specified analytic window."
+  ],
+  "pending_decisions": [
+    "Coordinator selection of which bounded structural checks to integrate or execute after parallel-task reconciliation.",
+    "No change to the fixed publication endpoint or frozen source filters is proposed."
+  ]
+}
