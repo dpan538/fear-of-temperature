@@ -1,0 +1,60 @@
+{
+  "authorized_by": "Dai: start the next round in one new window; GPT-6.1 Sol Extra High",
+  "released_at_utc": "2026-10-05T08:03:24.457377+00:00",
+  "released_at_cst": "2026-10-05T16:03:24.457377+08:00",
+  "network_deadline_utc": "2026-10-05T10:03:24.457377+00:00",
+  "network_deadline_cst": "2026-10-05T18:03:24.457377+08:00",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "project_id": "8bd0608c-666b-4cd2-be94-04e267f89971",
+  "owner_thread_id": null,
+  "plan_sha256": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "original_months": [
+    "1995-07",
+    "2015-12",
+    "2025-07"
+  ],
+  "geography_strata": [
+    "EU/Europe excluding UK",
+    "UK",
+    "AU",
+    "US",
+    "NZ"
+  ],
+  "slots_per_stratum": 30,
+  "article_target_cap": 150,
+  "first_real_payload_milestone_minutes": 30,
+  "new_candidate_cap_per_stratum": 2,
+  "discovery_requests_per_candidate_cap": 20,
+  "search_responses_per_candidate_cap": 3,
+  "media_lifetime_cap_bytes": 134217728,
+  "accepted_media_prior_bytes": 202002,
+  "government_lifetime_cap_bytes": 2147483648,
+  "government_max_current_failed_Item_validation": 1,
+  "government_max_frozen_unattempted_targets_after_success": 10,
+  "government_historical_saved_candidate_Items": 47,
+  "government_historical_failed": 1,
+  "government_historical_unattempted": 931,
+  "minimum_free_floor_bytes": 16106127360,
+  "minimum_per_source_interval_seconds": 2,
+  "formal_government_database_access": false,
+  "new_windows_or_subagents_allowed": false,
+  "private_evaluator_access": false,
+  "no_new_automation": true,
+  "freeze_prior_packages": true,
+  "language": "English commit titles/descriptions, new logs, outer reports and summaries; frozen originals preserved",
+  "execution_authorized_within_scope": true,
+  "operational_preconditions": [
+    "Targeted offline validation of changed acquisition code",
+    "Saved primary source/access facts for a new route; old explicit refusals and cooldowns preserved",
+    "Code/policy/frame digests recorded before body requests",
+    "Fresh original-reserve-aware budget preflight and per-request checks"
+  ],
+  "coordinator_acceptance": "One final changed-tranche review; no per-field approval cycle",
+  "github_target": "main",
+  "remote_publication": "coordinated after final review"
+}
