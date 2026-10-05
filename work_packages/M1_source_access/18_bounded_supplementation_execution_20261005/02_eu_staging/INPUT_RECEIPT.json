@@ -1,0 +1,96 @@
+{
+  "created_at_utc": "2026-10-04T18:08:50.676077+00:00",
+  "root": "/Users/jarlgiovanni/Desktop/fear_of_temperature",
+  "inputs": {
+    "AGENTS.md": {
+      "bytes": 7960,
+      "sha256": "dda834df60e742dbbab635d866f4a7b15a461f05f9a6e3c3ca49cd580e356b8a",
+      "mtime_ns": 1791135660766738181,
+      "mtime_utc": "2026-10-04T17:41:00.766738+00:00"
+    },
+    "docs/PROJECT_DIRECTION.md": {
+      "bytes": 9127,
+      "sha256": "908b61f4617413474e1670dca57de386fd2f2fb9da5367d96bac3046c01ce9bd",
+      "mtime_ns": 1791090007332158847,
+      "mtime_utc": "2026-10-04T05:00:07.332159+00:00"
+    },
+    "docs/PROJECT_LOG.md": {
+      "bytes": 131470,
+      "sha256": "26630b7e57e9a7f9f3af06ca2d7afe2d45290463ca6f64717577eb723119a0e3",
+      "mtime_ns": 1791136942786655275,
+      "mtime_utc": "2026-10-04T18:02:22.786655+00:00"
+    },
+    "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/COORDINATION.md": {
+      "bytes": 4610,
+      "sha256": "4fea2dec23ebbc0cd1c468d200aea9a5017f327a40916bd71599d01c0d141272",
+      "mtime_ns": 1791136736150686290,
+      "mtime_utc": "2026-10-04T17:58:56.150686+00:00"
+    },
+    "work_packages/M1_source_access/16_post_repair_analysis_20261004/CURRENT_STATE.md": {
+      "bytes": 17535,
+      "sha256": "806001dc8cc293754f402037f6aa4b8627d3d3c7888b718e1f4ac41c967586e7",
+      "mtime_ns": 1791124129251568237,
+      "mtime_utc": "2026-10-04T14:28:49.251568+00:00"
+    },
+    "work_packages/M1_source_access/10_eu_cellar_acquisition/FILTER_CONTRACT.md": {
+      "bytes": 2003,
+      "sha256": "daefe03b2856f774124d95e54f4b68ba4fa2f3a99b5bba86237f92ac5b5973eb",
+      "mtime_ns": 1790429974045864841,
+      "mtime_utc": "2026-09-26T13:39:34.045865+00:00"
+    },
+    "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/control/INITIAL_PREFLIGHT.json": {
+      "bytes": 823,
+      "sha256": "19b69db245b881a48cfeb36ec70b9e8b4f9a37887811f262c4c11ac5c3309701",
+      "mtime_ns": 1791136736373928300,
+      "mtime_utc": "2026-10-04T17:58:56.373928+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/ACQUISITION_CONTRACT.json": {
+      "bytes": 1764,
+      "sha256": "0dc0cfcbac91936ef5f6a7888adecbeeb4466b8752acec9969ee19bca4d6bbec",
+      "mtime_ns": 1791106352270384617,
+      "mtime_utc": "2026-10-04T09:32:32.270385+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv": {
+      "bytes": 1560606,
+      "sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+      "mtime_ns": 1791106352205374921,
+      "mtime_utc": "2026-10-04T09:32:32.205375+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/source_frame_population.csv": {
+      "bytes": 945251,
+      "sha256": "443e3f6217ce72c63f9969cd70d41bce078f21a8305c0602289b888f5f5963fe",
+      "mtime_ns": 1791106352217761407,
+      "mtime_utc": "2026-10-04T09:32:32.217762+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/selected_work_item_relationships.csv": {
+      "bytes": 4027325,
+      "sha256": "288c6127f8bb870ee4b3ba7497afd1e3859b550bb38abceded6e44126918b0a1",
+      "mtime_ns": 1791106352266492689,
+      "mtime_utc": "2026-10-04T09:32:32.266493+00:00"
+    },
+    "work_packages/M1_source_access/16_post_repair_analysis_20261004/eu_selected_item_multiplicity.csv": {
+      "bytes": 150360,
+      "sha256": "c2569eb0b815b3badb7892a8a6918e4b03056864545cf02fae9f66de269e3132",
+      "mtime_ns": 1791123687696539845,
+      "mtime_utc": "2026-10-04T14:21:27.696540+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/REPAIR_READY.json": {
+      "bytes": 3960,
+      "sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+      "mtime_ns": 1791108939295428582,
+      "mtime_utc": "2026-10-04T10:15:39.295429+00:00"
+    },
+    "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv": {
+      "bytes": 4739,
+      "sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+      "mtime_ns": 1791108746293571375,
+      "mtime_utc": "2026-10-04T10:12:26.293571+00:00"
+    }
+  },
+  "existing_target_sidecar_receipts": {},
+  "frozen_manifest_expected_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "scope": "named local preparation inputs only; no evaluator/credentials, formal DB contents or all-corpus scans",
+  "old_files_rewritten": [],
+  "new_downloads": 0,
+  "execution_release_consumed": false
+}

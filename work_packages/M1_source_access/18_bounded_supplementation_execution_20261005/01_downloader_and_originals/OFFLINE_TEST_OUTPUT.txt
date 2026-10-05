@@ -1,0 +1,37 @@
+test_429_invalid_retry_after_has_persistent_default (__main__.Tests.test_429_invalid_retry_after_has_persistent_default) ... ok
+test_A_B_and_old_partials_share_budget (__main__.Tests.test_A_B_and_old_partials_share_budget) ... ok
+test_B_403_stop_without_mutating_A (__main__.Tests.test_B_403_stop_without_mutating_A) ... ok
+test_B_denied_without_explicit_A_stop_acceptance (__main__.Tests.test_B_denied_without_explicit_A_stop_acceptance) ... ok
+test_B_failure_stays_stopped_even_after_elapsed_cooldown (__main__.Tests.test_B_failure_stays_stopped_even_after_elapsed_cooldown) ... ok
+test_B_needs_coordinator_even_with_repair_release (__main__.Tests.test_B_needs_coordinator_even_with_repair_release) ... ok
+test_B_non_manifest_Item_rejected_without_request (__main__.Tests.test_B_non_manifest_Item_rejected_without_request) ... ok
+test_B_stream_cap_preserves_partial_and_persistent_stop (__main__.Tests.test_B_stream_cap_preserves_partial_and_persistent_stop) ... ok
+test_active_inherited_A_cooldown_denies_even_signed_B (__main__.Tests.test_active_inherited_A_cooldown_denies_even_signed_B) ... ok
+test_bad_content_length_and_truncated_body (__main__.Tests.test_bad_content_length_and_truncated_body) ... ok
+test_bad_pdf_and_unapproved_redirect_rejected (__main__.Tests.test_bad_pdf_and_unapproved_redirect_rejected) ... ok
+test_cooldown_survives_rerun_and_elapsed_still_halts (__main__.Tests.test_cooldown_survives_rerun_and_elapsed_still_halts) ... ok
+test_floor_includes_transient_checkpoint_other_reserves (__main__.Tests.test_floor_includes_transient_checkpoint_other_reserves) ... ok
+test_full_B_binding_accepts_then_rejects_wrong_hashes (__main__.Tests.test_full_B_binding_accepts_then_rejects_wrong_hashes) ... ok
+test_global_spacing_across_phase_boundaries (__main__.Tests.test_global_spacing_across_phase_boundaries) ... ok
+test_inactive_and_wrong_committed_plan_rejected (__main__.Tests.test_inactive_and_wrong_committed_plan_rejected) ... ok
+test_independent_B_can_run_A_stays_halted_and_cannot_retry (__main__.Tests.test_independent_B_can_run_A_stays_halted_and_cannot_retry) ... ok
+test_linked_evidence_conflict_rejected (__main__.Tests.test_linked_evidence_conflict_rejected) ... ok
+test_missing_and_modified_A_rejected (__main__.Tests.test_missing_and_modified_A_rejected) ... ok
+test_missing_readiness_denies_A_without_HTTP (__main__.Tests.test_missing_readiness_denies_A_without_HTTP) ... ok
+test_moved_and_wrong_current_checkpoint_rejected (__main__.Tests.test_moved_and_wrong_current_checkpoint_rejected) ... ok
+test_path_spoofing_and_linked_acceptance_rejected (__main__.Tests.test_path_spoofing_and_linked_acceptance_rejected) ... ok
+test_persisted_spacing (__main__.Tests.test_persisted_spacing) ... ok
+test_raw_symlink_rejected (__main__.Tests.test_raw_symlink_rejected) ... ok
+test_real_schema_accepted (__main__.Tests.test_real_schema_accepted) ... ok
+test_redirect_may_not_escape_host_or_limit (__main__.Tests.test_redirect_may_not_escape_host_or_limit) ... ok
+test_reuse_wrong_lineage_length_and_signature (__main__.Tests.test_reuse_wrong_lineage_length_and_signature) ... ok
+test_staged_and_wrong_interval_rejected (__main__.Tests.test_staged_and_wrong_interval_rejected) ... ok
+test_stream_cap_and_partial_preservation (__main__.Tests.test_stream_cap_and_partial_preservation) ... ok
+test_stream_floor_and_shared_cap_checked_inside_stream (__main__.Tests.test_stream_floor_and_shared_cap_checked_inside_stream) ... ok
+test_success_length_signature_hash_and_reuse (__main__.Tests.test_success_length_signature_hash_and_reuse) ... ok
+test_wrong_marker_hash_and_run_rejected (__main__.Tests.test_wrong_marker_hash_and_run_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 32 tests in 4.457s
+
+OK

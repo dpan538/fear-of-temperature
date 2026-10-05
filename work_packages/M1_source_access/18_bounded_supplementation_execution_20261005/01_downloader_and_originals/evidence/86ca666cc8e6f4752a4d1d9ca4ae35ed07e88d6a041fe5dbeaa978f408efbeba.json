@@ -1,0 +1,82 @@
+{
+  "unit_id": "doc_5b740259ea5cdcdbdbdf",
+  "source_id": "src_9e8f487d372ed011db82",
+  "canonical_url": "https://hansard.parliament.uk/Commons/2007-05-17/written-statements/07051786000018/departmental-report#07051786000046",
+  "requested_original": "Hansard statement section ExtId 07051786000018, contribution anchor 07051786000046, date 2007-05-17",
+  "source_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "local_reuse_check": {
+    "unit_id": "doc_5b740259ea5cdcdbdbdf",
+    "canonical_url": "https://hansard.parliament.uk/Commons/2007-05-17/written-statements/07051786000018/departmental-report#07051786000046",
+    "saved_original_reuse": false,
+    "checked_at_utc": "2026-10-04T18:18:42.361007+00:00",
+    "named_paths": [
+      {
+        "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2007/07051786000018.json",
+        "exists": false
+      },
+      {
+        "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2007/07051786000018.json.fetch.json",
+        "exists": true,
+        "bytes": 334,
+        "sha256": "61616e139666622e44f5f5322603e47001ae047ccca9d4c73fb316861783d61f",
+        "historical_fetch": {
+          "url": "https://hansard-api.parliament.uk/debates/debate/07051786000018.json",
+          "final_url": "https://hansard-api.parliament.uk/debates/debate/07051786000018.json",
+          "status": 400,
+          "mime": "application/json",
+          "retrieved_at": "2026-09-21T11:12:46Z",
+          "attempts": 1,
+          "error": "HTTP 400",
+          "sha256": "",
+          "byte_size": 0
+        }
+      },
+      {
+        "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/search/2007/page_000500.json",
+        "exists": true,
+        "bytes": 290499,
+        "sha256": "9f7aa43afd5d97ccc52eb6b1730c4290e457dfc87c3d18856c498584fabac2d7"
+      }
+    ],
+    "reuse_reason": "Search text is not the requested section original; exact historical section raw absent and HTTP400 sidecar retained. Canonical HTML is the bounded alternate."
+  },
+  "attempts": [
+    {
+      "request_url": "https://hansard.parliament.uk/Commons/2007-05-17/written-statements/07051786000018/departmental-report",
+      "status": "failed",
+      "requested_at_utc": "2026-10-04T18:19:15.455980+00:00",
+      "byte_count": 0,
+      "redirects": [],
+      "raw_path": "",
+      "sha256": "",
+      "checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/requests/dbc2ce043142545be24fbb4cf089248c6733557c7feb51c7a26455bfc4d2a2ce.json",
+      "body_verification": "identity/date/content boundary pending",
+      "http_status": 403,
+      "final_url": "https://hansard.parliament.uk/Commons/2007-05-17/written-statements/07051786000018/departmental-report",
+      "response_headers": {
+        "Date": "Sun, 04 Oct 2026 18:19:15 GMT",
+        "Content-Type": "text/html; charset=UTF-8",
+        "Content-Length": "5863"
+      },
+      "error": "RuntimeError: HTTP 403; terminal failed route"
+    }
+  ],
+  "terminal_at_utc": "2026-10-04T18:19:15.622965+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "date_precision": "unknown",
+  "publication_date": null,
+  "remaining_checks": [
+    "No readable original obtained from this bounded route; historical saved search/catalogue evidence retained."
+  ],
+  "terminal_status": "access_restricted",
+  "baseline_source_date": "2007-05-17",
+  "baseline_existing_evidence": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/search/2007/page_000500.json;{\"attempts\":1,\"byte_size\":0,\"error\":\"HTTP 400\",\"final_url\":\"https://hansard-api.parliament.uk/debates/debate/07051786000018.json\",\"mime\":\"application/json\",\"retrieved_at\":\"2026-09-21T11:12:46Z\",\"sha256\":\"\",\"status\":400,\"url\":\"https://hansard-api.parliament.uk/debates/debate/07051786000018.json\"}",
+  "actual_attempt_status": "attempted_official_HTML_returned_403",
+  "triggering_http_checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/requests/dbc2ce043142545be24fbb4cf089248c6733557c7feb51c7a26455bfc4d2a2ce.json",
+  "triggering_http_checkpoint_sha256": "94c2abdd1a2d8b0223aba9d64b74b1c53046655c6663fe76b6bcb1ee3ec9d5a3",
+  "section_ext_id": "07051786000018",
+  "contribution_anchor": "07051786000046"
+}

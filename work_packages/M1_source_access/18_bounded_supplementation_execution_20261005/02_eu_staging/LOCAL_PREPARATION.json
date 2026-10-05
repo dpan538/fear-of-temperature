@@ -1,0 +1,132 @@
+{
+  "status": "waiting_for_coordinator_EU_release",
+  "preparation_status": "complete",
+  "prepared_at_utc": "2026-10-04T18:08:50.676077+00:00",
+  "prepared_at_local": "2026-10-05T02:08:50.676077+08:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "september_2026_partial": true,
+  "tranche_interval": [
+    "2015-01-01",
+    "2015-12-31"
+  ],
+  "manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "target_count": 979,
+  "enumerated_Works": 1009,
+  "no_link_Works": 30,
+  "months": 12,
+  "multiple_alternative_Works": 973,
+  "multiple_Items_in_selected_PDF_manifestation_Works": 253,
+  "single_Item_selected_manifestation_Works": 726,
+  "max_selected_manifestation_Items": 10,
+  "local_state_counts": {
+    "unrequested": 979
+  },
+  "observed_raw_target_paths": 0,
+  "observed_request_sidecars": 0,
+  "observed_partial_paths": 0,
+  "local_raw_hash_reads": 0,
+  "local_raw_bytes_hashed": 0,
+  "HTTP_requests_this_preparation": 0,
+  "new_downloads": 0,
+  "complete_readable_Works_verified": 0,
+  "formal_database_reads": 0,
+  "formal_database_writes": 0,
+  "extraction_runs": 0,
+  "downloader_imports_or_edits": 0,
+  "checks": [
+    {
+      "check": "frozen manifest digest matches explicit coordination and contract",
+      "passed": true
+    },
+    {
+      "check": "979 unique Work and selected Item identities",
+      "passed": true
+    },
+    {
+      "check": "all 12 consecutive months",
+      "passed": true
+    },
+    {
+      "check": "source genre issuer language and parent-unit contract",
+      "passed": true
+    },
+    {
+      "check": "fixed study/tranche intervals preserved",
+      "passed": true
+    },
+    {
+      "check": "all target source dates in correct 2015 month",
+      "passed": true
+    },
+    {
+      "check": "frozen HTTPS request routes unchanged",
+      "passed": true
+    },
+    {
+      "check": "1009 population Works and 30 no-link outcomes retained",
+      "passed": true
+    },
+    {
+      "check": "target selection matches source population",
+      "passed": true
+    },
+    {
+      "check": "five released A rows supersede old provisional three",
+      "passed": true
+    },
+    {
+      "check": "bounded relationship and multiplicity populations match targets",
+      "passed": true
+    },
+    {
+      "check": "253 selected PDF Manifestations with multiple Items and 726 single-Item",
+      "passed": true
+    },
+    {
+      "check": "973 multi-alternative Works retained",
+      "passed": true
+    },
+    {
+      "check": "all 979 targets accounted for without HTTP attempt",
+      "passed": true
+    },
+    {
+      "check": "original manifest unchanged after preparation",
+      "passed": true
+    }
+  ],
+  "checks_passed": 15,
+  "A_before_B": {
+    "released_A_manifest_rows": 5,
+    "A_terminal_outcomes_reviewed": false,
+    "A_consumed_new_raw_bytes": "pending final accounting; not assumed zero"
+  },
+  "gates": {
+    "execution_followup_received": false,
+    "EU_STAGING_RELEASE_exists_at_snapshot": false,
+    "EU_STAGING_RELEASE_read_or_validated": false,
+    "old_repair_release_alone_is_insufficient": true,
+    "downloader_acceptance": "Task3/coordinator pending; downloader not executed here"
+  },
+  "budget": {
+    "aggregate_new_raw_cap_A_plus_B_bytes": 2147483648,
+    "retained_partials_count_toward_cap": true,
+    "A_budget_remaining_for_B": "pending coordinator accepted A accounting",
+    "free_bytes": 20646326272,
+    "free_gib": 19.228389739990234,
+    "existing_reserve_bytes": 3388334336,
+    "floor_bytes": 16106127360,
+    "projected_remaining_gib_before_new_A_accounting": 16.072757482528687,
+    "snapshot_storage_above_reserve_and_floor": true,
+    "fresh_execution_recheck_required": true
+  },
+  "limits": [
+    "Path absence/presence is not download success or readability evidence.",
+    "Saved relationship multiplicity does not identify all sibling roles or certify any complete Work.",
+    "No alternate, sibling or annex target added; no sealed reviewer code or credential located/read/probed."
+  ],
+  "next_action": "Task3 completes runner/offline validation and final-five terminal A/budget accounting; coordinator accepts, signs EU_STAGING_RELEASE.json and sends this window an execution follow-up. Then use accepted runner for unchanged 979 targets."
+}

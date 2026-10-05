@@ -1,0 +1,28 @@
+{
+  "checked_at_utc": "2026-10-04T18:32:38.358465+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "repair_release_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/REPAIR_READY.json",
+  "repair_release_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+  "A_source_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+  "A_source_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "B_frozen_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv",
+  "B_frozen_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "contract_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/ACQUISITION_CONTRACT.json",
+  "contract_sha256": "0dc0cfcbac91936ef5f6a7888adecbeeb4466b8752acec9969ee19bca4d6bbec",
+  "database_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "database_hash_or_scan_performed": false,
+  "linked_repair_evidence_sha256": {
+    "ACCEPTANCE.json": "1125c6052001852905fac76815859f3b2734ba62f68e1aa262cb1042dd2b72eb",
+    "RESULT.json": "32f1eb55742dc1619e91362a54508b31c45b16c2487650e7febeba24adea4b15",
+    "CHANGE_MANIFEST.json": "32a3996a36ce2b664b4976db2a546ef9753f37d68f7a6c5e8bc26572d8825704",
+    "APPLIED.json": "9ff543c6556acd4e723702c1019d0a6848bdaf1a259fd352ae247960b8af13ea"
+  },
+  "named_local_reuse_checks_sha256": "f4df834c72811654a9ed4ce32645026f77aa10a28a42b5f9d55ba644b6b89fae"
+}

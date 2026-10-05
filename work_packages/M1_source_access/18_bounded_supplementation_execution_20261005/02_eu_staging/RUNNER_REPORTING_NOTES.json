@@ -1,0 +1,12 @@
+{
+  "notes": [
+    {
+      "field": "EXECUTION_RESULT.json.downloads_started",
+      "saved_value": false,
+      "interpretation": "carried forward from preflight; execution attempted_items/phase request count/checkpoints show 21 real HTTP attempts",
+      "correction_in_this_derived_result": "downloads_started=true; original runtime receipt preserved unchanged"
+    }
+  ],
+  "downloader_modified_by_this_worker": false,
+  "runtime_receipt_modified": false
+}

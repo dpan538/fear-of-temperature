@@ -1,0 +1,26 @@
+{
+  "parent_id": "http://publications.europa.eu/resource/cellar/3a64825c-a7a7-11e4-8e01-01aa75ed71a1",
+  "item_uri": "http://publications.europa.eu/resource/cellar/3a64825c-a7a7-11e4-8e01-01aa75ed71a1.0019.02/DOC_1",
+  "expression_uri": "http://publications.europa.eu/resource/cellar/3a64825c-a7a7-11e4-8e01-01aa75ed71a1.0019",
+  "manifestation_uri": "http://publications.europa.eu/resource/cellar/3a64825c-a7a7-11e4-8e01-01aa75ed71a1.0019.02",
+  "publication_dates": "2015-01-29",
+  "request_url": "https://publications.europa.eu/resource/cellar/3a64825c-a7a7-11e4-8e01-01aa75ed71a1.0019.02/DOC_1",
+  "format": "pdf1x",
+  "status": "downloaded_candidate_original",
+  "requested_at_utc": "2026-10-04T18:38:05.238995+00:00",
+  "byte_count": 50680,
+  "redirects": [],
+  "raw_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/7c/7c0884445efc380156c96aa0f13ce013722d3971bb4fa1d3e1dfe6e84fda7e76.bin",
+  "sha256": "2d80be67710eba75391a7aa6564b45e8950f33dfccf977b7582046b83e076ee7",
+  "checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/de607d0394033e5818e1c14b29e0b94e9219fd6994ce5d7595b5db1b51ef28cc.json",
+  "body_verification": "identity/date/content boundary pending",
+  "http_status": 200,
+  "final_url": "https://publications.europa.eu/resource/cellar/3a64825c-a7a7-11e4-8e01-01aa75ed71a1.0019.02/DOC_1",
+  "response_headers": {
+    "Date": "Sun, 04 Oct 2026 18:38:07 GMT",
+    "Content-Type": "application/pdf;charset=UTF-8",
+    "ETag": "\"Con-20250625140710000\"",
+    "Last-Modified": "Wed, 25 Jun 2025 12:07:10 GMT"
+  },
+  "retrieved_at_utc": "2026-10-04T18:38:07.939951+00:00"
+}

@@ -1,0 +1,12 @@
+{
+  "status": "passed",
+  "tests_run": 24,
+  "failures": 0,
+  "errors": 0,
+  "network_attempts": [],
+  "code_sha256": "86f5055124a482c74350d10db5e7046de6754bd62e5a279b4de6ae56fda6f2f8",
+  "fixture_source_sha256": "794414a4b5d37306f0a0dd85107ccaf0b73f747f6bbd626682b74c32eb330272",
+  "database_queries_by_coordinator": 0,
+  "worker_offline_receipt_unchanged": true,
+  "checked_at_utc": "2026-10-04T18:19:01.183827+00:00"
+}

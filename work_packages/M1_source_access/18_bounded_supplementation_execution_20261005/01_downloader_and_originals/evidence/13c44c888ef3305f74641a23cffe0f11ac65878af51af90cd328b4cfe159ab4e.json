@@ -1,0 +1,63 @@
+{
+  "unit_id": "doc:7c7006b4ea3168ebe548e229915d853b",
+  "source_id": "au_dcceew_current_catalogue_2026_snapshot",
+  "canonical_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+  "requested_original": "Original title/imprint/publication page and primary-file mapping",
+  "source_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "local_reuse_check": {
+    "unit_id": "doc:7c7006b4ea3168ebe548e229915d853b",
+    "canonical_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+    "saved_original_reuse": false,
+    "checked_at_utc": "2026-10-04T18:18:42.368279+00:00",
+    "named_paths": [
+      {
+        "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/au_landing/:34061410925e9a21173e7ba2e0b8642d.html",
+        "request_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+        "exists": false,
+        "checkpoint_exists": false
+      },
+      {
+        "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/au_files/:48193019bc4bb868d4761a636a142b5d.pdf",
+        "request_url": "https://www.dcceew.gov.au/sites/default/files/documents/interim-report-fugitive-methane-expert-panel.pdf",
+        "exists": false,
+        "checkpoint_exists": false
+      }
+    ],
+    "prior_primary_link_evidence": {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_attachment_candidates.csv",
+      "sha256": "049b0d3dd1ada0c4207027aded7df7ffc456b117e6a04c112a136a92c7c633bb",
+      "matched_rows": [
+        {
+          "landing_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+          "url": "https://www.dcceew.gov.au/sites/default/files/documents/interim-report-fugitive-methane-expert-panel.pdf",
+          "label": "Enhancing Australia's Fugitive Methane Emissions Estimates: Consideration of Atmospheric Measurement Approaches - an Interim Report (PDF)",
+          "role_candidate": "main_or_alternate_candidate",
+          "format": "pdf",
+          "role_status": "unverified_candidate"
+        }
+      ]
+    },
+    "reuse_reason": "Exact URL-derived landing and primary-file paths checked; catalogue or prior web observations alone are not saved original bytes."
+  },
+  "attempts": [],
+  "terminal_at_utc": "2026-10-04T18:19:15.625123+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "date_precision": "unknown",
+  "publication_date": null,
+  "remaining_checks": [
+    "Official route not attempted after persistent access/safety stop; availability and identity remain untested."
+  ],
+  "terminal_status": "stopped_safety_or_access",
+  "stop_reason": "RuntimeError: HTTP 403; terminal failed route",
+  "baseline_source_date": null,
+  "baseline_existing_evidence": "{\"attachment_role_status\":\"primary_file_unknown\",\"cms_created_at\":\"2026-09-17T13:46:01+10:00\",\"date_precision\":\"unknown\",\"date_value\":null,\"document_id\":\"doc:7c7006b4ea3168ebe548e229915d853b\",\"metadata_snapshot_path\":\"work_packages/M1_source_access/08_cross_region_government_coverage/au_dcceew_catalogue_rows.csv\",\"original_publisher\":null,\"raw_partition\":\"0\",\"source_series\":\"au_dcceew_current_catalogue_2026_snapshot\",\"source_status\":\"catalogue_candidate\"}",
+  "actual_attempt_status": "not_attempted_after_global_access_stop",
+  "triggering_http_checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/requests/dbc2ce043142545be24fbb4cf089248c6733557c7feb51c7a26455bfc4d2a2ce.json",
+  "triggering_http_checkpoint_sha256": "94c2abdd1a2d8b0223aba9d64b74b1c53046655c6663fe76b6bcb1ee3ec9d5a3",
+  "cms_created_at_not_publication_date": "2026-09-17T13:46:01+10:00",
+  "original_publication_date_verified": false,
+  "date_scope_status": "unresolved; CMS timestamp does not prove publication date or exclusion"
+}

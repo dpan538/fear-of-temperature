@@ -1,0 +1,10 @@
+{
+  "accepted_at_utc": "2026-10-04T18:11:51.885285+00:00",
+  "status": "local_preparation_accepted_with_HTTP_still_gated",
+  "checks_passed": 15,
+  "targets": 979,
+  "result_sha256": "4e04a44ac9c0e2c2a6b187b73e8c92de736c0e6c52d1f6e042fef384863bbf1a",
+  "target_status_sha256": "a450707d3b9b36d4f2dc3b9b12a04d828262ccc85fee33c9b971c83d687b6d30",
+  "EU_HTTP_authorized_by_this_receipt": false,
+  "pending": "downloader readiness and final-five accounting acceptance"
+}

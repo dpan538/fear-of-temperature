@@ -1,0 +1,19 @@
+{
+  "request_url": "https://hansard.parliament.uk/Commons/2007-05-17/written-statements/07051786000018/departmental-report",
+  "status": "failed",
+  "requested_at_utc": "2026-10-04T18:19:15.455980+00:00",
+  "byte_count": 0,
+  "redirects": [],
+  "raw_path": "",
+  "sha256": "",
+  "checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/requests/dbc2ce043142545be24fbb4cf089248c6733557c7feb51c7a26455bfc4d2a2ce.json",
+  "body_verification": "identity/date/content boundary pending",
+  "http_status": 403,
+  "final_url": "https://hansard.parliament.uk/Commons/2007-05-17/written-statements/07051786000018/departmental-report",
+  "response_headers": {
+    "Date": "Sun, 04 Oct 2026 18:19:15 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Content-Length": "5863"
+  },
+  "error": "RuntimeError: HTTP 403; terminal failed route"
+}

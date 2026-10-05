@@ -1,0 +1,173 @@
+--- stage_frozen_items.v2.py
++++ stage_frozen_items.py
+@@ -13,6 +13,7 @@
+ from contextlib import contextmanager
+ from datetime import datetime, timedelta, timezone
+ from email.utils import parsedate_to_datetime
++from functools import lru_cache
+ from pathlib import Path
+ from urllib.parse import urljoin, urlsplit
+ 
+@@ -29,8 +30,10 @@
+ HEAVY = WP/'14_structural_validation_20261004/control/heavy_io.lock'
+ DOWNLOAD_LOCK = HERE/'download.lock'
+ STATE = A_OUT/'SHARED_HTTP_STATE.json'
++B_STATE = B_OUT/'PHASE_HTTP_STATE.json'
++GLOBAL_STATE = A_OUT/'GLOBAL_REQUEST_SPACING.json'
+ EU_RELEASE = STAGE/'control/EU_STAGING_RELEASE.json'
+-VERSION = 'bounded_staging_v2_20261005'
++VERSION = 'bounded_staging_v3_20261005'
+ INTERVAL = ['1988-01-01', '2026-09-21']
+ RUN = 'repair_20261004_task3_v1'
+ RULE = 'targeted_structural_repair_v1_20261004'
+@@ -233,7 +236,19 @@
+                 'frozen_b_manifest_sha256': B_SHA, 'run_id': RUN, 'fixed_publication_interval': INTERVAL,
+                 'post_checkpoint': repair_evidence['post_checkpoint'], **validate_a_accounting()}
+     bindings['downloader_ready_sha256'] = hash_file(A_OUT/'DOWNLOADER_READY.json')
++    # A HTTP evidence is frozen. Independent B can only start after explicit
++    # coordinator acceptance of the named A stop, with its exact digest.
++    require(STATE.is_file() and not STATE.is_symlink(), 'A HTTP stop evidence missing')
++    a_state = load_json(STATE)
++    bindings.update(a_http_state_sha256=hash_file(STATE), a_http_stop_accepted=True,
++                    a_http_stop_reason=a_state.get('stop_reason'),
++                    authorized_phase='B', authorized_b_hosts=['op.europa.eu', 'publications.europa.eu'])
+     require(all(release.get(k) == v for k,v in bindings.items()), 'Coordinator EU release binding mismatch')
++    require(a_state.get('halted') is True and a_state.get('request_count') == 1
++            and 'HTTP 403' in str(a_state.get('stop_reason')), 'Only the named A Hansard 403 is accepted for phase separation')
++    require(not active_cooldown(a_state), 'Active inherited A cooldown; B forbidden')
++    b_state = load_json(B_STATE) if B_STATE.exists() else {}
++    require(not b_state.get('halted') and not active_cooldown(b_state), 'Persistent B stop/cooldown; no automatic restart')
+     require(hash_file(HERE/'frozen_acquisition_manifest.csv') == B_SHA, 'Frozen B manifest changed')
+     return bindings
+ 
+@@ -278,23 +293,47 @@
+     return {**meta, 'status': 'verified_local_reuse', 'raw_path': str(path), 'new_raw_bytes': 0}
+ 
+ 
+-def network_guard():
+-    state = load_json(STATE) if STATE.exists() else {}
++def active_cooldown(state):
++    until = state.get('retry_not_before_utc')
++    return bool(until and datetime.now(timezone.utc) < datetime.fromisoformat(until))
++
++
++def phase_gate(phase='A', repair_evidence=None):
++    require(phase in {'A','B'}, 'Unknown HTTP phase')
++    if phase == 'B':
++        require(repair_evidence is not None, 'B requires explicit coordinator release')
++        eu_release_check(repair_evidence)
++    state_path = STATE if phase == 'A' else B_STATE
++    state = load_json(state_path) if state_path.exists() else {}
+     require(not state.get('halted'), 'Persistent HTTP stop: '+str(state.get('stop_reason', 'unresolved failed attempt')))
+     cooldown = state.get('retry_not_before_utc')
+     require(not cooldown or datetime.now(timezone.utc) >= datetime.fromisoformat(cooldown), 'Persisted Retry-After/429 cooldown active')
+-    last = state.get('last_request_finished_utc') or state.get('last_request_started_utc')
+-    if last:
+-        delay = 2-(datetime.now(timezone.utc)-datetime.fromisoformat(last)).total_seconds()
++    require(not active_cooldown(state), 'Persisted Retry-After/429 cooldown active')
++    return state_path, state
++
++
++def network_guard(phase='A', repair_evidence=None):
++    state_path, state = phase_gate(phase, repair_evidence)
++    # Preserve spacing across phases and process restarts, including V2's
++    # already completed A request, without modifying its stopped evidence.
++    timestamps = []
++    for p in [STATE, B_STATE, GLOBAL_STATE]:
++        previous = load_json(p) if p.exists() else {}
++        for k in ['last_request_finished_utc','last_request_started_utc']:
++            if previous.get(k): timestamps.append(datetime.fromisoformat(previous[k]))
++    if timestamps:
++        delay = 2-(datetime.now(timezone.utc)-max(timestamps)).total_seconds()
+         if delay > 0:
+             time.sleep(delay)
+     state['last_request_started_utc'] = now()
+     state['request_count'] = state.get('request_count', 0)+1
+-    save_json(STATE, state)
+-
+-
+-def network_finished(response=None, error=None):
+-    state = load_json(STATE)
++    save_json(state_path, state)
++    save_json(GLOBAL_STATE, {'last_request_started_utc':state['last_request_started_utc'], 'phase':phase})
++
++
++def network_finished(response=None, error=None, phase='A'):
++    state_path = STATE if phase == 'A' else B_STATE
++    state = load_json(state_path)
+     state['last_request_finished_utc'] = now()
+     if error:
+         state.update(halted=True, stop_reason=error)
+@@ -311,7 +350,15 @@
+             state.update(retry_not_before_utc=until.isoformat(), halted=True, stop_reason='Retry-After/429; no automatic resumption')
+         elif response.status_code in {401, 403}:
+             state.update(halted=True, stop_reason='HTTP access restriction '+str(response.status_code))
+-    save_json(STATE, state)
++    save_json(state_path, state)
++    save_json(GLOBAL_STATE, {'last_request_finished_utc':state['last_request_finished_utc'], 'phase':phase})
++
++
++@lru_cache(maxsize=2)
++def frozen_b_rows(path):
++    rows = list(csv.DictReader(Path(path).open()))
++    require(len(rows) == 979 and len({r['item_uri'] for r in rows}) == 979, 'Frozen B target identities mismatch')
++    return {r['item_uri']:r for r in rows}
+ 
+ 
+ def stream_one(row, contract, output_dir=None, kind='pdf', allowed_hosts=None):
+@@ -325,6 +372,10 @@
+         ok, _, evidence = release_check(contract, hash_file(MARKER), locked=True)
+         require(ok, 'Fresh committed repair release failed')
+         eu_release_check(evidence)
++        frozen = frozen_b_rows(str(HERE/'frozen_acquisition_manifest.csv')).get(row.get('item_uri'))
++        require(frozen and all(row.get(k) == frozen[k] for k in ['parent_id','item_uri','expression_uri','manifestation_uri','publication_dates','request_url','format','staging_path','max_object_bytes']), 'B object differs from frozen selected Item')
++        require(kind == 'pdf' and (allowed_hosts is None or set(allowed_hosts) == {'publications.europa.eu','op.europa.eu'}), 'B hosts/kind cannot expand frozen scope')
++        phase = 'B'
+     else:
+         ready = load_json(A_OUT/'DOWNLOADER_READY.json')
+         require(ready.get('status') == 'ready' and ready.get('downloader_sha256') == code_hash()
+@@ -332,6 +383,10 @@
+         require(row.get('unit_id') in A_IDS, 'A route not associated with final five requests')
+         ok, _, _ = release_check(contract, ready['repair_release_sha256'], locked=True)
+         require(ok, 'Fresh A repair release failed')
++        phase = 'A'
++        evidence = None
++    # Reject stopped phases before creating or altering any attempt evidence.
++    phase_gate(phase,evidence)
+     path = output_dir/row['staging_path']
+     require(path.resolve().is_relative_to((output_dir/'raw').resolve()), 'Target path escaped raw staging')
+     cp = output_dir/'requests'/((hashlib.sha256(row['request_url'].encode()).hexdigest())+'.json')
+@@ -344,18 +399,20 @@
+     meta.update(status='attempt_in_progress', requested_at_utc=now(), byte_count=0, redirects=[], raw_path='', sha256='', checkpoint_path=str(cp.relative_to(ROOT)), body_verification='identity/date/content boundary pending')
+     save_json(cp, meta)  # Persist attempted state before HTTP; an interrupted process cannot retry.
+     response = None
++    http_attempted = False
+     try:
+         url = row['request_url']
+         allowed_hosts = set(allowed_hosts or {'publications.europa.eu','op.europa.eu'})
+         for redirect in range(3):
+             require(urlsplit(url).scheme == 'https' and urlsplit(url).hostname in allowed_hosts, 'Unapproved request/redirect host')
+-            network_guard()
++            network_guard(phase,evidence)
++            http_attempted = True
+             try:
+                 response = requests.get(url, headers={'User-Agent':'FearTemperatureResearch/1.0 (public academic source acquisition)', 'Accept':'application/pdf' if kind=='pdf' else 'text/html', 'Accept-Encoding':'identity'}, stream=True, allow_redirects=False, timeout=(15,90))
+             except Exception as exc:
+-                network_finished(error=type(exc).__name__+': '+str(exc)[:300]); raise
++                network_finished(error=type(exc).__name__+': '+str(exc)[:300],phase=phase); raise
+             meta.update(http_status=response.status_code, final_url=response.url, response_headers={k:v for k,v in response.headers.items() if k.lower() in {'date','content-type','content-length','etag','last-modified','retry-after','content-disposition','location','content-encoding'}})
+-            network_finished(response)
++            network_finished(response,phase=phase)
+             if response.status_code not in {301,302,303,307,308}:
+                 break
+             require(redirect < 2 and response.headers.get('Location'), 'Redirect bound exceeded/missing Location')
+@@ -388,7 +445,8 @@
+             meta.update(partial_path=str(part.relative_to(ROOT)), partial_sha256=hash_file(part), byte_count=part.stat().st_size)
+         # Ordinary bounded 404/410 is a terminal route, not a replacement queue.
+         if meta.get('http_status') not in {404,410}:
+-            if STATE.exists(): network_finished(error=meta['error'])
++            state_path = STATE if phase == 'A' else B_STATE
++            if http_attempted and state_path.exists(): network_finished(error=meta['error'],phase=phase)
+     finally:
+         if response is not None: response.close()
+         save_json(cp,meta)

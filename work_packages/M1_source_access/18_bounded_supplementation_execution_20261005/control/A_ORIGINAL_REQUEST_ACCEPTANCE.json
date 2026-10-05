@@ -1,0 +1,17 @@
+{
+  "accepted_at_utc": "2026-10-04T18:26:45.445159+00:00",
+  "status": "five_request_accounting_accepted_with_original_acquisition_incomplete",
+  "request_ledger_sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+  "accounting_sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f",
+  "A_http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+  "actually_attempted": 1,
+  "HTTP403_results": 1,
+  "not_attempted_after_stop": 4,
+  "new_raw_bytes": 0,
+  "active_inherited_cooldown": false,
+  "A_halt_must_remain": true,
+  "A_retry_authorized": false,
+  "B_transition": "explicit separate-source coordinator release pending revised offline verification",
+  "EU_HTTP_authorized_by_this_receipt": false,
+  "formal_database_writes": 0
+}

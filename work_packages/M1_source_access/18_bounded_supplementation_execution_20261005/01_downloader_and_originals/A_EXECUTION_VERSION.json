@@ -1,0 +1,17 @@
+{
+  "recorded_at_utc": "2026-10-04T18:28:50.593876+00:00",
+  "execution_version": "bounded_staging_v2_20261005",
+  "execution_code_sha256": "86f5055124a482c74350d10db5e7046de6754bd62e5a279b4de6ae56fda6f2f8",
+  "readiness_before_A_HTTP_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/DOWNLOADER_READY.v2.json",
+  "readiness_before_A_HTTP_sha256": "30d43bc54122cd023d64ea82d325e9bd423f461fb7480aeee9f82ade8a3e707b",
+  "v2_tests_sha256": "758cb330e4175a4fcca782c11f3e0e0d23cf3b056a41b62a058ec07bc6fe48a3",
+  "v2_patch_sha256": "56444c9715a487391116426cd59ebdda856ce2206b6505aa75109ac2a5608ec4",
+  "A_accounting_sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f",
+  "A_ledger_sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+  "A_http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+  "A_HTTP_requests": 1,
+  "original_candidates": 0,
+  "original_raw_bytes": 0,
+  "all_five_terminal_dispositions": true,
+  "A_stopped_state_retained": true
+}
