@@ -1,0 +1,20 @@
+{
+  "version": "us_au_monthly_parent_usability_v1",
+  "US": {
+    "parent_unit": "unique Federal Register canonical document URL",
+    "requirements": ["verified selected API partition", "day-level publication_date", "EPA or DOE hierarchy association", "hash-verified saved original text", "at least one nonempty source-extracted and cleaned segment"],
+    "unassessed": ["warming/fear relevance", "statistical sufficiency"]
+  },
+  "AU": {
+    "parent_unit": "verified original publication Work, not catalogue card or file",
+    "requirements": ["independent original publisher and issue-month evidence", "verified landing-to-primary-file relation", "hash-verified saved primary bytes", "readable extracted and cleaned primary text"],
+    "year_only_disposition": "retained for historical reading but excluded from exact-month usable count",
+    "unassessed": ["warming/fear relevance", "full 821-page Work boundary audit"]
+  },
+  "shared": {
+    "attachments_and_versions": "do not increase independent parent count",
+    "segments": "processing scale only; never sample size",
+    "unknown_month": "not converted to zero",
+    "ethics": "project-authorised collection; no UQ approval or exemption asserted"
+  }
+}
