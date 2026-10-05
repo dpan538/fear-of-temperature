@@ -1,0 +1,6 @@
+region_layer,planned_original_slots,original_source_parents,new_candidate_parents,verified_full_bodies,original_unfilled_slots,scope_changed_not_applicable_slots,scope_changed_empty_search_slots
+EU_Europe,30,0,0,0,30,10,5
+UK,30,0,0,0,30,0,0
+AU,30,0,0,0,30,0,0
+US,30,0,0,0,30,0,0
+NZ,30,0,0,0,30,0,0

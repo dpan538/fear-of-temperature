@@ -1,0 +1,31 @@
+{
+  "input": "19 accepted prototype/schema V2, saved-only reviewer inspection; no DB write/read query",
+  "issues": [
+    {
+      "id": "MEDIA-PERSISTENCE",
+      "evidence": "prototype.py setup_db() unlinks existing media_pilot.sqlite before rebuild",
+      "required": "New execution stores persistent real pilot data; additive/idempotent writes, transactional failure rollback, no default deletion/rebuild that discards earlier article/version/request evidence."
+    },
+    {
+      "id": "MEDIA-150-CAP",
+      "evidence": "PILOT_SCOPE max_body_checks_per_source_month=1 vs5 slots per cell",
+      "required": "Only new20 scope allows5 body checks/cell, total150; old scope and slots retain exact bytes/history; partial enumeration not monthly census."
+    },
+    {
+      "id": "MEDIA-SLOT-FRAME",
+      "evidence": "sample_slot and frame_membership accept any existing parent FK; no source/edition agreement with frame.source_era",
+      "required": "Guard insert and update of slot/frame-membership/era linkage so a parent from another outlet/edition cannot fill a frame; actual month eligibility separately validated from publication date evidence."
+    },
+    {
+      "id": "MEDIA-PROVENANCE-VERSION",
+      "evidence": "provenance_assertion.parent_id and version_id are independent FKs; article_version parent can disagree",
+      "required": "Reject parent/version disagreement for insert/update when version supplied; date/conflicting provenance should remain unknown/conflict, not coerced."
+    },
+    {
+      "id": "MEDIA-REAL-BODY",
+      "evidence": "V2 parse_article returns only count/status and initial build_pilot unconditionally new_full_bodies=0",
+      "required": "Only when actually acquired, store exact extracted body/hash with raw-to-version evidence; previews/challenges/multi-Article mismatches not certified full body. Structural presence is not completeness; avoid phantom actual counts."
+    }
+  ],
+  "verification_style": "Targeted falsification/rollback/boundary checks for real changed behavior, not score targets or implementation-mirroring tests; consolidate with owner candidate package."
+}

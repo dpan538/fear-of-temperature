@@ -1,0 +1,16 @@
+{
+  "checked_at_utc": "2026-10-05T03:31:36.868324+00:00",
+  "release_sha256": "288c593aa84bd2dbbcb63d9552503df2d3d0150d1e783f1e3488996b38363e12",
+  "six_code_digests_match": true,
+  "scope_plan_match": true,
+  "coordinator_check_and_ready_receipt_match": true,
+  "budget": {
+    "free_bytes": 20264079360,
+    "media_retained_raw_and_text_bytes": 201934,
+    "cap_remaining_bytes": 134015794,
+    "reserved_bytes": 3377646642,
+    "floor_bytes": 16106127360,
+    "prior_media_raw_bytes": 212,
+    "derived_body_text_also_charged_to_cap": true
+  }
+}

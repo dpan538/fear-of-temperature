@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-10-05T03:25:04.418262+00:00",
+  "inputs": {
+    "PILOT_SCOPE.json": {
+      "expected": "162a7536b09f7d2a381aeb336d414da388604b79b67c0b28d3931d2d5561c10a",
+      "actual": "162a7536b09f7d2a381aeb336d414da388604b79b67c0b28d3931d2d5561c10a",
+      "unchanged": true
+    },
+    "PILOT_SLOTS.csv": {
+      "expected": "ce7fc98f0da007722a2038209725c3573a7f489ffed4532a5d84200a0065cb8e",
+      "actual": "ce7fc98f0da007722a2038209725c3573a7f489ffed4532a5d84200a0065cb8e",
+      "unchanged": true
+    },
+    "SOURCE_SELECTION_FROZEN.csv": {
+      "expected": "11abb4f9421424ba9330b1ae133e8ee467722f639131c54de139a6d6b04bf8bb",
+      "actual": "11abb4f9421424ba9330b1ae133e8ee467722f639131c54de139a6d6b04bf8bb",
+      "unchanged": true
+    },
+    "schema.sql": {
+      "expected": "b9c460de6b609e35e59a8e3a23c74fcb3e301f6de2c7554125639f042b5d8d98",
+      "actual": "b9c460de6b609e35e59a8e3a23c74fcb3e301f6de2c7554125639f042b5d8d98",
+      "unchanged": true
+    },
+    "prototype.py": {
+      "expected": "aae79bdb96228850ad79903b91225a5d24f5d468ee56975ffa44dd1d98aec999",
+      "actual": "aae79bdb96228850ad79903b91225a5d24f5d468ee56975ffa44dd1d98aec999",
+      "unchanged": true
+    },
+    "VERSION_RECEIPT_v2.json": {
+      "expected": "80e560bfd2d986d8fd5fd9a74e037fc31cc14d6100580713c37371a4fc7aa3d2",
+      "actual": "80e560bfd2d986d8fd5fd9a74e037fc31cc14d6100580713c37371a4fc7aa3d2",
+      "unchanged": true
+    },
+    "ACCESS_READINESS.csv": {
+      "expected": "fd9b8061e5990d3db9131975a2ae355eff39c47a44e84aaa8149721c8b5adbd7",
+      "actual": "fd9b8061e5990d3db9131975a2ae355eff39c47a44e84aaa8149721c8b5adbd7",
+      "unchanged": true
+    },
+    "ROUTE_PLAN.json": {
+      "expected": "f49d6cdab3b0a01b0ce17a978c1b0ec7708bcab914550270dcaf39cd2756bed7",
+      "actual": "f49d6cdab3b0a01b0ce17a978c1b0ec7708bcab914550270dcaf39cd2756bed7",
+      "unchanged": true
+    },
+    "HTTP_STATE.json": {
+      "expected": "31281795fbf0315f38971ab7f862cbf2fe8dee0bee45b873aed72e04376eb372",
+      "actual": "31281795fbf0315f38971ab7f862cbf2fe8dee0bee45b873aed72e04376eb372",
+      "unchanged": true
+    }
+  },
+  "gov_DB_access": false
+}

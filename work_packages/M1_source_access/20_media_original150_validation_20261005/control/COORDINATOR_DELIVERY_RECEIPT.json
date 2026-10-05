@@ -1,0 +1,44 @@
+{
+  "created_at_utc": "2026-10-05T03:40:56.423954+00:00",
+  "task": "bounded_public_media_validation_round20",
+  "repairs_accepted": true,
+  "real_article_pipeline_validated": false,
+  "actual_articles": 0,
+  "original_unfilled_slots": 150,
+  "owner_idle": true,
+  "automation_not_resumed": true,
+  "files": {
+    "FINAL_REPORT_zh.md": {
+      "sha256": "f193ab0e0c26f7ab8ec0eb9e7d5707db7a54355a4f043e951b80b6e23812ba7a",
+      "bytes": 4822
+    },
+    "FINAL_RESULT.json": {
+      "sha256": "9105d9f6fa21ec337f1c73328cb7563c012855ea80a64f181b12ca0f9fad5edf",
+      "bytes": 5183
+    },
+    "FINAL_INPUT_RECEIPT.json": {
+      "sha256": "084181bbb89c672a0593a57a103de0c7fafe09e2a9bc65fcde289230cb1ad154",
+      "bytes": 15025
+    },
+    "FINAL_COVERAGE_BY_REGION.csv": {
+      "sha256": "8bda4f44b89371992f902383042212f95f9ebbb5f104397506ff7369fe025144",
+      "bytes": 304
+    },
+    "SLOT_TERMINAL_150.csv": {
+      "sha256": "ca56009f843d742d5eba179b4d7807466c60951a2831d931639cb5eff53e1e87",
+      "bytes": 64209
+    },
+    "COORDINATOR_FINAL_REVIEW_zh.md": {
+      "sha256": "6f365d3b66240831ab419571f51246bf76b2b7ad91752b72d78ede3ef2162df2",
+      "bytes": 3432
+    },
+    "control/COORDINATOR_FINAL_ACCEPTANCE.json": {
+      "sha256": "c1466c49489fb22408f3b546c3539ef892a2e8b618989700497d9e71ee54bc17",
+      "bytes": 1626
+    },
+    "control/FINAL_COORDINATION.json": {
+      "sha256": "fc83b2eacf21410f2d9ce1a08cf0e4a9e12c423a429ffb1ec139265a51a38cb2",
+      "bytes": 595
+    }
+  }
+}

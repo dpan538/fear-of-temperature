@@ -1,0 +1,9 @@
+# Public-only media validation closeout
+
+Dai confirmed public Internet acquisition only and requested accurate repairs with a bounded task cycle. The existing media worker completed two turns on GPT-6.1 Sol / Extra High; no new window. One consolidated operational acceptance verified persistent storage, identity/version constraints, quota bounds and separate body-completeness review.19 targeted network-denied tests and1 temporary chain scenario passed independently.
+
+The only released source/month was a versioned EDJNet European-English2025-07 candidate, distinct from DW. Its single domain/date search returned an empty partial observation;0 article requests and0 real parents, versions, full bodies, issues or OCR resulted. All original150 slots remain unfilled,30 in each of five disjoint geographic layers. An empty search response does not establish zero publication or failure of source quality. Old source stops, earlier-era inapplicability and original coordinates remain unchanged.
+
+Accept the repairs and honest bounded execution record; real-article validation remains unresolved. Do not infer a complete acquisition pipeline from the synthetic5-article scenario. Future work should prioritise an evidenced publisher date/archive/index frame and actual article payloads, preserving fixed dates and equal planned geographic quotas without transferring deficits. No institution account question is pending, and no new task, retry, source substitution or bulk collection starts automatically.
+
+Government closeout and sealed independent review remain unchanged, with no database/evaluator access. The follow-up automation remains paused. See [coordinator report](../../work_packages/M1_source_access/20_media_original150_validation_20261005/COORDINATOR_FINAL_REVIEW_zh.md) and [machine acceptance](../../work_packages/M1_source_access/20_media_original150_validation_20261005/control/COORDINATOR_FINAL_ACCEPTANCE.json).

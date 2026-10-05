@@ -1,0 +1,52 @@
+{
+  "created_at_utc": "2026-10-05T02:47:27.343536+00:00",
+  "user_authorized_start": true,
+  "input_version": "accepted_media_v2",
+  "input_files": {
+    "PILOT_SCOPE.json": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/PILOT_SCOPE.json",
+      "sha256": "162a7536b09f7d2a381aeb336d414da388604b79b67c0b28d3931d2d5561c10a",
+      "bytes": 6711
+    },
+    "PILOT_SLOTS.csv": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/PILOT_SLOTS.csv",
+      "sha256": "ce7fc98f0da007722a2038209725c3573a7f489ffed4532a5d84200a0065cb8e",
+      "bytes": 55610
+    },
+    "SOURCE_SELECTION_FROZEN.csv": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/SOURCE_SELECTION_FROZEN.csv",
+      "sha256": "11abb4f9421424ba9330b1ae133e8ee467722f639131c54de139a6d6b04bf8bb",
+      "bytes": 1867
+    },
+    "schema.sql": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/schema.sql",
+      "sha256": "b9c460de6b609e35e59a8e3a23c74fcb3e301f6de2c7554125639f042b5d8d98",
+      "bytes": 9331
+    },
+    "prototype.py": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/prototype.py",
+      "sha256": "aae79bdb96228850ad79903b91225a5d24f5d468ee56975ffa44dd1d98aec999",
+      "bytes": 25055
+    },
+    "VERSION_RECEIPT_v2.json": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/VERSION_RECEIPT_v2.json",
+      "sha256": "80e560bfd2d986d8fd5fd9a74e037fc31cc14d6100580713c37371a4fc7aa3d2",
+      "bytes": 8357
+    },
+    "ACCESS_READINESS.csv": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/ACCESS_READINESS.csv",
+      "sha256": "fd9b8061e5990d3db9131975a2ae355eff39c47a44e84aaa8149721c8b5adbd7",
+      "bytes": 9530
+    },
+    "ROUTE_PLAN.json": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/ROUTE_PLAN.json",
+      "sha256": "f49d6cdab3b0a01b0ce17a978c1b0ec7708bcab914550270dcaf39cd2756bed7",
+      "bytes": 1298
+    },
+    "HTTP_STATE.json": {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/HTTP_STATE.json",
+      "sha256": "31281795fbf0315f38971ab7f862cbf2fe8dee0bee45b873aed72e04376eb372",
+      "bytes": 4184
+    }
+  }
+}

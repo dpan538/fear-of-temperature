@@ -1,0 +1,42 @@
+{
+  "checked_at_utc": "2026-10-05T03:30:17.848710+00:00",
+  "accepted_old_input_hash_count": 9,
+  "execution_code_sha256": {
+    "candidate/schema.sql": "c0790a6e0c5d9c1dc1dfd1172238a48a66dba373901069071b3bb2fc41250016",
+    "candidate/identity.py": "dacddc5e471ec4719b07c7b635e14c606258700cd34e64ef08308c3c4ffbbdc8",
+    "candidate/metadata.py": "46c22788febb7f4c6aa9ada49c8f0763a277d96316e3f841edabe73793ab9410",
+    "candidate/store.py": "4394b9a986e6ed3868ddb674fb23faea00efce6afa8a0c116ee6f98c29c89107",
+    "candidate/transport.py": "cd4a01ff16dd4ec54f7ec059d8357a0f5dcb2779396624ecb50cf545a3dde186",
+    "candidate/run.py": "edc1c9bf400a496d7eb6460e92b007f31fd18a4e19f211b1bec16b896a578f15"
+  },
+  "scope_sha256": "1f63ff083de649751983d0f88fc5afa82ac5b08ab0296c5164adc88f5a5e8bbf",
+  "route_plan_sha256": "db399ba02a450ff53cdfe05fbc7992821a608c9f0699f90df23b38c283cbc754",
+  "targeted_tests_passed": 19,
+  "synthetic_chain_scenarios_passed": 1,
+  "test_results": {
+    "test_changed.py": {
+      "exit_code": 0,
+      "output_sha256": "e911b0a4f62390d59abc93aafd7f2a9720c68733c7b4a8d252c6fce3c5be9dbd",
+      "script_sha256": "1fff8947474d88430a8f3d8b98f08b0772c1d4122887aec342412f33825a433e"
+    },
+    "test_chain.py": {
+      "exit_code": 0,
+      "output_sha256": "5e0b937d0cfafa72d2cd5989f1a3ef65ce35c7d9d88a16a69766f9fc802d829a",
+      "script_sha256": "6e73ad5bc74dd12166ee59d9f9aab15b4ebda68b1a62b65d6001a1448fa717c4"
+    }
+  },
+  "real_network_disabled_in_tests": true,
+  "fresh_budget_with_5_max_objects_preflight": {
+    "free_bytes": 20285030400,
+    "media_retained_raw_and_text_bytes": 201934,
+    "cap_remaining_bytes": 134015794,
+    "reserved_bytes": 3377646642,
+    "floor_bytes": 16106127360,
+    "prior_media_raw_bytes": 212,
+    "derived_body_text_also_charged_to_cap": true
+  },
+  "policy_raw_hashes_verified": 4,
+  "real_article_requests_so_far": 0,
+  "government_database_access": 0,
+  "sealed_audit_access": 0
+}

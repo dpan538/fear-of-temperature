@@ -1,0 +1,17 @@
+{
+  "query": "site:www.europeandatajournalism.eu after:2025-07-01 before:2025-08-01",
+  "search_provider": "functions tools.web__run search_query; provider engine not exposed",
+  "observed_at_utc": "2026-10-05T03:32:13.808321+00:00",
+  "frame_pages": 1,
+  "article_urls": [],
+  "all_observed_result_urls": [],
+  "search_response_status": "empty_results",
+  "original_tool_response": "Empty search results\nNo results were found for the provided queries",
+  "monthly_denominator": null,
+  "pi": null,
+  "raw_receipt_path": "raw/edjnet_2025-07_search_response.txt",
+  "raw_receipt_sha256": "380f08f41268ee6f82d2e9cc69d9cb73c1898efeb87ea3aefb8c850090a035a9",
+  "selection_frozen_before_body": true,
+  "no_refill": true,
+  "source_month_publication_zero_inferred": false
+}

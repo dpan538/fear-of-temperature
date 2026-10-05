@@ -1,0 +1,24 @@
+test_JSONLD_and_visible_body_not_automatic_full (__main__.Changed.test_JSONLD_and_visible_body_not_automatic_full) ... ok
+test_captcha_word_not_access_challenge (__main__.Changed.test_captcha_word_not_access_challenge) ... ok
+test_frame_era_reassignment_rejected (__main__.Changed.test_frame_era_reassignment_rejected) ... ok
+test_idempotent_observation_retains_one_parent_version (__main__.Changed.test_idempotent_observation_retains_one_parent_version) ... ok
+test_incapsula_empty_shell_stops (__main__.Changed.test_incapsula_empty_shell_stops) ... ok
+test_invalid_calendar_date_not_eligible (__main__.Changed.test_invalid_calendar_date_not_eligible) ... ok
+test_membership_other_edition_rejected (__main__.Changed.test_membership_other_edition_rejected) ... ok
+test_missing_release_fails_without_network (__main__.Changed.test_missing_release_fails_without_network) ... ok
+test_observation_rolls_back_parent_on_interruption (__main__.Changed.test_observation_rolls_back_parent_on_interruption) ... ok
+test_parent_edition_reassignment_cannot_bypass_locators (__main__.Changed.test_parent_edition_reassignment_cannot_bypass_locators) ... ok
+test_persistent_reopen_keeps_prior_rows (__main__.Changed.test_persistent_reopen_keeps_prior_rows) ... ok
+test_provenance_version_cannot_switch_parent (__main__.Changed.test_provenance_version_cannot_switch_parent) ... ok
+test_recommendation_node_not_selected (__main__.Changed.test_recommendation_node_not_selected) ... ok
+test_relative_canonical_matches (__main__.Changed.test_relative_canonical_matches) ... ok
+test_review_hash_mismatch_prevents_full_body (__main__.Changed.test_review_hash_mismatch_prevents_full_body) ... ok
+test_slot_other_edition_rejected_insert_update (__main__.Changed.test_slot_other_edition_rejected_insert_update) ... ok
+test_slot_other_source_rejected (__main__.Changed.test_slot_other_source_rejected) ... ok
+test_two_conflicting_matching_nodes_remain_pending (__main__.Changed.test_two_conflicting_matching_nodes_remain_pending) ... ok
+test_updated_never_substitutes_first_publication (__main__.Changed.test_updated_never_substitutes_first_publication) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 0.188s
+
+OK

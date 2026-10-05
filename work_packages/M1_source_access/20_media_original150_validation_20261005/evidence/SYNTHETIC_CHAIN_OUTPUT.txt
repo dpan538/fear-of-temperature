@@ -1,0 +1,6 @@
+test_same_candidate_registration_payload_mapping150_reopen_and_review (__main__.Chain.test_same_candidate_registration_payload_mapping150_reopen_and_review) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 0.060s
+
+OK

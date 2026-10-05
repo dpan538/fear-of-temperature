@@ -1,0 +1,129 @@
+{
+  "version": "media20_candidate_revision1",
+  "release_status": "pending_coordinator_digest_acceptance",
+  "candidate_sources": [
+    {
+      "source_id": "edjnet",
+      "name": "European Data Journalism Network",
+      "publisher": "EDJNet editorial coordination: OBC Transeuropa",
+      "publisher_country": "IT",
+      "publisher_country_basis": "OBC coordinator registered editorial address in Italy; member publisher countries remain separate",
+      "edition_id": "edition:edjnet:eu_en",
+      "edition_market": "European English digital editorial network",
+      "region_layer": "EU_Europe",
+      "region_basis": "European editorial market; UK remains separate; does not imply exhaustive EU coverage",
+      "genre": "data_journalism_news_and_aggregation; not newspaper",
+      "official_home": "https://www.europeandatajournalism.eu/",
+      "identity_evidence_url": "https://www.balcanicaucaso.org/",
+      "market_evidence_url": "https://www.europeandatajournalism.eu/about/",
+      "mapping_id": "mapping20:dw:edjnet:eu_en",
+      "original_source_id": "dw",
+      "revision_reason": "Original public route stopped; no institutional/API access. New public CC-policy news network, with distinct genre and source scope. Established2017; no earlier era substitution.",
+      "evidence_urls": [
+        "https://www.europeandatajournalism.eu/about/",
+        "https://www.europeandatajournalism.eu/about/licence/",
+        "https://www.balcanicaucaso.org/"
+      ]
+    }
+  ],
+  "released_candidates": [
+    {
+      "source_id": "edjnet",
+      "edition_id": "edition:edjnet:eu_en",
+      "mapping_id": "mapping20:dw:edjnet:eu_en",
+      "original_source_id": "dw",
+      "region_layer": "EU_Europe",
+      "month": "2025-07",
+      "frame_id": "frame20:edjnet:eu_en:2025-07",
+      "original_slot_ids": [
+        "slot:6031a425cbd0ffe525e04500be376e60",
+        "slot:16a1a5f624a20132e79810b41714a79b",
+        "slot:1da4baa99e170b1eb0370dcfcf5c5c37",
+        "slot:e87bb50f4d76d9a115cbb2c7d07fa84e",
+        "slot:8153b8d6cba68190eb7fd704fdcd34fd"
+      ],
+      "host": "www.europeandatajournalism.eu",
+      "query": "site:www.europeandatajournalism.eu after:2025-07-01 before:2025-08-01",
+      "search_provider": "web search tool; one domain/date-only response",
+      "frame_receipt_path": "evidence/frames/edjnet_2025-07_search.json",
+      "robots_raw_path": "raw/8bbdff0d82a37d828fa08ac9c173792f.bin",
+      "robots_sha256": "430cc21c5e15893223462b48a326bf6dfa7d7114468c337ab0d739bc28819597",
+      "rights_basis": "CC BY4.0 default policy; per-article exceptions and third-party material remain separately checked; no public redistribution",
+      "rights_evidence_url": "https://www.europeandatajournalism.eu/about/licence/",
+      "body_selector": ".entry-content",
+      "body_selector_evidence": "Candidate only; no article requested, selector and completeness unverified",
+      "article_cap": 5,
+      "frame_pages_cap": 1,
+      "pi": null,
+      "monthly_denominator": null
+    }
+  ],
+  "released_candidates_field_meaning": "Proposed executable cells only; actual execution additionally requires approved MEDIA_EXECUTION_RELEASE.json matching code/scope/plan digests",
+  "fixed_months": [
+    "1995-07",
+    "2015-12",
+    "2025-07"
+  ],
+  "candidate_not_applicable": [
+    {
+      "source_id": "edjnet",
+      "month": "1995-07",
+      "reason": "network established2017"
+    },
+    {
+      "source_id": "edjnet",
+      "month": "2015-12",
+      "reason": "network established2017"
+    }
+  ],
+  "original150_unchanged": true,
+  "all_other_original_cells": "Existing stops/access gaps retained; no article/frame requests proposed",
+  "global_article_cap": 150,
+  "per_source_month_article_cap": 5,
+  "max_candidate_body_requests_this_revision": 5,
+  "selection": "First five lexicographically sorted unique native article URLs from one frozen partial domain/date-only result response, before body reading. Validate first publication independently; do not refill ineligible/failed selections.",
+  "no_topic_length_or_affect_filter": true,
+  "execution_deadline_utc": "2026-10-05T03:45:48+00:00",
+  "nonexecuted_cells": [
+    {
+      "source_id": "edjnet",
+      "edition_id": "edition:edjnet:eu_en",
+      "mapping_id": "mapping20:dw:edjnet:eu_en",
+      "original_source_id": "dw",
+      "region_layer": "EU_Europe",
+      "rights_basis": "CC BY4.0 default policy; per-article exceptions and third-party material remain separately checked; no public redistribution",
+      "rights_evidence_url": "https://www.europeandatajournalism.eu/about/licence/",
+      "month": "1995-07",
+      "frame_id": "frame20:edjnet:eu_en:1995-07",
+      "original_slot_ids": [
+        "slot:a131b9268ee86642193fee11a7e84e0a",
+        "slot:2fbcf4cde6d8c9b36f5a8dfc65abe38c",
+        "slot:93720dea01a64a6b2de5c0812505a671",
+        "slot:67925d25b3e54cf9260309ac255546c6",
+        "slot:5c2e9dc85ced1831427934a4a340a3f2"
+      ],
+      "applicability": "not_applicable_before2017",
+      "terminal_status": "scope_changed_not_applicable_before2017"
+    },
+    {
+      "source_id": "edjnet",
+      "edition_id": "edition:edjnet:eu_en",
+      "mapping_id": "mapping20:dw:edjnet:eu_en",
+      "original_source_id": "dw",
+      "region_layer": "EU_Europe",
+      "rights_basis": "CC BY4.0 default policy; per-article exceptions and third-party material remain separately checked; no public redistribution",
+      "rights_evidence_url": "https://www.europeandatajournalism.eu/about/licence/",
+      "month": "2015-12",
+      "frame_id": "frame20:edjnet:eu_en:2015-12",
+      "original_slot_ids": [
+        "slot:82eacc786bafe8d294bbca92cfc8bacb",
+        "slot:ee8a0b3b28863b65cf7742feecc6becf",
+        "slot:f04a48952806d0c474e5629800e7cc82",
+        "slot:36a6c196747fac348f9c2cde2d699d77",
+        "slot:9b250e6f5a4624e786c474ec938e3a95"
+      ],
+      "applicability": "not_applicable_before2017",
+      "terminal_status": "scope_changed_not_applicable_before2017"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "purpose": "Primary public policy facts only; not an article execution release or frozen candidate selection.",
+  "sources": [
+    {
+      "publisher": "openDemocracy",
+      "url": "https://www.opendemocracy.net/syndication-2/",
+      "facts": "Most content CC; check article-specific licensing. Current publication says recurring public republication beyond two per month needs contact; internal research retention and republication are separate. No third-party messages authorised. Not founded in1995; genre/news-magazine/editorial frame needs declaration."
+    },
+    {
+      "publisher": "Voice of America",
+      "url": "https://www.voanews.com/p/5338.html",
+      "facts": "Original exclusively VOA text is public domain; AFP/AP/Reuters and other licensed material excluded from that statement. Attribution/source ownership must be resolved per article; government-funded editorial broadcaster has specific provenance and independence limitations."
+    },
+    {
+      "publisher": "The Conversation",
+      "url": "https://cdn.theconversation.com/static_files/files/1797/The_Conversation_Global_Editorial_Guidelines_2021.pdf",
+      "facts": "2021 official editorial policy states CC republication; current article/edition/license and exact permitted use still need current evidence. Global shared platform or AU editorial edition cannot be assigned to NZ solely from author affiliation/report place. Genre is academic-media analysis/commentary, not historical newspaper."
+    }
+  ],
+  "licensing_not_uniform_source_quality_score": true,
+  "copyright_or_no_CC_alone_is_not_an_automatic_source_rejection": true,
+  "distinguish_known_restrictions_unknown_permissions_and_public_readability": true,
+  "requested_new_source_search_limit_unchanged": 10
+}

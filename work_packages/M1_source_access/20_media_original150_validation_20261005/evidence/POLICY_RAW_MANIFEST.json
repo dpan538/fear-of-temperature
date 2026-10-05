@@ -1,0 +1,89 @@
+{
+  "checked_at_utc": "2026-10-05T03:25:04.418262+00:00",
+  "retained_policy_requests": [
+    {
+      "request_id": "581eeae8895515fdec71a29900ec1988",
+      "source_id": "edjnet",
+      "request_url": "https://www.europeandatajournalism.eu/about/licence/",
+      "purpose": "policy_licence",
+      "requested_at_utc": "2026-10-05T03:05:32.737531+00:00",
+      "status": "raw_retained",
+      "http_status": 200,
+      "byte_count": 108469,
+      "raw_path": "raw/581eeae8895515fdec71a29900ec1988.bin",
+      "mime_type": "text/html; charset=UTF-8",
+      "response_headers": {
+        "Date": "Mon, 05 Oct 2026 03:05:34 GMT",
+        "Content-Type": "text/html; charset=UTF-8"
+      },
+      "sha256": "87d9642272878d1044db781ed2298e88cb1b90205cd94bb63f56ba80b334d0bc",
+      "finished_at_utc": "2026-10-05T03:05:35.400083+00:00"
+    },
+    {
+      "request_id": "7cbc0ac707d65b76134aaa0a2d96f8d4",
+      "source_id": "opendemocracy",
+      "request_url": "https://www.opendemocracy.net/syndication-2/",
+      "purpose": "policy_licence",
+      "requested_at_utc": "2026-10-05T03:05:39.596716+00:00",
+      "status": "raw_retained",
+      "http_status": 200,
+      "byte_count": 90327,
+      "raw_path": "raw/7cbc0ac707d65b76134aaa0a2d96f8d4.bin",
+      "mime_type": "text/html; charset=utf-8",
+      "response_headers": {
+        "Content-Length": "90327",
+        "content-type": "text/html; charset=utf-8",
+        "etag": "W/\"160d7-RFWNxyNdNByuxdG9C0733cN/hwU\"",
+        "Date": "Mon, 05 Oct 2026 03:05:40 GMT"
+      },
+      "sha256": "b60eb12c54c695f9d3edad456e5c533739a6727108e16481c75ead5e814f947a",
+      "finished_at_utc": "2026-10-05T03:05:40.690543+00:00"
+    },
+    {
+      "request_id": "8bbdff0d82a37d828fa08ac9c173792f",
+      "source_id": "edjnet",
+      "request_url": "https://www.europeandatajournalism.eu/robots.txt",
+      "purpose": "policy_robots",
+      "requested_at_utc": "2026-10-05T03:05:29.958191+00:00",
+      "status": "raw_retained",
+      "http_status": 200,
+      "byte_count": 2706,
+      "raw_path": "raw/8bbdff0d82a37d828fa08ac9c173792f.bin",
+      "mime_type": "text/plain; charset=UTF-8",
+      "response_headers": {
+        "Date": "Mon, 05 Oct 2026 03:05:30 GMT",
+        "Content-Type": "text/plain; charset=UTF-8",
+        "Content-Length": "2706"
+      },
+      "sha256": "430cc21c5e15893223462b48a326bf6dfa7d7114468c337ab0d739bc28819597",
+      "finished_at_utc": "2026-10-05T03:05:30.726491+00:00"
+    },
+    {
+      "request_id": "e0288f001475b4d351978dc76bf3f2b0",
+      "source_id": "opendemocracy",
+      "request_url": "https://www.opendemocracy.net/robots.txt",
+      "purpose": "policy_robots",
+      "requested_at_utc": "2026-10-05T03:05:37.411331+00:00",
+      "status": "raw_retained",
+      "http_status": 200,
+      "byte_count": 220,
+      "raw_path": "raw/e0288f001475b4d351978dc76bf3f2b0.bin",
+      "mime_type": "text/plain",
+      "response_headers": {
+        "Content-Length": "220",
+        "etag": "\"894d5467ebf48cb2f51250bd9aa85084\"",
+        "content-type": "text/plain",
+        "Date": "Mon, 05 Oct 2026 03:05:37 GMT"
+      },
+      "sha256": "f1927d77c1d1e909d2089bc57f5223f8ed17dc627fdab312db564eace91ab7c6",
+      "finished_at_utc": "2026-10-05T03:05:37.586055+00:00"
+    }
+  ],
+  "new_raw_bytes": 201722,
+  "prior_raw_bytes": 212,
+  "combined_media_bytes": 201934,
+  "article_requests": 0,
+  "frame_requests": 0,
+  "partial_bytes": 0,
+  "note": "These four policy requests preceded final code freeze; current final executor has not made an article/frame HTTP request."
+}
