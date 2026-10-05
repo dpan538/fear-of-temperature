@@ -1,0 +1,32 @@
+{
+  "diagnostic_run_started_utc": "2026-10-04T06:07:03.738541+00:00",
+  "diagnostic_run_log": [
+    {
+      "event": "run_started",
+      "time_utc": "2026-10-04T06:07:03.738541+00:00"
+    },
+    {
+      "event": "lock_acquired",
+      "time_utc": "2026-10-04T06:07:04.011799+00:00",
+      "wait_seconds": 0.0
+    },
+    {
+      "event": "lock_released",
+      "time_utc": "2026-10-04T06:07:09.493548+00:00"
+    },
+    {
+      "event": "run_finished",
+      "time_utc": "2026-10-04T06:07:30.605023+00:00",
+      "source_units": 333551,
+      "coverage_rows": 110,
+      "finding_rows": 117238
+    }
+  ],
+  "invalidated_findings": {
+    "AU_DATE_CLOCKS_conflict": 6,
+    "US_STATUS_needs_review": 18590,
+    "UK_GOVUK_unexplained_DATE_CROSS": 59,
+    "EU_candidate_Item_links_missing_from_later_staging_table": true
+  },
+  "correction": "Normalize DuckDB TIMESTAMPTZ to UTC for cross-field checks; recognize US successful source_extracted_and_cleaned; combine EU Work candidate Item links from the earlier disposition export with later staged Item/version records while retaining both checkpoint times. Diagnostic coverage and findings were overwritten by the corrected run."
+}

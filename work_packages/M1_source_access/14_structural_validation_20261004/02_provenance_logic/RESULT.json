@@ -1,0 +1,43 @@
+{
+  "status": "complete_with_named_unresolved_records",
+  "publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "checked_at_utc": "2026-10-04T06:21:30.927221+00:00",
+  "saved_frames": {
+    "AU_CATALOGUE": 821,
+    "EU_CELLAR": 50578,
+    "GUARDIAN_DEC2015": 396,
+    "PETITION_QUERY": 177,
+    "UK_DEFRA": 1020,
+    "UK_GOVUK_HIST": 35,
+    "UK_HANSARD": 36462,
+    "UK_HISTORIC": 136082,
+    "UK_QS_API": 65988,
+    "UK_TWFY": 8448,
+    "US_FR": 33544
+  },
+  "coverage_rows": 110,
+  "finding_rows": 57759,
+  "finding_outcomes": {
+    "uncheckable": 56271,
+    "needs_review": 1488
+  },
+  "source_quality_summary_path": "work_packages/M1_source_access/14_structural_validation_20261004/02_provenance_logic/source_quality_summary.csv",
+  "input_manifest_path": "work_packages/M1_source_access/14_structural_validation_20261004/02_provenance_logic/INPUT_MANIFEST.json",
+  "no_formal_database_changes": true,
+  "limits": [
+    "Structural metadata support is not original-body or substantive-claim truth verification.",
+    "Shared archive reply-span validation belongs to Task 1.",
+    "Current saved bodies do not prove historical wording.",
+    "Unenumerated source routes have unknown denominators, not zero records."
+  ],
+  "proposed_minimal_next_actions": [
+    "Choose and log GOV.UK local/UTC analysis-day convention before refreshing three affected monthly bins.",
+    "Reconcile UK parent body-status semantics against linked saved text.",
+    "Resolve named AU original date, issuer and primary-file boundaries; retain unknown-date candidates.",
+    "Use Task 1 archive split findings before any parent repair.",
+    "Only after coordinator review, specify evidence-based new source frames if source/genre/period concentration warrants them."
+  ]
+}

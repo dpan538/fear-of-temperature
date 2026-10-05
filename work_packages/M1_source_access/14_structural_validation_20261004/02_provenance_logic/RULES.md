@@ -1,0 +1,18 @@
+# Provenance and date rule registry, version 1
+
+Unit is a source-specific independent parent, EU Work, Guardian article URL or petition ID. Source frames are never added into a single denominator. Each applicable rule gives exactly one outcome per unit: `supported`, `conflict`, `needs_review`, `uncheckable` or `not_applicable`. `eligible` is the frame denominator; `checked = supported + conflict + needs_review`; `unassessed` counts units never processed. `supported` means only that the named structural relation held in saved metadata, not that the historical body or substantive claims are true.
+
+| Rule ID | Dimension | Check and exception boundary |
+|---|---|---|
+| DATE_SCOPE_v1 | original publication scope | Exact source date within 1988-01-01–2026-09-21; month/year interval wholly within is supported, crossing the edge needs review, missing is uncheckable, proven outside conflicts. AU CMS dates never substitute for issue date. |
+| DATE_ROLE_v1 | date-field semantics | UK publication basis, US original issue date, EU Work date, AU original-date precision, Guardian original publication versus modification, and petitioner created versus opened. Wrong substitute field conflicts; missing independent evidence is uncheckable. |
+| DATE_CROSS_v1 | independent date comparison | Compare saved document and independent evidence where available. GOV.UK local day versus UTC day is convention-sensitive (`needs_review`), including the 119 known offsets/three month changes; `dateForAnswer` does not replace `dateAnswered`. Different legitimate date roles are not contradictions. |
+| DATE_CLOCKS_v1 | observation/version chronology | Keep publication, update, retrieval, extraction, report and mentioned-event clocks separate. Only impossible role mappings are flagged. Later modification is version information, not historical wording verification. Future mentioned events/recess gaps have no universal rejection rule. |
+| IDENT_v1 | stable parent identity | Source-specific ID and canonical URL/Work URI, with within-frame duplicate checks. FR document number alone is not identity: two dated `95-24211` parents remain separate. |
+| ISSUER_v1 | issuer, host and directness | Source-specific utterance/archival route. AU host/issuer mismatch requires role review; an archive can preserve original utterance, and original media/petitioner text is direct to its author. Unknown issuer remains uncheckable. |
+| CONTENT_LINK_v1 | parent→object/Item→version | Check links, saved version ID and text-evidence metadata. Shared parliamentary containers, EU Item alternatives and attachments do not add parent Works. Source-body passage alignment is Task 1's separate question. |
+| STATUS_v1 | availability status | Compare parent acquisition/extraction status to linked saved text/version. A stale label is `needs_review`, not automatic content rejection. Metadata-only/unrequested is uncheckable for body evidence. |
+| ATTACHMENT_v1 | parent/file boundary | Validate relationship role exists; multiple attachments and one container serving many answers are legitimate. Unknown AU primary-file boundary remains uncheckable. |
+| ORIGINAL_ROUTE_v1 | original citation availability | Identify a traceable original/archive URL and known saved-body checks separately. URL/host/hash alone does not prove issuer, historical wording or claim truth. Unrequested body can have an original route but remains unverified. |
+
+No climate, emotion or fear rule is present. Event dates mentioned inside prose are intentionally not extracted or compared to publication dates. Any rule referring to source evidence outside stored columns reports `uncheckable`, rather than silently passing.
