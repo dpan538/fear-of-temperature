@@ -1,0 +1,4 @@
+month_utc,query_frame,all_submitted_by_created_at,published_subset_by_created_at,rejected_by_created_at,published_only_by_opened_at,opened_this_month_created_elsewhere,lag_in_ids,published_body_present,published_pilot_reviewed,published_pilot_climate_topic,published_pilot_anticipated_harm,published_pilot_explicit_fear,monthly_all_eligible_petition_denominator,zero_qualifier
+2015-11,2015-2017 archive parliament=1&q=climate; 177 distinct IDs,4,2,2,0,0,,0,0,0,0,0,unverified,zero only within q=climate query
+2015-12,2015-2017 archive parliament=1&q=climate; 177 distinct IDs,14,8,6,8,2,114128 | 113997,8,8,5,2,0,unverified,
+2016-01,2015-2017 archive parliament=1&q=climate; 177 distinct IDs,3,3,0,5,2,117267 | 117357,5,5,3,1,0,unverified,
