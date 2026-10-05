@@ -1,0 +1,180 @@
+{
+  "recorded_at_utc": "2026-10-04T18:32:38.359560+00:00",
+  "files": [
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_ACCOUNTING.json",
+      "bytes": 2396,
+      "sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_DISPOSITIONS.csv",
+      "bytes": 3907,
+      "sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_EXECUTION_VERSION.json",
+      "bytes": 1090,
+      "sha256": "6f47ef35ed7786040a748dcdda42d499dffff81d4fbca69b5c99b61f0b4ccaf9"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/A_LOCAL_REUSE_CHECKS.json",
+      "bytes": 9561,
+      "sha256": "f4df834c72811654a9ed4ce32645026f77aa10a28a42b5f9d55ba644b6b89fae"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/DOWNLOADER_READY.json",
+      "bytes": 5157,
+      "sha256": "3b20aecc9688deed9edcff2ee0f9e588d3d19bbf8d1754f66641d5e36a3a8810"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/DOWNLOADER_READY.v2.json",
+      "bytes": 4062,
+      "sha256": "30d43bc54122cd023d64ea82d325e9bd423f461fb7480aeee9f82ade8a3e707b"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/EU_RELEASE_REQUIREMENTS.json",
+      "bytes": 1895,
+      "sha256": "d9b6d271d262927c01a6b3fdb19dfbb67d35d5fc1e64470a9740ac021ce6798d"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/FINAL_LOCAL_CHECKS.json",
+      "bytes": 1606,
+      "sha256": "ba340ec9b7ac75641d746211ca51c67da4933d4b3569e01ea9cb4fab98f46571"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/HANDOFF_zh.md",
+      "bytes": 5043,
+      "sha256": "db0aa2c95524979d7f8fac9dce0d53196fbcab675a18f6fb2433dd018956b3d8"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/INPUT_BINDINGS.json",
+      "bytes": 1871,
+      "sha256": "fcb985d62d1de9072b45fca436682fd2217263057d8fea956a05f6e1fccc2555"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/LOG_ENTRY.md",
+      "bytes": 1950,
+      "sha256": "a89378149646eab3658590feaf4a1602ea51e6ce6e469aa81cdd6f408f6be3fd"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/NO_NETWORK_PREFLIGHT.json",
+      "bytes": 2517,
+      "sha256": "f314f109aa4abac834b01b51bde7d888e3a6e9e85b2e24a34f37a165e4e9b7d0"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/OFFLINE_TEST_OUTPUT.txt",
+      "bytes": 3767,
+      "sha256": "c30f3f51831c56cfedf9232e3a992c1741a18dabe66e72b0a15a33973622617a"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/OFFLINE_TEST_RESULTS.json",
+      "bytes": 2056,
+      "sha256": "e809798df9416c215264463efd8100082e432eb7902e20abafefedb786b2720f"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/OFFLINE_TEST_RESULTS.v2.json",
+      "bytes": 2056,
+      "sha256": "758cb330e4175a4fcca782c11f3e0e0d23cf3b056a41b62a058ec07bc6fe48a3"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/RESULT.json",
+      "bytes": 3851,
+      "sha256": "3eda593e046a804bc669c6b7e74d6bbc04b4cb44d580d5f0e8886786e5584bf8"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/SHARED_HTTP_STATE.json",
+      "bytes": 242,
+      "sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/SUMMARY_zh.md",
+      "bytes": 1532,
+      "sha256": "27528d0ba2ebea8d16cde5df696af326704c4a9d985ee5a69dc23f89c93cfdce"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/downloader.before_after.patch",
+      "bytes": 43850,
+      "sha256": "2a0350dc861d7e5f9db112c90c343436002240b822312c4321337e9f2ca758d9"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/downloader.before_after.v2.patch",
+      "bytes": 40227,
+      "sha256": "56444c9715a487391116426cd59ebdda856ce2206b6505aa75109ac2a5608ec4"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/downloader.v2_to_v3.patch",
+      "bytes": 10066,
+      "sha256": "c4eff22a5c80613a051f3da705a28d497cc27150b64bfc15fa3e3bd649ea554d"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/evidence/13c44c888ef3305f74641a23cffe0f11ac65878af51af90cd328b4cfe159ab4e.json",
+      "bytes": 4131,
+      "sha256": "cc841bf48e0ac3f2c5eb54dd8a4217fd4e4d41af88433781b68ecface941f28d"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/evidence/2f4459f9ebb693061129b0ad20fa4518b6b243d9959afb125faba708abde0dd4.json",
+      "bytes": 3650,
+      "sha256": "fb0e6052989228b0e67cba267b8b75b61ee43141250559f51d91ca1c4c761028"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/evidence/5acb36a61fad9bcd286a1ff27a1545844356b12846696b0f0296e7bcb09d77d6.json",
+      "bytes": 3650,
+      "sha256": "d290c81114faf7ec7b36e22b5465a9b764e450bba06937f6a6405b16f4bca63c"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/evidence/73b4abbb27c195e2a970ca59085d696eb7f276a113e76acaefde761cef0e50b6.json",
+      "bytes": 3882,
+      "sha256": "50f72c24ecf7e9143b2fcc29b06a67383afffa2ac6cfcc3c06b369c8608822da"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/evidence/86ca666cc8e6f4752a4d1d9ca4ae35ed07e88d6a041fe5dbeaa978f408efbeba.json",
+      "bytes": 4534,
+      "sha256": "99af3d0f274b0ec2c584c17bcb8331ba8d65820f0c1bc1afc4df9bde7bc9e6f4"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/finalize_local_records.py",
+      "bytes": 2573,
+      "sha256": "11090f4e71a797450f1b1ee24145a055749d4aeff147e52701f8038542550a25"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/preflight_no_network.py",
+      "bytes": 1561,
+      "sha256": "a28056d78275a200737a23638c4189c93bc92de27a013a1ffb84c8d4dc86f265"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/process_original_requests.py",
+      "bytes": 15899,
+      "sha256": "c72e5bd983cfdf90cce5bb213ed81cc25d918d9f48f21bbeb9dc9563708d27be"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/requests/dbc2ce043142545be24fbb4cf089248c6733557c7feb51c7a26455bfc4d2a2ce.json",
+      "bytes": 905,
+      "sha256": "94c2abdd1a2d8b0223aba9d64b74b1c53046655c6663fe76b6bcb1ee3ec9d5a3"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/stage_frozen_items.after.py",
+      "bytes": 30628,
+      "sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/stage_frozen_items.before.py",
+      "bytes": 13529,
+      "sha256": "fff95478edeec2109577dc165fc809634d34d0a32edd057c8bbea2c674497da0"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/stage_frozen_items.v2.py",
+      "bytes": 27043,
+      "sha256": "86f5055124a482c74350d10db5e7046de6754bd62e5a279b4de6ae56fda6f2f8"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/test_downloader_offline.py",
+      "bytes": 18405,
+      "sha256": "78ba637a4c110fe632e401f05553603628128c4ce924aa3ccf53245064d617bd"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/test_downloader_offline.v2.py",
+      "bytes": 13456,
+      "sha256": "794414a4b5d37306f0a0dd85107ccaf0b73f747f6bbd626682b74c32eb330272"
+    }
+  ]
+}

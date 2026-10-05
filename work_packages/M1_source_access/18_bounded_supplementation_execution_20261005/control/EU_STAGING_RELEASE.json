@@ -1,0 +1,41 @@
+{
+  "ready": true,
+  "status": "coordinator_accepted_downloader_and_A_released_B",
+  "issuer": "coordinator",
+  "released_at_utc": "2026-10-04T18:34:06.581810+00:00",
+  "downloader_version": "bounded_staging_v3_20261005",
+  "downloader_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+  "repair_release_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+  "frozen_b_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "run_id": "repair_20261004_task3_v1",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "post_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "a_ledger_sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+  "a_accounting_sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f",
+  "a_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "downloader_ready_sha256": "3b20aecc9688deed9edcff2ee0f9e588d3d19bbf8d1754f66641d5e36a3a8810",
+  "a_http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+  "a_http_stop_accepted": true,
+  "a_http_stop_reason": "RuntimeError: HTTP 403; terminal failed route",
+  "authorized_phase": "B",
+  "authorized_b_hosts": [
+    "op.europa.eu",
+    "publications.europa.eu"
+  ],
+  "A_retry_authorized": false,
+  "authority": "Dai explicitly authorised original A-then-frozen-B continuation in the two existing windows",
+  "original_acquisition_complete": false,
+  "A_raw_bytes": 0,
+  "remaining_shared_raw_budget_bytes": 2147483648,
+  "free_bytes_at_release": 20611268608,
+  "floor_bytes": 16106127360,
+  "aggregate_new_raw_cap_bytes": 2147483648,
+  "extraction_and_formal_database_writes_authorized": false
+}

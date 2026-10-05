@@ -1,0 +1,185 @@
+{
+  "checked_at_utc": "2026-10-04T18:37:07.612640+00:00",
+  "status": "stopped_partial",
+  "repair_gate_passes": true,
+  "release_evidence": {
+    "marker_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+    "run_id": "repair_20261004_task3_v1",
+    "post_checkpoint": {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "bytes": 3590598656,
+      "mtime_ns": 1791108746288675852
+    },
+    "request_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+    "request_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+    "unit_ids": [
+      "doc:7c7006b4ea3168ebe548e229915d853b",
+      "doc:bc6340389c3977a04993b0a20f55bcca",
+      "doc_5b740259ea5cdcdbdbdf",
+      "doc_6fe9e11be5ea65fab67e",
+      "doc_76b0ddb367df2c048a60"
+    ],
+    "linked_evidence_sha256": {
+      "ACCEPTANCE.json": "1125c6052001852905fac76815859f3b2734ba62f68e1aa262cb1042dd2b72eb",
+      "RESULT.json": "32f1eb55742dc1619e91362a54508b31c45b16c2487650e7febeba24adea4b15",
+      "CHANGE_MANIFEST.json": "32a3996a36ce2b664b4976db2a546ef9753f37d68f7a6c5e8bc26572d8825704",
+      "APPLIED.json": "9ff543c6556acd4e723702c1019d0a6848bdaf1a259fd352ae247960b8af13ea"
+    },
+    "active_committed_run_verified": true,
+    "run_recorded_at_utc": "2026-10-04T09:57:18.066818+00:00",
+    "postcommit_receipt_at_utc": "2026-10-04T09:57:26.603489+00:00",
+    "database_query": "targeted repair_runs primary-key read; read_only=True"
+  },
+  "storage_gate_passes": true,
+  "downloads_started": false,
+  "eu_http_authorized": true,
+  "free_bytes": 20614172672,
+  "raw_bytes": 0,
+  "partial_bytes": 0,
+  "remaining_shared_raw_bytes": 2147483648,
+  "reserve_bytes": 3388334336,
+  "floor_bytes": 16106127360,
+  "eu_release_bindings": {
+    "downloader_version": "bounded_staging_v3_20261005",
+    "downloader_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+    "repair_release_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+    "frozen_b_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+    "run_id": "repair_20261004_task3_v1",
+    "fixed_publication_interval": [
+      "1988-01-01",
+      "2026-09-21"
+    ],
+    "post_checkpoint": {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "bytes": 3590598656,
+      "mtime_ns": 1791108746288675852
+    },
+    "a_ledger_sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+    "a_accounting_sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f",
+    "a_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+    "downloader_ready_sha256": "3b20aecc9688deed9edcff2ee0f9e588d3d19bbf8d1754f66641d5e36a3a8810",
+    "a_http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+    "a_http_stop_accepted": true,
+    "a_http_stop_reason": "RuntimeError: HTTP 403; terminal failed route",
+    "authorized_phase": "B",
+    "authorized_b_hosts": [
+      "op.europa.eu",
+      "publications.europa.eu"
+    ]
+  },
+  "stop_reason": "RuntimeError: RuntimeError: HTTP 406; terminal failed route",
+  "finished_at_utc": "2026-10-04T18:38:18.022392+00:00",
+  "frozen_items": 979,
+  "ledger_rows": 979,
+  "attempted_items": 21,
+  "candidate_originals": 20,
+  "verified_reuse": 0,
+  "raw_accounting": {
+    "total_bytes": 9020646,
+    "partial_bytes": 0,
+    "files": [
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/14/14991c30e329b00041ec6d5ff769879faa7a9c4656bf516d076c8cc165390195.bin",
+        "bytes": 477389,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/15/154be44e2057d2a622ed35f3c829b102f5f9afe56cc50ffee71e21cf494a7950.bin",
+        "bytes": 1867876,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/1d/1daac02b9fa75ab697f96bef1fef5dc0a537285c6f7f3388c10e971bec162e7e.bin",
+        "bytes": 354444,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/28/28f6febf7c506adf6f24fbeece4c5e41f261cfdeeddbfa69d5fc465a967f648f.bin",
+        "bytes": 64011,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/2b/2be0c32c0932d952cb4e0e79240b6a46d4d004860282fa26da64920470d34e6f.bin",
+        "bytes": 50402,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/30/3010990d99711373c5b704b72ba9e1ed6fe102e120dc4abb92e3bfe46851c078.bin",
+        "bytes": 495252,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/31/313245abc6af7cb190da018363e5116e6ecb0a82a16efa7cf697c22d72d5563a.bin",
+        "bytes": 1182690,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/63/63a0113e1cc6ff04f00603f4c0c6749109128b74a11035a52007d54fb099a3ea.bin",
+        "bytes": 392640,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/6e/6ed1441069e1f7179339c0feab21c9ad24790e11e1d34a8d1725ff6bec7f2afc.bin",
+        "bytes": 355346,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/7c/7c0884445efc380156c96aa0f13ce013722d3971bb4fa1d3e1dfe6e84fda7e76.bin",
+        "bytes": 50680,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/82/828f234998f736934f0fc745ed73f7851e8f3731fcceff5b8751a346188d00b2.bin",
+        "bytes": 257732,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/93/93d5c2063fd2bb8cfa605ed03f564a41d91fcf6d79dea1be94914e01cc10e7f5.bin",
+        "bytes": 355046,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/9e/9efbfaa9ee33418cfc68234e0bf48a10534108973cd580e3d70754683530aa26.bin",
+        "bytes": 48167,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/9f/9ff6d43f1132cdac4921124bd3a37be490bd90af99258d7410a3f6863ccf1330.bin",
+        "bytes": 1480361,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/a2/a2860d7bb17c3a3ded50ce444b02e07a88256f8347c1eca6b5bd60ea2a245023.bin",
+        "bytes": 404137,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/a8/a8ef37bbf51a1cafe9ece170dfd77c293efb4db06125522af7d6f82615a0c183.bin",
+        "bytes": 49855,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/c3/c35827bebc7876365843fe5ae1660de2270b67347d6097f3f81d303916b0558f.bin",
+        "bytes": 266406,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/cd/cd507358d7744520b177452809c8bec6094ccb36e15b4d30f915083208ffd4da.bin",
+        "bytes": 343323,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/d6/d61cdb094fd456631071543990aeb3e70a586453b198d13e8f71b6329af5f7f1.bin",
+        "bytes": 337031,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/e4/e42177a5fcde78c117751d697f9e6b4e387c9dd1de72401b2ac9a676fcd85691.bin",
+        "bytes": 187858,
+        "partial": false
+      }
+    ]
+  },
+  "formal_database_writes": 0,
+  "extraction_started": false
+}

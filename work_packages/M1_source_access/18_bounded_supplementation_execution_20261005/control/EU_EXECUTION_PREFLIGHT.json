@@ -1,0 +1,73 @@
+{
+  "checked_at_utc": "2026-10-04T18:34:07.503477+00:00",
+  "status": "ready_for_coordinator_released_B",
+  "repair_gate_passes": true,
+  "release_evidence": {
+    "marker_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+    "run_id": "repair_20261004_task3_v1",
+    "post_checkpoint": {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "bytes": 3590598656,
+      "mtime_ns": 1791108746288675852
+    },
+    "request_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+    "request_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+    "unit_ids": [
+      "doc:7c7006b4ea3168ebe548e229915d853b",
+      "doc:bc6340389c3977a04993b0a20f55bcca",
+      "doc_5b740259ea5cdcdbdbdf",
+      "doc_6fe9e11be5ea65fab67e",
+      "doc_76b0ddb367df2c048a60"
+    ],
+    "linked_evidence_sha256": {
+      "ACCEPTANCE.json": "1125c6052001852905fac76815859f3b2734ba62f68e1aa262cb1042dd2b72eb",
+      "RESULT.json": "32f1eb55742dc1619e91362a54508b31c45b16c2487650e7febeba24adea4b15",
+      "CHANGE_MANIFEST.json": "32a3996a36ce2b664b4976db2a546ef9753f37d68f7a6c5e8bc26572d8825704",
+      "APPLIED.json": "9ff543c6556acd4e723702c1019d0a6848bdaf1a259fd352ae247960b8af13ea"
+    },
+    "active_committed_run_verified": true,
+    "run_recorded_at_utc": "2026-10-04T09:57:18.066818+00:00",
+    "postcommit_receipt_at_utc": "2026-10-04T09:57:26.603489+00:00",
+    "database_query": "targeted repair_runs primary-key read; read_only=True"
+  },
+  "storage_gate_passes": true,
+  "downloads_started": false,
+  "eu_http_authorized": true,
+  "free_bytes": 20611203072,
+  "raw_bytes": 0,
+  "partial_bytes": 0,
+  "remaining_shared_raw_bytes": 2147483648,
+  "reserve_bytes": 3388334336,
+  "floor_bytes": 16106127360,
+  "eu_release_bindings": {
+    "downloader_version": "bounded_staging_v3_20261005",
+    "downloader_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+    "repair_release_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+    "frozen_b_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+    "run_id": "repair_20261004_task3_v1",
+    "fixed_publication_interval": [
+      "1988-01-01",
+      "2026-09-21"
+    ],
+    "post_checkpoint": {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "bytes": 3590598656,
+      "mtime_ns": 1791108746288675852
+    },
+    "a_ledger_sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+    "a_accounting_sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f",
+    "a_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+    "downloader_ready_sha256": "3b20aecc9688deed9edcff2ee0f9e588d3d19bbf8d1754f66641d5e36a3a8810",
+    "a_http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+    "a_http_stop_accepted": true,
+    "a_http_stop_reason": "RuntimeError: HTTP 403; terminal failed route",
+    "authorized_phase": "B",
+    "authorized_b_hosts": [
+      "op.europa.eu",
+      "publications.europa.eu"
+    ]
+  },
+  "network_attempts_by_coordinator": 0,
+  "database_queries_by_coordinator_this_preflight": 1,
+  "EU_release_sha256": "58adca9fc2aaf574f0dfad7e52ccf694717bbcc239f5f3db45e9bb7de27f359d"
+}

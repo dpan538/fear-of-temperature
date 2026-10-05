@@ -1,0 +1,63 @@
+{
+  "unit_id": "doc_6fe9e11be5ea65fab67e",
+  "source_id": "src_9e8f487d372ed011db82",
+  "canonical_url": "https://hansard.parliament.uk/Commons/2009-02-12/written-statements/09021291000008/departmental-expenditure-limits#09021291000017",
+  "requested_original": "Hansard statement section ExtId 09021291000008, contribution anchor 09021291000017, date 2009-02-12",
+  "source_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "local_reuse_check": {
+    "unit_id": "doc_6fe9e11be5ea65fab67e",
+    "canonical_url": "https://hansard.parliament.uk/Commons/2009-02-12/written-statements/09021291000008/departmental-expenditure-limits#09021291000017",
+    "saved_original_reuse": false,
+    "checked_at_utc": "2026-10-04T18:18:42.362895+00:00",
+    "named_paths": [
+      {
+        "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2009/09021291000008.json",
+        "exists": false
+      },
+      {
+        "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2009/09021291000008.json.fetch.json",
+        "exists": true,
+        "bytes": 334,
+        "sha256": "69e911ca263499e1408c8ed5cf97bb89da02e12747c8864ee9cb1d40d07ffc78",
+        "historical_fetch": {
+          "url": "https://hansard-api.parliament.uk/debates/debate/09021291000008.json",
+          "final_url": "https://hansard-api.parliament.uk/debates/debate/09021291000008.json",
+          "status": 400,
+          "mime": "application/json",
+          "retrieved_at": "2026-09-21T11:16:43Z",
+          "attempts": 1,
+          "error": "HTTP 400",
+          "sha256": "",
+          "byte_size": 0
+        }
+      },
+      {
+        "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/search/2009/page_000200.json",
+        "exists": true,
+        "bytes": 328678,
+        "sha256": "d817b18587806dfa64d37fed667fb1562fa53533995689133372763fa954cc8e"
+      }
+    ],
+    "reuse_reason": "Search text is not the requested section original; exact historical section raw absent and HTTP400 sidecar retained. Canonical HTML is the bounded alternate."
+  },
+  "attempts": [],
+  "terminal_at_utc": "2026-10-04T18:19:15.623722+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "date_precision": "unknown",
+  "publication_date": null,
+  "remaining_checks": [
+    "Official route not attempted after persistent access/safety stop; availability and identity remain untested."
+  ],
+  "terminal_status": "stopped_safety_or_access",
+  "stop_reason": "RuntimeError: HTTP 403; terminal failed route",
+  "baseline_source_date": "2009-02-12",
+  "baseline_existing_evidence": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/search/2009/page_000200.json;{\"attempts\":1,\"byte_size\":0,\"error\":\"HTTP 400\",\"final_url\":\"https://hansard-api.parliament.uk/debates/debate/09021291000008.json\",\"mime\":\"application/json\",\"retrieved_at\":\"2026-09-21T11:16:43Z\",\"sha256\":\"\",\"status\":400,\"url\":\"https://hansard-api.parliament.uk/debates/debate/09021291000008.json\"}",
+  "actual_attempt_status": "not_attempted_after_global_access_stop",
+  "triggering_http_checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/requests/dbc2ce043142545be24fbb4cf089248c6733557c7feb51c7a26455bfc4d2a2ce.json",
+  "triggering_http_checkpoint_sha256": "94c2abdd1a2d8b0223aba9d64b74b1c53046655c6663fe76b6bcb1ee3ec9d5a3",
+  "section_ext_id": "09021291000008",
+  "contribution_anchor": "09021291000017"
+}

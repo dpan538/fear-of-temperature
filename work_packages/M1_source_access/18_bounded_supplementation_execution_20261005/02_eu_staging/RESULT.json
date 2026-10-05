@@ -1,0 +1,122 @@
+{
+  "status": "stopped_partial",
+  "task_status": "single_authorized_execution_and_terminal_handoff_complete",
+  "reported_at_utc": "2026-10-04T18:43:56.922314+00:00",
+  "reported_at_local": "2026-10-05T02:43:56.922314+08:00",
+  "downloads_started": true,
+  "candidate_acquisition_complete": false,
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "september_2026_partial": true,
+  "tranche_publication_interval": [
+    "2015-01-01",
+    "2015-12-31"
+  ],
+  "frozen_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "accepted_downloader_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+  "downloader_version": "bounded_staging_v3_20261005",
+  "execution_finished_at_utc": "2026-10-04T18:38:18.022392+00:00",
+  "command_launches": 1,
+  "process_exit_code": 0,
+  "frozen_selected_Item_targets": 979,
+  "enumerated_Works": 1009,
+  "no_link_Works": 30,
+  "HTTP_requests_B": 21,
+  "attempted_selected_Items": 21,
+  "new_candidate_Items": 20,
+  "verified_local_reuse": 0,
+  "failed_Items": 1,
+  "not_attempted_after_stop": 958,
+  "remaining_targets": 959,
+  "redirect_HTTP_requests": 0,
+  "candidate_raw_bytes": 9020646,
+  "retained_partial_bytes": 0,
+  "A_raw_bytes": 0,
+  "A_partial_bytes": 0,
+  "shared_new_raw_cap_bytes": 2147483648,
+  "shared_new_raw_bytes": 9020646,
+  "remaining_shared_raw_budget_bytes": 2138463002,
+  "stop_reason": "RuntimeError: HTTP 406; terminal failed route",
+  "failed_Item": {
+    "parent_id": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1",
+    "expression_uri": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006",
+    "manifestation_uri": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01",
+    "item_uri": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+    "publication_dates": "2015-01-09",
+    "request_url": "https://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+    "status": "failed",
+    "raw_path": "",
+    "sha256": "",
+    "byte_count": "0",
+    "checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/857251ccc1e5593056fbf490ff87c569d31eb81d8b68aa151af03c8a544ecc4f.json",
+    "error": "RuntimeError: HTTP 406; terminal failed route",
+    "body_verification": "identity/date/content boundary pending"
+  },
+  "B_stop_persistent": true,
+  "automatic_restart": false,
+  "failed_route_retry": false,
+  "alternate_sibling_annex_expansion": false,
+  "storage_end": {
+    "free_bytes": 20563918848,
+    "free_gib": 19.151641845703125,
+    "floor_bytes": 16106127360,
+    "remaining_cap_plus_existing_extra_reserves_bytes": 3379313690,
+    "projected_remaining_gib": 16.004410719498992
+  },
+  "source_completeness": {
+    "selected_Item_readability_verified": 0,
+    "original_body_identity_date_verified": 0,
+    "required_components_verified": 0,
+    "complete_Work_verified": 0,
+    "selected_manifestation_multi_Item_Works_total": 253,
+    "selected_manifestation_multi_Item_Works_in_candidate_handoff": 6,
+    "historical_version_equivalence": "unassessed"
+  },
+  "method_boundaries": {
+    "text_extraction": false,
+    "formal_database_writes": 0,
+    "new_parents_created": 0,
+    "database_read_scope": "accepted runner targeted read-only repair_runs active-run/checkpoint verification; no corpus scan",
+    "database_read_count": "not instrumented; not claimed zero",
+    "raw_rehashes_in_handoff": 0,
+    "semantic_topic_emotion_fear_filters": false,
+    "commit": false,
+    "push": false,
+    "sealed_reviewer_access": false
+  },
+  "evidence_levels": {
+    "1": "20 saved candidate selected Items with hashes and dates from preexisting Work metadata; readable/complete originals pending",
+    "2": "climate/warming relevance and similarity unassessed",
+    "3": "affect/risk/future-harm/responsibility unassessed",
+    "4": "fear-specific interpretation unassessed"
+  },
+  "reporting_notes": [
+    {
+      "field": "EXECUTION_RESULT.json.downloads_started",
+      "saved_value": false,
+      "interpretation": "carried forward from preflight; execution attempted_items/phase request count/checkpoints show 21 real HTTP attempts",
+      "correction_in_this_derived_result": "downloads_started=true; original runtime receipt preserved unchanged"
+    }
+  ],
+  "final_handoff_checks_passed": 17,
+  "historical_preparation_preserved": "LOCAL_PREPARATION.json and original input receipt; prior report snapshots archived locally",
+  "primary_outputs": [
+    "RESULT.json",
+    "LOG_ENTRY.md",
+    "HANDOFF_zh.md",
+    "STAGING_INGESTION_HANDOFF.csv",
+    "B_STATUS_LEDGER.csv",
+    "B_REMAINING_TARGETS.csv",
+    "B_NO_LINK_WORKS.csv",
+    "B_COVERAGE_EXPECTED_VS_OBSERVED.csv",
+    "EXECUTION_PREFLIGHT.json",
+    "EXECUTION_RESULT.json",
+    "EXECUTION_STDOUT.log",
+    "PHASE_HTTP_STATE.json",
+    "EXECUTION_INPUT_RECEIPT.json",
+    "RUNNER_REPORTING_NOTES.json"
+  ],
+  "next_action": "Coordinator/single writer reviews the 20 candidate-byte handoff for later serial readability/identity/date/component acceptance. Keep the HTTP406 route and 959 remaining targets stopped; no automatic resumption or substitute queue."
+}

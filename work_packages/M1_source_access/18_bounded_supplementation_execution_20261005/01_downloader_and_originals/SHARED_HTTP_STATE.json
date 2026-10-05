@@ -1,0 +1,7 @@
+{
+  "last_request_started_utc": "2026-10-04T18:19:15.456390+00:00",
+  "request_count": 1,
+  "last_request_finished_utc": "2026-10-04T18:19:15.621252+00:00",
+  "halted": true,
+  "stop_reason": "RuntimeError: HTTP 403; terminal failed route"
+}

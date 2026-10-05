@@ -1,0 +1,20 @@
+{
+  "checked_at_utc": "2026-10-04T17:58:56.372691+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "repair_release_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+  "repair_release_status": "committed_repairs_checked_targeted_acquisition_released",
+  "database_post_checkpoint_matches": true,
+  "original_requests_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "original_requests": 5,
+  "frozen_eu_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "frozen_eu_items": 979,
+  "free_bytes": 20644163584,
+  "reserve_bytes": 3388334336,
+  "floor_bytes": 16106127360,
+  "storage_preflight_passes": true,
+  "new_downloads_started_by_coordinator": false,
+  "formal_database_queries_by_coordinator": 0
+}

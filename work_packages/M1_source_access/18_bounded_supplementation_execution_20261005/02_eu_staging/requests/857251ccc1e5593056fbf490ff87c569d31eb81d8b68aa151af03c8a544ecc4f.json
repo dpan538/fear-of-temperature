@@ -1,0 +1,26 @@
+{
+  "parent_id": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1",
+  "item_uri": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+  "expression_uri": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006",
+  "manifestation_uri": "http://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01",
+  "publication_dates": "2015-01-09",
+  "request_url": "https://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+  "format": "pdfa1a",
+  "status": "failed",
+  "requested_at_utc": "2026-10-04T18:38:15.142608+00:00",
+  "byte_count": 0,
+  "redirects": [],
+  "raw_path": "",
+  "sha256": "",
+  "checkpoint_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/requests/857251ccc1e5593056fbf490ff87c569d31eb81d8b68aa151af03c8a544ecc4f.json",
+  "body_verification": "identity/date/content boundary pending",
+  "http_status": 406,
+  "final_url": "https://publications.europa.eu/resource/cellar/3df58e03-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+  "response_headers": {
+    "Date": "Sun, 04 Oct 2026 18:38:17 GMT",
+    "Content-Type": "application/xml;charset=UTF-8",
+    "Content-Length": "1000",
+    "Last-Modified": "Thu, 01 Jan 1970 00:00:00 GMT"
+  },
+  "error": "RuntimeError: HTTP 406; terminal failed route"
+}

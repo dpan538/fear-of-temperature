@@ -1,0 +1,61 @@
+{
+  "complete": true,
+  "completed_at_utc": "2026-10-04T18:19:15.627607+00:00",
+  "unit_ids": [
+    "doc:7c7006b4ea3168ebe548e229915d853b",
+    "doc:bc6340389c3977a04993b0a20f55bcca",
+    "doc_5b740259ea5cdcdbdbdf",
+    "doc_6fe9e11be5ea65fab67e",
+    "doc_76b0ddb367df2c048a60"
+  ],
+  "terminal_outcomes": {
+    "doc_5b740259ea5cdcdbdbdf": "access_restricted",
+    "doc_6fe9e11be5ea65fab67e": "stopped_safety_or_access",
+    "doc_76b0ddb367df2c048a60": "stopped_safety_or_access",
+    "doc:7c7006b4ea3168ebe548e229915d853b": "stopped_safety_or_access",
+    "doc:bc6340389c3977a04993b0a20f55bcca": "stopped_safety_or_access"
+  },
+  "source_manifest_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+  "source_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "ledger_sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+  "A_raw_files": [],
+  "A_raw_bytes": 0,
+  "A_partial_bytes": 0,
+  "shared_raw_accounting": {
+    "total_bytes": 0,
+    "partial_bytes": 0,
+    "files": []
+  },
+  "remaining_shared_raw_budget_bytes": 2147483648,
+  "budget": {
+    "free_bytes": 20635697152,
+    "raw_bytes": 0,
+    "partial_bytes": 0,
+    "remaining_shared_raw_bytes": 2147483648,
+    "reserve_bytes": 1240850688,
+    "floor_bytes": 16106127360
+  },
+  "http_state": {
+    "last_request_started_utc": "2026-10-04T18:19:15.456390+00:00",
+    "request_count": 1,
+    "last_request_finished_utc": "2026-10-04T18:19:15.621252+00:00",
+    "halted": true,
+    "stop_reason": "RuntimeError: HTTP 403; terminal failed route"
+  },
+  "downloader_sha256": "86f5055124a482c74350d10db5e7046de6754bd62e5a279b4de6ae56fda6f2f8",
+  "formal_database_writes": 0,
+  "extraction_started": false,
+  "eu_HTTP_requests": 0,
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "stop_reason": "RuntimeError: HTTP 403; terminal failed route",
+  "original_body_requests": 1,
+  "downloaded_originals": 0,
+  "verified_local_reuse": 0,
+  "not_attempted_after_access_stop": 4,
+  "original_acquisition_complete": false,
+  "http_state_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/SHARED_HTTP_STATE.json",
+  "http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94"
+}

@@ -1,0 +1,42 @@
+{
+  "created_at_utc": "2026-10-04T18:10:39.082176+00:00",
+  "status": "local_delivery_verified",
+  "outputs": {
+    "B_TARGET_STATUS.csv": {
+      "bytes": 1132499,
+      "sha256": "a450707d3b9b36d4f2dc3b9b12a04d828262ccc85fee33c9b971c83d687b6d30"
+    },
+    "B_PATH_OBSERVATIONS.csv": {
+      "bytes": 1772962,
+      "sha256": "53c5b44181396ab85c1b95b5f880e71a54afc486596c32967bf617960887d1f5"
+    },
+    "INPUT_RECEIPT.json": {
+      "bytes": 4805,
+      "sha256": "d2bf8f4bca0456e4efc4794a36d62535fc50b5f5e63ac0cfa072a496753fca0c"
+    },
+    "LOCAL_PREPARATION.json": {
+      "bytes": 4299,
+      "sha256": "115ebb8ceb5e1f3a371636fe5f7d6cc37c56157b8dc965bf9974ebf5fa95733c"
+    },
+    "RESULT.json": {
+      "bytes": 4737,
+      "sha256": "4e04a44ac9c0e2c2a6b187b73e8c92de736c0e6c52d1f6e042fef384863bbf1a"
+    },
+    "LOG_ENTRY.md": {
+      "bytes": 2353,
+      "sha256": "6788a7efa86578634c2d77751b8d66fa00b103d797afd431ba0c604f90844603"
+    },
+    "HANDOFF_zh.md": {
+      "bytes": 2789,
+      "sha256": "5ec73e684ed41205434346efc14731aa19334cc9aa217f584a3b094c669430f4"
+    },
+    "inspect_local_targets.py": {
+      "bytes": 19070,
+      "sha256": "07f5b7d1c877bfac3041f7b023ceaeaf9314707363b624d8da9d7191b98aa032"
+    }
+  },
+  "checks": "979 status rows, 2937 scoped path observations, no raw/sidecar/partial or new attempt, helper syntax and required files present",
+  "new_downloads": 0,
+  "source_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "sealed_reviewer_access": false
+}

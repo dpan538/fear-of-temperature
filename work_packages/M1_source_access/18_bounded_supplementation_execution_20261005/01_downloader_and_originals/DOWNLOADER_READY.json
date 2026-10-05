@@ -1,0 +1,86 @@
+{
+  "status": "ready",
+  "ready_at_utc": "2026-10-04T18:28:50.594437+00:00",
+  "downloader_version": "bounded_staging_v3_20261005",
+  "downloader_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/stage_frozen_items.py",
+  "downloader_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+  "before_sha256": "fff95478edeec2109577dc165fc809634d34d0a32edd057c8bbea2c674497da0",
+  "patch_sha256": "2a0350dc861d7e5f9db112c90c343436002240b822312c4321337e9f2ca758d9",
+  "offline_test_command": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/test_downloader_offline.py",
+  "offline_test_results_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/OFFLINE_TEST_RESULTS.json",
+  "offline_test_results_sha256": "e809798df9416c215264463efd8100082e432eb7902e20abafefedb786b2720f",
+  "offline_tests_passed": 32,
+  "network_attempts_during_validation": 0,
+  "network_denial": "socket connect/connect_ex, create_connection and Session.request deny; HTTP fixture responses only",
+  "repair_release_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+  "a_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "a_unit_ids": [
+    "doc:7c7006b4ea3168ebe548e229915d853b",
+    "doc:bc6340389c3977a04993b0a20f55bcca",
+    "doc_5b740259ea5cdcdbdbdf",
+    "doc_6fe9e11be5ea65fab67e",
+    "doc_76b0ddb367df2c048a60"
+  ],
+  "frozen_b_manifest_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "release_evidence": {
+    "marker_sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805",
+    "run_id": "repair_20261004_task3_v1",
+    "post_checkpoint": {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "bytes": 3590598656,
+      "mtime_ns": 1791108746288675852
+    },
+    "request_path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+    "request_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+    "unit_ids": [
+      "doc:7c7006b4ea3168ebe548e229915d853b",
+      "doc:bc6340389c3977a04993b0a20f55bcca",
+      "doc_5b740259ea5cdcdbdbdf",
+      "doc_6fe9e11be5ea65fab67e",
+      "doc_76b0ddb367df2c048a60"
+    ],
+    "linked_evidence_sha256": {
+      "ACCEPTANCE.json": "1125c6052001852905fac76815859f3b2734ba62f68e1aa262cb1042dd2b72eb",
+      "RESULT.json": "32f1eb55742dc1619e91362a54508b31c45b16c2487650e7febeba24adea4b15",
+      "CHANGE_MANIFEST.json": "32a3996a36ce2b664b4976db2a546ef9753f37d68f7a6c5e8bc26572d8825704",
+      "APPLIED.json": "9ff543c6556acd4e723702c1019d0a6848bdaf1a259fd352ae247960b8af13ea"
+    },
+    "active_committed_run_verified": true,
+    "run_recorded_at_utc": "2026-10-04T09:57:18.066818+00:00",
+    "postcommit_receipt_at_utc": "2026-10-04T09:57:26.603489+00:00",
+    "database_query": "targeted repair_runs primary-key read; read_only=True"
+  },
+  "storage": {
+    "free_bytes": 20612534272,
+    "raw_bytes": 0,
+    "partial_bytes": 0,
+    "remaining_shared_raw_bytes": 2147483648,
+    "reserve_bytes": 3388334336,
+    "floor_bytes": 16106127360
+  },
+  "original_body_requests_started": true,
+  "eu_http_authorized": false,
+  "coordinator_release_required": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/control/EU_STAGING_RELEASE.json",
+  "A_request_policy": "Canonical official HTML routes (3 Hansard, 2 AU); at most one explicitly identified primary PDF per AU page; at most two same-route redirects per object. No old HTTP400 API retry, alternate queue, or automatic rerun. Access/safety/Retry-After stops are shared and persistent.",
+  "formal_database_writes": 0,
+  "extraction_authorized": false,
+  "offline_test_script_sha256": "78ba637a4c110fe632e401f05553603628128c4ce924aa3ccf53245064d617bd",
+  "A_execution_version": "bounded_staging_v2_20261005",
+  "A_execution_code_sha256": "86f5055124a482c74350d10db5e7046de6754bd62e5a279b4de6ae56fda6f2f8",
+  "A_execution_version_receipt_sha256": "6f47ef35ed7786040a748dcdda42d499dffff81d4fbca69b5c99b61f0b4ccaf9",
+  "previous_v2_ready_sha256": "30d43bc54122cd023d64ea82d325e9bd423f461fb7480aeee9f82ade8a3e707b",
+  "A_http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+  "A_stop_retained": true,
+  "new_http_requests_during_v3_repair": 0,
+  "B_execution_needs_explicit_A_stop_acceptance": true,
+  "authorized_b_hosts": [
+    "op.europa.eu",
+    "publications.europa.eu"
+  ],
+  "B_phase_http_state_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/PHASE_HTTP_STATE.json",
+  "global_spacing_state_path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/GLOBAL_REQUEST_SPACING.json"
+}

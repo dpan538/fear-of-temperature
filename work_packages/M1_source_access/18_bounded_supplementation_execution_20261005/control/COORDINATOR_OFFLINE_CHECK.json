@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "tests_run": 32,
+  "failures": 0,
+  "errors": 0,
+  "network_attempts": [],
+  "code_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+  "fixture_source_sha256": "78ba637a4c110fe632e401f05553603628128c4ce924aa3ccf53245064d617bd",
+  "database_queries_by_coordinator": 0,
+  "worker_offline_receipt_unchanged": true,
+  "checked_at_utc": "2026-10-04T18:31:13.095499+00:00",
+  "version": "bounded_staging_v3_20261005"
+}

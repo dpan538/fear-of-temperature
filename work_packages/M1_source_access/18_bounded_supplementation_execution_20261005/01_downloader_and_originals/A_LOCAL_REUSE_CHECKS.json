@@ -1,0 +1,186 @@
+{
+  "checked_at_utc": "2026-10-04T18:18:42.396125+00:00",
+  "source_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd",
+  "checks": [
+    {
+      "unit_id": "doc_5b740259ea5cdcdbdbdf",
+      "canonical_url": "https://hansard.parliament.uk/Commons/2007-05-17/written-statements/07051786000018/departmental-report#07051786000046",
+      "saved_original_reuse": false,
+      "checked_at_utc": "2026-10-04T18:18:42.361007+00:00",
+      "named_paths": [
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2007/07051786000018.json",
+          "exists": false
+        },
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2007/07051786000018.json.fetch.json",
+          "exists": true,
+          "bytes": 334,
+          "sha256": "61616e139666622e44f5f5322603e47001ae047ccca9d4c73fb316861783d61f",
+          "historical_fetch": {
+            "url": "https://hansard-api.parliament.uk/debates/debate/07051786000018.json",
+            "final_url": "https://hansard-api.parliament.uk/debates/debate/07051786000018.json",
+            "status": 400,
+            "mime": "application/json",
+            "retrieved_at": "2026-09-21T11:12:46Z",
+            "attempts": 1,
+            "error": "HTTP 400",
+            "sha256": "",
+            "byte_size": 0
+          }
+        },
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/search/2007/page_000500.json",
+          "exists": true,
+          "bytes": 290499,
+          "sha256": "9f7aa43afd5d97ccc52eb6b1730c4290e457dfc87c3d18856c498584fabac2d7"
+        }
+      ],
+      "reuse_reason": "Search text is not the requested section original; exact historical section raw absent and HTTP400 sidecar retained. Canonical HTML is the bounded alternate."
+    },
+    {
+      "unit_id": "doc_6fe9e11be5ea65fab67e",
+      "canonical_url": "https://hansard.parliament.uk/Commons/2009-02-12/written-statements/09021291000008/departmental-expenditure-limits#09021291000017",
+      "saved_original_reuse": false,
+      "checked_at_utc": "2026-10-04T18:18:42.362895+00:00",
+      "named_paths": [
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2009/09021291000008.json",
+          "exists": false
+        },
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2009/09021291000008.json.fetch.json",
+          "exists": true,
+          "bytes": 334,
+          "sha256": "69e911ca263499e1408c8ed5cf97bb89da02e12747c8864ee9cb1d40d07ffc78",
+          "historical_fetch": {
+            "url": "https://hansard-api.parliament.uk/debates/debate/09021291000008.json",
+            "final_url": "https://hansard-api.parliament.uk/debates/debate/09021291000008.json",
+            "status": 400,
+            "mime": "application/json",
+            "retrieved_at": "2026-09-21T11:16:43Z",
+            "attempts": 1,
+            "error": "HTTP 400",
+            "sha256": "",
+            "byte_size": 0
+          }
+        },
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/search/2009/page_000200.json",
+          "exists": true,
+          "bytes": 328678,
+          "sha256": "d817b18587806dfa64d37fed667fb1562fa53533995689133372763fa954cc8e"
+        }
+      ],
+      "reuse_reason": "Search text is not the requested section original; exact historical section raw absent and HTTP400 sidecar retained. Canonical HTML is the bounded alternate."
+    },
+    {
+      "unit_id": "doc_76b0ddb367df2c048a60",
+      "canonical_url": "https://hansard.parliament.uk/Commons/2010-02-23/written-statements/10022378000029/departmental-expenditure-limits#10022378000984",
+      "saved_original_reuse": false,
+      "checked_at_utc": "2026-10-04T18:18:42.365226+00:00",
+      "named_paths": [
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2010/10022378000029.json",
+          "exists": false
+        },
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/details/2010/10022378000029.json.fetch.json",
+          "exists": true,
+          "bytes": 334,
+          "sha256": "10f401129b50a246c0b88e4cfbd89d4e66e9dfcf8a0ff47322e51533c5d1025b",
+          "historical_fetch": {
+            "url": "https://hansard-api.parliament.uk/debates/debate/10022378000029.json",
+            "final_url": "https://hansard-api.parliament.uk/debates/debate/10022378000029.json",
+            "status": 400,
+            "mime": "application/json",
+            "retrieved_at": "2026-09-21T11:19:14Z",
+            "attempts": 1,
+            "error": "HTTP 400",
+            "sha256": "",
+            "byte_size": 0
+          }
+        },
+        {
+          "path": "work_packages/M1_source_access/07_historical_government_acquisition/raw/hansard_api/search/2010/page_000100.json",
+          "exists": true,
+          "bytes": 426244,
+          "sha256": "caa88048b8177ba4da5a8f87e80a305db51db5fec4a8cc530c2e363b47c5d232"
+        }
+      ],
+      "reuse_reason": "Search text is not the requested section original; exact historical section raw absent and HTTP400 sidecar retained. Canonical HTML is the bounded alternate."
+    },
+    {
+      "unit_id": "doc:7c7006b4ea3168ebe548e229915d853b",
+      "canonical_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+      "saved_original_reuse": false,
+      "checked_at_utc": "2026-10-04T18:18:42.368279+00:00",
+      "named_paths": [
+        {
+          "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/au_landing/:34061410925e9a21173e7ba2e0b8642d.html",
+          "request_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+          "exists": false,
+          "checkpoint_exists": false
+        },
+        {
+          "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/au_files/:48193019bc4bb868d4761a636a142b5d.pdf",
+          "request_url": "https://www.dcceew.gov.au/sites/default/files/documents/interim-report-fugitive-methane-expert-panel.pdf",
+          "exists": false,
+          "checkpoint_exists": false
+        }
+      ],
+      "prior_primary_link_evidence": {
+        "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_attachment_candidates.csv",
+        "sha256": "049b0d3dd1ada0c4207027aded7df7ffc456b117e6a04c112a136a92c7c633bb",
+        "matched_rows": [
+          {
+            "landing_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+            "url": "https://www.dcceew.gov.au/sites/default/files/documents/interim-report-fugitive-methane-expert-panel.pdf",
+            "label": "Enhancing Australia's Fugitive Methane Emissions Estimates: Consideration of Atmospheric Measurement Approaches - an Interim Report (PDF)",
+            "role_candidate": "main_or_alternate_candidate",
+            "format": "pdf",
+            "role_status": "unverified_candidate"
+          }
+        ]
+      },
+      "reuse_reason": "Exact URL-derived landing and primary-file paths checked; catalogue or prior web observations alone are not saved original bytes."
+    },
+    {
+      "unit_id": "doc:bc6340389c3977a04993b0a20f55bcca",
+      "canonical_url": "https://www.dcceew.gov.au/environment/marine/publications/sustainable-ocean-plan",
+      "saved_original_reuse": false,
+      "checked_at_utc": "2026-10-04T18:18:42.370799+00:00",
+      "named_paths": [
+        {
+          "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/au_landing/:4c4fca692f83cf0f8e06da0f215fad25.html",
+          "request_url": "https://www.dcceew.gov.au/environment/marine/publications/sustainable-ocean-plan",
+          "exists": false,
+          "checkpoint_exists": false
+        },
+        {
+          "path": "work_packages/M1_source_access/09_us_au_government_acquisition/raw/au_files/:eb367cc17568242c3f3171c6a201529f.pdf",
+          "request_url": "https://www.dcceew.gov.au/sites/default/files/documents/australias-sustainable-ocean-plan.pdf",
+          "exists": false,
+          "checkpoint_exists": false
+        }
+      ],
+      "prior_primary_link_evidence": {
+        "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_attachment_candidates.csv",
+        "sha256": "049b0d3dd1ada0c4207027aded7df7ffc456b117e6a04c112a136a92c7c633bb",
+        "matched_rows": [
+          {
+            "landing_url": "https://www.dcceew.gov.au/environment/marine/publications/sustainable-ocean-plan",
+            "url": "https://www.dcceew.gov.au/sites/default/files/documents/australias-sustainable-ocean-plan.pdf",
+            "label": "Australia’s Sustainable Ocean Plan (PDF)",
+            "role_candidate": "main_or_alternate_candidate",
+            "format": "pdf",
+            "role_status": "unverified_candidate"
+          }
+        ]
+      },
+      "reuse_reason": "Exact URL-derived landing and primary-file paths checked; catalogue or prior web observations alone are not saved original bytes."
+    }
+  ],
+  "scope": "Named exact paths only; no corpus scan or database query",
+  "network_requests": 0
+}

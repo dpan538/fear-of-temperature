@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-04T18:32:38.357815+00:00",
+  "downloader_version": "bounded_staging_v3_20261005",
+  "downloader_sha256": "f6f2bda93e9745c56ff9fd438be8071af2b40ee65b5f5b625d30f2d1c5e28bb2",
+  "tests_passed": 32,
+  "network_attempts_during_validation": 0,
+  "final_A_bindings": {
+    "a_ledger_sha256": "09f5cdfe42c09e803ec0f1dbaf3b246677f407827efedd179700092724ce0377",
+    "a_accounting_sha256": "cfdb99c9af5d290a97936529dac76bc669bace866be7c48b1a3b08bf2a33c51f",
+    "a_manifest_sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd"
+  },
+  "A_actual_execution_version": "bounded_staging_v2_20261005",
+  "A_http_state_sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94",
+  "A_stop_preserved": true,
+  "database_post_checkpoint": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "active_committed_run_verified": true,
+  "formal_database_writes": 0,
+  "raw_accounting": {
+    "total_bytes": 0,
+    "partial_bytes": 0,
+    "files": []
+  },
+  "storage": {
+    "free_bytes": 20613513216,
+    "raw_bytes": 0,
+    "partial_bytes": 0,
+    "remaining_shared_raw_bytes": 2147483648,
+    "reserve_bytes": 3388334336,
+    "floor_bytes": 16106127360
+  },
+  "new_HTTP_requests": 1,
+  "EU_HTTP_requests": 0,
+  "B_phase_state_created": false,
+  "coordinator_B_release_exists": false,
+  "extraction_started": false,
+  "frozen_B_unchanged": true,
+  "named_existing_raw_evidence_unchanged": true
+}

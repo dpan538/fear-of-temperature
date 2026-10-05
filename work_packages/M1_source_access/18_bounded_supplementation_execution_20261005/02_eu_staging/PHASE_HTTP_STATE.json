@@ -1,0 +1,7 @@
+{
+  "last_request_started_utc": "2026-10-04T18:38:16.674592+00:00",
+  "request_count": 21,
+  "last_request_finished_utc": "2026-10-04T18:38:18.006488+00:00",
+  "halted": true,
+  "stop_reason": "RuntimeError: HTTP 406; terminal failed route"
+}

@@ -1,0 +1,13 @@
+month,enumerated_Works,frozen_selected_Item_targets,no_link_Works,candidate_Items_downloaded,verified_local_reuse,failed,not_attempted_after_stop,readable_selected_Items_verified,complete_Works_verified,scope
+2015-01,93,91,2,20,0,1,70,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-02,124,124,0,0,0,0,124,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-03,144,142,2,0,0,0,142,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-04,71,69,2,0,0,0,69,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-05,92,91,1,0,0,0,91,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-06,49,47,2,0,0,0,47,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-07,78,75,3,0,0,0,75,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-08,26,25,1,0,0,0,25,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-09,71,66,5,0,0,0,66,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-10,62,58,4,0,0,0,58,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-11,97,94,3,0,0,0,94,0,0,observed candidate bytes only; publication month follows saved Work metadata
+2015-12,102,97,5,0,0,0,97,0,0,observed candidate bytes only; publication month follows saved Work metadata
