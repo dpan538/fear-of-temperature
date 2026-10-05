@@ -1,0 +1,49 @@
+{
+  "request_id": "4d854d941c59df034c81b0fd",
+  "source_id": "opendemocracy",
+  "request_url": "https://www.opendemocracy.net/sitemap-posts.xml",
+  "purpose": "discovery",
+  "route": "sitemap",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:27:05.134394+00:00",
+  "status": "truncated",
+  "http_status": 200,
+  "byte_count": 2097152,
+  "hops": [
+    {
+      "url": "https://www.opendemocracy.net/sitemap-posts.xml",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:27:05.133337+00:00",
+    "free_bytes": 23779733504,
+    "reserve_bytes": 3364733980,
+    "projected_free_after_reserves": 20412902372,
+    "media_lifetime_bytes": 1368782,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.opendemocracy.net/sitemap-posts.xml",
+  "mime_type": "text/xml; charset=utf-8",
+  "response_headers": {
+    "Content-Length": "9961983",
+    "content-type": "text/xml; charset=utf-8",
+    "etag": "W/\"9801ff-Q9XZ5sSQ0lqGGm1KZr3jhuFtUns\"",
+    "Date": "Mon, 05 Oct 2026 08:27:06 GMT"
+  },
+  "error": "RuntimeError: Object cap reached; partial retained",
+  "failure_dimension": "transport_or_path_failure_not_proven_publisher_denial",
+  "partial_path": "media/raw/4d854d941c59df034c81b0fd.part",
+  "partial_sha256": "cf3e5d106a2e18488280f270f100dd3494a0c377aa10bb325a2c7520f0af98c5",
+  "finished_at_utc": "2026-10-05T08:27:06.213787+00:00"
+}

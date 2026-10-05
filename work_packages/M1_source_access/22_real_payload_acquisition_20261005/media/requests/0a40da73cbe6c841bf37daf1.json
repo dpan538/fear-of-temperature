@@ -1,0 +1,31 @@
+{
+  "request_id": "0a40da73cbe6c841bf37daf1",
+  "source_id": "indaily",
+  "request_url": "https://www.indaily.com.au/robots.txt",
+  "purpose": "robots",
+  "route": "robots",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:22:31.956189+00:00",
+  "status": "failed",
+  "http_status": null,
+  "byte_count": 0,
+  "hops": [],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:22:31.955921+00:00",
+    "free_bytes": 23771766784,
+    "reserve_bytes": 3365900760,
+    "projected_free_after_reserves": 20403768872,
+    "media_lifetime_bytes": 202002,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "54d427f9a1f1b49c636349175b0622ee3fe04fe46465e794b2bdf07e78ec127b",
+  "code_sha256": "ff8924ee4e7da4a48030ee2ba2437e11654e257d74d770c4179609c0d9665b92",
+  "publisher_denial": false,
+  "error": "ConnectionError: HTTPSConnectionPool(host='www.indaily.com.au', port=443): Max retries exceeded with url: /robots.txt (Caused by NameResolutionError(\"HTTPSConnection(host='www.indaily.com.au', port=443): Failed to resolve 'www.indaily.com.au' ([Errno 8] nodename nor servname provided, or not known)\"))",
+  "failure_dimension": "transport_or_path_failure_not_proven_publisher_denial",
+  "finished_at_utc": "2026-10-05T08:22:31.958454+00:00"
+}

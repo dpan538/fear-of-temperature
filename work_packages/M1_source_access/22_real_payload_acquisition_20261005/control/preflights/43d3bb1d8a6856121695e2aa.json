@@ -1,0 +1,36 @@
+{
+  "at_utc": "2026-10-05T08:45:16.252047+00:00",
+  "inputs_and_code": {
+    "control/SCOPE.json": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+    "PLAN.md": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+    "control/COORDINATION.json": "d9c2cc2acd9b255e625c551b0930c4de4cff3506a3209327ff4ae7f9f1bb565e",
+    "control/CANDIDATES.json": "0dca7fdb0a51548b2b53cf690cfbf601172367bc3cba54da9a84717651a506d3",
+    "control/REQUEST_POLICY.json": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+    "prototype/government.py": "ab15cfe4d711e423473f33a6dea8b1a1d7f6b980a70c30ab4e995f255b3dae8b",
+    "prototype/media.py": "478d951c769e8b0487cc29b03c2c97fb01b0d05bf7cff76625d1bd19ebeee9a3",
+    "prototype/run.py": "d4dea7fce8ff4691625e4eb0b8607c0923eab0f5c5f891dff11a914dbf96b001",
+    "prototype/test_media.py": "7a486f1d4f0574d5a71652e683f5557735656ea4dd6f424deb36a8d4623d552e",
+    "prototype/test_requests.py": "503ddc98f22228f998af98f2a28a4897c7210adcd74038a15644053051d01b7e",
+    "prototype/test_transport.py": "fb10ea5173858932aec2aa1354361b28f46be2598696e2139b489d1ad683e7d9",
+    "prototype/transport.py": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+    "media/frames/canary_2025-07.json": "7a5bd0dafe7e1ca8a352d63b8c2fdf3f812c733a60a8a6fe6621457025778305",
+    "media/frames/edjnet_2025-07.json": "284fababdcf1d1f3e78b5b068d968857494bb8f9e209d17ef147a58c00b48555",
+    "media/frames/opendemocracy_2025-07.json": "9f65486a4136dd2f3efeae1bd7651cc08de7778f9e6ed14ec9f3218e476ea133",
+    "media/frames/spinoff_2025-07.json": "22a9e0aac4af6df694b05539825e5fa9e546618480abe7eb8e3dd0d6a52a6e0c",
+    "media/frames/texastribune_2025-07.json": "8db6d570828c89857f64afcf4b413e241f4b870874591fe53724546f313a7d6e",
+    "government/TARGET_SEQUENCE.json": "17a10b181ee0e1e837f71a00bfd97de2b093fcf96402c560ebae9ac190a4b63e"
+  },
+  "budget": {
+    "at_utc": "2026-10-05T08:45:16.256408+00:00",
+    "free_bytes": 23674023936,
+    "reserve_bytes": 3355237502,
+    "projected_free_after_reserves": 20318786434,
+    "media_lifetime_bytes": 10865260,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 0,
+    "passed": true
+  },
+  "no_per_request_coordinator_release_required": true
+}

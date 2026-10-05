@@ -1,0 +1,49 @@
+{
+  "request_id": "c4165023f9e53d0a74ee1fc4",
+  "source_id": "spinoff",
+  "request_url": "https://thespinoff.co.nz/business/01-07-2025/prominent-new-zealander-strikes-again",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:29:55.808628+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 160938,
+  "hops": [
+    {
+      "url": "https://thespinoff.co.nz/business/01-07-2025/prominent-new-zealander-strikes-again",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:29:55.804278+00:00",
+    "free_bytes": 23618383872,
+    "reserve_bytes": 3360582949,
+    "projected_free_after_reserves": 20255703771,
+    "media_lifetime_bytes": 5519813,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/spinoff_2025-07.json",
+  "frame_sha256": "22a9e0aac4af6df694b05539825e5fa9e546618480abe7eb8e3dd0d6a52a6e0c",
+  "final_url": "https://thespinoff.co.nz/business/01-07-2025/prominent-new-zealander-strikes-again",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 05 Oct 2026 08:29:56 GMT",
+    "Content-Length": "160938"
+  },
+  "raw_path": "media/raw/c4165023f9e53d0a74ee1fc4.bin",
+  "sha256": "f9dc2adb2fdebb2eee31f201902b6bf77d39249589652a45e21e4fb0659a6ef8",
+  "finished_at_utc": "2026-10-05T08:29:56.909918+00:00"
+}

@@ -1,0 +1,24 @@
+{
+  "request_id": "opendemocracy_search3",
+  "source_id": "opendemocracy",
+  "purpose": "discovery",
+  "route": "domain_date_search",
+  "lane": "media",
+  "request_url": "web-search:site:opendemocracy.net \"December\" \"2015\"",
+  "status": "saved_metadata_excerpt_only",
+  "http_status": null,
+  "byte_count": 1050,
+  "raw_path": "media/raw/opendemocracy_search3.metadata_excerpt.json",
+  "sha256": "c6376fbf3ef80041ce7ee54ae79b99aaa6702ec48e108849fa8727cb53e2e9af",
+  "requested_at_utc": null,
+  "finished_at_utc": "2026-10-05T09:16:27.649860+00:00",
+  "publisher_denial": false,
+  "hops": [],
+  "full_response_retained": false,
+  "monthly_denominator": null,
+  "observation_interval_utc": [
+    "2026-10-05T09:06:33+00:00",
+    "2026-10-05T09:14:07+00:00"
+  ],
+  "timestamp_precision": "observation interval only; finished timestamp is local receipt capture, not native search retrieval"
+}

@@ -1,0 +1,58 @@
+{
+  "request_id": "a040f508b0b375b23ec96ea4",
+  "source_id": "opendemocracy",
+  "request_url": "https://www.opendemocracy.net/en/podemos-instrument-work-subject-aphorisms-2",
+  "purpose": "body",
+  "route": "selected_2015_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T09:16:48.174172+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "byte_count": 84767,
+  "hops": [
+    {
+      "url": "https://www.opendemocracy.net/en/podemos-instrument-work-subject-aphorisms-2",
+      "status": 301,
+      "location": "/en/podemos-instrument-work-subject-aphorisms-2/"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/podemos-instrument-work-subject-aphorisms-2/",
+      "status": 404,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T09:16:46.176841+00:00",
+    "free_bytes": 21085683712,
+    "reserve_bytes": 3336860044,
+    "projected_free_after_reserves": 17746726516,
+    "media_lifetime_bytes": 24900259,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/opendemocracy_2015-12.json",
+  "frame_sha256": "0346a6899ad2c969e8a96d9c4ffae505860cd56875debfe0e33976d1c21be4f6",
+  "final_url": "https://www.opendemocracy.net/en/podemos-instrument-work-subject-aphorisms-2/",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Content-Length": "84767",
+    "content-type": "text/html; charset=utf-8",
+    "etag": "W/\"14b1f-8JFJrU1nh12h9V/N0xKEYISnQGs\"",
+    "Date": "Mon, 05 Oct 2026 09:16:52 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/a040f508b0b375b23ec96ea4.bin",
+  "sha256": "a0b17d273396a51a1923bc845ce32792d0745a5615d83fd95c554cad5d12e769",
+  "error": "RuntimeError: HTTP 404; route stopped",
+  "failure_dimension": "transport_or_path_failure_not_proven_publisher_denial",
+  "finished_at_utc": "2026-10-05T09:16:52.265523+00:00"
+}

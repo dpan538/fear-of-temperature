@@ -1,0 +1,55 @@
+{
+  "request_id": "e59c717371eb5608131ca8ee",
+  "source_id": "canary",
+  "request_url": "https://www.thecanary.co/discovery/science/2015/12/21/know-genes-affect-smart-new-research-explains",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:59:21.349594+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 436985,
+  "hops": [
+    {
+      "url": "https://www.thecanary.co/discovery/science/2015/12/21/know-genes-affect-smart-new-research-explains",
+      "status": 301,
+      "location": "https://www.thecanary.co/discovery/science/2015/12/21/know-genes-affect-smart-new-research-explains/"
+    },
+    {
+      "url": "https://www.thecanary.co/discovery/science/2015/12/21/know-genes-affect-smart-new-research-explains/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:59:16.361009+00:00",
+    "free_bytes": 23509032960,
+    "reserve_bytes": 3339521012,
+    "projected_free_after_reserves": 20167414796,
+    "media_lifetime_bytes": 22239291,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/canary_2015-12.json",
+  "frame_sha256": "0457f7a0e16344f502e25edcd6c2ff2ad1ef9e59fef83b47447bb383f9df4f75",
+  "final_url": "https://www.thecanary.co/discovery/science/2015/12/21/know-genes-affect-smart-new-research-explains/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:59:25 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:16:49 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/e59c717371eb5608131ca8ee.bin",
+  "sha256": "283f921574ad42e358406ccfcb69bbec46479ef9ce73241fe979355a19bec591",
+  "finished_at_utc": "2026-10-05T08:59:25.728375+00:00"
+}

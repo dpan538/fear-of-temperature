@@ -1,0 +1,50 @@
+{
+  "request_id": "11d2cfb8bd268084f49d0741",
+  "source_id": "spinoff",
+  "request_url": "https://thespinoff.co.nz/business/01-07-2025/the-fold-the-double-radio-life-of-brianfms-mysterious-owner",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:57:36.758294+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 144021,
+  "hops": [
+    {
+      "url": "https://thespinoff.co.nz/business/01-07-2025/the-fold-the-double-radio-life-of-brianfms-mysterious-owner",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:57:36.755774+00:00",
+    "free_bytes": 23558975488,
+    "reserve_bytes": 3345786449,
+    "projected_free_after_reserves": 20211091887,
+    "media_lifetime_bytes": 15973854,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/spinoff_2025-07.json",
+  "frame_sha256": "22a9e0aac4af6df694b05539825e5fa9e546618480abe7eb8e3dd0d6a52a6e0c",
+  "final_url": "https://thespinoff.co.nz/business/01-07-2025/the-fold-the-double-radio-life-of-brianfms-mysterious-owner",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 05 Oct 2026 08:57:38 GMT",
+    "Content-Length": "144021"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/11d2cfb8bd268084f49d0741.bin",
+  "sha256": "a13bb628089a4dbc7babb780cb30e25fc2aa23456c2d774a60260760b0858806",
+  "finished_at_utc": "2026-10-05T08:57:38.236906+00:00"
+}

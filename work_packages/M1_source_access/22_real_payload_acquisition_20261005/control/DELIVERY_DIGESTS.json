@@ -1,0 +1,1199 @@
+{
+  "at_utc": "2026-10-05T09:48:04.808806+00:00",
+  "input_receipts": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "33e9efb30617ab084e17ed5932560cca97dbd4ed3266d1150262b57291abe949",
+      "bytes": 8530
+    },
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "sha256": "908b61f4617413474e1670dca57de386fd2f2fb9da5367d96bac3046c01ce9bd",
+      "bytes": 9127
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/PLAN.md",
+      "sha256": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+      "bytes": 9553
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/SCOPE.json",
+      "sha256": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+      "bytes": 2358
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/COORDINATION.json",
+      "sha256": "d9c2cc2acd9b255e625c551b0930c4de4cff3506a3209327ff4ae7f9f1bb565e",
+      "bytes": 473
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/FINAL_RESULT.json",
+      "sha256": "9105d9f6fa21ec337f1c73328cb7563c012855ea80a64f181b12ca0f9fad5edf",
+      "bytes": 5183
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/ACCESS_READINESS_ORIGINAL10.csv",
+      "sha256": "4994e59e25300a84598c85cef6f5d2d7b2edf1dd25759c7be9814f549a88bf8c",
+      "bytes": 11093
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/evidence/POLICY_RAW_MANIFEST.json",
+      "sha256": "98ef524edcee7015e636709a87af09cbe5acbd1c80712c8580c0f4744934088d",
+      "bytes": 3552
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/PILOT_SLOTS.csv",
+      "sha256": "ce7fc98f0da007722a2038209725c3573a7f489ffed4532a5d84200a0065cb8e",
+      "bytes": 55610
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/SOURCE_ROUTE_POLICY.json",
+      "sha256": "2e2f33d4c036296cd63484d50682c7c1b40a29b4a5b6422c1e202a09be3fc5a6",
+      "bytes": 6769
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv",
+      "sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+      "bytes": 1560606
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_B_STATUS_LEDGER.csv",
+      "sha256": "13adffd736ac8b1a70a57b0a7bab597af4a7abd49f117f57be468eb735b998e1",
+      "bytes": 631922
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/RESULT.json",
+      "sha256": "713f268206530485092b2512efcb7084506d2756cb50e68e4889e0cd1c8418b9",
+      "bytes": 2235
+    }
+  ],
+  "outputs": [
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/.gitignore",
+      "sha256": "40c53628c839c6beecde3c95a041ef27a48de914812d9e4f03dafc434b7a73aa",
+      "bytes": 222
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/CHECKPOINT.json",
+      "sha256": "3f38188b056edf4bc9f5780de62c1f3ba14ff82d12b99647d320e87126a5ce61",
+      "bytes": 1660
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/FINAL_REPORT.md",
+      "sha256": "69dcd670cfd973f8dd38060cbb7bae5c12dbbea8a58955b204055c97495ed769",
+      "bytes": 13317
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/PLAN.md",
+      "sha256": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+      "bytes": 9553
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/RAW_MANIFEST.csv",
+      "sha256": "12ab834763f0fc620717a21c399b9cc68bd14b429f281131a60e3ff85fcf6250",
+      "bytes": 18466
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/RESULT.json",
+      "sha256": "1754cc6293e816e99e6dd958e04aa0b93279cb7a1bf2ae60be884fadaa8da088",
+      "bytes": 1311
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/ACCESS_BOUNDARY_CORRECTION.json",
+      "sha256": "d57c399f1fe133a7308d3b1a12f6846bf1ff7c343f9b87817b188cd22c47d681",
+      "bytes": 825
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/CANDIDATES.json",
+      "sha256": "0dca7fdb0a51548b2b53cf690cfbf601172367bc3cba54da9a84717651a506d3",
+      "bytes": 4628
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/CODE_COMMIT_PATHS.json",
+      "sha256": "9a349046ef5f2e426ed646863aba454fa4c3dff4afd704e3bc840eadb16eefc1",
+      "bytes": 1982
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/COORDINATION_READ_ONLY_RECEIPT.json",
+      "sha256": "00427849ca96df16447edc8edb5ceea497092965760f63cfa11d0ca5a3d786a1",
+      "bytes": 1011
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/EVIDENCE_COMMIT_PATHS.json",
+      "sha256": "ecc4046839fa1b33b3a9935ddbf8ac7c2d2b75b10803dfa8707441b28f2c576b",
+      "bytes": 24304
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/EXECUTION_PREFLIGHT.json",
+      "sha256": "713f54607ccbfdd259992bc3fafa6020b17db377d0c03d34f7aeb273a39e2e19",
+      "bytes": 2880
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/FINAL_STORAGE.json",
+      "sha256": "9eeba9332c69601dde4866463dcfd735a1f695be8f86826768a5a1a7f272f4ca",
+      "bytes": 329
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/FINAL_VALIDATION.json",
+      "sha256": "45d8402b35c55da7fe7c4fcdd9f31625f543f1e1041cda2e5e5d4edd40b838df",
+      "bytes": 1682
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/FIRST_MILESTONE.json",
+      "sha256": "34881844fffe18e48cb5aa4a39a0763dcfe63795a20d2e7a3458038dc225da27",
+      "bytes": 871
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/FROZEN_INPUT_RECHECK.json",
+      "sha256": "0b6db92b434cbb380aabafbb207272e8b6de75d99c8f24e58591b8070bce0c1c",
+      "bytes": 4468
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/GIT_WRITER_PREFLIGHT.json",
+      "sha256": "644e1d442d9a4c6afa74cfcf3d1d919d18597b19e118f3ed38719c852b2be075",
+      "bytes": 446
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/INITIAL_MEDIA_PASS.json",
+      "sha256": "59cf6ea0fe7d411121ca083771283b5ff7af36b4a28487b90f484bc752a2b593",
+      "bytes": 559
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/INITIAL_WORKTREE.json",
+      "sha256": "cd3a6a7ff42ca24a5eff8183db574da560432f0494cc0ef4fae71421f558c260",
+      "bytes": 287
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/INPUT_RECEIPT.json",
+      "sha256": "37d1ff8cd3b8c048751e722f2d3ea582790b468980df529cd5465f37c1eb9f20",
+      "bytes": 3205
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/LOCAL_PRE_REQUEST_STOPS.json",
+      "sha256": "a34e8b769e2d3d47473f04a496896a97a78434dfc2dd342855d28e7c8cbc804a",
+      "bytes": 237
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/NETWORK_CLOSED.json",
+      "sha256": "fb1cb6362a52a5c572bb630c512837dbf58188667ad9038510c723b2a5a5df6e",
+      "bytes": 381
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/OFFLINE_TEST_OUTPUT.txt",
+      "sha256": "45e339bdb60ad56fe6556e2a0ecfec76cb6716c4bb76c6867afe0b366cc76789",
+      "bytes": 4671
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/OFFLINE_VALIDATION.json",
+      "sha256": "b6a855e5290313843db58a30dd5637840cdae773d1f7e3eb03c2394df2a58d11",
+      "bytes": 1945
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/PROJECT_LOG_APPEND_RECEIPT.json",
+      "sha256": "941bad94ce2d7a746f072af61f12ce6ffa3aea12a4224086deb9fae73f7ae221",
+      "bytes": 293
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/REPAIR_LOG.md",
+      "sha256": "3774f986738dc3ef19063b2ff9f08b70d856fae3f045e29d56caf8031aed931c",
+      "bytes": 3824
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/REQUEST_POLICY.json",
+      "sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+      "bytes": 1786
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/RUNTIME_RECEIPT.json",
+      "sha256": "1e4fe4e232211384ba0a94363e44d30a8f89fabc554f6a92d2518bb01ca9f57b",
+      "bytes": 411
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/SCOPE.json",
+      "sha256": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+      "bytes": 2358
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/SEARCH_CAPTURE_LIMIT.json",
+      "sha256": "4a039ac78cb93c0610121efb798142722d156b261c469c9008c1790766260579",
+      "bytes": 769
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/STORAGE_BLOCKER.json",
+      "sha256": "d4fb00c929f53d375c7e0a73163bd7e873dbfe1baf62dc0989b828a2a4c3f9f3",
+      "bytes": 373
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/STORAGE_RECHECK.json",
+      "sha256": "a15ff79efbdc936ce8fc50562839f6b4782b0e4e11d03e13c73528fa532c3d14",
+      "bytes": 337
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/081ff56f13064b98bbcfcd53.json",
+      "sha256": "1baaeecbbd00a49d027071f0f32778c867467c53e3c41ab25505fd8387c152fc",
+      "bytes": 2765
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/23eaa0a36a6b04a8d61b8362.json",
+      "sha256": "c7d083fb6c07fb451a4db303d055e33cf0f49c1cc235343fb8056226c58460dd",
+      "bytes": 2434
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/41e6d613dfbdf8c322eba13a.json",
+      "sha256": "7e651c0f61914e7f066de6ce037a3e4c6499803f59dd999b868c4ed65e11b65b",
+      "bytes": 1884
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/43d3bb1d8a6856121695e2aa.json",
+      "sha256": "e516699a5b0cc5a71f538e6ffba8e00f7da9dc64b5aefdb21ed2c0c0d1d745f8",
+      "bytes": 2325
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/5f52a1d5a93d724d1a022b29.json",
+      "sha256": "1bf6c8cbf633021865e21fdd4d8dd208212e859d9b701c26300a5e500ff5779a",
+      "bytes": 2765
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/74411a042ca83eb1898e422f.json",
+      "sha256": "7049f0ab653eba945a8ac3ffd8eb31e467e8f4b445003c01f361c5a90987bf85",
+      "bytes": 1769
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/765532c16f9a47ebf5d2060d.json",
+      "sha256": "869f185c8b08bbddeec109fd2f9061b5d76f84d30b776cbc5078c6a96924b235",
+      "bytes": 1993
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/822cdce0399a100079ca2548.json",
+      "sha256": "cbc6fe092b1fd9929b54b06f69ec35840d8883b8fd80ecf035c1641582a6c138",
+      "bytes": 2108
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/8e712859b8acbce5b47aa732.json",
+      "sha256": "210132b9939bea44ee96aafda7a6e608d5a635fb88cea339c858e1fcd739db62",
+      "bytes": 2108
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/97fbe10fc0f6ad929655d8c0.json",
+      "sha256": "9e614d6c6c5e8e1aea43a0e4839a8bffd1f0b742d7bcb8fef28bcc7dcb7cb8bc",
+      "bytes": 2765
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/9b093641d481c3a07915205c.json",
+      "sha256": "ec94c9dd2aa4594c9150034afed167eecd872e109f044d4e49d0d853ab0002ec",
+      "bytes": 1993
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/b08a63d32093b42c057badf6.json",
+      "sha256": "b4a5e1554b790512b0ba042636be66d72cfa9186d6e1e452d0613e65f342f9a4",
+      "bytes": 2434
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/b91849b54a7e0a1677434215.json",
+      "sha256": "713f54607ccbfdd259992bc3fafa6020b17db377d0c03d34f7aeb273a39e2e19",
+      "bytes": 2880
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/preflights/f00c1bc91e2063714c37fbb6.json",
+      "sha256": "bb33a2edb5d31180ce1e746f6b75307c622e007ef9b50a4d32dda0606af2c402",
+      "bytes": 2216
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/versions/CANDIDATES.v1.json",
+      "sha256": "bfd6edcffae0fc462c042b29bf886e56b9699f2d6ccba23822133e6b1326137e",
+      "bytes": 2555
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/versions/CANDIDATES.v2.json",
+      "sha256": "3a77cc8db7d48a481c8bb04ebba4c07f99076c378520ed7918875d5063009824",
+      "bytes": 3311
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/versions/CANDIDATES.v3.json",
+      "sha256": "2e899fea03588bc70cf99d6c344f30e5ec20aec5b4ed44f50aca3583523f02da",
+      "bytes": 3986
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/versions/FIRST_MILESTONE.v1.json",
+      "sha256": "beeda7a52562ded77b4a3ba19c6a25ce5019801b3351c649ee494fc40de53a53",
+      "bytes": 637
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/LOCAL_CHECK_METHOD.md",
+      "sha256": "70a34024a792be61ace40dba25e71f5064d7c0ab33dcaf0b6ad9bcdda356d30c",
+      "bytes": 1450
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/NEW_VERSION_SUMMARY.json",
+      "sha256": "f7f2cd18a3583fcc73949fcaca757f8070377f8fc72912968cef961152a34b93",
+      "bytes": 744
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/OWNER_EVENTS.jsonl",
+      "sha256": "d20698ac3c60af6cf13782aeab859b7e0effaff3303e5de7349591e3356fea50",
+      "bytes": 4068
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/RESULT.json",
+      "sha256": "8bd34b6f947b9aecdaea582ccd7404d5881bbac1dda5cf6c7cf94ef8c0243e80",
+      "bytes": 26862
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/TARGET_SEQUENCE.json",
+      "sha256": "17a10b181ee0e1e837f71a00bfd97de2b093fcf96402c560ebae9ac190a4b63e",
+      "bytes": 29993
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/TRANSPORT_AND_CHECK_LEDGER.csv",
+      "sha256": "1504911e8c70936427f51e60f2cc60f0e158b7852df9d7494c4ab00fae5d5ef2",
+      "bytes": 14086
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/01.json",
+      "sha256": "fa9ab5778f0fd8a8ff866753088af2f7a251a2c3e5b8cb37929e36cd740a7014",
+      "bytes": 2405
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/02.json",
+      "sha256": "4967ef1a4991027142ef7cf13403859c7e5b35286c9aa732d642b40070db6784",
+      "bytes": 2187
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/03.json",
+      "sha256": "7c16b306a8895622e8c544f9efad5025fd5e52765c148ed0b1e7e1de9dcfef47",
+      "bytes": 2186
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/04.json",
+      "sha256": "089ba0cadc5649ac2407b8e3d67099b8b62f218afa36670d6130e7f2257fa7f7",
+      "bytes": 2186
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/05.json",
+      "sha256": "2ad108daa3c4910ff566ee11e336b428799d4870837f9788c08301b205461839",
+      "bytes": 2187
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/06.json",
+      "sha256": "ee0893ca67a6adbb3a2df013bb2c8d2cfc3fd53af8bf0219294c44c95e2295a3",
+      "bytes": 2187
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/07.json",
+      "sha256": "aee8a2956f111e5def02bdd63cbfea79d589885697eda0d3ae0e7350b36e2f87",
+      "bytes": 2187
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/08.json",
+      "sha256": "0a84ec8c42cab9ca7286ed6cfa21f87354ed5c6f9adbc9cc8db170810b46e9fb",
+      "bytes": 2187
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/09.json",
+      "sha256": "e9bb7b637c3a30e5300ac567d996edb225892314f200cf7b62978409f6f2cf1a",
+      "bytes": 2187
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/10.json",
+      "sha256": "462982e8fd71db213007bf8d44860e96bd72bea070f2903f343ae3b9e4d92e60",
+      "bytes": 2186
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/attempts/11.json",
+      "sha256": "4a5f7688c19d4b7440c6906a8c0eb9382802985062beaf25450827298b3b95a7",
+      "bytes": 2188
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/0767d111ff68e3982e657e66.json",
+      "sha256": "4b45c9f6d949dfe4eaa47ca925ac603e03306fcc77b95670beee5e44fe99a8ad",
+      "bytes": 1902
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/0bbbd89fa502a44b17a1b88a.json",
+      "sha256": "60e7d6cfc7b5a54eebd86dec127598900bdac15501f3da99212b07002c89b17f",
+      "bytes": 1901
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/2425275ce4cd43390921e5ac.json",
+      "sha256": "b2f810fab88129a0607ffe61a8df62caf56ef9dd38977c3a7be675ebde7e1e7a",
+      "bytes": 1902
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/3470d334504c8852a2181d2b.json",
+      "sha256": "426117c5b0193a55a6808a0bf02ebfcd356eb3e2f884cc1a57ade89ad5f68377",
+      "bytes": 1902
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/4958a4540eed40198608bef6.json",
+      "sha256": "230b794fcd4a7b0208382a7ef4a78f13caf081aad1502bb4084775c139b9ac09",
+      "bytes": 1901
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/49e1213433b8c1bfbfe728ce.json",
+      "sha256": "873715ed7a5b0c6c0a5dbfe9c4dfa1d1f610ef48e559adb7c67fbea77ff11ecf",
+      "bytes": 1902
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/7a33a907255b109e9b77c661.json",
+      "sha256": "d66d74e255b4b8af1f7bf29ac77c947bb35236a88708c8b496f6a835e679533f",
+      "bytes": 1902
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/959fd2decdbe8edc212835ec.json",
+      "sha256": "b4128d94848aeadbd1db79de47e65ebc10c39da030a5deb7b9151ed5e4b141be",
+      "bytes": 1902
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/9fa79dc7b56a6efb202699c8.json",
+      "sha256": "b4cbb6e54c28dc034b588b2a2450737efd91f26317fa117a708315bfb9d70416",
+      "bytes": 1926
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/e0b8e701d0c5740e3e17c372.json",
+      "sha256": "8bb4aa0c972f4c7a8611039174a200a67a03a923998eecc4610c7e4b448a43b7",
+      "bytes": 1901
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/government/requests/f5084d50b29a9a7d067b997f.json",
+      "sha256": "e35f371edd813dac6fe2638298bf27ce42f5bae70300e3217dcaee7fb0c0131c",
+      "bytes": 1903
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/ARTICLE_MANIFEST.csv",
+      "sha256": "153d6fefa9ed24e030309e538435a45b97401bba53330f9b5244cec19693f003",
+      "bytes": 72114
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/BODY_BOUNDARY_CHECKS.csv",
+      "sha256": "495a40e889532b9147e577903d9e2eaa21479ea4d0989fe13781d89d42ca4a75",
+      "bytes": 29175
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/CANDIDATE_SLOT_MAPPING.csv",
+      "sha256": "c269ef923f49c19302908761ca31b5ac8d10efae900587a61fe31626b1c71e5d",
+      "bytes": 40802
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/QUOTA_TABLE.csv",
+      "sha256": "992bcc7676bd7b5c3ba81e2a6d1e406bc45920aa0071889276d34aa51d5a91a8",
+      "bytes": 1603
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/SOURCE_ERA_ACCESS.csv",
+      "sha256": "7df1e8e4dfcac391691e56f2ca6d7cb48031441e90d8c2f77426e3c088bc6214",
+      "bytes": 11876
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/VARIANT_MANIFEST.csv",
+      "sha256": "e54e709205c0626e6d36234b398a92aff0224dc8614ff84ab253e6a7a95964ce",
+      "bytes": 14531
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/discovery_repairs/opendemocracy_2025-07_inventory_v2.json",
+      "sha256": "91495a25e6fdf2c83ff5e8fa48b3daaa4e5fb322846c7d2517b0508a996b36cf",
+      "bytes": 3243
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frame_versions/texastribune_2015-12.v1_navigation_defect.json",
+      "sha256": "aed37541e4a09f1e07106cda951c1d46e219432ab7473ea018158e400524d3d0",
+      "bytes": 4568
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/canary_2015-12.json",
+      "sha256": "0457f7a0e16344f502e25edcd6c2ff2ad1ef9e59fef83b47447bb383f9df4f75",
+      "bytes": 6375
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/canary_2025-07.json",
+      "sha256": "7a5bd0dafe7e1ca8a352d63b8c2fdf3f812c733a60a8a6fe6621457025778305",
+      "bytes": 6041
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/edjnet_2025-07.json",
+      "sha256": "284fababdcf1d1f3e78b5b068d968857494bb8f9e209d17ef147a58c00b48555",
+      "bytes": 1717
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/indaily_2025-07.json",
+      "sha256": "652376d60d3763b888d60eec0445c5d491ba53cd779d3ba258b54f3bd73a8941",
+      "bytes": 5526
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/opendemocracy_2015-12.json",
+      "sha256": "0346a6899ad2c969e8a96d9c4ffae505860cd56875debfe0e33976d1c21be4f6",
+      "bytes": 3762
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/opendemocracy_2025-07.json",
+      "sha256": "9f65486a4136dd2f3efeae1bd7651cc08de7778f9e6ed14ec9f3218e476ea133",
+      "bytes": 2562
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/spinoff_2015-12.json",
+      "sha256": "162d7de427207bad91e4619009732321eb99d3c5963783a8e80ebb35711c0023",
+      "bytes": 47906
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/spinoff_2025-07.json",
+      "sha256": "22a9e0aac4af6df694b05539825e5fa9e546618480abe7eb8e3dd0d6a52a6e0c",
+      "bytes": 68047
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/texastribune_2015-12.json",
+      "sha256": "9032fccfee1ca06192bb9a3fe2a5ee3718fc5613a43e0e501175c9badf704e90",
+      "bytes": 5010
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/frames/texastribune_2025-07.json",
+      "sha256": "8db6d570828c89857f64afcf4b413e241f4b870874591fe53724546f313a7d6e",
+      "bytes": 3544
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/canary_robots.json",
+      "sha256": "f35e8a34df8bbf4d93523abdc48d2462e523f68b95c98583af805f5990ad0ba2",
+      "bytes": 1624
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/canary_www.thecanary.co_robots.json",
+      "sha256": "f35e8a34df8bbf4d93523abdc48d2462e523f68b95c98583af805f5990ad0ba2",
+      "bytes": 1624
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/edjnet_robots.json",
+      "sha256": "20ca2d1326471dcf81e56b322439375ab5c480525a1b4df397c28f3f840e0673",
+      "bytes": 773
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/edjnet_www.europeandatajournalism.eu_robots.json",
+      "sha256": "20ca2d1326471dcf81e56b322439375ab5c480525a1b4df397c28f3f840e0673",
+      "bytes": 773
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/france24_robots.json",
+      "sha256": "14ff01b9861a219d6c4700348c7d5a5a77988fad98c9b9d3f876770c0d78ead1",
+      "bytes": 1646
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/france24_www.france24.com_robots.json",
+      "sha256": "14ff01b9861a219d6c4700348c7d5a5a77988fad98c9b9d3f876770c0d78ead1",
+      "bytes": 1646
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/indaily_assets.indailysa.com.au_robots.json",
+      "sha256": "aa5f41b363b48393c8087988b2b33787273de7867798efa3b19768d1285bf497",
+      "bytes": 1656
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/indaily_indailysa.com.au_robots.json",
+      "sha256": "c8e92c7cb7ab4c9ba317de5489db5ec4493aaf078bb0b356cf2285b1277467df",
+      "bytes": 1736
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/indaily_robots.json",
+      "sha256": "11fa5a79baf11e86cec8227560aec6851a7aa1c16df1ffecc395fb2887e3d1f4",
+      "bytes": 1649
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/indaily_solsticemedia.com.au_robots.json",
+      "sha256": "fff3ea7c77157ff0025924250b9fa7ade255de8380450b22cedc160f304fa874",
+      "bytes": 1593
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/indaily_www.indailysa.com.au_robots.json",
+      "sha256": "11fa5a79baf11e86cec8227560aec6851a7aa1c16df1ffecc395fb2887e3d1f4",
+      "bytes": 1649
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/opendemocracy_robots.json",
+      "sha256": "4ba948cc6cf7655f76c05380260596381813e9d809286dc2764472404f5e2cc1",
+      "bytes": 792
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/opendemocracy_www.opendemocracy.net_robots.json",
+      "sha256": "4ba948cc6cf7655f76c05380260596381813e9d809286dc2764472404f5e2cc1",
+      "bytes": 792
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/spinoff_robots.json",
+      "sha256": "2e82b706146399160afac28f2d3fcd8952dffbe1cf12204c9746266f8b6dc224",
+      "bytes": 1564
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/spinoff_thespinoff.co.nz_robots.json",
+      "sha256": "2e82b706146399160afac28f2d3fcd8952dffbe1cf12204c9746266f8b6dc224",
+      "bytes": 1564
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/texastribune_robots.json",
+      "sha256": "eca4b9b51d5ca20297c6f99fc9331d755c00aa65fd4b8fc550dc5bd6da601b91",
+      "bytes": 1667
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/policy/texastribune_www.texastribune.org_robots.json",
+      "sha256": "eca4b9b51d5ca20297c6f99fc9331d755c00aa65fd4b8fc550dc5bd6da601b91",
+      "bytes": 1667
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/015f71a71aa7780421b6a34b.json",
+      "sha256": "395e45d78832952b12eaebe4ba32606c1d74d5deba860242d5feb0a1eed8a690",
+      "bytes": 2007
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/095e124c56e224664baaf924.json",
+      "sha256": "fff3ea7c77157ff0025924250b9fa7ade255de8380450b22cedc160f304fa874",
+      "bytes": 1593
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/09ac83b6c437f4838f540ab3.json",
+      "sha256": "56ba889eb4605bb30ebb96b449b893907e75eae76a43099284f857f798cae768",
+      "bytes": 1603
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/09d91bd1f1cf3dcad5f1ff95.json",
+      "sha256": "85192522ba16b72f225bd548c7221216e5b26ea3c021fb8c4f581c7ce2477540",
+      "bytes": 2184
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/0a40da73cbe6c841bf37daf1.json",
+      "sha256": "ce4c3a98102e5fc2117a1e9f50e8cb82cb3141976a3a707168469a8de6013b1f",
+      "bytes": 1362
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/0a7556b21a005f172759e56e.json",
+      "sha256": "06ac83ad3a190b70506f1ac918e5165226d7cca9b261a3f1ea211ebba23ac351",
+      "bytes": 2187
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/0b9c9c46c7a4d28fbf928c92.json",
+      "sha256": "6d03cc2bb73d7a5cec9b522abe500aaf3d2ba4eeb9b5aeec6550ea62f966ea42",
+      "bytes": 2292
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/0e2837346161e29524875598.json",
+      "sha256": "32553a86af2bc727d8fd1d75ce20b781f8423f9987bb3a426d165bb209c43ccc",
+      "bytes": 1668
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/11d2cfb8bd268084f49d0741.json",
+      "sha256": "f66a802f6063a5edec0803984f53910e69c41e27bdd7f943347189de2e182b39",
+      "bytes": 1991
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/143c66017b62d99e640729f0.json",
+      "sha256": "603969451175b68688b2cc9b0eace6fe9ebfe4f046f491f6e55d077002e017d2",
+      "bytes": 1817
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/1582bb864dabd034feb94781.json",
+      "sha256": "0c50d457d0c3999e65186932863dff913a1da79c74cb6199e7ce5606489d08d9",
+      "bytes": 2269
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/184beb5d941a9d2f3dd33050.json",
+      "sha256": "c8761de09dd60130497a0eff4701ea789044f0c0a8793afca2a4b3bf52386de5",
+      "bytes": 1674
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/1f5d9a6c0d775718bb890e57.json",
+      "sha256": "bad791ac4e903face8d9484acfd88a1f676b043b3499bbfc86ba5450c7b32a35",
+      "bytes": 2027
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/22e9e8260422720d86ba69f7.json",
+      "sha256": "39a20ae8d46db103de04b7977a42c769cafe64c191a42a40dea5f89e5de2a4df",
+      "bytes": 2196
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/2c22a0f6a3cfbe40e1831fb6.json",
+      "sha256": "14ff01b9861a219d6c4700348c7d5a5a77988fad98c9b9d3f876770c0d78ead1",
+      "bytes": 1646
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/2f42c07b84580b63427f7e6f.json",
+      "sha256": "049d5a881bcf2fa3fe92fbe34934ade1f43ce27dca53af8d851aea78cbd73eeb",
+      "bytes": 2096
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/33ac16712d5cf3a871a08bff.json",
+      "sha256": "3817e6327ac0792f54106abb714305dc6c28ad3ba7491ab851a275dbd79758c4",
+      "bytes": 1601
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/34ec0e29cd584e7e556417b8.json",
+      "sha256": "1488853d4dd9b6dc9cc068910e14613873faca9c9df4dc1d275b7cf796b5ffbf",
+      "bytes": 1375
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/36ad17d41dde6e25550a31f6.json",
+      "sha256": "805f99506d4ecb03e0c17d56214f1582f6e6b13c6b852a063c1eeb5670df3bfd",
+      "bytes": 2069
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/37fc8a77a36a6e560ca0ae76.json",
+      "sha256": "aa5f41b363b48393c8087988b2b33787273de7867798efa3b19768d1285bf497",
+      "bytes": 1656
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/3d5ae06d5ea14abf8e375a2a.json",
+      "sha256": "39d31c7911e9da164da7b6f7c15b34613e89b0fa94e56ede73ea628a945f8495",
+      "bytes": 1655
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/3d710010c3bc887427eaaa35.json",
+      "sha256": "46c764547e54c443d551e8c405e69c3b1278f5131d538b21304fa9917136c228",
+      "bytes": 1747
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/3f4e18af8e58d3ac09b1669e.json",
+      "sha256": "6b9099940bc59da1ddd1628691181b95f212357ac4598097c05d444af7354acc",
+      "bytes": 1621
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/405f8e9d26947d791f2a7a2e.json",
+      "sha256": "a011c6a239f898f187bfd2a820d2d92b2380b686ae64fb3057b18726fd97feb9",
+      "bytes": 1816
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/413c413093ab0f42c1fdfbf7.json",
+      "sha256": "748f6f0bc4b6e984d07d80ca18c60a093a23a25136f2b6bffeceec48241b9f4b",
+      "bytes": 1606
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/483328ea5fb44cd0ec1d938d.json",
+      "sha256": "bfdc360154afabb0bf08014b52804e9bc28b1e1bbe6b6964b9435cf21e903627",
+      "bytes": 2018
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/49ca3e5952c69a77a5319fdc.json",
+      "sha256": "8c45c4999050c2c6656214eb8bc8af658a6ddad82a6fcbc10416aa1fc2d6b0cb",
+      "bytes": 2134
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/4a33964c784265dddf5e09ee.json",
+      "sha256": "3d65b8425ea20fcd396a192906f6cc86466011dc1aa7c884f792385d9b935e97",
+      "bytes": 2214
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/4ba855f9867087de3b7d6a98.json",
+      "sha256": "5d73a555d87dbd1d352a2d44c7d2f1c6315450e3815b39fc996d81e25c9662d4",
+      "bytes": 1354
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/4ccda1f1bc1dec3012a8f138.json",
+      "sha256": "55e5ad96be8857f8955c1302d8a43bfec11e25f1a09d17d885cb768adb6b3355",
+      "bytes": 1671
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/4d854d941c59df034c81b0fd.json",
+      "sha256": "9f0f9197a70e52e589f312a6ff266aff3fbd1f1f513b566ef809da02402dc55c",
+      "bytes": 1815
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/4e8c2a6bc2b550b26372a3d8.json",
+      "sha256": "c86bd3737a746c36dfb88e950e442154eb96d33c08e152452cf5cc548fe28bca",
+      "bytes": 1423
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/52d90fd03e50023643e53219.json",
+      "sha256": "43dd3c400e1c7b518eb64b25c64a036664e7f9f5a370e39129426cdcc3dbbed8",
+      "bytes": 1682
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/5583a901a2bc71f9df94e29b.json",
+      "sha256": "046d38a1fa6ca9cf521ed7c7c7274b1b46c059bb83f488d629b29652bc02c79b",
+      "bytes": 1651
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/56df39b6a2ffa40e79e17ef5.json",
+      "sha256": "19f235d26e75f5678bc1dba8d7f7af8d560f425d19c24a40e6a82feca910d5ef",
+      "bytes": 1783
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/58b1c0f85ac7b12e84a7a866.json",
+      "sha256": "0a8137e0f92af103a393967a150483f46f3d1128a333c216a07ba48a4ddb9ea7",
+      "bytes": 1601
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/5b677aaa0f09e7d820f2e856.json",
+      "sha256": "11fa5a79baf11e86cec8227560aec6851a7aa1c16df1ffecc395fb2887e3d1f4",
+      "bytes": 1649
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/5d37ddf99e5f37a4ddddefa0.json",
+      "sha256": "001fc266c36a6828e71eb85a3954d0afeb6e84601cd3ffd8334a8f6dc111ecc9",
+      "bytes": 1680
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/5d619dcd5d8920b8f80652be.json",
+      "sha256": "d17d16880e943080ca3157ac81ab21ae769d0c67a31decd701de73b248fe8329",
+      "bytes": 2139
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/5dc9dd83d75bac3bc593a057.json",
+      "sha256": "fe86b65c0efa04388cea5c19afe62965f7ddb0305fe47d36246f91373f3949b0",
+      "bytes": 1656
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/5df79929d5b9164f3bb039df.json",
+      "sha256": "d120544b08e2b8f9d3219624ec64472cb13804b8c10c34489d6096937d5e1910",
+      "bytes": 2025
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/61ba12a0d22284167012e509.json",
+      "sha256": "c81293a71a77149816f54a77a37ac37d2ff50424fd88d441b153e878f78880cb",
+      "bytes": 1701
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/61e487450e1cedfaa1fe7555.json",
+      "sha256": "c1bb718ccbc7da61cc93080a7acee33c6c9c26837c4163de93869c87b9eaa231",
+      "bytes": 1955
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/62bbc1bfa2a6b7c0322cd8d5.json",
+      "sha256": "28b0fbd669a6e6e1591ef61a3a93637ec1e44aa9b1fb81483b2a3cc8309e78ba",
+      "bytes": 1899
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/62d277560a066587ff3b151b.json",
+      "sha256": "6bc4a7cbd5da6d18b2d264e85a8f812ca4cb9bebb73b998d2d53683b6ae936ae",
+      "bytes": 2212
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/6e8d00347b625f3b7eb46020.json",
+      "sha256": "55f860e190d9d5412689c7e4f752858ecb0629b8d34276832775fc04863dbc88",
+      "bytes": 2484
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/7063d3483565ab9c0a316193.json",
+      "sha256": "8836b1fcd8162ca41801ddb8b9b0e3165490a926374035b7480af64ef6ed21db",
+      "bytes": 1967
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/74b97239f340d0e05260631e.json",
+      "sha256": "ed16c5ba3febbb16cdbf6ba4453bf3ca77974c9c052c3c4689afee2b922d367c",
+      "bytes": 1386
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/77332c46e3bc4c599593076b.json",
+      "sha256": "223791787a82d053b760f34cd2405c68f21802f8c5c9c5a99a9c82e4c4a67cb5",
+      "bytes": 1691
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/7b5af79ffa0226ce4536a59b.json",
+      "sha256": "9dfb86b916a973de4cd65ab1de621c6f8bf1d5b5ea5698e0cd7ee408879e26fb",
+      "bytes": 2311
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/7c2cb761bde98e3f3400570c.json",
+      "sha256": "f08c54dcbafda0af08f3a3c5d8e17961784cff78a19e38bb883ff45ad8306421",
+      "bytes": 2116
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/7d49f73b5bbe36e0e003bae2.json",
+      "sha256": "f35e8a34df8bbf4d93523abdc48d2462e523f68b95c98583af805f5990ad0ba2",
+      "bytes": 1624
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/81e9f63a130c6d382a265fab.json",
+      "sha256": "4cd004d80bbed9511998dc804568a9f4a0be1aff6935d1ad9dafdb5d5759c836",
+      "bytes": 2206
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/8459dcc9e1b66737d422faec.json",
+      "sha256": "c8e92c7cb7ab4c9ba317de5489db5ec4493aaf078bb0b356cf2285b1277467df",
+      "bytes": 1736
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/84a3e34a7a521ca7b7cf1bdb.json",
+      "sha256": "2b0d4be408c15b91f29084e4720c37b47b592377aaf6d9ed4efd62fe2d78de1a",
+      "bytes": 1692
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/88da07b1b8bc385c1ba65ce4.json",
+      "sha256": "569991f2a9a3967ae55c4509623ba02c67878af236aa2c173139d9f9ddbf8529",
+      "bytes": 1575
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/951cedbfabd7ff1607fb5f26.json",
+      "sha256": "2ec3d355ce69c1a83aac8d1a62c95f1c394e5df81572d5eab0bdc9e6fc8dc5db",
+      "bytes": 2188
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/9a3412a8b481e66fb45bc685.json",
+      "sha256": "424885391426378e3d3cfae05f6689c1c93fca81ce685a187eb554269e81a939",
+      "bytes": 2217
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/9aad601fef7fb34ed7c59727.json",
+      "sha256": "eca4b9b51d5ca20297c6f99fc9331d755c00aa65fd4b8fc550dc5bd6da601b91",
+      "bytes": 1667
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/9f3176f2f52cabddd258b6ae.json",
+      "sha256": "b12f4696fa93701095fb5484dd8b4b92242d7ba0247d7ba541adc8c2b5331a5c",
+      "bytes": 2086
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/a040f508b0b375b23ec96ea4.json",
+      "sha256": "f49ffaae3254007e56cbb0545747c21b466df7646dfdc773682dbe6ae37e375c",
+      "bytes": 2308
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/a0ca94d99c30e2bc3114a2b6.json",
+      "sha256": "91fb4631ce3bb886eafab47451b3ce8e360d029cd7046b821cd9296725d85244",
+      "bytes": 1695
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/a23105d7990db800c92cf9af.json",
+      "sha256": "428c5d7c79e35d3e3d2dd340069d355cf5d79505f29c6d6fbaf0a48efe1640a4",
+      "bytes": 2019
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/a2dc8ed704671f6226f293d1.json",
+      "sha256": "96cee680d739a981e650f5f3abba442df15f023cabd8b7bd2b78548689216e50",
+      "bytes": 2090
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/ac0cea6450a23cfc71bf0e3b.json",
+      "sha256": "66fa85f4b5106e9a95b5fda22cbe8f140d45df4769c04a9c5b96e780e3ec5e72",
+      "bytes": 2212
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/b759c31ec36197b63f594afb.json",
+      "sha256": "23f03ce65613f8826ee0716adf30855866d6df50139680a885dcda5f99ec9d3e",
+      "bytes": 1628
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/b94defddae6edeff2be50661.json",
+      "sha256": "9542e74d682cfea2eb551c2fb6e71a56735b7a2905930ca3cc232cbc1d43aeef",
+      "bytes": 2040
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/ba3f9e20b1673f3a0e377047.json",
+      "sha256": "08d1eaea44adbf9965f063a4df027719d669299091750ea175f8beb60c96a17c",
+      "bytes": 2196
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/bb23ceefb88749b0fea7edff.json",
+      "sha256": "d9543353cf9f4f230f7b82f1e0cf2011a405d321513d3ff758bb9bbecbc84a4f",
+      "bytes": 2307
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/bc9ec630e70c35c18509be2e.json",
+      "sha256": "c4d4ede79d3d96ce058f47da4134758a899c8a9a2af8632430f83b7c60cc3c8a",
+      "bytes": 2169
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/c0e122fbd9be02cb1a8e15af.json",
+      "sha256": "137440c05eb2a9862182e2801700363422e731bec7de1fabb4bd54c1f7dcb220",
+      "bytes": 1788
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/c4165023f9e53d0a74ee1fc4.json",
+      "sha256": "9f2e5065bd4761ea2bc9de50de67c28be8712ed372913ceb6e811bd3545644fd",
+      "bytes": 1871
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/ca1698af14973f0b5c0ba528.json",
+      "sha256": "be2528b7efc0c7686f1519ad5a1f82a9cfe3dc3a83a8f00e87f9bc851e12ec8c",
+      "bytes": 2236
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/cb36ef003110aeaaa8744825.json",
+      "sha256": "234ecad86d540286aaa793d5e398cc3c9cdfb950ecb4bc4f69d3c70a6d824e4b",
+      "bytes": 1628
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/cec0974178f7e9336c367e5e.json",
+      "sha256": "85acf6163d113bf871e352618b3c935a86f97fcb40ad5032720a5c71dd146984",
+      "bytes": 2135
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/d2840e410428b1a288765b1e.json",
+      "sha256": "75347cd5427a109a64b5e894b1b0625e040d0b1e709ee3f2d591469ec0d0f795",
+      "bytes": 2149
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/d2d793fc15e883aa0452ff1e.json",
+      "sha256": "e5318a27ec73b8abead80d8157969828e852f684fc519b6e10804b38ad2a4669",
+      "bytes": 1629
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/d30b9a93a09f3a49b57d87e3.json",
+      "sha256": "6a548e69aa9f5d29c4cfaf420f3794beafaa9a7a91ab23febff4e6a4196e6875",
+      "bytes": 1619
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/d57278a7245de10d4cd6d0e8.json",
+      "sha256": "50ed09086b65116afc188bc84c80e7f0a0ede1f30610abc783c045471b5b3c0e",
+      "bytes": 2116
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/d742d1d7d66a431c1bd00831.json",
+      "sha256": "d0f1149ad4ab5df39bfb71a9d93157a66c1ea3514204b5ebcadfd65449656c59",
+      "bytes": 2344
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/e59c717371eb5608131ca8ee.json",
+      "sha256": "c0b0da5a8dd86b11967239710fd94ac95b4d91f948e69de0e5fb0e8e457ae159",
+      "bytes": 2269
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/e8cbfee3b9afdec9178bbd68.json",
+      "sha256": "2e82b706146399160afac28f2d3fcd8952dffbe1cf12204c9746266f8b6dc224",
+      "bytes": 1564
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/f42819ef0056f079bbc2840e.json",
+      "sha256": "d942471049e360e03659db05e5e42544b6f8b26cf967cf832b0a6d5b49fc8416",
+      "bytes": 1698
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/f442847f70d181e14c729fde.json",
+      "sha256": "01f20ac79a722a12521f931ff7c3986df260133848d04a51573419b6fc2a2ff1",
+      "bytes": 1534
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/f4bcf0627d46ac7ba2bcd525.json",
+      "sha256": "5a61f407d46eeae094080d0293a710c0ce9f10e3081137f290691d25b575ec81",
+      "bytes": 2001
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/f5652920086e8cb57473001b.json",
+      "sha256": "1e98672759638b9acf4705242b6820ba667da613a24b37f60823054ecb12c830",
+      "bytes": 2181
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/f6b7c35a28ed0e3063f76478.json",
+      "sha256": "59bcf89576801532ac8bb549c4bf286708e82eb7aa7e0221485253709203dfd3",
+      "bytes": 1835
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/f84689054836403dcead7439.json",
+      "sha256": "690703654d14a578df26990c3908e183de1aed2963537b7f8e9bb6878d73c6e5",
+      "bytes": 1753
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/fa1741a1f0153ee7131f1b34.json",
+      "sha256": "a5a875e2bd2353614c99752a30fd401ca22f4f0d57d3782831a1c4d440130b9a",
+      "bytes": 2154
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/febc1fddf8dbc3a0b68c6798.json",
+      "sha256": "e66804dfd7389a7bba5c127494d9dcda1459356cb264306205501e113562dbd1",
+      "bytes": 1370
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/ff3f7a649212410407b5b926.json",
+      "sha256": "83c66fe02dc7a002abc3814f1ba0518359804318aefb84739d14b33c353e3f76",
+      "bytes": 1380
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/indaily_search1.json",
+      "sha256": "5384e363a87785ccd72c32b0be711d870d6e82b56db55307d509e2ccb5cf2855",
+      "bytes": 691
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/indaily_search2.json",
+      "sha256": "88c364e83e750f3ec1ae86caebaf11fb6b9720531420ceb80e08a9a5380f4aea",
+      "bytes": 641
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/indaily_search3.json",
+      "sha256": "d31e504c8fde16919600b53bd05996e22477239fd90183ddd0908505574039c4",
+      "bytes": 612
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/opendemocracy_search1.json",
+      "sha256": "69316499bef7489693fb865a4fc0c455d8f8a85e50fce5aff202ff73aeebb9ea",
+      "bytes": 711
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/opendemocracy_search2.json",
+      "sha256": "eb8e0259e7a8febb725c00a8a0b6f9db43f90b06c2be3d0ad308cd5c37dd5c42",
+      "bytes": 655
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/requests/opendemocracy_search3.json",
+      "sha256": "613022592f718729dadd4239e0dda57de8637df8abdb801de28c742c0a745da0",
+      "bytes": 893
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/README.md",
+      "sha256": "dc45b115b0bb628b5986109aea4acb122e567d277100d261411f12c16ce12b86",
+      "bytes": 4386
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/government.py",
+      "sha256": "ab15cfe4d711e423473f33a6dea8b1a1d7f6b980a70c30ab4e995f255b3dae8b",
+      "bytes": 3720
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/media.py",
+      "sha256": "86f7782e6ae7682aa6aaa7371633c529d624a08467d7be4610b7b75b5ad08d46",
+      "bytes": 12358
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/package_saved.py",
+      "sha256": "5cfeeabe4fefb159f1d5108a5f9a5caf580d8b80414fefd8a0c5409dcbad1b7f",
+      "bytes": 17855
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/pdf_inspect_saved.py",
+      "sha256": "2829ee517dda3b70f85eb409131bce393595fc049cf227f88e737f09319878f2",
+      "bytes": 1904
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/review_saved.py",
+      "sha256": "1aad9e9cb8eb825c61468b0ac5e2435d73c8ad9a563ff751babd19cbf5f360ae",
+      "bytes": 7511
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/run.py",
+      "sha256": "49ed74be5abaf84995c467a04d9788d62063c56cce338506500815f2e00a4c3d",
+      "bytes": 3293
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/test_media.py",
+      "sha256": "ce645bab486629cb9d8f6f76d221b760d024625056cda338878bed7a855b87c2",
+      "bytes": 3547
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/test_requests.py",
+      "sha256": "2d31f4757501a3062920c5a164af7cb8d6f85a9541e744bfd76fc09d65911f23",
+      "bytes": 6147
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/test_transport.py",
+      "sha256": "fb10ea5173858932aec2aa1354361b28f46be2598696e2139b489d1ad683e7d9",
+      "bytes": 1508
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/transport.py",
+      "sha256": "9e873e578c51d04b1a4bd95608e5cc22228620f6f55855d579d81e80619fac45",
+      "bytes": 15462
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/validate_package.py",
+      "sha256": "42d5e99cc714aac9aad5a43abb893e9e40dd9d6baa01a239c0a21892f946436b",
+      "bytes": 5389
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/versions/transport.pre_dns_family_fix.py",
+      "sha256": "705abf50227c6888632fdb2c64d87d158982ed67606ec4eb86e20a1ba25f0a0e",
+      "bytes": 13493
+    }
+  ],
+  "project_log_output": {
+    "path": "docs/PROJECT_LOG.md",
+    "sha256": "80ac598a5ebf4c4992db1445d6a174a7018512e0254d22b9c18db6a00c1d7a83"
+  },
+  "local_payload_receipts": "RAW_MANIFEST.csv; media/ARTICLE_MANIFEST.csv; government/TRANSPORT_AND_CHECK_LEDGER.csv",
+  "code_commit": "044854e5218619f634d9d705dc38d07fcf244b22",
+  "self_hash_excluded": true,
+  "post_commit_local_receipt_excluded": true,
+  "coordinator_registration": "Read-only original hash/record is included as input and separate receipt, never edited or staged",
+  "raw_corpus_staged": false,
+  "formal_database_access": false,
+  "private_evaluator_access": false
+}

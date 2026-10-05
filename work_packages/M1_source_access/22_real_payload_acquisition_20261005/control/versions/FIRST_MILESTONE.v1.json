@@ -1,0 +1,21 @@
+{
+  "checked_at_utc": "2026-10-05T08:44:36.028646+00:00",
+  "target": "One inspected real dated chain in each of five strata within30minutes of release",
+  "milestone_deadline_utc": "2026-10-05T08:33:24.457377+00:00",
+  "met": false,
+  "first30minute_verified_chains": 1,
+  "verified_strata_by_milestone": [
+    "US"
+  ],
+  "raw_bodies_by_milestone": [
+    "US",
+    "NZ"
+  ],
+  "reasons": [
+    "Initial storage floor failed, later recovered",
+    "Sandbox DNS failures then reviewed network-enabled path",
+    "Unfilled independent strata at milestone"
+  ],
+  "deadline_not_reset": true,
+  "continuation_within_original_scope": true
+}

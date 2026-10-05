@@ -1,0 +1,47 @@
+{
+  "request_id": "5dc9dd83d75bac3bc593a057",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/2015/12/01/",
+  "purpose": "discovery",
+  "route": "date_archive",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:46:18.104272+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 239777,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/2015/12/01/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:46:18.100514+00:00",
+    "free_bytes": 23667556352,
+    "reserve_bytes": 3354801324,
+    "projected_free_after_reserves": 20310657876,
+    "media_lifetime_bytes": 11301438,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.texastribune.org/2015/12/01/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:46:19 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:46:19 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/5dc9dd83d75bac3bc593a057.bin",
+  "sha256": "546a7fd0269c00190d929a2e8a0abf69513833ebeaa1077bdbb8b0c57fefc02d",
+  "finished_at_utc": "2026-10-05T08:46:19.682421+00:00"
+}

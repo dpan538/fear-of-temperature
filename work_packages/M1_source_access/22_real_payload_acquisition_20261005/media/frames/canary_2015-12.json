@@ -1,0 +1,140 @@
+{
+  "frame_id": "frame22:canary:2015-12",
+  "source_id": "canary",
+  "stratum": "UK",
+  "month": "2015-12",
+  "receipt_path": "media/frames/canary_2015-12.json",
+  "frozen_at_utc": "2026-10-05T08:53:02.264114+00:00",
+  "route": "publisher_date_archive",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 17,
+  "candidates": [
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/20/bomb-world-cameron-friends-new-song-christmas-number-1-video",
+      "date": "2015-12-20",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/20/cameron-go-thatcher-ever-dash-gas-halted",
+      "date": "2015-12-20",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/discovery/science/2015/12/21/know-genes-affect-smart-new-research-explains",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/global/2015/12/21/2015-election-bolivarian-revolution-venezuela",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/21/awkward-revelation-suggests-osborne-media-co-ordinated-attacks-corbyn-start",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/21/exclusive-undercover-police-revealed-scandal-spreads",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/21/mps-block-voting-reform-flagrant-affront-democracy-videos",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/21/will-labour-prosper-2016-path-choose-will-decide",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/22/george-osbornes-christmas-gift-to-britain-is-beyond-a-joke",
+      "date": "2015-12-22",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/22/guardian-shoots-foot-latest-corbyn-bashing",
+      "date": "2015-12-22",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/22/shocking-truth-santas-elves-tweets-video",
+      "date": "2015-12-22",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/22/sun-mocks-press-watchdog-nearly-invisible-front-page-correction",
+      "date": "2015-12-22",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/23/daily-mail-helps-government-telling-readers-massive-lie",
+      "date": "2015-12-23",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/23/muslim-family-blocked-us-protection",
+      "date": "2015-12-23",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/23/seven-investment-banks-just-delivered-massive-fck-britain",
+      "date": "2015-12-23",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/23/uk-muslim-family-banned-traveling-disneyland-thanks-racist-us-law",
+      "date": "2015-12-23",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/discovery/science/2015/12/24/canarys-top-10-science-stories-2015",
+      "date": "2015-12-24",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/20/bomb-world-cameron-friends-new-song-christmas-number-1-video",
+      "date": "2015-12-20",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/20/cameron-go-thatcher-ever-dash-gas-halted",
+      "date": "2015-12-20",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/discovery/science/2015/12/21/know-genes-affect-smart-new-research-explains",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/global/2015/12/21/2015-election-bolivarian-revolution-venezuela",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/21/awkward-revelation-suggests-osborne-media-co-ordinated-attacks-corbyn-start",
+      "date": "2015-12-21",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "request_id": "d2d793fc15e883aa0452ff1e",
+      "raw_path": "media/raw/d2d793fc15e883aa0452ff1e.bin",
+      "sha256": "73cecf79503b68bdc6193e413133ba6845cf41f07b8efc9fd350f47347e6ef51"
+    }
+  ],
+  "notes": "One saved native date page/shard; bounded partial observation, unknown monthly denominator/pi; no topic/length selection and no frame refill.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

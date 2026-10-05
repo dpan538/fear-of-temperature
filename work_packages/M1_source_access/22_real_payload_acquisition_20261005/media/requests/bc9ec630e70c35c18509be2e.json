@@ -1,0 +1,55 @@
+{
+  "request_id": "bc9ec630e70c35c18509be2e",
+  "source_id": "canary",
+  "request_url": "https://www.thecanary.co/uk/2015/12/20/cameron-go-thatcher-ever-dash-gas-halted",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:59:08.595088+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 442896,
+  "hops": [
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/20/cameron-go-thatcher-ever-dash-gas-halted",
+      "status": 301,
+      "location": "https://www.thecanary.co/uk/2015/12/20/cameron-go-thatcher-ever-dash-gas-halted/"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/2015/12/20/cameron-go-thatcher-ever-dash-gas-halted/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:59:03.601885+00:00",
+    "free_bytes": 23510130688,
+    "reserve_bytes": 3339963908,
+    "projected_free_after_reserves": 20168069628,
+    "media_lifetime_bytes": 21796395,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/canary_2015-12.json",
+  "frame_sha256": "0457f7a0e16344f502e25edcd6c2ff2ad1ef9e59fef83b47447bb383f9df4f75",
+  "final_url": "https://www.thecanary.co/uk/2015/12/20/cameron-go-thatcher-ever-dash-gas-halted/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:59:16 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:59:16 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/bc9ec630e70c35c18509be2e.bin",
+  "sha256": "a836063a53db1a3708cb561d171b0f2baa389818aace6473b23af23447dff126",
+  "finished_at_utc": "2026-10-05T08:59:16.344333+00:00"
+}

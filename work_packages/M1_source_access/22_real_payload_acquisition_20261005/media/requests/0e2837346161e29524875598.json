@@ -1,0 +1,48 @@
+{
+  "request_id": "0e2837346161e29524875598",
+  "source_id": "spinoff",
+  "request_url": "https://thespinoff.co.nz/about",
+  "purpose": "identity",
+  "route": "policy",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:25:21.619423+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "byte_count": 15295,
+  "hops": [
+    {
+      "url": "https://thespinoff.co.nz/about",
+      "status": 404,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:25:19.625017+00:00",
+    "free_bytes": 23885164544,
+    "reserve_bytes": 3365263158,
+    "projected_free_after_reserves": 20517804234,
+    "media_lifetime_bytes": 839604,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "705abf50227c6888632fdb2c64d87d158982ed67606ec4eb86e20a1ba25f0a0e",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://thespinoff.co.nz/about",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 05 Oct 2026 08:25:22 GMT",
+    "Content-Length": "15295"
+  },
+  "raw_path": "media/raw/0e2837346161e29524875598.bin",
+  "sha256": "55150059064e86c3e40f763ea584cb83f2cb74ebcb6b0970df5a44da094eb292",
+  "error": "RuntimeError: HTTP 404; route stopped",
+  "failure_dimension": "transport_or_path_failure_not_proven_publisher_denial",
+  "finished_at_utc": "2026-10-05T08:25:22.401625+00:00"
+}

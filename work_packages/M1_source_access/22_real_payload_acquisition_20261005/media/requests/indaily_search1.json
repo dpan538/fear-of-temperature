@@ -1,0 +1,18 @@
+{
+  "request_id": "indaily_search1",
+  "source_id": "indaily",
+  "request_url": "web-search:site:indailysa.com.au after:2025-06-30 before:2025-08-01",
+  "purpose": "discovery",
+  "route": "public_search",
+  "status": "saved",
+  "http_status": null,
+  "byte_count": 67,
+  "raw_path": "media/raw/indaily_search1.json",
+  "sha256": "16ec7624db2ae01bffc621a7f02bf7da483925d597e602db957bc70f171833f1",
+  "requested_at_utc": "2026-10-05T08:32:39.809233+00:00",
+  "finished_at_utc": "2026-10-05T08:32:39.809269+00:00",
+  "publisher_denial": false,
+  "hops": [],
+  "result": "empty_partial_search_not_publication_zero",
+  "search_query": "site:indailysa.com.au after:2025-06-30 before:2025-08-01"
+}

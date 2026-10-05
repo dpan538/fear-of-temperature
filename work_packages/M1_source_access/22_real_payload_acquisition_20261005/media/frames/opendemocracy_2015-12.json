@@ -1,0 +1,82 @@
+{
+  "frame_id": "frame22:opendemocracy:2015-12",
+  "source_id": "opendemocracy",
+  "stratum": "UK",
+  "month": "2015-12",
+  "receipt_path": "media/frames/opendemocracy_2015-12.json",
+  "frozen_at_utc": "2026-10-05T09:16:27.651106+00:00",
+  "route": "domain_date_search",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 6,
+  "candidates": [
+    {
+      "url": "https://www.opendemocracy.net/en/introducing-this-week-s-theme-smile-at-indignados-podemos-struggle",
+      "date": "2015-12-14",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/photojournalist-who-damaged-egyptian-national-unity",
+      "date": "2015-12-14",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/podemos-instrument-work-subject-aphorisms-2",
+      "date": "2015-12-16",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/podemos-radical-blueprint-for-democratic-reform",
+      "date": "2015-12-18",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/israel-firsters",
+      "date": "2015-12-29",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/floods-climate-and-political-neglect-personal-reflection",
+      "date": "2015-12-30",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.opendemocracy.net/en/introducing-this-week-s-theme-smile-at-indignados-podemos-struggle",
+      "date": "2015-12-14",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/photojournalist-who-damaged-egyptian-national-unity",
+      "date": "2015-12-14",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/podemos-instrument-work-subject-aphorisms-2",
+      "date": "2015-12-16",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/podemos-radical-blueprint-for-democratic-reform",
+      "date": "2015-12-18",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/israel-firsters",
+      "date": "2015-12-29",
+      "date_basis": "Explicit publication date in observed public search metadata; independently rechecked in body"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    "media/requests/opendemocracy_search3.json",
+    "control/SEARCH_CAPTURE_LIMIT.json"
+  ],
+  "notes": "Six dated entries retained from an incompletely captured third search response. First five of this declared partial dated inventory; no completeness or probability claim, undated displayed entries unresolved; no refill.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

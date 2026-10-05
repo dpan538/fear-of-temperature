@@ -1,0 +1,21 @@
+{
+  "request_id": "e0288f001475b4d351978dc76bf3f2b0",
+  "source_id": "opendemocracy",
+  "request_url": "https://www.opendemocracy.net/robots.txt",
+  "purpose": "policy_robots",
+  "requested_at_utc": "2026-10-05T03:05:37.411331+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 220,
+  "raw_path": "../20_media_original150_validation_20261005/raw/e0288f001475b4d351978dc76bf3f2b0.bin",
+  "mime_type": "text/plain",
+  "response_headers": {
+    "Content-Length": "220",
+    "etag": "\"894d5467ebf48cb2f51250bd9aa85084\"",
+    "content-type": "text/plain",
+    "Date": "Mon, 05 Oct 2026 03:05:37 GMT"
+  },
+  "sha256": "f1927d77c1d1e909d2089bc57f5223f8ed17dc627fdab312db564eace91ab7c6",
+  "finished_at_utc": "2026-10-05T03:05:37.586055+00:00",
+  "reused_prior_observation": true
+}

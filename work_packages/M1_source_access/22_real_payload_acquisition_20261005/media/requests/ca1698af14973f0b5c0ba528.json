@@ -1,0 +1,55 @@
+{
+  "request_id": "ca1698af14973f0b5c0ba528",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:57:03.246358+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 289326,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb",
+      "status": 301,
+      "location": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb/"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:57:01.256686+00:00",
+    "free_bytes": 23560794112,
+    "reserve_bytes": 3347198443,
+    "projected_free_after_reserves": 20211498517,
+    "media_lifetime_bytes": 14561860,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/texastribune_2015-12.json",
+  "frame_sha256": "9032fccfee1ca06192bb9a3fe2a5ee3718fc5613a43e0e501175c9badf704e90",
+  "final_url": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:57:07 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:57:07 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/ca1698af14973f0b5c0ba528.bin",
+  "sha256": "354e710253c171fd9c6abb21fb6d17342a63bcc8358c83ce9dfe2d47961f88fb",
+  "finished_at_utc": "2026-10-05T08:57:08.235791+00:00"
+}

@@ -1,0 +1,54 @@
+{
+  "request_id": "62d277560a066587ff3b151b",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/2025/07/01/colin-allred-texas-us-senate-democrat-2026-cornyn-paxton",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:27:45.699099+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 310065,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/2025/07/01/colin-allred-texas-us-senate-democrat-2026-cornyn-paxton",
+      "status": 301,
+      "location": "https://www.texastribune.org/2025/07/01/colin-allred-texas-us-senate-democrat-2026-cornyn-paxton/"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/colin-allred-texas-us-senate-democrat-2026-cornyn-paxton/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:27:45.697951+00:00",
+    "free_bytes": 23779868672,
+    "reserve_bytes": 3360893014,
+    "projected_free_after_reserves": 20416878506,
+    "media_lifetime_bytes": 5209748,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/texastribune_2025-07.json",
+  "frame_sha256": "8db6d570828c89857f64afcf4b413e241f4b870874591fe53724546f313a7d6e",
+  "final_url": "https://www.texastribune.org/2025/07/01/colin-allred-texas-us-senate-democrat-2026-cornyn-paxton/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:27:49 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 06:09:21 GMT"
+  },
+  "raw_path": "media/raw/62d277560a066587ff3b151b.bin",
+  "sha256": "93c2602b6b7968624c160b4916e40d100358b67a2297391a7d7a8e7a466ea4eb",
+  "finished_at_utc": "2026-10-05T08:27:49.658087+00:00"
+}

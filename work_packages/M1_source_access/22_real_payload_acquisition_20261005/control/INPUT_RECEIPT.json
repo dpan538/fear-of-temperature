@@ -1,0 +1,74 @@
+{
+  "registered_at_utc": "2026-10-05T08:20:33.335893+00:00",
+  "git_launch_anchor": "e29c67cff5",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "33e9efb30617ab084e17ed5932560cca97dbd4ed3266d1150262b57291abe949",
+      "bytes": 8530
+    },
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "sha256": "908b61f4617413474e1670dca57de386fd2f2fb9da5367d96bac3046c01ce9bd",
+      "bytes": 9127
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/PLAN.md",
+      "sha256": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+      "bytes": 9553
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/SCOPE.json",
+      "sha256": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+      "bytes": 2358
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/COORDINATION.json",
+      "sha256": "d9c2cc2acd9b255e625c551b0930c4de4cff3506a3209327ff4ae7f9f1bb565e",
+      "bytes": 473
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/FINAL_RESULT.json",
+      "sha256": "9105d9f6fa21ec337f1c73328cb7563c012855ea80a64f181b12ca0f9fad5edf",
+      "bytes": 5183
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/ACCESS_READINESS_ORIGINAL10.csv",
+      "sha256": "4994e59e25300a84598c85cef6f5d2d7b2edf1dd25759c7be9814f549a88bf8c",
+      "bytes": 11093
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/evidence/POLICY_RAW_MANIFEST.json",
+      "sha256": "98ef524edcee7015e636709a87af09cbe5acbd1c80712c8580c0f4744934088d",
+      "bytes": 3552
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/PILOT_SLOTS.csv",
+      "sha256": "ce7fc98f0da007722a2038209725c3573a7f489ffed4532a5d84200a0065cb8e",
+      "bytes": 55610
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/SOURCE_ROUTE_POLICY.json",
+      "sha256": "2e2f33d4c036296cd63484d50682c7c1b40a29b4a5b6422c1e202a09be3fc5a6",
+      "bytes": 6769
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv",
+      "sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+      "bytes": 1560606
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_B_STATUS_LEDGER.csv",
+      "sha256": "13adffd736ac8b1a70a57b0a7bab597af4a7abd49f117f57be468eb735b998e1",
+      "bytes": 631922
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/RESULT.json",
+      "sha256": "713f268206530485092b2512efcb7084506d2756cb50e68e4889e0cd1c8418b9",
+      "bytes": 2235
+    }
+  ],
+  "government_raw_rescan": false,
+  "formal_government_database_access": false,
+  "private_evaluator_access": false
+}

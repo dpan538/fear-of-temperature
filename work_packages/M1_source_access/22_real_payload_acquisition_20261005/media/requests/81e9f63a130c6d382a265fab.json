@@ -1,0 +1,55 @@
+{
+  "request_id": "81e9f63a130c6d382a265fab",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/2025/07/01/texas-hemp-thc-marijuana-medical-regulations",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:56:40.681489+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 320626,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-hemp-thc-marijuana-medical-regulations",
+      "status": 301,
+      "location": "https://www.texastribune.org/2025/07/01/texas-hemp-thc-marijuana-medical-regulations/"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-hemp-thc-marijuana-medical-regulations/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:56:38.684710+00:00",
+    "free_bytes": 23562809344,
+    "reserve_bytes": 3348172884,
+    "projected_free_after_reserves": 20212539308,
+    "media_lifetime_bytes": 13587419,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/texastribune_2025-07.json",
+  "frame_sha256": "8db6d570828c89857f64afcf4b413e241f4b870874591fe53724546f313a7d6e",
+  "final_url": "https://www.texastribune.org/2025/07/01/texas-hemp-thc-marijuana-medical-regulations/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:56:45 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:56:45 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/81e9f63a130c6d382a265fab.bin",
+  "sha256": "b7397fb6751faa1ed576e143940d49b3f412369c422d58f3f163c6dbacdd6660",
+  "finished_at_utc": "2026-10-05T08:56:45.668457+00:00"
+}

@@ -1,0 +1,140 @@
+{
+  "frame_id": "frame22:canary:2025-07",
+  "source_id": "canary",
+  "stratum": "UK",
+  "month": "2025-07",
+  "receipt_path": "media/frames/canary_2025-07.json",
+  "frozen_at_utc": "2026-10-05T08:45:16.251071+00:00",
+  "route": "publisher_date_archive",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 17,
+  "candidates": [
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/30/gaza-suaad-baby",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/30/stop-the-hate-uk-zionist",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-news/2025/07/30/amir-gaza-child-killed",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/analysis/2025/07/30/dwp-two-child-limit-news",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/analysis/2025/07/30/palestine-action-legal-case",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/analysis/2025/07/30/peter-kyle-donations",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/news/2025/07/30/marginalised-communities-media",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/discovery/horoscopes/2025/07/31/horoscope-today-31-july-2025",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/discovery/travel/2025/07/31/turkey-vacation-what-to-expect-on-your-first-visit",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/editorial/2025/07/31/green-party-leadership-election-zack-polanski",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/31/gaza-black-market",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/31/israeli-settler-yinon-levi",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/trending/2025/07/31/miriam-margolyes-hitler-comments",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/analysis/2025/07/31/dwp-spying-benefit-claimants",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/analysis/2025/07/31/online-safety-act",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/news/2025/07/31/cuba-solidarity-wales",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/news/2025/07/31/shell-profits-latest",
+      "date": "2025-07-31",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/30/gaza-suaad-baby",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/30/stop-the-hate-uk-zionist",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-news/2025/07/30/amir-gaza-child-killed",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/analysis/2025/07/30/dwp-two-child-limit-news",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    },
+    {
+      "url": "https://www.thecanary.co/uk/analysis/2025/07/30/palestine-action-legal-case",
+      "date": "2025-07-30",
+      "date_basis": "NativeJuly2025 archive/URL date, independently checked after retrieval"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "raw_path": "media/raw/b759c31ec36197b63f594afb.bin",
+      "sha256": "c970dcc3d1ac7bcfcad2368123467ac2ab1b041b4597b57da468cf42ea216a5f",
+      "request_id": "b759c31ec36197b63f594afb"
+    }
+  ],
+  "notes": "First native month archive page only, newest-page composition visible; no pagination. Unknown monthly denominator, no topic filtering; first five by observed day/nativeURL.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

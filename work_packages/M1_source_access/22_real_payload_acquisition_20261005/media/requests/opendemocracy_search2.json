@@ -1,0 +1,18 @@
+{
+  "request_id": "opendemocracy_search2",
+  "source_id": "opendemocracy",
+  "request_url": "web-search:site:opendemocracy.net \"July\" \"2025\"",
+  "purpose": "discovery",
+  "route": "public_search",
+  "status": "saved",
+  "http_status": null,
+  "byte_count": 36525,
+  "raw_path": "media/raw/search2_combined.txt",
+  "sha256": "5b2ccf56e2ccd9ad8eb8d6aab6f73ab02ef523d5f2daa3eb0dfb2e470944e0b4",
+  "requested_at_utc": "2026-10-05T08:37:21.747503+00:00",
+  "finished_at_utc": "2026-10-05T08:37:21.747902+00:00",
+  "publisher_denial": false,
+  "hops": [],
+  "shared_object_charged_once": true,
+  "search_query": "site:opendemocracy.net \"July\" \"2025\""
+}

@@ -1,0 +1,56 @@
+{
+  "request_id": "9a3412a8b481e66fb45bc685",
+  "source_id": "opendemocracy",
+  "request_url": "https://www.opendemocracy.net/en/photojournalist-who-damaged-egyptian-national-unity",
+  "purpose": "body",
+  "route": "selected_2015_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T09:16:42.777925+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 152689,
+  "hops": [
+    {
+      "url": "https://www.opendemocracy.net/en/photojournalist-who-damaged-egyptian-national-unity",
+      "status": 301,
+      "location": "/en/photojournalist-who-damaged-egyptian-national-unity/"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/photojournalist-who-damaged-egyptian-national-unity/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T09:16:40.780163+00:00",
+    "free_bytes": 21085372416,
+    "reserve_bytes": 3337012733,
+    "projected_free_after_reserves": 17746262531,
+    "media_lifetime_bytes": 24747570,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/opendemocracy_2015-12.json",
+  "frame_sha256": "0346a6899ad2c969e8a96d9c4ffae505860cd56875debfe0e33976d1c21be4f6",
+  "final_url": "https://www.opendemocracy.net/en/photojournalist-who-damaged-egyptian-national-unity/",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Content-Length": "152689",
+    "content-type": "text/html; charset=utf-8",
+    "etag": "W/\"25471-X34iIWV5v9rRjOchgkNQWIr6RHQ\"",
+    "Date": "Mon, 05 Oct 2026 09:16:46 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/9a3412a8b481e66fb45bc685.bin",
+  "sha256": "d98f473227bf8c4e9ddca3f86db615144864a6b893f7f0292e8ad2c9386e1e0e",
+  "finished_at_utc": "2026-10-05T09:16:46.169318+00:00"
+}

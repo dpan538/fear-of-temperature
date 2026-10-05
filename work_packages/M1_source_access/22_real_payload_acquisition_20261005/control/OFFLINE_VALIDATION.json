@@ -1,0 +1,29 @@
+{
+  "at_utc": "2026-10-05T09:39:09.843228+00:00",
+  "passed": true,
+  "targeted_test_count": 24,
+  "syntax_pass": true,
+  "network_calls_in_tests": 0,
+  "synthetic_outputs": "Temporary directories removed; excluded from real counts",
+  "output_sha256": "45e339bdb60ad56fe6556e2a0ecfec76cb6716c4bb76c6867afe0b366cc76789",
+  "code_sha256": {
+    "run.py": "49ed74be5abaf84995c467a04d9788d62063c56cce338506500815f2e00a4c3d",
+    "media.py": "86f7782e6ae7682aa6aaa7371633c529d624a08467d7be4610b7b75b5ad08d46",
+    "government.py": "ab15cfe4d711e423473f33a6dea8b1a1d7f6b980a70c30ab4e995f255b3dae8b",
+    "transport.py": "9e873e578c51d04b1a4bd95608e5cc22228620f6f55855d579d81e80619fac45",
+    "pdf_inspect_saved.py": "2829ee517dda3b70f85eb409131bce393595fc049cf227f88e737f09319878f2",
+    "test_transport.py": "fb10ea5173858932aec2aa1354361b28f46be2598696e2139b489d1ad683e7d9",
+    "test_media.py": "ce645bab486629cb9d8f6f76d221b760d024625056cda338878bed7a855b87c2",
+    "test_requests.py": "2d31f4757501a3062920c5a164af7cb8d6f85a9541e744bfd76fc09d65911f23",
+    "validate_package.py": "42d5e99cc714aac9aad5a43abb893e9e40dd9d6baa01a239c0a21892f946436b",
+    "review_saved.py": "1aad9e9cb8eb825c61468b0ac5e2435d73c8ad9a563ff751babd19cbf5f360ae",
+    "package_saved.py": "5cfeeabe4fefb159f1d5108a5f9a5caf580d8b80414fefd8a0c5409dcbad1b7f"
+  },
+  "tested_runtime_modules": [
+    "transport.py",
+    "media.py"
+  ],
+  "other_scripts_validation": "Syntax checked; review_saved.py and package_saved.py executed on saved actual receipts; PDF reproduction script preserves the executed scoped extraction/rendering method",
+  "final_package_validator": "validate_package.py executed successfully against42actual requests,30bodies and11new PDFs; no new network call",
+  "csv_format_validation": "All8new CSV exports round-trip to identical rows/fields afterLFnormalisation; generator syntax checked. Actual request/parser code unchanged since24passing tests."
+}

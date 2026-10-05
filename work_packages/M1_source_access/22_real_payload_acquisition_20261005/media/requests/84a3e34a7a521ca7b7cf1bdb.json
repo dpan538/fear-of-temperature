@@ -1,0 +1,47 @@
+{
+  "request_id": "84a3e34a7a521ca7b7cf1bdb",
+  "source_id": "edjnet",
+  "request_url": "https://www.europeandatajournalism.eu/2025/07/",
+  "purpose": "discovery",
+  "route": "date_archive",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:25:08.667118+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "byte_count": 107968,
+  "hops": [
+    {
+      "url": "https://www.europeandatajournalism.eu/2025/07/",
+      "status": 404,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:25:08.663819+00:00",
+    "free_bytes": 23960219648,
+    "reserve_bytes": 3365805125,
+    "projected_free_after_reserves": 20592317371,
+    "media_lifetime_bytes": 297637,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "705abf50227c6888632fdb2c64d87d158982ed67606ec4eb86e20a1ba25f0a0e",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.europeandatajournalism.eu/2025/07/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:25:10 GMT",
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "raw_path": "media/raw/84a3e34a7a521ca7b7cf1bdb.bin",
+  "sha256": "ef55918cdab9c2152813052bb05019ac192e3aed588f8199620ae4ede50bf153",
+  "error": "RuntimeError: HTTP 404; route stopped",
+  "failure_dimension": "transport_or_path_failure_not_proven_publisher_denial",
+  "finished_at_utc": "2026-10-05T08:25:11.561113+00:00"
+}

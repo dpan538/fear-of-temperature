@@ -1,0 +1,50 @@
+{
+  "request_id": "a2dc8ed704671f6226f293d1",
+  "source_id": "spinoff",
+  "request_url": "https://thespinoff.co.nz/culture/01-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-third-expert-guy-somerset",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:58:02.257994+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 147758,
+  "hops": [
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-third-expert-guy-somerset",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:58:00.265060+00:00",
+    "free_bytes": 23583649792,
+    "reserve_bytes": 3344448332,
+    "projected_free_after_reserves": 20237104308,
+    "media_lifetime_bytes": 17311971,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/spinoff_2015-12.json",
+  "frame_sha256": "162d7de427207bad91e4619009732321eb99d3c5963783a8e80ebb35711c0023",
+  "final_url": "https://thespinoff.co.nz/culture/01-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-third-expert-guy-somerset",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 05 Oct 2026 08:58:02 GMT",
+    "Content-Length": "147758"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/a2dc8ed704671f6226f293d1.bin",
+  "sha256": "19572d027dc969f81de46b9133e0e2536f4f14f66b6edc508ddc67d5df213138",
+  "finished_at_utc": "2026-10-05T08:58:03.016615+00:00"
+}

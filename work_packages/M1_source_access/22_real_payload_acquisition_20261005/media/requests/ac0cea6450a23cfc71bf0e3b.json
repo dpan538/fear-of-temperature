@@ -1,0 +1,56 @@
+{
+  "request_id": "ac0cea6450a23cfc71bf0e3b",
+  "source_id": "opendemocracy",
+  "request_url": "https://www.opendemocracy.net/en/identifying-modern-slavery-can-damage-asylum-claims",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T09:05:43.244173+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 152909,
+  "hops": [
+    {
+      "url": "https://www.opendemocracy.net/en/identifying-modern-slavery-can-damage-asylum-claims",
+      "status": 301,
+      "location": "/en/identifying-modern-slavery-can-damage-asylum-claims/"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/identifying-modern-slavery-can-damage-asylum-claims/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T09:05:41.247602+00:00",
+    "free_bytes": 23510024192,
+    "reserve_bytes": 3338035728,
+    "projected_free_after_reserves": 20169891312,
+    "media_lifetime_bytes": 23724575,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/opendemocracy_2025-07.json",
+  "frame_sha256": "9f65486a4136dd2f3efeae1bd7651cc08de7778f9e6ed14ec9f3218e476ea133",
+  "final_url": "https://www.opendemocracy.net/en/identifying-modern-slavery-can-damage-asylum-claims/",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Content-Length": "152909",
+    "content-type": "text/html; charset=utf-8",
+    "etag": "W/\"2554d-T/P5u4v+o7BV48gcTuw6OWTHjis\"",
+    "Date": "Mon, 05 Oct 2026 09:05:46 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/ac0cea6450a23cfc71bf0e3b.bin",
+  "sha256": "5eafa0dbd53c610b8fb85d84c84d6d9b713972143e4d04f3d99ebd29b044987e",
+  "finished_at_utc": "2026-10-05T09:05:46.445725+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "request_id": "f84689054836403dcead7439",
+  "source_id": "indaily",
+  "request_url": "https://indailysa.com.au/about-indaily",
+  "purpose": "identity",
+  "route": "migrated_policy",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:34:02.729908+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 241964,
+  "hops": [
+    {
+      "url": "https://indailysa.com.au/about-indaily",
+      "status": 308,
+      "location": "https://www.indailysa.com.au/about-indaily"
+    },
+    {
+      "url": "https://www.indailysa.com.au/about-indaily",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:34:00.731742+00:00",
+    "free_bytes": 23962243072,
+    "reserve_bytes": 3357694553,
+    "projected_free_after_reserves": 20602451367,
+    "media_lifetime_bytes": 8408209,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.indailysa.com.au/about-indaily",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:34:07 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:34:07 GMT"
+  },
+  "raw_path": "media/raw/f84689054836403dcead7439.bin",
+  "sha256": "4b5f990b64054bf89b4f17048f4964f306345f32667b499410e7877fe929d1d1",
+  "finished_at_utc": "2026-10-05T08:34:07.360167+00:00"
+}

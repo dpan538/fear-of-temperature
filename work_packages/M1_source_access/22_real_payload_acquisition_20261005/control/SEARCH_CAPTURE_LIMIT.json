@@ -1,0 +1,16 @@
+{
+  "source_id": "opendemocracy",
+  "query": "site:opendemocracy.net \"December\" \"2015\"",
+  "observed_at_utc": null,
+  "search_response_number": 3,
+  "capture_state": "visible metadata excerpt only; full tool response was not persisted before isolate ended",
+  "limitation": "Six explicitly publication-dated article entries were transcribed from the observed result. Other displayed entries without retained publication-date evidence remain unresolved. This is not the full result inventory or a monthly denominator.",
+  "no_repeat_search": true,
+  "topic_filter": null,
+  "date_and_identity_only": true,
+  "observation_interval_utc": [
+    "2026-10-05T09:06:33+00:00",
+    "2026-10-05T09:14:07+00:00"
+  ],
+  "recorded_at_utc": "2026-10-05T09:18:19.504324+00:00"
+}

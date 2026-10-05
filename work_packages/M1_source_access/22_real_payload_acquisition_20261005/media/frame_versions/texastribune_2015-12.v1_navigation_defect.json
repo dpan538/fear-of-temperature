@@ -1,0 +1,110 @@
+{
+  "frame_id": "frame22:texastribune:2015-12",
+  "source_id": "texastribune",
+  "stratum": "US",
+  "month": "2015-12",
+  "receipt_path": "media/frames/texastribune_2015-12.json",
+  "frozen_at_utc": "2026-10-05T08:53:02.279400+00:00",
+  "route": "publisher_date_archive",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 11,
+  "candidates": [
+    {
+      "url": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/bookshelf-dec-1-2015",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/colorado-adopts-water-plan",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/legal-battle-over-seabed-texas-coast-heats",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/page/2",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/paxtons-attorneys-argue-dismiss-charges",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/q-4",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/researchers-say-beavers-can-reduce-algae-growth-es",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/scientists-map-earths-groundwater",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/texas-denied-30-day-request-respond-obamas-immigra",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/tributes-texas-rivers-song",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/bookshelf-dec-1-2015",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/colorado-adopts-water-plan",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/legal-battle-over-seabed-texas-coast-heats",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/page/2",
+      "date": "2015-12-01",
+      "date_basis": "Publisher native date archive and URL, body date independently checked"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "request_id": "5dc9dd83d75bac3bc593a057",
+      "raw_path": "media/raw/5dc9dd83d75bac3bc593a057.bin",
+      "sha256": "546a7fd0269c00190d929a2e8a0abf69513833ebeaa1077bdbb8b0c57fefc02d"
+    }
+  ],
+  "notes": "One saved native date page/shard; bounded partial observation, unknown monthly denominator/pi; no topic/length selection and no frame refill.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

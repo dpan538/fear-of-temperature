@@ -1,0 +1,50 @@
+{
+  "request_id": "f4bcf0627d46ac7ba2bcd525",
+  "source_id": "indaily",
+  "request_url": "https://www.indailysa.com.au/news/just-in/2025/07/03/billions-locked-in-as-deal-secures-games-future",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:48:40.946957+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 509861,
+  "hops": [
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/03/billions-locked-in-as-deal-secures-games-future",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:48:40.944731+00:00",
+    "free_bytes": 23597486080,
+    "reserve_bytes": 3353388366,
+    "projected_free_after_reserves": 20242000562,
+    "media_lifetime_bytes": 12714396,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/indaily_2025-07.json",
+  "frame_sha256": "652376d60d3763b888d60eec0445c5d491ba53cd779d3ba258b54f3bd73a8941",
+  "final_url": "https://www.indailysa.com.au/news/just-in/2025/07/03/billions-locked-in-as-deal-secures-games-future",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:48:42 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:48:42 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/f4bcf0627d46ac7ba2bcd525.bin",
+  "sha256": "00d8db1340be634246064359cefcc1095dcaaf56a300b993a70dccfe748654f0",
+  "finished_at_utc": "2026-10-05T08:48:43.099967+00:00"
+}

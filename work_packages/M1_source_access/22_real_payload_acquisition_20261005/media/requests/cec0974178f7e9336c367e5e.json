@@ -1,0 +1,50 @@
+{
+  "request_id": "cec0974178f7e9336c367e5e",
+  "source_id": "spinoff",
+  "request_url": "https://thespinoff.co.nz/business/01-12-2015/media-breaking-3d-axed-at-heated-lunchtime-meeting-staff-to-take-personal-grievance-case-against-mediaworks",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:57:49.637673+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 155911,
+  "hops": [
+    {
+      "url": "https://thespinoff.co.nz/business/01-12-2015/media-breaking-3d-axed-at-heated-lunchtime-meeting-staff-to-take-personal-grievance-case-against-mediaworks",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:57:47.652560+00:00",
+    "free_bytes": 23558369280,
+    "reserve_bytes": 3345135344,
+    "projected_free_after_reserves": 20211136784,
+    "media_lifetime_bytes": 16624959,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/spinoff_2015-12.json",
+  "frame_sha256": "162d7de427207bad91e4619009732321eb99d3c5963783a8e80ebb35711c0023",
+  "final_url": "https://thespinoff.co.nz/business/01-12-2015/media-breaking-3d-axed-at-heated-lunchtime-meeting-staff-to-take-personal-grievance-case-against-mediaworks",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 05 Oct 2026 08:57:50 GMT",
+    "Content-Length": "155911"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/cec0974178f7e9336c367e5e.bin",
+  "sha256": "148f38580ad88662285db9f58850b7293cbedfae3e29ab9ef01f99266157f433",
+  "finished_at_utc": "2026-10-05T08:57:50.952092+00:00"
+}

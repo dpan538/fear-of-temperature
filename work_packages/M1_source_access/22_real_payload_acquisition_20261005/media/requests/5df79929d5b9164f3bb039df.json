@@ -1,0 +1,50 @@
+{
+  "request_id": "5df79929d5b9164f3bb039df",
+  "source_id": "indaily",
+  "request_url": "https://www.indailysa.com.au/news/opinion/2025/07/16/five-reasons-the-green-hydrogen-industry-has-floundered",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:58:15.643544+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 525608,
+  "hops": [
+    {
+      "url": "https://www.indailysa.com.au/news/opinion/2025/07/16/five-reasons-the-green-hydrogen-industry-has-floundered",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:58:13.648652+00:00",
+    "free_bytes": 23579242496,
+    "reserve_bytes": 3342714522,
+    "projected_free_after_reserves": 20234430822,
+    "media_lifetime_bytes": 19045781,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/indaily_2025-07.json",
+  "frame_sha256": "652376d60d3763b888d60eec0445c5d491ba53cd779d3ba258b54f3bd73a8941",
+  "final_url": "https://www.indailysa.com.au/news/opinion/2025/07/16/five-reasons-the-green-hydrogen-industry-has-floundered",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:58:17 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:58:17 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/5df79929d5b9164f3bb039df.bin",
+  "sha256": "369bf9b49464260f47255f01c56f83c68bf3c6087bc2f32619a07f59bf457a94",
+  "finished_at_utc": "2026-10-05T08:58:17.691546+00:00"
+}

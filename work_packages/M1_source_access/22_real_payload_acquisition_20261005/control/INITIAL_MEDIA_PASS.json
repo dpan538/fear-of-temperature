@@ -1,0 +1,22 @@
+{
+  "at_utc": "2026-10-05T08:55:00.601850+00:00",
+  "strata_with_first_validated_chain": [
+    "EU_Europe",
+    "UK",
+    "AU",
+    "US",
+    "NZ"
+  ],
+  "real_verified_articles": 5,
+  "preview_articles_not_counted": 1,
+  "initial_body_targets": 6,
+  "milestone30minutes_met": false,
+  "after_initial_pass_government_check_now_in_scope": true,
+  "first_chains": {
+    "IT": "6e8d00347b625f3b7eb46020",
+    "AU": "f4bcf0627d46ac7ba2bcd525",
+    "NZ": "c4165023f9e53d0a74ee1fc4",
+    "US": "62d277560a066587ff3b151b",
+    "GB": "5d619dcd5d8920b8f80652be"
+  }
+}

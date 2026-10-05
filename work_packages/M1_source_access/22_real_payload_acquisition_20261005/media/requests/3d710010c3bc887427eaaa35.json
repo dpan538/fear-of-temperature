@@ -1,0 +1,48 @@
+{
+  "request_id": "3d710010c3bc887427eaaa35",
+  "source_id": "indaily",
+  "request_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/sitemap.xml",
+  "purpose": "discovery",
+  "route": "publisher_sitemap",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:39:17.203711+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 68551,
+  "hops": [
+    {
+      "url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/sitemap.xml",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:39:17.200154+00:00",
+    "free_bytes": 23556964352,
+    "reserve_bytes": 3357250208,
+    "projected_free_after_reserves": 20197616992,
+    "media_lifetime_bytes": 8852554,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/sitemap.xml",
+  "mime_type": "application/xml",
+  "response_headers": {
+    "Content-Type": "application/xml",
+    "Content-Length": "68551",
+    "Date": "Mon, 05 Oct 2026 08:39:18 GMT",
+    "Last-Modified": "Sun, 04 Oct 2026 17:52:30 GMT",
+    "ETag": "\"c1b7868605fe7a973245922f0ac2415a\""
+  },
+  "raw_path": "media/raw/3d710010c3bc887427eaaa35.bin",
+  "sha256": "69546bad2bce3f2fef4d36f45e576ef37389dbd705586b402aea7afab19d4785",
+  "finished_at_utc": "2026-10-05T08:39:18.074424+00:00"
+}

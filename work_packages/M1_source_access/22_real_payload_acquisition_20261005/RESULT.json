@@ -1,0 +1,47 @@
+{
+  "at_utc": "2026-10-05T09:28:21.133516+00:00",
+  "scope_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "original_publisher_articles_verified": 0,
+  "original_unfilled_slots": 150,
+  "candidate_sources": 7,
+  "candidate_frozen_targets": 44,
+  "body_attempts": 42,
+  "saved_article_raws": 41,
+  "verified_complete_visible_prose": 30,
+  "preview_attempts": 5,
+  "readable_partial_secondary_or_component_units": 6,
+  "http_body_failures": 1,
+  "unattempted_selected": 2,
+  "first30minute_milestone": false,
+  "first30minute_verified": 0,
+  "verified_by_stratum": {
+    "US": 6,
+    "NZ": 8,
+    "EU_Europe": 1,
+    "UK": 10,
+    "AU": 5
+  },
+  "verified_by_month": {
+    "2025-07": 20,
+    "2015-12": 10
+  },
+  "body_length_diagnostics": {
+    "unit": "Complete visible article HTML prose at retrieval, including named structural qualifications",
+    "min_chars": 1519,
+    "median_chars": 4695.5,
+    "max_chars": 28340,
+    "length_selection": false,
+    "whole_corpus_inference": false
+  },
+  "new_media_retained_bytes": 25617721,
+  "media_lifetime_bytes": 25819723,
+  "government_new_raw_bytes": 4342459,
+  "government_lifetime_raw_bytes": 26574033,
+  "network_closed": true,
+  "formal_database_access": false,
+  "private_evaluator_access": false,
+  "topic_affect_fear_analysis": false
+}

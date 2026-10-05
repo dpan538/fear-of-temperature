@@ -1,0 +1,20 @@
+{
+  "request_id": "8bbdff0d82a37d828fa08ac9c173792f",
+  "source_id": "edjnet",
+  "request_url": "https://www.europeandatajournalism.eu/robots.txt",
+  "purpose": "policy_robots",
+  "requested_at_utc": "2026-10-05T03:05:29.958191+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 2706,
+  "raw_path": "../20_media_original150_validation_20261005/raw/8bbdff0d82a37d828fa08ac9c173792f.bin",
+  "mime_type": "text/plain; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 03:05:30 GMT",
+    "Content-Type": "text/plain; charset=UTF-8",
+    "Content-Length": "2706"
+  },
+  "sha256": "430cc21c5e15893223462b48a326bf6dfa7d7114468c337ab0d739bc28819597",
+  "finished_at_utc": "2026-10-05T03:05:30.726491+00:00",
+  "reused_prior_observation": true
+}

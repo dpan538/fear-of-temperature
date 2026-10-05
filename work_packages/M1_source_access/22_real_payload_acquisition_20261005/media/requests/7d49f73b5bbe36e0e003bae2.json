@@ -1,0 +1,47 @@
+{
+  "request_id": "7d49f73b5bbe36e0e003bae2",
+  "source_id": "canary",
+  "request_url": "https://www.thecanary.co/robots.txt",
+  "purpose": "robots",
+  "route": "robots",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:41:41.964684+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 654,
+  "hops": [
+    {
+      "url": "https://www.thecanary.co/robots.txt",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:41:41.951479+00:00",
+    "free_bytes": 23525785600,
+    "reserve_bytes": 3356630414,
+    "projected_free_after_reserves": 20167058034,
+    "media_lifetime_bytes": 9472348,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "fb153b74f71eb88820f2ac3ed5eaaa84925e1042c6e8ce0c7c562dcad387cbef",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.thecanary.co/robots.txt",
+  "mime_type": "text/plain; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:41:43 GMT",
+    "Content-Type": "text/plain; charset=UTF-8",
+    "last-modified": "Fri, 02 Oct 2026 12:48:39 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/7d49f73b5bbe36e0e003bae2.bin",
+  "sha256": "f3c92d80e5fe7ffbbfac7d1c926db8369a696d04ea00a0d6b27978a015132ce3",
+  "finished_at_utc": "2026-10-05T08:41:42.916073+00:00"
+}

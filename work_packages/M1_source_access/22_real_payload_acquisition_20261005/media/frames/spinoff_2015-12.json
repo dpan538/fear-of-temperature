@@ -1,0 +1,906 @@
+{
+  "frame_id": "frame22:spinoff:2015-12",
+  "source_id": "spinoff",
+  "stratum": "NZ",
+  "month": "2015-12",
+  "receipt_path": "media/frames/spinoff_2015-12.json",
+  "frozen_at_utc": "2026-10-05T08:53:02.291144+00:00",
+  "route": "publisher_sitemap",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 141,
+  "candidates": [
+    {
+      "url": "https://thespinoff.co.nz/business/01-12-2015/media-breaking-3d-axed-at-heated-lunchtime-meeting-staff-to-take-personal-grievance-case-against-mediaworks",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.321Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/01-12-2015/media-introducing-on-the-rag-in-which-alex-casey-assesses-a-week-of-women-in-the-news",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.154Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/01-12-2015/media-the-chronicler-of-the-cairns-trial-an-interview-with-jared-savage",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:40.966Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-fourth-expert-peter-simpson",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.268Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-third-expert-guy-somerset",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:40.916Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/television-inside-the-lightbox-coming-in-december",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.381Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/television-preview-the-incredible-shorty-street-scandal-debut-single-live-show-announcement",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.213Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/television-youre-my-queen-a-celebration-of-rupauls-drag-race",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.069Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/02-12-2015/media-what-we-lost-when-we-lost-3d-paula-penfolds-history-of-the-teina-pora-investigation",
+      "date": "2015-12-02",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.682Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/02-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-fifth-expert-ashleigh-young",
+      "date": "2015-12-02",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.434Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/02-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-sixth-expert-thom-shackleford",
+      "date": "2015-12-02",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.736Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/02-12-2015/television-my-kitchen-rules-power-rankings-week-eight-william-g-in-da-house",
+      "date": "2015-12-02",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.587Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/02-12-2015/golf-andy-sullivan-the-everyman-hero-of-mens-golf",
+      "date": "2015-12-02",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.517Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/03-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-eighth-expert-stephen-stratford",
+      "date": "2015-12-03",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.896Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/03-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-seventh-expert-elspeth-sandys",
+      "date": "2015-12-03",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.779Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/03-12-2015/television-a-field-guide-to-the-deceptively-addictive-drama-of-the-good-wife",
+      "date": "2015-12-03",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.851Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/03-12-2015/television-the-block-nz-power-rankings-week-9-one-last-pita-for-the-road",
+      "date": "2015-12-03",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.127Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/03-12-2015/throwback-thursday-i-was-a-90s-music-documentary-star-and-it-never-stopped-haunting-me",
+      "date": "2015-12-03",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.003Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/03-12-2015/sports-the-rugby-club-rising-from-the-ashes",
+      "date": "2015-12-03",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.057Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/04-12-2015/media-interesting-bits-from-nzoas-2015-annual-report",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.418Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-ninth-expert-ruth-nichol",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.269Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-12-2015/gaming-this-week-i-played-classic-dungeons-dragons",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.586Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-12-2015/television-a-long-half-hour-watching-the-taping-of-7-days-200th-episode",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.218Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/04-12-2015/politics-unveiled-john-key-at-the-birth-of-christ",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.465Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/04-12-2015/golf-still-burning-bright-why-this-may-not-be-the-last-of-tiger",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.307Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/04-12-2015/sports-premier-league-week-the-hunt-for-the-new-luis-suarez",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.531Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/04-12-2015/sports-the-men-in-blazers-premier-league-wrap-episode-14",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.169Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/04-12-2015/sports-thems-the-breaks-ricardo-christies-no-luck-season",
+      "date": "2015-12-04",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.366Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/07-12-2015/books-our-special-week-long-series-on-the-best-kids-books-in-new-zealand-today-the-monsters-of-paul-beavis",
+      "date": "2015-12-07",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.769Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/07-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-tenth-expert-linda-burgess",
+      "date": "2015-12-07",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.632Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/07-12-2015/television-shortland-street-power-rankings-harpers-bizarre-bachelorette-party",
+      "date": "2015-12-07",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.845Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/07-12-2015/politics-2015-in-review-23-politics-watchers-pick-their-star-performers",
+      "date": "2015-12-07",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.720Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/08-12-2015/books-the-new-star-of-luncheon-sausage-books",
+      "date": "2015-12-08",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.114Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/08-12-2015/gaming-celebrating-20-years-of-playstation-at-a-hi-tech-sony-nightclub",
+      "date": "2015-12-08",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.976Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/08-12-2015/television-monitor-aaron-yap-picks-the-10-best-tv-shows-of-2015",
+      "date": "2015-12-08",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.053Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/08-12-2015/politics-2015-in-review-23-politics-watchers-name-the-years-big-losers",
+      "date": "2015-12-08",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:42.914Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/08-12-2015/sports-all-blacks-pick-their-kiwi-sports-heroes-of-2015",
+      "date": "2015-12-08",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.229Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/08-12-2015/uniformity-power-ranking-the-new-super-rugby-kits",
+      "date": "2015-12-08",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.175Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/09-12-2015/television-an-interview-with-james-mustapic-about-his-debut-harry-warner-themed-single",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.739Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/09-12-2015/television-to-the-villains-go-the-spoils-a-tyre-kicker-reports-from-the-block-nz-live-auctions",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.526Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/09-12-2015/week-long-new-zealand-kids-books-special-today-bob-kerrs-imaginary-newspaper",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.380Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/09-12-2015/week-long-new-zealand-kids-books-special-today-ya-author-fleur-beale",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.619Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/09-12-2015/media-are-new-zealands-quotes-of-the-year-really-all-by-men",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.577Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/09-12-2015/politics-2015-in-review-24-politics-watchers-on-party-fortunes-the-media-etc",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.321Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/09-12-2015/good-night-to-good-morning-steve-braunias-was-haunted-by-the-ghosts-of-presenters-past-as-a-guest-on-good-morning",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.427Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/09-12-2015/golf-pro-golf-in-december-is-a-lot-like-the-final-days-of-high-school",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.476Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/09-12-2015/sports-kiwi-paul-lasike-bears-down-on-nfl-dream",
+      "date": "2015-12-09",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.677Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/10-12-2015/society-video-pop-on-the-couch-episode-13-live-show-edition-ft-elton-florence-and-more",
+      "date": "2015-12-10",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.255Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-12-2015/books-our-week-long-special-on-the-best-kids-books-in-new-zealand-today-an-appreciation-of-the-1987-classic-alex",
+      "date": "2015-12-10",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.032Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-12-2015/good-night-to-good-morning-a-former-good-morning-staffer-remembers-the-glory-years",
+      "date": "2015-12-10",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.210Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-12-2015/review-adele-at-the-bbc-i-literally-just-burst-into-tears",
+      "date": "2015-12-10",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.983Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-12-2015/television-talking-revolutionary-comedy-tina-fey-and-that-blackface-episode-with-30-rocks-toofer",
+      "date": "2015-12-10",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.114Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/10-12-2015/throwback-thursday-remembering-muldoon-40-years-after-new-zealands-pugilist-pm-came-to-power",
+      "date": "2015-12-10",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.861Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/10-12-2015/soccer-from-fever-pitch-to-fed-up-my-life-as-a-liverpool-fc-supporter",
+      "date": "2015-12-10",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:43.935Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/11-12-2015/media-on-the-rag-2-bikini-season-is-here-or-as-men-call-it-summer",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.754Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-12-2015/gaming-this-week-i-played",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.663Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-12-2015/good-night-to-good-morning-i-dont-want-this-day-to-end-the-poignant-magical-finale-of-good-morning",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.811Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-12-2015/television-my-kitchen-rules-power-rankings-week-nine-seasoned-with-tears",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.516Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-12-2015/week-long-kids-book-special-xmas-shopping-guide-to-the-best-kids-books-of-2015",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.384Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/11-12-2015/politics-2016-in-preview-the-spinoff-jury-of-24-experts-pick-next-years-big-issue",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.323Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/11-12-2015/rowing-the-all-blacks-select-their-kiwi-athletes-of-the-year-2-hamish-bond-and-eric-murray",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.437Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/11-12-2015/sports-premier-league-week-is-this-love-for-arsenals-bob-marley-loving-manager",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.609Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/11-12-2015/sports-the-men-in-blazers-premier-league-wrap-episode-15",
+      "date": "2015-12-11",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.555Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/12-12-2015/gaming-maybe-im-a-masochist-don-rowe-plays-and-loves-bloodborne",
+      "date": "2015-12-12",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.864Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/13-12-2015/television-video-the-secrets-behind-the-most-disturbing-and-shocking-shortland-street-cliffhanger-yet",
+      "date": "2015-12-13",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:44.913Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/14-12-2015/media-the-10-best-new-zealand-news-features-of-2016",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.045Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/14-12-2015/media-the-perils-of-reporting-on-mental-health",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.392Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-12-2015/books-the-year-of-charlotte-grimshaw",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.276Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-12-2015/books-the-year-of-nick-davies",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.138Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-12-2015/television-counting-down-the-50-new-zealand-tv-moments-of-the-year-50-40",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.527Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-12-2015/television-exclusive-music-video-hold-your-hand-in-mine-harry-warner-from-shorty-street-scandals-james-mustapic",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.092Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-12-2015/television-shortland-street-power-rankings-victoria-vs-the-great-glass-ceiling",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.213Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-12-2015/television-we-werent-going-to-finish-with-a-whimper-a-shortland-street-producer-talks-about-wtf-just-happened-spoilers",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.455Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-12-2015/television-you-gotta-be-loud-especially-for-a-nz-crowd-tim-eric-talk-live-comedy",
+      "date": "2015-12-14",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.337Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/15-12-2015/interview-that-fed-me-off-david-dallas-on-labour-instant-finance-and-dont-rate-that",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.224Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/books-the-year-of-alex-casey",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.006Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/books-the-year-of-brian-turner",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.775Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/soap-day-a-year-of-home-and-away-blood-sand-and-tears",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.930Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/soap-day-a-year-of-neighbours-killer-castles-doggy-daydreams-blasts-from-the-past",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.858Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/soap-day-worst-christmas-party-ever-the-top-10-moments-from-the-shortland-street-cliffhanger",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.725Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/television-counting-down-the-50-best-new-zealand-tv-moments-of-the-year-40-31",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.087Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/television-video-the-prestigious-shorty-street-scandal-awards-for-2015",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.144Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/15-12-2015/tv-review-a-blood-red-christmas-on-the-horrific-shortland-street-finale",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.591Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/15-12-2015/golf-the-all-blacks-pick-their-2015-kiwi-sporting-heroes-part-3-lydia-ko",
+      "date": "2015-12-15",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:45.639Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/16-12-2015/society-video-pop-on-the-couch-taylor-swift-1989-special-edition",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.570Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/16-12-2015/the-transgender-year-trans-went-mainstream-in-2015-but-what-changed",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.304Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/16-12-2015/books-the-year-of-jane-bloomfield",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.631Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/16-12-2015/books-the-year-of-max-porter",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.402Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/16-12-2015/television-counting-down-the-50-best-new-zealand-tv-moments-of-the-year-21-30",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.737Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/16-12-2015/television-useful-lessons-i-have-learned-from-my-kitchen-rules-nz-2015",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.471Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/16-12-2015/politics-why-you-need-incite-in-your-life-a-review-of-cameron-slaters-35-monthly-e-newsletter",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.527Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/16-12-2015/cricket-the-all-blacks-pick-their-2015-kiwi-sporting-heroes-part-4-kane-williamson",
+      "date": "2015-12-16",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.353Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-12-2015/books-the-year-of-anna-smaill",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.840Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-12-2015/books-the-year-of-stacy-gregg",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.067Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-12-2015/gaming-my-battle-with-star-wars-battlefront",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.406Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-12-2015/oprah-the-euphoria-of-oprah-how-one-night-at-vector-arena-changed-my-life",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.806Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-12-2015/television-counting-down-the-50-best-new-zealand-tv-moments-of-the-year-20-11",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.296Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-12-2015/television-whos-a-good-boy-counting-down-tvs-top-dogs-2015",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.191Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-12-2015/throwback-thursday-remember-when-a-mack-truck-crashed-into-shortland-street",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:46.944Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/17-12-2015/cop21-an-insiders-account-of-the-long-strange-journey-to-the-paris-climate-accord",
+      "date": "2015-12-17",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.023Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/18-12-2015/housekeeping-the-spinoff-is-hibernating-for-the-summer-back-on-january-18",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.129Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/18-12-2015/on-the-rag-women-beware-even-fruit-and-vegetables-arent-safe-now",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.611Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/18-12-2015/podcast-listen-to-the-first-episode-of-on-the-rag-2015-in-women",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.070Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-12-2015/books-the-year-of-bill-manhire",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.662Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-12-2015/books-the-year-of-steve-braunias",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.768Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-12-2015/television-counting-down-the-50-best-new-zealand-tv-moments-of-the-year-10-1",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.904Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-12-2015/television-have-you-ever-tried-to-grow-a-kumara-in-invercargill-matt-heath-and-jeremy-wells-on-watchme",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.515Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-12-2015/television-the-ten-best-new-zealand-reality-stars-of-2015",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.000Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/18-12-2015/sports-premier-league-week-jose-and-claudio-and-the-circle-of-life",
+      "date": "2015-12-18",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:47.717Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/22-12-2015/summer-reissue-james-griffin-talks-westside-outrageous-fortune-and-the-glass-ceiling-of-funding",
+      "date": "2015-12-22",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.254Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/22-12-2015/summer-reissue-the-bachelor-nz-who-will-receive-the-final-rose-let-the-sims-decide",
+      "date": "2015-12-22",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.306Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/22-12-2015/summer-reissue-friday-night-lights-and-the-mass-psychosis-of-high-school-sports",
+      "date": "2015-12-22",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.192Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/23-12-2015/summer-reissue-revisiting-our-campbell-live-tribute-page",
+      "date": "2015-12-23",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.494Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/23-12-2015/summer-reissue-one-mum-explains-why-mike-hosking-is-the-seven-oclock-king",
+      "date": "2015-12-23",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.559Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/23-12-2015/golf-analysing-the-strained-family-dynamics-of-the-pnc-father-son-challenge",
+      "date": "2015-12-23",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.349Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/24-12-2015/summer-reissue-first-encounter-with-the-techno-christ-watching-the-birth-of-a-star-in-the-oculus-rift",
+      "date": "2015-12-24",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.648Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/24-12-2015/summer-reissue-why-the-1981-finale-of-a-dogs-show-remains-the-greatest-piece-of-local-tv-ever-made",
+      "date": "2015-12-24",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.698Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/24-12-2015/christmas-your-image-rights-are-worth-more-than-four-cheeseburgers-a-cautionary-christmas-tale",
+      "date": "2015-12-24",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.782Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/24-12-2015/summer-reissue-the-strange-anatomy-of-a-shield-challenge-or-how-to-end-a-promising-night-in-a-caravan-park",
+      "date": "2015-12-24",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.600Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/25-12-2015/summer-reissue-remembering-our-extensive-spinoff-investigation-who-sold-the-killsmoon-dirty-bedsheets",
+      "date": "2015-12-25",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.929Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/25-12-2015/summer-reissue-australias-guantanamo-bay-an-interview-with-the-christmas-island-mayor",
+      "date": "2015-12-25",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.991Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/25-12-2015/summer-reissue-the-day-that-susan-devoy-tried-to-ban",
+      "date": "2015-12-25",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.882Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/25-12-2015/summer-reissue-richie-mccaw-is-a-hippie-how-that-transformed-the-all-blacks",
+      "date": "2015-12-25",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:48.834Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/26-12-2015/summer-reissue-elena-ferrante-finlay-macdonald-and-me-me-me-an-essay-by-charlotte-grimshaw",
+      "date": "2015-12-26",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.104Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/26-12-2015/summer-reissue-how-watching-suits-helped-me-to-win-my-tenancy-dispute",
+      "date": "2015-12-26",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.049Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/26-12-2015/television-its-been-quite-a-grim-year-on-the-cobbles-coronation-street-in-2015",
+      "date": "2015-12-26",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.198Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/26-12-2015/summer-reissue-power-ranking-the-entire-2015-new-world-little-shop-collection",
+      "date": "2015-12-26",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.309Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/27-12-2015/summer-reissue-bukowski-an-ugly-solitary-kid-who-became-an-ugly-solitary-and-mostly-hostile-drunk",
+      "date": "2015-12-27",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.358Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/27-12-2015/television-group-think-the-best-and-worst-tv-themes-of-all-time",
+      "date": "2015-12-27",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.506Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/28-12-2015/im-your-biggest-fan-a-devoted-reader-attempts-to-befriend-eleanor-catton",
+      "date": "2015-12-28",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.693Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/28-12-2015/summer-reissue-how-did-a-proudly-stupid-youtube-ripoff-become-a-smash-hit",
+      "date": "2015-12-28",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.751Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/28-12-2015/summer-reissue-the-banality-of-genius-paul-mccartney-fills-up-a-new-book-with-yap-and-blather",
+      "date": "2015-12-28",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.633Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/28-12-2015/summer-reissue-revisiting-the-mad-bad-and-brilliant-1992-cricket-world-cup-coverage",
+      "date": "2015-12-28",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.587Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/29-12-2015/summer-reissue-a-show-for-the-people-witnessing-the-end-of-homai-te-pakipakis-maori-karaoke",
+      "date": "2015-12-29",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.923Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/29-12-2015/summer-reissue-the-ugly-game-why-rocket-league-will-ruin-your-life",
+      "date": "2015-12-29",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.850Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/29-12-2015/summer-reissue-one-desperate-phoenix-fans-plea-for-acceptance",
+      "date": "2015-12-29",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.806Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/30-12-2015/summer-reissue-to-the-unsuspecting-victim-go-the-spoilers",
+      "date": "2015-12-30",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:50.034Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/30-12-2015/summer-reissue-how-mark-hunt-fought-his-way-from-a-hellish-childhood-to-mma-glory",
+      "date": "2015-12-30",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:49.976Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/31-12-2015/summer-reissue-a-brief-history-of-new-zealand-politicians-on-reality-television",
+      "date": "2015-12-31",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:50.284Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/31-12-2015/summer-reissue-this-week-i-played-japanese-cat-pleasurer-neko-atsume",
+      "date": "2015-12-31",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:50.136Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/31-12-2015/summer-reissue-hubris-entrenched-loathing-and-latent-cultural-imperialism-a-review-of-the-steve-williams-book",
+      "date": "2015-12-31",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:50.089Z"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://thespinoff.co.nz/business/01-12-2015/media-breaking-3d-axed-at-heated-lunchtime-meeting-staff-to-take-personal-grievance-case-against-mediaworks",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.321Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/01-12-2015/media-introducing-on-the-rag-in-which-alex-casey-assesses-a-week-of-women-in-the-news",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.154Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/01-12-2015/media-the-chronicler-of-the-cairns-trial-an-interview-with-jared-savage",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:40.966Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-fourth-expert-peter-simpson",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:41.268Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-12-2015/books-the-best-books-of-2015-according-to-a-panel-of-10-experts-our-third-expert-guy-somerset",
+      "date": "2015-12-01",
+      "date_basis": "Native dated URL in advertised sitemap shard; body date verified independently",
+      "lastmod": "2026-09-26T23:07:40.916Z"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "request_id": "cb36ef003110aeaaa8744825",
+      "raw_path": "media/raw/cb36ef003110aeaaa8744825.bin",
+      "sha256": "04c65cf809c64529446144d31da24f190fe00cfd8cd3a884a3bc07ce65e14784"
+    }
+  ],
+  "notes": "One saved native date page/shard; bounded partial observation, unknown monthly denominator/pi; no topic/length selection and no frame refill.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

@@ -1,0 +1,51 @@
+{
+  "request_id": "c0e122fbd9be02cb1a8e15af",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/republishing/",
+  "purpose": "licence",
+  "route": "policy",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:25:15.357150+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 199222,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/republishing/",
+      "status": 301,
+      "location": "https://www.texastribune.org/republishing-guidelines/"
+    },
+    {
+      "url": "https://www.texastribune.org/republishing-guidelines/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:25:13.354424+00:00",
+    "free_bytes": 23895592960,
+    "reserve_bytes": 3365462911,
+    "projected_free_after_reserves": 20528032897,
+    "media_lifetime_bytes": 639851,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "705abf50227c6888632fdb2c64d87d158982ed67606ec4eb86e20a1ba25f0a0e",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.texastribune.org/republishing-guidelines/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:25:18 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:21:33 GMT"
+  },
+  "raw_path": "media/raw/c0e122fbd9be02cb1a8e15af.bin",
+  "sha256": "4b6a737490c21bc2e7d549fa7409dc697d2e3a61ceefcfc3cb0ccfb637fe12c0",
+  "finished_at_utc": "2026-10-05T08:25:18.934617+00:00"
+}

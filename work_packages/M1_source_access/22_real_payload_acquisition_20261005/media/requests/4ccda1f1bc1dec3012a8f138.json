@@ -1,0 +1,47 @@
+{
+  "request_id": "4ccda1f1bc1dec3012a8f138",
+  "source_id": "opendemocracy",
+  "request_url": "https://www.opendemocracy.net/sitemap.xml",
+  "purpose": "discovery",
+  "route": "sitemap",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:24:28.890262+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 799,
+  "hops": [
+    {
+      "url": "https://www.opendemocracy.net/sitemap.xml",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:24:26.890057+00:00",
+    "free_bytes": 23731810304,
+    "reserve_bytes": 3365806251,
+    "projected_free_after_reserves": 20363906901,
+    "media_lifetime_bytes": 296511,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "705abf50227c6888632fdb2c64d87d158982ed67606ec4eb86e20a1ba25f0a0e",
+  "publisher_denial": false,
+  "environment_variant": "network_enabled_after_dns_failure",
+  "supersedes_environment_failure_request_id": "74b97239f340d0e05260631e",
+  "final_url": "https://www.opendemocracy.net/sitemap.xml",
+  "mime_type": "text/xml; charset=utf-8",
+  "response_headers": {
+    "Content-Length": "799",
+    "content-type": "text/xml; charset=utf-8",
+    "etag": "W/\"31f-ah+Yo34xMBlBlT3XBWZMhmz5cwQ\"",
+    "Date": "Mon, 05 Oct 2026 08:24:29 GMT"
+  },
+  "raw_path": "media/raw/4ccda1f1bc1dec3012a8f138.bin",
+  "sha256": "350fbbd438aebce1100d249bf731782d1e624fd4954455f442665076a274b3c0",
+  "finished_at_utc": "2026-10-05T08:24:29.205760+00:00"
+}

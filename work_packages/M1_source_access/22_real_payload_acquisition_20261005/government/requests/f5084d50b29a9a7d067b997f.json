@@ -1,0 +1,48 @@
+{
+  "request_id": "f5084d50b29a9a7d067b997f",
+  "source_id": "eu_cellar",
+  "request_url": "https://publications.europa.eu/resource/cellar/975f6d0d-9d52-11e4-872e-01aa75ed71a1.0006.01/DOC_1",
+  "purpose": "selected_Item",
+  "route": "consistent_exact_uri",
+  "lane": "government",
+  "requested_at_utc": "2026-10-05T08:55:50.354827+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 1778944,
+  "hops": [
+    {
+      "url": "https://publications.europa.eu/resource/cellar/975f6d0d-9d52-11e4-872e-01aa75ed71a1.0006.01/DOC_1",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:55:48.353558+00:00",
+    "free_bytes": 23524720640,
+    "reserve_bytes": 3350280591,
+    "projected_free_after_reserves": 20172342897,
+    "media_lifetime_bytes": 13258656,
+    "government_lifetime_bytes": 24795089,
+    "floor_bytes": 16106127360,
+    "lane": "government",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://publications.europa.eu/resource/cellar/975f6d0d-9d52-11e4-872e-01aa75ed71a1.0006.01/DOC_1",
+  "mime_type": "application/pdf;charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:55:51 GMT",
+    "Content-Type": "application/pdf;charset=UTF-8",
+    "ETag": "\"Con-20190719051901000\"",
+    "Last-Modified": "Fri, 19 Jul 2019 03:19:01 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "government/raw/f5084d50b29a9a7d067b997f.bin",
+  "sha256": "9a1ed05e1cabd5e2be4a67406094f1490f162a116894c86c3ec665a97afd104d",
+  "finished_at_utc": "2026-10-05T08:55:52.793357+00:00"
+}

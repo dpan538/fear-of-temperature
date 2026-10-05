@@ -1,0 +1,106 @@
+{
+  "version": "round22_candidate_pre_body_v3",
+  "all_original_source_stops_preserved": true,
+  "original_source_success": false,
+  "candidates": [
+    {
+      "source_id": "edjnet",
+      "stratum": "EU_Europe",
+      "name": "European Data Journalism Network",
+      "publisher_country": "IT",
+      "edition": "European English network; member publisher retained separately",
+      "genre": "data journalism/news and aggregation",
+      "founded_year": 2017,
+      "hosts": [
+        "www.europeandatajournalism.eu"
+      ],
+      "maps_original": "dw",
+      "reason": "Accepted public CC BY policy and advertised sitemap provide an independent unresolved date discovery route; earlier empty search retained",
+      "identity_evidence": "round20 accepted About/licence/Italian coordinator evidence"
+    },
+    {
+      "source_id": "opendemocracy",
+      "stratum": "UK",
+      "name": "openDemocracy",
+      "publisher_country": "GB",
+      "edition": "UK publisher English digital international affairs",
+      "genre": "news/analysis/opinion",
+      "founded_year": 2001,
+      "hosts": [
+        "www.opendemocracy.net",
+        "opendemocracy.net"
+      ],
+      "maps_original": "guardian",
+      "reason": "Accepted public syndication/CC and robots observations; date frame unresolved",
+      "identity_evidence": "https://www.opendemocracy.net/en/about/"
+    },
+    {
+      "source_id": "indaily",
+      "stratum": "AU",
+      "name": "InDaily",
+      "publisher_country": "AU",
+      "edition": "South Australia English digital",
+      "genre": "regional news",
+      "founded_year": 2004,
+      "hosts": [
+        "www.indaily.com.au",
+        "indaily.com.au",
+        "indailysa.com.au",
+        "www.indailysa.com.au",
+        "assets.indailysa.com.au"
+      ],
+      "maps_original": "smh",
+      "reason": "Public independent Australian regional editorial route, no known earlier denial; era and rights to be checked before bodies",
+      "identity_evidence": "https://indailysa.com.au/about-us",
+      "new_route_evidence": "Saved official old-domain301 points to https://indailysa.com.au/; identity/robots checked anew, not a denial bypass"
+    },
+    {
+      "source_id": "texastribune",
+      "stratum": "US",
+      "name": "The Texas Tribune",
+      "publisher_country": "US",
+      "edition": "Texas English digital",
+      "genre": "regional nonprofit news",
+      "founded_year": 2009,
+      "hosts": [
+        "www.texastribune.org",
+        "texastribune.org"
+      ],
+      "maps_original": "nyt",
+      "reason": "Public nonprofit news with public republication policy; regional publisher remains explicit rather than whole-US representativeness",
+      "identity_evidence": "https://www.texastribune.org/about/"
+    },
+    {
+      "source_id": "spinoff",
+      "stratum": "NZ",
+      "name": "The Spinoff",
+      "publisher_country": "NZ",
+      "edition": "New Zealand English digital",
+      "genre": "news/analysis/culture/opinion",
+      "founded_year": 2014,
+      "hosts": [
+        "thespinoff.co.nz",
+        "www.thespinoff.co.nz"
+      ],
+      "maps_original": "nzherald",
+      "reason": "Independent New Zealand public editorial source, established before2015; original RNZ/Herald permission stops retained",
+      "identity_evidence": "https://thespinoff.co.nz/about"
+    },
+    {
+      "source_id": "france24",
+      "stratum": "EU_Europe",
+      "name": "France24",
+      "publisher_country": "FR",
+      "edition": "France-based international English digital news",
+      "genre": "international news and wire adoption",
+      "founded_year": 2006,
+      "hosts": [
+        "www.france24.com",
+        "france24.com"
+      ],
+      "maps_original": "irish_times",
+      "reason": "Second European candidate selected before bodies after EDJNet API authentication denial; French international English editorial outlet retains FR edition and wire attribution",
+      "identity_evidence": "https://www.france24.com/en/about-us/"
+    }
+  ]
+}

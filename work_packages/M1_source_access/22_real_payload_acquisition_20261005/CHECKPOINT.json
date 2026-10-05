@@ -1,0 +1,39 @@
+{
+  "at_utc": "2026-10-05T09:34:10.930205+00:00",
+  "status": "closed_bounded_acquisition_pending_coordinator_review",
+  "hard_network_deadline_utc": "2026-10-05T10:03:24.457377+00:00",
+  "network_closed_receipt": "control/NETWORK_CLOSED.json",
+  "scope_unchanged": true,
+  "result_path": "RESULT.json",
+  "local_payloads_preserved": true,
+  "original_publisher_verified": 0,
+  "complete_candidate_visible_prose": 30,
+  "government_valid_PDF_objects": 11,
+  "government_next_unattempted_count": 921,
+  "unattempted_frozen_media": [
+    {
+      "source_id": "opendemocracy",
+      "month": "2015-12",
+      "url": "https://www.opendemocracy.net/en/podemos-radical-blueprint-for-democratic-reform",
+      "reason": "Declared frame route stopped after404; no refill or retries"
+    },
+    {
+      "source_id": "opendemocracy",
+      "month": "2015-12",
+      "url": "https://www.opendemocracy.net/en/israel-firsters",
+      "reason": "Declared frame route stopped after404; no refill or retries"
+    }
+  ],
+  "allowed_resume": "Offline receipt inspection/review only; this worker network closure cannot be resumed. Any later acquisition requires a new explicit bounded authorisation/version, preserving current outcomes and stops.",
+  "next_coordinator_work": [
+    "One changed-tranche package review",
+    "Resolve flagged source/genre/rights/component mappings without asserting universal correctness",
+    "Own any government isolated-log successor",
+    "Decide remote publication after review"
+  ],
+  "formal_database_access": false,
+  "private_evaluator_access": false,
+  "new_window_or_subagent": false,
+  "automation_resumed": false,
+  "pushed": false
+}

@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-05T09:46:43.605804+00:00",
+  "free_bytes": 21207187456,
+  "reserve_bytes": 3335940580,
+  "projected_free_after_reserves": 17871246876,
+  "media_lifetime_bytes": 25819723,
+  "government_lifetime_bytes": 26574033,
+  "floor_bytes": 16106127360,
+  "lane": "media",
+  "prospective_bytes": 0,
+  "passed": true
+}

@@ -1,0 +1,55 @@
+{
+  "request_id": "22e9e8260422720d86ba69f7",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/2015/12/01/legal-battle-over-seabed-texas-coast-heats",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:57:24.546005+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 279866,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/2015/12/01/legal-battle-over-seabed-texas-coast-heats",
+      "status": 301,
+      "location": "https://www.texastribune.org/2015/12/01/legal-battle-over-seabed-texas-coast-heats/"
+    },
+    {
+      "url": "https://www.texastribune.org/2015/12/01/legal-battle-over-seabed-texas-coast-heats/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:57:22.555274+00:00",
+    "free_bytes": 23561252864,
+    "reserve_bytes": 3346346922,
+    "projected_free_after_reserves": 20212808790,
+    "media_lifetime_bytes": 15413381,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2015-12",
+  "frame_path": "media/frames/texastribune_2015-12.json",
+  "frame_sha256": "9032fccfee1ca06192bb9a3fe2a5ee3718fc5613a43e0e501175c9badf704e90",
+  "final_url": "https://www.texastribune.org/2015/12/01/legal-battle-over-seabed-texas-coast-heats/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:57:29 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:57:29 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/22e9e8260422720d86ba69f7.bin",
+  "sha256": "fca99feb0e6e9e7565cb82dc2d85fa98243e6e91710f961594d37313160d1e72",
+  "finished_at_utc": "2026-10-05T08:57:29.453018+00:00"
+}

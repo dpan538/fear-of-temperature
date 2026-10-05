@@ -1,0 +1,46 @@
+{
+  "request_id": "095e124c56e224664baaf924",
+  "source_id": "indaily",
+  "request_url": "https://solsticemedia.com.au/robots.txt",
+  "purpose": "robots",
+  "route": "publisher_policy",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:41:42.925792+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 121,
+  "hops": [
+    {
+      "url": "https://solsticemedia.com.au/robots.txt",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:41:42.921913+00:00",
+    "free_bytes": 23525289984,
+    "reserve_bytes": 3356629760,
+    "projected_free_after_reserves": 20166563072,
+    "media_lifetime_bytes": 9473002,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "fb153b74f71eb88820f2ac3ed5eaaa84925e1042c6e8ce0c7c562dcad387cbef",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://solsticemedia.com.au/robots.txt",
+  "mime_type": "text/plain; charset=utf-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:41:43 GMT",
+    "Content-Type": "text/plain; charset=utf-8"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/095e124c56e224664baaf924.bin",
+  "sha256": "153e4858cda2840e00770807e79e2e4650705e4ed07f790446f276d6076cce6e",
+  "finished_at_utc": "2026-10-05T08:41:43.633780+00:00"
+}

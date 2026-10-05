@@ -1,0 +1,47 @@
+{
+  "request_id": "52d90fd03e50023643e53219",
+  "source_id": "indaily",
+  "request_url": "https://solsticemedia.com.au/terms-and-conditions/",
+  "purpose": "licence",
+  "route": "publisher_terms",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:44:12.993340+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 125310,
+  "hops": [
+    {
+      "url": "https://solsticemedia.com.au/terms-and-conditions/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:44:12.989647+00:00",
+    "free_bytes": 23645208576,
+    "reserve_bytes": 3355487583,
+    "projected_free_after_reserves": 20287623841,
+    "media_lifetime_bytes": 10615179,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://solsticemedia.com.au/terms-and-conditions/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:44:14 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:44:14 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/52d90fd03e50023643e53219.bin",
+  "sha256": "7bb6b673e03637b7b1e43bec742f76944fb4fb50f5a028904e96e54052634e4b",
+  "finished_at_utc": "2026-10-05T08:44:13.980250+00:00"
+}

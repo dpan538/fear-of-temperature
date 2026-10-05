@@ -1,0 +1,31 @@
+{
+  "historical_seal_preserved": {
+    "saved_Items": 47,
+    "failed": 1,
+    "unattempted": 931,
+    "distinct_raw_hashes": 45,
+    "denominator": 979,
+    "no_link_Works_outside_denominator": 30,
+    "new_originals": 0
+  },
+  "new_sequence": {
+    "saved_PDF_objects": 11,
+    "distinct_new_hashes": 11,
+    "overlap_prior_hashes": 0,
+    "bytes": 4342459,
+    "date_agreements": 11,
+    "inherited_genre_conflicts": 5,
+    "whole_Works_verified": 0,
+    "originals": 0,
+    "formal_import": false
+  },
+  "derived_candidate_queue": {
+    "saved_Items": 58,
+    "current_failed_transport": 0,
+    "unattempted": 921,
+    "distinct_raw_hashes": 56,
+    "denominator": 979
+  },
+  "not_new_parent_expansion": true,
+  "no_old_raw_rescan": true
+}

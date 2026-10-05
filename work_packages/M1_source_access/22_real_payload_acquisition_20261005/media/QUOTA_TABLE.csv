@@ -1,0 +1,16 @@
+stratum,month,original_quota,original_publisher_verified,original_unfilled,candidate_sources_selected,frozen_candidate_targets,candidate_body_attempts,candidate_saved_raw,candidate_verified_prose,candidate_unverified_attempts,candidate_unattempted_frozen,planned_coordinates_without_verified_candidate,quota_transfer,monthly_denominator,inclusion_probability
+EU_Europe,1995-07,10,0,10,2,0,0,0,0,0,0,10,0,Unknown; all frames bounded partial,Unknown
+EU_Europe,2015-12,10,0,10,2,0,0,0,0,0,0,10,0,Unknown; all frames bounded partial,Unknown
+EU_Europe,2025-07,10,0,10,2,1,1,1,1,0,0,9,0,Unknown; all frames bounded partial,Unknown
+UK,1995-07,10,0,10,2,0,0,0,0,0,0,10,0,Unknown; all frames bounded partial,Unknown
+UK,2015-12,10,0,10,2,10,8,7,5,3,2,5,0,Unknown; all frames bounded partial,Unknown
+UK,2025-07,10,0,10,2,8,8,8,5,3,0,5,0,Unknown; all frames bounded partial,Unknown
+AU,1995-07,10,0,10,1,0,0,0,0,0,0,10,0,Unknown; all frames bounded partial,Unknown
+AU,2015-12,10,0,10,1,0,0,0,0,0,0,10,0,Unknown; all frames bounded partial,Unknown
+AU,2025-07,10,0,10,1,5,5,5,5,0,0,5,0,Unknown; all frames bounded partial,Unknown
+US,1995-07,10,0,10,1,0,0,0,0,0,0,10,0,Unknown; all frames bounded partial,Unknown
+US,2015-12,10,0,10,1,5,5,5,1,4,0,9,0,Unknown; all frames bounded partial,Unknown
+US,2025-07,10,0,10,1,5,5,5,5,0,0,5,0,Unknown; all frames bounded partial,Unknown
+NZ,1995-07,10,0,10,1,0,0,0,0,0,0,10,0,Unknown; all frames bounded partial,Unknown
+NZ,2015-12,10,0,10,1,5,5,5,4,1,0,6,0,Unknown; all frames bounded partial,Unknown
+NZ,2025-07,10,0,10,1,5,5,5,4,1,0,6,0,Unknown; all frames bounded partial,Unknown

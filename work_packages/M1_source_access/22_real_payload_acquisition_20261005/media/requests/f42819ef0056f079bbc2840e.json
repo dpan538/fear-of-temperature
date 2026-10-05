@@ -1,0 +1,47 @@
+{
+  "request_id": "f42819ef0056f079bbc2840e",
+  "source_id": "france24",
+  "request_url": "https://www.france24.com/en/archives/2025/07/01",
+  "purpose": "discovery",
+  "route": "date_archive",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:39:18.082316+00:00",
+  "status": "failed",
+  "http_status": 404,
+  "byte_count": 272150,
+  "hops": [
+    {
+      "url": "https://www.france24.com/en/archives/2025/07/01",
+      "status": 404,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:39:18.080594+00:00",
+    "free_bytes": 23556829184,
+    "reserve_bytes": 3357181657,
+    "projected_free_after_reserves": 20197550375,
+    "media_lifetime_bytes": 8921105,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.france24.com/en/archives/2025/07/01",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Date": "Mon, 05 Oct 2026 08:39:19 GMT"
+  },
+  "raw_path": "media/raw/f42819ef0056f079bbc2840e.bin",
+  "sha256": "ef3751e6b9ddbecbccae9927078629b5659e5a580bd1d0a83edfd66d316ce850",
+  "error": "RuntimeError: HTTP 404; route stopped",
+  "failure_dimension": "transport_or_path_failure_not_proven_publisher_denial",
+  "finished_at_utc": "2026-10-05T08:39:20.007755+00:00"
+}

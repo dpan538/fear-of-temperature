@@ -8,7 +8,7 @@ from review_saved import RIGHTS,PARTIAL
 def csvsave(path,rows):
  path=t.OUT/path;path.parent.mkdir(parents=True,exist_ok=True)
  with path.open('w',newline='') as f:
-  w=csv.DictWriter(f,fieldnames=list(rows[0]));w.writeheader();w.writerows(rows)
+  w=csv.DictWriter(f,fieldnames=list(rows[0]),lineterminator='\n');w.writeheader();w.writerows(rows)
 def main():
  cats=t.read(t.OUT/'control/CANDIDATES.json')['candidates'];cat={c['source_id']:c for c in cats};scope=t.read(t.SCOPE)
  requests=[t.read(p) for p in (t.OUT/'media/requests').glob('*.json')];gov=[t.read(p) for p in sorted((t.OUT/'government/attempts').glob('*.json'))]

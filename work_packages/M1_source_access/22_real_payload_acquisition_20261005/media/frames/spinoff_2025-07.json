@@ -1,0 +1,1428 @@
+{
+  "frame_id": "frame22:spinoff:2025-07",
+  "source_id": "spinoff",
+  "stratum": "NZ",
+  "month": "2025-07",
+  "receipt_path": "media/frames/spinoff_2025-07.json",
+  "frozen_at_utc": "2026-10-05T08:29:20.052599+00:00",
+  "route": "publisher_sitemap",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 228,
+  "candidates": [
+    {
+      "url": "https://thespinoff.co.nz/business/01-07-2025/prominent-new-zealander-strikes-again",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.106Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/01-07-2025/the-fold-the-double-radio-life-of-brianfms-mysterious-owner",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.440Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-07-2025/how-to-turn-your-flash-off-before-going-to-a-concert",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.492Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/01-07-2025/aotearoa-is-a-great-place-to-grow-wheat-so-why-do-we-import-so-much-flour",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.222Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/01-07-2025/the-july-1-changes-and-what-they-mean-for-you-2",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.268Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/01-07-2025/how-vintage-clothes-from-aotearoa-are-helping-feed-families-in-gaza",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.376Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/01-07-2025/the-cost-of-being-a-frugal-pharmacist-and-dad-whos-hoping-to-retire-by-50",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.318Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/02-07-2025/the-unity-books-childrens-book-review-roundup-for-winter-2",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.720Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/02-07-2025/this-book-saved-my-life-te-kahukura-boyntons-books-confessional",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.725Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/02-07-2025/gone-by-lunchtime-just-when-you-thought-it-was-safe-to-go-back-in-the-supermarket",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.971Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/02-07-2025/happy-birthday-to-paul-goldsmith-promising-immediate-action-to-save-nz-media",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.844Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/02-07-2025/why-the-tab-now-has-a-monopoly-on-sports-betting-in-new-zealand",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.673Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/02-07-2025/will-nzs-big-bet-on-online-gambling-pay-off",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.720Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/02-07-2025/the-odds-of-the-new-suicide-prevention-action-plan-succeeding-are-slim-to-none",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.577Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/02-07-2025/the-nz-cyclist-the-israeli-team-and-a-geopolitical-storm",
+      "date": "2025-07-02",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.782Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/03-07-2025/event-noticeboard-manu-aute-majestic-felines-and-dreamy-pop",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.560Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/03-07-2025/lets-read-about-sex-what-are-the-books-that-do-it-best",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.712Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/03-07-2025/cold-comfort-as-power-prices-climb-and-climb",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.238Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/03-07-2025/david-seymours-hypocrisy-over-drugs-and-poverty",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.189Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/03-07-2025/echo-chamber-youth-parliament-is-even-better-than-the-real-thing",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.475Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/03-07-2025/in-defence-of-wellingtons-colonial-monuments",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.346Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/03-07-2025/everything-you-need-to-know-about-ozempic-and-wegovy-in-new-zealand",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.134Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/03-07-2025/help-me-hera-i-think-i-need-to-break-up-with-my-best-friend",
+      "date": "2025-07-03",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.288Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/04-07-2025/when-the-facts-change-to-cut-or-not-to-cut",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.705Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-07-2025/fury-of-the-small-the-wizard-of-the-coast",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.984Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-07-2025/public-libraries-ditched-fines-and-got-more-visitors",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:40.325Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-07-2025/review-the-spongebob-squarepants-musical-is-more-than-nautical-nonsense",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.039Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-07-2025/the-friday-poem-cradle-by-calvin-smith",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.204Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/04-07-2025/the-unity-books-bestseller-chart-for-the-week-ending-july-4",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.682Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/04-07-2025/nominations-are-now-open-so-how-are-the-big-mayoral-races-shaping-up",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.647Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/04-07-2025/the-many-complex-truths-within-the-censoring-of-youth-parliament",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.102Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/04-07-2025/trespass-bans-and-shoplifting-fines-tough-new-retail-crime-laws-on-the-way",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.864Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/04-07-2025/the-cost-of-being-a-60-something-who-cant-wait-to-get-their-hands-on-their-kiwisaver",
+      "date": "2025-07-04",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:05.909Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/05-07-2025/meet-new-zealands-lone-virgin-reviewer",
+      "date": "2025-07-05",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.500Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/05-07-2025/coffee-coloured-people-by-the-score-aotearoa-music-and-the-melting-pot-myth",
+      "date": "2025-07-05",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.615Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/05-07-2025/i-flashed-the-king-lisette-reymer-on-her-worst-news-live-cross",
+      "date": "2025-07-05",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.421Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/05-07-2025/im-aware-i-sound-nuts-how-tarot-helped-stacy-gregg-land-her-biggest-book-deal-yet",
+      "date": "2025-07-05",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.676Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/05-07-2025/the-weekend-the-illusion-of-choice",
+      "date": "2025-07-05",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.667Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/05-07-2025/imagining-a-new-web-aesthetic-where-every-platform-doesnt-look-exactly-the-same",
+      "date": "2025-07-05",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.286Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/07-07-2025/new-to-streaming-what-to-watch-on-netflix-nz-neon-and-more-this-week-104",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.246Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/07-07-2025/the-birth-of-the-wests-how-outrageous-fortune-came-to-be",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.836Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/07-07-2025/why-do-so-many-new-zealand-plays-have-such-short-lives",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.015Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/07-07-2025/did-this-kaitaia-cafe-deserve-to-win-new-zealands-top-hospitality-award",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.073Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/07-07-2025/appeasing-trump-in-the-middle-east-is-not-cost-free-for-new-zealand",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.124Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/07-07-2025/is-nz-politics-having-a-maga-moment",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.890Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/07-07-2025/the-golf-war-rival-golf-power-plots-regime-change",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.721Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/07-07-2025/what-its-like-to-go-blind-at-25",
+      "date": "2025-07-07",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:06.960Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/08-07-2025/the-fold-the-biggest-media-stories-no-one-is-talking-about",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.310Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/08-07-2025/crims-chaos-and-christmas-the-20-moments-that-defined-outrageous-fortune",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.680Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/08-07-2025/heard-about-the-salt-path-by-raynor-winn-heres-what-to-read-instead",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.695Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/08-07-2025/ten-must-see-films-at-the-2025-nz-international-film-festival",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.883Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/08-07-2025/more-money-for-childcare-but-parents-remain-tied-up-in-red-tape",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.528Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/08-07-2025/regulatory-standards-bill-hearing-day-one-former-pm-says-no-chance-of-bill-working",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.426Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/08-07-2025/windbag-metro-water-to-the-rescue",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.368Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/08-07-2025/an-open-letter-to-jacinda-ardern-on-open-letters-to-jacinda-ardern",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.484Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/08-07-2025/as-a-councillor-ive-always-advocated-for-improved-road-safety-then-i-got-hit-by-a-car",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.733Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/08-07-2025/the-cost-of-being-a-tourism-operator-paying-back-their-covid-19-small-business-loan",
+      "date": "2025-07-08",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.581Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/09-07-2025/the-media-is-still-in-crisis-but-one-year-on-the-magazine-i-bought-is-doing-great",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.491Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/09-07-2025/fuckity-fuckity-fuck-the-many-riches-of-the-outrageous-fortune-swear-jar",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.256Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/09-07-2025/keri-hulme-brought-me-thumping-back-to-earth-ross-calmans-author-encounter",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.691Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/09-07-2025/obituary-goodbye-my-jaffas-goodbye-my-friend",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.575Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/09-07-2025/regulatory-standards-bill-hearing-day-two-just-good-law-making-or-acts-ideological-fetish",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.060Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/09-07-2025/this-wellington-sea-wall-shows-how-our-our-heritage-rules-are-broken",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:07.996Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/09-07-2025/why-economists-are-betting-on-the-ocr-holding-steady-today",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.157Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/09-07-2025/ghost-bus-why-is-motu-move-taking-so-long-to-arrive",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.113Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/09-07-2025/what-is-rocket-lab-launching-into-space-and-why-are-people-angry-about-it",
+      "date": "2025-07-09",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.323Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/10-07-2025/can-you-run-all-your-weekend-errands-via-ebike",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:48:00.559Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/10-07-2025/listener-and-womans-weekly-publisher-are-media-up-for-sale",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.122Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-07-2025/event-noticeboard-slow-fashion-15-minutes-of-fame-and-a-mud-hole",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.209Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-07-2025/how-the-west-was-worn-the-fashion-of-outrageous-fortune",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.990Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-07-2025/nose-stuck-in-a-book-and-other-stubborn-misconceptions-around-kids-and-reading",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.667Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/10-07-2025/storm-clouds-are-gathering-40-years-on-from-the-bombing-of-the-rainbow-warrior",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.663Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/10-07-2025/rates-rises-are-due-to-people-voting-against-rates-rises",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.765Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/10-07-2025/regulatory-standards-bill-hearing-day-three-pissing-on-people-and-telling-them-its-rain",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.634Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/10-07-2025/what-went-wrong-with-methanesat-and-who-should-answer-for-it",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.808Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/10-07-2025/help-me-hera-im-jealous-of-my-rich-friend",
+      "date": "2025-07-10",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:08.861Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/atea/11-07-2025/we-shouldnt-have-to-fight-this-hard-to-prove-our-mana-in-tamaki",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.704Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-07-2025/the-best-needle-drops-in-outrageous-fortune-ranked",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.359Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-07-2025/the-friday-poem-concrete-by-jonny-mahon-heap",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.800Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-07-2025/the-unity-books-bestseller-chart-for-the-week-ending-july-11",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.653Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/11-07-2025/twenty-years-on-outrageous-fortune-remains-as-relevant-as-ever",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.758Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/11-07-2025/how-do-you-follow-up-a-wellington-icon-like-kc-cafe",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.647Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/11-07-2025/regulatory-standards-bill-hearing-day-four-the-grand-finale",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.420Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/11-07-2025/winston-peters-finds-his-sweet-spot-as-nz-first-enjoys-polling-surge",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.541Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/11-07-2025/in-praise-of-the-number-24-bus-wellingtons-most-scenic-commute",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.495Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/11-07-2025/the-cost-of-being-a-lawyer-and-solo-mum-paying-off-the-mortgage-as-fast-as-possible",
+      "date": "2025-07-11",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.595Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/12-07-2025/even-after-all-these-years-siobhan-marshall-on-forever-being-called-pascalle-west",
+      "date": "2025-07-12",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.910Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/12-07-2025/have-luxury-cinemas-gone-too-far",
+      "date": "2025-07-12",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.098Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/12-07-2025/sparkle-and-awe-how-to-save-the-world-with-wonder",
+      "date": "2025-07-12",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.631Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/12-07-2025/the-top-20-moments-from-the-diva-exhibition-at-auckland-museum-ranked",
+      "date": "2025-07-12",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:09.979Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/12-07-2025/the-weekend-i-cant-stop-thinking-about-this-ad",
+      "date": "2025-07-12",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.155Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/atea/14-07-2025/should-we-save-the-kereru-by-eating-it",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.494Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/14-07-2025/a-play-by-play-of-ray-chungs-train-wreck-interview-with-sean-plunket",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.683Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/14-07-2025/new-to-streaming-what-to-watch-on-netflix-nz-neon-and-more-this-week-105",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.615Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/14-07-2025/30-things-i-learned-from-30-hours-of-regulatory-standards-bill-hearings",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.387Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/14-07-2025/chungs-non-apology-deepens-storm-over-sexist-smear-campaign",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.322Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/14-07-2025/kids-on-footpaths-e-scooters-in-bike-lanes-transport-law-catches-up-to-reality",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.440Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/14-07-2025/windbag-ray-chung-has-never-been-fit-for-office",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.277Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/14-07-2025/counting-the-true-toll-of-the-covid-19-pandemic-in-new-zealand",
+      "date": "2025-07-14",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.218Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/atea/15-07-2025/why-tamaki-makaurau-needs-an-urban-maori-leader",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.091Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/15-07-2025/the-fold-how-auckland-fc-aced-almost-everything-including-its-media-strategy",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.868Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/15-07-2025/the-new-whittakers-banana-caramel-block-reviewed",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.148Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/15-07-2025/ray-chung-gets-a-woman-to-apologise-for-him",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.201Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/15-07-2025/the-cost-of-living-crisis-is-over-this-is-just-our-reality-now",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.739Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/15-07-2025/weird-men-are-driving-people-out-of-politics",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.039Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/15-07-2025/will-2026-be-the-year-that-auckland-gets-its-mojo-back",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.929Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/15-07-2025/aucklands-annual-report-card-is-out-again-and-its-grades-have-barely-budged",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.810Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/15-07-2025/the-cost-of-being-an-independent-contractor-who-just-left-their-full-time-salaried-job",
+      "date": "2025-07-15",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:10.977Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/16-07-2025/why-the-spinoff-is-explaining-the-news-on-tiktok-explained",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.414Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/16-07-2025/i-remember-being-immersed-isobel-joy-te-aho-whites-life-in-books",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.658Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/16-07-2025/the-shocking-truth-behind-the-death-of-jaffas-a-spinoff-investigation",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.611Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/16-07-2025/chaos-on-courtenay-inside-ray-chungs-unruly-incomprehensible-campaign-rally",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.800Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/16-07-2025/coalition-rift-opens-over-un-letter-as-seymour-defends-rogue-response",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.525Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/16-07-2025/echo-chamber-shane-jones-greatest-ever-australian-politician",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.673Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/16-07-2025/gone-by-lunchtime-the-one-thing-they-could-blow-up-the-government-over",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.855Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/16-07-2025/have-we-lost-the-art-of-arguing",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.270Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/16-07-2025/te-pukenga-loses-over-80m-in-funding-855-staff-ahead-of-disestablishment",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.328Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/16-07-2025/protest-or-court-the-war-against-private-helipads-plots-its-next-move",
+      "date": "2025-07-16",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.480Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/17-07-2025/travel-diary-a-winter-weekend-in-melbourne-the-next-best-thing-to-european-summer",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:48:02.224Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/atea/17-07-2025/david-seymour-blames-karakia-for-high-power-bills-heres-what-he-gets-wrong",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.413Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/17-07-2025/event-noticeboard-sugar-rubber-gloves-and-shocked-bananas",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.358Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/17-07-2025/echo-chamber-aussie-roolz-nz-droolz",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.272Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/17-07-2025/walls-go-back-up-as-open-plan-classroom-experiment-falls-flat",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.032Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/17-07-2025/where-do-i-send-conservatives-the-bill-for-climate-change",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.915Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/17-07-2025/help-me-hera-my-friends-dont-seem-to-remember-my-birthday",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.089Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/17-07-2025/how-reforesting-the-port-hills-could-help-prevent-another-devastating-fire",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:11.983Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/17-07-2025/the-hows-whys-and-wtfs-of-bringing-the-moa-back-from-the-dead",
+      "date": "2025-07-17",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.223Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/18-07-2025/meet-25-young-people-changing-aotearoa-and-the-world",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:47:36.027Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-07-2025/all-of-the-jurassic-park-movies-ranked-from-worst-to-best",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.493Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-07-2025/eat-well-for-less-nz-couldnt-have-returned-at-a-more-appropriate-time",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.937Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-07-2025/the-friday-poem-frost-tender-by-rebecca-hawkes",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.038Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/18-07-2025/the-unity-books-bestseller-chart-for-the-week-ending-july-18",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.646Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/18-07-2025/councils-under-pressure-as-government-pushes-back-to-basics-agenda",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.655Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/18-07-2025/the-tension-between-central-and-local-government-bubbles-to-the-surface",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.611Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/18-07-2025/beloved-auckland-cinema-faces-backlash-for-racist-ai-generated-russell-crowe-video",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.553Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/18-07-2025/the-cost-of-being-an-international-flight-attendant-whos-studying-part-time",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.708Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/18-07-2025/when-immunisation-is-a-health-target-why-isnt-the-flu-vaccine-free-for-kids",
+      "date": "2025-07-18",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:12.890Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/19-07-2025/it-fills-your-cup-netballer-casey-kopua-on-returning-to-the-court-in-game-on",
+      "date": "2025-07-19",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.145Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/19-07-2025/mona-blades-mountains-and-memories-the-geology-of-a-novel",
+      "date": "2025-07-19",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.639Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/19-07-2025/a-handy-guide-to-shopping-at-the-indian-supermarket",
+      "date": "2025-07-19",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.208Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/19-07-2025/the-weekend-nothing-unites-the-masses-like-a-deeply-embarrassing-man",
+      "date": "2025-07-19",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.309Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/19-07-2025/the-new-zealand-youth-choir-global-award-shows-theres-soft-power-in-more-than-just-sports",
+      "date": "2025-07-19",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.264Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/atea/21-07-2025/we-keep-measuring-the-maori-economy-but-what-are-we-actually-counting",
+      "date": "2025-07-21",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.380Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/21-07-2025/new-to-streaming-what-to-watch-on-netflix-nz-neon-and-more-this-week-106",
+      "date": "2025-07-21",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.770Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/21-07-2025/better-things-are-possible",
+      "date": "2025-07-21",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.443Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/21-07-2025/should-kiwisaver-evolve-or-hold-the-line",
+      "date": "2025-07-21",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.487Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/21-07-2025/why-cant-we-ever-finish-anything-a-council-planner-at-their-wits-end",
+      "date": "2025-07-21",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.610Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/21-07-2025/curtain-banks-are-in-hot-demand",
+      "date": "2025-07-21",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.548Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/21-07-2025/what-strip-clubs-run-by-strippers-could-look-like",
+      "date": "2025-07-21",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.664Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/22-07-2025/the-third-age-i-think-ive-got-the-balance-right",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:48:02.591Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/22-07-2025/sky-buys-three-and-threenow-to-create-new-zealands-most-muscular-media-empire",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.251Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/22-07-2025/the-fold-can-netflixs-run-last-forever",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.833Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/22-07-2025/its-time-to-shut-the-alcohol-industry-out-of-health-policy-in-aotearoa",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.119Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/22-07-2025/the-governments-consistent-principled-approach-to-economic-data",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.963Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/22-07-2025/waikato-medical-school-approved-after-years-of-lobbying-and-controversy",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.008Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/22-07-2025/windbag-the-governments-misleading-case-for-rates-caps",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:13.894Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/22-07-2025/new-zealand-isnt-just-failing-to-act-on-ocean-protection-its-actively-undoing-progress",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.363Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/22-07-2025/the-cost-of-being-a-first-year-teacher-obsessed-with-saving",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.059Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/sport/22-07-2025/rugby-league-you-undefeated-beautiful-thing-vossy-strikes-commentary-gold-again",
+      "date": "2025-07-22",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.300Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/23-07-2025/a-guide-to-island-hopping-in-wellington",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:47:34.214Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/23-07-2025/rainbow-charity-outline-in-limbo-as-questionable-financial-practices-alleged",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.034Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/23-07-2025/unpaid-wages-and-walkouts-the-downfall-of-the-nbls-indian-panthers",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.428Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/23-07-2025/and-just-like-that-the-sex-and-the-city-spinoff-has-done-the-unimaginable",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.711Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/23-07-2025/big-international-stadium-tours-are-cannibalising-local-music",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.990Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/23-07-2025/do-self-help-books-actually-help",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.626Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/23-07-2025/indigenous-nonfiction-is-vital-qiane-matata-sipus-books-confessional",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.609Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/23-07-2025/echo-chamber-chris-hipkins-you-frickin-smart-arse-sausage-roll-eater",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.864Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/23-07-2025/how-the-nbls-newest-team-fell-apart-in-one-season",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.569Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/23-07-2025/new-zealanders-dont-tend-to-talk-about-pay-what-would-happen-if-we-did",
+      "date": "2025-07-23",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:14.486Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/24-07-2025/a-first-timers-guide-to-buying-an-ev",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:48:02.774Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/24-07-2025/event-noticeboard-swords-sorcery-and-a-walk-in-the-forest",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.615Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/24-07-2025/why-the-new-zealand-book-industry-is-freaking-out-about-whitireia-publishing",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.621Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/24-07-2025/almost-everything-our-governments-have-inherited-since-2005",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.177Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/24-07-2025/echo-chamber-these-people-are-just-speaking-for-the-sake-of-it",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.457Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/24-07-2025/what-did-nicola-williss-cost-of-butter-meeting-with-fonterra-actually-achieve",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.224Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/24-07-2025/would-you-really-care-if-a-trans-player-scored-against-your-social-soccer-team-2",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.335Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/24-07-2025/help-me-hera-there-arent-enough-hours-in-the-day",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.282Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/24-07-2025/ive-been-on-wegovy-for-three-weeks-heres-what-its-like",
+      "date": "2025-07-24",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.085Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/25-07-2025/announcing-the-latest-recipients-of-the-vince-geddes-in-depth-journalism-fund",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.659Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/25-07-2025/the-friday-poem-little-king-by-heather-holdaway",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.184Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/25-07-2025/the-unity-books-bestseller-chart-for-the-week-ending-july-25",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.616Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/25-07-2025/12-reasons-why-newtown-is-the-tastiest-suburb-in-wellington",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.047Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/25-07-2025/all-86-staple-items-at-a-classic-kiwi-bakery-ranked-and-reviewed",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.848Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/25-07-2025/changes-to-electoral-law-will-disenfranchise-thousands-and-may-not-save-any-time",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.124Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/25-07-2025/government-under-fire-over-sweeping-changes-to-voting-rules",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.904Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/25-07-2025/winston-peters-intervened-to-stop-diplomat-accounts-posting-about-pride-month",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.723Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/25-07-2025/the-cost-of-being-a-television-producer-working-in-a-dying-industry",
+      "date": "2025-07-25",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:15.951Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/26-07-2025/review-netball-docuseries-game-on-is-a-heartwarming-gem",
+      "date": "2025-07-26",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.298Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/26-07-2025/staggered-it-made-that-list-a-conversation-with-booker-prize-shortlisted-charlotte-wood",
+      "date": "2025-07-26",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.583Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/26-07-2025/we-broke-into-team-nzs-compound-petra-bagust-on-the-joyful-chaos-of-ice-tv",
+      "date": "2025-07-26",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.409Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/26-07-2025/the-weekend-if-i-wrote-a-self-help-book",
+      "date": "2025-07-26",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.586Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/26-07-2025/the-spinoff-essay-the-odessa-steps",
+      "date": "2025-07-26",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.536Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/28-07-2025/when-big-companies-face-criminal-charges-what-does-it-actually-mean",
+      "date": "2025-07-28",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.926Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/28-07-2025/new-to-streaming-what-to-watch-on-netflix-nz-neon-and-more-this-week-107",
+      "date": "2025-07-28",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.082Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/28-07-2025/talk-dirty-to-me-inside-the-fascinating-world-of-audio-erotica",
+      "date": "2025-07-28",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.857Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/28-07-2025/all-the-dropkicks-who-shouldnt-get-to-vote",
+      "date": "2025-07-28",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.647Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/28-07-2025/gib-monopoly-faces-heat-as-building-product-floodgates-open",
+      "date": "2025-07-28",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.776Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/28-07-2025/birds-are-mimicking-car-alarms-and-it-could-lead-to-extinction",
+      "date": "2025-07-28",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.976Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/28-07-2025/what-canterbury-can-teach-the-rest-of-the-country-about-insurance-stress",
+      "date": "2025-07-28",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:16.732Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/29-07-2025/a-bock-by-block-review-of-cuba-street",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:47:34.268Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/29-07-2025/all-the-backstage-selfies-from-the-spinoffs-live-events-ranked",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.682Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/29-07-2025/doodling-and-the-art-of-the-sale-on-sir-michael-hills-superyacht",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.743Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/29-07-2025/the-fold-what-happened-when-advertising-decided-it-could-save-the-world",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.138Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/29-07-2025/read-the-winning-essay-in-the-2025-landfall-young-writers-essay-competition",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.575Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/29-07-2025/butter-prices-are-just-a-symptom-of-everything-being-completely-rooted",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.419Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/29-07-2025/new-zealand-must-move-beyond-empty-statements-on-gaza",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.203Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/29-07-2025/surcharge-sticker-shock-to-end-as-government-bans-most-fees-at-the-till",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.301Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/29-07-2025/windbag-why-the-taxpayers-union-endorsed-this-green-party-policy",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.257Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/29-07-2025/so-many-issues-but-alright-i-guess-what-students-actually-think-of-ncea",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.614Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/29-07-2025/the-cost-of-being-a-senior-manager-who-hates-paying-full-price-and-always-wants-a-deal",
+      "date": "2025-07-29",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.347Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/_/30-07-2025/the-third-age-im-busier-than-ive-ever-been-im-also-happier-than-ive-ever-been",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:48:02.649Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/30-07-2025/i-never-used-to-admit-to-all-the-smutty-books-ruby-wallaces-books-confessional",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.599Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/30-07-2025/want-cheaper-butter-get-on-board-with-the-vegan-agenda",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.099Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/30-07-2025/echo-chamber-so-whos-to-blame-for-the-cost-of-living",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.151Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/30-07-2025/from-dead-horse-to-golden-child-why-pamu-is-suddenly-making-millions",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.795Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/30-07-2025/how-did-the-meth-crisis-get-so-bad-so-fast",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.904Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/30-07-2025/one-mp-one-pint-lessons-for-the-left-and-warren-g-karaoke-with-tamatha-paul",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.979Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/30-07-2025/seclusion-is-still-happening-in-mental-health-care-this-is-what-its-like-for-patients-and-their-families",
+      "date": "2025-07-30",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:17.854Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/31-07-2025/best-readers-in-the-world-meet-the-nzer-behind-the-international-kids-lit-quiz",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-29T00:16:39.595Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/31-07-2025/event-noticeboard-a-jug-band-tiny-boats-and-a-baroness",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.762Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/31-07-2025/whos-who-in-season-six-of-taskmaster-nz",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.395Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/31-07-2025/echo-chamber-the-interminable-rage-of-chloe-swarbrick",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.612Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/31-07-2025/that-wasnt-an-emergency-alert-it-was-a-wake-up-call-for-dropkicks",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.556Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/31-07-2025/what-the-latest-jobs-data-is-and-isnt-telling-us",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.452Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/31-07-2025/yet-again-not-enough-people-are-standing-in-local-elections",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.273Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/31-07-2025/but-seriously-heres-what-you-need-to-know-when-there-might-be-a-tsunami",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.823Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/31-07-2025/help-me-hera-i-was-a-gifted-kid-who-never-lived-up-to-my-potential",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.506Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/society/31-07-2025/ten-things-we-could-do-to-better-support-people-into-work",
+      "date": "2025-07-31",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:18.329Z"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://thespinoff.co.nz/business/01-07-2025/prominent-new-zealander-strikes-again",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.106Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/business/01-07-2025/the-fold-the-double-radio-life-of-brianfms-mysterious-owner",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.440Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/culture/01-07-2025/how-to-turn-your-flash-off-before-going-to-a-concert",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.492Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/kai/01-07-2025/aotearoa-is-a-great-place-to-grow-wheat-so-why-do-we-import-so-much-flour",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.222Z"
+    },
+    {
+      "url": "https://thespinoff.co.nz/politics/01-07-2025/the-july-1-changes-and-what-they-mean-for-you-2",
+      "date": "2025-07-01",
+      "date_basis": "Native dated URL; body publication independently checked",
+      "lastmod": "2026-09-26T23:42:04.268Z"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "request_id": "88da07b1b8bc385c1ba65ce4",
+      "raw_path": "media/raw/88da07b1b8bc385c1ba65ce4.bin",
+      "sha256": "78460bbb4e3ce920b48664f23d628941dc737dfca558dfcf8095632d8992f031"
+    }
+  ],
+  "notes": "One publisher-advertised sitemap shard of10000 URLs. It includesJuly2025; other shards unobserved. URL dates are candidates, not independently certified publication dates; lastmod is not first publication.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

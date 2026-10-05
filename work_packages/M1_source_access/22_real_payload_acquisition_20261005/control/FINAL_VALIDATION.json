@@ -1,0 +1,41 @@
+{
+  "at_utc": "2026-10-05T09:41:11.532662+00:00",
+  "checks": {
+    "fixed_publication_interval": true,
+    "real_body_attempts": true,
+    "body_statuses_reconcile": true,
+    "original150_preserved": true,
+    "original_quota_cells": true,
+    "candidate_coordinate_reconciliation": true,
+    "candidate_cap": true,
+    "body_cell_cap_and_months": true,
+    "frozen_target_counts": true,
+    "requests_bound_to_selected_frames": true,
+    "live_body_frame_hashes_preserved": true,
+    "metadata_and_search_caps": true,
+    "raw_receipts_and_manifest_agree": true,
+    "retained_new_raw_files_present_and_sizes": true,
+    "complete_body_files_and_hashes": true,
+    "complete_body_hashes_distinct": true,
+    "government_exact_bounded_order": true,
+    "government_dates_and_no_complete_Work": true,
+    "known_genre_conflicts_exposed": true,
+    "network_closed_and_failed_milestone": true,
+    "registered_public_inputs_unchanged": true,
+    "code_syntax": true,
+    "24_targeted_tests": true,
+    "original_reserves_and_floor": true
+  },
+  "passed": true,
+  "known_unresolved": [
+    "Partial date frames and unknown denominators/probabilities",
+    "Rights/ownership/HQ/components qualified per source",
+    "Five inherited government genre conflicts",
+    "Search capture and initial underenumeration limitations",
+    "Historical content-version equivalence unproven"
+  ],
+  "new_raw_hash_method": "Reuse the once-built physical new-object RAW_MANIFEST and per-request hashes; no old government raw read",
+  "body_hash_method": "Changed30 derived fulltext files checked against certification hashes",
+  "formal_database_access": false,
+  "private_evaluator_access": false
+}

@@ -1,0 +1,10 @@
+{
+  "unrelated_untracked": [
+    "control/COORDINATION.json"
+  ],
+  "branch": "main",
+  "coordinator_registration_read_only": true,
+  "git_writer": "this worker only after final review; coordinator launch completed",
+  "prior_media_bytes": 202002,
+  "government_prior_bytes": 22231574
+}

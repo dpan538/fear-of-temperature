@@ -1,0 +1,47 @@
+{
+  "request_id": "413c413093ab0f42c1fdfbf7",
+  "source_id": "spinoff",
+  "request_url": "https://thespinoff.co.nz/contact",
+  "purpose": "identity",
+  "route": "contact_identity",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:44:16.680458+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 97854,
+  "hops": [
+    {
+      "url": "https://thespinoff.co.nz/contact",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:44:16.675575+00:00",
+    "free_bytes": 23645319168,
+    "reserve_bytes": 3355339148,
+    "projected_free_after_reserves": 20287882868,
+    "media_lifetime_bytes": 10763614,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://thespinoff.co.nz/contact",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 05 Oct 2026 08:44:17 GMT",
+    "Content-Length": "97854"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/413c413093ab0f42c1fdfbf7.bin",
+  "sha256": "6e989122ce038a349b3a69208e184f9a5175fc95d691a37b0bdf6fa45766a68c",
+  "finished_at_utc": "2026-10-05T08:44:17.775953+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "paths": [
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/.gitignore",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/government.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/media.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/package_saved.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/pdf_inspect_saved.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/review_saved.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/run.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/test_media.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/test_requests.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/test_transport.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/transport.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/validate_package.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/README.md",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/prototype/versions/transport.pre_dns_family_fix.py",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/CANDIDATES.json",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/REQUEST_POLICY.json",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/COORDINATION_READ_ONLY_RECEIPT.json",
+    "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/NETWORK_CLOSED.json"
+  ],
+  "scope": "Owned bounded executable prototype and declared source/access policies; no raw or coordinator-original registration"
+}

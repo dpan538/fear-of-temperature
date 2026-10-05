@@ -1,0 +1,85 @@
+{
+  "at_utc": "2026-10-05T09:28:21.142149+00:00",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "expected_sha256": "33e9efb30617ab084e17ed5932560cca97dbd4ed3266d1150262b57291abe949",
+      "observed_sha256": "33e9efb30617ab084e17ed5932560cca97dbd4ed3266d1150262b57291abe949",
+      "unchanged": true
+    },
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "expected_sha256": "908b61f4617413474e1670dca57de386fd2f2fb9da5367d96bac3046c01ce9bd",
+      "observed_sha256": "908b61f4617413474e1670dca57de386fd2f2fb9da5367d96bac3046c01ce9bd",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/PLAN.md",
+      "expected_sha256": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+      "observed_sha256": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/SCOPE.json",
+      "expected_sha256": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+      "observed_sha256": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/COORDINATION.json",
+      "expected_sha256": "d9c2cc2acd9b255e625c551b0930c4de4cff3506a3209327ff4ae7f9f1bb565e",
+      "observed_sha256": "d9c2cc2acd9b255e625c551b0930c4de4cff3506a3209327ff4ae7f9f1bb565e",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/FINAL_RESULT.json",
+      "expected_sha256": "9105d9f6fa21ec337f1c73328cb7563c012855ea80a64f181b12ca0f9fad5edf",
+      "observed_sha256": "9105d9f6fa21ec337f1c73328cb7563c012855ea80a64f181b12ca0f9fad5edf",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/ACCESS_READINESS_ORIGINAL10.csv",
+      "expected_sha256": "4994e59e25300a84598c85cef6f5d2d7b2edf1dd25759c7be9814f549a88bf8c",
+      "observed_sha256": "4994e59e25300a84598c85cef6f5d2d7b2edf1dd25759c7be9814f549a88bf8c",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/20_media_original150_validation_20261005/evidence/POLICY_RAW_MANIFEST.json",
+      "expected_sha256": "98ef524edcee7015e636709a87af09cbe5acbd1c80712c8580c0f4744934088d",
+      "observed_sha256": "98ef524edcee7015e636709a87af09cbe5acbd1c80712c8580c0f4744934088d",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/PILOT_SLOTS.csv",
+      "expected_sha256": "ce7fc98f0da007722a2038209725c3573a7f489ffed4532a5d84200a0065cb8e",
+      "observed_sha256": "ce7fc98f0da007722a2038209725c3573a7f489ffed4532a5d84200a0065cb8e",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/02_media_precollection/SOURCE_ROUTE_POLICY.json",
+      "expected_sha256": "2e2f33d4c036296cd63484d50682c7c1b40a29b4a5b6422c1e202a09be3fc5a6",
+      "observed_sha256": "2e2f33d4c036296cd63484d50682c7c1b40a29b4a5b6422c1e202a09be3fc5a6",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv",
+      "expected_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+      "observed_sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_B_STATUS_LEDGER.csv",
+      "expected_sha256": "13adffd736ac8b1a70a57b0a7bab597af4a7abd49f117f57be468eb735b998e1",
+      "observed_sha256": "13adffd736ac8b1a70a57b0a7bab597af4a7abd49f117f57be468eb735b998e1",
+      "unchanged": true
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/RESULT.json",
+      "expected_sha256": "713f268206530485092b2512efcb7084506d2756cb50e68e4889e0cd1c8418b9",
+      "observed_sha256": "713f268206530485092b2512efcb7084506d2756cb50e68e4889e0cd1c8418b9",
+      "unchanged": true
+    }
+  ],
+  "passed": true,
+  "no_old_government_raw_read": true
+}

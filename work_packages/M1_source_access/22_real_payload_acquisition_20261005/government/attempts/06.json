@@ -1,0 +1,52 @@
+{
+  "request_id": "0767d111ff68e3982e657e66",
+  "source_id": "eu_cellar",
+  "request_url": "https://publications.europa.eu/resource/cellar/8a93a359-a793-11e4-8e01-01aa75ed71a1.0002.03/DOC_1",
+  "purpose": "selected_Item",
+  "route": "consistent_exact_uri",
+  "lane": "government",
+  "requested_at_utc": "2026-10-05T08:55:31.799478+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 102687,
+  "hops": [
+    {
+      "url": "https://publications.europa.eu/resource/cellar/8a93a359-a793-11e4-8e01-01aa75ed71a1.0002.03/DOC_1",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:55:29.798395+00:00",
+    "free_bytes": 23583596544,
+    "reserve_bytes": 3351678551,
+    "projected_free_after_reserves": 20229820841,
+    "media_lifetime_bytes": 13258656,
+    "government_lifetime_bytes": 23397129,
+    "floor_bytes": 16106127360,
+    "lane": "government",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://publications.europa.eu/resource/cellar/8a93a359-a793-11e4-8e01-01aa75ed71a1.0002.03/DOC_1",
+  "mime_type": "application/pdf;charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:55:33 GMT",
+    "Content-Type": "application/pdf;charset=UTF-8",
+    "ETag": "\"Con-20250707140943000\"",
+    "Last-Modified": "Mon, 07 Jul 2025 12:09:43 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "government/raw/0767d111ff68e3982e657e66.bin",
+  "sha256": "604b966fcbeccc7cf5b27318d8f87bc1641c3ddb0e9d285fa8fce25277b2b7fb",
+  "finished_at_utc": "2026-10-05T08:55:33.360799+00:00",
+  "item_uri": "http://publications.europa.eu/resource/cellar/8a93a359-a793-11e4-8e01-01aa75ed71a1.0002.03/DOC_1",
+  "parent_id": "http://publications.europa.eu/resource/cellar/8a93a359-a793-11e4-8e01-01aa75ed71a1",
+  "publication_dates": "2015-01-28",
+  "historical406_receipt": null
+}

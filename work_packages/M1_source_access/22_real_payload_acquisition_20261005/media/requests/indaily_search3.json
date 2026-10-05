@@ -1,0 +1,17 @@
+{
+  "request_id": "indaily_search3",
+  "source_id": "indaily",
+  "request_url": "web-search:site:indailysa.com.au/news/ \"Jul\" \"2025\"",
+  "purpose": "discovery",
+  "route": "public_search",
+  "status": "saved",
+  "http_status": null,
+  "byte_count": 38441,
+  "raw_path": "media/raw/indaily_search3.txt",
+  "sha256": "ad0d32372015d5e189df85b81c68edd8889390542b4bae8f4ef3589308cdf49c",
+  "requested_at_utc": "2026-10-05T08:48:36.047362+00:00",
+  "finished_at_utc": "2026-10-05T08:48:36.047969+00:00",
+  "publisher_denial": false,
+  "hops": [],
+  "search_query": "site:indailysa.com.au/news/ \"Jul\" \"2025\""
+}

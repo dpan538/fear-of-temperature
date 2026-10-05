@@ -1,0 +1,59 @@
+{
+  "at_utc": "2026-10-05T09:29:42.482223+00:00",
+  "source_raw": "media/raw/search2_combined.txt",
+  "source_raw_sha256": "5b2ccf56e2ccd9ad8eb8d6aab6f73ab02ef523d5f2daa3eb0dfb2e470944e0b4",
+  "parser_sha256": "86f7782e6ae7682aa6aaa7371633c529d624a08467d7be4610b7b75b5ad08d46",
+  "corrected_metadata_count": 9,
+  "candidates": [
+    {
+      "url": "https://www.opendemocracy.net/en/global-inequality-is-the-world-banks-elephant-in-the-room",
+      "date": "2025-07-01",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/israel-gaza-starving-children-to-death-destroy-reputation-security-hamas-us",
+      "date": "2025-07-25",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/enough-end-rape-bristol-far-right-rally-tommy-robinson-democratic-football-lads-alliance",
+      "date": "2025-07-17",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/could-anti-trafficking-survive-without-victims-to-rescue",
+      "date": "2025-07-15",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/beyond-trafficking-and-slavery/do-forced-labour-bans-protect-workers-in-supply-chains-human-trafficking",
+      "date": "2025-07-03",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/es/brasil-chile-uruguay-nube-centro-de-datos-google-amazon-microsoft-agua-energia",
+      "date": "2025-07-24",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/es/uruguay-montevideo-trata-explotacion-sexual-adolescentes-bar-cocolandia",
+      "date": "2025-07-30",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/5050/nigerias-former-president-buhari-is-dead-heres-what-he-took-with-him",
+      "date": "2025-07-18",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/identifying-modern-slavery-can-damage-asylum-claims",
+      "date": "2025-07-23",
+      "date_basis": "Explicit publication day in saved search response; primary body/date verification separate"
+    }
+  ],
+  "frozen_frame_count": 3,
+  "frozen_frame_sha256": "9f65486a4136dd2f3efeae1bd7651cc08de7778f9e6ed14ec9f3218e476ea133",
+  "frozen_selection_changed": false,
+  "additional_body_requests": 0,
+  "protocol_limit": "Initial parser dropped leading-newline blocks; frozen frame describes a three-entry parsed subset, not all dated search hits. Corrected inventory is evidence only, no replacement or retrospective reordering."
+}

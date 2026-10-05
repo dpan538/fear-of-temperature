@@ -1,0 +1,110 @@
+{
+  "frame_id": "frame22:indaily:2025-07",
+  "source_id": "indaily",
+  "stratum": "AU",
+  "month": "2025-07",
+  "receipt_path": "media/frames/indaily_2025-07.json",
+  "frozen_at_utc": "2026-10-05T08:48:36.049782+00:00",
+  "route": "public_search",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 11,
+  "candidates": [
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/03/billions-locked-in-as-deal-secures-games-future",
+      "date": "2025-07-03",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/07/landmark-allied-health-pay-deal-backed-by-workers",
+      "date": "2025-07-07",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/09/cyber-criminals-now-know-your-qantas-meal-preferences",
+      "date": "2025-07-09",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/business/2025/07/14/briefcase-business-snippets-from-around-south-australia-109",
+      "date": "2025-07-14",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/opinion/2025/07/16/five-reasons-the-green-hydrogen-industry-has-floundered",
+      "date": "2025-07-16",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/business/2025/07/21/whats-behind-the-rising-energy-demand-from-data-centres",
+      "date": "2025-07-21",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/25/thailand-cambodia-travel-warning",
+      "date": "2025-07-25",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/opinion/2025/07/25/your-views-letters-to-the-editor-12",
+      "date": "2025-07-25",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/business/2025/07/28/corporate-ladder-your-weekly-guide-to-executive-appointments-in-south-australia-95",
+      "date": "2025-07-28",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/business/2025/07/28/visionary-developments-strengthening-south-australias-future",
+      "date": "2025-07-28",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/in-depth/2025/07/28/desal-plant-costs-blow-out-by-more-than-300-million",
+      "date": "2025-07-28",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/03/billions-locked-in-as-deal-secures-games-future",
+      "date": "2025-07-03",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/07/landmark-allied-health-pay-deal-backed-by-workers",
+      "date": "2025-07-07",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/09/cyber-criminals-now-know-your-qantas-meal-preferences",
+      "date": "2025-07-09",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/business/2025/07/14/briefcase-business-snippets-from-around-south-australia-109",
+      "date": "2025-07-14",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/opinion/2025/07/16/five-reasons-the-green-hydrogen-industry-has-floundered",
+      "date": "2025-07-16",
+      "date_basis": "Native publication path and saved date-only search result; independently verified in body"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "raw_path": "media/raw/indaily_search3.txt",
+      "sha256": "ad0d32372015d5e189df85b81c68edd8889390542b4bae8f4ef3589308cdf49c",
+      "query": "site:indailysa.com.au/news/ \"Jul\" \"2025\""
+    }
+  ],
+  "notes": "Third bounded domain/date-only response includes eleven eligibleJuly native news URLs; June first-publication article excluded by date, not July modification. No topic, length or ownership filter. Unknown monthly denominator/inclusion probability.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

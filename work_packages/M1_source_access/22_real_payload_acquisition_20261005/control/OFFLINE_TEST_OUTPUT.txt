@@ -1,0 +1,38 @@
+test_actual_visible_body_still_requires_review (test_media.ArticleBoundaries.test_actual_visible_body_still_requires_review) ... ok
+test_archive_navigation_is_not_an_article_frame (test_media.ArticleBoundaries.test_archive_navigation_is_not_an_article_frame) ... ok
+test_article_table_text_is_preserved_once_and_widgets_excluded (test_media.ArticleBoundaries.test_article_table_text_is_preserved_once_and_widgets_excluded) ... ok
+test_jsonld_without_visible_body_not_complete (test_media.ArticleBoundaries.test_jsonld_without_visible_body_not_complete) ... ok
+test_local_day_not_utc_reassignment (test_media.ArticleBoundaries.test_local_day_not_utc_reassignment) ... ok
+test_preview_not_complete (test_media.ArticleBoundaries.test_preview_not_complete) ... ok
+test_real_separator_boundary_with_nested_widgets (test_media.ArticleBoundaries.test_real_separator_boundary_with_nested_widgets) ... ok
+test_saved_search_leading_newlines_do_not_drop_dated_entries (test_media.ArticleBoundaries.test_saved_search_leading_newlines_do_not_drop_dated_entries) ... ok
+test_wrong_month_not_included (test_media.ArticleBoundaries.test_wrong_month_not_included) ... ok
+test_attempt_cannot_be_repeated (test_requests.ActualRequestPath.test_attempt_cannot_be_repeated) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 200, "status": "saved", "byte_count": 16, "error": null}
+ok
+test_bad_length_retained_not_certified (test_requests.ActualRequestPath.test_bad_length_retained_not_certified) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 200, "status": "failed", "byte_count": 16, "error": "RuntimeError: Incomplete Content-Length"}
+ok
+test_closed_round_cannot_make_a_new_request (test_requests.ActualRequestPath.test_closed_round_cannot_make_a_new_request) ... ok
+test_frozen_order_and_scope_before_network (test_requests.ActualRequestPath.test_frozen_order_and_scope_before_network) ... ok
+test_html_rejected_persistent_stop (test_requests.ActualRequestPath.test_html_rejected_persistent_stop) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 200, "status": "failed", "byte_count": 20, "error": "RuntimeError: PDF MIME/signature check failed"}
+ok
+test_non_pdf_406_remains_new_failure (test_requests.ActualRequestPath.test_non_pdf_406_remains_new_failure) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 406, "status": "failed", "byte_count": 8, "error": "RuntimeError: HTTP 406; route stopped"}
+ok
+test_policy_digest_change_stops_before_network (test_requests.ActualRequestPath.test_policy_digest_change_stops_before_network) ... ok
+test_redirect_stops_without_second_request (test_requests.ActualRequestPath.test_redirect_stops_without_second_request) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 302, "status": "failed", "byte_count": 0, "error": "RuntimeError: Redirect bound reached"}
+ok
+test_retry_after_persistent_restriction (test_requests.ActualRequestPath.test_retry_after_persistent_restriction) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 200, "status": "failed", "byte_count": 16, "error": "RuntimeError: HTTP 200; route stopped"}
+ok
+test_signature_rejected (test_requests.ActualRequestPath.test_signature_rejected) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 200, "status": "failed", "byte_count": 7, "error": "RuntimeError: PDF MIME/signature check failed"}
+ok
+test_truncation_partial_charged (test_requests.ActualRequestPath.test_truncation_partial_charged) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 200, "status": "truncated", "byte_count": 4, "error": "RuntimeError: Object cap reached; partial retained"}
+ok
+test_valid_octet_pdf_exact_uri (test_requests.ActualRequestPath.test_valid_octet_pdf_exact_uri) ... {"source_id": "eu_cellar", "purpose": "selected_Item", "route": "consistent_exact_uri", "http_status": 200, "status": "saved", "byte_count": 16, "error": null}
+ok
+test_no_credentials_or_cross_host (test_transport.Boundaries.test_no_credentials_or_cross_host) ... ok
+test_reserve_and_deadline (test_transport.Boundaries.test_reserve_and_deadline) ... ok
+test_specific_robots_and_article_challenge (test_transport.Boundaries.test_specific_robots_and_article_challenge) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.148s
+
+OK

@@ -1,0 +1,47 @@
+{
+  "request_id": "5d37ddf99e5f37a4ddddefa0",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/terms-of-service/",
+  "purpose": "licence",
+  "route": "primary_footer_terms",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T09:07:37.756536+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 242014,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/terms-of-service/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T09:07:35.757903+00:00",
+    "free_bytes": 23490883584,
+    "reserve_bytes": 3337507877,
+    "projected_free_after_reserves": 20151278555,
+    "media_lifetime_bytes": 24252426,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.texastribune.org/terms-of-service/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 09:07:38 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Sat, 03 Oct 2026 14:10:47 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/5d37ddf99e5f37a4ddddefa0.bin",
+  "sha256": "d4e8dc1d1376687d4210104e09d7d53622dfeafd80969a9093c505e075b7ed10",
+  "finished_at_utc": "2026-10-05T09:07:38.048135+00:00"
+}

@@ -1,0 +1,51 @@
+{
+  "request_id": "143c66017b62d99e640729f0",
+  "source_id": "indaily",
+  "request_url": "https://indailysa.com.au/indailysa-terms-conditions",
+  "purpose": "licence",
+  "route": "migrated_policy",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:33:57.076967+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 227515,
+  "hops": [
+    {
+      "url": "https://indailysa.com.au/indailysa-terms-conditions",
+      "status": 308,
+      "location": "https://www.indailysa.com.au/indailysa-terms-conditions"
+    },
+    {
+      "url": "https://www.indailysa.com.au/indailysa-terms-conditions",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:33:57.075486+00:00",
+    "free_bytes": 23962681344,
+    "reserve_bytes": 3357922068,
+    "projected_free_after_reserves": 20602662124,
+    "media_lifetime_bytes": 8180694,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.indailysa.com.au/indailysa-terms-conditions",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:34:00 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:34:00 GMT"
+  },
+  "raw_path": "media/raw/143c66017b62d99e640729f0.bin",
+  "sha256": "57407777cd34606a03416d522aa2cc4a5d56798f13b8cc571333ccd805fac17c",
+  "finished_at_utc": "2026-10-05T08:34:00.727938+00:00"
+}

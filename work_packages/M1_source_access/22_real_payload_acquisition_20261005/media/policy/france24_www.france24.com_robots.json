@@ -1,0 +1,48 @@
+{
+  "request_id": "2c22a0f6a3cfbe40e1831fb6",
+  "source_id": "france24",
+  "request_url": "https://www.france24.com/robots.txt",
+  "purpose": "robots",
+  "route": "robots",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:37:32.756107+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 12929,
+  "hops": [
+    {
+      "url": "https://www.france24.com/robots.txt",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:37:32.753622+00:00",
+    "free_bytes": 23927644160,
+    "reserve_bytes": 3357263137,
+    "projected_free_after_reserves": 20568283871,
+    "media_lifetime_bytes": 8839625,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.france24.com/robots.txt",
+  "mime_type": "text/plain",
+  "response_headers": {
+    "Content-Type": "text/plain",
+    "ETag": "\"bed18fe939bd827ea23d77e65269a99b:1772098106.907383\"",
+    "Last-Modified": "Thu, 26 Feb 2026 09:26:48 GMT",
+    "Date": "Mon, 05 Oct 2026 08:37:33 GMT",
+    "Content-Length": "12929"
+  },
+  "raw_path": "media/raw/2c22a0f6a3cfbe40e1831fb6.bin",
+  "sha256": "e9c6fffa8dd78b8d26225f1a6631e52b301b9b90bd415c91ace82c640b47dd2f",
+  "finished_at_utc": "2026-10-05T08:37:32.934818+00:00"
+}

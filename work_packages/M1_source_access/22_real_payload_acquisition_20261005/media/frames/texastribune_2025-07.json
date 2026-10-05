@@ -1,0 +1,85 @@
+{
+  "frame_id": "frame22:texastribune:2025-07",
+  "source_id": "texastribune",
+  "stratum": "US",
+  "month": "2025-07",
+  "receipt_path": "media/frames/texastribune_2025-07.json",
+  "frozen_at_utc": "2026-10-05T08:27:40.993366+00:00",
+  "route": "publisher_date_archive",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 6,
+  "candidates": [
+    {
+      "url": "https://www.texastribune.org/2025/07/01/colin-allred-texas-us-senate-democrat-2026-cornyn-paxton",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/senate-reconciliation-bill-texas-cornyn-cruz-border-reimbursement",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-hemp-thc-marijuana-medical-regulations",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-measles-vaccine-cost",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-supreme-court-produced-water-oil-gas",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/tribcast-supreme-court",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.texastribune.org/2025/07/01/colin-allred-texas-us-senate-democrat-2026-cornyn-paxton",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/senate-reconciliation-bill-texas-cornyn-cruz-border-reimbursement",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-hemp-thc-marijuana-medical-regulations",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-measles-vaccine-cost",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-supreme-court-produced-water-oil-gas",
+      "date": "2025-07-01",
+      "date_basis": "publisher July1 archive page; independently rechecked in body"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "request_id": "33ac16712d5cf3a871a08bff",
+      "raw_path": "media/raw/33ac16712d5cf3a871a08bff.bin",
+      "sha256": "edb6e7a3ee1843f8a5755219b696d390016ba41ab00a627bbdaac861d6f03989"
+    }
+  ],
+  "notes": "One native day archive withinJuly2025, six observed URL identities; partial monthly inventory, no sampling probability. Selection includes all topics and syndication states.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

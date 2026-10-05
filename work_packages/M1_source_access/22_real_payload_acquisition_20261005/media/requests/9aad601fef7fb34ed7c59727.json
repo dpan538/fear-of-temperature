@@ -1,0 +1,48 @@
+{
+  "request_id": "9aad601fef7fb34ed7c59727",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/robots.txt",
+  "purpose": "robots",
+  "route": "robots",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:24:29.592956+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 256,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/robots.txt",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:24:29.591661+00:00",
+    "free_bytes": 23782596608,
+    "reserve_bytes": 3365805452,
+    "projected_free_after_reserves": 20414694004,
+    "media_lifetime_bytes": 297310,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "705abf50227c6888632fdb2c64d87d158982ed67606ec4eb86e20a1ba25f0a0e",
+  "publisher_denial": false,
+  "environment_variant": "network_enabled_after_dns_failure",
+  "supersedes_environment_failure_request_id": "34ec0e29cd584e7e556417b8",
+  "final_url": "https://www.texastribune.org/robots.txt",
+  "mime_type": "text/plain",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:24:29 GMT",
+    "Content-Type": "text/plain",
+    "Content-Length": "256",
+    "Last-Modified": "Wed, 29 Apr 2026 21:11:18 GMT",
+    "ETag": "\"69f273f6-100\""
+  },
+  "raw_path": "media/raw/9aad601fef7fb34ed7c59727.bin",
+  "sha256": "69ee666110ea84e89e300df3e7065136109e6010dccff20a3671c53cf57b91ef",
+  "finished_at_utc": "2026-10-05T08:24:29.754871+00:00"
+}

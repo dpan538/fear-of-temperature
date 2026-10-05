@@ -1,0 +1,45 @@
+{
+  "request_id": "09ac83b6c437f4838f540ab3",
+  "source_id": "edjnet",
+  "request_url": "https://www.europeandatajournalism.eu/cp_data_news-sitemap3.xml",
+  "purpose": "discovery",
+  "route": "sitemap",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:26:54.133894+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 513883,
+  "hops": [
+    {
+      "url": "https://www.europeandatajournalism.eu/cp_data_news-sitemap3.xml",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:26:54.129435+00:00",
+    "free_bytes": 23780294656,
+    "reserve_bytes": 3365247863,
+    "projected_free_after_reserves": 20412949641,
+    "media_lifetime_bytes": 854899,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.europeandatajournalism.eu/cp_data_news-sitemap3.xml",
+  "mime_type": "text/xml; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:27:03 GMT",
+    "Content-Type": "text/xml; charset=UTF-8"
+  },
+  "raw_path": "media/raw/09ac83b6c437f4838f540ab3.bin",
+  "sha256": "f0794dd4602c7b09970db880948a1f493b7b50c4078ef48a4e8270b9b9425704",
+  "finished_at_utc": "2026-10-05T08:27:05.124342+00:00"
+}

@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-05T09:42:33.607222+00:00",
+  "branch": "main",
+  "head": "e29c67cff5fd33c90ddf74110a2de53061e99f5d",
+  "unrelated_changes": [],
+  "index_preexisting_staged_paths": [],
+  "index_lock_present": false,
+  "coordinator_registration_preserved_untracked": true,
+  "scope": "Only round22 owned outputs and authorised append-only PROJECT_LOG; no raw, DB, credentials, dependency runtime or evaluator; local commits only, no push"
+}

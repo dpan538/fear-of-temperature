@@ -1,0 +1,55 @@
+{
+  "request_id": "ba3f9e20b1673f3a0e377047",
+  "source_id": "texastribune",
+  "request_url": "https://www.texastribune.org/2025/07/01/texas-supreme-court-produced-water-oil-gas",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:56:55.491218+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 312076,
+  "hops": [
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-supreme-court-produced-water-oil-gas",
+      "status": 301,
+      "location": "https://www.texastribune.org/2025/07/01/texas-supreme-court-produced-water-oil-gas/"
+    },
+    {
+      "url": "https://www.texastribune.org/2025/07/01/texas-supreme-court-produced-water-oil-gas/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:56:53.496140+00:00",
+    "free_bytes": 23561342976,
+    "reserve_bytes": 3347510519,
+    "projected_free_after_reserves": 20211735305,
+    "media_lifetime_bytes": 14249784,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/texastribune_2025-07.json",
+  "frame_sha256": "8db6d570828c89857f64afcf4b413e241f4b870874591fe53724546f313a7d6e",
+  "final_url": "https://www.texastribune.org/2025/07/01/texas-supreme-court-produced-water-oil-gas/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:57:00 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:57:00 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/ba3f9e20b1673f3a0e377047.bin",
+  "sha256": "31b79bbd21f0e7ff91fca570234eb8da7d39befab16d1532b8f4384acf0ab037",
+  "finished_at_utc": "2026-10-05T08:57:01.245596+00:00"
+}

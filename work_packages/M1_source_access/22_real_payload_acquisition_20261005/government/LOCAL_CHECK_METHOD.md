@@ -1,0 +1,7 @@
+# New-object local check scope
+
+The worker checked only the 11 newly saved PDF objects bound in TARGET_SEQUENCE.json. PyMuPDF opened each PDF, extracted per-page text and PDF metadata, saved local text, and rendered first pages into three contact sheets. All 11 first pages were visually inspected; page-text presence and terminal extracted text were examined. There was no OCR, semantic classification, full-document visual audit, formal import or old-raw rescan. Short cover pages were preserved without a length gate.
+
+Printed cover/Official Journal publication dates agree with the frozen CDM dates. Adoption, decision and event dates remain separate. Exact Item request identity and printed document identifiers were checked. Upstream genre/issuer assumptions are not universally validated: five Official Journal records conflict with the inherited generic COM act_preparatory tag. Fine genre, third-party material and parent/attachment completeness remain pending. New physical PDF objects are not new source originals or complete Works.
+
+The saved local inspection data are in government/evidence and excluded from Git. pdf_inspect_saved.py reproduces this bounded local extraction/rendering method from these 11 raw objects only. Rerunning it is an offline reproduction command, not a necessary additional audit or a certification mechanism. The worker performed one scoped local check pass; the compact ledger reuses its saved observations.

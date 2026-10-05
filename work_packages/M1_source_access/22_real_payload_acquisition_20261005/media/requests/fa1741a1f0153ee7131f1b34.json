@@ -1,0 +1,55 @@
+{
+  "request_id": "fa1741a1f0153ee7131f1b34",
+  "source_id": "canary",
+  "request_url": "https://www.thecanary.co/global/world-news/2025/07/30/amir-gaza-child-killed",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:58:27.116338+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 439464,
+  "hops": [
+    {
+      "url": "https://www.thecanary.co/global/world-news/2025/07/30/amir-gaza-child-killed",
+      "status": 301,
+      "location": "https://www.thecanary.co/global/world-news/2025/07/30/amir-gaza-child-killed/"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-news/2025/07/30/amir-gaza-child-killed/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:58:22.122536+00:00",
+    "free_bytes": 23577890816,
+    "reserve_bytes": 3341727125,
+    "projected_free_after_reserves": 20234066539,
+    "media_lifetime_bytes": 20033178,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/canary_2025-07.json",
+  "frame_sha256": "7a5bd0dafe7e1ca8a352d63b8c2fdf3f812c733a60a8a6fe6621457025778305",
+  "final_url": "https://www.thecanary.co/global/world-news/2025/07/30/amir-gaza-child-killed/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:58:33 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:58:33 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/fa1741a1f0153ee7131f1b34.bin",
+  "sha256": "79ee16124052b7fc76e9c43cf8f35737aa5f3468ad9b5729df40050f535118c1",
+  "finished_at_utc": "2026-10-05T08:58:33.561784+00:00"
+}

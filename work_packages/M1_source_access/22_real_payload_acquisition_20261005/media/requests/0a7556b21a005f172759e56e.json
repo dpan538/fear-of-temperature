@@ -1,0 +1,48 @@
+{
+  "request_id": "0a7556b21a005f172759e56e",
+  "source_id": "edjnet",
+  "request_url": "https://www.europeandatajournalism.eu/wp-json/wp/v2/cp_data_news?after=2025-07-01T00%3A00%3A00&before=2025-08-01T00%3A00%3A00&per_page=100&orderby=date&order=asc&_fields=id,date,date_gmt,modified,link,title",
+  "purpose": "discovery",
+  "route": "public_metadata_api",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:33:54.476443+00:00",
+  "status": "failed",
+  "http_status": 401,
+  "byte_count": 118,
+  "hops": [
+    {
+      "url": "https://www.europeandatajournalism.eu/wp-json/wp/v2/cp_data_news?after=2025-07-01T00%3A00%3A00&before=2025-08-01T00%3A00%3A00&per_page=100&orderby=date&order=asc&_fields=id,date,date_gmt,modified,link,title",
+      "status": 401,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:33:54.473089+00:00",
+    "free_bytes": 23964540928,
+    "reserve_bytes": 3358730847,
+    "projected_free_after_reserves": 20603712929,
+    "media_lifetime_bytes": 7371915,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": true,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.europeandatajournalism.eu/wp-json/wp/v2/cp_data_news?after=2025-07-01T00%3A00%3A00&before=2025-08-01T00%3A00%3A00&per_page=100&orderby=date&order=asc&_fields=id,date,date_gmt,modified,link,title",
+  "mime_type": "application/json; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:33:56 GMT",
+    "Content-Type": "application/json; charset=UTF-8",
+    "Content-Length": "118"
+  },
+  "raw_path": "media/raw/0a7556b21a005f172759e56e.bin",
+  "sha256": "ed6a7c7c15db91f2b6ffbaec4ccb7be48bd7853833e3e3e642ccf701fa90f3de",
+  "error": "RuntimeError: HTTP 401; route stopped",
+  "failure_dimension": "publisher_restriction",
+  "finished_at_utc": "2026-10-05T08:33:56.254277+00:00"
+}

@@ -1,0 +1,40 @@
+{
+  "frame_id": "frame22:edjnet:2025-07",
+  "source_id": "edjnet",
+  "stratum": "EU_Europe",
+  "month": "2025-07",
+  "receipt_path": "media/frames/edjnet_2025-07.json",
+  "frozen_at_utc": "2026-10-05T08:43:50.441331+00:00",
+  "route": "publisher_date_archive",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 1,
+  "candidates": [
+    {
+      "url": "https://www.europeandatajournalism.eu/cp_data_news/mole-or-cancer-the-algorithm-that-gets-one-in-three-melanomas-wrong-and-erases-patients-with-dark-skin",
+      "date": "2025-07-16",
+      "date_basis": "Native publisher archive July2025 showsJuly16; lastmod2025December kept separate"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.europeandatajournalism.eu/cp_data_news/mole-or-cancer-the-algorithm-that-gets-one-in-three-melanomas-wrong-and-erases-patients-with-dark-skin",
+      "date": "2025-07-16",
+      "date_basis": "Native publisher archive July2025 showsJuly16; lastmod2025December kept separate"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "raw_path": "media/raw/62bbc1bfa2a6b7c0322cd8d5.bin",
+      "sha256": "cb239b070e8416a74277ceeea1960d1de5a005328472febd285258c898469a06",
+      "request_id": "62bbc1bfa2a6b7c0322cd8d5"
+    }
+  ],
+  "notes": "One public date-query page exposes one English news link. No pagination followed or census claimed. API401 stays stopped; this HTML page is public200 and contains an archive-labelled publication day. No topic filtering.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

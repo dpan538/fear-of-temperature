@@ -1,0 +1,60 @@
+{
+  "frame_id": "frame22:opendemocracy:2025-07",
+  "source_id": "opendemocracy",
+  "stratum": "UK",
+  "month": "2025-07",
+  "receipt_path": "media/frames/opendemocracy_2025-07.json",
+  "frozen_at_utc": "2026-10-05T08:37:21.749607+00:00",
+  "route": "public_search",
+  "frame_state": "bounded_partial_observation",
+  "frame_count": 3,
+  "candidates": [
+    {
+      "url": "https://www.opendemocracy.net/en/global-inequality-is-the-world-banks-elephant-in-the-room",
+      "date": "2025-07-01",
+      "date_basis": "Saved domain/date-only search result; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/5050/nigerias-former-president-buhari-is-dead-heres-what-he-took-with-him",
+      "date": "2025-07-18",
+      "date_basis": "Saved domain/date-only search result; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/identifying-modern-slavery-can-damage-asylum-claims",
+      "date": "2025-07-23",
+      "date_basis": "Saved domain/date-only search result; independently rechecked in body"
+    }
+  ],
+  "selected": [
+    {
+      "url": "https://www.opendemocracy.net/en/global-inequality-is-the-world-banks-elephant-in-the-room",
+      "date": "2025-07-01",
+      "date_basis": "Saved domain/date-only search result; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/5050/nigerias-former-president-buhari-is-dead-heres-what-he-took-with-him",
+      "date": "2025-07-18",
+      "date_basis": "Saved domain/date-only search result; independently rechecked in body"
+    },
+    {
+      "url": "https://www.opendemocracy.net/en/identifying-modern-slavery-can-damage-asylum-claims",
+      "date": "2025-07-23",
+      "date_basis": "Saved domain/date-only search result; independently rechecked in body"
+    }
+  ],
+  "selection": "publication day when evidenced, then native URL; first5; no refill",
+  "monthly_denominator": null,
+  "inclusion_probability": null,
+  "evidence": [
+    {
+      "raw_path": "media/raw/search2_combined.txt",
+      "sha256": "5b2ccf56e2ccd9ad8eb8d6aab6f73ab02ef523d5f2daa3eb0dfb2e470944e0b4",
+      "query": "site:opendemocracy.net \"July\" \"2025\""
+    }
+  ],
+  "notes": "Second date-only search observed partial English /en article results. Spanish edition and non-article PDF omitted by declared edition/unit, no topic filtering. Monthly denominator andpi unknown; first five by date/nativeURL.",
+  "topic_filter": null,
+  "length_filter": null,
+  "affect_filter": null,
+  "original_source_success": false
+}

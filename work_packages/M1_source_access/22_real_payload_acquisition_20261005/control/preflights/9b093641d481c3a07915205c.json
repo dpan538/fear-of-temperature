@@ -1,0 +1,33 @@
+{
+  "at_utc": "2026-10-05T08:33:45.019815+00:00",
+  "inputs_and_code": {
+    "control/SCOPE.json": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+    "PLAN.md": "e14e839dc8de460c1b543ea5bb21340bd0f0f4b8f2d986080b07a372e2132439",
+    "control/COORDINATION.json": "d9c2cc2acd9b255e625c551b0930c4de4cff3506a3209327ff4ae7f9f1bb565e",
+    "control/CANDIDATES.json": "3a77cc8db7d48a481c8bb04ebba4c07f99076c378520ed7918875d5063009824",
+    "control/REQUEST_POLICY.json": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+    "prototype/government.py": "ab15cfe4d711e423473f33a6dea8b1a1d7f6b980a70c30ab4e995f255b3dae8b",
+    "prototype/media.py": "3de0dd820476a641c8845b705ec7908c2b6de42f2e5d310b1b723b57c01ee020",
+    "prototype/run.py": "d4dea7fce8ff4691625e4eb0b8607c0923eab0f5c5f891dff11a914dbf96b001",
+    "prototype/test_media.py": "7a486f1d4f0574d5a71652e683f5557735656ea4dd6f424deb36a8d4623d552e",
+    "prototype/test_requests.py": "503ddc98f22228f998af98f2a28a4897c7210adcd74038a15644053051d01b7e",
+    "prototype/test_transport.py": "e6a111cd61ba1cedd0b386916b2c7e606b1572261ec9fc82695ffbbf578c2558",
+    "prototype/transport.py": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+    "media/frames/spinoff_2025-07.json": "22a9e0aac4af6df694b05539825e5fa9e546618480abe7eb8e3dd0d6a52a6e0c",
+    "media/frames/texastribune_2025-07.json": "8db6d570828c89857f64afcf4b413e241f4b870874591fe53724546f313a7d6e",
+    "government/TARGET_SEQUENCE.json": "17a10b181ee0e1e837f71a00bfd97de2b093fcf96402c560ebae9ac190a4b63e"
+  },
+  "budget": {
+    "at_utc": "2026-10-05T08:33:45.022552+00:00",
+    "free_bytes": 23964696576,
+    "reserve_bytes": 3358730847,
+    "projected_free_after_reserves": 20605965729,
+    "media_lifetime_bytes": 7371915,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 0,
+    "passed": true
+  },
+  "no_per_request_coordinator_release_required": true
+}

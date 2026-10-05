@@ -1,0 +1,55 @@
+{
+  "request_id": "09d91bd1f1cf3dcad5f1ff95",
+  "source_id": "canary",
+  "request_url": "https://www.thecanary.co/global/world-analysis/2025/07/30/stop-the-hate-uk-zionist",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:58:17.706126+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 461789,
+  "hops": [
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/30/stop-the-hate-uk-zionist",
+      "status": 301,
+      "location": "https://www.thecanary.co/global/world-analysis/2025/07/30/stop-the-hate-uk-zionist/"
+    },
+    {
+      "url": "https://www.thecanary.co/global/world-analysis/2025/07/30/stop-the-hate-uk-zionist/",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:58:17.702986+00:00",
+    "free_bytes": 23578619904,
+    "reserve_bytes": 3342188914,
+    "projected_free_after_reserves": 20234333838,
+    "media_lifetime_bytes": 19571389,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/canary_2025-07.json",
+  "frame_sha256": "7a5bd0dafe7e1ca8a352d63b8c2fdf3f812c733a60a8a6fe6621457025778305",
+  "final_url": "https://www.thecanary.co/global/world-analysis/2025/07/30/stop-the-hate-uk-zionist/",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:58:21 GMT",
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 05 Oct 2026 02:50:36 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/09d91bd1f1cf3dcad5f1ff95.bin",
+  "sha256": "9bbff2f760fdc391797fe70530e35d7c1ced9975c69775e8629b01e36664b4ea",
+  "finished_at_utc": "2026-10-05T08:58:22.111135+00:00"
+}

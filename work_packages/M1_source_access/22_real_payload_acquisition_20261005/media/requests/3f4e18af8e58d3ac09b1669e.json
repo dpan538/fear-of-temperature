@@ -1,0 +1,47 @@
+{
+  "request_id": "3f4e18af8e58d3ac09b1669e",
+  "source_id": "spinoff",
+  "request_url": "https://thespinoff.co.nz/our-story",
+  "purpose": "identity",
+  "route": "primary_footer_identity",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T09:07:33.053811+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 111319,
+  "hops": [
+    {
+      "url": "https://thespinoff.co.nz/our-story",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T09:07:33.049139+00:00",
+    "free_bytes": 23491903488,
+    "reserve_bytes": 3337882819,
+    "projected_free_after_reserves": 20151923517,
+    "media_lifetime_bytes": 23877484,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://thespinoff.co.nz/our-story",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "content-type": "text/html; charset=utf-8",
+    "date": "Mon, 05 Oct 2026 09:07:33 GMT",
+    "Content-Length": "111319"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/3f4e18af8e58d3ac09b1669e.bin",
+  "sha256": "b0b2f76dfff21138e90d8b1024b678598012ab3bdfa35bd233bbb06f53c5f04b",
+  "finished_at_utc": "2026-10-05T09:07:33.680087+00:00"
+}

@@ -1,0 +1,50 @@
+{
+  "request_id": "015f71a71aa7780421b6a34b",
+  "source_id": "indaily",
+  "request_url": "https://www.indailysa.com.au/news/just-in/2025/07/07/landmark-allied-health-pay-deal-backed-by-workers",
+  "purpose": "body",
+  "route": "selected_frame",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:58:03.034353+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 515723,
+  "hops": [
+    {
+      "url": "https://www.indailysa.com.au/news/just-in/2025/07/07/landmark-allied-health-pay-deal-backed-by-workers",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:58:03.030637+00:00",
+    "free_bytes": 23583440896,
+    "reserve_bytes": 3344300574,
+    "projected_free_after_reserves": 20237043170,
+    "media_lifetime_bytes": 17459729,
+    "government_lifetime_bytes": 26574033,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "dbeb408a4bdbb4edc197f914848a861c137d1f82d469a80b3e64bed0eba438a7",
+  "code_sha256": "d1b29775978a9ed3130345a445ede5c4c9691bb3d4f3a915e531a278aedd24bd",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "publication_month": "2025-07",
+  "frame_path": "media/frames/indaily_2025-07.json",
+  "frame_sha256": "652376d60d3763b888d60eec0445c5d491ba53cd779d3ba258b54f3bd73a8941",
+  "final_url": "https://www.indailysa.com.au/news/just-in/2025/07/07/landmark-allied-health-pay-deal-backed-by-workers",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 08:58:05 GMT",
+    "Content-Type": "text/html; charset=utf-8",
+    "Last-Modified": "Mon, 05 Oct 2026 08:58:04 GMT"
+  },
+  "denial_scope": "publisher_or_exact_access_route",
+  "raw_path": "media/raw/015f71a71aa7780421b6a34b.bin",
+  "sha256": "8d930365c5a6b80f4b804ba659ae7a479ad1180a02fbaaef96d910babcca564f",
+  "finished_at_utc": "2026-10-05T08:58:05.267929+00:00"
+}

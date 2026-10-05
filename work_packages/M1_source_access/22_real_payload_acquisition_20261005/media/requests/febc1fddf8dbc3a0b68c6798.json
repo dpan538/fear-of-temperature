@@ -1,0 +1,39 @@
+{
+  "request_id": "febc1fddf8dbc3a0b68c6798",
+  "source_id": "indaily",
+  "request_url": "https://www.indaily.com.au/robots.txt",
+  "purpose": "robots",
+  "route": "robots",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:24:29.211776+00:00",
+  "status": "failed",
+  "http_status": 301,
+  "byte_count": 0,
+  "hops": [
+    {
+      "url": "https://www.indaily.com.au/robots.txt",
+      "status": 301,
+      "location": "https://indailysa.com.au/"
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:24:29.211258+00:00",
+    "free_bytes": 23730860032,
+    "reserve_bytes": 3365805452,
+    "projected_free_after_reserves": 20362957428,
+    "media_lifetime_bytes": 297310,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "705abf50227c6888632fdb2c64d87d158982ed67606ec4eb86e20a1ba25f0a0e",
+  "publisher_denial": false,
+  "environment_variant": "network_enabled_after_dns_failure",
+  "supersedes_environment_failure_request_id": "0a40da73cbe6c841bf37daf1",
+  "error": "RuntimeError: Nonpublic/out-of-scope URL",
+  "failure_dimension": "transport_or_path_failure_not_proven_publisher_denial",
+  "finished_at_utc": "2026-10-05T08:24:29.584916+00:00"
+}

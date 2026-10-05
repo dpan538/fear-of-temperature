@@ -1,0 +1,51 @@
+{
+  "request_id": "61ba12a0d22284167012e509",
+  "source_id": "france24",
+  "request_url": "https://www.france24.com/en/about-us/",
+  "purpose": "identity",
+  "route": "policy",
+  "lane": "media",
+  "requested_at_utc": "2026-10-05T08:39:22.012899+00:00",
+  "status": "saved",
+  "http_status": 200,
+  "byte_count": 279093,
+  "hops": [
+    {
+      "url": "https://www.france24.com/en/about-us/",
+      "status": 301,
+      "location": "/en/about-us"
+    },
+    {
+      "url": "https://www.france24.com/en/about-us",
+      "status": 200,
+      "location": null
+    }
+  ],
+  "budget_before": {
+    "at_utc": "2026-10-05T08:39:20.012869+00:00",
+    "free_bytes": 23556513792,
+    "reserve_bytes": 3356909507,
+    "projected_free_after_reserves": 20197507133,
+    "media_lifetime_bytes": 9193255,
+    "government_lifetime_bytes": 22231574,
+    "floor_bytes": 16106127360,
+    "lane": "media",
+    "prospective_bytes": 2097152,
+    "passed": true
+  },
+  "policy_sha256": "4b9c952298168e8890263cfa82fc67b8d9d5c352a7509a5093b60d6810ed5415",
+  "code_sha256": "e292a348f3a8d7982e4ed585b02e3ed7aa84befdf0ce8990f9dd87777ca24c0c",
+  "publisher_denial": false,
+  "environment_variant": "initial",
+  "supersedes_environment_failure_request_id": null,
+  "final_url": "https://www.france24.com/en/about-us",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Content-Type": "text/html; charset=UTF-8",
+    "Last-Modified": "Mon, 07 Jul 2025 12:22:32 GMT",
+    "Date": "Mon, 05 Oct 2026 08:39:25 GMT"
+  },
+  "raw_path": "media/raw/61ba12a0d22284167012e509.bin",
+  "sha256": "ed05080eaafcf9e5419540f8319af8168ed422768ac177f23b5fa4fb0f673743",
+  "finished_at_utc": "2026-10-05T08:39:25.555781+00:00"
+}
