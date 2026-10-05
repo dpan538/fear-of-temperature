@@ -1,0 +1,54 @@
+[
+  {
+    "event": "run_started",
+    "time_utc": "2026-10-04T06:19:22.607477+00:00"
+  },
+  {
+    "event": "lock_acquired",
+    "time_utc": "2026-10-04T06:21:15.123900+00:00",
+    "wait_seconds": 112.237
+  },
+  {
+    "event": "lock_released",
+    "time_utc": "2026-10-04T06:21:20.406469+00:00"
+  },
+  {
+    "event": "run_finished",
+    "time_utc": "2026-10-04T06:21:43.336229+00:00",
+    "frame_unit_counts": {
+      "UK_DEFRA": 1020,
+      "UK_HISTORIC": 136082,
+      "UK_GOVUK_HIST": 35,
+      "UK_HANSARD": 36462,
+      "UK_QS_API": 65988,
+      "UK_TWFY": 8448,
+      "US_FR": 33544,
+      "AU_CATALOGUE": 821,
+      "EU_CELLAR": 50578,
+      "GUARDIAN_DEC2015": 396,
+      "PETITION_QUERY": 177
+    },
+    "coverage_rows": 110,
+    "finding_rows": 57759
+  },
+  {
+    "event": "evidence_path_annotation_reconciled",
+    "time_utc": "2026-10-04T06:24:27.786105+00:00",
+    "reason": "Add auxiliary ledger paths already read by validator; no source database rescan or outcome change. Main CLI now emits these paths directly.",
+    "finding_rows_changed": {
+      "uk_exception": 238,
+      "au_outcome": 3254,
+      "guardian_check_ledger": 392
+    }
+  },
+  {
+    "event": "auxiliary_snapshot_keys_reconciled",
+    "time_utc": "2026-10-04T06:26:00.241856+00:00",
+    "reason": "Include actual prior evidence ledgers in deterministic finding snapshot key; no source database rescan or outcome change. Main CLI now emits these keys directly.",
+    "changed_rows": {
+      "execution_coverage.csv": 40,
+      "findings.csv": 4819,
+      "source_quality_summary.csv": 4
+    }
+  }
+]

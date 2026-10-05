@@ -1,0 +1,113 @@
+{
+  "generated_at_utc": "2026-10-04T06:21:30.927221+00:00",
+  "publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "inputs": [
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "modified_utc": "2026-09-22T13:37:31.704839+00:00",
+      "bytes": 3590598656
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb",
+      "modified_utc": "2026-09-27T12:36:23.210504+00:00",
+      "bytes": 6682587136
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb",
+      "modified_utc": "2026-09-27T15:31:29.765522+00:00",
+      "bytes": 2567188480
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_candidate_outcomes.csv",
+      "modified_utc": "2026-09-27T07:44:27.327955+00:00",
+      "bytes": 495599
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_article_metadata.csv",
+      "modified_utc": "2026-09-27T13:53:45.893345+00:00",
+      "bytes": 149855
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/guardian_body_check_correction.csv",
+      "modified_utc": "2026-10-04T05:45:11.906555+00:00",
+      "bytes": 1082
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/petition_177_id_date_mapping.csv",
+      "modified_utc": "2026-09-27T14:12:34.368290+00:00",
+      "bytes": 37363
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/01_fixed_cutoff/date_exceptions.csv",
+      "modified_utc": "2026-10-04T05:16:26.396904+00:00",
+      "bytes": 585403
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/targeted_2015_bridge/parent_acceptance.csv",
+      "modified_utc": "2026-09-27T12:41:57.069173+00:00",
+      "bytes": 106968
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/reports/eu_work_dispositions.csv",
+      "modified_utc": "2026-09-27T07:11:32.333129+00:00",
+      "bytes": 24554804
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/FILTER_CONTRACT.md",
+      "modified_utc": "2026-09-26T13:04:01.642701+00:00",
+      "bytes": 5365
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/FILTER_CONTRACT.md",
+      "modified_utc": "2026-09-26T13:39:34.045865+00:00",
+      "bytes": 2003
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/COORDINATOR_CORRECTIONS.md",
+      "modified_utc": "2026-10-04T05:45:11.906672+00:00",
+      "bytes": 2173
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/verification_sample.csv",
+      "modified_utc": "2026-10-04T05:32:38.156101+00:00",
+      "bytes": 40513
+    }
+  ],
+  "source_checkpoints": {
+    "AU_CATALOGUE": "2026-09-27T12:36:23.210504+00:00|candidate_outcomes=2026-09-27T07:44:27.327955+00:00",
+    "EU_CELLAR": "2026-09-27T15:31:29.765522+00:00|disposition=2026-09-27T07:11:32.333129+00:00",
+    "GUARDIAN_DEC2015": "2026-09-27T13:53:45.893345+00:00|body_check_correction=2026-10-04T05:45:11.906555+00:00",
+    "PETITION_QUERY": "2026-09-27T14:12:34.368290+00:00",
+    "UK_DEFRA": "2026-09-22T13:37:31.704839+00:00|date_exceptions=2026-10-04T05:16:26.396904+00:00",
+    "UK_GOVUK_HIST": "2026-09-22T13:37:31.704839+00:00|date_exceptions=2026-10-04T05:16:26.396904+00:00",
+    "UK_HANSARD": "2026-09-22T13:37:31.704839+00:00",
+    "UK_HISTORIC": "2026-09-22T13:37:31.704839+00:00",
+    "UK_QS_API": "2026-09-22T13:37:31.704839+00:00",
+    "UK_TWFY": "2026-09-22T13:37:31.704839+00:00",
+    "US_FR": "2026-09-27T12:36:23.210504+00:00"
+  },
+  "frame_units": {
+    "AU_CATALOGUE": "catalogue_landing_candidate",
+    "EU_CELLAR": "preparatory_Work",
+    "GUARDIAN_DEC2015": "distinct_article_URL",
+    "PETITION_QUERY": "distinct_petition_ID",
+    "UK_DEFRA": "independent_document_parent",
+    "UK_GOVUK_HIST": "independent_document_parent",
+    "UK_HANSARD": "independent_document_parent",
+    "UK_HISTORIC": "independent_document_parent",
+    "UK_QS_API": "independent_document_parent",
+    "UK_TWFY": "independent_document_parent",
+    "US_FR": "selected_document_parent"
+  },
+  "id_conventions": [
+    "UK 06 database is the only UK parent frame; copied UK rows in 09 are excluded.",
+    "US canonical URL plus publication day is identity; FR number can repeat.",
+    "EU Work URI is parent, Item/version separate.",
+    "AU landing URL is candidate, not verified Work.",
+    "Guardian article URL and petition ID are limited pilot frames."
+  ],
+  "filter": "UK saved parents; US EPA/DOE RULE/PRORULE 1994–cutoff; EU COM act_preparatory ENG Work date; AU 821 current catalogue candidates; December 2015 Guardian nonvideo archive; archived q=climate petition IDs. No semantic filter."
+}

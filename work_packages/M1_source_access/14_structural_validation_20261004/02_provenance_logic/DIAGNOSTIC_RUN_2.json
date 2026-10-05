@@ -1,0 +1,27 @@
+{
+  "diagnostic_run_log": [
+    {
+      "event": "run_started",
+      "time_utc": "2026-10-04T06:10:29.761244+00:00"
+    },
+    {
+      "event": "lock_acquired",
+      "time_utc": "2026-10-04T06:10:30.031126+00:00",
+      "wait_seconds": 0.0
+    },
+    {
+      "event": "lock_released",
+      "time_utc": "2026-10-04T06:10:35.725405+00:00"
+    },
+    {
+      "event": "run_finished",
+      "time_utc": "2026-10-04T06:11:00.606008+00:00",
+      "source_units": 333551,
+      "coverage_rows": 110,
+      "finding_rows": 14118
+    }
+  ],
+  "diagnostic_coverage_note": "119 GOV.UK DATE_CROSS cases were correctly convention-sensitive. DATE_CLOCKS also flagged 67 of those because the same source instant has the previous UTC day; this duplicate clock warning was corrected to supported only when source first-publication timestamp exactly equals saved updated timestamp. DATE_CROSS retains the 119 review annotations.",
+  "invalidated_date_clocks_needs_review": 67,
+  "correction": "Compare exact offset-aware instants before treating local-day/UTC-day differences as a chronology problem."
+}
