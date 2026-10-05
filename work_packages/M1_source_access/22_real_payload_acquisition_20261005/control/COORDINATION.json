@@ -1,0 +1,13 @@
+{
+  "registered_at_utc": "2026-10-05T08:06:10.246141+00:00",
+  "owner_thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+  "host_id": "local",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "status": "dispatched",
+  "launch_commit": "e29c67cff5",
+  "scope_sha256": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+  "coordinator_only_registration": true,
+  "include_read_only_in_final_deliverable_receipt": true,
+  "existing_automation": "PAUSED"
+}

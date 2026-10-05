@@ -1,0 +1,47 @@
+{
+  "reviewed_at_utc": "2026-10-05T10:06:58.154339+00:00",
+  "reviewed_at_cst": "2026-10-05T18:06:58.154339+08:00",
+  "status": "accept_bounded_government_and_qualified_media_pilot_not_balanced_historical_completion",
+  "body_attempts": 42,
+  "complete_visible_prose": 30,
+  "complete_by_stratum": {
+    "US": 6,
+    "NZ": 8,
+    "EU_Europe": 1,
+    "UK": 10,
+    "AU": 5
+  },
+  "complete_by_month": {
+    "2025-07": 20,
+    "2015-12": 10
+  },
+  "owner_output_receipts_reconciled": 223,
+  "owner_input_receipts_reconciled": 13,
+  "receipt_mismatches": 0,
+  "coordinator_body_samples_checked": 8,
+  "owner_raw_checks_reused": true,
+  "one_saved_raw_inline_text_comparison": true,
+  "inline_text_regression_request_id": "ca1698af14973f0b5c0ba528",
+  "observed_derived_token": "l ong-time",
+  "observed_native_DOM_token": "long-time",
+  "government_bounded_objects_saved": 11,
+  "government_bounded_object_limit": 11,
+  "government_derived_saved_Items": 58,
+  "government_derived_unattempted": 921,
+  "government_baseline_unchanged": true,
+  "balanced_geography_complete": false,
+  "early1995_frame_available": false,
+  "first30minute_milestone_met": false,
+  "closure_minutes_before_deadline": 45.0825404667,
+  "reusable_new_batch_body_completion_demonstrated": false,
+  "external_average_performance_benchmark": null,
+  "new_HTTP_requests": 0,
+  "formal_database_access": false,
+  "private_evaluator_access": false,
+  "new_window_or_acquisition_release": false,
+  "report_sha256": "0591bac980e2a2ac83a5191898c19314f936f8d806b00b25ce2d1a0f087579f6",
+  "publication_scope": [
+    "1988-01-01",
+    "2026-09-21"
+  ]
+}
