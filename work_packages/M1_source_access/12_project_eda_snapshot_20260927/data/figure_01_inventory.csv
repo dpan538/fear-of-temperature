@@ -1,0 +1,5 @@
+source,unit,dated,saved_original,readable_text,checkpoint
+UK,independent parent,248035,248035,248035,UK read-only DB + 12:36 UTC source-text audit
+US selected,selected parent,33544,17930,17930,10:53 UTC checkpoint + 125 committed EPA originals
+EU,preparatory Work,50578,15455,15299,10:53 UTC; 27 placeholder-only extractions excluded
+AU verified,original parent,5,5,5,10:53 UTC checkpoint

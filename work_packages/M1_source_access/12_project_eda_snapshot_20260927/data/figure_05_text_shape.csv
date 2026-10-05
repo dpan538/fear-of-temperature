@@ -1,0 +1,37 @@
+series,measure,quantile,value,record_count,source
+ministerial_written_answer,character_count,p00,58.0,235420,UK
+ministerial_written_answer,character_count,p10,344.0,235420,UK
+ministerial_written_answer,character_count,p25,437.0,235420,UK
+ministerial_written_answer,character_count,p50,513.0,235420,UK
+ministerial_written_answer,character_count,p75,861.0,235420,UK
+ministerial_written_answer,character_count,p90,1405.0,235420,UK
+ministerial_written_answer,character_count,p95,1945.0,235420,UK
+ministerial_written_answer,character_count,p99,3917.8099999999977,235420,UK
+ministerial_written_answer,character_count,p100,50543.0,235420,UK
+ministerial_written_answer,character_count,mean,782.110177555008,235420,UK
+policy_document,character_count,p00,413.0,1054,UK
+policy_document,character_count,p10,7324.800000000001,1054,UK
+policy_document,character_count,p25,16423.5,1054,UK
+policy_document,character_count,p50,46996.0,1054,UK
+policy_document,character_count,p75,132368.75,1054,UK
+policy_document,character_count,p90,291514.5,1054,UK
+policy_document,character_count,p95,467371.7499999998,1054,UK
+policy_document,character_count,p99,1668543.6900000006,1054,UK
+policy_document,character_count,p100,4568583.0,1054,UK
+policy_document,character_count,mean,143601.01897533206,1054,UK
+ministerial_written_statement,character_count,p00,37.0,2705,UK
+ministerial_written_statement,character_count,p10,258.0,2705,UK
+ministerial_written_statement,character_count,p25,258.0,2705,UK
+ministerial_written_statement,character_count,p50,1019.0,2705,UK
+ministerial_written_statement,character_count,p75,2555.0,2705,UK
+ministerial_written_statement,character_count,p90,4376.6,2705,UK
+ministerial_written_statement,character_count,p95,5750.999999999998,2705,UK
+ministerial_written_statement,character_count,p99,9851.72,2705,UK
+ministerial_written_statement,character_count,p100,51300.0,2705,UK
+ministerial_written_statement,character_count,mean,1801.203696857671,2705,UK
+US EPA bridge,character_count,p10,4994.6,125,US
+US EPA bridge,character_count,p25,14440.0,125,US
+US EPA bridge,character_count,p50,23042.0,125,US
+US EPA bridge,character_count,p75,37474.0,125,US
+US EPA bridge,character_count,p90,67188.0,125,US
+US EPA bridge,character_count,p95,118047.39999999997,125,US

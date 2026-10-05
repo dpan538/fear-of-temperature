@@ -1,0 +1,7 @@
+issuer_scope,role,text_months,incremental_government_months,qualification
+UK,Government,434,434.0,full or bounded official source
+EU,Government,198,27.0,full or bounded official source
+US,Government,205,4.0,full or bounded official source
+AU,Government,5,0.0,full or bounded official source
+UK (Guardian),Media pilot,3,,sampled bodies; Dec candidates only
+UK (petitions),Public pilot,19,,published q=climate query months only

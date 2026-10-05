@@ -1,0 +1,4 @@
+role,parent_id,version_or_hash,locator,date,anticipated_harm
+government,doc_4f93a3a7854e81261140,cntv_8ad36c771ecd32a3ebb2 | cntv_a0775688218a9a4593e6,page=15;block=4 | page=15;block=5 | page=15;block=19,2015-02-25,0
+media,https://www.theguardian.com/environment/2015/nov/30/cameron-calls-for-global-deal-for-global-problem-at-climate-summit,b67e78d246ff7d90b4b2d3ed7fdbe043d54ff981dc2048495a3d7ef2aecc4eb3,body checked,2015-11-30T07:53:37.000Z,0
+public,https://petition.parliament.uk/archived/petitions/117267,fd9fca2deba36ca4643655f0c3b6d16471026063cae2beb96fad6090b6a4d8c8,petitioner-authored fields,2016-01-07T12:03:17.899Z,0

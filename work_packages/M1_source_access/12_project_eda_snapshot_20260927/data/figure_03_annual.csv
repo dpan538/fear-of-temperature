@@ -1,0 +1,176 @@
+year,genre,count,source,readable_count
+1988,ministerial_written_answer,9375,UK,
+1989,ministerial_written_answer,10779,UK,
+1990,ministerial_written_answer,11289,UK,
+1991,ministerial_written_answer,7154,UK,
+1992,ministerial_written_answer,6815,UK,
+1993,ministerial_written_answer,7693,UK,
+1993,policy_paper,1,UK,
+1994,ministerial_written_answer,7419,UK,
+1994,policy_paper,2,UK,
+1995,ministerial_written_answer,7138,UK,
+1996,ministerial_written_answer,6831,UK,
+1997,ministerial_written_answer,7507,UK,
+1997,policy_paper,1,UK,
+1998,ministerial_written_answer,9339,UK,
+1998,policy_paper,1,UK,
+1999,ministerial_written_answer,8244,UK,
+1999,policy_paper,2,UK,
+2000,ministerial_written_answer,8917,UK,
+2000,policy_paper,3,UK,
+2001,ministerial_written_answer,7562,UK,
+2001,policy_paper,2,UK,
+2002,ministerial_written_answer,8458,UK,
+2002,ministerial_written_statement,31,UK,
+2002,policy_paper,1,UK,
+2003,ministerial_written_answer,5838,UK,
+2003,ministerial_written_statement,219,UK,
+2003,policy_paper,2,UK,
+2004,ministerial_written_answer,7261,UK,
+2004,ministerial_written_statement,186,UK,
+2004,policy_paper,4,UK,
+2005,ministerial_written_answer,3919,UK,
+2005,ministerial_written_statement,138,UK,
+2005,policy_paper,6,UK,
+2006,ministerial_written_answer,4171,UK,
+2006,ministerial_written_statement,195,UK,
+2006,policy_paper,3,UK,
+2007,ministerial_written_answer,4793,UK,
+2007,ministerial_written_statement,193,UK,
+2007,policy_paper,10,UK,
+2008,ministerial_written_answer,5321,UK,
+2008,ministerial_written_statement,142,UK,
+2008,policy_paper,13,UK,
+2009,ministerial_written_answer,4690,UK,
+2009,ministerial_written_statement,134,UK,
+2009,policy_paper,39,UK,
+2010,ministerial_written_answer,3394,UK,
+2010,ministerial_written_statement,103,UK,
+2010,policy_paper,14,UK,
+2011,ministerial_written_answer,5245,UK,
+2011,ministerial_written_statement,125,UK,
+2011,policy_paper,91,UK,
+2012,ministerial_written_answer,4165,UK,
+2012,ministerial_written_statement,102,UK,
+2012,policy_paper,76,UK,
+2013,ministerial_written_answer,3704,UK,
+2013,ministerial_written_statement,145,UK,
+2013,policy_paper,114,UK,
+2014,ministerial_written_answer,2949,UK,
+2014,ministerial_written_statement,74,UK,
+2014,policy_paper,51,UK,
+2015,ministerial_written_answer,2674,UK,
+2015,ministerial_written_statement,64,UK,
+2015,policy_paper,32,UK,
+2016,ministerial_written_answer,3465,UK,
+2016,ministerial_written_statement,55,UK,
+2016,policy_paper,32,UK,
+2017,ministerial_written_answer,3992,UK,
+2017,ministerial_written_statement,72,UK,
+2017,policy_paper,27,UK,
+2018,ministerial_written_answer,4498,UK,
+2018,ministerial_written_statement,101,UK,
+2018,policy_paper,33,UK,
+2019,ministerial_written_answer,4296,UK,
+2019,ministerial_written_statement,108,UK,
+2019,policy_paper,18,UK,
+2020,ministerial_written_answer,5573,UK,
+2020,ministerial_written_statement,78,UK,
+2020,policy_paper,23,UK,
+2021,ministerial_written_answer,6612,UK,
+2021,ministerial_written_statement,90,UK,
+2021,policy_paper,58,UK,
+2022,ministerial_written_answer,7698,UK,
+2022,ministerial_written_statement,84,UK,
+2022,policy_paper,85,UK,
+2023,guidance,1,UK,
+2023,ministerial_written_answer,6086,UK,
+2023,ministerial_written_statement,70,UK,
+2023,policy_paper,76,UK,
+2024,ministerial_written_answer,4643,UK,
+2024,ministerial_written_statement,77,UK,
+2024,policy_paper,75,UK,
+2025,ministerial_written_answer,8785,UK,
+2025,ministerial_written_statement,87,UK,
+2025,policy_paper,84,UK,
+2026,ministerial_written_answer,5937,UK,
+2026,ministerial_written_statement,78,UK,
+2026,policy_paper,75,UK,
+1988,preparatory Works,1555,EU,1021
+1989,preparatory Works,1008,EU,755
+1990,preparatory Works,862,EU,544
+1991,preparatory Works,832,EU,661
+1992,preparatory Works,921,EU,565
+1993,preparatory Works,824,EU,664
+1994,preparatory Works,801,EU,704
+1995,preparatory Works,844,EU,705
+1996,preparatory Works,822,EU,811
+1997,preparatory Works,817,EU,749
+1998,preparatory Works,929,EU,692
+1999,preparatory Works,783,EU,518
+2000,preparatory Works,1059,EU,1037
+2001,preparatory Works,1273,EU,1250
+2002,preparatory Works,1999,EU,1957
+2003,preparatory Works,1792,EU,1752
+2004,preparatory Works,1586,EU,914
+2005,preparatory Works,1860,EU,0
+2006,preparatory Works,2259,EU,0
+2007,preparatory Works,2365,EU,0
+2008,preparatory Works,2378,EU,0
+2009,preparatory Works,2058,EU,0
+2010,preparatory Works,2135,EU,0
+2011,preparatory Works,2288,EU,0
+2012,preparatory Works,1963,EU,0
+2013,preparatory Works,2131,EU,0
+2014,preparatory Works,1734,EU,0
+2015,preparatory Works,1009,EU,0
+2016,preparatory Works,1057,EU,0
+2017,preparatory Works,1111,EU,0
+2018,preparatory Works,1171,EU,0
+2019,preparatory Works,810,EU,0
+2020,preparatory Works,1034,EU,0
+2021,preparatory Works,1142,EU,0
+2022,preparatory Works,1035,EU,0
+2023,preparatory Works,999,EU,0
+2024,preparatory Works,419,EU,0
+2025,preparatory Works,537,EU,0
+2026,preparatory Works,376,EU,0
+1988,selected parents,0,US,0
+1989,selected parents,0,US,0
+1990,selected parents,0,US,0
+1991,selected parents,0,US,0
+1992,selected parents,0,US,0
+1993,selected parents,0,US,0
+1994,selected parents,39,US,39
+1995,selected parents,1443,US,1443
+1996,selected parents,1371,US,1371
+1997,selected parents,1230,US,1230
+1998,selected parents,1233,US,1233
+1999,selected parents,1342,US,1342
+2000,selected parents,1129,US,1129
+2001,selected parents,1302,US,1302
+2002,selected parents,1148,US,1148
+2003,selected parents,1043,US,1043
+2004,selected parents,913,US,913
+2005,selected parents,1027,US,1027
+2006,selected parents,973,US,973
+2007,selected parents,926,US,926
+2008,selected parents,927,US,927
+2009,selected parents,842,US,842
+2010,selected parents,1009,US,917
+2011,selected parents,1165,US,0
+2012,selected parents,1240,US,0
+2013,selected parents,1081,US,3
+2014,selected parents,1149,US,6
+2015,selected parents,1244,US,107
+2016,selected parents,1166,US,6
+2017,selected parents,1085,US,3
+2018,selected parents,1011,US,0
+2019,selected parents,1037,US,0
+2020,selected parents,973,US,0
+2021,selected parents,936,US,0
+2022,selected parents,915,US,0
+2023,selected parents,754,US,0
+2024,selected parents,762,US,0
+2025,selected parents,667,US,0
+2026,selected parents,462,US,0
