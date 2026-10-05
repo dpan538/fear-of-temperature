@@ -1,0 +1,11 @@
+[
+  {
+    "request_id": "188e83c4903d51777bc577b5165f0651",
+    "source_id": "nzherald",
+    "payload_state": "access_challenge",
+    "visible_text_characters": 0,
+    "article_body_claimed": false,
+    "stop_source": true,
+    "note": "HTTP success alone never establishes readable catalogue/article content; do not execute challenge scripts or bypass."
+  }
+]

@@ -1,0 +1,74 @@
+{
+  "correction_path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/guardian_body_check_correction.csv",
+  "correction_sha256": "ebe60458396368d7176c72e5ebf27bce5e59de07c524dfcdfd408790040fcb89",
+  "body_checks": [
+    {
+      "diagnostic_id": "legacy:guardian:1",
+      "parent_url": "https://www.theguardian.com/environment/2015/dec/13/conservatives-energy-green-cuts-policies-paris-deal",
+      "original_publication_value": "2015-12-13T19:10:38.000Z",
+      "evidence_path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/media_pilot_review.csv",
+      "evidence_sha256": "69c1843ab063f3a98b6892f9944ccd5f1e61ae724f0e34f609e6cfa3c3ddc956",
+      "content_hash_receipt": "{\"response_sha256\": \"8d8c280ac0ef2843cba65d7d1f0d9b8dcfc2d8056e6fbd5fafe6cfe7eb52e6f6\"}",
+      "original_scope": "Historical environment / title-selected body diagnostics; not an all-topic month frame",
+      "current_pilot_slot_eligible": false,
+      "full_body_locally_retained": false,
+      "diagnostic_note": "Receipts only; prior excerpt/model labels untouched, not copied or rerun. A historical checksum is not a current body or historical version guarantee."
+    },
+    {
+      "diagnostic_id": "legacy:guardian:2",
+      "parent_url": "https://www.theguardian.com/environment/true-north/2015/dec/10/activists-to-defy-protest-ban-with-giant-civil-disobedience-against-paris-climate-pact",
+      "original_publication_value": "2015-12-10T09:51:55.000Z",
+      "evidence_path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_body_spot_checks.csv",
+      "evidence_sha256": "e11eb3525301ecaa9044efba54e84caed83fe7b435e6638005a61e6e9ca41fc4",
+      "content_hash_receipt": "{\"html_sha256\": \"232339d2bfab68d735f55ffebf12d461a4d50b9b84985560b6379cb29730fc48\"}",
+      "original_scope": "Historical environment / title-selected body diagnostics; not an all-topic month frame",
+      "current_pilot_slot_eligible": false,
+      "full_body_locally_retained": false,
+      "diagnostic_note": "Receipts only; prior excerpt/model labels untouched, not copied or rerun. A historical checksum is not a current body or historical version guarantee."
+    },
+    {
+      "diagnostic_id": "legacy:guardian:3",
+      "parent_url": "https://www.theguardian.com/environment/2015/dec/12/climate-change-seychelles-cop21-economy-collapse",
+      "original_publication_value": "2015-12-12T20:00:02.000Z",
+      "evidence_path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_body_spot_checks.csv",
+      "evidence_sha256": "e11eb3525301ecaa9044efba54e84caed83fe7b435e6638005a61e6e9ca41fc4",
+      "content_hash_receipt": "{\"html_sha256\": \"cda5cebf6bc5a5d8831688f7c07aefd40c9416c4be682f110d70b7e614e40884\"}",
+      "original_scope": "Historical environment / title-selected body diagnostics; not an all-topic month frame",
+      "current_pilot_slot_eligible": false,
+      "full_body_locally_retained": false,
+      "diagnostic_note": "Receipts only; prior excerpt/model labels untouched, not copied or rerun. A historical checksum is not a current body or historical version guarantee."
+    },
+    {
+      "diagnostic_id": "legacy:guardian:4",
+      "parent_url": "https://www.theguardian.com/environment/2015/dec/14/pentagon-to-lose-emissions-exemption-under-paris-climate-deal",
+      "original_publication_value": "2015-12-14T12:09:09.000Z",
+      "evidence_path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_body_spot_checks.csv",
+      "evidence_sha256": "e11eb3525301ecaa9044efba54e84caed83fe7b435e6638005a61e6e9ca41fc4",
+      "content_hash_receipt": "{\"html_sha256\": \"83b4472d3b24dbf825c384e16eb41041b2f521f2d29ff199b07a4c172ed52041\"}",
+      "original_scope": "Historical environment / title-selected body diagnostics; not an all-topic month frame",
+      "current_pilot_slot_eligible": false,
+      "full_body_locally_retained": false,
+      "diagnostic_note": "Receipts only; prior excerpt/model labels untouched, not copied or rerun. A historical checksum is not a current body or historical version guarantee."
+    }
+  ],
+  "archive_receipts": [
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_archive_days.csv",
+      "sha256": "b221c0f5bfdf081fbc6c4f89657a2a42052e62f3725788b2944830a85c3a245b",
+      "rows": 31,
+      "scope": "Environment-labelled historical archive pool; never current background frame or monthly population denominator"
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_archive_cards.csv",
+      "sha256": "9e2a88ade805d415e5bc8c2b77d9cd09254da3b45a4d0a04db3fea19608bc82e",
+      "rows": 396,
+      "scope": "Environment-labelled historical archive pool; never current background frame or monthly population denominator"
+    },
+    {
+      "path": "work_packages/M1_source_access/11_paris_readiness_pilot_20260927/round2_december_2015/guardian_dec2015_article_metadata.csv",
+      "sha256": "85ff132ea1b0210fae600b2c979efcd8f86f84baa143911bd218257b84576598",
+      "rows": 396,
+      "scope": "Environment-labelled historical archive pool; never current background frame or monthly population denominator"
+    }
+  ]
+}

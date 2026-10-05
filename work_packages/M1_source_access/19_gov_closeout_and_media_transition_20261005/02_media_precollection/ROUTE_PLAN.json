@@ -1,0 +1,31 @@
+{
+  "version": "route_plan_v1",
+  "frozen_at_utc": "2026-10-04T19:15:33.755404+00:00",
+  "source_selection_sha256": "11abb4f9421424ba9330b1ae133e8ee467722f639131c54de139a6d6b04bf8bb",
+  "article_requests_allowed": false,
+  "stop_rule": "Existing web-tool timeout/robots/access exceptions are terminal for that publisher; no alternate client/host bypass. No automatic redirects or retries.",
+  "allowlisted_probes": [
+    {
+      "source_id": "nzherald",
+      "purpose": "official_archive_catalogue_metadata",
+      "url": "https://natlib.govt.nz/records/42616616",
+      "allowed_hosts": [
+        "natlib.govt.nz"
+      ],
+      "object_kind": "library_catalogue_HTML",
+      "basis": "Official third-party catalogue identity check, not publisher content or rights bypass; no article page or OCR download."
+    }
+  ],
+  "unattempted_article_routes": {
+    "irish_times": "month_day_index_transport_stop",
+    "dw": "robots_access_stop",
+    "guardian": "rights_gate_no_new_scraping",
+    "bbc": "official_terms_robots_stop",
+    "smh": "official_access_probe_stop",
+    "abc": "retired_archive_no_date_frame",
+    "nyt": "API_key_entitlement_not_established",
+    "npr": "robots_access_stop",
+    "nzherald": "publisher_rights_gate_catalogue_only",
+    "rnz": "rights_gate_no_new_scraping"
+  }
+}

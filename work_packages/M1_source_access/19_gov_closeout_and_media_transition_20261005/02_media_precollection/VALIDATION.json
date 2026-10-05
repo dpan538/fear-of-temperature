@@ -1,0 +1,89 @@
+{
+  "validated_at_utc": "2026-10-04T19:54:21.430884+00:00",
+  "schema_version": "media_schema_v2",
+  "sqlite_user_version": 2,
+  "parent_id_rule": "source_edition_native_v2",
+  "no_network_test_exit_code": 0,
+  "no_network_test_count": 37,
+  "test_output_sha256": "361b09a9a2cbb48e28342b9f4c44c93b2ae97bd195364ad3dc72469ef0c68ab1",
+  "schema_sha256": "b9c460de6b609e35e59a8e3a23c74fcb3e301f6de2c7554125639f042b5d8d98",
+  "prototype_sha256": "aae79bdb96228850ad79903b91225a5d24f5d468ee56975ffa44dd1d98aec999",
+  "tests_sha256": "ab34d2f1c2b5980e94abd5600a741fe2a51adffaa7c34386f33b0b41af23c2a6",
+  "actual_table_counts": {
+    "publisher": 10,
+    "outlet": 10,
+    "edition": 10,
+    "source_era": 30,
+    "frame": 30,
+    "article_parent": 0,
+    "paper_issue": 0,
+    "article_locator": 0,
+    "raw_object": 1,
+    "article_version": 0,
+    "frame_membership": 0,
+    "story_cluster": 0,
+    "publication_relationship": 0,
+    "attributed_voice": 0,
+    "provenance_assertion": 0,
+    "sample_slot": 150,
+    "request_attempt": 1,
+    "legacy_diagnostic": 4
+  },
+  "foreign_key_check": "ok",
+  "integrity_check": "ok",
+  "region_quotas": {
+    "AU": 30,
+    "EU_Europe": 30,
+    "NZ": 30,
+    "UK": 30,
+    "US": 30
+  },
+  "known_pi_count": 0,
+  "monthly_denominator_nonnull_count": 0,
+  "new_article_parent_count": 0,
+  "readable_new_article_version_count": 0,
+  "paper_issue_and_locator_count": 0,
+  "edition_relationships_real_acquisition_validated": false,
+  "edition_relationships_synthetic_constraints_validated": true,
+  "checks_added": [
+    "same source, different editions, reused native ID preserves two parents",
+    "same edition duplicate rejected",
+    "source/edition mismatch rejected on insert and update",
+    "parent helper includes edition and issue-local native namespace",
+    "frame parser carries declared edition scope",
+    "paper locator rejects other-edition issue on insert/update"
+  ],
+  "original_150_slots_byte_identical": true,
+  "original_request_raw_and_HTTP_stop_hashes_unchanged": [
+    {
+      "path": "HTTP_STATE.json",
+      "bytes": 4184,
+      "sha256": "31281795fbf0315f38971ab7f862cbf2fe8dee0bee45b873aed72e04376eb372"
+    },
+    {
+      "path": "raw/188e83c4903d51777bc577b5165f0651.html",
+      "bytes": 212,
+      "sha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+    },
+    {
+      "path": "requests/188e83c4903d51777bc577b5165f0651.json",
+      "bytes": 741,
+      "sha256": "9499ca4ab2dfd71292bbb6ca68b0fe0ee248b98dbf58daef0f3422ce2d432d54"
+    }
+  ],
+  "new_HTTP_requests": 0,
+  "raw_hashes_verified": true,
+  "source_selection_sha256": "11abb4f9421424ba9330b1ae133e8ee467722f639131c54de139a6d6b04bf8bb",
+  "storage_check": {
+    "free_bytes": 20491079680,
+    "media_raw_bytes": 212,
+    "media_cap_remaining_bytes": 134217516,
+    "government_reserved_bytes": 2147483648,
+    "other_activity_remaining_bytes": 1073741612,
+    "reserved_bytes": 3388334124,
+    "floor_bytes": 16106127360
+  },
+  "production_government_access": "none; no DB reads/writes",
+  "actual_and_fixture_records_separate": true,
+  "v1_receipt": "versions/v1/VALIDATION.json"
+}

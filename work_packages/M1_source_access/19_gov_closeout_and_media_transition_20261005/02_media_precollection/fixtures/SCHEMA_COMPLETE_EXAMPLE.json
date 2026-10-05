@@ -1,0 +1,176 @@
+{
+  "fixture_only": true,
+  "not_real_article": true,
+  "excluded_from_real_DB_and_slots": true,
+  "purpose": "Demonstrate full schema fields, two distinct publications of one synthetic wire story and print/OCR locator without claiming acquisition.",
+  "article_parent": {
+    "parent_id": "article:v2:7ae481c8edd700f364945cf9173969b2",
+    "source_id": "fixture:outlet:A",
+    "edition_id": "fixture:edition:UK",
+    "native_id": "[\"native_article\",\"A-101\"]",
+    "native_id_basis": "provider_article_ID_with_declared_edition",
+    "canonical_url": "https://example.invalid/A-101",
+    "language": "en",
+    "genre": "news",
+    "publishing_role": "media",
+    "first_publication_value": "2015-12-01T09:00:00+00:00",
+    "first_date_precision": "timestamp_with_offset",
+    "first_timezone": "+00:00",
+    "first_date_min": "2015-12-01T09:00:00Z",
+    "first_date_max": "2015-12-01T09:00:00Z",
+    "date_evidence": "synthetic JSON-LD",
+    "byline": "Synthetic Editor",
+    "author_geography_json": null,
+    "reported_places_json": null,
+    "identity_state": "fixture"
+  },
+  "second_adopting_parent": {
+    "parent_id": "article:v2:a132bbbb44d29c8ad83b9ff43ff20526",
+    "source_id": "fixture:outlet:B",
+    "native_id": "[\"native_article\",\"B-202\"]",
+    "first_publication_value": "2015-12-02",
+    "first_date_precision": "day",
+    "publishing_role": "media",
+    "edition_market": "NZ synthetic",
+    "edition_id": "fixture:edition:NZ",
+    "canonical_url": "https://example.invalid/B-202",
+    "native_id_basis": "provider_article_ID_with_declared_edition"
+  },
+  "article_version": {
+    "version_id": "fixture:version:A:1",
+    "parent_id": "article:v2:7ae481c8edd700f364945cf9173969b2",
+    "raw_id": "fixture:raw:1",
+    "raw_publication_value": "2015-12-01T09:00:00+00:00",
+    "updated_value": "2025-07-02T10:00:00Z",
+    "updated_precision": "timestamp_with_offset",
+    "content_version_time": null,
+    "content_time_precision": "unknown",
+    "retrieved_at_utc": "2026-10-05T00:00:00Z",
+    "retrieval_precision": "second",
+    "body_storage_path": null,
+    "body_sha256": "fb4a4aa5a87f622156d770add163211e5366dc00e186a92bb7134e44f6204b04",
+    "readability_status": "fixture_readable",
+    "preview_status": "fixture_not_preview",
+    "ocr_quality_status": "not_applicable_to_HTML",
+    "layout_status": "fixture",
+    "rights_status": "synthetic_owned",
+    "access_status": "fixture_no_network",
+    "extractor_version": "fixture_v1",
+    "version_evidence": "Synthetic raw; no assertion of historical body equality"
+  },
+  "raw_object": {
+    "raw_id": "fixture:raw:1",
+    "path": "fixtures/synthetic_article.html",
+    "sha256": "fd506037dba60a17bff84b975516280ac6ec530f7b80db7544c3f93a457134c6",
+    "byte_count": 486,
+    "mime_type": "text/html",
+    "object_kind": "synthetic_fixture",
+    "is_partial": 0,
+    "rights_status": "synthetic_owned",
+    "redistribution_status": "fixture_only",
+    "request_id": null,
+    "retained_at_utc": null
+  },
+  "paper_issue_and_locator_example": {
+    "issue_id": "issue:v2:d954ac1f2eb572ce58bcacaea7c6c145",
+    "edition_id": "fixture:print:IE",
+    "issue_date_value": "1995-07-01",
+    "date_precision": "day",
+    "volume": null,
+    "issue_number": null,
+    "issue_locator": "fixture:catalogue:issue:1",
+    "evidence_url": "https://example.invalid/issue",
+    "locator_id": "fixture:locator:1",
+    "parent_id": "article:v2:d3144530933bfe8e14b6227d130a1018",
+    "page_start": "3",
+    "page_end": "4",
+    "ocr_native_id": "fixture:ocr:article:1",
+    "ocr_bbox_json": {
+      "coordinate_unit": "pixels",
+      "page_3": [
+        10,
+        20,
+        300,
+        700
+      ],
+      "page_4": [
+        10,
+        20,
+        300,
+        300
+      ]
+    },
+    "layout_status": "fixture_multi_column",
+    "boundary_status": "fixture_continuation_same_parent",
+    "locator_evidence": "Synthetic only; no newspaper issue downloaded",
+    "provider_native_issue_id": "fixture:native:issue:1995-07-01",
+    "provider_native_article_id": "fixture:native:article:1",
+    "source_id": "fixture:print_source:IE",
+    "native_id": "[\"issue_article\",\"fixture:native:issue:1995-07-01\",\"fixture:native:article:1\"]",
+    "native_id_basis": "provider_issue_article_IDs_with_declared_edition",
+    "identity_relation_verified": "synthetic_only; no real acquisition"
+  },
+  "story_cluster": {
+    "story_id": "fixture:wire:99",
+    "cluster_kind": "wire_story",
+    "origin_provider": "SyntheticWire",
+    "origin_native_id": "wire-99",
+    "origin_first_date": "2015-12-01",
+    "verification_state": "fixture",
+    "evidence": "synthetic native relationship"
+  },
+  "publication_relationships": [
+    {
+      "parent_id": "article:v2:7ae481c8edd700f364945cf9173969b2",
+      "story_id": "fixture:wire:99",
+      "relation_kind": "wire_adoption",
+      "publication_instance_retained": 1,
+      "verification_state": "fixture"
+    },
+    {
+      "parent_id": "article:v2:a132bbbb44d29c8ad83b9ff43ff20526",
+      "story_id": "fixture:wire:99",
+      "relation_kind": "wire_adoption",
+      "publication_instance_retained": 1,
+      "verification_state": "fixture"
+    }
+  ],
+  "attributed_voice": {
+    "voice_id": "fixture:quoted:1",
+    "version_id": "fixture:version:A:1",
+    "voice_kind": "quoted_speaker",
+    "speaker_name": "Synthetic councillor",
+    "speaker_role": "government",
+    "speaker_geography_json": null,
+    "quotation_locator": "fixture paragraph 1",
+    "attribution_state": "fixture",
+    "quotation_and_publishing_role_separate": 1
+  },
+  "sampling": {
+    "frame_id": "fixture:partial",
+    "selection_design": "non_probability_route_pilot_first_five_stable_urls",
+    "pi": null,
+    "pi_basis": null,
+    "planned_region_weight": 0.2,
+    "planned_source_within_region_weight": 0.5,
+    "observed_inventory_weight": 1
+  },
+  "schema_version": "media_schema_v2",
+  "parent_id_rule": "source_edition_native_v2",
+  "same_source_same_native_ID_two_editions_example": [
+    {
+      "parent_id": "article:v2:7ae481c8edd700f364945cf9173969b2",
+      "source_id": "fixture:outlet:A",
+      "edition_id": "fixture:edition:UK",
+      "native_id": "[\"native_article\",\"A-101\"]",
+      "fixture_only": true
+    },
+    {
+      "parent_id": "article:v2:ae35fcc0cbdeccaa18a745218840f75f",
+      "source_id": "fixture:outlet:A",
+      "edition_id": "fixture:edition:UK:evening",
+      "native_id": "[\"native_article\",\"A-101\"]",
+      "fixture_only": true
+    }
+  ]
+}
