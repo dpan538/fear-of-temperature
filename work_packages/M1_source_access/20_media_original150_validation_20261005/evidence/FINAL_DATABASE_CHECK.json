@@ -1,0 +1,35 @@
+{
+  "checked_at_utc": "2026-10-05T03:32:53.731615+00:00",
+  "actual_counts": {
+    "article_parents": 0,
+    "article_versions": 0,
+    "verified_full_bodies": 0,
+    "paper_issues": 0,
+    "OCR_locators": 0,
+    "raw_objects": 0,
+    "requests": 0
+  },
+  "counts_after_offline_reopen": {
+    "article_parents": 0,
+    "article_versions": 0,
+    "verified_full_bodies": 0,
+    "paper_issues": 0,
+    "OCR_locators": 0,
+    "raw_objects": 0,
+    "requests": 0
+  },
+  "candidate_terminal_mapping_rows": 5,
+  "original_unfilled_parent_slots": 150,
+  "original_slots": 150,
+  "integrity_check": [
+    [
+      "ok"
+    ]
+  ],
+  "foreign_key_check": [],
+  "frame_visits": 1,
+  "observed_article_urls": 0,
+  "new_article_requests": 0,
+  "synthetic_rows_in_actual_database": 0,
+  "no_extra_network_on_reopen": true
+}

@@ -1,0 +1,46 @@
+{
+  "phase": "first_owner_turn_ready_for_one_coordinator_acceptance",
+  "as_of_utc": "2026-10-05T03:25:04.418262+00:00",
+  "execution_deadline_utc": "2026-10-05T03:45:48+00:00",
+  "code_frozen": true,
+  "no_new_candidate_search": true,
+  "targeted_checks_passed": 19,
+  "synthetic_chain_scenarios_passed": 1,
+  "synthetic_chain_article_requests": 5,
+  "synthetic_chain_actual_project_rows": 0,
+  "real_database_counts": {
+    "article_parents": 0,
+    "article_versions": 0,
+    "verified_full_bodies": 0,
+    "paper_issues": 0,
+    "OCR_locators": 0,
+    "raw_objects": 0,
+    "requests": 0
+  },
+  "actual_policy_requests": 4,
+  "actual_frame_requests": 0,
+  "actual_body_requests": 0,
+  "new_raw_bytes": 201722,
+  "combined_raw_bytes": 201934,
+  "partial_bytes": 0,
+  "original_slots": 150,
+  "original_source_successes": 0,
+  "slot_status_counts": {
+    "original_stop_preserved_no_article_request": 135,
+    "scope_changed_not_applicable_before2017": 10,
+    "scope_changed_not_attempted_pending_release_or_frame": 5
+  },
+  "candidate_body_cap_if_released": 5,
+  "candidate": "edjnet / European English /2025-07",
+  "unknowns": [
+    "Actual date-only search links",
+    "article identity/date and visible-body selector/completeness",
+    "per-article licence exceptions and member/origin/syndication mapping",
+    "historical content-version equality",
+    "OCR not implemented/acquired"
+  ],
+  "article_release_pending": true,
+  "nine_frozen_input_hashes_unchanged": true,
+  "gov_database_reads_writes": 0,
+  "sealed_audit_accesses": 0
+}

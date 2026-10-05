@@ -1,0 +1,16 @@
+{
+  "updated_at_utc": "2026-10-05T03:40:14.687440+00:00",
+  "state": "closed_repairs_accepted_real_articles_unvalidated_discovery_gap",
+  "owner_thread": "01a10638-e552-7313-a19d-88a0c672255d",
+  "owner_status": "idle_completed",
+  "owner_turns_completed": 2,
+  "operational_acceptances": 1,
+  "deadline_not_extended": true,
+  "body_requests": 0,
+  "original150_unfilled": 150,
+  "planned_slots_each_geography": 30,
+  "final_acceptance": "COORDINATOR_FINAL_ACCEPTANCE.json",
+  "report": "../COORDINATOR_FINAL_REVIEW_zh.md",
+  "previous_automation": "PAUSED",
+  "no_automatic_next_round": true
+}

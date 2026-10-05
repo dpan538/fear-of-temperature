@@ -1,0 +1,10 @@
+{
+  "observed_at_utc": "2026-10-05T03:25:04.418262+00:00",
+  "free_bytes": 20260630528,
+  "media_retained_raw_and_text_bytes": 201934,
+  "cap_remaining_bytes": 134015794,
+  "reserved_bytes": 3388132402,
+  "floor_bytes": 16106127360,
+  "prior_media_raw_bytes": 212,
+  "derived_body_text_also_charged_to_cap": true
+}

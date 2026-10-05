@@ -1,0 +1,20 @@
+{
+  "request_id": "7cbc0ac707d65b76134aaa0a2d96f8d4",
+  "source_id": "opendemocracy",
+  "request_url": "https://www.opendemocracy.net/syndication-2/",
+  "purpose": "policy_licence",
+  "requested_at_utc": "2026-10-05T03:05:39.596716+00:00",
+  "status": "raw_retained",
+  "http_status": 200,
+  "byte_count": 90327,
+  "raw_path": "raw/7cbc0ac707d65b76134aaa0a2d96f8d4.bin",
+  "mime_type": "text/html; charset=utf-8",
+  "response_headers": {
+    "Content-Length": "90327",
+    "content-type": "text/html; charset=utf-8",
+    "etag": "W/\"160d7-RFWNxyNdNByuxdG9C0733cN/hwU\"",
+    "Date": "Mon, 05 Oct 2026 03:05:40 GMT"
+  },
+  "sha256": "b60eb12c54c695f9d3edad456e5c533739a6727108e16481c75ead5e814f947a",
+  "finished_at_utc": "2026-10-05T03:05:40.690543+00:00"
+}

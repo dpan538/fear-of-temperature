@@ -1,0 +1,21 @@
+{
+  "status": "prepared_for_single_consolidated_review",
+  "created_at_utc": "2026-10-05T02:55:37.687094+00:00",
+  "review_basis": "Concrete changed behavior and exact route/evidence/digest; not entropy, coverage or length score targets.",
+  "necessary_checks": [
+    "19 source/scope/slots/schema/prototype/receipt/request-state digests still match INPUT_RECEIPT; no frozen evidence overwrite.",
+    "Persistent pilot transaction rollback and repeat-build/idempotence retain prior real article/version/request evidence; no unconditional unlink.",
+    "Cross-source/edition slot and frame membership plus provenance-parent/version inconsistency reject both insert and update.",
+    "Actual first-publication date precision/timezone/conflicts are separate from URL date, modified/retrieved dates and do not fill a wrong month.",
+    "At most150 total checked article instances,5 per declared source-month,30 per geography; old source slots retain distinct identity when candidates change.",
+    "Body evidence bound to exact raw/version/parent; preview/challenge/other-page Article not certified complete, and fixtures cannot populate actual rows.",
+    "Exact newly viable public route/access facts support each request; old halt/cooldown unchanged, no speculative alternate transport.",
+    "Candidate parser/code/schema/test digests match final owner ready receipt; network denied when running targeted tests.",
+    "Media prior212bytes plus newraw/partial/route evidence obey combined128MiB cap;2MiB object cap, serial2sec,15GiB reserve-aware floor/sharedlock and harddeadline.",
+    "All slots reach real acquired/metadata-only/unavailable/not-applicable/failed/unattempted states; no invented complete-month denominator/pi/national representativeness."
+  ],
+  "new_database_formal_government_access": false,
+  "private_audit_access": false,
+  "review_iterations_max": 1,
+  "article_network_released": false
+}

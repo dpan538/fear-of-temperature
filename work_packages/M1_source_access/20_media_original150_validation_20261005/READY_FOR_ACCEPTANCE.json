@@ -1,0 +1,37 @@
+{
+  "approved": false,
+  "kind": "owner_ready_receipt_not_execution_release",
+  "created_at_utc": "2026-10-05T03:25:04.418262+00:00",
+  "execution_code_sha256": {
+    "candidate/schema.sql": "c0790a6e0c5d9c1dc1dfd1172238a48a66dba373901069071b3bb2fc41250016",
+    "candidate/identity.py": "dacddc5e471ec4719b07c7b635e14c606258700cd34e64ef08308c3c4ffbbdc8",
+    "candidate/metadata.py": "46c22788febb7f4c6aa9ada49c8f0763a277d96316e3f841edabe73793ab9410",
+    "candidate/store.py": "4394b9a986e6ed3868ddb674fb23faea00efce6afa8a0c116ee6f98c29c89107",
+    "candidate/transport.py": "cd4a01ff16dd4ec54f7ec059d8357a0f5dcb2779396624ecb50cf545a3dde186",
+    "candidate/run.py": "edc1c9bf400a496d7eb6460e92b007f31fd18a4e19f211b1bec16b896a578f15"
+  },
+  "scope_sha256": "1f63ff083de649751983d0f88fc5afa82ac5b08ab0296c5164adc88f5a5e8bbf",
+  "route_plan_sha256": "db399ba02a450ff53cdfe05fbc7992821a608c9f0699f90df23b38c283cbc754",
+  "execution_deadline_utc": "2026-10-05T03:45:48+00:00",
+  "body_requests_proposed": 5,
+  "frame_search_pages_proposed": 1,
+  "real_body_requests_so_far": 0,
+  "fresh_budget": {
+    "free_bytes": 20260478976,
+    "media_retained_raw_and_text_bytes": 201934,
+    "cap_remaining_bytes": 134015794,
+    "reserved_bytes": 3388132402,
+    "floor_bytes": 16106127360,
+    "prior_media_raw_bytes": 212,
+    "derived_body_text_also_charged_to_cap": true
+  },
+  "exact_release_file_required": "control/MEDIA_EXECUTION_RELEASE.json",
+  "release_fields_required": [
+    "approved:true",
+    "code_sha256: six execution files",
+    "scope_sha256",
+    "route_plan_sha256",
+    "execution_deadline_utc"
+  ],
+  "ready": true
+}

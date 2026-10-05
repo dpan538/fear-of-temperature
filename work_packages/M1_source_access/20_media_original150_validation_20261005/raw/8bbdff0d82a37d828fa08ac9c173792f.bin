@@ -1,0 +1,62 @@
+User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+
+# ===========================================================================
+# File unico per i quattro siti del multisito, quindi valgono sia gli slug
+# italiani sia quelli inglesi.
+#
+# Le regole qui sotto escludono gli ARCHIVI generati automaticamente, non i
+# contenuti. Articoli, pagine, eventi singoli e pubblicazioni restano tutti
+# indicizzabili, e ogni sito ha la propria sitemap (in fondo) da cui i motori
+# raggiungono l'elenco completo dei contenuti.
+# ===========================================================================
+
+# --- Paginazione degli archivi -- aggiunta il 08/09/2026 -------------------
+# Le pagine /page/N/ e /pagina/N/ non hanno contenuto proprio: ripetono
+# articoli gia' raggiungibili dalla sitemap. Sono pero' migliaia, ognuna
+# costa un render completo di WordPress e nessuna viene mai richiesta due
+# volte, quindi non entra mai in cache. Nei log recenti risultano 141.001
+# richieste a /pagina/N/ e 53.955 a /page/N/.
+# Il 07/09/2026 un crawler ha portato il carico a 29 percorrendo
+# /storia-e-memoria/page/N/ e /migrazioni/page/N/.
+Disallow: /page/
+Disallow: /pagina/
+Disallow: /*/page/
+Disallow: /*/pagina/
+
+# --- Calendario eventi -- aggiunto il 07/09/2026 ---------------------------
+# The Events Calendar genera un URL per ogni combinazione di tag, categoria
+# e data: spazio praticamente infinito. Il 07/09/2026 un solo crawler ha
+# fatto 44.424 richieste in 12 ore, meta' del traffico di www.cci.tn.it,
+# generando circa 22 ore di lavoro PHP.
+# Le pagine dei SINGOLI eventi stanno su /event/nome/ e restano indicizzabili.
+Disallow: /eventi/elenco/
+Disallow: /eventi/tag/
+Disallow: /eventi/categoria/
+Disallow: /eventi/giorno/
+Disallow: /eventi/settimana/
+Disallow: /eventi/mese/
+Disallow: /events/list/
+Disallow: /events/tag/
+Disallow: /events/category/
+Disallow: /events/day/
+Disallow: /events/week/
+Disallow: /events/month/
+
+# esportazioni iCal e filtri per data
+Disallow: /*?outlook-ical=
+Disallow: /*&outlook-ical=
+Disallow: /*?ical=
+Disallow: /*?tribe-bar-date=
+Disallow: /*&tribe-bar-date=
+
+# --- Sitemap ---------------------------------------------------------------
+# Ogni sito ha la propria: prima del 08/09/2026 erano dichiarate solo quelle
+# di balcanicaucaso, quindi per cci ed edjnet i motori non avevano alcun
+# elenco dei contenuti e ripiegavano sulla scansione degli archivi.
+Sitemap: https://www.balcanicaucaso.org/sitemap_index.xml
+Sitemap: https://www.balcanicaucaso.org/en/sitemap_index.xml
+Sitemap: https://www.balcanicaucaso.org/bchs/sitemap_index.xml
+Sitemap: https://www.cci.tn.it/sitemap_index.xml
+Sitemap: https://www.europeandatajournalism.eu/sitemap_index.xml

@@ -1,0 +1,7 @@
+{
+  "query": "site:www.europeandatajournalism.eu after:2025-07-01 before:2025-08-01",
+  "selected_urls": [],
+  "selection": "lexicographic first5 before body; no replacement for ineligible or failed bodies",
+  "pi": null,
+  "monthly_denominator": null
+}

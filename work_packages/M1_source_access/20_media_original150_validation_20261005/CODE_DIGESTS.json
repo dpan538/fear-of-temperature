@@ -1,0 +1,24 @@
+{
+  "frozen_at_utc": "2026-10-05T03:25:04.418262+00:00",
+  "code_sha256": {
+    "candidate/schema.sql": "c0790a6e0c5d9c1dc1dfd1172238a48a66dba373901069071b3bb2fc41250016",
+    "candidate/identity.py": "dacddc5e471ec4719b07c7b635e14c606258700cd34e64ef08308c3c4ffbbdc8",
+    "candidate/metadata.py": "46c22788febb7f4c6aa9ada49c8f0763a277d96316e3f841edabe73793ab9410",
+    "candidate/store.py": "4394b9a986e6ed3868ddb674fb23faea00efce6afa8a0c116ee6f98c29c89107",
+    "candidate/transport.py": "cd4a01ff16dd4ec54f7ec059d8357a0f5dcb2779396624ecb50cf545a3dde186",
+    "candidate/run.py": "edc1c9bf400a496d7eb6460e92b007f31fd18a4e19f211b1bec16b896a578f15",
+    "candidate/test_changed.py": "1fff8947474d88430a8f3d8b98f08b0772c1d4122887aec342412f33825a433e",
+    "candidate/test_chain.py": "6e73ad5bc74dd12166ee59d9f9aab15b4ebda68b1a62b65d6001a1448fa717c4"
+  },
+  "execution_code_sha256": {
+    "candidate/schema.sql": "c0790a6e0c5d9c1dc1dfd1172238a48a66dba373901069071b3bb2fc41250016",
+    "candidate/identity.py": "dacddc5e471ec4719b07c7b635e14c606258700cd34e64ef08308c3c4ffbbdc8",
+    "candidate/metadata.py": "46c22788febb7f4c6aa9ada49c8f0763a277d96316e3f841edabe73793ab9410",
+    "candidate/store.py": "4394b9a986e6ed3868ddb674fb23faea00efce6afa8a0c116ee6f98c29c89107",
+    "candidate/transport.py": "cd4a01ff16dd4ec54f7ec059d8357a0f5dcb2779396624ecb50cf545a3dde186",
+    "candidate/run.py": "edc1c9bf400a496d7eb6460e92b007f31fd18a4e19f211b1bec16b896a578f15"
+  },
+  "scope_sha256": "1f63ff083de649751983d0f88fc5afa82ac5b08ab0296c5164adc88f5a5e8bbf",
+  "route_plan_sha256": "db399ba02a450ff53cdfe05fbc7992821a608c9f0699f90df23b38c283cbc754",
+  "code_bundle_sha256": "de821d37e5f464f52ef1d54be74cdccde90635e6272b9e2fbe303fa1f8f9ee7a"
+}

@@ -1,0 +1,18 @@
+{
+  "updated_at_utc": "2026-10-05T03:31:47.123397+00:00",
+  "owner_thread": "01a10638-e552-7313-a19d-88a0c672255d",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "owner_turns_dispatched": 2,
+  "operational_acceptances_completed": 1,
+  "state": "released_one_EDJNet_cell_then_final_closeout",
+  "execution_deadline_utc": "2026-10-05T03:45:48+00:00",
+  "network_limits": {
+    "search_responses": 1,
+    "body_requests": 5
+  },
+  "previous_automation_remains": "PAUSED",
+  "original150_successes_before_execution": 0,
+  "no_new_window": true,
+  "government_and_private_audit_scope": "closed_untouched"
+}

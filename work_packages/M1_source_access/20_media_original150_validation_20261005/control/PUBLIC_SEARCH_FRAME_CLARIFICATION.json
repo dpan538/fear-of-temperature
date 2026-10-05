@@ -1,0 +1,9 @@
+{
+  "basis": "Dai explicitly selected public Internet crawler/search only.",
+  "permitted_candidate_discovery": "One bounded public search result page per declared new source/month, domain and date filters only, may serve as discovery when official monthly enumeration is unavailable; no climate/emotion/length terms.",
+  "frame_must_record": "Search provider, exact query/date filter, observation timestamp, observed links and page limit; not an official monthly publication census.",
+  "first_publication": "Search index dates/snippets and URL dates remain candidates. Each fetched article must independently match the declared month with actual first-publication evidence; updated/indexed dates are not substitutions.",
+  "selection": "First five stable unique eligible native article URLs in the declared partial frame; unknown pi, no denominator inference; no unlimited search/pagination.",
+  "limits": "Same original months/150cap/30per region/5per source-month, old known source halts preserved, no content/rights bypass; exact execution candidate still requires one acceptance.",
+  "new_candidate_sources_cap": 10
+}

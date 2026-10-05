@@ -1,0 +1,18 @@
+{
+  "request_id": "581eeae8895515fdec71a29900ec1988",
+  "source_id": "edjnet",
+  "request_url": "https://www.europeandatajournalism.eu/about/licence/",
+  "purpose": "policy_licence",
+  "requested_at_utc": "2026-10-05T03:05:32.737531+00:00",
+  "status": "raw_retained",
+  "http_status": 200,
+  "byte_count": 108469,
+  "raw_path": "raw/581eeae8895515fdec71a29900ec1988.bin",
+  "mime_type": "text/html; charset=UTF-8",
+  "response_headers": {
+    "Date": "Mon, 05 Oct 2026 03:05:34 GMT",
+    "Content-Type": "text/html; charset=UTF-8"
+  },
+  "sha256": "87d9642272878d1044db781ed2298e88cb1b90205cd94bb63f56ba80b334d0bc",
+  "finished_at_utc": "2026-10-05T03:05:35.400083+00:00"
+}

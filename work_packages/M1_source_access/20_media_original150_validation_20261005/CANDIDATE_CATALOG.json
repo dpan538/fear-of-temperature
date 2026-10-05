@@ -1,0 +1,59 @@
+{
+  "version": "bounded_revision1_closed",
+  "no_further_candidate_search": true,
+  "candidates": [
+    {
+      "region": "EU_Europe",
+      "source": "edjnet",
+      "status": "one proposed executable date-only search cell after release",
+      "actual_article_requests": 0,
+      "month": "2025-07",
+      "earlier_months": "before establishment2017; not applicable",
+      "identity": "OBC Transeuropa Italy editorial coordination; Europe English network, member publishers separately attributed",
+      "rights": "default CC BY4 per official policy; individual exceptions pending",
+      "robots": "200 saved; declared article routes allowed; actual article URLs checked after frame release",
+      "type": "data journalism/news/aggregation; not newspaper"
+    },
+    {
+      "region": "UK",
+      "source": "opendemocracy",
+      "status": "not executable in this bounded revision",
+      "actual_article_requests": 0,
+      "identity": "publisher/edition/date frame not fully verified",
+      "rights": "saved per-article CC syndication policy; recurring republication terms separate from internal use",
+      "robots": "200 saved, no known article stop; no article/date frame acquired"
+    },
+    {
+      "region": "AU",
+      "source": "theconversation",
+      "status": "not executable; current primary policy tool access error",
+      "actual_article_requests": 0,
+      "identity": "edition/legal publisher unresolved; not assigned to NZ by reported place",
+      "rights": "coordinator2021 policy historical; current individual applicability pending"
+    },
+    {
+      "region": "US",
+      "source": "propublica",
+      "status": "not executable; robots tool access error; no alternate client retry",
+      "actual_article_requests": 0,
+      "rights": "individual licence review pending"
+    },
+    {
+      "region": "US",
+      "source": "democracynow",
+      "status": "not executable; terms tool access error; no alternate client retry",
+      "actual_article_requests": 0,
+      "rights": "education licence noted; current terms unavailable"
+    },
+    {
+      "region": "NZ",
+      "source": null,
+      "status": "no evidenced independent new candidate; original gaps retained",
+      "actual_article_requests": 0
+    }
+  ],
+  "investigated_outlets": 5,
+  "formal_source_replacements": 1,
+  "only_source_proposed_for_body_release": "edjnet",
+  "sources_per_region_caps_preserved": true
+}
