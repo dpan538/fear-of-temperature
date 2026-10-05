@@ -40,3 +40,48 @@ data/interim/demo/
 
 .postgres/
 postgres-data/
+
+# Local runtimes, third-party course materials, and temporary review files.
+proposal/.runtime/
+proposal/course_materials/
+tmp/
+tools/nature-skills
+*.inspect.ndjson
+
+# Acquisition payloads stay local; scripts, compact reports and receipts are versioned.
+work_packages/**/raw/
+work_packages/**/raw_probe/
+work_packages/**/bodies/
+work_packages/**/_smoke/
+work_packages/**/exports/
+work_packages/**/evidence/**/*.body
+work_packages/**/evidence/**/*.headers
+work_packages/**/evidence/**/*.pdf
+work_packages/**/evidence/**/*.html
+work_packages/**/evidence/**/*.png
+work_packages/**/evidence/**/*.bin
+# Cross-region probe responses are raw API/browser evidence, not implementation.
+work_packages/M1_source_access/08_cross_region_government_coverage/evidence/
+# This small public robots snapshot is required by the offline media chain fixture.
+!work_packages/M1_source_access/20_media_original150_validation_20261005/raw/
+work_packages/M1_source_access/20_media_original150_validation_20261005/raw/*
+!work_packages/M1_source_access/20_media_original150_validation_20261005/raw/8bbdff0d82a37d828fa08ac9c173792f.bin
+*.part
+*.lock
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.duckdb.wal
+
+# Bulk row inventories and repeated intermediate snapshots have saved local receipts.
+work_packages/M1_source_access/08_cross_region_government_coverage/us_fr_records.csv
+work_packages/M1_source_access/08_cross_region_government_coverage/ie_2012_09_question_answer_records.csv
+work_packages/M1_source_access/08_cross_region_government_coverage/reports/us_fr_unique_documents.csv
+work_packages/M1_source_access/09_us_au_government_acquisition/web_observations.jsonl
+work_packages/M1_source_access/09_us_au_government_acquisition/browser_observations.jsonl
+work_packages/M1_source_access/10_eu_cellar_acquisition/reports/eu_work_dispositions.csv
+work_packages/M1_source_access/14_structural_validation_20261004/01_archive_split/parent_results*.csv
+work_packages/M1_source_access/14_structural_validation_20261004/01_archive_split/container_results*.csv
+work_packages/M1_source_access/14_structural_validation_20261004/01_archive_split/exceptions.full_pass.csv
+work_packages/M1_source_access/14_structural_validation_20261004/02_provenance_logic/findings.csv
+work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/PLAN*.json
