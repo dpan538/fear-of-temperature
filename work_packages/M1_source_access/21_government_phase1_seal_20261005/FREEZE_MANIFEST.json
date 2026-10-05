@@ -1,0 +1,196 @@
+{
+  "sealed_at_utc": "2026-10-05T07:16:13.875599+00:00",
+  "sealed_at_cst": "2026-10-05T15:16:13.875599+08:00",
+  "status": "government_phase1_closed_with_usable_inputs_and_preserved_gaps",
+  "language": "English for new delivery, logs and all21 commit messages; frozen originals preserved",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "source_checkpoints_asynchronous": true,
+  "final_input_sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1",
+  "original_21_commit_tip": "7bdcc8f07ae310a72f85c29ec958bbb2aea5fb8a",
+  "english_21_commit_tip": "106ca8caed77839415d379654ac4fbbddf5aa73f",
+  "main_integration_base": "61db65e4a21748f5256bf885be30c1c05e789b4f",
+  "git_target": "main",
+  "files": {
+    "AUDIT_VERIFICATION_TABLE.csv": {
+      "bytes": 11293,
+      "sha256": "058e0e8d79805b9caee7f24b57564b4ca015fd1a2221d35de00aa3053f7508a5"
+    },
+    "GOVERNMENT_ISOLATION_LOG.jsonl": {
+      "bytes": 5213,
+      "sha256": "67958c4e6066e04b68f1b56b7633124f61013f4304ac43ae456b7fe8ce9a1008"
+    },
+    "GOVERNMENT_ISOLATION_LOG_RULES.md": {
+      "bytes": 1956,
+      "sha256": "6dea5a25f31abd2f283149317c41b7904353e9f7c721b92fedac974604b1ebe7"
+    },
+    "GOV_PHASE1_SEAL.md": {
+      "bytes": 5259,
+      "sha256": "65e2b817bf204d1cbca5753a6d44d57588241a80bb269ab71b7aff126fb52b23"
+    },
+    "INDEPENDENT_AUDIT_REPORT.md": {
+      "bytes": 8485,
+      "sha256": "ca6665a2a2e3d1a72a28a1df847c4b2ea2d5c46dcd216200c23482713aea78dc"
+    },
+    "audit_evidence/CLOSEOUT_EXTENSION_RESULTS.json": {
+      "bytes": 1074,
+      "sha256": "8369804d6bee52987e0968a751197aecf862eb5837dfc783f828ed9785bfeee7"
+    },
+    "audit_evidence/DIAGNOSTIC_RESULTS.json": {
+      "bytes": 2711,
+      "sha256": "d491c82d0445cff5a8d3970ce120b5c5500c3d2d348ca1a1e7ff24ba212c02f6"
+    },
+    "audit_evidence/FIGURE_QA_SUMMARY.json": {
+      "bytes": 1240,
+      "sha256": "cc398ab3efd2eb4ce06ea64a1a5790c930523552cb5d70484da22793f283c7ea"
+    },
+    "audit_evidence/FINAL_INPUT_MANIFEST.json": {
+      "bytes": 52489,
+      "sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1"
+    },
+    "audit_evidence/FINAL_INPUT_READY.json": {
+      "bytes": 1181,
+      "sha256": "ea1ca89efc3a7748adea29c39a1ad7d342bdd2fc6bfc30c8fbca2fa4f5e332b0"
+    },
+    "audit_evidence/GOV_FINAL_INPUT_ACCEPTANCE.json": {
+      "bytes": 1099,
+      "sha256": "2b7a5e0d29b0e6ce54ffc12e640f4684a15d37254d3d98a17eed844e476a4743"
+    },
+    "audit_evidence/INDEPENDENT_REVIEW_SEAL_RECEIPT.json": {
+      "bytes": 1172,
+      "sha256": "ac567952d88cb9088316a83ef9d1cc0b7b3e370019e88e092db0a91b2a5dee01"
+    },
+    "audit_evidence/OUTPUT_RECEIPT.json": {
+      "bytes": 4040,
+      "sha256": "1e47cfb63efbd2cba955e337476e9e311ed928c48d6e7e8c239ef6a8b9ecb082"
+    },
+    "audit_evidence/VERIFICATION_RUN.json": {
+      "bytes": 41932,
+      "sha256": "fb554d60244c9f94e6fc91d7fcb13b4f108f6d99322dcc429792d3dc55a5768b"
+    },
+    "figures/figure_01_source_gap_map.pdf": {
+      "bytes": 49887,
+      "sha256": "08dbce32682b3527a996ca4f35d2a83e877d0be979c13db2827bc71e8722b3c2"
+    },
+    "figures/figure_01_source_gap_map.png": {
+      "bytes": 108212,
+      "sha256": "ee085b508d5e0109c35e7dc82e874241ad4cbfb0ee9fe2c5a25ebcdd9f41fa85"
+    },
+    "figures/figure_01_source_gap_map.svg": {
+      "bytes": 44496,
+      "sha256": "1e27585b0c10c306649e7851e9d361f58e3429979a81b4edcf417844f90c2ca0"
+    },
+    "figures/figure_02_quarterly_concentration.pdf": {
+      "bytes": 27297,
+      "sha256": "b3d7ab714d824ddfaa460a5ea17ddc2cdc0bf6caa2b0d47dbc8da292e47128fa"
+    },
+    "figures/figure_02_quarterly_concentration.png": {
+      "bytes": 118548,
+      "sha256": "177023e439e3500a06fe7c28a69306a3b1b85c224c22bb70885d262327b8ce0e"
+    },
+    "figures/figure_02_quarterly_concentration.svg": {
+      "bytes": 15565,
+      "sha256": "1dc54862961ac4ffc1bc25ef4175fa024877e07b6cf165b93d075e072760060e"
+    },
+    "figures/figure_03_government_native_coverage.pdf": {
+      "bytes": 51717,
+      "sha256": "ee5edf85cfd0b04c9aa2897e0d91fc4087f592dcd2bef3e5ea3e1691d8389619"
+    },
+    "figures/figure_03_government_native_coverage.png": {
+      "bytes": 186260,
+      "sha256": "743704ee2b802319cc5b3eab40a1f570778f335365debe2987ec0297fb4732c3"
+    },
+    "figures/figure_03_government_native_coverage.svg": {
+      "bytes": 40153,
+      "sha256": "911627f09ad8ecce6a0c5df27c86f26b0e25c77616169f6f2c1c73c9a08578a7"
+    },
+    "figures/figure_04_eu_item_lengths.pdf": {
+      "bytes": 30292,
+      "sha256": "9398d87a6909bb1c941b06d5902308c890ad63e327bdeeebfc7d2bf772614839"
+    },
+    "figures/figure_04_eu_item_lengths.png": {
+      "bytes": 113746,
+      "sha256": "0c88c57f432aa304a18d53f1b6d0e6e7df81fc85efdad6d76a9fbf14c6ee74e2"
+    },
+    "figures/figure_04_eu_item_lengths.svg": {
+      "bytes": 22307,
+      "sha256": "a944e844183886f2eea81af292985d000c1fa7f09dd78932f9f1bc6d35350e83"
+    },
+    "tables/FINAL_A_DISPOSITIONS.csv": {
+      "bytes": 5885,
+      "sha256": "5553696cffafee12345cd4d750eaab233cea6054159f15801ca4555138b4edfa"
+    },
+    "tables/FINAL_B_STATUS_LEDGER.csv": {
+      "bytes": 631922,
+      "sha256": "13adffd736ac8b1a70a57b0a7bab597af4a7abd49f117f57be468eb735b998e1"
+    },
+    "tables/FINAL_GOV_FRAME_REGISTER.csv": {
+      "bytes": 33393,
+      "sha256": "6a9c4b2e9e91a99fb5b42164b5698001a4bc6d729971bd4c038226349c8caa06"
+    },
+    "tables/eu_item_shape_diagnostic.csv": {
+      "bytes": 156307,
+      "sha256": "5cdc7001b0c84f1e934c8ed93065b648bddb81e52584501bf37ee7a5bce68e53"
+    },
+    "tables/eu_item_shape_summary.csv": {
+      "bytes": 216,
+      "sha256": "7db19a946a7256eafb37ded1c8be19b3218701e63f30d4b3e71c0d8a8a30bfb5"
+    },
+    "tables/government_native_coverage_summary.csv": {
+      "bytes": 1774,
+      "sha256": "30567899852c772a57a466e974ef4d56c219c3d9f5d707554fd7e10751d197a0"
+    },
+    "tables/government_native_month_cells.csv": {
+      "bytes": 1212505,
+      "sha256": "02340a4cacd3a19492995891f6184eedf8af3883058d8b6cfd5aec782c9b1853"
+    },
+    "tables/quarterly_concentration_official_routes.csv": {
+      "bytes": 22355,
+      "sha256": "238d0cac59071e1380bba94be4366f6f7e8958433a704797877fcd7d25028b03"
+    },
+    "tables/quarterly_concentration_with_mirror.csv": {
+      "bytes": 23317,
+      "sha256": "ec1f1a3a0d157db958fd2da1f6525ee08c2a4afcf7902a19c5cd45c869814b65"
+    },
+    "tables/quarterly_genre_composition.csv": {
+      "bytes": 23171,
+      "sha256": "bea3ed1eeec06f9fbc7dfc3f10259c6b04790ee1b8c25093165e89508927d245"
+    },
+    "tables/source_month_cells.csv": {
+      "bytes": 262903,
+      "sha256": "4df8d9db3ded0e9dc1b9a0fd732a7d56c9604f978417324882f714577a4cdbd8"
+    },
+    "tables/zero_observation_runs.csv": {
+      "bytes": 6929,
+      "sha256": "d92e518d293429ceabd16387018b5bd61a9db84c26df271f9a98d71426d063b9"
+    }
+  },
+  "project_control_file_sha256": {
+    "AGENTS.md": "33e9efb30617ab084e17ed5932560cca97dbd4ed3266d1150262b57291abe949",
+    "docs/PROJECT_LOG.md": "026e12fa3b620ff4162bbd6def1f6a31899d580af97f2271c84b155eb19ac274",
+    "docs/decisions/README.md": "f7c99007094405de2507ed5cd3ae370120e9436ff141bdad3713547caa94ea56",
+    "docs/decisions/2026-10-05-government-phase1-qualitative-seal.md": "8f01ed41b350aff0a3d0a27e5898a86f444ac8c24d932f76ae1c7613c58e5ffd",
+    "docs/git/ENGLISH_COMMIT_MAP_2026-10-05.json": "2693333f9322d06d3d44d7a749aa81cb3772ddced45dc52354d6a96a8e97ed7e",
+    "docs/git/MAIN_COMMIT_INDEX_2026-10-05.md": "271164205042ad13b40d5530888f98a42f1485979cd39221377642f9a113fab5",
+    "docs/git/MAIN_INTEGRATION_PRECHECK_2026-10-05.json": "5e2d177c25d063b9642c9447f1ad9985e14cb6e94fe25a90274ff9e66c488459"
+  },
+  "government_log_head_sha256": "7d14b784b301005d17fd6c48ab4bce7b4d70a4f79bb156b9dabd24c2a8252577",
+  "government_log_entries": 7,
+  "four_figures": 4,
+  "figure_exports": 12,
+  "verification_rows": 35,
+  "raw_rehashes": 0,
+  "database_stat_only": true,
+  "database_queries": 0,
+  "database_writes": 0,
+  "evaluator_access": false,
+  "evaluator_decryption": false,
+  "evaluator_new_run": false,
+  "credential_or_private_evaluator_location_distributed": false,
+  "new_government_HTTP_requests": 0,
+  "new_media_batch_authorized": false,
+  "followup_automation": "PAUSED",
+  "future_changes": "new bounded version referencing this immutable baseline"
+}

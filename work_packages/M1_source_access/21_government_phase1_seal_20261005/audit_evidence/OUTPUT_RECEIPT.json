@@ -1,0 +1,109 @@
+{
+  "created_at_utc": "2026-10-04T20:16:06.442413+00:00",
+  "final_input_manifest_sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "sampling_executed": false,
+  "formal_database_writes": 0,
+  "new_http_requests_from_audit": 0,
+  "files": {
+    "CLOSEOUT_EXTENSION_RESULTS.json": {
+      "sha256": "8369804d6bee52987e0968a751197aecf862eb5837dfc783f828ed9785bfeee7",
+      "bytes": 1074
+    },
+    "DIAGNOSTIC_RESULTS.json": {
+      "sha256": "d491c82d0445cff5a8d3970ce120b5c5500c3d2d348ca1a1e7ff24ba212c02f6",
+      "bytes": 2711
+    },
+    "FIGURE_QA_SUMMARY.json": {
+      "sha256": "cc398ab3efd2eb4ce06ea64a1a5790c930523552cb5d70484da22793f283c7ea",
+      "bytes": 1240
+    },
+    "eu_item_shape_diagnostic.csv": {
+      "sha256": "5cdc7001b0c84f1e934c8ed93065b648bddb81e52584501bf37ee7a5bce68e53",
+      "bytes": 156307
+    },
+    "eu_item_shape_summary.csv": {
+      "sha256": "7db19a946a7256eafb37ded1c8be19b3218701e63f30d4b3e71c0d8a8a30bfb5",
+      "bytes": 216
+    },
+    "figure_01_source_gap_map.pdf": {
+      "sha256": "08dbce32682b3527a996ca4f35d2a83e877d0be979c13db2827bc71e8722b3c2",
+      "bytes": 49887
+    },
+    "figure_01_source_gap_map.png": {
+      "sha256": "ee085b508d5e0109c35e7dc82e874241ad4cbfb0ee9fe2c5a25ebcdd9f41fa85",
+      "bytes": 108212
+    },
+    "figure_01_source_gap_map.svg": {
+      "sha256": "1e27585b0c10c306649e7851e9d361f58e3429979a81b4edcf417844f90c2ca0",
+      "bytes": 44496
+    },
+    "figure_02_quarterly_concentration.pdf": {
+      "sha256": "b3d7ab714d824ddfaa460a5ea17ddc2cdc0bf6caa2b0d47dbc8da292e47128fa",
+      "bytes": 27297
+    },
+    "figure_02_quarterly_concentration.png": {
+      "sha256": "177023e439e3500a06fe7c28a69306a3b1b85c224c22bb70885d262327b8ce0e",
+      "bytes": 118548
+    },
+    "figure_02_quarterly_concentration.svg": {
+      "sha256": "1dc54862961ac4ffc1bc25ef4175fa024877e07b6cf165b93d075e072760060e",
+      "bytes": 15565
+    },
+    "figure_03_government_native_coverage.pdf": {
+      "sha256": "ee5edf85cfd0b04c9aa2897e0d91fc4087f592dcd2bef3e5ea3e1691d8389619",
+      "bytes": 51717
+    },
+    "figure_03_government_native_coverage.png": {
+      "sha256": "743704ee2b802319cc5b3eab40a1f570778f335365debe2987ec0297fb4732c3",
+      "bytes": 186260
+    },
+    "figure_03_government_native_coverage.svg": {
+      "sha256": "911627f09ad8ecce6a0c5df27c86f26b0e25c77616169f6f2c1c73c9a08578a7",
+      "bytes": 40153
+    },
+    "figure_04_eu_item_lengths.pdf": {
+      "sha256": "9398d87a6909bb1c941b06d5902308c890ad63e327bdeeebfc7d2bf772614839",
+      "bytes": 30292
+    },
+    "figure_04_eu_item_lengths.png": {
+      "sha256": "0c88c57f432aa304a18d53f1b6d0e6e7df81fc85efdad6d76a9fbf14c6ee74e2",
+      "bytes": 113746
+    },
+    "figure_04_eu_item_lengths.svg": {
+      "sha256": "a944e844183886f2eea81af292985d000c1fa7f09dd78932f9f1bc6d35350e83",
+      "bytes": 22307
+    },
+    "government_native_coverage_summary.csv": {
+      "sha256": "30567899852c772a57a466e974ef4d56c219c3d9f5d707554fd7e10751d197a0",
+      "bytes": 1774
+    },
+    "government_native_month_cells.csv": {
+      "sha256": "02340a4cacd3a19492995891f6184eedf8af3883058d8b6cfd5aec782c9b1853",
+      "bytes": 1212505
+    },
+    "quarterly_concentration_official_routes.csv": {
+      "sha256": "238d0cac59071e1380bba94be4366f6f7e8958433a704797877fcd7d25028b03",
+      "bytes": 22355
+    },
+    "quarterly_concentration_with_mirror.csv": {
+      "sha256": "ec1f1a3a0d157db958fd2da1f6525ee08c2a4afcf7902a19c5cd45c869814b65",
+      "bytes": 23317
+    },
+    "quarterly_genre_composition.csv": {
+      "sha256": "bea3ed1eeec06f9fbc7dfc3f10259c6b04790ee1b8c25093165e89508927d245",
+      "bytes": 23171
+    },
+    "source_month_cells.csv": {
+      "sha256": "4df8d9db3ded0e9dc1b9a0fd732a7d56c9604f978417324882f714577a4cdbd8",
+      "bytes": 262903
+    },
+    "zero_observation_runs.csv": {
+      "sha256": "d92e518d293429ceabd16387018b5bd61a9db84c26df271f9a98d71426d063b9",
+      "bytes": 6929
+    }
+  }
+}

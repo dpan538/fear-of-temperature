@@ -16,6 +16,7 @@ Each record should identify the date, decision, rationale, evidence or constrain
 
 Current acquisition-stage decision:
 
+- [2026-10-05: government phase1 qualitative seal](2026-10-05-government-phase1-qualitative-seal.md): close the bounded government round, preserve an isolated hash-chained log and verified independent figures, and integrate authorised commits into main after checks.
 - [2026-10-05: public-only media validation closeout](2026-10-05-public-media-validation-closeout.md): accept repaired code while preserving the empty discovery frame and 150 unfilled original article slots.
 - [2026-10-05: government closeout and media readiness](2026-10-05-gov-closeout-and-media-readiness.md): preserve the bounded government remainder and independent figures; advance media design without claiming acquired articles.
 - [2026-10-05: independent distribution audit sealing](2026-10-05-independent-distribution-audit-sealing.md): keep encrypted evaluator code and credentials outside extraction; publish evidence issues and hash receipts only.

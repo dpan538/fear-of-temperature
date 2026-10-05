@@ -1,0 +1,30 @@
+{
+  "checked_at_utc": "2026-10-05T07:16:13.875599+00:00",
+  "target_branch": "main",
+  "remote_main_fetched_tip": "61db65e4a21748f5256bf885be30c1c05e789b4f",
+  "local_main_tip": "61db65e4a21748f5256bf885be30c1c05e789b4f",
+  "original21_tip": "7bdcc8f07ae310a72f85c29ec958bbb2aea5fb8a",
+  "english21_tip": "106ca8caed77839415d379654ac4fbbddf5aa73f",
+  "english_commit_count": 21,
+  "all21_trees_identical": true,
+  "all21_messages_english": true,
+  "author_committer_timestamps_preserved": true,
+  "fast_forward_ancestry_verified": true,
+  "merge_conflicts": "not applicable to verified fast-forward",
+  "syntax_format_counts": {
+    "json_or_notebook": 440,
+    "python_ast": 158,
+    "jsonl": 2
+  },
+  "syntax_format_errors": 0,
+  "known_credential_pattern_matches": 0,
+  "government_input_output_checks": 35,
+  "government_pass_checks": 30,
+  "evaluator_tests_and_qa": "prior evidence reused; no rerun",
+  "new_acquisition_or_database_execution": false,
+  "other_workers_idle_confirmed": true,
+  "scope": "Existing committed outcomes and English government closeout; raw/private evaluator excluded",
+  "new_seal_commit_required": true,
+  "remote_main_push_pending": true,
+  "followup_automation": "PAUSED"
+}

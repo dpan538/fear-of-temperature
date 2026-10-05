@@ -1,0 +1,29 @@
+{
+  "status": "accepted_bounded_terminal_input_for_independent_analysis",
+  "final_input_manifest_sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1",
+  "final_input_ready_sha256": "ea1ca89efc3a7748adea29c39a1ad7d342bdd2fc6bfc30c8fbca2fa4f5e332b0",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "evidence_files_checked": 71,
+  "raw_hashes_reused_from_owner_once_checks": 47,
+  "coordinator_raw_rehashes": 0,
+  "Item_rows": 47,
+  "distinct_raw_hashes": 45,
+  "complete_parent_length_rows": 0,
+  "prior_Items": 20,
+  "new_Items": 27,
+  "A_dispositions": 5,
+  "frozen_B_targets": 979,
+  "failed": 1,
+  "not_attempted": 931,
+  "no_link_Work_count_outside_selected_targets": 30,
+  "metadata_checkpoints_reused": true,
+  "coordinator_database_queries": 0,
+  "coordinator_database_writes": 0,
+  "additional_HTTP_authorized": false,
+  "worker_terminal_confirmed": true,
+  "supersedes_pre_completion_receipt": true,
+  "revision_reason": "Input owner finalised envelope before turn completion; final71 evidence hashes checked. Raw checks not repeated."
+}

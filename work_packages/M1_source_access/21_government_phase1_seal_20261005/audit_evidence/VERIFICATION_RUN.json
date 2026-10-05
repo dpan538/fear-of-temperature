@@ -1,0 +1,712 @@
+{
+  "status": "accepted_receipt_and_arithmetic_reconciliation",
+  "run_at_utc": "2026-10-05T06:59:11.180087+00:00",
+  "run_at_cst": "2026-10-05T14:59:11.180087+08:00",
+  "git_base_commit": "7bdcc8f07ae310a72f85c29ec958bbb2aea5fb8a",
+  "remote_21_commit_tip_previously_verified": "7bdcc8f07ae310a72f85c29ec958bbb2aea5fb8a",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "final_input_manifest_sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1",
+  "original_output_created_at_utc": "2026-10-04T20:16:06.442413+00:00",
+  "original_qa_reused": true,
+  "current_four_figure_visual_review": true,
+  "input_evidence_files_checked": [
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/control/GOV_CONTINUATION_RELEASE.json",
+      "bytes": 3032,
+      "sha256": "56acd7de09d6116cc332ca82637158dcfc8e6f53a0dca74a1cac9e9c5e1442b9"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/control/GOV_CONTINUATION_ACCEPTANCE.json",
+      "bytes": 1172,
+      "sha256": "c7dfd59db2374956a95104bb2fad588a548b882a3a38769565bce922b48d39f2"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/transport_continuation.py",
+      "bytes": 21144,
+      "sha256": "73e5bd472a98c690971638c88237ab73d30761143f587eab9e68090dfae4f47c"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/INPUT_MANIFEST.json",
+      "bytes": 35786,
+      "sha256": "fc2f9f9b9d72e863911e78fe6140fa539c9182e20630adfb9630aedbc0ebb418"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/GOV_CLOSEOUT_INPUT_READY.json",
+      "bytes": 2144,
+      "sha256": "bc496846e35ff121dd6aef8351474ab73a32e4ef2fe551f2a42be15a1f6d500f"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/GOV_FRAME_REGISTER.csv",
+      "bytes": 31232,
+      "sha256": "adfdb46bfb3e30ee63ecbcccb9288c5c32d2bbf995b5f7037a26d62faef5add8"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_TEXT_SHAPE.csv",
+      "bytes": 42905,
+      "sha256": "07465d8eb232703aeeca7c80982d335f689e2a9e8a3aeaf4819c795471cf1847"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/CHANGED_ITEM_CHECK.json",
+      "bytes": 1084,
+      "sha256": "7fde5679d6c798a6db438b24309a63e2aa51a55c43b51caa96d021594573b9ec"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/BOUNDED_PARENT_EXPORT_REQUEST.json",
+      "bytes": 1594,
+      "sha256": "23e9ebb9dbc6e228899ac37c28db9eea1a3deff5d9f67a0a5b9877c6c0cbf011"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/PHASE_HTTP_STATE.json",
+      "bytes": 243,
+      "sha256": "cce5f183e656d5b24e52e426b34b6a7f1c58d06be60350bf9d3d2173b3cde011"
+    },
+    {
+      "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/01_downloader_and_originals/SHARED_HTTP_STATE.json",
+      "bytes": 242,
+      "sha256": "72e7686bd89df18659662c1793389cafc94b0edf3dee7fa866a9a51473b17f94"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/RESULT.json",
+      "bytes": 2575471,
+      "sha256": "cc11e29500c2af11eeb6538ea4b10743f4b6cd6ceb0e350f1d4bc53d4893e00c"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/AU_ORIGINALS/RESULT.json",
+      "bytes": 14066,
+      "sha256": "7d96c884c2cce82da3140be1460f7f256c3898d0a88d68ee5f8011d214029dc5"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/PHASE_HTTP_STATE.json",
+      "bytes": 263,
+      "sha256": "7085b99eb8b8284090740d45c8486cb047c27ec76d93fcbce8488d77236963a7"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/AU_ORIGINALS/PHASE_HTTP_STATE.json",
+      "bytes": 300,
+      "sha256": "90fb03a20997d3318a74402747a140614580777ca0637f1a08e14dbb4fd2c0c4"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/US_EU_AU_SAVED_MONTH_SOURCE_GENRE.csv",
+      "bytes": 560836,
+      "sha256": "a7b41acfe00cbf637d59214d617fcbb889a10075ed1c4b6bffcc80cf2af30e46"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/UK_EFFECTIVE_MONTH_SOURCE_GENRE.csv",
+      "bytes": 71380,
+      "sha256": "ec12f7fbcb65dd51b1edf3e1547ace5bda5ba8748e74c9ac1e6ae4897da64c97"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/NZ_2025_PORTFOLIO_QUESTION_MONTH_INDEX.csv",
+      "bytes": 8756,
+      "sha256": "30f34a43b1ee5b6057c4597872e39ef571759d4319549d7817f91a10ddf77170"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/UK_EFFECTIVE_SOURCE_GENRE.csv",
+      "bytes": 1139,
+      "sha256": "31251ee17b907218c55196fcac50f6a5aa50154a4a71ea8170291c04caa6a5c1"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/IE_WRITTEN_QUESTION_MONTH_INDEX.csv",
+      "bytes": 81526,
+      "sha256": "9b51039abc6c7cc6976588645af527f9c5e5ee257b828af8b6518c8afb7b6bf9"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/inputs/EU_PRIOR_MONTHLY_STATUS.csv",
+      "bytes": 43434,
+      "sha256": "477368e5ef5db2244c4544adf86b21882ee8a830dd8330340abac1e63a36f0ed"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/84635680d658a948312f396b15d377ed04dfa226fc1d122539b67c038666b72b.json",
+      "bytes": 1718,
+      "sha256": "6deb0e1a87d97b917f272c131de699d8f90430c796c4b560a53e4b7f336ac7a4"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/1ae7e2bf278accf468aa3d9faccc09d61a64b53f4c14d111028e960da7f58a12.json",
+      "bytes": 1716,
+      "sha256": "35d2d26ccf50794592d3717e45043253ad29541ded0d6a7b716bb7dcfc0ea872"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/444cd54a5d64dde673acd92fb5abccd39464ef418154e32025725b2ce0173092.json",
+      "bytes": 1718,
+      "sha256": "a2ca759caeed296803459f2829144516ee5f3487b226f767b60a0ce9f12b9df1"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/857251ccc1e5593056fbf490ff87c569d31eb81d8b68aa151af03c8a544ecc4f.json",
+      "bytes": 1718,
+      "sha256": "e881fa12a75f45d8ce56b81a02e95a61ce0c40ae38ec5ee9cf34c8b664d197d4"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/645e0cbf598deb281718627e03e6c4a6a6522dfbdd776becfb21bbb0fb7a50e1.json",
+      "bytes": 1717,
+      "sha256": "ec58b5303f3be6af2ef2c7dcdc454a3e62b300ee0255cd588384a7c9411d15f5"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/0e85f52dd2187aadc478566b49a5ac4220a6af6be2695243bbfb1a7e955812a6.json",
+      "bytes": 1718,
+      "sha256": "dbcf8c822e47ffa713897afed981735967db53959cbe4a709f859fcf92b00b36"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/a7e6e15cec6c64785f41add1a5ac95c6e5c5a270157d1d4307b3442470762b58.json",
+      "bytes": 1438,
+      "sha256": "3a16288d4302ed586a3cc9fb0ce91258d00c35a441f64fb0a0f720a600f9d974"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/a9808388a1d983f4d291464828330c37a193ca5f7e0c18f9d973328490ad899b.json",
+      "bytes": 1718,
+      "sha256": "a292f4a069888ffe1cbb8335eb677805df9e84d841837123910c9c3168302fd5"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/1dfb237a5a58167b8385886959c06bc83790cb26f9dfad0c84b002f17b095497.json",
+      "bytes": 1716,
+      "sha256": "f7fcdee070fc5f4823715bb565dfd94b80f9a076eb0bddabc76c80e2c9aeec3e"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/fb3c790a6a35246d58fcc303e5d2ddb7ad1642b6f507f1cb28661ca1ac72a021.json",
+      "bytes": 1719,
+      "sha256": "6dfe947e94b4cf1d3ff0759032d933991afa7b6832bd4d484e28751a466f6038"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/7df0738762b5a987a158e431a8d6c84ec40b0c25f6eda61c5a984d457b54f34d.json",
+      "bytes": 1719,
+      "sha256": "146d2b7824f2d1d70caa5dd5fdaf7ee816357423c91b3774c726ad3abb73b680"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/47a50542902784ce04b173e9c8c31114d4968acc3b89099d4785bf08a230e77a.json",
+      "bytes": 1716,
+      "sha256": "1d906d78cdf7b096267fb0f6bad25f16e197accdc71f01adca287db5a0a4f258"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/06f580555aa882ae8a198ab306159b045de8d57a753aa044860838053fd5bf43.json",
+      "bytes": 1716,
+      "sha256": "b62b63ac69f16cb0f17c7235c6155d0bbb5279f12737fbbc100227c60f0fc540"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/b55869b325051706efdff95b3978836935bd1337a754d9a0d487858a2116a241.json",
+      "bytes": 1718,
+      "sha256": "2d6d587b86ef2105c814b0c2e539d0284a75f1f9a0b5d792ea85f646ef4aea6f"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/fc30e03c2595dd2201377c3ccaf16f9f853ec6d14dd95afe0942aab589f76fb6.json",
+      "bytes": 1717,
+      "sha256": "1e8d0cee790aaffd9770f0916d85466a55cc3d33c80151c3133fa36b5b868b1a"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/da4d510b142a84090729263a23ecfa169383e8a23930a14f1bd4ee0112f1c8db.json",
+      "bytes": 1717,
+      "sha256": "55a30dff6b948c2d7347d039e51e0a1b4b7ab2eeb5eb5e65d926bc9081efd06d"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/30a9fde0089843efc1374fcb38a7f4215c1a35a97db1842807e8c32e8f06dde6.json",
+      "bytes": 1718,
+      "sha256": "fe1bb4160e3cb9722c40ca256702374d02faca977ca6ab0a3c5b72ffe3159400"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/abd2c8fd6320d239c477894bba3a2293fa7538a24305779cdddb71c1fb206879.json",
+      "bytes": 1717,
+      "sha256": "1cfbf7e03f0dcd54e61a334c646246f250c361a349a59d7c832b0b480aa300ae"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/5a9f2bf9206ac3115f3a85fb3d3a74b9e53f734655b66176490bf81a814fc57f.json",
+      "bytes": 1719,
+      "sha256": "bd2ec4776b15e222a26a76cb4aa358a7051f5e2aeed41dd3ceceee477a12d40f"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/fcc7e8201b86e461ac21d9b0b3bcfc08af379467dcbd98f24d625990deb943ef.json",
+      "bytes": 1717,
+      "sha256": "2c7f5d2562903facecf2a0c691375310ab311ef5e79474612b345064dce4c9d9"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/1692476c1f659b997ebe250c047266f20f4f547f85dbe22d1fe2134e2b74ac17.json",
+      "bytes": 1718,
+      "sha256": "406301bf934a975839e048f954d956d1dcba1e978183c668015eebcd7ae24e2f"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/62c48beecbb6c95a03752bd3ac78f18b85c421521a26724932f72acc285ad4e4.json",
+      "bytes": 1718,
+      "sha256": "acc3a95784307fefd8e34574f47d7bd4f10369dbfecf5d442488804f5f103e79"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/f722d06cb91475f43a2260a18c2cd3ac39e295d466fb2dd0bc29692af96cab09.json",
+      "bytes": 1717,
+      "sha256": "dd3063ec6be76b24ebad3b00234d9e374af6711c23d2cab337627214384af7ed"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/1c9abe80a41d9f77d213d5595e2cf2107370744a7659541cb0e07bb0b0869d41.json",
+      "bytes": 1716,
+      "sha256": "c3d0396922fe668728531a85f3bc25d15afab3e7ed0b6a431b60537b67754870"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/0dded1576535a7dc58be31c2d4be7b666366f90a4d568ed3f46537f24d3fc5b5.json",
+      "bytes": 1718,
+      "sha256": "a6ce97c268b85e9d8c1ea5595221bd08574709122ba8d44834f7ec0b616d86b8"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/6fd38b3112fa09f6312eb9422e3717c2299b3be77afa89a4fcfe310d3f7bbac2.json",
+      "bytes": 1719,
+      "sha256": "c3f06aeefa5c398d7f1c832bab034549e703fc62d024a7f0b35d9b557f8db6f5"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/1b1564079bf23eee51d4c7fd73fea08fa3fbd9900ac4c1e81ce08ea1acf6bd4f.json",
+      "bytes": 1718,
+      "sha256": "a5d9b375a3033dc4477d6d382e20c912a91a0fc7201151cedc44b7eab500b82b"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/requests/b2d663ae2bbaf84b3a4d711d8866f51a7115a7b2f66d12511363da51af8b3166.json",
+      "bytes": 1718,
+      "sha256": "ab5bb3a2b9a4eda3fced27955200487a6e37d50f4db947adec55a0e73e9b50c2"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/AU_ORIGINALS/requests/34061410925e9a21173e7ba2e0b8642d8540e366d4bc7dd45bc993e6d195f8d7.json",
+      "bytes": 745,
+      "sha256": "bf677eb88c4faf3334d8c1907982bd9e3687d315aa82686a2c1de5d59688fcda"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/CHANGED_ITEM_CHECK.json",
+      "bytes": 1393,
+      "sha256": "c69ae982aae475263e3c8102c2aa5867c42a1922e9d79b50ca2702ffec5a05b9"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/AUTOMATED_CHANGED_ITEM_CHECK.json",
+      "bytes": 903,
+      "sha256": "1ed35ffc9f647f9f2df78a4ea0640701f1620fabfc6436d893e9906c5d281b02"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/CHANGED_ITEM_TEXT_SHAPE.csv",
+      "bytes": 111081,
+      "sha256": "8531085ca20db6b12acb10092c0b5e93887af7949a0975581d281c08d65de01a"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/ALL_SAVED_ITEM_TEXT_SHAPE.csv",
+      "bytes": 154785,
+      "sha256": "eb571f94252e4d32edc90ac31a102d1cde7c3c2635a7107dfb93092eb179fdce"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/CHANGED_PDF_PAGE_SHAPE.csv",
+      "bytes": 43512,
+      "sha256": "d7f77ee26fdb278680ba66dc63a99b11d00d3263ee0d5bb7c9907456f6262968"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/CHANGED_ITEM_IDENTITY_DATE.csv",
+      "bytes": 13342,
+      "sha256": "3c3802e77c61359839ef47679104e64c4e43e5b9433e25552b0d4771fa941377"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/CROSS_WORK_IDENTICAL_ITEM_GROUPS.csv",
+      "bytes": 1970,
+      "sha256": "8c676498cdd2c93d16c1f9cfd717c8e01ddeb5dca694e64dee0ff8294c02662d"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_B_STATUS_LEDGER.csv",
+      "bytes": 631922,
+      "sha256": "13adffd736ac8b1a70a57b0a7bab597af4a7abd49f117f57be468eb735b998e1"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_B_REMAINING_TARGETS.csv",
+      "bytes": 575069,
+      "sha256": "5fc5a541f397e10919f7e62de80a934c0a8716e900af05da922a790f49aefe68"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_B_MONTH_DISPOSITIONS.csv",
+      "bytes": 1728,
+      "sha256": "64ad6f225189a19653acdebdf5997df9956ac417ee0c8c285469b67d15b336d3"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_A_DISPOSITIONS.csv",
+      "bytes": 5885,
+      "sha256": "5553696cffafee12345cd4d750eaab233cea6054159f15801ca4555138b4edfa"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_CURRENT_GAPS.csv",
+      "bytes": 9622,
+      "sha256": "b06655cc3b3a4f6bd9743356fb92efcbd16ec8763aed4318379e11c21260fad3"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_GOV_FRAME_REGISTER.csv",
+      "bytes": 33393,
+      "sha256": "6a9c4b2e9e91a99fb5b42164b5698001a4bc6d729971bd4c038226349c8caa06"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/EXECUTION_RECEIPT.json",
+      "bytes": 4737,
+      "sha256": "78f8e68b5afb0144af23d8f0d53d9e5fa1fdc4772f62e46fea63eea4d3c51743"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/check_new_items.py",
+      "bytes": 11798,
+      "sha256": "e2b14fd9114be6f268399455004099e3b79e776a192a25c537515a5f73137f97"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/annotate_first_pages.py",
+      "bytes": 5317,
+      "sha256": "42b803da38912799319482cc7c62980dca1cfc5ce555e2c4b311e17ce0c2f77d"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/finalize_inputs.py",
+      "bytes": 19714,
+      "sha256": "52bfbcffb992e69963e465df1e15784dd62aea915cf9b3edab99d99bb19c3b58"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/evidence/FIRST_PAGES_02.png",
+      "bytes": 574810,
+      "sha256": "55b468d7dde6669e485adcd4c28670a0452b6d505503728177be72bf182d4bc2"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/evidence/FIRST_PAGES_03.png",
+      "bytes": 522480,
+      "sha256": "e5adb77708eef51ddbf350340389e649a536ca64b2b3f9bc4ee4edd8a3b287de"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/evidence/FIRST_PAGES_01.png",
+      "bytes": 528547,
+      "sha256": "d50723dde0d10bcf370eeca3b720d50457a58800f8644b421d44fd415f396940"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/evidence/FIRST_PAGE_IDENTITY.json",
+      "bytes": 47175,
+      "sha256": "89d1a7078f97a715ce54fe4f4d1d3ff415bdcfeea490b0bbb95af84d2bcf7bbe"
+    }
+  ],
+  "accepted_output_files_checked": [
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/CLOSEOUT_EXTENSION_RESULTS.json",
+      "bytes": 1074,
+      "sha256": "8369804d6bee52987e0968a751197aecf862eb5837dfc783f828ed9785bfeee7"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/DIAGNOSTIC_RESULTS.json",
+      "bytes": 2711,
+      "sha256": "d491c82d0445cff5a8d3970ce120b5c5500c3d2d348ca1a1e7ff24ba212c02f6"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/FIGURE_QA_SUMMARY.json",
+      "bytes": 1240,
+      "sha256": "cc398ab3efd2eb4ce06ea64a1a5790c930523552cb5d70484da22793f283c7ea"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/eu_item_shape_diagnostic.csv",
+      "bytes": 156307,
+      "sha256": "5cdc7001b0c84f1e934c8ed93065b648bddb81e52584501bf37ee7a5bce68e53"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/eu_item_shape_summary.csv",
+      "bytes": 216,
+      "sha256": "7db19a946a7256eafb37ded1c8be19b3218701e63f30d4b3e71c0d8a8a30bfb5"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_01_source_gap_map.pdf",
+      "bytes": 49887,
+      "sha256": "08dbce32682b3527a996ca4f35d2a83e877d0be979c13db2827bc71e8722b3c2"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_01_source_gap_map.png",
+      "bytes": 108212,
+      "sha256": "ee085b508d5e0109c35e7dc82e874241ad4cbfb0ee9fe2c5a25ebcdd9f41fa85"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_01_source_gap_map.svg",
+      "bytes": 44496,
+      "sha256": "1e27585b0c10c306649e7851e9d361f58e3429979a81b4edcf417844f90c2ca0"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_02_quarterly_concentration.pdf",
+      "bytes": 27297,
+      "sha256": "b3d7ab714d824ddfaa460a5ea17ddc2cdc0bf6caa2b0d47dbc8da292e47128fa"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_02_quarterly_concentration.png",
+      "bytes": 118548,
+      "sha256": "177023e439e3500a06fe7c28a69306a3b1b85c224c22bb70885d262327b8ce0e"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_02_quarterly_concentration.svg",
+      "bytes": 15565,
+      "sha256": "1dc54862961ac4ffc1bc25ef4175fa024877e07b6cf165b93d075e072760060e"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_03_government_native_coverage.pdf",
+      "bytes": 51717,
+      "sha256": "ee5edf85cfd0b04c9aa2897e0d91fc4087f592dcd2bef3e5ea3e1691d8389619"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_03_government_native_coverage.png",
+      "bytes": 186260,
+      "sha256": "743704ee2b802319cc5b3eab40a1f570778f335365debe2987ec0297fb4732c3"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_03_government_native_coverage.svg",
+      "bytes": 40153,
+      "sha256": "911627f09ad8ecce6a0c5df27c86f26b0e25c77616169f6f2c1c73c9a08578a7"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_04_eu_item_lengths.pdf",
+      "bytes": 30292,
+      "sha256": "9398d87a6909bb1c941b06d5902308c890ad63e327bdeeebfc7d2bf772614839"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_04_eu_item_lengths.png",
+      "bytes": 113746,
+      "sha256": "0c88c57f432aa304a18d53f1b6d0e6e7df81fc85efdad6d76a9fbf14c6ee74e2"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_04_eu_item_lengths.svg",
+      "bytes": 22307,
+      "sha256": "a944e844183886f2eea81af292985d000c1fa7f09dd78932f9f1bc6d35350e83"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/government_native_coverage_summary.csv",
+      "bytes": 1774,
+      "sha256": "30567899852c772a57a466e974ef4d56c219c3d9f5d707554fd7e10751d197a0"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/government_native_month_cells.csv",
+      "bytes": 1212505,
+      "sha256": "02340a4cacd3a19492995891f6184eedf8af3883058d8b6cfd5aec782c9b1853"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/quarterly_concentration_official_routes.csv",
+      "bytes": 22355,
+      "sha256": "238d0cac59071e1380bba94be4366f6f7e8958433a704797877fcd7d25028b03"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/quarterly_concentration_with_mirror.csv",
+      "bytes": 23317,
+      "sha256": "ec1f1a3a0d157db958fd2da1f6525ee08c2a4afcf7902a19c5cd45c869814b65"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/quarterly_genre_composition.csv",
+      "bytes": 23171,
+      "sha256": "bea3ed1eeec06f9fbc7dfc3f10259c6b04790ee1b8c25093165e89508927d245"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/source_month_cells.csv",
+      "bytes": 262903,
+      "sha256": "4df8d9db3ded0e9dc1b9a0fd732a7d56c9604f978417324882f714577a4cdbd8"
+    },
+    {
+      "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/zero_observation_runs.csv",
+      "bytes": 6929,
+      "sha256": "d92e518d293429ceabd16387018b5bd61a9db84c26df271f9a98d71426d063b9"
+    }
+  ],
+  "delivered_copies": [
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/CLOSEOUT_EXTENSION_RESULTS.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/CLOSEOUT_EXTENSION_RESULTS.json",
+      "bytes": 1074,
+      "sha256": "8369804d6bee52987e0968a751197aecf862eb5837dfc783f828ed9785bfeee7"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/DIAGNOSTIC_RESULTS.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/DIAGNOSTIC_RESULTS.json",
+      "bytes": 2711,
+      "sha256": "d491c82d0445cff5a8d3970ce120b5c5500c3d2d348ca1a1e7ff24ba212c02f6"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/FIGURE_QA_SUMMARY.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/FIGURE_QA_SUMMARY.json",
+      "bytes": 1240,
+      "sha256": "cc398ab3efd2eb4ce06ea64a1a5790c930523552cb5d70484da22793f283c7ea"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/eu_item_shape_diagnostic.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/eu_item_shape_diagnostic.csv",
+      "bytes": 156307,
+      "sha256": "5cdc7001b0c84f1e934c8ed93065b648bddb81e52584501bf37ee7a5bce68e53"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/eu_item_shape_summary.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/eu_item_shape_summary.csv",
+      "bytes": 216,
+      "sha256": "7db19a946a7256eafb37ded1c8be19b3218701e63f30d4b3e71c0d8a8a30bfb5"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_01_source_gap_map.pdf",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_01_source_gap_map.pdf",
+      "bytes": 49887,
+      "sha256": "08dbce32682b3527a996ca4f35d2a83e877d0be979c13db2827bc71e8722b3c2"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_01_source_gap_map.png",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_01_source_gap_map.png",
+      "bytes": 108212,
+      "sha256": "ee085b508d5e0109c35e7dc82e874241ad4cbfb0ee9fe2c5a25ebcdd9f41fa85"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_01_source_gap_map.svg",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_01_source_gap_map.svg",
+      "bytes": 44496,
+      "sha256": "1e27585b0c10c306649e7851e9d361f58e3429979a81b4edcf417844f90c2ca0"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_02_quarterly_concentration.pdf",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_02_quarterly_concentration.pdf",
+      "bytes": 27297,
+      "sha256": "b3d7ab714d824ddfaa460a5ea17ddc2cdc0bf6caa2b0d47dbc8da292e47128fa"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_02_quarterly_concentration.png",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_02_quarterly_concentration.png",
+      "bytes": 118548,
+      "sha256": "177023e439e3500a06fe7c28a69306a3b1b85c224c22bb70885d262327b8ce0e"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_02_quarterly_concentration.svg",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_02_quarterly_concentration.svg",
+      "bytes": 15565,
+      "sha256": "1dc54862961ac4ffc1bc25ef4175fa024877e07b6cf165b93d075e072760060e"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_03_government_native_coverage.pdf",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_03_government_native_coverage.pdf",
+      "bytes": 51717,
+      "sha256": "ee5edf85cfd0b04c9aa2897e0d91fc4087f592dcd2bef3e5ea3e1691d8389619"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_03_government_native_coverage.png",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_03_government_native_coverage.png",
+      "bytes": 186260,
+      "sha256": "743704ee2b802319cc5b3eab40a1f570778f335365debe2987ec0297fb4732c3"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_03_government_native_coverage.svg",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_03_government_native_coverage.svg",
+      "bytes": 40153,
+      "sha256": "911627f09ad8ecce6a0c5df27c86f26b0e25c77616169f6f2c1c73c9a08578a7"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_04_eu_item_lengths.pdf",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_04_eu_item_lengths.pdf",
+      "bytes": 30292,
+      "sha256": "9398d87a6909bb1c941b06d5902308c890ad63e327bdeeebfc7d2bf772614839"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_04_eu_item_lengths.png",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_04_eu_item_lengths.png",
+      "bytes": 113746,
+      "sha256": "0c88c57f432aa304a18d53f1b6d0e6e7df81fc85efdad6d76a9fbf14c6ee74e2"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/figure_04_eu_item_lengths.svg",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/figures/figure_04_eu_item_lengths.svg",
+      "bytes": 22307,
+      "sha256": "a944e844183886f2eea81af292985d000c1fa7f09dd78932f9f1bc6d35350e83"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/government_native_coverage_summary.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/government_native_coverage_summary.csv",
+      "bytes": 1774,
+      "sha256": "30567899852c772a57a466e974ef4d56c219c3d9f5d707554fd7e10751d197a0"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/government_native_month_cells.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/government_native_month_cells.csv",
+      "bytes": 1212505,
+      "sha256": "02340a4cacd3a19492995891f6184eedf8af3883058d8b6cfd5aec782c9b1853"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/quarterly_concentration_official_routes.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/quarterly_concentration_official_routes.csv",
+      "bytes": 22355,
+      "sha256": "238d0cac59071e1380bba94be4366f6f7e8958433a704797877fcd7d25028b03"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/quarterly_concentration_with_mirror.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/quarterly_concentration_with_mirror.csv",
+      "bytes": 23317,
+      "sha256": "ec1f1a3a0d157db958fd2da1f6525ee08c2a4afcf7902a19c5cd45c869814b65"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/quarterly_genre_composition.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/quarterly_genre_composition.csv",
+      "bytes": 23171,
+      "sha256": "bea3ed1eeec06f9fbc7dfc3f10259c6b04790ee1b8c25093165e89508927d245"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/source_month_cells.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/source_month_cells.csv",
+      "bytes": 262903,
+      "sha256": "4df8d9db3ded0e9dc1b9a0fd732a7d56c9604f978417324882f714577a4cdbd8"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/zero_observation_runs.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/zero_observation_runs.csv",
+      "bytes": 6929,
+      "sha256": "d92e518d293429ceabd16387018b5bd61a9db84c26df271f9a98d71426d063b9"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/independent_review/OUTPUT_RECEIPT.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/OUTPUT_RECEIPT.json",
+      "bytes": 4040,
+      "sha256": "1e47cfb63efbd2cba955e337476e9e311ed928c48d6e7e8c239ef6a8b9ecb082"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/control/GOV_FINAL_INPUT_ACCEPTANCE.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/GOV_FINAL_INPUT_ACCEPTANCE.json",
+      "bytes": 1099,
+      "sha256": "2b7a5e0d29b0e6ce54ffc12e640f4684a15d37254d3d98a17eed844e476a4743"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/control/INDEPENDENT_REVIEW_SEAL_RECEIPT.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/INDEPENDENT_REVIEW_SEAL_RECEIPT.json",
+      "bytes": 1172,
+      "sha256": "ac567952d88cb9088316a83ef9d1cc0b7b3e370019e88e092db0a91b2a5dee01"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_INPUT_MANIFEST.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/FINAL_INPUT_MANIFEST.json",
+      "bytes": 52489,
+      "sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_INPUT_READY.json",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/audit_evidence/FINAL_INPUT_READY.json",
+      "bytes": 1181,
+      "sha256": "ea1ca89efc3a7748adea29c39a1ad7d342bdd2fc6bfc30c8fbca2fa4f5e332b0"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_A_DISPOSITIONS.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/FINAL_A_DISPOSITIONS.csv",
+      "bytes": 5885,
+      "sha256": "5553696cffafee12345cd4d750eaab233cea6054159f15801ca4555138b4edfa"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_B_STATUS_LEDGER.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/FINAL_B_STATUS_LEDGER.csv",
+      "bytes": 631922,
+      "sha256": "13adffd736ac8b1a70a57b0a7bab597af4a7abd49f117f57be468eb735b998e1"
+    },
+    {
+      "original": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/FINAL_GOV_FRAME_REGISTER.csv",
+      "copy": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/FINAL_GOV_FRAME_REGISTER.csv",
+      "bytes": 33393,
+      "sha256": "6a9c4b2e9e91a99fb5b42164b5698001a4bc6d729971bd4c038226349c8caa06"
+    }
+  ],
+  "current_database_stat_only": {
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852
+  },
+  "raw_rehashes": 0,
+  "database_queries": 0,
+  "database_writes": 0,
+  "new_acquisition_HTTP_requests": 0,
+  "evaluator_access": false,
+  "evaluator_decryption": false,
+  "evaluator_new_execution": false,
+  "new_statistical_inference": false,
+  "production_sampling": false,
+  "credential_or_private_evaluator_location_distributed": false,
+  "checks_count": 35,
+  "check_result_counts": {
+    "PASS": 30,
+    "NOT_ASSESSED": 3,
+    "HISTORICAL_REFERENCE_ONLY": 1,
+    "REUSED_VERIFIED": 1
+  },
+  "log_head_sha256": "7d14b784b301005d17fd6c48ab4bce7b4d70a4f79bb156b9dabd24c2a8252577",
+  "english_delivery_finalized_at_utc": "2026-10-05T07:16:13.875599+00:00",
+  "english_21_commit_tip": "106ca8caed77839415d379654ac4fbbddf5aa73f"
+}
