@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="600" viewBox="0 0 1400 600" role="img" aria-labelledby="title desc">
+  <title id="title">M1.1 actual verification results</title>
+  <desc id="desc">Actual checks for the July 2026 GOV.UK DEFRA policy-paper set: total nine, returned nine, Content API nine, HTML nine, pagination five plus four, zero missing and duplicate keys, three multi-organisation records, and zero retained bodies.</desc>
+  <defs><style>
+    .title{font:700 30px Arial,sans-serif;fill:#17251f}.sub{font:400 16px Arial,sans-serif;fill:#61706a}
+    .label{font:600 16px Arial,sans-serif;fill:#283731}.value{font:750 24px Arial,sans-serif;fill:#6D3A8E}
+    .big{font:750 40px Arial,sans-serif;fill:#17251f}.small{font:400 13px Arial,sans-serif;fill:#61706a}
+    .white{font:700 19px Arial,sans-serif;fill:white}
+  </style></defs>
+  <rect width="1400" height="600" rx="28" fill="#fbfaf6"/>
+  <text x="48" y="54" class="title">M1.1: actual verification of a bounded document denominator</text>
+  <text x="48" y="82" class="sub">GOV.UK · DEFRA tag · policy_paper · first published 1-31 July 2026 · accessed 16 September 2026</text>
+
+  <text x="48" y="126" class="label">Access chain: a full bar represents 9/9</text>
+  <g>
+    <text x="48" y="173" class="label">Search API reported total</text><rect x="315" y="151" width="590" height="28" rx="14" fill="#e7e2ea"/><rect x="315" y="151" width="590" height="28" rx="14" fill="#6D3A8E"/><text x="930" y="174" class="value">9</text>
+    <text x="48" y="225" class="label">Search API returned</text><rect x="315" y="203" width="590" height="28" rx="14" fill="#e7e2ea"/><rect x="315" y="203" width="590" height="28" rx="14" fill="#6D3A8E"/><text x="930" y="226" class="value">9</text>
+    <text x="48" y="277" class="label">Content API metadata</text><rect x="315" y="255" width="590" height="28" rx="14" fill="#e7e2ea"/><rect x="315" y="255" width="590" height="28" rx="14" fill="#6D3A8E"/><text x="930" y="278" class="value">9</text>
+    <text x="48" y="329" class="label">Canonical HTML pages</text><rect x="315" y="307" width="590" height="28" rx="14" fill="#e7e2ea"/><rect x="315" y="307" width="590" height="28" rx="14" fill="#6D3A8E"/><text x="930" y="330" class="value">9</text>
+  </g>
+
+  <text x="48" y="388" class="label">Pagination check</text>
+  <rect x="315" y="365" width="328" height="30" rx="15" fill="#8d5ca6"/><rect x="643" y="365" width="262" height="30" rx="15" fill="#c3a8d1"/>
+  <text x="479" y="387" text-anchor="middle" class="white">Page 1: 5</text><text x="774" y="387" text-anchor="middle" class="white">Page 2: 4</text><text x="930" y="388" class="value">5 + 4 = 9</text>
+
+  <g>
+    <rect x="1030" y="132" width="145" height="112" rx="17" fill="#eef3f0" stroke="#cbd5d0"/><text x="1102" y="183" text-anchor="middle" class="big">0</text><text x="1102" y="216" text-anchor="middle" class="small">Missing key fields</text>
+    <rect x="1190" y="132" width="145" height="112" rx="17" fill="#eef3f0" stroke="#cbd5d0"/><text x="1262" y="183" text-anchor="middle" class="big">0</text><text x="1262" y="216" text-anchor="middle" class="small">Duplicate IDs / URLs</text>
+    <rect x="1030" y="260" width="145" height="112" rx="17" fill="#fff0d9" stroke="#e2bd86"/><text x="1102" y="311" text-anchor="middle" class="big">3</text><text x="1102" y="344" text-anchor="middle" class="small">Multi-organisation</text>
+    <rect x="1190" y="260" width="145" height="112" rx="17" fill="#f7e5e5" stroke="#d8aaaa"/><text x="1262" y="311" text-anchor="middle" class="big">0</text><text x="1262" y="344" text-anchor="middle" class="small">Bodies / passages</text>
+  </g>
+
+  <rect x="48" y="458" width="1287" height="74" rx="18" fill="#17251f"/>
+  <text x="78" y="490" class="white">Status 1 · conditional go</text>
+  <text x="326" y="490" class="sub" fill="#d9e4df">Verified: complete document set for one index time, organisation tag, type and month; N_total = 9</text>
+  <text x="78" y="517" class="small" fill="#aebbb5">Not all DEFRA output, all UK policy, a passage denominator, or complete history. No relevance/emotion labels; S, E and B are not estimated.</text>
+  <text x="48" y="571" class="small">Source: saved checks.json and document_sample.csv. This figure did not rerun collection.</text>
+</svg>

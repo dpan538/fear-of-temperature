@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Fear of Temperature | Research direction and M1 progress</title>
+  <style>
+    :root{--ink:#18241f;--muted:#63706a;--paper:#f2efe8;--card:#fffdf8;--line:#d9d5ca;--gov:#6d3a8e;--gov-soft:#ede3f2;--media:#2f6fbd;--media-soft:#e1ecf8;--public:#2e8b57;--public-soft:#dff1e7;--amber:#a56113;--amber-soft:#fff0d8;--red:#934b4b;--red-soft:#f7e5e5;--shadow:0 18px 52px rgba(25,35,30,.10)}
+    *{box-sizing:border-box}html{background:var(--paper);scroll-behavior:smooth}body{margin:0;color:var(--ink);font-family:Arial,"Helvetica Neue",sans-serif;line-height:1.5}
+    nav{position:sticky;top:0;z-index:10;padding:10px 18px;background:rgba(24,36,31,.94);backdrop-filter:blur(10px);color:white;display:flex;gap:14px;align-items:center;overflow:auto;white-space:nowrap}nav strong{margin-right:auto}nav a{color:#dbe8e2;text-decoration:none;font-size:13px}
+    .deck{padding:26px 0 60px}.page{position:relative;width:min(1120px,calc(100% - 34px));min-height:740px;margin:0 auto 28px;padding:46px 52px 50px;background:var(--card);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);overflow:hidden}.page-no{position:absolute;right:28px;bottom:20px;color:#98a19d;font-size:12px;letter-spacing:.08em}
+    .kicker{margin:0 0 9px;color:var(--gov);font-size:13px;font-weight:760;letter-spacing:.12em;text-transform:uppercase}h1{margin:0;font-size:48px;line-height:1.08;letter-spacing:-.045em;max-width:900px}h2{margin:0 0 18px;font-size:31px;line-height:1.17;letter-spacing:-.03em}h3{margin:16px 0 8px;font-size:18px}p{margin:8px 0}.lead{font-size:19px;color:#324039;max-width:900px}.muted{color:var(--muted)}.small{font-size:13px;color:var(--muted)}
+    .roles{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin:24px 0}.role{padding:16px 18px;border-radius:14px;color:white;font-weight:750;font-size:18px}.role.gov{background:var(--gov)}.role.media{background:var(--media)}.role.public{background:var(--public)}
+    .status-row{display:flex;gap:8px;flex-wrap:wrap;margin:16px 0}.status{display:inline-block;padding:5px 10px;border-radius:999px;font-size:12px;font-weight:750}.done{background:var(--public-soft);color:#176540}.planned{background:var(--media-soft);color:#235e9f}.confirm{background:var(--amber-soft);color:#86500c}
+    .summary{margin-top:22px;padding:19px 22px;border-left:5px solid var(--gov);border-radius:0 15px 15px 0;background:#f7f2f9}.summary b{color:var(--gov)}.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.card{padding:16px;border:1px solid var(--line);border-radius:15px;background:#fbfaf5}.card h3{margin-top:0}.card.gov{border-top:4px solid var(--gov)}.card.media{border-top:4px solid var(--media)}.card.public{border-top:4px solid var(--public)}
+    table{width:100%;border-collapse:separate;border-spacing:0;font-size:14px;border:1px solid var(--line);border-radius:13px;overflow:hidden}th,td{padding:10px 11px;text-align:left;vertical-align:top;border-bottom:1px solid var(--line);border-right:1px solid var(--line)}th:last-child,td:last-child{border-right:0}tr:last-child td{border-bottom:0}th{background:#eef1ee;color:#4b5953;font-size:12px;letter-spacing:.04em;text-transform:uppercase}
+    ul,ol{margin:8px 0 0;padding-left:22px}li+li{margin-top:6px}code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;background:#eeeae2;padding:2px 5px;border-radius:5px;font-size:.88em}.figure{margin:14px 0 5px;padding:9px;border:1px solid var(--line);border-radius:16px;background:white}.figure img{display:block;width:100%;height:auto}.caption{margin:7px 5px 0;color:var(--muted);font-size:12px}
+    .rq{padding:16px 17px;border-radius:15px;border:1px solid var(--line);background:#fbfaf5}.rq strong{display:block;font-size:19px;margin-bottom:7px}.rq .boundary{margin-top:9px;padding-top:9px;border-top:1px dashed #c6c0b5;color:var(--muted);font-size:13px}.metrics{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:13px 0}.metric{padding:13px;border-radius:13px;background:#f2eef5;text-align:center}.metric strong{display:block;color:var(--gov);font-size:27px}.metric span{font-size:12px;color:var(--muted)}
+    .sample a{color:var(--ink);text-decoration-color:#9985a6;text-underline-offset:3px;font-weight:740}.sample .date{color:var(--gov);font-size:13px;font-weight:700}.warning{padding:14px 17px;border-left:4px solid var(--amber);background:var(--amber-soft);border-radius:0 12px 12px 0}.boundary-box{padding:14px 17px;border-left:4px solid var(--red);background:var(--red-soft);border-radius:0 12px 12px 0}.plan{display:grid;grid-template-columns:105px 1fr 1.15fr;gap:0;border:1px solid var(--line);border-radius:13px;overflow:hidden;font-size:13px}.plan>div{padding:9px 11px;border-right:1px solid var(--line);border-bottom:1px solid var(--line)}.plan>div:nth-child(3n){border-right:0}.plan>div:nth-last-child(-n+3){border-bottom:0}.plan .head{background:#eef1ee;font-weight:750;color:#4b5953}
+    a{color:#2b648f}.source-note{position:absolute;left:52px;right:90px;bottom:18px;color:#8a938f;font-size:10px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.cover{background:linear-gradient(145deg,#fffdf8 0 73%,#eee5f2 73%)}.cover:after{content:"M1";position:absolute;right:30px;top:10px;font-size:190px;font-weight:850;color:rgba(109,58,142,.07);letter-spacing:-.08em}
+    @media(max-width:800px){.page{padding:34px 25px;min-height:auto}.grid2,.grid3,.roles,.metrics{grid-template-columns:1fr}.plan{grid-template-columns:1fr}.plan>div{border-right:0}.source-note{position:static;margin-top:20px;white-space:normal}h1{font-size:38px}nav{display:none}}
+    @page{size:A4;margin:0}@media print{html,body{background:white}.deck{padding:0}.page{width:210mm;height:297mm;min-height:297mm;margin:0;padding:14mm 15mm 15mm;border:0;border-radius:0;box-shadow:none;page-break-after:always}.page:last-child{page-break-after:auto}nav{display:none}.source-note{left:15mm;right:25mm;bottom:7mm}.page-no{right:12mm;bottom:7mm}.figure{break-inside:avoid}a{color:inherit;text-decoration:none}}
+  </style>
+</head>
+<body>
+<nav><strong>Fear of Temperature · M1 meeting report</strong><a href="#p1">Overview</a><a href="#p2">Transition</a><a href="#p3">Workflow</a><a href="#p4">RQs</a><a href="#p5">M1.1</a><a href="#p6">Limits</a><a href="#p7">Next week</a></nav>
+<main class="deck">
+  <section class="page cover" id="p1">
+    <p class="kicker">Group meeting · 16 September 2026</p><h1>Fear of Temperature<br>Research direction and initial source-feasibility progress</h1><p class="lead">Computational analysis of policy, media and public climate emotions</p>
+    <div class="roles"><div class="role gov">Government / policy</div><div class="role media">News media</div><div class="role public">Public expression</div></div>
+    <div class="status-row"><span class="status done">Completed: bounded M1.1 audit</span><span class="status planned">Planned: NLP + temporal analysis</span><span class="status confirm">Decision needed: counting / text / rights</span></div>
+    <div class="summary"><b>One-minute overview</b><p>The topic has not changed: how policy, media and public communication express fear of rising temperatures, who changes first, what changes around events and how responsibility is explained. The method moves from keyword/Ngram exploration towards a traceable corpus, validated semantic retrieval and bounded temporal analysis. Lexical and TF-IDF approaches remain baselines; 1988 is an IPCC-related collection anchor, not an emotional origin.</p><p><b>Completed this week:</b> nine July 2026 GOV.UK <code>policy_paper</code> records tagged to DEFRA. Reported/returned: 9/9; pagination: 5 + 4; accessible API and pages: 9/9; missing and duplicate key fields: 0. This supports one bounded document denominator only. Retained bodies: 0; no emotion or temporal result exists.</p></div>
+    <p class="small">Dai Pan · Supervisor: Mashhuda Glencross · Progress report, not a completed model study</p><span class="page-no">01 / 07</span>
+  </section>
+
+  <section class="page" id="p2">
+    <p class="kicker">Research transition</p><h2>The research question is unchanged; the evidence strategy is changing</h2>
+    <table><thead><tr><th>Earlier exploration</th><th>Current design</th><th>Reason</th></tr></thead><tbody>
+      <tr><td>Dictionaries, keywords, Ngrams</td><td>Traceable corpus + semantic retrieval</td><td>Similar concerns use different language; the same word can occur in quotation, denial or unrelated text</td></tr>
+      <tr><td>Raw hit counts</td><td>S, E and derived B with aligned denominators</td><td>A hit count is not attention unless numerator and denominator share the eligible collection</td></tr>
+      <tr><td>Selected examples</td><td>Versioned queries, held-out validation, evidence spans</td><td>Reduces discretionary selection and preserves counterexamples</td></tr>
+      <tr><td>General negative sentiment</td><td>Emotion, target, horizon, holder, cause, blame and duty</td><td>Similarity is not intensity; a risk statement need not express fear</td></tr>
+    </tbody></table>
+    <div class="grid2" style="margin-top:18px"><div class="card public"><h3>Baseline retained</h3><p>Dictionary and TF-IDF methods remain. A Transformer only counts as an improvement if held-out precision, recall, F1 and error analysis support it.</p></div><div class="card gov"><h3>1988 boundary</h3><p>The IPCC provides an institutional collection anchor, not the origin of fear or a demonstrated emotional breakpoint. The final comparison window depends on reliable overlap.</p></div></div>
+    <div class="warning" style="margin-top:18px"><b>Historical span is not comparable coverage.</b> Letters, early forums and modern platforms will not be merged into a seamless public-emotion series. Channel changes can flag composition risk but cannot prove bias by themselves.</div>
+    <div class="source-note">Basis: meeting_report_en.md; proposal §§1.2-1.4, 2.5-2.6, 3.1-3.4</div><span class="page-no">02 / 07</span>
+  </section>
+
+  <section class="page" id="p3">
+    <p class="kicker">End-to-end evidence chain</p><h2>Original evidence remains linked throughout the planned workflow</h2>
+    <div class="figure"><img src="assets/technical_pipeline.svg" alt="End-to-end workflow from policy, media and public sources to the three research questions"><p class="caption">Figure 1. Design diagram. Only the bounded M1.1 source audit is completed; all dashed stages are planned.</p></div>
+    <div class="grid3" style="margin-top:14px"><div class="card"><h3>Measures</h3><p><b>S</b>: relevant share of eligible units<br><b>E</b>: future fear/worry within relevant text<br><b>B = S x E</b>: derived joint share</p></div><div class="card"><h3>Model boundary</h3><p>Sentence-BERT is a retrieval candidate; GoEmotions is a dataset; spaCy/Stanza is not a complete responsibility system.</p></div><div class="card"><h3>Evidence boundary</h3><p>Publishing institution, quoted speaker and emotion holder remain separate. Evidence spans, negation, versions and counterexamples are retained.</p></div></div>
+    <div class="source-note">Planned: proposal §§3.2-3.7. Exact checkpoints are not frozen.</div><span class="page-no">03 / 07</span>
+  </section>
+
+  <section class="page" id="p4">
+    <p class="kicker">Research questions</p><h2>Three RQs connect timing, events and meaning</h2>
+    <div class="grid3">
+      <div class="rq"><strong>RQ1 · Who changes first?</strong><p>Compare leading, lagging, synchronous and feedback patterns across policy, media and public attention/emotion.</p><p><b>Planned:</b> common-window S/E; cross-correlation; conditional VAR against an own-history baseline.</p><div class="boundary">Precedence and added prediction do not automatically establish causation.</div></div>
+      <div class="rq"><strong>RQ2 · What changes around events?</strong><p>Estimate level and slope changes near independently dated heat, scientific or policy events.</p><p><b>Planned:</b> segmented regression / ITS; window sensitivity; placebo dates; serial-dependence checks.</p><div class="boundary">Changes may reflect anticipation, common shocks, composition or channel shifts.</div></div>
+      <div class="rq"><strong>RQ3 · How is fear explained?</strong><p>Trace affected groups, causes, blame, duties and threatened futures across roles.</p><p><b>Planned:</b> evidence-linked relations; topics/frames; quotation and stance checks; contrary passages.</p><div class="boundary">A grammatical subject is not necessarily culpable; similarity is not agreement.</div></div>
+    </div>
+    <div class="summary"><b>Why all three?</b><p>RQ1 without RQ3 gives curves without meaning; RQ3 alone cannot compare sequence; RQ2 links independently dated events to changes. The NLP components serve multiple RQs rather than mapping one model to one question.</p></div>
+    <div class="boundary-box"><b>Shared causal boundary:</b> CCF/Granger/VAR added prediction is not causal identification. A non-significant result would not prove that policy dominates or that physical influence is absent.</div>
+    <div class="source-note">Planned: proposal §§3.1, 3.5-3.7</div><span class="page-no">04 / 07</span>
+  </section>
+
+  <section class="page" id="p5">
+    <p class="kicker">Completed this week</p><h2>M1.1 verified one bounded policy-document denominator</h2>
+    <div class="figure"><img src="assets/m1_verification.svg" alt="Actual M1.1 verification results"><p class="caption">Figure 2. Saved engineering checks, not an emotion trend. No new collection was run for this report.</p></div>
+    <div class="metrics"><div class="metric"><strong>9 / 9</strong><span>reported / returned</span></div><div class="metric"><strong>5 + 4</strong><span>pagination matched</span></div><div class="metric"><strong>0 / 0</strong><span>missing / duplicate</span></div><div class="metric"><strong>3 / 9</strong><span>multi-organisation</span></div></div>
+    <div class="grid3">
+      <div class="card sample"><div class="date">3 July 2026</div><a href="https://www.gov.uk/government/publications/air-pollution-awareness-coalition-apac">Air Pollution Awareness Coalition (APAC)</a><p class="small">Updated 21 August; linked to DEFRA, DHSC and DfT. Publication and update dates differ.</p></div>
+      <div class="card sample"><div class="date">13 July 2026</div><a href="https://www.gov.uk/government/publications/30by30-on-land-in-england-delivery-plan">30by30 on land in England: Delivery plan</a><p class="small"><code>policy_paper</code>; linked to DEFRA.</p></div>
+      <div class="card sample"><div class="date">15 July 2026</div><a href="https://www.gov.uk/government/publications/british-sign-language-5-year-plan-department-for-environment-food-and-rural-affairs-1-year-update-july-2026">British Sign Language plan: DEFRA update</a><p class="small">Non-climate item: the denominator was not assembled from climate keyword hits.</p></div>
+    </div>
+    <div class="source-note">Completed: status 1 / conditional go only for the saved July 2026 DEFRA-tagged policy_paper set; N_total = 9.</div><span class="page-no">05 / 07</span>
+  </section>
+
+  <section class="page" id="p6">
+    <p class="kicker">Technical findings and limits</p><h2>What the pilot established — and what remains unclaimed</h2>
+    <div class="grid2"><div class="card public"><h3>Completed and confirmed</h3><ul><li><code>first_published_at</code> worked as a filter, but was not populated in the search response; sorting by it returned HTTP 422.</li><li>The Content API supplied dates for verification and local sorting.</li><li>3/9 records had multiple organisations; the pilot counted each landing page once if DEFRA-tagged.</li><li>Access time and evidence hashes were saved.</li></ul></div><div class="card gov"><h3>Technical implications</h3><ul><li><code>public_timestamp</code> can reflect an update and cannot substitute for first publication.</li><li>An organisation tag is not exclusive authorship; cross-institution totals may double count.</li><li>The index is a dynamic snapshot.</li><li>One complete month does not prove 1988-2026 completeness.</li></ul></div></div>
+    <div class="boundary-box" style="margin-top:18px"><b>Not completed:</b> body/attachment retention, passage denominator, relevance/emotion labels, embeddings, topics, relations, S/E/B, CCF, VAR or ITS. Retained bodies and paragraph examples: 0.</div>
+    <div class="warning" style="margin-top:14px"><b>Rights and ethics:</b> most GOV.UK material is under OGL v3, but attachment, third-party and personal-data exceptions remain. Public visibility is not blanket permission to store or redistribute content.</div>
+    <h3>Therefore the pilot cannot establish</h3><div class="status-row"><span class="status confirm">climate prevalence</span><span class="status confirm">fear level or trend</span><span class="status confirm">policy leadership</span><span class="status confirm">whole-government coverage</span><span class="status confirm">historical completeness</span></div>
+    <div class="source-note">Evidence: saved M1.1 README, CSV, denominator assessment and checks.json</div><span class="page-no">06 / 07</span>
+  </section>
+
+  <section class="page" id="p7">
+    <p class="kicker">Next week and decisions</p><h2>21-27 September: 10-20 hours, strengthen measurement before expansion</h2>
+    <div class="plan">
+      <div class="head">Time</div><div class="head">Work</div><div class="head">Output / stop condition</div>
+      <div>3-5 h</div><div>Preserve snapshot; audit recent, intermediate and earlier windows</div><div>Versioned coverage table; do not overwrite M1.1; downgrade status if fields are unstable</div>
+      <div>2-3 h</div><div>Review three multi-organisation records and date/unit rules</div><div>Data dictionary and counting recommendation; no cross-institution total before decision</div>
+      <div>2-4 h</div><div>If authorised, test provenance on three public documents</div><div>Traceable passage sample; otherwise metadata or labelled synthetic checks only</div>
+      <div>3-5 h</div><div>Two close readings + two targeted readings</div><div>Query and annotation drafts; these readings are planned, not completed</div>
+      <div>0-3 h</div><div>Synthesis and demonstration</div><div>Next meeting material; total stays within 20 h</div>
+    </div>
+    <div class="grid2" style="margin-top:16px"><div class="card"><h3>Planned reading</h3><p><b>Close:</b> Sentence-BERT; Pihkala’s climate-emotion taxonomy.</p><p><b>Targeted:</b> GoEmotions transfer limits; Brulle et al.’s temporal design.</p></div><div class="card gov"><h3>Supervisor decisions requested</h3><ol><li>1988 anchor with final analysis restricted to common coverage?</li><li>Joint records: all linked, lead-only or fractional weights?</li><li>What supervision, ethics and rights record is needed before a three-document passage pilot?</li><li>Prioritise coverage audit or freeze units/counting first?</li></ol></div></div>
+    <div class="summary"><b>Closing principle</b><p>Make the denominator, evidence location and validation chain defensible before running complex models. Next week does not commit to completing emotion models or VAR.</p></div>
+    <p class="small"><a href="speaking_notes_en.md">Five-minute speaking script</a> · <a href="meeting_report.md">Markdown report</a> · <a href="README.md">Evidence and build notes</a></p>
+    <div class="source-note">This report used the saved proposal, English meeting narrative and M1.1 evidence. It did not rerun collection.</div><span class="page-no">07 / 07</span>
+  </section>
+</main>
+</body>
+</html>

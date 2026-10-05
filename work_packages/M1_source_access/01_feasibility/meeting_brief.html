@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>M1.1 来源可行性先导｜组会简报</title>
+  <style>
+    :root {
+      --ink: #15211c;
+      --muted: #5f6b65;
+      --paper: #f5f2ea;
+      --card: #fffdf8;
+      --line: #d8d4c8;
+      --green: #0f6b4f;
+      --green-soft: #dff1e8;
+      --amber: #9a5a10;
+      --amber-soft: #fff0d9;
+      --blue: #295b8d;
+      --shadow: 0 14px 34px rgba(28, 37, 31, .08);
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 12% 0%, rgba(47, 122, 91, .11), transparent 30rem),
+        var(--paper);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.55;
+    }
+    main { width: min(1180px, calc(100% - 36px)); margin: 30px auto 50px; }
+    header {
+      padding: 28px 30px;
+      color: white;
+      border-radius: 22px;
+      background: linear-gradient(125deg, #103f32, #0f6b4f 64%, #268368);
+      box-shadow: var(--shadow);
+      position: relative;
+      overflow: hidden;
+    }
+    header::after {
+      content: "M1";
+      position: absolute;
+      right: 28px;
+      top: -30px;
+      font-size: 150px;
+      font-weight: 800;
+      letter-spacing: -.08em;
+      color: rgba(255,255,255,.08);
+    }
+    .eyebrow { margin: 0 0 8px; font-size: 13px; letter-spacing: .14em; text-transform: uppercase; opacity: .78; }
+    h1 { margin: 0; font-size: clamp(29px, 4vw, 49px); line-height: 1.12; letter-spacing: -.035em; }
+    .subtitle { max-width: 820px; margin: 13px 0 0; font-size: 17px; color: #e7f5ee; }
+    .chips { display: flex; gap: 9px; flex-wrap: wrap; margin-top: 18px; }
+    .chip { padding: 6px 11px; border: 1px solid rgba(255,255,255,.25); border-radius: 999px; background: rgba(255,255,255,.10); font-size: 13px; }
+    .metrics { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 16px 0; }
+    .metric { padding: 18px 19px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); box-shadow: 0 6px 18px rgba(28,37,31,.04); }
+    .metric strong { display: block; font-size: 29px; line-height: 1.05; color: var(--green); }
+    .metric span { display: block; margin-top: 5px; color: var(--muted); font-size: 13px; }
+    .grid { display: grid; grid-template-columns: 1.06fr .94fr; gap: 16px; }
+    section { padding: 22px; border: 1px solid var(--line); border-radius: 18px; background: var(--card); box-shadow: 0 6px 18px rgba(28,37,31,.04); }
+    h2 { margin: 0 0 13px; font-size: 20px; letter-spacing: -.02em; }
+    h3 { margin: 0 0 5px; font-size: 15px; }
+    p { margin: 7px 0; }
+    ul { margin: 8px 0 0; padding-left: 20px; }
+    li + li { margin-top: 6px; }
+    .verdict { border-left: 5px solid var(--green); }
+    .verdict b { color: var(--green); }
+    .warn { border-left: 5px solid var(--amber); }
+    .warn strong { color: var(--amber); }
+    table { width: 100%; border-collapse: collapse; font-size: 14px; }
+    th, td { padding: 9px 8px; text-align: left; vertical-align: top; border-bottom: 1px solid var(--line); }
+    th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: .05em; }
+    tr:last-child td { border-bottom: 0; }
+    .full { grid-column: 1 / -1; }
+    .samples { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+    .sample { padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: #fbfaf5; }
+    .num { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--green-soft); color: var(--green); font-weight: 750; font-size: 13px; }
+    a { color: var(--blue); text-decoration-thickness: 1px; text-underline-offset: 3px; }
+    .sample a { color: var(--ink); font-weight: 720; text-decoration-color: #9bb1a7; }
+    .meta { margin-top: 8px; color: var(--muted); font-size: 13px; }
+    .pill { display: inline-block; margin: 4px 4px 0 0; padding: 3px 7px; border-radius: 7px; font-size: 11px; background: var(--green-soft); color: var(--green); }
+    .pill.amber { background: var(--amber-soft); color: var(--amber); }
+    details { margin-top: 14px; border-top: 1px solid var(--line); padding-top: 12px; }
+    summary { cursor: pointer; color: var(--green); font-weight: 750; }
+    .script { padding: 11px 14px; border-radius: 11px; background: #f0eee7; }
+    footer { margin-top: 15px; padding: 0 4px; color: var(--muted); font-size: 12px; display: flex; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+    code { padding: 2px 5px; border-radius: 5px; background: #eeece4; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-size: .9em; }
+    @media (max-width: 850px) {
+      .metrics { grid-template-columns: repeat(2, 1fr); }
+      .grid { grid-template-columns: 1fr; }
+      .full { grid-column: auto; }
+      .samples { grid-template-columns: 1fr; }
+    }
+    @media print {
+      body { background: white; }
+      main { width: 100%; margin: 0; }
+      header, section, .metric { box-shadow: none; break-inside: avoid; }
+      a { color: inherit; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <p class="eyebrow">Fear of Temperature · M1 Source Access</p>
+    <h1>从 proposal 到一个可审计分母</h1>
+    <p class="subtitle">GOV.UK · DEFRA · <code>policy_paper</code> · 首次发布于 2026-07-01 至 2026-07-31。今天展示的是来源与测量可行性，不是气候情绪研究结论。</p>
+    <div class="chips">
+      <span class="chip">状态 1：限定范围完整</span>
+      <span class="chip">Conditional go</span>
+      <span class="chip">访问：2026-09-16 11:44 AEST</span>
+    </div>
+  </header>
+
+  <div class="metrics" aria-label="核验指标">
+    <div class="metric"><strong>9 / 9</strong><span>Search API 总量 / 实际返回</span></div>
+    <div class="metric"><strong>9 / 9</strong><span>Content API 与公开页面 HTTP 200</span></div>
+    <div class="metric"><strong>0</strong><span>关键字段缺失与重复</span></div>
+    <div class="metric"><strong>3 / 9</strong><span>多机构共同关联，需预注册计数规则</span></div>
+  </div>
+
+  <div class="grid">
+    <section class="verdict">
+      <h2>本周第一步：真实来源核验</h2>
+      <p>没有按 climate/heat 关键词筛选。先用同一 GOV.UK 官方接口比较 2026 年 7 月首次发布的 <code>policy_paper</code>：DEFRA 9、DESNZ 4、Cabinet Office 4；DEFRA 恰好满足 5–10 条先导规模。</p>
+      <table>
+        <thead><tr><th>路线</th><th>日期</th><th>结果</th><th>分母</th></tr></thead>
+        <tbody><tr>
+          <td>Search API 枚举<br>→ Content API 核日期/类型<br>→ canonical HTML</td>
+          <td><code>first_published_at</code><br>7 月 1–31 日</td>
+          <td>总量 9；返回 9<br>分页 5+4；集合一致</td>
+          <td><b>N=9</b><br>document level</td>
+        </tr></tbody>
+      </table>
+    </section>
+
+    <section class="warn">
+      <h2>能支持什么，不能支持什么</h2>
+      <p><strong>能：</strong>支持这个固定机构标签、类型和月份的文档级分母；每个 landing page 计一次。</p>
+      <p><strong>不能：</strong>代表 DEFRA 全部发文、英国政府总体政策、1988–2026 全历史或段落分母。</p>
+      <p><strong>更不能：</strong>据此声称 S/E 趋势、恐惧程度、政策先行、情绪上升或全球代表性。</p>
+      <span class="pill">正文未持久化</span><span class="pill">无情绪标签</span><span class="pill amber">附件权利待逐项审核</span>
+    </section>
+
+    <section class="full">
+      <h2>三条可点击的真实样本</h2>
+      <div class="samples">
+        <article class="sample">
+          <span class="num">1</span>
+          <h3><a href="https://www.gov.uk/government/publications/air-pollution-awareness-coalition-apac">Air Pollution Awareness Coalition (APAC)</a></h3>
+          <p class="meta">首次发布 2026-07-03 · 更新 2026-08-21<br>DEFRA、DHSC、DfT 共同关联</p>
+          <p class="meta">展示：首次发布日期不能由公开更新时间代替。</p>
+        </article>
+        <article class="sample">
+          <span class="num">2</span>
+          <h3><a href="https://www.gov.uk/government/publications/30by30-on-land-in-england-delivery-plan">30by30 on land in England: Delivery plan</a></h3>
+          <p class="meta">首次发布 2026-07-13<br><code>policy_paper</code> · DEFRA 关联</p>
+          <p class="meta">展示：类型与机构均可由 Content API 回溯。</p>
+        </article>
+        <article class="sample">
+          <span class="num">3</span>
+          <h3><a href="https://www.gov.uk/government/publications/british-sign-language-5-year-plan-department-for-environment-food-and-rural-affairs-1-year-update-july-2026">British Sign Language 5-year plan: DEFRA – 1-year update</a></h3>
+          <p class="meta">首次发布 2026-07-15<br>非气候条目 · 多机构关联</p>
+          <p class="meta">展示：分母不是由气候关键词结果拼接。</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>实际发现的技术 / 数据问题</h2>
+      <ul>
+        <li>Search API 可按 <code>first_published_at</code> 过滤，但本次响应不提供其填充值，用该字段排序返回 HTTP 422；需用 Content API 二次核验并本地排序。</li>
+        <li>3/9 条关联多个机构；跨机构汇总前必须决定全计、lead-only 或分数计权。</li>
+        <li>索引会更新或移除；已保存访问时间、证据快照与 SHA-256，但尚未做周际稳定性检查。</li>
+        <li>多数 GOV.UK 内容适用 OGL v3，但第三方/个人数据/另行声明是例外；附件尚未逐件审核。</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>下一小步与导师确认</h2>
+      <p><b>最小下一步：</b>抽查近期、中期、较早三个窗口的枚举与日期稳定性，并核对本轮 3 个共同署名记录的 lead/emphasised organisation；不进入模型训练。</p>
+      <ol>
+        <li>机构层 S 对共同发布应全部计入、只计 lead，还是分数计权？</li>
+        <li>权利与伦理逐项记录后，是否批准对 3 个公开文件做少量正文 provenance 验证？</li>
+      </ol>
+      <p><a href="document_sample.csv">完整 9 条 CSV</a> · <a href="checks.json">机器验收 JSON</a> · <a href="denominator_assessment.md">分母说明</a></p>
+    </section>
+
+    <section class="full">
+      <h2>60–90 秒口头汇报稿</h2>
+      <div class="script">这周我先把 proposal 里的来源问题缩成一个可验证的小任务：政府政策来源到底能不能稳定给出日期、类型和分母。我没有用气候关键词搜样本，而是在 GOV.UK 官方 Search API 中固定 2026 年 7 月、DEFRA 标签和 <code>policy_paper</code> 类型。接口报告总量 9，也实际返回 9 条；拆成两页是 5 加 4，集合完全一致。随后我用 Content API 和公开页面逐条核验，9 条的首次发布日期、更新时间、类型和链接都有效，没有缺失或重复。因此，这个非常限定的文档层可以判为状态 1，分母是 9。但它不是 DEFRA 全部发文，也不是全政府或段落分母。技术上还发现两个问题：Search API 的公开时间不能直接当首次发布日期，而且 3 条是多机构共同关联。下一步我建议先抽查历史稳定性，并请导师确认共同发布的计数规则，以及是否允许在完成权利和伦理记录后，对 3 个文件做少量正文 provenance 验证。</div>
+    </section>
+  </div>
+
+  <footer>
+    <span>官方依据：<a href="https://docs.publishing.service.gov.uk/repos/search-api/using-the-search-api.html">Search API</a> · <a href="https://docs.publishing.service.gov.uk/repos/content-store/content-store-api.html">Content API</a> · <a href="https://www.gov.uk/help/terms-conditions">GOV.UK Terms</a> · <a href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/">OGL v3</a></span>
+    <span>元数据先导 · 无正文分析 · 无研究结论</span>
+  </footer>
+</main>
+</body>
+</html>
