@@ -1,0 +1,11 @@
+source_id,source_label,genre,month,legacy_audit_parents,effective_parents,delta,additional_locally_derived_parents,interval_parents
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,1991-12,599,681,82,82,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,1992-01,585,602,17,17,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,1994-03,1099,1114,15,15,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,1994-07,730,760,30,30,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,1997-11,950,1034,84,84,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,2000-07,1128,1184,56,56,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,2003-06,853,802,-51,0,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,2003-07,756,683,-73,0,0
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,2003-10,338,411,73,0,73
+src_549acfda11091ff8c9b8,UK Historic Hansard,ministerial_written_answer,UNASSIGNED_CROSS_MONTH_INTERVAL,0,51,51,0,51

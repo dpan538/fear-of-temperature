@@ -1,0 +1,8 @@
+source,category,issue_instances,distinct_units_within_category,unit_counts_additive_across_categories
+src_9e8f487d372ed011db82,original_mapping_uncertain,4,4,False
+src_9e8f487d372ed011db82,reply_role_or_boundary,1,1,False
+src_549acfda11091ff8c9b8,original_mapping_uncertain,4,4,False
+au_dcceew_current_catalogue_2026_snapshot,ISSUER,1,1,False
+au_dcceew_current_catalogue_2026_snapshot,DATE_SCOPE,2,2,False
+eu_cellar_com_preparatory_en_v1,CONTENT_LINK,153,153,False
+eu_cellar_com_preparatory_en_v1,STATUS,153,153,False

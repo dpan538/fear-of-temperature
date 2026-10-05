@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "checks": {
+    "saved_inputs_still_match": true,
+    "database_checkpoint_unchanged": true,
+    "UK_source_totals": true,
+    "technical_state_annotations": true,
+    "date_and_inventory_reconciliation": true,
+    "EU_item_multiplicity": true,
+    "preflight_is_no_download": true,
+    "artifact_links_exist": true,
+    "required_deliverables_nonempty": true
+  },
+  "missing_links": [],
+  "validation_scope": "saved outputs and bounded input hashes; no second database aggregate or text scan"
+}

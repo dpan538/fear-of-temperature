@@ -1,0 +1,115 @@
+{
+  "generated_at_utc": "2026-10-04T14:21:27.701426+00:00",
+  "database": {
+    "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+    "bytes": 3590598656,
+    "mtime_ns": 1791108746288675852,
+    "whole_database_hash": "not performed"
+  },
+  "saved_inputs": [
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/control/REPAIR_READY.json",
+      "bytes": 3960,
+      "sha256": "7e885c328ebedf70c486c0bc0afb6e505318665ef0eeebeb6464fb66077cf805"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/REPORT.md",
+      "bytes": 14620,
+      "sha256": "a25024ee5ddd3bb0638a0f427a7562f2e0701ef4271b2b1d47e600103d5ae46c"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/RESULT.json",
+      "bytes": 3899,
+      "sha256": "32f1eb55742dc1619e91362a54508b31c45b16c2487650e7febeba24adea4b15"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/changed_tranche_month_counts.csv",
+      "bytes": 313,
+      "sha256": "40b9babfd5db1812f1f45ae9ed3443b69ed2015dc44ceaa91f779d5ec0b393bc"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/missing_original_requests.csv",
+      "bytes": 4739,
+      "sha256": "969c388e7815c27f086c4a50aa82e7268740f9eb0d0ad0f306919f5c380300dd"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/unresolved_cases.csv",
+      "bytes": 257059,
+      "sha256": "5931865d96f97f8c6cc32d90c2ac2fdacf07bd99cd87b4a42190e6c8775a1303"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/FINAL_SAVED_TRANCHE_CHECKS.json",
+      "bytes": 818,
+      "sha256": "78ff63d9c26e6606a9b622fbd269b4e4f2410973f402dd728d7c6b71987e5193"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/REQUEST_RECONCILIATION.json",
+      "bytes": 436,
+      "sha256": "6078499207f9a8036139e55cdc52af9560acbf205e19c93e56d0c55a3d006b13"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/REPORT.md",
+      "bytes": 4463,
+      "sha256": "17a2630772529763cb7745792ea55bee0cba1baf7af9f8c761929a12911e33df"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/SOURCE_FRAME_PLAN.md",
+      "bytes": 15781,
+      "sha256": "e3d2867b5261ad5a54e849f7281457725fb6367fc8440b7c886dfac5fcc79cbc"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/ACQUISITION_CONTRACT.json",
+      "bytes": 1764,
+      "sha256": "0dc0cfcbac91936ef5f6a7888adecbeeb4466b8752acec9969ee19bca4d6bbec"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/frozen_acquisition_manifest.csv",
+      "bytes": 1560606,
+      "sha256": "af3fa2aa5c9cd6b1e97ad8b27fba17769be2c4916b3ef3dc4a6ab87fb772a4f7"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/source_frame_population.csv",
+      "bytes": 945251,
+      "sha256": "443e3f6217ce72c63f9969cd70d41bce078f21a8305c0602289b888f5f5963fe"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/selected_work_item_relationships.csv",
+      "bytes": 4027325,
+      "sha256": "288c6127f8bb870ee4b3ba7497afd1e3859b550bb38abceded6e44126918b0a1"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/source_composition_2015.csv",
+      "bytes": 41562,
+      "sha256": "7da2276c12018681108634d18de723a944fba69deee8b1961d84fd8bc45001f1"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/coverage_expected_vs_observed.csv",
+      "bytes": 2201,
+      "sha256": "26a6b4f55fc73c80630307a14f49779d3c06d61ecb1c173876fcbcc2aac9b08d"
+    },
+    {
+      "path": "work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/04_targeted_supplementation/stage_frozen_items.py",
+      "bytes": 13529,
+      "sha256": "fff95478edeec2109577dc165fc809634d34d0a32edd057c8bbea2c674497da0"
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/INPUT_MANIFEST.json",
+      "bytes": 3669,
+      "sha256": "a0d0b0340c244dccd0941bd84407248c831bf93d06f1178d0054b362175e05bb"
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/monthly_source_genre_counts.csv",
+      "bytes": 1597360,
+      "sha256": "80bb61149aef158d4a1e4e180d029d78d11c939f5715d6e81604a84c7479f7ab"
+    },
+    {
+      "path": "work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/REPORT.md",
+      "bytes": 10776,
+      "sha256": "cab8059f9b90e39f457badcf179082f0bea8fac5eeb969f81389b602cf3ec074"
+    }
+  ],
+  "formal_database_writes": 0,
+  "network_body_downloads": 0,
+  "heavy_io_lock": "work_packages/M1_source_access/14_structural_validation_20261004/control/heavy_io.lock",
+  "lock_file_unlinked": false
+}
