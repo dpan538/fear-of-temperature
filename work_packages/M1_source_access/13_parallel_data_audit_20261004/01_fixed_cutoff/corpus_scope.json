@@ -1,0 +1,36 @@
+{
+  "status": "proposal_for_coordinator_review",
+  "scope_version": "fixed_publication_endpoint_2026-10-04_proposed_v1",
+  "publication_interval": {
+    "start": "1988-01-01",
+    "end": "2026-09-21",
+    "end_inclusive": true,
+    "timestamp_comparison_timezone": "UTC",
+    "exclusive_upper_for_timestamp_queries": "2026-09-22T00:00:00Z",
+    "last_month": "2026-09",
+    "last_month_status": "partial"
+  },
+  "historical_basis": {
+    "initial_GOVUK_query_observation_utc": ["2026-09-21T01:05:02Z", "2026-09-21T01:10:54Z"],
+    "collection_authorization_recorded_utc": "2026-09-21T06:01:20Z",
+    "global_extraction_start_precision": "day_only; no defensible shared second-level timestamp",
+    "evidence": [
+      "work_packages/M1_source_access/04_government_corpus_batch/collection_scope.md",
+      "work_packages/M1_source_access/04_government_corpus_batch/query_partitions.csv",
+      "work_packages/M1_source_access/06_government_content_acquisition/AUTHORIZATION_AND_USE.md",
+      "docs/decisions/2026-10-04-fixed-cutoff-distribution-and-source-quality.md"
+    ]
+  },
+  "time_fields": {
+    "publication": "source-evidenced publication day or source timestamp; used for scope and month",
+    "retrieval_or_extraction": "when current source bytes or metadata were acquired; not a publication fallback",
+    "content_version_or_modification": "version evidence; not a publication fallback",
+    "report_or_snapshot": "when counts were produced; not a publication fallback"
+  },
+  "partial_precision_rule": "retain candidates and their evidence; include only if the entire possible date interval is within the fixed scope; otherwise mark uncertain for date review",
+  "out_of_range_rule": "preserve raw and metadata in an exception ledger; exclude only from in-window derived counts pending review; do not delete or silently change dates",
+  "GOVUK_timezone_issue": "119 stored local publication dates differ by one day from UTC-normalized publication_timestamp; 3 cross month boundaries. Review source date semantics before changing stored dates or monthly bins.",
+  "source_specific_observation": "A date-filter upper bound does not imply the first GOV.UK Search index was observed through the end of 2026-09-21; retain per-source observed times.",
+  "backfill": "Later retrieval may add source-evidenced publication dates in this same interval, with retrieval and version times separately recorded; it never changes the study endpoint or proves historical body wording.",
+  "endpoint_change": "requires Dai's explicit decision and a new corpus version"
+}

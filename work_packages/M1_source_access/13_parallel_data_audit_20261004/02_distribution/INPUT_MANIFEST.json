@@ -1,0 +1,66 @@
+{
+  "generated_utc": "2026-10-04T05:34:23.398355+00:00",
+  "publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "september_2026_partial": true,
+  "databases": {
+    "UK": {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "file_mtime_utc": "2026-09-22T13:37:31.704839+00:00",
+      "size_bytes": 3590598656,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-21 14:08:38+08:00",
+        "last_retrieval": "2026-09-22 21:01:49+08:00"
+      }
+    },
+    "US_AU": {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb",
+      "file_mtime_utc": "2026-09-27T12:36:23.210504+00:00",
+      "size_bytes": 6682587136,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-21 14:08:38+08:00",
+        "last_retrieval": "2026-09-27 20:31:31.618256+08:00"
+      }
+    },
+    "EU": {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb",
+      "file_mtime_utc": "2026-09-27T15:31:29.765522+00:00",
+      "size_bytes": 2567188480,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-26T14:28:22.549862+00:00",
+        "last_retrieval": "2026-09-27T15:31:23.954179+00:00"
+      }
+    },
+    "AU_original": {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/au_browser_stage.duckdb",
+      "file_mtime_utc": "2026-09-26T17:12:20.944330+00:00",
+      "size_bytes": 9711616,
+      "retrieval_range": {
+        "first_retrieval": "2026-09-26T14:21:54.536040+00:00",
+        "last_retrieval": "2026-09-26T17:11:42.319813+00:00"
+      }
+    }
+  },
+  "baseline_only": "work_packages/M1_source_access/12_project_eda_snapshot_20260927/DATA_MANIFEST.json",
+  "units": {
+    "UK": "documents.document_id; genre=content_type; no shared copy from 09 DB; extracted status is not reverified text",
+    "US": "09 DB documents.document_id; final/proposed rule selected metadata; extracted status based on body_status",
+    "AU": "09 DB current catalogue candidate document_id; 819 unknown publication dates in documents, plus a separately displayed 7-original verified subset (5 month/day dated, 2 year-only); frames overlap and are not additive",
+    "EU": "eu_work_dates.work_uri; frozen COM preparatory Work; Item/version distinct"
+  },
+  "filter": "publication_date or EU document_date between 1988-01-01 and 2026-09-21 inclusive; UNKNOWN/BEFORE/AFTER retained as separate rows; no topic/emotion filtering",
+  "anomaly_rule": "For each source_id\u00d7genre with >=24 positive months, excluding targeted mirror and AU frames: compare each nonpartial month inside observed source span with positive-count same-calendar months in +/-5 years (>=4 references). log1p robust score uses max(1.4826 MAD,0.35); |score|>=2.5, high >=10 and >=2x median with >=10 excess parents, low median>=10 and <=half. Reserve top high flag per source, then fill by |score| descending/source/genre/month, cap 4 per source, 3 per source\u00d7direction and 2 per month; take <=20 and re-rank by severity. Review flags only.",
+  "source_specific_snapshots_not_synchronous": true,
+  "supplementary_inputs": [
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/reports/post_acquisition_distribution_coverage/record_text_length_distribution.csv",
+      "file_mtime_utc": "2026-09-22T01:26:01.515045+00:00"
+    },
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/text_quality_review/03_segment_length_distribution.csv",
+      "file_mtime_utc": "2026-09-21T08:41:31.766716+00:00"
+    }
+  ]
+}

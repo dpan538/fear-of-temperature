@@ -1,0 +1,93 @@
+{
+  "status": "analysis_complete_coordinator_message_blocked_by_auto_review",
+  "study_publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "report_date_utc": "2026-10-04",
+  "input_checkpoint": {
+    "UK_static_database_mtime_utc": "2026-09-22T13:37:31.704839+00:00",
+    "US_object_status_export_mtime_utc": "2026-09-27T08:34:37.109234+00:00",
+    "EU_disposition_export_mtime_utc": "2026-09-27T07:11:32.333129+00:00",
+    "AU_candidate_outcome_export_mtime_utc": "2026-09-27T07:44:27.327955+00:00",
+    "Guardian_December_metadata_export_mtime_utc": "2026-09-27T13:53:45.893345+00:00",
+    "petition_177_ID_mapping_export_mtime_utc": "2026-09-27T14:12:34.368290+00:00",
+    "note": "All times are source-specific file checkpoint times; extraction/retrieval times remain per record. Do not sum source frames as a synchronous corpus."
+  },
+  "units": {
+    "UK_HISTORIC": "independent document parent",
+    "UK_QS_API": "independent document parent",
+    "UK_HANSARD_ARCHIVE": "independent document parent",
+    "UK_TWFY_MIRROR": "independent document parent",
+    "UK_GOVUK_DEFRA": "independent document parent",
+    "UK_GOVUK_HIST": "independent document parent",
+    "US_FR_RAW": "selected document parent",
+    "US_GOVINFO_FALLBACK": "selected document parent",
+    "EU_ITEM": "preparatory Work",
+    "EU_NO_ITEM": "preparatory Work",
+    "AU_ORIGINAL_PAIR": "catalogue landing parent",
+    "AU_UNRESOLVED": "catalogue landing parent",
+    "GUARDIAN_DEC2015": "distinct nonvideo article URL",
+    "PETITION_QUERY": "distinct q=climate query petition ID"
+  },
+  "principal_findings": [
+    "UK 248035 parent documents: 67043 original-utterance route candidates and 180992 archive/mirror reproductions, all under the fixed date interval in the static DB.",
+    "US selected Federal Register frame 33544 canonical parent URLs: 16305 downloaded at 08:34 checkpoint, 17238 not requested and one failed; 95-24211 occurs in two distinct dated issue records.",
+    "EU 50578 preparatory Works: 47472 with selected Item routes and 3106 without an English digital Item link; 12347 extracted-text dispositions at the 07:11 export, with OCR/HTML exceptions separate.",
+    "AU 821 catalogue URLs: eight original landing-to-file pairs checked, 813 unresolved; one sampled CSIRO issuer ambiguity and one September 2026 cutoff-day uncertainty.",
+    "Guardian December frame 396 article URLs with one prior body check; archived petition q=climate frame 177 submissions, 77 opened and 100 rejected.",
+    "In the purposive 30-parent/Work sample, supported identity/date/content mappings were 22/23/18; twelve cases have a partial or pending field. These are not prevalence estimates."
+  ],
+  "limitations": [
+    "Rule-derived directness does not verify individual bodies or truth of substantive claims.",
+    "Different source checkpoints and record units prevent a pooled denominator; EU and US later snapshots are not merged into earlier dispositions.",
+    "Current saved or browser-observed body cannot establish wording at first publication.",
+    "EU selected Items not requested, US unrequested bodies and most AU catalogue originals remain individually unassessed.",
+    "No climate, risk, affect or fear analysis was performed; 465/465 historical source-text-month result was not retested."
+  ],
+  "output_paths": [
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/REPORT.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/SUMMARY_zh.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/SAMPLE_PLAN.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/INPUT_MANIFEST.json",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/source_quality_ledger.csv",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/source_quality_summary.csv",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/verification_sample.csv",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/review_annotations.json",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/supplementation_queue.csv",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/build_source_quality.py",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/verify_outputs.py",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/LOG_ENTRY.md",
+    "work_packages/M1_source_access/13_parallel_data_audit_20261004/03_source_quality/RESULT.json"
+  ],
+  "proposed_next_steps": [
+    "Reconcile two sampled UK GOV.UK parent status labels against linked saved versions.",
+    "Resolve the original publication day of the one AU September 2026 plan before assigning cutoff eligibility.",
+    "Document the two dated 95-24211 Federal Register records as separate parents and verify any republication relation.",
+    "Execute remaining queue items only for named provenance/content needs with their stopping rules."
+  ],
+  "pending_decisions": [
+    "Whether the CSIRO-authored DCCEEW-hosted report belongs in the DCCEEW government-utterance subset; preserve it as a CSIRO original either way.",
+    "Whether to prioritize EU no-English-Item or OCR work for a specified research interval; no broad reacquisition is proposed.",
+    "Whether any further source-specific version review is needed before claims about historical wording."
+  ],
+  "counts": {
+    "frame_rule_rows": 14,
+    "sample_parents_or_works": 30,
+    "sample_supported_identity": 22,
+    "sample_supported_date": 23,
+    "sample_supported_content_mapping": 18,
+    "sample_partial_or_pending_any_core_field": 12,
+    "sample_provenance_or_structure_flags": 5,
+    "targeted_queue_rows": 11
+  },
+  "shared_files_modified": false,
+  "coordinator_handoff": {
+    "target_thread_id": "01a0a369-5516-7492-a412-adbbabfb032f",
+    "attempted": true,
+    "sent": false,
+    "tool": "send_message_to_thread",
+    "rejection": "Automatic approval review rejected the detailed project-report message as lacking explicit user authorization to message that destination; no workaround attempted.",
+    "safe_fallback": "Coordinator can inspect the task deliverables and this task final result; direct cross-thread message requires accepted authorization."
+  }
+}

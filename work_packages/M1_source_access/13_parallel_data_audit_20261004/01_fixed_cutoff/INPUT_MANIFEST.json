@@ -1,0 +1,86 @@
+{
+  "audit_generated_utc": "2026-10-04T05:16:26.741581+00:00",
+  "publication_interval_inclusive": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "snapshot_policy": "source-specific committed checkpoints; do not sum copies or present as one synchronous census",
+  "inputs": [
+    {
+      "path": "work_packages/M1_source_access/04_government_corpus_batch/collection_scope.md",
+      "checkpoint": "GOV.UK Search API observed 2026-09-21T01:05:02Z–01:10:54Z",
+      "unit": "query partition and source observation",
+      "filter": "DEFRA-tagged GOV.UK policy_paper; first_published_at 1988-01-01..2026-09-21 inclusive"
+    },
+    {
+      "path": "work_packages/M1_source_access/04_government_corpus_batch/query_partitions.csv",
+      "checkpoint": "same 2026-09-21 first enumeration; partition request times preserved",
+      "unit": "39 annual query partitions",
+      "filter": "same fixed Search API source frame"
+    },
+    {
+      "path": "work_packages/M1_source_access/04_government_corpus_batch/enumeration_manifest.csv",
+      "mtime_utc": "2026-09-21T01:10:54.754616Z",
+      "unit": "GOV.UK content_id, 1020 source parents",
+      "filter": "same fixed DEFRA policy-paper frame; raw first_published_at strings used only for timezone reconciliation"
+    },
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/AUTHORIZATION_AND_USE.md",
+      "checkpoint": "collection authorization recorded 2026-09-21T06:01:20Z",
+      "unit": "authorization record",
+      "filter": "06 frozen GOV.UK batch"
+    },
+    {
+      "path": "work_packages/M1_source_access/07_historical_government_acquisition/manifests/policy_manifest.csv",
+      "mtime_utc": "2026-09-21T10:46:56.488890Z",
+      "unit": "historical GOV.UK policy candidate row; matched to DB by canonical URL",
+      "filter": "recorded historical policy selection; raw first_published_at strings used only for timezone reconciliation"
+    },
+    {
+      "path": "work_packages/M1_source_access/06_government_content_acquisition/fear_temperature_government_content.duckdb",
+      "mtime_utc": "2026-09-22T13:37:31.704839Z",
+      "unit": "independent parent document_id; 248035 parents",
+      "filter": "documents parent_document_id IS NULL; metadata columns only; no body read"
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/fear_temperature_us_au_v1.duckdb",
+      "mtime_utc": "2026-09-27T12:36:23.210504Z",
+      "unit": "independent parent document_id, with 06 UK tables copied; count only US and AU as additions",
+      "filter": "documents parent_document_id IS NULL; metadata and us_au_record_evidence only; no body read"
+    },
+    {
+      "path": "work_packages/M1_source_access/09_us_au_government_acquisition/reports/au_candidate_outcomes.csv",
+      "mtime_utc": "2026-09-27T07:44:27.327955Z",
+      "unit": "821 DCCEEW landing URL candidates",
+      "filter": "all frozen catalogue candidates; original-date candidate field kept separate from DB verified date"
+    },
+    {
+      "path": "work_packages/M1_source_access/10_eu_cellar_acquisition/eu_stage.duckdb",
+      "mtime_utc": "2026-09-27T15:31:29.765522Z",
+      "unit": "50578 distinct CELLAR Work URI; 50578 Work-date rows",
+      "filter": "Commission issuer COM; preparatory Work; English Expression; Work document date, metadata tables only"
+    },
+    {
+      "path": "work_packages/M1_source_access/12_project_eda_snapshot_20260927/DATA_MANIFEST.json",
+      "checkpoint": "2026-09-27 15:05:29 UTC atlas baseline",
+      "unit": "dated aggregate figures",
+      "filter": "context only; not used to compute this audit's date exceptions"
+    }
+  ],
+  "ID_conventions": {
+    "UK": "documents.document_id primary key; GOV.UK external content_id or parliamentary source-specific external ID",
+    "US": "documents.document_id; selected Federal Register parent identity is canonical URL plus publication date; document number alone is not unique",
+    "AU": "candidate parent documents.document_id keyed to landing URL; Work identity and original date pending for most",
+    "EU": "eu_works.work_uri is independent Work ID; Item content versions are separate"
+  },
+  "generated_evidence": [
+    "date_counts.json",
+    "date_exceptions.csv",
+    "callsite_audit.csv"
+  ],
+  "limitations": [
+    "file modification time is a checkpoint proxy, not a transactional commit marker",
+    "no current live source fetch or body-version verification",
+    "no corpus-wide semantic labelling"
+  ]
+}
