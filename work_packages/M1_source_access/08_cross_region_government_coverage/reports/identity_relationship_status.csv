@@ -1,0 +1,5 @@
+status,verified_group_count,unit,example,action
+exact_duplicate,18,identical canonical URL repeated in selected metadata rows,US FR 95-14725 in EPA and DOE strata; AU DCCEEW state-and-territory-greenhouse-gas-inventories-2018 card repeated,Collapse stratum/listing hit for union count; preserve agency/listing relationships
+verified_mirror,0,same original file independently hosted with official ID/version or checked content hash and provenance,"None verified; only response-body hashes, not publication-file hashes, were collected",Do not merge across hosts
+near_duplicate_candidate,2,document-number collision with distinct date and URL; relationship unresolved,FR 95-24211 original/republication; C1-2014-16556 two dated URLs,"Preserve both dated records; candidate relationship only, no automatic deletion"
+same_event_distinct_voice,0,cross-jurisdiction original publications linked to one independently identified event,No verified cross-jurisdiction event pair in this metadata tranche; Paris Agreement national statements would remain separate voices,"Never merge on month, title similarity, shared event or topic"
