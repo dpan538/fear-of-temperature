@@ -1,0 +1,30 @@
+{
+  "parent_id": "http://publications.europa.eu/resource/cellar/43051b8d-a7a8-11e4-8e01-01aa75ed71a1",
+  "expression_uri": "http://publications.europa.eu/resource/cellar/43051b8d-a7a8-11e4-8e01-01aa75ed71a1.0003",
+  "manifestation_uri": "http://publications.europa.eu/resource/cellar/43051b8d-a7a8-11e4-8e01-01aa75ed71a1.0003.01",
+  "item_uri": "http://publications.europa.eu/resource/cellar/43051b8d-a7a8-11e4-8e01-01aa75ed71a1.0003.01/DOC_1",
+  "publication_dates": "2015-01-29",
+  "format": "pdf1x",
+  "request_url": "https://publications.europa.eu/resource/cellar/43051b8d-a7a8-11e4-8e01-01aa75ed71a1.0003.01/DOC_1",
+  "request_headers": {
+    "User-Agent": "FearTemperatureResearch/1.0 (public academic source acquisition)",
+    "Accept": "application/pdf",
+    "Accept-Encoding": "identity"
+  },
+  "phase": "B_CORRECTED",
+  "status": "downloaded_candidate_original",
+  "requested_at_utc": "2026-10-04T19:39:36.935120+00:00",
+  "byte_count": 50154,
+  "raw_path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/66/66e0b9047e61b319c6661ecc82103712acc90748fb74b7814ceb6eb5b4475d94.bin",
+  "sha256": "ecc82e85a4c2e75cd244b17185934071b9903d9aa3a5bed22bf907974c9c4605",
+  "historical_version_equivalence": "unknown",
+  "http_status": 200,
+  "final_url": "https://publications.europa.eu/resource/cellar/43051b8d-a7a8-11e4-8e01-01aa75ed71a1.0003.01/DOC_1",
+  "response_headers": {
+    "Date": "Sun, 04 Oct 2026 19:39:39 GMT",
+    "Content-Type": "application/pdf;charset=UTF-8",
+    "ETag": "\"Con-20250523012318000\"",
+    "Last-Modified": "Thu, 22 May 2025 23:23:18 GMT"
+  },
+  "retrieved_at_utc": "2026-10-04T19:39:39.417892+00:00"
+}

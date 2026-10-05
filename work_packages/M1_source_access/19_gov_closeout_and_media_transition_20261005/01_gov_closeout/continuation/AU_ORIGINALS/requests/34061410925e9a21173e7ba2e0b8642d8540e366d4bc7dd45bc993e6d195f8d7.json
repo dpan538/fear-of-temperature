@@ -1,0 +1,18 @@
+{
+  "unit_id": "doc:7c7006b4ea3168ebe548e229915d853b",
+  "parent_id": "doc:7c7006b4ea3168ebe548e229915d853b",
+  "request_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+  "request_headers": {
+    "User-Agent": "FearTemperatureResearch/1.0 (public academic source acquisition)",
+    "Accept": "text/html",
+    "Accept-Encoding": "identity"
+  },
+  "phase": "AU_ORIGINALS",
+  "status": "failed",
+  "requested_at_utc": "2026-10-04T19:41:06.935195+00:00",
+  "byte_count": 0,
+  "raw_path": "",
+  "sha256": "",
+  "historical_version_equivalence": "unknown",
+  "error": "ReadTimeout: HTTPSConnectionPool(host='www.dcceew.gov.au', port=443): Read timed out. (read timeout=90)"
+}

@@ -1,0 +1,47 @@
+{
+  "status": "delivered_with_explicit_acquisition_and_access_gaps",
+  "at_utc": "2026-10-04T20:21:58.770568+00:00",
+  "automation_status": "PAUSED",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "files": {
+    "GOV_CLOSEOUT_REPORT_zh.md": {
+      "sha256": "0722a2dafa80dc19ca1f83c6c4a9623472ed16ee61fc945d8dbad9eba68bc010",
+      "bytes": 13788
+    },
+    "PLAN_zh.md": {
+      "sha256": "f3ddba54617d75abeca2df4babcdf5a35fc9cb923f8fb48d7fbb9e3fcafd3372",
+      "bytes": 8002
+    },
+    "control/FINAL_DELIVERY_CHECK.json": {
+      "sha256": "b509677ecc4868359cb2580a21a717ded797637aa01dfd235e54be95f312ffc4",
+      "bytes": 591
+    },
+    "control/GOV_FINAL_INPUT_ACCEPTANCE.json": {
+      "sha256": "2b7a5e0d29b0e6ce54ffc12e640f4684a15d37254d3d98a17eed844e476a4743",
+      "bytes": 1099
+    },
+    "control/MEDIA_V2_ACCEPTANCE.json": {
+      "sha256": "73b83ae0998be5798cdd5d395ddc79e253b1dbce15d772f4ae12979641c5c482",
+      "bytes": 987
+    },
+    "control/INDEPENDENT_REVIEW_SEAL_RECEIPT.json": {
+      "sha256": "ac567952d88cb9088316a83ef9d1cc0b7b3e370019e88e092db0a91b2a5dee01",
+      "bytes": 1172
+    },
+    "control/COORDINATION.json": {
+      "sha256": "bbad59218803d9a95db30b50ba7276c3376b81b89aee8300ee66b5010379b1ec",
+      "bytes": 1148
+    },
+    "control/FOLLOWUP_STATE.json": {
+      "sha256": "6c050b97dc3e3bd90fdc4b3a2c6facfad323ca379e16fb8fb2c98f12b40af4ba",
+      "bytes": 1695
+    }
+  },
+  "figure_output_receipt": "01_gov_closeout/independent_review/OUTPUT_RECEIPT.json",
+  "new_windows_created": 0,
+  "new_formal_database_writes": 0,
+  "bulk_media_started": false
+}

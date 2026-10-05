@@ -1,0 +1,23 @@
+{
+  "status": "authenticated_seal_and_roundtrip_verified",
+  "sealed_at_utc": "2026-10-04T20:18:14.050743+00:00",
+  "version": "independent_distribution_audit_closeout_v2_20261005",
+  "archive_filename": "reviewer_code_closeout_v2.fotaudit",
+  "archive_sha256": "41fdfe40acbae44dc5922e62da7a429a0f74ad19ff9365aa17eacaeaef1c3e18",
+  "archive_bytes": 1375796,
+  "payload_files": 126,
+  "payload_tar_sha256": "977acc94c645e7d71ea5a7c6e0b2866d1df80ba145c072e04580f521beca3a0a",
+  "original_v1_sha256": "fce375641142a1ab1240d862500f7a7f3609325fdf3754441d5660fa70488f0c",
+  "original_v1_unchanged": true,
+  "original_credential_verified": true,
+  "roundtrip_all_files_verified": true,
+  "tamper_rejected": true,
+  "v1_modules_unchanged": true,
+  "final_input_manifest_sha256": "4d60b7032ddbd200c7ee6cc6de8cb5c07e04830345a4b484c634cd4bf4b440c1",
+  "new_extension_code_sha256": "0b1eb177626b8b865f0799c85f600283609d146e9955c059815b2a93011dcb25",
+  "credentials_in_files_or_logs": false,
+  "task_created_plaintext_cleanup_pending": false,
+  "task_created_plaintext_removed": true,
+  "temporary_QA_dependency_removed": true,
+  "cleanup_at_utc": "2026-10-04T20:18:46.507268+00:00"
+}

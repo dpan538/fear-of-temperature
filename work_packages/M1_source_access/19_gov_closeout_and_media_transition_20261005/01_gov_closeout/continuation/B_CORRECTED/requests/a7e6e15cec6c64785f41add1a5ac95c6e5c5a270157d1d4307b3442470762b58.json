@@ -1,0 +1,30 @@
+{
+  "parent_id": "http://publications.europa.eu/resource/cellar/818145b6-97cd-11e4-b8a5-01aa75ed71a1",
+  "expression_uri": "http://publications.europa.eu/resource/cellar/818145b6-97cd-11e4-b8a5-01aa75ed71a1.0006",
+  "manifestation_uri": "http://publications.europa.eu/resource/cellar/818145b6-97cd-11e4-b8a5-01aa75ed71a1.0006.01",
+  "item_uri": "http://publications.europa.eu/resource/cellar/818145b6-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+  "publication_dates": "2015-01-09",
+  "format": "pdfa1a",
+  "request_url": "https://publications.europa.eu/resource/cellar/818145b6-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+  "request_headers": {
+    "User-Agent": "FearTemperatureResearch/1.0 (public academic source acquisition)",
+    "Accept": "application/pdf",
+    "Accept-Encoding": "identity"
+  },
+  "phase": "B_CORRECTED",
+  "status": "failed",
+  "requested_at_utc": "2026-10-04T19:41:04.469008+00:00",
+  "byte_count": 0,
+  "raw_path": "",
+  "sha256": "",
+  "historical_version_equivalence": "unknown",
+  "http_status": 406,
+  "final_url": "https://publications.europa.eu/resource/cellar/818145b6-97cd-11e4-b8a5-01aa75ed71a1.0006.01/DOC_1",
+  "response_headers": {
+    "Date": "Sun, 04 Oct 2026 19:41:06 GMT",
+    "Content-Type": "application/xml;charset=UTF-8",
+    "Content-Length": "1000",
+    "Last-Modified": "Thu, 01 Jan 1970 00:00:00 GMT"
+  },
+  "error": "RuntimeError: Non-200 or changed Item route; no follow-up request"
+}

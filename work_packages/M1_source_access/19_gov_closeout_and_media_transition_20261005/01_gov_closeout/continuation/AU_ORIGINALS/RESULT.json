@@ -1,0 +1,267 @@
+{
+  "finished_at_utc": "2026-10-04T19:42:39.005605+00:00",
+  "outcomes": [
+    {
+      "unit_id": "doc:7c7006b4ea3168ebe548e229915d853b",
+      "parent_id": "doc:7c7006b4ea3168ebe548e229915d853b",
+      "request_url": "https://www.dcceew.gov.au/climate-change/publications/expert-panel-fugitive-methane-emissions-interim-report-2026",
+      "request_headers": {
+        "User-Agent": "FearTemperatureResearch/1.0 (public academic source acquisition)",
+        "Accept": "text/html",
+        "Accept-Encoding": "identity"
+      },
+      "phase": "AU_ORIGINALS",
+      "status": "failed",
+      "requested_at_utc": "2026-10-04T19:41:06.935195+00:00",
+      "byte_count": 0,
+      "raw_path": "",
+      "sha256": "",
+      "historical_version_equivalence": "unknown",
+      "error": "ReadTimeout: HTTPSConnectionPool(host='www.dcceew.gov.au', port=443): Read timed out. (read timeout=90)"
+    }
+  ],
+  "maximum_http_requests": 4,
+  "issue_date_identity_author_publisher_validation": "pending saved-original check; CMS is not issue date",
+  "raw_accounting": {
+    "total_bytes": 22231574,
+    "partial_bytes": 0,
+    "files": [
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/14/14991c30e329b00041ec6d5ff769879faa7a9c4656bf516d076c8cc165390195.bin",
+        "bytes": 477389,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/15/154be44e2057d2a622ed35f3c829b102f5f9afe56cc50ffee71e21cf494a7950.bin",
+        "bytes": 1867876,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/1d/1daac02b9fa75ab697f96bef1fef5dc0a537285c6f7f3388c10e971bec162e7e.bin",
+        "bytes": 354444,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/28/28f6febf7c506adf6f24fbeece4c5e41f261cfdeeddbfa69d5fc465a967f648f.bin",
+        "bytes": 64011,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/2b/2be0c32c0932d952cb4e0e79240b6a46d4d004860282fa26da64920470d34e6f.bin",
+        "bytes": 50402,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/30/3010990d99711373c5b704b72ba9e1ed6fe102e120dc4abb92e3bfe46851c078.bin",
+        "bytes": 495252,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/31/313245abc6af7cb190da018363e5116e6ecb0a82a16efa7cf697c22d72d5563a.bin",
+        "bytes": 1182690,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/63/63a0113e1cc6ff04f00603f4c0c6749109128b74a11035a52007d54fb099a3ea.bin",
+        "bytes": 392640,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/6e/6ed1441069e1f7179339c0feab21c9ad24790e11e1d34a8d1725ff6bec7f2afc.bin",
+        "bytes": 355346,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/7c/7c0884445efc380156c96aa0f13ce013722d3971bb4fa1d3e1dfe6e84fda7e76.bin",
+        "bytes": 50680,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/82/828f234998f736934f0fc745ed73f7851e8f3731fcceff5b8751a346188d00b2.bin",
+        "bytes": 257732,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/93/93d5c2063fd2bb8cfa605ed03f564a41d91fcf6d79dea1be94914e01cc10e7f5.bin",
+        "bytes": 355046,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/9e/9efbfaa9ee33418cfc68234e0bf48a10534108973cd580e3d70754683530aa26.bin",
+        "bytes": 48167,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/9f/9ff6d43f1132cdac4921124bd3a37be490bd90af99258d7410a3f6863ccf1330.bin",
+        "bytes": 1480361,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/a2/a2860d7bb17c3a3ded50ce444b02e07a88256f8347c1eca6b5bd60ea2a245023.bin",
+        "bytes": 404137,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/a8/a8ef37bbf51a1cafe9ece170dfd77c293efb4db06125522af7d6f82615a0c183.bin",
+        "bytes": 49855,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/c3/c35827bebc7876365843fe5ae1660de2270b67347d6097f3f81d303916b0558f.bin",
+        "bytes": 266406,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/cd/cd507358d7744520b177452809c8bec6094ccb36e15b4d30f915083208ffd4da.bin",
+        "bytes": 343323,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/d6/d61cdb094fd456631071543990aeb3e70a586453b198d13e8f71b6329af5f7f1.bin",
+        "bytes": 337031,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/18_bounded_supplementation_execution_20261005/02_eu_staging/raw/items/e4/e42177a5fcde78c117751d697f9e6b4e387c9dd1de72401b2ac9a676fcd85691.bin",
+        "bytes": 187858,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/03/035f62aedd75ad075cc65cf40ff761ca2bc8a0d944f88cf1fa30e50ae975bf71.bin",
+        "bytes": 232682,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/06/06fd9c7d4c9134afb36be8302580005250ee68dab155008b5ce494f6ff243b51.bin",
+        "bytes": 273458,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/1e/1e97d5e0357b2c240596a560a646f607ea50eadfaa6edd912e1ea7ee7448c329.bin",
+        "bytes": 568206,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/30/300bb82ebac86c82a13fed99c2f2cdbac5aa2ee703f3e150e58c0bd5506597fa.bin",
+        "bytes": 54684,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/31/311d68a665a933c75618076aaab02aee91bbac375164f23b6f1e48955756b3d3.bin",
+        "bytes": 98475,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/31/3130962c1da8880582371b7135be1f9945582879951fa71b5ee9c5577d66dcbd.bin",
+        "bytes": 354444,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/41/4132cdbe79ee3d9a5026e846ae75be13aa6d2333b72df369a381fc413b5def0e.bin",
+        "bytes": 1696223,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/4a/4afd3796afd2bcf80ae0096e66398989896f8232a48449764b025a31c65bba63.bin",
+        "bytes": 56557,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/4b/4b7307b02b67eaaea5753775bc63160da7a2d8212bf0c1d9bbeab22efe91dcd4.bin",
+        "bytes": 343130,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/4e/4eb9df55513cbd77bcea1906a2cd75443818b68e3204dbc672c53f5dae3adc6d.bin",
+        "bytes": 858981,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/5b/5bed01c16558f8d506c9f7040e3a8c88f5e92dda96513d7284d6113a066e4b81.bin",
+        "bytes": 1776602,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/61/612afb808c2f3b3b21fa20f61391f667505dc9cd29708c7bed1e03657ae2aa78.bin",
+        "bytes": 1782943,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/66/66e0b9047e61b319c6661ecc82103712acc90748fb74b7814ceb6eb5b4475d94.bin",
+        "bytes": 50154,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/6b/6bfc85edfbf7bb5ad4a94a4988232e25b2da2ff865ceddcfaaff7dbc43bfc050.bin",
+        "bytes": 266406,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/6c/6c2f3dfb1c1c2ac14c0668da7329eaeaa2f176c6c42baa67f00b0a130a231d53.bin",
+        "bytes": 125141,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/70/7060df7a7ee3ffd396708567391cce5bc5b8b7061fd541fb286e5e2f57917b29.bin",
+        "bytes": 593621,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/75/7585b6e0ef0c04a5a513d95a13bcf8eaeab8b63b99e2482052e68dfdf9349803.bin",
+        "bytes": 257490,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/7a/7a7c626cc6f2abbd21e6dcfaa3e043681782553e2eb31ce134639469d8b62398.bin",
+        "bytes": 398502,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/90/9066e8c6336f0b361925a973c275db3bd8cd026741deca4cd4b3862c14266392.bin",
+        "bytes": 391554,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/9b/9b566b290aaf0507e075fbfdd2410e6d2c33879d5b080b21fa053ee6e878c8ad.bin",
+        "bytes": 125321,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/b6/b67cf0529d439af30f8862ef2bfeac7ea09a74f29757d4c18d56a5188189c4f5.bin",
+        "bytes": 50291,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/d5/d52e3bd4fe0a20a11ef1346f4d6454ccfe67d80e34ea6bbabe9cdf3b8782dfdc.bin",
+        "bytes": 152348,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/d6/d68e00c02eb5243d8aa3eab639a68ea529c3553e2d28666ac3707fb365518b98.bin",
+        "bytes": 1149480,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/e0/e0064224747c0655c32a7060fb19a78b37657e8959c7fe2a9059910691ec283a.bin",
+        "bytes": 635344,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/e5/e5652e720351cc654b36a1eef47d2a17f85277d9a6c7b4958dc110cab6670a94.bin",
+        "bytes": 117946,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/f2/f2271552f4dd06022b094260a339ef5512c669874446ae2386f90d215fdf1e69.bin",
+        "bytes": 343166,
+        "partial": false
+      },
+      {
+        "path": "work_packages/M1_source_access/19_gov_closeout_and_media_transition_20261005/01_gov_closeout/continuation/B_CORRECTED/raw/items/fe/fe2a2acdce503d5cb2b102d84b28eb7673ef1b9586778b5ef8ae3ee58b6a3200.bin",
+        "bytes": 457779,
+        "partial": false
+      }
+    ]
+  },
+  "formal_database_writes": 0
+}

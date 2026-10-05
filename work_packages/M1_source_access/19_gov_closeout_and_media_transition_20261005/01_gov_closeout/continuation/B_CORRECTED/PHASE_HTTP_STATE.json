@@ -1,0 +1,7 @@
+{
+  "last_request_started_utc": "2026-10-04T19:41:05.654398+00:00",
+  "request_count": 28,
+  "last_request_finished_utc": "2026-10-04T19:41:06.873999+00:00",
+  "halted": true,
+  "stop_reason": "RuntimeError: Non-200 or changed Item route; no follow-up request"
+}

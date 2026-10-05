@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checked_at_utc": "2026-10-04T20:20:57.669581+00:00",
+  "public_artifact_hashes_verified": 24,
+  "report_links_exist": true,
+  "fixed_calendar_native_cells": 6045,
+  "EU_declared_metadata_query_zero_months": 1,
+  "IE_declared_index_query_zero_months": 19,
+  "AU_unverified_dates_not_promoted": true,
+  "all_Item_instances_retained": 47,
+  "complete_parent_length_rows": 0,
+  "figures_checked": 4,
+  "evaluator_test_count": 18,
+  "media_test_count": 37,
+  "private_plaintext_removed": true,
+  "formal_database_writes": 0,
+  "no_new_HTTP_from_delivery_check": true
+}

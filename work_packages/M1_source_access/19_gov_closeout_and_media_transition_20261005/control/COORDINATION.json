@@ -1,0 +1,32 @@
+{
+  "updated_at_utc": "2026-10-04T20:21:58.770568+00:00",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "gov_thread": "01a10639-811d-73a2-bacc-fcede2e06848",
+  "media_thread": "01a10638-e552-7313-a19d-88a0c672255d",
+  "review_thread": "01a10743-2e31-7541-9498-3254139e8b12",
+  "geography_strata": [
+    "EU/Europe",
+    "UK",
+    "AU",
+    "US",
+    "NZ"
+  ],
+  "media_pilot_slots_per_stratum": 30,
+  "media_article_target_cap": 150,
+  "media_new_raw_cap_bytes": 134217728,
+  "media_stage_status": "accepted_v2_design_and_access_gaps_original150_pending_real_articles",
+  "gov_independent_audit_status": "completed_report_four_figures_with_unresolved_gaps",
+  "no_new_window_required": true,
+  "followup_automation_id": "automation",
+  "followup_interval_minutes": 15,
+  "followup_status": "PAUSED",
+  "private_evaluator_credentials_distributed": false,
+  "report": "GOV_CLOSEOUT_REPORT_zh.md",
+  "new_media_HTTP_release": false,
+  "government_final_saved_Item_count": 47,
+  "government_current_failed_Item_count": 1,
+  "government_unattempted_Item_count": 931,
+  "government_new_original_count": 0,
+  "media_new_readable_article_bodies": 0
+}
