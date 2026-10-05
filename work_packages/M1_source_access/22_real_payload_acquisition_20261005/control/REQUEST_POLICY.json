@@ -1,0 +1,17 @@
+{
+  "version": "round22_public_v1",
+  "initial_requests_per_body": 1,
+  "automatic_retries": 0,
+  "environment_repair": "One explicit network-enabled metadata re-execution only after a saved DNS failure with zero HTTP response; linked receipt, no overwrite, counts against discovery cap. No body or publisher-denial replay.",
+  "max_redirects": 2,
+  "redirect_scope": "Same publisher hosts explicitly declared in CANDIDATES.json; every hop recorded",
+  "min_per_source_spacing_seconds": 2,
+  "max_object_bytes": 2097152,
+  "failed_routes": "Stop failed family locally; independent lawful families may continue. Real denials stop the publisher. Historical original stops persist.",
+  "headers": {"User-Agent": "FearTemperatureResearch/22 (AI-assisted noncommercial research; no model training)", "Accept": "*/*", "Accept-Encoding": "identity"},
+  "robots": "Apply research-client, ChatGPT-User, OAI-SearchBot and GPTBot exclusions. Explicit AI denial is binding; no alternate-client bypass.",
+  "endpoint_authentication": "A401 on /wp-json/ stops that authenticated API family, with no credential discovery or endpoint variations. Separately public HTML/sitemap routes evidenced200 remain distinct; no denial is erased.",
+  "government": "Same exact selected Item URI, wildcard Accept, strict PDF MIME and signature; one old failed Item then at most ten frozen unattempted targets after success; stop first failure",
+  "retention": "Local bounded research evidence; rights are per-source/per-article facts. Unknown licence is distinct from express denial. No public raw/body redistribution.",
+  "selection": "Freeze partial date/native-URL frame before bodies; first five by evidenced publication day then native URL. No topic, fear, length, or successful-fetch selection. No refill."
+}

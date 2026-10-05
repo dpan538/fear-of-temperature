@@ -1,0 +1,19 @@
+{
+  "original_path": "work_packages/M1_source_access/22_real_payload_acquisition_20261005/control/COORDINATION.json",
+  "original_sha256": "d9c2cc2acd9b255e625c551b0930c4de4cff3506a3209327ff4ae7f9f1bb565e",
+  "original_bytes": 473,
+  "record": {
+    "registered_at_utc": "2026-10-05T08:06:10.246141+00:00",
+    "owner_thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+    "host_id": "local",
+    "model": "gpt-6.1-sol",
+    "thinking": "xhigh",
+    "status": "dispatched",
+    "launch_commit": "e29c67cff5",
+    "scope_sha256": "4444f34325bf18c8e34493aa6039b70e46612669b5bda7d4384b126d3aaaff69",
+    "coordinator_only_registration": true,
+    "include_read_only_in_final_deliverable_receipt": true,
+    "existing_automation": "PAUSED"
+  },
+  "scope": "Read-only receipt; does not change coordinator registration. Original untracked file remains coordinator-owned and excluded from worker staging. Offline reproduction may use this envelope only when original file is absent; network closure still applies."
+}

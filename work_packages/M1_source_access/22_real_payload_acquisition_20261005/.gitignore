@@ -1,0 +1,9 @@
+# Retain acquired material locally; stage compact evidence/manifests only.
+media/raw/
+media/bodies/
+media/parsed/
+media/checks/
+government/raw/
+government/evidence/
+prototype/__pycache__/
+control/LOCAL_COMMIT_RECEIPT.json

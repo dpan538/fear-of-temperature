@@ -1,0 +1,7 @@
+{
+  "closed_at_utc": "2026-10-05T09:18:19.504949+00:00",
+  "hard_deadline_utc": "2026-10-05T10:03:24.457377+00:00",
+  "reason": "Bounded frozen pass finished; original denials and exhausted candidate/search caps preserved. Remaining frame stopped after404; no new target or quota transfer.",
+  "further_network_authorized_in_this_worker": false,
+  "offline_packaging_only": true
+}
