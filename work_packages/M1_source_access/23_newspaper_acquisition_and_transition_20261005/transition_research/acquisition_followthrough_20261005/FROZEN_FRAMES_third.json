@@ -1,0 +1,256 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "calendar",
+    "index_receipt": "a0f0e9a3cfb8b95c07609f8f",
+    "frozen_at_utc": "2026-10-05T14:16:26.992805+00:00",
+    "order": "native_DOM",
+    "selected": [],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "2007-02",
+    "index_receipt": "602231feb23068d1222ddec3",
+    "frozen_at_utc": "2026-10-05T14:16:30.050941+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/02/09/2inshort-v127-n2",
+        "native_order": 1,
+        "url_date": "2007-02-09",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2weather-v127-n2",
+        "native_order": 2,
+        "url_date": "2007-02-09",
+        "title": "The Snow Machine"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2harvardcourses-v127-n2",
+        "native_order": 3,
+        "url_date": "2007-02-09",
+        "title": "Harvard to Include Practical Courses in Curriculum"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2lawsuits-v127-n2",
+        "native_order": 4,
+        "url_date": "2007-02-09",
+        "title": "Controversial MIT-Related Cases Resolved Last Year"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2panhel-v127-n2",
+        "native_order": 5,
+        "url_date": "2007-02-09",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2teachforamerica-v127-n2",
+        "native_order": 6,
+        "url_date": "2007-02-09",
+        "title": "Students Defer After-College Plans to Teach For America"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2aephi-v127-n2",
+        "native_order": 7,
+        "url_date": "2007-02-09",
+        "title": "AEPhi Sorority Decides Not To Continue Leasing House"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2towngown-v127-n2",
+        "native_order": 8,
+        "url_date": "2007-02-09",
+        "title": "Building Plans Revealed At Meeting"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2ashdown-v127-n2",
+        "native_order": 9,
+        "url_date": "2007-02-09",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2briefs-v127-n2",
+        "native_order": 10,
+        "url_date": "2007-02-09",
+        "title": "News Briefs"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2ashdown-gsc-v127-n2",
+        "native_order": 11,
+        "url_date": "2007-02-09",
+        "title": "Excerpt From GSC\u2019s \u2018New Grad Dorm: Process Failure\u2019 \u2014 Feb. 7, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2towngown-list-v127-n2",
+        "native_order": 12,
+        "url_date": "2007-02-09",
+        "title": "MIT Construction Projects"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2long2-v127-n2",
+        "native_order": 13,
+        "url_date": "2007-02-09",
+        "title": "Democrats Sets House Debate To Rebuke Bush on Iraq Policy"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2shorts1-v127-n2",
+        "native_order": 14,
+        "url_date": "2007-02-09",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2long1-v127-n2",
+        "native_order": 15,
+        "url_date": "2007-02-09",
+        "title": "Defense Secretary Instructs NATO Allies to Send Troops"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2long3-v127-n2",
+        "native_order": 16,
+        "url_date": "2007-02-09",
+        "title": "Palestinian Factions Agree To Creation of National Unity Gov\u2019t"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2long4-v127-n2",
+        "native_order": 17,
+        "url_date": "2007-02-09",
+        "title": "Caltech Unveils an Innovative But Costly Particle Accelerator Design"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2long5-v127-n2",
+        "native_order": 18,
+        "url_date": "2007-02-09",
+        "title": "Pentagon Investigation Into Handling  Of War Intelligence Criticizes Officials"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2shorts2-v127-n2",
+        "native_order": 19,
+        "url_date": "2007-02-09",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2corrections-v127-n2",
+        "native_order": 20,
+        "url_date": "2007-02-09",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2miller-v127-n2",
+        "native_order": 21,
+        "url_date": "2007-02-09",
+        "title": "Stuck in a Rut \u2014 RBA Housing"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2letters-v127-n2",
+        "native_order": 22,
+        "url_date": "2007-02-09",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2grizzly-v127-n2",
+        "native_order": 23,
+        "url_date": "2007-02-09",
+        "title": "CONCERT REVIEW It\u2019s Worth Coming Out of Hibernation For"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2127atasca-v127-n2",
+        "native_order": 24,
+        "url_date": "2007-02-09",
+        "title": "RESTAURANT REVIEW Inconsistencies at Atasca"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2mvball-v127-n2",
+        "native_order": 25,
+        "url_date": "2007-02-09",
+        "title": "MIT Ekes Out Four-Game Win After Rivier Setter Breaks Leg"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2upcominghome-v127-n2",
+        "native_order": 26,
+        "url_date": "2007-02-09",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/02/09/2wgym-v127-n2",
+        "native_order": 27,
+        "url_date": "2007-02-09",
+        "title": "Hampered by Injuries, Tech Yields to Brown Zimmerman Finishes Second in All-Around"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "2026-09",
+    "index_receipt": "638545bd2a892a67e36afc5d",
+    "frozen_at_utc": "2026-10-05T14:17:26.532302+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2026/09/10/in-short-v146-n14",
+        "native_order": 1,
+        "url_date": "2026-09-10",
+        "title": "9/9 In Short"
+      },
+      {
+        "url": "https://thetech.com/2026/09/10/thomas-rose-obituary",
+        "native_order": 2,
+        "url_date": "2026-09-10",
+        "title": "In Memoriam: Thomas Rose, archaeometallurgist and assistant professor of materials science"
+      },
+      {
+        "url": "https://thetech.com/2026/09/10/weather-v146-n14",
+        "native_order": 3,
+        "url_date": "2026-09-10",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2026/09/10/darmofal-financials-letter-2026",
+        "native_order": 4,
+        "url_date": "2026-09-10",
+        "title": "Re: MIT\u2019s financial records contradict its claims of austerity"
+      },
+      {
+        "url": "https://thetech.com/2026/09/10/clippers-salary-cap",
+        "native_order": 5,
+        "url_date": "2026-09-10",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2026/09/10/changing-majors-4b",
+        "native_order": 6,
+        "url_date": "2026-09-10",
+        "title": "Progressively pursuing more and more painful and tedious crafts"
+      },
+      {
+        "url": "https://thetech.com/2026/09/10/china-biotech-2026",
+        "native_order": 7,
+        "url_date": "2026-09-10",
+        "title": "Endpoints News presents \u2018The China biotech debate: Boston\u2019"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "1988-02",
+    "index_receipt": "700a68960633992e9d87b04f",
+    "frozen_at_utc": "2026-10-05T14:17:41.937168+00:00",
+    "order": "native_DOM",
+    "selected": [],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]

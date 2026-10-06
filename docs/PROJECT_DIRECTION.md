@@ -1,6 +1,6 @@
 # Current project direction and execution priorities
 
-Updated: 5 October 2026. Governing development brief following Dai's explicit clarifications. It supersedes conflicting acquisition and stage priorities in older handoffs; frozen source filters and historical evidence retain their original meaning.
+Updated: 6 October 2026. Governing development brief following Dai's explicit clarifications. It supersedes conflicting acquisition and stage priorities in older handoffs; frozen source filters and historical evidence retain their original meaning.
 
 ## Research objective
 
@@ -33,6 +33,8 @@ Distinguish documented events, evidence of discourse responses and missing evide
 ### Separate newspaper and social-media acquisition
 
 Newspaper is the current acquisition priority. One parallel literature task investigates country/metric-specific newspaper/social-media transition evidence for coverage/distribution interpretation; it does not start social-post collection or determine an automatic corpus cutoff/weight. See [newspaper-first execution](decisions/2026-10-05-newspaper-first-and-transition-research.md).
+
+The first transition-evidence package is now delivered. Subsequent direct instructions in that research chat authorised a separate real newspaper acquisition successor with live space sizing and no inherited combined reserve. It has 1,214 readable native units in 51 pooled months; 54 dated-presence months includes three issue-only months. Independent original-story totals and full-period newspaper coverage remain unestablished. Preserve this successor separately from the original newspaper worker's zero-article frozen result. The next planner must address missing source-months and geographic routes rather than continue dense The Tech issues in volume order; see the [6 October review and queue decision](decisions/2026-10-06-newspaper-review-and-coverage-queue.md). Physical floor, recovery headroom, actual active leases and cumulative allocation remain separate; live free space alone does not authorise a budget increase. No social corpus or new automation is launched by this review.
 
 Dai's 5 October clarifications restore full-period content coverage as the corpus-building objective and require newspaper and social-media streams to be collected and accounted for separately. A pilot first identifies proposal-aligned acquisition parents (websites, public archives and API families), verifies historical extent and observed interface behaviour, and demonstrates a restartable/idempotent staging-ingestion chain. Small real bodies validate that chain; they are not the main pilot deliverable. Source parents and independent article/post parents remain distinct. The pilot provides source registries, bounded request evidence, estimates with explicit unknowns and a concrete scale-ingestion plan, not a claim that the full archive has already been downloaded.
 

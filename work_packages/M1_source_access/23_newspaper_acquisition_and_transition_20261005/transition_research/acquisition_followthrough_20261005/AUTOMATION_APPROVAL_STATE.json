@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-05T15:10:12.753351+00:00",
+  "action": "Create a same-chat recurring acquisition heartbeat every 15 minutes",
+  "status": "rejected by automatic approval review; no heartbeat created",
+  "reason": "Automatic review judged authorization for persistent background network acquisition and local writes insufficiently explicit; direct collection authorization alone did not clear recurrence",
+  "user_confirmation": "pending explicit authorization; never infer approval from elapsed time",
+  "draft": "CONTINUATION_INSTRUCTIONS.md",
+  "current_bounded_downloads": "continue under existing user authorization; not blocked by this rejection",
+  "existing_other_chat_automation": "left paused and unchanged"
+}

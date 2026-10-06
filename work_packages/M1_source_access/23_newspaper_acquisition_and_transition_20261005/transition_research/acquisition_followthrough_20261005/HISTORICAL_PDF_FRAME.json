@@ -1,0 +1,41 @@
+[
+  {
+    "index_url": "https://thetech.com/issues/109/1",
+    "index_receipt": "bfe64c5a060e63f332ffbe48",
+    "wrapper_url": "https://thetech.com/issues/109/1/pdf",
+    "wrapper_receipt": "3cc15647ea0c60c44f0e4172",
+    "pdf_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/060/original/tech_pdf.pdf?1460740808",
+    "unit": "whole issue; independent article count unresolved",
+    "catalog_volume_year_provisional": 1989,
+    "printed_date_check": "pending",
+    "selection": "native first issue in the next chronological volume; retained publisher embed",
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "index_url": "https://thetech.com/issues/110/1",
+    "index_receipt": "a91497bf253743c5e702bf4b",
+    "wrapper_url": "https://thetech.com/issues/110/1/pdf",
+    "wrapper_receipt": "789ae0f02d8cf6eb40c520db",
+    "pdf_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/123/original/tech_pdf.pdf?1460740713",
+    "unit": "whole issue; independent article count unresolved",
+    "catalog_volume_year_provisional": 1990,
+    "printed_date_check": "pending",
+    "selection": "native first issue in the next chronological volume; retained publisher embed",
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "index_url": "https://thetech.com/issues/111/1",
+    "index_receipt": "7d740945da67aa28e7ad2b06",
+    "wrapper_url": "https://thetech.com/issues/111/1/pdf",
+    "wrapper_receipt": "fecd9406018f0ea07367a369",
+    "pdf_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/188/original/tech_pdf.pdf?1460740627",
+    "unit": "whole issue; independent article count unresolved",
+    "catalog_volume_year_provisional": 1991,
+    "printed_date_check": "pending",
+    "selection": "native first issue in the next chronological volume; retained publisher embed",
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  }
+]

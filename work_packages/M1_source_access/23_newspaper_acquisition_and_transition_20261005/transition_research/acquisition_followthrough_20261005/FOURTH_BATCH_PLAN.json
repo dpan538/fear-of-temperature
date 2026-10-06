@@ -1,0 +1,40 @@
+{
+  "batch_id": "fourth",
+  "indexes": [
+    [
+      "auto",
+      "https://thetech.com/issues/115/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/120/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/125/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/130/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/135/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/140/1"
+    ]
+  ],
+  "articles_per_index": 40,
+  "presence_first": true,
+  "payloads": [
+    {
+      "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/245/original/tech_pdf.pdf?1460734372",
+      "purpose": "issue_pdf"
+    }
+  ],
+  "selection": "One native article per observed eligible month; index paths already present in retained publisher archive; direct PDF exact publisher iframe",
+  "user_authorized_continuation": true,
+  "metadata_allowance": "Predecessor18 + successor7 + six new indexes =31 of32; PDF object charged as body, not metadata"
+}

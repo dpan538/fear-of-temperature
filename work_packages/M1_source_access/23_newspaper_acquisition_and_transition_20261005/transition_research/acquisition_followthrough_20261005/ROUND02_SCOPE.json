@@ -1,0 +1,17 @@
+{
+  "round_id": "successor_round_02",
+  "authorized_by": "Dai requested consecutive actual collection rounds after each batch and dynamic capacity",
+  "recorded_at_utc": "2026-10-05T14:28:31.368909+00:00",
+  "prior_rounds_preserved": true,
+  "prior_metadata_total": 31,
+  "new_metadata_allowance": 32,
+  "per_batch_metadata_cap": 12,
+  "raw_lifetime_ceiling_bytes": 134217728,
+  "free_floor_bytes": 16106127360,
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "selection": "Already retained publisher catalog; chronological first native issue in each study volume; within issue first dated native article per month, no topic/emotion filters",
+  "no_new_source_titles_or_platforms": true
+}

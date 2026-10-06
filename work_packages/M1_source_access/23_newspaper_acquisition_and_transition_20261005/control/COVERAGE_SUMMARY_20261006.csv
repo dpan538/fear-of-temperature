@@ -1,0 +1,7 @@
+stratum,retained_native_units,readable_native_units,readable_unit_months,whole_issue_PDFs,dated_presence_months,issue_only_months,calendar_months,months_without_acquired_readable_unit,independent_story_total
+EU/Europe excluding UK,0,0,0,0,0,0,465,465,unestablished
+UK,0,0,0,0,0,0,465,465,unestablished
+AU,10,10,10,0,10,0,465,455,unestablished
+US,1206,1204,44,4,47,3,465,421,unestablished
+NZ,0,0,0,0,0,0,465,465,unestablished
+pooled,1216,1214,51,4,54,3,465,414,unestablished

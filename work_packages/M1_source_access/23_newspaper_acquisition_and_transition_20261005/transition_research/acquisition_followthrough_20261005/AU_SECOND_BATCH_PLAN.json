@@ -1,0 +1,21 @@
+{
+  "batch_id": "au_successor_02",
+  "parent_sitemap_receipt": "df815679c432d1431d915a46",
+  "sitemaps": [
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-1.xml",
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-159.xml",
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-218.xml",
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-278.xml",
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-337.xml",
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-397.xml",
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-456.xml",
+    "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-99.xml"
+  ],
+  "max_new_articles": 16,
+  "articles_per_observed_month": 1,
+  "metadata_allowance_remaining": 27,
+  "source_scope": "AU InDaily newspaper-brand digital successor; unrelated publication sitemaps excluded",
+  "selection": "Eight positions in native sitemap-index order frozen before payloads; first dated news URL per observed month from each selected shard",
+  "topic_or_emotion_filter": null,
+  "failed_target_replacement": false
+}

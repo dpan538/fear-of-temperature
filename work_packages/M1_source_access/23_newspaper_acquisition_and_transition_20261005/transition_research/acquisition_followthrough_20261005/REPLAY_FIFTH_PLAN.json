@@ -1,0 +1,58 @@
+{
+  "batch_id": "replay_fifth",
+  "indexes": [
+    [
+      "auto",
+      "https://thetech.com/issues/128/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/129/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/130/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/131/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/132/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/133/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/134/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/135/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/136/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/137/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/138/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/139/1"
+    ]
+  ],
+  "articles_per_index": 40,
+  "presence_first": true,
+  "user_authorized_continuation": true,
+  "round": "successor_round_02",
+  "prior_selection_and_stops_preserved": true
+}

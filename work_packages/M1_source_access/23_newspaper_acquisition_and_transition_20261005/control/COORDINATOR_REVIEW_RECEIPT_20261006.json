@@ -1,0 +1,376 @@
+{
+  "reviewed_at_utc": "2026-10-06T02:43:41.084931+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "scope": "New package 23 receipts/metadata and nine sampled units; no formal DB, new network, models or sealed evaluator",
+  "input_receipts": [
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/PUBLICATION_UNITS.jsonl",
+      "bytes": 2143304,
+      "sha256": "841d4b04d4da3d4361d12cf4d4f196a10cadf8367a2210d9f88256c1954834f8"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/REQUESTS.jsonl",
+      "bytes": 1305673,
+      "sha256": "e6566f9c073e53aaa136f9f33dbe7075c14f061376799054e528a9906ad26ad9"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/NEWSPAPER_MONTH_LEDGER.csv",
+      "bytes": 317422,
+      "sha256": "8228eb49428340f018940a267362f0aac994c0a6a0f5e7d5888a1b7dbc6f1d23"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/ISSUE_CONTAINER_MANIFEST.json",
+      "bytes": 5149,
+      "sha256": "8f25eeda35c790436283dc53a477e330be5bc29947679b66a9ea9a5d3a3b3b9c"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/ACQUISITION_VERIFICATION.json",
+      "bytes": 573673,
+      "sha256": "6b814ff1ecc54681c45b4ad4a0e5435afc672efa559be3a7a54378b60b3235d9"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/VERIFIED_FILE_RECEIPTS.json",
+      "bytes": 479100,
+      "sha256": "64376d338116b10a572c0f1fa0e8b09838210ce1568b9d0464bb7af939b3d8f7"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/SOURCE_REGISTRY_SUCCESSOR.json",
+      "bytes": 5183,
+      "sha256": "10abe2733a13ade9b4d20b2ec60c2a61fba54d0616bca2377731326780a46cb1"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/CLOSING_BUDGET.json",
+      "bytes": 440,
+      "sha256": "7824f0ca8960fd91571281062fb73c7cd1703e4bfa3a8136830cbad08882d117"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/RESOURCE_DECISION.json",
+      "bytes": 655,
+      "sha256": "1e2684bece2e15f17be22926f3d0a4fe847f973c942d23de86593207d25bd306"
+    },
+    {
+      "path": "transition_research/acquisition_followthrough_20261005/plan_next_round.py",
+      "bytes": 4077,
+      "sha256": "c90cc0e930d69f8c54dfdb6bc45627a43b2deae5433b198d15ea17bb61e916a2"
+    }
+  ],
+  "passed": true,
+  "checks": [
+    {
+      "check": "Frozen delivery receipts: newspaper",
+      "passed": true,
+      "detail": {
+        "files": 77,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Frozen delivery receipts: transition_research",
+      "passed": true,
+      "detail": {
+        "files": 60,
+        "mismatches": []
+      }
+    },
+    {
+      "check": "Distinct retained native URLs",
+      "passed": true,
+      "detail": 1216
+    },
+    {
+      "check": "Readable states retain the traced OCR article",
+      "passed": true,
+      "detail": {
+        "states": {
+          "saved_readable_publication_unit": 1213,
+          "retained_pending_date_or_body": 2,
+          "saved_readable_article_OCR_uncertainty_retained": 1
+        }
+      }
+    },
+    {
+      "check": "Fixed publication interval",
+      "passed": true,
+      "detail": "Publication dates only; retrieval times remain separate"
+    },
+    {
+      "check": "Full planning calendar and unique geographic cells",
+      "passed": true,
+      "detail": "465 months x (five disjoint strata plus pooled)"
+    },
+    {
+      "check": "Ledger reconciliation: EU/Europe excluding UK",
+      "passed": true,
+      "detail": "Native readable units and whole issues separately counted"
+    },
+    {
+      "check": "Ledger reconciliation: UK",
+      "passed": true,
+      "detail": "Native readable units and whole issues separately counted"
+    },
+    {
+      "check": "Ledger reconciliation: AU",
+      "passed": true,
+      "detail": "Native readable units and whole issues separately counted"
+    },
+    {
+      "check": "Ledger reconciliation: US",
+      "passed": true,
+      "detail": "Native readable units and whole issues separately counted"
+    },
+    {
+      "check": "Ledger reconciliation: NZ",
+      "passed": true,
+      "detail": "Native readable units and whole issues separately counted"
+    },
+    {
+      "check": "Ledger reconciliation: pooled",
+      "passed": true,
+      "detail": "Native readable units and whole issues separately counted"
+    },
+    {
+      "check": "Reuse owner raw/body hash checkpoint with unchanged size and mtime",
+      "passed": true,
+      "detail": {
+        "owner_checks": 3747,
+        "file_receipts": 2519,
+        "changed": []
+      }
+    },
+    {
+      "check": "Nine bounded body/raw sample receipts",
+      "passed": true,
+      "detail": [
+        {
+          "url": "https://www.indailysa.com.au/news/archive/2017/06/05/asias-growing-appetite-kangaroo",
+          "date": "2017-06-05",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 2651,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        },
+        {
+          "url": "https://www.indailysa.com.au/news/archive/2017/05/31/im-especially-disappointed-lander-warns-govt-spin-undermine-icac-investigation",
+          "date": "2017-05-31",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 8331,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        },
+        {
+          "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/245/original/tech_pdf.pdf?1460734372#p1-athena-extension",
+          "date": "1988-02-02",
+          "state": "saved_readable_article_OCR_uncertainty_retained",
+          "body_characters": 7475,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": "reused unchanged owner PDF receipt"
+        },
+        {
+          "url": "https://thetech.com/2007/02/06/1briefs-table-v127-n1",
+          "date": "2007-02-06",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 277,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        },
+        {
+          "url": "https://thetech.com/2013/02/09/snowstorm-v133-n1",
+          "date": "2013-02-09",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 3395,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        },
+        {
+          "url": "https://thetech.com/2020/02/06/in-short-v140-n1",
+          "date": "2020-02-06",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 312,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        },
+        {
+          "url": "https://thetech.com/2026/08/27/in-short-v146-n13",
+          "date": "2026-08-27",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 352,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        },
+        {
+          "url": "https://thetech.com/2007/04/24/energy-editornote-v127-n20",
+          "date": "2007-04-24",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 1418,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        },
+        {
+          "url": "https://thetech.com/2007/04/24/energy-v127-n20",
+          "date": "2007-04-24",
+          "state": "saved_readable_publication_unit",
+          "body_characters": 1418,
+          "body_hash_agrees": true,
+          "raw_hash_agrees": true
+        }
+      ]
+    },
+    {
+      "check": "Identical-text relationship recorded without deletion",
+      "passed": true,
+      "detail": [
+        [
+          "https://thetech.com/2007/04/24/energy-editornote-v127-n20",
+          "https://thetech.com/2007/04/24/energy-v127-n20"
+        ]
+      ]
+    },
+    {
+      "check": "Research source references and distinct claim IDs",
+      "passed": true,
+      "detail": "25 claims, 53 wave comparisons, 16 sources; no universal crossover claim"
+    },
+    {
+      "check": "Reuse research DOI/chart validation checkpoint",
+      "passed": true,
+      "detail": {
+        "checks": 35,
+        "counts": {
+          "source_entries": 16,
+          "core_families": 12,
+          "claim_rows": 25,
+          "annual_comparisons": 53,
+          "era_recommendations": 9,
+          "journal_references": 5,
+          "saved_public_retrieval_objects": 38,
+          "failed_public_retrieval_requests": 8
+        }
+      }
+    }
+  ],
+  "summary": [
+    {
+      "stratum": "EU/Europe excluding UK",
+      "retained_native_units": 0,
+      "readable_native_units": 0,
+      "readable_unit_months": 0,
+      "whole_issue_PDFs": 0,
+      "dated_presence_months": 0,
+      "issue_only_months": 0,
+      "calendar_months": 465,
+      "months_without_acquired_readable_unit": 465,
+      "independent_story_total": "unestablished"
+    },
+    {
+      "stratum": "UK",
+      "retained_native_units": 0,
+      "readable_native_units": 0,
+      "readable_unit_months": 0,
+      "whole_issue_PDFs": 0,
+      "dated_presence_months": 0,
+      "issue_only_months": 0,
+      "calendar_months": 465,
+      "months_without_acquired_readable_unit": 465,
+      "independent_story_total": "unestablished"
+    },
+    {
+      "stratum": "AU",
+      "retained_native_units": 10,
+      "readable_native_units": 10,
+      "readable_unit_months": 10,
+      "whole_issue_PDFs": 0,
+      "dated_presence_months": 10,
+      "issue_only_months": 0,
+      "calendar_months": 465,
+      "months_without_acquired_readable_unit": 455,
+      "independent_story_total": "unestablished"
+    },
+    {
+      "stratum": "US",
+      "retained_native_units": 1206,
+      "readable_native_units": 1204,
+      "readable_unit_months": 44,
+      "whole_issue_PDFs": 4,
+      "dated_presence_months": 47,
+      "issue_only_months": 3,
+      "calendar_months": 465,
+      "months_without_acquired_readable_unit": 421,
+      "independent_story_total": "unestablished"
+    },
+    {
+      "stratum": "NZ",
+      "retained_native_units": 0,
+      "readable_native_units": 0,
+      "readable_unit_months": 0,
+      "whole_issue_PDFs": 0,
+      "dated_presence_months": 0,
+      "issue_only_months": 0,
+      "calendar_months": 465,
+      "months_without_acquired_readable_unit": 465,
+      "independent_story_total": "unestablished"
+    },
+    {
+      "stratum": "pooled",
+      "retained_native_units": 1216,
+      "readable_native_units": 1214,
+      "readable_unit_months": 51,
+      "whole_issue_PDFs": 4,
+      "dated_presence_months": 54,
+      "issue_only_months": 3,
+      "calendar_months": 465,
+      "months_without_acquired_readable_unit": 414,
+      "independent_story_total": "unestablished"
+    }
+  ],
+  "readable_units_by_source": {
+    "The Tech": 1204,
+    "InDaily": 10
+  },
+  "readable_units_by_year": {
+    "1988": 1,
+    "2007": 647,
+    "2008": 42,
+    "2009": 47,
+    "2010": 49,
+    "2011": 54,
+    "2012": 49,
+    "2013": 48,
+    "2014": 45,
+    "2015": 23,
+    "2016": 19,
+    "2017": 23,
+    "2018": 33,
+    "2019": 22,
+    "2020": 12,
+    "2021": 19,
+    "2022": 20,
+    "2023": 6,
+    "2024": 14,
+    "2025": 13,
+    "2026": 28
+  },
+  "issue_only_pooled_months": [
+    "1989-02",
+    "1990-02",
+    "1991-02"
+  ],
+  "saved_closing_budget": {
+    "at_utc": "2026-10-05T15:38:08.385439+00:00",
+    "free_bytes": 17922064384,
+    "original_remaining_reserve_bytes": 0,
+    "physical_floor_bytes": 16106127360,
+    "staging_recovery_allowance_bytes": 50331648,
+    "pending_raw_derivative_allowance_bytes": 8388608,
+    "dynamic_object_cap_bytes": 2097152,
+    "projected_free_bytes": 17863344128,
+    "media_lifetime_used_bytes": 107575001,
+    "media_lifetime_cap_bytes": 134217728,
+    "passed": true
+  },
+  "current_free_bytes": 19754586112,
+  "saved_lifetime_headroom_bytes": 26642727,
+  "budget_note": "Current free space is a new observation; lifetime headroom is the earlier saved snapshot, not a fresh download release"
+}

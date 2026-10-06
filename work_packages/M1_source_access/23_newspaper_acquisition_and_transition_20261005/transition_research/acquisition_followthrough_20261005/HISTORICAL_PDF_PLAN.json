@@ -1,0 +1,24 @@
+{
+  "round_id": "successor_round_03_historical",
+  "authorized_by": "Dai explicitly authorizes direct collection and successive rounds with live space calculation",
+  "at_utc": "2026-10-05T14:52:18.460331+00:00",
+  "indexes": [
+    "https://thetech.com/issues/109/1",
+    "https://thetech.com/issues/110/1",
+    "https://thetech.com/issues/111/1"
+  ],
+  "metadata_cap": 6,
+  "max_pdfs": 3,
+  "max_pdf_bytes": 16777216,
+  "lifetime_cap": 134217728,
+  "physical_floor": 16106127360,
+  "parent_catalog_receipt": "a0f0e9a3cfb8b95c07609f8f",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "selection": "First catalog issue in each next chronological volume after retained 1988 issue; no semantic selection",
+  "unit": "whole newspaper issue raw PDF, not an independent article count",
+  "article_ocr_mapping": "deferred; not an acquisition gate",
+  "prior_rounds_and_counts_preserved": true
+}

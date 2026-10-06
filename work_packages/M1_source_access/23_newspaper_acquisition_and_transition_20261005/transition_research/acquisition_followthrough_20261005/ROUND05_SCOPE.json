@@ -1,0 +1,23 @@
+{
+  "round_id": "successor_round_05",
+  "authorized_by": "Dai explicitly authorizes consecutive real collection rounds with dynamic capacity",
+  "recorded_at_utc": "2026-10-05T15:20:32.142118+00:00",
+  "prior_rounds_preserved": true,
+  "prior_metadata_total": 75,
+  "new_metadata_allowance": 10,
+  "per_batch_metadata_cap": 12,
+  "raw_lifetime_ceiling_bytes": 134217728,
+  "free_floor_bytes": 16106127360,
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "selection": "Next unattempted catalog issue in chronological volume/issue order; first 40 native dated article URLs, no semantic selection",
+  "dynamic_task_sizing": {
+    "live_available_bytes": 33791712,
+    "observed_raw_p90_bytes": 20241,
+    "estimated_cost_per_index": 3304096,
+    "index_count": 10
+  },
+  "no_new_source_titles_or_platforms": true
+}

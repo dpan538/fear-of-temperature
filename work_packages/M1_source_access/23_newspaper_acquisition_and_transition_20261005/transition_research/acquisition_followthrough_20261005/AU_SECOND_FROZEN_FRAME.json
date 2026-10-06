@@ -1,0 +1,121 @@
+[
+  {
+    "sitemap_receipt": "f525ba51caae736f42b9007d",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-1.xml",
+    "selected": [],
+    "frozen_at_utc": "2026-10-05T14:44:27.613077+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "sitemap_receipt": "a75a8e2fb053fb38bd81181b",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-159.xml",
+    "selected": [
+      {
+        "url": "https://www.indailysa.com.au/news/archive/2022/06/14/novavax-approved-as-covid-19-booster",
+        "url_date": "2022-06-14"
+      }
+    ],
+    "frozen_at_utc": "2026-10-05T14:44:31.840470+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "sitemap_receipt": "8dfcba4605a1f5ef80cf3ce2",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-218.xml",
+    "selected": [
+      {
+        "url": "https://www.indailysa.com.au/news/archive/2020/07/28/icac-baton-change-a-chance-to-review-powers-of-office",
+        "url_date": "2020-07-28"
+      }
+    ],
+    "frozen_at_utc": "2026-10-05T14:44:41.473945+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "sitemap_receipt": "64aea8b9b7cdc39a7c96131f",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-278.xml",
+    "selected": [
+      {
+        "url": "https://www.indailysa.com.au/news/archive/2018/03/01/jay-weatherill-sorry",
+        "url_date": "2018-03-01"
+      },
+      {
+        "url": "https://www.indailysa.com.au/news/archive/2018/02/28/oakden-icac-report-need-know",
+        "url_date": "2018-02-28"
+      }
+    ],
+    "frozen_at_utc": "2026-10-05T14:44:51.727855+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "sitemap_receipt": "d1b797ec1f876bf8b0617a9c",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-337.xml",
+    "selected": [
+      {
+        "url": "https://www.indailysa.com.au/news/archive/2016/04/21/barcelonas-8-0-la-liga-romp",
+        "url_date": "2016-04-21"
+      }
+    ],
+    "frozen_at_utc": "2026-10-05T14:45:06.919010+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "sitemap_receipt": "62f65e75d7e2c3b7b06d9ed5",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-397.xml",
+    "selected": [
+      {
+        "url": "https://www.indailysa.com.au/news/archive/2014/11/13/raa-extends-roadside-help-mobility-scooters",
+        "url_date": "2014-11-13"
+      }
+    ],
+    "frozen_at_utc": "2026-10-05T14:45:45.336573+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "sitemap_receipt": "b4b3e0d845f9504d8bbc747c",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-456.xml",
+    "selected": [
+      {
+        "url": "https://www.indailysa.com.au/news/archive/2013/07/25/it-project-stalls-as-company-collapses",
+        "url_date": "2013-07-25"
+      }
+    ],
+    "frozen_at_utc": "2026-10-05T14:45:54.813706+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  },
+  {
+    "sitemap_receipt": "a50a02b5fac2f80a340c832b",
+    "sitemap_url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-99.xml",
+    "selected": [
+      {
+        "url": "https://www.indailysa.com.au/news/just-in/2024/02/20/sa-school-period-education-is-about-to-change",
+        "url_date": "2024-02-20"
+      }
+    ],
+    "frozen_at_utc": "2026-10-05T14:46:05.533946+00:00",
+    "selection": "first native dated news URL per observed month",
+    "complete_frame": false,
+    "topic_or_emotion_filter": null,
+    "failed_target_replacement": false
+  }
+]

@@ -1,0 +1,10 @@
+{
+  "at_utc": "2026-10-05T14:22:25.480531+00:00",
+  "direct_user_authorization": "任务按照动态空间计算；可以直接开始抓取，完成之后需要继续推进下一轮抓取",
+  "interpretation": "Dai replaces the inherited static capacity allocation with live object planning for this successor. Keep the 15GiB physical floor and128MiB lifetime ceiling. Default small-object2MiB capture remains preserved as history; one exact already-observed early PDF gets a new bounded dynamic-cap recovery version, not a blind transport retry.",
+  "max_single_recovery_raw_bytes": 16777216,
+  "max_recovery_batch_raw_bytes": 16777216,
+  "require_original_prefix_agreement": true,
+  "raw_partial_preserved": true,
+  "no_retries_or_access_bypass": true
+}

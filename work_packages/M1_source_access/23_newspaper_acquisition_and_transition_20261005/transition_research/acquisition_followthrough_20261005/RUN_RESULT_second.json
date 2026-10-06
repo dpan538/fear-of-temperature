@@ -1,0 +1,32 @@
+{
+  "started_at_utc": "2026-10-05T14:12:32.241845+00:00",
+  "source": "The Tech",
+  "stratum": "US student newspaper supplement",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "indexes_saved": 3,
+  "article_responses_saved": 43,
+  "qualified_readable_articles": "pending post-acquisition review",
+  "raw_bytes": 545216,
+  "requests": 32,
+  "new_article_downloads": 31,
+  "topic_or_emotion_filter": null,
+  "automatic_failed_target_replacement": false,
+  "batch_id": "second",
+  "stop": "bounded_batch_downloaded; post-acquisition identity/date/body review pending",
+  "finished_at_utc": "2026-10-05T14:13:41.901482+00:00",
+  "closing_preflight": {
+    "at_utc": "2026-10-05T14:13:41.903949+00:00",
+    "free_bytes": 17911447552,
+    "original_remaining_reserve_bytes": 0,
+    "physical_floor_bytes": 16106127360,
+    "staging_recovery_allowance_bytes": 50331648,
+    "pending_raw_derivative_allowance_bytes": 8388608,
+    "projected_free_bytes": 17852727296,
+    "media_lifetime_used_bytes": 28054051,
+    "media_lifetime_cap_bytes": 134217728,
+    "passed": true
+  }
+}

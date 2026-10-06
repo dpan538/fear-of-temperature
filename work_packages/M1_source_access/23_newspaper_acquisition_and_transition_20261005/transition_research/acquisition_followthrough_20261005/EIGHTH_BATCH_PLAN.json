@@ -1,0 +1,49 @@
+{
+  "batch_id": "eighth",
+  "indexes": [
+    [
+      "auto",
+      "https://thetech.com/issues/133/33"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/134/33"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/135/20"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/136/21"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/137/21"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/138/19"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/139/18"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/140/25"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/141/19"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/142/17"
+    ]
+  ],
+  "articles_per_index": 40,
+  "round_id": "successor_round_02",
+  "selection": "Catalog-observed first issue in recent years, then native mid-volume issue across years; first 40 dated article URLs, no semantic filters",
+  "parent_catalog_receipt": "a0f0e9a3cfb8b95c07609f8f"
+}

@@ -1,0 +1,23 @@
+{
+  "source": "indaily",
+  "stratum": "AU",
+  "source_frame": "newspaper-brand digital successor; print/digital break retained",
+  "sitemap_receipt": "407c2dd1905c20b179ddad91",
+  "frozen_at_utc": "2026-10-05T14:39:58.289799+00:00",
+  "selected": [
+    {
+      "url": "https://www.indailysa.com.au/news/archive/2017/06/05/asias-growing-appetite-kangaroo",
+      "url_date": "2017-06-05",
+      "selection": "first native sitemap news URL per observed month"
+    },
+    {
+      "url": "https://www.indailysa.com.au/news/archive/2017/05/31/im-especially-disappointed-lander-warns-govt-spin-undermine-icac-investigation",
+      "url_date": "2017-05-31",
+      "selection": "first native sitemap news URL per observed month"
+    }
+  ],
+  "full_archive_complete": false,
+  "topic_or_emotion_filter": null,
+  "failed_target_replacement": false,
+  "retention": "bounded local research evidence; no open grant/public raw redistribution assumed"
+}

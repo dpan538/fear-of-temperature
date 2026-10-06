@@ -1,0 +1,46 @@
+{
+  "reviewed_at_utc": "2026-10-06T02:47:31.241233+00:00",
+  "prior_launch_snapshot": "COORDINATION.json",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "newspaper": {
+    "thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+    "host": "local",
+    "model": "gpt-6.1-sol",
+    "thinking": "xhigh",
+    "snapshot_status": "idle/completed",
+    "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:4",
+    "outcome": "20 candidate source entries; zero new newspaper articles in original frozen stage"
+  },
+  "transition_research": {
+    "thread_id": "01a10ba3-54e7-7130-8da9-637caf1c28af",
+    "host": "local",
+    "model": "gpt-6.1-sol",
+    "thinking": "xhigh",
+    "snapshot_status": "idle/completed",
+    "last_wait_cursor": "f13b7e61-9e19-4c28-8926-3b35224df137:2",
+    "outcome": "Completed country/metric literature package and later directly user-authorised newspaper acquisition successor"
+  },
+  "authorized_successor": {
+    "path": "transition_research/acquisition_followthrough_20261005",
+    "human_instruction_verified_in_thread_history": true,
+    "original_combined_reserve_bytes": 0,
+    "media_cumulative_cap_bytes": 134217728,
+    "physical_floor_bytes": 16106127360,
+    "readable_native_units": 1214,
+    "pooled_readable_unit_months": 51,
+    "pooled_dated_presence_months_including_issues": 54,
+    "independent_story_total": "unestablished"
+  },
+  "coordinator_review_receipt": "COORDINATOR_REVIEW_RECEIPT_20261006.json",
+  "next_plan": "../REVISED_ACQUISITION_PLAN_20261006.md",
+  "new_network_release": false,
+  "new_budget_release": false,
+  "new_window_created": false,
+  "social_acquisition_started": false,
+  "old_heartbeat_status": "PAUSED",
+  "sealed_audit_access": false,
+  "formal_database_access": false
+}

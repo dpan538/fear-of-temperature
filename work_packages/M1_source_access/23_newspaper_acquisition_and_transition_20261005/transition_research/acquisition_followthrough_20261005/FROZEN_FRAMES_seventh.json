@@ -1,0 +1,403 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "00810687cdd2c4a595a764c5",
+    "frozen_at_utc": "2026-10-05T14:43:01.642526+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2021/02/18/in-short-v141-n1",
+        "native_order": 1,
+        "url_date": "2021-02-18",
+        "title": "Q-Week, PE classes, UROP Extended Direct Funding deadline"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/new-international-students-spring-21",
+        "native_order": 2,
+        "url_date": "2021-02-18",
+        "title": "First-year international students advised to follow Institute guidance when registering for classes"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/2021-commencement-virtual",
+        "native_order": 3,
+        "url_date": "2021-02-18",
+        "title": "2021 Commencement ceremony to be held online"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/union-charges-bon-appetit",
+        "native_order": 4,
+        "url_date": "2021-02-18",
+        "title": "Local 26 files charges against Bon Appetit over warning issued to shop steward"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/grad-student-remote-appointments-spring-21",
+        "native_order": 5,
+        "url_date": "2021-02-18",
+        "title": "Graduate students must return to the US to maintain appointments, some exceptions allowed"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/weather-v141-n1",
+        "native_order": 6,
+        "url_date": "2021-02-18",
+        "title": "Country covered in snow"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/vaccination-phase-two",
+        "native_order": 7,
+        "url_date": "2021-02-18",
+        "title": "MIT granted permission to vaccinate extended MIT community"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/return-to-campus-photo-spread",
+        "native_order": 8,
+        "url_date": "2021-02-18",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/merit-based-raises-hurt-dei",
+        "native_order": 9,
+        "url_date": "2021-02-18",
+        "title": "How merit-based raises hurt DEI"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/socially-responsible-investing-op-ed",
+        "native_order": 10,
+        "url_date": "2021-02-18",
+        "title": "New year, new MITIMCo: MIT\u2019s chance to lead in socially responsible investing"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/egg-donation-ad-editorial",
+        "native_order": 11,
+        "url_date": "2021-02-18",
+        "title": "Elitist and racist egg donation ads have no place in student newspapers"
+      },
+      {
+        "url": "https://thetech.com/2021/02/18/never-not-asian-american",
+        "native_order": 12,
+        "url_date": "2021-02-18",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "cec179bed8b60a4923a0cee3",
+    "frozen_at_utc": "2026-10-05T14:43:29.605596+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2022/02/03/free-speech-working-group",
+        "native_order": 1,
+        "url_date": "2022-02-03",
+        "title": "Ad hoc working group charged to review MIT\u2019s position on free expression"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/gsu-progress",
+        "native_order": 2,
+        "url_date": "2022-02-03",
+        "title": "MIT refuses to recognize Graduate Student Union without an independent election"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/chen-case-dismissed",
+        "native_order": 3,
+        "url_date": "2022-02-03",
+        "title": "Grant fraud case against mechanical engineering professor Gang Chen dismissed"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/in-short-v142-n1",
+        "native_order": 4,
+        "url_date": "2022-02-03",
+        "title": "Registration deadline, concentration forms, PE classes"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/weather-v142-n1",
+        "native_order": 5,
+        "url_date": "2022-02-03",
+        "title": "A snowy campus welcomes the spring semester!"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/asian-american-mental-health",
+        "native_order": 6,
+        "url_date": "2022-02-03",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/unionize-students-first",
+        "native_order": 7,
+        "url_date": "2022-02-03",
+        "title": "Unionize for a grievance procedure that puts students first"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/last-first",
+        "native_order": 8,
+        "url_date": "2022-02-03",
+        "title": "To you. Yes. You."
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/expiration-07",
+        "native_order": 9,
+        "url_date": "2022-02-03",
+        "title": "Expiration"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/for-pain",
+        "native_order": 10,
+        "url_date": "2022-02-03",
+        "title": "Payment in kind"
+      },
+      {
+        "url": "https://thetech.com/2022/02/03/homecoming",
+        "native_order": 11,
+        "url_date": "2022-02-03",
+        "title": "Homecoming"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "d3b25d1287579fe37de05c95",
+    "frozen_at_utc": "2026-10-05T14:43:56.523495+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2023/02/09/in-short-v143-n1",
+        "native_order": 1,
+        "url_date": "2023-02-09",
+        "title": "Registration deadline, xFair"
+      },
+      {
+        "url": "https://thetech.com/2023/02/09/stud-closes-after-cold-snap",
+        "native_order": 2,
+        "url_date": "2023-02-09",
+        "title": "Stratton Student Center closed indefinitely"
+      },
+      {
+        "url": "https://thetech.com/2023/02/09/in-person-mystery-hunt",
+        "native_order": 3,
+        "url_date": "2023-02-09",
+        "title": "MIT hosts first in-person Mystery Hunt in three years"
+      },
+      {
+        "url": "https://thetech.com/2023/02/09/mit-intellectual-property-policy-update",
+        "native_order": 4,
+        "url_date": "2023-02-09",
+        "title": "MIT updates intellectual property policy"
+      },
+      {
+        "url": "https://thetech.com/2023/02/13/avatar-way-of-water-review",
+        "native_order": 5,
+        "url_date": "2023-02-13",
+        "title": "A grand cinematic experience with a tepid storyline"
+      },
+      {
+        "url": "https://thetech.com/2023/02/09/state-street-provisions-review",
+        "native_order": 6,
+        "url_date": "2023-02-09",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "ddb3fbdc3a381dd002e91265",
+    "frozen_at_utc": "2026-10-05T14:44:10.623193+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2024/02/08/decarb-mit",
+        "native_order": 1,
+        "url_date": "2024-02-08",
+        "title": "The MIT community assesses strategies for reducing carbon footprint on campus"
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/mit-henge-two",
+        "native_order": 2,
+        "url_date": "2024-02-08",
+        "title": "MITHenge happens from Jan. 28 to Jan. 31"
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/weather-v144n1",
+        "native_order": 3,
+        "url_date": "2024-02-08",
+        "title": "Sunny Skies to Start the Year of the Dragon"
+      },
+      {
+        "url": "https://thetech.com/2024/02/01/noubar-afeyan-2024-commencement-speaker",
+        "native_order": 4,
+        "url_date": "2024-02-01",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/chicago-review",
+        "native_order": 5,
+        "url_date": "2024-02-08",
+        "title": "Musical Theatre Guild brings to life Chicago\u2019s razzle and dazzle"
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/bannen-book-review",
+        "native_order": 6,
+        "url_date": "2024-02-08",
+        "title": "Corpses, bad name-based puns, and 100 pages too many: The Undertaking of Hart and Mercy by Megan Bannen"
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/mu-lan-restaurant",
+        "native_order": 7,
+        "url_date": "2024-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/ode-to-pod",
+        "native_order": 8,
+        "url_date": "2024-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/re-re-reflection",
+        "native_order": 9,
+        "url_date": "2024-02-08",
+        "title": "A re-re-reflection on HackMIT"
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/justin-yu",
+        "native_order": 10,
+        "url_date": "2024-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/pokerbots",
+        "native_order": 11,
+        "url_date": "2024-02-08",
+        "title": "The Face Behind the Cards: Meet Alex Zhang, President of Pokerbots"
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/student-poems",
+        "native_order": 12,
+        "url_date": "2024-02-08",
+        "title": "Poems"
+      },
+      {
+        "url": "https://thetech.com/2024/02/08/crossword-free-skate",
+        "native_order": 13,
+        "url_date": "2024-02-08",
+        "title": "Crossword: Free Skate"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "ef6d01ecc2c5d77a55c86db4",
+    "frozen_at_utc": "2026-10-05T14:44:53.827199+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2025/02/06/bad-ideas-weekend-2025",
+        "native_order": 1,
+        "url_date": "2025-02-06",
+        "title": "Bad Ideas Weekend 2025 holds 28 events from Jan. 24 to Jan. 26"
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/year-in-review-2024",
+        "native_order": 2,
+        "url_date": "2025-02-06",
+        "title": "Volume 144: Year in Review"
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/bbiu-walkout",
+        "native_order": 3,
+        "url_date": "2025-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/weather-v145-n1",
+        "native_order": 4,
+        "url_date": "2025-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/bred-gourmet-lunch",
+        "native_order": 5,
+        "url_date": "2025-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/2024-year-in-review",
+        "native_order": 6,
+        "url_date": "2025-02-06",
+        "title": "Year in Review (2024): National Sports"
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/winter-sports-iap-2025",
+        "native_order": 7,
+        "url_date": "2025-02-06",
+        "title": "What you\u2019ve missed about MIT\u2019s winter sports over IAP"
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/super-bowl-lix",
+        "native_order": 8,
+        "url_date": "2025-02-06",
+        "title": "Storylines heading into Super Bowl LIX"
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/mavs-lakers-trade",
+        "native_order": 9,
+        "url_date": "2025-02-06",
+        "title": "Mavs deal Luka Doncic to Lakers for Anthony Davis in unexpected blockbuster 3-team trade"
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/dear-ex-girlfriend-redux",
+        "native_order": 10,
+        "url_date": "2025-02-06",
+        "title": "Dear Ex-Girlfriend Redux"
+      },
+      {
+        "url": "https://thetech.com/2025/02/20/crossword-creature-comforts",
+        "native_order": 11,
+        "url_date": "2025-02-20",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/crossword-turn-of-phrase",
+        "native_order": 12,
+        "url_date": "2025-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/44th-integration-bee",
+        "native_order": 13,
+        "url_date": "2025-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2025/02/06/nanodisc-neuron-stimulation",
+        "native_order": 14,
+        "url_date": "2025-02-06",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]

@@ -1,0 +1,1704 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "6e1b016723ac7b03b62bef6f",
+    "frozen_at_utc": "2026-10-05T15:20:47.821962+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/04/03/briefs-v127-n15",
+        "native_order": 1,
+        "url_date": "2007-04-03",
+        "title": "News Briefs"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/putnam-list-v127-n15",
+        "native_order": 2,
+        "url_date": "2007-04-03",
+        "title": "67th Putnam Competition Results"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/dodreport-v127-n15",
+        "native_order": 3,
+        "url_date": "2007-04-03",
+        "title": "Lincoln  Lab Not  Guilty of Fraud, DoD Says"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/ocw-v127-n15",
+        "native_order": 4,
+        "url_date": "2007-04-03",
+        "title": "OCW Gives Students Overseas Education Without MIT Degree"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/putnam-v127-n15",
+        "native_order": 5,
+        "url_date": "2007-04-03",
+        "title": "MIT Sweeps Putnam, Team Takes Third Place"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/flying-v127-n15",
+        "native_order": 6,
+        "url_date": "2007-04-03",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/inshort-v127-n15",
+        "native_order": 7,
+        "url_date": "2007-04-03",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/rogers-v127-n15",
+        "native_order": 8,
+        "url_date": "2007-04-03",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/polog-v127-n15",
+        "native_order": 9,
+        "url_date": "2007-04-03",
+        "title": "Police Log"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/weather-v127-n15",
+        "native_order": 10,
+        "url_date": "2007-04-03",
+        "title": "April Showers"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/long3-v127-n15",
+        "native_order": 11,
+        "url_date": "2007-04-03",
+        "title": "Top Shiite Cleric Opposes U.S. Plan Concerning Baath Party"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/long1-v127-n15",
+        "native_order": 12,
+        "url_date": "2007-04-03",
+        "title": "EPA Has Power to Regulate  Gases, Rules Supreme Court"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/shorts2-v127-n15",
+        "native_order": 13,
+        "url_date": "2007-04-03",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/shorts1-v127-n15",
+        "native_order": 14,
+        "url_date": "2007-04-03",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/long4-v127-n15",
+        "native_order": 15,
+        "url_date": "2007-04-03",
+        "title": "South Korea, U.S. Agree on World's Largest Bilateral Free Trade Deal"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/long2-v127-n15",
+        "native_order": 16,
+        "url_date": "2007-04-03",
+        "title": "Supreme Court Declines to Hear Detainees' Habeas Corpus Case"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/editorsnote-v127-n15",
+        "native_order": 17,
+        "url_date": "2007-04-03",
+        "title": "From the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/correction-v127-n15",
+        "native_order": 18,
+        "url_date": "2007-04-03",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/photoatmit-v127-n15",
+        "native_order": 19,
+        "url_date": "2007-04-03",
+        "title": "INTERVIEW Blink and You\u2019ll Miss It"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/wgym-v127-n15",
+        "native_order": 20,
+        "url_date": "2007-04-03",
+        "title": "Zimmerman Earns All-Around Title at NCGA Championships"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/carolineatncaa-v127-n15",
+        "native_order": 21,
+        "url_date": "2007-04-03",
+        "title": "NCAA Regionals Provide Drama, Entertainment Behind the Scenes"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/upcominghome-v127-n15",
+        "native_order": 22,
+        "url_date": "2007-04-03",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/redsox-v127-n15",
+        "native_order": 23,
+        "url_date": "2007-04-03",
+        "title": "Red Sox Nation Rejoices as Season Begins"
+      },
+      {
+        "url": "https://thetech.com/2007/04/03/baseball-v127-n15",
+        "native_order": 24,
+        "url_date": "2007-04-03",
+        "title": "Baseball Shatters Records With 29-5 Victory"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "e0179c6e7e18764386795e0c",
+    "frozen_at_utc": "2026-10-05T15:22:25.829434+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/04/06/apps-v127-n16",
+        "native_order": 1,
+        "url_date": "2007-04-06",
+        "title": "Ivy League Applications Boom, Selectivity Follows"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/coffeehouse-v127-n16",
+        "native_order": 2,
+        "url_date": "2007-04-06",
+        "title": "Student Center Hangout Back to 24 Hours"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/gsctable-v127-n16",
+        "native_order": 3,
+        "url_date": "2007-04-06",
+        "title": "Newly Elected GSC Officers"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/esapience-v127-n16",
+        "native_order": 4,
+        "url_date": "2007-04-06",
+        "title": "Academics' Work Choices Raise Ethicists' Eyebrows"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/dining-v127-n16",
+        "native_order": 5,
+        "url_date": "2007-04-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/weather-v127-n16",
+        "native_order": 6,
+        "url_date": "2007-04-06",
+        "title": "Dry Weekend Ahead"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/shorts1-v127-n16",
+        "native_order": 7,
+        "url_date": "2007-04-06",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/long5-v127-n16",
+        "native_order": 8,
+        "url_date": "2007-04-06",
+        "title": "Bhutto Arranges Return to Pakistan After Exile, Promotes Anti-Terrorism"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/shorts2-v127-n16",
+        "native_order": 9,
+        "url_date": "2007-04-06",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/long2-v127-n16",
+        "native_order": 10,
+        "url_date": "2007-04-06",
+        "title": "Sailors and Marines Released After Two Week Captivity in Iran"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/long3-v127-n16",
+        "native_order": 11,
+        "url_date": "2007-04-06",
+        "title": "Companies Reopen Debate on How to Fix Health Care System"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/long1-v127-n16",
+        "native_order": 12,
+        "url_date": "2007-04-06",
+        "title": "Wealthy Conn. School District Confronts Racial Imbalance"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/long4-v127-n16",
+        "native_order": 13,
+        "url_date": "2007-04-06",
+        "title": "China Turns to Brazil to Satisfy a Surmounting Hunger For Soybeans"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/corrections-v127-n16",
+        "native_order": 14,
+        "url_date": "2007-04-06",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/mohler-v127-n16",
+        "native_order": 15,
+        "url_date": "2007-04-06",
+        "title": "Discussion Today, Eugenics Tomorrow"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/letters-v127-n16",
+        "native_order": 16,
+        "url_date": "2007-04-06",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/yearofthedog-v127-n16",
+        "native_order": 17,
+        "url_date": "2007-04-06",
+        "title": "MOVIE REVIEW  \u2605\u2605  Kibbles 'n Bits Do Not a Good Film Make"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/driscollinterview-v127-n16",
+        "native_order": 18,
+        "url_date": "2007-04-06",
+        "title": "INTERVIEW MIT to Movies"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/snowpatrol-v127-n16",
+        "native_order": 19,
+        "url_date": "2007-04-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/mikewhite-v127-n16",
+        "native_order": 20,
+        "url_date": "2007-04-06",
+        "title": "INTERVIEW Writing, Directing, and Molly Shannon"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/wlacrosse-v127-n16",
+        "native_order": 21,
+        "url_date": "2007-04-06",
+        "title": "Lacrosse Falls To Wellesley Despite 3-0 Start"
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/cycling-v127-n16",
+        "native_order": 22,
+        "url_date": "2007-04-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/06/upcominghome-v127-n16",
+        "native_order": 23,
+        "url_date": "2007-04-06",
+        "title": "Upcoming Home Events"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "c7bf1c7c38cc1dc07f6bf6ce",
+    "frozen_at_utc": "2026-10-05T15:23:15.726371+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/04/10/bigscrew-v127-n17",
+        "native_order": 1,
+        "url_date": "2007-04-10",
+        "title": "Candidates Vie For Prize of Big Screw in Annual Contest"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/polog-v127-n17",
+        "native_order": 2,
+        "url_date": "2007-04-10",
+        "title": "Police Log"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/gscelections-v127-n17",
+        "native_order": 3,
+        "url_date": "2007-04-10",
+        "title": "Uncontested GSC Candidates Elected"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/ihouse-v127-n17",
+        "native_order": 4,
+        "url_date": "2007-04-10",
+        "title": "iHouse Slated to Open In Fall at New House 1"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/inshort-v127-n17",
+        "native_order": 5,
+        "url_date": "2007-04-10",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/loans-v127-n17",
+        "native_order": 6,
+        "url_date": "2007-04-10",
+        "title": "Student Lender Had Early Plans to Court Officials"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/marketing-v127-n17",
+        "native_order": 7,
+        "url_date": "2007-04-10",
+        "title": "Preferential Treatment May Impact Buyers"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/website-v127-n17",
+        "native_order": 8,
+        "url_date": "2007-04-10",
+        "title": "Tech Web Site Receives Facelift"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/tuftslab-v127-n17",
+        "native_order": 9,
+        "url_date": "2007-04-10",
+        "title": "Avian Flu, SARS in Tufts' Sights"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/harvardbooks-v127-n17",
+        "native_order": 10,
+        "url_date": "2007-04-10",
+        "title": "Harvard Seeks Cheaper Textbooks"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/screwtable-v127-n17",
+        "native_order": 11,
+        "url_date": "2007-04-10",
+        "title": "Big Screw Day One Totals"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/davis-v127-n17",
+        "native_order": 12,
+        "url_date": "2007-04-10",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/long2-v127-n17",
+        "native_order": 13,
+        "url_date": "2007-04-10",
+        "title": "Loyalists to Militant Cleric Rally Against U.S. in Massive Protest"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/weather-v127-n17",
+        "native_order": 14,
+        "url_date": "2007-04-10",
+        "title": "The Day After Tomorrow"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/long1-v127-n17",
+        "native_order": 15,
+        "url_date": "2007-04-10",
+        "title": "Iran Says It Can Now Enrich Uranium on Industrial Scale"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/long3-v127-n17",
+        "native_order": 16,
+        "url_date": "2007-04-10",
+        "title": "Pfizer's Inhaled-Insulin Diabetes Drug Falters in Domestic Sales"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/long4-v127-n17",
+        "native_order": 17,
+        "url_date": "2007-04-10",
+        "title": "Challenge Over Emissions Rule Set To Begin in Vermont Federal Court"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/long5-v127-n17",
+        "native_order": 18,
+        "url_date": "2007-04-10",
+        "title": "In Reversal, Britain Says Ex-Captives Can Not Sell Stories to Media Sources"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/shorts1-v127-n17",
+        "native_order": 19,
+        "url_date": "2007-04-10",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/shorts2-v127-n17",
+        "native_order": 20,
+        "url_date": "2007-04-10",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/letters-v127-n17",
+        "native_order": 21,
+        "url_date": "2007-04-10",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/corrections-v127-n17",
+        "native_order": 22,
+        "url_date": "2007-04-10",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/tennis-v127-n17",
+        "native_order": 23,
+        "url_date": "2007-04-10",
+        "title": "Men's Tennis Falls to Bowdoin But Returns With Sweep of Babson"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/wlacrosse-v127-n17",
+        "native_order": 24,
+        "url_date": "2007-04-10",
+        "title": "Lacrosse Loses Back-and-Forth Game Casey Flynn Scores Four Goals For MIT, but Pride Pulls Away For a 12-9 Win"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/ncaacaroline2-v127-n17",
+        "native_order": 25,
+        "url_date": "2007-04-10",
+        "title": "Spring Break at NCAA Tourney A Great Choice For Sports Fans"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/upcominghome-v127-n17",
+        "native_order": 26,
+        "url_date": "2007-04-10",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/gadget-v127-n17",
+        "native_order": 27,
+        "url_date": "2007-04-10",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/10/scott-v127-n17",
+        "native_order": 28,
+        "url_date": "2007-04-10",
+        "title": "Scott's Travels"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "9bf05c3cb2b9b0884893b200",
+    "frozen_at_utc": "2026-10-05T15:24:15.674259+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/04/13/masscolleges-v127-n18",
+        "native_order": 1,
+        "url_date": "2007-04-13",
+        "title": "Mass. Colleges Send Out Record Numbers Of Rejection Letters"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/cpw-v127-n18",
+        "native_order": 2,
+        "url_date": "2007-04-13",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/briefs-v127-n18",
+        "native_order": 3,
+        "url_date": "2007-04-13",
+        "title": "News Briefs"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/screwtable-v127-n18",
+        "native_order": 4,
+        "url_date": "2007-04-13",
+        "title": "Big Screw Totals as of Thursday"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/loans-v127-n18",
+        "native_order": 5,
+        "url_date": "2007-04-13",
+        "title": "Lender to Pay So Students Can Learn Loan Options For Finaid"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/davis-v127-n18",
+        "native_order": 6,
+        "url_date": "2007-04-13",
+        "title": "Ground Searches For Missing Student End"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/duke-v127-n18",
+        "native_order": 7,
+        "url_date": "2007-04-13",
+        "title": "Charges in Duke Lacrosse Case Dropped Wednesday"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/chemmodules-v127-n18",
+        "native_order": 8,
+        "url_date": "2007-04-13",
+        "title": "Chemistry Dept. Revamps Lab Curriculum For Fall"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/wwefoley-v127-n18",
+        "native_order": 9,
+        "url_date": "2007-04-13",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/inshort-v127-n18",
+        "native_order": 10,
+        "url_date": "2007-04-13",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/long3-v127-n18",
+        "native_order": 11,
+        "url_date": "2007-04-13",
+        "title": "Death Toll in Algeria Bombings Rises to 33; Manhunt Underway"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/long1-v127-n18",
+        "native_order": 12,
+        "url_date": "2007-04-13",
+        "title": "Missing Repub. E-mails May Relate to Fired Prosecutors"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/weather-v127-n18",
+        "native_order": 13,
+        "url_date": "2007-04-13",
+        "title": "Running Against the Wind"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/shorts1-v127-n18",
+        "native_order": 14,
+        "url_date": "2007-04-13",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/shorts2-v127-n18",
+        "native_order": 15,
+        "url_date": "2007-04-13",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/long2-v127-n18",
+        "native_order": 16,
+        "url_date": "2007-04-13",
+        "title": "Off the Air: the Light Goes Out For Radio Personality Don Imus"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/long4-v127-n18",
+        "native_order": 17,
+        "url_date": "2007-04-13",
+        "title": "Suicide Bomber at Parliament Kills Eight People in International Zone"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/corrections-v127-n18",
+        "native_order": 18,
+        "url_date": "2007-04-13",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/grindhouse-v127-n18",
+        "native_order": 19,
+        "url_date": "2007-04-13",
+        "title": "MOVIE REVIEW  \u2605\u2605\u2605 1/2 'Grindhouse': Guts, Gore, Good Times"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/modestmouse-v127-n18",
+        "native_order": 20,
+        "url_date": "2007-04-13",
+        "title": "CD REVIEW Too Close For Comfort"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/upcominghome-v127-n18",
+        "native_order": 21,
+        "url_date": "2007-04-13",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/wlacrosse-v127-n18",
+        "native_order": 22,
+        "url_date": "2007-04-13",
+        "title": "Babson Scores 13 in Second Half, Flattens Women's Lacrosse 21-10"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/baseball-v127-n18",
+        "native_order": 23,
+        "url_date": "2007-04-13",
+        "title": "Pritchard Smacks Two Homers, Tech Men Thump Clark 19-14"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/ic-v127-n18",
+        "native_order": 24,
+        "url_date": "2007-04-13",
+        "title": "Imminent Collapse"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/sipb-v127-n18",
+        "native_order": 25,
+        "url_date": "2007-04-13",
+        "title": "Ask SIPB"
+      },
+      {
+        "url": "https://thetech.com/2007/04/13/ruth-v127-n18",
+        "native_order": 26,
+        "url_date": "2007-04-13",
+        "title": "Monkey Gone to Heaven"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "6b3f3923b80b8e34b120fc74",
+    "frozen_at_utc": "2026-10-05T15:25:16.203945+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/10/06/barclayupdate-v127-n19",
+        "native_order": 1,
+        "url_date": "2007-10-06",
+        "title": "Body Identified as MIT Student Barclay"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/inshort-v127-n19",
+        "native_order": 2,
+        "url_date": "2007-04-20",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/bigscrew-v127-n19",
+        "native_order": 3,
+        "url_date": "2007-04-20",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/bigscrew-table-v127-n19",
+        "native_order": 4,
+        "url_date": "2007-04-20",
+        "title": "Big Screw Totals"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/vatech2-v127-n19",
+        "native_order": 5,
+        "url_date": "2007-04-20",
+        "title": "Privacy Laws Restrict Mental Illness Disclosure to Parents"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/briefs-v127-n19",
+        "native_order": 6,
+        "url_date": "2007-04-20",
+        "title": "News Briefs"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/vatech-v127-n19",
+        "native_order": 7,
+        "url_date": "2007-04-20",
+        "title": "Virginia Tech Shooting Takes 33 Lives, Shocks Academic Community"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/kennedy-v127-n19",
+        "native_order": 8,
+        "url_date": "2007-04-20",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/barclay-v127-n19",
+        "native_order": 9,
+        "url_date": "2007-04-20",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/asaelections-v127-n19",
+        "native_order": 10,
+        "url_date": "2007-04-20",
+        "title": "Table"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/polog-v127-n19",
+        "native_order": 11,
+        "url_date": "2007-04-20",
+        "title": "Police Log"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/shorts2-v127-n19",
+        "native_order": 12,
+        "url_date": "2007-04-20",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/long2-v127-n19",
+        "native_order": 13,
+        "url_date": "2007-04-20",
+        "title": "Bush, Lawmakers Fail to Agree On a U.S. Troop Iraq Timeline"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/weather-v127-n19",
+        "native_order": 14,
+        "url_date": "2007-04-20",
+        "title": "Looking Past the Finish Line"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/shorts1-v127-n19",
+        "native_order": 15,
+        "url_date": "2007-04-20",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/long3-v127-n19",
+        "native_order": 16,
+        "url_date": "2007-04-20",
+        "title": "Justices Uphold Partial-Birth Abortion Ban in a 5-4 Decision"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/long4-v127-n19",
+        "native_order": 17,
+        "url_date": "2007-04-20",
+        "title": "World Bank Head Seeks Support To Stop Criticism Over Leadership"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/long5-v127-n19",
+        "native_order": 18,
+        "url_date": "2007-04-20",
+        "title": "With New Technique, Doctors Remove Woman's Gallbladder Through Vagina"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/long1-v127-n19",
+        "native_order": 19,
+        "url_date": "2007-04-20",
+        "title": "Attorney General Encounters Criticism at Senate Hearing"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/letters-v127-n19",
+        "native_order": 20,
+        "url_date": "2007-04-20",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/iww-v127-n19",
+        "native_order": 21,
+        "url_date": "2007-04-20",
+        "title": "Institute Wisdom Watch"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/namesake-v127-n19",
+        "native_order": 22,
+        "url_date": "2007-04-20",
+        "title": "MOVIE REVIEW  \u2605\u2605  The Namesake: Lost in Translation"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/miracleofscience-v127-n19",
+        "native_order": 23,
+        "url_date": "2007-04-20",
+        "title": "RESTAURANT REVIEW Not Miraculous, But Still Worthwhile"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/upcominghome-v127-n19",
+        "native_order": 24,
+        "url_date": "2007-04-20",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/track-v127-n19",
+        "native_order": 25,
+        "url_date": "2007-04-20",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/sporttkd-v127-n19",
+        "native_order": 26,
+        "url_date": "2007-04-20",
+        "title": "Taekwon- Do Takes Third at Nationals"
+      },
+      {
+        "url": "https://thetech.com/2007/04/20/lacrosse-v127-n19",
+        "native_order": 27,
+        "url_date": "2007-04-20",
+        "title": "Women's Lax Wins 15-9, Nets 12 First-Half Goals"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "f46cd4efae3a27a96f359190",
+    "frozen_at_utc": "2026-10-05T15:26:24.072800+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/04/24/dimitrov-v127-n20",
+        "native_order": 1,
+        "url_date": "2007-04-24",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-editornote-v127-n20",
+        "native_order": 2,
+        "url_date": "2007-04-24",
+        "title": "Editor's Note"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-calendar-v127-n20",
+        "native_order": 3,
+        "url_date": "2007-04-24",
+        "title": "Scheduled Earth Week Events"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/harvard-v127-n20",
+        "native_order": 4,
+        "url_date": "2007-04-24",
+        "title": "Harvard University Leads Interactive Teaching Method"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-cambridge-v127-n20",
+        "native_order": 5,
+        "url_date": "2007-04-24",
+        "title": "Conservation Initiatives Funded to $70 Million"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-council-v127-n20",
+        "native_order": 6,
+        "url_date": "2007-04-24",
+        "title": "MIT Energy Council Update"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-groups-v127-n20",
+        "native_order": 7,
+        "url_date": "2007-04-24",
+        "title": "EcoExpo to Showcase Student Groups"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-jay-v127-n20",
+        "native_order": 8,
+        "url_date": "2007-04-24",
+        "title": "Getting Started on the Future Today"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-dorms-v127-n20",
+        "native_order": 9,
+        "url_date": "2007-04-24",
+        "title": "Dorm Electricity CompetitionRankings as of April 6\u009613"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-schmalensee-v127-n20",
+        "native_order": 10,
+        "url_date": "2007-04-24",
+        "title": "Cap and Trade"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/inshort-v127-n20",
+        "native_order": 11,
+        "url_date": "2007-04-24",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/loans-v127-n20",
+        "native_order": 12,
+        "url_date": "2007-04-24",
+        "title": "Nelnet Discusses Its Malpractices, Plans To Correct Problems"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/vatech-v127-n20",
+        "native_order": 13,
+        "url_date": "2007-04-24",
+        "title": "VA Tech Incident Sparks Discussion Among Colleges, Mass Text-Message Alerts Useful"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/barclay-v127-n20",
+        "native_order": 14,
+        "url_date": "2007-04-24",
+        "title": "Barclay Found Dead After Intensive Search Senior Found on Beach in Possible Drowning"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/barclayobituary-v127-n20",
+        "native_order": 15,
+        "url_date": "2007-04-24",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/dimitrovobituary-v127-n20",
+        "native_order": 16,
+        "url_date": "2007-04-24",
+        "title": "Ivan D. Dimitrov '10"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-patrick-v127-n20",
+        "native_order": 17,
+        "url_date": "2007-04-24",
+        "title": "Solar Panel Plant For a Greener Massachusetts"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-v127-n20",
+        "native_order": 18,
+        "url_date": "2007-04-24",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-solar-v127-n20",
+        "native_order": 19,
+        "url_date": "2007-04-24",
+        "title": "And Would You Like a Garden With That?"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-cooper-v127-n20",
+        "native_order": 20,
+        "url_date": "2007-04-24",
+        "title": "Man Behind the Scenes"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-recyclemania-v127-n20",
+        "native_order": 21,
+        "url_date": "2007-04-24",
+        "title": "MIT RecycleMania 2007 Final Rankings"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/mendoza-v127-n20",
+        "native_order": 22,
+        "url_date": "2007-04-24",
+        "title": "Discipline Director Quits To Be Near Home, Family"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/long2-v127-n20",
+        "native_order": 23,
+        "url_date": "2007-04-24",
+        "title": "Russia Cool to U.S. Request For Cooperation on Missile Defense"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/long3-v127-n20",
+        "native_order": 24,
+        "url_date": "2007-04-24",
+        "title": "Senators Discuss College Attack Prevention Following Massacre"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/weather-v127-n20",
+        "native_order": 25,
+        "url_date": "2007-04-24",
+        "title": "Cooldown Coming"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/long1-v127-n20",
+        "native_order": 26,
+        "url_date": "2007-04-24",
+        "title": "Gonzales' Testimony Praised By Bush Despite Rep. Criticism"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/long4-v127-n20",
+        "native_order": 27,
+        "url_date": "2007-04-24",
+        "title": "Wolfowitz Hires Big-Name Lawyer For World Bank Position Defense"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/shorts2-v127-n20",
+        "native_order": 28,
+        "url_date": "2007-04-24",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/shorts1-v127-n20",
+        "native_order": 29,
+        "url_date": "2007-04-24",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-pledge-v127-n20",
+        "native_order": 30,
+        "url_date": "2007-04-24",
+        "title": "Take the Pledge"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-whattobedone-v127-n20",
+        "native_order": 31,
+        "url_date": "2007-04-24",
+        "title": "What Is to Be Done?"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-recycling-v127-n20",
+        "native_order": 32,
+        "url_date": "2007-04-24",
+        "title": "Bad Excuses For Hurting the Earth"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-systems-v127-n20",
+        "native_order": 33,
+        "url_date": "2007-04-24",
+        "title": "Systems Leadership"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-sustain-v127-n20",
+        "native_order": 34,
+        "url_date": "2007-04-24",
+        "title": "Dare to Imagine: Sustainability at MIT"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/energy-ethanol-v127-n20",
+        "native_order": 35,
+        "url_date": "2007-04-24",
+        "title": "Stalking Ethanol"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/correction-v127-n20",
+        "native_order": 36,
+        "url_date": "2007-04-24",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/mtennis-v127-n20",
+        "native_order": 37,
+        "url_date": "2007-04-24",
+        "title": "Tennis Wins Ninth Consecutive Regular Season Championship"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/mlax-v127-n20",
+        "native_order": 38,
+        "url_date": "2007-04-24",
+        "title": "Sorba Scores 6 in 14-8 Lacrosse Win"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/nbaplayoffs-v127-n20",
+        "native_order": 39,
+        "url_date": "2007-04-24",
+        "title": "Four Series to Watch in 1st Round"
+      },
+      {
+        "url": "https://thetech.com/2007/04/24/upcominghome-v127-n20",
+        "native_order": 40,
+        "url_date": "2007-04-24",
+        "title": "Upcoming Home Events"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "2bd48ce6a805c8abeee0d7f5",
+    "frozen_at_utc": "2026-10-05T15:27:52.594654+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/04/27/phones-v127-n21",
+        "native_order": 1,
+        "url_date": "2007-04-27",
+        "title": "IS&T Adjusts Phone and Net Charges"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/inshorts-v127-n21",
+        "native_order": 2,
+        "url_date": "2007-04-27",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/blackjack-v127-n21",
+        "native_order": 3,
+        "url_date": "2007-04-27",
+        "title": "MIT Alumni Inspire New Movie"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/earlyreturns-v127-n21",
+        "native_order": 4,
+        "url_date": "2007-04-27",
+        "title": "More Students May Return Early This Fall"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/flyers-v127-n21",
+        "native_order": 5,
+        "url_date": "2007-04-27",
+        "title": "MIT Flyer Distribution Policy Raises Dispute"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/jones-v127-n21",
+        "native_order": 6,
+        "url_date": "2007-04-27",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/long2-v127-n21",
+        "native_order": 7,
+        "url_date": "2007-04-27",
+        "title": "U.S. Commander Charged With Aiding Iraqi Detainees at Prison"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/weather-v127-n21",
+        "native_order": 8,
+        "url_date": "2007-04-27",
+        "title": "The Rumble of Spring"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/long3-v127-n21",
+        "native_order": 9,
+        "url_date": "2007-04-27",
+        "title": "Researchers Connect Seven New Genes to Adult\u2013Onset Diabetes"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/long5-v127-n21",
+        "native_order": 10,
+        "url_date": "2007-04-27",
+        "title": "Chief Exec. of Siemens Resigns in the Midst of Widening Corporate Scandal"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/long1-v127-n21",
+        "native_order": 11,
+        "url_date": "2007-04-27",
+        "title": "Putin Suspends Arms Treaty To Contest U.S. Defense Plans"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/shorts2-v127-n21",
+        "native_order": 12,
+        "url_date": "2007-04-27",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/long4-v127-n21",
+        "native_order": 13,
+        "url_date": "2007-04-27",
+        "title": "Public Agrees Global Warming Is a Problem, Remains Split on Actions"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/shorts1-v127-n21",
+        "native_order": 14,
+        "url_date": "2007-04-27",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/mukherji-v127-n21",
+        "native_order": 15,
+        "url_date": "2007-04-27",
+        "title": "Time to Shut Down Guantanamo"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/letters-v127-n21",
+        "native_order": 16,
+        "url_date": "2007-04-27",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/cee-v127-n21",
+        "native_order": 17,
+        "url_date": "2007-04-27",
+        "title": "The Energy and Environment Equation"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/brunch-v127-n21",
+        "native_order": 18,
+        "url_date": "2007-04-27",
+        "title": "RESTAURANT REVIEW Brunch With a Side of Ice Cream"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/baseball-v127-n21",
+        "native_order": 19,
+        "url_date": "2007-04-27",
+        "title": "Five-Run Fourth Inning Sparks Baseball to 5-4 Win Over Bates"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/waterpolo-v127-n21",
+        "native_order": 20,
+        "url_date": "2007-04-27",
+        "title": "Tech Water Polo Nets Division Title Over BC, Earns Club Nationals"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/upcominghome-v127-n21",
+        "native_order": 21,
+        "url_date": "2007-04-27",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/04/27/mvball-v127-n21",
+        "native_order": 22,
+        "url_date": "2007-04-27",
+        "title": "Volleyball Loses in NECVA Quarters, Collects Slew of End-of-Season Awards"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "2160acf1d1a74ac4e5cddbfd",
+    "frozen_at_utc": "2026-10-05T15:28:45.223946+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/05/01/polog-v127-n22",
+        "native_order": 1,
+        "url_date": "2007-05-01",
+        "title": "Police Log"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/uatable-v127-n22",
+        "native_order": 2,
+        "url_date": "2007-05-01",
+        "title": "UA Elections Results"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/ethanol-v127-n22",
+        "native_order": 3,
+        "url_date": "2007-05-01",
+        "title": "Biotech Outfits Scramble To Reduce Ethanol Costs"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/inshort-v127-n22",
+        "native_order": 4,
+        "url_date": "2007-05-01",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/mars-v127-n22",
+        "native_order": 5,
+        "url_date": "2007-05-01",
+        "title": "Soil From Mars May Be Tested For Signs of Life"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/dormcon-v127-n22",
+        "native_order": 6,
+        "url_date": "2007-05-01",
+        "title": "DormCon Selects Incoming Officers"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/dormcontable-v127-n22",
+        "native_order": 7,
+        "url_date": "2007-05-01",
+        "title": "DormCon Election Results"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/weather-v127-n22",
+        "native_order": 8,
+        "url_date": "2007-05-01",
+        "title": "The Springtime Jet"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/long2-v127-n22",
+        "native_order": 9,
+        "url_date": "2007-05-01",
+        "title": "Senior Officer Testifies Against Previous Military Jailer in Iraq"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/long3-v127-n22",
+        "native_order": 10,
+        "url_date": "2007-05-01",
+        "title": "Sunni Ministers Threaten to Quit Iraqi Government in Frustration"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/long1-v127-n22",
+        "native_order": 11,
+        "url_date": "2007-05-01",
+        "title": "Five Muslims Convicted For Planning 2005 Bomb Attack"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/long5-v127-n22",
+        "native_order": 12,
+        "url_date": "2007-05-01",
+        "title": "Interior Dept. Proposes Expansion of Oil and Gas Drilling Along U.S. Coasts"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/long4-v127-n22",
+        "native_order": 13,
+        "url_date": "2007-05-01",
+        "title": "Wal-Mart Violated Workers\u2019 Rights Over Labor Unions, Report Finds"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/shorts1-v127-n22",
+        "native_order": 14,
+        "url_date": "2007-05-01",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/shorts2-v127-n22",
+        "native_order": 15,
+        "url_date": "2007-05-01",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/letters-v127-n22",
+        "native_order": 16,
+        "url_date": "2007-05-01",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/correction-v127-n22",
+        "native_order": 17,
+        "url_date": "2007-05-01",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/upcominghome-v127-n22",
+        "native_order": 18,
+        "url_date": "2007-05-01",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/baseballnewmac-v127-n22",
+        "native_order": 19,
+        "url_date": "2007-05-01",
+        "title": "Baseball Places 2nd After Two Wins Yield Berth in Title Game"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/mtennis-v127-n22",
+        "native_order": 20,
+        "url_date": "2007-05-01",
+        "title": "Tennis Beats Wheaton To Win 9th Straight NEWMAC Tournament"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/sipb-v127-n22",
+        "native_order": 21,
+        "url_date": "2007-05-01",
+        "title": "Ask SIPB"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/scott-v127-n22",
+        "native_order": 22,
+        "url_date": "2007-05-01",
+        "title": "Scott\u2019s Travels"
+      },
+      {
+        "url": "https://thetech.com/2007/05/01/shac-v127-n22",
+        "native_order": 23,
+        "url_date": "2007-05-01",
+        "title": "How You Doin\u2019"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "2120c4cd01f89326d32f6695",
+    "frozen_at_utc": "2026-10-05T15:29:36.513484+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/05/04/housing-v127-n23",
+        "native_order": 1,
+        "url_date": "2007-05-04",
+        "title": "Summer Housing Results In, Some Rooms Still Available"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/housing-statistics-v127-n23",
+        "native_order": 2,
+        "url_date": "2007-05-04",
+        "title": "Summer 2007 Housing Statistics"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/marileeupdate-v127-n23",
+        "native_order": 3,
+        "url_date": "2007-05-04",
+        "title": "Marilee Jones Did Receive Degree"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/coop-v127-n23",
+        "native_order": 4,
+        "url_date": "2007-05-04",
+        "title": "COOP Board Announces Student Election Is Void"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/inshorts-v127-n23",
+        "native_order": 5,
+        "url_date": "2007-05-04",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/daper-v127-n23",
+        "native_order": 6,
+        "url_date": "2007-05-04",
+        "title": "DAPER to Charge $40 Fee For Summer Use"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/tierney-v127-n23",
+        "native_order": 7,
+        "url_date": "2007-05-04",
+        "title": "Congressman Tierney Advocates  Plans For College Affordability"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/weather-v127-n23",
+        "native_order": 8,
+        "url_date": "2007-05-04",
+        "title": "L.A. Weather?"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/long3-v127-n23",
+        "native_order": 9,
+        "url_date": "2007-05-04",
+        "title": "Scientists Discover Gene Linked To Heart Disease in Europeans"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/long4-v127-n23",
+        "native_order": 10,
+        "url_date": "2007-05-04",
+        "title": "Senator Clinton Proposes Vote to Rescind Bush\u2019s War Authorization"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/long5-v127-n23",
+        "native_order": 11,
+        "url_date": "2007-05-04",
+        "title": "Seeking An Edge, Florida Legislature Approves Plans to Move Up Primary"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/shorts2-v127-n23",
+        "native_order": 12,
+        "url_date": "2007-05-04",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/shorts1-v127-n23",
+        "native_order": 13,
+        "url_date": "2007-05-04",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/long1-v127-n23",
+        "native_order": 14,
+        "url_date": "2007-05-04",
+        "title": "Meeting With Syrian Minister Marks Shift in Bush Strategy"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/long2-v127-n23",
+        "native_order": 15,
+        "url_date": "2007-05-04",
+        "title": "Former Deputy General Claims U.S. Attorneys Show Competency"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/correction-v127-n23",
+        "native_order": 16,
+        "url_date": "2007-05-04",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/editorial-v127-n23",
+        "native_order": 17,
+        "url_date": "2007-05-04",
+        "title": "Jones\u2019 Resignation Right For MIT"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/kohli-v127-n23",
+        "native_order": 18,
+        "url_date": "2007-05-04",
+        "title": "Incompetence Plagues UA Elections"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/letters-v127-n23",
+        "native_order": 19,
+        "url_date": "2007-05-04",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/spiderman3-v127-n23",
+        "native_order": 20,
+        "url_date": "2007-05-04",
+        "title": "MOVIE REVIEW  \u2605\u2605\u2605  The Most Violent Chick Flick Ever Made"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/funnything-v127-n23",
+        "native_order": 21,
+        "url_date": "2007-05-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/iff-v127-n23",
+        "native_order": 22,
+        "url_date": "2007-05-04",
+        "title": "MOVIE REVIEW Hope For American Cinema?"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/alvinailey-v127-n23",
+        "native_order": 23,
+        "url_date": "2007-05-04",
+        "title": "DANCE REVIEW Ailey in Boston: Where\u2019s the Energy?"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/mtrack-v127-n23",
+        "native_order": 24,
+        "url_date": "2007-05-04",
+        "title": "Men\u2019s Track Earns NEWMAC Title to Cap Undefeated Season"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/sporttkd-v127-n23",
+        "native_order": 25,
+        "url_date": "2007-05-04",
+        "title": "Taekwondo Places Second in League"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/cycling-v127-n23",
+        "native_order": 26,
+        "url_date": "2007-05-04",
+        "title": "Cycling Team Defends ECAC Title, Will Send 8 Riders to Nationals"
+      },
+      {
+        "url": "https://thetech.com/2007/05/04/upcominghome-v127-n23",
+        "native_order": 27,
+        "url_date": "2007-05-04",
+        "title": "Upcoming Home Events"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "7d5c58210db8139f32bee35c",
+    "frozen_at_utc": "2026-10-05T15:30:34.634942+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/05/08/bakerdining-v127-n24",
+        "native_order": 1,
+        "url_date": "2007-05-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/bakerdining-table-v127-n24",
+        "native_order": 2,
+        "url_date": "2007-05-08",
+        "title": "Baker Dining Survey Results"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/inshort-v127-n24",
+        "native_order": 3,
+        "url_date": "2007-05-08",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/kresge-v127-n24",
+        "native_order": 4,
+        "url_date": "2007-05-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/bridges-v127-n24",
+        "native_order": 5,
+        "url_date": "2007-05-08",
+        "title": "Inca Leapt Canyons With Fiber Bridges"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/digg-v127-n24",
+        "native_order": 6,
+        "url_date": "2007-05-08",
+        "title": "In Web Uproar, DVD Antipiracy Code Spreads Wildly"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/riaa-v127-n24",
+        "native_order": 7,
+        "url_date": "2007-05-08",
+        "title": "RIAA Pre-Litigation Letters Sent to MIT"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/grades-v127-n24",
+        "native_order": 8,
+        "url_date": "2007-05-08",
+        "title": "Students May Have Paid Cash to Change Grades, College Says"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/riaa-table-v127-n24",
+        "native_order": 9,
+        "url_date": "2007-05-08",
+        "title": "No. of Pre-Litigation Letters Per School"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/shorts2-v127-n24",
+        "native_order": 10,
+        "url_date": "2007-05-08",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/long2-v127-n24",
+        "native_order": 11,
+        "url_date": "2007-05-08",
+        "title": "Mass. Governor Patrick Moves To Reshape Executive Branch"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/weather-v127-n24",
+        "native_order": 12,
+        "url_date": "2007-05-08",
+        "title": "The Heat Is On"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/long3-v127-n24",
+        "native_order": 13,
+        "url_date": "2007-05-08",
+        "title": "Report on Child Deaths Finds  Some Hope in Poorest Nations"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/long1-v127-n24",
+        "native_order": 14,
+        "url_date": "2007-05-08",
+        "title": "As Top Aide Resigns, Future For Wolfowitz Still Uncertain"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/long4-v127-n24",
+        "native_order": 15,
+        "url_date": "2007-05-08",
+        "title": "A Fan of the American Way Takes The Reins in France After Election"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/long5-v127-n24",
+        "native_order": 16,
+        "url_date": "2007-05-08",
+        "title": "Israeli Prime Minister Olmert Survives 3 No-Confidence Votes in Parliament"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/shorts1-v127-n24",
+        "native_order": 17,
+        "url_date": "2007-05-08",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/correction-v127-n24",
+        "native_order": 18,
+        "url_date": "2007-05-08",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/letters-v127-n24",
+        "native_order": 19,
+        "url_date": "2007-05-08",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/baseball-v127-n24",
+        "native_order": 20,
+        "url_date": "2007-05-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/wtrack-v127-n24",
+        "native_order": 21,
+        "url_date": "2007-05-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/05/08/upcominghome-v127-n24",
+        "native_order": 22,
+        "url_date": "2007-05-08",
+        "title": "Upcoming Home Events"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]

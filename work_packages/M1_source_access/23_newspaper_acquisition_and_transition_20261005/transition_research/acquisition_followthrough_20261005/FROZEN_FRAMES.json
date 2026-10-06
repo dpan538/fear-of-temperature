@@ -1,0 +1,100 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "2007-02",
+    "index_receipt": "0c52a34a1df93f3146e4e044",
+    "frozen_at_utc": "2026-10-05T14:09:51.939864+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/02/06/1briefs-table-v127-n1",
+        "native_order": 1,
+        "url_date": "2007-02-06",
+        "title": "No. of Applicants for 2006, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-letter1-v127-n1",
+        "native_order": 2,
+        "url_date": "2007-02-06",
+        "title": "Excerpt from \u2018A plea for help to end racism at MIT\u2019 \u2014 Dec. 19, 2006"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1inshort-v127-n1",
+        "native_order": 3,
+        "url_date": "2007-02-06",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-newsoffice-v127-n1",
+        "native_order": 4,
+        "url_date": "2007-02-06",
+        "title": "MIT News Office Statement \u2014 Feb. 5, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-be-v127-n1",
+        "native_order": 5,
+        "url_date": "2007-02-06",
+        "title": "A statement from the BE faculty \u2014 Feb. 5, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-clay-v127-n1",
+        "native_order": 6,
+        "url_date": "2007-02-06",
+        "title": "A Message to MIT Students \u2014 Feb. 5, 2007"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "2026-08",
+    "index_receipt": "a312a25b4d762ebe34127df6",
+    "frozen_at_utc": "2026-10-05T14:10:05.726792+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2026/08/27/in-short-v146-n13",
+        "native_order": 1,
+        "url_date": "2026-08-27",
+        "title": "8/26 In Short"
+      },
+      {
+        "url": "https://thetech.com/2026/08/27/weather-v146-n13",
+        "native_order": 2,
+        "url_date": "2026-08-27",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2026/08/23/evan-mackay-2026",
+        "native_order": 3,
+        "url_date": "2026-08-23",
+        "title": "A vote for Evan MacKay is a vote for justice"
+      },
+      {
+        "url": "https://thetech.com/2026/08/23/same-day-voter-registration-2026",
+        "native_order": 4,
+        "url_date": "2026-08-23",
+        "title": "Bring same-day voter registration to Massachusetts"
+      },
+      {
+        "url": "https://thetech.com/2026/08/18/financials-letter-2026",
+        "native_order": 5,
+        "url_date": "2026-08-18",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2026/08/27/hiv-positive-lung-transplant",
+        "native_order": 6,
+        "url_date": "2026-08-27",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]

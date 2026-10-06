@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-05T15:38:08.385439+00:00",
+  "free_bytes": 17922064384,
+  "original_remaining_reserve_bytes": 0,
+  "physical_floor_bytes": 16106127360,
+  "staging_recovery_allowance_bytes": 50331648,
+  "pending_raw_derivative_allowance_bytes": 8388608,
+  "dynamic_object_cap_bytes": 2097152,
+  "projected_free_bytes": 17863344128,
+  "media_lifetime_used_bytes": 107575001,
+  "media_lifetime_cap_bytes": 134217728,
+  "passed": true
+}

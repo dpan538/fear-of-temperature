@@ -1,0 +1,834 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "6f033f8d4687f7d8463bae4a",
+    "frozen_at_utc": "2026-10-05T14:59:27.110990+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2013/08/30/collier-v133-n33",
+        "native_order": 1,
+        "url_date": "2013-08-30",
+        "title": "Collier officially Somerville officer"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/inshort-v133-n33",
+        "native_order": 2,
+        "url_date": "2013-08-30",
+        "title": "IN SHORT"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/gsc-v133-n33",
+        "native_order": 3,
+        "url_date": "2013-08-30",
+        "title": "Graduate Student Orientation"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/jpmorgan-v133-n33",
+        "native_order": 4,
+        "url_date": "2013-08-30",
+        "title": "At JPMorgan, easy way in for China elite"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/ifc-v133-n33",
+        "native_order": 5,
+        "url_date": "2013-08-30",
+        "title": "Fraternities"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/sororitydc-v133-n33",
+        "native_order": 6,
+        "url_date": "2013-08-30",
+        "title": "Sorority Recruitment"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/lgc-v133-n33",
+        "native_order": 7,
+        "url_date": "2013-08-30",
+        "title": "Independent Living Groups"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/bc-v133-n33",
+        "native_order": 8,
+        "url_date": "2013-08-30",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/bxlounge-v133-n33",
+        "native_order": 9,
+        "url_date": "2013-08-30",
+        "title": "Former Bexley residents granted lounge space in Walker Memorial"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/long4-v133-n33",
+        "native_order": 10,
+        "url_date": "2013-08-30",
+        "title": "Leaked document outlines US spending on intelligence"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/shorts2-v133-n33",
+        "native_order": 11,
+        "url_date": "2013-08-30",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/long1-v133-n33",
+        "native_order": 12,
+        "url_date": "2013-08-30",
+        "title": "Obama is willing to go it alone in Syria, aides say"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/long3-v133-n33",
+        "native_order": 13,
+        "url_date": "2013-08-30",
+        "title": "US says it won\u2019t sue to undo state marijuana laws"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/long2-v133-n33",
+        "native_order": 14,
+        "url_date": "2013-08-30",
+        "title": "Mixed feelings for Syrians as they await a US strike"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/shorts1-v133-n33",
+        "native_order": 15,
+        "url_date": "2013-08-30",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/weather-v133-n33",
+        "native_order": 16,
+        "url_date": "2013-08-30",
+        "title": "A humid end to summer"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/long5-v133-n33",
+        "native_order": 17,
+        "url_date": "2013-08-30",
+        "title": "Switzerland and US reach accord to curtail banking secrecy"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/architecture-v133-n33",
+        "native_order": 18,
+        "url_date": "2013-08-30",
+        "title": "Architecture highlights at MIT"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/theater-v133-n33",
+        "native_order": 19,
+        "url_date": "2013-08-30",
+        "title": "Experiencing and learning about theater at MIT"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/worldsend-v133-n33",
+        "native_order": 20,
+        "url_date": "2013-08-30",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/music-v133-n33",
+        "native_order": 21,
+        "url_date": "2013-08-30",
+        "title": "Classes and opportunities to explore music"
+      },
+      {
+        "url": "https://thetech.com/2013/08/30/studioartnote-v133-n33",
+        "native_order": 22,
+        "url_date": "2013-08-30",
+        "title": "Studio art at MIT"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "b85cec7c476739a1e6796d3f",
+    "frozen_at_utc": "2026-10-05T15:00:17.337578+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2014/08/29/fraternityrush-v134-n33",
+        "native_order": 1,
+        "url_date": "2014-08-29",
+        "title": "Fraternity Rush Events"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/taskforce-v134-n33",
+        "native_order": 2,
+        "url_date": "2014-08-29",
+        "title": "Task Force releases report on proposed education reforms"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/ilgrush-v134-n33",
+        "native_order": 3,
+        "url_date": "2014-08-29",
+        "title": "Independent Living Group Rush Events"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/marketbasket-v134-n33",
+        "native_order": 4,
+        "url_date": "2014-08-29",
+        "title": "Market Basket workers cheer as feud ends and chief returns"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/sororityrecruitment-v134-n33",
+        "native_order": 5,
+        "url_date": "2014-08-29",
+        "title": "Sorority Recruitment \nWelcome Brunch and Philanthropy Day"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/inshort-v134-n33",
+        "native_order": 6,
+        "url_date": "2014-08-29",
+        "title": "IN SHORT"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/ifcsocial-v134-n33",
+        "native_order": 7,
+        "url_date": "2014-08-29",
+        "title": "FSILG leaders approve of new social gathering policy"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/annualfund-v134-n33",
+        "native_order": 8,
+        "url_date": "2014-08-29",
+        "title": "Undergraduate alumni give twice as much to Annual Fund as graduate alumni"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/shorts1-v134-n33",
+        "native_order": 9,
+        "url_date": "2014-08-29",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/long1-v134-n33",
+        "native_order": 10,
+        "url_date": "2014-08-29",
+        "title": "Videos show mass killing the Islamic state in Syria"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/long5-v134-n33",
+        "native_order": 11,
+        "url_date": "2014-08-29",
+        "title": "As new cease-fire holds, dazed Gazans get to work"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/long3-v134-n33",
+        "native_order": 12,
+        "url_date": "2014-08-29",
+        "title": "Food safety is crucial in China deal for baby milk"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/shorts2-v134-n33",
+        "native_order": 13,
+        "url_date": "2014-08-29",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/long4-v134-n33",
+        "native_order": 14,
+        "url_date": "2014-08-29",
+        "title": "Committee on Shut Lanes seeks records about texts"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/weather-v134-n33",
+        "native_order": 15,
+        "url_date": "2014-08-29",
+        "title": "Cooler temps today, then a summery weekend"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/long2-v134-n33",
+        "native_order": 16,
+        "url_date": "2014-08-29",
+        "title": "Ebola could eventually afflict more than 20,000, WHO says"
+      },
+      {
+        "url": "https://thetech.com/2014/08/29/aksamija-v134-n33",
+        "native_order": 17,
+        "url_date": "2014-08-29",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "7f46e9757b8363c284447bd8",
+    "frozen_at_utc": "2026-10-05T15:00:54.253968+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2015/09/03/mindhandheart-v135-n20",
+        "native_order": 1,
+        "url_date": "2015-09-03",
+        "title": "MindHandHeart expected to improve access to resources"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/weather-v135-n20",
+        "native_order": 2,
+        "url_date": "2015-09-03",
+        "title": "Rare hurricane hits Cape Verde"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/security-v135-n20",
+        "native_order": 3,
+        "url_date": "2015-09-03",
+        "title": "DormCon organizes student-led training for Allied Barton workers"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/inshort-v135-n20",
+        "native_order": 4,
+        "url_date": "2015-09-03",
+        "title": "IN SHORT"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/corrections-v135-n20",
+        "native_order": 5,
+        "url_date": "2015-09-03",
+        "title": "CORRECTIONS"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/dphie-v135-n20",
+        "native_order": 6,
+        "url_date": "2015-09-03",
+        "title": "New sorority opens on campus"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/nudelta-v135-n20",
+        "native_order": 7,
+        "url_date": "2015-09-03",
+        "title": "Nu Delta fraternity receives IFC sanctions"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/dc-v135-n20",
+        "native_order": 8,
+        "url_date": "2015-09-03",
+        "title": "The Daily Confusion: 2015 FSILG Edition"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/stevejobs-v135-n20",
+        "native_order": 9,
+        "url_date": "2015-09-03",
+        "title": "Steve Jobs: A study in contrasts"
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/mtg-v135-n20",
+        "native_order": 10,
+        "url_date": "2015-09-03",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/radical-v135-n20",
+        "native_order": 11,
+        "url_date": "2015-09-03",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2015/09/03/football-v135-n20",
+        "native_order": 12,
+        "url_date": "2015-09-03",
+        "title": "Q&A with MIT football  coach"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "d6cf731bac39efe2ab2cb832",
+    "frozen_at_utc": "2026-10-05T15:01:35.760647+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2016/09/01/soap-bubbles-up-in-dorms",
+        "native_order": 1,
+        "url_date": "2016-09-01",
+        "title": "Soap now provided in all dorm bathrooms"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/good-samaritan-amnesty-policy-fall-2016-update",
+        "native_order": 2,
+        "url_date": "2016-09-01",
+        "title": "Updated help-seeking policy protects student organizations from alcohol, drug sanctions"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/tropical-cyclone-basins-active",
+        "native_order": 3,
+        "url_date": "2016-09-01",
+        "title": "Several tropical cyclone basins become active"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/cambridge-mit-exchange-ends",
+        "native_order": 4,
+        "url_date": "2016-09-01",
+        "title": "CME ends after BP cuts corporate sponsorship"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/inshorts-v136-n21",
+        "native_order": 5,
+        "url_date": "2016-09-01",
+        "title": "Student loan art program, UROP direct funding, and student insurance waiver"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/harry-potter-and-the-cursed-child-review",
+        "native_order": 6,
+        "url_date": "2016-09-01",
+        "title": "Harry Potter, Book Seven and Three-Quarters"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/blonde-frank-ocean-review",
+        "native_order": 7,
+        "url_date": "2016-09-01",
+        "title": "Blonde or Blonde on Blonde?"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/restaurant-roundup-fall-2016",
+        "native_order": 8,
+        "url_date": "2016-09-01",
+        "title": "Restaurant roundup"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/kubo-and-the-two-strings-review",
+        "native_order": 9,
+        "url_date": "2016-09-01",
+        "title": "Kubo and the Two Strings strikes a wonderfully balanced note"
+      },
+      {
+        "url": "https://thetech.com/2016/09/01/mit-aspiring-olympians",
+        "native_order": 10,
+        "url_date": "2016-09-01",
+        "title": "MIT alumni emerge from the firehose with Olympic dreams intact"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "1f82cb6ac738d289cf34b442",
+    "frozen_at_utc": "2026-10-05T15:01:58.117626+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2017/09/06/registration-deadline-degree-application-deadline",
+        "native_order": 1,
+        "url_date": "2017-09-06",
+        "title": "Registration deadline and Degree Application deadline Friday"
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/daca-repeal-mit-response",
+        "native_order": 2,
+        "url_date": "2017-09-06",
+        "title": "MIT will fight for Dreamers in face of DACA repeal"
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/mit-harvey-response",
+        "native_order": 3,
+        "url_date": "2017-09-06",
+        "title": "For some MIT students, Harvey hits home"
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/environment-sustainability-minor",
+        "native_order": 4,
+        "url_date": "2017-09-06",
+        "title": "New interdisciplinary minor to address student interest in environment & sustainability"
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/hurricane-irma",
+        "native_order": 5,
+        "url_date": "2017-09-06",
+        "title": "Rain departs the northeast as Hurricane Irma approaches the US"
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/la-verdes-truncates-hours",
+        "native_order": 6,
+        "url_date": "2017-09-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/mtg-avenue-q-musical-review",
+        "native_order": 7,
+        "url_date": "2017-09-06",
+        "title": "What do you do with a B.A. in English?"
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/death-note-movie-review",
+        "native_order": 8,
+        "url_date": "2017-09-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2017/09/06/sports-blitz-v137-i21",
+        "native_order": 9,
+        "url_date": "2017-09-06",
+        "title": "Fall sports start season on a good note"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "f6ec2ef08257801d34999220",
+    "frozen_at_utc": "2026-10-05T15:02:18.473086+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2018/09/18/in-short-v138-n19",
+        "native_order": 1,
+        "url_date": "2018-09-18",
+        "title": "Career Fair, UA committee applications, UROP deadline"
+      },
+      {
+        "url": "https://thetech.com/2018/09/18/weather-v138-n19",
+        "native_order": 2,
+        "url_date": "2018-09-18",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/09/17/hack-mit-2018",
+        "native_order": 3,
+        "url_date": "2018-09-17",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/09/17/logs-first-female-member",
+        "native_order": 4,
+        "url_date": "2018-09-17",
+        "title": "Logs accept first woman"
+      },
+      {
+        "url": "https://thetech.com/2018/09/17/ig-nobel-prizes-2018",
+        "native_order": 5,
+        "url_date": "2018-09-17",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/09/17/ase-results-2018",
+        "native_order": 6,
+        "url_date": "2018-09-17",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/09/17/animal-shaped-vessels-exhibit-harvard-art-museum",
+        "native_order": 7,
+        "url_date": "2018-09-17",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/09/17/cricket-game-report-season-opener",
+        "native_order": 8,
+        "url_date": "2018-09-17",
+        "title": "MIT beat BU in cricket semester opener by 17 runs"
+      },
+      {
+        "url": "https://thetech.com/2018/09/17/advice-september-problems",
+        "native_order": 9,
+        "url_date": "2018-09-17",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "bb1bd9773c43e49568ccc9f7",
+    "frozen_at_utc": "2026-10-05T15:02:38.703900+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2019/09/12/in-short-v139-n18",
+        "native_order": 1,
+        "url_date": "2019-09-12",
+        "title": "IM sports, half-term add date, blood drive"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/dorms-experience-issues-with-washlava",
+        "native_order": 2,
+        "url_date": "2019-09-12",
+        "title": "Several dorms experience difficulties with new laundry system"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/lander-denies-epstein-association-despite-photos",
+        "native_order": 3,
+        "url_date": "2019-09-12",
+        "title": "Eric Lander stands by denial of association with Epstein after photos surface"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/ase-data-fall-2019",
+        "native_order": 4,
+        "url_date": "2019-09-12",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/negroponte-defends-ito",
+        "native_order": 5,
+        "url_date": "2019-09-12",
+        "title": "Media Lab Cofounder Nicholas Negroponte defends Joi Ito"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/pick-a-lunch-pilot",
+        "native_order": 6,
+        "url_date": "2019-09-12",
+        "title": "DSL launches new pick-a-lunch pilot program"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/math-placement",
+        "native_order": 7,
+        "url_date": "2019-09-12",
+        "title": "Sixty percent or higher on math diagnostic is required to pass out of 18.01"
+      },
+      {
+        "url": "https://thetech.com/2019/09/07/joi-ito-resigns",
+        "native_order": 8,
+        "url_date": "2019-09-07",
+        "title": "Media Lab Director Joi Ito resigns after efforts to hide his ties with Epstein are revealed"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/commencement-2020-failures",
+        "native_order": 9,
+        "url_date": "2019-09-12",
+        "title": "Failures in transparency and student input regarding changes to 2020 Commencement"
+      },
+      {
+        "url": "https://thetech.com/2019/09/09/joi-gone-billionaire-culture",
+        "native_order": 10,
+        "url_date": "2019-09-09",
+        "title": "Joi is gone, but billionaire culture remains"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/tech-support-food-love",
+        "native_order": 11,
+        "url_date": "2019-09-12",
+        "title": "Party food and relationships"
+      },
+      {
+        "url": "https://thetech.com/2019/09/12/microbiome-evolution",
+        "native_order": 12,
+        "url_date": "2019-09-12",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "b5c173943933a4000cec78e2",
+    "frozen_at_utc": "2026-10-05T15:03:04.951920+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2020/08/06/mass-travel-order",
+        "native_order": 1,
+        "url_date": "2020-08-06",
+        "title": "Massachusetts implements COVID-19 travel order for out-of-state visitors"
+      },
+      {
+        "url": "https://thetech.com/2020/08/06/2009-canceled-fall-20",
+        "native_order": 2,
+        "url_date": "2020-08-06",
+        "title": "2.009 to be replaced with abridged 2.s009 in Fall 2020"
+      },
+      {
+        "url": "https://thetech.com/2020/08/06/housing-policies-fall-20",
+        "native_order": 3,
+        "url_date": "2020-08-06",
+        "title": "DSL releases Fall 2020 on-campus COVID-19 policies"
+      },
+      {
+        "url": "https://thetech.com/2020/08/06/gap-year-fall-20",
+        "native_order": 4,
+        "url_date": "2020-08-06",
+        "title": "87 first-year students opt for gap year"
+      },
+      {
+        "url": "https://thetech.com/2020/08/06/online-ases-diagnostic",
+        "native_order": 5,
+        "url_date": "2020-08-06",
+        "title": "Advanced Standing Exams and math diagnostic to be administered online using proctoring software"
+      },
+      {
+        "url": "https://thetech.com/2020/08/06/visitor-policy-fall-20",
+        "native_order": 6,
+        "url_date": "2020-08-06",
+        "title": "MIT to implement new campus visitor policy Fall 2020"
+      },
+      {
+        "url": "https://thetech.com/2020/08/06/housing-numbers-fall-20",
+        "native_order": 7,
+        "url_date": "2020-08-06",
+        "title": "About 900 undergraduates will live on campus in fall"
+      },
+      {
+        "url": "https://thetech.com/2020/08/06/new-international-students-fall-20",
+        "native_order": 8,
+        "url_date": "2020-08-06",
+        "title": "New international students with F-1 visas cannot enter US for fully-online coursework"
+      },
+      {
+        "url": "https://thetech.com/2020/07/31/gaslighter-review",
+        "native_order": 9,
+        "url_date": "2020-07-31",
+        "title": "The Chicks discover liberation in divorce"
+      },
+      {
+        "url": "https://thetech.com/2020/07/31/folklore-review",
+        "native_order": 10,
+        "url_date": "2020-07-31",
+        "title": "\u2018folklore\u2019: a melodic anthology of quarantine musings"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "c2ec08cc096d304eb513671f",
+    "frozen_at_utc": "2026-10-05T15:03:29.788041+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2021/09/08/fall-21-covid-policies",
+        "native_order": 1,
+        "url_date": "2021-09-08",
+        "title": "Fall 2021 COVID-19 policies, summarized"
+      },
+      {
+        "url": "https://thetech.com/2021/09/08/rex-fyre-syre-2021",
+        "native_order": 2,
+        "url_date": "2021-09-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2021/09/08/hayden-reopening",
+        "native_order": 3,
+        "url_date": "2021-09-08",
+        "title": "Hayden Library reopens after renovations"
+      },
+      {
+        "url": "https://thetech.com/2021/09/08/in-short-v141-n19",
+        "native_order": 4,
+        "url_date": "2021-09-08",
+        "title": "Registration, HASS forms, PE classes"
+      },
+      {
+        "url": "https://thetech.com/2021/09/08/weather-v141-n19",
+        "native_order": 5,
+        "url_date": "2021-09-08",
+        "title": "Rapid rain, soon sunny"
+      },
+      {
+        "url": "https://thetech.com/2021/09/08/reinforced-concrete-bikes",
+        "native_order": 6,
+        "url_date": "2021-09-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2021/09/08/senior-year",
+        "native_order": 7,
+        "url_date": "2021-09-08",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "a1e166e7f0fca2b5b5cc703c",
+    "frozen_at_utc": "2026-10-05T15:03:46.024371+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2022/09/08/activities-midway-2022",
+        "native_order": 1,
+        "url_date": "2022-09-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/renovated-bc-opens",
+        "native_order": 2,
+        "url_date": "2022-09-08",
+        "title": "Burton Conner reopens to residents after renovation"
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/free-expression-group-statement",
+        "native_order": 3,
+        "url_date": "2022-09-08",
+        "title": "Proposal for revised statement on freedom of expression and academic expression released"
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/class-of-2026-convocation",
+        "native_order": 4,
+        "url_date": "2022-09-08",
+        "title": "Reif welcomes Class of 2026 with Convocation address"
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/weather-v142-n17",
+        "native_order": 5,
+        "url_date": "2022-09-08",
+        "title": "Cloudy skies welcome fall semester"
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/in-short-v142-n-17",
+        "native_order": 6,
+        "url_date": "2022-09-08",
+        "title": "Registration deadline, PE Classes, Dance Party"
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/addressing-bad-periods",
+        "native_order": 7,
+        "url_date": "2022-09-08",
+        "title": "MIT can address this elephant in the room: Bad periods!"
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/risk-reduction-open-letter",
+        "native_order": 8,
+        "url_date": "2022-09-08",
+        "title": "MIT\u2019s attempts to reduce risk also stifles exploration and opportunity"
+      },
+      {
+        "url": "https://thetech.com/2022/09/08/open-campus-input-needed",
+        "native_order": 9,
+        "url_date": "2022-09-08",
+        "title": "MIT and local input needed on open-campus reversal"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]

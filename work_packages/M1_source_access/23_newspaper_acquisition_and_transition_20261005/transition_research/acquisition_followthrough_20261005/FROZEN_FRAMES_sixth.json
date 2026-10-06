@@ -1,0 +1,1580 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "b7b98bf89a39aa88e34ba143",
+    "frozen_at_utc": "2026-10-05T14:33:37.897125+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2008/02/05/microsoftlab-v128-n1",
+        "native_order": 1,
+        "url_date": "2008-02-05",
+        "title": "Microsoft Research Lab Will Expand To Cambridge, Conduct Academic Research"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/simpson-motion-v128-n1",
+        "native_order": 2,
+        "url_date": "2008-02-05",
+        "title": "Commonwealth\u2019s Memorandum In Opposition to Defendant\u2019s Motion to Dismiss"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/solarcity-v128-n1",
+        "native_order": 3,
+        "url_date": "2008-02-05",
+        "title": "MIT-Affiliated Research Center Builds an Energy-Saving City"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/7013-v128-n1",
+        "native_order": 4,
+        "url_date": "2008-02-05",
+        "title": "Oversubscribed Biology Class Will Spill Into 4-370"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/obama-v128-n1",
+        "native_order": 5,
+        "url_date": "2008-02-05",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/inshort-v128-n1",
+        "native_order": 6,
+        "url_date": "2008-02-05",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/jumper-v128-n1",
+        "native_order": 7,
+        "url_date": "2008-02-05",
+        "title": "MIT Professors, Christensen Talk \u2018Jumper\u2019"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/simpson-v128-n1",
+        "native_order": 8,
+        "url_date": "2008-02-05",
+        "title": "Was Star\u2019s LED Star Protected Speech?"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/long4-v128-n1",
+        "native_order": 9,
+        "url_date": "2008-02-05",
+        "title": "States Prepare to Test New Voting Systems, Ballot-Counting Tactics"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/long5-v128-n1",
+        "native_order": 10,
+        "url_date": "2008-02-05",
+        "title": "Bush\u2019s Final Budget Hints at Tough Decisions to Come For His Successor"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/long3-v128-n1",
+        "native_order": 11,
+        "url_date": "2008-02-05",
+        "title": "Hispanic Voting Bloc Expands As Immigrants Become Citizens"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/shorts1-v128-n1",
+        "native_order": 12,
+        "url_date": "2008-02-05",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/shorts2-v128-n1",
+        "native_order": 13,
+        "url_date": "2008-02-05",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/long1-v128-n1",
+        "native_order": 14,
+        "url_date": "2008-02-05",
+        "title": "In 24 State Primaries Today,  Candidates Vie For Delegates"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/long2-v128-n1",
+        "native_order": 15,
+        "url_date": "2008-02-05",
+        "title": "Candidates Blitz States As Key Super Tuesday Votes Approach"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/weather-v128-n1",
+        "native_order": 16,
+        "url_date": "2008-02-05",
+        "title": "The Day After Tomorrow"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/correction-v128-n1",
+        "native_order": 17,
+        "url_date": "2008-02-05",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/aotwsilverman-v128-n1",
+        "native_order": 18,
+        "url_date": "2008-02-05",
+        "title": "News Briefs"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/upcominghome-v128-n1",
+        "native_order": 19,
+        "url_date": "2008-02-05",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/superbowl-v128-n1",
+        "native_order": 20,
+        "url_date": "2008-02-05",
+        "title": "Super Bowl MVP Eli Manning, Giants End Patriots\u2019 Perfect Run"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/gotwwbasketball-v128-n1",
+        "native_order": 21,
+        "url_date": "2008-02-05",
+        "title": "Game of the Week: Yuan\u2019s Jumper Lifts Engineers Over Coast Guard"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/scoreboard-v128-n1",
+        "native_order": 22,
+        "url_date": "2008-02-05",
+        "title": "Scoreboard"
+      },
+      {
+        "url": "https://thetech.com/2008/02/05/djue-v128-n1",
+        "native_order": 23,
+        "url_date": "2008-02-05",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "a7a0daef53b73172b35b6800",
+    "frozen_at_utc": "2026-10-05T14:34:24.807100+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2009/02/03/dress-v129-n1",
+        "native_order": 1,
+        "url_date": "2009-02-03",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/girvote-v129-n1",
+        "native_order": 2,
+        "url_date": "2009-02-03",
+        "title": "Faculty Will Vote on Plan to Change GIRs At Meeting This Week"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/charmschool-v129-n1",
+        "native_order": 3,
+        "url_date": "2009-02-03",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/brandeis-v129-n1",
+        "native_order": 4,
+        "url_date": "2009-02-03",
+        "title": "In the Closing of Brandeis Museum, Trustees Deliver a  Statement of Its Priorities"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/long1-v129-n1",
+        "native_order": 5,
+        "url_date": "2009-02-03",
+        "title": "Obama\u2019s Promise of Ethics Reform Faces Early Test"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/long3-v129-n1",
+        "native_order": 6,
+        "url_date": "2009-02-03",
+        "title": "Internet Money in Fiscal Plan: Wise or Waste?"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/long4-v129-n1",
+        "native_order": 7,
+        "url_date": "2009-02-03",
+        "title": "New York\u2019s Junior Senator Quickly Evolves On The Job"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/shorts1-v129-n1",
+        "native_order": 8,
+        "url_date": "2009-02-03",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/long5-v129-n1",
+        "native_order": 9,
+        "url_date": "2009-02-03",
+        "title": "Obama Set to Add Republican To Cabinet"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/long2-v129-n1",
+        "native_order": 10,
+        "url_date": "2009-02-03",
+        "title": "Daschle Apologizes Over Taxes as Allies Give Support"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/shorts2-v129-n1",
+        "native_order": 11,
+        "url_date": "2009-02-03",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/weather-v129-n1",
+        "native_order": 12,
+        "url_date": "2009-02-03",
+        "title": "Predictions of the Future and Never Materialized Scenarios"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/yost-v129-n1",
+        "native_order": 13,
+        "url_date": "2009-02-03",
+        "title": "Out of the Wilderness and  Back into the Big Tent"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/maurer-v129-n1",
+        "native_order": 14,
+        "url_date": "2009-02-03",
+        "title": "Spending for Tomorrow"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/bird-v129-n1",
+        "native_order": 15,
+        "url_date": "2009-02-03",
+        "title": "CONCERT REVIEW The Man Who Makes Gypsy-Rock Symphonies"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/eraser-v129-n1",
+        "native_order": 16,
+        "url_date": "2009-02-03",
+        "title": "CD REVIEW Beats and Electronics on Beats and Electronics"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/killers-v129-n1",
+        "native_order": 17,
+        "url_date": "2009-02-03",
+        "title": "CONCERT REVIEW Making Mainstream Cool"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/upcominghome-v129-n1",
+        "native_order": 18,
+        "url_date": "2009-02-03",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/sportsshorts-v129-n1",
+        "native_order": 19,
+        "url_date": "2009-02-03",
+        "title": "Sports Shorts"
+      },
+      {
+        "url": "https://thetech.com/2009/02/03/scoreboard-v129-n1",
+        "native_order": 20,
+        "url_date": "2009-02-03",
+        "title": "Scoreboard"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "8317771c4cd54f997d8c68af",
+    "frozen_at_utc": "2026-10-05T14:35:03.916394+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2010/02/02/howardjohnson-v130-n1",
+        "native_order": 1,
+        "url_date": "2010-02-02",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/redesign-v130-n1",
+        "native_order": 2,
+        "url_date": "2010-02-02",
+        "title": "Tech debuts new look"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/maslab-v130-n1",
+        "native_order": 3,
+        "url_date": "2010-02-02",
+        "title": "Team 9 wins annual Maslab competition"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/dlab-v130-n1",
+        "native_order": 4,
+        "url_date": "2010-02-02",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/ironnerd-v130-n1",
+        "native_order": 5,
+        "url_date": "2010-02-02",
+        "title": "\u2018Iron Nerd\u2019 wins website contest with social gym app"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/spacecats-v130-n1",
+        "native_order": 6,
+        "url_date": "2010-02-02",
+        "title": "\u2018Backdoor Bandit\u2019 Nabs Most Mice in 6.270 Autonomous Robot Design Competition"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/battlecode-v130-n1",
+        "native_order": 7,
+        "url_date": "2010-02-02",
+        "title": "\u201cMy Archon Died BellmanFording the Stream\u201d Beats Prof. Mordemort"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/inshort-v130-n1",
+        "native_order": 8,
+        "url_date": "2010-02-02",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/shorts1-v130-n1",
+        "native_order": 9,
+        "url_date": "2010-02-02",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/long3-v130-n1",
+        "native_order": 10,
+        "url_date": "2010-02-02",
+        "title": "Protecting Haiti while protecting its \u2018orphans\u2019"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/long1-v130-n1",
+        "native_order": 11,
+        "url_date": "2010-02-02",
+        "title": "Obama submits a budget of \u2018hard choices\u2019"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/long2-v130-n1",
+        "native_order": 12,
+        "url_date": "2010-02-02",
+        "title": "Obama budget privatizes NASA space exploration"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/shorts2-v130-n1",
+        "native_order": 13,
+        "url_date": "2010-02-02",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/fsilg-v130-n1",
+        "native_order": 14,
+        "url_date": "2010-02-02",
+        "title": "Proposal for second-semester freshmen to live in FSILGs"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/letters-v130-n1",
+        "native_order": 15,
+        "url_date": "2010-02-02",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/yost-v130-n1",
+        "native_order": 16,
+        "url_date": "2010-02-02",
+        "title": "Mission creep"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/neltner-v130-n1",
+        "native_order": 17,
+        "url_date": "2010-02-02",
+        "title": "Give freshmen a choice"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/corrections-v130-n1",
+        "native_order": 18,
+        "url_date": "2010-02-02",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/editorsnote-v130-n1",
+        "native_order": 19,
+        "url_date": "2010-02-02",
+        "title": "From the Editor"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/upcoming-home-v130-n1",
+        "native_order": 20,
+        "url_date": "2010-02-02",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/swimming-v130-n1",
+        "native_order": 21,
+        "url_date": "2010-02-02",
+        "title": "Swimming finishes season undefeated"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/scoreboard-v130-n1",
+        "native_order": 22,
+        "url_date": "2010-02-02",
+        "title": "Scoreboard"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/undress-v130-n1",
+        "native_order": 23,
+        "url_date": "2010-02-02",
+        "title": "I Don\u2019t Need No Minute Man"
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/sextoys-v130-n1",
+        "native_order": 24,
+        "url_date": "2010-02-02",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2010/02/02/giveaway-v130-n1",
+        "native_order": 25,
+        "url_date": "2010-02-02",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "4f12e51ded4a602674f92d45",
+    "frozen_at_utc": "2026-10-05T14:35:52.323381+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2011/02/01/sports1-v131-n1",
+        "native_order": 1,
+        "url_date": "2011-02-01",
+        "title": "Varsity cuts, 18 months afterwards"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/gatespolio-v131-n1",
+        "native_order": 2,
+        "url_date": "2011-02-01",
+        "title": "Gates calls for final push to end polio"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/nuclearpower-v131-n1",
+        "native_order": 3,
+        "url_date": "2011-02-01",
+        "title": "US pushes nuclear energy, but its projects lag"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/orientation-v131-n1",
+        "native_order": 4,
+        "url_date": "2011-02-01",
+        "title": "Looking in-depth at orientation plans"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/inshort-v131-n1",
+        "native_order": 5,
+        "url_date": "2011-02-01",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/frontyirref-v131-n1",
+        "native_order": 6,
+        "url_date": "2011-02-01",
+        "title": "The Tech\u2019s Year in Review"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/shorts2-v131-n1",
+        "native_order": 7,
+        "url_date": "2011-02-01",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/long5-v131-n1",
+        "native_order": 8,
+        "url_date": "2011-02-01",
+        "title": "Sotomayor reflects on advice, race and public perception at UChicago talk"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/long3-v131-n1",
+        "native_order": 9,
+        "url_date": "2011-02-01",
+        "title": "Second judge strikes down Obama health care law"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/long4-v131-n1",
+        "native_order": 10,
+        "url_date": "2011-02-01",
+        "title": "Afghan stoning video rekindles outcry in double murder case"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/shorts1-v131-n1",
+        "native_order": 11,
+        "url_date": "2011-02-01",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/long2-v131-n1",
+        "native_order": 12,
+        "url_date": "2011-02-01",
+        "title": "Pakistan\u2019s nuclear arsenal\u2028poses challenge to US policy"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/long1-v131-n1",
+        "native_order": 13,
+        "url_date": "2011-02-01",
+        "title": "Egyptian army renounces use of force, officials offer talks"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/weather-v131-n1",
+        "native_order": 14,
+        "url_date": "2011-02-01",
+        "title": "Messy weather arrives (again)"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/presidents-v131-n1",
+        "native_order": 15,
+        "url_date": "2011-02-01",
+        "title": "Dorm presidents defend REX"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/rogoff-v131-n1",
+        "native_order": 16,
+        "url_date": "2011-02-01",
+        "title": "CPW is not a replacement for REX"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/yost-v131-n1",
+        "native_order": 17,
+        "url_date": "2011-02-01",
+        "title": "Living in a housing-constrained world"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/damazer-v131-n1",
+        "native_order": 18,
+        "url_date": "2011-02-01",
+        "title": "Resolutions for the new semester, by the economics"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/corrections-v131-n1",
+        "native_order": 19,
+        "url_date": "2011-02-01",
+        "title": "Corrections"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/letters-v131-n1",
+        "native_order": 20,
+        "url_date": "2011-02-01",
+        "title": "Letters to the Editor"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/buckminster-v131-n1",
+        "native_order": 21,
+        "url_date": "2011-02-01",
+        "title": "THEATER REVIEW  Geeky. Humorous. Inspiring. Powerful."
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/sportmemories-v131-n1",
+        "native_order": 22,
+        "url_date": "2011-02-01",
+        "title": "2010\u2019s defining moments"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/upcominghome-v131-n1",
+        "native_order": 23,
+        "url_date": "2011-02-01",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/sportsshorts-v131-n1",
+        "native_order": 24,
+        "url_date": "2011-02-01",
+        "title": "Sports Shorts"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/modestproposal-v131-n1",
+        "native_order": 25,
+        "url_date": "2011-02-01",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/healthcolumn-v131-n1",
+        "native_order": 26,
+        "url_date": "2011-02-01",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/reflections-v131-n1",
+        "native_order": 27,
+        "url_date": "2011-02-01",
+        "title": "Level up! Beating the first boss"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/websitelist-v131-n1",
+        "native_order": 28,
+        "url_date": "2011-02-01",
+        "title": "10 websites you might not have heard of"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/editorsnote-v131-n1",
+        "native_order": 29,
+        "url_date": "2011-02-01",
+        "title": "Editor\u2019s Note"
+      },
+      {
+        "url": "https://thetech.com/2011/02/01/events-v131-n1",
+        "native_order": 30,
+        "url_date": "2011-02-01",
+        "title": "Events for \tFeb. 1 \u2013 Feb. 6"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "3a57c3613a620d838e64b0f1",
+    "frozen_at_utc": "2026-10-05T14:36:51.461155+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2012/02/07/fnl-v132-n1",
+        "native_order": 1,
+        "url_date": "2012-02-07",
+        "title": "Questions raised over 2030 in FNL"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/resignation-v132-n1",
+        "native_order": 2,
+        "url_date": "2012-02-07",
+        "title": "UA President Miramonti resigns"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/inshort-v132-n1",
+        "native_order": 3,
+        "url_date": "2012-02-07",
+        "title": "IN SHORT"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/gaggle-v132-n1",
+        "native_order": 4,
+        "url_date": "2012-02-07",
+        "title": "Gaggle cops 132nd Managing Board elections"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/shorts2-v132-n1",
+        "native_order": 5,
+        "url_date": "2012-02-07",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/weather-v132-n1",
+        "native_order": 6,
+        "url_date": "2012-02-07",
+        "title": "Ski slopes barren as lack of snowfall continues; Boston to stay temperate"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/shorts1-v132-n1",
+        "native_order": 7,
+        "url_date": "2012-02-07",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/long1-v132-n1",
+        "native_order": 8,
+        "url_date": "2012-02-07",
+        "title": "Europe\u2019s banks reluctant to aid companies in need of cash"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/long2-v132-n1",
+        "native_order": 9,
+        "url_date": "2012-02-07",
+        "title": "Obama imposes freeze on Iran property in US"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/long4-v132-n1",
+        "native_order": 10,
+        "url_date": "2012-02-07",
+        "title": "For both parties, a twisted path to financing a campaign"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/long3-v132-n1",
+        "native_order": 11,
+        "url_date": "2012-02-07",
+        "title": "US closes embassy in Syria as mayhem escalates"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/normandin-v132-n1",
+        "native_order": 12,
+        "url_date": "2012-02-07",
+        "title": "The problems with the presidents"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/yost-v132-n1",
+        "native_order": 13,
+        "url_date": "2012-02-07",
+        "title": "Sound and fury, signifying nothing"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/liang-v132-n1",
+        "native_order": 14,
+        "url_date": "2012-02-07",
+        "title": "Sensitivity for Cynthia"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/corrections-v132-n1",
+        "native_order": 15,
+        "url_date": "2012-02-07",
+        "title": "CORRECTIONS"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/letters-v132-n1",
+        "native_order": 16,
+        "url_date": "2012-02-07",
+        "title": "LETTERS TO THE EDITOR"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/hackpunt-v132-n1",
+        "native_order": 17,
+        "url_date": "2012-02-07",
+        "title": "Hackers on stage"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/mvolleyball-v132-n1",
+        "native_order": 18,
+        "url_date": "2012-02-07",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/womenswimdive-v132-n1",
+        "native_order": 19,
+        "url_date": "2012-02-07",
+        "title": "MIT prepares for NEWMACs"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/uhe-v132-n1",
+        "native_order": 20,
+        "url_date": "2012-02-07",
+        "title": "UPCOMING HOME EVENTS"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/basketball-v132-n1",
+        "native_order": 21,
+        "url_date": "2012-02-07",
+        "title": "Men\u2019s basketball beats Wheaton, Springfield"
+      },
+      {
+        "url": "https://thetech.com/2012/02/07/events-v132-n1",
+        "native_order": 22,
+        "url_date": "2012-02-07",
+        "title": "Events Feb. 07 - Feb. 13"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "4cfc6fc6481c23c9d5152768",
+    "frozen_at_utc": "2026-10-05T14:37:34.451778+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2013/02/09/snowstorm-v133-n1",
+        "native_order": 1,
+        "url_date": "2013-02-09",
+        "title": "Winter storm Nemo to hit Cambridge tomorrow"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/mlkclass-v133-n1",
+        "native_order": 2,
+        "url_date": "2013-02-05",
+        "title": "Annual MLK exhibits opens"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/gaggle-v133-n1",
+        "native_order": 3,
+        "url_date": "2013-02-05",
+        "title": "Gaggle cops 133rd Managing Board elections"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/inshort-v133-n1",
+        "native_order": 4,
+        "url_date": "2013-02-05",
+        "title": "IN SHORT"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/6x70-v133-n1",
+        "native_order": 5,
+        "url_date": "2013-02-05",
+        "title": "6.x70 \u2014 Pick your poison"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/wire2-v133-n1",
+        "native_order": 6,
+        "url_date": "2013-02-05",
+        "title": "US accuses S&P of fraud in suit on loan bundles"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/techfair-v133-n1",
+        "native_order": 7,
+        "url_date": "2013-02-05",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/iapwrap-v133-n1",
+        "native_order": 8,
+        "url_date": "2013-02-05",
+        "title": "IAP brings changes, challenges"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/wire-v133-n1",
+        "native_order": 9,
+        "url_date": "2013-02-05",
+        "title": "Power failure delivers surge to Super Bowl ratings"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/grayhouse-v133-n1",
+        "native_order": 10,
+        "url_date": "2013-02-05",
+        "title": "Rafael Reif is in the House"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/onlinemediayir-v133-n1",
+        "native_order": 11,
+        "url_date": "2013-02-05",
+        "title": "Online Media: Year-in-Review"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/shorts1-v133-n1",
+        "native_order": 12,
+        "url_date": "2013-02-05",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/shorts2-v133-n1",
+        "native_order": 13,
+        "url_date": "2013-02-05",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/long4-v133-n1",
+        "native_order": 14,
+        "url_date": "2013-02-05",
+        "title": "Peace talks start between Myanmar and rebels"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/long1-v133-n1",
+        "native_order": 15,
+        "url_date": "2013-02-05",
+        "title": "French jets bomb Islamist militants in Mali\u2019s north"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/long3-v133-n1",
+        "native_order": 16,
+        "url_date": "2013-02-05",
+        "title": "States have varied responses to issue of gun violence"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/weather-v133-n1",
+        "native_order": 17,
+        "url_date": "2013-02-05",
+        "title": "Snow comes and goes this week"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/long5-v133-n1",
+        "native_order": 18,
+        "url_date": "2013-02-05",
+        "title": "US stepped in to halt Mexican general\u2019s rise"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/long2-v133-n1",
+        "native_order": 19,
+        "url_date": "2013-02-05",
+        "title": "New Archbishop of Canterbury takes office"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/letters-v133-n1",
+        "native_order": 20,
+        "url_date": "2013-02-05",
+        "title": "LETTERS TO THE EDITOR"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/corrections-v133-n1",
+        "native_order": 21,
+        "url_date": "2013-02-05",
+        "title": "CORRECTIONS"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/bball-v133-n1",
+        "native_order": 22,
+        "url_date": "2013-02-05",
+        "title": "Women\u2019s basketball overtakes Mount Holyoke"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/superbowl-v133-n1",
+        "native_order": 23,
+        "url_date": "2013-02-05",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/events-v133-n1",
+        "native_order": 24,
+        "url_date": "2013-02-05",
+        "title": "Events Feb. 5 \u2013 Feb. 11"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/sororityalumni-v133-n1",
+        "native_order": 25,
+        "url_date": "2013-02-05",
+        "title": "Bonding beyond college"
+      },
+      {
+        "url": "https://thetech.com/2013/02/05/missboston-v133-n1",
+        "native_order": 26,
+        "url_date": "2013-02-05",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "e2c2bc55796ded06fb5f6682",
+    "frozen_at_utc": "2026-10-05T14:38:26.671652+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2014/02/04/gaggle-v134-n1",
+        "native_order": 1,
+        "url_date": "2014-02-04",
+        "title": "Gaggle cops 134th Managing Board elections"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/provost-v134-n1",
+        "native_order": 2,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/chancellor-v134-n1",
+        "native_order": 3,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/inshort-v134-n1",
+        "native_order": 4,
+        "url_date": "2014-02-04",
+        "title": "IN SHORT"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/yir-v134-n1",
+        "native_order": 5,
+        "url_date": "2014-02-04",
+        "title": "The Tech\u2019s 2013 Year in Review"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/corrections-v134-n1",
+        "native_order": 6,
+        "url_date": "2014-02-04",
+        "title": "CORRECTIONS"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/wire-v134-n1",
+        "native_order": 7,
+        "url_date": "2014-02-04",
+        "title": "DOJ to pursue death penalty for Tsarnaev"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/long1-v134-n1",
+        "native_order": 8,
+        "url_date": "2014-02-04",
+        "title": "Video shows Egypt police arresting two journalists"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/long3-v134-n1",
+        "native_order": 9,
+        "url_date": "2014-02-04",
+        "title": "Former aide to New Jersey Gov. Chris Christie invokes Fifth"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/long5-v134-n1",
+        "native_order": 10,
+        "url_date": "2014-02-04",
+        "title": "Genetic tests, healthy children, and ethical doubt"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/long4-v134-n1",
+        "native_order": 11,
+        "url_date": "2014-02-04",
+        "title": "Second U.S. bribery trial begins for New York assemblyman"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/shorts1-v134-n1",
+        "native_order": 12,
+        "url_date": "2014-02-04",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/weather-v134-n1",
+        "native_order": 13,
+        "url_date": "2014-02-04",
+        "title": "Several inches of snow possible tomorrow"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/long2-v134-n1",
+        "native_order": 14,
+        "url_date": "2014-02-04",
+        "title": "Hacker group accuses Merkel government of helping to spy"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/shorts2-v134-n1",
+        "native_order": 15,
+        "url_date": "2014-02-04",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/slocum-v134-n1",
+        "native_order": 16,
+        "url_date": "2014-02-04",
+        "title": "LETTERS TO THE EDITOR"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/housedivided-v134-n1",
+        "native_order": 17,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/planningtorock-v134-n1",
+        "native_order": 18,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/gloria-v134-n1",
+        "native_order": 19,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/xambassadors-v134-n1",
+        "native_order": 20,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/shalimar-v134-n1",
+        "native_order": 21,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/thatawkward-v134-n1",
+        "native_order": 22,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/uhe-v134-n1",
+        "native_order": 23,
+        "url_date": "2014-02-04",
+        "title": "UPCOMING HOME EVENTS"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/championsleague-v134-n1",
+        "native_order": 24,
+        "url_date": "2014-02-04",
+        "title": "Champions League soccer returns in February"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/lgotrek-v134-n1",
+        "native_order": 25,
+        "url_date": "2014-02-04",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/six470tips-v134-n1",
+        "native_order": 26,
+        "url_date": "2014-02-04",
+        "title": "Don\u2019t get caught in a web of time sinks"
+      },
+      {
+        "url": "https://thetech.com/2014/02/04/events-v134-n1",
+        "native_order": 27,
+        "url_date": "2014-02-04",
+        "title": "Events Feb. 4 \u2013 Feb. 10"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "b8455a00be05fa9bf6134df0",
+    "frozen_at_utc": "2026-10-05T14:39:19.205318+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2015/02/03/lawsuit-v135-n1",
+        "native_order": 1,
+        "url_date": "2015-02-03",
+        "title": "MIT being sued for 2009 suicide"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/weather-v135-n1",
+        "native_order": 2,
+        "url_date": "2015-02-03",
+        "title": "Winter weather continues"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/fellows-v135-n1",
+        "native_order": 3,
+        "url_date": "2015-02-03",
+        "title": "MIT affiliates named AIAA Fellows"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/inshort-v135-n1",
+        "native_order": 4,
+        "url_date": "2015-02-03",
+        "title": "IN SHORT"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/climate-v135-n1",
+        "native_order": 5,
+        "url_date": "2015-02-03",
+        "title": "8,000 take climate initiative survey"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/notetoreaders-v135-n1",
+        "native_order": 6,
+        "url_date": "2015-02-03",
+        "title": "A note to our readers"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/tsarnaev-v135-n1",
+        "native_order": 7,
+        "url_date": "2015-02-03",
+        "title": "Tsarnaev trial jury selection staggers"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/bhandarkar-v135-n1",
+        "native_order": 8,
+        "url_date": "2015-02-03",
+        "title": "The Charlie Hebdo shootings and Islamophobia"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/tennis-v135-n1",
+        "native_order": 9,
+        "url_date": "2015-02-03",
+        "title": "Djokovic wins the Australian Open"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/superbowl-v135-n1",
+        "native_order": 10,
+        "url_date": "2015-02-03",
+        "title": "New England Patriots clinch Super Bowl XLIX"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/love-v135-n1",
+        "native_order": 11,
+        "url_date": "2015-02-03",
+        "title": "Let\u2019s fall in love"
+      },
+      {
+        "url": "https://thetech.com/2015/02/03/cambridge-v135-n1",
+        "native_order": 12,
+        "url_date": "2015-02-03",
+        "title": "Cambridge blues"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "0429959c27e977de3322fad2",
+    "frozen_at_utc": "2026-10-05T14:39:42.216854+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2016/02/02/letter136-v136-n1",
+        "native_order": 1,
+        "url_date": "2016-02-02",
+        "title": "Letter from the Editor"
+      },
+      {
+        "url": "https://thetech.com/2016/02/02/weather-v136-n1",
+        "native_order": 2,
+        "url_date": "2016-02-02",
+        "title": "A May-like start to February"
+      },
+      {
+        "url": "https://thetech.com/2016/02/02/sandbox-v136-n1",
+        "native_order": 3,
+        "url_date": "2016-02-02",
+        "title": "New \u2018Sandbox\u2019 funds innovation, projects"
+      },
+      {
+        "url": "https://thetech.com/2016/02/02/judicialboard-v136-n1",
+        "native_order": 4,
+        "url_date": "2016-02-02",
+        "title": "Amendments may check judicial power"
+      },
+      {
+        "url": "https://thetech.com/2016/02/02/hyperloop-v136-n1",
+        "native_order": 5,
+        "url_date": "2016-02-02",
+        "title": "MIT\u2019s design wins SpaceX challenge"
+      },
+      {
+        "url": "https://thetech.com/2016/02/02/fossilfree-v136-n1",
+        "native_order": 6,
+        "url_date": "2016-02-02",
+        "title": "Fossil Free sit-in breaks after months"
+      },
+      {
+        "url": "https://thetech.com/2016/02/02/celtics-v136-n1",
+        "native_order": 7,
+        "url_date": "2016-02-02",
+        "title": "Boston Celtics\u2019 mid-season review"
+      },
+      {
+        "url": "https://thetech.com/2016/02/02/bruins-v136-n1",
+        "native_order": 8,
+        "url_date": "2016-02-02",
+        "title": "New-look Boston Bruins are looking to make the playoffs after a disappointing 2014-15 season"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "e0a76dbfdf76f8630bcdfa2c",
+    "frozen_at_utc": "2026-10-05T14:39:56.375776+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2017/02/09/planner-petitions-administration-support",
+        "native_order": 1,
+        "url_date": "2017-02-09",
+        "title": "Planner creator petitions administration for support"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/forecast-construction-dormitory",
+        "native_order": 2,
+        "url_date": "2017-02-09",
+        "title": "Barnhart announces new location for dorm"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/ist-shuttle-camit-snow",
+        "native_order": 3,
+        "url_date": "2017-02-09",
+        "title": "IS&T relocation, shuttle changes, CAMIT grant due, open during snow"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/drew-houston-talk",
+        "native_order": 4,
+        "url_date": "2017-02-09",
+        "title": "Drew Houston, CEO of Dropbox and MIT alum, gives talk on entrepreneurship"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/banned-undergrad-students-return",
+        "native_order": 5,
+        "url_date": "2017-02-09",
+        "title": "Banned undergraduate students allowed to return to MIT"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/chancellor-education",
+        "native_order": 6,
+        "url_date": "2017-02-09",
+        "title": "Chancellor discusses future of education with students"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/letter-v137-n1",
+        "native_order": 7,
+        "url_date": "2017-02-09",
+        "title": "Letter from the Editor"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/an-active-winter-weather-pattern",
+        "native_order": 8,
+        "url_date": "2017-02-09",
+        "title": "An active winter weather pattern"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/the-atheist-theater-review",
+        "native_order": 9,
+        "url_date": "2017-02-09",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/the-space-between-us-movie-review",
+        "native_order": 10,
+        "url_date": "2017-02-09",
+        "title": "The space between this film and perfection is quite vast"
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/hack-punt-tool-musical-review",
+        "native_order": 11,
+        "url_date": "2017-02-09",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2017/02/09/2016-17-im-midseason-highlights",
+        "native_order": 12,
+        "url_date": "2017-02-09",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "961697c257ae3be99216af58",
+    "frozen_at_utc": "2026-10-05T14:40:18.611221+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2018/02/08/climate-conversation",
+        "native_order": 1,
+        "url_date": "2018-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/weather-v138-n1",
+        "native_order": 2,
+        "url_date": "2018-02-08",
+        "title": "Active weather pattern continues"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/in-short-v138n1",
+        "native_order": 3,
+        "url_date": "2018-02-08",
+        "title": "Blood drive, meal plan changes, spring class registration"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/fireroad-released",
+        "native_order": 4,
+        "url_date": "2018-02-08",
+        "title": "Sophomore combines Firehose and Courseroad in new iOS application, FireRoad"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/spxce-intercultural-center-opens",
+        "native_order": 5,
+        "url_date": "2018-02-08",
+        "title": "SPXCE Intercultural Center hosts grand opening event"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/iap-competitions",
+        "native_order": 6,
+        "url_date": "2018-02-08",
+        "title": "Students compete in programming competitions during IAP"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/institutional-provincialism-event",
+        "native_order": 7,
+        "url_date": "2018-02-08",
+        "title": "Harvard Divinity Professor encourages moral growth in MIT address"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/mit-commitment-issues",
+        "native_order": 8,
+        "url_date": "2018-02-08",
+        "title": "MIT, you\u2019ve got commitment issues"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/joseph-technicolor-dreamcoat-mtg-review",
+        "native_order": 9,
+        "url_date": "2018-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/bso-week-14-review",
+        "native_order": 10,
+        "url_date": "2018-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/american-panda-book-review",
+        "native_order": 11,
+        "url_date": "2018-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/oscar-animated-shorts-2018",
+        "native_order": 12,
+        "url_date": "2018-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/destroyer-concert-review",
+        "native_order": 13,
+        "url_date": "2018-02-08",
+        "title": "Timeless yet nostalgic, Destroyer does not disappoint."
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/pkd-autofac-ep2-review",
+        "native_order": 14,
+        "url_date": "2018-02-08",
+        "title": "The customer\u2019s always right"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/bilal-movie-review",
+        "native_order": 15,
+        "url_date": "2018-02-08",
+        "title": "Freedom from the chains of your heart"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/rostam-concert-review",
+        "native_order": 16,
+        "url_date": "2018-02-08",
+        "title": "Rostam hasn\u2019t lost\u2018em"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/proof-theater-review",
+        "native_order": 17,
+        "url_date": "2018-02-08",
+        "title": "\u2018Let X equal the cold\u2019"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/sundance-midnight-program-2018",
+        "native_order": 18,
+        "url_date": "2018-02-08",
+        "title": "Genre film making at its finest"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/essays-that-worked-love-of-learning",
+        "native_order": 19,
+        "url_date": "2018-02-08",
+        "title": "\u2018I consider my work to be fun\u2019"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/essays-that-worked-legolas-optimism",
+        "native_order": 20,
+        "url_date": "2018-02-08",
+        "title": "\u201cLegolas is my favorite character\u201d"
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/auntie-matter-stem-advice",
+        "native_order": 21,
+        "url_date": "2018-02-08",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2018/02/08/beginning-of-the-semester-lies",
+        "native_order": 22,
+        "url_date": "2018-02-08",
+        "title": "9 lies MIT students tell themselves at the beginning of the semester"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "9a58511780e97a4ef3dae29d",
+    "frozen_at_utc": "2026-10-05T14:41:07.288760+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2019/02/07/weather-v139-n1",
+        "native_order": 1,
+        "url_date": "2019-02-07",
+        "title": "Cool, calm weekend ahead"
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/in-short-v139-n1",
+        "native_order": 2,
+        "url_date": "2019-02-07",
+        "title": "Spring registration, blood drive, PE classes"
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/swastika-on-black-hack",
+        "native_order": 3,
+        "url_date": "2019-02-07",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/xfair-protest",
+        "native_order": 4,
+        "url_date": "2019-02-07",
+        "title": "Protest against MIT\u2019s role in the war in Yemen held during xFair"
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/bsu-lobby7-protest",
+        "native_order": 5,
+        "url_date": "2019-02-07",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/reif-decision-saudi-arabia",
+        "native_order": 6,
+        "url_date": "2019-02-07",
+        "title": "Reif decides that MIT will not sever ties with Saudi Arabia"
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/spring-housing-lottery-2019",
+        "native_order": 7,
+        "url_date": "2019-02-07",
+        "title": "Thirty-three students move via spring housing lottery"
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/blackhack-swastika-response",
+        "native_order": 8,
+        "url_date": "2019-02-07",
+        "title": "When hate strikes"
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/cranesong-story-collection-review",
+        "native_order": 9,
+        "url_date": "2019-02-07",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2019/02/07/reefer-madness-musical-review",
+        "native_order": 10,
+        "url_date": "2019-02-07",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "batch_id": "round04_native",
+  "round_id": "successor_round_04",
+  "indexes": [
+    [
+      "auto",
+      "https://thetech.com/issues/127/3"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/4"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/5"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/6"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/7"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/8"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/9"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/10"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/11"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/12"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/13"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/14"
+    ]
+  ],
+  "articles_per_index": 40,
+  "payloads": []
+}

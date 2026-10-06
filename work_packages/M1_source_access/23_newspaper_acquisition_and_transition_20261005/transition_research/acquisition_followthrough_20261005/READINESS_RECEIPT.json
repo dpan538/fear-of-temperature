@@ -1,0 +1,9 @@
+{
+  "checked_at_utc": "2026-10-05T12:52:38.167361+00:00",
+  "collector_sha256": "9300359bdb8d3217684cb9c08e98dc9fe6eba47a838d61f3b8da362403d82d49",
+  "syntax": "passed",
+  "scope": "prepared bounded successor only",
+  "network_requests": 0,
+  "resource_decision": "pending direct user response",
+  "previous_research_artifacts": "unchanged"
+}

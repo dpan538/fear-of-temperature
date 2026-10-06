@@ -1,0 +1,298 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "1988-02",
+    "index_receipt": "7974788f7d0045fd3a4b7681",
+    "frozen_at_utc": "2026-10-05T14:12:33.901906+00:00",
+    "order": "native_DOM",
+    "selected": [],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "2007-02",
+    "index_receipt": "0c52a34a1df93f3146e4e044",
+    "frozen_at_utc": "2026-10-05T14:12:34.305015+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2007/02/06/1briefs-table-v127-n1",
+        "native_order": 1,
+        "url_date": "2007-02-06",
+        "title": "No. of Applicants for 2006, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-letter1-v127-n1",
+        "native_order": 2,
+        "url_date": "2007-02-06",
+        "title": "Excerpt from \u2018A plea for help to end racism at MIT\u2019 \u2014 Dec. 19, 2006"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1inshort-v127-n1",
+        "native_order": 3,
+        "url_date": "2007-02-06",
+        "title": "In Short"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-newsoffice-v127-n1",
+        "native_order": 4,
+        "url_date": "2007-02-06",
+        "title": "MIT News Office Statement \u2014 Feb. 5, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-be-v127-n1",
+        "native_order": 5,
+        "url_date": "2007-02-06",
+        "title": "A statement from the BE faculty \u2014 Feb. 5, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-clay-v127-n1",
+        "native_order": 6,
+        "url_date": "2007-02-06",
+        "title": "A Message to MIT Students \u2014 Feb. 5, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-letter1full-v127-n1",
+        "native_order": 7,
+        "url_date": "2007-02-06",
+        "title": "A plea for help to end racism at MIT \u2014 Dec. 19, 2006"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1backofenobit-v127-n1",
+        "native_order": 8,
+        "url_date": "2007-02-06",
+        "title": "Walter Alan Backofen \u201946"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1charmschool-v127-n1",
+        "native_order": 9,
+        "url_date": "2007-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1gaggle-v127-n1",
+        "native_order": 10,
+        "url_date": "2007-02-06",
+        "title": "Gaggle Cops Tech Election, Fulfills Prophecy"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1pellwire-v127-n1",
+        "native_order": 11,
+        "url_date": "2007-02-06",
+        "title": "House, Senate Reach Accord on Pell Grant Increase Last Month"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1polog-v127-n1",
+        "native_order": 12,
+        "url_date": "2007-02-06",
+        "title": "Police Log"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1maslab-v127-n1",
+        "native_order": 13,
+        "url_date": "2007-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-timeline-v127-n1",
+        "native_order": 14,
+        "url_date": "2007-02-06",
+        "title": "List of Letters, Statements on Sherley, Minority Issues"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-v127-n1",
+        "native_order": 15,
+        "url_date": "2007-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-reif-v127-n1",
+        "native_order": 16,
+        "url_date": "2007-02-06",
+        "title": "Provost\u2019s Letter to Faculty \u2014 Jan. 29, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/16270-v127-n1",
+        "native_order": 17,
+        "url_date": "2007-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/16370-v127-n1",
+        "native_order": 18,
+        "url_date": "2007-02-06",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1loanswire-v127-n1",
+        "native_order": 19,
+        "url_date": "2007-02-06",
+        "title": "Loan Companies Fall Under Careful Watch By Attorney General"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1briefs-v127-n1",
+        "native_order": 20,
+        "url_date": "2007-02-06",
+        "title": "News Briefs"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-letter2-v127-n1",
+        "native_order": 21,
+        "url_date": "2007-02-06",
+        "title": "Excerpt from \u2018A second plea ...\u2019 \u2014 Jan. 29, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1sherley-letter2full-v127-n1",
+        "native_order": 22,
+        "url_date": "2007-02-06",
+        "title": "A second plea for help to end racism at MIT \u2014 Jan. 29, 2007"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1weather-v127-n1",
+        "native_order": 23,
+        "url_date": "2007-02-06",
+        "title": "Weather Models vs. The Groundhog"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1long2-v127-n1",
+        "native_order": 24,
+        "url_date": "2007-02-06",
+        "title": "Democrats to Face Constraints In Revising $2.9 Trillion Budget"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1shorts1-v127-n1",
+        "native_order": 25,
+        "url_date": "2007-02-06",
+        "title": "Shorts (left)"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1long1-v127-n1",
+        "native_order": 26,
+        "url_date": "2007-02-06",
+        "title": "Once Just an Inconvenience, Orbiting Junk Now a Threat"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1long3-v127-n1",
+        "native_order": 27,
+        "url_date": "2007-02-06",
+        "title": "GOP Senators Thwart Debates Over US Troop Buildup in Iraq"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1long4-v127-n1",
+        "native_order": 28,
+        "url_date": "2007-02-06",
+        "title": "Saudis Push to Counter Iranians In Area With Aggresive Mediation"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1long5-v127-n1",
+        "native_order": 29,
+        "url_date": "2007-02-06",
+        "title": "Blizzard Leaves Numerous Passengers Stranded in Northwest Airlines Planes"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1shorts2-v127-n1",
+        "native_order": 30,
+        "url_date": "2007-02-06",
+        "title": "Shorts (right)"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1facultyopn-v127-n1",
+        "native_order": 31,
+        "url_date": "2007-02-06",
+        "title": "A Plea For Fairness at MIT"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1mhockey-v127-n1",
+        "native_order": 32,
+        "url_date": "2007-02-06",
+        "title": "Hockey Smashes Springfield 9-0 On Four Goals by Senior Studley"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1mswimming-v127-n1",
+        "native_order": 33,
+        "url_date": "2007-02-06",
+        "title": "Men\u2019s Medley Wins Opening Event of MIT Invitational Meet in Just 3:30.61"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1wswimming-v127-n1",
+        "native_order": 34,
+        "url_date": "2007-02-06",
+        "title": "Thornton, Tech Women Impress in MIT\u2019s Final Home Meet"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1upcominghome-v127-n1",
+        "native_order": 35,
+        "url_date": "2007-02-06",
+        "title": "Upcoming Home Events"
+      },
+      {
+        "url": "https://thetech.com/2007/02/06/1mvball-v127-n1",
+        "native_order": 36,
+        "url_date": "2007-02-06",
+        "title": "Men\u2019s Volleyball Wins, Coach Dill Sets Record With 68th Career Win"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "2026-08",
+    "index_receipt": "a312a25b4d762ebe34127df6",
+    "frozen_at_utc": "2026-10-05T14:13:40.493747+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2026/08/27/in-short-v146-n13",
+        "native_order": 1,
+        "url_date": "2026-08-27",
+        "title": "8/26 In Short"
+      },
+      {
+        "url": "https://thetech.com/2026/08/27/weather-v146-n13",
+        "native_order": 2,
+        "url_date": "2026-08-27",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2026/08/23/evan-mackay-2026",
+        "native_order": 3,
+        "url_date": "2026-08-23",
+        "title": "A vote for Evan MacKay is a vote for justice"
+      },
+      {
+        "url": "https://thetech.com/2026/08/23/same-day-voter-registration-2026",
+        "native_order": 4,
+        "url_date": "2026-08-23",
+        "title": "Bring same-day voter registration to Massachusetts"
+      },
+      {
+        "url": "https://thetech.com/2026/08/18/financials-letter-2026",
+        "native_order": 5,
+        "url_date": "2026-08-18",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2026/08/27/hiv-positive-lung-transplant",
+        "native_order": 6,
+        "url_date": "2026-08-27",
+        "title": ""
+      },
+      {
+        "url": "https://thetech.com/2026/08/27/yulias-dream-2026",
+        "native_order": 7,
+        "url_date": "2026-08-27",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]

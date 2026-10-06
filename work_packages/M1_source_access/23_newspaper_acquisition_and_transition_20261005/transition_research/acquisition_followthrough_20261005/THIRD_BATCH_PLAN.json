@@ -1,0 +1,24 @@
+{
+  "batch_id": "third",
+  "indexes": [
+    [
+      "calendar",
+      "https://thetech.com/issues"
+    ],
+    [
+      "2007-02",
+      "https://thetech.com/issues/127/2"
+    ],
+    [
+      "2026-09",
+      "https://thetech.com/issues/146/14"
+    ],
+    [
+      "1988-02",
+      "https://thetech.com/issues/108/1/pdf"
+    ]
+  ],
+  "articles_per_index": 40,
+  "selection": "native DOM paths already linked in retained issue pages; fixed September21 cutoff; no replacement",
+  "user_authorized_continuation": true
+}

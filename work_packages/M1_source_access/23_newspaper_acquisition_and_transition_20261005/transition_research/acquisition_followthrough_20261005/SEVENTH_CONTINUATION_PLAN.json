@@ -1,0 +1,59 @@
+{
+  "batch_id": "seventh_continuation",
+  "indexes": [
+    [
+      "auto",
+      "https://thetech.com/issues/141/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/142/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/143/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/144/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/145/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/146/1"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/127/34"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/128/34"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/129/33"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/130/33"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/131/33"
+    ],
+    [
+      "auto",
+      "https://thetech.com/issues/132/33"
+    ]
+  ],
+  "articles_per_index": 40,
+  "round_id": "successor_round_02",
+  "selection": "Catalog-observed first issue in recent years, then native mid-volume issue across years; first 40 dated article URLs, no semantic filters",
+  "parent_catalog_receipt": "a0f0e9a3cfb8b95c07609f8f",
+  "preserves_stopped_batch": "seventh",
+  "continuation": "Do not retry or replace the named failed URL; continue other native targets in the unchanged selected order"
+}

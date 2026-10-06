@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-05T14:50:19.684470+00:00",
+  "basis": "Dai authorizes successive real acquisition and rejects speculative quality gates",
+  "previous_stop_preserved": true,
+  "retries": false,
+  "failed_target_replacement": false,
+  "continue_other_preselected_targets_after": [
+    "transport error",
+    "404",
+    "410",
+    "500",
+    "502",
+    "503",
+    "504",
+    "per-object cap"
+  ],
+  "whole_source_stop": [
+    "401",
+    "403",
+    "429",
+    "unapproved redirect"
+  ],
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ]
+}

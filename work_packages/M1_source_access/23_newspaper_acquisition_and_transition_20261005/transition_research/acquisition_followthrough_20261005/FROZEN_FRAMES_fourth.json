@@ -1,0 +1,95 @@
+[
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "c104231f336d2422aee61f1f",
+    "frozen_at_utc": "2026-10-05T14:20:54.745580+00:00",
+    "order": "native_DOM",
+    "selected": [],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "982b10783b5583bac3d72471",
+    "frozen_at_utc": "2026-10-05T14:20:56.847010+00:00",
+    "order": "native_DOM",
+    "selected": [],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "a4bd0937ccace5108f4995b8",
+    "frozen_at_utc": "2026-10-05T14:20:58.810351+00:00",
+    "order": "native_DOM",
+    "selected": [],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "8317771c4cd54f997d8c68af",
+    "frozen_at_utc": "2026-10-05T14:21:01.666856+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2010/02/02/howardjohnson-v130-n1",
+        "native_order": 1,
+        "url_date": "2010-02-02",
+        "title": ""
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "b8455a00be05fa9bf6134df0",
+    "frozen_at_utc": "2026-10-05T14:21:06.520191+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2015/02/03/lawsuit-v135-n1",
+        "native_order": 1,
+        "url_date": "2015-02-03",
+        "title": "MIT being sued for 2009 suicide"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  },
+  {
+    "source": "mit_tech",
+    "month": "auto",
+    "index_receipt": "4ec27943bce4b290a056ac64",
+    "frozen_at_utc": "2026-10-05T14:21:11.728536+00:00",
+    "order": "native_DOM",
+    "selected": [
+      {
+        "url": "https://thetech.com/2020/02/06/in-short-v140-n1",
+        "native_order": 1,
+        "url_date": "2020-02-06",
+        "title": "Registration deadline, PE, meal plan changes"
+      }
+    ],
+    "eligible_frame_complete": false,
+    "eligible_count": null,
+    "url_date_requires_body_corroboration": true,
+    "failed_target_replacement": false
+  }
+]
