@@ -4,7 +4,7 @@
   "host": "local",
   "model": "gpt-6.1-sol",
   "thinking": "xhigh",
-  "status": "active integrated production preparation; network/Load subject to actual live capacity",
+  "status": "active capacity-resolved continuation; first real saved/loaded batch pending observation",
   "hard_deadline_at_utc": "2026-10-06T16:20:21.847276+00:00",
   "active_leases": [
     {
@@ -36,11 +36,20 @@
   "followup_send_confirmed": true,
   "confirmed_active_at_utc": "2026-10-06T12:23:35.261521+00:00",
   "turn_id": "01a11129-1dc1-7373-ac67-cef6438e9090",
-  "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:15",
+  "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:18",
   "capacity_clarification": {
     "recorded_at_utc": "2026-10-06T12:24:24.738693+00:00",
     "human_statement": "Dai confirms no alternative volume; the approximately20 GB observation was total/storage-display information and actual writable capacity may be smaller.",
     "waiver_of_physical_floor_or_recovery": false,
     "followup_delivered_to_existing_owner": true
-  }
+  },
+  "previous_completed_turn": "01a11129-1dc1-7373-ac67-cef6438e9090",
+  "capacity_resume_release": "control/CAPACITY_RESUME_RELEASE.json",
+  "capacity_resume_release_sha256": "85115f431023562c23562f279a5db28a73d8145a6df74606aacbdde8c87a1bdd",
+  "capacity_resume_registered_at_utc": "2026-10-06T12:55:30.151237+00:00",
+  "live_capacity_passes_at_resume": true,
+  "resume_followup_confirmed": true,
+  "resume_followup_sent_at_utc": "2026-10-06T12:57:47.534258+00:00",
+  "resume_active_turn_id": "01a11149-1853-77b3-91b8-fb200e289550",
+  "resume_confirmed_active_at_utc": "2026-10-06T12:59:28.927438+00:00"
 }

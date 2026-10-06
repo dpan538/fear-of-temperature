@@ -1,0 +1,38 @@
+{
+  "recorded_at_utc": "2026-10-06T12:55:30.151237+00:00",
+  "completed_turn_id": "01a11129-1dc1-7373-ac67-cef6438e9090",
+  "successful_command_marker": "exec-291d33d8-e4af-4dbd-924d-36a0227b702b",
+  "successful_command_exit_code": 0,
+  "check_at_utc": "2026-10-06T12:37:03.144131+00:00",
+  "all_changed_checks_passed": true,
+  "check_count": 17,
+  "check_seconds": 0.019184582866728306,
+  "evidence_source": "Successful startup-check stdout inspected from the completed acquisition turn; prior physical block prevented disk receipt writes.",
+  "physical_fixture_files_written": false,
+  "fixture_adapter": "Generated fixture input/log sinks redirected to memory after metadata floor stop; actual gzip decoding and Load/idempotence functions exercised in an in-memory database.",
+  "no_full_check_rerun_requested": true,
+  "prepared_source_files": {
+    "elt.py": {
+      "sha256": "cd89522936a3cfccd73d6991966b52df682608881865f6acae66864a66299ee4",
+      "bytes": 11352
+    },
+    "extract_load.py": {
+      "sha256": "019e9e110bcd71d8df43339f21cc7ba58236ed9f00a4397251ed3e08bee8452c",
+      "bytes": 656
+    },
+    "production.py": {
+      "sha256": "253fff7fe3eb84de62afb29e640d2d706bc219a6fadbe94867aa2218ed00620a",
+      "bytes": 12334
+    },
+    "startup_check.py": {
+      "sha256": "cf8e378b04d562a72268e9feba9846c4d6ec6896324cac03ad3d49890ebee31b",
+      "bytes": 4606
+    },
+    "deliver.py": {
+      "sha256": "bc229b5226cca7f7a856a4aa3643248990736e03c9c1bce6ff6ac6fef9ce2edc",
+      "bytes": 13296
+    }
+  },
+  "reported_unattempted_candidate_links": 8128,
+  "candidate_links_are_not_qualified_articles": true
+}
