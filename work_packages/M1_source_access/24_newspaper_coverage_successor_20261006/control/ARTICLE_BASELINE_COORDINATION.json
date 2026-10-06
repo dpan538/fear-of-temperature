@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-06T08:57:54.582966+00:00",
+  "owner_thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+  "host": "local",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "turn_id": "01a1106d-ac7c-7c92-839b-4cdc59744f69",
+  "status": "active; observed by compact wait snapshot",
+  "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:8",
+  "original_acquisition_turn": "completed; original reports frozen; coordinator acceptance pending",
+  "worker_write_root": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/article_baseline_v1",
+  "hard_deadline_at_utc": "2026-10-06T09:25:49.479281+00:00",
+  "new_network_release": false,
+  "new_budget_increase": false
+}

@@ -1,0 +1,67 @@
+{
+  "registered_at_utc": "2026-10-06T08:55:49.479281+00:00",
+  "hard_deadline_at_utc": "2026-10-06T09:25:49.479281+00:00",
+  "authority": "Dai requires complete independent newspaper articles, at least one to two per time point, and rejects text splitting as the newspaper acquisition unit.",
+  "owner_thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+  "host": "local",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "scope": "Local existing-evidence article identity/completeness reconciliation and named derivative correction",
+  "worker_write_root": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/article_baseline_v1",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "time_bin": "month",
+  "monthly_minimum_distinct_complete_articles": 1,
+  "monthly_target_distinct_complete_articles": 2,
+  "pooled_and_geographic_ledgers_required": true,
+  "geographic_completeness_inferred_from_pooled": false,
+  "max_prior_candidates_inspected_per_previously_observed_month": 3,
+  "current_tranche_readable_HTML_candidates": 45,
+  "current_tranche_mapped_article_candidates": 3,
+  "network_operations_allowed": 0,
+  "new_raw_downloads_allowed": 0,
+  "media_lifetime_cap_bytes": 134217728,
+  "budget_increase": false,
+  "input_mutation_allowed": false,
+  "input_receipts": [
+    {
+      "path": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/FINAL_REPORT.md",
+      "bytes": 5515,
+      "sha256": "76d7ddb173d6f01ceef172910727ef6eb8ec31274bafb90ec96846251abcfeb4"
+    },
+    {
+      "path": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/PUBLICATION_UNITS_v2.jsonl",
+      "bytes": 203655,
+      "sha256": "fc3d987d54a107f46211d2aa41860c917b5b1cfe6093059c717c1715cfec4029"
+    },
+    {
+      "path": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/MAPPED_ARTICLE_MANIFEST.json",
+      "bytes": 15001,
+      "sha256": "fbe96e880cf9282dc03a855370ca2f9734b9d4bab225ff97b4b4d64440c4642a"
+    },
+    {
+      "path": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/COVERAGE_SUMMARY.json",
+      "bytes": 3018,
+      "sha256": "d4636f9efa259cf885a0efcf90fa5352bbc2518c1a86b24cf9dd126677012c95"
+    },
+    {
+      "path": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/CLOSING_VERIFICATION.json",
+      "bytes": 1054,
+      "sha256": "bb0c1f6a78b2b12fa2f2561e309ce29bb58c609254472bb68d5bcfdf69c703a1"
+    },
+    {
+      "path": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/CLOSING_BUDGET.json",
+      "bytes": 955,
+      "sha256": "1d096f8a20ba869f8fb53c3079b81c5b5aa8360d8b95cac84b4bf34c32e2d47a"
+    }
+  ],
+  "whole_old_corpus_reaudit": false,
+  "new_window": false,
+  "formal_database_access": false,
+  "sealed_evaluator_access": false,
+  "social_corpus": false,
+  "worker_git_access": false,
+  "decision": "docs/decisions/2026-10-06-newspaper-complete-article-baseline.md"
+}
