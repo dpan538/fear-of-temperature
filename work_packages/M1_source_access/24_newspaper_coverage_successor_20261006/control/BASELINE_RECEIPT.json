@@ -1,0 +1,44 @@
+{
+  "at_utc": "2026-10-06T06:35:30.205266+00:00",
+  "baseline_package": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005",
+  "files": [
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/PUBLICATION_UNITS.jsonl",
+      "bytes": 2143304,
+      "sha256": "841d4b04d4da3d4361d12cf4d4f196a10cadf8367a2210d9f88256c1954834f8"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/REQUESTS.jsonl",
+      "bytes": 1305673,
+      "sha256": "e6566f9c073e53aaa136f9f33dbe7075c14f061376799054e528a9906ad26ad9"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/ISSUE_CONTAINER_MANIFEST.json",
+      "bytes": 5149,
+      "sha256": "8f25eeda35c790436283dc53a477e330be5bc29947679b66a9ea9a5d3a3b3b9c"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/SOURCE_REGISTRY_SUCCESSOR.json",
+      "bytes": 5183,
+      "sha256": "10abe2733a13ade9b4d20b2ec60c2a61fba54d0616bca2377731326780a46cb1"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/VERIFIED_FILE_RECEIPTS.json",
+      "bytes": 479100,
+      "sha256": "64376d338116b10a572c0f1fa0e8b09838210ce1568b9d0464bb7af939b3d8f7"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/CLOSING_BUDGET.json",
+      "bytes": 440,
+      "sha256": "7824f0ca8960fd91571281062fb73c7cd1703e4bfa3a8136830cbad08882d117"
+    }
+  ],
+  "accepted_coordinator_receipt": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/control/COORDINATOR_REVIEW_RECEIPT_20261006.json",
+  "native_units": 1216,
+  "readable_native_units": 1214,
+  "pooled_readable_unit_months": 51,
+  "pooled_dated_presence_months_including_issues": 54,
+  "whole_issues": 4,
+  "independent_story_count": "unestablished",
+  "input_mutation_allowed": false
+}

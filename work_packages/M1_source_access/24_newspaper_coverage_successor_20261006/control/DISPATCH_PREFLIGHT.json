@@ -1,0 +1,14 @@
+{
+  "at_utc": "2026-10-06T06:35:30.252996+00:00",
+  "free_bytes": 19012452352,
+  "media_lifetime_used_bytes_before_this_receipt": 107587635,
+  "media_lifetime_cap_bytes": 134217728,
+  "allocation_headroom_bytes": 26630093,
+  "original_combined_reserve_bytes": 0,
+  "physical_floor_bytes": 16106127360,
+  "recovery_allowance_bytes": 50331648,
+  "planned_small_request_raw_and_derivative_allowance_bytes": 8388608,
+  "projected_free_bytes": 18953732096,
+  "passed": true,
+  "note": "Dispatch observation only; include this receipt and subsequent files in fresh per-request accounting. No budget increase."
+}

@@ -1,0 +1,23 @@
+{
+  "at_utc": "2026-10-06T06:38:06.545005+00:00",
+  "owner_thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+  "host": "local",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "dispatch": "follow-up accepted; active status independently observed",
+  "turn_id": "01a10fed-b433-7c80-8405-7277160c0d57",
+  "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:5",
+  "hard_deadline_at_utc": "2026-10-06T08:35:57.971238+00:00",
+  "worker_write_root": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker",
+  "coordinator_writes": [
+    "control/",
+    "PLAN.md",
+    "shared English logs",
+    "Git integration on main"
+  ],
+  "completed_research_thread_id": "01a10ba3-54e7-7130-8da9-637caf1c28af",
+  "research_thread_resumed": false,
+  "new_window_created": false,
+  "new_budget_increase_released": false,
+  "old_heartbeat_status": "PAUSED"
+}
