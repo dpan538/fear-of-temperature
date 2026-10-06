@@ -1,0 +1,54 @@
+source_id,geography,metric,wave,social_percent,newspaper_or_print_percent,denominator,report_vintage,comparability_note
+R01,United States,Weekly Social media vs Print,2012,25,38,All final online-panel respondents,R01,2014 estimated; do not merge report vintages
+R01,United States,Weekly Social media vs Print,2013,27,41,All final online-panel respondents,R01,2014 estimated; do not merge report vintages
+R01,United States,Weekly Social media vs Print,2014,33,32,All final online-panel respondents,R01,2014 estimated; do not merge report vintages
+R01,United States,Weekly Social media vs Print,2015,40,23,All final online-panel respondents,R01,2014 estimated; do not merge report vintages
+R01,Denmark,Weekly Social media vs Print,2012,23,51,All final online-panel respondents,R01,2014 estimated
+R01,Denmark,Weekly Social media vs Print,2013,31,47,All final online-panel respondents,R01,2014 estimated
+R01,Denmark,Weekly Social media vs Print,2014,38,39,All final online-panel respondents,R01,2014 estimated
+R01,Denmark,Weekly Social media vs Print,2015,47,33,All final online-panel respondents,R01,2014 estimated
+R01,United Kingdom,Weekly Social media vs Print,2012,18,50,All final online-panel respondents,R01,2014 estimated; differs from R02 historical values
+R01,United Kingdom,Weekly Social media vs Print,2013,20,57,All final online-panel respondents,R01,2014 estimated; differs from R02 historical values
+R01,United Kingdom,Weekly Social media vs Print,2014,23,47,All final online-panel respondents,R01,2014 estimated; differs from R02 historical values
+R01,United Kingdom,Weekly Social media vs Print,2015,36,38,All final online-panel respondents,R01,2014 estimated; differs from R02 historical values
+R02a,United Kingdom,Weekly Social vs Print,2013,20,59,All final online-panel respondents,R02a,Original 2016 vintage
+R02a,United Kingdom,Weekly Social vs Print,2014,28,49,All final online-panel respondents,R02a,Original 2016 vintage
+R02a,United Kingdom,Weekly Social vs Print,2015,36,39,All final online-panel respondents,R02a,Original 2016 vintage
+R02a,United Kingdom,Weekly Social vs Print,2016,35,35,All final online-panel respondents,R02a,Original 2016 vintage
+R02b,United Kingdom,Weekly Social vs Print,2013,20,59,All final online-panel respondents,R02b,Original PDF agrees with current embedded chart; Print2017 rise preserved
+R02b,United Kingdom,Weekly Social vs Print,2014,28,49,All final online-panel respondents,R02b,Original PDF agrees with current embedded chart; Print2017 rise preserved
+R02b,United Kingdom,Weekly Social vs Print,2015,36,39,All final online-panel respondents,R02b,Original PDF agrees with current embedded chart; Print2017 rise preserved
+R02b,United Kingdom,Weekly Social vs Print,2016,35,35,All final online-panel respondents,R02b,Original PDF agrees with current embedded chart; Print2017 rise preserved
+R02b,United Kingdom,Weekly Social vs Print,2017,41,41,All final online-panel respondents,R02b,Original PDF agrees with current embedded chart; Print2017 rise preserved
+R02c,United Kingdom,Weekly Social media vs Printed newspapers,2013,20,59,All final online-panel respondents,R02c,Exact 2018 chart category label retained
+R02c,United Kingdom,Weekly Social media vs Printed newspapers,2014,28,49,All final online-panel respondents,R02c,Exact 2018 chart category label retained
+R02c,United Kingdom,Weekly Social media vs Printed newspapers,2015,36,39,All final online-panel respondents,R02c,Exact 2018 chart category label retained
+R02c,United Kingdom,Weekly Social media vs Printed newspapers,2016,35,35,All final online-panel respondents,R02c,Exact 2018 chart category label retained
+R02c,United Kingdom,Weekly Social media vs Printed newspapers,2017,41,41,All final online-panel respondents,R02c,Exact 2018 chart category label retained
+R02c,United Kingdom,Weekly Social media vs Printed newspapers,2018,39,36,All final online-panel respondents,R02c,Exact 2018 chart category label retained
+R03,Germany,Weekly Social vs Print,2013,18,63,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R03,Germany,Weekly Social vs Print,2014,22,54,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R03,Germany,Weekly Social vs Print,2015,25,45,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R03,Germany,Weekly Social vs Print,2016,31,38,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R03,Germany,Weekly Social vs Print,2017,29,34,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R03,Germany,Weekly Social vs Print,2018,31,37,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R03,Germany,Weekly Social vs Print,2019,34,34,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R03,Germany,Weekly Social vs Print,2020,37,33,Final online-panel respondents,R03,Historical Print values differ from R01; no silent harmonisation
+R05,United Kingdom,Nowadays Social vs newspapers print+web/apps,2018,44,51,All UK adults16+ weighted mixed-mode,R05,Not single main-source question
+R05,United Kingdom,Nowadays Social vs newspapers print+web/apps,2019,49,49,All UK adults16+ weighted mixed-mode,R05,Not single main-source question
+R06,United Kingdom,Nowadays Social vs newspapers print+online,2018,44,51,All UK adults16+ weighted F2F+online,R06,2021 and2022W1 omitted due mode; 2023/2024 category changes; 2024 base discrepancy
+R06,United Kingdom,Nowadays Social vs newspapers print+online,2019,49,49,All UK adults16+ weighted F2F+online,R06,2021 and2022W1 omitted due mode; 2023/2024 category changes; 2024 base discrepancy
+R06,United Kingdom,Nowadays Social vs newspapers print+online,2020,45,47,All UK adults16+ weighted F2F+online,R06,2021 and2022W1 omitted due mode; 2023/2024 category changes; 2024 base discrepancy
+R06,United Kingdom,Nowadays Social vs newspapers print+online,2022 W2,46,38,All UK adults16+ weighted F2F+online,R06,2021 and2022W1 omitted due mode; 2023/2024 category changes; 2024 base discrepancy
+R06,United Kingdom,Nowadays Social vs newspapers print+online,2023,47,39,All UK adults16+ weighted F2F+online,R06,2021 and2022W1 omitted due mode; 2023/2024 category changes; 2024 base discrepancy
+R06,United Kingdom,Nowadays Social vs newspapers print+online,2024,52,34,All UK adults16+ weighted F2F+online,R06,2021 and2022W1 omitted due mode; 2023/2024 category changes; 2024 base discrepancy
+R01,France,MAIN source Social media vs Print,2015,5,3,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,Germany,MAIN source Social media vs Print,2015,5,7,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,Italy,MAIN source Social media vs Print,2015,10,8,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,Ireland,MAIN source Social media vs Print,2015,12,6,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,United Kingdom,MAIN source Social media vs Print,2015,6,10,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,Spain,MAIN source Social media vs Print,2015,9,8,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,United States,MAIN source Social media vs Print,2015,11,5,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,Denmark,MAIN source Social media vs Print,2015,5,9,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,Australia,MAIN source Social media vs Print,2015,12,7,Past-week news-source users; conditional base,R01,Not comparable to weekly reach
+R01,Finland,MAIN source Social media vs Print,2015,5,14,Past-week news-source users; conditional base,R01,Not comparable to weekly reach

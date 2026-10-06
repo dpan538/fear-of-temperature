@@ -1,0 +1,198 @@
+{
+  "validated_at_utc": "2026-10-05T11:20:23.441847+00:00",
+  "scope": "This bounded research package only; no corpus audit or acquisition",
+  "counts": {
+    "source_entries": 16,
+    "core_families": 12,
+    "claim_rows": 25,
+    "annual_comparisons": 53,
+    "era_recommendations": 9,
+    "journal_references": 5,
+    "saved_public_retrieval_objects": 38,
+    "failed_public_retrieval_requests": 8
+  },
+  "passed": true,
+  "checks": [
+    {
+      "check": "Unique source identities",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Unique claim identities",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Twelve core evidence families",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Claim and annual source references resolve",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Required claim fields present",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "All five strata addressed",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Five journal references",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal DOI resolves to saved Crossref metadata: 10.1177/2050157914549039",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Issue year, volume, number and pages: 10.1177/2050157914549039",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal title: 10.1177/2050157914549039",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal DOI resolves to saved Crossref metadata: 10.1177/1461444817724170",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Issue year, volume, number and pages: 10.1177/1461444817724170",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal title: 10.1177/1461444817724170",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal DOI resolves to saved Crossref metadata: 10.1080/21670811.2018.1504625",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Issue year, volume, number and pages: 10.1080/21670811.2018.1504625",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal title: 10.1080/21670811.2018.1504625",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal DOI resolves to saved Crossref metadata: 10.1111/jcom.12088",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Issue year, volume, number and pages: 10.1111/jcom.12088",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal title: 10.1111/jcom.12088",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal DOI resolves to saved Crossref metadata: 10.1177/1461444809341859",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Issue year, volume, number and pages: 10.1177/1461444809341859",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Journal title: 10.1177/1461444809341859",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Report DOI/year: 10.60625/risj-y3dr-t653",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Report DOI/year: 10.60625/risj-cg3f-he14",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Report DOI/year: 10.60836/md4e-k570",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Original chart transcribed: R02b",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Original chart transcribed: R02c",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Original Germany2020 chart transcribed",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "UK2018 first strict exceedance in displayed series",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Germany2020 first strict exceedance in displayed series",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Ofcom comparable-wave first exceedance is2022W2",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "NZ unresolved timing retained",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Recommendations preserve fixed endpoint and calendar",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Retained public retrieval objects match receipt hashes",
+      "passed": true,
+      "details": ""
+    },
+    {
+      "check": "Authored reports contain no CJK text",
+      "passed": true,
+      "details": ""
+    }
+  ],
+  "unresolved": [
+    "Full-text/field-date/base limits stated in source registry",
+    "Survey vintages and taxonomy differences not harmonised",
+    "Ofcom2024 and NZOnAir2024 base differences not resolved",
+    "NZ national crossover not identified; no universal switch year"
+  ]
+}
