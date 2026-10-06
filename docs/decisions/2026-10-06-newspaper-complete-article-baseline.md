@@ -1,5 +1,7 @@
 # Complete independent articles as the newspaper coverage baseline
 
+**Quantity threshold superseded:** Dai subsequently made two articles the hard minimum, with a unique ID and source link for every article. Apply the [current two-article rule](2026-10-06-two-article-minimum-and-stable-identifiers.md). The earlier one-required/two-target interpretation below is preserved as history; the complete-article and no-chunking rules remain in force.
+
 Date: 6 October 2026. Authority: Dai clarifies that newspaper coverage must use independent articles, at least one to two per time point, and rejects continued text splitting as the acquisition unit.
 
 Apply this to the existing **465-month** calendar, 1988-01-01 through 2026-09-21. A month meets the minimum newspaper baseline only with **at least one complete, independently published article**; the target is **two distinct articles**. Keep geographic/source-month ledgers separately so pooled presence never certifies an empty region. A pending or empty cell remains a gap, not zero expression. If a different time resolution is later adopted, evaluate it from article publication dates rather than treating chunks as new observations.
