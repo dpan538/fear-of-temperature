@@ -1,0 +1,27 @@
+{
+  "recorded_at_utc": "2026-10-06T12:20:21.847276+00:00",
+  "accepted_main_commit": "74430bdc7d1dee28c34b0c22e678d183167ba6fa",
+  "metadata_sha256": {
+    "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/COORDINATOR_REVIEW.md": "da72a5d2661be1162e5a19b0d9e6054413b3b302fc950798ef38a7eefc5ded7a",
+    "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/control/COORDINATOR_CLOSEOUT_REVIEW.json": "e0f07354f32e06dffc5ff34a864a278c3c50fa7422363729c3a554710c60a94b",
+    "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/DELIVERY_FILE_RECEIPTS.json": "ae456185e7fca485649905ab5174ae4551a675d74cc5815aa859eba98e03dcdb",
+    "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/ARTICLE_REGISTER.csv": "0eb454f3f1cd3bdff7c52c0e4452b4004f4946446c9ef5ad733e01d73ee034e1",
+    "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/TRANSPORT_STATE.json": "8bf61e98661840892054cae54caad8e10397c936c790ec6fa5e23b7735940d4b",
+    "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/CHECKPOINT.json": "aad6271016ed915b32ec80626d8a615aeaac4174d273dc2985d0bfce8da8dbca",
+    "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/COLLECTION_VOLUME_PLAN.md": "caa629d1f43899ce1d1f3b018bc9c0bec3edb79ebe3a2f24e82204d5def17a61"
+  },
+  "previous_database_snapshot": {
+    "path": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/newspaper_elt.sqlite3",
+    "sha256": "06ea4f06343c4073b73506fcb8c50375d42e74a2b9a299e5381a10071dffaf24",
+    "bytes": 6516736,
+    "hash_source": "Accepted package25 delivery receipt, verified by the coordinator in the preceding closeout.",
+    "continuation_semantics": "Previously accepted rows and versions remain; the explicitly authorised append store receives successor-state receipts. The old hash is not asserted for the post-append bytes."
+  },
+  "counts": {
+    "combined_complete_IDs": 533,
+    "qualified_whole_TEXT_in_store": 392,
+    "external_baseline_BODY_records": 141,
+    "pooled_months_at_minimum_coverage": 176
+  },
+  "no_old_raw_or_body_sweep": true
+}

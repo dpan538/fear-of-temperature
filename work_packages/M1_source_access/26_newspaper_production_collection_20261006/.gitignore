@@ -1,0 +1,17 @@
+worker/raw/
+worker/bodies/
+worker/queues/
+worker/pdf_mapping/
+worker/renders/
+worker/parsed/
+worker/previews/
+worker/**/*.sqlite3*
+worker/**/*.pdf
+worker/**/*.png
+worker/**/*.jpg
+worker/**/*.bin
+worker/**/*.part
+worker/**/__pycache__/
+worker/**/*fulltext*
+!worker/coverage/
+!worker/coverage/*.csv

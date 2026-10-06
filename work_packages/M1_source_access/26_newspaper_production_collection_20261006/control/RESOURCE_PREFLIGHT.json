@@ -1,0 +1,22 @@
+{
+  "recorded_at_utc": "2026-10-06T12:20:21.847276+00:00",
+  "destination": "/Users/jarlgiovanni/Desktop/fear_of_temperature",
+  "human_disk_observation_GB": 20,
+  "observed_free_bytes": 16142196736,
+  "observed_free_GB_decimal": 16.142196736,
+  "observed_free_GiB": 15.033592224121094,
+  "cumulative_media_bytes": 270867903,
+  "cap_bytes": 5000000000,
+  "owner_reservation_bytes": 8388608,
+  "representative_pending_operation_bytes": 10485760,
+  "other_active_leases_bytes": 0,
+  "receipt_allowance_bytes": 65536,
+  "physical_floor_bytes": 16106127360,
+  "recovery_allowance_bytes": 50331648,
+  "physical_headroom_bytes": -24813568,
+  "allocation_headroom_bytes": 4718580801,
+  "representative_operation_passes": false,
+  "maximum_allocation_fits_current_physical_space": false,
+  "is_permission_to_ignore_future_live_capacity": false,
+  "interpretation": "Preparation is released. Body transfers/Load require their own fresh actual-operation preflight; preserve the resource block if it fails."
+}
