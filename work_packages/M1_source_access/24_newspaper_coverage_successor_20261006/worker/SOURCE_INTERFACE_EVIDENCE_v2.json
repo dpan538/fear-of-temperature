@@ -1,0 +1,98 @@
+{
+  "at_utc": "2026-10-06T07:50:39.265318+00:00",
+  "sources": {
+    "trinity_news": {
+      "title": "Trinity News",
+      "stratum": "EU/Europe excluding UK",
+      "country": "IE",
+      "edition": "English Trinity College Dublin student newspaper supplement",
+      "identity_evidence": "https://www.tcd.ie/news_events/articles/trinity-news-launches-online-archive-1953-1970/",
+      "observed_interfaces": "Current publisher, robots, post sitemap; native2008-2011 URLs.1953-1970 institutional archive is outside study interval.",
+      "limits": "2008September selected URL404;2008December page literal text placeholders/external images;2026September28 body outside cutoff. No1988-2006 readable route established."
+    },
+    "beaver": {
+      "title": "The Beaver",
+      "stratum": "UK",
+      "country": "UK",
+      "edition": "English LSE student newspaper supplement",
+      "identity_evidence": "Current publisher thebeaverlse.co.uk and institutional catalogue link; LSE historical collection17 separate",
+      "observed_interfaces": "Historical library listing capped partial; current publisher article; documented public WordPress GET embed metadata gives first eligible item2014-10-22.",
+      "limits": "API earliest result applies only to current API frame. Library partial is not exhaustion or historical absence. View-counter footer removal logged as a new body version."
+    },
+    "mancunion": {
+      "title": "The Mancunion",
+      "stratum": "UK",
+      "country": "UK",
+      "edition": "University of Manchester English student newspaper supplement",
+      "identity_evidence": "https://mancunion.com/ native newspaper publisher, corrected from earlier unverified candidate domain",
+      "observed_interfaces": "Robots,263-entry sitemap index, post-sitemaps1/92/93. Ordinary narrative panel differs from surviving liveblog lead.",
+      "limits": "Three exact historical article URLs timed out; two2013 liveblogs lack body components. Named failures preserved without retry. No pre2010 complete route established."
+    },
+    "green_left": {
+      "title": "Green Left Weekly / Green Left",
+      "stratum": "AU",
+      "country": "AU",
+      "edition": "English Australian political advocacy weekly newspaper supplement",
+      "identity_evidence": "https://www.greenleft.org.au/1991/1/news/welcome-green-left",
+      "observed_interfaces": "Public robots allow ordinary articles; date-labelled back-issue page30 and29 plus native issue contents. One first native article per newly sampled month.",
+      "limits": "Publisher first-issue date18February1991 differs from retrospective16/28February accounts; retain conflict. Pre-foundation months inapplicable to this title, not all AU newspapers. Present-day archive rendition is not proven unchanged historical body."
+    },
+    "mit_tech": {
+      "title": "The Tech",
+      "stratum": "US",
+      "country": "US",
+      "edition": "English MIT student newspaper supplement, digital and archival print units separate",
+      "identity_evidence": "https://thetech.com/issues and saved publisher print mastheads",
+      "observed_interfaces": "Native all-issues links; dated issue contents and article HTML; three saved issue-only PDFs locally mapped to one article parent each.",
+      "limits": "Legacy host401 and old exact stops preserved. Unobserved volume-only probe404 retained. Table and grouped briefs/logs are native units, not automatically independent original stories. OCR noise retained."
+    },
+    "otago_daily_times": {
+      "title": "Otago Daily Times",
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "English NZ regional daily newspaper, public article subframe",
+      "identity_evidence": "https://www.odt.co.nz/news/dunedin/welcome-to-our-new-site-t395flet",
+      "observed_interfaces": "Public robots, section/author sitemaps, date-constrained primary publisher search locators and full native article-body boundaries.",
+      "limits": "Five old article days differ between current widget/UTC timestamp and cached publisher rendition; month stable, day conflicting. Modified/retrieved/report times separate. Some articles credit AP/NZPA: direct ODT discourse with syndicated underlying reporting. No valid pre2007 target established; not absence proof."
+    },
+    "ruapehu_bulletin": {
+      "title": "Ruapehu Bulletin",
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "Community newspaper print issue/PDF subframe",
+      "identity_evidence": "https://www.ruapehu.info/news",
+      "observed_interfaces": "Native dated issue wrappers, posting day separate from print issue day, publisher-linked CDN PDF.",
+      "limits": "16September2026 PDF transfer retained partial at2MiB; no whole issue, mapped article or readable monthly coverage added.2021 wrapper/PDF link retained untransferred."
+    },
+    "ruapehu_library": {
+      "title": "Ruapehu Bulletin archival reproduction",
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "National Library archived publisher-site acquisition parent",
+      "identity_evidence": "https://natlib.govt.nz/records/20917393",
+      "observed_interfaces": "Institutional catalogue identifies2007-08 fulltext; saved public delivery wrapper and its exact iframe.",
+      "limits": "Iframe returned Error in Delivery. No archive article text obtained; no hidden API/authentication workaround."
+    },
+    "maltatoday": {
+      "title": "MaltaToday",
+      "stratum": "EU/Europe excluding UK",
+      "country": "MT",
+      "edition": "English Sunday newspaper; midweek edition separate",
+      "identity_evidence": "Native publisher history/search locators in TOOL_RESPONSE_LOCATORS.json; first issue19November1999 reported",
+      "observed_interfaces": "Date-labelled public archive2001/2003/2004/2005 links; actual2001 index request403.",
+      "limits": "Archive host refusal preserved, no bodies or alternative-transport retry. Earlier title-inapplicable era is not regional absence."
+    },
+    "indaily": {
+      "title": "InDaily",
+      "stratum": "AU",
+      "country": "AU",
+      "edition": "Accepted South Australian digital newspaper source frame by reference",
+      "identity_evidence": "Accepted package23 SOURCE_REGISTRY_SUCCESSOR.json",
+      "observed_interfaces": "Native post457 sitemap and current news listing. July2013 month already represented; no new density expansion.",
+      "limits": "Observed native post469403 stops asset host. Existing ten readable months retained; this tranche adds no InDaily bodies."
+    }
+  },
+  "new_parent_registry": "ADDED_ACQUISITION_PARENTS.json",
+  "universal_provenance_correctness_claimed": false,
+  "climate_or_fear_source_gate": false
+}

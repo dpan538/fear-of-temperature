@@ -1,0 +1,141 @@
+{
+  "frozen_at_utc": "2026-10-06T06:58:53.381545+00:00",
+  "mappings": [
+    {
+      "date": "1989-02-07",
+      "title": "CFYP report: End freshman 2nd term P/F",
+      "byline": "Niraj S. Desai",
+      "segments": [
+        [
+          1,
+          [
+            51,
+            318,
+            225,
+            914
+          ]
+        ],
+        [
+          1,
+          [
+            232,
+            615,
+            402,
+            915
+          ]
+        ],
+        [
+          14,
+          [
+            80,
+            113,
+            253,
+            232
+          ]
+        ],
+        [
+          14,
+          [
+            262,
+            110,
+            434,
+            232
+          ]
+        ],
+        [
+          14,
+          [
+            439,
+            110,
+            612,
+            595
+          ]
+        ],
+        [
+          14,
+          [
+            614,
+            108,
+            789,
+            596
+          ]
+        ],
+        [
+          14,
+          [
+            792,
+            108,
+            965,
+            601
+          ]
+        ]
+      ],
+      "continuation": "First-page explicit Please turn to page14; page14 CFYP report advocates elimination of frosh P/F and Continued from page1. Photo/caption and separate SEWG story excluded."
+    },
+    {
+      "date": "1990-02-06",
+      "title": "Council adopts porn policy",
+      "byline": "Andrea Lamberti",
+      "segments": [
+        [
+          1,
+          [
+            45,
+            285,
+            320,
+            781
+          ]
+        ],
+        [
+          1,
+          [
+            325,
+            285,
+            585,
+            782
+          ]
+        ]
+      ],
+      "continuation": "Complete two-column first-page report ending in Keyser quotation; separate shaded policy excerpt and UA activity-fee report excluded. Page17 is an advertisement, not a continuation."
+    },
+    {
+      "date": "1991-02-01",
+      "title": "Joel Moses new engineering dean",
+      "byline": "Brian Rosenberg",
+      "segments": [
+        [
+          1,
+          [
+            42,
+            503,
+            205,
+            717
+          ]
+        ],
+        [
+          1,
+          [
+            208,
+            315,
+            372,
+            717
+          ]
+        ],
+        [
+          2,
+          [
+            62,
+            665,
+            226,
+            1433
+          ]
+        ]
+      ],
+      "continuation": "First-page Please turn to page2; page2 Joel Moses named dean / Continued from page1. Photo/caption and neighbouring protests, Media Lab and employment advertisement excluded.",
+      "first_page_ocr": "1991_page1_VISION_OCR.json"
+    }
+  ],
+  "coordinate_system": "PDF page points, top-left origin; page numbers one-based",
+  "selection": "First top-left native front-page article for each existing issue-only month, one per month; 1988 existing mapped article reused by reference",
+  "mapper_sha256": "685fce4e2aff585a9d59c9dd91cffadc725d387958124b2f66b2fca6c3d83cf0"
+}

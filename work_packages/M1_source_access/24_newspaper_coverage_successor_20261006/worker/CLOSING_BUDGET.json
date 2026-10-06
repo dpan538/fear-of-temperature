@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-06T07:55:30.470828+00:00",
+  "free_bytes": 18445725696,
+  "cumulative_media_bytes": 126901680,
+  "lifetime_cap_bytes": 134217728,
+  "original_combined_reserve_bytes": 0,
+  "physical_floor_bytes": 16106127360,
+  "recovery_allowance_bytes": 50331648,
+  "active_lease_bytes": 0,
+  "active_lease_basis": "current named coordinator controls; no unreported lease assumed",
+  "raw_cap_bytes": 0,
+  "derived_cap_bytes": 0,
+  "pending_receipt_allowance_bytes": 65536,
+  "physical_headroom_after_pending_bytes": 2289201152,
+  "allocation_headroom_after_pending_bytes": 7250512,
+  "passed": true,
+  "limiting_constraint": null,
+  "stop_reason": "Each stratum reached the conservative 12 article-request-hop limit; redirects and failures included",
+  "resource_exhaustion": false,
+  "snapshot_basis": "Every file in all three accounting roots plus prior 25,819,723 bytes; final receipt encoded-size fixed point; editorial snapshots included"
+}

@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-06T07:13:57.215833+00:00",
+  "target": {
+    "source_id": "mancunion",
+    "stratum": "UK",
+    "url": "https://mancunion.com/post-sitemap92.xml",
+    "purpose": "discovery",
+    "native_evidence": "Exact preceding native post-sitemap in saved index814a7e0ce00db75df8aeaafa; last93contains liveblogs with missing components",
+    "public_hosts": [
+      "mancunion.com"
+    ],
+    "month": null,
+    "access_cleared": true,
+    "raw_cap_bytes": 524288,
+    "frame_path": "targets/0937ea3ded35de839c5eb0a4.json"
+  }
+}

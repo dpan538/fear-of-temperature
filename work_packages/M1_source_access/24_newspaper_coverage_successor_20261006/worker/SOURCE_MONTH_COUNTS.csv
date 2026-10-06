@@ -1,0 +1,52 @@
+source_id,stratum,month,native_section,native_units,readable_units,mapped_article_parents,table_bearing_native_units,independent_original_stories
+beaver,UK,2014-10,unclassified native genre/section,1,1,0,0,unestablished
+beaver,UK,2026-04,unclassified native genre/section,1,1,0,0,unestablished
+green_left,AU,1991-02,News,1,1,0,0,unestablished
+green_left,AU,1991-03,None,1,1,0,0,unestablished
+green_left,AU,1991-04,None,1,1,0,0,unestablished
+green_left,AU,1991-05,None,1,1,0,0,unestablished
+green_left,AU,1991-06,None,1,1,0,0,unestablished
+green_left,AU,1991-07,None,1,1,0,0,unestablished
+green_left,AU,1991-08,None,1,1,0,0,unestablished
+green_left,AU,1991-09,None,1,1,0,0,unestablished
+green_left,AU,1991-10,None,1,1,0,0,unestablished
+green_left,AU,1991-11,None,1,1,0,0,unestablished
+green_left,AU,1991-12,None,1,1,0,0,unestablished
+mancunion,UK,2010-12,unclassified native genre/section,1,1,0,0,unestablished
+mancunion,UK,2011-02,unclassified native genre/section,1,1,0,0,unestablished
+mancunion,UK,2011-03,unclassified native genre/section,1,1,0,0,unestablished
+mancunion,UK,2011-04,unclassified native genre/section,1,1,0,0,unestablished
+mancunion,UK,2011-09,unclassified native genre/section,1,1,0,0,unestablished
+mancunion,UK,2013-02,unclassified native genre/section,1,0,0,0,unestablished
+mancunion,UK,2013-03,unclassified native genre/section,1,0,0,0,unestablished
+mit_tech,US,1989-02,unclassified native genre/section,1,1,1,0,unestablished
+mit_tech,US,1990-02,unclassified native genre/section,1,1,1,0,unestablished
+mit_tech,US,1991-02,unclassified native genre/section,1,1,1,0,unestablished
+mit_tech,US,2007-06,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2007-07,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2007-09,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2007-11,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2007-12,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2008-03,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2008-04,unclassified native genre/section,1,1,0,1,unestablished
+mit_tech,US,2008-05,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2008-06,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2008-09,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2008-11,unclassified native genre/section,1,1,0,0,unestablished
+mit_tech,US,2008-12,unclassified native genre/section,1,1,0,0,unestablished
+otago_daily_times,NZ,2008-05,National,1,1,0,0,unestablished
+otago_daily_times,NZ,2008-06,Dunedin,1,1,0,0,unestablished
+otago_daily_times,NZ,2008-07,World,1,1,0,0,unestablished
+otago_daily_times,NZ,2008-08,World,1,1,0,0,unestablished
+otago_daily_times,NZ,2008-09,World,1,1,0,0,unestablished
+otago_daily_times,NZ,2008-10,National,1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2008-10,['Editorial'],1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2008-11,['Editorial'],1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2008-12,unclassified native genre/section,1,0,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2009-01,unclassified native genre/section,1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2009-02,['Features'],1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2009-04,unclassified native genre/section,1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2009-06,unclassified native genre/section,1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2009-09,['Features'],1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2026-04,['Features'],1,1,0,0,unestablished
+trinity_news,EU/Europe excluding UK,2026-08,['Features'],1,1,0,0,unestablished

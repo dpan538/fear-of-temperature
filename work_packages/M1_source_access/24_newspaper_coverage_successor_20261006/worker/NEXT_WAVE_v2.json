@@ -1,0 +1,90 @@
+{
+  "at_utc": "2026-10-06T07:08:56.839680+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2008/10/easy-access-to-information-is-dumbing-down-students/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json selected first native 2008-10",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2008-10",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/88b3360ccaf1e022347a4fb6.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2011/11/08/live-alice-cooper-the-apollo/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP93_FRONTIER_v1.json native first 2011-11",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2011-11",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/5b9c4ac6cb451e09e67fd824.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/back-issues",
+      "purpose": "discovery",
+      "native_evidence": "Observed Back Issues link in deae8d05fce8aa233829c6ca and publisher ordinary public route robots",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/7ed836910524163e3918fbd5.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/127/34",
+      "purpose": "discovery",
+      "native_evidence": "Native issue href in saved all-issues 7beb68020911811b49c51045",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/9168acc5197280ce07634632.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/news/dunedin/welcome-to-our-new-site-t395flet",
+      "purpose": "article",
+      "native_evidence": "Primary publisher site-launch article observed public URL; prior candidate catalogue; robots bb57a2e71943efc2b3cddb4e ordinary pages Allow",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 1048576,
+      "frame_path": "targets/58f50d15c1aa04f65316bd3c.json"
+    },
+    {
+      "source_id": "ruapehu_library",
+      "stratum": "NZ",
+      "url": "https://ndhadeliver.natlib.govt.nz/view/action/ieViewer.do?metadata=xsl&is_mobile=false&is_rtl=false&dps_dvs=1791269683307~205&dps_pid=IE1656782&inst=CRS00.INS00",
+      "purpose": "discovery",
+      "native_evidence": "Public observed iframe src in saved National Library wrapper9534e0757fce30638551290f",
+      "public_hosts": [
+        "ndhadeliver.natlib.govt.nz"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 262144,
+      "frame_path": "targets/33cec8724fb1adde00d97e3b.json"
+    }
+  ]
+}

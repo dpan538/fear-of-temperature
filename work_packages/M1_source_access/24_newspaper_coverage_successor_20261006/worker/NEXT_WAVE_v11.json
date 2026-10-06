@@ -1,0 +1,173 @@
+{
+  "at_utc": "2026-10-06T07:39:15.571063+00:00",
+  "tasks": [
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2011/09/16/a-good-friday/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP92_FRONTIER_v1.json first native2011-09",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2011-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/b3b5562c6038420fe4bb36e2.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/23/un-conference-bridging-environment-and-development",
+      "purpose": "article",
+      "native_evidence": "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER.json first native August1991issue23",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-08",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/be38629596901dab8dbc826d.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/128/10",
+      "purpose": "discovery",
+      "native_evidence": "Exact native issue href in allissues7beb68020911811b49c51045; actualmonth pending;128/20 observedAprilalreadycovered",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/229fb5d849c53ee09f61e32d.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/128/25",
+      "purpose": "discovery",
+      "native_evidence": "Exact native issue href in allissues7beb68020911811b49c51045; actualmonth pending;128/20 observedAprilalreadycovered",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/12e3d3610e7aafe978d9b468.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/128/28",
+      "purpose": "discovery",
+      "native_evidence": "Exact native issue href in allissues7beb68020911811b49c51045; actualmonth pending;128/20 observedAprilalreadycovered",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/67b1c785cf80b7a4bdfa998d.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/128/40",
+      "purpose": "discovery",
+      "native_evidence": "Exact native issue href in allissues7beb68020911811b49c51045; actualmonth pending;128/20 observedAprilalreadycovered",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/3b7642ff98fcc5fb1fd46ec5.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/128/54",
+      "purpose": "discovery",
+      "native_evidence": "Exact native issue href in allissues7beb68020911811b49c51045; actualmonth pending;128/20 observedAprilalreadycovered",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/6afe4082ee1a8e5b35c3e55b.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/128/60",
+      "purpose": "discovery",
+      "native_evidence": "Exact native issue href in allissues7beb68020911811b49c51045; actualmonth pending;128/20 observedAprilalreadycovered",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/6d0e7e128b29a92f16c4fb2d.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/29",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE29_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/b6bf8b58718a3976116175f6.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/33",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE29_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-10",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/cd7b8df25ba7c1f8ca7b791f.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/37",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE29_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-11",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/1b7d9a6c5688f178095d0546.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/39",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE29_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-12",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/91955ca9a535ceae074e1b34.json"
+    }
+  ]
+}

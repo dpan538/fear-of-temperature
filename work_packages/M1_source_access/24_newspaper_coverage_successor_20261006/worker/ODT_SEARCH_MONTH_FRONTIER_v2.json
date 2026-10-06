@@ -1,0 +1,106 @@
+{
+  "frozen_at_utc": {
+    "current_time": "2026-10-06 07:29:20 UTC"
+  },
+  "queries": [
+    "site:odt.co.nz/news before:2007 after:1987",
+    "site:odt.co.nz/news \"August 2008\"",
+    "site:odt.co.nz/news \"September 2008\""
+  ],
+  "selected": [
+    {
+      "month": "2008-08",
+      "url": "https://www.odt.co.nz/news/world/chinas-olympics-kid-switch-one-had-looks-one-had-voice",
+      "tool_ref": "turn39search0"
+    }
+  ],
+  "selection_rule": "First observed primary publisher identity with displayed date in requested missing month. Other results can mention the query date while being published later; preserved as metadata remainder, not assumed historical presence.",
+  "pre2007_outcome": "Batched responses identified no verified target with publication before2007; not proof of no archive or expression.",
+  "observed_publisher_urls": [
+    {
+      "title": "China's Olympics kid-switch: one had the looks, one had the voice | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/chinas-olympics-kid-switch-one-had-looks-one-had-voice",
+      "tool_ref": "turn39search0"
+    },
+    {
+      "title": "China executes two for tainted milk scandal",
+      "url": "https://www.odt.co.nz/news/national/china-executes-two-for-tainted-milk-scandal-avs2jjx1",
+      "tool_ref": "turn39search1"
+    },
+    {
+      "title": "Recommendation to close park rejected | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/recommendation-close-park-rejected",
+      "tool_ref": "turn39search2"
+    },
+    {
+      "title": "Phelps sparks interest in swimming | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/phelps-sparks-interest-swimming",
+      "tool_ref": "turn39search3"
+    },
+    {
+      "title": "Former Straitjacket Fits band member dies",
+      "url": "https://www.odt.co.nz/news/dunedin/former-straitjacket-fits-band-member-dies-h4ta5pfw",
+      "tool_ref": "turn39search4"
+    },
+    {
+      "title": "Dixon's web page removed | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/national/dixons-web-page-removed",
+      "tool_ref": "turn39search5"
+    },
+    {
+      "title": "Junior doctors seal the deal | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/national/junior-doctors-seal-deal",
+      "tool_ref": "turn39search6"
+    },
+    {
+      "title": "When the Big One hits",
+      "url": "https://www.odt.co.nz/news/dunedin/when-the-big-one-hits-fle10xiw",
+      "tool_ref": "turn39search7"
+    },
+    {
+      "title": "Wahine disaster: Survivors of the storm",
+      "url": "https://www.odt.co.nz/news/national/wahine-disaster-survivors-of-the-storm-su3jsojv",
+      "tool_ref": "turn39search8"
+    },
+    {
+      "title": "‘Blown away’: Families of Dunedin plane crash victims hopeful as search for wreck targets mystery lake object",
+      "url": "https://www.odt.co.nz/news/dunedin/blown-away-families-of-dunedin-plane-crash-victims-hopeful-as-search-for-wreck-targets-mystery-lake-object-fy5dwtc2",
+      "tool_ref": "turn39search9"
+    },
+    {
+      "title": "‘Legendary teacher, giant amongst scholars’",
+      "url": "https://www.odt.co.nz/news/dunedin/legendary-teacher-giant-amongst-scholars-xsuv8t7i",
+      "tool_ref": "turn39search10"
+    },
+    {
+      "title": "Frustration at inaction | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/regions/queenstown-lakes/frustration-inaction",
+      "tool_ref": "turn39search11"
+    },
+    {
+      "title": "Life after",
+      "url": "https://www.odt.co.nz/sites/default/files/life-after-farming-by-rhodes-donald.pdf",
+      "tool_ref": "turn39search12"
+    },
+    {
+      "title": "N E W S P A P E R S  I N  E D U C A T I O N  2 0 1 9",
+      "url": "https://www.odt.co.nz/sites/default/files/extra_programme_2019_copy-1.pdf",
+      "tool_ref": "turn39search13"
+    },
+    {
+      "title": "OTHER ALLIED PRESS PUBLICATIONS",
+      "url": "https://www.odt.co.nz/sites/default/files/odt_ratecard_2022_for_download.pdf",
+      "tool_ref": "turn39search14"
+    },
+    {
+      "title": "Otago Daily Times",
+      "url": "https://www.odt.co.nz/sites/default/files/extra_2019_planner_copy.pdf",
+      "tool_ref": "turn39search15"
+    },
+    {
+      "title": "N E W S P A P E R S  I N  E D U C A T I O N  2 0 1 6",
+      "url": "https://www.odt.co.nz/sites/default/files/extra_2016_flier_0.pdf",
+      "tool_ref": "turn39search16"
+    }
+  ]
+}

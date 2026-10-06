@@ -1,0 +1,76 @@
+{
+  "registered_at_utc": "2026-10-06T06:56:39.598620+00:00",
+  "new_parents": [
+    {
+      "stratum": "EU/Europe excluding UK",
+      "source_id": "maltatoday",
+      "title": "MaltaToday",
+      "country": "MT",
+      "edition": "English Sunday newspaper; midweek edition kept separate",
+      "acquisition_parent": "https://archive.maltatoday.com.mt/",
+      "identity_and_era_evidence": "Publisher2004/11/21 history on native archive: first issue19Nov1999; current target links2001/2003/2004/2005 from dated public issue indexes",
+      "body_route_observed_in_search": "https://archive.maltatoday.com.mt/2001/0722/index.html",
+      "source_era_inapplicability": "before19Nov1999 for this title, not regional publication absence",
+      "status": "HTTP403 preserved host stop; no bodies fetched; no alternative transport retry"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "country": "AU",
+      "title": "Green Left Weekly / Green Left",
+      "edition": "Australian English advocacy weekly newspaper; political source-composition retained",
+      "acquisition_parent": "https://www.greenleft.org.au/",
+      "identity_era_evidence": "Publisher first-issue page and20-year account; first issue dated18Feb1991, retrospective2001 says28Feb1991 and1994 saysprinted16Feb1991; discrepancy retained",
+      "candidate_observed_url": "https://www.greenleft.org.au/1991/1/welcome-green-left",
+      "source_before_1991": "structurally inapplicable for this title; not no Australian newspapers",
+      "selection_reason": "Historical eligible newspaper route into1988-2006 gap, not climate/fear/length criterion"
+    },
+    {
+      "source_id": "beaver",
+      "stratum": "UK",
+      "country": "UK",
+      "title": "The Beaver",
+      "edition": "LSE English student newspaper",
+      "acquisition_parent": "https://thebeaverlse.co.uk/",
+      "identity_evidence": "Publisher homepage plus institutional Penn catalogue outbound publisher link; separate from LSE historical scan collection",
+      "parent_count_basis": "Conservatively charge newly evidenced current publisher route despite existing candidate title",
+      "status": "public article boundary observed; April2026 body readable"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "country": "UK",
+      "title": "The Mancunion",
+      "edition": "University of Manchester English student newspaper",
+      "acquisition_parent": "https://mancunion.com/",
+      "identity_evidence": "Native publisher homepage and ordinary page sitemap; earlier candidate domain themancunion.com was unverified",
+      "parent_count_basis": "Conservatively charge corrected newly evidenced current publisher route for existing candidate title",
+      "status": "native archived page URLs observed; per-body date and boundary verification pending"
+    },
+    {
+      "source_id": "ruapehu_bulletin",
+      "stratum": "NZ",
+      "country": "NZ",
+      "title": "Ruapehu Bulletin",
+      "edition": "New Zealand community newspaper issue PDFs",
+      "acquisition_parent": "https://www.ruapehu.info/news",
+      "identity_evidence": "Native issue listing, date-labelled wrappers and Download Here issue-PDF link; print issue date kept separate from wrapper posting date",
+      "carrier_domain": "cdn.prod.website-files.com",
+      "parent_count_basis": "Publisher plus its CDN carrier treated as one observed source route",
+      "status": "2026 issue transfer partial at2MiB; not whole issue or article presence"
+    },
+    {
+      "source_id": "ruapehu_library",
+      "stratum": "NZ",
+      "country": "NZ",
+      "title": "Ruapehu Bulletin archival reproduction",
+      "edition": "National Library of New Zealand archived publisher site",
+      "acquisition_parent": "https://ndhadeliver.natlib.govt.nz/",
+      "identity_evidence": "National Library record20917393 labels public fulltext2007-08; observed delivery wrapper links to public iframe",
+      "parent_count_basis": "Separate institutional archive acquisition parent, original title retained",
+      "status": "wrapper saved; article text not yet observed"
+    }
+  ],
+  "max_new_per_stratum": 2,
+  "updated_at_utc": "2026-10-06T07:09:49.032137+00:00"
+}

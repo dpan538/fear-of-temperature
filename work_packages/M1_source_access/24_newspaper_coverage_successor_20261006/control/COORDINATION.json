@@ -6,7 +6,7 @@
   "thinking": "xhigh",
   "dispatch": "follow-up accepted; active status independently observed",
   "turn_id": "01a10fed-b433-7c80-8405-7277160c0d57",
-  "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:5",
+  "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:11",
   "hard_deadline_at_utc": "2026-10-06T08:35:57.971238+00:00",
   "worker_write_root": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker",
   "coordinator_writes": [
@@ -19,5 +19,16 @@
   "research_thread_resumed": false,
   "new_window_created": false,
   "new_budget_increase_released": false,
-  "old_heartbeat_status": "PAUSED"
+  "old_heartbeat_status": "PAUSED",
+  "updated_at_utc": "2026-10-06T09:50:01.829200+00:00",
+  "owner_status": "completed and idle; changed tranche accepted",
+  "acceptance": "control/COORDINATOR_ACCEPTANCE.json",
+  "current_article_snapshot": {
+    "confirmed_complete_articles": 142,
+    "pooled_months_meeting_two_article_minimum": 43,
+    "selected_prior_candidates": 133,
+    "whole_corpus_article_total": "not established"
+  },
+  "next_scope": "CALENDAR_ACQUISITION_PLAN.md",
+  "next_scope_status": "prepared; allocation decision pending; not dispatched"
 }

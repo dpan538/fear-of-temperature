@@ -1,0 +1,76 @@
+{
+  "at_utc": "2026-10-06T07:13:19.447925+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2008/12/day-one/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json first native2008-12",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2008-12",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/1933522535f08ee4b0a69f24.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2013/03/14/headline/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP93_FRONTIER_v1.json first native2013-03",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2013-03",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/538a3243245917fbb285da20.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/back-issues?page=30",
+      "purpose": "discovery",
+      "native_evidence": "Observed pager parameter page=1 in raw7ed836910524163e3918fbd5;48issues perpage; explicit historical-page30 hypothesis from1463currentissues, not assumeddate/completeness",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/a27104492be533c1d7ddbcf1.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/127/37",
+      "purpose": "discovery",
+      "native_evidence": "Observed href in saved allissues7beb68020911811b49c51045; actualissue date pending, not assumed",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/d7bf2fb6c1f7b56b52fb6e8a.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/sitemaps/odt/sitemap2.xml",
+      "purpose": "discovery",
+      "native_evidence": "Exact generic sitemap2 entry in saved native sitemap index286637706890867f297654b4",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 1048576,
+      "frame_path": "targets/ffcc86d3e0ec2a150c4cf518.json"
+    }
+  ]
+}

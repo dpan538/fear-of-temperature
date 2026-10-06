@@ -1,0 +1,90 @@
+{
+  "snapshot_at_utc": "2026-10-06T07:50:39.264779+00:00",
+  "baseline_accepted_receipt": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/control/BASELINE_RECEIPT.json",
+  "strata": {
+    "EU/Europe excluding UK": {
+      "calendar_months": 465,
+      "before_readable_months": 0,
+      "after_readable_months": 9,
+      "before_dated_presence_months": 0,
+      "after_dated_presence_months": 10,
+      "new_eligible_native_units": 10,
+      "new_readable_units": 9,
+      "new_mapped_article_parents": 0,
+      "new_nonreadable_native_units": 1,
+      "remaining_readable_month_gaps": 456
+    },
+    "UK": {
+      "calendar_months": 465,
+      "before_readable_months": 0,
+      "after_readable_months": 7,
+      "before_dated_presence_months": 0,
+      "after_dated_presence_months": 9,
+      "new_eligible_native_units": 9,
+      "new_readable_units": 7,
+      "new_mapped_article_parents": 0,
+      "new_nonreadable_native_units": 2,
+      "remaining_readable_month_gaps": 458
+    },
+    "AU": {
+      "calendar_months": 465,
+      "before_readable_months": 10,
+      "after_readable_months": 21,
+      "before_dated_presence_months": 10,
+      "after_dated_presence_months": 21,
+      "new_eligible_native_units": 11,
+      "new_readable_units": 11,
+      "new_mapped_article_parents": 0,
+      "new_nonreadable_native_units": 0,
+      "remaining_readable_month_gaps": 444
+    },
+    "US": {
+      "calendar_months": 465,
+      "before_readable_months": 44,
+      "after_readable_months": 59,
+      "before_dated_presence_months": 47,
+      "after_dated_presence_months": 59,
+      "new_eligible_native_units": 15,
+      "new_readable_units": 15,
+      "new_mapped_article_parents": 3,
+      "new_nonreadable_native_units": 0,
+      "remaining_readable_month_gaps": 406
+    },
+    "NZ": {
+      "calendar_months": 465,
+      "before_readable_months": 0,
+      "after_readable_months": 6,
+      "before_dated_presence_months": 0,
+      "after_dated_presence_months": 6,
+      "new_eligible_native_units": 6,
+      "new_readable_units": 6,
+      "new_mapped_article_parents": 0,
+      "new_nonreadable_native_units": 0,
+      "remaining_readable_month_gaps": 459
+    },
+    "pooled": {
+      "calendar_months": 465,
+      "before_readable_months": 51,
+      "after_readable_months": 86,
+      "before_dated_presence_months": 54,
+      "after_dated_presence_months": 87,
+      "new_eligible_native_units": 51,
+      "new_readable_units": 48,
+      "new_mapped_article_parents": 3,
+      "new_nonreadable_native_units": 3,
+      "remaining_readable_month_gaps": 379
+    }
+  },
+  "accepted_before_readable_units": 1214,
+  "after_readable_units": 1262,
+  "accepted_before_native_units": 1216,
+  "after_eligible_native_units": 1267,
+  "new_whole_issues": 0,
+  "accepted_whole_issues": 4,
+  "independent_original_story_total": "unestablished",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "september_partial": true
+}

@@ -1,0 +1,217 @@
+{
+  "reviewed_at_utc": "2026-10-06T09:45:03.467279+00:00",
+  "scope": "One changed-tranche coordinator receipt/count acceptance, not sealed distribution evaluation",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "acquisition_delivery_hashes",
+      "passed": true,
+      "evidence": 27
+    },
+    {
+      "check": "local_correction_delivery_hashes",
+      "passed": true,
+      "evidence": 30
+    },
+    {
+      "check": "frozen_tranche_inputs",
+      "passed": true,
+      "evidence": 6
+    },
+    {
+      "check": "new_raw_and_partial_receipts",
+      "passed": true,
+      "evidence": 110
+    },
+    {
+      "check": "new_unit_body_receipts",
+      "passed": true,
+      "evidence": 51
+    },
+    {
+      "check": "dispositions",
+      "passed": true,
+      "evidence": {
+        "pending": 17,
+        "non_article": 26,
+        "confirmed_complete": 142
+      }
+    },
+    {
+      "check": "unique_article_ids",
+      "passed": true,
+      "evidence": 185
+    },
+    {
+      "check": "actual_source_links",
+      "passed": true,
+      "evidence": "Fields and saved provenance; no live-link requests"
+    },
+    {
+      "check": "eligible_publication_dates",
+      "passed": true,
+      "evidence": "Fixed interval, September partial"
+    },
+    {
+      "check": "confirmed_body_references",
+      "passed": true,
+      "evidence": 142
+    },
+    {
+      "check": "identity_invariance_owner_check",
+      "passed": true,
+      "evidence": "Persisted identity map and same-article corrected derivatives"
+    },
+    {
+      "check": "ledger_AU",
+      "passed": true,
+      "evidence": {
+        "months": 465,
+        "confirmed": 21
+      }
+    },
+    {
+      "check": "ledger_EU/Europe excluding UK",
+      "passed": true,
+      "evidence": {
+        "months": 465,
+        "confirmed": 8
+      }
+    },
+    {
+      "check": "ledger_NZ",
+      "passed": true,
+      "evidence": {
+        "months": 465,
+        "confirmed": 6
+      }
+    },
+    {
+      "check": "ledger_UK",
+      "passed": true,
+      "evidence": {
+        "months": 465,
+        "confirmed": 7
+      }
+    },
+    {
+      "check": "ledger_US",
+      "passed": true,
+      "evidence": {
+        "months": 465,
+        "confirmed": 100
+      }
+    },
+    {
+      "check": "ledger_pooled",
+      "passed": true,
+      "evidence": {
+        "months": 465,
+        "confirmed": 142
+      }
+    },
+    {
+      "check": "confirmed_html_paragraph_receipts",
+      "passed": true,
+      "evidence": "Reuse bounded owner native-paragraph and opening/ending checks; no old full-corpus rescan"
+    },
+    {
+      "check": "six_corrected_body_hashes",
+      "passed": true,
+      "evidence": "Changed derivatives only; old scans/bodies retained"
+    },
+    {
+      "check": "changed_python_syntax",
+      "passed": true,
+      "evidence": 7
+    },
+    {
+      "check": "gap_state_decomposition",
+      "passed": true,
+      "evidence": {
+        "zero_no_saved_readable_unit": 379,
+        "zero_confirmed_cached_readable_candidates": 10,
+        "one_confirmed_cached_candidates_exist": 4,
+        "one_confirmed_needs_second_acquisition": 29,
+        "meets_minimum": 43
+      }
+    },
+    {
+      "check": "pooled_deficit",
+      "passed": true,
+      "evidence": "33 one-article deficits plus 389 two-article deficits; surplus does not transfer"
+    }
+  ],
+  "article_coverage_accepted": true,
+  "full_calendar_objective_met": false,
+  "confirmed_articles": 142,
+  "selected_rows": 185,
+  "pooled_months_meeting_minimum": 43,
+  "pooled_months_meeting_minimum_ratio": 0.09247311827956989,
+  "pooled_deficit_lower_bound_register": 811,
+  "gap_queue_states": {
+    "zero_no_saved_readable_unit": 379,
+    "zero_confirmed_cached_readable_candidates": 10,
+    "one_confirmed_cached_candidates_exist": 4,
+    "one_confirmed_needs_second_acquisition": 29,
+    "meets_minimum": 43
+  },
+  "period_summary": [
+    {
+      "period": "1988-1990",
+      "months": 36,
+      "months_meeting_minimum": 0,
+      "confirmed_articles": 0,
+      "deficit": 72
+    },
+    {
+      "period": "1991-2006",
+      "months": 192,
+      "months_meeting_minimum": 0,
+      "confirmed_articles": 11,
+      "deficit": 373
+    },
+    {
+      "period": "2007-2016",
+      "months": 120,
+      "months_meeting_minimum": 24,
+      "confirmed_articles": 82,
+      "deficit": 174
+    },
+    {
+      "period": "2017-2026 partial",
+      "months": 117,
+      "months_meeting_minimum": 19,
+      "confirmed_articles": 49,
+      "deficit": 192
+    }
+  ],
+  "resource": {
+    "at_utc": "2026-10-06T09:45:03.421028+00:00",
+    "free_bytes": 18037813248,
+    "cumulative_media_bytes": 129353564,
+    "allocation_bytes": 134217728,
+    "physical_floor_bytes": 16106127360,
+    "recovery_allowance_bytes": 50331648,
+    "active_leases_bytes": 0,
+    "proposed_cumulative_allocation_bytes": 1073741824,
+    "proposed_allocation_released": false,
+    "allocation_headroom_bytes": 4864164,
+    "additional_bytes_to_proposed_cap": 944388260,
+    "projected_physical_headroom_after_proposed_full_use_bytes": 936965980
+  },
+  "owner_checks_reused": [
+    "10 targeted acquisition tests",
+    "Own staging integrity, FK and real idempotence receipts",
+    "142 selected HTML native-paragraph receipts",
+    "Prior accepted hashes and body mapping checkpoints"
+  ],
+  "network_collection_operations": 0,
+  "formal_database_access": false,
+  "old_raw_rescan": false,
+  "sealed_evaluator_access": false,
+  "old_freezes_mutated": false,
+  "review_report_sha256": "34b8952482fc7fec93de29a330d42725ab93259e88a32ad873032ac6bef73f05",
+  "proposed_plan_sha256": "5132eb4caae1d9ea15781a595f408c50ac24497b83fcaa3b3f5332b00eb0a845",
+  "gap_queue_sha256": "8e8c2a2e490bb14b2daed4602eaae33180b64ebd48a50b9cb9779442b08a4ec1"
+}

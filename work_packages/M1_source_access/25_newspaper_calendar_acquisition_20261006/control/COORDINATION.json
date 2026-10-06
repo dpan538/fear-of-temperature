@@ -1,0 +1,32 @@
+{
+  "at_utc": "2026-10-06T09:52:36.333704+00:00",
+  "owner_thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+  "host": "local",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "status": "follow-up accepted; active execution independently observed",
+  "hard_deadline_at_utc": "2026-10-06T13:52:36.333704+00:00",
+  "active_leases": [
+    {
+      "lease_id": "newspaper25-single-writer",
+      "thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+      "reserved_bytes": 33554432,
+      "active": true,
+      "purpose": "One newspaper raw/derived/ELT material operation; shared mutex"
+    }
+  ],
+  "coordinator_ownership": [
+    "control",
+    "PLAN.md",
+    "Git",
+    "shared English project logs"
+  ],
+  "worker_ownership": [
+    "worker"
+  ],
+  "no_new_window": true,
+  "old_heartbeat_status": "PAUSED",
+  "confirmed_active_at_utc": "2026-10-06T09:55:20.044267+00:00",
+  "turn_id": "01a110a2-129a-7723-becc-b2cf8c1ad62f",
+  "last_wait_cursor": "47de4128-f7ae-4ec2-b925-c61ca9348efb:12"
+}

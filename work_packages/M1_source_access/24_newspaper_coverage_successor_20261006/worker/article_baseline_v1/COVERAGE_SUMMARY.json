@@ -1,0 +1,95 @@
+{
+  "derived_at_utc": "2026-10-06T09:16:51.270650+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "calendar_months": 465,
+  "hard_monthly_minimum": 2,
+  "article_count_cap": null,
+  "selected_prior_candidates": 133,
+  "prior_pooled_months_with_selected_evidence": 51,
+  "selection_limit_per_prior_month": 3,
+  "successor_candidates_required": 48,
+  "successor_nonreadable_or_outside_interval_reference_rows": 4,
+  "register_rows": 185,
+  "dispositions": {
+    "pending": 17,
+    "non_article": 26,
+    "confirmed_complete": 142
+  },
+  "tranche_dispositions": {
+    "prior": {
+      "pending": 8,
+      "non_article": 24,
+      "confirmed_complete": 101
+    },
+    "successor": {
+      "confirmed_complete": 41,
+      "pending": 9,
+      "non_article": 2
+    }
+  },
+  "corrections": 6,
+  "all_qualified_surplus_retained": true,
+  "ledgers": {
+    "pooled": {
+      "months": 465,
+      "state_0": 389,
+      "state_1_below_minimum": 33,
+      "state_2plus_meets_article_count_minimum": 43,
+      "total_confirmed_distinct_articles": 142,
+      "total_deficit_to_two": 811
+    },
+    "EU/Europe excluding UK": {
+      "months": 465,
+      "state_0": 457,
+      "state_1_below_minimum": 8,
+      "state_2plus_meets_article_count_minimum": 0,
+      "total_confirmed_distinct_articles": 8,
+      "total_deficit_to_two": 922
+    },
+    "UK": {
+      "months": 465,
+      "state_0": 458,
+      "state_1_below_minimum": 7,
+      "state_2plus_meets_article_count_minimum": 0,
+      "total_confirmed_distinct_articles": 7,
+      "total_deficit_to_two": 923
+    },
+    "AU": {
+      "months": 465,
+      "state_0": 444,
+      "state_1_below_minimum": 21,
+      "state_2plus_meets_article_count_minimum": 0,
+      "total_confirmed_distinct_articles": 21,
+      "total_deficit_to_two": 909
+    },
+    "US": {
+      "months": 465,
+      "state_0": 416,
+      "state_1_below_minimum": 12,
+      "state_2plus_meets_article_count_minimum": 37,
+      "total_confirmed_distinct_articles": 100,
+      "total_deficit_to_two": 844
+    },
+    "NZ": {
+      "months": 465,
+      "state_0": 459,
+      "state_1_below_minimum": 6,
+      "state_2plus_meets_article_count_minimum": 0,
+      "total_confirmed_distinct_articles": 6,
+      "total_deficit_to_two": 924
+    }
+  },
+  "before_after_unit_clarification": {
+    "frozen_successor_readable_units": 48,
+    "frozen_combined_pooled_readable_months": 86,
+    "these_are_not_complete_article_counts": true,
+    "new_successor_confirmed_complete_articles": 41,
+    "selected_combined_article_presence_months": 76,
+    "selected_combined_months_meeting_two_article_minimum": 43,
+    "old_frozen_reports_unchanged": true
+  },
+  "remaining_frontier": "Obtain/adjudicate additional complete distinct articles in 0/1 months through a separately authorised bounded successor; no refill or collection in this correction. Resolve named OCR, aggregate-item and cross-month date cases separately."
+}

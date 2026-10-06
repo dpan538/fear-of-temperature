@@ -1,0 +1,321 @@
+{
+  "at_utc": "2026-10-06T07:39:15.567107+00:00",
+  "source_request": "58b5b953731bc04bb70b7365",
+  "selected": [
+    {
+      "url": "https://www.greenleft.org.au/issue/29",
+      "publication_date": "1991-09-25",
+      "month": "1991-09",
+      "native_order": 87
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/33",
+      "publication_date": "1991-10-30",
+      "month": "1991-10",
+      "native_order": 83
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/37",
+      "publication_date": "1991-11-27",
+      "month": "1991-11",
+      "native_order": 79
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/39",
+      "publication_date": "1991-12-11",
+      "month": "1991-12",
+      "native_order": 77
+    }
+  ],
+  "native_issue_entries": [
+    {
+      "url": "https://www.greenleft.org.au/issue/71",
+      "publication_date": "1992-09-16",
+      "month": "1992-09",
+      "native_order": 45
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/70",
+      "publication_date": "1992-09-09",
+      "month": "1992-09",
+      "native_order": 46
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/69",
+      "publication_date": "1992-09-02",
+      "month": "1992-09",
+      "native_order": 47
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/68",
+      "publication_date": "1992-08-26",
+      "month": "1992-08",
+      "native_order": 48
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/67",
+      "publication_date": "1992-08-19",
+      "month": "1992-08",
+      "native_order": 49
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/66",
+      "publication_date": "1992-08-12",
+      "month": "1992-08",
+      "native_order": 50
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/65",
+      "publication_date": "1992-08-05",
+      "month": "1992-08",
+      "native_order": 51
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/64",
+      "publication_date": "1992-07-29",
+      "month": "1992-07",
+      "native_order": 52
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/63",
+      "publication_date": "1992-07-22",
+      "month": "1992-07",
+      "native_order": 53
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/62",
+      "publication_date": "1992-07-15",
+      "month": "1992-07",
+      "native_order": 54
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/61",
+      "publication_date": "1992-07-01",
+      "month": "1992-07",
+      "native_order": 55
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/60",
+      "publication_date": "1992-06-24",
+      "month": "1992-06",
+      "native_order": 56
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/59",
+      "publication_date": "1992-06-17",
+      "month": "1992-06",
+      "native_order": 57
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/58",
+      "publication_date": "1992-06-03",
+      "month": "1992-06",
+      "native_order": 58
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/57",
+      "publication_date": "1992-05-27",
+      "month": "1992-05",
+      "native_order": 59
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/56",
+      "publication_date": "1992-05-20",
+      "month": "1992-05",
+      "native_order": 60
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/55",
+      "publication_date": "1992-05-13",
+      "month": "1992-05",
+      "native_order": 61
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/54",
+      "publication_date": "1992-05-06",
+      "month": "1992-05",
+      "native_order": 62
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/53",
+      "publication_date": "1992-04-29",
+      "month": "1992-04",
+      "native_order": 63
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/52",
+      "publication_date": "1992-04-15",
+      "month": "1992-04",
+      "native_order": 64
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/51",
+      "publication_date": "1992-04-08",
+      "month": "1992-04",
+      "native_order": 65
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/50",
+      "publication_date": "1992-04-01",
+      "month": "1992-04",
+      "native_order": 66
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/49",
+      "publication_date": "1992-03-25",
+      "month": "1992-03",
+      "native_order": 67
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/48",
+      "publication_date": "1992-03-18",
+      "month": "1992-03",
+      "native_order": 68
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/47",
+      "publication_date": "1992-03-11",
+      "month": "1992-03",
+      "native_order": 69
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/46",
+      "publication_date": "1992-03-04",
+      "month": "1992-03",
+      "native_order": 70
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/45",
+      "publication_date": "1992-02-26",
+      "month": "1992-02",
+      "native_order": 71
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/44",
+      "publication_date": "1992-02-19",
+      "month": "1992-02",
+      "native_order": 72
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/43",
+      "publication_date": "1992-02-12",
+      "month": "1992-02",
+      "native_order": 73
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/42",
+      "publication_date": "1992-02-05",
+      "month": "1992-02",
+      "native_order": 74
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/41",
+      "publication_date": "1992-01-29",
+      "month": "1992-01",
+      "native_order": 75
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/40",
+      "publication_date": "1992-01-22",
+      "month": "1992-01",
+      "native_order": 76
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/39",
+      "publication_date": "1991-12-11",
+      "month": "1991-12",
+      "native_order": 77
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/38",
+      "publication_date": "1991-12-04",
+      "month": "1991-12",
+      "native_order": 78
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/37",
+      "publication_date": "1991-11-27",
+      "month": "1991-11",
+      "native_order": 79
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/36",
+      "publication_date": "1991-11-20",
+      "month": "1991-11",
+      "native_order": 80
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/35",
+      "publication_date": "1991-11-13",
+      "month": "1991-11",
+      "native_order": 81
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/34",
+      "publication_date": "1991-11-06",
+      "month": "1991-11",
+      "native_order": 82
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/33",
+      "publication_date": "1991-10-30",
+      "month": "1991-10",
+      "native_order": 83
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/32",
+      "publication_date": "1991-10-23",
+      "month": "1991-10",
+      "native_order": 84
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/31",
+      "publication_date": "1991-10-16",
+      "month": "1991-10",
+      "native_order": 85
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/30",
+      "publication_date": "1991-10-02",
+      "month": "1991-10",
+      "native_order": 86
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/29",
+      "publication_date": "1991-09-25",
+      "month": "1991-09",
+      "native_order": 87
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/28",
+      "publication_date": "1991-09-18",
+      "month": "1991-09",
+      "native_order": 88
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/27",
+      "publication_date": "1991-09-11",
+      "month": "1991-09",
+      "native_order": 89
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/26",
+      "publication_date": "1991-09-04",
+      "month": "1991-09",
+      "native_order": 90
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/25",
+      "publication_date": "1991-08-28",
+      "month": "1991-08",
+      "native_order": 91
+    },
+    {
+      "url": "https://www.greenleft.org.au/issue/24",
+      "publication_date": "1991-08-21",
+      "month": "1991-08",
+      "native_order": 92
+    }
+  ],
+  "rule": "First native issue entry per earliest still missing month; first article in each issue; later1992 entries retained"
+}

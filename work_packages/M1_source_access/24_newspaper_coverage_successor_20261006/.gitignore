@@ -11,3 +11,15 @@ worker/**/*.png
 worker/**/*.part
 worker/**/*fulltext*.txt
 **/__pycache__/
+
+# Keep saved text/scans and original text-bearing evidence local.
+worker/pdf_mapping/*.jpg
+worker/pdf_mapping/1991_page1_VISION_OCR.json
+worker/pdf_mapping/EXISTING_1988_REFERENCE.json
+worker/article_baseline_v1/bodies/
+worker/article_baseline_v1/ARTICLE_REGISTER.jsonl
+worker/article_baseline_v1/SELECTION_v1.json
+worker/article_baseline_v1/CORRECTIONS_MANIFEST.json
+worker/article_baseline_v1/sidecars/
+worker/*.sqlite3-shm
+worker/*.sqlite3-wal

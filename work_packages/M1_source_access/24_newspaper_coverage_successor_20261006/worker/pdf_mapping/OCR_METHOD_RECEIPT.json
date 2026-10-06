@@ -1,0 +1,12 @@
+{
+  "recorded_at_utc": "2026-10-06T07:09:49.032952+00:00",
+  "method": "macOS Vision VNRecognizeTextRequest on one selected rendered front page; local derivative only",
+  "observed_execution_result": "Escalated Swift execution exit0,427 lines; native Python-rendered page source; exact process start UTC not separately captured",
+  "input_image": "1991-02-01_p1.jpg",
+  "input_sha256": "9ba01e2a83bab1e6cd9b730bd9d8675742ed40c5d72ec12e04fbeda3cf875d96",
+  "script_sha256": "5f9d2ec631439f739ab89d42594fea4f7ca1223487f13876826a07860a894b3f",
+  "output": "1991_page1_VISION_OCR.json",
+  "output_sha256": "5a1de428a3550a979bc7879c88aa78e90d54a79b169d098a43148b002dcc9a4e",
+  "prior_attempts": "Sandbox Swift module cache failed; sandbox Vision nil/error133; JXA returned empty; none interpreted as source no-text evidence",
+  "limits": "OCR noise retained; per-line confidences are OCR diagnostics and not provenance grades; no full-issue OCR or historical body equivalence claim"
+}

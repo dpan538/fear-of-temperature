@@ -1,0 +1,309 @@
+{
+  "derived_at_utc": "2026-10-06T06:58:53.712828+00:00",
+  "new_mapped_parents": [
+    {
+      "unit_id": "https://thetech.com/issues/109/1#article-54f596a3dca7",
+      "url": "https://thetech.com/issues/109/1#article-54f596a3dca7",
+      "source_id": "mit_tech",
+      "source": "The Tech",
+      "stratum": "US",
+      "country": "US",
+      "edition": "MIT English student newspaper archival print issue",
+      "source_frame": "student newspaper supplement",
+      "unit_kind": "mapped_article",
+      "title": "CFYP report: End freshman 2nd term P/F",
+      "byline": "Niraj S. Desai",
+      "publication_date": "1989-02-07",
+      "raw_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/f7f15ee6a44e170c2c029958.bin",
+      "raw_sha256": "b77c1ee171a298feae258242700146509abc32f30a5d56ce5723287e9f55cb64",
+      "body_path": "bodies/mapped_1989-02-07.txt",
+      "body_sha256": "400b3b179cf1269f9ce1b7f0b3b67f235b89cb675a4832847f3c883087cca37f",
+      "retrieved_at_utc": "2026-10-05T14:52:43.339309+00:00",
+      "derived_at_utc": "2026-10-06T06:58:53.486310+00:00",
+      "content_version_time": "Fri, 03 Mar 2017 01:23:28 GMT",
+      "readable": true,
+      "state": "mapped_readable_article_OCR_uncertainty_retained",
+      "segments": [
+        {
+          "page_number": 1,
+          "rect_pdf_points_top_left": [
+            51,
+            318,
+            225,
+            914
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "1807ac010fb4d2090c6714cdd0d87c14e513b8e53893349eec64e317cb3722da"
+        },
+        {
+          "page_number": 1,
+          "rect_pdf_points_top_left": [
+            232,
+            615,
+            402,
+            915
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "39d6e7a0fcc2b401e470e0e23dc723f01a68829c93f654a466a93549c52fd725"
+        },
+        {
+          "page_number": 14,
+          "rect_pdf_points_top_left": [
+            80,
+            113,
+            253,
+            232
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "de18911d152e940fbfa5743b48ebacd6033c0ae6ee02cc8d1f384f2f5ec72b2d"
+        },
+        {
+          "page_number": 14,
+          "rect_pdf_points_top_left": [
+            262,
+            110,
+            434,
+            232
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "41bacd7357c86058ef79e4bba87f4cfdf6f85a98a2658d38cb4a186f74d35117"
+        },
+        {
+          "page_number": 14,
+          "rect_pdf_points_top_left": [
+            439,
+            110,
+            612,
+            595
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "e850d11778e4a42920677966311352da53b7d67ea192690eaefb64a5dcbd7e0a"
+        },
+        {
+          "page_number": 14,
+          "rect_pdf_points_top_left": [
+            614,
+            108,
+            789,
+            596
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "aed1fd6a4c6f107c080f027c5fc110b988c9f64fd7c4d1c607e317f370631e51"
+        },
+        {
+          "page_number": 14,
+          "rect_pdf_points_top_left": [
+            792,
+            108,
+            965,
+            601
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "4b0d6eec54ef976a972137996be53f87b8d5d7573ed6cea2de728da2d79f9e9c"
+        }
+      ],
+      "continuation_evidence": "First-page explicit Please turn to page14; page14 CFYP report advocates elimination of frosh P/F and Continued from page1. Photo/caption and separate SEWG story excluded.",
+      "printed_date_evidence": "Named retained first-page render visually checked; masthead agrees with accepted issue receipt",
+      "mapper_sha256": "685fce4e2aff585a9d59c9dd91cffadc725d387958124b2f66b2fca6c3d83cf0",
+      "mapping_plan_sha256": "5f997344c7ec86a37d118d9794d5b28b86ae91a2b48e835577816eac578db321",
+      "body_completeness": "Article span visually traced across listed columns/pages; transcription has uncorrected OCR uncertainties, not a clean verbatim edition",
+      "ocr_uncertainty": "Noisy characters, line breaks and end-line hyphens retained. 1991 first page uses new local image OCR; boxes and native scan remain auditable. No numeric source-confidence rank.",
+      "independent_parent_status": "single named/bylined article with explicit geometric/continuation mapping; original-story/syndication independence remains unassessed",
+      "issue_parent_reference": "https://thetech.com/issues/109/1",
+      "provenance": "archival reproduction of original student-newspaper utterance",
+      "historical_body_equivalence": "original issue scan; scan-version time remains separate",
+      "semantic_labels_executed": false,
+      "length_filter_used": false,
+      "material_write_budget": {
+        "at_utc": "2026-10-06T06:58:53.422760+00:00",
+        "free_bytes": 18465587200,
+        "cumulative_media_bytes": 113362497,
+        "lifetime_cap_bytes": 134217728,
+        "original_combined_reserve_bytes": 0,
+        "physical_floor_bytes": 16106127360,
+        "recovery_allowance_bytes": 50331648,
+        "active_lease_bytes": 0,
+        "active_lease_basis": "current named coordinator controls; no unreported lease assumed",
+        "raw_cap_bytes": 0,
+        "derived_cap_bytes": 262144,
+        "pending_receipt_allowance_bytes": 65536,
+        "physical_headroom_after_pending_bytes": 2308800512,
+        "allocation_headroom_after_pending_bytes": 20527551,
+        "passed": true,
+        "limiting_constraint": null
+      },
+      "new_versions_inserted": 1
+    },
+    {
+      "unit_id": "https://thetech.com/issues/110/1#article-1ed55a718a76",
+      "url": "https://thetech.com/issues/110/1#article-1ed55a718a76",
+      "source_id": "mit_tech",
+      "source": "The Tech",
+      "stratum": "US",
+      "country": "US",
+      "edition": "MIT English student newspaper archival print issue",
+      "source_frame": "student newspaper supplement",
+      "unit_kind": "mapped_article",
+      "title": "Council adopts porn policy",
+      "byline": "Andrea Lamberti",
+      "publication_date": "1990-02-06",
+      "raw_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/4d7a6d03d3fc09f25b9489d9.bin",
+      "raw_sha256": "0b7c34e8bd0937603469e7830d533123492acb5558fd2ded1adf6f6a076dd5e2",
+      "body_path": "bodies/mapped_1990-02-06.txt",
+      "body_sha256": "a7f5c1127d89b4a01bc01af76c222d53116c114aabf11013195e6bd97b06f1ab",
+      "retrieved_at_utc": "2026-10-05T14:53:19.399488+00:00",
+      "derived_at_utc": "2026-10-06T06:58:53.588739+00:00",
+      "content_version_time": "Fri, 03 Mar 2017 01:24:10 GMT",
+      "readable": true,
+      "state": "mapped_readable_article_OCR_uncertainty_retained",
+      "segments": [
+        {
+          "page_number": 1,
+          "rect_pdf_points_top_left": [
+            45,
+            285,
+            320,
+            781
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "ec573ac238a638375a83b58c4f613b559138e2b8e38f667cefc742e8aaed8a4a"
+        },
+        {
+          "page_number": 1,
+          "rect_pdf_points_top_left": [
+            325,
+            285,
+            585,
+            782
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "43f620943dbfb07100c2d4118d1ff5e8e2ad8aa1a5f9ddebf5ece6b0742a8fd7"
+        }
+      ],
+      "continuation_evidence": "Complete two-column first-page report ending in Keyser quotation; separate shaded policy excerpt and UA activity-fee report excluded. Page17 is an advertisement, not a continuation.",
+      "printed_date_evidence": "Named retained first-page render visually checked; masthead agrees with accepted issue receipt",
+      "mapper_sha256": "685fce4e2aff585a9d59c9dd91cffadc725d387958124b2f66b2fca6c3d83cf0",
+      "mapping_plan_sha256": "5f997344c7ec86a37d118d9794d5b28b86ae91a2b48e835577816eac578db321",
+      "body_completeness": "Article span visually traced across listed columns/pages; transcription has uncorrected OCR uncertainties, not a clean verbatim edition",
+      "ocr_uncertainty": "Noisy characters, line breaks and end-line hyphens retained. 1991 first page uses new local image OCR; boxes and native scan remain auditable. No numeric source-confidence rank.",
+      "independent_parent_status": "single named/bylined article with explicit geometric/continuation mapping; original-story/syndication independence remains unassessed",
+      "issue_parent_reference": "https://thetech.com/issues/110/1",
+      "provenance": "archival reproduction of original student-newspaper utterance",
+      "historical_body_equivalence": "original issue scan; scan-version time remains separate",
+      "semantic_labels_executed": false,
+      "length_filter_used": false,
+      "material_write_budget": {
+        "at_utc": "2026-10-06T06:58:53.555176+00:00",
+        "free_bytes": 18465517568,
+        "cumulative_media_bytes": 113377370,
+        "lifetime_cap_bytes": 134217728,
+        "original_combined_reserve_bytes": 0,
+        "physical_floor_bytes": 16106127360,
+        "recovery_allowance_bytes": 50331648,
+        "active_lease_bytes": 0,
+        "active_lease_basis": "current named coordinator controls; no unreported lease assumed",
+        "raw_cap_bytes": 0,
+        "derived_cap_bytes": 262144,
+        "pending_receipt_allowance_bytes": 65536,
+        "physical_headroom_after_pending_bytes": 2308730880,
+        "allocation_headroom_after_pending_bytes": 20512678,
+        "passed": true,
+        "limiting_constraint": null
+      },
+      "new_versions_inserted": 1
+    },
+    {
+      "unit_id": "https://thetech.com/issues/111/1#article-e126dd2c83a7",
+      "url": "https://thetech.com/issues/111/1#article-e126dd2c83a7",
+      "source_id": "mit_tech",
+      "source": "The Tech",
+      "stratum": "US",
+      "country": "US",
+      "edition": "MIT English student newspaper archival print issue",
+      "source_frame": "student newspaper supplement",
+      "unit_kind": "mapped_article",
+      "title": "Joel Moses new engineering dean",
+      "byline": "Brian Rosenberg",
+      "publication_date": "1991-02-01",
+      "raw_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c6809192b487e2bc02763d9a.bin",
+      "raw_sha256": "8a1837bfaf127acf4547cc5542e5983cd1d94ffee61544fffc1330cefb944cb6",
+      "body_path": "bodies/mapped_1991-02-01.txt",
+      "body_sha256": "003b050e6233c530390464bfa485636752093a1d965928b42d2078b487257716",
+      "retrieved_at_utc": "2026-10-05T14:53:39.320720+00:00",
+      "derived_at_utc": "2026-10-06T06:58:53.679804+00:00",
+      "content_version_time": "Fri, 03 Mar 2017 01:24:42 GMT",
+      "readable": true,
+      "state": "mapped_readable_article_OCR_uncertainty_retained",
+      "segments": [
+        {
+          "page_number": 1,
+          "rect_pdf_points_top_left": [
+            42,
+            503,
+            205,
+            717
+          ],
+          "ocr_method": "local macOS Vision OCR on saved page render; native OCR unusable",
+          "text_sha256": "90154435970bb46922eac261303a833abed3d51271dc4234e97f0d48b8726f18"
+        },
+        {
+          "page_number": 1,
+          "rect_pdf_points_top_left": [
+            208,
+            315,
+            372,
+            717
+          ],
+          "ocr_method": "local macOS Vision OCR on saved page render; native OCR unusable",
+          "text_sha256": "cd0ad4e182e03f2eaffdcefcfc742b3972d52d176c3247ae3debeba50c8cc268"
+        },
+        {
+          "page_number": 2,
+          "rect_pdf_points_top_left": [
+            62,
+            665,
+            226,
+            1433
+          ],
+          "ocr_method": "geometrically clipped publisher native OCR",
+          "text_sha256": "f8fa004d5435b8cded1892356554172c180bdf63ba48ee590c5a190df4a663b5"
+        }
+      ],
+      "continuation_evidence": "First-page Please turn to page2; page2 Joel Moses named dean / Continued from page1. Photo/caption and neighbouring protests, Media Lab and employment advertisement excluded.",
+      "printed_date_evidence": "Named retained first-page render visually checked; masthead agrees with accepted issue receipt",
+      "mapper_sha256": "685fce4e2aff585a9d59c9dd91cffadc725d387958124b2f66b2fca6c3d83cf0",
+      "mapping_plan_sha256": "5f997344c7ec86a37d118d9794d5b28b86ae91a2b48e835577816eac578db321",
+      "body_completeness": "Article span visually traced across listed columns/pages; transcription has uncorrected OCR uncertainties, not a clean verbatim edition",
+      "ocr_uncertainty": "Noisy characters, line breaks and end-line hyphens retained. 1991 first page uses new local image OCR; boxes and native scan remain auditable. No numeric source-confidence rank.",
+      "independent_parent_status": "single named/bylined article with explicit geometric/continuation mapping; original-story/syndication independence remains unassessed",
+      "issue_parent_reference": "https://thetech.com/issues/111/1",
+      "provenance": "archival reproduction of original student-newspaper utterance",
+      "historical_body_equivalence": "original issue scan; scan-version time remains separate",
+      "semantic_labels_executed": false,
+      "length_filter_used": false,
+      "material_write_budget": {
+        "at_utc": "2026-10-06T06:58:53.654456+00:00",
+        "free_bytes": 18465480704,
+        "cumulative_media_bytes": 113386003,
+        "lifetime_cap_bytes": 134217728,
+        "original_combined_reserve_bytes": 0,
+        "physical_floor_bytes": 16106127360,
+        "recovery_allowance_bytes": 50331648,
+        "active_lease_bytes": 0,
+        "active_lease_basis": "current named coordinator controls; no unreported lease assumed",
+        "raw_cap_bytes": 0,
+        "derived_cap_bytes": 262144,
+        "pending_receipt_allowance_bytes": 65536,
+        "physical_headroom_after_pending_bytes": 2308694016,
+        "allocation_headroom_after_pending_bytes": 20504045,
+        "passed": true,
+        "limiting_constraint": null
+      },
+      "new_versions_inserted": 1
+    }
+  ],
+  "existing_1988_parent_reused_reference": "pdf_mapping/EXISTING_1988_REFERENCE.json",
+  "new_raw_bytes": 0,
+  "whole_issue_remainder": "unsegmented; pages/segments not additional article parents",
+  "no_old_raw_hash_scan": "Accepted immutable issue raw digests reused by reference; only selected pages read"
+}

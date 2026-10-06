@@ -1,0 +1,19 @@
+{
+  "verified_at_utc": "2026-10-06T07:50:39.225343+00:00",
+  "closing_code_sha256": "1267c7bf31e1edf3abcf85e9888b0576ece59c22dddb8fa4bda3a11f26ccfb71",
+  "checks": [
+    "Own local staging integrity check passed",
+    "Every new retained raw/partial file hash and size matched its request receipt",
+    "Every frozen target matched its request frame",
+    "Latest body hashes matched; accepted old PDF raw hashes reused by reference",
+    "Out-of-period page retained and excluded from eligible ledger; placeholders/components remain pending",
+    "No climate/fear labels or length inclusion threshold executed",
+    "Request hops plus recorded tool searches reconcile exactly with separate geographic counters",
+    "One own staging parent per distinct native identity; body revisions remain versions",
+    "Real saved-unit restart inserted zero duplicate versions"
+  ],
+  "new_raw_files_verified": 110,
+  "parent_count": 52,
+  "version_count": 53,
+  "baseline_validation": "Accepted package23 receipts reused; no full old raw/body scan or re-import"
+}

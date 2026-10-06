@@ -1,0 +1,63 @@
+{
+  "at_utc": "2026-10-06T07:07:29.838284+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2008/09/daniel-costigan-/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json selected first native 2008-09",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2008-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/f840cd245e25e4321bf09639.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/post-sitemap93.xml",
+      "purpose": "discovery",
+      "native_evidence": "Observed last post-sitemap in saved native index 814a7e0ce00db75df8aeaafa",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/666126076ba86d8bbe4a778e.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/1/welcome-green-left",
+      "purpose": "article",
+      "native_evidence": "Primary indexed first issue article; robots receipt 232e9cc4b89d7fe41334dd5c allows public ordinary articles",
+      "public_hosts": [
+        "www.greenleft.org.au",
+        "greenleft.org.au"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/deae8d05fce8aa233829c6ca.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/robots.txt",
+      "purpose": "policy",
+      "native_evidence": "Public publisher robots before article transfer",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 65536,
+      "frame_path": "targets/bb57a2e71943efc2b3cddb4e.json"
+    }
+  ]
+}

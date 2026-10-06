@@ -1,0 +1,37 @@
+{
+  "native_or_candidate_routes": [
+    {
+      "stratum": "EU/Europe excluding UK",
+      "source_id": "trinity_news",
+      "entrypoint": "https://trinitynews.ie/",
+      "kind": "candidate primary publisher route; identity/era to verify"
+    },
+    {
+      "stratum": "UK",
+      "source_id": "beaver",
+      "entrypoint": "https://digital.library.lse.ac.uk/collections/list/collections/17",
+      "kind": "observed historical newspaper collection"
+    },
+    {
+      "stratum": "AU",
+      "source_id": "indaily",
+      "entrypoint": "https://assets.indailysa.com.au/sitemaps/news-indailysa/sitemap.xml",
+      "kind": "saved native sitemap parent; reuse before new transfers"
+    },
+    {
+      "stratum": "US",
+      "source_id": "mit_tech",
+      "entrypoint": "https://thetech.com/issues",
+      "kind": "accepted native article and PDF publisher portal; known legacy stop preserved"
+    },
+    {
+      "stratum": "NZ",
+      "source_id": "otago_daily_times",
+      "entrypoint": "https://www.odt.co.nz/",
+      "kind": "observed publisher; historical body route unresolved"
+    }
+  ],
+  "frozen_at_utc": "2026-10-06T06:45:34.968059+00:00",
+  "known_stops": "package23 effective registry and accepted successor REQUESTS; Press1988 calendar403 will not be retried",
+  "new_parents_registered": []
+}

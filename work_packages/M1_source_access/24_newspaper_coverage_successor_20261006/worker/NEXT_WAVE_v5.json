@@ -1,0 +1,76 @@
+{
+  "at_utc": "2026-10-06T07:16:07.218051+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2009/01/frances-beatty-II/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json first native2009-01",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2009-01",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/0a463ef37c26f81d36bcd867.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2010/10/25/column-the-jonas-brothers-are-good-for-music/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP92_FRONTIER_v1.json first native missing month; previous failed months retained",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2010-10",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/5e81953c085188eacb16e7e7.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/6",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE30_FRONTIER_v1.json first native March1991 issue",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-03",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/e3cedd9387d25fdb7058369b.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2007/09/11/polog-v127-n37",
+      "purpose": "article",
+      "native_evidence": "First native publication URL in issue127/37 rawd7bf2fb6c1f7b56b52fb6e8a",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2007-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/af46576d40c6eae4ed5eff7a.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/sitemaps/odt/sitemap1.xml",
+      "purpose": "discovery",
+      "native_evidence": "Exact generic sitemap1 entry in native index286637706890867f297654b4; sitemap2 contains author pages only",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 1048576,
+      "frame_path": "targets/6f768bd40b11335f4522edb8.json"
+    }
+  ]
+}

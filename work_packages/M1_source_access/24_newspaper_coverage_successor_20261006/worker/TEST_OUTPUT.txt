@@ -1,0 +1,15 @@
+test_allocation_exhaustion_is_not_disk_full (__main__.Resources.test_allocation_exhaustion_is_not_disk_full) ... ok
+test_physical_floor_zero_inherited_reserve (__main__.Resources.test_physical_floor_zero_inherited_reserve) ... ok
+test_retained_copies_and_recovery_are_reserved (__main__.Resources.test_retained_copies_and_recovery_are_reserved) ... ok
+test_fixed_endpoint_and_native_url (__main__.Scheduling.test_fixed_endpoint_and_native_url) ... ok
+test_missing_month_native_order_not_length (__main__.Scheduling.test_missing_month_native_order_not_length) ... ok
+test_round_robin_opportunity_no_transfer (__main__.Scheduling.test_round_robin_opportunity_no_transfer) ... ok
+test_date_conflict_cannot_reassign_parent (__main__.Staging.test_date_conflict_cannot_reassign_parent) ... ok
+test_frozen_target_cannot_be_replaced (__main__.Staging.test_frozen_target_cannot_be_replaced) ... ok
+test_interruption_rolls_back_unit_version_cursor (__main__.Staging.test_interruption_rolls_back_unit_version_cursor) ... ok
+test_restart_idempotence_and_new_version (__main__.Staging.test_restart_idempotence_and_new_version) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.043s
+
+OK

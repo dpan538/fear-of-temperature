@@ -1,0 +1,76 @@
+{
+  "at_utc": "2026-10-06T07:11:34.820863+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2008/11/breaking-up-is-hard-but-breaking-up-in-public-is-worse/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json selected first native2008-11",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2008-11",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/ccf12355ef1b21b3cecdf8c5.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2013/02/28/as-it-happened-manchestersu-womens-diversity-officer-hustings/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP93_FRONTIER_v1.json first native2013-02;2011targettimeout retained",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2013-02",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/b4316d670314b6e7c2490351.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/1",
+      "purpose": "discovery",
+      "native_evidence": "Native Issue1 link in first-issue raw deae8d05fce8aa233829c6ca",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/7b41d49b13f05e432d3a0c05.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/127/35",
+      "purpose": "discovery",
+      "native_evidence": "Native Next Issue link in saved127/34; August2007 alreadybaseline so no bodyselected",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/a235c2e1d63081c4cb0ec3e9.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/sitemaps/odt/sitemap_index.xml",
+      "purpose": "discovery",
+      "native_evidence": "Exact publisher sitemap index in robots bb57a2e71943efc2b3cddb4e",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/286637706890867f297654b4.json"
+    }
+  ]
+}

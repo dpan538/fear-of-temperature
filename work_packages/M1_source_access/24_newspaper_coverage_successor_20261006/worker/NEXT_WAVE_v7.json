@@ -1,0 +1,76 @@
+{
+  "at_utc": "2026-10-06T07:23:41.340672+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2009/04/trinity-news-newspaper-of-the-year/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json first native2009-04",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2009-04",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/0cee781789fd42f8ddf14bef.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2011/01/29/is-essex-really-the-only-way/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP92_FRONTIER_v1.json first native2011-01",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2011-01",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/65735fe9333541f98a1ada2c.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/9/being-labor-matter-managing-embarrassment",
+      "purpose": "article",
+      "native_evidence": "First native article in April1991 issue9; GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER.json",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-04",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/0e08a24af2ca6fbc9189a4ac.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2007/11/06/briefs-v127-n52",
+      "purpose": "article",
+      "native_evidence": "First native publication URL in issue127/52 rawc062db26f79752fecacb87fd",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2007-11",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/cbfbba239815697893b7016f.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/news/national/jury-quizzes-expert-about-kahui-babies-behaviour",
+      "purpose": "article",
+      "native_evidence": "ODT_SEARCH_MONTH_FRONTIER_v1.json first observed publisher result forMay2008; selectedbeforebody",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": "2008-05",
+      "access_cleared": true,
+      "raw_cap_bytes": 1048576,
+      "frame_path": "targets/2bbc51c2816dd6d2ce4ecbe6.json"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "at_utc": "2026-10-06T07:25:17.461654+00:00",
+  "tasks": [
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/18",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE30_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-06",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/5f5bc0dd34a6823c082df88a.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/21",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE30_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-07",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/ce3facc3412ea89f6f4cbea0.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/23",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE30_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-08",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/cf278ae9faba5d2ae6270dbb.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/127/60",
+      "purpose": "discovery",
+      "native_evidence": "TECH_MISSING_MONTH_INTERFACES_v1.json observed publisher issue",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/f45149312cf9f41602f326d0.json"
+    }
+  ]
+}

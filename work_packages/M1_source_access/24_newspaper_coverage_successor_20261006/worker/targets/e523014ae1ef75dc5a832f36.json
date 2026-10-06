@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-10-06T06:54:34.283375+00:00",
+  "native_order_selection": "first declared unit for previously missing month; remaining frontier retained",
+  "target": {
+    "source_id": "mit_tech",
+    "stratum": "US",
+    "url": "https://thetech.com/issues/127/29",
+    "purpose": "discovery",
+    "native_evidence": "Issue29 URL observed in newly retained root issue portal; seek missing September2007",
+    "public_hosts": [
+      "thetech.com"
+    ],
+    "month": null,
+    "access_cleared": true,
+    "raw_cap_bytes": 524288,
+    "frame_path": "targets/e523014ae1ef75dc5a832f36.json"
+  },
+  "code_sha256": "5a67044454e16c7fb52f5f845f68fbc498d5cfbd20b860a2557bab607e4e9bb0"
+}

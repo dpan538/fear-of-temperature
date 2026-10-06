@@ -1,0 +1,20 @@
+{
+  "frozen_at_utc": "2026-10-06T07:02:06.532464+00:00",
+  "native_order_selection": "first declared unit for previously missing month; remaining frontier retained",
+  "target": {
+    "source_id": "ruapehu_bulletin",
+    "stratum": "NZ",
+    "url": "https://www.ruapehu.info/news/1887-3-november-2021-ruapehu-bulletin",
+    "purpose": "discovery",
+    "native_evidence": "Earliest native regular issue link in saved publisher homepage; candidate smaller historical issue",
+    "public_hosts": [
+      "www.ruapehu.info",
+      "ruapehu.info"
+    ],
+    "month": null,
+    "access_cleared": true,
+    "raw_cap_bytes": 524288,
+    "frame_path": "targets/984c2a2563348bf31585a932.json"
+  },
+  "code_sha256": "5a67044454e16c7fb52f5f845f68fbc498d5cfbd20b860a2557bab607e4e9bb0"
+}

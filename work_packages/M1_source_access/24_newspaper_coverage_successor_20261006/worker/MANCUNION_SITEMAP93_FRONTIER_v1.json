@@ -1,0 +1,248 @@
+{
+  "frozen_at_utc": "2026-10-06T07:08:56.836792+00:00",
+  "source_request": "666126076ba86d8bbe4a778e",
+  "selected": [
+    {
+      "month": "2011-11",
+      "url": "https://mancunion.com/2011/11/08/live-alice-cooper-the-apollo/",
+      "native_order": 2
+    },
+    {
+      "month": "2013-02",
+      "url": "https://mancunion.com/2013/02/28/as-it-happened-manchestersu-womens-diversity-officer-hustings/",
+      "native_order": 26
+    },
+    {
+      "month": "2013-03",
+      "url": "https://mancunion.com/2013/03/14/headline/",
+      "native_order": 21
+    },
+    {
+      "month": "2013-04",
+      "url": "https://mancunion.com/2013/04/29/as-it-happened-rugby-league-varsity-university-of-salford-vs-university-of-manchester/",
+      "native_order": 19
+    },
+    {
+      "month": "2013-05",
+      "url": "https://mancunion.com/2013/05/03/as-it-happened-football-varsity/",
+      "native_order": 18
+    },
+    {
+      "month": "2013-10",
+      "url": "https://mancunion.com/2013/10/02/liveblog-rugby-varsity/",
+      "native_order": 17
+    },
+    {
+      "month": "2013-11",
+      "url": "https://mancunion.com/2013/11/14/retro-corner-simearth/",
+      "native_order": 16
+    },
+    {
+      "month": "2014-03",
+      "url": "https://mancunion.com/2014/03/24/live-blog-university-of-manchester-v-salford/",
+      "native_order": 11
+    },
+    {
+      "month": "2014-10",
+      "url": "https://mancunion.com/2014/10/01/liveblog-north-west-varsity/",
+      "native_order": 10
+    },
+    {
+      "month": "2015-03",
+      "url": "https://mancunion.com/2015/03/12/live-students-union-exec-election-results/",
+      "native_order": 9
+    },
+    {
+      "month": "2015-04",
+      "url": "https://mancunion.com/2015/04/27/liveblog-rugby-league-varsity/",
+      "native_order": 8
+    },
+    {
+      "month": "2015-10",
+      "url": "https://mancunion.com/2015/10/09/rugby-union-varsity-2015/",
+      "native_order": 6
+    },
+    {
+      "month": "2016-02",
+      "url": "https://mancunion.com/2016/02/11/lse-free-speech-society-could-face-ban-do-not-publis/",
+      "native_order": 5
+    },
+    {
+      "month": "2016-03",
+      "url": "https://mancunion.com/2016/03/05/liveblog-women-in-media-conference-2016/",
+      "native_order": 4
+    },
+    {
+      "month": "2016-10",
+      "url": "https://mancunion.com/2016/10/28/salford-illuminations/",
+      "native_order": 3
+    },
+    {
+      "month": "2017-03",
+      "url": "https://mancunion.com/2017/03/10/the-best-run-club-in-england/",
+      "native_order": 0
+    },
+    {
+      "month": "2017-04",
+      "url": "https://mancunion.com/2017/04/03/inspiring-women-at-the-university-of-manchester/",
+      "native_order": 1
+    }
+  ],
+  "native_month_units": {
+    "2017-03": [
+      {
+        "url": "https://mancunion.com/2017/03/10/the-best-run-club-in-england/",
+        "native_order": 0
+      }
+    ],
+    "2017-04": [
+      {
+        "url": "https://mancunion.com/2017/04/03/inspiring-women-at-the-university-of-manchester/",
+        "native_order": 1
+      }
+    ],
+    "2011-11": [
+      {
+        "url": "https://mancunion.com/2011/11/08/live-alice-cooper-the-apollo/",
+        "native_order": 2
+      },
+      {
+        "url": "https://mancunion.com/2011/11/16/football-and-the-big-society-3/",
+        "native_order": 29
+      }
+    ],
+    "2016-10": [
+      {
+        "url": "https://mancunion.com/2016/10/28/salford-illuminations/",
+        "native_order": 3
+      }
+    ],
+    "2016-03": [
+      {
+        "url": "https://mancunion.com/2016/03/05/liveblog-women-in-media-conference-2016/",
+        "native_order": 4
+      }
+    ],
+    "2016-02": [
+      {
+        "url": "https://mancunion.com/2016/02/11/lse-free-speech-society-could-face-ban-do-not-publis/",
+        "native_order": 5
+      }
+    ],
+    "2015-10": [
+      {
+        "url": "https://mancunion.com/2015/10/09/rugby-union-varsity-2015/",
+        "native_order": 6
+      },
+      {
+        "url": "https://mancunion.com/2015/10/04/liveblog-anti-austerity-protesters-march-against-conservative-party-conference/",
+        "native_order": 7
+      }
+    ],
+    "2015-04": [
+      {
+        "url": "https://mancunion.com/2015/04/27/liveblog-rugby-league-varsity/",
+        "native_order": 8
+      }
+    ],
+    "2015-03": [
+      {
+        "url": "https://mancunion.com/2015/03/12/live-students-union-exec-election-results/",
+        "native_order": 9
+      }
+    ],
+    "2014-10": [
+      {
+        "url": "https://mancunion.com/2014/10/01/liveblog-north-west-varsity/",
+        "native_order": 10
+      }
+    ],
+    "2014-03": [
+      {
+        "url": "https://mancunion.com/2014/03/24/live-blog-university-of-manchester-v-salford/",
+        "native_order": 11
+      },
+      {
+        "url": "https://mancunion.com/2014/03/20/as-it-happened-university-of-manchester-students-union-election-results-2014/",
+        "native_order": 12
+      },
+      {
+        "url": "https://mancunion.com/2014/03/13/liveblog-question-time-gen-sec-and-diversity/",
+        "native_order": 13
+      },
+      {
+        "url": "https://mancunion.com/2014/03/12/tv-catch-up-house-of-cards/",
+        "native_order": 14
+      },
+      {
+        "url": "https://mancunion.com/2014/03/12/liveblog-su-election-candidates-question-time/",
+        "native_order": 15
+      }
+    ],
+    "2013-11": [
+      {
+        "url": "https://mancunion.com/2013/11/14/retro-corner-simearth/",
+        "native_order": 16
+      }
+    ],
+    "2013-10": [
+      {
+        "url": "https://mancunion.com/2013/10/02/liveblog-rugby-varsity/",
+        "native_order": 17
+      }
+    ],
+    "2013-05": [
+      {
+        "url": "https://mancunion.com/2013/05/03/as-it-happened-football-varsity/",
+        "native_order": 18
+      }
+    ],
+    "2013-04": [
+      {
+        "url": "https://mancunion.com/2013/04/29/as-it-happened-rugby-league-varsity-university-of-salford-vs-university-of-manchester/",
+        "native_order": 19
+      },
+      {
+        "url": "https://mancunion.com/2013/04/29/as-it-happened-university-challenge-final-2013/",
+        "native_order": 20
+      }
+    ],
+    "2013-03": [
+      {
+        "url": "https://mancunion.com/2013/03/14/headline/",
+        "native_order": 21
+      },
+      {
+        "url": "https://mancunion.com/2013/03/07/as-it-happened-manchestervotes-hustings-general-secretary/",
+        "native_order": 22
+      },
+      {
+        "url": "https://mancunion.com/2013/03/06/as-it-happened-manchestervotes-hustings-activities-and-campaigns/",
+        "native_order": 23
+      },
+      {
+        "url": "https://mancunion.com/2013/03/05/as-it-happened-manchestervotes-hustings-wellbeing/",
+        "native_order": 24
+      },
+      {
+        "url": "https://mancunion.com/2013/03/04/as-it-happened-manchestervotes-hustings-education-and-community-officers/",
+        "native_order": 25
+      }
+    ],
+    "2013-02": [
+      {
+        "url": "https://mancunion.com/2013/02/28/as-it-happened-manchestersu-womens-diversity-officer-hustings/",
+        "native_order": 26
+      },
+      {
+        "url": "https://mancunion.com/2013/02/25/as-it-happened-qa-with-professor-dame-nancy-rothwell/",
+        "native_order": 27
+      },
+      {
+        "url": "https://mancunion.com/2013/02/10/see-your-creative-writing-printed-in-the-books-section/",
+        "native_order": 28
+      }
+    ]
+  },
+  "rule": "one first native URL per missing UK month; chronological month frontier, all XML entries retained"
+}

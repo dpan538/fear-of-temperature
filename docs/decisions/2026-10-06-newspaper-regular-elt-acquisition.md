@@ -1,0 +1,17 @@
+# Regular newspaper ELT acquisition
+
+Decision owner: Dai. Recorded 6 October 2026 after approval of the 1 GiB cumulative media allocation and execution of the prepared monthly continuation.
+
+Dai directs regular acquisition using **Extract → simple structural cleanup → durable Load**, with consolidated transformation later. Source preparation and earlier article-unit corrections remain useful accepted evidence; they must not become a repeatedly reopened pilot or exhaustive validation gate for useful source articles.
+
+The released [package25 plan](../../work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/PLAN.md) governs one existing GPT-6.1 Sol / Extra High owner, with an absolute four-hour deadline, cumulative 1 GiB allocation, 128 MiB incremental checkpoints, live 15 GiB floor and shared single-writer safeguards. No new window or recurring automation is created.
+
+Extract preserves raw source content and observed title/edition/country, source URL, publication/retrieval/version time and source-access evidence. Simple cleanup fixes evident HTML/navigation/widget contamination, inline spacing/encoding, supported dates, identity duplicates and obvious article-boundary faults. It does not perform semantic exclusion, topic/emotion labelling, corpus-wide transformation or distribution equalisation. Reuse settled source access and prior validations; perform one quick check of genuinely changed operational behaviour, with a five-minute startup-check allowance. Repair actual failures in the same task rather than split another validation task.
+
+Load writes actual whole article text and provenance into the dedicated persistent `worker/newspaper_elt.sqlite3` in package25. One transactional writer preserves stable article IDs, raw/body/version hashes, source links, dates and restart safety under the shared lock. Pending/partial components have a separate evidence table and do not inflate complete-article counts. Useful articles load immediately; all sources and final historical-version correctness need not be resolved first. The existing government and other formal databases are outside this newspaper release.
+
+The quantity/identity standard remains unchanged: **at least two complete distinct original articles per claimed month**, each with unique persistent ID and actual source URL. One original multi-page article remains one record; its page/column coordinates are sidecars. Arbitrary text chunks, issues, tables or unrelated-story concatenations cannot supply observations. Retain qualified surplus. Fixed publication interval: **1988-01-01 to 2026-09-21**; September is partial. Report five geographic ledgers and the pooled view separately, and retain explicit source-era, access and coverage gaps.
+
+The 1 GiB allowance includes existing retained media and all successor outputs. Check actual disk capacity/leases before requests and writes; do not resurrect the obsolete inherited combined reserve or silently increase the allocation. All prior refusal/cooldown/access stops and frozen snapshots remain; changed routes require factual evidence. Social-media acquisition, government reopening, hidden evaluator access and third-party messages are not released. Climate/warming retrieval, affect/risk association and fear interpretation remain later evidence levels, not Load gates.
+
+Frozen reports and earlier stop histories retain their original meanings. The coordinator integrates English outer records and substantive English commits on main after the changed-tranche review.

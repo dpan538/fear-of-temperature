@@ -1,0 +1,64 @@
+{
+  "closed_at_utc": "2026-10-06T07:50:39.266571+00:00",
+  "hard_deadline_at_utc": "2026-10-06T08:35:57.971238+00:00",
+  "stop_reason": "Every stratum reached frozen conservative12 article-request-hop attempts; redirects/failures included",
+  "geographic_counters": {
+    "EU/Europe excluding UK": {
+      "discovery": 8,
+      "article": 12
+    },
+    "UK": {
+      "discovery": 12,
+      "article": 12
+    },
+    "AU": {
+      "discovery": 19,
+      "article": 12
+    },
+    "US": {
+      "discovery": 17,
+      "article": 12
+    },
+    "NZ": {
+      "discovery": 18,
+      "article": 12
+    }
+  },
+  "resumption_requires_new_bounded_scope": true,
+  "automatic_continuation": false,
+  "scope_extension": false,
+  "remaining_calendar_frontier": "FRONTIER_v2.json",
+  "native_source_frontiers": [
+    "ODT_SEARCH_MONTH_FRONTIER_v2.json",
+    "MANCUNION_SITEMAP92_FRONTIER_v1.json",
+    "FRONTIER_v2.json",
+    "ODT_SEARCH_MONTH_FRONTIER_v3.json",
+    "TECH_2008_ARTICLE_FRONTIER_v2.json",
+    "GREENLEFT_PAGE30_FRONTIER_v1.json",
+    "TRINITY_HOME_FRONTIER.json",
+    "TRINITY_SITEMAP_FRONTIER_v1.json",
+    "MANCUNION_SITEMAP93_FRONTIER_v1.json",
+    "BEAVER_API_FRONTIER_v1.json",
+    "TECH_JULY_FRONTIER.json",
+    "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER_v2.json",
+    "BEAVER_HOME_FRONTIER.json",
+    "TECH_2008_ARTICLE_FRONTIER_v1.json",
+    "TECH_DECEMBER_FRONTIER.json",
+    "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER.json",
+    "GREENLEFT_PAGE29_FRONTIER_v1.json",
+    "FRONTIER_v1.json",
+    "ODT_SEARCH_MONTH_FRONTIER_v1.json"
+  ],
+  "never_blind_retry": "Exact request stops and host refusals in REQUESTS/TRANSPORT_STATE; partial objects retained, recovery requires explicit versioned evidence/footprint",
+  "named_untransferred_targets": [
+    "ODT November2008 first selected publisher URL in ODT_SEARCH_MONTH_FRONTIER_v3.json",
+    "Ruapehu November2021 observed PDF link in request984c2a2563348bf31585a932",
+    "Trinity remaining post-sitemap article URLs; preserve2008September404 and2008December component limit",
+    "Green Left1992 dated issue frontier;1991 remainder within native issues",
+    "Mancunion remaining dated native URL frontiers; preserve three timeouts and two missing liveblogs",
+    "Beaver subsequent documented API published metadata after first2014 item; historical library item mapping unresolved"
+  ],
+  "new_input_manifest": "PUBLICATION_UNITS_v2.jsonl",
+  "baseline_not_reimported": true,
+  "formal_integration_owner": "coordinator"
+}

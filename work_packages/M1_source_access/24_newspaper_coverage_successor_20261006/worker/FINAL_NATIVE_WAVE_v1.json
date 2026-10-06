@@ -1,0 +1,146 @@
+{
+  "at_utc": "2026-10-06T07:44:34.371807+00:00",
+  "tasks": [
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/29/sydney-greens-divided",
+      "purpose": "article",
+      "native_evidence": "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER_v2.json first native article in selected issue",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/1e279af115fb1948c20cd9b9.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2008/03/07/latkehamentashen-v128-n10",
+      "purpose": "article",
+      "native_evidence": "TECH_2008_ARTICLE_FRONTIER_v2.json first native publication in observed issue128/10",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2008-03",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/cbef7f7f4cd7bff6dac940ea.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/33/moscow-left-demonstrates-against-mcdonalds",
+      "purpose": "article",
+      "native_evidence": "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER_v2.json first native article in selected issue",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-10",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/247993c97215f717cf244c97.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2008/05/09/whoi-v128-n25",
+      "purpose": "article",
+      "native_evidence": "TECH_2008_ARTICLE_FRONTIER_v2.json first native publication in observed issue128/25",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2008-05",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/3e51b3ac2a12d34ba7184084.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/37/young-out-work-0",
+      "purpose": "article",
+      "native_evidence": "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER_v2.json first native article in selected issue",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-11",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/f17e947956a1fc9f2e2ebf81.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2008/06/13/cartalk-v128-n28",
+      "purpose": "article",
+      "native_evidence": "TECH_2008_ARTICLE_FRONTIER_v2.json first native publication in observed issue128/28",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2008-06",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/ea167ffa4ecc50ed6431bcbe.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/39/timorese-message-croatian-rally",
+      "purpose": "article",
+      "native_evidence": "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER_v2.json first native article in selected issue",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-12",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/a0060519132e96abd0f13b2a.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2008/09/19/police-v128-n40",
+      "purpose": "article",
+      "native_evidence": "TECH_2008_ARTICLE_FRONTIER_v2.json first native publication in observed issue128/40",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2008-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/b54294ea2aef5627993050dd.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2008/11/07/maternityleave-v128-n54",
+      "purpose": "article",
+      "native_evidence": "TECH_2008_ARTICLE_FRONTIER_v2.json first native publication in observed issue128/54",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2008-11",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/b029770de316b743c0dd1f4d.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2008/12/05/selfridge-v128-n60",
+      "purpose": "article",
+      "native_evidence": "TECH_2008_ARTICLE_FRONTIER_v2.json first native publication in observed issue128/60",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2008-12",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/e3efb72957d4a352bd4c662b.json"
+    }
+  ],
+  "no_scope_extension": true
+}

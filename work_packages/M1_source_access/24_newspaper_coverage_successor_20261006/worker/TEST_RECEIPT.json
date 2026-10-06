@@ -1,0 +1,9 @@
+{
+  "started_at_utc": "2026-10-06T06:45:34.788289+00:00",
+  "finished_at_utc": "2026-10-06T06:45:34.967618+00:00",
+  "exit_code": 0,
+  "targeted_tests": 10,
+  "output_sha256": "4f3b81eaae7234cdd9a9cbd67e26496f95b58935822ca527e07a6884aad24f07",
+  "tests_sha256": "eec34a3575e8efe18ef614ce80805973a5f075f23ea0d0f4ba3c20848a4d074f",
+  "fixtures": "temporary scheduler/resource/rollback/idempotence fixtures; no network or old DB"
+}

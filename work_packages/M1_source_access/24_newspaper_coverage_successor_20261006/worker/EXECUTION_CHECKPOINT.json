@@ -1,0 +1,43 @@
+{
+  "frozen_at_utc": "2026-10-06T06:45:35.000796+00:00",
+  "plan_sha256": "ea04856c0dd136a90c888c41a45dd40ca9bff33c634c314b69d526c196289825",
+  "scope_sha256": "ac17e33b2ad6e5d77982d1287180092e4410f55d550bc7855e58090cd226229e",
+  "accepted_baseline_receipt_sha256": "33dfda9cc47c0690ff8845cf55cf09b51eb4ae806aadf7083b0f5c146c29b088",
+  "frontier_sha256": "7f9a5a2c36cf1b21539c29bef89be6cd60a76a3d228bbfd473f89f49ee524c66",
+  "entrypoint_digest": "64181ed5fab3d61f99e5a3ff059f7835c5c8857263bdd622523add48189649aa",
+  "native_target_freeze_rule": "Each actually selected observed target is immutable in targets/ before its request; source-month remainder retained separately",
+  "code_digests": {
+    "test_changed.py": "eec34a3575e8efe18ef614ce80805973a5f075f23ea0d0f4ba3c20848a4d074f",
+    "core.py": "5a67044454e16c7fb52f5f845f68fbc498d5cfbd20b860a2557bab607e4e9bb0",
+    "extraction.py": "9c71a4dd07fac20c92cbf777d772ebf0ab79a0ec12eb9cbd9a5c68ed5e3c7042",
+    "frontier.py": "d65a5ad05243bf19a63457fac0c259db006290db401ad4968800dec208a95fa6"
+  },
+  "reused_operational_adapters": {
+    "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper/prototype/parser.py": "baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59",
+    "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/extract_au.py": "e397e33f4a44aba2b04af8c068e66b603a29cd9fab9c2ed3b1984b2d86528497",
+    "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/extract_and_stage.py": "16a4ac32ced1f272a681628208156a87e0245fd1e4d1efa9d55d2de90a0b657d",
+    "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/public_capture.py": "cc83ed816bb4abcbe424a01f8306b19dbfd25acc416e8e40246a6d67557db3c8"
+  },
+  "offline_checks_passed": true,
+  "test_receipt_sha256": "8796e4b4a20d438e0dea5455ea99ba032ecdafa3c0ff050da997595d35d51a9b",
+  "live_preflight": {
+    "at_utc": "2026-10-06T06:45:35.000783+00:00",
+    "free_bytes": 18980098048,
+    "cumulative_media_bytes": 107959582,
+    "lifetime_cap_bytes": 134217728,
+    "original_combined_reserve_bytes": 0,
+    "physical_floor_bytes": 16106127360,
+    "recovery_allowance_bytes": 50331648,
+    "active_lease_bytes": 0,
+    "active_lease_basis": "current named coordinator controls; no unreported lease assumed",
+    "raw_cap_bytes": 2097152,
+    "derived_cap_bytes": 6291456,
+    "pending_receipt_allowance_bytes": 65536,
+    "physical_headroom_after_pending_bytes": 2815184896,
+    "allocation_headroom_after_pending_bytes": 17804002,
+    "passed": true,
+    "limiting_constraint": null
+  },
+  "deadline_utc": "2026-10-06T08:35:57.971238+00:00",
+  "network_execution_released_within_conditions": true
+}

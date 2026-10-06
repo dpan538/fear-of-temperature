@@ -1,0 +1,85 @@
+{
+  "frozen_at_utc": {
+    "current_time": "2026-10-06 07:32:26 UTC"
+  },
+  "selection_rule": "One first returned publisher identity with displayed publication date in each requested missing month; calendar filters only. Body timestamp/day-version conflicts remain pending. No semantic ranking.",
+  "selected": [
+    {
+      "month": "2008-09",
+      "url": "https://www.odt.co.nz/news/world/engine-failure-cited-deadly-russian-jet-crash",
+      "tool_ref": "turn40search0"
+    },
+    {
+      "month": "2008-10",
+      "url": "https://www.odt.co.nz/news/politics/taking-pulse-nation",
+      "tool_ref": "turn40search3"
+    },
+    {
+      "month": "2008-11",
+      "url": "https://www.odt.co.nz/news/politics/clark-faces-defamation-row",
+      "tool_ref": "turn40search1"
+    }
+  ],
+  "observed_publisher_urls": [
+    {
+      "title": "Engine failure cited in deadly Russian jet crash | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/engine-failure-cited-deadly-russian-jet-crash",
+      "tool_ref": "turn40search0"
+    },
+    {
+      "title": "Clark faces defamation row | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/politics/clark-faces-defamation-row",
+      "tool_ref": "turn40search1"
+    },
+    {
+      "title": "Is climate change dimming autumn leaves? | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/climate-change-dimming-autumn-leaves",
+      "tool_ref": "turn40search2"
+    },
+    {
+      "title": "Taking the pulse of the nation | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/politics/taking-pulse-nation",
+      "tool_ref": "turn40search3"
+    },
+    {
+      "title": "Kidnappers kill Mexican child with acid injection | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/kidnappers-kill-mexican-child-acid-injection",
+      "tool_ref": "turn40search4"
+    },
+    {
+      "title": "Unemployment at 9 year high | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/national/unemployment-9-year-high",
+      "tool_ref": "turn40search5"
+    },
+    {
+      "title": "Baby cereal hit by China's milk scandal | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/baby-cereal-hit-chinas-milk-scandal",
+      "tool_ref": "turn40search6"
+    },
+    {
+      "title": "Historic Tin Pan Alley for sale | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/historic-tin-pan-alley-sale",
+      "tool_ref": "turn40search7"
+    },
+    {
+      "title": "Hopes to live to meet his baby | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/hopes-live-meet-his-baby",
+      "tool_ref": "turn40search8"
+    },
+    {
+      "title": "Illegally sited campaign signs a distraction, council says | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/illegally-sited-campaign-signs-distraction-council-says",
+      "tool_ref": "turn40search9"
+    },
+    {
+      "title": "Child sex abuser declines treatment | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/child-sex-abuser-declines-treatment",
+      "tool_ref": "turn40search10"
+    },
+    {
+      "title": "Abandoned picnic remains a mystery | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/national/abandoned-picnic-remains-mystery",
+      "tool_ref": "turn40search11"
+    }
+  ]
+}

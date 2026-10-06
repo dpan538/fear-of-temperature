@@ -1,0 +1,80 @@
+{
+  "frozen_at_utc": {
+    "current_time": "2026-10-06 07:19:30 UTC"
+  },
+  "selection_rule": "First observed publisher-page identity for each queried missing month in returned result order; search is an incomplete acquisition frame and does not establish publisher archive completeness. No topic/length selection; body date must independently agree.",
+  "selected": [
+    {
+      "month": "2008-07",
+      "url": "https://www.odt.co.nz/news/world/olympic-host-sailing-city-battles-massive-algae-growth-pics",
+      "tool_ref": "turn38search0"
+    },
+    {
+      "month": "2008-05",
+      "url": "https://www.odt.co.nz/news/national/jury-quizzes-expert-about-kahui-babies-behaviour",
+      "tool_ref": "turn38search1"
+    }
+  ],
+  "observed_publisher_urls": [
+    {
+      "title": "Olympic host sailing city battles massive algae growth (+ pics) | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/olympic-host-sailing-city-battles-massive-algae-growth-pics",
+      "tool_ref": "turn38search0"
+    },
+    {
+      "title": "Jury quizzes expert about Kahui babies' behaviour | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/national/jury-quizzes-expert-about-kahui-babies-behaviour",
+      "tool_ref": "turn38search1"
+    },
+    {
+      "title": "Variety of speakers for graduation ceremonies | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/variety-speakers-graduation-ceremonies",
+      "tool_ref": "turn38search2"
+    },
+    {
+      "title": "Otago catches a chill | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/weather/otago-catches-chill",
+      "tool_ref": "turn38search3"
+    },
+    {
+      "title": "Three detained in Antigua honeymoon killing | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/three-detained-antigua-honeymoon-killing",
+      "tool_ref": "turn38search4"
+    },
+    {
+      "title": "Khmer takeaway taken away | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/khmer-takeaway-taken-away",
+      "tool_ref": "turn38search5"
+    },
+    {
+      "title": "Police say Kahui `not shelved` | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/national/police-say-kahui-not-shelved-0",
+      "tool_ref": "turn38search6"
+    },
+    {
+      "title": "Nicotine habit can be genetic | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/campus/university-of-otago/nicotine-habit-can-be-genetic",
+      "tool_ref": "turn38search7"
+    },
+    {
+      "title": "First Otago graduation for Te Wananga O Aotearoa | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/first-otago-graduation-te-wananga-o-aotearoa",
+      "tool_ref": "turn38search8"
+    },
+    {
+      "title": "Anger at proposal to reduce parkland | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/anger-proposal-reduce-parkland",
+      "tool_ref": "turn38search9"
+    },
+    {
+      "title": "Man escapes shark attack | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/world/man-escapes-shark-attack",
+      "tool_ref": "turn38search10"
+    },
+    {
+      "title": "Where to from here? | Otago Daily Times Online News",
+      "url": "https://www.odt.co.nz/news/dunedin/where-here",
+      "tool_ref": "turn38search11"
+    }
+  ]
+}

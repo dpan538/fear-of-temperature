@@ -1,0 +1,90 @@
+{
+  "at_utc": "2026-10-06T07:32:26.596127+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2009/09/mental-health-policy/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json first native2009-09",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2009-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/ba3a99ea5fa37c36da44149c.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2011/03/08/live-kylesa-moho-live/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP92_FRONTIER_v1.json first native2011-03",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2011-03",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/79291e22b8b9551994389885.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/18/and-aint-i-woman-quotas",
+      "purpose": "article",
+      "native_evidence": "First native article in June1991 issue18; GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER.json",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-06",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/67c727621effc8d05ae70f30.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/128/15",
+      "purpose": "discovery",
+      "native_evidence": "TECH_MISSING_MONTH_INTERFACES_v1.json observed publisher issue",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/846bee3918a2d3abac8a085f.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/news/world/engine-failure-cited-deadly-russian-jet-crash",
+      "purpose": "article",
+      "native_evidence": "ODT_SEARCH_MONTH_FRONTIER_v3.json first observed publisher result forSeptember2008",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": "2008-09",
+      "access_cleared": true,
+      "raw_cap_bytes": 1048576,
+      "frame_path": "targets/b64269c2f8cc86341384678c.json"
+    },
+    {
+      "source_id": "beaver",
+      "stratum": "UK",
+      "url": "https://thebeaverlse.co.uk/wp-json/wp/v2/posts?per_page=1&order=asc&orderby=date&after=1987-12-31T23:59:59&before=2026-09-22T00:00:00&context=embed&status=publish",
+      "purpose": "discovery",
+      "native_evidence": "Public GET route self link and declared arguments in native API description fcd880f88915eca0606e1876; context embed omits full content, first chronological published identity only",
+      "public_hosts": [
+        "thebeaverlse.co.uk"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 262144,
+      "frame_path": "targets/bf43c301165b21fc0cd1d263.json"
+    }
+  ]
+}

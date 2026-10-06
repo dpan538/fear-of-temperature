@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-10-06T07:13:19.447789+00:00",
+  "native_order_selection": "first declared unit for previously missing month; remaining frontier retained",
+  "target": {
+    "source_id": "otago_daily_times",
+    "stratum": "NZ",
+    "url": "https://www.odt.co.nz/sitemaps/odt/sitemap2.xml",
+    "purpose": "discovery",
+    "native_evidence": "Exact generic sitemap2 entry in saved native sitemap index286637706890867f297654b4",
+    "public_hosts": [
+      "www.odt.co.nz"
+    ],
+    "month": null,
+    "access_cleared": true,
+    "raw_cap_bytes": 1048576,
+    "frame_path": "targets/ffcc86d3e0ec2a150c4cf518.json"
+  },
+  "code_sha256": "5a67044454e16c7fb52f5f845f68fbc498d5cfbd20b860a2557bab607e4e9bb0"
+}

@@ -1,0 +1,90 @@
+{
+  "at_utc": "2026-10-06T07:28:20.000176+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2009/06/dsl-alt-student-offer/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json first native2009-06",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2009-06",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/cc9465ac883e570b26c506c0.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2011/02/22/album-iron-wine-kiss-each-other-clean/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP92_FRONTIER_v1.json first native2011-02",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2011-02",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/96c4fad90dd16884326d8589.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/14/war-crimes-and-humbug",
+      "purpose": "article",
+      "native_evidence": "First native article in May1991 issue14; GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER.json",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-05",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/f65ec64d27ff20629855f20f.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/2007/12/07/briefs-v127-n60",
+      "purpose": "article",
+      "native_evidence": "TECH_DECEMBER_FRONTIER.json first native publication in issue127/60",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": "2007-12",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/b259e743a959daaf749650e3.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/news/world/chinas-olympics-kid-switch-one-had-looks-one-had-voice",
+      "purpose": "article",
+      "native_evidence": "Primary publisher first observed result turn39search0 forAugust2008; query resultdate14Aug; body independently checked",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": "2008-08",
+      "access_cleared": true,
+      "raw_cap_bytes": 1048576,
+      "frame_path": "targets/6a88ff4ce1016c9e34edef35.json"
+    },
+    {
+      "source_id": "beaver",
+      "stratum": "UK",
+      "url": "https://thebeaverlse.co.uk/wp-json/",
+      "purpose": "discovery",
+      "native_evidence": "Exact public api.w.org link observed in publisher homepage rawe4e3a5969a3d1a060fbb61cf; robots ordinary path permitted; no authentication",
+      "public_hosts": [
+        "thebeaverlse.co.uk"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/fcd880f88915eca0606e1876.json"
+    }
+  ]
+}

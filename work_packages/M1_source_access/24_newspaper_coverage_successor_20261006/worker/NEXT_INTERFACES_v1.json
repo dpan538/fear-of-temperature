@@ -1,0 +1,47 @@
+{
+  "at_utc": "2026-10-06T07:20:14.679161+00:00",
+  "tasks": [
+    {
+      "source_id": "beaver",
+      "stratum": "UK",
+      "url": "https://thebeaverlse.co.uk/robots.txt",
+      "purpose": "policy",
+      "native_evidence": "Observed current publisher before historical sitemap probe",
+      "public_hosts": [
+        "thebeaverlse.co.uk"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 65536,
+      "frame_path": "targets/dba37a73559d1bf8d7ce989c.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/9",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE30_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-04",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/2f9215fb9c448c9b1a5fbd86.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/issue/14",
+      "purpose": "discovery",
+      "native_evidence": "GREENLEFT_PAGE30_FRONTIER_v1.json first native issue per missing month",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-05",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/ee7b05a0425fdf9793904631.json"
+    }
+  ]
+}

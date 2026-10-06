@@ -1,0 +1,76 @@
+{
+  "at_utc": "2026-10-06T07:19:30.962227+00:00",
+  "tasks": [
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "url": "https://www.trinitynews.ie/2009/02/art-drama-performance/",
+      "purpose": "article",
+      "native_evidence": "TRINITY_SITEMAP_FRONTIER_v1.json first native2009-02",
+      "public_hosts": [
+        "www.trinitynews.ie",
+        "trinitynews.ie"
+      ],
+      "month": "2009-02",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/8de477a0bc24fb7af77a5461.json"
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "url": "https://mancunion.com/2010/12/13/do-student-ethics-go-up-in-smoke-when-it-comes-to-tobacco-companies/",
+      "purpose": "article",
+      "native_evidence": "MANCUNION_SITEMAP92_FRONTIER_v1.json first native2010-12",
+      "public_hosts": [
+        "mancunion.com"
+      ],
+      "month": "2010-12",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/02c9b104180f39047439bf44.json"
+    },
+    {
+      "source_id": "green_left",
+      "stratum": "AU",
+      "url": "https://www.greenleft.org.au/1991/6/green-politics-looking-beyond-labor",
+      "purpose": "article",
+      "native_evidence": "First native article in March1991 issue6; GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER.json",
+      "public_hosts": [
+        "www.greenleft.org.au"
+      ],
+      "month": "1991-03",
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/b5462c2230d5f3024de47930.json"
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "url": "https://thetech.com/issues/127/52",
+      "purpose": "discovery",
+      "native_evidence": "Native issue href in saved allissues7beb68020911811b49c51045; actualdate pending",
+      "public_hosts": [
+        "thetech.com"
+      ],
+      "month": null,
+      "access_cleared": true,
+      "raw_cap_bytes": 524288,
+      "frame_path": "targets/c062db26f79752fecacb87fd.json"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "url": "https://www.odt.co.nz/news/world/olympic-host-sailing-city-battles-massive-algae-growth-pics",
+      "purpose": "article",
+      "native_evidence": "ODT_SEARCH_MONTH_FRONTIER_v1.json first observed publisher result forJuly2008; selectedbeforebody",
+      "public_hosts": [
+        "www.odt.co.nz"
+      ],
+      "month": "2008-07",
+      "access_cleared": true,
+      "raw_cap_bytes": 1048576,
+      "frame_path": "targets/2b7a69a71af2718af6eead45.json"
+    }
+  ]
+}

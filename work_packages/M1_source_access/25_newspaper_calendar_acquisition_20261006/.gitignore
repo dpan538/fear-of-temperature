@@ -1,0 +1,12 @@
+worker/raw/
+worker/bodies/
+worker/renders/
+worker/parsed/
+worker/previews/
+worker/*.sqlite3*
+worker/**/*.pdf
+worker/**/*.png
+worker/**/*.jpg
+worker/**/*.part
+worker/**/*fulltext*.txt
+**/__pycache__/

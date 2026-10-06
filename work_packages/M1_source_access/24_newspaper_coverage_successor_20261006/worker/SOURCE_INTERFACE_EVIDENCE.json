@@ -1,0 +1,36 @@
+{
+  "at_utc": "2026-10-06T06:53:24.233336+00:00",
+  "trinity_news": {
+    "identity_evidence": "https://www.tcd.ie/news_events/articles/trinity-news-launches-online-archive-1953-1970/",
+    "current_observed_route": "https://trinitynews.ie/",
+    "historical_archive_era_evidenced": "1953-1970; outside current study period, not assumed1988 archive",
+    "body_adapter": {
+      "title": "Trinity News",
+      "country": "IE",
+      "edition": "Trinity College Dublin English student newspaper",
+      "source_frame": "Irish student newspaper supplement; not national representative press",
+      "body_selector": ".entry-content",
+      "title_selector": "h1",
+      "byline_selector": ".author",
+      "exclude_selectors": [
+        "script",
+        "style",
+        "form",
+        "svg",
+        ".sharedaddy",
+        ".jp-relatedposts",
+        ".related-posts",
+        ".author-bio"
+      ],
+      "body_completeness": "Observed unique narrative .entry-content, complete ending and no paywall/preview in saved raw",
+      "boundary_reviewed": true,
+      "provenance": "direct publisher newspaper-page evidence; origin of quoted claims remains separate"
+    },
+    "actual_days_observed": [
+      "2026-04-27",
+      "2026-08-11",
+      "2026-09-28"
+    ],
+    "last_day_outside_cutoff_retained_pending": true
+  }
+}

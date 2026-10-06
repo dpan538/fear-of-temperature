@@ -1,0 +1,1538 @@
+{
+  "selected_only": true,
+  "prior_month_selection_counts": {
+    "1988-02": 1,
+    "2007-02": 3,
+    "2007-03": 3,
+    "2007-04": 3,
+    "2007-05": 3,
+    "2007-08": 3,
+    "2007-10": 1,
+    "2008-02": 3,
+    "2008-08": 3,
+    "2009-02": 3,
+    "2009-09": 3,
+    "2010-02": 3,
+    "2010-09": 3,
+    "2011-02": 3,
+    "2011-09": 3,
+    "2012-02": 3,
+    "2012-08": 3,
+    "2013-02": 3,
+    "2013-07": 1,
+    "2013-08": 3,
+    "2014-02": 3,
+    "2014-08": 3,
+    "2014-11": 1,
+    "2015-02": 3,
+    "2015-09": 3,
+    "2016-02": 3,
+    "2016-04": 1,
+    "2016-09": 3,
+    "2017-02": 3,
+    "2017-05": 1,
+    "2017-06": 1,
+    "2017-09": 3,
+    "2018-02": 3,
+    "2018-03": 1,
+    "2018-09": 3,
+    "2019-02": 3,
+    "2019-09": 3,
+    "2020-02": 1,
+    "2020-07": 3,
+    "2020-08": 3,
+    "2021-02": 3,
+    "2021-09": 3,
+    "2022-02": 3,
+    "2022-06": 1,
+    "2022-09": 3,
+    "2023-02": 3,
+    "2024-02": 3,
+    "2025-02": 3,
+    "2026-02": 3,
+    "2026-08": 3,
+    "2026-09": 3
+  },
+  "inspected_candidates": [
+    {
+      "candidate_record_id": "prior:0",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/519735b7c8577f2497bbd30c.pdf",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/mit_tech_19880202_athena_a5a3ea482006.txt",
+      "body_bytes": 7477,
+      "source_container_kind": "scan",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:1",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c2837f4f44855947b9505122.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/c2837f4f44855947b9505122_3a8cf660265f.txt",
+      "body_bytes": 281,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:2",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/ae6f3b1400244b0bd0c929f9.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/ae6f3b1400244b0bd0c929f9_5aa3b41f048d.txt",
+      "body_bytes": 6618,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:3",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/b1d864de724fca468d0b6229.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/b1d864de724fca468d0b6229_e6dfa3db9199.txt",
+      "body_bytes": 1033,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:4",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/4d528db503b9ebf4842131dc.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/4d528db503b9ebf4842131dc_38e51ef7913f.txt",
+      "body_bytes": 4938,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:5",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/4794d01284ae9c1789c90c04.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/4794d01284ae9c1789c90c04_e04a681fe9eb.txt",
+      "body_bytes": 3357,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:6",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/bb197cc7a0107b35ab4c5c9d.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/bb197cc7a0107b35ab4c5c9d_beec29926fe3.txt",
+      "body_bytes": 8996,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:7",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c4d9a2e82420055891fa8edb.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/c4d9a2e82420055891fa8edb_c9bca7f553dc.txt",
+      "body_bytes": 1126,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:8",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/39f84f8e3549501ca24dca95.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/39f84f8e3549501ca24dca95_02ebba863a5f.txt",
+      "body_bytes": 873,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:9",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/76e3f40db13ea885d951d79e.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/76e3f40db13ea885d951d79e_3315379ae37e.txt",
+      "body_bytes": 12731,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:10",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/55a0a5c91fef028fefc88916.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/55a0a5c91fef028fefc88916_f37d65631a7d.txt",
+      "body_bytes": 2157,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:11",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/56ba8fc2685b963d36ff7883.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/56ba8fc2685b963d36ff7883_6bc788e6cc2d.txt",
+      "body_bytes": 544,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:12",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/44218efd04e055e5d272d4a8.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/44218efd04e055e5d272d4a8_f941b229dbaf.txt",
+      "body_bytes": 6149,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:13",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/85f92532af29ccbe5840c509.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/85f92532af29ccbe5840c509_b93d74e5ec1a.txt",
+      "body_bytes": 568,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:14",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/3636d77d9a485ec561c8e20f.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/3636d77d9a485ec561c8e20f_450b7dbab007.txt",
+      "body_bytes": 268,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:15",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/39e7d9de7964d1aa5c9b2ebe.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/39e7d9de7964d1aa5c9b2ebe_6802ae1a301b.txt",
+      "body_bytes": 4082,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:16",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/84772676a535a99030c72ee8.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/84772676a535a99030c72ee8_7538abf66fa9.txt",
+      "body_bytes": 1341,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:17",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/e8032960cd22a7f14c9ed5da.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/e8032960cd22a7f14c9ed5da_ecb323826c47.txt",
+      "body_bytes": 4680,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:18",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/58279907c223e12ead2d8b9f.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/58279907c223e12ead2d8b9f_5108925208f3.txt",
+      "body_bytes": 2061,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:19",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/1f6cec0deaa0e98531177b31.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/1f6cec0deaa0e98531177b31_e555053dd64d.txt",
+      "body_bytes": 2269,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:20",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/385d18767f223bafac27f53f.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/385d18767f223bafac27f53f_fa39e7f9e683.txt",
+      "body_bytes": 239,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:21",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/537bbbc4f40c3fcf7a4fca42.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/537bbbc4f40c3fcf7a4fca42_928c01a128c7.txt",
+      "body_bytes": 2880,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:22",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/27f9cb327a633f623a5e57e4.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/27f9cb327a633f623a5e57e4_998d90e5d3d5.txt",
+      "body_bytes": 3627,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:23",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/626b7a87a1f495b3de877aa5.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/626b7a87a1f495b3de877aa5_e9c3cdf00c39.txt",
+      "body_bytes": 3527,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:24",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/ecf08895624cb3ca06646078.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/ecf08895624cb3ca06646078_83718496a861.txt",
+      "body_bytes": 8421,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:25",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/035c373e19418fbd05a10c8e.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/035c373e19418fbd05a10c8e_44eac1b3c622.txt",
+      "body_bytes": 3761,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:26",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/076b6e813ad0e1be81e5d512.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/076b6e813ad0e1be81e5d512_1952b3aa81ee.txt",
+      "body_bytes": 3848,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:27",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/44aa03b2ad701e4958b0f26f.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/44aa03b2ad701e4958b0f26f_b9cba9b03846.txt",
+      "body_bytes": 2425,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:28",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/2098ebdc7650f02575bc0ff0.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/2098ebdc7650f02575bc0ff0_291862fbfb02.txt",
+      "body_bytes": 2385,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:29",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/3c53a43516d201718546f5ed.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/3c53a43516d201718546f5ed_3f42b95fe103.txt",
+      "body_bytes": 5985,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:30",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/6d8709332f04756fadc6ff9a.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/6d8709332f04756fadc6ff9a_df0684212fba.txt",
+      "body_bytes": 1848,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:31",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/eded9aa1b82737696ff28294.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/eded9aa1b82737696ff28294_a0532b7c6901.txt",
+      "body_bytes": 2686,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:32",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/2474d96f33f10b2c4a8d4d0e.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/2474d96f33f10b2c4a8d4d0e_0008c374ad1a.txt",
+      "body_bytes": 3838,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:33",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/7d7393b4fcee61930ddc5bbc.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/7d7393b4fcee61930ddc5bbc_baa6b57c8988.txt",
+      "body_bytes": 3588,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:34",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/a2cd9a55e695e950b40a6b05.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/a2cd9a55e695e950b40a6b05_58ce89e9bc83.txt",
+      "body_bytes": 29624,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:35",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/4be78379b36cd7b06fdab55a.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/4be78379b36cd7b06fdab55a_8751f86b283a.txt",
+      "body_bytes": 8582,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:36",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/fd3ed0bbf477616972b8b8de.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/fd3ed0bbf477616972b8b8de_88da168027bf.txt",
+      "body_bytes": 4533,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:37",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/af80b52ac1c015adfd36b165.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/af80b52ac1c015adfd36b165_9ac93fd737f7.txt",
+      "body_bytes": 4068,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:38",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/ae9f2020df13aec886027829.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/ae9f2020df13aec886027829_288bb2c5ce86.txt",
+      "body_bytes": 3240,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:39",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/44cc4483ec96f1955a3a0e6c.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/44cc4483ec96f1955a3a0e6c_5c1789657a34.txt",
+      "body_bytes": 4108,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:40",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/0a497fed731839bfd7f88aed.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/0a497fed731839bfd7f88aed_dd2dade9f6e4.txt",
+      "body_bytes": 34240,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:41",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/1f3882f8dca830a296e5ee60.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/1f3882f8dca830a296e5ee60_a2ec6d4e9e22.txt",
+      "body_bytes": 6012,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:42",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/0bfbd1cddd48f452d00f4a19.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/0bfbd1cddd48f452d00f4a19_0d99785b517e.txt",
+      "body_bytes": 4679,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:43",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/b7778a756ca4a67bf8cb186b.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/b7778a756ca4a67bf8cb186b_4d5512555388.txt",
+      "body_bytes": 510,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:44",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/a06c37faba8259918fb84746.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/a06c37faba8259918fb84746_53cb5cd7fea3.txt",
+      "body_bytes": 3101,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:45",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/70482beb86c3c54122d23736.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/70482beb86c3c54122d23736_de51cb41548c.txt",
+      "body_bytes": 3326,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:46",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/94b21ab862b26a5113891970.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/94b21ab862b26a5113891970_888687f02286.txt",
+      "body_bytes": 820,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:47",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/5667f141e2452b9a99cbd587.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/5667f141e2452b9a99cbd587_ca7f808b2ac8.txt",
+      "body_bytes": 3412,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:48",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/871885a1baf0a5b9eeb32425.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/871885a1baf0a5b9eeb32425_65730c437c56.txt",
+      "body_bytes": 1626,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:49",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/cef19081aecc4aa2058342b2.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/cef19081aecc4aa2058342b2_56fe29d6a4fb.txt",
+      "body_bytes": 12547,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:50",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/5d58c684e5a28b4da4a9a005.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/5d58c684e5a28b4da4a9a005_51cd4e2f28f2.txt",
+      "body_bytes": 4764,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:51",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/2ca461a98bbe83277192815f.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/2ca461a98bbe83277192815f_9b749c812909.txt",
+      "body_bytes": 2401,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:52",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/ee6d0138b71661a0758de607.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/ee6d0138b71661a0758de607_235da4f3adea.txt",
+      "body_bytes": 606,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:53",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/14660dda2028b6669454d150.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/14660dda2028b6669454d150_6db018c4e24e.txt",
+      "body_bytes": 3268,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:54",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/2d172d739e9cd4cae651b729.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/2d172d739e9cd4cae651b729_b29ffecc4787.txt",
+      "body_bytes": 5650,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:55",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/b5912c595907ef00f656a276.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/b5912c595907ef00f656a276_39432846b4ff.txt",
+      "body_bytes": 3757,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:56",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/3a8be84fb30171b33fd54e8f.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/3a8be84fb30171b33fd54e8f_dbc6b7a9a5f1.txt",
+      "body_bytes": 4257,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:57",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/693c1fe9c6bed36af2f6ec04.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/693c1fe9c6bed36af2f6ec04_1d79f612b952.txt",
+      "body_bytes": 23340,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:58",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/a9b09059db869076d2521d88.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/a9b09059db869076d2521d88_a7d3238b4681.txt",
+      "body_bytes": 5021,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:59",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/b3f207cd1ec197a3e3318671.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/b3f207cd1ec197a3e3318671_7f2b099e32d3.txt",
+      "body_bytes": 18690,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:60",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/56ae4e866606c66e5ea57b61.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/56ae4e866606c66e5ea57b61_58e1c941b5fa.txt",
+      "body_bytes": 1319,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:61",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/1e9f290a201d37ddf4f27aeb.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/1e9f290a201d37ddf4f27aeb_b0d9e8f10c35.txt",
+      "body_bytes": 1350,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:62",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/15355d3f6614f8f980e165bb.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/15355d3f6614f8f980e165bb_1adeb1c2a012.txt",
+      "body_bytes": 1210,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:63",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/1404d7b0e05371037fe006ee.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/1404d7b0e05371037fe006ee_7904eba8c1c7.txt",
+      "body_bytes": 2410,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:64",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/663e01f6946dc215d2367669.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/663e01f6946dc215d2367669_023aac8d1699.txt",
+      "body_bytes": 4927,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:65",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/158fdaba1c8ac1fc6aca9464.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/158fdaba1c8ac1fc6aca9464_dddd444e43cf.txt",
+      "body_bytes": 1207,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:66",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/a06809abb109c1b6ca081c35.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/a06809abb109c1b6ca081c35_d408c5fe3d15.txt",
+      "body_bytes": 871,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:67",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/285b5011dbb9d1568b8a75a5.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/285b5011dbb9d1568b8a75a5_9feb1d31b768.txt",
+      "body_bytes": 1848,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:68",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/86df6d76834b2a9aa3290d00.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/86df6d76834b2a9aa3290d00_a23a10c35803.txt",
+      "body_bytes": 1105,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:69",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/5e4493b933a25e7dc025c77e.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/5e4493b933a25e7dc025c77e_6fcc0854fe78.txt",
+      "body_bytes": 3236,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:70",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/878783c43a4c47add53658fc.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/878783c43a4c47add53658fc_1b77111ce528.txt",
+      "body_bytes": 2613,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:71",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/3fbc3b61db199ce37c1ff142.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/3fbc3b61db199ce37c1ff142_18898f0679e4.txt",
+      "body_bytes": 842,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:72",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/fcbf12e5abc7f15285a60a5a.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/fcbf12e5abc7f15285a60a5a_1640d057f19b.txt",
+      "body_bytes": 7506,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:73",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/5dc8576067731d4ce4bd8673.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/5dc8576067731d4ce4bd8673_b72a84cadd05.txt",
+      "body_bytes": 955,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:74",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c34d188bcf2c8fb34d88e158.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/c34d188bcf2c8fb34d88e158_944caf44b718.txt",
+      "body_bytes": 2862,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:75",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/e2e3e2161045289230a26e8b.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/e2e3e2161045289230a26e8b_5fdfab06a500.txt",
+      "body_bytes": 2263,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:76",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/9215245bfc228da83be96cbe.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/9215245bfc228da83be96cbe_45f2b17b2e16.txt",
+      "body_bytes": 650,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:77",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/6e7d7d24dad8372b6d7f03e0.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/6e7d7d24dad8372b6d7f03e0_2e7f1cb2e731.txt",
+      "body_bytes": 8599,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:78",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/08bc405732b6ebbac9827cd9.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/08bc405732b6ebbac9827cd9_8370a5f687fe.txt",
+      "body_bytes": 2689,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:79",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/1ef0ba2bc2df34a6e1cb437d.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/1ef0ba2bc2df34a6e1cb437d_2f3f2cbab268.txt",
+      "body_bytes": 202,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:80",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/7e9e47268546f9c7b10eefc4.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/7e9e47268546f9c7b10eefc4_f5c8725ffdcd.txt",
+      "body_bytes": 1667,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:81",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/f85d925ab55ee1382f2c6cf8.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/f85d925ab55ee1382f2c6cf8_e0ce808b9e53.txt",
+      "body_bytes": 5515,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:82",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c6620ecc52cd54390bb1e92e.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/c6620ecc52cd54390bb1e92e_e20dbd827243.txt",
+      "body_bytes": 10186,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:83",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/e06ecdbd5d9928b616970d4e.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/e06ecdbd5d9928b616970d4e_e33e8e766321.txt",
+      "body_bytes": 2152,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:84",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/3e0e0f2de3358973daacb0bb.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/3e0e0f2de3358973daacb0bb_562b73050584.txt",
+      "body_bytes": 991,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:85",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/75a0d85baa63cf7be519133c.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/75a0d85baa63cf7be519133c_dc7ee0153ce8.txt",
+      "body_bytes": 5288,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:86",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/fc02e55acb9b91b52c30f0c0.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/fc02e55acb9b91b52c30f0c0_ba0a9e7d8c83.txt",
+      "body_bytes": 444,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:87",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/3223bc00998c9ba3733424ba.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/3223bc00998c9ba3733424ba_75ecceccdcba.txt",
+      "body_bytes": 1259,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:88",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/e9caed05c592e8132dbc4c6d.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/e9caed05c592e8132dbc4c6d_a1c351386d23.txt",
+      "body_bytes": 2734,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:89",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/4b1bc451193cbe33d2d4d7f4.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/4b1bc451193cbe33d2d4d7f4_1f4bbf51516b.txt",
+      "body_bytes": 1411,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:90",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/d7bde94cf700b93494ab0a35.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/d7bde94cf700b93494ab0a35_9b6fa7a35d9d.txt",
+      "body_bytes": 579,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:91",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/dee2cd56650e3b5c9ae3d68b.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/dee2cd56650e3b5c9ae3d68b_3ae4bd6cbdfc.txt",
+      "body_bytes": 3865,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:92",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/a9cf4ff746aa025a2d9df3af.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/a9cf4ff746aa025a2d9df3af_ee70ed83b7ab.txt",
+      "body_bytes": 420,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:93",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/02bff675cc91e742f472c6d1.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/02bff675cc91e742f472c6d1_7693203836b6.txt",
+      "body_bytes": 6231,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:94",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/7583e30d547dc8eb20635b37.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/7583e30d547dc8eb20635b37_191f96578301.txt",
+      "body_bytes": 1606,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:95",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/9d0fc22918859044e8ee0011.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/9d0fc22918859044e8ee0011_123f20ac2c5b.txt",
+      "body_bytes": 312,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:96",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/3ae22c4d0e1ed91d70d01f45.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/3ae22c4d0e1ed91d70d01f45_7fc2a58104ba.txt",
+      "body_bytes": 13585,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:97",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/f2f70ce5011b148ae61539f4.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/f2f70ce5011b148ae61539f4_d371e039f903.txt",
+      "body_bytes": 10760,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:98",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/4dbb01294d058e27c27547cd.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/4dbb01294d058e27c27547cd_79fbc07a10e3.txt",
+      "body_bytes": 3566,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:99",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/288fc64fd9bc216f07d8f622.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/288fc64fd9bc216f07d8f622_ef0ed6700d27.txt",
+      "body_bytes": 2444,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:100",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/aceb56d1b30298e7aaa68808.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/aceb56d1b30298e7aaa68808_89411db2506b.txt",
+      "body_bytes": 3901,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:101",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/6eb441dafa3e516f996e53c2.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/6eb441dafa3e516f996e53c2_183fa88591da.txt",
+      "body_bytes": 11217,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:102",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/307dc5ef8524af5c9100def2.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/307dc5ef8524af5c9100def2_2eb80e28f7c6.txt",
+      "body_bytes": 423,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:103",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/04ba9cf25535b0e93bec6d58.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/04ba9cf25535b0e93bec6d58_02a7aa0540fd.txt",
+      "body_bytes": 1894,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:104",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/73155f3ed86c93ea3fe1f27a.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/73155f3ed86c93ea3fe1f27a_d8708801f4a8.txt",
+      "body_bytes": 2079,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:105",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/111bf967b17cce61fb44a75c.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/111bf967b17cce61fb44a75c_08631ce46de4.txt",
+      "body_bytes": 5145,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:106",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/41d59373e116c5fdda1ec451.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/41d59373e116c5fdda1ec451_8b3a5738d9c7.txt",
+      "body_bytes": 2865,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:107",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/f836bce97fc7414e561e717a.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/f836bce97fc7414e561e717a_628c7bdc5dfe.txt",
+      "body_bytes": 2358,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:108",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/0a815d7062949f2cf7328114.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/0a815d7062949f2cf7328114_8c07bced9a6b.txt",
+      "body_bytes": 2798,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:109",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/ae6e3dfff00cd1e216e29687.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/ae6e3dfff00cd1e216e29687_fa589df16f34.txt",
+      "body_bytes": 3623,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:110",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/68b098c90c6a9729c181b898.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/68b098c90c6a9729c181b898_e32abbe8f39c.txt",
+      "body_bytes": 3297,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:111",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/9e4f291f60ffc98c8a95e8d6.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/9e4f291f60ffc98c8a95e8d6_8a0e670f0f54.txt",
+      "body_bytes": 3000,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:112",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/dac0a6ec8ad6db8dcbb87118.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/dac0a6ec8ad6db8dcbb87118_e3b0c44298fc.txt",
+      "body_bytes": 0,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:113",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/48de9a9e4d1c2faff77f194c.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/48de9a9e4d1c2faff77f194c_c41f2247dad7.txt",
+      "body_bytes": 10914,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:114",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/6f3d6126e9717ab4ec18d167.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/6f3d6126e9717ab4ec18d167_3831cf9671ec.txt",
+      "body_bytes": 4746,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:115",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/82cef42ec31e8ca3aa138458.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/82cef42ec31e8ca3aa138458_310cfb9b4893.txt",
+      "body_bytes": 400,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:116",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/8d0aa725a070486888b1db6e.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/8d0aa725a070486888b1db6e_4702abd6aac5.txt",
+      "body_bytes": 1343,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:117",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/03b0677d6bc363d7b7c7324c.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/03b0677d6bc363d7b7c7324c_41e1e8800cc5.txt",
+      "body_bytes": 4234,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:118",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/9525a151e54211d4fa4247e4.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/9525a151e54211d4fa4247e4_42b28f266c68.txt",
+      "body_bytes": 3700,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:119",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/7d7fd18983d3ce78bdecbf6a.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/7d7fd18983d3ce78bdecbf6a_ba6f2fddabe1.txt",
+      "body_bytes": 2799,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:120",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/70f17d24a1c8249c30f2caae.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/70f17d24a1c8249c30f2caae_82556cf6618f.txt",
+      "body_bytes": 482,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:121",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c05b69f495047c57a559a794.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/c05b69f495047c57a559a794_57b0270c58c5.txt",
+      "body_bytes": 7121,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:122",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/93bdf6f1be5c4f632f149ef8.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/93bdf6f1be5c4f632f149ef8_6beac9c4d3d0.txt",
+      "body_bytes": 12198,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:123",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/2f5e1833e4fc544b9a8d6caa.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/2f5e1833e4fc544b9a8d6caa_8295065019f9.txt",
+      "body_bytes": 9826,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:124",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/f54bf5329a259b9b66bbca76.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/f54bf5329a259b9b66bbca76_a936e56a30d2.txt",
+      "body_bytes": 11912,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "prior:125",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c4678dcde2c444dff2c4d243.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/c4678dcde2c444dff2c4d243_c43f3f79e711.txt",
+      "body_bytes": 6771,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:126",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/01a841aea6bceee41f17c467.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/01a841aea6bceee41f17c467_fad276721ca5.txt",
+      "body_bytes": 5466,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:127",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/40a10b6f6851c15cf7ced59d.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/40a10b6f6851c15cf7ced59d_e9371aa230b3.txt",
+      "body_bytes": 352,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:128",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/d412f74e55abc02492e4609b.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/d412f74e55abc02492e4609b_f1f678cc2f73.txt",
+      "body_bytes": 1636,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:129",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/d12a926971ca6d0def42a11c.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/d12a926971ca6d0def42a11c_37a360666aaa.txt",
+      "body_bytes": 5767,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:130",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/8ab54e9fc9cd28b86e1f1342.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/8ab54e9fc9cd28b86e1f1342_b52af24f4b2e.txt",
+      "body_bytes": 438,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "prior:131",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/e96d68e1d507fea2730f4256.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/e96d68e1d507fea2730f4256_64d6f9aee72a.txt",
+      "body_bytes": 4747,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "prior:132",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/ca2f8bc46927684b1d96a3ed.bin",
+      "body_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/bodies/ca2f8bc46927684b1d96a3ed_c11d8f0424ff.txt",
+      "body_bytes": 1450,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:0",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/33b3923a3e362e1a49d46f7b.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/33b3923a3e362e1a49d46f7b_d3a1b66ac292.txt",
+      "body_bytes": 6742,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:1",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/1d7e5aabe4b0df875404e51c.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/1d7e5aabe4b0df875404e51c_cda991363e02.txt",
+      "body_bytes": 8090,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:2",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b60bccb5442154e66e6aedcd.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b60bccb5442154e66e6aedcd_c2fdcaf7e076.txt",
+      "body_bytes": 9328,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:3",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/7cf92b24a4e423338abf909e.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/7cf92b24a4e423338abf909e_4d9b00c3ed6e.txt",
+      "body_bytes": 1765,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:4",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/0383507f46c7645b78ac17e9.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/0383507f46c7645b78ac17e9_5888d63c9b16.txt",
+      "body_bytes": 9273,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:5",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/062ca3d4f5b2c1600cbbf897.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/062ca3d4f5b2c1600cbbf897_f4b454dccc95.txt",
+      "body_bytes": 1351,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:6",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/deae8d05fce8aa233829c6ca.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/deae8d05fce8aa233829c6ca_374a691033c2.txt",
+      "body_bytes": 1261,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:7",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/88b3360ccaf1e022347a4fb6.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/88b3360ccaf1e022347a4fb6_dd7259c5dc9b.txt",
+      "body_bytes": 3347,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:8",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/58f50d15c1aa04f65316bd3c.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/58f50d15c1aa04f65316bd3c_817a86290684.txt",
+      "body_bytes": 3424,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:9",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/ccf12355ef1b21b3cecdf8c5.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/ccf12355ef1b21b3cecdf8c5_4121e4d75537.txt",
+      "body_bytes": 3587,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:10",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b4316d670314b6e7c2490351.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b4316d670314b6e7c2490351_66dbb2234c0f.txt",
+      "body_bytes": 101,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:11",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/1933522535f08ee4b0a69f24.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/1933522535f08ee4b0a69f24_f50180f736a4.txt",
+      "body_bytes": 28,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:12",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/538a3243245917fbb285da20.bin",
+      "body_reference": null,
+      "body_bytes": 0,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:13",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/0a463ef37c26f81d36bcd867.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/0a463ef37c26f81d36bcd867_192d41156b68.txt",
+      "body_bytes": 1965,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:14",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/af46576d40c6eae4ed5eff7a.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/af46576d40c6eae4ed5eff7a_ac40d494b057.txt",
+      "body_bytes": 3388,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:15",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/8de477a0bc24fb7af77a5461.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/8de477a0bc24fb7af77a5461_f60f1e9fca0e.txt",
+      "body_bytes": 5293,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:16",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b5462c2230d5f3024de47930.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b5462c2230d5f3024de47930_e22730d1a495.txt",
+      "body_bytes": 13713,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:17",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/2b7a69a71af2718af6eead45.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/2b7a69a71af2718af6eead45_2fcaaf3b662e.txt",
+      "body_bytes": 4110,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:18",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/02c9b104180f39047439bf44.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/02c9b104180f39047439bf44_b12cc353a28a.txt",
+      "body_bytes": 5207,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:19",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/0cee781789fd42f8ddf14bef.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/0cee781789fd42f8ddf14bef_23b95207e4c3.txt",
+      "body_bytes": 1437,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:20",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/0e08a24af2ca6fbc9189a4ac.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/0e08a24af2ca6fbc9189a4ac_2c760edcadac.txt",
+      "body_bytes": 4348,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:21",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/cbfbba239815697893b7016f.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/cbfbba239815697893b7016f_12d66170a053.txt",
+      "body_bytes": 621,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:22",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/2bbc51c2816dd6d2ce4ecbe6.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/2bbc51c2816dd6d2ce4ecbe6_7ff5abc42d68.txt",
+      "body_bytes": 4499,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:23",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/cc9465ac883e570b26c506c0.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/cc9465ac883e570b26c506c0_09575bbf63b2.txt",
+      "body_bytes": 862,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "successor:24",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/96c4fad90dd16884326d8589.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/96c4fad90dd16884326d8589_bbfbcd25db24.txt",
+      "body_bytes": 1722,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:25",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/f65ec64d27ff20629855f20f.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/f65ec64d27ff20629855f20f_f1eac216e438.txt",
+      "body_bytes": 3875,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:26",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b259e743a959daaf749650e3.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b259e743a959daaf749650e3_15dff2ff8524.txt",
+      "body_bytes": 2483,
+      "source_container_kind": "HTML",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:27",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/6a88ff4ce1016c9e34edef35.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/6a88ff4ce1016c9e34edef35_3a5c58b24aed.txt",
+      "body_bytes": 5821,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:28",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/ba3a99ea5fa37c36da44149c.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/ba3a99ea5fa37c36da44149c_9cac2330512e.txt",
+      "body_bytes": 8136,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:29",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/79291e22b8b9551994389885.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/79291e22b8b9551994389885_f3472da558a1.txt",
+      "body_bytes": 986,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:30",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/67c727621effc8d05ae70f30.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/67c727621effc8d05ae70f30_a61af4951e1f.txt",
+      "body_bytes": 3518,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:31",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b64269c2f8cc86341384678c.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b64269c2f8cc86341384678c_e27dd6f1c550.txt",
+      "body_bytes": 4722,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:32",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/396db687a34cc0e079044a87.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/396db687a34cc0e079044a87_dacb504c7a23.txt",
+      "body_bytes": 4150,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:33",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/0c82f6770097daab91cd2a9e.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/0c82f6770097daab91cd2a9e_39a232fe5a55.txt",
+      "body_bytes": 3566,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:34",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b377b9cb4ccc8eba844018bf.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b377b9cb4ccc8eba844018bf_5087d06da32c.txt",
+      "body_bytes": 308,
+      "source_container_kind": "HTML",
+      "disposition": "non_article"
+    },
+    {
+      "candidate_record_id": "successor:35",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/c4284468a4e82e1fb88649c4.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/c4284468a4e82e1fb88649c4_7b012ce0efbf.txt",
+      "body_bytes": 4120,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:36",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/ff56baed8e57070bc71b20c3.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/ff56baed8e57070bc71b20c3_14df3daee170.txt",
+      "body_bytes": 12659,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:37",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b3b5562c6038420fe4bb36e2.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b3b5562c6038420fe4bb36e2_3388b3ff8509.txt",
+      "body_bytes": 1377,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:38",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/be38629596901dab8dbc826d.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/be38629596901dab8dbc826d_c6e72ef27a71.txt",
+      "body_bytes": 4171,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:39",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/1e279af115fb1948c20cd9b9.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/1e279af115fb1948c20cd9b9_43e655750980.txt",
+      "body_bytes": 1017,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:40",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/cbef7f7f4cd7bff6dac940ea.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/cbef7f7f4cd7bff6dac940ea_5c82b6dfb2ec.txt",
+      "body_bytes": 6674,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:41",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/247993c97215f717cf244c97.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/247993c97215f717cf244c97_bb3071a1cf90.txt",
+      "body_bytes": 2914,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:42",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/3e51b3ac2a12d34ba7184084.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/3e51b3ac2a12d34ba7184084_bfdb99284c03.txt",
+      "body_bytes": 8125,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:43",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/f17e947956a1fc9f2e2ebf81.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/f17e947956a1fc9f2e2ebf81_517b67e52443.txt",
+      "body_bytes": 4893,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:44",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/ea167ffa4ecc50ed6431bcbe.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/ea167ffa4ecc50ed6431bcbe_a09bd8ca07e9.txt",
+      "body_bytes": 7017,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:45",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/a0060519132e96abd0f13b2a.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/a0060519132e96abd0f13b2a_07fee22d3b41.txt",
+      "body_bytes": 1040,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:46",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b54294ea2aef5627993050dd.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b54294ea2aef5627993050dd_d50e3eafb298.txt",
+      "body_bytes": 4732,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:47",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/b029770de316b743c0dd1f4d.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/b029770de316b743c0dd1f4d_d79802f2c037.txt",
+      "body_bytes": 5948,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:48",
+      "raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/e3efb72957d4a352bd4c662b.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/e3efb72957d4a352bd4c662b_a9e311e29b26.txt",
+      "body_bytes": 4680,
+      "source_container_kind": "HTML",
+      "disposition": "confirmed_complete"
+    },
+    {
+      "candidate_record_id": "successor:49",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/f7f15ee6a44e170c2c029958.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/mapped_1989-02-07.txt",
+      "body_bytes": 6681,
+      "source_container_kind": "scan",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:50",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/4d7a6d03d3fc09f25b9489d9.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/mapped_1990-02-06.txt",
+      "body_bytes": 4537,
+      "source_container_kind": "scan",
+      "disposition": "pending"
+    },
+    {
+      "candidate_record_id": "successor:51",
+      "raw_reference": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005/raw/c6809192b487e2bc02763d9a.bin",
+      "body_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/bodies/mapped_1991-02-01.txt",
+      "body_bytes": 3518,
+      "source_container_kind": "scan",
+      "disposition": "pending"
+    }
+  ]
+}

@@ -1,0 +1,243 @@
+{
+  "recorded_at_utc": {
+    "current_time": "2026-10-06 07:17:42 UTC"
+  },
+  "basis": "Corresponding retained public web-search responses; locators only, no raw article payload counted as acquisition",
+  "results": [
+    {
+      "stored_result": "p24_research1",
+      "locators": [
+        {
+          "title": "Trinity News Launches Online Archive, 1953-1970 - News & Events | Trinity College Dublin",
+          "url": "https://www.tcd.ie/news_events/articles/trinity-news-launches-online-archive-1953-1970/",
+          "tool_ref": "turn35search0"
+        },
+        {
+          "title": "Papers Past | Newspapers | Explore | Ruapehu Bulletin",
+          "url": "https://paperspast.natlib.govt.nz/newspapers/ruapehu-bulletin",
+          "tool_ref": "turn35search1"
+        },
+        {
+          "title": "Ruapehu bulletin [electronic resource]. | Items | National Library of New Zealand | National Library of New Zealand",
+          "url": "https://natlib.govt.nz/records/20917393",
+          "tool_ref": "turn35search2"
+        },
+        {
+          "title": "Trinity News",
+          "url": "https://en.wikipedia.org/wiki/Trinity_News",
+          "tool_ref": "turn35search12"
+        },
+        {
+          "title": "The Beaver (newspaper)",
+          "url": "https://en.wikipedia.org/wiki/The_Beaver_%28newspaper%29",
+          "tool_ref": "turn35search13"
+        },
+        {
+          "title": "The Beaver archives",
+          "url": "https://onlinebooks.library.upenn.edu/webbin/serial?id=beaverlse",
+          "tool_ref": "turn35search3"
+        },
+        {
+          "title": "News",
+          "url": "https://www.ruapehu.info/news",
+          "tool_ref": "turn35search4"
+        },
+        {
+          "title": "Media — The Preserving Local History and Education Trust",
+          "url": "https://preservinglocalhistory.squarespace.com/media",
+          "tool_ref": "turn35search5"
+        },
+        {
+          "title": "Trinity College Dublin",
+          "url": "https://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "tool_ref": "turn35search14"
+        },
+        {
+          "title": "IE TCD MS 10888: PAPERS OF ALBERT JOSEPH",
+          "url": "https://www.tcd.ie/library/research-collections/assets/Docs/10888AlbertJosephMcConnell.pdf",
+          "tool_ref": "turn35search15"
+        },
+        {
+          "title": "Trinity News",
+          "url": "https://www.trinitynewsarchive.ie/pdf/07-08.pdf",
+          "tool_ref": "turn35search16"
+        },
+        {
+          "title": "1617 Newspapers from 66 districts in 15 regions",
+          "url": "https://www.nznewspapers.org/places/",
+          "tool_ref": "turn35search6"
+        },
+        {
+          "title": "Historic student newspapers - UK student newspapers",
+          "url": "https://sites.google.com/port.ac.uk/historicstudentnewspapers/uk-student-newspapers",
+          "tool_ref": "turn35search7"
+        },
+        {
+          "title": "LSE Alumni - LSE Class of 1980 & 1985",
+          "url": "https://www.alumni.lse.ac.uk/s/1623/interior-hybrid.aspx?cc=1&gid=1&pgid=1010&sessionid=4ecc3401-4292-4651-8b49-d7450cdcfec9&sid=1623",
+          "tool_ref": "turn35search8"
+        },
+        {
+          "title": "TRINITY NEWS",
+          "url": "https://www.trinitynewsarchive.ie/pdf/01.01.pdf",
+          "tool_ref": "turn35search17"
+        },
+        {
+          "title": "1617 New Zealand Newspapers",
+          "url": "https://www.nznewspapers.org/titles/",
+          "tool_ref": "turn35search9"
+        },
+        {
+          "title": "236 current Newspapers",
+          "url": "https://www.nznewspapers.org/current/",
+          "tool_ref": "turn35search10"
+        },
+        {
+          "title": "London School of Economics and Political Science (#LSE) Digital Library | bluesyemre",
+          "url": "https://bluesyemre.wordpress.com/2019/04/28/london-school-of-economics-and-political-science-lse-digital-library/",
+          "tool_ref": "turn35search11"
+        },
+        {
+          "title": "TRINITY NEWS",
+          "url": "https://www.trinitynewsarchive.ie/pdf/09.15.pdf",
+          "tool_ref": "turn35search18"
+        },
+        {
+          "title": "Ruapehu Bulletin CLASSIFIEDS",
+          "url": "https://assets-global.website-files.com/5fd3dd4b71a8d4831c9fdb7d/65b9596b4156cb98f2078ba3_1994_310124_bulletin.pdf",
+          "tool_ref": "turn35search19"
+        },
+        {
+          "title": "Trinity News",
+          "url": "https://www.trinitynewsarchive.ie/pdf/07-15.pdf",
+          "tool_ref": "turn35search20"
+        },
+        {
+          "title": "Laurentian Society",
+          "url": "https://en.wikipedia.org/wiki/Laurentian_Society",
+          "tool_ref": "turn35search21"
+        },
+        {
+          "title": "The University Times",
+          "url": "https://en.wikipedia.org/wiki/The_University_Times",
+          "tool_ref": "turn35search22"
+        },
+        {
+          "title": "LSE Students' Union",
+          "url": "https://en.wikipedia.org/wiki/LSE_Students%27_Union",
+          "tool_ref": "turn35search23"
+        }
+      ]
+    },
+    {
+      "stored_result": "p24_research2",
+      "locators": [
+        {
+          "title": "maltatoday None | Norman Darma",
+          "url": "https://archive.maltatoday.com.mt/midweek/2007/07/25/pix/front_mw250707.pdf",
+          "tool_ref": "turn36search12"
+        },
+        {
+          "title": "EDITORIA",
+          "url": "https://archive.maltatoday.com.mt/2009/06/03/pix/edition_3.pdf",
+          "tool_ref": "turn36search13"
+        },
+        {
+          "title": "3",
+          "url": "https://archive.maltatoday.com.mt/2009/06/04/pix/edition_4.pdf",
+          "tool_ref": "turn36search14"
+        },
+        {
+          "title": "election special None | ELECTIONS ay 12 dayS to go Harry revolu None | Harry revolu | ’s ‘silent tion’ - PG 8 --- | --- | --- | --- election special maltatod | ELECTIONS ay 12 dayS to go Harry revolu None | | election special None | ELECTIONS ay 12 dayS to go Harry revolu None | | election special Issue 1 • MONDAY, 25 FEBRUARY 2008 • www.maltatoday.co | ELECTIONS ay 12 dayS to go Harry revolu m.mt PRICE €0.50 / Lm0.21 | |Leaders stir up thousands",
+          "url": "https://archive.maltatoday.com.mt/2008/02/24/pix/election_special_01.pdf",
+          "tool_ref": "turn36search15"
+        }
+      ]
+    },
+    {
+      "stored_result": "p24_research3",
+      "locators": [
+        {
+          "title": "Welcome to Green Left",
+          "url": "https://www.greenleft.org.au/1991/1/welcome-green-left",
+          "tool_ref": "turn37search0"
+        },
+        {
+          "title": "Green Left Weekly celebrates 20 years!",
+          "url": "https://www.greenleft.org.au/2011/868/news/green-left-weekly-celebrates-20-years",
+          "tool_ref": "turn37search1"
+        },
+        {
+          "title": "Ten years of refusing to toe the line",
+          "url": "https://www.greenleft.org.au/2001/432/ten-years-refusing-toe-line",
+          "tool_ref": "turn37search2"
+        },
+        {
+          "title": "From the first issue: Introducing Green Left Weekly",
+          "url": "https://www.greenleft.org.au/2001/432/first-issue-introducing-green-left-weekly",
+          "tool_ref": "turn37search3"
+        },
+        {
+          "title": "Green Left — the work of many people",
+          "url": "https://www.greenleft.org.au/content/green-left-work-many-people",
+          "tool_ref": "turn37search4"
+        },
+        {
+          "title": "Write on",
+          "url": "https://www.greenleft.org.au/1991/1/write",
+          "tool_ref": "turn37search5"
+        },
+        {
+          "title": "Green Left Weekly: more than a good idea",
+          "url": "https://www.greenleft.org.au/content/green-left-weekly-more-good-idea",
+          "tool_ref": "turn37search6"
+        },
+        {
+          "title": "Green Left’s 20 years of independence",
+          "url": "https://www.greenleft.org.au/content/green-lefts-20-years-independence",
+          "tool_ref": "turn37search7"
+        },
+        {
+          "title": "Making a difference",
+          "url": "https://www.greenleft.org.au/1997/300/making-difference",
+          "tool_ref": "turn37search8"
+        },
+        {
+          "title": "Congratulations to you",
+          "url": "https://www.greenleft.org.au/1991/20/analysis/congratulations-you",
+          "tool_ref": "turn37search9"
+        },
+        {
+          "title": "1000 issues of green activism",
+          "url": "https://www.greenleft.org.au/2014/994/analysis/1000-issues-green-activism",
+          "tool_ref": "turn37search10"
+        },
+        {
+          "title": "Issue 993 | Green Left",
+          "url": "https://www.greenleft.org.au/issue/993",
+          "tool_ref": "turn37search11"
+        },
+        {
+          "title": "For ecosocialist action",
+          "url": "https://www.greenleft.org.au/sites/default/files/public_files/GL_PDFs/gl1381.pdf",
+          "tool_ref": "turn37search12"
+        },
+        {
+          "title": "1434p01.indd",
+          "url": "https://www.greenleft.org.au/sites/default/files/public_files/GL_PDFs/gl1434.pdf",
+          "tool_ref": "turn37search13"
+        },
+        {
+          "title": "1447p01.indd",
+          "url": "https://www.greenleft.org.au/sites/default/files/2026-02/gl1447.pdf",
+          "tool_ref": "turn37search14"
+        },
+        {
+          "title": "1159p01.indd",
+          "url": "https://www.greenleft.org.au/sites/default/files/glwi1159_test.pdf",
+          "tool_ref": "turn37search15"
+        }
+      ]
+    }
+  ]
+}

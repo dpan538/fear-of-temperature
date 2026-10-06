@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-10-06T07:36:13.974311+00:00",
+  "native_order_selection": "first declared unit for previously missing month; remaining frontier retained",
+  "target": {
+    "source_id": "green_left",
+    "stratum": "AU",
+    "url": "https://www.greenleft.org.au/1991/21/week-was",
+    "purpose": "article",
+    "native_evidence": "GREENLEFT_1991_ISSUE_ARTICLE_FRONTIER.json first native in issue21July1991",
+    "public_hosts": [
+      "www.greenleft.org.au"
+    ],
+    "month": "1991-07",
+    "access_cleared": true,
+    "raw_cap_bytes": 524288,
+    "frame_path": "targets/0c82f6770097daab91cd2a9e.json"
+  },
+  "code_sha256": "5a67044454e16c7fb52f5f845f68fbc498d5cfbd20b860a2557bab607e4e9bb0"
+}

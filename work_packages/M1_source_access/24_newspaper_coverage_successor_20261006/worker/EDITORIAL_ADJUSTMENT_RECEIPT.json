@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-06T07:55:30.436298+00:00",
+  "previous_report": "FINAL_REPORT_snapshot_v1.md",
+  "previous_report_sha256": "369a06339b31b82ea5e4d87d3731e7788e051779db498a6ba6d5e3afc9a23bb8",
+  "final_report": "FINAL_REPORT.md",
+  "final_report_sha256": "76d7ddb173d6f01ceef172910727ef6eb8ec31274bafb90ec96846251abcfeb4",
+  "scope": "Spacing, clear count definitions, numeric formatting and delivery description. Census, ledgers, raw evidence, body derivatives, and staging unchanged. No second corpus reconciliation."
+}

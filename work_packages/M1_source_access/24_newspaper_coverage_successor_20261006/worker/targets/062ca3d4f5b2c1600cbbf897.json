@@ -1,0 +1,19 @@
+{
+  "frozen_at_utc": "2026-10-06T07:02:02.109463+00:00",
+  "native_order_selection": "first declared unit for previously missing month; remaining frontier retained",
+  "target": {
+    "source_id": "mit_tech",
+    "stratum": "US",
+    "url": "https://thetech.com/2007/06/15/commencement-weese-v127-n28",
+    "purpose": "article",
+    "native_evidence": "First native article in newly retained issue28; missing June2007",
+    "public_hosts": [
+      "thetech.com"
+    ],
+    "month": "2007-06",
+    "access_cleared": true,
+    "raw_cap_bytes": 524288,
+    "frame_path": "targets/062ca3d4f5b2c1600cbbf897.json"
+  },
+  "code_sha256": "5a67044454e16c7fb52f5f845f68fbc498d5cfbd20b860a2557bab607e4e9bb0"
+}

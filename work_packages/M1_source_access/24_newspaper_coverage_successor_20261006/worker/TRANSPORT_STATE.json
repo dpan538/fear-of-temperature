@@ -1,0 +1,52 @@
+{
+  "strata": {
+    "EU/Europe excluding UK": {
+      "discovery": 8,
+      "article": 12
+    },
+    "UK": {
+      "discovery": 12,
+      "article": 12
+    },
+    "AU": {
+      "discovery": 19,
+      "article": 12
+    },
+    "US": {
+      "discovery": 17,
+      "article": 12
+    },
+    "NZ": {
+      "discovery": 18,
+      "article": 12
+    }
+  },
+  "hosts": {
+    "trinitynews.ie": 1791269217.1573708,
+    "www.trinitynews.ie": 1791271953.8397288,
+    "digital.library.lse.ac.uk": 1791269221.920489,
+    "assets.indailysa.com.au": 1791269527.06464,
+    "thetech.com": 1791272698.956161,
+    "www.ruapehu.info": 1791270126.5785868,
+    "thebeaverlse.co.uk": 1791272194.321258,
+    "mancunion.com": 1791272364.975682,
+    "www.indailysa.com.au": 1791269672.819859,
+    "ndhadeliver.natlib.govt.nz": 1791270606.950686,
+    "archive.maltatoday.com.mt": 1791269799.628036,
+    "cdn.prod.website-files.com": 1791270040.827258,
+    "www.greenleft.org.au": 1791272693.0708768,
+    "www.odt.co.nz": 1791272193.263974
+  },
+  "access_stops": {
+    "assets.indailysa.com.au": {
+      "url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-469.xml",
+      "status": 403,
+      "retry_after": null
+    },
+    "archive.maltatoday.com.mt": {
+      "url": "https://archive.maltatoday.com.mt/2001/0722/index.html",
+      "status": 403,
+      "retry_after": null
+    }
+  }
+}

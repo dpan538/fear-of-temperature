@@ -1,0 +1,28 @@
+{
+  "frozen_at_utc": "2026-10-06T07:50:37.765715+00:00",
+  "closing_code_sha256": "1267c7bf31e1edf3abcf85e9888b0576ece59c22dddb8fa4bda3a11f26ccfb71",
+  "scope_sha256": "ac17e33b2ad6e5d77982d1287180092e4410f55d550bc7855e58090cd226229e",
+  "request_journal_sha256": "d0bab461395359eeccc558cd32fc7ae4671d97c6af0eab66491d68f6e4ee53a6",
+  "offline_check_reference": "TEST_RECEIPT.json,10passed; original network/extraction code unchanged",
+  "check_scope": "One final own changed-tranche hash/frame/identity/date/component/counter/staging reconciliation and real restart. Accepted old PDF/raw/body receipts referenced, not rescanned.",
+  "anticipated_closing_output_budget": {
+    "at_utc": "2026-10-06T07:50:37.800354+00:00",
+    "free_bytes": 18437672960,
+    "cumulative_media_bytes": 125462355,
+    "lifetime_cap_bytes": 134217728,
+    "original_combined_reserve_bytes": 0,
+    "physical_floor_bytes": 16106127360,
+    "recovery_allowance_bytes": 50331648,
+    "active_lease_bytes": 0,
+    "active_lease_basis": "current named coordinator controls; no unreported lease assumed",
+    "raw_cap_bytes": 0,
+    "derived_cap_bytes": 3145728,
+    "pending_receipt_allowance_bytes": 65536,
+    "physical_headroom_after_pending_bytes": 2278002688,
+    "allocation_headroom_after_pending_bytes": 5544109,
+    "passed": true,
+    "limiting_constraint": null
+  },
+  "collection_stop": "Every geographic counter12 article-request hops, including redirects/failures; no quota migration",
+  "fixed_deadline_utc": "2026-10-06T08:35:57.971238+00:00"
+}

@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-06T09:49:07.658708+00:00",
+  "originals_unchanged": true,
+  "source_prose_payloads_retained_locally": true,
+  "article_ids_and_dispositions_unchanged": true,
+  "article_rows": 185,
+  "public_files": {
+    "PUBLIC_ARTICLE_REGISTER.jsonl": {
+      "bytes": 968720,
+      "sha256": "84c9958e947bf661e28706b02268b787efa79f1e44981f3eaeef47cc9ff5704a"
+    },
+    "PUBLIC_CORRECTIONS_MANIFEST.json": {
+      "bytes": 17379,
+      "sha256": "7d85ff070f2a8f0e593cbc40be1745d22a8ea373b8718e34df4e93baeb01927a"
+    }
+  },
+  "frozen_originals": {
+    "ARTICLE_REGISTER.jsonl": "771ec7ca8ffc692134941557323b4eceacb47ceccc21774d069f5af0a28a66f3",
+    "CORRECTIONS_MANIFEST.json": "a67eda3f39adf7e4fa2929e65142da330c364d1e88479b763431b684394d92c6"
+  }
+}
