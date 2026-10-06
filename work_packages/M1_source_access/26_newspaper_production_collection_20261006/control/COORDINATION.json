@@ -4,7 +4,7 @@
   "host": "local",
   "model": "gpt-6.1-sol",
   "thinking": "xhigh",
-  "status": "active capacity-resolved continuation; first real saved/loaded batch pending observation",
+  "status": "actual production acquisition and whole-TEXT Load running; first batch independently observed",
   "hard_deadline_at_utc": "2026-10-06T16:20:21.847276+00:00",
   "active_leases": [
     {
@@ -51,5 +51,15 @@
   "resume_followup_confirmed": true,
   "resume_followup_sent_at_utc": "2026-10-06T12:57:47.534258+00:00",
   "resume_active_turn_id": "01a11149-1853-77b3-91b8-fb200e289550",
-  "resume_confirmed_active_at_utc": "2026-10-06T12:59:28.927438+00:00"
+  "resume_confirmed_active_at_utc": "2026-10-06T12:59:28.927438+00:00",
+  "first_real_collection_checkpoint": {
+    "path": "work_packages/M1_source_access/26_newspaper_production_collection_20261006/worker/FIRST_REAL_COLLECTION_CHECKPOINT.json",
+    "sha256": "3a95a3e65d085c0ac77195a229da0d55b1fc41afca2c08b63ffe27b6f2d79893",
+    "at_utc": "2026-10-06T13:01:32.951891+00:00",
+    "new_qualified_article_IDs": 5,
+    "qualified_whole_TEXT_store_IDs": 397,
+    "baseline_TEXT_consolidated": 0,
+    "ID_disjointness_and_saved_raw_receipts_checked": true,
+    "old_body_or_database_scan_performed": false
+  }
 }
