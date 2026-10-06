@@ -1,0 +1,24 @@
+[
+  {
+    "sequence": 140,
+    "call": "research30",
+    "title": "cyprus_mail",
+    "method": "find",
+    "input": "Current Terms and Conditions; Restrictions on Use",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 141,
+    "call": "research30",
+    "title": "cyprus_mail",
+    "method": "find",
+    "input": "Current Terms and Conditions; automated",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  }
+]

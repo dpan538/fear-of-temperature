@@ -1,0 +1,55 @@
+{
+  "started_at_utc": "2026-10-05T11:46:09.485639+00:00",
+  "at_utc": "2026-10-05T11:46:09.557437+00:00",
+  "executed_code_sha256": {
+    "repair_saved_diagnostic.py": "c28eaf27948d96ce48176be1127a311cb4185b74b1c53c738d065a930cc6bf96",
+    "parser.py": "baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59",
+    "staging.py": "d2b20dc96d111c444befe593a6bdc5e7dae687fc986158e1caf6f6b72339f0a2",
+    "transport.py": "11f43d0625b7a11359cb30eebec3ca5ea7c00fdc291677ac99b446d5bdf7e5c9"
+  },
+  "lane": "real_saved_non_newspaper_diagnostic",
+  "raw_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/raw/ca1698af14973f0b5c0ba528.bin",
+  "raw_sha256_before_after": "354e710253c171fd9c6abb21fb6d17342a63bcc8358c83ce9dfe2d47961f88fb",
+  "old_body_sha256_before_after": "1f02bfc083a4a831d927eb10428903707cde22e71ecdf4484fa8145a36b58075",
+  "body_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper/diagnostics/ca1698af14973f0b5c0ba528_baeaba4d87d7_2e2f4b838bd2.txt",
+  "body_bytes": 1937,
+  "body_sha256": "ddbefe27c252d15f8538dfdee802e6ad2d66abdef546efc2ecb56529963ddfb0",
+  "parser_sha256": "baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59",
+  "adapter_sha256": "2e2f4b838bd245e999e4168c1b924a79ba2f146f41d5fffd971e6a1e8aa77ffa",
+  "inline_token": "long-time",
+  "widget_regressions_removed": true,
+  "first_write": {
+    "article_id": "b4b944941fe9c13ddfb4bd2a7ad07b962e09aaf67e59ca1ec29f45ad7d64bd34",
+    "version_id": "b2108a2f0cac11fa955d6a69fbca9b02611c64aee0f7946c83e12be85d037588",
+    "new_versions_inserted": 0
+  },
+  "restart_duplicate_write": {
+    "article_id": "b4b944941fe9c13ddfb4bd2a7ad07b962e09aaf67e59ca1ec29f45ad7d64bd34",
+    "version_id": "b2108a2f0cac11fa955d6a69fbca9b02611c64aee0f7946c83e12be85d037588",
+    "new_versions_inserted": 0
+  },
+  "staging_snapshot": {
+    "articles_by_lane": {
+      "diagnostic": 1
+    },
+    "versions": 2,
+    "qualified_newspaper_articles": 0,
+    "cursors": [
+      {
+        "lane": "diagnostic",
+        "source_id": "texastribune",
+        "cursor": {
+          "last_adapter_sha256": "2e2f4b838bd245e999e4168c1b924a79ba2f146f41d5fffd971e6a1e8aa77ffa",
+          "last_parser_sha256": "baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59",
+          "last_raw_request": "ca1698af14973f0b5c0ba528",
+          "newspaper_collection_started": false,
+          "next": "none; targeted diagnostic only"
+        },
+        "updated_at": "2026-10-05T11:46:09.555864+00:00"
+      }
+    ]
+  },
+  "new_downloads": 0,
+  "newspaper_coverage_contribution": 0,
+  "historical_body_equivalence": "unverified"
+}

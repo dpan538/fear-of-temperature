@@ -1,0 +1,211 @@
+[
+  {
+    "sequence": 108,
+    "call": "research20",
+    "title": "mit_tech",
+    "method": "search",
+    "input": "site.mit.edu \"The Tech\" newspaper archives 1988",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 109,
+    "call": "research20",
+    "title": "mancunion",
+    "method": "search",
+    "input": "site:themancunion.com archive newspaper about",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 110,
+    "call": "research20",
+    "title": "otago_daily_times",
+    "method": "search",
+    "input": "site:odt.co.nz \"terms\" \"copyright\"",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 111,
+    "call": "research20",
+    "title": "deseret_news",
+    "method": "search",
+    "input": "site:deseret.com \"terms of use\" automated",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 112,
+    "call": "research21",
+    "title": "mit_tech",
+    "method": "open",
+    "input": "https://facts.mit.edu/surprise/the-tech/",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 113,
+    "call": "research21",
+    "title": "mit_tech",
+    "method": "open",
+    "input": "https://tech.mit.edu/V63/; new primary indexed archive lead, same web tool; no alternate-client retry",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 114,
+    "call": "research21",
+    "title": "deseret_news",
+    "method": "open",
+    "input": "https://www.deseret.com/pages/terms-of-use/",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 115,
+    "call": "research21",
+    "title": "mancunion",
+    "method": "search",
+    "input": "site:themancunion.com about newspaper print archive",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 116,
+    "call": "research21",
+    "title": "otago_daily_times",
+    "method": "search",
+    "input": "site:odt.co.nz copyright terms conditions",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 117,
+    "call": "research22",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "MIT Facts link43 current newspaper domain thetech.com",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 118,
+    "call": "research22",
+    "title": "mancunion",
+    "method": "open",
+    "input": "https://www.library.manchester.ac.uk/rylands/special-collections/a-to-z/detail/?mms_id=992983876704401631",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 119,
+    "call": "research22",
+    "title": "otago_daily_times",
+    "method": "find",
+    "input": "https://www.odt.co.nz/; AI use",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 120,
+    "call": "research23",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "The Tech current domain Past Issues link8",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 121,
+    "call": "research23",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "The Tech current domain Policies link10",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 122,
+    "call": "research23",
+    "title": "indaily",
+    "method": "open",
+    "input": "https://www.indailysa.com.au/about-indaily",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 123,
+    "call": "research23",
+    "title": "cyprus_mail",
+    "method": "open",
+    "input": "https://archive.cyprus-mail.com/",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 124,
+    "call": "research24",
+    "title": "mit_tech",
+    "method": "find",
+    "input": "https://thetech.com/issues; Volume 108",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 125,
+    "call": "research24",
+    "title": "mit_tech",
+    "method": "find",
+    "input": "https://thetech.com/issues; Volume 127",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 126,
+    "call": "research24",
+    "title": "mit_tech",
+    "method": "open",
+    "input": "https://thetech.com/about/index; lines38 Policies",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  }
+]

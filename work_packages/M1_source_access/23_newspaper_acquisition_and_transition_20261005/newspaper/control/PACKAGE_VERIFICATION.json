@@ -1,0 +1,52 @@
+{
+  "checked_at_utc": "2026-10-05T12:16:47.110111+00:00",
+  "checks": {
+    "registry_twenty_four_per_stratum": true,
+    "regional_coordinates_unique_2325": true,
+    "pooled_months_unique_465": true,
+    "equal_planned_effort_465_per_stratum": true,
+    "fixed_endpoint_and_partial_month": true,
+    "population_unknown_not_observed_zero": true,
+    "newspaper_qualified_counts_zero": true,
+    "no_newspaper_payload_requests_raw_or_frozen_article_frames": true,
+    "request_limits": true,
+    "visible_request_reconciliation": true,
+    "test_receipt_current_code_and_output": true,
+    "ledger_uses_effective_registry": true,
+    "initial_candidate_frame_preserved": true,
+    "unchanged_coordinator_PLAN.md": true,
+    "unchanged_coordinator_control_SCOPE.json": true,
+    "six_policy_objects_match_receipts": true,
+    "own_staging_integrity_and_diagnostic_separation": true,
+    "clean_repair_parser_and_staging_match_verified_pass": true,
+    "old_frozen_raw_and_body_preserved": true
+  },
+  "all_passed": true,
+  "own_staging": {
+    "checked_at_utc": "2026-10-05T12:16:47.110111+00:00",
+    "database": "staging/newspaper.sqlite3",
+    "read_mode": "read-only under shared heavy-I/O lock",
+    "integrity_check": "ok",
+    "articles_by_lane": {
+      "diagnostic": 1
+    },
+    "version_count": 2,
+    "qualified_newspaper_parents": 0,
+    "cursors": [
+      {
+        "lane": "diagnostic",
+        "source_id": "texastribune",
+        "cursor_json": "{\"last_adapter_sha256\": \"2e2f4b838bd245e999e4168c1b924a79ba2f146f41d5fffd971e6a1e8aa77ffa\", \"last_parser_sha256\": \"baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59\", \"last_raw_request\": \"ca1698af14973f0b5c0ba528\", \"newspaper_collection_started\": false, \"next\": \"none; targeted diagnostic only\"}",
+        "updated_at": "2026-10-05T11:46:09.555864+00:00"
+      }
+    ],
+    "no_formal_government_database_access": true
+  },
+  "metadata_only_regional_cells": 53,
+  "targeted_test_count": 25,
+  "test_receipt_sha256": "a10cf4bfcf83a47080128acd78fa2828bb4eb2253a7f5fc2e9cce891b842f710",
+  "effective_registry_sha256": "d4e129bce26f39fef2dd2639bc2f3f019c79739d4631de1a3c7ea6f57fad0f89",
+  "verifier_sha256": "f037bb87cfb0afb07d2efafbfc22c5fc66e4b27fc58e952a3be345662124a4f4",
+  "verification_scope": "One changed-tranche check of own ledgers, small staging, receipts, code and named frozen diagnostic. No full corpus/government/evaluator audit. Tests do not validate live source adapters or universal correctness.",
+  "network_during_verification": false
+}

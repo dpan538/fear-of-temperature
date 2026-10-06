@@ -1,0 +1,23 @@
+{
+  "started_at_utc": "2026-10-05T11:46:52.251853+00:00",
+  "finished_at_utc": "2026-10-05T11:46:55.094227+00:00",
+  "command": [
+    "/Library/Frameworks/Python.framework/Versions/3.13/bin/python3",
+    "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper/tests/test_changed_chain.py"
+  ],
+  "exit_code": 0,
+  "output_sha256": "ab492a0ba7b939c1c19379af8801811786697fa56565461652ebfcb9608aae5b",
+  "code_digests": {
+    "prototype/build_ledgers.py": "ab3bf50c747624b35c3a1a58de3039426354597bf22f9d179b8f1e8948a72492",
+    "prototype/parser.py": "baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59",
+    "prototype/pipeline.py": "03c198bf70acb1871d4d3a628a280ae321d328864e24a53d1430801c63b0b5e7",
+    "prototype/policy_probe.py": "b41dd4f7062d4299791a4661146429019b1c22bd7f3ca602dd398f2caafc280c",
+    "prototype/reconcile_allowances.py": "a56622cd5457a61d796cb1e2574ceddf9f2075c35b4154594307b539b4670d66",
+    "prototype/repair_saved_diagnostic.py": "c28eaf27948d96ce48176be1127a311cb4185b74b1c53c738d065a930cc6bf96",
+    "prototype/staging.py": "d2b20dc96d111c444befe593a6bdc5e7dae687fc986158e1caf6f6b72339f0a2",
+    "prototype/transport.py": "11f43d0625b7a11359cb30eebec3ca5ea7c00fdc291677ac99b446d5bdf7e5c9",
+    "tests/test_changed_chain.py": "d3df0295a7cfaae952a78be950d7a6a539ea32318fe6117c002f0a122e031f0d"
+  },
+  "network": "mocked for transport fixtures; no newspaper requests",
+  "fixture_database": "temporary, removed after tests; not newspaper evidence"
+}

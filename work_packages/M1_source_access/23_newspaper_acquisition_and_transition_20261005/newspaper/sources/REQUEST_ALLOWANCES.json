@@ -1,0 +1,115 @@
+{
+  "at_utc": "2026-10-05T12:10:29.555954+00:00",
+  "titles": {
+    "the_press": {
+      "metadata": 17,
+      "search": 3,
+      "body": 0
+    },
+    "canberra_times": {
+      "metadata": 12,
+      "search": 3,
+      "body": 0
+    },
+    "cyprus_mail": {
+      "metadata": 17,
+      "search": 3,
+      "body": 0
+    },
+    "us_archive_context": {
+      "metadata": 1,
+      "search": 0,
+      "body": 0
+    },
+    "guardian": {
+      "metadata": 6,
+      "search": 0,
+      "body": 0
+    },
+    "stanford_daily": {
+      "metadata": 13,
+      "search": 3,
+      "body": 0
+    },
+    "alice_springs_news": {
+      "metadata": 12,
+      "search": 1,
+      "body": 0
+    },
+    "otago_daily_times": {
+      "metadata": 5,
+      "search": 3,
+      "body": 0
+    },
+    "beaver": {
+      "metadata": 12,
+      "search": 3,
+      "body": 0
+    },
+    "mancunion": {
+      "metadata": 4,
+      "search": 3,
+      "body": 0
+    },
+    "trinity_news": {
+      "metadata": 4,
+      "search": 3,
+      "body": 0
+    },
+    "times_of_malta": {
+      "metadata": 4,
+      "search": 1,
+      "body": 0
+    },
+    "mit_tech": {
+      "metadata": 18,
+      "search": 2,
+      "body": 0
+    },
+    "deseret_news": {
+      "metadata": 5,
+      "search": 2,
+      "body": 0
+    },
+    "varsity": {
+      "metadata": 10,
+      "search": 1,
+      "body": 0
+    },
+    "ruapehu_bulletin": {
+      "metadata": 4,
+      "search": 1,
+      "body": 0
+    },
+    "indaily": {
+      "metadata": 3,
+      "search": 2,
+      "body": 0
+    },
+    "irish_times": {
+      "metadata": 0,
+      "search": 0,
+      "body": 0
+    },
+    "smh": {
+      "metadata": 0,
+      "search": 0,
+      "body": 0
+    },
+    "nyt": {
+      "metadata": 0,
+      "search": 0,
+      "body": 0
+    },
+    "nzherald": {
+      "metadata": 0,
+      "search": 0,
+      "body": 0
+    }
+  },
+  "unreported_web_internal_hops": "not observable; no zero-hop claim",
+  "no_fourth_search": true,
+  "metadata_limit": 32,
+  "search_limit": 3,
+  "native_transport_future_calls": "additive to these seeded allowances, not a reset"
+}

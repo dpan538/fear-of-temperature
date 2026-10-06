@@ -1,0 +1,4 @@
+User-agent: * 
+Disallow: /login 
+Disallow: /cms/* 
+Sitemap: https://digital.library.lse.ac.uk/sitemap.xml

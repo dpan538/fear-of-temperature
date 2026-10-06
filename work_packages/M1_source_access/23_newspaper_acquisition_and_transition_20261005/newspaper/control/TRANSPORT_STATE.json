@@ -1,0 +1,191 @@
+{
+  "titles": {
+    "the_press": {
+      "metadata": 17,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "canberra_times": {
+      "metadata": 12,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "guardian": {
+      "metadata": 6,
+      "search": 0,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable",
+      "access_stop": {
+        "basis": "preserved accepted prior route restriction/entitlement/transport scope stop",
+        "url": "https://open-platform.theguardian.com/documentation/",
+        "reason": "Current official terms gate new acquisition. Historical environment archive and four diagnostic receipts are retained separately. API route starts 1999; 1995 print route is a separate licensed frame.",
+        "original_checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+        "publisher_denial_not_inferred_from_tool_failure": true
+      }
+    },
+    "stanford_daily": {
+      "metadata": 13,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "cyprus_mail": {
+      "metadata": 17,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable",
+      "access_stop": {
+        "url": "https://cyprus-mail.com/terms-conditions",
+        "basis": "current publisher terms",
+        "reason": "Current terms \u00a77(E) bar caching/archiving except search indexing; no corpus retention grant",
+        "recorded_at_utc": "2026-10-05T11:52:17.924804+00:00"
+      }
+    },
+    "alice_springs_news": {
+      "metadata": 12,
+      "search": 1,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "otago_daily_times": {
+      "metadata": 5,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "beaver": {
+      "metadata": 12,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "mancunion": {
+      "metadata": 4,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "trinity_news": {
+      "metadata": 4,
+      "search": 3,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "times_of_malta": {
+      "metadata": 4,
+      "search": 1,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "mit_tech": {
+      "metadata": 18,
+      "search": 2,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable",
+      "stopped_hosts": {
+        "tech.mit.edu": {
+          "basis": "web tool401 on legacy host; not current publisher host",
+          "permission_to_retry_legacy": false
+        }
+      }
+    },
+    "deseret_news": {
+      "metadata": 5,
+      "search": 2,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable",
+      "access_stop": {
+        "url": "https://www.deseret.com/pages/terms-of-use/",
+        "basis": "current publisher terms",
+        "reason": "Current terms \u00a71(g) bar automated/manual data-mining extraction/caching; no intended-use grant",
+        "recorded_at_utc": "2026-10-05T11:52:17.925013+00:00"
+      }
+    },
+    "us_archive_context": {
+      "metadata": 1,
+      "search": 0,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "varsity": {
+      "metadata": 10,
+      "search": 1,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable",
+      "access_stop": {
+        "basis": "intended retention unresolved under current terms",
+        "url": "https://www.varsity.co.uk/terms-of-use",
+        "reason": "Retrieval-system storage permission not established; personal-download provision is separate"
+      }
+    },
+    "ruapehu_bulletin": {
+      "metadata": 4,
+      "search": 1,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "indaily": {
+      "metadata": 3,
+      "search": 2,
+      "body": 0,
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "irish_times": {
+      "metadata": 0,
+      "body": 0,
+      "search": 0,
+      "access_stop": {
+        "basis": "preserved accepted prior route restriction/entitlement/transport scope stop",
+        "url": "https://www.irishtimes.com/article-index/2025/07/",
+        "reason": "Official month index exposes day navigation; first 2025-07-01 index probe timed out in web tool. Source stopped; no direct-client retry. Print archive sign-in not accessed.",
+        "original_checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+        "publisher_denial_not_inferred_from_tool_failure": true
+      },
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "smh": {
+      "metadata": 0,
+      "body": 0,
+      "search": 0,
+      "access_stop": {
+        "basis": "preserved accepted prior route restriction/entitlement/transport scope stop",
+        "url": "https://www.smh.com.au/sitemaps/smh-sitemaps-articles.xml",
+        "reason": "Official robots/terms probes failed in web tool; no alternate transport attempted. National Library NZ lists SMH 1955\u20131995 archives as on-site access; this is not our entitlement.",
+        "original_checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+        "publisher_denial_not_inferred_from_tool_failure": true
+      },
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "nyt": {
+      "metadata": 0,
+      "body": 0,
+      "search": 0,
+      "access_stop": {
+        "basis": "preserved accepted prior route restriction/entitlement/transport scope stop",
+        "url": "https://developer.nytimes.com/docs/archive-product/1/overview",
+        "reason": "Publisher GitHub Archive API documents monthly metadata from 1851 and requires a key. No configured entitlement established; credentials were not inspected; no API call. Full response size may exceed object cap.",
+        "original_checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+        "publisher_denial_not_inferred_from_tool_failure": true
+      },
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    },
+    "nzherald": {
+      "metadata": 0,
+      "body": 0,
+      "search": 0,
+      "access_stop": {
+        "basis": "preserved accepted prior route restriction/entitlement/transport scope stop",
+        "url": "https://natlib.govt.nz/records/42616616",
+        "reason": "Publisher gate. Only National Library catalogue identity metadata may be probed; it is not an article frame or full-text entitlement.",
+        "original_checked_at_utc": "2026-10-04T19:15:33.755404+00:00",
+        "publisher_denial_not_inferred_from_tool_failure": true
+      },
+      "count_basis": "visible discovery + known redirects + native policy and transport attempts; never lower previously charged state; web internal hops unavailable"
+    }
+  },
+  "hosts": {
+    "thetech.com": 1791200959.572321
+  }
+}

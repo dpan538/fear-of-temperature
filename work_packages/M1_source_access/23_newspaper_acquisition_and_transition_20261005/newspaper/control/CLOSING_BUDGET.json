@@ -1,0 +1,20 @@
+{
+  "snapshot_at_utc": "2026-10-05T12:16:47.143548+00:00",
+  "accepted_prior_media_bytes": 25819723,
+  "own_all_files_bytes_at_snapshot": 1316275,
+  "lifetime_total_at_snapshot": 27135998,
+  "lifetime_ceiling_bytes": 134217728,
+  "remaining_lifetime_bytes_at_snapshot": 107081730,
+  "prospective_default_raw_bytes": 2097152,
+  "required_free_threshold_default_payload_bytes": 19494496740,
+  "threshold_gap_bytes_at_snapshot": 1158789604,
+  "visible_preparation_operations": 147,
+  "candidate_title_operations": 146,
+  "context_operations": 1,
+  "native_policy_operations": 6,
+  "public_search_responses": 34,
+  "counts_include_known_redirects": true,
+  "unreported_web_internal_hops": "unknown, no physical request total claim",
+  "no_reserve_or_cap_relaxation": true,
+  "snapshot_limit": "Own-file accounting is deliberately wider than corpus copies. Subsequent compact closing records also consume allowance; physical free space can change outside this owner. Any actual request repeats preflight."
+}

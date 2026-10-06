@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-05T11:04:01.530211+00:00",
+  "free_bytes": 18758766592,
+  "original_remaining_reserve_bytes": 3335940580,
+  "additional_staging_WAL_recovery_reserve_bytes": 50331648,
+  "prospective_bytes": 2097152,
+  "media_lifetime_bytes": 25865109,
+  "media_lifetime_cap_bytes": 134217728,
+  "floor_bytes": 16106127360,
+  "projected_free_after_all_reserves": 15370397212,
+  "passed": false
+}

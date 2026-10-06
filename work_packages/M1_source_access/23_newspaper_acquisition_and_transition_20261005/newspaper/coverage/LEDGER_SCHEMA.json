@@ -1,0 +1,18 @@
+{
+  "generated_at_utc": "2026-10-05T12:11:24.821539+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "month_count": 465,
+  "regional_coordinates": 2325,
+  "count_semantics": "qualified_retained_article_count=actual owner staging newspaper lane; zero means acquired zero, not publication absence",
+  "csv_blank_numeric_fields": "unknown/null, never zero; underlying publication and frame populations have not been audited",
+  "planned_candidate_title": "conditional future route assignment, not a frozen selected article or automatic replacement rule",
+  "metadata_only": "dated calendar/issue/article-link observations; no retained readable newspaper prose",
+  "title_era_gap": "a route may be outside its documented era; this is not regional publication inapplicability",
+  "selection": "freeze native/date-ordered discovered article frame before bodies; preserve failed targets",
+  "source_registry_sha256": "d4e129bce26f39fef2dd2639bc2f3f019c79739d4631de1a3c7ea6f57fad0f89",
+  "qualified_newspaper_articles": 0,
+  "framework_generator_sha256": "b423d68dace5541fd676715e68f9ce4bd5637d6f7d57cfce156a879a199ddfdb"
+}

@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-05T10:46:06.976848+00:00",
+  "free_bytes": 18768379904,
+  "original_remaining_reserve_bytes": 3335940580,
+  "additional_staging_WAL_recovery_reserve_bytes": 50331648,
+  "planned_next_payload_bytes": 2097152,
+  "projected_free_after_all_reserves": 15380010524,
+  "floor_bytes": 16106127360,
+  "passed": false,
+  "local_payload_download_enabled": false,
+  "no_reserve_relaxation": true
+}

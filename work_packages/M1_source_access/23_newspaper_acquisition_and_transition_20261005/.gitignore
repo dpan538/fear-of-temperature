@@ -6,3 +6,13 @@ newspaper/previews/
 transition_research/downloads/
 **/__pycache__/
 **/*.part
+
+# Retained source bodies and rendered evidence stay local; metadata remains versioned.
+newspaper/diagnostics/*.txt
+transition_research/sources/*.html
+transition_research/sources/*.pdf
+transition_research/sources/*.txt
+transition_research/sources/*.png
+transition_research/acquisition_followthrough_20261005/EARLY_ARTICLE_RECORD.json
+transition_research/acquisition_followthrough_20261005/EARLY_ISSUE_EXTRACTED_TEXT.txt
+transition_research/acquisition_followthrough_20261005/*.png

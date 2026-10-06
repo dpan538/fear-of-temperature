@@ -1,0 +1,9 @@
+# Disallowed Oct 19 2021
+User-agent: PetalBot
+Disallow: /
+
+# All other bots allowed
+User-agent: *
+Sitemap: https://paperspast.natlib.govt.nz/sitemap.xml
+# New PDF URL schema Nov 2022
+Disallow: /imageserver/newspapers/pdf/

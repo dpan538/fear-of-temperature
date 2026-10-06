@@ -1,0 +1,9 @@
+{
+  "newspaper_network_payload_requests": 0,
+  "newspaper_payload_receipts": [],
+  "newspaper_raw_objects": [],
+  "newspaper_frozen_article_frames": [],
+  "stop": "Current status must be read with FINAL_STORAGE_CHECK and CONTINUATION_CURSOR; no publication-absence claim.",
+  "source_preparation_requests": "../sources/DISCOVERY_REQUESTS.jsonl and POLICY_REQUESTS.jsonl",
+  "real_saved_diagnostic_raw": "external frozen round22 object reference, not recopied"
+}

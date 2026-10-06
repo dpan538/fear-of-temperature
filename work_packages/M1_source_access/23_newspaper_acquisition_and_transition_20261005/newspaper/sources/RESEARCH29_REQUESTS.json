@@ -1,0 +1,24 @@
+[
+  {
+    "sequence": 138,
+    "call": "research29",
+    "title": "cyprus_mail",
+    "method": "click",
+    "input": "Current publisher Terms and Conditions link253",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 139,
+    "call": "research29",
+    "title": "cyprus_mail",
+    "method": "open",
+    "input": "https://cyprus-mail.com/2024/page/115; native pagination lines245",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  }
+]

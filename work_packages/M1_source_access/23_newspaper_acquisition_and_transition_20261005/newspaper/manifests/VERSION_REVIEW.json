@@ -1,0 +1,20 @@
+{
+  "recorded_at_utc": "2026-10-05T12:16:47.110111+00:00",
+  "article_lane": "diagnostic; newspaper eligibility false",
+  "reviews": [
+    {
+      "version_id": "775de8e5758644dcc5b88171ce8920a282ffa2d14bababe421c98e5d0843e5fd",
+      "body_sha256": "d2a4ff87ff190117665cb784af7bacbf573ffd802813627d1ee340fd53ef3a57",
+      "qualified_readable": false,
+      "newspaper_coverage_contribution": 0,
+      "assessment": "First inline-token repair retained newsletter/advertisement widgets; preserved as superseded diagnostic."
+    },
+    {
+      "version_id": "b2108a2f0cac11fa955d6a69fbca9b02611c64aee0f7946c83e12be85d037588",
+      "body_sha256": "ddbefe27c252d15f8538dfdee802e6ad2d66abdef546efc2ecb56529963ddfb0",
+      "qualified_readable": false,
+      "newspaper_coverage_contribution": 0,
+      "assessment": "Inline token and seven narrative paragraph boundaries checked on named frozen HTML; aside/below-content widgets removed. No newspaper identity or historical body equivalence established."
+    }
+  ]
+}

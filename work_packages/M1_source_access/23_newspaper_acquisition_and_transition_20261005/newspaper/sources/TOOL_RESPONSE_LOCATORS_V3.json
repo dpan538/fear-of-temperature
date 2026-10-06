@@ -1,0 +1,841 @@
+{
+  "supersedes": "TOOL_RESPONSE_LOCATORS_V2.json (preserved)",
+  "captured_at_utc": "2026-10-05 12:11:21 UTC",
+  "initial_four_opens": "available in conversation but not captured into persistent tool store; see request ledger",
+  "capture_limits": "Individual operation UTC and unreported internal redirects unavailable. Search cache is not a saved current or historical article body. Returned links are not all requested links; DISCOVERY_REQUESTS records actual visible operations.",
+  "calls": [
+    {
+      "call": "research1",
+      "reference_ids": [
+        "turn5search0",
+        "turn5search1",
+        "turn5search2",
+        "turn5search12",
+        "turn5search3",
+        "turn5search13",
+        "turn5search14",
+        "turn5search4",
+        "turn5search5",
+        "turn5search6",
+        "turn5search7",
+        "turn5search8",
+        "turn5search9",
+        "turn5search10",
+        "turn5search11",
+        "turn5view0",
+        "turn5view1",
+        "turn5view2"
+      ],
+      "urls": [
+        "https://trove.nla.gov.au/newspaper/page/13018069",
+        "https://www.alicespringsnews.com.au/about-us",
+        "https://library.stanford.edu/news/stanford-commencement-archives",
+        "https://cyprus-mail.com/wp-content/uploads/2020/08/MCI_CyprusMail_-1.pdf",
+        "https://cyprus-mail.com/2021/2/7",
+        "https://cyprus-mail.com/wp-content/uploads/2021/03/school-guide-2021single-pages.pdf",
+        "https://cyprus-mail.com/wp-content/uploads/2020/06/sat-eight-pages-ad.pdf",
+        "https://library.stanford.edu/news/david-harris-archive",
+        "https://www.alicespringsnews.com.au/posts/a-woman-of-culture-a-leader-who-saw-and-honoured-everyone-warmed-hearts-lifted-spirits",
+        "https://library.stanford.edu/news/creativity-work-and-life",
+        "https://www.alicespringsnews.com.au/posts/charlie-perkins-embarks-on-the-freedom-rides",
+        "https://www.alicespringsnews.com.au/archived/2017/04/24/making-the-cbd-vibrant-again-detail-please",
+        "https://library.stanford.edu/news/creating-first-draft-stanford-disability-and-disability-rights-advocacy-timeline-stanford",
+        "https://www.alicespringsnews.com.au/posts/sun-going-down-on-house-prices",
+        "https://www.alicespringsnews.com.au/posts/60-years-nt-the-ups-the-downs",
+        "https://paperspast.natlib.govt.nz/newspapers/press",
+        "https://open-platform.theguardian.com/",
+        "https://open-platform.theguardian.com/access/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research2",
+      "reference_ids": [
+        "turn6search0",
+        "turn6search1",
+        "turn6search2",
+        "turn6search3",
+        "turn6search4",
+        "turn6search5",
+        "turn6search6",
+        "turn6search7",
+        "turn6search8",
+        "turn6search9",
+        "turn6search10",
+        "turn6search11",
+        "turn6search12",
+        "turn6search13",
+        "turn6view0",
+        "turn6view1",
+        "turn6view2",
+        "turn6view3"
+      ],
+      "urls": [
+        "https://paperspast.natlib.govt.nz/newspapers/press/1935",
+        "https://paperspast.natlib.govt.nz/newspapers/all",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=100&page=9&query=Reeves&snippet=true&sort_by=byTY.rev",
+        "https://paperspast.natlib.govt.nz/about/past-releases",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=100&query=dolphin&snippet=true&sort_by=byTY.rev",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=100&page=6&query=Robert&snippet=true&sort_by=",
+        "https://www.odt.co.nz/news/dunedin/welcome-to-our-new-site-t395flet",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=50&page=3&query=aitchison&snippet=true&sort_by=byTY.rev",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=100&query=Patrick+Joseph+O%27Neill&snippet=true&sort_by=byTY",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=100&phrase=2&query=alexander+greig&snippet=true&sort_by=byDA.rev",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=100&query=scarrott&snippet=false&sort_by=byTI",
+        "https://paperspast.natlib.govt.nz/newspapers?items_per_page=100&page=6&query=Hungarians+in+New+Zealand&snippet=true&sort_by=byTI.rev",
+        "https://www.odt.co.nz/sites/default/files/extra_programme_2019_copy-1.pdf",
+        "https://www.odt.co.nz/sites/default/files/extra_2016_flier_0.pdf",
+        "https://open-platform.theguardian.com/",
+        "https://open-platform.theguardian.com/access/",
+        "https://archives.stanforddaily.com/",
+        "https://paperspast.natlib.govt.nz/newspapers/press"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research3",
+      "reference_ids": [
+        "turn7view0",
+        "turn6view0",
+        "turn7view1",
+        "turn6view1",
+        "turn7view2",
+        "turn6view2",
+        "turn7view3",
+        "turn7view4",
+        "turn7view5"
+      ],
+      "urls": [
+        "https://open-platform.theguardian.com/",
+        "https://open-platform.theguardian.com/access/",
+        "https://archives.stanforddaily.com/",
+        "https://www.stanforddaily.com/email-digests/†www.stanforddaily.com",
+        "https://paperspast.natlib.govt.nz/newspapers/all",
+        "https://paperspast.natlib.govt.nz/about/past-releases",
+        "https://trove.nla.gov.au/newspaper/page/13018069"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research4",
+      "reference_ids": [
+        "turn8search0",
+        "turn8search1",
+        "turn8search2",
+        "turn8search3",
+        "turn8search4",
+        "turn8search12",
+        "turn8search5",
+        "turn8search6",
+        "turn8search7",
+        "turn8search8",
+        "turn8search9",
+        "turn8search10",
+        "turn8search11",
+        "turn8search13",
+        "turn8search14",
+        "turn8search15"
+      ],
+      "urls": [
+        "https://www.library.manchester.ac.uk/rylands/special-collections/a-to-z/detail/?mms_id=992983876704401631",
+        "https://www.library.manchester.ac.uk/rylands/special-collections/subject-areas/lgbtq-plus-collections/",
+        "https://www.library.manchester.ac.uk/rylands/special-collections/subject-areas/university-archive-academics-papers/",
+        "https://timesofmalta.com/article/first-times-malta-editors-meeting-subscribers-april-21.1108001",
+        "https://timesofmalta.com/faq",
+        "https://pure.manchester.ac.uk/ws/portalfiles/portal/54572449/FULL_TEXT.PDF",
+        "https://timesofmalta.com/article/to-pay-or-not-to-pay.469262",
+        "https://timesofmalta.com/subscribe",
+        "https://timesofmalta.com/article/times-of-malta-launches-new-e-paper.893035",
+        "https://www.explore.manchester.ac.uk/campus/students-union/",
+        "https://www.staffnet.manchester.ac.uk/supporting-students/training/resources/wellbeing-resources/archive-/feb-2021/",
+        "https://www.getinvolved.manchester.ac.uk/students-union/",
+        "https://timesofmalta.com/about-us/",
+        "https://documents.manchester.ac.uk/display.aspx?DocID=58217",
+        "https://cdn-others.timesofmalta.com/78d488619c0b0174d45a4ab618d1381a1560534799.pdf",
+        "https://mlm.humanities.manchester.ac.uk/wp-content/uploads/2015/12/An-Investigation-into-how-minority-languages-are-used-for-certain-purposes-in-different-roles-within-businesses-on-the-%E2%80%98Curry-Mile%E2%80%99-Rusholme-print.pdf"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research5",
+      "reference_ids": [
+        "turn9search0",
+        "turn9search1",
+        "turn9search2",
+        "turn9search3",
+        "turn9search4",
+        "turn9search5",
+        "turn9search6",
+        "turn9search7",
+        "turn9search8",
+        "turn9search9",
+        "turn9search10",
+        "turn9search11",
+        "turn9search12",
+        "turn9search13",
+        "turn9search14",
+        "turn9search15",
+        "turn9search16"
+      ],
+      "urls": [
+        "https://www.lse.ac.uk/library/using-the-library/services-for-alumni",
+        "https://www.lse.ac.uk/library/collection-highlights/africa-and-the-african-diaspora",
+        "https://www.deseret.com/1995/1/25/19155490/read-the-deseret-news-now-available-on-internet/",
+        "https://blogs.lse.ac.uk/lsehistory/2018/01/10/lse-students-get-the-third-degree/",
+        "https://www.lse.ac.uk/library/collection-highlights/lse-history",
+        "https://www.lse.ac.uk/library/collection-highlights/women-and-sport",
+        "https://www.lse.ac.uk/events/arts-and-music/exhibitions/exhibitions/a-beavers-tale-130-years-of-campus-culture-and-conservation",
+        "https://blogs.lse.ac.uk/lsehistory/2018/05/16/the-unregistered-history-of-lse/",
+        "https://www.deseret.com/1988/11/8/18783235/anything-can-happen-in-election-says-utahn-who-saw-48-surprise/",
+        "https://www.deseret.com/1992/12/4/19019847/christmas-music-hits-the-airwaves/",
+        "https://www.deseret.com/1988/12/29/18789571/the-top-stories-of-1988/",
+        "https://www.deseret.com/utah/2025/04/23/deseret-news-archives-smoking-banned-in-1988/",
+        "https://www2.lse.ac.uk/Statistics/Assets/Documents/PhD-Handbook-2022-23.pdf",
+        "https://jamaica-gleaner.com/gleaner/20110612/focus/focus5.html",
+        "https://www.lse.ac.uk/CFM/assets/pdf/CFM-Discussion-Papers-2024/CFMDP2024-35-Paper.pdf",
+        "https://trove.nla.gov.au/newspaper/article/35683936",
+        "https://www.theatlantic.com/international/archive/2016/05/zimbabwe-money/481518/",
+        "https://eresources.nlb.gov.sg/newspapers/digitised/article/biztimes19820921-1.2.24",
+        "https://www.cna.com.tw/news/ahel/202307175006.aspx",
+        "https://etheses.lse.ac.uk/3324/1/Guiney-In-the-Shadow-of-the-Prison-Gates.pdf",
+        "https://eprints.lse.ac.uk/89510/1/Mulcahy_Revolting-consumers_Accepted.pdf",
+        "https://eprints.lse.ac.uk/113394/1/DiffDraftJLEOIIround.pdf"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research6",
+      "reference_ids": [
+        "turn10view0",
+        "turn10view1",
+        "turn10view2",
+        "turn10view3",
+        "turn10view4",
+        "turn10view5"
+      ],
+      "urls": [
+        "https://www.lse.ac.uk/library/collection-highlights/lse-history",
+        "https://tech.mit.edu/",
+        "https://trinitynews.ie/",
+        "https://www.deseret.com/robots.txt",
+        "https://archives.stanforddaily.com/robots.txt",
+        "https://paperspast.natlib.govt.nz/robots.txt"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research7",
+      "reference_ids": [
+        "turn11view0",
+        "turn11view1",
+        "turn11view2",
+        "turn11view3",
+        "turn11view4",
+        "turn11view5",
+        "turn10view0",
+        "turn11view6",
+        "turn7view3",
+        "turn11view7",
+        "turn7view4"
+      ],
+      "urls": [
+        "https://cyprus-mail.com/1988/1/1",
+        "https://cyprus-mail.com/2007/1/1",
+        "https://cyprus-mail.com/2026/9/21",
+        "https://www.alicespringsnews.com.au/",
+        "https://www.odt.co.nz/",
+        "https://digital.library.lse.ac.uk/collections/list/collections/17"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research8",
+      "reference_ids": [
+        "turn12search0",
+        "turn12search1",
+        "turn12search2",
+        "turn12search3",
+        "turn12search4",
+        "turn12search5",
+        "turn12search6",
+        "turn12search7",
+        "turn12search8",
+        "turn12search9",
+        "turn12search10",
+        "turn12search11",
+        "turn12search12",
+        "turn12search13",
+        "turn12view0",
+        "turn11view5",
+        "turn12view1",
+        "turn11view3",
+        "turn12view2"
+      ],
+      "urls": [
+        "https://trove.nla.gov.au/newspaper/page/13018069",
+        "https://trove.nla.gov.au/newspaper/issue/4717",
+        "https://trove.nla.gov.au/newspaper/page/13922058",
+        "https://trove.nla.gov.au/newspaper/page/12742920",
+        "https://trove.nla.gov.au/newspaper/page/13029896",
+        "https://trove.nla.gov.au/newspaper/page/14553943",
+        "https://trove.nla.gov.au/newspaper/page/13013897",
+        "https://trove.nla.gov.au/newspaper/page/646891",
+        "https://trove.nla.gov.au/newspaper/page/11498819",
+        "https://trove.nla.gov.au/newspaper/page/16214441",
+        "https://trove.nla.gov.au/newspaper/page/11009915",
+        "https://trove.nla.gov.au/newspaper/page/11673716",
+        "https://paperspast.natlib.govt.nz/imageserver/periodicals/P29pZD1UTFIxOTg4MTAwMSZnZXRwZGY9dHJ1ZQ%3D%3D",
+        "https://paperspast.natlib.govt.nz/imageserver/periodicals/P29pZD1OWlBHMTkyNTAxMTQuMS43JmdldHBkZj10cnVl",
+        "https://digital.library.lse.ac.uk/collections/list/collections/17",
+        "https://www.alicespringsnews.com.au/archive/archive.html",
+        "https://www.alicespringsnews.com.au/search"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research9",
+      "reference_ids": [
+        "turn13view0",
+        "turn12view1",
+        "turn13view1",
+        "turn13view2",
+        "turn13view3",
+        "turn11view5",
+        "turn13view4"
+      ],
+      "urls": [
+        "https://www.alicespringsnews.com.au/archive/archive.html",
+        "https://digital.library.lse.ac.uk/collections/list/collections/17"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research10",
+      "reference_ids": [
+        "turn14search0",
+        "turn14search1",
+        "turn14search2",
+        "turn14search3",
+        "turn14search4",
+        "turn14search5",
+        "turn14search6",
+        "turn14search7",
+        "turn14search8",
+        "turn14search9",
+        "turn14search10",
+        "turn14search11",
+        "turn14search12",
+        "turn14search13",
+        "turn14search14",
+        "turn14search15",
+        "turn14view0",
+        "turn12view1",
+        "turn14view1",
+        "turn11view5"
+      ],
+      "urls": [
+        "https://archive.cyprus-mail.com/2015/10/17/cyprus-mail-70th-anniversary-the-1980s-archives-4/",
+        "https://archive.cyprus-mail.com/2020/11/22/the-cyprus-mail-75-years-of-independent-reporting/",
+        "https://archive.cyprus-mail.com/2015/10/24/cyprus-mail-70th-anniversary-the-1980s-archives-6/",
+        "https://archive.cyprus-mail.com/2006/07/09/the-cypriot-who-s-barred-from-bringing-his-wife-to-join-him/",
+        "https://archive.cyprus-mail.com/2018/08/21/through-the-decades-1988/",
+        "https://archive.cyprus-mail.com/2011/10/21/gaddafi-killed-in-hometown/",
+        "https://archive.cyprus-mail.com/2015/11/02/the-cyprus-mail-70-years-old/",
+        "https://archive.cyprus-mail.com/2009/11/08/chequered-history-of-tears-and-terror/",
+        "https://archive.cyprus-mail.com/2018/01/04/foreign-minister-voices-support-former-president-state-debt/",
+        "https://archive.cyprus-mail.com/2008/10/29/finding-a-solution-by-cypriots-for-cypriots/",
+        "https://cyprus-mail.com/2023/02/05/growing-democracy-a-history-of-the-presidential-elections/",
+        "https://archive.cyprus-mail.com/2018/09/10/relations-with-india-via-the-pages-of-a-newspaper/",
+        "https://cyprus-mail.com/wp-content/uploads/2018/06/REPORT.pdf",
+        "https://cyprus-mail.com/wp-content/uploads/2020/06/CM_SchoolsGuide_V2.pdf",
+        "https://cyprus-mail.com/wp-content/uploads/2021/03/school-guide-2021single-pages.pdf",
+        "https://cyprus-mail.com/wp-content/uploads/2019/10/Extraterritorial.pdf",
+        "https://www.alicespringsnews.com.au/archive/archive.html",
+        "https://digital.library.lse.ac.uk/collections/list/collections/17"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research11",
+      "reference_ids": [
+        "turn15view0",
+        "turn15view1",
+        "turn11view5"
+      ],
+      "urls": [
+        "https://www.stanforddaily.com/",
+        "https://stanforddaily.com/",
+        "https://digital.library.lse.ac.uk/collections/list/collections/17"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research12",
+      "reference_ids": [
+        "turn16search0",
+        "turn16search1",
+        "turn16search2",
+        "turn16search3",
+        "turn16search12",
+        "turn16search13",
+        "turn16search4",
+        "turn16search5",
+        "turn16search6",
+        "turn16search7",
+        "turn16search8",
+        "turn16search9",
+        "turn16search10",
+        "turn16search14",
+        "turn16search15",
+        "turn16search16",
+        "turn16search11",
+        "turn16search17"
+      ],
+      "urls": [
+        "https://paperspast.natlib.govt.nz/newspapers/ruapehu-bulletin",
+        "https://paperspast.natlib.govt.nz/newspapers/ruapehu-bulletin/1996/07/09",
+        "https://paperspast.natlib.govt.nz/help/copyright",
+        "https://paperspast.natlib.govt.nz/newspapers/RUBUL19890718.2.10",
+        "https://trove.nla.gov.au/sites/default/files/2020-01/API%20V2.1%20-%20Whats%20Changed%20-%20Full%20Text%20Search%20Release.pdf",
+        "https://api.trove.nla.gov.au/v2/result?key=",
+        "https://trove.nla.gov.au/sites/default/files/attachments/2023-07/Introducing%20Trove%20API%20v3%20-%20Release%203%20updated.pdf",
+        "https://paperspast.natlib.govt.nz/newspapers/RUBUL19950704.2.41.12",
+        "https://paperspast.natlib.govt.nz/newspapers/RUBUL19961203.2.29",
+        "https://paperspast.natlib.govt.nz/newspapers/RUBUL19990518.2.22",
+        "https://www.varsity.co.uk/about-varsity",
+        "https://www.varsity.co.uk/trust",
+        "https://www.varsity.co.uk/write-for-us",
+        "https://www.varsity.co.uk/privacy-policy",
+        "https://trove.nla.gov.au/sites/default/files/2023-02/Introducing%20Trove%20API%20v3.pdf",
+        "https://paperspast.natlib.govt.nz/imageserver/parliamentary/P29pZD1BSkhSMTkyOS1JLjIuMy4yLjQwJmdldHBkZj10cnVl",
+        "https://paperspast.natlib.govt.nz/imageserver-parliamentary/AJHR1940-I.2.3.2.45.pdf",
+        "https://www.varsity.co.uk/profile/lydia-bunt",
+        "https://trove.nla.gov.au/sites/default/files/attachments/2021-07/search-manual.pdf"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research13",
+      "reference_ids": [
+        "turn17view0",
+        "turn17view1",
+        "turn17view2",
+        "turn17view3",
+        "turn17view4",
+        "turn16search13",
+        "turn17view5",
+        "turn17view6"
+      ],
+      "urls": [
+        "https://paperspast.natlib.govt.nz/newspapers/press/1988",
+        "https://paperspast.natlib.govt.nz/newspapers/press/1992",
+        "https://paperspast.natlib.govt.nz/newspapers/press/1995",
+        "https://www.varsity.co.uk/about-varsity"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research14",
+      "reference_ids": [
+        "turn18view0",
+        "turn18view1",
+        "turn14search0",
+        "turn18view2",
+        "turn16search0",
+        "turn18view3",
+        "turn17view0",
+        "turn18view4",
+        "turn18view5",
+        "turn17view3"
+      ],
+      "urls": [
+        "https://trove.nla.gov.au/about/create-something",
+        "https://archive.cyprus-mail.com/2015/10/17/cyprus-mail-70th-anniversary-the-1980s-archives-4/",
+        "https://paperspast.natlib.govt.nz/newspapers/ruapehu-bulletin",
+        "https://paperspast.natlib.govt.nz/newspapers/press/1988/01/02",
+        "https://paperspast.natlib.govt.nz/terms",
+        "https://www.varsity.co.uk/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research15",
+      "reference_ids": [
+        "turn19view0",
+        "turn12view1",
+        "turn19view1",
+        "turn19view2",
+        "turn18view5",
+        "turn19view3",
+        "turn15view0",
+        "turn19view4"
+      ],
+      "urls": [
+        "https://www.alicespringsnews.com.au/archive/archive.html",
+        "https://www.library.gov.au/sites/default/files/documents/2026-03/Friends%20Newsletter%20-%20Autumn%202026%20-%20Kookaburra%20collection%2C%20artists%20books%2C%20Director-General%20farewell.pdf",
+        "https://www.library.gov.au/sites/default/files/documents/2026-03/Friends%20Newsletter%20-%20Autumn%202026%20-%20Kookaburra%20collection,%20artists%20books,%20Director-General%20farewell.pdf",
+        "https://www.varsity.co.uk/",
+        "https://www.stanforddaily.com/",
+        "https://stanforddaily.com/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research16",
+      "reference_ids": [
+        "turn20view0",
+        "turn20view1",
+        "turn20view2",
+        "turn15view0",
+        "turn20view3",
+        "turn19view1",
+        "turn20view4",
+        "turn17view3",
+        "turn20view5",
+        "turn18view5"
+      ],
+      "urls": [
+        "https://paperspast.natlib.govt.nz/newspapers/RUBUL19890718.2.10",
+        "https://paperspast.natlib.govt.nz/newspapers/RUBUL19990518.2.22",
+        "https://stanforddaily.com/",
+        "https://www.library.gov.au/sites/default/files/documents/2026-03/Friends%20Newsletter%20-%20Autumn%202026%20-%20Kookaburra%20collection%2C%20artists%20books%2C%20Director-General%20farewell.pdf",
+        "https://www.library.gov.au/sites/default/files/documents/2026-03/Friends%20Newsletter%20-%20Autumn%202026%20-%20Kookaburra%20collection,%20artists%20books,%20Director-General%20farewell.pdf",
+        "https://www.varsity.co.uk/about-varsity",
+        "https://www.varsity.co.uk/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research17",
+      "reference_ids": [
+        "turn21view0",
+        "turn21view1",
+        "turn21view2",
+        "turn18view5",
+        "turn21view3",
+        "turn21view4",
+        "turn12view1",
+        "turn21view5",
+        "turn11view5"
+      ],
+      "urls": [
+        "https://timesofmalta.com/faq",
+        "https://timesofmalta.com/about-us/",
+        "https://www.varsity.co.uk/terms-of-use",
+        "https://www.varsity.co.uk/paper-edition",
+        "https://www.alicespringsnews.com.au/archive/archive.html",
+        "https://digital.library.lse.ac.uk/collections/list/collections/17"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research18",
+      "reference_ids": [
+        "turn22view0",
+        "turn21view2",
+        "turn22view1",
+        "turn21view3",
+        "turn22view2",
+        "turn21view0"
+      ],
+      "urls": [
+        "https://www.varsity.co.uk/terms-of-use",
+        "https://www.varsity.co.uk/paper-edition",
+        "https://timesofmalta.com/faq",
+        "https://timesofmalta.com/subscribe"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research19",
+      "reference_ids": [
+        "turn23search0",
+        "turn23search1",
+        "turn23search2",
+        "turn23search3",
+        "turn23search4",
+        "turn23search5",
+        "turn23search6",
+        "turn23search7",
+        "turn23search8",
+        "turn23search9",
+        "turn23search10",
+        "turn23search11"
+      ],
+      "urls": [
+        "https://www.indailysa.com.au/news/archive/2024/09/19/cheers-to-20-years-of-getting-inside-the-news-in-south-australia",
+        "https://www.indailysa.com.au/news/in-depth/2024/09/19/independent-media-celebrates-20-years-in-adelaide",
+        "https://www.indailysa.com.au/news/archive/2019/02/18/rethinking-indailys-comments-section",
+        "https://www.indailysa.com.au/news/archive/2017/09/15/hundreds-sign-support-local-independent-journalism",
+        "https://www.indailysa.com.au/citymag/archive/2018/06/25/thank-you-and-goodbye",
+        "https://www.indailysa.com.au/news/archive/2024/06/24/corporate-ladder-your-weekly-guide-to-executive-appointments-in-south-australia-66",
+        "https://www.indailysa.com.au/news/business/media-week/2017/06/16/media-week-why-two-out-of-three-aint-bad",
+        "https://www.indailysa.com.au/news/archive/2013/06/11/remembering-christopher-pearson",
+        "https://www.indailysa.com.au/about-indaily",
+        "https://www.indailysa.com.au/news/just-in/2025/01/31/indaily-ready-to-shake-things-up-in-2025",
+        "https://www.indailysa.com.au/inreview/archive/2014/12/17/poem-heat-haze",
+        "https://develop.indailysa.com.au/about-inreview"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research20",
+      "reference_ids": [
+        "turn24search0",
+        "turn24search1",
+        "turn24search2",
+        "turn24search12",
+        "turn24search3",
+        "turn24search4",
+        "turn24search5",
+        "turn24search6",
+        "turn24search13",
+        "turn24search7",
+        "turn24search8",
+        "turn24search14",
+        "turn24search15",
+        "turn24search9",
+        "turn24search10",
+        "turn24search11",
+        "turn24search16",
+        "turn24search17",
+        "turn24search19",
+        "turn24search20",
+        "turn24search21",
+        "turn24search22"
+      ],
+      "urls": [
+        "https://www.mit.edu/~tech/",
+        "http://tech.mit.edu/",
+        "http://tech.mit.edu/ads/payment.html",
+        "https://facts.mit.edu/surprise/the-tech/",
+        "https://tech.mit.edu/V63/",
+        "https://dome.mit.edu/bitstream/handle/1721.3/188275/T171.M42h.H847.1996_39080037011464.pdf?isAllowed=y&sequence=1",
+        "https://1961.alumclass.mit.edu/s/1314/2015/club-class-hc.aspx?cc=1&gid=52&pgid=10645&sessionid=bfe5440b-9e46-459c-a9c7-28cedee46fd8&sid=1314",
+        "https://catalog.mit.edu/mit/campus-life/media/",
+        "https://stuff.mit.edu/old/mit-activities-old.html",
+        "https://tech.mit.edu/V119/N39/",
+        "https://murj.mit.edu/issues/MURJ21_full.pdf",
+        "https://web.mit.edu/www/root.old/publications.html",
+        "https://hacks.mit.edu/by_year/",
+        "https://en.wikipedia.org/wiki/The_Tech_%28newspaper%29",
+        "https://web.mit.edu/fnl/volume/201/fnl201.pdf",
+        "https://www.deseret.com/pages/terms-of-use/",
+        "https://mit81.com/baker/doku.php?id=documents%3Astart",
+        "http://tech.mit.edu/V75/PDF/N16.pdf~~",
+        "https://news.mit.edu/1998/calendar-1216",
+        "https://fnl.mit.edu/wp-content/uploads/2020/06/Fnl143.pdf",
+        "http://libraries.mit.edu/",
+        "https://es.wikipedia.org/wiki/The_Tech",
+        "https://www.reddit.com/r/mit/comments/1b7b2h0",
+        "https://en.wikipedia.org/wiki/List_of_websites_founded_before_1995",
+        "https://en.wikipedia.org/wiki/Tech",
+        "https://en.wikipedia.org/wiki/Leonard_H._Tower_Jr",
+        "https://en.wikipedia.org/wiki/Project_Athena"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research21",
+      "reference_ids": [
+        "turn25search0",
+        "turn25search1",
+        "turn25search2",
+        "turn25search3",
+        "turn25search4",
+        "turn25search5",
+        "turn25search6",
+        "turn25search7",
+        "turn25search8",
+        "turn25search9",
+        "turn25search10",
+        "turn25search11",
+        "turn25search12",
+        "turn25search13",
+        "turn25view0",
+        "turn25view1",
+        "turn25view2"
+      ],
+      "urls": [
+        "https://www.odt.co.nz/advertising-terms",
+        "https://www.odt.co.nz/register?destination=regions%2Fcentral-otago%2Fcentral-writer-scoops-top-book-award%23comment-form",
+        "https://www.odt.co.nz/register?destination=entertainment%2Fshow-appearance-runway-career%23comment-form",
+        "https://www.odt.co.nz/register?destination=sport%2Flast-word-great%23comment-form",
+        "https://www.odt.co.nz/register?destination=opinion%2Fwhats-with-that%2Ffar-away-it-all-st-bathans-domain%23comment-form",
+        "https://www.odt.co.nz/register?destination=opinion%2F100-years-ago%2Fdredge-master-given-fond-farewell%23comment-form",
+        "https://www.odt.co.nz/register?destination=lifestyle%2Fmagazine%2Fhells-bowels%23comment-form",
+        "https://www.odt.co.nz/register?destination=lifestyle%2Fhome-garden%2Fbright-unfussy-addition%23comment-form",
+        "https://www.odt.co.nz/register?destination=news%2Fdunedin%2Fcause-celebration%23comment-form",
+        "https://www.odt.co.nz/register?destination=news%2Fworld%2Fviral-video-dig-drive-ban%23comment-form",
+        "https://www.odt.co.nz/register?destination=regions%2Fsouthland%2Fembarrassing-glitch-fixed%23comment-form",
+        "https://www.odt.co.nz/register?destination=news%2Fnational%2Fquake-victims-remembered%23comment-form",
+        "https://www.odt.co.nz/sites/default/files/odt_ratecard_2022_for_download.pdf",
+        "https://www.odt.co.nz/sites/default/files/odt_subs_prepay_live_0.pdf",
+        "https://facts.mit.edu/surprise/the-tech/",
+        "https://tech.mit.edu/V63/",
+        "https://www.deseret.com/pages/terms-of-use/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research22",
+      "reference_ids": [
+        "turn26view0",
+        "turn26view1",
+        "turn25view0",
+        "turn26view2"
+      ],
+      "urls": [
+        "https://www.library.manchester.ac.uk/rylands/special-collections/a-to-z/detail/?mms_id=992983876704401631",
+        "https://thetech.com/",
+        "https://www.odt.co.nz/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research23",
+      "reference_ids": [
+        "turn27view0",
+        "turn27view1",
+        "turn27view2",
+        "turn26view1",
+        "turn27view3"
+      ],
+      "urls": [
+        "https://www.indailysa.com.au/about-indaily",
+        "https://archive.cyprus-mail.com/",
+        "https://thetech.com/issues",
+        "https://thetech.com/about/index"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research24",
+      "reference_ids": [
+        "turn28view0",
+        "turn27view3",
+        "turn28view1",
+        "turn27view2",
+        "turn28view2"
+      ],
+      "urls": [
+        "https://thetech.com/about/index",
+        "https://thetech.com/issues"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research25",
+      "reference_ids": [
+        "turn29view0",
+        "turn27view2",
+        "turn29view1",
+        "turn29view2",
+        "turn29view3",
+        "turn28view0"
+      ],
+      "urls": [
+        "https://thetech.com/issues/108/1",
+        "https://thetech.com/issues/127/1",
+        "https://thetech.com/issues/146/13",
+        "https://thetech.com/about/copyright"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research26",
+      "reference_ids": [
+        "turn30view0",
+        "turn29view3",
+        "turn30view1",
+        "turn27view2"
+      ],
+      "urls": [
+        "https://thetech.com/about/copyright",
+        "https://thetech.com/issues/146/15"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research27",
+      "reference_ids": [
+        "turn31search0",
+        "turn31search1",
+        "turn31search12",
+        "turn31search2",
+        "turn31search13",
+        "turn31search3",
+        "turn31search4",
+        "turn31search5",
+        "turn31search6",
+        "turn31search14",
+        "turn31search7",
+        "turn31search8",
+        "turn31search9",
+        "turn31search10",
+        "turn31search11",
+        "turn31view0"
+      ],
+      "urls": [
+        "https://archive.cyprus-mail.com/2016/08/24/cabinet-scraps-charges-public-pios-newspaper-archives/",
+        "https://archive.cyprus-mail.com/2019/03/06/funds-to-digitise-newspaper-archive-dating-back-to-1878/",
+        "https://cyprus-mail.com/wp-content/uploads/2020/08/MCI_CyprusMail_-1.pdf",
+        "https://cyprus-mail.com/2022/12/06/cybc-digitising-deal-with-google",
+        "https://cyprus-mail.com/wp-content/uploads/2021/03/school-guide-2021single-pages.pdf",
+        "https://cyprus-mail.com/2023/06/06/state-has-archived-18-5km-of-documents",
+        "https://archive.cyprus-mail.com/2020/12/08/treasure-trove-archive-of-former-three-term-mayor-donated-to-paphos/",
+        "https://cyprus-mail.com/2022/11/02/increased-financial-incentives-for-listed-buildings/",
+        "https://cyprus-mail.com/2022/08/09/move-to-archive-the-history-of-schools",
+        "https://cyprus-mail.com/wp-content/uploads/2021/02/v0.9_ENGL_POTHEN_ESCHES_CY_White-Paper-2.pdf",
+        "https://cyprus-mail.com/2022/03/02/paphos-to-be-digitised-within-next-six-months-mayor-says",
+        "https://cyprus-mail.com/2024/04/06/our-goal-is-to-create-a-fully-digitised-state/",
+        "https://archive.cyprus-mail.com/2016/04/26/making-a-difference/",
+        "https://cyprus-mail.com/2024/page/115",
+        "https://cyprus-mail.com/2023/page/473",
+        "https://cyprus-mail.com/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research28",
+      "reference_ids": [
+        "turn32view0",
+        "turn32view1",
+        "turn31view0",
+        "turn32view2"
+      ],
+      "urls": [
+        "https://cyprus-mail.com/2024/page/115",
+        "https://cyprus-mail.com/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research29",
+      "reference_ids": [
+        "turn33view0",
+        "turn32view0",
+        "turn33view1",
+        "turn31view0"
+      ],
+      "urls": [
+        "https://cyprus-mail.com/2024/page/115",
+        "https://cyprus-mail.com/terms-conditions"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    },
+    {
+      "call": "research30",
+      "reference_ids": [
+        "turn34view0",
+        "turn33view1",
+        "turn34view1"
+      ],
+      "urls": [
+        "https://cyprus-mail.com/terms-conditions",
+        "https://cyprus-mail.com/terms-conditions/privacy-policy/"
+      ],
+      "retention": "locators only; source bodies/indexes remain tool observations, not local corpus payloads"
+    }
+  ]
+}

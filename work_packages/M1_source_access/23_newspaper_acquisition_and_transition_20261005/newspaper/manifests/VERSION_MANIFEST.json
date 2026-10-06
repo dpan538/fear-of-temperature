@@ -1,0 +1,35 @@
+{
+  "scope": "own staging only; diagnostic lanes excluded from newspaper coverage",
+  "records": [
+    {
+      "version_id": "775de8e5758644dcc5b88171ce8920a282ffa2d14bababe421c98e5d0843e5fd",
+      "article_id": "b4b944941fe9c13ddfb4bd2a7ad07b962e09aaf67e59ca1ec29f45ad7d64bd34",
+      "request_id": "ca1698af14973f0b5c0ba528",
+      "raw_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/raw/ca1698af14973f0b5c0ba528.bin",
+      "raw_sha256": "354e710253c171fd9c6abb21fb6d17342a63bcc8358c83ce9dfe2d47961f88fb",
+      "body_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper/diagnostics/ca1698af14973f0b5c0ba528_parser23.txt",
+      "body_sha256": "d2a4ff87ff190117665cb784af7bacbf573ffd802813627d1ee340fd53ef3a57",
+      "parser_sha256": "7dc55c2c0af6950a4f8d26952a5ec4f0c5070561643a0d6cc5150cdbcdfa9b83",
+      "retrieved_at": "2026-10-05T08:57:08.235791+00:00",
+      "content_version_time": null,
+      "historical_version_equivalence": "not established",
+      "qualified_readable": 0,
+      "extraction_json": "{\"state\": \"structural_candidate\", \"body_sha256\": \"d2a4ff87ff190117665cb784af7bacbf573ffd802813627d1ee340fd53ef3a57\", \"raw_sha256\": \"354e710253c171fd9c6abb21fb6d17342a63bcc8358c83ce9dfe2d47961f88fb\", \"parser_sha256\": \"7dc55c2c0af6950a4f8d26952a5ec4f0c5070561643a0d6cc5150cdbcdfa9b83\", \"selector\": \".entry-content\", \"removed_selectors\": [\".below-content\"], \"boundary_evidence\": \"Frozen round22 ARTICLE_MANIFEST and REPAIR_LOG; one named inline-word regression; source remains non-newspaper diagnostic\", \"unit_kind\": \"article\", \"prose_completeness\": \"unverified_until_adapter_review\", \"semantic_labels_executed\": false}"
+    },
+    {
+      "version_id": "b2108a2f0cac11fa955d6a69fbca9b02611c64aee0f7946c83e12be85d037588",
+      "article_id": "b4b944941fe9c13ddfb4bd2a7ad07b962e09aaf67e59ca1ec29f45ad7d64bd34",
+      "request_id": "ca1698af14973f0b5c0ba528",
+      "raw_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/raw/ca1698af14973f0b5c0ba528.bin",
+      "raw_sha256": "354e710253c171fd9c6abb21fb6d17342a63bcc8358c83ce9dfe2d47961f88fb",
+      "body_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper/diagnostics/ca1698af14973f0b5c0ba528_baeaba4d87d7_2e2f4b838bd2.txt",
+      "body_sha256": "ddbefe27c252d15f8538dfdee802e6ad2d66abdef546efc2ecb56529963ddfb0",
+      "parser_sha256": "baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59",
+      "retrieved_at": "2026-10-05T08:57:08.235791+00:00",
+      "content_version_time": null,
+      "historical_version_equivalence": "not established",
+      "qualified_readable": 0,
+      "extraction_json": "{\"state\": \"structural_candidate\", \"body_sha256\": \"ddbefe27c252d15f8538dfdee802e6ad2d66abdef546efc2ecb56529963ddfb0\", \"raw_sha256\": \"354e710253c171fd9c6abb21fb6d17342a63bcc8358c83ce9dfe2d47961f88fb\", \"parser_sha256\": \"baeaba4d87d72e5e01c70adcc5c4bececccfcb903fbedfe09e72f820f6558b59\", \"adapter_sha256\": \"2e2f4b838bd245e999e4168c1b924a79ba2f146f41d5fffd971e6a1e8aa77ffa\", \"selector\": \".entry-content\", \"removed_selectors\": [\"aside\", \".below-content\"], \"boundary_evidence\": \"Named raw DOM inspection: seven narrative p blocks; aside newsletter/ad/empty widget and below-content widgets excluded\", \"unit_kind\": \"article\", \"prose_completeness\": \"unverified_until_adapter_review\", \"semantic_labels_executed\": false}"
+    }
+  ]
+}

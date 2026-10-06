@@ -1,0 +1,48 @@
+{
+  "at_utc": "2026-10-05T11:04:01.529648+00:00",
+  "test_kind": "real_saved_non_newspaper_diagnostic",
+  "raw_not_copied": true,
+  "raw_path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/22_real_payload_acquisition_20261005/media/raw/ca1698af14973f0b5c0ba528.bin",
+  "raw_sha256_before_after": "354e710253c171fd9c6abb21fb6d17342a63bcc8358c83ce9dfe2d47961f88fb",
+  "old_body_sha256_before_after": "1f02bfc083a4a831d927eb10428903707cde22e71ecdf4484fa8145a36b58075",
+  "old_body_bytes": 1937,
+  "new_body_bytes": 2104,
+  "parser_sha256": "7dc55c2c0af6950a4f8d26952a5ec4f0c5070561643a0d6cc5150cdbcdfa9b83",
+  "inline_regression": {
+    "old_token": "l ong-time",
+    "new_token": "long-time",
+    "verified": true
+  },
+  "first_write": {
+    "article_id": "b4b944941fe9c13ddfb4bd2a7ad07b962e09aaf67e59ca1ec29f45ad7d64bd34",
+    "version_id": "775de8e5758644dcc5b88171ce8920a282ffa2d14bababe421c98e5d0843e5fd",
+    "new_versions_inserted": 1
+  },
+  "restart_duplicate_write": {
+    "article_id": "b4b944941fe9c13ddfb4bd2a7ad07b962e09aaf67e59ca1ec29f45ad7d64bd34",
+    "version_id": "775de8e5758644dcc5b88171ce8920a282ffa2d14bababe421c98e5d0843e5fd",
+    "new_versions_inserted": 0
+  },
+  "staging_snapshot": {
+    "articles_by_lane": {
+      "diagnostic": 1
+    },
+    "versions": 1,
+    "qualified_newspaper_articles": 0,
+    "cursors": [
+      {
+        "lane": "diagnostic",
+        "source_id": "texastribune",
+        "cursor": {
+          "last_raw_request": "ca1698af14973f0b5c0ba528",
+          "newspaper_collection_started": false,
+          "next": "none; targeted diagnostic only"
+        },
+        "updated_at": "2026-10-05T11:04:01.528500+00:00"
+      }
+    ]
+  },
+  "new_downloads": 0,
+  "newspaper_coverage_contribution": 0,
+  "parser_completeness": "structural_candidate; frozen boundary evidence only; no universal correctness claim"
+}

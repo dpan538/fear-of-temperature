@@ -1,0 +1,29 @@
+test_blocked_transport_does_not_generate_derivative (__main__.FrozenFrameTests.test_blocked_transport_does_not_generate_derivative) ... ok
+test_declared_date_order_and_owned_paths (__main__.FrozenFrameTests.test_declared_date_order_and_owned_paths) ... ok
+test_frame_frozen_before_body_no_refill_and_alias (__main__.FrozenFrameTests.test_frame_frozen_before_body_no_refill_and_alias) ... ok
+test_modified_frame_cannot_be_staged (__main__.FrozenFrameTests.test_modified_frame_cannot_be_staged) ... ok
+test_partial_september_filter_and_issue_rejection (__main__.FrozenFrameTests.test_partial_september_filter_and_issue_rejection) ... ok
+test_review_cannot_qualify_a_preview (__main__.FrozenFrameTests.test_review_cannot_qualify_a_preview) ... ok
+test_blocks_lists_breaks_tables_not_duplicated (__main__.ParserTests.test_blocks_lists_breaks_tables_not_duplicated) ... ok
+test_identity_container_rejected (__main__.ParserTests.test_identity_container_rejected) ... ok
+test_inline_word_and_actual_space (__main__.ParserTests.test_inline_word_and_actual_space) ... ok
+test_missing_or_multiple_boundary_stays_unresolved (__main__.ParserTests.test_missing_or_multiple_boundary_stays_unresolved) ... ok
+test_native_order_pagination_and_duplicate_links (__main__.ParserTests.test_native_order_pagination_and_duplicate_links) ... ok
+test_preview_and_container_do_not_qualify (__main__.ParserTests.test_preview_and_container_do_not_qualify) ... ok
+test_widgets_and_jsonld_are_not_bodies (__main__.ParserTests.test_widgets_and_jsonld_are_not_bodies) ... ok
+test_edition_and_provenance_conflicts_do_not_reassign_parent (__main__.StagingTests.test_edition_and_provenance_conflicts_do_not_reassign_parent) ... ok
+test_fixed_endpoint_and_wrong_unit_and_diagnostic (__main__.StagingTests.test_fixed_endpoint_and_wrong_unit_and_diagnostic) ... ok
+test_identity_date_conflict_rolls_back (__main__.StagingTests.test_identity_date_conflict_rolls_back) ... ok
+test_interrupted_transaction_and_restart (__main__.StagingTests.test_interrupted_transaction_and_restart) ... ok
+test_new_parser_version_same_parent (__main__.StagingTests.test_new_parser_version_same_parent) ... ok
+test_lifetime_copies_and_pending_overhead_stop (__main__.TransportTests.test_lifetime_copies_and_pending_overhead_stop) ... ok
+test_original_reserve_not_relaxed (__main__.TransportTests.test_original_reserve_not_relaxed) ... ok
+test_reconciliation_never_resets_native_transport_charges (__main__.TransportTests.test_reconciliation_never_resets_native_transport_charges) ... ok
+test_retry_after_stop_blocks_a_new_url_without_another_request (__main__.TransportTests.test_retry_after_stop_blocks_a_new_url_without_another_request) ... ok
+test_storage_stop_sends_no_request_and_is_restart_stable (__main__.TransportTests.test_storage_stop_sends_no_request_and_is_restart_stable) ... ok
+test_truncation_preserves_partial_and_duplicate_does_not_refetch (__main__.TransportTests.test_truncation_preserves_partial_and_duplicate_does_not_refetch) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.053s
+
+OK

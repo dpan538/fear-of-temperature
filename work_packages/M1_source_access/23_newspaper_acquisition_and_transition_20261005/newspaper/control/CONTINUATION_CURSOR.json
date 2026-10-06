@@ -1,0 +1,232 @@
+{
+  "closed_at_utc": "2026-10-05T12:16:47.110111+00:00",
+  "released_at_utc": "2026-10-05T10:42:38.680119+00:00",
+  "hard_network_deadline_utc": "2026-10-05T12:42:38.680119+00:00",
+  "deadline_reached_at_close": false,
+  "tranche_state": "bounded preparation complete; newspaper acquisition blocked and unstarted",
+  "specific_stop": "actual original-reserve-aware storage preflight failed; complete source-specific production gates and article adapters also remain unavailable",
+  "continuous_objective_complete": false,
+  "automatic_followup": false,
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "all_465_months_and_2325_coordinates_preserved": true,
+  "qualified_newspaper_articles": 0,
+  "retained_newspaper_cells": 0,
+  "newspaper_body_or_index_downloads": 0,
+  "selected_article_frames": 0,
+  "failed_selected_article_targets": [],
+  "failed_selection_semantics": "None selected. Recorded source/index tool failures are discovery observations, not failed frozen article targets. No silent refill or quota transfer.",
+  "unstarted_rollout": {
+    "first_month": "1988-01",
+    "strata": [
+      "EU/Europe excluding UK",
+      "UK",
+      "AU",
+      "US",
+      "NZ"
+    ],
+    "all_coordinates_pending": 2325,
+    "next_target_native_id": null,
+    "next_page_cursor": null
+  },
+  "continuation_conditions": [
+    "actual passing storage preflight using unchanged reserves and lifetime accounting",
+    "applicable primary route, retention and identity/date evidence",
+    "validated source-specific article boundary, OCR/continuation mapping where needed",
+    "new bounded coordinator release after this closed tranche; retain counts/stops and prior receipts"
+  ],
+  "concrete_unused_paths": [
+    "The Tech current issue/HTML article route; old tech.mit.edu401 stop remains; PDF-era adapter separately unresolved",
+    "Press native issue-to-article HTML route; prior failed January1988 issue preserved; prohibited PDF image-server path remains unused",
+    "Trove documented anonymous experimentation route requires current official conditions and actual viability, not an assumed key or response",
+    "Beaver date-control enumeration and article OCR/parent mapping",
+    "Mancunion and Trinity primary publisher/archive links still need confirmation; search caps already used"
+  ],
+  "source_allowances": [
+    {
+      "source_id": "cyprus_mail",
+      "stratum": "EU/Europe excluding UK",
+      "metadata_remaining": 15,
+      "search_responses_remaining": 0,
+      "access_state": "current corpus retention/archiving rights stop; old archive transport failure preserved",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "times_of_malta",
+      "stratum": "EU/Europe excluding UK",
+      "metadata_remaining": 28,
+      "search_responses_remaining": 2,
+      "access_state": "subscription required for historical archive; no login/purchase",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "trinity_news",
+      "stratum": "EU/Europe excluding UK",
+      "metadata_remaining": 28,
+      "search_responses_remaining": 0,
+      "access_state": "tool failure; not a refusal or proven empty frame",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "irish_times",
+      "stratum": "EU/Europe excluding UK",
+      "metadata_remaining": 32,
+      "search_responses_remaining": 3,
+      "access_state": "frozen prior transport/rights stop",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "beaver",
+      "stratum": "UK",
+      "metadata_remaining": 20,
+      "search_responses_remaining": 0,
+      "access_state": "public UI responsive; enumeration not verified",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "guardian",
+      "stratum": "UK",
+      "metadata_remaining": 26,
+      "search_responses_remaining": 3,
+      "access_state": "key and applicable permission not established",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "varsity",
+      "stratum": "UK",
+      "metadata_remaining": 22,
+      "search_responses_remaining": 2,
+      "access_state": "retention gate unresolved",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "metadata_remaining": 28,
+      "search_responses_remaining": 0,
+      "access_state": "physical-only evidenced route",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "canberra_times",
+      "stratum": "AU",
+      "metadata_remaining": 20,
+      "search_responses_remaining": 0,
+      "access_state": "418 tool failures; anonymous API option unverified live",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "alice_springs_news",
+      "stratum": "AU",
+      "metadata_remaining": 20,
+      "search_responses_remaining": 2,
+      "access_state": "local transport stopped for truthful declared agent; no impersonation",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "indaily",
+      "stratum": "AU",
+      "metadata_remaining": 29,
+      "search_responses_remaining": 1,
+      "access_state": "storage blocked; conditional candidate, not cleared bulk interface",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "smh",
+      "stratum": "AU",
+      "metadata_remaining": 32,
+      "search_responses_remaining": 3,
+      "access_state": "frozen prior stop; no alternate transport",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "metadata_remaining": 14,
+      "search_responses_remaining": 1,
+      "access_state": "current public issue route observed and ordinary paths permitted by robots; storage and real local adapter checks remain blocked",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "stanford_daily",
+      "stratum": "US",
+      "metadata_remaining": 19,
+      "search_responses_remaining": 0,
+      "access_state": "browser navigation timeout and invalid policy response; no blanket publisher ban",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "deseret_news",
+      "stratum": "US",
+      "metadata_remaining": 27,
+      "search_responses_remaining": 1,
+      "access_state": "new corpus acquisition stopped by current terms",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "nyt",
+      "stratum": "US",
+      "metadata_remaining": 32,
+      "search_responses_remaining": 3,
+      "access_state": "frozen API entitlement stop",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "the_press",
+      "stratum": "NZ",
+      "metadata_remaining": 15,
+      "search_responses_remaining": 0,
+      "access_state": "public calendar works; no local payload due storage",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "ruapehu_bulletin",
+      "stratum": "NZ",
+      "metadata_remaining": 28,
+      "search_responses_remaining": 2,
+      "access_state": "indexed metadata; live article errors; storage blocked",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "otago_daily_times",
+      "stratum": "NZ",
+      "metadata_remaining": 27,
+      "search_responses_remaining": 0,
+      "access_state": "mixed public/subscriber route; no subscription/account",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    },
+    {
+      "source_id": "nzherald",
+      "stratum": "NZ",
+      "metadata_remaining": 32,
+      "search_responses_remaining": 3,
+      "access_state": "frozen rights stop; catalogue only",
+      "stable_api_verified": false,
+      "real_article_adapter_validated": false
+    }
+  ],
+  "request_ledger": "sources/DISCOVERY_REQUESTS.jsonl",
+  "policy_request_ledger": "sources/POLICY_REQUESTS.jsonl",
+  "storage_snapshot": "control/FINAL_STORAGE_CHECK.json"
+}

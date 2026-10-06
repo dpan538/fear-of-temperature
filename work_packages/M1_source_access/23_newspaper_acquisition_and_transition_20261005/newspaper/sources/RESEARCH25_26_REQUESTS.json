@@ -1,0 +1,68 @@
+[
+  {
+    "sequence": 127,
+    "call": "research25",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "https://thetech.com/issues; volume108 issue1 link2120",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 128,
+    "call": "research25",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "https://thetech.com/issues; volume127 issue1 link863",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 129,
+    "call": "research25",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "https://thetech.com/issues; volume146 issue13 link31",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 130,
+    "call": "research25",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "https://thetech.com/about/index; Copyright and distribution link22",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 131,
+    "call": "research26",
+    "title": "mit_tech",
+    "method": "open",
+    "input": "https://thetech.com/about/copyright; lines33",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 132,
+    "call": "research26",
+    "title": "mit_tech",
+    "method": "click",
+    "input": "https://thetech.com/issues; volume146 issue15 link33, fixed-endpoint comparison",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  }
+]

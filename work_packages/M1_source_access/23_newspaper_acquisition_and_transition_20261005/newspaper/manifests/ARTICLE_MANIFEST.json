@@ -1,0 +1,20 @@
+{
+  "scope": "own staging only; diagnostic lanes excluded from newspaper coverage",
+  "records": [
+    {
+      "article_id": "b4b944941fe9c13ddfb4bd2a7ad07b962e09aaf67e59ca1ec29f45ad7d64bd34",
+      "lane": "diagnostic",
+      "source_id": "texastribune",
+      "native_id": "https://www.texastribune.org/2015/12/01/abbott-tells-cubans-texas-preparing-case-trade-emb",
+      "acquisition_parent": "texastribune_public_html",
+      "stratum": "US",
+      "country": "US",
+      "edition": "Texas English digital",
+      "publication_date": "2015-12-01",
+      "publication_precision": "publisher-local day; exact original timestamp remains in frozen manifest",
+      "unit_kind": "article",
+      "provenance": "direct publisher media discourse; newspaper identity not established",
+      "newspaper_eligible": 0
+    }
+  ]
+}

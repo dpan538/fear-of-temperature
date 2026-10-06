@@ -1,0 +1,12 @@
+User-agent: *
+Disallow: /admin/
+Disallow: /search/
+Disallow: /image_search/
+Disallow: /api/
+Disallow: /niceties-manifest/
+
+#Sitemap for archive and news
+Sitemap: http://thetech.com/news_sitemap.xml
+Sitemap: http://thetech.com/search_sitemap.xml
+
+

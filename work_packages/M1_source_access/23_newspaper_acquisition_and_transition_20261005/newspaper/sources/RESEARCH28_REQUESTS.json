@@ -1,0 +1,35 @@
+[
+  {
+    "sequence": 135,
+    "call": "research28",
+    "title": "cyprus_mail",
+    "method": "open",
+    "input": "https://cyprus-mail.com/2024/page/115; observed native search result route",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 136,
+    "call": "research28",
+    "title": "cyprus_mail",
+    "method": "find",
+    "input": "Cyprus Mail current homepage; Privacy",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 137,
+    "call": "research28",
+    "title": "cyprus_mail",
+    "method": "find",
+    "input": "Cyprus Mail current homepage; Archive",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered before ledger registration",
+    "response_available_in_conversation": true
+  }
+]

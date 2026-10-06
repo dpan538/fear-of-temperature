@@ -1,0 +1,24 @@
+[
+  {
+    "sequence": 106,
+    "call": "research19",
+    "title": "indaily",
+    "method": "search",
+    "input": "site:indaily.com.au \"Independent Weekly\" \"2004\"",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered after release and before ledger registration",
+    "response_available_in_conversation": true
+  },
+  {
+    "sequence": 107,
+    "call": "research19",
+    "title": "indaily",
+    "method": "search",
+    "input": "site:indailysa.com.au about Independent Weekly newspaper",
+    "corpus_payload": false,
+    "capture": "model-visible source preparation; no locally retained article/index payload",
+    "time_precision": "individual request UTC unavailable; ordered after release and before ledger registration",
+    "response_available_in_conversation": true
+  }
+]

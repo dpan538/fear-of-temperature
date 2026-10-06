@@ -1,0 +1,36 @@
+User-Agent: nla.gov.au_bot
+Allow: /
+
+User-Agent: ia_archiver
+Allow: /
+
+User-Agent: archive.org_bot
+Allow: /
+
+User-Agent: archive-it_bot
+Allow: /
+
+User-Agent: Perma-Bot
+Allow: /
+
+User-Agent: CCBot
+Allow: /
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: Googlebot
+Allow: /
+
+User-Agent: bingbot
+Allow: /
+
+User-Agent: DuckDuckBot
+Allow: /
+
+User-Agent: *
+Disallow: /
+

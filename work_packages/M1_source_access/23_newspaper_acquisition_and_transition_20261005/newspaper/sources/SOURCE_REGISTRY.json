@@ -1,0 +1,1029 @@
+{
+  "version": "round23_initial_candidate_frame_v1",
+  "frozen_before_local_bodies": true,
+  "scope": "candidate sources and preparation evidence, not a representative national sample",
+  "title_counts": {
+    "EU/Europe excluding UK": 4,
+    "UK": 4,
+    "AU": 4,
+    "US": 4,
+    "NZ": 4
+  },
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "gate": "No production gate is enabled. Every applicable route requires current rights/actor/identity/date/boundary and storage checks.",
+  "frozen_prior_policy": "19_gov_closeout_and_media_transition_20261005/02_media_precollection/SOURCE_ROUTE_POLICY.json",
+  "sources": [
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "cyprus_mail",
+      "title": "Cyprus Mail",
+      "stratum": "EU/Europe excluding UK",
+      "country": "CY",
+      "edition": "English-language Cyprus daily and publisher archive",
+      "frame_role": "regional English newspaper",
+      "identity_status": "publisher identifies English-language daily; body mapping pending",
+      "advertised_or_evidenced_era": "Founded 1945; anniversary page reproduces selected 1980s material, including April 1988; continuous dated text not established",
+      "acquisition_routes": [
+        {
+          "parent": "cyprus_mail_archive",
+          "url": "https://archive.cyprus-mail.com/",
+          "kind": "publisher archival website"
+        },
+        {
+          "parent": "cyprus_mail_current",
+          "url": "https://cyprus-mail.com/",
+          "kind": "current publisher"
+        }
+      ],
+      "probe_observations": {
+        "early": "2015 anniversary search cache mentions April 13, 1988; selective reproduction, not a 1988 frame",
+        "middle": "A guessed /2007/1/1 URL failed; no native calendar evidence",
+        "recent": "Guessed /2026/9/21 failed; no endpoint frame",
+        "live": "Archive homepage timeout; anniversary URL cache miss"
+      },
+      "provenance": "mixed: current original media plus selected archival reproduction; record-level mapping unresolved",
+      "retention_conditions": "Not verified for corpus retention",
+      "redistribution_conditions": "No open grant established",
+      "access_state": "tool failures and unresolved rights; no publisher prohibition inferred",
+      "pending_or_conflicting": [
+        "Do not treat 1945 founding or retrospective highlights as monthly archive completeness",
+        "Guessed date URLs are failed probes, not declared native adapters"
+      ],
+      "rollout_order": 1,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "times_of_malta",
+      "title": "Times of Malta",
+      "stratum": "EU/Europe excluding UK",
+      "country": "MT",
+      "edition": "English daily; Sunday Times is separate edition",
+      "frame_role": "national English newspaper",
+      "identity_status": "publisher about page verified title identity",
+      "advertised_or_evidenced_era": "1935 founding and historical archive advertised; subscription marketing also says 1930, conflicting",
+      "acquisition_routes": [
+        {
+          "parent": "times_of_malta_publisher",
+          "url": "https://timesofmalta.com/about-us/",
+          "kind": "publisher identity"
+        },
+        {
+          "parent": "times_of_malta_archive",
+          "url": "https://timesofmalta.com/faq",
+          "kind": "subscriber e-paper archive"
+        }
+      ],
+      "probe_observations": {
+        "early": "Archive era advertised, not accessed",
+        "middle": "Subscriber archive only, no issue/body probe",
+        "recent": "FAQ describes 20 free articles then subscription; no paid or account access",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "direct publisher identity; archive reproduction mapping pending",
+      "retention_conditions": "Subscription entitlement and retention permission not established",
+      "redistribution_conditions": "No open grant established",
+      "access_state": "subscription required for historical archive; no login/purchase",
+      "pending_or_conflicting": [
+        "1930 versus 1935 archive-start claim remains unresolved",
+        "Publisher daily and Sunday edition cannot share an undifferentiated article parent"
+      ],
+      "rollout_order": 2,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "trinity_news",
+      "title": "Trinity News",
+      "stratum": "EU/Europe excluding UK",
+      "country": "IE",
+      "edition": "Trinity College Dublin student newspaper candidate",
+      "frame_role": "student press supplement",
+      "identity_status": "candidate; primary title/date verification incomplete",
+      "advertised_or_evidenced_era": "Unknown digitised period in this tranche",
+      "acquisition_routes": [
+        {
+          "parent": "trinity_news_publisher",
+          "url": "https://trinitynews.ie/",
+          "kind": "candidate publisher"
+        }
+      ],
+      "probe_observations": {
+        "early": "No 1988 route established",
+        "middle": "Three searches did not establish dated archive",
+        "recent": "Publisher open failed in tool",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "unresolved record mapping; no body retained",
+      "retention_conditions": "Unverified",
+      "redistribution_conditions": "Unverified",
+      "access_state": "tool failure; not a refusal or proven empty frame",
+      "pending_or_conflicting": [
+        "No national representativeness claim",
+        "Search allowance consumed; native metadata leads can be examined if independently evidenced"
+      ],
+      "rollout_order": 3,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "irish_times",
+      "title": "The Irish Times",
+      "stratum": "EU/Europe excluding UK",
+      "country": "IE",
+      "edition": "Irish English publisher article index; print edition separate",
+      "frame_role": "proposal-aligned national press",
+      "identity_status": "accepted prior registry; no reopening",
+      "advertised_or_evidenced_era": "Prior observed 2025 month/day index; historical print archive entitlement unknown",
+      "acquisition_routes": [
+        {
+          "parent": "irish_times_index",
+          "url": "https://www.irishtimes.com/article-index/2025/07/",
+          "kind": "frozen prior route"
+        }
+      ],
+      "probe_observations": {
+        "early": "Unassessed",
+        "middle": "Unassessed",
+        "recent": "Prior first day-index timeout preserved",
+        "endpoint": "No new probe"
+      },
+      "provenance": "original publisher route; body not established",
+      "retention_conditions": "Prior personal-use conditions do not establish TDM grant",
+      "redistribution_conditions": "Prior not openly licensed",
+      "access_state": "frozen prior transport/rights stop",
+      "pending_or_conflicting": [
+        "No alternate-client retry or print sign-in",
+        "Prior evidence file SOURCE_ROUTE_POLICY.json retained unchanged"
+      ],
+      "rollout_order": 4,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "beaver",
+      "title": "The Beaver",
+      "stratum": "UK",
+      "country": "GB",
+      "edition": "LSE Students' Union newspaper archive",
+      "frame_role": "student press supplement",
+      "identity_status": "LSE library verifies newspaper identity",
+      "advertised_or_evidenced_era": "LSE material reports 1949–2012 and 1949–2011; discrepancy retained",
+      "acquisition_routes": [
+        {
+          "parent": "lse_beaver_archive",
+          "url": "https://digital.library.lse.ac.uk/collections/list/collections/17",
+          "kind": "library archival reproduction",
+          "era_start": "1949-01",
+          "era_end": "2012-12",
+          "era_basis": "advertised, end-year conflicting",
+          "evidence": "https://www.lse.ac.uk/library/collection-highlights/lse-history"
+        }
+      ],
+      "probe_observations": {
+        "early": "Public collection exposes date fields; no 1988 issue/body resolved",
+        "middle": "Archive era advertised; dynamic results shell",
+        "recent": "Post-2012 route not established",
+        "endpoint": "Historical route inapplicable; other routes unassessed"
+      },
+      "provenance": "archival reproduction of newspaper originals; article-level OCR mapping pending",
+      "retention_conditions": "Public robots allow ordinary routes except login/cms; content licence/retention unresolved",
+      "redistribution_conditions": "Unverified",
+      "access_state": "public UI responsive; enumeration not verified",
+      "pending_or_conflicting": [
+        "Default 'no results' shell is not verified empty publication",
+        "Books/issues/OCR text are not automatically independent articles",
+        "Term-time and student composition retained"
+      ],
+      "rollout_order": 1,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "guardian",
+      "title": "The Guardian",
+      "stratum": "UK",
+      "country": "GB",
+      "edition": "Guardian Open Platform; Observer not automatically same title",
+      "frame_role": "proposal-aligned national press",
+      "identity_status": "accepted prior plus current official API documentation",
+      "advertised_or_evidenced_era": "Open Platform advertises 1999 onward; no pre-1999 solution",
+      "acquisition_routes": [
+        {
+          "parent": "guardian_open_platform",
+          "url": "https://open-platform.theguardian.com/",
+          "kind": "publisher API",
+          "era_start": "1999-01",
+          "era_end": "2026-09",
+          "era_basis": "advertised",
+          "evidence": "https://open-platform.theguardian.com/access/"
+        }
+      ],
+      "probe_observations": {
+        "early": "1988 outside advertised API era",
+        "middle": "No key/no API request",
+        "recent": "Official API access documentation read",
+        "endpoint": "No API payload request"
+      },
+      "provenance": "direct original publisher content if entitled; currently documentation only",
+      "retention_conditions": "Prior automation/TDM stop preserved; developer dissertation use and commercial TDM route differ",
+      "redistribution_conditions": "No verified grant for intended corpus use",
+      "access_state": "key and applicable permission not established",
+      "pending_or_conflicting": [
+        "Developer documentation lists 1 call/second and 500/day; local minimum remains 2 seconds",
+        "No registration or credentials inspected"
+      ],
+      "rollout_order": 2,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "varsity",
+      "title": "Varsity",
+      "stratum": "UK",
+      "country": "GB",
+      "edition": "Cambridge independent student newspaper",
+      "frame_role": "student press supplement",
+      "identity_status": "publisher verifies current form since 1947",
+      "advertised_or_evidenced_era": "Paper-edition headings 2000–2001 to 2026–2027; headings do not prove complete holdings",
+      "acquisition_routes": [
+        {
+          "parent": "varsity_publisher",
+          "url": "https://www.varsity.co.uk/",
+          "kind": "publisher digital"
+        },
+        {
+          "parent": "varsity_paper_edition",
+          "url": "https://www.varsity.co.uk/paper-edition",
+          "kind": "issue embed/archive",
+          "era_start": "2000-01",
+          "era_end": "2026-09",
+          "era_basis": "year headings only",
+          "evidence": "https://www.varsity.co.uk/paper-edition"
+        }
+      ],
+      "probe_observations": {
+        "early": "1988 bodies unverified",
+        "middle": "2006–2007 year heading only",
+        "recent": "Eligible September 2026 dated links visible among later content",
+        "endpoint": "Cutoff can filter date links; no complete month frame"
+      },
+      "provenance": "direct publisher digital; print/Issuu archival mapping pending",
+      "retention_conditions": "Terms permit personal noncommercial downloads but restrict storing stories in retrieval systems without written permission; intended staging permission unresolved",
+      "redistribution_conditions": "Written permission conditions; no grant established",
+      "access_state": "retention gate unresolved",
+      "pending_or_conflicting": [
+        "Historical PDFs and issue containers need article segmentation",
+        "Student/term-time subframe; not UK national press"
+      ],
+      "rollout_order": 3,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "mancunion",
+      "title": "Mancunion / Student Direct",
+      "stratum": "UK",
+      "country": "GB",
+      "edition": "Manchester student newspaper; brand changes preserved",
+      "frame_role": "student press supplement",
+      "identity_status": "university library identifies newspaper holdings",
+      "advertised_or_evidenced_era": "Physical holdings 1964–2019; no public digitised body era established",
+      "acquisition_routes": [
+        {
+          "parent": "manchester_union_archive",
+          "url": "https://www.library.manchester.ac.uk/rylands/special-collections/a-to-z/detail/?mms_id=992983876704401631",
+          "kind": "physical collection catalogue",
+          "era_start": "1964-01",
+          "era_end": "2019-12",
+          "era_basis": "physical holdings only",
+          "evidence": "https://www.library.manchester.ac.uk/rylands/special-collections/a-to-z/detail/?mms_id=992983876704401631"
+        }
+      ],
+      "probe_observations": {
+        "early": "1988 within physical holdings, not online full text",
+        "middle": "Physical holdings only",
+        "recent": "No current source route established",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "catalogue identity is indirect evidence of holdings; original text unavailable locally",
+      "retention_conditions": "Reading-room access not requested; public corpus route unverified",
+      "redistribution_conditions": "Unverified",
+      "access_state": "physical-only evidenced route",
+      "pending_or_conflicting": [
+        "Two domain searches used themancunion.com, an unverified domain; empty responses do not exhaust the newspaper",
+        "Student Direct name/edition continuity needs mapping"
+      ],
+      "rollout_order": 4,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "canberra_times",
+      "title": "The Canberra Times",
+      "stratum": "AU",
+      "country": "AU",
+      "edition": "ACT newspaper; Trove historical title",
+      "frame_role": "regional Australian newspaper",
+      "identity_status": "Libraries ACT/NLA title mapping verified at collection level",
+      "advertised_or_evidenced_era": "ACT says 1926–1994; NLA Autumn 2026 p4 says 1926–1995",
+      "acquisition_routes": [
+        {
+          "parent": "trove_canberra_times",
+          "url": "https://trove.nla.gov.au/newspaper/page/13018069",
+          "kind": "national-library archival reproduction",
+          "era_start": "1926-01",
+          "era_end": "1995-12",
+          "era_basis": "advertised extension; actual issue completeness unknown",
+          "evidence": "https://www.library.gov.au/sites/default/files/documents/2026-03/Friends%20Newsletter%20-%20Autumn%202026%20-%20Kookaburra%20collection%2C%20artists%20books%2C%20Director-General%20farewell.pdf"
+        }
+      ],
+      "probe_observations": {
+        "early": "1988 supported by advertised era; no issue/article downloaded",
+        "middle": "1992-03-30 p8 metadata indexed; live page returned 418",
+        "recent": "Trove historical route does not cover 2026; contemporary route pending",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "archival reproduction; page-to-article/OCR verification pending",
+      "retention_conditions": "NLA says post-1954 publisher permission; this does not establish every reuse right",
+      "redistribution_conditions": "Title-specific reuse conditions not verified",
+      "access_state": "418 tool failures; anonymous API option unverified live",
+      "pending_or_conflicting": [
+        "2023 API v3 Release 3 documents anonymous experimentation; not all API use necessarily requires a key",
+        "Current anonymous limits/terms/title ID/API response and OCR boundaries unverified",
+        "Do not invent title IDs"
+      ],
+      "rollout_order": 1,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "alice_springs_news",
+      "title": "Alice Springs News",
+      "stratum": "AU",
+      "country": "AU",
+      "edition": "Northern Territory regional print and digital editions",
+      "frame_role": "regional Australian newspaper",
+      "identity_status": "publisher about page verifies newspaper/edition transition",
+      "advertised_or_evidenced_era": "Print launch 1994-03-03; web 1997; advertised archive 1998+; digital-only 2011-03-27; index also shows 1996/1997",
+      "acquisition_routes": [
+        {
+          "parent": "alice_legacy_archive",
+          "url": "https://www.alicespringsnews.com.au/archive/archive.html",
+          "kind": "publisher issue index",
+          "era_start": "1996-12",
+          "era_end": "2011-07",
+          "era_basis": "visible legacy index, not complete",
+          "evidence": "https://www.alicespringsnews.com.au/archive/archive.html"
+        },
+        {
+          "parent": "alice_current",
+          "url": "https://www.alicespringsnews.com.au/",
+          "kind": "digital publisher",
+          "era_start": "2011-03",
+          "era_end": "2026-09",
+          "era_basis": "transition/about and current links, not completeness",
+          "evidence": "https://www.alicespringsnews.com.au/about-us"
+        }
+      ],
+      "probe_observations": {
+        "early": "1996-12-26 and 1997-02-19 issue links observed; no 1988 source",
+        "middle": "2007 dated issue links visible",
+        "recent": "September 2026 eligible links visible; homepage mixes featured/native order",
+        "endpoint": "No complete frame"
+      },
+      "provenance": "direct publisher archives; legacy issue/article splitting unresolved",
+      "retention_conditions": "Valid robots wildcard disallows all for declared Research UA; some named agents allowed",
+      "redistribution_conditions": "Content licence unverified",
+      "access_state": "local transport stopped for truthful declared agent; no impersonation",
+      "pending_or_conflicting": [
+        "Search-tool actor permission is separate from our Research UA",
+        "About 1998 archive claim understates earlier index metadata",
+        "Do not count issue summaries as full independent articles"
+      ],
+      "rollout_order": 2,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "indaily",
+      "title": "The Independent Weekly / InDaily",
+      "stratum": "AU",
+      "country": "AU",
+      "edition": "South Australia print newspaper and digital successor; break retained",
+      "frame_role": "newspaper-brand digital supplement",
+      "identity_status": "publisher continuity evidence verified; individual article identity pending",
+      "advertised_or_evidenced_era": "Print first 2004-09-19, until November 2010; digital InDaily described from 2005; rounded timeline wording conflicts",
+      "acquisition_routes": [
+        {
+          "parent": "indaily_publisher",
+          "url": "https://www.indailysa.com.au/about-indaily",
+          "kind": "newspaper-derived digital publisher",
+          "era_start": "2005-01",
+          "era_end": "2026-09",
+          "era_basis": "publisher history; exact digital start month unknown",
+          "evidence": "https://www.indailysa.com.au/news/in-depth/2024/09/19/independent-media-celebrates-20-years-in-adelaide"
+        },
+        {
+          "parent": "indaily_public_sitemaps",
+          "url": "https://assets.indailysa.com.au/sitemaps/news-indailysa/posts/post-300.xml",
+          "kind": "frozen prior sitemap route"
+        }
+      ],
+      "probe_observations": {
+        "early": "Structurally inapplicable before 2004 brand launch",
+        "middle": "Digital existed by 2007, body coverage unverified",
+        "recent": "Prior accepted 2015/2025 diagnostic frames remain separate",
+        "endpoint": "No new 2026 payload/frame"
+      },
+      "provenance": "direct publisher digital; print-to-digital and cross-title mapping pending",
+      "retention_conditions": "Prior public terms/robots receipts available; new newspaper subframe still requires applicable-route review",
+      "redistribution_conditions": "No open grant assumed",
+      "access_state": "storage blocked; conditional candidate, not cleared bulk interface",
+      "pending_or_conflicting": [
+        "CityMag/SALIFE/InReview share site but are separate publications",
+        "Do not retrospectively relabel prior editorial diagnostics as qualified newspapers",
+        "Exact dates and version updates kept separately"
+      ],
+      "rollout_order": 3,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "smh",
+      "title": "The Sydney Morning Herald",
+      "stratum": "AU",
+      "country": "AU",
+      "edition": "Publisher digital; licensed print archive separately",
+      "frame_role": "proposal-aligned national press",
+      "identity_status": "accepted prior registry; no new probe",
+      "advertised_or_evidenced_era": "Licensed 1955–1995 archive advertised elsewhere; entitlement not established",
+      "acquisition_routes": [
+        {
+          "parent": "smh_sitemaps",
+          "url": "https://www.smh.com.au/sitemaps/smh-sitemaps-articles.xml",
+          "kind": "frozen publisher route"
+        }
+      ],
+      "probe_observations": {
+        "early": "No entitled body route",
+        "middle": "No new probe",
+        "recent": "Prior official robots/terms tool failure stop retained",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "publisher route direct if available; licensed reproduction separate",
+      "retention_conditions": "Prior licence/entitlement unresolved",
+      "redistribution_conditions": "Not openly licensed in prior record",
+      "access_state": "frozen prior stop; no alternate transport",
+      "pending_or_conflicting": [
+        "On-site library availability is not our entitlement"
+      ],
+      "rollout_order": 4,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "mit_tech",
+      "title": "The Tech",
+      "stratum": "US",
+      "country": "US",
+      "edition": "MIT student newspaper; old and current publisher archive domains",
+      "frame_role": "student press supplement",
+      "identity_status": "MIT and publisher verify financially independent student newspaper since 1881",
+      "advertised_or_evidenced_era": "Current issue portal lists volumes across study era; legacy volume108 mapped Feb1988–Feb1989; early issue PDF-only",
+      "acquisition_routes": [
+        {
+          "parent": "tech_current_archive",
+          "url": "https://thetech.com/issues",
+          "kind": "publisher archive",
+          "era_start": "1881-11",
+          "era_end": "2026-09",
+          "era_basis": "portal/advertised holdings, not month completeness",
+          "evidence": "https://facts.mit.edu/surprise/the-tech/"
+        },
+        {
+          "parent": "tech_legacy",
+          "url": "https://tech.mit.edu/V63/",
+          "kind": "legacy publisher archive"
+        }
+      ],
+      "probe_observations": {
+        "early": "Current /issues/108/1 exposes PDF link, no independent inline articles/date header",
+        "middle": "/issues/127/1 exposes dated 2007-02-06 article links and previous/next issue controls",
+        "recent": "Current homepage and /issues/146/13 show Aug/Sep2026 article metadata",
+        "endpoint": "/issues/146/15 mixes Sep17 and Sep24 articles; issue association cannot override article publication date"
+      },
+      "provenance": "direct publisher archive; reprinted wire works are archival/indirect relative to original work",
+      "retention_conditions": "Publisher allows electronic distribution of own complete articles/letters with required notice; robot/rate and corpus retention review pending",
+      "redistribution_conditions": "Exclude wire rights from blanket grant; photographs have separate owners; print reprints require permission",
+      "access_state": "current domain publicly responsive; legacy 401 retained; no authentication retry",
+      "pending_or_conflicting": [
+        "Old 401 does not establish refusal of separately linked current domain",
+        "Pre-web PDF article segmentation/OCR and exact dates pending",
+        "Issue/native route is metadata only; no stable API verified"
+      ],
+      "rollout_order": 1,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "stanford_daily",
+      "title": "The Stanford Daily",
+      "stratum": "US",
+      "country": "US",
+      "edition": "Stanford student newspaper and digitised print archive",
+      "frame_role": "student press supplement",
+      "identity_status": "publisher links archive; article-level identity pending",
+      "advertised_or_evidenced_era": "Archive advertises 1892–today; not all study months verified",
+      "acquisition_routes": [
+        {
+          "parent": "stanford_daily_veridian",
+          "url": "https://archives.stanforddaily.com/",
+          "kind": "newspaper print archive",
+          "era_start": "1892-01",
+          "era_end": "2026-09",
+          "era_basis": "advertised, continuous actual coverage unknown",
+          "evidence": "https://archives.stanforddaily.com/"
+        },
+        {
+          "parent": "stanford_daily_current",
+          "url": "https://stanforddaily.com/",
+          "kind": "publisher WordPress"
+        }
+      ],
+      "probe_observations": {
+        "early": "No live 1988 article boundary resolved",
+        "middle": "Unassessed",
+        "recent": "Homepage responsive; Load More returned same page",
+        "endpoint": "No complete cutoff frame"
+      },
+      "provenance": "archival reproduction plus current publisher originals",
+      "retention_conditions": "Robots HTTP200 returned error HTML, not a valid robots policy; terms pending",
+      "redistribution_conditions": "Unverified",
+      "access_state": "browser navigation timeout and invalid policy response; no blanket publisher ban",
+      "pending_or_conflicting": [
+        "Veridian identifier grammar in tests is a fixture, not observed Stanford IDs",
+        "Advertised archive totals are not qualified corpus counts",
+        "No hidden endpoints or credentials probed"
+      ],
+      "rollout_order": 2,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "deseret_news",
+      "title": "Deseret News",
+      "stratum": "US",
+      "country": "US",
+      "edition": "Utah newspaper; original and syndicated works separate",
+      "frame_role": "regional press supplement",
+      "identity_status": "publisher history and dated article metadata establish newspaper route",
+      "advertised_or_evidenced_era": "1995 publisher report describes historical service from 1988-04-01; current cached Nov/Dec1988 articles",
+      "acquisition_routes": [
+        {
+          "parent": "deseret_publisher",
+          "url": "https://www.deseret.com/",
+          "kind": "publisher historical/current"
+        },
+        {
+          "parent": "deseret_public_sitemaps",
+          "url": "https://www.deseret.com/arc/outboundfeeds/sitemap-index-year/",
+          "kind": "published robots sitemap lead"
+        }
+      ],
+      "probe_observations": {
+        "early": "Current indexed Nov8/Dec29 1988 publication metadata; historical service was institution-licensed",
+        "middle": "Unassessed",
+        "recent": "Valid robots policy and current terms read",
+        "endpoint": "No date frame"
+      },
+      "provenance": "direct publisher newspaper expression; AP/wire origin differs from publication parent",
+      "retention_conditions": "Terms §1(g) forbid automated/manual data-mining extraction, caching and copying; no intended-use permission established",
+      "redistribution_conditions": "No grant established; syndicated rights separate",
+      "access_state": "new corpus acquisition stopped by current terms",
+      "pending_or_conflicting": [
+        "Robots allow search/user agents but prohibit named training crawlers; terms still control intended extraction",
+        "No January–March1988 coverage inferred",
+        "1995 library arrangement is not a current entitlement"
+      ],
+      "rollout_order": 3,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "nyt",
+      "title": "The New York Times",
+      "stratum": "US",
+      "country": "US",
+      "edition": "Archive API metadata and publisher body routes separately",
+      "frame_role": "proposal-aligned national press",
+      "identity_status": "accepted prior registry",
+      "advertised_or_evidenced_era": "Monthly metadata advertised since 1851; not body entitlement",
+      "acquisition_routes": [
+        {
+          "parent": "nyt_archive_api",
+          "url": "https://developer.nytimes.com/docs/archive-product/1/overview",
+          "kind": "frozen documented API"
+        }
+      ],
+      "probe_observations": {
+        "early": "API era nominally applicable; no key request",
+        "middle": "No new probe",
+        "recent": "Prior documentation evidence reused",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "direct publisher metadata; article body mapping unresolved",
+      "retention_conditions": "API key and applicable terms/permission not established",
+      "redistribution_conditions": "Prior no open licence",
+      "access_state": "frozen API entitlement stop",
+      "pending_or_conflicting": [
+        "Metadata inventory is not readable article coverage",
+        "No account/key search; full monthly response can exceed object cap"
+      ],
+      "rollout_order": 4,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "the_press",
+      "title": "The Press",
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "Christchurch/Canterbury newspaper; Papers Past digitisation",
+      "frame_role": "regional newspaper historical anchor",
+      "identity_status": "archive title identity verified",
+      "advertised_or_evidenced_era": "Current release/title metadata 1861–1995; older indexed title page 1861–1989",
+      "acquisition_routes": [
+        {
+          "parent": "paperspast_press",
+          "url": "https://paperspast.natlib.govt.nz/newspapers/press/1988",
+          "kind": "national-library archival reproduction",
+          "era_start": "1861-01",
+          "era_end": "1995-12",
+          "era_basis": "current title/release, not complete issues",
+          "evidence": "https://paperspast.natlib.govt.nz/about/past-releases"
+        }
+      ],
+      "probe_observations": {
+        "early": "1988 year calendar exposes issue-day links in all12 months; Jan2 issue click cache miss",
+        "middle": "1992 year tool-inaccessible; 1995 iframe shell",
+        "recent": "Post1995 outside this historical route",
+        "endpoint": "No modern publisher route established"
+      },
+      "provenance": "archival reproduction of original newspaper; article/date/OCR verification pending",
+      "retention_conditions": "Title states CC BY-NC-SA4.0 from Stuff; separate Footrot Flats cartoon rights; site bulk/rate terms unresolved",
+      "redistribution_conditions": "Noncommercial attribution/share-alike conditions for covered works; no blanket image grant",
+      "access_state": "public calendar works; no local payload due storage",
+      "pending_or_conflicting": [
+        "Native robots exclude newspaper PDF image-server path; do not use it",
+        "HTML/OCR article boundary not verified; calendar is issue metadata only",
+        "Archive end-year update retained without claiming all issues"
+      ],
+      "rollout_order": 1,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "ruapehu_bulletin",
+      "title": "Ruapehu Bulletin",
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "Ohakune community weekly; Waimarino predecessor separate",
+      "frame_role": "community newspaper supplement",
+      "identity_status": "Papers Past identifies title and predecessor rename",
+      "advertised_or_evidenced_era": "First Ruapehu issue1989-02-21; holdings1989–1999 and2001, not assumed2000",
+      "acquisition_routes": [
+        {
+          "parent": "paperspast_ruapehu",
+          "url": "https://paperspast.natlib.govt.nz/newspapers/ruapehu-bulletin",
+          "kind": "national-library archival reproduction",
+          "era_start": "1989-02",
+          "era_end": "2001-12",
+          "era_basis": "release lists1989–1999 and2001; 2000 gap",
+          "evidence": "https://paperspast.natlib.govt.nz/about/past-releases"
+        }
+      ],
+      "probe_observations": {
+        "early": "Indexed article identity RUBUL19890718.2.10; live article tool error",
+        "middle": "1996 issue describes separate article/illustration/ad/grouping units; some ARTICLE tags actually mixed notices",
+        "recent": "After2001 outside advertised archive",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "archival reproduction; source-work/independent article mapping pending",
+      "retention_conditions": "Title CC BY-NC-SA4.0 attributed to Ruapehu Media; shared Papers Past route/rate conditions pending",
+      "redistribution_conditions": "Noncommercial attribution/share-alike for covered works",
+      "access_state": "indexed metadata; live article errors; storage blocked",
+      "pending_or_conflicting": [
+        "Pre1989 title is Waimarino Bulletin; not silently one title",
+        "Archive ARTICLE tag alone does not qualify notices/components",
+        "Multi-page continuations require parent/version/segment checks"
+      ],
+      "rollout_order": 2,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "otago_daily_times",
+      "title": "Otago Daily Times",
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "Dunedin daily; free website and subscriber replica separate",
+      "frame_role": "regional newspaper contemporary candidate",
+      "identity_status": "publisher title and 2008 launch article evidence",
+      "advertised_or_evidenced_era": "Open website announced2008-06-09; historic 1997 snapshot; replica advertised since2004-01-02",
+      "acquisition_routes": [
+        {
+          "parent": "odt_open_web",
+          "url": "https://www.odt.co.nz/",
+          "kind": "publisher public/mixed web",
+          "era_start": "2008-06",
+          "era_end": "2026-09",
+          "era_basis": "launch announcement; no completeness",
+          "evidence": "https://www.odt.co.nz/news/dunedin/welcome-to-our-new-site-t395flet"
+        },
+        {
+          "parent": "odt_replica",
+          "url": "https://newspapers.odt.co.nz/",
+          "kind": "subscriber replica",
+          "era_start": "2004-01",
+          "era_end": "2026-09",
+          "era_basis": "2019 educational publisher PDF claim",
+          "evidence": "https://www.odt.co.nz/sites/default/files/extra_programme_2019_copy-1.pdf"
+        }
+      ],
+      "probe_observations": {
+        "early": "1988 public body route unestablished",
+        "middle": "2008 launch evidence; no 2007 archive body",
+        "recent": "Current homepage visible; many subscriber labels",
+        "endpoint": "No complete frame"
+      },
+      "provenance": "direct publisher originals; replica mapping pending",
+      "retention_conditions": "Generic content retention/automation terms not established; advertising terms apply to ad services only",
+      "redistribution_conditions": "No open grant established",
+      "access_state": "mixed public/subscriber route; no subscription/account",
+      "pending_or_conflicting": [
+        "Launch article updated2026-07-16; today's text not proven identical to2008 version",
+        "1997 snapshot and replica2004 start are different channels",
+        "No subscription entitlement inferred from educational PDF"
+      ],
+      "rollout_order": 3,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    },
+    {
+      "publication_cutoff": "2026-09-21",
+      "retained_newspaper_articles": 0,
+      "local_newspaper_payload_probe": false,
+      "stable_api_verified": false,
+      "article_adapter_validated": false,
+      "complete_frame_verified": false,
+      "eligible_population_count": null,
+      "inclusion_probability": null,
+      "historical_body_equivalence": "not established",
+      "claim_truth_verified": false,
+      "title_id": "nzherald",
+      "title": "The New Zealand Herald",
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "Publisher newspaper; catalogue route only",
+      "frame_role": "proposal-aligned national press",
+      "identity_status": "accepted prior title metadata",
+      "advertised_or_evidenced_era": "Catalogue identifies title; digitised/readable era not established here",
+      "acquisition_routes": [
+        {
+          "parent": "nzherald_catalogue",
+          "url": "https://natlib.govt.nz/records/42616616",
+          "kind": "frozen catalogue-only route"
+        }
+      ],
+      "probe_observations": {
+        "early": "No entitled newspaper body route",
+        "middle": "No new probe",
+        "recent": "Prior publisher rights gate retained",
+        "endpoint": "Unassessed"
+      },
+      "provenance": "catalogue indirect holding evidence; original article access unresolved",
+      "retention_conditions": "Prior publisher requires archiving/database permission",
+      "redistribution_conditions": "Not openly licensed in prior evidence",
+      "access_state": "frozen rights stop; catalogue only",
+      "pending_or_conflicting": [
+        "Catalogue presence is not article/text presence"
+      ],
+      "rollout_order": 4,
+      "metadata_request_cap": 32,
+      "public_search_response_cap": 3,
+      "source_month_page_cap_if_released": 2
+    }
+  ]
+}

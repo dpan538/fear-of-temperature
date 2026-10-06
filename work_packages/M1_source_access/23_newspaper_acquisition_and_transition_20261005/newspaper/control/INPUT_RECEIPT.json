@@ -1,0 +1,49 @@
+{
+  "at_utc": "2026-10-05T10:46:06.975433+00:00",
+  "files": [
+    {
+      "path": "AGENTS.md",
+      "bytes": 11147,
+      "sha256": "b90fb4583c9b082d083b8e364b92ca8caeb82a685efe418c0bc4c670e47ee162"
+    },
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "bytes": 12458,
+      "sha256": "d5252c0b590cfaded2aa6888a3ef20534973ce8069e431c2f22f1a7a38aa8533"
+    },
+    {
+      "path": "docs/PROJECT_LOG.md",
+      "bytes": 165908,
+      "sha256": "e432aa6720a2d54048b82659f1c2f5e818a2f0e86490e8068c45285e69e6a87a"
+    },
+    {
+      "path": "docs/decisions/2026-10-05-separated-newspaper-and-social-media-coverage.md",
+      "bytes": 13380,
+      "sha256": "072551d6bbc3d63449133fe68f0ca9d42b22d560a45ed2d935f19d0310a5673b"
+    },
+    {
+      "path": "proposal/thesis_proposal.md",
+      "bytes": 47552,
+      "sha256": "8c43d7a02a8de587d4e66c2b0ef6d10763b7be22401ab0bf8f676cd3893e2af9"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/PLAN.md",
+      "bytes": 10634,
+      "sha256": "808ef9a76fc8218d749d42a28a971747b6f09b3eb2200205a4e04ed12311939c"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/control/SCOPE.json",
+      "bytes": 2188,
+      "sha256": "2b3ac8e642ba8f6655f563cd30fa8f7f71df2555448f31cb82cfa085212fcd1f"
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/control/LAUNCH_STORAGE_PREFLIGHT.json",
+      "bytes": 656,
+      "sha256": "a43b40e69f3f342d83f8ec81aa612ac7572814589577440b9fc31636959ad42a"
+    }
+  ],
+  "writes_only": "newspaper/",
+  "government_access": false,
+  "additional_windows_or_subagents": false,
+  "shared_log_or_git_write": false
+}
