@@ -1,0 +1,13 @@
+# Package 25 newspaper ELT delivery
+
+This is the durable newspaper collection store for the bounded package 25 continuation. Acquisition is closed by `COLLECTION_CLOSE_REASON.json` following the observed physical-space safeguard stop on 6 October 2026. Later capacity was used only to close already saved/prepared inputs. The original deadline, attempt counters, receipts and access stops remain preserved.
+
+Read `DELIVERY_REPORT.md` and `DELIVERY_SUMMARY.json` for the outcome, limits and checks. `coverage/` contains six 465-month ledgers. `ARTICLE_REGISTER.csv` combines the accepted selected baseline metadata with this tranche; `NEW_ARTICLE_REGISTER.csv` identifies additional qualified IDs. Pending/component evidence and residual months have separate registers. The fixed publication interval is 1988-01-01 through 2026-09-21, with September 2026 partial.
+
+`newspaper_elt.sqlite3` stores whole original TEXT in `article_versions`, stable article identities in `articles`, and pending/component evidence separately in `evidence`. A latest-version reference does not create a new independent article. `article_dispositions` preserves named structural reclassifications without deleting original text. `baseline` stores accepted selected metadata only; the old payloads remain in their frozen packages and were not imported or rescanned.
+
+`transport`, `TRANSPORT_STATE.json`, native queues, frozen targets and per-target receipts preserve attempts and exact stops. `raw/`, `bodies/`, print mapping sidecars and necessary renders preserve source evidence and versions. `CHANGED_REFERENCE_RECEIPT.json` reuses ingestion digests and checks reference existence and transport sizes; it is not a new payload hash sweep. `DELIVERY_FILE_RECEIPTS.json` covers delivery artifacts and the final dedicated database snapshot.
+
+Do not restart this closed tranche or remove its stop marker. `calendar_run.run()` refuses to run while the marker exists. Further acquisition needs a new bounded coordinator release and resource check, preserving these historical stops, identifiers and counters. Any successor must use the shared heavy-I/O mutex, serialize formal database writes, respect source-native units and retain the fixed cutoff. No automatic continuation or quota transfer is authorized by this delivery.
+
+These registers concern dated source text and structural qualification. Climate relevance, affect/risk associations and fear interpretation remain later analysis stages. Source-frame, genre and provenance metadata retain unresolved or unrecorded values; they do not certify national representativeness, complete archives, historical content equivalence or the truth of every claim.

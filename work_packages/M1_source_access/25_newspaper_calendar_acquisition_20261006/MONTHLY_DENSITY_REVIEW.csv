@@ -1,0 +1,9 @@
+confirmed_complete_articles_in_month,months,articles,minimum_coverage_state
+0,277,0,below_minimum
+1,12,12,below_minimum
+2,101,202,at_minimum
+3,25,75,above_minimum
+4,25,100,above_minimum
+5,11,55,above_minimum
+6,9,54,above_minimum
+7,5,35,above_minimum

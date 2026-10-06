@@ -1,0 +1,50 @@
+# Newspaper production-volume adjustment
+
+Status: coordinator recommendation following Dai's clarification; no successor acquisition dispatched. This supplements the accepted package25 closeout and supersedes its gap-only continuation recommendation. Preserve the worker's historical scope, scheduler, reports and stops.
+
+## What the current delivery establishes
+
+The selected register contains 533 confirmed complete IDs, including 391 additions. The current ELT store holds 392 qualified whole-TEXT articles; 141 accepted earlier articles remain referenced externally. Only 176/465 pooled months have at least two articles. This is **minimum monthly coverage**, not a sufficient corpus. The remaining 289 below-minimum months and 566 floor slots describe one coverage obligation, not the total acquisition goal.
+
+The current scheduler filters article targets and some issue discovery out once the regional month reaches two. Saving occasional surplus does not correct that omission. The source mix is also narrow: 408/533 articles are student press, and all 167 European articles in this register are Irish Trinity News. Existing sources remain useful; adding volume through those sources alone would not establish broader newspaper coverage.
+
+The saved pooled ledger makes the density limitation explicit: 101 of the 176 covered months have exactly two articles, the covered-month median is two, and the largest monthly count is seven. The other 75 covered months have three to seven. Across all 465 months, the selected register averages only 1.146 articles per month. These are counts in the inspected register, not estimates of actual newspaper publication frequency. See [MONTHLY_DENSITY_REVIEW.csv](MONTHLY_DENSITY_REVIEW.csv).
+
+## One collection pipeline, two purposes
+
+| Purpose | Scheduling rule | Completion or stop |
+| --- | --- | --- |
+| Calendar recovery | Prioritise the twelve pooled one-article months, May1994–January2007 long gap, remaining early/recent gaps and geographic gaps using observed native dates/cursors. | Minimum coverage is a reporting checkpoint; native candidates beyond the first two move into continuing production acquisition. Missing and blocked cells stay explicit. |
+| Production acquisition | Enumerate each declared title/edition/era through its real index, issue contents, sitemap or permitted API. Acquire all eligible article targets in that frontier, preserving native order, pagination and stable identity. Months with two or more remain eligible. | The declared frontier is exhausted, or the fixed deadline, capacity/allocation bound or an evidenced access stop is reached. An article count or HHI/entropy value does not stop a source-month. |
+
+These are scheduling lanes in one existing owner's task, not separate windows, databases or repeated pilots. For a bounded successor, an initial **30% recovery / 70% production** division of work opportunities is a proposed configuration, with equal planned opportunity across the five geographic strata inside the overall limits. Record actual attempts and useful yields; do not treat this division as sampling weights or evidence of equal source availability. Keep source quotas and safeguards explicit in the new release; unused regional allowances do not silently transfer.
+
+In successor code, replace the `count < 2` eligibility filter and `count >= 2` break with eligibility based on source frame, publication interval, previously attempted/loaded identity, access state and the released frontier. Retain the below-two count only as a priority signal for the recovery lane. Remove the same floor-based exclusion from issue discovery. Continue native pagination through declared source-year frontiers rather than selecting only a first article pair. Reuse accepted body/date/identity checks; test the changed behaviour once with a local scenario where a third and fourth distinct article remain eligible after the first two load, and with a restart that does not duplicate them.
+
+## Broaden the production source frame
+
+Use the existing twenty-title registry and accepted interface evidence as the starting inventory. Identify which registered daily/regional/general-interest newspaper routes already permit durable whole-text collection and which remain unverified, restricted or stopped. A registered title is not proof that all years or all articles are publicly obtainable. Do not repeatedly probe the same refusal or infer unrestricted retention from an HTTP200. Use only evidenced lawful routes; alternate routes require new factual evidence and remain within the bounded release.
+
+The production frame should give each stratum substantive title/edition opportunities beyond the presently dominant student/advocacy sources. Retain the existing sources as separate frames rather than discard them to improve a score. EU/Europe retains country and language identities and excludes UK. Make the proposal-aligned language frame explicit in the source inventory rather than silently change it to acquire convenient volume. Translation remains a later processing question. Keep social-media acquisition separate.
+
+For each declared source-year, keep a compact inventory with source/title/edition/country/language, source era, native index reference, enumerated distinct candidate links, loaded complete IDs, pending/component states, access stops, unattempted targets, cursor and whether the **declared index frontier** was fully enumerated. A candidate link or dated issue is not a confirmed article. A finished native cursor certifies only that observed interface/frontier, not an exhaustive publisher archive. Monthly counts and source-specific load progress should be reported together.
+
+## Scale and capacity
+
+The collection objective is source-supported volume, not `465 × 2 = 930` pooled articles. For planning, an initial **10,000 additional complete-article checkpoint** would distinguish regular production from another few-hundred-article pilot; subsequent inventories may support expansion into hundreds of thousands. These are proposed magnitudes, not authorised target counts, new caps or a promise of ten thousand articles in one four-hour task. Retain all eligible surplus within a released frontier, including beyond a reporting milestone. Do not prolong the task to claim a round number.
+
+An illustration shows the difference: fifteen titles available for all 465 months, averaging 100 articles per title-month, would supply 697,500 articles. This arithmetic is **not observed availability, a source recommendation or a uniform sampling quota**. Real titles have different existence, publication frequency, archive scope and legal access. The actual expected volume must come from observed index inventories and yields. Compare government/newspaper quantities only after reconciling complete independent publication units and their different source frames; the mirror-inclusive UK government identity count cannot supply a verified global comparison denominator.
+
+At package25's acquisition stop, about 256 MiB of cumulative media was retained and the 1 GiB allowance was unexhausted. Physical write capacity caused the stop. A review-time snapshot showed 16,125,095,936 bytes free, about 15.018 GiB and only 18.09 MiB above the protected floor. That snapshot is dynamic and insufficient for the prior 48 MiB recovery rule; merely increasing the allocation would not restore safe acquisition. A production release needs **actual additional storage capacity or a designated data volume with measured room**, preserving the existing recovery/floor rules and accounting. No evidence deletion or automatic move is authorised here.
+
+For the successor, reduce avoidable duplication prospectively: one losslessly compressed raw payload representation with original-byte and stored-object hashes/encoding; queues containing identifiers, links and compact evidence references rather than repeated full article JSON; one durable whole TEXT per version; page/column coordinates in sidecars; only necessary PDF-page derivatives. Original bytes must remain recoverable. API payloads, bodies, the database, indexes, journals, receipts and transient peak writes remain budgeted. Do not rewrite/delete the frozen inputs to create apparent capacity.
+
+Estimate storage from retained and peak bytes by actual source format, with separate HTML/API, full-issue PDF and OCR footprints; the current small tranche's average is not a reliable bulk-storage forecast. Confirm a larger allocation only after that inventory and actual destination capacity support it. The approved 1 GiB remains the current bound until Dai authorises a concrete revised release.
+
+## Next integrated delivery
+
+Prepare one bounded continuation for the existing GPT-6.1 Sol / Extra High owner: correct the scheduler/storage handling, reuse the source registry, enumerate viable frontiers while immediately extracting/loading their articles, and deliver the production inventory plus article/coverage counts. Source preparation should feed acquisition in the same task, not become another standalone pilot. Keep a fixed deadline; no rolling extensions or automatic additional window. The next scale release remains pending actual capacity and scope.
+
+Use one consolidated acceptance of the changed code/tranche and the saved unchanged evidence. Deliver: additional and cumulative complete article IDs; native links and whole bodies; articles by month/title/edition/region/era; minimum-coverage states; enumerated and residual frontiers; distinct target/hop/failure counters; source-access and storage stops; and exact Load state. Consolidate the 141 accepted external baseline bodies without a new historical raw audit when the bounded Load scope permits it.
+
+Report the two-article floor, density and source-frame completeness as separate results. Later structural transformation, deduplication relations and source attribution remain traceable; climate/fear retrieval and research sampling are deferred. No corpus-wide semantic exclusion or collection for an evaluator score is introduced.

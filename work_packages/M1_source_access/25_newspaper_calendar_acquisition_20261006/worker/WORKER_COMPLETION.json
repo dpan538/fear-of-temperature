@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-10-06T11:22:43.829200+00:00",
+  "status": "closed_and_delivered",
+  "acquisition_closed": true,
+  "further_network_performed_after_stop": false,
+  "new_qualified_article_ids": 391,
+  "current_qualified_article_rows": 392,
+  "combined_selected_complete_ids": 533,
+  "pooled_passing_months": 176,
+  "pooled_calendar_months": 465,
+  "full_calendar_target_completed": false,
+  "single_pooled_months": 12,
+  "zero_pooled_months": 277,
+  "pending_or_component_evidence_records": 75,
+  "all_changed_tranche_checks_passed": true,
+  "worker_process_absence_reference": "WORKER_PROCESS.json",
+  "coordinator_owned_lease_reconciliation": "Worker delivery is ready; control/COORDINATION.json remains coordinator-owned and was not modified.",
+  "closing_stdout_field_correction": "The first delivery stdout new_ids field reused a formatting-loop variable. Persisted CSV, report and DELIVERY_SUMMARY counts were already 391; the variable name was corrected without rerunning corpus checks.",
+  "hard_deadline_unchanged": "2026-10-06T13:52:36.333704+00:00"
+}

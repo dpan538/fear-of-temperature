@@ -1,0 +1,55 @@
+{
+  "at_utc": "2026-10-06T11:16:23.055630+00:00",
+  "scope": "Only own transport receipts with existing files but missing raw reference; no raw-byte sweep or old-corpus audit",
+  "records": [
+    {
+      "target_id": "b9395f2c653346400f2f2bbd",
+      "bytes": 0,
+      "status": "transport_error",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/b9395f2c653346400f2f2bbd.bin",
+      "reason": "Named transport exception left an unreferenced own raw/partial file; preserved and linked at close without retry or article credit"
+    },
+    {
+      "target_id": "ade220123078166eb81fffbd",
+      "bytes": 0,
+      "status": "transport_error",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/ade220123078166eb81fffbd.bin",
+      "reason": "Named transport exception left an unreferenced own raw/partial file; preserved and linked at close without retry or article credit"
+    },
+    {
+      "target_id": "687d636ad7151fd63241f5fa",
+      "bytes": 0,
+      "status": "transport_error",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/687d636ad7151fd63241f5fa.bin",
+      "reason": "Named transport exception left an unreferenced own raw/partial file; preserved and linked at close without retry or article credit"
+    },
+    {
+      "target_id": "6427d9b640dd9bdabab43b63",
+      "bytes": 0,
+      "status": "transport_error",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/6427d9b640dd9bdabab43b63.bin",
+      "reason": "Named transport exception left an unreferenced own raw/partial file; preserved and linked at close without retry or article credit"
+    },
+    {
+      "target_id": "8435c70f7c210252a8c76e94",
+      "bytes": 0,
+      "status": "transport_error",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/8435c70f7c210252a8c76e94.bin",
+      "reason": "Named transport exception left an unreferenced own raw/partial file; preserved and linked at close without retry or article credit"
+    },
+    {
+      "target_id": "20a6194201a42d92dd30a2c6",
+      "bytes": 0,
+      "status": "transport_error",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/20a6194201a42d92dd30a2c6.bin",
+      "reason": "Named transport exception left an unreferenced own raw/partial file; preserved and linked at close without retry or article credit"
+    },
+    {
+      "target_id": "9d76880e6baffd02724c2f77",
+      "bytes": 0,
+      "status": "transport_error",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/9d76880e6baffd02724c2f77.bin",
+      "reason": "Named transport exception left an unreferenced own raw/partial file; preserved and linked at close without retry or article credit"
+    }
+  ]
+}

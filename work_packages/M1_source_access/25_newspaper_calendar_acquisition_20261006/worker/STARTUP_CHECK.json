@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-10-06T09:57:30.464765+00:00",
+  "scope_sha256": "c9d5afd8d00f644fd786c81adbaa6f3c35f84cd26e92b555f683d7970be0edd1",
+  "plan_sha256": "cff62a530187e2547f5db582c81a6dfc6bd1e39cbe0fc184d6e0db37d9f14916",
+  "persistent_database_initialized": true,
+  "baseline_is_metadata_only": true,
+  "persistent_id_body_invariant": true,
+  "fixed_cutoff_checked": true,
+  "preflight": {
+    "at_utc": "2026-10-06T09:57:30.498063+00:00",
+    "cumulative_bytes": 130555526,
+    "cap_bytes": 1073741824,
+    "free_bytes": 17648447488,
+    "own_lease_bytes": 33554432,
+    "other_lease_bytes": 0,
+    "pending_bytes": 0,
+    "effective_pending_and_leases_bytes": 33619968,
+    "physical_headroom": 1458368512,
+    "allocation_headroom": 909566330
+  },
+  "distinct_target_and_hop_counters_separate": true,
+  "one_writer_and_transactional_insert_unique_keys": true,
+  "no_network_fixture_or_old_body_reimport": true,
+  "startup_check_complete": true
+}

@@ -1,0 +1,138 @@
+{
+  "at_utc": "2026-10-06T11:22:43.829679+00:00",
+  "files": {
+    "DELIVERY_REPORT.md": {
+      "sha256": "84aacc87674fd2b93e597c41adf9bca67c282021a5e2bfd0ea1bf2354c757a8d",
+      "bytes": 5483
+    },
+    "DELIVERY_SUMMARY.json": {
+      "sha256": "a22228052cc59eccd0f1927010086d431025d712ec12ff93c594eaa0d6e0f0a6",
+      "bytes": 8505
+    },
+    "ARTICLE_REGISTER.csv": {
+      "sha256": "0eb454f3f1cd3bdff7c52c0e4452b4004f4946446c9ef5ad733e01d73ee034e1",
+      "bytes": 826860
+    },
+    "NEW_ARTICLE_REGISTER.csv": {
+      "sha256": "dece379f937505c0851946b19ba3bd4f36cfc5056296dc786f21a3bc344a40af",
+      "bytes": 487926
+    },
+    "RESIDUAL_MONTHS.csv": {
+      "sha256": "7ce243d082e116f453b7ca3b722b7061e23af8858a9b82cb732cd25c76b97fac",
+      "bytes": 104459
+    },
+    "NEWLY_PASSING_MONTHS.csv": {
+      "sha256": "5e5f78cbc78ec149369cf6f03dec20178db3fd9fd6cc018ae69e0333f8aefb64",
+      "bytes": 17289
+    },
+    "PENDING_AND_COMPONENT_REGISTER.csv": {
+      "sha256": "42d2f9db7d3b1e4641b89af510f4af2d42f97e25c56e615b7e24cc8cfe7f3394",
+      "bytes": 18568
+    },
+    "CHANGED_REFERENCE_RECEIPT.json": {
+      "sha256": "eb9ae589a74ffad58ec500bb7105b86e7318851cb90f33ddb44047c0635584eb",
+      "bytes": 330120
+    },
+    "COLLECTION_CLOSE_REASON.json": {
+      "sha256": "d46c474494c55b72ca52a7aa81a5f7750a7465fe823074a402fa3ca7ebc40e65",
+      "bytes": 1010
+    },
+    "CLOSE_TRANSPORT_RECONCILIATION.json": {
+      "sha256": "715753346b78f4faded4c3a44e964ecbaa8afef2a573348d0af408fd0ddf4313",
+      "bytes": 12669
+    },
+    "CLOSE_PARTIAL_REFERENCE_REPAIRS.json": {
+      "sha256": "c9049e82efc31d29991be7f6a6cf8969a4f41e32c974e09027896551bcea2fec",
+      "bytes": 3011
+    },
+    "CHECKPOINT.json": {
+      "sha256": "aad6271016ed915b32ec80626d8a615aeaac4174d273dc2985d0bfce8da8dbca",
+      "bytes": 1557
+    },
+    "CHECKPOINT_HISTORY.jsonl": {
+      "sha256": "07d73f86dbfa2e2d18ec8e8febe8a35bfce92a1608b6e95799283c36cd4811e5",
+      "bytes": 5471
+    },
+    "CACHE_RECOVERY_CHECKPOINT.json": {
+      "sha256": "a9bd6cb631916b0ba0344646545466bd85c57219d7ea1aac15712c6dee99796b",
+      "bytes": 4501
+    },
+    "CACHE_SELECTION.json": {
+      "sha256": "06260495a34bd56e90f44b6d524c9035f001b94e0c37f43529d8c445d0f4993d",
+      "bytes": 39758
+    },
+    "NEW_PDF_ISSUES.json": {
+      "sha256": "64cdf6714af5db591fe82070c509e1c6068e199411224ff3a1a9546d836203c5",
+      "bytes": 23172
+    },
+    "STARTUP_CHECK.json": {
+      "sha256": "26133ac1775edf5d4171d36f1fb112469a342ceb2335fbb7aae949a77fffbc2d",
+      "bytes": 949
+    },
+    "TRANSPORT_STATE.json": {
+      "sha256": "8bf61e98661840892054cae54caad8e10397c936c790ec6fa5e23b7735940d4b",
+      "bytes": 54743
+    },
+    "WORKER_PROCESS.json": {
+      "sha256": "ca75fa280078ef748630df0e722bc4d8571fc0492ab73e4321a4555a92e53f1f",
+      "bytes": 354
+    },
+    "README.md": {
+      "sha256": "f2efe0044d183f227bdea888026b7d53cdcfc5514efd7550341fbdc3149827eb",
+      "bytes": 2683
+    },
+    "elt.py": {
+      "sha256": "a9dd8e707fe6593f9996028526de68943ebc003268345f3dbb1510cdef1d9e06",
+      "bytes": 14841
+    },
+    "extract_load.py": {
+      "sha256": "3aec113ac9313d72d38d2983fcd0e6cc9f150e975eb70092e73524aaa894b3ce",
+      "bytes": 16707
+    },
+    "calendar_run.py": {
+      "sha256": "04d151e014c70c96bc639c9ae6351af02eddcd6dbeb9ce894eb64a48f758921f",
+      "bytes": 16872
+    },
+    "deliver.py": {
+      "sha256": "14a7415d446373ad309f4f0ff8260eba20685f9f13a34286b6d1526f8ae0bdec",
+      "bytes": 20565
+    },
+    "map_selected_print.py": {
+      "sha256": "7caf9886b0e4c3c0bb678dbba5e932e1126c68c081c62067c7b0bf47d9f4060a",
+      "bytes": 6925
+    },
+    "coverage/MONTHLY_US.csv": {
+      "sha256": "f5c1d0c6fedd3d04c527cf48c75402471593dc9ededcff54b25f1f8d5d4071f7",
+      "bytes": 19511
+    },
+    "coverage/MONTHLY_AU.csv": {
+      "sha256": "9498e92c5fc9067bbcc8e284d36d5cc3e09248ea50920f3c6d895c16ff2f0859",
+      "bytes": 19040
+    },
+    "coverage/MONTHLY_NZ.csv": {
+      "sha256": "62f68d2cbdcbcf98fe5f77d76b616e2283db8da4cb337f60dccd4259155fc20c",
+      "bytes": 18896
+    },
+    "coverage/MONTHLY_pooled.csv": {
+      "sha256": "15412cfd3abdcec3bd407fd03785ac1adeb265702c077029f03acb2cfb29cb78",
+      "bytes": 22109
+    },
+    "coverage/MONTHLY_UK.csv": {
+      "sha256": "bc10f243c4dc5e6678eb5e50b1b131ae85d48f7d6aa469d8581a6ab3802f7f50",
+      "bytes": 19004
+    },
+    "coverage/MONTHLY_EU_Europe_excluding_UK.csv": {
+      "sha256": "037dffb8f4cca3f65688e092c832098507106cf11a3ece9283efdc7a119e9ebf",
+      "bytes": 28586
+    },
+    "newspaper_elt.sqlite3": {
+      "sha256": "06ea4f06343c4073b73506fcb8c50375d42e74a2b9a299e5381a10071dffaf24",
+      "bytes": 6516736
+    },
+    "WORKER_COMPLETION.json": {
+      "sha256": "793b150d83abf8df0f1034eb34c843667651ed11a743068004a5243e1ed4bbd7",
+      "bytes": 1064
+    }
+  },
+  "closing_amendment": "Only formatting/terminal-summary variable repair and completion metadata; dedicated database and all other delivered artifacts unchanged."
+}

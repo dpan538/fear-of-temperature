@@ -1,0 +1,532 @@
+[
+  {
+    "target": {
+      "target_id": "43e269c59807a59b83cf8f5a",
+      "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "purpose": "article",
+      "native_evidence": {
+        "job_id": "tech_print_19880429",
+        "kind": "historical_pdf",
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+        "publication_date": "1988-04-29",
+        "printed_date_evidence": "Primary publisher PDF indexed page2 header PAGE2 TheTech FRIDAY APRIL29 1988; observed source URL in date-only primary search, not a retrospective date",
+        "necessary_pages": [
+          2
+        ],
+        "derivative_footprint_cap_bytes": 1048576,
+        "observed_content_length_bytes": 2948693,
+        "HEAD_receipt": {
+          "target": {
+            "target_id": "84d67d006736c15d9270cd43",
+            "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+            "source_id": "mit_tech",
+            "stratum": "US",
+            "purpose": "discovery",
+            "native_evidence": "Primary publisher PDF indexed page2 header PAGE2 TheTech FRIDAY APRIL29 1988; observed source URL in date-only primary search, not a retrospective date",
+            "cap_bytes": 2097152,
+            "method": "HEAD",
+            "extra": {
+              "necessary_pages": [
+                2
+              ],
+              "derivative_footprint_cap_bytes": 1048576
+            },
+            "frozen_at_utc": "2026-10-06T10:18:18.217750+00:00"
+          },
+          "target_id": "84d67d006736c15d9270cd43",
+          "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+          "source_id": "mit_tech",
+          "stratum": "US",
+          "purpose": "discovery",
+          "status": "saved_headers",
+          "started_at_utc": "2026-10-06T10:18:18.242667+00:00",
+          "hops": [
+            {
+              "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+              "status": 200,
+              "location": null,
+              "retry_after": null,
+              "content_length": "2948693",
+              "content_type": "application/pdf",
+              "last_modified": "Fri, 03 Mar 2017 01:48:13 GMT"
+            }
+          ],
+          "raw_bytes": 0,
+          "partial": false,
+          "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+          "native_target_key": "84d67d006736c15d9270cd43",
+          "new_distinct_target_charge": true,
+          "preflight": {
+            "at_utc": "2026-10-06T10:18:18.316433+00:00",
+            "cumulative_bytes": 151382174,
+            "cap_bytes": 1073741824,
+            "free_bytes": 16469700608,
+            "own_lease_bytes": 33554432,
+            "other_lease_bytes": 0,
+            "pending_bytes": 10485760,
+            "effective_pending_and_leases_bytes": 33619968,
+            "physical_headroom": 279621632,
+            "allocation_headroom": 888739682
+          },
+          "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+          "finished_at_utc": "2026-10-06T10:18:19.179265+00:00"
+        },
+        "frozen_before_transfer_at_utc": "2026-10-06T10:18:19.388871+00:00"
+      },
+      "cap_bytes": 8388608,
+      "method": "GET",
+      "extra": {
+        "kind": "historical_pdf",
+        "observed_printed_date": "1988-04-29",
+        "necessary_pages": [
+          2
+        ],
+        "derivative_footprint_cap_bytes": 1048576
+      },
+      "frozen_at_utc": "2026-10-06T10:18:19.433296+00:00"
+    },
+    "target_id": "43e269c59807a59b83cf8f5a",
+    "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+    "source_id": "mit_tech",
+    "stratum": "US",
+    "purpose": "article",
+    "status": "saved",
+    "started_at_utc": "2026-10-06T10:18:19.479732+00:00",
+    "hops": [
+      {
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+        "status": 200,
+        "location": null,
+        "retry_after": null,
+        "content_length": "2948693",
+        "content_type": "application/pdf",
+        "last_modified": "Fri, 03 Mar 2017 01:48:13 GMT"
+      }
+    ],
+    "raw_bytes": 2948693,
+    "partial": false,
+    "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+    "native_target_key": "43e269c59807a59b83cf8f5a",
+    "new_distinct_target_charge": true,
+    "preflight": {
+      "at_utc": "2026-10-06T10:18:20.357331+00:00",
+      "cumulative_bytes": 151399951,
+      "cap_bytes": 1073741824,
+      "free_bytes": 16472576000,
+      "own_lease_bytes": 33554432,
+      "other_lease_bytes": 0,
+      "pending_bytes": 16777216,
+      "effective_pending_and_leases_bytes": 33619968,
+      "physical_headroom": 282497024,
+      "allocation_headroom": 888721905
+    },
+    "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/43e269c59807a59b83cf8f5a.bin",
+    "raw_sha256": "f6119a394410f58005bb1b5bd99be311a07ac50718045c2c14204246050b47bf",
+    "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/266/original/tech_pdf.pdf?1460734340=",
+    "finished_at_utc": "2026-10-06T10:19:24.670932+00:00"
+  },
+  {
+    "target": {
+      "target_id": "464ba6e62db9e9637a0fb4f7",
+      "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "purpose": "article",
+      "native_evidence": {
+        "job_id": "tech_print_19890516",
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+        "publication_date": "1989-05-16",
+        "necessary_pages": [
+          4
+        ],
+        "printed_date_evidence": "Primary publisher indexed masthead: PAGE4 TheTech TUESDAY MAY16 1989; Volume109 Number26 Tuesday May16 1989; selected page4 native letters/editorial candidates",
+        "kind": "historical_pdf",
+        "derivative_footprint_cap_bytes": 1048576,
+        "observed_content_length_bytes": 5196023,
+        "HEAD_receipt": {
+          "target": {
+            "target_id": "d9c3f384d1ccd4798c05b94e",
+            "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+            "source_id": "mit_tech",
+            "stratum": "US",
+            "purpose": "discovery",
+            "native_evidence": "Primary publisher indexed masthead: PAGE4 TheTech TUESDAY MAY16 1989; Volume109 Number26 Tuesday May16 1989; selected page4 native letters/editorial candidates",
+            "cap_bytes": 2097152,
+            "method": "HEAD",
+            "extra": {
+              "necessary_pages": [
+                4
+              ],
+              "derivative_footprint_cap_bytes": 1048576
+            },
+            "frozen_at_utc": "2026-10-06T10:38:43.467646+00:00"
+          },
+          "target_id": "d9c3f384d1ccd4798c05b94e",
+          "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+          "source_id": "mit_tech",
+          "stratum": "US",
+          "purpose": "discovery",
+          "status": "saved_headers",
+          "started_at_utc": "2026-10-06T10:38:43.497317+00:00",
+          "hops": [
+            {
+              "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+              "status": 200,
+              "location": null,
+              "retry_after": null,
+              "content_length": "5196023",
+              "content_type": "application/pdf",
+              "last_modified": "Fri, 03 Mar 2017 01:23:44 GMT",
+              "link": null,
+              "x_wp_total": null,
+              "x_wp_totalpages": null
+            }
+          ],
+          "raw_bytes": 0,
+          "partial": false,
+          "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+          "native_target_key": "d9c3f384d1ccd4798c05b94e",
+          "new_distinct_target_charge": true,
+          "preflight": {
+            "at_utc": "2026-10-06T10:38:43.589188+00:00",
+            "cumulative_bytes": 204553631,
+            "cap_bytes": 1073741824,
+            "free_bytes": 16362291200,
+            "own_lease_bytes": 33554432,
+            "other_lease_bytes": 0,
+            "pending_bytes": 10485760,
+            "effective_pending_and_leases_bytes": 33619968,
+            "physical_headroom": 172212224,
+            "allocation_headroom": 835568225
+          },
+          "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+          "finished_at_utc": "2026-10-06T10:38:46.345787+00:00"
+        },
+        "frozen_before_transfer_at_utc": "2026-10-06T10:38:46.462918+00:00"
+      },
+      "cap_bytes": 8388608,
+      "method": "GET",
+      "extra": {
+        "kind": "historical_pdf",
+        "observed_printed_date": "1989-05-16",
+        "necessary_pages": [
+          4
+        ],
+        "derivative_footprint_cap_bytes": 1048576
+      },
+      "frozen_at_utc": "2026-10-06T10:38:46.495300+00:00"
+    },
+    "target_id": "464ba6e62db9e9637a0fb4f7",
+    "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+    "source_id": "mit_tech",
+    "stratum": "US",
+    "purpose": "article",
+    "status": "saved",
+    "started_at_utc": "2026-10-06T10:38:46.525543+00:00",
+    "hops": [
+      {
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+        "status": 200,
+        "location": null,
+        "retry_after": null,
+        "content_length": "5196023",
+        "content_type": "application/pdf",
+        "last_modified": "Fri, 03 Mar 2017 01:23:44 GMT",
+        "link": null,
+        "x_wp_total": null,
+        "x_wp_totalpages": null
+      }
+    ],
+    "raw_bytes": 5196023,
+    "partial": false,
+    "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+    "native_target_key": "464ba6e62db9e9637a0fb4f7",
+    "new_distinct_target_charge": true,
+    "preflight": {
+      "at_utc": "2026-10-06T10:38:46.616621+00:00",
+      "cumulative_bytes": 204567728,
+      "cap_bytes": 1073741824,
+      "free_bytes": 16362516480,
+      "own_lease_bytes": 33554432,
+      "other_lease_bytes": 0,
+      "pending_bytes": 16777216,
+      "effective_pending_and_leases_bytes": 33619968,
+      "physical_headroom": 172437504,
+      "allocation_headroom": 835554128
+    },
+    "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/464ba6e62db9e9637a0fb4f7.bin",
+    "raw_sha256": "11dbba856f75f6dd1980d63be93b412759a50bb536aa4da0442d7ea5ccc22e72",
+    "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/086/original/tech_pdf.pdf?1460740772=",
+    "finished_at_utc": "2026-10-06T10:41:27.147374+00:00"
+  },
+  {
+    "target": {
+      "target_id": "a4f373a17ec9cd52e66a585a",
+      "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "purpose": "article",
+      "native_evidence": {
+        "job_id": "tech_print_19900420",
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+        "publication_date": "1990-04-20",
+        "necessary_pages": [
+          14
+        ],
+        "printed_date_evidence": "Primary publisher indexed masthead: PAGE14 TheTech FRIDAY APRIL20 1990; selected article continuation boundary to inspect after eligible raw transfer",
+        "kind": "historical_pdf",
+        "derivative_footprint_cap_bytes": 1048576,
+        "observed_content_length_bytes": 5788741,
+        "HEAD_receipt": {
+          "target": {
+            "target_id": "80d37ba13f524626f53294cb",
+            "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+            "source_id": "mit_tech",
+            "stratum": "US",
+            "purpose": "discovery",
+            "native_evidence": "Primary publisher indexed masthead: PAGE14 TheTech FRIDAY APRIL20 1990; selected article continuation boundary to inspect after eligible raw transfer",
+            "cap_bytes": 2097152,
+            "method": "HEAD",
+            "extra": {
+              "necessary_pages": [
+                14
+              ],
+              "derivative_footprint_cap_bytes": 1048576
+            },
+            "frozen_at_utc": "2026-10-06T10:41:50.634762+00:00"
+          },
+          "target_id": "80d37ba13f524626f53294cb",
+          "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+          "source_id": "mit_tech",
+          "stratum": "US",
+          "purpose": "discovery",
+          "status": "saved_headers",
+          "started_at_utc": "2026-10-06T10:41:50.669202+00:00",
+          "hops": [
+            {
+              "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+              "status": 200,
+              "location": null,
+              "retry_after": null,
+              "content_length": "5788741",
+              "content_type": "application/pdf",
+              "last_modified": "Fri, 03 Mar 2017 01:24:22 GMT",
+              "link": null,
+              "x_wp_total": null,
+              "x_wp_totalpages": null
+            }
+          ],
+          "raw_bytes": 0,
+          "partial": false,
+          "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+          "native_target_key": "80d37ba13f524626f53294cb",
+          "new_distinct_target_charge": true,
+          "preflight": {
+            "at_utc": "2026-10-06T10:41:50.775601+00:00",
+            "cumulative_bytes": 211063011,
+            "cap_bytes": 1073741824,
+            "free_bytes": 16376213504,
+            "own_lease_bytes": 33554432,
+            "other_lease_bytes": 0,
+            "pending_bytes": 10485760,
+            "effective_pending_and_leases_bytes": 33619968,
+            "physical_headroom": 186134528,
+            "allocation_headroom": 829058845
+          },
+          "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+          "finished_at_utc": "2026-10-06T10:41:51.886102+00:00"
+        },
+        "frozen_before_transfer_at_utc": "2026-10-06T10:41:52.000093+00:00"
+      },
+      "cap_bytes": 8388608,
+      "method": "GET",
+      "extra": {
+        "kind": "historical_pdf",
+        "observed_printed_date": "1990-04-20",
+        "necessary_pages": [
+          14
+        ],
+        "derivative_footprint_cap_bytes": 1048576
+      },
+      "frozen_at_utc": "2026-10-06T10:41:52.036346+00:00"
+    },
+    "target_id": "a4f373a17ec9cd52e66a585a",
+    "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+    "source_id": "mit_tech",
+    "stratum": "US",
+    "purpose": "article",
+    "status": "saved",
+    "started_at_utc": "2026-10-06T10:41:52.070121+00:00",
+    "hops": [
+      {
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+        "status": 200,
+        "location": null,
+        "retry_after": null,
+        "content_length": "5788741",
+        "content_type": "application/pdf",
+        "last_modified": "Fri, 03 Mar 2017 01:24:22 GMT",
+        "link": null,
+        "x_wp_total": null,
+        "x_wp_totalpages": null
+      }
+    ],
+    "raw_bytes": 5788741,
+    "partial": false,
+    "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+    "native_target_key": "a4f373a17ec9cd52e66a585a",
+    "new_distinct_target_charge": true,
+    "preflight": {
+      "at_utc": "2026-10-06T10:41:52.825622+00:00",
+      "cumulative_bytes": 211081142,
+      "cap_bytes": 1073741824,
+      "free_bytes": 16405487616,
+      "own_lease_bytes": 33554432,
+      "other_lease_bytes": 0,
+      "pending_bytes": 16777216,
+      "effective_pending_and_leases_bytes": 33619968,
+      "physical_headroom": 215408640,
+      "allocation_headroom": 829040714
+    },
+    "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/a4f373a17ec9cd52e66a585a.bin",
+    "raw_sha256": "bbfd9c6a0713c6550a9d86d59c52c8fe2bc58f32e136f8fe81712c4591d86907",
+    "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/000/142/original/tech_pdf.pdf?1460740683=",
+    "finished_at_utc": "2026-10-06T10:44:33.560962+00:00"
+  },
+  {
+    "target": {
+      "target_id": "c6e21b95e7c622be7cd6c5cb",
+      "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "purpose": "article",
+      "native_evidence": {
+        "job_id": "tech_print_19881018",
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+        "publication_date": "1988-10-18",
+        "necessary_pages": [
+          2
+        ],
+        "printed_date_evidence": "Primary publisher indexed masthead: PAGE2 TheTech TUESDAY OCTOBER18 1988; selected page2 source articles",
+        "kind": "historical_pdf",
+        "derivative_footprint_cap_bytes": 1048576,
+        "observed_content_length_bytes": 6138470,
+        "HEAD_receipt": {
+          "target": {
+            "target_id": "570aef92be3749966aedc482",
+            "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+            "source_id": "mit_tech",
+            "stratum": "US",
+            "purpose": "discovery",
+            "native_evidence": "Primary publisher indexed masthead: PAGE2 TheTech TUESDAY OCTOBER18 1988; selected page2 source articles",
+            "cap_bytes": 2097152,
+            "method": "HEAD",
+            "extra": {
+              "necessary_pages": [
+                2
+              ],
+              "derivative_footprint_cap_bytes": 1048576
+            },
+            "frozen_at_utc": "2026-10-06T10:44:47.565412+00:00"
+          },
+          "target_id": "570aef92be3749966aedc482",
+          "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+          "source_id": "mit_tech",
+          "stratum": "US",
+          "purpose": "discovery",
+          "status": "saved_headers",
+          "started_at_utc": "2026-10-06T10:44:47.596015+00:00",
+          "hops": [
+            {
+              "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+              "status": 200,
+              "location": null,
+              "retry_after": null,
+              "content_length": "6138470",
+              "content_type": "application/pdf",
+              "last_modified": "Fri, 03 Mar 2017 01:48:24 GMT",
+              "link": null,
+              "x_wp_total": null,
+              "x_wp_totalpages": null
+            }
+          ],
+          "raw_bytes": 0,
+          "partial": false,
+          "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+          "native_target_key": "570aef92be3749966aedc482",
+          "new_distinct_target_charge": true,
+          "preflight": {
+            "at_utc": "2026-10-06T10:44:47.683199+00:00",
+            "cumulative_bytes": 219685743,
+            "cap_bytes": 1073741824,
+            "free_bytes": 16379031552,
+            "own_lease_bytes": 33554432,
+            "other_lease_bytes": 0,
+            "pending_bytes": 10485760,
+            "effective_pending_and_leases_bytes": 33619968,
+            "physical_headroom": 188952576,
+            "allocation_headroom": 820436113
+          },
+          "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+          "finished_at_utc": "2026-10-06T10:44:48.502989+00:00"
+        },
+        "frozen_before_transfer_at_utc": "2026-10-06T10:44:48.638712+00:00"
+      },
+      "cap_bytes": 8388608,
+      "method": "GET",
+      "extra": {
+        "kind": "historical_pdf",
+        "observed_printed_date": "1988-10-18",
+        "necessary_pages": [
+          2
+        ],
+        "derivative_footprint_cap_bytes": 1048576
+      },
+      "frozen_at_utc": "2026-10-06T10:44:48.668880+00:00"
+    },
+    "target_id": "c6e21b95e7c622be7cd6c5cb",
+    "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+    "source_id": "mit_tech",
+    "stratum": "US",
+    "purpose": "article",
+    "status": "saved",
+    "started_at_utc": "2026-10-06T10:44:48.699707+00:00",
+    "hops": [
+      {
+        "url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+        "status": 200,
+        "location": null,
+        "retry_after": null,
+        "content_length": "6138470",
+        "content_type": "application/pdf",
+        "last_modified": "Fri, 03 Mar 2017 01:48:24 GMT",
+        "link": null,
+        "x_wp_total": null,
+        "x_wp_totalpages": null
+      }
+    ],
+    "raw_bytes": 6138470,
+    "partial": false,
+    "native_target_identity": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+    "native_target_key": "c6e21b95e7c622be7cd6c5cb",
+    "new_distinct_target_charge": true,
+    "preflight": {
+      "at_utc": "2026-10-06T10:44:49.727871+00:00",
+      "cumulative_bytes": 219703550,
+      "cap_bytes": 1073741824,
+      "free_bytes": 16378957824,
+      "own_lease_bytes": 33554432,
+      "other_lease_bytes": 0,
+      "pending_bytes": 16777216,
+      "effective_pending_and_leases_bytes": 33619968,
+      "physical_headroom": 188878848,
+      "allocation_headroom": 820418306
+    },
+    "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/c6e21b95e7c622be7cd6c5cb.bin",
+    "raw_sha256": "fab7d2ef764ee81721856d960517da4bc41c59f0d3b9370cbc2ba6a551567716",
+    "final_url": "https://s3.amazonaws.com/thetech-production/issues/pdfs/000/003/285/original/tech_pdf.pdf?1460734307=",
+    "finished_at_utc": "2026-10-06T10:47:50.349803+00:00"
+  }
+]

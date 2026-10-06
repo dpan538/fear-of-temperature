@@ -1,0 +1,264 @@
+{
+  "at_utc": "2026-10-06T11:10:34.188134+00:00",
+  "scope": "Only own unresolved in-progress attempts from the interrupted collector; no old raw/hash audit, blind retry or changed counter",
+  "records": [
+    {
+      "target": {
+        "target_id": "9b71954ed784640322cb32c0",
+        "url": "https://mancunion.com/2015/03/12/live-students-union-exec-election-results/",
+        "source_id": "mancunion",
+        "stratum": "UK",
+        "purpose": "article",
+        "native_evidence": {
+          "sitemap_url": "https://mancunion.com/post-sitemap93.xml",
+          "sitemap_raw_receipt": {
+            "reused_raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/666126076ba86d8bbe4a778e.bin",
+            "accepted_raw_sha256": "8bb595b2c63884c7e59a2258398aa9cd831eb08c97d322b9d01c2f8a79bbee29",
+            "url": "https://mancunion.com/post-sitemap93.xml"
+          },
+          "date_is_URL_locator_only": true
+        },
+        "cap_bytes": 2097152,
+        "method": "GET",
+        "extra": {
+          "month": "2015-03",
+          "whole_article_required": true
+        },
+        "frozen_at_utc": "2026-10-06T10:10:59.116037+00:00"
+      },
+      "target_id": "9b71954ed784640322cb32c0",
+      "url": "https://mancunion.com/2015/03/12/live-students-union-exec-election-results/",
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "purpose": "article",
+      "status": "interrupted_pending",
+      "started_at_utc": "2026-10-06T10:10:59.139091+00:00",
+      "hops": [
+        {
+          "url": "https://mancunion.com/2015/03/12/live-students-union-exec-election-results/",
+          "status": 200,
+          "location": null,
+          "retry_after": null,
+          "content_length": null,
+          "content_type": "text/html; charset=UTF-8",
+          "last_modified": "Sun, 27 Sep 2026 15:44:15 GMT"
+        }
+      ],
+      "raw_bytes": 0,
+      "partial": true,
+      "preflight": {
+        "at_utc": "2026-10-06T10:10:59.206025+00:00",
+        "cumulative_bytes": 137811805,
+        "cap_bytes": 1073741824,
+        "free_bytes": 16496832512,
+        "own_lease_bytes": 33554432,
+        "other_lease_bytes": 0,
+        "pending_bytes": 10485760,
+        "effective_pending_and_leases_bytes": 33619968,
+        "physical_headroom": 306753536,
+        "allocation_headroom": 902310051
+      },
+      "finished_at_utc": "2026-10-06T11:10:34.180244+00:00",
+      "closing_reconciliation": "Original receipt and charged attempt preserved; owning process absent; no completed transfer/Load claimed and no retry",
+      "original_receipt_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/receipts_before_close_reconciliation/9b71954ed784640322cb32c0.json",
+      "original_receipt_sha256": "a1c767c6306053ed4ee2964b816d0de28654690182a31cf14f4da3da59881a1e",
+      "native_target_key": "9b71954ed784640322cb32c0",
+      "native_target_identity": "https://mancunion.com/2015/03/12/live-students-union-exec-election-results/",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/9b71954ed784640322cb32c0.bin",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": {
+        "target_id": "6c8fb4923127e94fcbc5240d",
+        "url": "https://mancunion.com/2011/03/08/album-the-streets-computers-and-blues/",
+        "source_id": "mancunion",
+        "stratum": "UK",
+        "purpose": "article",
+        "native_evidence": {
+          "sitemap_url": "https://mancunion.com/post-sitemap92.xml",
+          "sitemap_raw_receipt": {
+            "reused_raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/0937ea3ded35de839c5eb0a4.bin",
+            "accepted_raw_sha256": "70512124af43a41c3a28a4b85237e727043db97123d18dff231d147a3b7cc5e5",
+            "url": "https://mancunion.com/post-sitemap92.xml"
+          },
+          "date_is_URL_locator_only": true
+        },
+        "cap_bytes": 2097152,
+        "method": "GET",
+        "extra": {
+          "month": "2011-03",
+          "whole_article_required": true
+        },
+        "frozen_at_utc": "2026-10-06T10:15:26.080362+00:00"
+      },
+      "target_id": "6c8fb4923127e94fcbc5240d",
+      "url": "https://mancunion.com/2011/03/08/album-the-streets-computers-and-blues/",
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "purpose": "article",
+      "status": "interrupted_pending",
+      "started_at_utc": "2026-10-06T10:15:26.103431+00:00",
+      "hops": [],
+      "raw_bytes": 0,
+      "partial": false,
+      "preflight": {
+        "at_utc": "2026-10-06T10:15:26.172993+00:00",
+        "cumulative_bytes": 145047746,
+        "cap_bytes": 1073741824,
+        "free_bytes": 16494981120,
+        "own_lease_bytes": 33554432,
+        "other_lease_bytes": 0,
+        "pending_bytes": 10485760,
+        "effective_pending_and_leases_bytes": 33619968,
+        "physical_headroom": 304902144,
+        "allocation_headroom": 895074110
+      },
+      "finished_at_utc": "2026-10-06T11:10:34.182819+00:00",
+      "closing_reconciliation": "Original receipt and charged attempt preserved; owning process absent; no completed transfer/Load claimed and no retry",
+      "original_receipt_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/receipts_before_close_reconciliation/6c8fb4923127e94fcbc5240d.json",
+      "original_receipt_sha256": "51ffcd9177261e76792d57e2fd3b7cf9005662ba52eff40fab448b8ed8cf66b9",
+      "native_target_key": "6c8fb4923127e94fcbc5240d",
+      "native_target_identity": "https://mancunion.com/2011/03/08/album-the-streets-computers-and-blues/"
+    },
+    {
+      "target": {
+        "target_id": "e674399d38b674e3cbee7965",
+        "url": "https://mancunion.com/2016/03/10/liveblog-students-union-executive-election-results-night-3/",
+        "source_id": "mancunion",
+        "stratum": "UK",
+        "purpose": "article",
+        "native_evidence": {
+          "sitemap_url": "https://mancunion.com/post-sitemap92.xml",
+          "sitemap_raw_receipt": {
+            "reused_raw_reference": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006/worker/raw/0937ea3ded35de839c5eb0a4.bin",
+            "accepted_raw_sha256": "70512124af43a41c3a28a4b85237e727043db97123d18dff231d147a3b7cc5e5",
+            "url": "https://mancunion.com/post-sitemap92.xml"
+          },
+          "date_is_URL_locator_only": true
+        },
+        "cap_bytes": 2097152,
+        "method": "GET",
+        "extra": {
+          "month": "2016-03",
+          "whole_article_required": true
+        },
+        "frozen_at_utc": "2026-10-06T10:17:16.787193+00:00"
+      },
+      "target_id": "e674399d38b674e3cbee7965",
+      "url": "https://mancunion.com/2016/03/10/liveblog-students-union-executive-election-results-night-3/",
+      "source_id": "mancunion",
+      "stratum": "UK",
+      "purpose": "article",
+      "status": "interrupted_pending",
+      "started_at_utc": "2026-10-06T10:17:16.812908+00:00",
+      "hops": [],
+      "raw_bytes": 0,
+      "partial": true,
+      "native_target_identity": "https://mancunion.com/2016/03/10/liveblog-students-union-executive-election-results-night-3/",
+      "native_target_key": "e674399d38b674e3cbee7965",
+      "new_distinct_target_charge": true,
+      "finished_at_utc": "2026-10-06T11:10:34.184072+00:00",
+      "closing_reconciliation": "Original receipt and charged attempt preserved; owning process absent; no completed transfer/Load claimed and no retry",
+      "original_receipt_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/receipts_before_close_reconciliation/e674399d38b674e3cbee7965.json",
+      "original_receipt_sha256": "39381e8a5670692849e80b1a515c1d799b412ad7b7326d34f4437a040a098e05",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/e674399d38b674e3cbee7965.bin",
+      "raw_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "target": {
+        "target_id": "a2c9e608db210d84601bd5fc",
+        "url": "https://thetech.com/2023/03/16/statement-on-mit-hate-speech-response",
+        "source_id": "mit_tech",
+        "stratum": "US",
+        "purpose": "article",
+        "native_evidence": {
+          "native_issue_url": "https://thetech.com/issues/143/4",
+          "native_issue_receipt": {
+            "target": {
+              "target_id": "cf9a9686d9a3a01ae012f52c",
+              "url": "https://thetech.com/issues/143/4",
+              "source_id": "mit_tech",
+              "stratum": "US",
+              "purpose": "discovery",
+              "native_evidence": "Native issue link from accepted all-issues list",
+              "cap_bytes": 2097152,
+              "method": "GET",
+              "extra": null,
+              "frozen_at_utc": "2026-10-06T11:01:10.552342+00:00"
+            },
+            "target_id": "cf9a9686d9a3a01ae012f52c",
+            "url": "https://thetech.com/issues/143/4",
+            "source_id": "mit_tech",
+            "stratum": "US",
+            "purpose": "discovery",
+            "status": "saved",
+            "started_at_utc": "2026-10-06T11:01:10.588204+00:00",
+            "hops": [
+              {
+                "url": "https://thetech.com/issues/143/4",
+                "status": 200,
+                "location": null,
+                "retry_after": null,
+                "content_length": null,
+                "content_type": "text/html; charset=utf-8",
+                "last_modified": null,
+                "link": null,
+                "x_wp_total": null,
+                "x_wp_totalpages": null
+              }
+            ],
+            "raw_bytes": 29968,
+            "partial": false,
+            "native_target_identity": "https://thetech.com/issues/143/4",
+            "native_target_key": "cf9a9686d9a3a01ae012f52c",
+            "new_distinct_target_charge": true,
+            "preflight": {
+              "at_utc": "2026-10-06T11:01:10.692823+00:00",
+              "cumulative_bytes": 266839526,
+              "cap_bytes": 1073741824,
+              "free_bytes": 16278327296,
+              "own_lease_bytes": 33554432,
+              "other_lease_bytes": 0,
+              "pending_bytes": 10485760,
+              "effective_pending_and_leases_bytes": 33619968,
+              "physical_headroom": 88248320,
+              "allocation_headroom": 773282330
+            },
+            "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/cf9a9686d9a3a01ae012f52c.bin",
+            "raw_sha256": "bc9881e379bf60d0198ce8c43afe1544938d82e7efcd6b1722da01e30b8d059a",
+            "final_url": "https://thetech.com/issues/143/4",
+            "finished_at_utc": "2026-10-06T11:01:23.398012+00:00"
+          },
+          "title": "A community statement on MIT’s response to hate speech"
+        },
+        "cap_bytes": 2097152,
+        "method": "GET",
+        "extra": {
+          "month": "2023-03",
+          "whole_article_required": true,
+          "native_target_identity": "https://thetech.com/2023/03/16/statement-on-mit-hate-speech-response"
+        },
+        "frozen_at_utc": "2026-10-06T11:01:42.780875+00:00"
+      },
+      "target_id": "a2c9e608db210d84601bd5fc",
+      "url": "https://thetech.com/2023/03/16/statement-on-mit-hate-speech-response",
+      "source_id": "mit_tech",
+      "stratum": "US",
+      "purpose": "article",
+      "status": "interrupted_pending",
+      "started_at_utc": "2026-10-06T11:01:42.819270+00:00",
+      "hops": [],
+      "raw_bytes": 16674,
+      "partial": true,
+      "native_target_identity": "https://thetech.com/2023/03/16/statement-on-mit-hate-speech-response",
+      "native_target_key": "a2c9e608db210d84601bd5fc",
+      "new_distinct_target_charge": true,
+      "finished_at_utc": "2026-10-06T11:10:34.185707+00:00",
+      "closing_reconciliation": "Original receipt and charged attempt preserved; owning process absent; no completed transfer/Load claimed and no retry",
+      "original_receipt_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/receipts_before_close_reconciliation/a2c9e608db210d84601bd5fc.json",
+      "original_receipt_sha256": "0dfc0ebddb1335b67df2a51fa63174c35086ddcce838a420a9560f7bef30c1c5",
+      "raw_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/raw/a2c9e608db210d84601bd5fc.bin",
+      "raw_sha256": "661d5a40d331d15a84148d9905fb91694260efd5070913508d11e524e4a67d1b"
+    }
+  ]
+}

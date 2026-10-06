@@ -1,0 +1,239 @@
+{
+  "snapshot_at_utc": "2026-10-06T11:21:20.690197+00:00",
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "September2026_partial": true,
+  "hard_minimum": 2,
+  "calendar_months": 465,
+  "baseline_scope": "142 accepted complete articles from a bounded selected register, not all historical saved input",
+  "database": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/newspaper_elt.sqlite3",
+  "database_counts": {
+    "article_rows_retained": 400,
+    "currently_qualified_article_rows": 392,
+    "new_qualified_ids_beyond_accepted_baseline": 391,
+    "already_accepted_ids_loaded_by_current_representation": 1,
+    "whole_text_versions": 402,
+    "separate_pending_or_component_records": 75,
+    "reclassified_retained_article_rows": 8,
+    "baseline_metadata_rows": 142
+  },
+  "coverage": {
+    "pooled": {
+      "before_passing": 43,
+      "after_passing": 176,
+      "after_one": 12,
+      "after_zero": 277,
+      "newly_passing": 133,
+      "remaining_article_slots": 566
+    },
+    "EU/Europe excluding UK": {
+      "before_passing": 0,
+      "after_passing": 80,
+      "after_one": 7,
+      "after_zero": 378,
+      "newly_passing": 80,
+      "remaining_article_slots": 763
+    },
+    "UK": {
+      "before_passing": 0,
+      "after_passing": 33,
+      "after_one": 16,
+      "after_zero": 416,
+      "newly_passing": 33,
+      "remaining_article_slots": 848
+    },
+    "AU": {
+      "before_passing": 0,
+      "after_passing": 39,
+      "after_one": 10,
+      "after_zero": 416,
+      "newly_passing": 39,
+      "remaining_article_slots": 842
+    },
+    "US": {
+      "before_passing": 37,
+      "after_passing": 62,
+      "after_one": 9,
+      "after_zero": 394,
+      "newly_passing": 25,
+      "remaining_article_slots": 797
+    },
+    "NZ": {
+      "before_passing": 0,
+      "after_passing": 15,
+      "after_one": 7,
+      "after_zero": 443,
+      "newly_passing": 15,
+      "remaining_article_slots": 893
+    }
+  },
+  "attempt_counts": {
+    "EU/Europe excluding UK": {
+      "native_distinct_article_targets": 167,
+      "direct_transport_discovery_targets": 3,
+      "initial_external_discovery_charged_in_state": 0,
+      "later_external_discovery_targets": 0,
+      "total_external_discovery_targets": 0,
+      "state_discovery_counter": 3,
+      "effective_discovery_targets": 3,
+      "article_ceiling": 400,
+      "discovery_ceiling": 200
+    },
+    "UK": {
+      "native_distinct_article_targets": 119,
+      "direct_transport_discovery_targets": 11,
+      "initial_external_discovery_charged_in_state": 0,
+      "later_external_discovery_targets": 0,
+      "total_external_discovery_targets": 0,
+      "state_discovery_counter": 11,
+      "effective_discovery_targets": 11,
+      "article_ceiling": 400,
+      "discovery_ceiling": 200
+    },
+    "AU": {
+      "native_distinct_article_targets": 73,
+      "direct_transport_discovery_targets": 40,
+      "initial_external_discovery_charged_in_state": 0,
+      "later_external_discovery_targets": 0,
+      "total_external_discovery_targets": 0,
+      "state_discovery_counter": 40,
+      "effective_discovery_targets": 40,
+      "article_ceiling": 400,
+      "discovery_ceiling": 200
+    },
+    "US": {
+      "native_distinct_article_targets": 48,
+      "direct_transport_discovery_targets": 41,
+      "initial_external_discovery_charged_in_state": 2,
+      "later_external_discovery_targets": 10,
+      "total_external_discovery_targets": 12,
+      "state_discovery_counter": 43,
+      "effective_discovery_targets": 53,
+      "article_ceiling": 400,
+      "discovery_ceiling": 200
+    },
+    "NZ": {
+      "native_distinct_article_targets": 41,
+      "direct_transport_discovery_targets": 0,
+      "initial_external_discovery_charged_in_state": 2,
+      "later_external_discovery_targets": 30,
+      "total_external_discovery_targets": 32,
+      "state_discovery_counter": 2,
+      "effective_discovery_targets": 32,
+      "article_ceiling": 400,
+      "discovery_ceiling": 200
+    }
+  },
+  "transport_status_counts": {
+    "transport_error": 21,
+    "saved": 513,
+    "http_stop": 7,
+    "saved_headers": 4,
+    "interrupted_pending": 6
+  },
+  "resource_before_delivery": {
+    "at_utc": "2026-10-06T11:21:20.546698+00:00",
+    "cumulative_bytes": 268890877,
+    "cap_bytes": 1073741824,
+    "free_bytes": 16257912832,
+    "own_lease_bytes": 33554432,
+    "other_lease_bytes": 0,
+    "pending_bytes": 16777216,
+    "effective_pending_and_leases_bytes": 33619968,
+    "physical_headroom": 67833856,
+    "allocation_headroom": 771230979
+  },
+  "collection_close": {
+    "at_utc": "2026-10-06T11:08:47.506036+00:00",
+    "reason": "Observed resource_stop at2026-10-06T11:01:45.892979Z terminates acquisition; subsequent capacity is used only for consolidating already saved/prepared inputs and delivery",
+    "stop_resource": {
+      "free_bytes": 16173236224,
+      "physical_floor_bytes": 16106127360,
+      "recovery_allowance_bytes": 50331648,
+      "own_lease_plus_receipt_bytes": 33619968,
+      "physical_headroom": -16842752,
+      "cumulative_bytes": 268671967,
+      "allocation_headroom": 771449889
+    },
+    "close_preflight": {
+      "at_utc": "2026-10-06T11:08:47.560862+00:00",
+      "cumulative_bytes": 268681996,
+      "cap_bytes": 1073741824,
+      "free_bytes": 16219938816,
+      "own_lease_bytes": 33554432,
+      "other_lease_bytes": 0,
+      "pending_bytes": 16777216,
+      "effective_pending_and_leases_bytes": 33619968,
+      "physical_headroom": 29859840,
+      "allocation_headroom": 771439860
+    },
+    "no_further_network": true,
+    "deadline_unchanged": "2026-10-06T13:52:36.333704+00:00"
+  },
+  "checks": {
+    "SQLite_quick_check": true,
+    "foreign_keys": true,
+    "qualified_current_latest_TEXT_nonempty": true,
+    "qualified_current_dates_and_links": true,
+    "qualified_current_body_references_exist": true,
+    "no_duplicate_current_article_IDs": true,
+    "fixed_calendar_465_months": true,
+    "one_latest_version_per_retained_article": true,
+    "latest_version_exists_and_belongs_to_article": true,
+    "all_retained_version_body_references_exist": true,
+    "changed_article_raw_and_body_references": true,
+    "changed_article_and_transport_references_and_raw_sizes": true,
+    "no_unresolved_in_progress_transport": true,
+    "changed_python_syntax": true,
+    "HTTP_native_target_hop_ceiling": true,
+    "six_465_row_ledgers": true,
+    "five_regional_attempt_ceiling": true,
+    "discovery_charges_reconcile": true
+  },
+  "all_changed_tranche_checks_passed": true,
+  "semantic_labels_executed": false,
+  "raw_old_corpus_rescanned": false,
+  "source_completion_or_national_representativeness_claimed": false,
+  "current_qualified_metadata_dimensions": {
+    "source_id": {
+      "mit_tech": 59,
+      "trinity_news": 159,
+      "mancunion": 36,
+      "green_left": 67,
+      "otago_daily_times": 31,
+      "beaver": 40
+    },
+    "stratum": {
+      "US": 59,
+      "EU/Europe excluding UK": 159,
+      "UK": 76,
+      "AU": 67,
+      "NZ": 31
+    },
+    "source_frame": {
+      "US student newspaper supplement": 51,
+      "Irish student newspaper supplement": 159,
+      "UK student newspaper supplement; observed archive from 2010": 36,
+      "Australian advocacy newspaper supplement; 1991 onward": 67,
+      "NZ regional daily public web article frame": 31,
+      "UK student newspaper supplement; current site frame from 2014": 40,
+      "US student newspaper supplement; scanned original article": 2,
+      "US student newspaper supplement; original print article": 6
+    },
+    "genre": {
+      "unrecorded": 386,
+      "news_article": 5,
+      "opinion_column": 1
+    },
+    "provenance": {
+      "direct publisher newspaper utterance; wire/reproduced/quoted origins retained separately": 344,
+      "direct publisher native article representation; cited/quoted reporting origins remain separate": 40,
+      "archival reproduction of original dated publisher newspaper article": 2,
+      "archival reproduction of original newspaper article; native publisher asset and printed masthead verified": 6
+    }
+  },
+  "genre_scope": "Only already recorded genre metadata is tallied; unrecorded is retained, with no corpus-wide genre or semantic labeling.",
+  "verification_scope": "Checks cover stored identity/date/link/body references, native article boundaries and named source mappings. They do not establish universal historical body equivalence, attribution of every quotation, or truth of reported claims."
+}

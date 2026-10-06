@@ -1,0 +1,326 @@
+month,stratum,before_distinct_complete_articles,after_distinct_complete_articles,before_state,after_state,meets_hard_two_article_minimum,newly_passing,additional_articles_required,partial_publication_month
+1988-04,pooled,0,2,0,2_or_more,True,True,0,False
+1988-10,pooled,0,2,0,2_or_more,True,True,0,False
+1989-05,pooled,0,2,0,2_or_more,True,True,0,False
+1990-04,pooled,0,2,0,2_or_more,True,True,0,False
+1991-02,pooled,1,2,1,2_or_more,True,True,0,False
+1991-03,pooled,1,2,1,2_or_more,True,True,0,False
+1991-04,pooled,1,2,1,2_or_more,True,True,0,False
+1991-05,pooled,1,2,1,2_or_more,True,True,0,False
+1991-06,pooled,1,2,1,2_or_more,True,True,0,False
+1991-07,pooled,1,2,1,2_or_more,True,True,0,False
+1991-08,pooled,1,2,1,2_or_more,True,True,0,False
+1991-09,pooled,1,2,1,2_or_more,True,True,0,False
+1991-10,pooled,1,2,1,2_or_more,True,True,0,False
+1991-11,pooled,1,2,1,2_or_more,True,True,0,False
+1991-12,pooled,1,2,1,2_or_more,True,True,0,False
+1992-01,pooled,0,2,0,2_or_more,True,True,0,False
+1992-02,pooled,0,2,0,2_or_more,True,True,0,False
+1992-03,pooled,0,2,0,2_or_more,True,True,0,False
+1992-04,pooled,0,2,0,2_or_more,True,True,0,False
+1992-05,pooled,0,2,0,2_or_more,True,True,0,False
+1992-06,pooled,0,2,0,2_or_more,True,True,0,False
+1992-07,pooled,0,2,0,2_or_more,True,True,0,False
+1992-08,pooled,0,2,0,2_or_more,True,True,0,False
+1992-09,pooled,0,2,0,2_or_more,True,True,0,False
+1992-10,pooled,0,2,0,2_or_more,True,True,0,False
+1992-11,pooled,0,2,0,2_or_more,True,True,0,False
+1992-12,pooled,0,2,0,2_or_more,True,True,0,False
+1993-01,pooled,0,2,0,2_or_more,True,True,0,False
+1993-02,pooled,0,2,0,2_or_more,True,True,0,False
+1993-03,pooled,0,2,0,2_or_more,True,True,0,False
+1993-04,pooled,0,2,0,2_or_more,True,True,0,False
+1993-05,pooled,0,2,0,2_or_more,True,True,0,False
+1993-06,pooled,0,2,0,2_or_more,True,True,0,False
+1993-07,pooled,0,2,0,2_or_more,True,True,0,False
+1993-08,pooled,0,2,0,2_or_more,True,True,0,False
+1993-09,pooled,0,2,0,2_or_more,True,True,0,False
+1993-10,pooled,0,2,0,2_or_more,True,True,0,False
+1993-11,pooled,0,2,0,2_or_more,True,True,0,False
+1993-12,pooled,0,2,0,2_or_more,True,True,0,False
+1994-01,pooled,0,2,0,2_or_more,True,True,0,False
+1994-02,pooled,0,2,0,2_or_more,True,True,0,False
+1994-03,pooled,0,2,0,2_or_more,True,True,0,False
+1994-04,pooled,0,2,0,2_or_more,True,True,0,False
+2007-02,pooled,0,5,0,2_or_more,True,True,0,False
+2007-05,pooled,1,5,1,2_or_more,True,True,0,False
+2008-03,pooled,1,4,1,2_or_more,True,True,0,False
+2008-12,pooled,1,3,1,2_or_more,True,True,0,False
+2009-01,pooled,1,4,1,2_or_more,True,True,0,False
+2009-03,pooled,0,2,0,2_or_more,True,True,0,False
+2009-04,pooled,1,2,1,2_or_more,True,True,0,False
+2009-10,pooled,0,2,0,2_or_more,True,True,0,False
+2009-11,pooled,0,2,0,2_or_more,True,True,0,False
+2009-12,pooled,0,2,0,2_or_more,True,True,0,False
+2010-01,pooled,0,3,0,2_or_more,True,True,0,False
+2010-03,pooled,0,4,0,2_or_more,True,True,0,False
+2010-04,pooled,0,2,0,2_or_more,True,True,0,False
+2010-10,pooled,0,4,0,2_or_more,True,True,0,False
+2010-11,pooled,0,4,0,2_or_more,True,True,0,False
+2010-12,pooled,1,4,1,2_or_more,True,True,0,False
+2011-01,pooled,0,4,0,2_or_more,True,True,0,False
+2011-03,pooled,1,6,1,2_or_more,True,True,0,False
+2011-04,pooled,1,5,1,2_or_more,True,True,0,False
+2011-07,pooled,0,2,0,2_or_more,True,True,0,False
+2011-10,pooled,0,4,0,2_or_more,True,True,0,False
+2011-11,pooled,0,4,0,2_or_more,True,True,0,False
+2011-12,pooled,0,2,0,2_or_more,True,True,0,False
+2012-01,pooled,0,3,0,2_or_more,True,True,0,False
+2012-03,pooled,0,6,0,2_or_more,True,True,0,False
+2012-05,pooled,0,2,0,2_or_more,True,True,0,False
+2012-06,pooled,0,2,0,2_or_more,True,True,0,False
+2012-07,pooled,0,2,0,2_or_more,True,True,0,False
+2012-09,pooled,0,4,0,2_or_more,True,True,0,False
+2012-10,pooled,0,4,0,2_or_more,True,True,0,False
+2012-11,pooled,0,3,0,2_or_more,True,True,0,False
+2012-12,pooled,0,2,0,2_or_more,True,True,0,False
+2013-01,pooled,0,2,0,2_or_more,True,True,0,False
+2013-03,pooled,0,4,0,2_or_more,True,True,0,False
+2013-08,pooled,1,5,1,2_or_more,True,True,0,False
+2013-09,pooled,0,2,0,2_or_more,True,True,0,False
+2013-10,pooled,0,2,0,2_or_more,True,True,0,False
+2013-11,pooled,0,2,0,2_or_more,True,True,0,False
+2013-12,pooled,0,2,0,2_or_more,True,True,0,False
+2014-01,pooled,0,4,0,2_or_more,True,True,0,False
+2014-03,pooled,0,4,0,2_or_more,True,True,0,False
+2014-04,pooled,0,2,0,2_or_more,True,True,0,False
+2014-05,pooled,0,2,0,2_or_more,True,True,0,False
+2014-06,pooled,0,2,0,2_or_more,True,True,0,False
+2014-07,pooled,0,2,0,2_or_more,True,True,0,False
+2014-08,pooled,1,7,1,2_or_more,True,True,0,False
+2014-09,pooled,0,3,0,2_or_more,True,True,0,False
+2014-10,pooled,1,3,1,2_or_more,True,True,0,False
+2014-11,pooled,1,5,1,2_or_more,True,True,0,False
+2014-12,pooled,0,3,0,2_or_more,True,True,0,False
+2015-01,pooled,0,4,0,2_or_more,True,True,0,False
+2015-03,pooled,0,6,0,2_or_more,True,True,0,False
+2015-04,pooled,0,4,0,2_or_more,True,True,0,False
+2015-05,pooled,0,2,0,2_or_more,True,True,0,False
+2015-06,pooled,0,2,0,2_or_more,True,True,0,False
+2015-07,pooled,0,2,0,2_or_more,True,True,0,False
+2015-08,pooled,0,2,0,2_or_more,True,True,0,False
+2015-10,pooled,0,2,0,2_or_more,True,True,0,False
+2015-11,pooled,0,3,0,2_or_more,True,True,0,False
+2015-12,pooled,0,2,0,2_or_more,True,True,0,False
+2016-01,pooled,0,3,0,2_or_more,True,True,0,False
+2016-03,pooled,0,6,0,2_or_more,True,True,0,False
+2016-04,pooled,1,3,1,2_or_more,True,True,0,False
+2016-05,pooled,0,3,0,2_or_more,True,True,0,False
+2016-06,pooled,0,4,0,2_or_more,True,True,0,False
+2016-07,pooled,0,2,0,2_or_more,True,True,0,False
+2016-08,pooled,0,4,0,2_or_more,True,True,0,False
+2016-10,pooled,0,4,0,2_or_more,True,True,0,False
+2016-11,pooled,0,3,0,2_or_more,True,True,0,False
+2016-12,pooled,0,4,0,2_or_more,True,True,0,False
+2017-01,pooled,0,3,0,2_or_more,True,True,0,False
+2017-03,pooled,0,4,0,2_or_more,True,True,0,False
+2017-04,pooled,0,2,0,2_or_more,True,True,0,False
+2017-05,pooled,1,2,1,2_or_more,True,True,0,False
+2017-06,pooled,1,2,1,2_or_more,True,True,0,False
+2017-07,pooled,0,3,0,2_or_more,True,True,0,False
+2017-10,pooled,0,2,0,2_or_more,True,True,0,False
+2017-11,pooled,0,2,0,2_or_more,True,True,0,False
+2017-12,pooled,0,2,0,2_or_more,True,True,0,False
+2018-01,pooled,0,2,0,2_or_more,True,True,0,False
+2018-03,pooled,1,3,1,2_or_more,True,True,0,False
+2019-03,pooled,0,2,0,2_or_more,True,True,0,False
+2019-04,pooled,0,2,0,2_or_more,True,True,0,False
+2020-02,pooled,0,2,0,2_or_more,True,True,0,False
+2020-03,pooled,0,2,0,2_or_more,True,True,0,False
+2020-04,pooled,0,2,0,2_or_more,True,True,0,False
+2021-03,pooled,0,2,0,2_or_more,True,True,0,False
+2021-10,pooled,0,2,0,2_or_more,True,True,0,False
+2022-01,pooled,0,2,0,2_or_more,True,True,0,False
+2022-03,pooled,0,2,0,2_or_more,True,True,0,False
+2008-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2008-10,EU/Europe excluding UK,1,2,1,2_or_more,True,True,0,False
+2008-11,EU/Europe excluding UK,1,2,1,2_or_more,True,True,0,False
+2008-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2009-01,EU/Europe excluding UK,1,2,1,2_or_more,True,True,0,False
+2009-02,EU/Europe excluding UK,1,2,1,2_or_more,True,True,0,False
+2009-04,EU/Europe excluding UK,1,2,1,2_or_more,True,True,0,False
+2009-09,EU/Europe excluding UK,1,2,1,2_or_more,True,True,0,False
+2009-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2009-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2009-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-01,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-03,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-04,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2011-01,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2011-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2011-03,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2011-07,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2011-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2011-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2011-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-01,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-03,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-05,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-06,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-07,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2012-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2013-01,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2013-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2013-03,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2013-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2013-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2013-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2013-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-01,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-03,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-04,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-05,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-06,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-07,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-08,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2014-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-01,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-03,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-04,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-05,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-07,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-08,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2015-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-01,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-03,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-04,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-05,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-06,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-07,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-08,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-09,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-10,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-11,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2016-12,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2017-02,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2017-07,EU/Europe excluding UK,0,2,0,2_or_more,True,True,0,False
+2010-10,UK,0,2,0,2_or_more,True,True,0,False
+2010-11,UK,0,2,0,2_or_more,True,True,0,False
+2010-12,UK,1,2,1,2_or_more,True,True,0,False
+2011-01,UK,0,2,0,2_or_more,True,True,0,False
+2011-02,UK,1,2,1,2_or_more,True,True,0,False
+2011-03,UK,1,2,1,2_or_more,True,True,0,False
+2011-04,UK,1,2,1,2_or_more,True,True,0,False
+2011-09,UK,1,2,1,2_or_more,True,True,0,False
+2011-10,UK,0,2,0,2_or_more,True,True,0,False
+2011-11,UK,0,2,0,2_or_more,True,True,0,False
+2011-12,UK,0,2,0,2_or_more,True,True,0,False
+2012-02,UK,0,2,0,2_or_more,True,True,0,False
+2012-03,UK,0,2,0,2_or_more,True,True,0,False
+2012-09,UK,0,2,0,2_or_more,True,True,0,False
+2012-10,UK,0,2,0,2_or_more,True,True,0,False
+2014-11,UK,0,2,0,2_or_more,True,True,0,False
+2015-01,UK,0,2,0,2_or_more,True,True,0,False
+2015-02,UK,0,2,0,2_or_more,True,True,0,False
+2015-03,UK,0,2,0,2_or_more,True,True,0,False
+2016-02,UK,0,2,0,2_or_more,True,True,0,False
+2016-03,UK,0,2,0,2_or_more,True,True,0,False
+2016-06,UK,0,2,0,2_or_more,True,True,0,False
+2016-08,UK,0,2,0,2_or_more,True,True,0,False
+2016-10,UK,0,2,0,2_or_more,True,True,0,False
+2016-12,UK,0,2,0,2_or_more,True,True,0,False
+2017-01,UK,0,2,0,2_or_more,True,True,0,False
+2017-02,UK,0,2,0,2_or_more,True,True,0,False
+2017-03,UK,0,2,0,2_or_more,True,True,0,False
+2017-04,UK,0,2,0,2_or_more,True,True,0,False
+2017-09,UK,0,2,0,2_or_more,True,True,0,False
+2017-10,UK,0,2,0,2_or_more,True,True,0,False
+2017-11,UK,0,2,0,2_or_more,True,True,0,False
+2017-12,UK,0,2,0,2_or_more,True,True,0,False
+1991-02,AU,1,2,1,2_or_more,True,True,0,False
+1991-03,AU,1,2,1,2_or_more,True,True,0,False
+1991-04,AU,1,2,1,2_or_more,True,True,0,False
+1991-05,AU,1,2,1,2_or_more,True,True,0,False
+1991-06,AU,1,2,1,2_or_more,True,True,0,False
+1991-07,AU,1,2,1,2_or_more,True,True,0,False
+1991-08,AU,1,2,1,2_or_more,True,True,0,False
+1991-09,AU,1,2,1,2_or_more,True,True,0,False
+1991-10,AU,1,2,1,2_or_more,True,True,0,False
+1991-11,AU,1,2,1,2_or_more,True,True,0,False
+1991-12,AU,1,2,1,2_or_more,True,True,0,False
+1992-01,AU,0,2,0,2_or_more,True,True,0,False
+1992-02,AU,0,2,0,2_or_more,True,True,0,False
+1992-03,AU,0,2,0,2_or_more,True,True,0,False
+1992-04,AU,0,2,0,2_or_more,True,True,0,False
+1992-05,AU,0,2,0,2_or_more,True,True,0,False
+1992-06,AU,0,2,0,2_or_more,True,True,0,False
+1992-07,AU,0,2,0,2_or_more,True,True,0,False
+1992-08,AU,0,2,0,2_or_more,True,True,0,False
+1992-09,AU,0,2,0,2_or_more,True,True,0,False
+1992-10,AU,0,2,0,2_or_more,True,True,0,False
+1992-11,AU,0,2,0,2_or_more,True,True,0,False
+1992-12,AU,0,2,0,2_or_more,True,True,0,False
+1993-01,AU,0,2,0,2_or_more,True,True,0,False
+1993-02,AU,0,2,0,2_or_more,True,True,0,False
+1993-03,AU,0,2,0,2_or_more,True,True,0,False
+1993-04,AU,0,2,0,2_or_more,True,True,0,False
+1993-05,AU,0,2,0,2_or_more,True,True,0,False
+1993-06,AU,0,2,0,2_or_more,True,True,0,False
+1993-07,AU,0,2,0,2_or_more,True,True,0,False
+1993-08,AU,0,2,0,2_or_more,True,True,0,False
+1993-09,AU,0,2,0,2_or_more,True,True,0,False
+1993-10,AU,0,2,0,2_or_more,True,True,0,False
+1993-11,AU,0,2,0,2_or_more,True,True,0,False
+1993-12,AU,0,2,0,2_or_more,True,True,0,False
+1994-01,AU,0,2,0,2_or_more,True,True,0,False
+1994-02,AU,0,2,0,2_or_more,True,True,0,False
+1994-03,AU,0,2,0,2_or_more,True,True,0,False
+1994-04,AU,0,2,0,2_or_more,True,True,0,False
+1988-04,US,0,2,0,2_or_more,True,True,0,False
+1988-10,US,0,2,0,2_or_more,True,True,0,False
+1989-05,US,0,2,0,2_or_more,True,True,0,False
+1990-04,US,0,2,0,2_or_more,True,True,0,False
+2007-02,US,0,5,0,2_or_more,True,True,0,False
+2007-05,US,1,5,1,2_or_more,True,True,0,False
+2008-03,US,1,2,1,2_or_more,True,True,0,False
+2009-03,US,0,2,0,2_or_more,True,True,0,False
+2010-03,US,0,2,0,2_or_more,True,True,0,False
+2011-03,US,0,2,0,2_or_more,True,True,0,False
+2012-03,US,0,2,0,2_or_more,True,True,0,False
+2013-03,US,0,2,0,2_or_more,True,True,0,False
+2013-08,US,1,5,1,2_or_more,True,True,0,False
+2014-03,US,0,2,0,2_or_more,True,True,0,False
+2014-08,US,1,5,1,2_or_more,True,True,0,False
+2015-03,US,0,2,0,2_or_more,True,True,0,False
+2016-03,US,0,2,0,2_or_more,True,True,0,False
+2017-03,US,0,2,0,2_or_more,True,True,0,False
+2018-03,US,0,2,0,2_or_more,True,True,0,False
+2019-03,US,0,2,0,2_or_more,True,True,0,False
+2020-02,US,0,2,0,2_or_more,True,True,0,False
+2020-03,US,0,2,0,2_or_more,True,True,0,False
+2020-04,US,0,2,0,2_or_more,True,True,0,False
+2021-03,US,0,2,0,2_or_more,True,True,0,False
+2022-03,US,0,2,0,2_or_more,True,True,0,False
+2008-03,NZ,0,2,0,2_or_more,True,True,0,False
+2008-06,NZ,1,2,1,2_or_more,True,True,0,False
+2008-08,NZ,1,2,1,2_or_more,True,True,0,False
+2008-09,NZ,1,2,1,2_or_more,True,True,0,False
+2008-10,NZ,1,2,1,2_or_more,True,True,0,False
+2008-11,NZ,0,2,0,2_or_more,True,True,0,False
+2009-01,NZ,0,2,0,2_or_more,True,True,0,False
+2010-02,NZ,0,2,0,2_or_more,True,True,0,False
+2011-04,NZ,0,2,0,2_or_more,True,True,0,False
+2014-01,NZ,0,2,0,2_or_more,True,True,0,False
+2015-04,NZ,0,2,0,2_or_more,True,True,0,False
+2018-01,NZ,0,2,0,2_or_more,True,True,0,False
+2019-04,NZ,0,2,0,2_or_more,True,True,0,False
+2021-10,NZ,0,2,0,2_or_more,True,True,0,False
+2022-01,NZ,0,2,0,2_or_more,True,True,0,False

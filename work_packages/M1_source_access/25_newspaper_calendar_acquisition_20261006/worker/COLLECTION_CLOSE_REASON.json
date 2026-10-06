@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-06T11:08:47.506036+00:00",
+  "reason": "Observed resource_stop at2026-10-06T11:01:45.892979Z terminates acquisition; subsequent capacity is used only for consolidating already saved/prepared inputs and delivery",
+  "stop_resource": {
+    "free_bytes": 16173236224,
+    "physical_floor_bytes": 16106127360,
+    "recovery_allowance_bytes": 50331648,
+    "own_lease_plus_receipt_bytes": 33619968,
+    "physical_headroom": -16842752,
+    "cumulative_bytes": 268671967,
+    "allocation_headroom": 771449889
+  },
+  "close_preflight": {
+    "at_utc": "2026-10-06T11:08:47.560862+00:00",
+    "cumulative_bytes": 268681996,
+    "cap_bytes": 1073741824,
+    "free_bytes": 16219938816,
+    "own_lease_bytes": 33554432,
+    "other_lease_bytes": 0,
+    "pending_bytes": 16777216,
+    "effective_pending_and_leases_bytes": 33619968,
+    "physical_headroom": 29859840,
+    "allocation_headroom": 771439860
+  },
+  "no_further_network": true,
+  "deadline_unchanged": "2026-10-06T13:52:36.333704+00:00"
+}

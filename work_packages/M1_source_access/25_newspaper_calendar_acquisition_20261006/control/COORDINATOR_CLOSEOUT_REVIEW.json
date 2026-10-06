@@ -1,0 +1,185 @@
+{
+  "reviewed_at_utc": "2026-10-06T11:33:57.679060+00:00",
+  "status": "closed; usable ELT delivery; full-calendar target incomplete; no successor dispatched",
+  "owner_thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
+  "owner_turn": "01a110a2-129a-7723-becc-b2cf8c1ad62f",
+  "owner_idle_confirmed": true,
+  "delivery_receipt_files_verified": 33,
+  "delivery_receipt_mismatches": [],
+  "saved_owner_database_checks_reused": true,
+  "database_query_or_write_performed": false,
+  "raw_payload_hash_sweep_performed": false,
+  "combined_confirmed_ids": 533,
+  "baseline_ids": 142,
+  "additional_qualified_ids": 391,
+  "new_store_qualified_ids": 392,
+  "baseline_ids_not_TEXT_loaded_in_new_store": 141,
+  "additional_ids_from_old_raw": 17,
+  "additional_ids_from_current_raw": 374,
+  "coverage": {
+    "AU": {
+      "passing": 39,
+      "one": 10,
+      "zero": 416,
+      "articles": 88,
+      "deficit": 842
+    },
+    "EU/Europe excluding UK": {
+      "passing": 80,
+      "one": 7,
+      "zero": 378,
+      "articles": 167,
+      "deficit": 763
+    },
+    "NZ": {
+      "passing": 15,
+      "one": 7,
+      "zero": 443,
+      "articles": 37,
+      "deficit": 893
+    },
+    "UK": {
+      "passing": 33,
+      "one": 16,
+      "zero": 416,
+      "articles": 82,
+      "deficit": 848
+    },
+    "US": {
+      "passing": 62,
+      "one": 9,
+      "zero": 394,
+      "articles": 159,
+      "deficit": 797
+    },
+    "pooled": {
+      "passing": 176,
+      "one": 12,
+      "zero": 277,
+      "articles": 533,
+      "deficit": 566
+    }
+  },
+  "period_summary": [
+    {
+      "period": "1988-1990",
+      "months": 36,
+      "before_passing": 0,
+      "after_passing": 4,
+      "one": 0,
+      "zero": 32,
+      "articles": 8
+    },
+    {
+      "period": "1991-2006",
+      "months": 192,
+      "before_passing": 0,
+      "after_passing": 39,
+      "one": 0,
+      "zero": 153,
+      "articles": 78
+    },
+    {
+      "period": "2007-2016",
+      "months": 120,
+      "before_passing": 24,
+      "after_passing": 94,
+      "one": 11,
+      "zero": 15,
+      "articles": 350
+    },
+    {
+      "period": "2017-2026 partial",
+      "months": 117,
+      "before_passing": 19,
+      "after_passing": 39,
+      "one": 1,
+      "zero": 77,
+      "articles": 97
+    }
+  ],
+  "longest_below_minimum_runs": [
+    {
+      "start": "1994-05",
+      "end": "2007-01",
+      "months": 153
+    },
+    {
+      "start": "2023-03",
+      "end": "2024-01",
+      "months": 11
+    },
+    {
+      "start": "2024-03",
+      "end": "2025-01",
+      "months": 11
+    },
+    {
+      "start": "2025-03",
+      "end": "2026-01",
+      "months": 11
+    },
+    {
+      "start": "1989-06",
+      "end": "1990-03",
+      "months": 10
+    }
+  ],
+  "combined_source_counts": {
+    "mit_tech": 159,
+    "indaily": 10,
+    "trinity_news": 167,
+    "beaver": 41,
+    "green_left": 78,
+    "otago_daily_times": 37,
+    "mancunion": 41
+  },
+  "combined_student_press_articles": 408,
+  "combined_student_press_share": 0.7654784240150094,
+  "current_package_file_bytes_by_area": {
+    "top_level_files": 12027787,
+    "receipts": 2362618,
+    "bodies": 2084416,
+    "targets": 1367943,
+    "pdf_plans": 15138,
+    "pdf_mapping": 12256562,
+    "queues": 25791099,
+    "receipts_before_close_reconciliation": 26238,
+    "raw": 84298413,
+    "coverage": 127146
+  },
+  "full_calendar_objective_met": false,
+  "semantic_or_emotion_measures_assessed": false,
+  "integration_whitespace_exception": {
+    "frozen_files": [
+      "worker/ARTICLE_REGISTER.csv",
+      "worker/NEW_ARTICLE_REGISTER.csv"
+    ],
+    "warning_count": 2,
+    "reason": "The same original native Sorority Recruitment title contains a trailing space before an embedded newline inside a quoted CSV field; preserve frozen receipt bytes. All edited code/docs and other staged files checked separately."
+  },
+  "coverage_metric_interpretation": "Two articles establish minimum monthly coverage only, not sufficient density or completed acquisition.",
+  "pooled_monthly_density": {
+    "observed_month_count": 465,
+    "article_total": 533,
+    "months_exactly_two": 101,
+    "months_above_two": 75,
+    "covered_month_median": 2.0,
+    "maximum_articles_in_month": 7,
+    "mean_articles_per_calendar_month": 1.146236559139785,
+    "count_histogram": {
+      "0": 277,
+      "1": 12,
+      "2": 101,
+      "3": 25,
+      "4": 25,
+      "5": 11,
+      "6": 9,
+      "7": 5
+    },
+    "reference": "MONTHLY_DENSITY_REVIEW.csv",
+    "scope": "Selected confirmed register, not actual newspaper publication frequency"
+  },
+  "production_adjustment_reference": "COLLECTION_VOLUME_PLAN.md",
+  "successor_acquisition_dispatched": false
+}

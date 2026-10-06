@@ -1,0 +1,45 @@
+{
+  "at_utc": "2026-10-06T11:21:10.611902+00:00",
+  "label": "Closed acquisition: final saved-input checkpoint; cumulative +128 MiB crossing interrupted by physical-space stop; no further network",
+  "loaded_complete_article_records": 392,
+  "loaded_whole_text_versions": 402,
+  "pending_or_component_evidence_records": 75,
+  "passing_pooled_months": 176,
+  "single_pooled_months": 12,
+  "transport_counts": {
+    "EU/Europe excluding UK": {
+      "article": 167,
+      "discovery": 3
+    },
+    "UK": {
+      "article": 119,
+      "discovery": 11
+    },
+    "AU": {
+      "article": 73,
+      "discovery": 40
+    },
+    "US": {
+      "article": 48,
+      "discovery": 43
+    },
+    "NZ": {
+      "article": 41,
+      "discovery": 2
+    }
+  },
+  "resource": {
+    "at_utc": "2026-10-06T11:21:10.611670+00:00",
+    "cumulative_bytes": 268889282,
+    "cap_bytes": 1073741824,
+    "free_bytes": 16270557184,
+    "own_lease_bytes": 33554432,
+    "other_lease_bytes": 0,
+    "pending_bytes": 0,
+    "effective_pending_and_leases_bytes": 33619968,
+    "physical_headroom": 80478208,
+    "allocation_headroom": 771232574
+  },
+  "early_1988_1990": "Four bounded publisher print issues with observed printed dates and pre-transfer size/page plans supplied eight complete articles: two each in April 1988, October 1988, May 1989 and April 1990. One additional May 1989 continuation remains pending severe native OCR. Crimson retention remains pending. No further network acquisition after the physical-space stop.",
+  "deadline": "2026-10-06T13:52:36.333704+00:00"
+}
