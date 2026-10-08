@@ -1,0 +1,40 @@
+{
+  "artifact": "Frozen first 50 publicly sourced native Q&A questions; not social task completion",
+  "recorded_at_utc": "2026-10-08T10:53:31.338392+00:00",
+  "original_batch_at_utc": "2026-10-08T10:45:41.249374+00:00",
+  "records": 50,
+  "native_unit": "question",
+  "source_id": "se_sustainability",
+  "frame": "global_specialist_QA",
+  "regional_or_population_representativeness": false,
+  "original_created_min": "2013-01-29T19:29:48+00:00",
+  "original_created_max": "2013-01-30T12:11:41+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "retrieved_response_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/worker/raw/5fc03c2cf5d2d202d73758f0.bin.gz",
+  "raw_sha256": "ee1bcd7c2baafc256da2382b686df90e112ccd9252f9f610b8614159d073bb39",
+  "first_Load_receipt_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/worker/FIRST_REAL_BATCH.json",
+  "first_Load_receipt_sha256": "cf76a90a222320966aff0fbcd5963a413caa80c5c10d46d7ecf214f25ee38268",
+  "csv_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/summaries/SOCIAL_FIRST50_QA_IDS.csv",
+  "csv_sha256": "107868650f452d03ae153aff5410649b3f74dab0d8f904c4ed9cedebdb529405",
+  "coordinator_changed_cohort_checks": {
+    "unique_native_and_persistent_ids": 50,
+    "saved_raw_digest_matched": true,
+    "source_url_native_id_creation_date_whole_body_digest_matched": 50,
+    "native_license_exact_match": 47,
+    "native_license_missing_honestly_unknown": 3,
+    "native_licensed_versions": {
+      "CC BY-SA 3.0": 46,
+      "CC BY-SA 4.0": 1
+    },
+    "complete_thread_context_established": false,
+    "live_database_read": false,
+    "prior_corpus_read": false
+  },
+  "stable_identity_note": "These initial IDs survive the new typed-native namespace mapping. Future native comments have a distinct namespace; revisions do not change post identity.",
+  "raw_full_text_published": false,
+  "rights_note": "The version-specific fields match where returned; three remain unknown. Preserve attribution/sharealike evidence. Public API accessibility and open-content permission remain separate dimensions.",
+  "task_is_still_active": true
+}
