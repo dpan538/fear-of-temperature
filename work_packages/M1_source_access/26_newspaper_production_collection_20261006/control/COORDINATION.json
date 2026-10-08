@@ -4,15 +4,25 @@
   "host": "local",
   "model": "gpt-6.1-sol",
   "thinking": "xhigh",
-  "status": "actual production acquisition and whole-TEXT Load running; first batch independently observed",
+  "status": "Historical package26 owner retired; one fresh-context package27 owner released",
   "hard_deadline_at_utc": "2026-10-06T16:20:21.847276+00:00",
   "active_leases": [
     {
       "lease_id": "newspaper26-single-writer",
       "thread_id": "01a10b18-1acb-71c0-85b2-40c922694cb2",
       "reserved_bytes": 8388608,
+      "active": false,
+      "purpose": "Small streamed newspaper operations; actual larger write/journal/render footprint overrides reservation under shared lock",
+      "closed_at_utc": "2026-10-08T07:15:14.896978+00:00",
+      "close_reason": "Verified worker exit and archived/interrupted previous owner; fresh-context handoff requested by Dai"
+    },
+    {
+      "lease_id": "newspaper27-single-writer",
+      "thread_id": "01a11a60-8c27-7b22-a7ba-161ff9d21c2d",
+      "reserved_bytes": 8388608,
       "active": true,
-      "purpose": "Small streamed newspaper operations; actual larger write/journal/render footprint overrides reservation under shared lock"
+      "purpose": "One fresh-context newspaper ELT owner; actual larger pending operation footprint overrides initial reservation",
+      "scope_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/EXECUTION_SCOPE.json"
     }
   ],
   "coordinator_ownership": [
@@ -61,5 +71,18 @@
     "baseline_TEXT_consolidated": 0,
     "ID_disjointness_and_saved_raw_receipts_checked": true,
     "old_body_or_database_scan_performed": false
-  }
+  },
+  "context_recovery": {
+    "at_utc": "2026-10-08T07:15:14.896978+00:00",
+    "handoff_package": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008",
+    "previous_owner_archived": true,
+    "previous_turn_interrupted": true,
+    "previous_writer_exit_verified": true,
+    "recovered_qualified_article_IDs": 6690,
+    "pooled_months_at_two_article_floor": 418,
+    "no_new_download_in_coordinator_recovery": true,
+    "new_owner_thread_id": "01a11a60-8c27-7b22-a7ba-161ff9d21c2d",
+    "new_owner_bound_at_utc": "2026-10-08T07:19:34.227602+00:00"
+  },
+  "current_owner_thread_id": "01a11a60-8c27-7b22-a7ba-161ff9d21c2d"
 }

@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-08T07:15:14.896978+00:00",
+  "free_bytes": 23705341952,
+  "cumulative_bytes": 1005112437,
+  "cap_bytes": 5000000000,
+  "physical_floor_bytes": 16106127360,
+  "recovery_allowance_bytes": 50331648,
+  "actual_representative_operation_footprint_bytes": 90575339,
+  "own_initial_lease_bytes": 8388608,
+  "other_active_lease_bytes": 0,
+  "physical_headroom_bytes": 7458242069,
+  "allocation_headroom_bytes": 3904246688,
+  "accounting_roots_disjoint": true,
+  "operation_preflight_must_be_repeated_live": true
+}

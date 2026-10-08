@@ -1,0 +1,9 @@
+{
+  "at_utc": "2026-10-06T16:22:38.585862+00:00",
+  "status": "production_tranche_delivered",
+  "new_article_IDs": 2273,
+  "no_active_background_worker": true,
+  "all_changed_tranche_checks_passed": true,
+  "control_and_lease_reconciliation": "Coordinator-owned; no control edited",
+  "deadline_unchanged": "2026-10-06T16:20:21.847276+00:00"
+}

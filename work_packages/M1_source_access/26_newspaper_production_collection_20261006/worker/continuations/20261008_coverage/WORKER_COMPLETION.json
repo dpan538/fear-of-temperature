@@ -1,0 +1,8 @@
+{
+  "at_utc": "2026-10-08T07:12:02.230361+00:00",
+  "status": "bounded_coverage_continuation_delivered",
+  "additional_qualified_IDs": 3884,
+  "no_active_background_worker": true,
+  "all_changed_tranche_checks_passed": true,
+  "control_reconciliation": "Coordinator owned; no control edited"
+}

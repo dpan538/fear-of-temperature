@@ -1,0 +1,19 @@
+{
+  "at_utc": "2026-10-08T07:21:57.685667+00:00",
+  "source_register": "work_packages/M1_source_access/26_newspaper_production_collection_20261006/worker/continuations/20261008_coverage/CUMULATIVE_ARTICLE_REGISTER.csv",
+  "source_sha256": "48a5b5882228e38fb1e6cb3b38ed2d992f7b2abca3f00656313a0d46cfe74ebd",
+  "output": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/ACCEPTED_ARTICLE_IDENTITY_INDEX.csv",
+  "output_sha256": "03361a315490dbc39b4094f18921111c3dc6528a597b67cab4cc9d2dc1dc02ea",
+  "bytes": 1388093,
+  "unique_complete_article_ids": 6690,
+  "fields": [
+    "article_id",
+    "source_id",
+    "source_url",
+    "publication_date",
+    "stratum",
+    "work_family_id",
+    "disposition"
+  ],
+  "scope": "Compact public-metadata index of the accepted handoff snapshot; no body export and no new database audit"
+}

@@ -1,0 +1,32 @@
+{
+  "released_at_utc": "2026-10-08T07:19:34.227602+00:00",
+  "status": "RELEASED",
+  "owner_thread_id": "01a11a60-8c27-7b22-a7ba-161ff9d21c2d",
+  "host": "local",
+  "model": "gpt-6.1-sol",
+  "thinking": "xhigh",
+  "previous_owner_archived": true,
+  "previous_writer_exit_verified": true,
+  "previous_owner_lease_inactive": true,
+  "scope_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/EXECUTION_SCOPE.json",
+  "scope_sha256": "9da5ae189e72dfa8f497933903edead2856cf65bc567daeddb3c6bf1de7a901a",
+  "handoff_sha256": "12305ef86c5187c5178c2eb20d93ce6969be7da7cd0705c459e799a38e710d5f",
+  "input_receipt_sha256": "7c7deb7d346944e91957898627d24b35add1e519a37f659964b7bd7a70ca72bb",
+  "plan_sha256": "e0f3f080c0242ff956e7aa1203d857a3a7a400f2e4bf17a6cf693c9a1722929f",
+  "hard_deadline_at_utc": "2026-10-08T11:15:14.896978+00:00",
+  "continuing_database": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/newspaper_elt.sqlite3",
+  "media_cumulative_cap_bytes": 5000000000,
+  "inherit_counters_stops_cursors_and_existing_IDs": true,
+  "single_writer_lease": {
+    "lease_id": "newspaper27-single-writer",
+    "thread_id": "01a11a60-8c27-7b22-a7ba-161ff9d21c2d",
+    "reserved_bytes": 8388608,
+    "active": true,
+    "purpose": "One fresh-context newspaper ELT owner; actual larger pending operation footprint overrides initial reservation",
+    "scope_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/EXECUTION_SCOPE.json"
+  },
+  "per_operation_live_capacity_required": true,
+  "network_and_durable_load_released": true,
+  "repeated_full_corpus_audit_released": false,
+  "social_government_evaluator_work_released": false
+}

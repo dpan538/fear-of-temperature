@@ -1,0 +1,13 @@
+# Recover the newspaper checkpoint and replace the interrupted owner
+
+Dai requested a fresh GPT-6.1 Sol High or Extra High chat after the newspaper owner repeatedly failed during remote compaction. The observed disconnected-stream / response-body decoding error does not establish context-capacity exhaustion or a specific server/network root cause. Recover durable project state instead of repeatedly retrying the long conversation.
+
+The coordinator confirmed that the old collection stopped at its fixed deadline, both recorded writer PIDs were absent and the owner/shared locks were available. The old chat was archived without deleting its history; its latest turn became interrupted. A missing local close receipt was recovered and the already prepared changed-tranche closeout passed once. The final snapshot is **6,690 qualified complete article IDs**, including **3,884 additions** to the accepted 2,806-ID predecessor. Pooled months at the two-known-work-family floor are **418/465**, with **47 zero-confirmed months**. This supersedes interim counts only prospectively; original checkpoints remain intact.
+
+[Package27](../../work_packages/M1_source_access/27_newspaper_context_recovery_20261008/PLAN.md) authorizes one fresh local GPT-6.1 Sol / Extra High owner with a concise file-based handoff and one fixed four-hour deadline. This explicitly supersedes the earlier no-new-window instruction for this handoff only. Existing deadlines, prior stops, frozen inputs and the database's version-preserving append history remain.
+
+Continue regular newspaper ELT, calendar recovery and native production in one pipeline. Reuse accepted source/access checks and parsers, perform only the necessary continuation adaptation/check and verify the changed tranche once. Keep authoritative cursors, attempts, checkpoints and transaction references on disk; return compact counts and paths to the model instead of full texts or large queue dumps. Require an exact-owner, digest-bound release before downloads or Load and retain the single-writer mutex and shared heavy-I/O lock.
+
+The fixed publication interval, five strata, two-article lower bound with retained surplus, **5,000,000,000-byte cumulative media allowance**, **15 GiB floor**, **48 MiB recovery**, actual operation/lease accounting and cumulative source/attempt/PDF stops remain unchanged. This successor includes all predecessor resource use; it does not reset discovery or historical PDF ceilings. Government/evaluator reopening, social corpus collection, additional windows and automatic rolling continuation remain outside this release.
+
+New outer documents and logs/commit titles/descriptions are English. Preserve frozen originals. The old monitoring automation remains paused.
