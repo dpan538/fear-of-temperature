@@ -1,9 +1,0 @@
-{
-  "pid": 49419,
-  "started_at_utc": "2026-10-06T10:55:56.934295+00:00",
-  "single_writer": true,
-  "tech_schedule": "native observed issue positions across all years before dense remainders",
-  "status": "exited_after_live_physical_resource_stop",
-  "process_absence_verified_at_utc": "2026-10-06T11:08:47.429792+00:00",
-  "acquisition_closed": true
-}

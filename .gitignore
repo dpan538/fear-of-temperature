@@ -48,7 +48,8 @@ tmp/
 tools/nature-skills
 *.inspect.ndjson
 
-# Acquisition payloads stay local; scripts, compact reports and receipts are versioned.
+# Acquisition payloads stay local; collection code, final tables/reports and
+# aggregate provenance manifests are versioned. Per-object runtime files stay local.
 work_packages/**/raw/
 work_packages/**/raw_probe/
 work_packages/**/bodies/
@@ -85,3 +86,48 @@ work_packages/M1_source_access/14_structural_validation_20261004/01_archive_spli
 work_packages/M1_source_access/14_structural_validation_20261004/01_archive_split/exceptions.full_pass.csv
 work_packages/M1_source_access/14_structural_validation_20261004/02_provenance_logic/findings.csv
 work_packages/M1_source_access/15_targeted_repairs_and_supplementation_20261004/03_existing_data_repair/PLAN*.json
+
+# Local agent handoffs, dispatch/owner state and recovery controls are not research
+# deliveries. Keep their bytes locally; record necessary decisions in PROJECT_LOG
+# and the final collection summary instead of publishing standalone handoffs.
+work_packages/**/HANDOFF*.md
+work_packages/**/PLAN*.md
+work_packages/**/COORDINATION.json
+work_packages/**/EXECUTION_SCOPE.json
+work_packages/**/OWNER_RELEASE.json
+work_packages/**/CAPACITY_RESUME_RELEASE.json
+work_packages/**/RESOURCE_PREFLIGHT.json
+work_packages/**/HANDOFF_CHECK.json
+work_packages/**/FIRST_BATCH_OBSERVATION.json
+work_packages/**/COLLECTION_CLOSE_RECEIPT.json
+work_packages/**/WORKER_PROCESS.json
+work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/
+# Existing frozen methodological decisions remain tracked; new working decisions
+# are consolidated into the English project log and collection summaries.
+docs/decisions/
+
+# Thousands of individual receipts and request targets remain preserved locally.
+# Publish consolidated source/article/raw manifests with each closed delivery.
+work_packages/**/receipts/
+work_packages/**/receipts_before_*/
+work_packages/**/targets/
+work_packages/**/pdf_plans/
+work_packages/**/TRANSPORT_STATE.json
+work_packages/**/NATIVE_CURSORS.json
+work_packages/**/REQUESTS.jsonl
+work_packages/**/LOAD_LOG.jsonl
+work_packages/**/TRANSACTION_RECEIPTS.jsonl
+work_packages/**/PRODUCTION_CHECKPOINT*.json*
+work_packages/**/FIRST_REAL_COLLECTION_CHECKPOINT.json
+work_packages/**/CALENDAR_PROGRESS_LATEST.json
+work_packages/**/CURRENT_STATUS.json
+work_packages/**/OPPORTUNITY_LOG.jsonl
+work_packages/**/EXTRA_JOBS*.json
+work_packages/**/GL_ISSUE_QUEUE.json
+work_packages/**/GL_ISSUES_PROCESSED.json
+work_packages/**/BEAVER_NEXT_PAGE.json
+work_packages/**/PRINT_INSPECTION_QUEUE.json
+
+# Research coverage tables are collection summaries, distinct from test coverage.
+!work_packages/**/worker/coverage/
+!work_packages/**/worker/coverage/*.csv
