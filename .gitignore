@@ -131,3 +131,9 @@ work_packages/**/PRINT_INSPECTION_QUEUE.json
 # Research coverage tables are collection summaries, distinct from test coverage.
 !work_packages/**/worker/coverage/
 !work_packages/**/worker/coverage/*.csv
+
+# Parallel media streams retain local release controls and database sidecars.
+work_packages/M1_source_access/27_newspaper_context_recovery_20261008/**/control/
+*.sqlite3-journal
+*.sqlite3-wal
+*.sqlite3-shm
