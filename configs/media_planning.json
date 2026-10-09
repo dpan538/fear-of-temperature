@@ -1,0 +1,21 @@
+{
+  "schema_version": "media-planning-3",
+  "status": "offline_preparation_not_execution_release",
+  "publication_interval": ["1988-01-01", "2026-09-21"],
+  "coverage_dimension_weights": {
+    "inventory_recovery": 0.40,
+    "source_frame_breadth": 0.25,
+    "publication_period_recovery": 0.20,
+    "identity_date_resolution": 0.15
+  },
+  "weight_status": "provisional_reporting_design_not_fitted_or_validated_measure",
+  "legacy_two_article_weight": 0,
+  "scheduler": "demand_and_readiness_with_waiting_age; no_fixed_time_shares",
+  "source_aliases": [],
+  "alias_policy": "Only confirmed same-source assertions with evidence, scoped to a registry snapshot. Platform, publisher, hostname and exact body matches alone never qualify.",
+  "retention": "preserve_all_existing_entities_versions_and_raw_objects",
+  "article_count_stop": null,
+  "coverage_completion_from_count": false,
+  "unknown_denominator": null,
+  "semantic_exclusion": false
+}

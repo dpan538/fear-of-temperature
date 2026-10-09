@@ -1,0 +1,698 @@
+[
+  {
+    "stream": "newspaper",
+    "publication_key": "falls_church_news_press:post:21158",
+    "members": [
+      [
+        "newspaper:falls_church_news_press",
+        "falls_church_news_press:post:21158"
+      ],
+      [
+        "newspaper:falls_church_news_press",
+        "falls_church_news_press:post:21159"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "falls_church_news_press:post:21822",
+    "members": [
+      [
+        "newspaper:falls_church_news_press",
+        "falls_church_news_press:post:21822"
+      ],
+      [
+        "newspaper:falls_church_news_press",
+        "falls_church_news_press:post:21823"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "financial_mirror:post:1812",
+    "members": [
+      [
+        "newspaper:financial_mirror",
+        "financial_mirror:post:1812"
+      ],
+      [
+        "newspaper:financial_mirror",
+        "financial_mirror:post:1858"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "financial_mirror:post:1876",
+    "members": [
+      [
+        "newspaper:financial_mirror",
+        "financial_mirror:post:1876"
+      ],
+      [
+        "newspaper:financial_mirror",
+        "financial_mirror:post:1888"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "indaily:article:5143d9adab03aeb597f02bf9",
+    "members": [
+      [
+        "newspaper:indaily",
+        "indaily:article:5143d9adab03aeb597f02bf9"
+      ],
+      [
+        "newspaper:indaily",
+        "indaily:article:ec9dcd90ab2252d9641ae969"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "indaily:article:72b93ab41cfd634e51018fe1",
+    "members": [
+      [
+        "newspaper:indaily",
+        "indaily:article:72b93ab41cfd634e51018fe1"
+      ],
+      [
+        "newspaper:indaily",
+        "indaily:article:9a75032bc51fe1f02f5bc16c"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "indaily:article:7d1adf8ca81ad249fe800784",
+    "members": [
+      [
+        "newspaper:indaily",
+        "indaily:article:441744ca4c5592f9adb35bbc"
+      ],
+      [
+        "newspaper:indaily",
+        "indaily:article:7d1adf8ca81ad249fe800784"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "indaily:article:d4b94dcdc79f3ee5606ab48a",
+    "members": [
+      [
+        "newspaper:indaily",
+        "indaily:article:c1783a7ef582aea2683f0212"
+      ],
+      [
+        "newspaper:indaily",
+        "indaily:article:d4b94dcdc79f3ee5606ab48a"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "montpelier_bridge:post:26028",
+    "members": [
+      [
+        "newspaper:montpelier_bridge",
+        "montpelier_bridge:post:26028"
+      ],
+      [
+        "newspaper:montpelier_bridge",
+        "montpelier_bridge:post:26031"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "montpelier_bridge:post:8481",
+    "members": [
+      [
+        "newspaper:montpelier_bridge",
+        "montpelier_bridge:post:8481"
+      ],
+      [
+        "newspaper:montpelier_bridge",
+        "montpelier_bridge:post:8506"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:26500",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:26500"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:26975"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:26989",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:26989"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27280"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27369"
+      ]
+    ],
+    "count": 3,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:26991",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:26991"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27246"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27342"
+      ]
+    ],
+    "count": 3,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:26994",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:26994"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27231"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27332"
+      ]
+    ],
+    "count": 3,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:26997",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:26997"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27234"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27334"
+      ]
+    ],
+    "count": 3,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27005",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27005"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33011"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27008",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27008"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33035"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27011",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27011"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33059"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27013",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27013"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33597"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27019",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27019"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33849"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27022",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27022"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33093"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27024",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27024"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33137"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27027",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27027"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33545"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27030",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27030"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33587"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27041",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27041"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:32848"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27049",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27049"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:33007"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27070",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27070"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:32061"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27080",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27080"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:30937"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27226",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27226"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27329"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27237",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27237"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27336"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27240",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27240"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27338"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27243",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27243"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27340"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27252",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27252"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27345"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27282",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27282"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27370"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27297",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27297"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27395"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:27494",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27494"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:27918"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:28904"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:29974"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:31368"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:32307"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:35002"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:39307"
+      ]
+    ],
+    "count": 8,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:28621",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:28621"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:28626"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:31792",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:31792"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:31800"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:34542",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:34542"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:34546"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "northern_rivers_times:post:38824",
+    "members": [
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:38613"
+      ],
+      [
+        "newspaper:northern_rivers_times",
+        "northern_rivers_times:post:38824"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  },
+  {
+    "stream": "newspaper",
+    "publication_key": "trinity_news:article:49e8807fa62f45e2a4020185",
+    "members": [
+      [
+        "newspaper:financial_mirror",
+        "financial_mirror:post:1838"
+      ],
+      [
+        "newspaper:financial_mirror",
+        "financial_mirror:post:1870"
+      ]
+    ],
+    "count": 2,
+    "action": "retain_members; shared_counting_key_only"
+  }
+]

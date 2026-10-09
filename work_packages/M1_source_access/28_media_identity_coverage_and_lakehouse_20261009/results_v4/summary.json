@@ -1,0 +1,33 @@
+{
+  "status": "offline_metadata_preparation; not_integrated_or_released",
+  "registry_entries": 41,
+  "canonical_sources": 41,
+  "confirmed_source_aliases_applied": 0,
+  "endpoint_alias_candidates": 0,
+  "input_entities": 61164,
+  "newspaper_dated_body_entities": 9538,
+  "social_dated_independent_body_entities": 42478,
+  "known_publication_multimember_groups": 41,
+  "hash_overlap_candidate_groups": 539,
+  "legacy_two_work_months": 157,
+  "legacy_two_work_months_unchanged": 154,
+  "source_month_inventory_denominators_verified": 0,
+  "count_based_completion_claims": 0,
+  "coverage_dimension_weights": {
+    "inventory_recovery": 0.4,
+    "source_frame_breadth": 0.25,
+    "publication_period_recovery": 0.2,
+    "identity_date_resolution": 0.15
+  },
+  "coverage_cells_with_any_verified_dimension": 0,
+  "scheduler": "demand_and_readiness; no_fixed_time_shares",
+  "parent_statistics": "six_separate_relations; auxiliary_only; no_collector_feedback",
+  "retention_action": "none; source/native IDs, versions and raw evidence unchanged",
+  "campus_ids_preserved_outside_this_computation": 9249,
+  "limitations": [
+    "candidate hashes do not establish duplicate works",
+    "acquisition parents do not prove publisher independence",
+    "no population denominator or representativeness claim",
+    "all opportunities require fresh release/access/resource preflight"
+  ]
+}

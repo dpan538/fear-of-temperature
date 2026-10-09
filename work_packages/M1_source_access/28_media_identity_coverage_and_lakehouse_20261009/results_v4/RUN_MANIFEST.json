@@ -1,0 +1,90 @@
+{
+  "algorithm_version": "media-planning-3",
+  "implementation": [
+    {
+      "name": "__init__.py",
+      "sha256": "ea5f61cab3daf0cddd3029e96232769fad811bbee0270239cdc0af316496227b"
+    },
+    {
+      "name": "__main__.py",
+      "sha256": "995d15d80a903b184c9ac922ec0e2531581e2dda71e8d8f3e55842ab4e6e805d"
+    },
+    {
+      "name": "core.py",
+      "sha256": "e0773132a89deeb477d358ef2f58fd19c518181cb720758d1a2bb5ee210503ad"
+    },
+    {
+      "name": "parent_monitor.py",
+      "sha256": "a25b7963b6a20928bbf2c283fdecac1bb9a36e39aa01e2d9cb4d26d449a9a395"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "composition_decomposition.csv",
+      "sha256": "1efffb7b9442a782e13f9d02141a0e6cf23e9828f983705f98bdfccd4c81c7b8",
+      "bytes": 97479
+    },
+    {
+      "path": "coverage_assessment.csv",
+      "sha256": "3327e56fa9f8f7cfe7fdbd8d5feacd9fdb1476b6b3a004b77a861ef4248944a6",
+      "bytes": 1050583
+    },
+    {
+      "path": "hash_overlap_candidates.json",
+      "sha256": "ba08d44f57852d2ab4bd5443e114f8643ed81dabcb8d848646011d9249010eca",
+      "bytes": 643403
+    },
+    {
+      "path": "identity_conflicts.csv",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "input_manifest.json",
+      "sha256": "e16bb003313994915c0abdff2009fafa7c4b261b0a33c3494900db8bb9325225",
+      "bytes": 3629
+    },
+    {
+      "path": "legacy_floor_months.csv",
+      "sha256": "8afd6f8eb866dba0a6ca10882e60c4d9df0adfd5d1bf8cc6068d0389f4091a97",
+      "bytes": 19110
+    },
+    {
+      "path": "parent_source_statistics.json",
+      "sha256": "3fcaa7391b3f13cf85b3407aef6ab0bd92fa277e918fc5a2e11bbb5a57c9b9e9",
+      "bytes": 1486081
+    },
+    {
+      "path": "pooled_month_metrics.csv",
+      "sha256": "8fac50329b55caf9a8a96acddebbf39348d03a9dd3a4a8b1109d1533e5bd6630",
+      "bytes": 63650
+    },
+    {
+      "path": "publication_groups.json",
+      "sha256": "478445dcb0fb061dfdcb36512191f163dc96731cd9bbcaa35be22edd64c8c27a",
+      "bytes": 17206
+    },
+    {
+      "path": "source_alias_candidates.json",
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "bytes": 3
+    },
+    {
+      "path": "source_month_metrics.csv",
+      "sha256": "cff6888c622a869b44caf6bff5c962095777db6c3fad4d376587f6ad5b9eae9d",
+      "bytes": 2392166
+    },
+    {
+      "path": "source_registry.csv",
+      "sha256": "85ab5237a6f85771a9f891d4c3bf52632d74485781805d806fd943852840eace",
+      "bytes": 8769
+    },
+    {
+      "path": "summary.json",
+      "sha256": "868e18ed235ff3d1d778508d37eb052c699ddea5487fa09665877cbcb42565a8",
+      "bytes": 1376
+    }
+  ],
+  "self_excluded": true,
+  "execution_mode": "offline_metadata_only"
+}

@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/configs/media_planning.json",
+    "sha256": "8d33c76a676a429a18afc50aceb79ea28118d7904a892535f36ac5258c445c12",
+    "bytes": 946
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_newspaper_open_production/worker/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+    "sha256": "7197f634009545cd5162655d5c6f67554aeabac18f92de4d92e23850b65303e1",
+    "bytes": 22775119
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_newspaper_open_production/worker/SOURCE_FRONTIER_REGISTER.csv",
+    "sha256": "646b00b79259a0be83323e2aea50ed8f9e8fc4c795d41e47b084e2a3b74ac87d",
+    "bytes": 7016
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_newspaper_open_production/worker/SOURCE_PARENT_IDENTITY_REGISTER.csv",
+    "sha256": "0aa43cadb3b6af2c023165682fad8ef852ab36066877a39773ba3dd7d8e3546c",
+    "bytes": 1096
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/review_20261009/tables/monthly_frame_coverage.csv",
+    "sha256": "eedd591ee64a0bf3830cfc228e1db1d0285348b07c33e6260668098fa2be0b38",
+    "bytes": 281435
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_public_native_expansion/worker/summaries/content_versions_manifest.csv",
+    "sha256": "af2f955db6ccf0ad895772bfb338c62c4a19d95c8fe98fd44459d2d6b402b235",
+    "bytes": 29282926
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_public_native_expansion/worker/summaries/native_date_mapping_limits.csv",
+    "sha256": "959bc7e4a58c96944a5c2a9a2dc3d90561ead569de7fa02a227ea97727fe31c2",
+    "bytes": 3333
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_public_native_expansion/worker/summaries/native_entities_manifest.csv",
+    "sha256": "ff83193b13f157f38871845f77502c4436385398abbf8405297841495bfa6220",
+    "bytes": 17312577
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_public_native_expansion/worker/summaries/publication_memberships.csv",
+    "sha256": "ed2c0c13649c247be23d56015c626cca0ef9b9573fa369fec29084c3af899dc7",
+    "bytes": 20811591
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_public_native_expansion/worker/summaries/source_month_calendar.csv",
+    "sha256": "99f023b30b4da00d2a3ef9b631a695eea48de2f00d0c50a877775f462238d243",
+    "bytes": 2209371
+  },
+  {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_public_native_expansion/worker/summaries/source_registry_final.json",
+    "sha256": "8831ac5d8c4be1a5153544505eea4323914cd6fb13267f79554449e83c5f86f8",
+    "bytes": 43720
+  }
+]
