@@ -1,0 +1,89 @@
+{
+  "at_utc": "2026-10-09T04:38:36.618342+00:00",
+  "records": [
+    {
+      "source_id": "stroud_times",
+      "parent_family_id": "stroud_times",
+      "stratum": "UK",
+      "status": "blocked_source_retention",
+      "reference": "https://stroudtimes.com/terms-of-service/",
+      "reason": "Personal temporary transitory-viewing licence plus copying/mirroring restrictions; durable whole-article corpus retention not established. No body pipeline activation."
+    },
+    {
+      "source_id": "morning_star",
+      "parent_family_id": "peoples_press_printing_society",
+      "stratum": "UK",
+      "status": "subscription_and_copyright_route_pending",
+      "reference": "https://www.morningstaronline.co.uk/subscribe/",
+      "use_reference": "https://www.morningstaronline.co.uk/node/237019",
+      "reason": "Website unlimited stories/back-issues offered by subscriptions; no account, bypass, PDF or private route used. No general body collection activation."
+    },
+    {
+      "source_id": "bristol_cable",
+      "parent_family_id": "bristol_cable_limited",
+      "stratum": "UK",
+      "status": "blocked_explicit_automation_and_database_retention",
+      "reference": "https://thebristolcable.org/terms/",
+      "reason": "Published sections4.3 and4.9 prohibit automated extraction and database storage; free viewing and print-newspaper identity do not override this restriction. No source API/body probe."
+    },
+    {
+      "source_id": "times_of_malta",
+      "parent_family_id": "times_of_malta_blocked_candidate",
+      "stratum": "EU/Europe excluding UK",
+      "status": "blocked_explicit_systematic_database_and_automated_storage",
+      "reference": "https://timesofmalta.com/terms-and-conditions",
+      "reason": "Publisher section3.8 prohibits systematic database compilation and automated copying/storage; historical archive subscription route not used. No body/API/PDF probe."
+    },
+    {
+      "source_id": "cyprus_mail",
+      "parent_family_id": "cyprus_mail_blocked_candidate",
+      "stratum": "EU/Europe excluding UK",
+      "status": "blocked_explicit_scraping_and_archiving",
+      "reference": "https://www.cyprus-mail.com/terms-conditions",
+      "reason": "Publisher sections7C/7E restrict scraping and caching/archiving except a public search index. Newspaper corpus retention is not a search index. The old public archive was not used to bypass these conditions."
+    },
+    {
+      "source_id": "noosa_today",
+      "parent_family_id": "star_news_group",
+      "stratum": "AU",
+      "status": "observed_public_HTTP_403_stop",
+      "reference": "https://noosatoday.com.au/",
+      "reason": "Primary publisher root returned403 during source preparation. No alternate publisher API, user-agent change, alias or credential route attempted. Search-referenced media kit PDF not downloaded; inherited PDF ceiling unchanged."
+    },
+    {
+      "source_id": "local_matters",
+      "parent_family_id": "local_matters_limited",
+      "stratum": "NZ",
+      "status": "observed_HTTP_429_and_subscription_frame_unresolved",
+      "reference": "https://www.localmatters.co.nz/about-us-2/",
+      "use_reference": "https://www.localmatters.co.nz/register/premium-membership-annually/",
+      "reason": "Primary publisher page returned429; premium subscription offers all online articles. No body API or login route probed. A free eligible complete-article frame and retention limits remain unresolved."
+    },
+    {
+      "source_id": "nelson_weekly_candidate",
+      "parent_family_id": "nelson_weekly_blocked_candidate",
+      "stratum": "NZ",
+      "status": "observed_HTTP_403_and_classification_unresolved",
+      "reference": "https://nelsonweekly.co.nz/",
+      "reason": "Candidate public root returned403; primary-domain query supplied no current primary classification. No newspaper identity/parent ownership inferred, alias or API/body route attempted."
+    },
+    {
+      "source_id": "san_mateo_daily_journal",
+      "parent_family_id": "smdj_llc_blocked_candidate",
+      "stratum": "US",
+      "status": "daily_title_verified_retention_and_robots_blocked",
+      "classification_reference": "https://www.smdailyjournal.com/site/about.html",
+      "reference": "https://www.smdailyjournal.com/site/terms.html",
+      "reason": "Publisher identifies a locally owned daily newspaper published six days per week. Primary terms require express written permission for reproduction/distribution; durable corpus retention not established. Search tool also reports source-domain robots blocking as nonretryable. No body/API/account/alias route attempted; no source permission message sent. SMDJ LLC is not conflated with the separate Daily Journal Corporation by title similarity."
+    },
+    {
+      "source_id": "alice_springs_news",
+      "parent_family_id": "alice_springs_news",
+      "stratum": "AU",
+      "status": "declared_research_collector_robots_stop",
+      "classification_reference": "https://www.alicespringsnews.com.au/about-us",
+      "reference": "https://www.alicespringsnews.com.au/robots.txt",
+      "reason": "Publisher newspaper identity and public feed/historical HTML routes observed, but default robots group denies the actual research collector. Named archival/search/GPT bots have separate allowances; the collector identity was not changed. No article body Load or qualified source IDs. Pre-guard metadata exceptions preserved separately; later jobs blocked."
+    }
+  ]
+}

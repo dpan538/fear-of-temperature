@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-08T11:33:34.116515+00:00",
+  "records": [
+    {
+      "source_id": "the_portugal_news",
+      "country": "PT",
+      "stratum": "EU/Europe excluding UK",
+      "title_classification": "Weekly English newspaper publisher frame verified; not national representativeness",
+      "primary_reference": "https://www.theportugalnews.com/news/2025-06-27/5-years-of-owning-the-portugal-news-successful/98877",
+      "use_reference": "https://www.theportugalnews.com/terms-and-conditions",
+      "frontier_state": "blocked_source_use_limits",
+      "reason": "No source-specific full-body retention permission established under published copying restrictions. Only terms/identity metadata retained.",
+      "article_bodies_acquired": 0,
+      "source_API_guessed": false
+    }
+  ]
+}

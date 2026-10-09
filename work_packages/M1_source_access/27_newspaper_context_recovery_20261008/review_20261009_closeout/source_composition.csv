@@ -1,0 +1,24 @@
+stream,source_id,label,units,share,observed_months
+newspaper,montpelier_bridge,The Bridge,2590,0.2715453973579367,85
+newspaper,northern_rivers_times,The Northern Rivers Times,1964,0.20591318934787167,20
+newspaper,green_left,Green Left Weekly / Green Left,1281,0.1343048857202768,155
+newspaper,falls_church_news_press,Falls Church News-Press,1266,0.13273222897882156,16
+newspaper,devonport_flagstaff,The Devonport Flagstaff,1232,0.12916754036485636,103
+newspaper,indaily,InDaily,796,0.08345565107989096,10
+newspaper,financial_mirror,Financial Mirror,168,0.017613755504298594,14
+newspaper,camden_new_journal,Camden New Journal,161,0.01687984902495282,22
+newspaper,otago_daily_times,Otago Daily Times,80,0.00838750262109457,29
+social,bluesky,bluesky,23542,0.5540858595368104,43
+social,se_earthscience,se_earthscience,3859,0.09082564488796836,121
+social,se_sustainability,se_sustainability,3294,0.07752777254754284,147
+social,mastodon_us,mastodon_us,1688,0.039728864620598756,1
+social,mastodon_uk,mastodon_uk,1675,0.039422895876482775,1
+social,mastodon_au,mastodon_au,1613,0.03796366032762192,1
+social,mastodon_ie,mastodon_ie,1589,0.03739879495386933,1
+social,lemmy_nz,lemmy_nz,1399,0.032926944078327997,6
+social,aussie_zone,aussie_zone,1359,0.03198550178874035,2
+social,straight_dope,straight_dope,780,0.018358124646959142,5
+social,python_discourse,python_discourse,593,0.013956881943136885,23
+social,osm_discourse,osm_discourse,479,0.011273771417812089,14
+social,feddit_org,feddit_org,433,0.010191112784786292,3
+social,midwest_social,midwest_social,185,0.004354170589342873,12

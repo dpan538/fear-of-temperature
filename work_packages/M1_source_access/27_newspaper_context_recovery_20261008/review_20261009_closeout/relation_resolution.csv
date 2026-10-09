@@ -1,0 +1,12 @@
+relation_type,state,edges
+exact_body_overlap,resolved,22224
+link,unresolved_native_endpoint,8315
+quote,resolved,3959
+quote,unresolved_native_endpoint,411
+reply,resolved,12242
+reply,unresolved_native_endpoint,11114
+repost,resolved,4523
+root,resolved,15532
+root,unresolved_native_endpoint,7345
+root_container,resolved,2359
+root_container,unresolved_native_endpoint,67

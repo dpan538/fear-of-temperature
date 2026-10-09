@@ -1,0 +1,515 @@
+{
+  "newspaper": {
+    "total": 9538,
+    "added": 6453,
+    "floor_months": 365,
+    "one": 15,
+    "zero": 85,
+    "baseline": 3085,
+    "baseline_floor": 262,
+    "exactly_two_months": 157,
+    "sources": 9,
+    "campus_preserved": 9249
+  },
+  "social": {
+    "core": 42488,
+    "added": 40922,
+    "independent": 42487,
+    "dated": 42478,
+    "months": 165,
+    "sources": 14,
+    "entities": 51626,
+    "versions": 54789,
+    "relations": 88091,
+    "attachments": 17213,
+    "date_pending": 9,
+    "institutional": 156,
+    "unknown_role": 42332
+  },
+  "newspaper_source_mix": [
+    {
+      "stream": "newspaper",
+      "source_id": "montpelier_bridge",
+      "label": "The Bridge",
+      "units": 2590,
+      "share": 0.2715453973579367,
+      "observed_months": 85
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "northern_rivers_times",
+      "label": "The Northern Rivers Times",
+      "units": 1964,
+      "share": 0.20591318934787167,
+      "observed_months": 20
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "green_left",
+      "label": "Green Left Weekly / Green Left",
+      "units": 1281,
+      "share": 0.1343048857202768,
+      "observed_months": 155
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "falls_church_news_press",
+      "label": "Falls Church News-Press",
+      "units": 1266,
+      "share": 0.13273222897882156,
+      "observed_months": 16
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "devonport_flagstaff",
+      "label": "The Devonport Flagstaff",
+      "units": 1232,
+      "share": 0.12916754036485636,
+      "observed_months": 103
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "indaily",
+      "label": "InDaily",
+      "units": 796,
+      "share": 0.08345565107989096,
+      "observed_months": 10
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "financial_mirror",
+      "label": "Financial Mirror",
+      "units": 168,
+      "share": 0.017613755504298594,
+      "observed_months": 14
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "camden_new_journal",
+      "label": "Camden New Journal",
+      "units": 161,
+      "share": 0.01687984902495282,
+      "observed_months": 22
+    },
+    {
+      "stream": "newspaper",
+      "source_id": "otago_daily_times",
+      "label": "Otago Daily Times",
+      "units": 80,
+      "share": 0.00838750262109457,
+      "observed_months": 29
+    }
+  ],
+  "social_source_mix": [
+    {
+      "stream": "social",
+      "source_id": "bluesky",
+      "label": "bluesky",
+      "units": 23542,
+      "share": 0.5540858595368104,
+      "observed_months": 43
+    },
+    {
+      "stream": "social",
+      "source_id": "se_earthscience",
+      "label": "se_earthscience",
+      "units": 3859,
+      "share": 0.09082564488796836,
+      "observed_months": 121
+    },
+    {
+      "stream": "social",
+      "source_id": "se_sustainability",
+      "label": "se_sustainability",
+      "units": 3294,
+      "share": 0.07752777254754284,
+      "observed_months": 147
+    },
+    {
+      "stream": "social",
+      "source_id": "mastodon_us",
+      "label": "mastodon_us",
+      "units": 1688,
+      "share": 0.039728864620598756,
+      "observed_months": 1
+    },
+    {
+      "stream": "social",
+      "source_id": "mastodon_uk",
+      "label": "mastodon_uk",
+      "units": 1675,
+      "share": 0.039422895876482775,
+      "observed_months": 1
+    },
+    {
+      "stream": "social",
+      "source_id": "mastodon_au",
+      "label": "mastodon_au",
+      "units": 1613,
+      "share": 0.03796366032762192,
+      "observed_months": 1
+    },
+    {
+      "stream": "social",
+      "source_id": "mastodon_ie",
+      "label": "mastodon_ie",
+      "units": 1589,
+      "share": 0.03739879495386933,
+      "observed_months": 1
+    },
+    {
+      "stream": "social",
+      "source_id": "lemmy_nz",
+      "label": "lemmy_nz",
+      "units": 1399,
+      "share": 0.032926944078327997,
+      "observed_months": 6
+    },
+    {
+      "stream": "social",
+      "source_id": "aussie_zone",
+      "label": "aussie_zone",
+      "units": 1359,
+      "share": 0.03198550178874035,
+      "observed_months": 2
+    },
+    {
+      "stream": "social",
+      "source_id": "straight_dope",
+      "label": "straight_dope",
+      "units": 780,
+      "share": 0.018358124646959142,
+      "observed_months": 5
+    },
+    {
+      "stream": "social",
+      "source_id": "python_discourse",
+      "label": "python_discourse",
+      "units": 593,
+      "share": 0.013956881943136885,
+      "observed_months": 23
+    },
+    {
+      "stream": "social",
+      "source_id": "osm_discourse",
+      "label": "osm_discourse",
+      "units": 479,
+      "share": 0.011273771417812089,
+      "observed_months": 14
+    },
+    {
+      "stream": "social",
+      "source_id": "feddit_org",
+      "label": "feddit_org",
+      "units": 433,
+      "share": 0.010191112784786292,
+      "observed_months": 3
+    },
+    {
+      "stream": "social",
+      "source_id": "midwest_social",
+      "label": "midwest_social",
+      "units": 185,
+      "share": 0.004354170589342873,
+      "observed_months": 12
+    }
+  ],
+  "coverage": [
+    {
+      "stratum": "pooled",
+      "floor_months": 365,
+      "one_months": 15,
+      "zero_months": 85,
+      "denominator": 465
+    },
+    {
+      "stratum": "EU/Europe excluding UK",
+      "floor_months": 12,
+      "one_months": 2,
+      "zero_months": 451,
+      "denominator": 465
+    },
+    {
+      "stratum": "UK",
+      "floor_months": 11,
+      "one_months": 11,
+      "zero_months": 443,
+      "denominator": 465
+    },
+    {
+      "stratum": "AU",
+      "floor_months": 184,
+      "one_months": 1,
+      "zero_months": 280,
+      "denominator": 465
+    },
+    {
+      "stratum": "US",
+      "floor_months": 90,
+      "one_months": 11,
+      "zero_months": 364,
+      "denominator": 465
+    },
+    {
+      "stratum": "NZ",
+      "floor_months": 118,
+      "one_months": 7,
+      "zero_months": 340,
+      "denominator": 465
+    }
+  ],
+  "eras": [
+    {
+      "period": "1988–1990",
+      "months": 36,
+      "newspaper_articles": 0,
+      "newspaper_floor": 0,
+      "social_dated_bodies": 0,
+      "social_present": 0
+    },
+    {
+      "period": "1991–2006",
+      "months": 192,
+      "newspaper_articles": 2105,
+      "newspaper_floor": 174,
+      "social_dated_bodies": 0,
+      "social_present": 0
+    },
+    {
+      "period": "2007–2016",
+      "months": 120,
+      "newspaper_articles": 2543,
+      "newspaper_floor": 75,
+      "social_dated_bodies": 6095,
+      "social_present": 48
+    },
+    {
+      "period": "2017–2026*",
+      "months": 117,
+      "newspaper_articles": 4890,
+      "newspaper_floor": 116,
+      "social_dated_bodies": 36383,
+      "social_present": 117
+    }
+  ],
+  "peak_flags": [
+    {
+      "stream": "newspaper",
+      "month": "1993-11",
+      "units": 72,
+      "max_observed_neighbor": 2,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2009-12",
+      "units": 29,
+      "max_observed_neighbor": 3,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2013-07",
+      "units": 101,
+      "max_observed_neighbor": 3,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2020-07",
+      "units": 119,
+      "max_observed_neighbor": 11,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2022-06",
+      "units": 109,
+      "max_observed_neighbor": 16,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2024-02",
+      "units": 109,
+      "max_observed_neighbor": 15,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "social_dated_bodies",
+      "month": "2016-01",
+      "units": 74,
+      "max_observed_neighbor": 23,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "social_dated_bodies",
+      "month": "2018-10",
+      "units": 321,
+      "max_observed_neighbor": 85,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "social_dated_bodies",
+      "month": "2020-01",
+      "units": 49,
+      "max_observed_neighbor": 16,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "social_dated_bodies",
+      "month": "2021-01",
+      "units": 48,
+      "max_observed_neighbor": 15,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "social_dated_bodies",
+      "month": "2023-06",
+      "units": 2268,
+      "max_observed_neighbor": 362,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "social_dated_bodies",
+      "month": "2024-06",
+      "units": 421,
+      "max_observed_neighbor": 42,
+      "observed_neighbors": 6,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    },
+    {
+      "stream": "social_dated_bodies",
+      "month": "2026-09",
+      "units": 10194,
+      "max_observed_neighbor": 2706,
+      "observed_neighbors": 3,
+      "flag": "nonblocking_exploratory_20_and_3x_adjacent_max",
+      "attribution": "unresolved; no event or error inferred"
+    }
+  ],
+  "scenarios": [
+    {
+      "scenario": "conservative",
+      "social_envelope_bytes": 2000000000,
+      "newspaper_additions": 5243,
+      "newspaper_total": 14781,
+      "social_core_additions": 46314,
+      "social_core_total": 88802,
+      "social_unconstrained_by_bytes": 52654,
+      "estimated_growth_bytes": 1420000000,
+      "unchanged_month_support_expected_newspaper_floor": 367.8,
+      "unchanged_social_month_support": 165,
+      "binding_social_limit": "social_envelope"
+    },
+    {
+      "scenario": "central",
+      "social_envelope_bytes": 2000000000,
+      "newspaper_additions": 10486,
+      "newspaper_total": 20024,
+      "social_core_additions": 46314,
+      "social_core_total": 88802,
+      "social_unconstrained_by_bytes": 97786,
+      "estimated_growth_bytes": 1682150000,
+      "unchanged_month_support_expected_newspaper_floor": 369.0,
+      "unchanged_social_month_support": 165,
+      "binding_social_limit": "social_envelope"
+    },
+    {
+      "scenario": "favorable",
+      "social_envelope_bytes": 2000000000,
+      "newspaper_additions": 15729,
+      "newspaper_total": 25267,
+      "social_core_additions": 46314,
+      "social_core_total": 88802,
+      "social_unconstrained_by_bytes": 150441,
+      "estimated_growth_bytes": 1944300000,
+      "unchanged_month_support_expected_newspaper_floor": 369.6,
+      "unchanged_social_month_support": 165,
+      "binding_social_limit": "social_envelope"
+    },
+    {
+      "scenario": "conservative",
+      "social_envelope_bytes": 4000000000,
+      "newspaper_additions": 5243,
+      "newspaper_total": 14781,
+      "social_core_additions": 52654,
+      "social_core_total": 95142,
+      "social_unconstrained_by_bytes": 52654,
+      "estimated_growth_bytes": 1578500000,
+      "unchanged_month_support_expected_newspaper_floor": 367.8,
+      "unchanged_social_month_support": 165,
+      "binding_social_limit": "time"
+    },
+    {
+      "scenario": "central",
+      "social_envelope_bytes": 4000000000,
+      "newspaper_additions": 10486,
+      "newspaper_total": 20024,
+      "social_core_additions": 79028,
+      "social_core_total": 121516,
+      "social_unconstrained_by_bytes": 97786,
+      "estimated_growth_bytes": 2500000000,
+      "unchanged_month_support_expected_newspaper_floor": 369.0,
+      "unchanged_social_month_support": 165,
+      "binding_social_limit": "physical_planning_capacity"
+    },
+    {
+      "scenario": "favorable",
+      "social_envelope_bytes": 4000000000,
+      "newspaper_additions": 15729,
+      "newspaper_total": 25267,
+      "social_core_additions": 68542,
+      "social_core_total": 111030,
+      "social_unconstrained_by_bytes": 150441,
+      "estimated_growth_bytes": 2500000000,
+      "unchanged_month_support_expected_newspaper_floor": 369.6,
+      "unchanged_social_month_support": 165,
+      "binding_social_limit": "physical_planning_capacity"
+    }
+  ],
+  "model_parameters": {
+    "hours": 8,
+    "productive_hours": 6.5,
+    "newspaper_per_hour": 1613.25,
+    "social_core_per_hour": 23144.8476216488,
+    "social_acquisition_hours": 1.7680824980555556,
+    "social_objects_per_core": 1.2218366648746395,
+    "social_requests_per_core": 0.0237280680318655,
+    "newspaper_bytes_per_addition": 50000,
+    "social_bytes_per_addition": 25000,
+    "newspaper_byte_assumption": "Rounded planning allowance above mixed-stream residual observed growth; includes outputs, not an isolated body size",
+    "social_byte_assumption": "Rounded up from about 0.828 GB growth / 40,922 added core texts; raw, versions and repeated exports included",
+    "physical_growth_planning_bytes": 3000000000,
+    "closeout_and_journal_reserve_bytes": 500000000,
+    "social_current_bytes": 842131830,
+    "shared_current_bytes": 2447565273,
+    "shared_cap_bytes": 15000000000,
+    "proposed_additional_objects": 200000,
+    "proposed_additional_requests": 5000,
+    "cap_status": "All next-round ceilings are planning assumptions, not an execution release"
+  }
+}

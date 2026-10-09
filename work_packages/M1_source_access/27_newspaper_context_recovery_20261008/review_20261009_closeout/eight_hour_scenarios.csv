@@ -1,0 +1,7 @@
+scenario,social_envelope_bytes,newspaper_additions,newspaper_total,social_core_additions,social_core_total,social_unconstrained_by_bytes,estimated_growth_bytes,unchanged_month_support_expected_newspaper_floor,unchanged_social_month_support,binding_social_limit
+conservative,2000000000,5243,14781,46314,88802,52654,1420000000,367.8,165,social_envelope
+central,2000000000,10486,20024,46314,88802,97786,1682150000,369.0,165,social_envelope
+favorable,2000000000,15729,25267,46314,88802,150441,1944300000,369.6,165,social_envelope
+conservative,4000000000,5243,14781,52654,95142,52654,1578500000,367.8,165,time
+central,4000000000,10486,20024,79028,121516,97786,2500000000,369.0,165,physical_planning_capacity
+favorable,4000000000,15729,25267,68542,111030,150441,2500000000,369.6,165,physical_planning_capacity

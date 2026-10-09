@@ -1,0 +1,54 @@
+# Proposed eight-hour media collection and lake/catalog design
+
+Status: planning only at Dai's request. Do not dispatch, install a server, migrate a store or renew an expired lease from this document. Start/deadline and a prospective release will be bound only after the current review and plan are settled. Preserve existing counter history, source stops and frozen outputs.
+
+## Intended deliverable
+
+An eight-hour round should add substantial independent newspaper articles and permitted native social entities while establishing a recoverable raw-to-catalog chain and a compact analytical snapshot. Success means durable, traceable additions with explicit source/era/context limitations, not 465/465 at any cost or a quota of emotionally explicit content. The current accepted input is 9,538 newspaper articles, 9,249 separate campus articles and 42,488 social core texts, with 365 newspaper floor months and 165 social presence months.
+
+## Collection priorities
+
+1. Newspaper: continue viable native inventories and full-body batches; saved candidates include Camden 40,559, Green Left 10,038, Northern Rivers 894, Bridge 1,304 and Falls Church 25. These 52,820 links are opportunities, not qualified yield, and Falls Church/Bridge can expose further native pages. Financial Mirror's saved host stop means its larger inventory is not live capacity. Flagstaff's observed frontier has been consumed. Preserve all source conditions and the 36 consumed PDF slots.
+2. Put the largest historical gap, January 1988–January 1991, and the named 1999/2004/2005–2012 gaps on a route-evidence list. Continue viable known opportunities while checking distinct original/archive interfaces for these eras; do not claim that higher modern throughput will fill them. UK Camden now demonstrates a genuine non-campus route, while Europe remains sparse and needs a viable title/edition source. Do not flatten output or force equal national counts.
+3. Social: continue native pagination, give historical forum/Q&A cursors meaningful opportunity, and separately recover already-returned or permitted unresolved root/reply context. Current Bluesky graph and few-day Mastodon frames should stay visible rather than becoming the whole public. Source opportunity time may be directed to broader eras without rejecting their qualified surplus or defining inclusion weights.
+4. Keep nine named social date mappings and source-native type semantics as bounded repair work. Do not repeat full-source audits. Preserve noise and unknown roles; personal voice requires its own evidenced source/role frame and is not automatically assigned to existing records. No private/audio collection is released.
+
+Working opportunity allocation: 60% continued production, 25% broader historical/regional frames and 15% named gap/context recovery, with unused opportunity returned to viable queues and actual effort reported. This is a scheduling proposal, not an output cap or sampling weight. Both streams can run in parallel with separate single writers and serialized heavy operations. Do not add new agents/windows under this plan.
+
+## Lake and catalog responsibilities
+
+| Layer | Proposed next-round contract | Deferred infrastructure |
+|---|---|---|
+| Raw objects | Immutable compressed source-response bytes with raw/stored hashes, media/encoding, source, retrieval, request and permission references; existing bytes stay at current paths | Remote object storage and lifecycle deployment |
+| Ingestion journal | Persist operation intent and request charging, raw-reference state, parsing state and committed-catalog state; reconcile interrupted transitions without replaying completed charges | Distributed queue service |
+| Typed catalog | Existing SQLite stores; stable source/native namespaces, entity and article IDs, version/observation edges, separate body and state identities; unknowns remain explicit | PostgreSQL shared catalog after workload and recovery evaluation |
+| Analytical snapshots | Incremental source/type/year Parquet views plus a small snapshot manifest; complete-article, dated-body and all-entity views have distinct predicates | Iceberg or other shared table management if actually needed |
+| Query/compute | DuckDB reads declared snapshot files for descriptive aggregation; store transform version and input manifest hash | Remote elastic compute |
+
+Keep stable logical `object_id` and a storage locator independent of its current local path. New content-addressed naming can be adopted prospectively within each stream; a checksum alone is not global permission to merge source retention rules or cross-access stores. Existing raw files are neither moved nor copied. Publication/creation time, native edit time, first/last retrieval, parsing version and snapshot time remain distinct. Invalid JSON/native metadata can remain raw evidence with a parse state; normalization must not erase the original bytes.
+
+The present collector has raw-file, SQLite and external JSON-counter durable steps, not an atomic cross-file commit. A proposed journal sequence is `planned/charged -> raw_saved -> catalog_committed -> snapshot_included`, with explicit failure/reconciliation records. Save raw into a temporary file, flush and atomically rename on the same filesystem; commit catalog identity/version/observation and a journal transition in one database transaction. A crash between raw rename and catalog commit leaves a recoverable pending object. A crash after catalog commit but before cursor/state update must be recognized idempotently without doubling IDs, versions or charges. Preserve inherited counters as a starting ledger; do not infer zero charges from absent local objects. Atomic file replacement is not by itself whole-pipeline power-loss proof.
+
+Validate these changed boundaries with focused interruption fixtures before steady acquisition: before raw rename, after raw save, before catalog commit, after catalog commit and before cursor update. Check replay gives the same identities/counters and no lost evidence. Reuse accepted source checks and old corpus acceptance. Record separate lock-wait, parse, transaction and raw-to-Load intervals; the prior median 2.33 s raw-to-Load delay includes other work and cannot be treated as SQLite commit latency.
+
+Use query evidence to add the missing entity-version lookup index and suitable observation/relation indexes. Candidate keys are `entity_versions(entity_id)`, `entity_observations(request_id)` and frequently traversed source-entity edges; confirm relevant query plans and avoid blanket indexing JSON. Schema additions must preserve old identities and versions. Do not rewrite existing bodies to normalize the catalog.
+
+Write new analytical partitions incrementally. A snapshot manifest must enumerate exact files, schema/transform versions and row/identity counts; queries must not glob abandoned or superseded files. Avoid per-post files and unconditional cumulative CSV re-export. Partition by stream/source/native type/year only where size justifies it; compact only reproducible derivative partitions under a bounded resource plan, never discard raw evidence or frozen reports. Keep Git publication metadata-only and avoid multiplying complete historical registers in every delivery when a versioned base plus delta is sufficient.
+
+## PostgreSQL decision
+
+PostgreSQL is the preferred candidate for a later shared catalog if concurrent writers, network clients, access control or indexed relationship/JSON queries justify the operational service. It is not required to start this eight-hour round. JSONB is suitable for queryable extensions but does not preserve JSON whitespace, key order or duplicate keys; immutable raw bytes remain independent. SQLite remains appropriate for current local single writers. References: [SQLite use cases](https://www.sqlite.org/whentouse.html), [PostgreSQL JSON types](https://www.postgresql.org/docs/current/datatype-json.html), [DuckDB Parquet access](https://duckdb.org/docs/current/data/parquet/overview).
+
+A later migration should bulk-load metadata from a closed consistent snapshot, preserve all IDs and version links, replay a bounded journal delta, compare identities/relations/counters, demonstrate restore, and switch one authoritative writer at a defined cutover. Avoid indefinite dual writes and do not copy raw objects simply to change databases. Keep a reversible locator/catalog mapping. A switch without backup/restore and rollback evidence is not inherently more reliable.
+
+## Eight-hour sequencing and resource proposal
+
+- First 45 minutes: fresh physical/accounting/access preflight; validate only changed durability/index/snapshot logic and a small real committed batch, then enter continuous production. This is part of the same ingestion chain.
+- Next 6.5 hours: continuous permitted native acquisition, historical/source opportunity work and bounded context recovery; compact counters and elapsed-rate checkpoints stay local. If useful preparation completes earlier, acquisition starts earlier.
+- Final 45 minutes: finish/checkpoint in-flight operations, reconcile journal/counters, export changed partitions and finalize one consolidated tranche review. Raw collection stops by the hard deadline; closeout must be planned inside it. No silent extension.
+
+Proposed resource ceilings for discussion: retain the shared cumulative 15 GB allowance; expand social from 2 GB to **4 GB within it**; allow up to **200,000 additional returned entities and 5,000 additional HTTP requests**, charging inherited 51,671/1,109 first. Newspaper still has no article-count quota. Preserve existing source/discovery/family/PDF limits unless a specific prospective change is approved; additional transport capacity does not override them.
+
+Current physical capacity is tighter than the shared allocation. The review's model reserves 3.0 GB total additional growth including 0.5 GB journal/closeout reserve. This is a conservative scenario, not an allocated new physical volume or floor waiver. Check actual free bytes after publication and again before release, preserving 15 GiB floor, 48 MiB recovery, other active leases and actual transaction/export footprints. If the larger social envelope and newspaper throughput compete for space, reduce/close the actual operation at its real resource boundary rather than discard data, flatten counts or silently exceed the reserve.
+
+The next review should report added article/native/independent-body IDs, source and publication-month distributions, known era denominators, unresolved context/date relations, raw-to-Load/recovery evidence, actual byte growth and unconsumed frontier. An eight-hour run can enrich the pool; it cannot promise exhaustive historical or geographic completion, verified ordinary-public roles, or climate/fear measurement readiness.

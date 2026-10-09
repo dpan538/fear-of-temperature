@@ -1,0 +1,7 @@
+stratum,floor_months,one_months,zero_months,denominator
+pooled,365,15,85,465
+EU/Europe excluding UK,12,2,451,465
+UK,11,11,443,465
+AU,184,1,280,465
+US,90,11,364,465
+NZ,118,7,340,465

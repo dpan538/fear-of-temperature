@@ -1,0 +1,15 @@
+source_id,observed_months,known_applicable_unobserved,known_applicable_denominator,unknown_era_months,other_states
+aussie_zone,2,0,2,463,{}
+bluesky,43,0,43,50,"{""structurally_inapplicable_under_conservative_lower_bound"": 370, ""source_era_structurally_inapplicable; retained_native_timestamp_conflict_not_historical_presence"": 2}"
+feddit_org,3,0,3,462,{}
+lemmy_nz,6,0,6,459,{}
+mastodon_au,1,0,1,119,"{""structurally_inapplicable_under_conservative_lower_bound"": 345}"
+mastodon_ie,1,0,1,119,"{""structurally_inapplicable_under_conservative_lower_bound"": 345}"
+mastodon_uk,1,0,1,119,"{""structurally_inapplicable_under_conservative_lower_bound"": 345}"
+mastodon_us,1,0,1,119,"{""structurally_inapplicable_under_conservative_lower_bound"": 345}"
+midwest_social,12,0,12,453,{}
+osm_discourse,14,0,14,451,{}
+python_discourse,23,74,97,0,"{""structurally_inapplicable_under_conservative_lower_bound"": 368}"
+se_earthscience,121,29,150,0,"{""structurally_inapplicable_under_conservative_lower_bound"": 315}"
+se_sustainability,147,18,165,0,"{""structurally_inapplicable_under_conservative_lower_bound"": 300}"
+straight_dope,5,0,5,460,{}

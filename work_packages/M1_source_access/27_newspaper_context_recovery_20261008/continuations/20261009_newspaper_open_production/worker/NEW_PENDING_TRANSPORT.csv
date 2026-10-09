@@ -1,0 +1,4 @@
+target_id,source_id,source_url,status,receipt_reference
+5d89ceee72a576aeea22dd4f,financial_mirror,https://www.financialmirror.com/wp-json/wp/v2/posts/2068,http_stop,receipts/5d89ceee72a576aeea22dd4f.json
+47041af34164ad90ca98ae4b,montpelier_bridge,https://thebridgevt.org/wp-json/wp/v2/posts?include=9593%2C9595%2C9597%2C9599%2C9602%2C9610%2C9612%2C9614%2C9617%2C9619%2C9656%2C9621%2C9623%2C9625%2C9627%2C9630%2C9633%2C9635%2C9638%2C9659%2C9675%2C9680%2C9682%2C9684%2C9686&per_page=25&orderby=include&context=view&_fields=id%2Cdate%2Cmodified%2Clink%2Ctitle%2Ccontent%2Cstatus%2Ctype%2Ccategories,interrupted_pending,receipts/47041af34164ad90ca98ae4b.json
+0b6ada7a0ca40b82830e9622,camden_new_journal,https://www.camdennewjournal.co.uk/article/thick-smoke…?utm_source=google-news,http_stop,receipts/0b6ada7a0ca40b82830e9622.json

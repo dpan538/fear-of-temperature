@@ -1,0 +1,14 @@
+stream,month,units,max_observed_neighbor,observed_neighbors,flag,attribution
+newspaper,1993-11,72,2,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+newspaper,2009-12,29,3,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+newspaper,2013-07,101,3,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+newspaper,2020-07,119,11,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+newspaper,2022-06,109,16,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+newspaper,2024-02,109,15,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+social_dated_bodies,2016-01,74,23,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+social_dated_bodies,2018-10,321,85,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+social_dated_bodies,2020-01,49,16,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+social_dated_bodies,2021-01,48,15,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+social_dated_bodies,2023-06,2268,362,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+social_dated_bodies,2024-06,421,42,6,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred
+social_dated_bodies,2026-09,10194,2706,3,nonblocking_exploratory_20_and_3x_adjacent_max,unresolved; no event or error inferred

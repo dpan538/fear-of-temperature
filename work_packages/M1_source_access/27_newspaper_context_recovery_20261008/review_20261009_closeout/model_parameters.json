@@ -1,0 +1,21 @@
+{
+  "hours": 8,
+  "productive_hours": 6.5,
+  "newspaper_per_hour": 1613.25,
+  "social_core_per_hour": 23144.8476216488,
+  "social_acquisition_hours": 1.7680824980555556,
+  "social_objects_per_core": 1.2218366648746395,
+  "social_requests_per_core": 0.0237280680318655,
+  "newspaper_bytes_per_addition": 50000,
+  "social_bytes_per_addition": 25000,
+  "newspaper_byte_assumption": "Rounded planning allowance above mixed-stream residual observed growth; includes outputs, not an isolated body size",
+  "social_byte_assumption": "Rounded up from about 0.828 GB growth / 40,922 added core texts; raw, versions and repeated exports included",
+  "physical_growth_planning_bytes": 3000000000,
+  "closeout_and_journal_reserve_bytes": 500000000,
+  "social_current_bytes": 842131830,
+  "shared_current_bytes": 2447565273,
+  "shared_cap_bytes": 15000000000,
+  "proposed_additional_objects": 200000,
+  "proposed_additional_requests": 5000,
+  "cap_status": "All next-round ceilings are planning assumptions, not an execution release"
+}

@@ -1,0 +1,71 @@
+{
+  "selected_artifacts_verified": 89,
+  "artifact_bytes": 259874980,
+  "newspaper_changed_checks": {
+    "accepted_start_and_extension_checks": true,
+    "SQLite_quick_and_foreign_key_check": true,
+    "latest_version_mapping": true,
+    "predecessor_article_rows_preserved": true,
+    "predecessor_versions_preserved": true,
+    "predecessor_qualified_ID_date_body_hash_metadata_preserved": true,
+    "predecessor_dispositions_preserved": true,
+    "predecessor_frozen_input_hashes_preserved": true,
+    "new_TEXT_identity_date_raw_and_batch_item_mapping": true,
+    "campus_IDs_preserved_but_no_new_campus_collection": true,
+    "six_465_month_current_newspaper_ledgers": true,
+    "fixed_publication_cutoff": true,
+    "discovery_and_parent_ceilings": true,
+    "native_hops_at_most_four": true,
+    "no_in_progress_transport": true,
+    "inherited_host_stops_preserved": true,
+    "no_semantic_or_length_exclusion": true,
+    "no_Alice_article_qualification": true,
+    "metadata_access_exceptions_explicit": true,
+    "media_cap": true,
+    "physical_floor_and_recovery_preserved": true,
+    "writer_exit_verified": true
+  },
+  "social_changed_checks": {
+    "sqlite_integrity": "ok",
+    "foreign_keys": "ok",
+    "new_entity_versions_body_checked": 51363,
+    "accepted_body_hash_references_reused": 421,
+    "new_saved_raw_responses_checked": 961,
+    "new_transport_receipts": 971,
+    "old_ids_and_versions_reused": 1566,
+    "legacy_50_mapping_digest_preserved": true,
+    "old_raw_or_body_reaudit": false,
+    "new_native_mapping_check": {
+      "transport_receipts": 971,
+      "saved_raw_responses": 961,
+      "mapped_native_return_observations": 54846,
+      "mapping_issues": 0,
+      "parse_pending_content_responses": 0
+    },
+    "named_native_post_type_repair": {
+      "at_utc": "2026-10-09T04:46:45.505223+00:00",
+      "scope": "new retained SE readable comments with parent-type strings only",
+      "totals": {
+        "affected_entity_versions": 1293,
+        "new_qualified_posts": 1293,
+        "new_entity_versions": 1293,
+        "requests_added": 0,
+        "distinct_returned_objects_added": 0
+      },
+      "source_specific_field_regression_passed": true,
+      "old_raw_or_body_read": false,
+      "elapsed_seconds": 43.25419120769948
+    },
+    "raw_body_checks_reused_after_metadata_refresh": true,
+    "typed_entity_counter_reconciliation": {
+      "persisted_typed_entities": 51626,
+      "charged_not_in_catalog": 45,
+      "all_unpersisted_from_accepted_first_wave": true,
+      "new_charged_missing": 0
+    }
+  },
+  "metadata_reconciled": true,
+  "old_corpus_rescanned": false,
+  "databases_opened": false,
+  "owner_windows_messaged": false
+}
