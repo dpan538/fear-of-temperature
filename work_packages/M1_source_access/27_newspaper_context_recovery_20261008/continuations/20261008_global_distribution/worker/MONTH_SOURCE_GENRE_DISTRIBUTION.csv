@@ -1,0 +1,981 @@
+month,stratum,source_id,recorded_genre,native_article_IDs,known_work_families,canonical_URLs,genre_basis
+1988-01,US,mit_tech,news,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1988-02,US,mit_tech,signed_opinion_column,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1988-03,US,mit_tech,signed_opinion_column,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1988-04,US,mit_tech,unrecorded,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1988-05,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1988-05,US,mit_tech,signed_opinion_column_with_quoted_interviews,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1988-06,US,mit_tech,news,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1988-07,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1988-07,US,mit_tech,signed_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1988-09,US,mit_tech,published_letter_to_editor,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1988-10,US,mit_tech,news_article,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1988-11,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1988-11,US,mit_tech,signed_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1989-02,US,mit_tech,editorial,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1989-02,US,mit_tech,signed_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1989-03,US,mit_tech,editorial,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1989-03,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1989-04,US,mit_tech,published_letter_to_editor,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1989-05,US,mit_tech,news_article,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1989-06,US,mit_tech,published_letter_to_editor,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1989-07,US,mit_tech,published_letter_to_editor,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1989-09,US,mit_tech,published_letter_to_editor,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1989-11,US,mit_tech,published_letter_to_editor,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1989-12,US,mit_tech,published_letter_to_editor,2,2,1,Only recorded native/source metadata; no inferred topic or affect
+1990-02,US,mit_tech,editorial,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-02,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-03,US,mit_tech,news,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-03,US,mit_tech,signed_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-04,US,mit_tech,news_article,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-04,US,mit_tech,opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-05,US,mit_tech,news,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-05,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-08,US,mit_tech,news,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-08,US,mit_tech,signed_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-10,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-10,US,mit_tech,signed_satirical_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-11,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-11,US,mit_tech,signed_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-12,US,mit_tech,published_letter_to_editor,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1990-12,US,mit_tech,signed_opinion_column,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+1991-02,AU,green_left,unrecorded,40,40,40,Only recorded native/source metadata; no inferred topic or affect
+1991-03,AU,green_left,unrecorded,53,53,53,Only recorded native/source metadata; no inferred topic or affect
+1991-04,AU,green_left,unrecorded,48,48,48,Only recorded native/source metadata; no inferred topic or affect
+1991-05,AU,green_left,unrecorded,50,50,50,Only recorded native/source metadata; no inferred topic or affect
+1991-06,AU,green_left,unrecorded,46,46,46,Only recorded native/source metadata; no inferred topic or affect
+1991-07,AU,green_left,unrecorded,50,50,50,Only recorded native/source metadata; no inferred topic or affect
+1991-08,AU,green_left,unrecorded,43,43,43,Only recorded native/source metadata; no inferred topic or affect
+1991-09,AU,green_left,unrecorded,49,49,49,Only recorded native/source metadata; no inferred topic or affect
+1991-10,AU,green_left,unrecorded,54,54,54,Only recorded native/source metadata; no inferred topic or affect
+1991-11,AU,green_left,unrecorded,49,49,49,Only recorded native/source metadata; no inferred topic or affect
+1991-12,AU,green_left,unrecorded,44,44,44,Only recorded native/source metadata; no inferred topic or affect
+1992-01,AU,green_left,unrecorded,42,42,42,Only recorded native/source metadata; no inferred topic or affect
+1992-02,AU,green_left,unrecorded,48,48,48,Only recorded native/source metadata; no inferred topic or affect
+1992-03,AU,green_left,unrecorded,57,57,57,Only recorded native/source metadata; no inferred topic or affect
+1992-04,AU,green_left,unrecorded,48,48,48,Only recorded native/source metadata; no inferred topic or affect
+1992-05,AU,green_left,unrecorded,55,55,55,Only recorded native/source metadata; no inferred topic or affect
+1992-06,AU,green_left,unrecorded,57,57,57,Only recorded native/source metadata; no inferred topic or affect
+1992-07,AU,green_left,unrecorded,28,28,28,Only recorded native/source metadata; no inferred topic or affect
+1992-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1992-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1992-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1992-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1992-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1993-11,AU,green_left,unrecorded,72,72,72,Only recorded native/source metadata; no inferred topic or affect
+1993-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1994-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1995-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1996-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1997-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1998-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+1999-11,EU/Europe excluding UK,financial_mirror,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+1999-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2000-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2001-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2002-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-03,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-04,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-05,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-06,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-07,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-08,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-09,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-10,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-11,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2003-12,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2004-01,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2004-02,AU,green_left,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2004-07,EU/Europe excluding UK,financial_mirror,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2004-08,EU/Europe excluding UK,financial_mirror,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2004-09,EU/Europe excluding UK,financial_mirror,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2004-10,EU/Europe excluding UK,financial_mirror,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2004-12,EU/Europe excluding UK,financial_mirror,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2005-01,EU/Europe excluding UK,financial_mirror,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2005-02,EU/Europe excluding UK,financial_mirror,unrecorded,82,81,82,Only recorded native/source metadata; no inferred topic or affect
+2005-03,EU/Europe excluding UK,financial_mirror,unrecorded,35,35,35,Only recorded native/source metadata; no inferred topic or affect
+2005-04,EU/Europe excluding UK,financial_mirror,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2005-05,EU/Europe excluding UK,financial_mirror,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2005-06,EU/Europe excluding UK,financial_mirror,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2005-07,EU/Europe excluding UK,financial_mirror,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2005-08,EU/Europe excluding UK,financial_mirror,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2007-02,US,mit_tech,unrecorded,164,164,164,Only recorded native/source metadata; no inferred topic or affect
+2007-03,US,mit_tech,unrecorded,170,170,170,Only recorded native/source metadata; no inferred topic or affect
+2007-04,US,mit_tech,unrecorded,172,172,172,Only recorded native/source metadata; no inferred topic or affect
+2007-05,US,mit_tech,unrecorded,110,110,110,Only recorded native/source metadata; no inferred topic or affect
+2007-06,US,mit_tech,unrecorded,46,46,46,Only recorded native/source metadata; no inferred topic or affect
+2007-07,US,mit_tech,unrecorded,19,19,19,Only recorded native/source metadata; no inferred topic or affect
+2007-08,US,mit_tech,unrecorded,28,28,28,Only recorded native/source metadata; no inferred topic or affect
+2007-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2007-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2007-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2007-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-02,NZ,otago_daily_times,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2008-02,US,mit_tech,unrecorded,45,45,45,Only recorded native/source metadata; no inferred topic or affect
+2008-03,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-03,US,mit_tech,unrecorded,25,25,25,Only recorded native/source metadata; no inferred topic or affect
+2008-04,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2008-04,US,mit_tech,unrecorded,23,23,23,Only recorded native/source metadata; no inferred topic or affect
+2008-05,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-05,US,mit_tech,unrecorded,25,25,25,Only recorded native/source metadata; no inferred topic or affect
+2008-06,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-07,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-08,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-09,EU/Europe excluding UK,trinity_news,unrecorded,73,73,73,Only recorded native/source metadata; no inferred topic or affect
+2008-09,NZ,otago_daily_times,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2008-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-10,EU/Europe excluding UK,trinity_news,unrecorded,139,139,139,Only recorded native/source metadata; no inferred topic or affect
+2008-10,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-11,EU/Europe excluding UK,trinity_news,unrecorded,117,117,117,Only recorded native/source metadata; no inferred topic or affect
+2008-11,NZ,otago_daily_times,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2008-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2008-12,EU/Europe excluding UK,trinity_news,unrecorded,6,5,6,Only recorded native/source metadata; no inferred topic or affect
+2008-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-01,EU/Europe excluding UK,trinity_news,unrecorded,8,8,8,Only recorded native/source metadata; no inferred topic or affect
+2009-01,NZ,otago_daily_times,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2009-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-02,EU/Europe excluding UK,trinity_news,unrecorded,28,28,28,Only recorded native/source metadata; no inferred topic or affect
+2009-02,US,mit_tech,unrecorded,49,49,49,Only recorded native/source metadata; no inferred topic or affect
+2009-03,US,mit_tech,unrecorded,23,23,23,Only recorded native/source metadata; no inferred topic or affect
+2009-04,EU/Europe excluding UK,trinity_news,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2009-04,US,mit_tech,unrecorded,42,42,42,Only recorded native/source metadata; no inferred topic or affect
+2009-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-06,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2009-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-09,EU/Europe excluding UK,trinity_news,unrecorded,54,52,54,Only recorded native/source metadata; no inferred topic or affect
+2009-09,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2009-09,US,mit_tech,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2009-10,EU/Europe excluding UK,trinity_news,unrecorded,14,14,14,Only recorded native/source metadata; no inferred topic or affect
+2009-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-11,EU/Europe excluding UK,trinity_news,unrecorded,39,39,39,Only recorded native/source metadata; no inferred topic or affect
+2009-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2009-12,EU/Europe excluding UK,trinity_news,unrecorded,16,16,16,Only recorded native/source metadata; no inferred topic or affect
+2009-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-01,EU/Europe excluding UK,trinity_news,unrecorded,30,30,30,Only recorded native/source metadata; no inferred topic or affect
+2010-01,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2010-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-02,EU/Europe excluding UK,trinity_news,unrecorded,51,51,51,Only recorded native/source metadata; no inferred topic or affect
+2010-02,NZ,otago_daily_times,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2010-02,US,mit_tech,unrecorded,43,43,43,Only recorded native/source metadata; no inferred topic or affect
+2010-03,EU/Europe excluding UK,trinity_news,unrecorded,12,12,12,Only recorded native/source metadata; no inferred topic or affect
+2010-03,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2010-03,US,mit_tech,unrecorded,20,20,20,Only recorded native/source metadata; no inferred topic or affect
+2010-04,EU/Europe excluding UK,trinity_news,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2010-04,US,mit_tech,unrecorded,41,41,41,Only recorded native/source metadata; no inferred topic or affect
+2010-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-06,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-09,EU/Europe excluding UK,trinity_news,unrecorded,71,71,71,Only recorded native/source metadata; no inferred topic or affect
+2010-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-10,EU/Europe excluding UK,trinity_news,unrecorded,64,64,64,Only recorded native/source metadata; no inferred topic or affect
+2010-10,UK,mancunion,unrecorded,48,48,48,Only recorded native/source metadata; no inferred topic or affect
+2010-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-11,EU/Europe excluding UK,trinity_news,unrecorded,112,112,112,Only recorded native/source metadata; no inferred topic or affect
+2010-11,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2010-12,EU/Europe excluding UK,trinity_news,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2010-12,UK,mancunion,unrecorded,33,33,33,Only recorded native/source metadata; no inferred topic or affect
+2010-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-01,EU/Europe excluding UK,trinity_news,unrecorded,38,38,38,Only recorded native/source metadata; no inferred topic or affect
+2011-01,UK,mancunion,unrecorded,15,15,15,Only recorded native/source metadata; no inferred topic or affect
+2011-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-02,EU/Europe excluding UK,trinity_news,unrecorded,10,10,10,Only recorded native/source metadata; no inferred topic or affect
+2011-02,UK,mancunion,unrecorded,17,17,17,Only recorded native/source metadata; no inferred topic or affect
+2011-02,US,mit_tech,unrecorded,50,50,50,Only recorded native/source metadata; no inferred topic or affect
+2011-03,EU/Europe excluding UK,trinity_news,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2011-03,UK,mancunion,unrecorded,19,19,19,Only recorded native/source metadata; no inferred topic or affect
+2011-03,US,mit_tech,unrecorded,27,27,27,Only recorded native/source metadata; no inferred topic or affect
+2011-04,EU/Europe excluding UK,trinity_news,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2011-04,NZ,otago_daily_times,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2011-04,UK,mancunion,unrecorded,50,50,50,Only recorded native/source metadata; no inferred topic or affect
+2011-04,US,mit_tech,unrecorded,36,36,36,Only recorded native/source metadata; no inferred topic or affect
+2011-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-06,EU/Europe excluding UK,trinity_news,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2011-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-07,EU/Europe excluding UK,trinity_news,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2011-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-08,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2011-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-09,EU/Europe excluding UK,trinity_news,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2011-09,UK,mancunion,unrecorded,113,113,113,Only recorded native/source metadata; no inferred topic or affect
+2011-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-10,EU/Europe excluding UK,trinity_news,unrecorded,10,10,10,Only recorded native/source metadata; no inferred topic or affect
+2011-10,UK,mancunion,unrecorded,159,159,159,Only recorded native/source metadata; no inferred topic or affect
+2011-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-11,EU/Europe excluding UK,trinity_news,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2011-11,UK,mancunion,unrecorded,227,226,227,Only recorded native/source metadata; no inferred topic or affect
+2011-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2011-12,UK,mancunion,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2011-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-01,EU/Europe excluding UK,trinity_news,unrecorded,17,17,17,Only recorded native/source metadata; no inferred topic or affect
+2012-01,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2012-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-02,EU/Europe excluding UK,trinity_news,unrecorded,32,32,32,Only recorded native/source metadata; no inferred topic or affect
+2012-02,UK,mancunion,unrecorded,103,103,103,Only recorded native/source metadata; no inferred topic or affect
+2012-02,US,mit_tech,unrecorded,43,43,43,Only recorded native/source metadata; no inferred topic or affect
+2012-02,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-03,EU/Europe excluding UK,trinity_news,unrecorded,13,13,13,Only recorded native/source metadata; no inferred topic or affect
+2012-03,UK,mancunion,unrecorded,111,111,111,Only recorded native/source metadata; no inferred topic or affect
+2012-03,US,mit_tech,unrecorded,20,20,20,Only recorded native/source metadata; no inferred topic or affect
+2012-03,US,montpelier_bridge,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2012-04,US,mit_tech,unrecorded,24,24,24,Only recorded native/source metadata; no inferred topic or affect
+2012-04,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-05,EU/Europe excluding UK,trinity_news,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2012-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-05,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-06,EU/Europe excluding UK,trinity_news,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2012-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-06,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-07,EU/Europe excluding UK,trinity_news,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2012-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-07,US,montpelier_bridge,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2012-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-08,US,montpelier_bridge,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2012-09,EU/Europe excluding UK,trinity_news,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2012-09,UK,mancunion,unrecorded,187,187,187,Only recorded native/source metadata; no inferred topic or affect
+2012-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-09,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-10,UK,mancunion,unrecorded,278,278,278,Only recorded native/source metadata; no inferred topic or affect
+2012-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-10,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-11,EU/Europe excluding UK,trinity_news,unrecorded,33,33,33,Only recorded native/source metadata; no inferred topic or affect
+2012-11,UK,mancunion,unrecorded,187,187,187,Only recorded native/source metadata; no inferred topic or affect
+2012-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-11,US,montpelier_bridge,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2012-12,EU/Europe excluding UK,trinity_news,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2012-12,UK,mancunion,unrecorded,29,29,29,Only recorded native/source metadata; no inferred topic or affect
+2012-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2012-12,US,montpelier_bridge,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2013-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-01,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-01,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-02,EU/Europe excluding UK,trinity_news,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2013-02,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-02,US,mit_tech,unrecorded,40,40,40,Only recorded native/source metadata; no inferred topic or affect
+2013-02,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-03,EU/Europe excluding UK,trinity_news,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2013-03,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-03,US,mit_tech,unrecorded,22,22,22,Only recorded native/source metadata; no inferred topic or affect
+2013-03,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-04,EU/Europe excluding UK,trinity_news,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2013-04,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-04,US,mit_tech,unrecorded,17,17,17,Only recorded native/source metadata; no inferred topic or affect
+2013-04,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-05,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-05,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-06,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2013-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-06,US,montpelier_bridge,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2013-07,AU,indaily,archive,99,98,99,Only recorded native/source metadata; no inferred topic or affect
+2013-07,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2013-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-07,US,montpelier_bridge,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2013-08,US,mit_tech,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2013-08,US,montpelier_bridge,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2013-09,EU/Europe excluding UK,trinity_news,unrecorded,18,18,18,Only recorded native/source metadata; no inferred topic or affect
+2013-09,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-09,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-10,EU/Europe excluding UK,trinity_news,unrecorded,23,23,23,Only recorded native/source metadata; no inferred topic or affect
+2013-10,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-10,US,montpelier_bridge,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2013-11,EU/Europe excluding UK,trinity_news,unrecorded,35,35,35,Only recorded native/source metadata; no inferred topic or affect
+2013-11,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-12,EU/Europe excluding UK,trinity_news,unrecorded,14,14,14,Only recorded native/source metadata; no inferred topic or affect
+2013-12,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2013-12,US,montpelier_bridge,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2014-01,EU/Europe excluding UK,trinity_news,unrecorded,58,58,58,Only recorded native/source metadata; no inferred topic or affect
+2014-01,NZ,otago_daily_times,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2014-01,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-01,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-02,EU/Europe excluding UK,trinity_news,unrecorded,54,52,54,Only recorded native/source metadata; no inferred topic or affect
+2014-02,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-02,US,mit_tech,unrecorded,44,44,44,Only recorded native/source metadata; no inferred topic or affect
+2014-02,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-03,EU/Europe excluding UK,trinity_news,unrecorded,41,41,41,Only recorded native/source metadata; no inferred topic or affect
+2014-03,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-03,US,mit_tech,unrecorded,21,21,21,Only recorded native/source metadata; no inferred topic or affect
+2014-03,US,montpelier_bridge,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-04,EU/Europe excluding UK,trinity_news,unrecorded,23,23,23,Only recorded native/source metadata; no inferred topic or affect
+2014-04,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-04,US,mit_tech,unrecorded,20,20,20,Only recorded native/source metadata; no inferred topic or affect
+2014-04,US,montpelier_bridge,unrecorded,31,31,31,Only recorded native/source metadata; no inferred topic or affect
+2014-05,EU/Europe excluding UK,trinity_news,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2014-05,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-05,US,montpelier_bridge,unrecorded,44,44,44,Only recorded native/source metadata; no inferred topic or affect
+2014-06,EU/Europe excluding UK,trinity_news,unrecorded,18,18,18,Only recorded native/source metadata; no inferred topic or affect
+2014-06,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-06,US,montpelier_bridge,unrecorded,36,36,36,Only recorded native/source metadata; no inferred topic or affect
+2014-07,EU/Europe excluding UK,trinity_news,unrecorded,13,13,13,Only recorded native/source metadata; no inferred topic or affect
+2014-07,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-07,US,montpelier_bridge,unrecorded,23,23,23,Only recorded native/source metadata; no inferred topic or affect
+2014-08,EU/Europe excluding UK,trinity_news,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2014-08,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-08,US,mit_tech,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2014-08,US,montpelier_bridge,unrecorded,52,52,52,Only recorded native/source metadata; no inferred topic or affect
+2014-09,EU/Europe excluding UK,trinity_news,unrecorded,50,50,50,Only recorded native/source metadata; no inferred topic or affect
+2014-09,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-09,US,montpelier_bridge,unrecorded,48,48,48,Only recorded native/source metadata; no inferred topic or affect
+2014-10,EU/Europe excluding UK,trinity_news,unrecorded,89,89,89,Only recorded native/source metadata; no inferred topic or affect
+2014-10,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2014-10,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2014-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-10,US,montpelier_bridge,unrecorded,28,27,28,Only recorded native/source metadata; no inferred topic or affect
+2014-11,AU,indaily,archive,99,99,99,Only recorded native/source metadata; no inferred topic or affect
+2014-11,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2014-11,EU/Europe excluding UK,trinity_news,unrecorded,62,62,62,Only recorded native/source metadata; no inferred topic or affect
+2014-11,UK,beaver,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2014-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2014-12,EU/Europe excluding UK,trinity_news,unrecorded,56,56,56,Only recorded native/source metadata; no inferred topic or affect
+2014-12,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2014-12,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2014-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-01,EU/Europe excluding UK,trinity_news,unrecorded,55,55,55,Only recorded native/source metadata; no inferred topic or affect
+2015-01,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-02,EU/Europe excluding UK,trinity_news,unrecorded,79,79,79,Only recorded native/source metadata; no inferred topic or affect
+2015-02,UK,beaver,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2015-02,US,mit_tech,unrecorded,20,20,20,Only recorded native/source metadata; no inferred topic or affect
+2015-03,EU/Europe excluding UK,trinity_news,unrecorded,74,74,74,Only recorded native/source metadata; no inferred topic or affect
+2015-03,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2015-03,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-03,US,mit_tech,unrecorded,21,21,21,Only recorded native/source metadata; no inferred topic or affect
+2015-04,EU/Europe excluding UK,trinity_news,unrecorded,19,19,19,Only recorded native/source metadata; no inferred topic or affect
+2015-04,NZ,otago_daily_times,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2015-04,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-04,US,mit_tech,unrecorded,15,15,15,Only recorded native/source metadata; no inferred topic or affect
+2015-05,EU/Europe excluding UK,trinity_news,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2015-05,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-06,EU/Europe excluding UK,trinity_news,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2015-06,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2015-06,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2015-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-07,EU/Europe excluding UK,trinity_news,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2015-07,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-08,EU/Europe excluding UK,trinity_news,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2015-08,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-09,EU/Europe excluding UK,trinity_news,unrecorded,42,42,42,Only recorded native/source metadata; no inferred topic or affect
+2015-09,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-09,US,mit_tech,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2015-10,EU/Europe excluding UK,trinity_news,unrecorded,65,65,65,Only recorded native/source metadata; no inferred topic or affect
+2015-10,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-11,EU/Europe excluding UK,trinity_news,unrecorded,51,51,51,Only recorded native/source metadata; no inferred topic or affect
+2015-11,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2015-11,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2015-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-12,EU/Europe excluding UK,trinity_news,unrecorded,60,60,60,Only recorded native/source metadata; no inferred topic or affect
+2015-12,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2015-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-01,EU/Europe excluding UK,trinity_news,unrecorded,53,53,53,Only recorded native/source metadata; no inferred topic or affect
+2016-01,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-01,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-02,EU/Europe excluding UK,trinity_news,unrecorded,118,118,118,Only recorded native/source metadata; no inferred topic or affect
+2016-02,UK,beaver,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2016-02,US,mit_tech,unrecorded,23,23,23,Only recorded native/source metadata; no inferred topic or affect
+2016-03,EU/Europe excluding UK,trinity_news,unrecorded,54,54,54,Only recorded native/source metadata; no inferred topic or affect
+2016-03,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-03,US,mit_tech,unrecorded,14,14,14,Only recorded native/source metadata; no inferred topic or affect
+2016-04,AU,indaily,archive,99,99,99,Only recorded native/source metadata; no inferred topic or affect
+2016-04,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-04,EU/Europe excluding UK,trinity_news,unrecorded,24,24,24,Only recorded native/source metadata; no inferred topic or affect
+2016-04,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-04,US,mit_tech,unrecorded,12,12,12,Only recorded native/source metadata; no inferred topic or affect
+2016-05,EU/Europe excluding UK,trinity_news,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2016-05,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-05,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-06,EU/Europe excluding UK,trinity_news,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2016-06,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-07,EU/Europe excluding UK,trinity_news,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2016-07,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-08,EU/Europe excluding UK,trinity_news,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2016-08,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-09,EU/Europe excluding UK,trinity_news,unrecorded,59,59,59,Only recorded native/source metadata; no inferred topic or affect
+2016-09,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-09,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-09,US,mit_tech,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2016-10,EU/Europe excluding UK,trinity_news,unrecorded,91,91,91,Only recorded native/source metadata; no inferred topic or affect
+2016-10,UK,beaver,unrecorded,8,8,8,Only recorded native/source metadata; no inferred topic or affect
+2016-10,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-11,EU/Europe excluding UK,trinity_news,unrecorded,92,92,92,Only recorded native/source metadata; no inferred topic or affect
+2016-11,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-11,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2016-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-12,EU/Europe excluding UK,trinity_news,unrecorded,75,75,75,Only recorded native/source metadata; no inferred topic or affect
+2016-12,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2016-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-01,EU/Europe excluding UK,trinity_news,unrecorded,70,70,70,Only recorded native/source metadata; no inferred topic or affect
+2017-01,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-01,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-02,EU/Europe excluding UK,trinity_news,unrecorded,127,127,127,Only recorded native/source metadata; no inferred topic or affect
+2017-02,UK,beaver,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2017-02,US,mit_tech,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2017-03,EU/Europe excluding UK,trinity_news,unrecorded,129,129,129,Only recorded native/source metadata; no inferred topic or affect
+2017-03,UK,beaver,unrecorded,38,38,38,Only recorded native/source metadata; no inferred topic or affect
+2017-03,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-03,US,mit_tech,unrecorded,22,22,22,Only recorded native/source metadata; no inferred topic or affect
+2017-04,EU/Europe excluding UK,trinity_news,unrecorded,43,43,43,Only recorded native/source metadata; no inferred topic or affect
+2017-04,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-04,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-04,US,mit_tech,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2017-05,AU,indaily,archive,67,67,67,Only recorded native/source metadata; no inferred topic or affect
+2017-05,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-05,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-05,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-06,AU,indaily,archive,31,31,31,Only recorded native/source metadata; no inferred topic or affect
+2017-06,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-06,NZ,devonport_flagstaff,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-06,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-06,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-07,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-07,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2017-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-08,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-09,UK,beaver,unrecorded,27,27,27,Only recorded native/source metadata; no inferred topic or affect
+2017-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-10,UK,beaver,unrecorded,99,99,99,Only recorded native/source metadata; no inferred topic or affect
+2017-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-11,UK,beaver,unrecorded,109,109,109,Only recorded native/source metadata; no inferred topic or affect
+2017-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2017-12,NZ,devonport_flagstaff,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2017-12,UK,beaver,unrecorded,22,22,22,Only recorded native/source metadata; no inferred topic or affect
+2017-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-01,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-01,UK,beaver,unrecorded,71,71,71,Only recorded native/source metadata; no inferred topic or affect
+2018-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-02,AU,indaily,archive,93,93,93,Only recorded native/source metadata; no inferred topic or affect
+2018-02,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2018-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-02,UK,beaver,unrecorded,81,81,81,Only recorded native/source metadata; no inferred topic or affect
+2018-02,US,mit_tech,unrecorded,21,21,21,Only recorded native/source metadata; no inferred topic or affect
+2018-03,AU,indaily,archive,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2018-03,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2018-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-03,NZ,devonport_flagstaff,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-03,UK,beaver,unrecorded,56,56,56,Only recorded native/source metadata; no inferred topic or affect
+2018-03,US,mit_tech,unrecorded,39,39,39,Only recorded native/source metadata; no inferred topic or affect
+2018-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-04,NZ,devonport_flagstaff,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2018-04,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-04,US,mit_tech,unrecorded,14,14,14,Only recorded native/source metadata; no inferred topic or affect
+2018-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-05,NZ,devonport_flagstaff,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2018-05,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2018-05,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2018-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-06,NZ,devonport_flagstaff,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2018-06,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2018-06,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2018-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-07,NZ,devonport_flagstaff,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2018-07,UK,beaver,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2018-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-08,NZ,devonport_flagstaff,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-08,UK,beaver,unrecorded,22,22,22,Only recorded native/source metadata; no inferred topic or affect
+2018-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-09,NZ,devonport_flagstaff,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2018-09,UK,beaver,unrecorded,17,17,17,Only recorded native/source metadata; no inferred topic or affect
+2018-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-10,NZ,devonport_flagstaff,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2018-10,UK,beaver,unrecorded,48,48,48,Only recorded native/source metadata; no inferred topic or affect
+2018-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-11,UK,beaver,unrecorded,73,73,73,Only recorded native/source metadata; no inferred topic or affect
+2018-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2018-12,NZ,devonport_flagstaff,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2018-12,UK,beaver,unrecorded,29,29,29,Only recorded native/source metadata; no inferred topic or affect
+2018-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-01,NZ,devonport_flagstaff,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2019-01,UK,beaver,unrecorded,42,42,42,Only recorded native/source metadata; no inferred topic or affect
+2019-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-02,EU/Europe excluding UK,trinity_news,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2019-02,NZ,devonport_flagstaff,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2019-02,UK,beaver,unrecorded,81,80,81,Only recorded native/source metadata; no inferred topic or affect
+2019-02,US,mit_tech,unrecorded,16,16,16,Only recorded native/source metadata; no inferred topic or affect
+2019-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-03,NZ,devonport_flagstaff,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2019-03,UK,beaver,unrecorded,112,112,112,Only recorded native/source metadata; no inferred topic or affect
+2019-03,US,mit_tech,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2019-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-04,NZ,devonport_flagstaff,unrecorded,10,10,10,Only recorded native/source metadata; no inferred topic or affect
+2019-04,NZ,otago_daily_times,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2019-04,UK,beaver,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2019-04,US,mit_tech,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2019-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-05,NZ,devonport_flagstaff,unrecorded,15,15,15,Only recorded native/source metadata; no inferred topic or affect
+2019-05,UK,beaver,unrecorded,12,12,12,Only recorded native/source metadata; no inferred topic or affect
+2019-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-06,NZ,devonport_flagstaff,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2019-06,UK,beaver,unrecorded,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2019-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-07,NZ,devonport_flagstaff,unrecorded,8,8,8,Only recorded native/source metadata; no inferred topic or affect
+2019-07,UK,beaver,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2019-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-08,NZ,devonport_flagstaff,unrecorded,14,14,14,Only recorded native/source metadata; no inferred topic or affect
+2019-08,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2019-08,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2019-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-09,NZ,devonport_flagstaff,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2019-09,UK,beaver,unrecorded,23,23,23,Only recorded native/source metadata; no inferred topic or affect
+2019-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-10,NZ,devonport_flagstaff,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2019-10,UK,beaver,unrecorded,84,84,84,Only recorded native/source metadata; no inferred topic or affect
+2019-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-11,NZ,devonport_flagstaff,unrecorded,13,13,13,Only recorded native/source metadata; no inferred topic or affect
+2019-11,UK,beaver,unrecorded,82,82,82,Only recorded native/source metadata; no inferred topic or affect
+2019-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2019-12,NZ,devonport_flagstaff,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2019-12,UK,beaver,unrecorded,83,83,83,Only recorded native/source metadata; no inferred topic or affect
+2019-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-01,EU/Europe excluding UK,trinity_news,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2020-01,NZ,devonport_flagstaff,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2020-01,UK,beaver,unrecorded,42,42,42,Only recorded native/source metadata; no inferred topic or affect
+2020-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-02,NZ,devonport_flagstaff,unrecorded,8,8,8,Only recorded native/source metadata; no inferred topic or affect
+2020-02,UK,beaver,unrecorded,86,86,86,Only recorded native/source metadata; no inferred topic or affect
+2020-02,US,mit_tech,unrecorded,8,8,8,Only recorded native/source metadata; no inferred topic or affect
+2020-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-03,NZ,devonport_flagstaff,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2020-03,UK,beaver,unrecorded,76,76,76,Only recorded native/source metadata; no inferred topic or affect
+2020-03,US,mit_tech,unrecorded,15,15,15,Only recorded native/source metadata; no inferred topic or affect
+2020-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-04,NZ,devonport_flagstaff,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2020-04,UK,beaver,unrecorded,40,40,40,Only recorded native/source metadata; no inferred topic or affect
+2020-04,US,mit_tech,unrecorded,29,29,29,Only recorded native/source metadata; no inferred topic or affect
+2020-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-05,NZ,devonport_flagstaff,unrecorded,9,9,9,Only recorded native/source metadata; no inferred topic or affect
+2020-05,UK,beaver,unrecorded,15,15,15,Only recorded native/source metadata; no inferred topic or affect
+2020-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-06,NZ,devonport_flagstaff,unrecorded,10,10,10,Only recorded native/source metadata; no inferred topic or affect
+2020-06,UK,beaver,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2020-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-07,AU,indaily,archive,99,99,99,Only recorded native/source metadata; no inferred topic or affect
+2020-07,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2020-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-07,NZ,devonport_flagstaff,unrecorded,17,17,17,Only recorded native/source metadata; no inferred topic or affect
+2020-07,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-07,UK,beaver,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2020-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-08,NZ,devonport_flagstaff,unrecorded,10,10,10,Only recorded native/source metadata; no inferred topic or affect
+2020-08,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-08,US,mit_tech,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2020-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-09,NZ,devonport_flagstaff,unrecorded,8,8,8,Only recorded native/source metadata; no inferred topic or affect
+2020-09,UK,beaver,unrecorded,16,16,16,Only recorded native/source metadata; no inferred topic or affect
+2020-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-10,NZ,devonport_flagstaff,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2020-10,UK,beaver,unrecorded,12,12,12,Only recorded native/source metadata; no inferred topic or affect
+2020-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-11,NZ,devonport_flagstaff,unrecorded,10,10,10,Only recorded native/source metadata; no inferred topic or affect
+2020-11,UK,beaver,unrecorded,31,31,31,Only recorded native/source metadata; no inferred topic or affect
+2020-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2020-12,NZ,devonport_flagstaff,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2020-12,UK,beaver,unrecorded,24,24,24,Only recorded native/source metadata; no inferred topic or affect
+2020-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-01,NZ,devonport_flagstaff,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2021-01,UK,beaver,unrecorded,25,25,25,Only recorded native/source metadata; no inferred topic or affect
+2021-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-02,NZ,devonport_flagstaff,unrecorded,12,12,12,Only recorded native/source metadata; no inferred topic or affect
+2021-02,UK,beaver,unrecorded,29,29,29,Only recorded native/source metadata; no inferred topic or affect
+2021-02,US,mit_tech,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2021-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-03,NZ,devonport_flagstaff,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2021-03,UK,beaver,unrecorded,22,22,22,Only recorded native/source metadata; no inferred topic or affect
+2021-03,US,mit_tech,unrecorded,13,13,13,Only recorded native/source metadata; no inferred topic or affect
+2021-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-04,NZ,devonport_flagstaff,unrecorded,6,6,6,Only recorded native/source metadata; no inferred topic or affect
+2021-04,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-04,US,mit_tech,unrecorded,8,8,8,Only recorded native/source metadata; no inferred topic or affect
+2021-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-05,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2021-05,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2021-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-06,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-07,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-08,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2021-08,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2021-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-09,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2021-09,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2021-09,US,mit_tech,unrecorded,3,3,3,Only recorded native/source metadata; no inferred topic or affect
+2021-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-10,NZ,otago_daily_times,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2021-10,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-11,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-12,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2021-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-01,NZ,otago_daily_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-01,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-02,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-02,US,mit_tech,unrecorded,11,11,11,Only recorded native/source metadata; no inferred topic or affect
+2022-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-03,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-03,US,mit_tech,unrecorded,28,28,28,Only recorded native/source metadata; no inferred topic or affect
+2022-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-04,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-04,US,mit_tech,unrecorded,5,5,5,Only recorded native/source metadata; no inferred topic or affect
+2022-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-05,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2022-05,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2022-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-06,AU,indaily,archive,95,95,95,Only recorded native/source metadata; no inferred topic or affect
+2022-06,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2022-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-06,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2022-06,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2022-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-07,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2022-07,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-08,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-09,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-10,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-11,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-12,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2022-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-01,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-02,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-02,US,mit_tech,unrecorded,13,13,13,Only recorded native/source metadata; no inferred topic or affect
+2023-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-03,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-03,US,mit_tech,unrecorded,12,12,12,Only recorded native/source metadata; no inferred topic or affect
+2023-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-04,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2023-04,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-04,US,mit_tech,unrecorded,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2023-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-05,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-06,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-07,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-08,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-09,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-10,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-11,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-12,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2023-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-01,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-02,AU,indaily,archive,88,88,88,Only recorded native/source metadata; no inferred topic or affect
+2024-02,AU,indaily,in-depth,4,4,4,Only recorded native/source metadata; no inferred topic or affect
+2024-02,AU,indaily,just-in,7,7,7,Only recorded native/source metadata; no inferred topic or affect
+2024-02,AU,indaily,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2024-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-02,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-02,US,mit_tech,unrecorded,30,30,30,Only recorded native/source metadata; no inferred topic or affect
+2024-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-03,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-03,US,mit_tech,unrecorded,19,19,19,Only recorded native/source metadata; no inferred topic or affect
+2024-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-04,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-04,US,mit_tech,unrecorded,16,16,16,Only recorded native/source metadata; no inferred topic or affect
+2024-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-05,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2024-05,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2024-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-06,AU,northern_rivers_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2024-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-06,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-07,AU,northern_rivers_times,unrecorded,78,78,78,Only recorded native/source metadata; no inferred topic or affect
+2024-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-08,AU,northern_rivers_times,unrecorded,105,105,105,Only recorded native/source metadata; no inferred topic or affect
+2024-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-09,AU,northern_rivers_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-09,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-10,AU,northern_rivers_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-10,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-11,AU,northern_rivers_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-11,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-12,AU,northern_rivers_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-12,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2024-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-01,AU,northern_rivers_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-01,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-02,AU,northern_rivers_times,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-02,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-02,US,mit_tech,unrecorded,29,29,29,Only recorded native/source metadata; no inferred topic or affect
+2025-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-03,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-03,US,mit_tech,unrecorded,22,22,22,Only recorded native/source metadata; no inferred topic or affect
+2025-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-04,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-04,US,mit_tech,unrecorded,22,22,22,Only recorded native/source metadata; no inferred topic or affect
+2025-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-05,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2025-05,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2025-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-06,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-07,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-08,UK,beaver,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2025-08,UK,mancunion,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2025-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-09,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-10,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-10,NZ,otago_daily_times,unrecorded,1,1,1,Only recorded native/source metadata; no inferred topic or affect
+2025-10,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-10,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-11,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-11,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-11,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-12,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-12,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2025-12,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-01,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-01,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-01,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-02,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-02,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-02,US,mit_tech,unrecorded,40,40,40,Only recorded native/source metadata; no inferred topic or affect
+2026-03,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-03,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-03,US,mit_tech,unrecorded,29,29,29,Only recorded native/source metadata; no inferred topic or affect
+2026-04,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-04,UK,beaver,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-04,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-05,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-05,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-05,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-06,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-06,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-06,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-07,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-07,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-07,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-08,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-08,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-08,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-09,EU/Europe excluding UK,trinity_news,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-09,UK,mancunion,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect
+2026-09,US,mit_tech,unrecorded,2,2,2,Only recorded native/source metadata; no inferred topic or affect

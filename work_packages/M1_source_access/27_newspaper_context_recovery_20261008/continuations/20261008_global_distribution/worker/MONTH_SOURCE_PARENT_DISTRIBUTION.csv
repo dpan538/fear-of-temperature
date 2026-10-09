@@ -1,0 +1,956 @@
+month,stratum,source_id,acquisition_parent_family_id,native_article_IDs,known_article_work_families,canonical_URLs
+1988-01,US,mit_tech,mit_tech,2,2,1
+1988-02,US,mit_tech,mit_tech,2,2,1
+1988-03,US,mit_tech,mit_tech,2,2,1
+1988-04,US,mit_tech,mit_tech,2,2,1
+1988-05,US,mit_tech,mit_tech,2,2,1
+1988-06,US,mit_tech,mit_tech,2,2,1
+1988-07,US,mit_tech,mit_tech,2,2,1
+1988-09,US,mit_tech,mit_tech,2,2,1
+1988-10,US,mit_tech,mit_tech,2,2,1
+1988-11,US,mit_tech,mit_tech,2,2,1
+1989-02,US,mit_tech,mit_tech,2,2,1
+1989-03,US,mit_tech,mit_tech,2,2,1
+1989-04,US,mit_tech,mit_tech,2,2,1
+1989-05,US,mit_tech,mit_tech,2,2,1
+1989-06,US,mit_tech,mit_tech,2,2,1
+1989-07,US,mit_tech,mit_tech,2,2,1
+1989-09,US,mit_tech,mit_tech,2,2,1
+1989-11,US,mit_tech,mit_tech,2,2,1
+1989-12,US,mit_tech,mit_tech,2,2,1
+1990-02,US,mit_tech,mit_tech,2,2,1
+1990-03,US,mit_tech,mit_tech,2,2,1
+1990-04,US,mit_tech,mit_tech,2,2,1
+1990-05,US,mit_tech,mit_tech,2,2,1
+1990-08,US,mit_tech,mit_tech,2,2,1
+1990-10,US,mit_tech,mit_tech,2,2,1
+1990-11,US,mit_tech,mit_tech,2,2,1
+1990-12,US,mit_tech,mit_tech,2,2,1
+1991-02,AU,green_left,green_left,40,40,40
+1991-03,AU,green_left,green_left,53,53,53
+1991-04,AU,green_left,green_left,48,48,48
+1991-05,AU,green_left,green_left,50,50,50
+1991-06,AU,green_left,green_left,46,46,46
+1991-07,AU,green_left,green_left,50,50,50
+1991-08,AU,green_left,green_left,43,43,43
+1991-09,AU,green_left,green_left,49,49,49
+1991-10,AU,green_left,green_left,54,54,54
+1991-11,AU,green_left,green_left,49,49,49
+1991-12,AU,green_left,green_left,44,44,44
+1992-01,AU,green_left,green_left,42,42,42
+1992-02,AU,green_left,green_left,48,48,48
+1992-03,AU,green_left,green_left,57,57,57
+1992-04,AU,green_left,green_left,48,48,48
+1992-05,AU,green_left,green_left,55,55,55
+1992-06,AU,green_left,green_left,57,57,57
+1992-07,AU,green_left,green_left,28,28,28
+1992-08,AU,green_left,green_left,2,2,2
+1992-09,AU,green_left,green_left,2,2,2
+1992-10,AU,green_left,green_left,2,2,2
+1992-11,AU,green_left,green_left,2,2,2
+1992-12,AU,green_left,green_left,2,2,2
+1993-01,AU,green_left,green_left,2,2,2
+1993-02,AU,green_left,green_left,2,2,2
+1993-03,AU,green_left,green_left,2,2,2
+1993-04,AU,green_left,green_left,2,2,2
+1993-05,AU,green_left,green_left,2,2,2
+1993-06,AU,green_left,green_left,2,2,2
+1993-07,AU,green_left,green_left,2,2,2
+1993-08,AU,green_left,green_left,2,2,2
+1993-09,AU,green_left,green_left,2,2,2
+1993-10,AU,green_left,green_left,2,2,2
+1993-11,AU,green_left,green_left,72,72,72
+1993-12,AU,green_left,green_left,2,2,2
+1994-01,AU,green_left,green_left,2,2,2
+1994-02,AU,green_left,green_left,2,2,2
+1994-03,AU,green_left,green_left,2,2,2
+1994-04,AU,green_left,green_left,2,2,2
+1994-05,AU,green_left,green_left,2,2,2
+1994-06,AU,green_left,green_left,2,2,2
+1994-07,AU,green_left,green_left,2,2,2
+1994-08,AU,green_left,green_left,2,2,2
+1994-09,AU,green_left,green_left,2,2,2
+1994-10,AU,green_left,green_left,2,2,2
+1994-11,AU,green_left,green_left,2,2,2
+1994-12,AU,green_left,green_left,2,2,2
+1995-01,AU,green_left,green_left,2,2,2
+1995-02,AU,green_left,green_left,2,2,2
+1995-03,AU,green_left,green_left,2,2,2
+1995-04,AU,green_left,green_left,2,2,2
+1995-05,AU,green_left,green_left,2,2,2
+1995-06,AU,green_left,green_left,2,2,2
+1995-07,AU,green_left,green_left,2,2,2
+1995-08,AU,green_left,green_left,2,2,2
+1995-09,AU,green_left,green_left,2,2,2
+1995-10,AU,green_left,green_left,2,2,2
+1995-11,AU,green_left,green_left,2,2,2
+1995-12,AU,green_left,green_left,2,2,2
+1996-01,AU,green_left,green_left,2,2,2
+1996-02,AU,green_left,green_left,2,2,2
+1996-03,AU,green_left,green_left,2,2,2
+1996-04,AU,green_left,green_left,2,2,2
+1996-05,AU,green_left,green_left,2,2,2
+1996-06,AU,green_left,green_left,2,2,2
+1996-07,AU,green_left,green_left,2,2,2
+1996-08,AU,green_left,green_left,2,2,2
+1996-09,AU,green_left,green_left,2,2,2
+1996-10,AU,green_left,green_left,2,2,2
+1996-11,AU,green_left,green_left,2,2,2
+1996-12,AU,green_left,green_left,2,2,2
+1997-01,AU,green_left,green_left,2,2,2
+1997-02,AU,green_left,green_left,2,2,2
+1997-03,AU,green_left,green_left,2,2,2
+1997-04,AU,green_left,green_left,2,2,2
+1997-05,AU,green_left,green_left,2,2,2
+1997-06,AU,green_left,green_left,2,2,2
+1997-07,AU,green_left,green_left,2,2,2
+1997-08,AU,green_left,green_left,2,2,2
+1997-09,AU,green_left,green_left,2,2,2
+1997-10,AU,green_left,green_left,2,2,2
+1997-11,AU,green_left,green_left,2,2,2
+1997-12,AU,green_left,green_left,2,2,2
+1998-01,AU,green_left,green_left,2,2,2
+1998-02,AU,green_left,green_left,2,2,2
+1998-03,AU,green_left,green_left,2,2,2
+1998-04,AU,green_left,green_left,2,2,2
+1998-05,AU,green_left,green_left,2,2,2
+1998-06,AU,green_left,green_left,2,2,2
+1998-07,AU,green_left,green_left,2,2,2
+1998-08,AU,green_left,green_left,2,2,2
+1998-09,AU,green_left,green_left,2,2,2
+1998-10,AU,green_left,green_left,2,2,2
+1998-11,AU,green_left,green_left,2,2,2
+1998-12,AU,green_left,green_left,2,2,2
+1999-01,AU,green_left,green_left,2,2,2
+1999-02,AU,green_left,green_left,2,2,2
+1999-03,AU,green_left,green_left,2,2,2
+1999-04,AU,green_left,green_left,2,2,2
+1999-05,AU,green_left,green_left,2,2,2
+1999-06,AU,green_left,green_left,2,2,2
+1999-07,AU,green_left,green_left,2,2,2
+1999-08,AU,green_left,green_left,2,2,2
+1999-11,AU,green_left,green_left,2,2,2
+1999-11,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,11,11,11
+1999-12,AU,green_left,green_left,2,2,2
+2000-01,AU,green_left,green_left,2,2,2
+2000-02,AU,green_left,green_left,2,2,2
+2000-03,AU,green_left,green_left,2,2,2
+2000-04,AU,green_left,green_left,2,2,2
+2000-05,AU,green_left,green_left,2,2,2
+2000-06,AU,green_left,green_left,2,2,2
+2000-07,AU,green_left,green_left,2,2,2
+2000-08,AU,green_left,green_left,2,2,2
+2000-09,AU,green_left,green_left,2,2,2
+2000-10,AU,green_left,green_left,2,2,2
+2000-11,AU,green_left,green_left,2,2,2
+2000-12,AU,green_left,green_left,2,2,2
+2001-01,AU,green_left,green_left,2,2,2
+2001-02,AU,green_left,green_left,2,2,2
+2001-03,AU,green_left,green_left,2,2,2
+2001-04,AU,green_left,green_left,2,2,2
+2001-05,AU,green_left,green_left,2,2,2
+2001-06,AU,green_left,green_left,2,2,2
+2001-07,AU,green_left,green_left,2,2,2
+2001-08,AU,green_left,green_left,2,2,2
+2001-09,AU,green_left,green_left,2,2,2
+2001-10,AU,green_left,green_left,2,2,2
+2001-11,AU,green_left,green_left,2,2,2
+2001-12,AU,green_left,green_left,2,2,2
+2002-01,AU,green_left,green_left,2,2,2
+2002-02,AU,green_left,green_left,2,2,2
+2002-03,AU,green_left,green_left,2,2,2
+2002-04,AU,green_left,green_left,2,2,2
+2002-05,AU,green_left,green_left,2,2,2
+2002-06,AU,green_left,green_left,2,2,2
+2002-07,AU,green_left,green_left,2,2,2
+2002-08,AU,green_left,green_left,2,2,2
+2002-09,AU,green_left,green_left,2,2,2
+2002-10,AU,green_left,green_left,2,2,2
+2002-11,AU,green_left,green_left,2,2,2
+2002-12,AU,green_left,green_left,2,2,2
+2003-01,AU,green_left,green_left,2,2,2
+2003-02,AU,green_left,green_left,2,2,2
+2003-03,AU,green_left,green_left,2,2,2
+2003-04,AU,green_left,green_left,2,2,2
+2003-05,AU,green_left,green_left,2,2,2
+2003-06,AU,green_left,green_left,2,2,2
+2003-07,AU,green_left,green_left,2,2,2
+2003-08,AU,green_left,green_left,2,2,2
+2003-09,AU,green_left,green_left,2,2,2
+2003-10,AU,green_left,green_left,2,2,2
+2003-11,AU,green_left,green_left,2,2,2
+2003-12,AU,green_left,green_left,2,2,2
+2004-01,AU,green_left,green_left,2,2,2
+2004-02,AU,green_left,green_left,2,2,2
+2004-07,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,1,1,1
+2004-08,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,4,4,4
+2004-09,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,7,7,7
+2004-10,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,9,9,9
+2004-12,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,1,1,1
+2005-01,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,5,5,5
+2005-02,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,82,81,82
+2005-03,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,35,35,35
+2005-04,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,2,2,2
+2005-05,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,2,2,2
+2005-06,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,2,2,2
+2005-07,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,2,2,2
+2005-08,EU/Europe excluding UK,financial_mirror,financial_mirror_limited,2,2,2
+2007-02,US,mit_tech,mit_tech,164,164,164
+2007-03,US,mit_tech,mit_tech,170,170,170
+2007-04,US,mit_tech,mit_tech,172,172,172
+2007-05,US,mit_tech,mit_tech,110,110,110
+2007-06,US,mit_tech,mit_tech,46,46,46
+2007-07,US,mit_tech,mit_tech,19,19,19
+2007-08,US,mit_tech,mit_tech,28,28,28
+2007-09,US,mit_tech,mit_tech,2,2,2
+2007-10,US,mit_tech,mit_tech,2,2,2
+2007-11,US,mit_tech,mit_tech,2,2,2
+2007-12,US,mit_tech,mit_tech,2,2,2
+2008-01,US,mit_tech,mit_tech,2,2,2
+2008-02,NZ,otago_daily_times,otago_daily_times,6,6,6
+2008-02,US,mit_tech,mit_tech,45,45,45
+2008-03,NZ,otago_daily_times,otago_daily_times,2,2,2
+2008-03,US,mit_tech,mit_tech,25,25,25
+2008-04,NZ,otago_daily_times,otago_daily_times,1,1,1
+2008-04,US,mit_tech,mit_tech,23,23,23
+2008-05,NZ,otago_daily_times,otago_daily_times,2,2,2
+2008-05,US,mit_tech,mit_tech,25,25,25
+2008-06,NZ,otago_daily_times,otago_daily_times,2,2,2
+2008-06,US,mit_tech,mit_tech,2,2,2
+2008-07,NZ,otago_daily_times,otago_daily_times,2,2,2
+2008-07,US,mit_tech,mit_tech,2,2,2
+2008-08,NZ,otago_daily_times,otago_daily_times,2,2,2
+2008-08,US,mit_tech,mit_tech,2,2,2
+2008-09,EU/Europe excluding UK,trinity_news,trinity_news,73,73,73
+2008-09,NZ,otago_daily_times,otago_daily_times,5,5,5
+2008-09,US,mit_tech,mit_tech,2,2,2
+2008-10,EU/Europe excluding UK,trinity_news,trinity_news,139,139,139
+2008-10,NZ,otago_daily_times,otago_daily_times,2,2,2
+2008-10,US,mit_tech,mit_tech,2,2,2
+2008-11,EU/Europe excluding UK,trinity_news,trinity_news,117,117,117
+2008-11,NZ,otago_daily_times,otago_daily_times,5,5,5
+2008-11,US,mit_tech,mit_tech,2,2,2
+2008-12,EU/Europe excluding UK,trinity_news,trinity_news,6,5,6
+2008-12,US,mit_tech,mit_tech,2,2,2
+2009-01,EU/Europe excluding UK,trinity_news,trinity_news,8,8,8
+2009-01,NZ,otago_daily_times,otago_daily_times,9,9,9
+2009-01,US,mit_tech,mit_tech,2,2,2
+2009-02,EU/Europe excluding UK,trinity_news,trinity_news,28,28,28
+2009-02,US,mit_tech,mit_tech,49,49,49
+2009-03,US,mit_tech,mit_tech,23,23,23
+2009-04,EU/Europe excluding UK,trinity_news,trinity_news,5,5,5
+2009-04,US,mit_tech,mit_tech,42,42,42
+2009-05,US,mit_tech,mit_tech,2,2,2
+2009-06,NZ,otago_daily_times,otago_daily_times,1,1,1
+2009-06,US,mit_tech,mit_tech,2,2,2
+2009-07,US,mit_tech,mit_tech,2,2,2
+2009-08,US,mit_tech,mit_tech,2,2,2
+2009-09,EU/Europe excluding UK,trinity_news,trinity_news,54,52,54
+2009-09,NZ,otago_daily_times,otago_daily_times,1,1,1
+2009-09,US,mit_tech,mit_tech,3,3,3
+2009-10,EU/Europe excluding UK,trinity_news,trinity_news,14,14,14
+2009-10,US,mit_tech,mit_tech,2,2,2
+2009-11,EU/Europe excluding UK,trinity_news,trinity_news,39,39,39
+2009-11,US,mit_tech,mit_tech,2,2,2
+2009-12,EU/Europe excluding UK,trinity_news,trinity_news,16,16,16
+2009-12,US,mit_tech,mit_tech,2,2,2
+2010-01,EU/Europe excluding UK,trinity_news,trinity_news,30,30,30
+2010-01,NZ,otago_daily_times,otago_daily_times,1,1,1
+2010-01,US,mit_tech,mit_tech,2,2,2
+2010-02,EU/Europe excluding UK,trinity_news,trinity_news,51,51,51
+2010-02,NZ,otago_daily_times,otago_daily_times,3,3,3
+2010-02,US,mit_tech,mit_tech,43,43,43
+2010-03,EU/Europe excluding UK,trinity_news,trinity_news,12,12,12
+2010-03,NZ,otago_daily_times,otago_daily_times,1,1,1
+2010-03,US,mit_tech,mit_tech,20,20,20
+2010-04,EU/Europe excluding UK,trinity_news,trinity_news,3,3,3
+2010-04,US,mit_tech,mit_tech,41,41,41
+2010-05,US,mit_tech,mit_tech,2,2,2
+2010-06,NZ,otago_daily_times,otago_daily_times,2,2,2
+2010-06,US,mit_tech,mit_tech,2,2,2
+2010-07,US,mit_tech,mit_tech,2,2,2
+2010-08,US,mit_tech,mit_tech,2,2,2
+2010-09,EU/Europe excluding UK,trinity_news,trinity_news,71,71,71
+2010-09,US,mit_tech,mit_tech,2,2,2
+2010-10,EU/Europe excluding UK,trinity_news,trinity_news,64,64,64
+2010-10,UK,mancunion,mancunion,48,48,48
+2010-10,US,mit_tech,mit_tech,2,2,2
+2010-11,EU/Europe excluding UK,trinity_news,trinity_news,112,112,112
+2010-11,UK,mancunion,mancunion,2,2,2
+2010-11,US,mit_tech,mit_tech,2,2,2
+2010-12,EU/Europe excluding UK,trinity_news,trinity_news,5,5,5
+2010-12,UK,mancunion,mancunion,33,33,33
+2010-12,US,mit_tech,mit_tech,2,2,2
+2011-01,EU/Europe excluding UK,trinity_news,trinity_news,38,38,38
+2011-01,UK,mancunion,mancunion,15,15,15
+2011-01,US,mit_tech,mit_tech,2,2,2
+2011-02,EU/Europe excluding UK,trinity_news,trinity_news,10,10,10
+2011-02,UK,mancunion,mancunion,17,17,17
+2011-02,US,mit_tech,mit_tech,50,50,50
+2011-03,EU/Europe excluding UK,trinity_news,trinity_news,11,11,11
+2011-03,UK,mancunion,mancunion,19,19,19
+2011-03,US,mit_tech,mit_tech,27,27,27
+2011-04,EU/Europe excluding UK,trinity_news,trinity_news,1,1,1
+2011-04,NZ,otago_daily_times,otago_daily_times,9,9,9
+2011-04,UK,mancunion,mancunion,50,50,50
+2011-04,US,mit_tech,mit_tech,36,36,36
+2011-05,US,mit_tech,mit_tech,2,2,2
+2011-06,EU/Europe excluding UK,trinity_news,trinity_news,1,1,1
+2011-06,US,mit_tech,mit_tech,2,2,2
+2011-07,EU/Europe excluding UK,trinity_news,trinity_news,7,7,7
+2011-07,US,mit_tech,mit_tech,2,2,2
+2011-08,UK,mancunion,mancunion,1,1,1
+2011-08,US,mit_tech,mit_tech,2,2,2
+2011-09,EU/Europe excluding UK,trinity_news,trinity_news,4,4,4
+2011-09,UK,mancunion,mancunion,113,113,113
+2011-09,US,mit_tech,mit_tech,2,2,2
+2011-10,EU/Europe excluding UK,trinity_news,trinity_news,10,10,10
+2011-10,UK,mancunion,mancunion,159,159,159
+2011-10,US,mit_tech,mit_tech,2,2,2
+2011-11,EU/Europe excluding UK,trinity_news,trinity_news,6,6,6
+2011-11,UK,mancunion,mancunion,227,226,227
+2011-11,US,mit_tech,mit_tech,2,2,2
+2011-12,UK,mancunion,mancunion,6,6,6
+2011-12,US,mit_tech,mit_tech,2,2,2
+2012-01,EU/Europe excluding UK,trinity_news,trinity_news,17,17,17
+2012-01,UK,mancunion,mancunion,1,1,1
+2012-01,US,mit_tech,mit_tech,2,2,2
+2012-02,EU/Europe excluding UK,trinity_news,trinity_news,32,32,32
+2012-02,UK,mancunion,mancunion,103,103,103
+2012-02,US,mit_tech,mit_tech,43,43,43
+2012-02,US,montpelier_bridge,capital_region_community_media,2,2,2
+2012-03,EU/Europe excluding UK,trinity_news,trinity_news,13,13,13
+2012-03,UK,mancunion,mancunion,111,111,111
+2012-03,US,mit_tech,mit_tech,20,20,20
+2012-03,US,montpelier_bridge,capital_region_community_media,1,1,1
+2012-04,US,mit_tech,mit_tech,24,24,24
+2012-04,US,montpelier_bridge,capital_region_community_media,2,2,2
+2012-05,EU/Europe excluding UK,trinity_news,trinity_news,11,11,11
+2012-05,US,mit_tech,mit_tech,2,2,2
+2012-05,US,montpelier_bridge,capital_region_community_media,2,2,2
+2012-06,EU/Europe excluding UK,trinity_news,trinity_news,3,3,3
+2012-06,US,mit_tech,mit_tech,2,2,2
+2012-06,US,montpelier_bridge,capital_region_community_media,2,2,2
+2012-07,EU/Europe excluding UK,trinity_news,trinity_news,3,3,3
+2012-07,US,mit_tech,mit_tech,2,2,2
+2012-07,US,montpelier_bridge,capital_region_community_media,1,1,1
+2012-08,US,mit_tech,mit_tech,2,2,2
+2012-08,US,montpelier_bridge,capital_region_community_media,3,3,3
+2012-09,EU/Europe excluding UK,trinity_news,trinity_news,6,6,6
+2012-09,UK,mancunion,mancunion,187,187,187
+2012-09,US,mit_tech,mit_tech,2,2,2
+2012-09,US,montpelier_bridge,capital_region_community_media,2,2,2
+2012-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2012-10,UK,mancunion,mancunion,278,278,278
+2012-10,US,mit_tech,mit_tech,2,2,2
+2012-10,US,montpelier_bridge,capital_region_community_media,2,2,2
+2012-11,EU/Europe excluding UK,trinity_news,trinity_news,33,33,33
+2012-11,UK,mancunion,mancunion,187,187,187
+2012-11,US,mit_tech,mit_tech,2,2,2
+2012-11,US,montpelier_bridge,capital_region_community_media,3,3,3
+2012-12,EU/Europe excluding UK,trinity_news,trinity_news,3,3,3
+2012-12,UK,mancunion,mancunion,29,29,29
+2012-12,US,mit_tech,mit_tech,2,2,2
+2012-12,US,montpelier_bridge,capital_region_community_media,1,1,1
+2013-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2013-01,UK,mancunion,mancunion,2,2,2
+2013-01,US,mit_tech,mit_tech,2,2,2
+2013-01,US,montpelier_bridge,capital_region_community_media,2,2,2
+2013-02,EU/Europe excluding UK,trinity_news,trinity_news,5,5,5
+2013-02,UK,mancunion,mancunion,2,2,2
+2013-02,US,mit_tech,mit_tech,40,40,40
+2013-02,US,montpelier_bridge,capital_region_community_media,2,2,2
+2013-03,EU/Europe excluding UK,trinity_news,trinity_news,4,4,4
+2013-03,UK,mancunion,mancunion,2,2,2
+2013-03,US,mit_tech,mit_tech,22,22,22
+2013-03,US,montpelier_bridge,capital_region_community_media,2,2,2
+2013-04,EU/Europe excluding UK,trinity_news,trinity_news,1,1,1
+2013-04,UK,mancunion,mancunion,2,2,2
+2013-04,US,mit_tech,mit_tech,17,17,17
+2013-04,US,montpelier_bridge,capital_region_community_media,2,2,2
+2013-05,UK,mancunion,mancunion,2,2,2
+2013-05,US,mit_tech,mit_tech,2,2,2
+2013-05,US,montpelier_bridge,capital_region_community_media,2,2,2
+2013-06,UK,mancunion,mancunion,1,1,1
+2013-06,US,mit_tech,mit_tech,2,2,2
+2013-06,US,montpelier_bridge,capital_region_community_media,3,3,3
+2013-07,AU,indaily,indaily,100,99,100
+2013-07,US,mit_tech,mit_tech,2,2,2
+2013-07,US,montpelier_bridge,capital_region_community_media,1,1,1
+2013-08,US,mit_tech,mit_tech,5,5,5
+2013-08,US,montpelier_bridge,capital_region_community_media,1,1,1
+2013-09,EU/Europe excluding UK,trinity_news,trinity_news,18,18,18
+2013-09,UK,mancunion,mancunion,2,2,2
+2013-09,US,mit_tech,mit_tech,2,2,2
+2013-09,US,montpelier_bridge,capital_region_community_media,2,2,2
+2013-10,EU/Europe excluding UK,trinity_news,trinity_news,23,23,23
+2013-10,UK,mancunion,mancunion,2,2,2
+2013-10,US,mit_tech,mit_tech,2,2,2
+2013-10,US,montpelier_bridge,capital_region_community_media,1,1,1
+2013-11,EU/Europe excluding UK,trinity_news,trinity_news,35,35,35
+2013-11,UK,mancunion,mancunion,2,2,2
+2013-11,US,mit_tech,mit_tech,2,2,2
+2013-12,EU/Europe excluding UK,trinity_news,trinity_news,14,14,14
+2013-12,UK,mancunion,mancunion,2,2,2
+2013-12,US,mit_tech,mit_tech,2,2,2
+2013-12,US,montpelier_bridge,capital_region_community_media,1,1,1
+2014-01,EU/Europe excluding UK,trinity_news,trinity_news,58,58,58
+2014-01,NZ,otago_daily_times,otago_daily_times,3,3,3
+2014-01,UK,mancunion,mancunion,2,2,2
+2014-01,US,mit_tech,mit_tech,2,2,2
+2014-01,US,montpelier_bridge,capital_region_community_media,2,2,2
+2014-02,EU/Europe excluding UK,trinity_news,trinity_news,54,52,54
+2014-02,UK,mancunion,mancunion,2,2,2
+2014-02,US,mit_tech,mit_tech,44,44,44
+2014-02,US,montpelier_bridge,capital_region_community_media,2,2,2
+2014-03,EU/Europe excluding UK,trinity_news,trinity_news,41,41,41
+2014-03,UK,mancunion,mancunion,2,2,2
+2014-03,US,mit_tech,mit_tech,21,21,21
+2014-03,US,montpelier_bridge,capital_region_community_media,2,2,2
+2014-04,EU/Europe excluding UK,trinity_news,trinity_news,23,23,23
+2014-04,UK,mancunion,mancunion,2,2,2
+2014-04,US,mit_tech,mit_tech,20,20,20
+2014-04,US,montpelier_bridge,capital_region_community_media,31,31,31
+2014-05,EU/Europe excluding UK,trinity_news,trinity_news,7,7,7
+2014-05,UK,mancunion,mancunion,2,2,2
+2014-05,US,mit_tech,mit_tech,2,2,2
+2014-05,US,montpelier_bridge,capital_region_community_media,44,44,44
+2014-06,EU/Europe excluding UK,trinity_news,trinity_news,18,18,18
+2014-06,UK,mancunion,mancunion,2,2,2
+2014-06,US,mit_tech,mit_tech,2,2,2
+2014-06,US,montpelier_bridge,capital_region_community_media,36,36,36
+2014-07,EU/Europe excluding UK,trinity_news,trinity_news,13,13,13
+2014-07,UK,mancunion,mancunion,2,2,2
+2014-07,US,mit_tech,mit_tech,2,2,2
+2014-07,US,montpelier_bridge,capital_region_community_media,23,23,23
+2014-08,EU/Europe excluding UK,trinity_news,trinity_news,9,9,9
+2014-08,UK,mancunion,mancunion,2,2,2
+2014-08,US,mit_tech,mit_tech,5,5,5
+2014-08,US,montpelier_bridge,capital_region_community_media,52,52,52
+2014-09,EU/Europe excluding UK,trinity_news,trinity_news,50,50,50
+2014-09,UK,mancunion,mancunion,2,2,2
+2014-09,US,mit_tech,mit_tech,2,2,2
+2014-09,US,montpelier_bridge,capital_region_community_media,48,48,48
+2014-10,EU/Europe excluding UK,trinity_news,trinity_news,89,89,89
+2014-10,UK,beaver,beaver,1,1,1
+2014-10,UK,mancunion,mancunion,1,1,1
+2014-10,US,mit_tech,mit_tech,2,2,2
+2014-10,US,montpelier_bridge,capital_region_community_media,28,27,28
+2014-11,AU,indaily,indaily,100,100,100
+2014-11,EU/Europe excluding UK,trinity_news,trinity_news,62,62,62
+2014-11,UK,beaver,beaver,4,4,4
+2014-11,US,mit_tech,mit_tech,2,2,2
+2014-12,EU/Europe excluding UK,trinity_news,trinity_news,56,56,56
+2014-12,UK,beaver,beaver,1,1,1
+2014-12,UK,mancunion,mancunion,1,1,1
+2014-12,US,mit_tech,mit_tech,2,2,2
+2015-01,EU/Europe excluding UK,trinity_news,trinity_news,55,55,55
+2015-01,UK,beaver,beaver,2,2,2
+2015-01,US,mit_tech,mit_tech,2,2,2
+2015-02,EU/Europe excluding UK,trinity_news,trinity_news,79,79,79
+2015-02,UK,beaver,beaver,3,3,3
+2015-02,US,mit_tech,mit_tech,20,20,20
+2015-03,EU/Europe excluding UK,trinity_news,trinity_news,74,74,74
+2015-03,NZ,otago_daily_times,otago_daily_times,1,1,1
+2015-03,UK,beaver,beaver,2,2,2
+2015-03,US,mit_tech,mit_tech,21,21,21
+2015-04,EU/Europe excluding UK,trinity_news,trinity_news,19,19,19
+2015-04,NZ,otago_daily_times,otago_daily_times,3,3,3
+2015-04,UK,mancunion,mancunion,2,2,2
+2015-04,US,mit_tech,mit_tech,15,15,15
+2015-05,EU/Europe excluding UK,trinity_news,trinity_news,4,4,4
+2015-05,UK,mancunion,mancunion,2,2,2
+2015-05,US,mit_tech,mit_tech,2,2,2
+2015-06,EU/Europe excluding UK,trinity_news,trinity_news,1,1,1
+2015-06,UK,beaver,beaver,1,1,1
+2015-06,UK,mancunion,mancunion,1,1,1
+2015-06,US,mit_tech,mit_tech,2,2,2
+2015-07,EU/Europe excluding UK,trinity_news,trinity_news,4,4,4
+2015-07,UK,mancunion,mancunion,2,2,2
+2015-07,US,mit_tech,mit_tech,2,2,2
+2015-08,EU/Europe excluding UK,trinity_news,trinity_news,4,4,4
+2015-08,UK,mancunion,mancunion,2,2,2
+2015-08,US,mit_tech,mit_tech,2,2,2
+2015-09,EU/Europe excluding UK,trinity_news,trinity_news,42,42,42
+2015-09,UK,mancunion,mancunion,2,2,2
+2015-09,US,mit_tech,mit_tech,3,3,3
+2015-10,EU/Europe excluding UK,trinity_news,trinity_news,65,65,65
+2015-10,UK,mancunion,mancunion,2,2,2
+2015-10,US,mit_tech,mit_tech,2,2,2
+2015-11,EU/Europe excluding UK,trinity_news,trinity_news,51,51,51
+2015-11,UK,beaver,beaver,1,1,1
+2015-11,UK,mancunion,mancunion,1,1,1
+2015-11,US,mit_tech,mit_tech,2,2,2
+2015-12,EU/Europe excluding UK,trinity_news,trinity_news,60,60,60
+2015-12,UK,mancunion,mancunion,2,2,2
+2015-12,US,mit_tech,mit_tech,2,2,2
+2016-01,EU/Europe excluding UK,trinity_news,trinity_news,53,53,53
+2016-01,UK,beaver,beaver,1,1,1
+2016-01,UK,mancunion,mancunion,1,1,1
+2016-01,US,mit_tech,mit_tech,2,2,2
+2016-02,EU/Europe excluding UK,trinity_news,trinity_news,118,118,118
+2016-02,UK,beaver,beaver,5,5,5
+2016-02,US,mit_tech,mit_tech,23,23,23
+2016-03,EU/Europe excluding UK,trinity_news,trinity_news,54,54,54
+2016-03,UK,beaver,beaver,2,2,2
+2016-03,US,mit_tech,mit_tech,14,14,14
+2016-04,AU,indaily,indaily,100,100,100
+2016-04,EU/Europe excluding UK,trinity_news,trinity_news,24,24,24
+2016-04,UK,mancunion,mancunion,2,2,2
+2016-04,US,mit_tech,mit_tech,12,12,12
+2016-05,EU/Europe excluding UK,trinity_news,trinity_news,7,7,7
+2016-05,UK,beaver,beaver,1,1,1
+2016-05,UK,mancunion,mancunion,1,1,1
+2016-05,US,mit_tech,mit_tech,2,2,2
+2016-06,EU/Europe excluding UK,trinity_news,trinity_news,3,3,3
+2016-06,UK,beaver,beaver,2,2,2
+2016-06,US,mit_tech,mit_tech,2,2,2
+2016-07,EU/Europe excluding UK,trinity_news,trinity_news,6,6,6
+2016-07,UK,mancunion,mancunion,2,2,2
+2016-07,US,mit_tech,mit_tech,2,2,2
+2016-08,EU/Europe excluding UK,trinity_news,trinity_news,6,6,6
+2016-08,UK,beaver,beaver,2,2,2
+2016-08,US,mit_tech,mit_tech,2,2,2
+2016-09,EU/Europe excluding UK,trinity_news,trinity_news,59,59,59
+2016-09,UK,beaver,beaver,1,1,1
+2016-09,UK,mancunion,mancunion,1,1,1
+2016-09,US,mit_tech,mit_tech,3,3,3
+2016-10,EU/Europe excluding UK,trinity_news,trinity_news,91,91,91
+2016-10,UK,beaver,beaver,8,8,8
+2016-10,UK,mancunion,mancunion,1,1,1
+2016-10,US,mit_tech,mit_tech,2,2,2
+2016-11,EU/Europe excluding UK,trinity_news,trinity_news,92,92,92
+2016-11,UK,beaver,beaver,1,1,1
+2016-11,UK,mancunion,mancunion,1,1,1
+2016-11,US,mit_tech,mit_tech,2,2,2
+2016-12,EU/Europe excluding UK,trinity_news,trinity_news,75,75,75
+2016-12,UK,mancunion,mancunion,2,2,2
+2016-12,US,mit_tech,mit_tech,2,2,2
+2017-01,EU/Europe excluding UK,trinity_news,trinity_news,70,70,70
+2017-01,UK,beaver,beaver,1,1,1
+2017-01,UK,mancunion,mancunion,2,2,2
+2017-01,US,mit_tech,mit_tech,2,2,2
+2017-02,EU/Europe excluding UK,trinity_news,trinity_news,127,127,127
+2017-02,UK,beaver,beaver,7,7,7
+2017-02,US,mit_tech,mit_tech,11,11,11
+2017-03,EU/Europe excluding UK,trinity_news,trinity_news,129,129,129
+2017-03,UK,beaver,beaver,38,38,38
+2017-03,UK,mancunion,mancunion,1,1,1
+2017-03,US,mit_tech,mit_tech,22,22,22
+2017-04,EU/Europe excluding UK,trinity_news,trinity_news,43,43,43
+2017-04,UK,beaver,beaver,1,1,1
+2017-04,UK,mancunion,mancunion,1,1,1
+2017-04,US,mit_tech,mit_tech,11,11,11
+2017-05,AU,indaily,indaily,68,68,68
+2017-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-05,UK,beaver,beaver,1,1,1
+2017-05,UK,mancunion,mancunion,1,1,1
+2017-05,US,mit_tech,mit_tech,2,2,2
+2017-06,AU,indaily,indaily,32,32,32
+2017-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-06,NZ,devonport_flagstaff,devonport_publishing,1,1,1
+2017-06,UK,beaver,beaver,1,1,1
+2017-06,UK,mancunion,mancunion,1,1,1
+2017-06,US,mit_tech,mit_tech,2,2,2
+2017-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-07,UK,beaver,beaver,1,1,1
+2017-07,UK,mancunion,mancunion,1,1,1
+2017-07,US,mit_tech,mit_tech,2,2,2
+2017-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-08,UK,mancunion,mancunion,2,2,2
+2017-08,US,mit_tech,mit_tech,2,2,2
+2017-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-09,UK,beaver,beaver,27,27,27
+2017-09,US,mit_tech,mit_tech,2,2,2
+2017-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-10,UK,beaver,beaver,99,99,99
+2017-10,US,mit_tech,mit_tech,2,2,2
+2017-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-11,UK,beaver,beaver,109,109,109
+2017-11,US,mit_tech,mit_tech,2,2,2
+2017-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2017-12,NZ,devonport_flagstaff,devonport_publishing,11,11,11
+2017-12,UK,beaver,beaver,22,22,22
+2017-12,US,mit_tech,mit_tech,2,2,2
+2018-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-01,NZ,otago_daily_times,otago_daily_times,2,2,2
+2018-01,UK,beaver,beaver,71,71,71
+2018-01,US,mit_tech,mit_tech,2,2,2
+2018-02,AU,indaily,indaily,94,94,94
+2018-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-02,UK,beaver,beaver,81,81,81
+2018-02,US,mit_tech,mit_tech,21,21,21
+2018-03,AU,indaily,indaily,6,6,6
+2018-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-03,NZ,devonport_flagstaff,devonport_publishing,2,2,2
+2018-03,UK,beaver,beaver,56,56,56
+2018-03,US,mit_tech,mit_tech,39,39,39
+2018-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-04,NZ,devonport_flagstaff,devonport_publishing,9,9,9
+2018-04,UK,mancunion,mancunion,2,2,2
+2018-04,US,mit_tech,mit_tech,14,14,14
+2018-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-05,NZ,devonport_flagstaff,devonport_publishing,11,11,11
+2018-05,UK,beaver,beaver,1,1,1
+2018-05,UK,mancunion,mancunion,1,1,1
+2018-05,US,mit_tech,mit_tech,2,2,2
+2018-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-06,NZ,devonport_flagstaff,devonport_publishing,7,7,7
+2018-06,UK,beaver,beaver,1,1,1
+2018-06,UK,mancunion,mancunion,1,1,1
+2018-06,US,mit_tech,mit_tech,2,2,2
+2018-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-07,NZ,devonport_flagstaff,devonport_publishing,5,5,5
+2018-07,UK,beaver,beaver,11,11,11
+2018-07,US,mit_tech,mit_tech,2,2,2
+2018-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-08,NZ,devonport_flagstaff,devonport_publishing,2,2,2
+2018-08,UK,beaver,beaver,22,22,22
+2018-08,US,mit_tech,mit_tech,2,2,2
+2018-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-09,NZ,devonport_flagstaff,devonport_publishing,7,7,7
+2018-09,UK,beaver,beaver,17,17,17
+2018-09,US,mit_tech,mit_tech,2,2,2
+2018-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-10,NZ,devonport_flagstaff,devonport_publishing,6,6,6
+2018-10,UK,beaver,beaver,48,48,48
+2018-10,US,mit_tech,mit_tech,2,2,2
+2018-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-11,UK,beaver,beaver,73,73,73
+2018-11,US,mit_tech,mit_tech,2,2,2
+2018-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2018-12,NZ,devonport_flagstaff,devonport_publishing,9,9,9
+2018-12,UK,beaver,beaver,29,29,29
+2018-12,US,mit_tech,mit_tech,2,2,2
+2019-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-01,NZ,devonport_flagstaff,devonport_publishing,4,4,4
+2019-01,UK,beaver,beaver,42,42,42
+2019-01,US,mit_tech,mit_tech,2,2,2
+2019-02,EU/Europe excluding UK,trinity_news,trinity_news,4,4,4
+2019-02,NZ,devonport_flagstaff,devonport_publishing,7,7,7
+2019-02,UK,beaver,beaver,81,80,81
+2019-02,US,mit_tech,mit_tech,16,16,16
+2019-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-03,NZ,devonport_flagstaff,devonport_publishing,11,11,11
+2019-03,UK,beaver,beaver,112,112,112
+2019-03,US,mit_tech,mit_tech,7,7,7
+2019-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-04,NZ,devonport_flagstaff,devonport_publishing,10,10,10
+2019-04,NZ,otago_daily_times,otago_daily_times,3,3,3
+2019-04,UK,beaver,beaver,11,11,11
+2019-04,US,mit_tech,mit_tech,11,11,11
+2019-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-05,NZ,devonport_flagstaff,devonport_publishing,15,15,15
+2019-05,UK,beaver,beaver,12,12,12
+2019-05,US,mit_tech,mit_tech,2,2,2
+2019-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-06,NZ,devonport_flagstaff,devonport_publishing,7,7,7
+2019-06,UK,beaver,beaver,4,4,4
+2019-06,US,mit_tech,mit_tech,2,2,2
+2019-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-07,NZ,devonport_flagstaff,devonport_publishing,8,8,8
+2019-07,UK,beaver,beaver,5,5,5
+2019-07,US,mit_tech,mit_tech,2,2,2
+2019-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-08,NZ,devonport_flagstaff,devonport_publishing,14,14,14
+2019-08,UK,beaver,beaver,1,1,1
+2019-08,UK,mancunion,mancunion,1,1,1
+2019-08,US,mit_tech,mit_tech,2,2,2
+2019-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-09,NZ,devonport_flagstaff,devonport_publishing,9,9,9
+2019-09,UK,beaver,beaver,23,23,23
+2019-09,US,mit_tech,mit_tech,2,2,2
+2019-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-10,NZ,devonport_flagstaff,devonport_publishing,7,7,7
+2019-10,UK,beaver,beaver,84,84,84
+2019-10,US,mit_tech,mit_tech,2,2,2
+2019-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-11,NZ,devonport_flagstaff,devonport_publishing,13,13,13
+2019-11,UK,beaver,beaver,82,82,82
+2019-11,US,mit_tech,mit_tech,2,2,2
+2019-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2019-12,NZ,devonport_flagstaff,devonport_publishing,5,5,5
+2019-12,UK,beaver,beaver,83,83,83
+2019-12,US,mit_tech,mit_tech,2,2,2
+2020-01,EU/Europe excluding UK,trinity_news,trinity_news,5,5,5
+2020-01,NZ,devonport_flagstaff,devonport_publishing,5,5,5
+2020-01,UK,beaver,beaver,42,42,42
+2020-01,US,mit_tech,mit_tech,2,2,2
+2020-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-02,NZ,devonport_flagstaff,devonport_publishing,8,8,8
+2020-02,UK,beaver,beaver,86,86,86
+2020-02,US,mit_tech,mit_tech,8,8,8
+2020-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-03,NZ,devonport_flagstaff,devonport_publishing,9,9,9
+2020-03,UK,beaver,beaver,76,76,76
+2020-03,US,mit_tech,mit_tech,15,15,15
+2020-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-04,NZ,devonport_flagstaff,devonport_publishing,11,11,11
+2020-04,UK,beaver,beaver,40,40,40
+2020-04,US,mit_tech,mit_tech,29,29,29
+2020-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-05,NZ,devonport_flagstaff,devonport_publishing,9,9,9
+2020-05,UK,beaver,beaver,15,15,15
+2020-05,US,mit_tech,mit_tech,2,2,2
+2020-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-06,NZ,devonport_flagstaff,devonport_publishing,10,10,10
+2020-06,UK,beaver,beaver,7,7,7
+2020-06,US,mit_tech,mit_tech,2,2,2
+2020-07,AU,indaily,indaily,100,100,100
+2020-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-07,NZ,devonport_flagstaff,devonport_publishing,17,17,17
+2020-07,NZ,otago_daily_times,otago_daily_times,2,2,2
+2020-07,UK,beaver,beaver,7,7,7
+2020-07,US,mit_tech,mit_tech,2,2,2
+2020-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-08,NZ,devonport_flagstaff,devonport_publishing,10,10,10
+2020-08,UK,beaver,beaver,2,2,2
+2020-08,US,mit_tech,mit_tech,3,3,3
+2020-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-09,NZ,devonport_flagstaff,devonport_publishing,8,8,8
+2020-09,UK,beaver,beaver,16,16,16
+2020-09,US,mit_tech,mit_tech,2,2,2
+2020-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-10,NZ,devonport_flagstaff,devonport_publishing,11,11,11
+2020-10,UK,beaver,beaver,12,12,12
+2020-10,US,mit_tech,mit_tech,2,2,2
+2020-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-11,NZ,devonport_flagstaff,devonport_publishing,10,10,10
+2020-11,UK,beaver,beaver,31,31,31
+2020-11,US,mit_tech,mit_tech,2,2,2
+2020-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2020-12,NZ,devonport_flagstaff,devonport_publishing,11,11,11
+2020-12,UK,beaver,beaver,24,24,24
+2020-12,US,mit_tech,mit_tech,2,2,2
+2021-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-01,NZ,devonport_flagstaff,devonport_publishing,7,7,7
+2021-01,UK,beaver,beaver,25,25,25
+2021-01,US,mit_tech,mit_tech,2,2,2
+2021-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-02,NZ,devonport_flagstaff,devonport_publishing,12,12,12
+2021-02,UK,beaver,beaver,29,29,29
+2021-02,US,mit_tech,mit_tech,11,11,11
+2021-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-03,NZ,devonport_flagstaff,devonport_publishing,11,11,11
+2021-03,UK,beaver,beaver,22,22,22
+2021-03,US,mit_tech,mit_tech,13,13,13
+2021-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-04,NZ,devonport_flagstaff,devonport_publishing,6,6,6
+2021-04,UK,beaver,beaver,2,2,2
+2021-04,US,mit_tech,mit_tech,8,8,8
+2021-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-05,UK,beaver,beaver,1,1,1
+2021-05,UK,mancunion,mancunion,1,1,1
+2021-05,US,mit_tech,mit_tech,2,2,2
+2021-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-06,UK,mancunion,mancunion,2,2,2
+2021-06,US,mit_tech,mit_tech,2,2,2
+2021-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-07,UK,beaver,beaver,2,2,2
+2021-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-08,UK,beaver,beaver,1,1,1
+2021-08,UK,mancunion,mancunion,1,1,1
+2021-08,US,mit_tech,mit_tech,2,2,2
+2021-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-09,UK,beaver,beaver,1,1,1
+2021-09,UK,mancunion,mancunion,1,1,1
+2021-09,US,mit_tech,mit_tech,3,3,3
+2021-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-10,NZ,otago_daily_times,otago_daily_times,5,5,5
+2021-10,UK,beaver,beaver,2,2,2
+2021-10,US,mit_tech,mit_tech,2,2,2
+2021-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-11,UK,beaver,beaver,2,2,2
+2021-11,US,mit_tech,mit_tech,2,2,2
+2021-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2021-12,UK,beaver,beaver,2,2,2
+2021-12,US,mit_tech,mit_tech,2,2,2
+2022-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-01,NZ,otago_daily_times,otago_daily_times,2,2,2
+2022-01,UK,beaver,beaver,2,2,2
+2022-01,US,mit_tech,mit_tech,2,2,2
+2022-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-02,UK,beaver,beaver,2,2,2
+2022-02,US,mit_tech,mit_tech,11,11,11
+2022-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-03,UK,beaver,beaver,2,2,2
+2022-03,US,mit_tech,mit_tech,28,28,28
+2022-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-04,UK,beaver,beaver,2,2,2
+2022-04,US,mit_tech,mit_tech,5,5,5
+2022-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-05,UK,beaver,beaver,1,1,1
+2022-05,UK,mancunion,mancunion,1,1,1
+2022-05,US,mit_tech,mit_tech,2,2,2
+2022-06,AU,indaily,indaily,96,96,96
+2022-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-06,UK,beaver,beaver,1,1,1
+2022-06,UK,mancunion,mancunion,1,1,1
+2022-06,US,mit_tech,mit_tech,2,2,2
+2022-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-07,NZ,otago_daily_times,otago_daily_times,1,1,1
+2022-07,UK,mancunion,mancunion,2,2,2
+2022-07,US,mit_tech,mit_tech,2,2,2
+2022-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-08,UK,mancunion,mancunion,2,2,2
+2022-08,US,mit_tech,mit_tech,2,2,2
+2022-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-09,UK,mancunion,mancunion,2,2,2
+2022-09,US,mit_tech,mit_tech,2,2,2
+2022-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-10,UK,beaver,beaver,2,2,2
+2022-10,US,mit_tech,mit_tech,2,2,2
+2022-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-11,UK,beaver,beaver,2,2,2
+2022-11,US,mit_tech,mit_tech,2,2,2
+2022-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2022-12,UK,beaver,beaver,2,2,2
+2022-12,US,mit_tech,mit_tech,2,2,2
+2023-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-01,UK,beaver,beaver,2,2,2
+2023-01,US,mit_tech,mit_tech,2,2,2
+2023-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-02,UK,beaver,beaver,2,2,2
+2023-02,US,mit_tech,mit_tech,13,13,13
+2023-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-03,UK,beaver,beaver,2,2,2
+2023-03,US,mit_tech,mit_tech,12,12,12
+2023-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-04,NZ,otago_daily_times,otago_daily_times,1,1,1
+2023-04,UK,beaver,beaver,2,2,2
+2023-04,US,mit_tech,mit_tech,7,7,7
+2023-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-05,UK,mancunion,mancunion,2,2,2
+2023-05,US,mit_tech,mit_tech,2,2,2
+2023-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-06,UK,mancunion,mancunion,2,2,2
+2023-06,US,mit_tech,mit_tech,2,2,2
+2023-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-07,UK,mancunion,mancunion,2,2,2
+2023-07,US,mit_tech,mit_tech,2,2,2
+2023-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-08,UK,mancunion,mancunion,2,2,2
+2023-08,US,mit_tech,mit_tech,2,2,2
+2023-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-09,UK,mancunion,mancunion,2,2,2
+2023-09,US,mit_tech,mit_tech,2,2,2
+2023-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-10,UK,beaver,beaver,2,2,2
+2023-10,US,mit_tech,mit_tech,2,2,2
+2023-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-11,UK,beaver,beaver,2,2,2
+2023-11,US,mit_tech,mit_tech,2,2,2
+2023-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2023-12,UK,beaver,beaver,2,2,2
+2023-12,US,mit_tech,mit_tech,2,2,2
+2024-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-01,UK,beaver,beaver,2,2,2
+2024-01,US,mit_tech,mit_tech,2,2,2
+2024-02,AU,indaily,indaily,100,97,100
+2024-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-02,UK,beaver,beaver,2,2,2
+2024-02,US,mit_tech,mit_tech,30,30,30
+2024-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-03,UK,beaver,beaver,2,2,2
+2024-03,US,mit_tech,mit_tech,19,19,19
+2024-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-04,UK,beaver,beaver,2,2,2
+2024-04,US,mit_tech,mit_tech,16,16,16
+2024-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-05,UK,beaver,beaver,1,1,1
+2024-05,UK,mancunion,mancunion,1,1,1
+2024-05,US,mit_tech,mit_tech,2,2,2
+2024-06,AU,northern_rivers_times,northern_rivers_regional_media,1,1,1
+2024-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-06,UK,mancunion,mancunion,2,2,2
+2024-06,US,mit_tech,mit_tech,2,2,2
+2024-07,AU,northern_rivers_times,northern_rivers_regional_media,78,78,78
+2024-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-07,US,mit_tech,mit_tech,2,2,2
+2024-08,AU,northern_rivers_times,northern_rivers_regional_media,105,105,105
+2024-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-08,US,mit_tech,mit_tech,2,2,2
+2024-09,AU,northern_rivers_times,northern_rivers_regional_media,2,2,2
+2024-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-09,UK,mancunion,mancunion,2,2,2
+2024-09,US,mit_tech,mit_tech,2,2,2
+2024-10,AU,northern_rivers_times,northern_rivers_regional_media,2,2,2
+2024-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-10,UK,beaver,beaver,2,2,2
+2024-10,US,mit_tech,mit_tech,2,2,2
+2024-11,AU,northern_rivers_times,northern_rivers_regional_media,2,2,2
+2024-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-11,UK,beaver,beaver,2,2,2
+2024-11,US,mit_tech,mit_tech,2,2,2
+2024-12,AU,northern_rivers_times,northern_rivers_regional_media,2,2,2
+2024-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2024-12,UK,beaver,beaver,2,2,2
+2024-12,US,mit_tech,mit_tech,2,2,2
+2025-01,AU,northern_rivers_times,northern_rivers_regional_media,2,2,2
+2025-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-01,UK,beaver,beaver,2,2,2
+2025-01,US,mit_tech,mit_tech,2,2,2
+2025-02,AU,northern_rivers_times,northern_rivers_regional_media,2,2,2
+2025-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-02,UK,beaver,beaver,2,2,2
+2025-02,US,mit_tech,mit_tech,29,29,29
+2025-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-03,UK,beaver,beaver,2,2,2
+2025-03,US,mit_tech,mit_tech,22,22,22
+2025-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-04,UK,beaver,beaver,2,2,2
+2025-04,US,mit_tech,mit_tech,22,22,22
+2025-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-05,UK,beaver,beaver,1,1,1
+2025-05,UK,mancunion,mancunion,1,1,1
+2025-05,US,mit_tech,mit_tech,2,2,2
+2025-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-06,UK,beaver,beaver,2,2,2
+2025-06,US,mit_tech,mit_tech,2,2,2
+2025-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-07,UK,mancunion,mancunion,2,2,2
+2025-07,US,mit_tech,mit_tech,2,2,2
+2025-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-08,UK,beaver,beaver,1,1,1
+2025-08,UK,mancunion,mancunion,1,1,1
+2025-08,US,mit_tech,mit_tech,2,2,2
+2025-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-09,UK,beaver,beaver,2,2,2
+2025-09,US,mit_tech,mit_tech,2,2,2
+2025-10,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-10,NZ,otago_daily_times,otago_daily_times,1,1,1
+2025-10,UK,beaver,beaver,2,2,2
+2025-10,US,mit_tech,mit_tech,2,2,2
+2025-11,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-11,UK,beaver,beaver,2,2,2
+2025-11,US,mit_tech,mit_tech,2,2,2
+2025-12,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2025-12,UK,beaver,beaver,2,2,2
+2025-12,US,mit_tech,mit_tech,2,2,2
+2026-01,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-01,UK,beaver,beaver,2,2,2
+2026-01,US,mit_tech,mit_tech,2,2,2
+2026-02,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-02,UK,beaver,beaver,2,2,2
+2026-02,US,mit_tech,mit_tech,40,40,40
+2026-03,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-03,UK,beaver,beaver,2,2,2
+2026-03,US,mit_tech,mit_tech,29,29,29
+2026-04,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-04,UK,beaver,beaver,2,2,2
+2026-04,US,mit_tech,mit_tech,2,2,2
+2026-05,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-05,UK,mancunion,mancunion,2,2,2
+2026-05,US,mit_tech,mit_tech,2,2,2
+2026-06,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-06,UK,mancunion,mancunion,2,2,2
+2026-06,US,mit_tech,mit_tech,2,2,2
+2026-07,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-07,UK,mancunion,mancunion,2,2,2
+2026-07,US,mit_tech,mit_tech,2,2,2
+2026-08,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-08,UK,mancunion,mancunion,2,2,2
+2026-08,US,mit_tech,mit_tech,2,2,2
+2026-09,EU/Europe excluding UK,trinity_news,trinity_news,2,2,2
+2026-09,UK,mancunion,mancunion,2,2,2
+2026-09,US,mit_tech,mit_tech,2,2,2

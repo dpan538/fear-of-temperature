@@ -1,0 +1,58 @@
+# Social acquisition collection report
+
+Closed snapshot: 2026-10-08T11:18:08.510324+00:00. Native publication interval: **1988-01-01 through 2026-09-21**. September is partial. The task was bounded by the coordinator's fixed deadline; no extension or successor is dispatched. Newspaper/government/reviewer stores were not opened.
+
+## Actual collection and native units
+
+**1,566 distinct native posts, 1,566 retained body versions and eight content sources** were saved and durably Loaded into the separate social SQLite store. The wave records **85/465 pooled months with at least one retained native body**. The remaining 380 bins combine structural inapplicability, missing acquisition and unknown historical source scope; they are not zero public expression. There is no full-archive, national-population or three-role analytical comparability claim.
+
+| Source/frame | Native posts | Observed months | Native creation span |
+| --- | ---: | ---: | --- |
+| se_sustainability | 633 | 60 | 2013-01-29 — 2026-09-21 |
+| python_discourse | 128 | 6 | 2018-09-29 — 2023-02-07 |
+| se_earthscience | 567 | 36 | 2014-04-01 — 2026-05-08 |
+| mastodon_ie | 40 | 1 | 2026-09-21 — 2026-09-21 |
+| mastodon_uk | 40 | 1 | 2026-09-21 — 2026-09-21 |
+| mastodon_au | 40 | 1 | 2026-09-21 — 2026-09-21 |
+| mastodon_us | 35 | 1 | 2026-09-21 — 2026-09-21 |
+| bluesky | 83 | 12 | 2025-10-06 — 2026-09-21 |
+
+The native types total 823 questions, 177 answers, 200 comments, ten forum root posts, 118 forum replies and 238 platform posts. Thread containers, index previews, raw/API pages and repost wrappers are excluded from authored-post counts. The Python source is a global specialist forum. The two Q&A sites are global specialist frames. Four Mastodon communities contribute 40 EU/Irish, 40 UK, 40 AU and 35 US source-frame posts; author country remains unknown. Bluesky contributes 83 posts from its official account, with **institutional** role. The other 1,483 author roles remain **unknown**, pending role evidence. None has been inferred public merely from its carrier.
+
+The package includes 24 candidate parent entries. Each of EU/Europe excluding UK, UK, AU, US and NZ has **three planned source opportunities**: two forums and one Mastodon community. Verified community geography, provisional forum assignments and author-location uncertainty are distinguished in the registry. No NZ bodies were fetched under the instance's explicit external-reuse restriction. Equal opportunities do not imply equal acquired counts, national coverage or automatic sampling weights.
+
+## Interface and source-use findings
+
+The actual anonymous routes returned readable whole question/answer/comment bodies, complete nontruncated topic-native forum posts, public local-instance statuses and native Bluesky AT records. The source-specific API and rights evidence is in `source_registry.csv` and the root JSON registry; actual fields, quota/cursor returns and per-response limits are in `api_return_quality.csv`.
+
+[Stack Exchange licensing](https://stackoverflow.com/help/licensing) is revision-specific. The first 50 questions had **47 exact native licence fields** (46 CC BY-SA 3.0 and one CC BY-SA 4.0), plus **three unknowns**. No exact version was inferred from original creation time. Across the final bodies, licence labels are {"CC BY-NC-SA 3.0": 128, "CC BY-SA 3.0": 672, "CC BY-SA 4.0": 473, "no_open_content_grant_verified": 238, "unknown": 55}. Python's [site terms](https://discuss.python.org/tos) grant CC BY-NC-SA 3.0 for user contributions, which supports this noncommercial research retention but is restricted reuse, not open data. Mastodon/Bluesky public-read and local-snapshot rationale is recorded separately from licensing; they do not receive invented CC labels, and full text/raw are not published.
+
+Mastodon NZ's native rule29 requires author permission for reuse outside the Fediverse. Mumsnet's terms prohibit unlicensed copying/scraping. Boards.ie, MoneySavingExpert, GPForums and City-Data produced preserved 403/429 access stops. English Forum Switzerland refused connection. Geekzone's dedicated about routes did not resolve. Whirlpool's accessible rules and an empty copyright wiki did not establish a documented anonymous post API/retention path; Australian Frequent Flyer's terms do not establish that missing interface. These are named access/API/use limits, not failures to produce fear text. Discourse Meta's known automation prohibition, approval-only Reddit/Meta access and missing YouTube credentials remain exclusions. OSM's map licence does not establish forum-post rights. No accounts, keys, private interfaces or third-party messages were used.
+
+## Structural and provenance quality
+
+The accepted changed-chain check covers native UTC dates, typed identity collision, stable legacy mappings, idempotent rerun, preserved body revisions, URL aliases, unresolved answer-root context and integrity constraints. A real question1/comment1 collision is retained with separate identities. The first 50 question IDs/body versions and first receipt remain intact. Deprecated adapter aliases are explicit mapping history, not extra posts.
+
+The single changed-tranche closeout passed SQLite integrity/foreign-key checks, fixed-interval and required-body checks, original/stored raw digests, body hashes and 1597 observation-to-native-ID/date/body mappings. Later file inspection repaired a quality-table export loop from retained **non-body metadata**, preserving the initial export and original closeout locally; body verification was not repeated. The final quality table has eight source rows totaling 1,566 posts. Live leases/preflight controls remain local; the publication manifest retains final collection totals and output hashes.
+
+The Python chronological index returned **50 truncated previews**. They were not Loaded as complete posts; ten native topic requests supplied 128 complete regular posts/replies. Hidden/nonregular topic objects, unresolved post-number parents and partial thread streams remain explicit. Four Mastodon responses returned 160 native status objects; five repost/non-authored views were excluded, leaving 155 complete public texts. Bluesky views were checked for native authored records, repost reasons and creation dates; two post-cutoff records did not enter the qualified store. Attachments, embedded media and every surrounding reply were not collected.
+
+Three Earth Science native creation dates precede the site's recorded closed-beta day (15 April2014). Native field mapping is verified, but migration/original-source publication history is unresolved. Dates and IDs were retained with the conflict flag. The monthly ledger does not override day-level uncertainty. Native edit/update timestamps can be absent; Discourse `updated_at` is an update field and Bluesky CID is a version identifier, not an edit time. Retrieved bodies, sometimes updated after the study cutoff, are not certified historical versions.
+
+The annual Q&A prefix and initial 2018 forum-topic frontier create genuine acquisition concentration. Mastodon is one near-cutoff source-native snapshot per allowed instance; Bluesky is an official-account prefix. These deterministic frames are not random samples or censuses. Duplicate body-hash groups are reported and retained. No peak was treated as a climate event or removed to flatten the distribution. No climate, topic, emotion or fear labels, embeddings or semantic exclusions were run.
+
+## Calendar and bounded scale directions
+
+`source_month_calendar.csv` supplies **465 bins per candidate**, with source inception, platform lower bounds, era applicability and access status separated. Native Stack Exchange beta metadata supports the two Q&A inception bins; Python's native `about.site_creation_date` is 28 September2018. Mastodon's [official history](https://joinmastodon.org/about) supports October2016 as public platform inception, while each instance's inception remains unknown. Bluesky's [official FAQ](https://bsky.social/about/faq) dates project origin to2019; this conservative lower bound is not an app/actor launch date. Its dated May2023 FAQ is current content retrieved in2026, not a certified historical body. Exact instance/actor denominators therefore remain unestablished.
+
+A future authorized same-stream tranche should prioritize genuine regional everyday-discussion routes and retain the blocked-region opportunity slots. Reopen only a changed access condition or an evidenced documented public route; no silent private/approval bypass. Python's native about snapshot lists 294,703 posts and18,518 topics **at retrieval**, not all eligible pre-cutoff content. Continue its chronological native frontier, request complete post batches for topic-stream IDs beyond the first20 and retain reply mappings; index snippets remain discovery evidence. The two Q&A sites can continue native dated pagination beyond the first30 annual records, partitioning source-time ranges where the anonymous page25 limit applies, without topic filtering or a two-record floor.
+
+For the four allowed Mastodon sources, continue documented `max_id` pagination from saved native cursors and verify creation dates/visibility/whole bodies per operation. Recover exact instance starts and deletion/edit evidence before stronger historical claims. NZ remains stopped unless its source condition changes. Bluesky needs a separately defined ordinary-user/community frame for public-expression coverage; expanding the official account alone cannot supply it. Use documented public native routes and preserve AT URI/CID/root/parent relations. Before later reuse, reconcile deleted/edited platform records and source-specific retention conditions. Public full-text redistribution and model training remain outside this release.
+
+These are directions, not a new download/window/budget authorization or an automatic continuation. Actual pending response, SQLite journal/body and export footprints, other leases and retained cumulative bytes remain necessary. Proposed volumes follow source inventories and recoverable eras, rather than 465 times a coverage floor or a newspaper/government ratio. The source-access/structural stage can support later validated climate-topic work; affect/risk association and fear interpretation remain separate evidence levels.
+
+## Accounting and deliverables
+
+The wave charged **138 transport attempts including probes and six sandbox DNS failures before HTTP**, with **1,671 distinct native objects returned** and no automatic redirects/retries. It stayed within 200 requests,2,000 returned objects,128 MiB social allocation included in shared5,000,000,000 bytes,2 MiB raw default,minimum two-second host spacing,server backoff,15 GiB floor and48 MiB recovery headroom. The lifetime social mutex/shared lock and actual lease/complete-operation preflight were enforced. The final metadata and local objects remain in the already-accounted social envelope; no counter was reset or raw evidence deleted.
+
+The separate store is `worker/social_elt.sqlite3`; recoverable gzip raw, individual receipts and runtime controls remain local. Publication deliverables are the acquisition modules, source/schema documentation, this report and consolidated tables/manifests. `native_posts_manifest.csv` contains body/version/source hashes and links without full text; `responses_manifest.csv` consolidates raw provenance. Source/quality/API-return, identity/URL/context, regional and calendar tables retain the stated limits. Necessary decisions and summary can be incorporated by the coordinating writer into the English shared log; this worker has not edited shared logs or Git.

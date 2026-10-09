@@ -1,0 +1,25 @@
+source_id,full_calendar_months,verified_source_inception,applicable_source_months,observed_text_months,platform_possible_months,earliest_saved_post_month,latest_saved_post_month,historical_scope
+se_sustainability,465,2013-01-29T19:00:00+00:00,165,60,unknown,2013-01,2026-09,launch metadata pending; anonymous page ceiling25; deleted/private posts unavailable
+se_earthscience,465,2014-04-15T19:00:00+00:00,150,36,unknown,2014-04,2026-05,launch metadata pending; anonymous page ceiling25; deleted/private posts unavailable
+python_discourse,465,2018-09-28T16:14:57.045Z,97,6,unknown,2018-09,2023-02,forum-specific start unresolved; current visible native posts do not certify history
+boards_ie,465,,unknown,0,unknown,,,unknown; no bodies acquired
+englishforum_ch,465,,unknown,0,unknown,,,unknown; no bodies acquired
+mumsnet,465,,unknown,0,unknown,,,unknown; no bodies acquired
+moneysavingexpert,465,,unknown,0,unknown,,,unknown; no bodies acquired
+whirlpool_au,465,,unknown,0,unknown,,,unknown; no bodies acquired
+australianfrequentflyer,465,,unknown,0,unknown,,,unknown; no bodies acquired
+straight_dope,465,,unknown,0,unknown,,,unknown; no bodies acquired
+citydata_us,465,,unknown,0,unknown,,,unknown; no bodies acquired
+geekzone_nz,465,,unknown,0,unknown,,,unknown; no bodies acquired
+gpforums_nz,465,,unknown,0,unknown,,,unknown; no bodies acquired
+mastodon_ie,465,,unknown,1,120,2026-09,2026-09,Instance start/history unknown; not full network or national coverage
+mastodon_uk,465,,unknown,1,120,2026-09,2026-09,Instance start/history unknown; not full network or national coverage
+mastodon_au,465,,unknown,1,120,2026-09,2026-09,Instance start/history unknown; not full network or national coverage
+mastodon_us,465,,unknown,1,120,2026-09,2026-09,Instance start/history unknown; not full network or national coverage
+mastodon_nz,465,,unknown,0,120,,,Instance start/history unknown; not full network or national coverage
+osm_discourse,465,,unknown,0,unknown,,,unknown_or_access_unavailable
+bluesky,465,,unknown,12,93,2025-10,2026-09,unknown_or_access_unavailable
+discourse_meta,465,,unknown,0,unknown,,,unknown_or_access_unavailable
+reddit,465,,unknown,0,unknown,,,unknown_or_access_unavailable
+meta_platforms,465,,unknown,0,unknown,,,unknown_or_access_unavailable
+youtube,465,,unknown,0,unknown,,,unknown_or_access_unavailable

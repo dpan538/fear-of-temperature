@@ -137,3 +137,12 @@ work_packages/M1_source_access/27_newspaper_context_recovery_20261008/**/control
 *.sqlite3-journal
 *.sqlite3-wal
 *.sqlite3-shm
+
+# Closed media acquisition runtime trees: preserve local evidence and avoid
+# scanning queues/checkpoints/individual receipts. Existing tracked historical
+# files remain tracked; the coordinator explicitly selects final code/tables.
+/work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/
+/work_packages/M1_source_access/26_newspaper_production_collection_20261006/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/worker/

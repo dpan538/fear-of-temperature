@@ -2,6 +2,8 @@
 
 Recorded: 8 October 2026. This contract documents the continuing newspaper and newly authorized social acquisition streams. It preserves prior frozen inputs and does not revise the submitted proposal. It is an acquisition/source/schema specification, not a claim that candidate APIs have already returned qualified content.
 
+Updated 9 October: the [coordinated collection review](../../work_packages/M1_source_access/27_newspaper_context_recovery_20261008/review_20261009/README.md) supplies actual API returns, current frame counts and the final manifests. Student titles are now a distinct campus-publication subframe on the social/public-expression side, excluded from newspaper coverage; their native article units and uncertain discourse roles remain. No physical store merge or historical snapshot rewrite occurs.
+
 ## Public access and source evidence
 
 Use genuinely public, documented, source-verifiable read interfaces. Newspaper acquisition may also use accepted native publisher/archive pages. Private or undocumented interfaces, unknown-origin datasets, login bypass and unavailable approval-only routes are excluded. A documented API requiring an ordinary API key is not inherently a private API; this release nevertheless has no supplied keys/accounts and cannot claim such a route is available.
@@ -17,13 +19,14 @@ Record these dimensions independently:
 | Redistribution | Full text, metadata/links/aggregates only, conditional or unresolved; collection does not automatically authorize publication |
 | Provenance | Native ID, source URL, source/frame, creation date, retrieval time, body/version hashes and identity/date/content mapping status |
 
-An open API, open-source server software and open-content licensing are different properties. The [Open Definition](https://opendefinition.org/od/2.1/en/) requires rights to use, modify and share the work; public visibility alone is insufficient. Dai's operational priority is reachable and verifiable public sources, with rights recorded independently. Do not describe all retained newspaper or public-platform text as an openly licensed corpus. Keep raw/full text local when redistribution is unconfirmed or restricted. If collection or retention itself is prohibited or unconfirmed, retain the source/access issue rather than silently fetching bodies.
+An open API, open-source server software and open-content licensing are different properties. The [Open Definition](https://opendefinition.org/od/2.1/en/) requires rights to use, modify and share the work; public visibility alone is insufficient. Dai's operational priority is reachable and verifiable public sources, with rights recorded independently. Do not describe all retained newspaper or public-platform text as an openly licensed corpus. Keep raw/full text local when redistribution is unconfirmed or restricted. An absent open-content grant alone is not a private-source finding or generic collection veto. Preserve concrete collection/retention prohibitions, source-specific unresolved conditions and missing required approvals; assess the actual source condition rather than substitute a blanket licence gate.
 
 ## Stream and unit boundary
 
 | Source subtype | Native retained unit | Boundary and limitation |
 | --- | --- | --- |
 | Newspaper publisher or eligible archive | Complete independently published article | A page, issue PDF, OCR component or model passage is not an article. Reconstruct continuation pages into one article with provenance. |
+| Campus publication, including the four reassigned student titles | Complete independently published campus article | Separate social/public-expression-side subframe; not newspaper coverage and not a native forum/platform post. Editorial role and individual author role remain distinct. |
 | Public discussion forum | Authored post or reply | A topic is a context container. Its snapshot is not an extra post; preserve root/reply relations and unresolved context. |
 | Public question-and-answer community | Question, answer or comment, separately typed | Specialist participation and site/topic scope are explicit; it cannot represent the general population. |
 | Public social platform | Native authored post or long-form post | Preserve quotation/repost/context relations. A repost wrapper is not a newly authored independent body. |
@@ -42,7 +45,7 @@ An exact body overlap is evidence for a duplicate, version or syndication review
 
 ## Calendar, distribution and observed source frame
 
-Both streams retain the fixed publication interval **1988-01-01 through 2026-09-21**. September 2026 is partial. The newspaper ledger has 465 months plus five disjoint EU/Europe excluding UK, UK, AU, US and NZ strata. Two complete independent articles per claimed month is the lower bound. Retain eligible surplus and continue released native inventories after a month reaches two.
+Both streams retain the fixed publication interval **1988-01-01 through 2026-09-21**. September 2026 is partial. The newspaper ledger has 465 months plus five disjoint EU/Europe excluding UK, UK, AU, US and NZ strata. Two complete independent articles per claimed month is the lower bound. Retain eligible surplus and continue released native inventories after a month reaches two. Future newspaper writing has no article-count ceiling by month/source/stratum; historical counters remain recorded. Resource/source/discovery/PDF limits and fixed execution releases remain. Flag high-count months against their preceding and following three publication months without blocking retention, requiring periodicity, smoothing or downsampling. Incomplete boundary context stays explicit; a flag does not establish an event or an extraction error.
 
 Newspaper distribution reporting includes month, title/source, concrete country/edition, genre, native article ID, canonical URL, known work family, versions and pending dispositions. Distinguish a genuine high-volume source/period from pagination multiplication, duplicate URLs, mirrored works, attachment splitting or date errors using source/index evidence. Preserve legitimate concentration. A source-opportunity sample or a partially consumed inventory is not a census; unknown population counts do not yield invented sampling probabilities. Equal planned regional effort does not require equal observed counts or justify shifting blocked-stratum opportunities elsewhere.
 

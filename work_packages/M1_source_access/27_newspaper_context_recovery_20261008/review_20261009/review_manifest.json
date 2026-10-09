@@ -1,0 +1,384 @@
+{
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "frozen_native_articles": 12334,
+  "frozen_floor_months": 429,
+  "frozen_deficient_months": 36,
+  "current_newspaper_IDs": 3085,
+  "campus_publication_IDs": 9249,
+  "current_newspaper_floor_months": 262,
+  "current_newspaper_one_months": 18,
+  "current_newspaper_zero_months": 185,
+  "social_native_posts": 1566,
+  "social_months": 85,
+  "source_and_frame_counts": [
+    {
+      "source_id": "beaver",
+      "title": "The Beaver",
+      "analysis_frame": "campus_publication",
+      "native_article_IDs": 1815,
+      "known_work_families": 1814,
+      "first_observed_date": "2014-10-22",
+      "last_observed_date": "2026-04-14",
+      "observed_months": 113,
+      "stratum": "UK",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Dai 9 October campus-publication reassignment"
+    },
+    {
+      "source_id": "devonport_flagstaff",
+      "title": "The Devonport Flagstaff",
+      "analysis_frame": "newspaper",
+      "native_article_IDs": 335,
+      "known_work_families": 335,
+      "first_observed_date": "2017-06-30",
+      "last_observed_date": "2021-04-07",
+      "observed_months": 39,
+      "stratum": "NZ",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Retained evidenced non-student newspaper frame; specialist/advocacy limits remain"
+    },
+    {
+      "source_id": "financial_mirror",
+      "title": "Financial Mirror",
+      "analysis_frame": "newspaper",
+      "native_article_IDs": 165,
+      "known_work_families": 162,
+      "first_observed_date": "1999-11-29",
+      "last_observed_date": "2005-08-01",
+      "observed_months": 14,
+      "stratum": "EU/Europe excluding UK",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Retained evidenced non-student newspaper frame; specialist/advocacy limits remain"
+    },
+    {
+      "source_id": "green_left",
+      "title": "Green Left Weekly / Green Left",
+      "analysis_frame": "newspaper",
+      "native_article_IDs": 1205,
+      "known_work_families": 1205,
+      "first_observed_date": "1991-02-18",
+      "last_observed_date": "2004-02-04",
+      "observed_months": 155,
+      "stratum": "AU",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Retained evidenced non-student newspaper frame; specialist/advocacy limits remain"
+    },
+    {
+      "source_id": "indaily",
+      "title": "InDaily",
+      "analysis_frame": "newspaper",
+      "native_article_IDs": 796,
+      "known_work_families": 792,
+      "first_observed_date": "2013-07-19",
+      "last_observed_date": "2024-02-20",
+      "observed_months": 10,
+      "stratum": "AU",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Retained evidenced non-student newspaper frame; specialist/advocacy limits remain"
+    },
+    {
+      "source_id": "mancunion",
+      "title": "The Mancunion",
+      "analysis_frame": "campus_publication",
+      "native_article_IDs": 1708,
+      "known_work_families": 1707,
+      "first_observed_date": "2010-10-25",
+      "last_observed_date": "2026-09-21",
+      "observed_months": 93,
+      "stratum": "UK",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Dai 9 October campus-publication reassignment"
+    },
+    {
+      "source_id": "mit_tech",
+      "title": "The Tech",
+      "analysis_frame": "campus_publication",
+      "native_article_IDs": 2440,
+      "known_work_families": 2440,
+      "first_observed_date": "1988-01-27",
+      "last_observed_date": "2026-09-10",
+      "observed_months": 262,
+      "stratum": "US",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Dai 9 October campus-publication reassignment"
+    },
+    {
+      "source_id": "montpelier_bridge",
+      "title": "The Bridge",
+      "analysis_frame": "newspaper",
+      "native_article_IDs": 308,
+      "known_work_families": 307,
+      "first_observed_date": "2012-02-02",
+      "last_observed_date": "2014-10-24",
+      "observed_months": 32,
+      "stratum": "US",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Retained evidenced non-student newspaper frame; specialist/advocacy limits remain"
+    },
+    {
+      "source_id": "northern_rivers_times",
+      "title": "The Northern Rivers Times",
+      "analysis_frame": "newspaper",
+      "native_article_IDs": 196,
+      "known_work_families": 196,
+      "first_observed_date": "2024-06-07",
+      "last_observed_date": "2025-02-05",
+      "observed_months": 9,
+      "stratum": "AU",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Retained evidenced non-student newspaper frame; specialist/advocacy limits remain"
+    },
+    {
+      "source_id": "otago_daily_times",
+      "title": "Otago Daily Times",
+      "analysis_frame": "newspaper",
+      "native_article_IDs": 80,
+      "known_work_families": 80,
+      "first_observed_date": "2008-02-11",
+      "last_observed_date": "2025-10-24",
+      "observed_months": 29,
+      "stratum": "NZ",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Retained evidenced non-student newspaper frame; specialist/advocacy limits remain"
+    },
+    {
+      "source_id": "trinity_news",
+      "title": "Trinity News",
+      "analysis_frame": "campus_publication",
+      "native_article_IDs": 3286,
+      "known_work_families": 3281,
+      "first_observed_date": "2008-09-12",
+      "last_observed_date": "2026-09-03",
+      "observed_months": 199,
+      "stratum": "EU/Europe excluding UK",
+      "discourse_role": "editorial_or_author_specific_unresolved",
+      "classification_basis": "Dai 9 October campus-publication reassignment"
+    }
+  ],
+  "isolated_high_flags": 17,
+  "all_articles_preserved": true,
+  "stores_changed": false,
+  "full_body_or_raw_sweep": false,
+  "accepted_collector_checks_reused": true,
+  "metadata_hash_reconciliation_passed": true,
+  "verified_metadata_files": [
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/DELIVERY_REPORT.md",
+      "sha256": "02afe395ecd646bde70dfcc59202ba5637965a4b7ea52e1f6b308987c40ba053",
+      "bytes": 6665
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/DELIVERY_SUMMARY.json",
+      "sha256": "7cbdd84551dfda52617a5ceb7362cf38b025469b8eae0956e06d352067812cd0",
+      "bytes": 22465
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/CUMULATIVE_ARTICLE_REGISTER.csv",
+      "sha256": "7c034ce47c1e3e518363c39af3fcb2ef6d106921c31d2e68c2dced9c6d7f6ad9",
+      "bytes": 23642021
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/SOURCE_FRONTIER_REGISTER.csv",
+      "sha256": "d9b8bfde23cff819bbb71d224227a0d7a109eb71577018a0f6379005c4f605f4",
+      "bytes": 2832
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/SOURCE_PARENT_IDENTITY_REGISTER.csv",
+      "sha256": "d1f827cad98bdcdde7a95786df6f4cb5ef48c33108839cbee5caa26fa94a93d0",
+      "bytes": 1391
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/MONTH_SOURCE_PARENT_DISTRIBUTION.csv",
+      "sha256": "07dd6bdb476d26c09d696bf229856f41f4df2f9f3208a17bb1883219cf925e4f",
+      "bytes": 44486
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/MONTH_SOURCE_GENRE_DISTRIBUTION.csv",
+      "sha256": "53eb59de6eb2f80d8c0b5109da329d2c2a592d52bb1551c1b2675a579def5618",
+      "bytes": 109525
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/ARTICLE_URL_ALIAS_REGISTER.csv",
+      "sha256": "9b59ca5419c737bcd3f832cfccdbb3b84dc46a73bde88e7697f5c719ed384f0a",
+      "bytes": 4034665
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/ARTICLE_VERSION_REGISTER.csv",
+      "sha256": "b136d5671849c46a269876fe75390966551c11d90ed3c2c2f51c7e64c2a65477",
+      "bytes": 7160658
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/EXACT_BODY_OVERLAP_REVIEW_REGISTER.csv",
+      "sha256": "ec9ca15e37912a66049cc65c8b81403c55589ee79dad72cafb5a7e25dac3305b",
+      "bytes": 11072
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/PROVENANCE_AND_VERIFICATION_REGISTER.csv",
+      "sha256": "8ec6621e45be5a090a5ad03582723d829adb26ce65c0911cde424559777253d5",
+      "bytes": 9079594
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/NEW_PENDING_OR_COMPONENT_REGISTER.csv",
+      "sha256": "3be431de7dab9085e45567ed68b75b89db3b2a6ec16d15437842326d0656c441",
+      "bytes": 73158
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/RETAINED_DISPOSITION_REGISTER.csv",
+      "sha256": "3fb938e251a6f6df00a2f1eaf79f1cd6d140bb49d13eb0bb30b5bc9913dd6ffe",
+      "bytes": 15287
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/HOST_STOP_REGISTER.csv",
+      "sha256": "770ad8945cf19f84d7236f9c599010c4b0774b51970d6a655acd9bb2c7c9fde5",
+      "bytes": 2525
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/coverage/MONTHLY_AU.csv",
+      "sha256": "bf2b1e670ec81d7670ee22317f508786347510a559ef29d3e71107f78fa3ab82",
+      "bytes": 14001
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/coverage/MONTHLY_EU_Europe_excluding_UK.csv",
+      "sha256": "409d6843e1c9860b3368cd638e87261c957c6ef8cb67b856165b449b036564b1",
+      "bytes": 23329
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/coverage/MONTHLY_NZ.csv",
+      "sha256": "36027ea05df7deebf2c610832e5920ec7c6eecfce8b200303748b2dd54d38487",
+      "bytes": 14080
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/coverage/MONTHLY_UK.csv",
+      "sha256": "f36304b4c47194238283d57b7e0cee03ec3181b3fa10e18fd1ae1c357493baed",
+      "bytes": 14047
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/coverage/MONTHLY_US.csv",
+      "sha256": "b3c28845d4f53ab20c09944d3a81d08c32c3775946996063d65e563f460d2f2f",
+      "bytes": 13980
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261008_global_distribution/worker/coverage/MONTHLY_pooled.csv",
+      "sha256": "e4550ef35a60df9978a00307178479305a3c267e2b146fd722c5c874979643fb",
+      "bytes": 15961
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/native_posts_manifest.csv",
+      "sha256": "c50805045a2822923e4e30a2f55a4be1402dab72b96d79915df1d4b259955d5d",
+      "bytes": 1428060
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/responses_manifest.csv",
+      "sha256": "5f85e51e006ab093d5456027076ea2c07e4f4afa89541affb299e1d292aebbb6",
+      "bytes": 24333
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/source_registry.csv",
+      "sha256": "9d27be620cda5e8d16686b5d09cb6c4592ecd3d82c61c2ca2883fb9302694a5b",
+      "bytes": 16614
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/quality_by_source.csv",
+      "sha256": "3d58167cb031e30ebf62b467ca558a79da8ec86312b02e524e9e69d87c34ff7a",
+      "bytes": 2532
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/api_return_quality.csv",
+      "sha256": "81b8b77480d111c77721ff3a1feb8bc27b04c2d1e729c0235058cfbfef8fce17",
+      "bytes": 27130
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/source_month_calendar.csv",
+      "sha256": "ec1ee48d0a4e1b573649e0fdcb99e8470d378384424465242c1b5ecb7b818d1a",
+      "bytes": 1266469
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/source_era_summary.csv",
+      "sha256": "ed52fc8cb38e6374a6abea39d89a1634f13d74f957f49136f8cb5481a9bf898a",
+      "bytes": 2353
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/pooled_month_counts.csv",
+      "sha256": "f92a3b580a4716d3b785867276db9442dd6ac04742f1d01d7d5ed9a78789780f",
+      "bytes": 16485
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/regional_opportunities.csv",
+      "sha256": "6577daa7e2c83dc5b7b8863c7d4acd863fe71b26b80495c737c91dfba09eb887",
+      "bytes": 174
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/native_identity_map.csv",
+      "sha256": "4751a0e1e320b259a97793b2220f7993b5b2bf18c2933f627b91a0bdce7ed6a2",
+      "bytes": 207425
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/source_url_aliases.csv",
+      "sha256": "53c4957e32cb7f2a282a437b5403e4233cc6473a2c4af84126f71cab60f2d0af",
+      "bytes": 279335
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/resolved_parent_context.csv",
+      "sha256": "2d39885a551359076c49afa152487b7c73c7a9eb93e87f5e39a85ecbcc134729",
+      "bytes": 22847
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/COLLECTION_REPORT.md",
+      "sha256": "7ed0f46985ecf545e6d33fcfcc8d64f3c9bbd712e3b68108e82ff12075b3812d",
+      "bytes": 11663
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/README.md",
+      "sha256": "c045080eca16cb3c00928d02ef2c5a967b9f94cd8d76aee5ee4a44c440185df4",
+      "bytes": 5648
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/NATIVE_SCHEMA.md",
+      "sha256": "54d772b5ae66cd1cdcff157400bb6dbd68cd0842bc4f3f5c56a01bb2e2eaeee0",
+      "bytes": 6476
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/source_registry.json",
+      "sha256": "834d4f7100e3f529fcfc9acbcb3ce9c23bcca40cb1b28bc6ee5aa2490e20bb96",
+      "bytes": 112174
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/summaries/transport_manifest.csv",
+      "sha256": "dd25f248ec897d9eb8c58f9bc403ab457c57ffec653d6bc2b72710b260f71f8b",
+      "bytes": 69605
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/code/collect_wave.py",
+      "sha256": "138e198cef139d52bf01d907d85b90e1a2e78acf18fafdcb8290635d459d4d6a",
+      "bytes": 4450
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/code/schema.sql",
+      "sha256": "daea9eafb3caee782b840c8a1694fd163d58c7230f83d96fd64e6b99cb04fd48",
+      "bytes": 2233
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/code/collect_platforms.py",
+      "sha256": "04a2a3c0b2c7c59cc929f45c7f9c841e82cae5d802f276e2be215208fbb33c3c",
+      "bytes": 2939
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/code/check_pipeline.py",
+      "sha256": "15705f350637f99a636baffda56af289f912fb62eb464fec163a903e012df8b9",
+      "bytes": 3248
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/code/social_elt.py",
+      "sha256": "478e3335a8df82ac3efe81e08618644e045d51a1038f484a45308c20baf200f7",
+      "bytes": 27262
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/code/closeout.py",
+      "sha256": "e756660ecd53cdf0a18a1fbf2a1e936b06f224a1cd7c5a4f03f27bd3dbc891c9",
+      "bytes": 16052
+    }
+  ]
+}

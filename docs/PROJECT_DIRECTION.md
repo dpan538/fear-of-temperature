@@ -1,6 +1,12 @@
 # Current project direction and execution priorities
 
-Updated: 8 October 2026. Governing development brief following Dai's explicit clarifications. It supersedes conflicting acquisition and stage priorities in older handoffs; frozen source filters and historical evidence retain their original meaning.
+Updated: 9 October 2026. Governing development brief following Dai's explicit clarifications. It supersedes conflicting acquisition and stage priorities in older handoffs; frozen source filters and historical evidence retain their original meaning.
+
+## Latest source-frame and distribution decision
+
+Dai excludes student newspapers from the current newspaper frame. The Tech, Trinity News, Beaver and Mancunion retain their 9,249 article identities and versions as a distinct campus-publication subframe on the social/public-expression side. Their editorial articles are not renamed native social posts and authors are not automatically assigned public roles. The frozen 12,334-article/429-month collector snapshot remains historical evidence; the revised newspaper view contains **3,085 articles, 262/465 months at the two-known-work floor, 18 one-work months and 185 zero-work months**. See the [9 October coordinated review](../work_packages/M1_source_access/27_newspaper_context_recovery_20261008/review_20261009/README.md), including all 203 current gaps and the original 36-month diagnosis. Physical stores and frozen source reports are preserved.
+
+Future newspaper writing has no article-count quota by month, source or stratum. Existing byte/physical safeguards, actual source restrictions, discovery/parent/PDF limits and fixed execution releases remain. The preceding and following three publication months provide descriptive context for high-count flags; a flag never blocks retention. Nonperiodic bursts are permitted, and neither periodicity nor a smooth distribution is required. Current acquired counts must not be treated as the natural newspaper-population distribution. No expired collection scope was revived by this clarification.
 
 ## Research objective
 

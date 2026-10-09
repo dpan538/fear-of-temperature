@@ -1,0 +1,181 @@
+{
+  "snapshot_at": "2026-10-08T11:18:08.510324+00:00",
+  "closed": true,
+  "native_posts": 1566,
+  "body_versions": 1566,
+  "sources_with_actual_bodies": 8,
+  "observed_pooled_months": 85,
+  "full_calendar_months": 465,
+  "by_source": {
+    "se_sustainability": 633,
+    "python_discourse": 128,
+    "se_earthscience": 567,
+    "mastodon_ie": 40,
+    "mastodon_uk": 40,
+    "mastodon_au": 40,
+    "mastodon_us": 35,
+    "bluesky": 83
+  },
+  "requests_charged": 138,
+  "distinct_native_objects_returned": 1671,
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "structural_checks_passed": true,
+  "accepted_pipeline_check": "worker/PIPELINE_CHECK_IDENTITY.json",
+  "actual_namespace_collision": "worker/ACTUAL_NUMERIC_NAMESPACE_COLLISION.json",
+  "first_50_IDs_versions_preserved": true,
+  "first_50_native_license_fields_present": 47,
+  "first_50_license_version_unknown": 3,
+  "region_opportunities": [
+    {
+      "stratum": "EU",
+      "planned_parents": 3,
+      "actual_native_posts": 40,
+      "actual_body_sources": 1,
+      "author_country_inference": false
+    },
+    {
+      "stratum": "UK",
+      "planned_parents": 3,
+      "actual_native_posts": 40,
+      "actual_body_sources": 1,
+      "author_country_inference": false
+    },
+    {
+      "stratum": "AU",
+      "planned_parents": 3,
+      "actual_native_posts": 40,
+      "actual_body_sources": 1,
+      "author_country_inference": false
+    },
+    {
+      "stratum": "US",
+      "planned_parents": 3,
+      "actual_native_posts": 35,
+      "actual_body_sources": 1,
+      "author_country_inference": false
+    },
+    {
+      "stratum": "NZ",
+      "planned_parents": 3,
+      "actual_native_posts": 0,
+      "actual_body_sources": 0,
+      "author_country_inference": false
+    }
+  ],
+  "raw_body_mapping_checks": 1597,
+  "checks_scope": "only this social wave; no other store or predecessor corpus opened",
+  "outputs": {
+    "summaries/native_posts_manifest.csv": {
+      "sha256": "c50805045a2822923e4e30a2f55a4be1402dab72b96d79915df1d4b259955d5d",
+      "bytes": 1428060
+    },
+    "summaries/responses_manifest.csv": {
+      "sha256": "5f85e51e006ab093d5456027076ea2c07e4f4afa89541affb299e1d292aebbb6",
+      "bytes": 24333
+    },
+    "summaries/source_registry.csv": {
+      "sha256": "9d27be620cda5e8d16686b5d09cb6c4592ecd3d82c61c2ca2883fb9302694a5b",
+      "bytes": 16614
+    },
+    "summaries/quality_by_source.csv": {
+      "sha256": "3d58167cb031e30ebf62b467ca558a79da8ec86312b02e524e9e69d87c34ff7a",
+      "bytes": 2532
+    },
+    "summaries/api_return_quality.csv": {
+      "sha256": "81b8b77480d111c77721ff3a1feb8bc27b04c2d1e729c0235058cfbfef8fce17",
+      "bytes": 27130
+    },
+    "summaries/source_month_calendar.csv": {
+      "sha256": "ec1ee48d0a4e1b573649e0fdcb99e8470d378384424465242c1b5ecb7b818d1a",
+      "bytes": 1266469
+    },
+    "summaries/source_era_summary.csv": {
+      "sha256": "ed52fc8cb38e6374a6abea39d89a1634f13d74f957f49136f8cb5481a9bf898a",
+      "bytes": 2353
+    },
+    "summaries/pooled_month_counts.csv": {
+      "sha256": "f92a3b580a4716d3b785867276db9442dd6ac04742f1d01d7d5ed9a78789780f",
+      "bytes": 16485
+    },
+    "summaries/regional_opportunities.csv": {
+      "sha256": "6577daa7e2c83dc5b7b8863c7d4acd863fe71b26b80495c737c91dfba09eb887",
+      "bytes": 174
+    },
+    "summaries/native_identity_map.csv": {
+      "sha256": "4751a0e1e320b259a97793b2220f7993b5b2bf18c2933f627b91a0bdce7ed6a2",
+      "bytes": 207425
+    },
+    "summaries/source_url_aliases.csv": {
+      "sha256": "53c4957e32cb7f2a282a437b5403e4233cc6473a2c4af84126f71cab60f2d0af",
+      "bytes": 279335
+    },
+    "summaries/resolved_parent_context.csv": {
+      "sha256": "2d39885a551359076c49afa152487b7c73c7a9eb93e87f5e39a85ecbcc134729",
+      "bytes": 22847
+    },
+    "summaries/COLLECTION_REPORT.md": {
+      "sha256": "7ed0f46985ecf545e6d33fcfcc8d64f3c9bbd712e3b68108e82ff12075b3812d",
+      "bytes": 11663
+    },
+    "README.md": {
+      "sha256": "c045080eca16cb3c00928d02ef2c5a967b9f94cd8d76aee5ee4a44c440185df4",
+      "bytes": 5648
+    },
+    "NATIVE_SCHEMA.md": {
+      "sha256": "54d772b5ae66cd1cdcff157400bb6dbd68cd0842bc4f3f5c56a01bb2e2eaeee0",
+      "bytes": 6476
+    },
+    "source_registry.json": {
+      "sha256": "834d4f7100e3f529fcfc9acbcb3ce9c23bcca40cb1b28bc6ee5aa2490e20bb96",
+      "bytes": 112174
+    },
+    "summaries/transport_manifest.csv": {
+      "sha256": "dd25f248ec897d9eb8c58f9bc403ab457c57ffec653d6bc2b72710b260f71f8b",
+      "bytes": 69605
+    }
+  },
+  "publication_manifest_finalized_at": "2026-10-08T11:21:31.672763+00:00",
+  "quality_export_rows": 8,
+  "metadata_export_repair": "Quality loop corrected from retained non-body metadata; accepted raw/body/identity/date verification not repeated; original export and closed receipt preserved locally.",
+  "resource_consumption": {
+    "social_allocated_bytes": 134217728,
+    "shared_media_cap_bytes": 5000000000,
+    "social_bytes_at_changed_tranche_close": 10692068,
+    "charged_transport_attempts": 138,
+    "charged_pre_HTTP_DNS_failures": 6,
+    "source_redirects_are_separately_charged": true
+  },
+  "implementation": {
+    "code/collect_wave.py": {
+      "sha256": "138e198cef139d52bf01d907d85b90e1a2e78acf18fafdcb8290635d459d4d6a",
+      "bytes": 4450
+    },
+    "code/schema.sql": {
+      "sha256": "daea9eafb3caee782b840c8a1694fd163d58c7230f83d96fd64e6b99cb04fd48",
+      "bytes": 2233
+    },
+    "code/collect_platforms.py": {
+      "sha256": "04a2a3c0b2c7c59cc929f45c7f9c841e82cae5d802f276e2be215208fbb33c3c",
+      "bytes": 2939
+    },
+    "code/check_pipeline.py": {
+      "sha256": "15705f350637f99a636baffda56af289f912fb62eb464fec163a903e012df8b9",
+      "bytes": 3248
+    },
+    "code/social_elt.py": {
+      "sha256": "478e3335a8df82ac3efe81e08618644e045d51a1038f484a45308c20baf200f7",
+      "bytes": 27262
+    },
+    "code/closeout.py": {
+      "sha256": "e756660ecd53cdf0a18a1fbf2a1e936b06f224a1cd7c5a4f03f27bd3dbc891c9",
+      "bytes": 16052
+    }
+  },
+  "final_social_envelope_bytes_before_manifest_refresh": 14128914,
+  "output_path_resolution": "All paths relative to social stream root",
+  "final_transport_manifest_rows": 138,
+  "final_metadata_consistency_passed": true
+}

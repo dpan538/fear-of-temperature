@@ -1,0 +1,18 @@
+series,month,native_IDs,preceding_months,following_months,preceding_sum,following_sum,neighbor_max,neighbor_median,ratio_to_max_or_one,full_six_month_context,context_includes_partial_cutoff_month,isolated_high_screen,action,interpretation
+newspaper:pooled,1993-11,72,3,3,6,6,2,2.0,36.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:pooled,2013-07,101,3,3,7,4,3,2.0,33.6667,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:pooled,2016-04,100,3,3,0,0,0,0.0,100.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:pooled,2018-02,94,3,3,13,28,11,8.5,8.5455,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:pooled,2020-07,119,3,3,30,29,11,10.0,10.8182,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:pooled,2022-06,96,3,3,0,1,1,0.0,96.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:pooled,2024-02,100,3,3,0,0,0,0.0,100.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:indaily,2013-07,100,3,3,0,0,0,0.0,100.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:indaily,2014-11,100,3,3,0,0,0,0.0,100.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:indaily,2016-04,100,3,3,0,0,0,0.0,100.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:indaily,2018-02,94,3,3,0,6,6,0.0,15.6667,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:indaily,2020-07,100,3,3,0,0,0,0.0,100.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:indaily,2022-06,96,3,3,0,0,0,0.0,96.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:indaily,2024-02,100,3,3,0,0,0,0.0,100.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+campus_publication:trinity_news,2012-11,33,3,3,8,10,6,2.5,5.5,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+campus_publication:beaver,2017-03,38,3,3,8,3,7,1.0,5.4286,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
+newspaper:green_left,1993-11,72,3,3,6,6,2,2.0,36.0,True,False,True,retain_and_flag,Observed acquisition count; no event or population claim
