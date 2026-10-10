@@ -1,0 +1,23 @@
+{
+  "at_utc": "2026-10-10T15:47:15.921339+00:00",
+  "all_passed": true,
+  "progress_capacity_call_under_shared_heavy_IO_lock": true,
+  "same_deadline_preserved": true,
+  "compiled_changed_code": true,
+  "actual_locked_preflight": {
+    "at_utc": "2026-10-10T15:47:15.918795+00:00",
+    "free_bytes": 46755430400,
+    "cumulative_bytes": 17106773496,
+    "cap_bytes": 30000000000,
+    "physical_floor_bytes": 16106127360,
+    "recovery_allowance_bytes": 50331648,
+    "own_lease_bytes": 8388608,
+    "other_lease_bytes": 8388608,
+    "actual_pending_footprint_bytes": 35672555,
+    "effective_pending_and_leases_bytes": 44126699,
+    "physical_headroom": 30554844693,
+    "allocation_headroom": 12849099805
+  },
+  "prior_code_archived": "runtime_bindings/53990_after_native_capacity_scan_race/",
+  "native_response_cursor_repair_actual_receipt": "71f7015b0663241c9929ece9"
+}

@@ -1,0 +1,10 @@
+stream,proposed_frame_component,candidate_title_or_forum_communities,candidate_bodies,state,next_requirement,equal_category_output_quota
+newspaper,national_general,0,0,no_named_candidate_identified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+newspaper,regional_local_general,10,17211,presence_only_depth_and_parents_unverified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+social,general_discussion,3,34750,presence_only_depth_and_parents_unverified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+social,local_civic,0,0,no_named_candidate_identified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+social,household_consumer,0,0,no_named_candidate_identified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+social,travel_transport,0,0,no_named_candidate_identified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+social,outdoor,0,0,no_named_candidate_identified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+social,culture_hobbies,1,350,presence_only_depth_and_parents_unverified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False
+social,technical_scientific,5,48506,presence_only_depth_and_parents_unverified,Verify source/era identity and native archive inventory; use inverse requirements for any declared category-specific inference,False

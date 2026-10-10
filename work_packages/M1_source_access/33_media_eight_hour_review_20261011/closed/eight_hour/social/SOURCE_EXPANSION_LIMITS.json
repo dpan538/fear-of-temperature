@@ -1,0 +1,132 @@
+{
+  "lettucecraft": {
+    "status": "automation_prohibited; no body acquisition",
+    "terms_receipt": "22b8269a7072fbdcee2643e6",
+    "specific_rule": "No automated access or monitoring except public search-engine indexing; this corpus is not that exception."
+  },
+  "fic_forum": {
+    "status": "anonymous native identity and chronological index verified; real dated Loads observed; bounded local-research interpretation; no open post licence",
+    "code_of_conduct_license_is_not_post_license": true
+  },
+  "oscedays": {
+    "status": "anonymous native identity/index and real dated Loads verified; current CC BY-SA4 contribution terms; historical contract version unresolved; root502 preserved",
+    "root_request_preserved": "67a6eb80edb75cfe5f755cbf",
+    "terms_receipt": "d5fdbd892fdf3d9bd0d5e4a0"
+  },
+  "stackexchange": {
+    "status": "historical anonymous quota_exhausted stop preserved; no key/account or quota reset",
+    "last_provider_request_at_utc": "2026-10-09T15:05:54.814124+00:00",
+    "same_IP_shared_carrier_for_all_communities": true,
+    "inherited_dispatch_report_time_basis": "inherited reported host dispatch timestamp; not exact receipt started/retrieved time",
+    "named_zero_quota_receipt": "4b7831cec64c477966b15c12",
+    "exact_receipt_started_at_utc": "2026-10-09T15:05:53.559601+00:00",
+    "exact_zero_quota_observed_at_utc": "2026-10-09T15:05:55.122352+00:00",
+    "current_scope_provider_observation": {
+      "at_utc": "2026-10-10T15:06:01.832791+00:00",
+      "quota_remaining": 299,
+      "positive_provider_response": true,
+      "old_exhaustion_preserved": true,
+      "provider_renewal_mechanism_unverified": true,
+      "native_calls_require_current_positive_state_and_method_backoff": true
+    }
+  },
+  "survivefrance": {
+    "status": "anonymous identity and chronological index verified; current user-contribution CC BY-NC-SA3 terms; first observed December2009 not foundation date",
+    "policy_request_ids": [
+      "1a71f0a0bb5d11edf257988b",
+      "722f67b4aa66a16ea3a5ba30"
+    ],
+    "native_index_request_id": "d30891a73d7ce391054c96a6",
+    "historical_contract_version_unresolved": true,
+    "country_not_inferred_from_community_context": true
+  },
+  "inaturalist_forum": {
+    "status": "public forum identity and chronological route verified; independently working native forum routes admitted; www terms-host403 preserved",
+    "terms_collector_request": "47931af65a5de907b3059667",
+    "official_terms_public_text_read_via_web": "https://www.inaturalist.org/pages/terms",
+    "terms_revision": "2023-07-11",
+    "default_contributor_license": "CC BY-NC unless contributor specifies otherwise; individual opt-out remains unresolved",
+    "commercial_AI_training_prohibited": true,
+    "collection_purpose": "bounded noncommercial thesis research; topic/affect/fear analysis deferred",
+    "robots_request": "5b6c899007ad7f2197520b2c",
+    "distinct_host_stops_preserved": true
+  },
+  "elektronauts": {
+    "status": "current CC BY-NC-SA3 user-contribution terms, identity and native chronology verified; production admitted",
+    "first_observed_native_topic": "2013-07-05T17:07:10.000Z"
+  },
+  "cycling_without_age": {
+    "status": "public terms and robots saved; native identity API403 caused preserved host stop; no body acquisition or bypass",
+    "denial_request_id": "71aeb2966cf2bcacf94040bf",
+    "terms_request_id": "a4f228f80b862dfb7d142b28",
+    "candidate_not_contributing": true
+  },
+  "hungryonion": {
+    "status": "public primary-policy web readerHTTP403; not admitted; no body route tried",
+    "url": "https://www.hungryonion.org/tos",
+    "observed_at_utc": "2026-10-10T11:34:49.516723+00:00",
+    "evidence_channel": "public web reader",
+    "new_worker_native_objects": 0
+  },
+  "wineberserkers": {
+    "status": "automation explicitly prohibited; no native index or body requests",
+    "terms_receipt": "1c43aa5d57b6dc81547e614a",
+    "robots_receipt": "8623c3b321d931ee596416df",
+    "public_search_engine_indexing_exception_does_not_apply": true
+  },
+  "foodtalkcentral": {
+    "status": "anonymous identity/index verified; bounded noncommercial production admitted with explicit rights/issuer limits",
+    "content_licence_basis": "no_open_member_content_license_verified; member copyright retained",
+    "first_observed_native_topic_at": "2015-09-15T23:00:40.997Z",
+    "terms_receipt": "ed6da048c4cdfb6784c3bf6f",
+    "legal_or_historical_rights_not_universally_verified": true
+  },
+  "openfoodnetwork": {
+    "status": "anonymous identity/index verified; bounded noncommercial production admitted with explicit rights/issuer limits",
+    "content_licence_basis": "CC BY-NC-SA3.0 clause in current contribution terms; legal-operator placeholders and historical applicability unresolved",
+    "first_observed_native_topic_at": "2015-01-16T00:02:39.578Z",
+    "terms_receipt": "81673656141342bbbb026570",
+    "legal_or_historical_rights_not_universally_verified": true
+  },
+  "cotech": {
+    "status": "anonymous identity/index and official community pointer verified; admitted to bounded public production with explicit source-frame and rights limits",
+    "first_observed_native_topic_at": "2017-05-09T06:59:46.041Z",
+    "terms_request_id": "0fd1993495a1d27481c2b253",
+    "official_pointer_request_id": "0745d3a9d2905f16df8be587",
+    "historical_contract_version_unresolved": true,
+    "operator_placeholders_unresolved": false
+  },
+  "goatech": {
+    "status": "anonymous identity/index and official community pointer verified; admitted to bounded public production with explicit source-frame and rights limits",
+    "first_observed_native_topic_at": "2017-12-12T15:07:39.366Z",
+    "terms_request_id": "ec9c137756793d964e24c644",
+    "official_pointer_request_id": "e44527ff80b2415e9110e7a2",
+    "historical_contract_version_unresolved": true,
+    "operator_placeholders_unresolved": true
+  },
+  "se_gardening": {
+    "status": "native network identity and era verified; continuing creation-ordered ELT admitted only under positive provider state; real bodies required for contribution counts",
+    "network_inventory_request_id": "1e9fddaa8843aa55a8feace1",
+    "per_revision_licence_and_historical_body_limits": true
+  },
+  "se_cooking": {
+    "status": "native network identity and era verified; continuing creation-ordered ELT admitted only under positive provider state; real bodies required for contribution counts",
+    "network_inventory_request_id": "1e9fddaa8843aa55a8feace1",
+    "per_revision_licence_and_historical_body_limits": true
+  },
+  "se_bicycles": {
+    "status": "native network identity and era verified; continuing creation-ordered ELT admitted only under positive provider state; real bodies required for contribution counts",
+    "network_inventory_request_id": "1e9fddaa8843aa55a8feace1",
+    "per_revision_licence_and_historical_body_limits": true
+  },
+  "se_travel": {
+    "status": "native network identity and era verified; continuing creation-ordered ELT admitted only under positive provider state; real bodies required for contribution counts",
+    "network_inventory_request_id": "1e9fddaa8843aa55a8feace1",
+    "per_revision_licence_and_historical_body_limits": true
+  },
+  "se_outdoors": {
+    "status": "native network identity and era verified; continuing creation-ordered ELT admitted only under positive provider state; real bodies required for contribution counts",
+    "network_inventory_request_id": "1e9fddaa8843aa55a8feace1",
+    "per_revision_licence_and_historical_body_limits": true
+  }
+}

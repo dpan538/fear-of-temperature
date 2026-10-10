@@ -1,0 +1,86 @@
+[
+  {
+    "figure": "01_coverage_and_month_depth",
+    "claim": "Newspaper month gaps shrink; social month presence is unchanged",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "export": "PNG delivery; PDF/SVG for local QA",
+    "size_inches": [
+      16,
+      9
+    ],
+    "units": "retained metadata counts; no uncertainty intervals or population estimates"
+  },
+  {
+    "figure": "02_monthly_and_annual_distribution",
+    "claim": "Historical additions remain uneven across publication time",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "export": "PNG delivery; PDF/SVG for local QA",
+    "size_inches": [
+      16,
+      11
+    ],
+    "units": "retained metadata counts; no uncertainty intervals or population estimates"
+  },
+  {
+    "figure": "03_matched_recent_years",
+    "claim": "A lower full-history 2026 share does not remove recent-period concentration",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "export": "PNG delivery; PDF/SVG for local QA",
+    "size_inches": [
+      16,
+      9
+    ],
+    "units": "retained metadata counts; no uncertainty intervals or population estimates"
+  },
+  {
+    "figure": "04_source_expansion_and_eras",
+    "claim": "This round adds actual contributing source frames across several eras",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "export": "PNG delivery; PDF/SVG for local QA",
+    "size_inches": [
+      18,
+      13
+    ],
+    "units": "retained metadata counts; no uncertainty intervals or population estimates"
+  },
+  {
+    "figure": "05_legacy_recovery_depth",
+    "claim": "Legacy same-month surplus was loaded; most affected months remain shallow",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "export": "PNG delivery; PDF/SVG for local QA",
+    "size_inches": [
+      16,
+      9
+    ],
+    "units": "retained metadata counts; no uncertainty intervals or population estimates"
+  },
+  {
+    "figure": "06_parent_mapping_limits",
+    "claim": "Publisher, platform and community mappings answer different questions",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "export": "PNG delivery; PDF/SVG for local QA",
+    "size_inches": [
+      16,
+      9
+    ],
+    "units": "retained metadata counts; no uncertainty intervals or population estimates"
+  },
+  {
+    "figure": "07_capacity_and_stop_evidence",
+    "claim": "The streams ended at different operational boundaries",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "export": "PNG delivery; PDF/SVG for local QA",
+    "size_inches": [
+      16,
+      9
+    ],
+    "units": "retained metadata counts; no uncertainty intervals or population estimates"
+  }
+]

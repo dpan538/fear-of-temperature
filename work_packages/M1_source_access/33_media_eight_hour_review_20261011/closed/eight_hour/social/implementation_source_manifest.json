@@ -1,0 +1,131 @@
+{
+  "at_utc": "2026-10-10T16:36:34.985979+00:00",
+  "files": [
+    {
+      "path": "bootstrap.py",
+      "bytes": 4923,
+      "sha256": "486519438b5eed4fe838b4c3446a0f6837512dcb5ec7aab3961258ba3b24783b"
+    },
+    {
+      "path": "collect.py",
+      "bytes": 36718,
+      "sha256": "decaeb19c7d765c26ef02af3d393714f23dd97a44e8cfd26f68a20386f16bf69"
+    },
+    {
+      "path": "transport.py",
+      "bytes": 34254,
+      "sha256": "8324f340264b2e79ca7e20dbc1cdea23c32b1f2fb6ad42c1cd1aca09cae5dc67"
+    },
+    {
+      "path": "entities.py",
+      "bytes": 21863,
+      "sha256": "20446378257776345388d109fe4ec72c7c78d224c81d6a76abc7db7c4a5f50bb"
+    },
+    {
+      "path": "archive_adapter.py",
+      "bytes": 9020,
+      "sha256": "f8b3aac613f0adfd9d9257aef79d100855ef91045527bb3e869768ff2f492dc2"
+    },
+    {
+      "path": "lemmy_adapter.py",
+      "bytes": 3401,
+      "sha256": "0fc52cf25d0a82790994475f60222ade310e97625970b745a2e47a9cfd544468"
+    },
+    {
+      "path": "public_html_adapter.py",
+      "bytes": 12773,
+      "sha256": "be721a8ecefb48d0b1d15dc6b01c0762008658447e3e5a225b851ea489472f59"
+    },
+    {
+      "path": "thesession_adapter.py",
+      "bytes": 4113,
+      "sha256": "2eb834109915f5afb1010b95bd5ee2718d7ecc90b8d09312cf793d71d85ccf77"
+    },
+    {
+      "path": "finalize_metadata.py",
+      "bytes": 9078,
+      "sha256": "5947b7a6e25e4f8f609f32f68582c6fcfba1c0adeb9646f892fc859fa2a51f41"
+    },
+    {
+      "path": "raw_catalog.py",
+      "bytes": 8516,
+      "sha256": "04822b1a9a795ae2a83fb3d4ca70e0109d80a1720fd863244c0989b747aa7bb3"
+    },
+    {
+      "path": "incremental_closeout.py",
+      "bytes": 41167,
+      "sha256": "232104daf89774b0eda12c42ef7284945be6e01c8e30b15e7c9939597eb70df7"
+    },
+    {
+      "path": "incremental_durability.py",
+      "bytes": 2613,
+      "sha256": "2db8fca5c76ee10e3944c39b0402a0bdc2386283c1e76177fdbd2b3a22205962"
+    },
+    {
+      "path": "focused_progress.py",
+      "bytes": 4071,
+      "sha256": "ad8e5e2cea8da88e9322b51baf11228d2b2f2d3c565ee1b0e9b3d02e7b4da4b6"
+    },
+    {
+      "path": "checkpoint_panels.py",
+      "bytes": 4192,
+      "sha256": "857d3fe3c888042b039a5d043b9b6c8ac03e530106490f20aefa21242d4035b1"
+    },
+    {
+      "path": "source_frame_reporting.py",
+      "bytes": 965,
+      "sha256": "84a4290c178f39e8405d69a1df56d122c67c3b2efa8c5bc55926f46331aebc00"
+    },
+    {
+      "path": "quota_observation.py",
+      "bytes": 4953,
+      "sha256": "4443e081623f30ccbecf8ff5d1ef2a643c7785731ac15702920375eb4cb20018"
+    },
+    {
+      "path": "quota_guard_regression.py",
+      "bytes": 5812,
+      "sha256": "c3ee032e6f3dfcafb12ed4027c30742482803bf6ad9d76402ac40b1cca9f0392"
+    },
+    {
+      "path": "stackexchange_community_admission.py",
+      "bytes": 6903,
+      "sha256": "2af304bac55dc52188060664f86df92668360e0cdd1a81fd1e5896b968e8153e"
+    },
+    {
+      "path": "native_capacity_sizing.py",
+      "bytes": 1757,
+      "sha256": "0dbe2de94a04084b812d8e55f5cb24ee953431d24b6b6f9f725fff2d71f83f9f"
+    },
+    {
+      "path": "source_era_provenance.py",
+      "bytes": 4225,
+      "sha256": "4ed9930154dc936275e45e2c67176f029a3de780c6c79971bff268fc0b50c544"
+    },
+    {
+      "path": "small_native_regression.py",
+      "bytes": 7616,
+      "sha256": "c43c3134163ac42a0cc95bbbcccd04b33977c623c0b815c8ac189f1f239496f2"
+    },
+    {
+      "path": "capacity_queue_recovery.py",
+      "bytes": 2194,
+      "sha256": "0b0f0de574217625852ee6bf19e505e465a22c92c9cf3556ff48fbcbe9ba94d1"
+    },
+    {
+      "path": "capacity_queue_regression.py",
+      "bytes": 3111,
+      "sha256": "734f57cb0d6c3fbb88aee30994c58dc3ec825b17c7360dbc13d35b29ec20a737"
+    },
+    {
+      "path": "schema_v2.sql",
+      "bytes": 3371,
+      "sha256": "513b36b771756ebc3cb8a0fc63375d6430cdb6dd57dace3983b60f319c9864c9"
+    },
+    {
+      "path": "schema_legacy.sql",
+      "bytes": 2233,
+      "sha256": "daea9eafb3caee782b840c8a1694fd163d58c7230f83d96fd64e6b99cb04fd48"
+    }
+  ],
+  "execution_controls_and_owner_handoffs_are_local": true
+}

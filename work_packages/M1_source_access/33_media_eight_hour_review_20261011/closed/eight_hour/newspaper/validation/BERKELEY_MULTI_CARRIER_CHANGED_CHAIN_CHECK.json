@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-10-10T13:02:21.904806+00:00",
+  "checks": {
+    "actual_five_carriers_native_units": true,
+    "all_native_participants_including_retained_have_safe_idempotent_hops": true,
+    "same_native_duplicate_occurrences_preserve_identity_and_raw_evidence": true,
+    "conflicting_same_native_ID_is_typed_pending": true,
+    "rotation_preserves_suspended_frontier_pending_targets_and_loaded_IDs": true,
+    "saved_carrier_activation_preserves_existing_contexts_and_committed_IDs": true,
+    "actual_dispatch_activates_named_saved_carrier": true
+  },
+  "all_passed": true,
+  "no_HTTP": true,
+  "no_database_writes": true,
+  "own_changed_carriers_only": true
+}

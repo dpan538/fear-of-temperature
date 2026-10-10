@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-10T18:27:44.461958+00:00",
+  "all_passed": true,
+  "SQLite_quick_check": [
+    "ok"
+  ],
+  "foreign_key_errors": 0,
+  "baseline_metadata_IDs_preserved": 30082,
+  "new_complete_IDs_checked": 6829,
+  "new_retained_Load_IDs_checked": 6830,
+  "named_structural_nonarticle_units_preserved": 1,
+  "new_unique_raw_objects_checked": 1058,
+  "errors": [],
+  "verification_scope": "All new retained Load TEXT/raw mappings, named derived structural dispositions and immutable baseline identity/date/version memberships; no old body/raw sweep",
+  "own_saved_request_raw_records_checked": 1058,
+  "own_saved_request_unique_stored_objects_checked": 1058,
+  "unlogged_new_SQL_article_IDs": [],
+  "logged_complete_IDs_missing_from_SQL_delta": [],
+  "own_Load_ID_SQL_conservation": true,
+  "native_HTTP_hops_max": 3,
+  "native_four_hop_ceiling_preserved": true,
+  "native_mapping_checked_counts": {
+    "publisher_native_post": 5802,
+    "Berkeley_original_native_story": 625,
+    "publisher_native_WP_theme_HTML": 14
+  }
+}

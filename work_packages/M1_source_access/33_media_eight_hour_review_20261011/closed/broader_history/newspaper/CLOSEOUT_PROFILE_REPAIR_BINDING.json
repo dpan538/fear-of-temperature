@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-10T09:59:10.783762+00:00",
+  "previous_implementation_sha256": "f5d1948ebea78cbc60dc3055e69537be4074e549799f3a3822f1d675df296cf9",
+  "current_implementation_sha256": "ab616bfae03342f2e06503e4dd3c431b69bb6c8f37e7b135822ebee1bb6f5db0",
+  "host_writer_exit_verified": true,
+  "change": "Checker-only in-memory registration of already admitted Newtown profile for exact native re-parsing",
+  "source_profile_changed": false,
+  "database_write": false,
+  "network_executed": false,
+  "original_failed_implementation_preserved": true
+}

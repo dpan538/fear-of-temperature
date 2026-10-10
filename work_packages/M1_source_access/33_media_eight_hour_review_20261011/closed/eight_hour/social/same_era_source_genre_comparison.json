@@ -1,0 +1,185 @@
+{
+  "at_utc": "2026-10-10T16:36:32.958020+00:00",
+  "panel": {
+    "all_current_source_frames|full_history|accepted_before": {
+      "total_usable_bodies": 920895,
+      "year2026_bodies": 162252,
+      "descriptive_year2026_share": 0.1761894678546414,
+      "genre_counts": {
+        "technical_discussion_forum": 7045,
+        "regional_public_forum_candidate": 20375,
+        "global_official_platform_account; institutional role separate from public expression": 93679,
+        "general_interest_discussion_board": 11625,
+        "traditional_music_discussion_community": 350,
+        "multi_interest_public_topic_reply_community": 9134,
+        "technology_link_and_comment_network": 62,
+        "technical_mailing_archive": 613617,
+        "global_specialist_QA": 30141,
+        "civic_mailing_archive": 44,
+        "regional_public_platform_instance": 109574,
+        "mapping_technical_discussion_forum": 11258,
+        "everyday_forum": 13991
+      }
+    },
+    "all_current_source_frames|full_history|after_changed_tranche": {
+      "total_usable_bodies": 987252,
+      "year2026_bodies": 165931,
+      "descriptive_year2026_share": 0.16807360228188953,
+      "genre_counts": {
+        "technical_discussion_forum": 7045,
+        "regional_public_forum_candidate": 20375,
+        "music_device_user_and_creative_expression_community; specialist and technical consumer topics remain": 4156,
+        "global_specialist_QA": 30141,
+        "gardening_and_landscaping_QA": 1329,
+        "general_interest_discussion_board": 18533,
+        "travel_QA": 1341,
+        "technical_mailing_archive": 613617,
+        "outdoor_recreation_QA": 1364,
+        "regional_public_platform_instance": 109574,
+        "food_and_cooking_QA": 1339,
+        "everyday_forum": 20614,
+        "global_official_platform_account; institutional role separate from public expression": 93679,
+        "multi_interest_public_topic_reply_community": 29362,
+        "agricultural_practitioner_and_open_technology_community": 758,
+        "technology_link_and_comment_network": 62,
+        "civic_mailing_archive": 44,
+        "anglophone_resident_general_discussion_community": 2386,
+        "food_and_dining_community": 3801,
+        "naturalist_citizen_science_public_discussion": 4085,
+        "food_network_cooperative_and_software_community": 1837,
+        "civic_circular_economy_community": 48,
+        "mapping_technical_discussion_forum": 11258,
+        "cycling_QA": 1320,
+        "cooperative_technology_worker_and_civic_community": 1714,
+        "intentional_community_public_discussion": 2174,
+        "traditional_music_discussion_community": 5296
+      }
+    },
+    "all_current_source_frames|Jan_Aug2016_2026|accepted_before": {
+      "total_usable_bodies": 212090,
+      "year2026_bodies": 129858,
+      "descriptive_year2026_share": 0.6122778065915413,
+      "genre_counts": {
+        "technical_discussion_forum": 3446,
+        "regional_public_forum_candidate": 17222,
+        "global_official_platform_account; institutional role separate from public expression": 67862,
+        "general_interest_discussion_board": 3900,
+        "traditional_music_discussion_community": 7,
+        "multi_interest_public_topic_reply_community": 8370,
+        "global_specialist_QA": 14106,
+        "regional_public_platform_instance": 83459,
+        "mapping_technical_discussion_forum": 4898,
+        "everyday_forum": 8820
+      }
+    },
+    "all_current_source_frames|Jan_Aug2016_2026|after_changed_tranche": {
+      "total_usable_bodies": 240420,
+      "year2026_bodies": 130901,
+      "descriptive_year2026_share": 0.5444680143082938,
+      "genre_counts": {
+        "technical_discussion_forum": 3446,
+        "regional_public_forum_candidate": 17222,
+        "music_device_user_and_creative_expression_community; specialist and technical consumer topics remain": 2544,
+        "global_specialist_QA": 14106,
+        "gardening_and_landscaping_QA": 78,
+        "general_interest_discussion_board": 6102,
+        "travel_QA": 58,
+        "outdoor_recreation_QA": 124,
+        "regional_public_platform_instance": 83459,
+        "food_and_cooking_QA": 55,
+        "everyday_forum": 8845,
+        "global_official_platform_account; institutional role separate from public expression": 67862,
+        "multi_interest_public_topic_reply_community": 22934,
+        "agricultural_practitioner_and_open_technology_community": 634,
+        "anglophone_resident_general_discussion_community": 345,
+        "food_and_dining_community": 1232,
+        "naturalist_citizen_science_public_discussion": 3443,
+        "food_network_cooperative_and_software_community": 393,
+        "civic_circular_economy_community": 4,
+        "cycling_QA": 93,
+        "mapping_technical_discussion_forum": 4898,
+        "cooperative_technology_worker_and_civic_community": 959,
+        "intentional_community_public_discussion": 1561,
+        "traditional_music_discussion_community": 23
+      }
+    },
+    "baseline_contributing_source_panel|full_history|accepted_before": {
+      "total_usable_bodies": 920895,
+      "year2026_bodies": 162252,
+      "descriptive_year2026_share": 0.1761894678546414,
+      "genre_counts": {
+        "technical_discussion_forum": 7045,
+        "regional_public_forum_candidate": 20375,
+        "global_official_platform_account; institutional role separate from public expression": 93679,
+        "general_interest_discussion_board": 11625,
+        "traditional_music_discussion_community": 350,
+        "multi_interest_public_topic_reply_community": 9134,
+        "technology_link_and_comment_network": 62,
+        "technical_mailing_archive": 613617,
+        "global_specialist_QA": 30141,
+        "civic_mailing_archive": 44,
+        "regional_public_platform_instance": 109574,
+        "mapping_technical_discussion_forum": 11258,
+        "everyday_forum": 13991
+      }
+    },
+    "baseline_contributing_source_panel|full_history|after_changed_tranche": {
+      "total_usable_bodies": 959600,
+      "year2026_bodies": 165648,
+      "descriptive_year2026_share": 0.17262192580241767,
+      "genre_counts": {
+        "technical_discussion_forum": 7045,
+        "regional_public_forum_candidate": 20375,
+        "global_official_platform_account; institutional role separate from public expression": 93679,
+        "general_interest_discussion_board": 18533,
+        "traditional_music_discussion_community": 5296,
+        "multi_interest_public_topic_reply_community": 29362,
+        "technology_link_and_comment_network": 62,
+        "technical_mailing_archive": 613617,
+        "global_specialist_QA": 30141,
+        "civic_mailing_archive": 44,
+        "regional_public_platform_instance": 109574,
+        "mapping_technical_discussion_forum": 11258,
+        "everyday_forum": 20614
+      }
+    },
+    "baseline_contributing_source_panel|Jan_Aug2016_2026|accepted_before": {
+      "total_usable_bodies": 212090,
+      "year2026_bodies": 129858,
+      "descriptive_year2026_share": 0.6122778065915413,
+      "genre_counts": {
+        "technical_discussion_forum": 3446,
+        "regional_public_forum_candidate": 17222,
+        "global_official_platform_account; institutional role separate from public expression": 67862,
+        "general_interest_discussion_board": 3900,
+        "traditional_music_discussion_community": 7,
+        "multi_interest_public_topic_reply_community": 8370,
+        "global_specialist_QA": 14106,
+        "regional_public_platform_instance": 83459,
+        "mapping_technical_discussion_forum": 4898,
+        "everyday_forum": 8820
+      }
+    },
+    "baseline_contributing_source_panel|Jan_Aug2016_2026|after_changed_tranche": {
+      "total_usable_bodies": 228897,
+      "year2026_bodies": 130634,
+      "descriptive_year2026_share": 0.570710843741945,
+      "genre_counts": {
+        "technical_discussion_forum": 3446,
+        "regional_public_forum_candidate": 17222,
+        "global_official_platform_account; institutional role separate from public expression": 67862,
+        "general_interest_discussion_board": 6102,
+        "traditional_music_discussion_community": 23,
+        "multi_interest_public_topic_reply_community": 22934,
+        "global_specialist_QA": 14106,
+        "regional_public_platform_instance": 83459,
+        "mapping_technical_discussion_forum": 4898,
+        "everyday_forum": 8845
+      }
+    }
+  },
+  "genre_reporting_method": "source-frame-genre-v2; source descriptions only; per-body genre unvalidated",
+  "changing_source_frame_and_partial_full_history2026_not_normalized_away": true,
+  "counts_shares_never_sampling_weights_or_acquisition_gates": true,
+  "remaining_narrowness_or_sparse_months_not_declared_healthy": true
+}

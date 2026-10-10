@@ -1,0 +1,57 @@
+{
+  "input_hashes": {
+    "newspaper_register": {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_broader_history_four_hour/worker/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "sha256": "774de0c85f1935300d53535b47c88eb19489088df4c75edb9ed094cfdc1cc47e"
+    },
+    "newspaper_summary": {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_broader_history_four_hour/worker/DELIVERY_SUMMARY.json",
+      "sha256": "e931cbfab1aaa60d19350a6c49a5b7d5a2c55654d5d12461ad665f9ce404f666"
+    },
+    "social_calendar": {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_broader_history_four_hour/worker/summaries/source_month_calendar.csv",
+      "sha256": "c12cd85942862d4616796c4eae5c17a8bef12460bceaa7d77d4116e1909ed364"
+    },
+    "social_summary": {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_broader_history_four_hour/worker/summaries/collection_manifest.json",
+      "sha256": "8e544721d52c0febe4c370875f6b622f26065a5626e02a53edb9e27012d348b8"
+    }
+  },
+  "inputs_are_closed_metadata": true,
+  "newspaper_title_goal_user_minimum": 50,
+  "newspaper_contributing_title_ids": 14,
+  "newspaper_nominal_title_gap": 36,
+  "forum_goal_interpretation": "more than 20 = at least 21; no count-based collection stop",
+  "forum_like_named_community_candidates": 9,
+  "forum_verified_independent_parent_count": null,
+  "forum_candidate_gap_to_21": 12,
+  "classification_verified": false,
+  "working_scenario": {
+    "margin": 0.075,
+    "rho_assumed": 0.05,
+    "influence_tolerance": 0.1,
+    "per_stream": {
+      "newspaper": {
+        "maximum_observed_sources_in_one_month": 5,
+        "maximum_effective_source_ids_in_one_month": 2.9948314053654936,
+        "months_meeting_conditional_scenario": 0
+      },
+      "social": {
+        "maximum_observed_sources_in_one_month": 14,
+        "maximum_effective_source_ids_in_one_month": 5.038498157973683,
+        "months_meeting_conditional_scenario": 0
+      }
+    },
+    "not_an_estimated_ICC_or_universal_quality_rule": true
+  },
+  "monthly_scenarios": 8370,
+  "corpus_quality_certified": false,
+  "quality_blockers": [
+    "No verified time-varying parent mapping for the full frame",
+    "Unknown source-era archive inventory denominators",
+    "Source-purpose taxonomy is a proposal, not independently adjudicated",
+    "No validated analysis outcome or fitted within-parent correlation",
+    "Collection is purposive; model precision cannot repair selection bias"
+  ],
+  "retention_or_dispatch_actions": "none"
+}

@@ -1,0 +1,20 @@
+{
+  "at_utc": "2026-10-10T09:59:37.127651+00:00",
+  "saved_own_receipts_missing_REQUESTS_append": [
+    {
+      "target_id": "2411ca81741e84bae90d05db",
+      "url": "https://www.fcnp.com/wp-json/wp/v2/posts?after=1987-12-31T23%3A59%3A59&before=2026-09-22T00%3A00%3A00&orderby=date&order=asc&per_page=50&_fields=id%2Cdate%2Cmodified%2Clink%2Ctitle%2C_links%2Cstatus%2Ctype%2Ccategories&page=143",
+      "status": "saved",
+      "finished_at_utc": "2026-10-10T06:28:53.721457+00:00",
+      "raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_broader_history_four_hour/worker/raw/2411ca81741e84bae90d05db.bin.gz"
+    }
+  ],
+  "counters_reset": false,
+  "counters_reconstructed": false,
+  "runtime_reported_high_water_counters": {
+    "completed_bounded_operations": 445,
+    "new_HTTP_request_attempts_recorded": 436,
+    "new_HTTP_response_hops": 435
+  },
+  "interpretation": "Original cumulative charges, progress history and request logs preserved. Restart baselines retain their recorded high-water values; completed-log sums and interrupted operations are separate dimensions, not an asserted exact count of server-received requests. Saved receipt/log discrepancies are not absent transport or newly repeated requests."
+}

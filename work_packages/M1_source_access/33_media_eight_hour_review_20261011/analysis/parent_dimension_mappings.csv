@@ -1,0 +1,103 @@
+stream,dimension,source_id,bodies,mapping_status,parent_id_or_label,assertion_id,valid_time_limit,historical_applicability
+newspaper,publisher_organization,berkeley_daily_planet,625,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,cambridge_news_nz,13,supported_current_primary_assertion,Good Local Media Ltd,closed_source_admission:cambridge_news_nz,current publisher assertion; historical owner/operator periods unresolved,not established for entire publication interval
+newspaper,publisher_organization,camden_new_journal,310,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,devonport_flagstaff,1232,confirmed,Devonport Publishing Ltd,devonport_flagstaff:publisher_organization,current accessed assertion; historical continuity not established,not established for entire publication interval
+newspaper,publisher_organization,dublin_gazette,3,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,enfield_dispatch,325,supported_current_primary_assertion,Social Spider Community News; privacy names Social Spider CIC,closed_source_admission:enfield_dispatch,current publisher assertion; historical owner/operator periods unresolved,not established for entire publication interval
+newspaper,publisher_organization,falls_church_news_press,6650,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,financial_mirror,168,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,galway_advertiser,143,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,green_left,2498,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,indaily,796,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,kilkenny_observer,300,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,limerick_post,2016,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,militant_uk_archive,2,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,montpelier_bridge,6663,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,mountain_times_vt,300,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,munster_express,400,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,newtown_bee,38,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,northern_rivers_times,2858,unresolved,unresolved legal publisher; Northern Rivers Regional Media is a recorded family/brand,northern_rivers_times:publisher_organization,current accessed assertion; historical continuity not established,not established for entire publication interval
+newspaper,publisher_organization,otago_daily_times,80,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,te_awamutu_news,325,supported_current_primary_assertion,Good Local Media Ltd,closed_source_admission:te_awamutu_news,current publisher assertion; historical owner/operator periods unresolved,not established for entire publication interval
+newspaper,publisher_organization,waltham_forest_echo,325,supported_current_primary_assertion,"Social Spider CIC, publisher on behalf of WF WellComm CIC",closed_source_admission:waltham_forest_echo,current publisher assertion; historical owner/operator periods unresolved,not established for entire publication interval
+newspaper,publisher_organization,workers_advocate,1292,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+newspaper,publisher_organization,your_local_examiner_au,300,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,aussie_zone,9858,confirmed,Fediverse; source reports federation enabled,aussie_zone:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,bluesky,93679,confirmed,AT Protocol; Bluesky application separate,bluesky:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,cotech,1714,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,dowire_lists_umn,15,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,dowire_newswire,6,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,dowire_tc_umn,13,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,elektronauts,4156,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,feddit_org,3345,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,fic_forum,2174,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,foodtalkcentral,3801,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,goatech,758,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,hackernews,62,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,ilxor,18533,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,inaturalist_forum,4085,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,lemmy_nz,6987,confirmed,Fediverse; source reports federation enabled,lemmy_nz:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,mastodon_au,29121,confirmed,Fediverse / ActivityPub,mastodon_au:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,mastodon_ie,21878,confirmed,Fediverse / ActivityPub,mastodon_ie:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,mastodon_uk,29512,confirmed,Fediverse / ActivityPub,mastodon_uk:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,mastodon_us,29063,confirmed,Fediverse / ActivityPub,mastodon_us:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,midwest_social,185,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,mpls_issues_freedom2_archive,5,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,mpls_mnforum_archive,5,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,openfoodnetwork,1837,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,oscedays,48,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,osm_discourse,11258,unresolved,unresolved / no common discourse network asserted,osm_discourse:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,python_discourse,7045,unresolved,unresolved / no common discourse network asserted,python_discourse:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,python_list_archive,613429,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,se_bicycles,1320,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,se_cooking,1339,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,se_earthscience,18177,confirmed,Stack Exchange / Stack Overflow Network,se_earthscience:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,se_gardening,1329,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,se_outdoors,1364,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,se_sustainability,11964,confirmed,Stack Exchange / Stack Overflow Network,se_sustainability:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,se_travel,1341,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,straight_dope,20614,unresolved,unresolved / no common discourse network asserted,straight_dope:platform_network,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,platform_network,survivefrance,2386,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,thesession,5296,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,tildes,29362,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,platform_network,w3_wwwtalk,188,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,aussie_zone,9858,confirmed,Lemmy for Australians and those that love Australia. All welcome. Signups are open.,aussie_zone:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,bluesky,93679,supported_candidate,Declared collected actor/feed frame; not the entire network,bluesky:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,cotech,1714,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,dowire_lists_umn,15,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,dowire_newswire,6,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,dowire_tc_umn,13,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,elektronauts,4156,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,feddit_org,3345,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,fic_forum,2174,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,foodtalkcentral,3801,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,goatech,758,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,hackernews,62,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,ilxor,18533,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,inaturalist_forum,4085,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,lemmy_nz,6987,confirmed,Lemmy for New Zealanders,lemmy_nz:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,mastodon_au,29121,confirmed,Welcome to thundertoot! A Mastodon Instance for the People. Extended description explicitly identifies primarily Australian time zones and global eligibility.,mastodon_au:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,mastodon_ie,21878,confirmed,"Irish Mastodon - run from Ireland, we welcome all who respect the community rules and members.",mastodon_ie:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,mastodon_uk,29512,confirmed,"Open, user-supported, corporation-free social networking for the UK.",mastodon_uk:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,mastodon_us,29063,confirmed,A Mastodon instance for the San Francisco Bay Area. Come on in and join us!,mastodon_us:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,midwest_social,185,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,mpls_issues_freedom2_archive,5,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,mpls_mnforum_archive,5,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,openfoodnetwork,1837,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,oscedays,48,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,osm_discourse,11258,confirmed,OpenStreetMap community; child categories not exhaustively mapped,osm_discourse:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,python_discourse,7045,confirmed,Python discussion community; child categories not exhaustively mapped,python_discourse:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,python_list_archive,613429,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,se_bicycles,1320,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,se_cooking,1339,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,se_earthscience,18177,confirmed,Earth Science Q&A community,se_earthscience:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,se_gardening,1329,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,se_outdoors,1364,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,se_sustainability,11964,confirmed,Sustainable Living Q&A community,se_sustainability:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,se_travel,1341,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,straight_dope,20614,confirmed,Straight Dope Message Board; child forums not exhaustively mapped,straight_dope:community,current accessed assertion; historical continuity not established,not established for entire publication interval
+social,community,survivefrance,2386,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,thesession,5296,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,tildes,29362,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval
+social,community,w3_wwwtalk,188,unmapped_in_bounded_review,unmapped,,no reviewed parent assertion,not established for entire publication interval

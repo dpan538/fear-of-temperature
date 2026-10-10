@@ -1,0 +1,33 @@
+{
+  "01": [
+    "monthly_before_after.csv",
+    "monthly_depth_bins.csv"
+  ],
+  "02": [
+    "monthly_before_after.csv",
+    "annual_before_after.csv"
+  ],
+  "03": [
+    "matched_Jan_Aug_2016_2026.csv",
+    "matched_baseline_contributing_source_panel.csv"
+  ],
+  "04": [
+    "source_before_after_and_era.csv",
+    "new_contributing_source_genre_era.csv",
+    "newspaper_new_structural_genre_by_year.csv",
+    "social_new_source_genre_by_year.csv"
+  ],
+  "05": [
+    "legacy_month_recovery.csv"
+  ],
+  "06": [
+    "parent_dimension_mappings.csv",
+    "parent_mapping_coverage.csv",
+    "current_newspaper_parent_assertions.csv"
+  ],
+  "07": [
+    "METRICS.json",
+    "COORDINATOR_PUBLICATION_ACCOUNTING_NOTE.json",
+    "INPUT_MANIFEST.json"
+  ]
+}

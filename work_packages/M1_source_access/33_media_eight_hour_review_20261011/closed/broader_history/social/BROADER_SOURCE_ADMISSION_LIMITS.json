@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-10-10T07:24:28.043352+00:00",
+  "sources": {
+    "metafilter": {
+      "public_robots_status": 403,
+      "FAQ_status": 403,
+      "state": "preserved_source_access_stops; no body acquisition or alternate-carrier bypass"
+    },
+    "urban75": {
+      "public_index_status": 200,
+      "native_public_general_and_archive_board_preparation_only": true,
+      "terms_request_id": "8cd288e6de799ae4739dcb12",
+      "root_robots_request_id": "b1ea8f7b8e4c7c33f5c15614",
+      "collection_retention": "unresolved_for_bulk_local_corpus_under_explicit_author_and_compilation_rights_terms",
+      "content_license": "authors retain copyright; no general open-content grant",
+      "redistribution": "permission required for use elsewhere",
+      "state": "metadata_preparation_only; no body Load and no unauthorized permission request or account"
+    },
+    "e_democracy_archival_topics": {
+      "static_topic_indexes_status": 200,
+      "specific_topic_routes": "recorded original redirect then unavailable capture; exact documented availability lookup returned no accessible snapshot",
+      "state": "native topic/index pointers retained; no complete authored body established"
+    }
+  }
+}

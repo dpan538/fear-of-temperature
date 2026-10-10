@@ -1,0 +1,16 @@
+{
+  "at_utc": "2026-10-10T16:32:55.032991+00:00",
+  "passed": true,
+  "completed_flushes_checked": 133,
+  "changed_versions_annotated_midwindow": 72514,
+  "max_observed_complete_peak_bytes": 4383736,
+  "max_ratio_to_reserved": 0.05664382101707418,
+  "resource_blocked_flushes_preserved_locally": 4,
+  "tiny_transaction_max_records": 50,
+  "fixed_tiny_margin_bytes": 33554432,
+  "tiny_per_row_margin_bytes": 65536,
+  "larger_metadata_and_reserved_terminal_journal_bytes": 67108864,
+  "source_requests": 0,
+  "body_reads": 0,
+  "individual_receipts_remain_local": true
+}

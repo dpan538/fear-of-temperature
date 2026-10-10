@@ -1,0 +1,11 @@
+stream,dimension,mapping_status,source_ids,bodies
+newspaper,publisher_organization,confirmed,1,1232
+newspaper,publisher_organization,supported_current_primary_assertion,4,988
+newspaper,publisher_organization,unmapped_in_bounded_review,18,22584
+newspaper,publisher_organization,unresolved,1,2858
+social,community,confirmed,11,195477
+social,community,supported_candidate,1,93679
+social,community,unmapped_in_bounded_review,27,698096
+social,platform_network,confirmed,9,250239
+social,platform_network,unmapped_in_bounded_review,27,698096
+social,platform_network,unresolved,3,38917

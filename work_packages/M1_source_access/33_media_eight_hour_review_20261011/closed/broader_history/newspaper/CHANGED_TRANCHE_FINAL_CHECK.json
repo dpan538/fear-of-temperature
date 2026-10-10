@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-10T09:59:14.114015+00:00",
+  "all_passed": true,
+  "SQLite_quick_check": [
+    "ok"
+  ],
+  "foreign_key_errors": 0,
+  "baseline_metadata_IDs_preserved": 27490,
+  "new_complete_IDs_checked": 2592,
+  "new_unique_raw_objects_checked": 277,
+  "errors": [],
+  "verification_scope": "New Load TEXT/raw mapping and immutable baseline identity/date/version memberships only; no old body/raw sweep"
+}

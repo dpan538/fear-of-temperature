@@ -1,0 +1,2166 @@
+{
+  "columns": [
+    "frame_id",
+    "source_id",
+    "frame_type",
+    "selection_rule",
+    "existence_lower_bound",
+    "actor_role_basis",
+    "metadata_json"
+  ],
+  "rows": [
+    [
+      "se_sustainability:all_creation_order_native_index",
+      "se_sustainability",
+      "se_questions",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"year\": 2013}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"se_sustainability:all_creation_order_native_index\", \"frame_type\": \"se_questions\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"year\\\": 2013}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "se_earthscience:all_creation_order_native_index",
+      "se_earthscience",
+      "se_questions",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"year\": 2014}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"se_earthscience:all_creation_order_native_index\", \"frame_type\": \"se_questions\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"year\\\": 2014}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "python_discourse:public_latest_posts_and_whole_topic_streams",
+      "python_discourse",
+      "discourse",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://discuss.python.org\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"python_discourse:public_latest_posts_and_whole_topic_streams\", \"frame_type\": \"discourse\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://discuss.python.org\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "mastodon_ie:local_public_creation_cursor",
+      "mastodon_ie",
+      "mastodon",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://mastodon.ie\", \"max_id\": \"117310704291664264\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"mastodon_ie:local_public_creation_cursor\", \"frame_type\": \"mastodon\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://mastodon.ie\\\", \\\"max_id\\\": \\\"117310704291664264\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "mastodon_uk:local_public_creation_cursor",
+      "mastodon_uk",
+      "mastodon",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://mastodon.me.uk\", \"max_id\": \"117309682749270559\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"mastodon_uk:local_public_creation_cursor\", \"frame_type\": \"mastodon\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://mastodon.me.uk\\\", \\\"max_id\\\": \\\"117309682749270559\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "mastodon_au:local_public_creation_cursor",
+      "mastodon_au",
+      "mastodon",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://aus.social\", \"max_id\": \"117311434832876936\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"mastodon_au:local_public_creation_cursor\", \"frame_type\": \"mastodon\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://aus.social\\\", \\\"max_id\\\": \\\"117311434832876936\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "mastodon_us:local_public_creation_cursor",
+      "mastodon_us",
+      "mastodon",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://sfba.social\", \"max_id\": \"117311131383697279\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"mastodon_us:local_public_creation_cursor\", \"frame_type\": \"mastodon\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://sfba.social\\\", \\\"max_id\\\": \\\"117311131383697279\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "straight_dope:anonymous_public_native_index_whole_topic_streams",
+      "straight_dope",
+      "discourse",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://boards.straightdope.com\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"straight_dope:anonymous_public_native_index_whole_topic_streams\", \"frame_type\": \"discourse\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://boards.straightdope.com\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "osm_discourse:anonymous_public_native_index_whole_topic_streams",
+      "osm_discourse",
+      "discourse",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://community.openstreetmap.org\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"osm_discourse:anonymous_public_native_index_whole_topic_streams\", \"frame_type\": \"discourse\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://community.openstreetmap.org\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "python_discourse:inherited_before_1000_frontier_continued_to_native_end",
+      "python_discourse",
+      "discourse",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://discuss.python.org\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"python_discourse:inherited_before_1000_frontier_continued_to_native_end\", \"frame_type\": \"discourse\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://discuss.python.org\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:sdo6kumfbnroeho6zllkzc2z",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:sdo6kumfbnroeho6zllkzc2z\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:sdo6kumfbnroeho6zllkzc2z\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:sdo6kumfbnroeho6zllkzc2z\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:rn6ymjv4ypbt6gli6eggz25t",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rn6ymjv4ypbt6gli6eggz25t\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:rn6ymjv4ypbt6gli6eggz25t\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rn6ymjv4ypbt6gli6eggz25t\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:cd2eek4gbsnc2btiyacv4j3k",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:cd2eek4gbsnc2btiyacv4j3k\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:cd2eek4gbsnc2btiyacv4j3k\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:cd2eek4gbsnc2btiyacv4j3k\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:wa77blfapgw2nyqdk6hxuzs3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:wa77blfapgw2nyqdk6hxuzs3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:wa77blfapgw2nyqdk6hxuzs3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:wa77blfapgw2nyqdk6hxuzs3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:zk2l4z7vn7etrzl24ozfzo24",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:zk2l4z7vn7etrzl24ozfzo24\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:zk2l4z7vn7etrzl24ozfzo24\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:zk2l4z7vn7etrzl24ozfzo24\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:qzu4azwkwhgiq6yagm7spfqr",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:qzu4azwkwhgiq6yagm7spfqr\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:qzu4azwkwhgiq6yagm7spfqr\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:qzu4azwkwhgiq6yagm7spfqr\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:w3xbhxwmxgwwndg52ty6omhh",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:w3xbhxwmxgwwndg52ty6omhh\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:w3xbhxwmxgwwndg52ty6omhh\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:w3xbhxwmxgwwndg52ty6omhh\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:txsgyikflpu4ke63yfnx4ny4",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:txsgyikflpu4ke63yfnx4ny4\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:txsgyikflpu4ke63yfnx4ny4\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:txsgyikflpu4ke63yfnx4ny4\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jl5dd47pflick6elziamlae4",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jl5dd47pflick6elziamlae4\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jl5dd47pflick6elziamlae4\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jl5dd47pflick6elziamlae4\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:7vacsgvp5vdjhh4ygurvijch",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:7vacsgvp5vdjhh4ygurvijch\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:7vacsgvp5vdjhh4ygurvijch\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:7vacsgvp5vdjhh4ygurvijch\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3vnuojydrxdjvjmrvkaffhmm",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3vnuojydrxdjvjmrvkaffhmm\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3vnuojydrxdjvjmrvkaffhmm\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3vnuojydrxdjvjmrvkaffhmm\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:hsjjtnemppfd3ksuewrnutoh",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:hsjjtnemppfd3ksuewrnutoh\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:hsjjtnemppfd3ksuewrnutoh\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:hsjjtnemppfd3ksuewrnutoh\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:xa56vpnwo4uu2sqya53eorql",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:xa56vpnwo4uu2sqya53eorql\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:xa56vpnwo4uu2sqya53eorql\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:xa56vpnwo4uu2sqya53eorql\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:lyhxhg2wgbrcvfvsexgz37dn",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:lyhxhg2wgbrcvfvsexgz37dn\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:lyhxhg2wgbrcvfvsexgz37dn\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:lyhxhg2wgbrcvfvsexgz37dn\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ixwgth3hdnazwzg7kzctfqho",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ixwgth3hdnazwzg7kzctfqho\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ixwgth3hdnazwzg7kzctfqho\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ixwgth3hdnazwzg7kzctfqho\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:fxuxyiz7tmffu6ogdomwfpbd",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:fxuxyiz7tmffu6ogdomwfpbd\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:fxuxyiz7tmffu6ogdomwfpbd\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:fxuxyiz7tmffu6ogdomwfpbd\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:vuktwtpjparsdtex7oi5ae66",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:vuktwtpjparsdtex7oi5ae66\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:vuktwtpjparsdtex7oi5ae66\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:vuktwtpjparsdtex7oi5ae66\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ldjn2z7tobqsn4brzxogum2s",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ldjn2z7tobqsn4brzxogum2s\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ldjn2z7tobqsn4brzxogum2s\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ldjn2z7tobqsn4brzxogum2s\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ynh2ex6etpp2e3c576ikjunl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ynh2ex6etpp2e3c576ikjunl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ynh2ex6etpp2e3c576ikjunl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ynh2ex6etpp2e3c576ikjunl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:oprpghzxz7cgu5l6c2wlrhmf",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:oprpghzxz7cgu5l6c2wlrhmf\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:oprpghzxz7cgu5l6c2wlrhmf\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:oprpghzxz7cgu5l6c2wlrhmf\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:65smx2o5lp63y5dqnp2mj2iv",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:65smx2o5lp63y5dqnp2mj2iv\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:65smx2o5lp63y5dqnp2mj2iv\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:65smx2o5lp63y5dqnp2mj2iv\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jssrb24maaquemhvbyuo7f5m",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jssrb24maaquemhvbyuo7f5m\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jssrb24maaquemhvbyuo7f5m\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jssrb24maaquemhvbyuo7f5m\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:upqpemu3j2qff552ckneizbj",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:upqpemu3j2qff552ckneizbj\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:upqpemu3j2qff552ckneizbj\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:upqpemu3j2qff552ckneizbj\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:kpknughwx3bpntgip6xwt3b7",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:kpknughwx3bpntgip6xwt3b7\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:kpknughwx3bpntgip6xwt3b7\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:kpknughwx3bpntgip6xwt3b7\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:5dxkajqtikayl7e2q3madsz7",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:5dxkajqtikayl7e2q3madsz7\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:5dxkajqtikayl7e2q3madsz7\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:5dxkajqtikayl7e2q3madsz7\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:oodz5iifsbqzgh26zozgo6tp",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:oodz5iifsbqzgh26zozgo6tp\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:oodz5iifsbqzgh26zozgo6tp\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:oodz5iifsbqzgh26zozgo6tp\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:n2qdnlpotunwtmyk3kw5ymxr",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:n2qdnlpotunwtmyk3kw5ymxr\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:n2qdnlpotunwtmyk3kw5ymxr\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:n2qdnlpotunwtmyk3kw5ymxr\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:gn22f3ov3aok6pzmr57bqsy7",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:gn22f3ov3aok6pzmr57bqsy7\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:gn22f3ov3aok6pzmr57bqsy7\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:gn22f3ov3aok6pzmr57bqsy7\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ckpquv44b37gxgws47owwggo",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ckpquv44b37gxgws47owwggo\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ckpquv44b37gxgws47owwggo\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ckpquv44b37gxgws47owwggo\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:zc5ie4eejqht2rkatpx3ch4l",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:zc5ie4eejqht2rkatpx3ch4l\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:zc5ie4eejqht2rkatpx3ch4l\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:zc5ie4eejqht2rkatpx3ch4l\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:qkaayx44bu7s7whj7gmknlof",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:qkaayx44bu7s7whj7gmknlof\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:qkaayx44bu7s7whj7gmknlof\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:qkaayx44bu7s7whj7gmknlof\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:4faon6drd7xkmwvpthpfe6uh",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:4faon6drd7xkmwvpthpfe6uh\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:4faon6drd7xkmwvpthpfe6uh\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:4faon6drd7xkmwvpthpfe6uh\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:7tfw7v227p24mzuq7i5sjxp3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:7tfw7v227p24mzuq7i5sjxp3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:7tfw7v227p24mzuq7i5sjxp3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:7tfw7v227p24mzuq7i5sjxp3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:dny7h6ax4pvti5i42aev2n2n",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:dny7h6ax4pvti5i42aev2n2n\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:dny7h6ax4pvti5i42aev2n2n\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:dny7h6ax4pvti5i42aev2n2n\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:rfhxpw4aqe5cvda5i6xecd2e",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rfhxpw4aqe5cvda5i6xecd2e\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:rfhxpw4aqe5cvda5i6xecd2e\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rfhxpw4aqe5cvda5i6xecd2e\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:px76voooil3dptzisc7uhg7h",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:px76voooil3dptzisc7uhg7h\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:px76voooil3dptzisc7uhg7h\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:px76voooil3dptzisc7uhg7h\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:35ophxrfvv4ledzqrjuzwdkn",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:35ophxrfvv4ledzqrjuzwdkn\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:35ophxrfvv4ledzqrjuzwdkn\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:35ophxrfvv4ledzqrjuzwdkn\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:buv6yxk63wqbdxkknux7dviu",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:buv6yxk63wqbdxkknux7dviu\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:buv6yxk63wqbdxkknux7dviu\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:buv6yxk63wqbdxkknux7dviu\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:gxadazyfkrlnu7x26pfj4bzg",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:gxadazyfkrlnu7x26pfj4bzg\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:gxadazyfkrlnu7x26pfj4bzg\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:gxadazyfkrlnu7x26pfj4bzg\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:zlsbp4pvyo6k24rsqnhq25na",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:zlsbp4pvyo6k24rsqnhq25na\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:zlsbp4pvyo6k24rsqnhq25na\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:zlsbp4pvyo6k24rsqnhq25na\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:awqm3s7azddlw44e6pnghgjn",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:awqm3s7azddlw44e6pnghgjn\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:awqm3s7azddlw44e6pnghgjn\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:awqm3s7azddlw44e6pnghgjn\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:rrvxiwja6cvjfqrbhltanxtq",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rrvxiwja6cvjfqrbhltanxtq\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:rrvxiwja6cvjfqrbhltanxtq\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rrvxiwja6cvjfqrbhltanxtq\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:4mul6lpfgskymhtyytc66sth",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:4mul6lpfgskymhtyytc66sth\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:4mul6lpfgskymhtyytc66sth\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:4mul6lpfgskymhtyytc66sth\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:aq3cyxiq3ems65woh5wv33tx",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:aq3cyxiq3ems65woh5wv33tx\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:aq3cyxiq3ems65woh5wv33tx\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:aq3cyxiq3ems65woh5wv33tx\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:yhcbe6l7lurr4ndxoos6sjgi",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:yhcbe6l7lurr4ndxoos6sjgi\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:yhcbe6l7lurr4ndxoos6sjgi\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:yhcbe6l7lurr4ndxoos6sjgi\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:mwvlqlznk5sumbuhkf6s7dvm",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:mwvlqlznk5sumbuhkf6s7dvm\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:mwvlqlznk5sumbuhkf6s7dvm\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:mwvlqlznk5sumbuhkf6s7dvm\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:nbfcyhs5h7jwrvnoiey6wffn",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:nbfcyhs5h7jwrvnoiey6wffn\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:nbfcyhs5h7jwrvnoiey6wffn\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:nbfcyhs5h7jwrvnoiey6wffn\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:bf3xkpjysnalrh2hhohkyp7t",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:bf3xkpjysnalrh2hhohkyp7t\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:bf3xkpjysnalrh2hhohkyp7t\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:bf3xkpjysnalrh2hhohkyp7t\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:7m3gtw3uvqygilx4d2yjm25s",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:7m3gtw3uvqygilx4d2yjm25s\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:7m3gtw3uvqygilx4d2yjm25s\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:7m3gtw3uvqygilx4d2yjm25s\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:hjbhlcpxs4sgwnlonzsopjpt",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:hjbhlcpxs4sgwnlonzsopjpt\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:hjbhlcpxs4sgwnlonzsopjpt\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:hjbhlcpxs4sgwnlonzsopjpt\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:v5ygzgfiq7c3zw32swpmxgoi",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:v5ygzgfiq7c3zw32swpmxgoi\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:v5ygzgfiq7c3zw32swpmxgoi\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:v5ygzgfiq7c3zw32swpmxgoi\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jotfb6pacqplcak2xorgc45p",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jotfb6pacqplcak2xorgc45p\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jotfb6pacqplcak2xorgc45p\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jotfb6pacqplcak2xorgc45p\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:l5dz2m4iyuuqih3vvw2rmfsl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:l5dz2m4iyuuqih3vvw2rmfsl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:l5dz2m4iyuuqih3vvw2rmfsl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:l5dz2m4iyuuqih3vvw2rmfsl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3kbgycvbozfn5rpscypakqon",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3kbgycvbozfn5rpscypakqon\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3kbgycvbozfn5rpscypakqon\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3kbgycvbozfn5rpscypakqon\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:222wnfix2ybjn667e2kuwy2w",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:222wnfix2ybjn667e2kuwy2w\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:222wnfix2ybjn667e2kuwy2w\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:222wnfix2ybjn667e2kuwy2w\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:b4lr3aqydzbcdr6xlsx4lii4",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:b4lr3aqydzbcdr6xlsx4lii4\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:b4lr3aqydzbcdr6xlsx4lii4\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:b4lr3aqydzbcdr6xlsx4lii4\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:p3jdfntyl3qey444ygk5zylh",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:p3jdfntyl3qey444ygk5zylh\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:p3jdfntyl3qey444ygk5zylh\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:p3jdfntyl3qey444ygk5zylh\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:uqxm7ssggyk6jlcjgmw3kysd",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:uqxm7ssggyk6jlcjgmw3kysd\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:uqxm7ssggyk6jlcjgmw3kysd\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:uqxm7ssggyk6jlcjgmw3kysd\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:wj2hxac2vyc3qhrehmwwuc5z",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:wj2hxac2vyc3qhrehmwwuc5z\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:wj2hxac2vyc3qhrehmwwuc5z\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:wj2hxac2vyc3qhrehmwwuc5z\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ybxibzkizfqilmo47bz3najl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ybxibzkizfqilmo47bz3najl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ybxibzkizfqilmo47bz3najl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ybxibzkizfqilmo47bz3najl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:lnbkx54rupsmhinx3uupprqi",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:lnbkx54rupsmhinx3uupprqi\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:lnbkx54rupsmhinx3uupprqi\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:lnbkx54rupsmhinx3uupprqi\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:cm5mhjnsjkd3yl5wqvrvki35",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:cm5mhjnsjkd3yl5wqvrvki35\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:cm5mhjnsjkd3yl5wqvrvki35\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:cm5mhjnsjkd3yl5wqvrvki35\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ynnfpi5usb3u7muhm3qngufl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ynnfpi5usb3u7muhm3qngufl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ynnfpi5usb3u7muhm3qngufl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ynnfpi5usb3u7muhm3qngufl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:6y7i7pqfg3yz6fbne5enokyx",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:6y7i7pqfg3yz6fbne5enokyx\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:6y7i7pqfg3yz6fbne5enokyx\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:6y7i7pqfg3yz6fbne5enokyx\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:cv27lbvwfrw64vcrgoarpxpb",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:cv27lbvwfrw64vcrgoarpxpb\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:cv27lbvwfrw64vcrgoarpxpb\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:cv27lbvwfrw64vcrgoarpxpb\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:6g2fwfgju4odja5aiazmndui",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:6g2fwfgju4odja5aiazmndui\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:6g2fwfgju4odja5aiazmndui\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:6g2fwfgju4odja5aiazmndui\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:sywjkx2k5izo3dqauvd4wqav",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:sywjkx2k5izo3dqauvd4wqav\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:sywjkx2k5izo3dqauvd4wqav\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:sywjkx2k5izo3dqauvd4wqav\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:2buz4gf5sew3rdwzbxsvcd4s",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:2buz4gf5sew3rdwzbxsvcd4s\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:2buz4gf5sew3rdwzbxsvcd4s\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:2buz4gf5sew3rdwzbxsvcd4s\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:rcbtnmlk2la67bm4po65oe23",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rcbtnmlk2la67bm4po65oe23\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:rcbtnmlk2la67bm4po65oe23\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rcbtnmlk2la67bm4po65oe23\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:fmtj42jmivqv5ffhhniuflov",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:fmtj42jmivqv5ffhhniuflov\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:fmtj42jmivqv5ffhhniuflov\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:fmtj42jmivqv5ffhhniuflov\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:iedktqadyjh3dwymlstwbgqz",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:iedktqadyjh3dwymlstwbgqz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:iedktqadyjh3dwymlstwbgqz\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:iedktqadyjh3dwymlstwbgqz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:artwro52tiuqrgni5eew6myn",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:artwro52tiuqrgni5eew6myn\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:artwro52tiuqrgni5eew6myn\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:artwro52tiuqrgni5eew6myn\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:qb5ngjhxigage23qs2uqgaso",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:qb5ngjhxigage23qs2uqgaso\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:qb5ngjhxigage23qs2uqgaso\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:qb5ngjhxigage23qs2uqgaso\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:rohgcawwnyghzq2khcpvfzst",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rohgcawwnyghzq2khcpvfzst\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:rohgcawwnyghzq2khcpvfzst\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rohgcawwnyghzq2khcpvfzst\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:bu2co54olhileq7tdgma5sh7",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:bu2co54olhileq7tdgma5sh7\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:bu2co54olhileq7tdgma5sh7\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:bu2co54olhileq7tdgma5sh7\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:vv25qbuoao673as33jiclvaw",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:vv25qbuoao673as33jiclvaw\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:vv25qbuoao673as33jiclvaw\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:vv25qbuoao673as33jiclvaw\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:yz6u3apnqpjq34jyqfma4ntw",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:yz6u3apnqpjq34jyqfma4ntw\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:yz6u3apnqpjq34jyqfma4ntw\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:yz6u3apnqpjq34jyqfma4ntw\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:444jxmi2sbjwdm7m365tn7nb",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:444jxmi2sbjwdm7m365tn7nb\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:444jxmi2sbjwdm7m365tn7nb\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:444jxmi2sbjwdm7m365tn7nb\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:vj2o4xzqk5bwlultnfgvpam5",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:vj2o4xzqk5bwlultnfgvpam5\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:vj2o4xzqk5bwlultnfgvpam5\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:vj2o4xzqk5bwlultnfgvpam5\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:4qtpybt6cqf2esecyrqpo3wp",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:4qtpybt6cqf2esecyrqpo3wp\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:4qtpybt6cqf2esecyrqpo3wp\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:4qtpybt6cqf2esecyrqpo3wp\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:ragtjsm2j2vknwkz3zp4oxrd",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ragtjsm2j2vknwkz3zp4oxrd\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:ragtjsm2j2vknwkz3zp4oxrd\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ragtjsm2j2vknwkz3zp4oxrd\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:t5pur7eruxfgxy7ynpfrmg2w",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:t5pur7eruxfgxy7ynpfrmg2w\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:t5pur7eruxfgxy7ynpfrmg2w\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:t5pur7eruxfgxy7ynpfrmg2w\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:cwf4mmm7mpzistinx3ox2zhj",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:cwf4mmm7mpzistinx3ox2zhj\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:cwf4mmm7mpzistinx3ox2zhj\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:cwf4mmm7mpzistinx3ox2zhj\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:wbmw5r5a2j7txv72ggne2uoe",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:wbmw5r5a2j7txv72ggne2uoe\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:wbmw5r5a2j7txv72ggne2uoe\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:wbmw5r5a2j7txv72ggne2uoe\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:re3ebnp5v7ffagz6rb6xfei4",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:re3ebnp5v7ffagz6rb6xfei4\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:re3ebnp5v7ffagz6rb6xfei4\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:re3ebnp5v7ffagz6rb6xfei4\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:pgjkomf37an4czloay5zeth6",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:pgjkomf37an4czloay5zeth6\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:pgjkomf37an4czloay5zeth6\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:pgjkomf37an4czloay5zeth6\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:btxrwcaeyodrap5mnjw2fvmz",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:btxrwcaeyodrap5mnjw2fvmz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:btxrwcaeyodrap5mnjw2fvmz\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:btxrwcaeyodrap5mnjw2fvmz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:revjuqmkvrw6fnkxppqtszpv",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:revjuqmkvrw6fnkxppqtszpv\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:revjuqmkvrw6fnkxppqtszpv\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:revjuqmkvrw6fnkxppqtszpv\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:gsbue2dtbtqzw5du5btlh7p2",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:gsbue2dtbtqzw5du5btlh7p2\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:gsbue2dtbtqzw5du5btlh7p2\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:gsbue2dtbtqzw5du5btlh7p2\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:ry3hbexak5ytsum7aazhpkbv",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ry3hbexak5ytsum7aazhpkbv\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:ry3hbexak5ytsum7aazhpkbv\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ry3hbexak5ytsum7aazhpkbv\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:34isotrs7rzjd3czk44hnkxh",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:34isotrs7rzjd3czk44hnkxh\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:34isotrs7rzjd3czk44hnkxh\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:34isotrs7rzjd3czk44hnkxh\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:eon2iu7v3x2ukgxkqaf7e5np",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:eon2iu7v3x2ukgxkqaf7e5np\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:eon2iu7v3x2ukgxkqaf7e5np\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:eon2iu7v3x2ukgxkqaf7e5np\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_followed_actor:did:plc:ewvi7nxzyoun6zhxrhs64oiz",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ewvi7nxzyoun6zhxrhs64oiz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_followed_actor:did:plc:ewvi7nxzyoun6zhxrhs64oiz\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ewvi7nxzyoun6zhxrhs64oiz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:mu2kwwjrqjuyotd7xjbt4whm",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:mu2kwwjrqjuyotd7xjbt4whm\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:mu2kwwjrqjuyotd7xjbt4whm\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:mu2kwwjrqjuyotd7xjbt4whm\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ypvrxjw4nkzvee5ftmfjwok6",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ypvrxjw4nkzvee5ftmfjwok6\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ypvrxjw4nkzvee5ftmfjwok6\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ypvrxjw4nkzvee5ftmfjwok6\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:u5s73pdoufh7oextyj7t7ghb",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:u5s73pdoufh7oextyj7t7ghb\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:u5s73pdoufh7oextyj7t7ghb\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:u5s73pdoufh7oextyj7t7ghb\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:kc37asifiagsigozesdw6yui",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:kc37asifiagsigozesdw6yui\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:kc37asifiagsigozesdw6yui\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:kc37asifiagsigozesdw6yui\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:iqql2bz5prai27h7sse7eibg",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:iqql2bz5prai27h7sse7eibg\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:iqql2bz5prai27h7sse7eibg\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:iqql2bz5prai27h7sse7eibg\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:l7ib4blhvwxbwnlr644o2xfn",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:l7ib4blhvwxbwnlr644o2xfn\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:l7ib4blhvwxbwnlr644o2xfn\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:l7ib4blhvwxbwnlr644o2xfn\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:tg4l23pxgobzlmax2oaitiw3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:tg4l23pxgobzlmax2oaitiw3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:tg4l23pxgobzlmax2oaitiw3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:tg4l23pxgobzlmax2oaitiw3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:7jcztc7ewbfuctranrtyzukf",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:7jcztc7ewbfuctranrtyzukf\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:7jcztc7ewbfuctranrtyzukf\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:7jcztc7ewbfuctranrtyzukf\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:rofszev5siirxuajcug4nqnm",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rofszev5siirxuajcug4nqnm\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:rofszev5siirxuajcug4nqnm\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rofszev5siirxuajcug4nqnm\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jumohj7dbw6rhomjztruhdqb",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jumohj7dbw6rhomjztruhdqb\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jumohj7dbw6rhomjztruhdqb\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jumohj7dbw6rhomjztruhdqb\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:2ajimlviywobin7a5nsnu3bw",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:2ajimlviywobin7a5nsnu3bw\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:2ajimlviywobin7a5nsnu3bw\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:2ajimlviywobin7a5nsnu3bw\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:mafq7dsfm4lsg7ycbwfh4zcm",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:mafq7dsfm4lsg7ycbwfh4zcm\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:mafq7dsfm4lsg7ycbwfh4zcm\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:mafq7dsfm4lsg7ycbwfh4zcm\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ikgl6u332p3v4lrj6d5sptdu",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ikgl6u332p3v4lrj6d5sptdu\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ikgl6u332p3v4lrj6d5sptdu\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ikgl6u332p3v4lrj6d5sptdu\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:2jei3xmwmwgfsqxbu2gxfxhg",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:2jei3xmwmwgfsqxbu2gxfxhg\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:2jei3xmwmwgfsqxbu2gxfxhg\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:2jei3xmwmwgfsqxbu2gxfxhg\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jygkub2aq7dz6vcxwqaxzr55",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jygkub2aq7dz6vcxwqaxzr55\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jygkub2aq7dz6vcxwqaxzr55\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jygkub2aq7dz6vcxwqaxzr55\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:5v5wqay6qhetozhtvmekcgna",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:5v5wqay6qhetozhtvmekcgna\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:5v5wqay6qhetozhtvmekcgna\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:5v5wqay6qhetozhtvmekcgna\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:zbjsopu6lyldzcw6hg3wjwtt",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:zbjsopu6lyldzcw6hg3wjwtt\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:zbjsopu6lyldzcw6hg3wjwtt\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:zbjsopu6lyldzcw6hg3wjwtt\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:7xquggbufag7rgjbqrbnyhal",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:7xquggbufag7rgjbqrbnyhal\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:7xquggbufag7rgjbqrbnyhal\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:7xquggbufag7rgjbqrbnyhal\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3yoljxnr7ewhhih5dv7ubi76",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3yoljxnr7ewhhih5dv7ubi76\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3yoljxnr7ewhhih5dv7ubi76\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3yoljxnr7ewhhih5dv7ubi76\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:anhstlolyndxavapu4fmbeei",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:anhstlolyndxavapu4fmbeei\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:anhstlolyndxavapu4fmbeei\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:anhstlolyndxavapu4fmbeei\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:f7p5bq7xah4cvjm6ruttjvbu",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:f7p5bq7xah4cvjm6ruttjvbu\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:f7p5bq7xah4cvjm6ruttjvbu\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:f7p5bq7xah4cvjm6ruttjvbu\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:qjh2aibxpqirw7zoxotblve6",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:qjh2aibxpqirw7zoxotblve6\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:qjh2aibxpqirw7zoxotblve6\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:qjh2aibxpqirw7zoxotblve6\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:kjmy4a4d4h35stwkw5k5zvs6",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:kjmy4a4d4h35stwkw5k5zvs6\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:kjmy4a4d4h35stwkw5k5zvs6\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:kjmy4a4d4h35stwkw5k5zvs6\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:t6gdo3gvnqoxxlxsg2ch67lh",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:t6gdo3gvnqoxxlxsg2ch67lh\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:t6gdo3gvnqoxxlxsg2ch67lh\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:t6gdo3gvnqoxxlxsg2ch67lh\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ys2lkv25ekwf2hry22q7mevj",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ys2lkv25ekwf2hry22q7mevj\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ys2lkv25ekwf2hry22q7mevj\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ys2lkv25ekwf2hry22q7mevj\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:yxbi352upqnuvokr2bfebx2d",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:yxbi352upqnuvokr2bfebx2d\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:yxbi352upqnuvokr2bfebx2d\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:yxbi352upqnuvokr2bfebx2d\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:mxjq6cocbzn3qwr37aze352t",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:mxjq6cocbzn3qwr37aze352t\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:mxjq6cocbzn3qwr37aze352t\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:mxjq6cocbzn3qwr37aze352t\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:fyaqc4pikplhu5m7rqa746oa",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:fyaqc4pikplhu5m7rqa746oa\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:fyaqc4pikplhu5m7rqa746oa\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:fyaqc4pikplhu5m7rqa746oa\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:cxkafxn3lmwb5eobk4vsso6g",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:cxkafxn3lmwb5eobk4vsso6g\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:cxkafxn3lmwb5eobk4vsso6g\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:cxkafxn3lmwb5eobk4vsso6g\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:4uqy2goypkded3lffeex7j74",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:4uqy2goypkded3lffeex7j74\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:4uqy2goypkded3lffeex7j74\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:4uqy2goypkded3lffeex7j74\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:4monn7vywqf4ijfve7zkh7og",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:4monn7vywqf4ijfve7zkh7og\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:4monn7vywqf4ijfve7zkh7og\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:4monn7vywqf4ijfve7zkh7og\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:y4aqccmac52yjng3ezdklaeh",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:y4aqccmac52yjng3ezdklaeh\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:y4aqccmac52yjng3ezdklaeh\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:y4aqccmac52yjng3ezdklaeh\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:eilkunxwco7va6bs5spj2ms2",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:eilkunxwco7va6bs5spj2ms2\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:eilkunxwco7va6bs5spj2ms2\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:eilkunxwco7va6bs5spj2ms2\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:vsp76pam6psvsfxoxxfxy5nx",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:vsp76pam6psvsfxoxxfxy5nx\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:vsp76pam6psvsfxoxxfxy5nx\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:vsp76pam6psvsfxoxxfxy5nx\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3rs4m7jdbup6qvmkkkpkmlng",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3rs4m7jdbup6qvmkkkpkmlng\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3rs4m7jdbup6qvmkkkpkmlng\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3rs4m7jdbup6qvmkkkpkmlng\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:bixpiqolm62dfyjnav3m3qk7",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:bixpiqolm62dfyjnav3m3qk7\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:bixpiqolm62dfyjnav3m3qk7\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:bixpiqolm62dfyjnav3m3qk7\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:wdbbqh75mxbwhwyo2efbqie7",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:wdbbqh75mxbwhwyo2efbqie7\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:wdbbqh75mxbwhwyo2efbqie7\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:wdbbqh75mxbwhwyo2efbqie7\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:wfef23zcadiwb6kvuqpudjxb",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:wfef23zcadiwb6kvuqpudjxb\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:wfef23zcadiwb6kvuqpudjxb\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:wfef23zcadiwb6kvuqpudjxb\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:btp4vc2jqfxdc54mrrxg2on5",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:btp4vc2jqfxdc54mrrxg2on5\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:btp4vc2jqfxdc54mrrxg2on5\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:btp4vc2jqfxdc54mrrxg2on5\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:if7ojb6uotoox62rxxvauxql",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:if7ojb6uotoox62rxxvauxql\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:if7ojb6uotoox62rxxvauxql\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:if7ojb6uotoox62rxxvauxql\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:6idbscnkx35xgqanvgr4w3pr",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:6idbscnkx35xgqanvgr4w3pr\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:6idbscnkx35xgqanvgr4w3pr\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:6idbscnkx35xgqanvgr4w3pr\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:b57koe7chnwu4viwoculkbug",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:b57koe7chnwu4viwoculkbug\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:b57koe7chnwu4viwoculkbug\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:b57koe7chnwu4viwoculkbug\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:tzvxa3jgb3ajelzxumbrne3m",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:tzvxa3jgb3ajelzxumbrne3m\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:tzvxa3jgb3ajelzxumbrne3m\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:tzvxa3jgb3ajelzxumbrne3m\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:sal7ssno7nrawxp3bkarzyyf",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:sal7ssno7nrawxp3bkarzyyf\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:sal7ssno7nrawxp3bkarzyyf\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:sal7ssno7nrawxp3bkarzyyf\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ljtopw4f5tfi6suuto4house",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ljtopw4f5tfi6suuto4house\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ljtopw4f5tfi6suuto4house\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ljtopw4f5tfi6suuto4house\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:tu32n3n2vkqj2sxabvealuy3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:tu32n3n2vkqj2sxabvealuy3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:tu32n3n2vkqj2sxabvealuy3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:tu32n3n2vkqj2sxabvealuy3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3nkj2ftijupc7swax7nyaoal",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3nkj2ftijupc7swax7nyaoal\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3nkj2ftijupc7swax7nyaoal\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3nkj2ftijupc7swax7nyaoal\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jwemcpx2hg3gch37uej5gdu3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jwemcpx2hg3gch37uej5gdu3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jwemcpx2hg3gch37uej5gdu3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jwemcpx2hg3gch37uej5gdu3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:q24ppn5tei2t3lqy326lukxn",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:q24ppn5tei2t3lqy326lukxn\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:q24ppn5tei2t3lqy326lukxn\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:q24ppn5tei2t3lqy326lukxn\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:gilhuzvdpob3utobsmhidbcl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:gilhuzvdpob3utobsmhidbcl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:gilhuzvdpob3utobsmhidbcl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:gilhuzvdpob3utobsmhidbcl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3gmyosipytbuba3zvg67riuo",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3gmyosipytbuba3zvg67riuo\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3gmyosipytbuba3zvg67riuo\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3gmyosipytbuba3zvg67riuo\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:juu6emkrgbbnlubbttpp44kd",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:juu6emkrgbbnlubbttpp44kd\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:juu6emkrgbbnlubbttpp44kd\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:juu6emkrgbbnlubbttpp44kd\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:pj3wgjufmvfsipi6zkm6neky",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:pj3wgjufmvfsipi6zkm6neky\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:pj3wgjufmvfsipi6zkm6neky\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:pj3wgjufmvfsipi6zkm6neky\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:pobknvaeganlflyn2w674ofi",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:pobknvaeganlflyn2w674ofi\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:pobknvaeganlflyn2w674ofi\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:pobknvaeganlflyn2w674ofi\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:pmtb23exr44ov23x2aptzs32",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:pmtb23exr44ov23x2aptzs32\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:pmtb23exr44ov23x2aptzs32\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:pmtb23exr44ov23x2aptzs32\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ehqisuxxo4s35veo4mfm2xp3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ehqisuxxo4s35veo4mfm2xp3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ehqisuxxo4s35veo4mfm2xp3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ehqisuxxo4s35veo4mfm2xp3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jvbmqifa6kbutrkqggezlfll",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jvbmqifa6kbutrkqggezlfll\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jvbmqifa6kbutrkqggezlfll\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jvbmqifa6kbutrkqggezlfll\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3ktfx6mytmkueot47rqbo6un",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3ktfx6mytmkueot47rqbo6un\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3ktfx6mytmkueot47rqbo6un\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3ktfx6mytmkueot47rqbo6un\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:d3fo7me76sjw4jluaxhrk73q",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:d3fo7me76sjw4jluaxhrk73q\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:d3fo7me76sjw4jluaxhrk73q\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:d3fo7me76sjw4jluaxhrk73q\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:rxc5bl6urwjjbtvzidsjfare",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rxc5bl6urwjjbtvzidsjfare\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:rxc5bl6urwjjbtvzidsjfare\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rxc5bl6urwjjbtvzidsjfare\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:7fin35dutotut4xg2gnco3fc",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:7fin35dutotut4xg2gnco3fc\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:7fin35dutotut4xg2gnco3fc\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:7fin35dutotut4xg2gnco3fc\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:tu26mkplzdxafck5yqvl4tbo",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:tu26mkplzdxafck5yqvl4tbo\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:tu26mkplzdxafck5yqvl4tbo\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:tu26mkplzdxafck5yqvl4tbo\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3h2d7t54qktb2znmm4fzm34r",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3h2d7t54qktb2znmm4fzm34r\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3h2d7t54qktb2znmm4fzm34r\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3h2d7t54qktb2znmm4fzm34r\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:57q32ggc4ir2tjlyvjwszwbo",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:57q32ggc4ir2tjlyvjwszwbo\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:57q32ggc4ir2tjlyvjwszwbo\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:57q32ggc4ir2tjlyvjwszwbo\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:aedawtncre7hhi3sr6zoahvl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:aedawtncre7hhi3sr6zoahvl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:aedawtncre7hhi3sr6zoahvl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:aedawtncre7hhi3sr6zoahvl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:fd2lmvizn54wwtjsedhzknax",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:fd2lmvizn54wwtjsedhzknax\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:fd2lmvizn54wwtjsedhzknax\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:fd2lmvizn54wwtjsedhzknax\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:gkc7qjnrnbb66zg5ptpwixxj",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:gkc7qjnrnbb66zg5ptpwixxj\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:gkc7qjnrnbb66zg5ptpwixxj\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:gkc7qjnrnbb66zg5ptpwixxj\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:baozct2qa3tzqtcmryuh6jrs",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:baozct2qa3tzqtcmryuh6jrs\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:baozct2qa3tzqtcmryuh6jrs\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:baozct2qa3tzqtcmryuh6jrs\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ka2arosqhwa4qyhywrp6gllg",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ka2arosqhwa4qyhywrp6gllg\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ka2arosqhwa4qyhywrp6gllg\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ka2arosqhwa4qyhywrp6gllg\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:tucxsof4fvlg7uffxcjyr6lg",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:tucxsof4fvlg7uffxcjyr6lg\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:tucxsof4fvlg7uffxcjyr6lg\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:tucxsof4fvlg7uffxcjyr6lg\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:p6xoxx2wewnw7tq6bb35xelc",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:p6xoxx2wewnw7tq6bb35xelc\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:p6xoxx2wewnw7tq6bb35xelc\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:p6xoxx2wewnw7tq6bb35xelc\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:vckns4hipisom47pipanctob",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:vckns4hipisom47pipanctob\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:vckns4hipisom47pipanctob\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:vckns4hipisom47pipanctob\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:n7iwy4zxhycxjmeuvsm54xnb",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:n7iwy4zxhycxjmeuvsm54xnb\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:n7iwy4zxhycxjmeuvsm54xnb\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:n7iwy4zxhycxjmeuvsm54xnb\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:nhfwj2enfqi5molyddjczg4l",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:nhfwj2enfqi5molyddjczg4l\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:nhfwj2enfqi5molyddjczg4l\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:nhfwj2enfqi5molyddjczg4l\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:gjbb57onngxjdeadxpxwiuyo",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:gjbb57onngxjdeadxpxwiuyo\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:gjbb57onngxjdeadxpxwiuyo\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:gjbb57onngxjdeadxpxwiuyo\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:e2mnvnbxgieypjn54mi46t3b",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:e2mnvnbxgieypjn54mi46t3b\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:e2mnvnbxgieypjn54mi46t3b\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:e2mnvnbxgieypjn54mi46t3b\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:3vzxcykcd5xlh44f4rtdzjdj",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:3vzxcykcd5xlh44f4rtdzjdj\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:3vzxcykcd5xlh44f4rtdzjdj\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:3vzxcykcd5xlh44f4rtdzjdj\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:iju5smh5vbt5ljl5gi6pynrz",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:iju5smh5vbt5ljl5gi6pynrz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:iju5smh5vbt5ljl5gi6pynrz\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:iju5smh5vbt5ljl5gi6pynrz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:mm2yzm6wuyolee7fxdcsritv",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:mm2yzm6wuyolee7fxdcsritv\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:mm2yzm6wuyolee7fxdcsritv\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:mm2yzm6wuyolee7fxdcsritv\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:evfnlsl2ezivm2pd4d4qnnoq",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:evfnlsl2ezivm2pd4d4qnnoq\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:evfnlsl2ezivm2pd4d4qnnoq\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:evfnlsl2ezivm2pd4d4qnnoq\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ddyodv2lzvqxh3d6qn44nd7b",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ddyodv2lzvqxh3d6qn44nd7b\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ddyodv2lzvqxh3d6qn44nd7b\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ddyodv2lzvqxh3d6qn44nd7b\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:7cokxvkimum2pybxoejpj6hp",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:7cokxvkimum2pybxoejpj6hp\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:7cokxvkimum2pybxoejpj6hp\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:7cokxvkimum2pybxoejpj6hp\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jzodjj32gtjd7bpttksjx5pe",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jzodjj32gtjd7bpttksjx5pe\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jzodjj32gtjd7bpttksjx5pe\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jzodjj32gtjd7bpttksjx5pe\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:oadnagvcrdcavkoslbofkfbz",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:oadnagvcrdcavkoslbofkfbz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:oadnagvcrdcavkoslbofkfbz\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:oadnagvcrdcavkoslbofkfbz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:5c3r3ifu3pbrabdih572zye4",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:5c3r3ifu3pbrabdih572zye4\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:5c3r3ifu3pbrabdih572zye4\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:5c3r3ifu3pbrabdih572zye4\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:y72nstlfhc4mkk4x3s66mnva",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:y72nstlfhc4mkk4x3s66mnva\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:y72nstlfhc4mkk4x3s66mnva\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:y72nstlfhc4mkk4x3s66mnva\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:eokcrabg3hych4c5bz5onnlj",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:eokcrabg3hych4c5bz5onnlj\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:eokcrabg3hych4c5bz5onnlj\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:eokcrabg3hych4c5bz5onnlj\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:nw64wsjo3pyr5ydfa6uubmvc",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:nw64wsjo3pyr5ydfa6uubmvc\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:nw64wsjo3pyr5ydfa6uubmvc\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:nw64wsjo3pyr5ydfa6uubmvc\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:u5cba5juzx2p577i46o6o6yq",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:u5cba5juzx2p577i46o6o6yq\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:u5cba5juzx2p577i46o6o6yq\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:u5cba5juzx2p577i46o6o6yq\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ljd5vatpymy2xas2xaih2ifs",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ljd5vatpymy2xas2xaih2ifs\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ljd5vatpymy2xas2xaih2ifs\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ljd5vatpymy2xas2xaih2ifs\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:y5ilfj6dbytfceduo4ausaw3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:y5ilfj6dbytfceduo4ausaw3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:y5ilfj6dbytfceduo4ausaw3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:y5ilfj6dbytfceduo4ausaw3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:jiqmxdqla3mfsgnzrczxykcl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:jiqmxdqla3mfsgnzrczxykcl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:jiqmxdqla3mfsgnzrczxykcl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:jiqmxdqla3mfsgnzrczxykcl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:ngp7essgkkgz5mmq3xunmwb3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:ngp7essgkkgz5mmq3xunmwb3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:ngp7essgkkgz5mmq3xunmwb3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:ngp7essgkkgz5mmq3xunmwb3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:gwf4kdpi3goqituxbwlbqwes",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:gwf4kdpi3goqituxbwlbqwes\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:gwf4kdpi3goqituxbwlbqwes\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:gwf4kdpi3goqituxbwlbqwes\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:efnprwh3pzdvuq2tngbwvk6a",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:efnprwh3pzdvuq2tngbwvk6a\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:efnprwh3pzdvuq2tngbwvk6a\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:efnprwh3pzdvuq2tngbwvk6a\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:zr3rgnikqocxo4yszrwl6eiw",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:zr3rgnikqocxo4yszrwl6eiw\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:zr3rgnikqocxo4yszrwl6eiw\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:zr3rgnikqocxo4yszrwl6eiw\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:rbtljxwcbmzw4vixh7qfgikd",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:rbtljxwcbmzw4vixh7qfgikd\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:rbtljxwcbmzw4vixh7qfgikd\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:rbtljxwcbmzw4vixh7qfgikd\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:yxc7zi5gzplkb4koloykenoz",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:yxc7zi5gzplkb4koloykenoz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:yxc7zi5gzplkb4koloykenoz\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:yxc7zi5gzplkb4koloykenoz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:lqssghwunr5hwivc6cj2php4",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:lqssghwunr5hwivc6cj2php4\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:lqssghwunr5hwivc6cj2php4\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:lqssghwunr5hwivc6cj2php4\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:57igkmyjchl4kfwooqdhwtoa",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:57igkmyjchl4kfwooqdhwtoa\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:57igkmyjchl4kfwooqdhwtoa\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:57igkmyjchl4kfwooqdhwtoa\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:u4j4drmvfsukaon5qtkckini",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:u4j4drmvfsukaon5qtkckini\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:u4j4drmvfsukaon5qtkckini\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:u4j4drmvfsukaon5qtkckini\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:p3mf7jvgoqttjosxqbkvssgl",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:p3mf7jvgoqttjosxqbkvssgl\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:p3mf7jvgoqttjosxqbkvssgl\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:p3mf7jvgoqttjosxqbkvssgl\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:psmygxxkmzcxt7xywoeaznk4",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:psmygxxkmzcxt7xywoeaznk4\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:psmygxxkmzcxt7xywoeaznk4\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:psmygxxkmzcxt7xywoeaznk4\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:afaa4fffl6iixdtvvguggl3x",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:afaa4fffl6iixdtvvguggl3x\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:afaa4fffl6iixdtvvguggl3x\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:afaa4fffl6iixdtvvguggl3x\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:htubetx3ygd3utigowbt7vf3",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:htubetx3ygd3utigowbt7vf3\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:htubetx3ygd3utigowbt7vf3\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:htubetx3ygd3utigowbt7vf3\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:4tjwbf3dggd3z4ddjkubrubf",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:4tjwbf3dggd3z4ddjkubrubf\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:4tjwbf3dggd3z4ddjkubrubf\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:4tjwbf3dggd3z4ddjkubrubf\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "lemmy_nz:lemmy_comments:public_local_communities_native_old_order",
+      "lemmy_nz",
+      "lemmy_comments",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://lemmy.nz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"lemmy_nz:lemmy_comments:public_local_communities_native_old_order\", \"frame_type\": \"lemmy_comments\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://lemmy.nz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "aussie_zone:lemmy_posts:public_local_communities_native_old_order",
+      "aussie_zone",
+      "lemmy_posts",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://aussie.zone\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"aussie_zone:lemmy_posts:public_local_communities_native_old_order\", \"frame_type\": \"lemmy_posts\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://aussie.zone\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "aussie_zone:lemmy_comments:public_local_communities_native_old_order",
+      "aussie_zone",
+      "lemmy_comments",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://aussie.zone\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"aussie_zone:lemmy_comments:public_local_communities_native_old_order\", \"frame_type\": \"lemmy_comments\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://aussie.zone\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "feddit_org:lemmy_posts:public_local_communities_native_old_order",
+      "feddit_org",
+      "lemmy_posts",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://feddit.org\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"feddit_org:lemmy_posts:public_local_communities_native_old_order\", \"frame_type\": \"lemmy_posts\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://feddit.org\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "midwest_social:lemmy_comments:public_local_communities_native_old_order",
+      "midwest_social",
+      "lemmy_comments",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://midwest.social\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"midwest_social:lemmy_comments:public_local_communities_native_old_order\", \"frame_type\": \"lemmy_comments\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://midwest.social\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:2efqwgcwkrgxzh3i455gorn6",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:2efqwgcwkrgxzh3i455gorn6\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:2efqwgcwkrgxzh3i455gorn6\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:2efqwgcwkrgxzh3i455gorn6\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "bluesky:public_follower_actor:did:plc:pndpx4feavu4lqr2cg4d3miv",
+      "bluesky",
+      "bluesky",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"actor\": \"did:plc:pndpx4feavu4lqr2cg4d3miv\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"bluesky:public_follower_actor:did:plc:pndpx4feavu4lqr2cg4d3miv\", \"frame_type\": \"bluesky\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"actor\\\": \\\"did:plc:pndpx4feavu4lqr2cg4d3miv\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "lemmy_nz:lemmy_posts:public_local_communities_native_old_order",
+      "lemmy_nz",
+      "lemmy_posts",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://lemmy.nz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"lemmy_nz:lemmy_posts:public_local_communities_native_old_order\", \"frame_type\": \"lemmy_posts\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://lemmy.nz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "lemmy_nz:retained_local_posts_native_comment_contexts",
+      "lemmy_nz",
+      "lemmy_comments",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://lemmy.nz\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"lemmy_nz:retained_local_posts_native_comment_contexts\", \"frame_type\": \"lemmy_comments\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://lemmy.nz\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "straight_dope:oldest_created_public_topic_inventory",
+      "straight_dope",
+      "discourse_archive",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://boards.straightdope.com\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"straight_dope:oldest_created_public_topic_inventory\", \"frame_type\": \"discourse_archive\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://boards.straightdope.com\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "osm_discourse:oldest_created_public_topic_inventory",
+      "osm_discourse",
+      "discourse_archive",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://community.openstreetmap.org\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"osm_discourse:oldest_created_public_topic_inventory\", \"frame_type\": \"discourse_archive\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://community.openstreetmap.org\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "python_discourse:oldest_created_public_topic_inventory",
+      "python_discourse",
+      "discourse_archive",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\"base\": \"https://discuss.python.org\"}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"python_discourse:oldest_created_public_topic_inventory\", \"frame_type\": \"discourse_archive\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {\\\"base\\\": \\\"https://discuss.python.org\\\"}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "python_list_archive:source_downloadable_months_oldest_first",
+      "python_list_archive",
+      "mbox_archive",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"python_list_archive:source_downloadable_months_oldest_first\", \"frame_type\": \"mbox_archive\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "hackernews:documented_native_item_id_chronology",
+      "hackernews",
+      "hackernews",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"hackernews:documented_native_item_id_chronology\", \"frame_type\": \"hackernews\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "w3_wwwtalk:public_period_and_message_inventory_oldest_first",
+      "w3_wwwtalk",
+      "w3_archive",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"w3_wwwtalk:public_period_and_message_inventory_oldest_first\", \"frame_type\": \"w3_archive\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "tildes:public_all_time_new_inventory",
+      "tildes",
+      "tildes_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"tildes:public_all_time_new_inventory\", \"frame_type\": \"tildes_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "tildes:public_all_time_votes_inventory",
+      "tildes",
+      "tildes_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"tildes:public_all_time_votes_inventory\", \"frame_type\": \"tildes_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "dowire_lists_umn:source_returned_date_inventory_oldest_observed_first",
+      "dowire_lists_umn",
+      "mail_archive_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"dowire_lists_umn:source_returned_date_inventory_oldest_observed_first\", \"frame_type\": \"mail_archive_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "dowire_newswire:source_returned_date_inventory_oldest_observed_first",
+      "dowire_newswire",
+      "mail_archive_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"dowire_newswire:source_returned_date_inventory_oldest_observed_first\", \"frame_type\": \"mail_archive_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "dowire_tc_umn:source_returned_date_inventory_oldest_observed_first",
+      "dowire_tc_umn",
+      "mail_archive_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"dowire_tc_umn:source_returned_date_inventory_oldest_observed_first\", \"frame_type\": \"mail_archive_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "mpls_mnforum_archive:documented_full_interval_oldest_native_search",
+      "mpls_mnforum_archive",
+      "mail_archive_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"mpls_mnforum_archive:documented_full_interval_oldest_native_search\", \"frame_type\": \"mail_archive_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "mpls_issues_freedom2_archive:documented_full_interval_oldest_native_search",
+      "mpls_issues_freedom2_archive",
+      "mail_archive_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"mpls_issues_freedom2_archive:documented_full_interval_oldest_native_search\", \"frame_type\": \"mail_archive_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "ilxor:public_ILE_source_returned_threads_earliest_observed_start_first",
+      "ilxor",
+      "ilxor_html",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"ilxor:public_ILE_source_returned_threads_earliest_observed_start_first\", \"frame_type\": \"ilxor_html\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ],
+    [
+      "thesession:documented_native_creation_inventory_oldest_observed_first",
+      "thesession",
+      "thesession",
+      "All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}",
+      null,
+      "unknown_without_source_evidence",
+      "{\"frame_id\": \"thesession:documented_native_creation_inventory_oldest_observed_first\", \"frame_type\": \"thesession\", \"selection_rule\": \"All native index returns with genuine source paging; no semantic/affect/length exclusion. Source and era limits explicit. {}\", \"existence_lower_bound\": null}"
+    ]
+  ],
+  "current_native_selection_evidence": [
+    {
+      "frame": "tildes:public_all_time_new_inventory",
+      "source": "tildes",
+      "kind": "tildes_html",
+      "selection_rule_evidence": "Returned sorting links and native period=all form option; genuine returned pagination only; newest-to-older native topic order"
+    },
+    {
+      "frame": "tildes:public_all_time_votes_inventory",
+      "source": "tildes",
+      "kind": "tildes_html",
+      "selection_rule_evidence": "Returned sorting links and native period=all form option; genuine returned pagination only; source all-time vote ranking yields historical threads; ranking selection bias remains explicit"
+    },
+    {
+      "frame": "dowire_tc_umn:source_returned_date_inventory_oldest_observed_first",
+      "source": "dowire_tc_umn",
+      "kind": "mail_archive_html",
+      "selection_rule_evidence": "Source-returned Date inventory, Earlier messages links and exact message URLs; reverse observed descending index sequence before complete-message Load. No semantic filtering or invented msg IDs."
+    },
+    {
+      "frame": "dowire_lists_umn:source_returned_date_inventory_oldest_observed_first",
+      "source": "dowire_lists_umn",
+      "kind": "mail_archive_html",
+      "selection_rule_evidence": "Source-returned Date inventory, Earlier messages links and exact message URLs; reverse observed descending index sequence before complete-message Load. No semantic filtering or invented msg IDs."
+    },
+    {
+      "frame": "dowire_newswire:source_returned_date_inventory_oldest_observed_first",
+      "source": "dowire_newswire",
+      "kind": "mail_archive_html",
+      "selection_rule_evidence": "Source-returned Date inventory, Earlier messages links and exact message URLs; reverse observed descending index sequence before complete-message Load. No semantic filtering or invented msg IDs."
+    },
+    {
+      "frame": "mpls_mnforum_archive:documented_full_interval_oldest_native_search",
+      "source": "mpls_mnforum_archive",
+      "kind": "mail_archive_html",
+      "selection_rule_evidence": "Saved provider FAQ documents date:[YYYYMMDD TO YYYYMMDD], sort:oldest and public-list parameter. Query spans fixed publication interval with no title/body/topic/affect terms. Source-returned Next links only; whole native messages loaded before advancing index."
+    },
+    {
+      "frame": "mpls_issues_freedom2_archive:documented_full_interval_oldest_native_search",
+      "source": "mpls_issues_freedom2_archive",
+      "kind": "mail_archive_html",
+      "selection_rule_evidence": "Saved provider FAQ documents date:[YYYYMMDD TO YYYYMMDD], sort:oldest and public-list parameter. Query spans fixed publication interval with no title/body/topic/affect terms. Source-returned Next links only; whole native messages loaded before advancing index."
+    },
+    {
+      "frame": "ilxor:public_ILE_source_returned_threads_earliest_observed_start_first",
+      "source": "ilxor",
+      "kind": "ilxor_html",
+      "selection_rule_evidence": "Native public board Start month/year distinct from latest update. All returned board40 threads sorted by Start month/year, ties exact URL; no title/body/climate/affect selection. Native showall repairs visible skips. First sample reuses exact saved probe with original request/retrieval times unchanged. Actual 2000-second robots delay persists."
+    },
+    {
+      "frame": "thesession:documented_native_creation_inventory_oldest_observed_first",
+      "source": "thesession",
+      "kind": "thesession",
+      "selection_rule_evidence": "Source API declares current 929 pages at documented perpage=50; begin exact last page then descending documented page numbers, source-returned whole HTML topic URLs and older-first returned timestamps. Live-index shifts and unknown archive completeness retained. No semantic title/body/topic selection; declared total is metadata, not a target or completion quota."
+    }
+  ]
+}

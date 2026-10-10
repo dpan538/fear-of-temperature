@@ -1,0 +1,23 @@
+stream,year,matched_months,n,share_of_2016_2026_matched_window,source_mixture_matched,interpretation
+newspaper,2016,January-August,509,0.07781684757682311,False,matched_calendar_only; still affected by source composition
+newspaper,2017,January-August,583,0.08913010243082098,False,matched_calendar_only; still affected by source composition
+newspaper,2018,January-August,429,0.06558630178871733,False,matched_calendar_only; still affected by source composition
+newspaper,2019,January-August,268,0.04097232839015441,False,matched_calendar_only; still affected by source composition
+newspaper,2020,January-August,617,0.09432808439076594,False,matched_calendar_only; still affected by source composition
+newspaper,2021,January-August,460,0.07032563828160832,False,matched_calendar_only; still affected by source composition
+newspaper,2022,January-August,651,0.0995260663507109,False,matched_calendar_only; still affected by source composition
+newspaper,2023,January-August,482,0.07368903837333741,False,matched_calendar_only; still affected by source composition
+newspaper,2024,January-August,891,0.13621770371502828,False,matched_calendar_only; still affected by source composition
+newspaper,2025,January-August,863,0.13193701268919125,False,matched_calendar_only; still affected by source composition
+newspaper,2026,January-August,788,0.12047087601284208,False,matched_calendar_only; still affected by source composition
+social,2016,January-August,3741,0.01763873827148852,False,matched_calendar_only; still affected by source composition
+social,2017,January-August,4213,0.01986420859069263,False,matched_calendar_only; still affected by source composition
+social,2018,January-August,4299,0.020269696826818805,False,matched_calendar_only; still affected by source composition
+social,2019,January-August,2060,0.009712857749068791,False,matched_calendar_only; still affected by source composition
+social,2020,January-August,1730,0.00815691451742185,False,matched_calendar_only; still affected by source composition
+social,2021,January-August,1443,0.0068037154038379935,False,matched_calendar_only; still affected by source composition
+social,2022,January-August,1171,0.005521240982601726,False,matched_calendar_only; still affected by source composition
+social,2023,January-August,17851,0.0841670988731199,False,matched_calendar_only; still affected by source composition
+social,2024,January-August,18100,0.08534112876608987,False,matched_calendar_only; still affected by source composition
+social,2025,January-August,27624,0.1302465934273186,False,matched_calendar_only; still affected by source composition
+social,2026,January-August,129858,0.6122778065915413,False,matched_calendar_only; still affected by source composition

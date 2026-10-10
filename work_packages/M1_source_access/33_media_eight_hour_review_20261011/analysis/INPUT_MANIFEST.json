@@ -1,0 +1,119 @@
+{
+  "inputs": [
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/MONTHLY_BEFORE_AFTER.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/MONTHLY_BEFORE_AFTER.csv",
+      "bytes": 11632,
+      "sha256": "fac7f609e72b6a0472a03a2ce95d7509c03cd125bc5b3e7ff19c88f799fefa75"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/MONTH_SOURCE_COUNTS_BEFORE.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/MONTH_SOURCE_COUNTS_BEFORE.csv",
+      "bytes": 23823,
+      "sha256": "aabe00b276982d8d21bfe04ec012a5a627c85d639cea96137b612a78afedbe15"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/MONTH_SOURCE_COUNTS_AFTER.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/MONTH_SOURCE_COUNTS_AFTER.csv",
+      "bytes": 30051,
+      "sha256": "b535d1177edc44b2426d897ea71d4e45ad71583c051cce8db4dd02f91ffb6479"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/LEGACY_AFFECTED_MONTH_BEFORE_AFTER.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/LEGACY_AFFECTED_MONTH_BEFORE_AFTER.csv",
+      "bytes": 3088,
+      "sha256": "3f33f8462e4b7e42a2d3403c64a3995c4fb862c0aa2637c1d2c4e0e789b10b7b"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "bytes": 9010755,
+      "sha256": "5c6bebd927ba6ba2cc8e1871794ce5a1cfc7d19a2e2e0f952236a7c64d318dd8"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/NEW_SOURCE_PURPOSE_GENRE_ERA_REGISTER.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/NEW_SOURCE_PURPOSE_GENRE_ERA_REGISTER.csv",
+      "bytes": 1497345,
+      "sha256": "236794e7ed31151afa4f61f6bdc9e36dc275e0755ef3e802ed4e2a54f792fe64"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/SOURCE_FRONTIER_REGISTER.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/SOURCE_FRONTIER_REGISTER.csv",
+      "bytes": 6739,
+      "sha256": "30563253cd097d458f45915e1f073b2693bbb8930c5d1dd333402c95327078b8"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/DELIVERY_SUMMARY.json",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/DELIVERY_SUMMARY.json",
+      "bytes": 75081,
+      "sha256": "0b29eac98fe6ea9adc524c1affa16534ac2739a359c1cb81cceddabeb026e17c"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/source_month_calendar.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/source_month_calendar.csv",
+      "bytes": 2115471,
+      "sha256": "7872e801c49dffc0f3a08fce2ab7848415ca885fc51f3ca20471a66a166c2fac"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social/source_month_calendar.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_broader_history_four_hour/worker/summaries/source_month_calendar.csv",
+      "bytes": 1581797,
+      "sha256": "c12cd85942862d4616796c4eae5c17a8bef12460bceaa7d77d4116e1909ed364"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/source_month_deltas.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/source_month_deltas.csv",
+      "bytes": 39816,
+      "sha256": "3d3ff8ee938098fcb45f2f598e67e459aa5ecd81d344645ea22ea74db3091c2a"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/matched_year_source_genre_panel.csv",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/matched_year_source_genre_panel.csv",
+      "bytes": 39259,
+      "sha256": "b863e15522db7e6f8e1cb7a9d1084fd437e926349d58b689bbe571e868396091"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/source_registry_final.json",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/source_registry_final.json",
+      "bytes": 268115,
+      "sha256": "0adaf3e3eb24c96c431ce2473c927e100e1db489448a1faab4de651893aa895f"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/collection_manifest.json",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/CLOSED.json",
+      "bytes": 57511,
+      "sha256": "f6b0bcba3af2fd794be4612239951e8d358cc25725e548234aefd8b6eaaefd1c"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/collection_manifest.json",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/collection_manifest.json",
+      "bytes": 57511,
+      "sha256": "f6b0bcba3af2fd794be4612239951e8d358cc25725e548234aefd8b6eaaefd1c"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/native_operation_peak_summary.json",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/native_operation_peak_summary.json",
+      "bytes": 4024,
+      "sha256": "dddd32561ced06337b111aa6dedec5aa2482caa20e9f29522b3acea8791cf164"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/metadata_operation_peak_summary.json",
+      "original_metadata_path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/metadata_operation_peak_summary.json",
+      "bytes": 569,
+      "sha256": "c3a70ff790406600a2d4525685053e74035961d4fbd85be5b8f86fb60745cb25"
+    },
+    {
+      "path": "work_packages/M1_source_access/30_media_2026_source_review_20261010/PARENT_SOURCE_EVIDENCE.csv",
+      "original_metadata_path": "work_packages/M1_source_access/30_media_2026_source_review_20261010/PARENT_SOURCE_EVIDENCE.csv",
+      "bytes": 85335,
+      "sha256": "67262a4ae17cbd0c05dcc6cbefe2cb81b56c5f450173bd51fc6c4b83573ac8d6"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/COORDINATOR_PUBLICATION_ACCOUNTING_NOTE.json",
+      "original_metadata_path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/COORDINATOR_PUBLICATION_ACCOUNTING_NOTE.json",
+      "bytes": 1213,
+      "sha256": "c975f8ffc47c2ae946cfef2bbe9ad143df4f2a2ce5fe678c8d41866b63c4e16e"
+    }
+  ],
+  "all_input_hashes_unchanged": true
+}

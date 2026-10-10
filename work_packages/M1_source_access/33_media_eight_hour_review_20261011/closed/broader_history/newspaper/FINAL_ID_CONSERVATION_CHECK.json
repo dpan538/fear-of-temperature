@@ -1,0 +1,12 @@
+{
+  "at_utc": "2026-10-10T09:45:30.083407+00:00",
+  "all_passed": true,
+  "database_added_qualified_IDs": 2592,
+  "own_confirmed_complete_unique_IDs": 2592,
+  "metadata_logging_recoveries": 0,
+  "missing_from_log": [],
+  "absent_from_new_database": [],
+  "new_identity_date_version_mapping_errors": [],
+  "database_write_executed": false,
+  "verification_scope": "New qualified ID membership and identity/date/version provenance metadata; no body/raw read"
+}

@@ -1,0 +1,33 @@
+{
+  "at_utc": "2026-10-10T11:30:35.904721+00:00",
+  "checks": [
+    {
+      "name": "actual_named_issue_dispatch_delivers_selected_locator",
+      "passed": true
+    },
+    {
+      "name": "actual_preparation_dispatch_runs_exact_selected_job",
+      "passed": true
+    },
+    {
+      "name": "named_directory_preserves_processed_flag",
+      "passed": true
+    },
+    {
+      "name": "native_year_issue_matched_candidate_only_queued",
+      "passed": true
+    },
+    {
+      "name": "new_candidates_extend_real_focused_ready_chain",
+      "passed": true
+    },
+    {
+      "name": "empty_success_is_observed_empty_without_body_exhaustion",
+      "passed": true
+    }
+  ],
+  "all_passed": true,
+  "HTTP_executed": false,
+  "database_Load_executed": false,
+  "old_processed_flag_preserved": true
+}

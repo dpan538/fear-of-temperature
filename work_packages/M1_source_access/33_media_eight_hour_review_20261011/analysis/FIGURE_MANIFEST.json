@@ -1,0 +1,43 @@
+{
+  "backend": "Python/matplotlib",
+  "user_delivery": "PNG only",
+  "figures": [
+    {
+      "path": "figures/01_coverage_and_month_depth.png",
+      "bytes": 281272,
+      "sha256": "ad8e9720927febee3488ce4ef476ff402d14638e80c67b101d50a2138ca22c38"
+    },
+    {
+      "path": "figures/02_monthly_and_annual_distribution.png",
+      "bytes": 592612,
+      "sha256": "7d627b6d3b8e3caf0c8413523d90b88482e746ff5374702a47c1ab25630b9b48"
+    },
+    {
+      "path": "figures/03_matched_recent_years.png",
+      "bytes": 313384,
+      "sha256": "f9bd16d2cefe66863483bbd38b9f22bd3ddcfe6c8163ef73e50eb5f5e570177f"
+    },
+    {
+      "path": "figures/04_source_expansion_and_eras.png",
+      "bytes": 607744,
+      "sha256": "776be288dc48deffc12cba163c0db43c77c0f4701f3bd03635d20a24fea7fa3a"
+    },
+    {
+      "path": "figures/05_legacy_recovery_depth.png",
+      "bytes": 299828,
+      "sha256": "061eff0303e240f9cee8f2e0d737307706f0652d896545d100d79f762eaf33ce"
+    },
+    {
+      "path": "figures/06_parent_mapping_limits.png",
+      "bytes": 274363,
+      "sha256": "6e7bc8aaf84aeeabb5b89434fd781995f4ead8d4745c73483d5b11ffffd8c9e0"
+    },
+    {
+      "path": "figures/07_capacity_and_stop_evidence.png",
+      "bytes": 439926,
+      "sha256": "d9b3e89c5472b00c762e05a56bbb7e1210acaa0256ea7437f79feb28a97a33b9"
+    }
+  ],
+  "script_sha256": "1a31d9a126628f832cde835540f536e152b4db988680823fe67119f9b8a9e38d",
+  "six_unchanged_pngs_hash_verified": true
+}

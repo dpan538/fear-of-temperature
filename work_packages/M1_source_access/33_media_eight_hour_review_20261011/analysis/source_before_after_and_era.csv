@@ -1,0 +1,64 @@
+stream,source_id,display_title,before,after,delta,new_contributing_source,observed_months,first_observed_month,last_observed_month,structural_purpose_or_genre,historical_inventory_denominator
+newspaper,berkeley_daily_planet,Berkeley Daily Planet,0,625,625,True,12,2000-06,2006-05,professional_regional_newspaper_historical_publisher_web,unknown; observed native routes are not full archive
+newspaper,cambridge_news_nz,Cambridge News (NZ),0,13,13,True,1,2017-07,2017-07,professional_community_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,camden_new_journal,Camden New Journal,294,310,16,False,119,2004-07,2025-12,UK local general-interest newspaper digital article frame; print existence and recoverable web observation separate,unknown; observed native routes are not full archive
+newspaper,devonport_flagstaff,Devonport Flagstaff,1232,1232,0,False,103,2017-06,2026-09,,unknown; observed native routes are not full archive
+newspaper,dublin_gazette,Dublin Gazette,0,3,3,True,2,2012-05,2012-06,professional_newspaper_publisher_web_edition,unknown; observed native routes are not full archive
+newspaper,enfield_dispatch,Enfield Dispatch,0,325,325,True,24,2018-08,2020-07,professional_community_monthly_newspaper,unknown; observed native routes are not full archive
+newspaper,falls_church_news_press,Falls Church News Press,4908,6650,1742,False,54,1999-11,2011-10,US local regional general-interest newspaper digital article frame; print weekly delivery and current web archive are separate observations,unknown; observed native routes are not full archive
+newspaper,financial_mirror,Financial Mirror,168,168,0,False,14,1999-11,2005-08,,unknown; observed native routes are not full archive
+newspaper,galway_advertiser,Galway Advertiser,123,143,20,False,3,2008-07,2009-03,"Galway Advertiser original public HTML newspaper article frame; shared group root, printed issues and archive scans are separate observations",unknown; observed native routes are not full archive
+newspaper,green_left,Green Left,2160,2498,338,False,155,1991-02,2004-02,Australian advocacy newspaper supplement; 1991 onward,unknown; observed native routes are not full archive
+newspaper,indaily,Indaily,796,796,0,False,10,2013-07,2024-02,,unknown; observed native routes are not full archive
+newspaper,kilkenny_observer,Kilkenny Observer,0,300,300,True,10,2020-03,2021-05,professional_community_newspaper_publisher_web,unknown; observed native routes are not full archive
+newspaper,limerick_post,Limerick Post,725,2016,1291,False,22,2007-04,2011-10,"Irish regional newspaper native public article inventory; source founded1986, recoverable web era pending native evidence",unknown; observed native routes are not full archive
+newspaper,militant_uk_archive,Militant Uk Archive,2,2,0,False,2,1988-07,1990-08,,unknown; observed native routes are not full archive
+newspaper,montpelier_bridge,Montpelier Bridge,6172,6663,491,False,168,2012-02,2026-03,US independent local community newspaper digital article frame; historical print existence distinct from recovered web inventory,unknown; observed native routes are not full archive
+newspaper,mountain_times_vt,Mountain Times (Vermont),0,300,300,True,5,2012-09,2014-08,professional_community_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,munster_express,The Munster Express,0,400,400,True,10,2006-08,2008-03,professional_regional_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,newtown_bee,Newtown Bee,23,38,15,False,10,1997-08,1999-10,Original Newtown Bee newspaper utterances in the public publisher HTML archive; originalPublicationAnt and other mixed archives remain pending outside this frame,unknown; observed native routes are not full archive
+newspaper,northern_rivers_times,Northern Rivers Times,2858,2858,0,False,28,2024-06,2026-09,,unknown; observed native routes are not full archive
+newspaper,otago_daily_times,Otago Daily Times,80,80,0,False,29,2008-02,2025-10,,unknown; observed native routes are not full archive
+newspaper,te_awamutu_news,Te Awamutu News,0,325,325,True,19,2019-11,2021-06,professional_community_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,waltham_forest_echo,Waltham Forest Echo,0,325,325,True,29,2014-07,2017-02,professional_community_monthly_newspaper,unknown; observed native routes are not full archive
+newspaper,workers_advocate,Workers Advocate,1292,1292,0,False,60,1988-01,1993-11,,unknown; observed native routes are not full archive
+newspaper,your_local_examiner_au,Examiner publisher web frame,0,300,300,True,10,2015-02,2015-11,professional_newspaper_publisher_web_edition,unknown; observed native routes are not full archive
+social,aussie_zone,Aussie Zone,9858,9858,0,False,40,2023-06,2026-09,regional_public_forum_candidate,unknown; observed native routes are not full archive
+social,bluesky,Bluesky,93679,93679,0,False,44,2020-09,2026-09,global_official_platform_account; institutional role separate from public expression,unknown; observed native routes are not full archive
+social,cotech,Cooperative Technologists Community,0,1714,1714,True,83,2017-05,2026-09,cooperative_technology_worker_and_civic_community,unknown; observed native routes are not full archive
+social,dowire_lists_umn,"Democracies Online civic newswire, lists.umn.edu archive",15,15,0,False,2,2003-05,2003-06,civic_mailing_archive,unknown; observed native routes are not full archive
+social,dowire_newswire,"Democracies Online civic newswire, groups.dowire.org archive",6,6,0,False,1,2006-05,2006-05,civic_mailing_archive,unknown; observed native routes are not full archive
+social,dowire_tc_umn,"Democracies Online civic newswire, tc.umn.edu archive",13,13,0,False,1,2000-06,2000-06,civic_mailing_archive,unknown; observed native routes are not full archive
+social,elektronauts,Elektronauts,0,4156,4156,True,73,2013-07,2024-08,music_device_user_and_creative_expression_community; specialist and technical consumer topics remain,unknown; observed native routes are not full archive
+social,feddit_org,feddit.org,3345,3345,0,False,4,2023-10,2024-08,regional_public_forum_candidate,unknown; observed native routes are not full archive
+social,fic_forum,FIC Forum,0,2174,2174,True,54,2021-08,2026-07,intentional_community_public_discussion,unknown; observed native routes are not full archive
+social,foodtalkcentral,Food Talk Central,0,3801,3801,True,103,2015-09,2026-09,food_and_dining_community,unknown; observed native routes are not full archive
+social,goatech,GOATech Community,0,758,758,True,61,2017-12,2026-09,agricultural_practitioner_and_open_technology_community,unknown; observed native routes are not full archive
+social,hackernews,Hacker News official native API,62,62,0,False,2,2006-10,2007-02,technology_link_and_comment_network,unknown; observed native routes are not full archive
+social,ilxor,ILX I Love Everything public forum,11625,18533,6908,False,249,2001-07,2026-09,general_interest_discussion_board,unknown; observed native routes are not full archive
+social,inaturalist_forum,iNaturalist Community Forum,0,4085,4085,True,91,2019-02,2026-09,naturalist_citizen_science_public_discussion,unknown; observed native routes are not full archive
+social,lemmy_nz,Lemmy NZ,6987,6987,0,False,40,2023-06,2026-09,regional_public_forum_candidate,unknown; observed native routes are not full archive
+social,mastodon_au,Aus.Social,29121,29121,0,False,3,2026-07,2026-09,regional_public_platform_instance,unknown; observed native routes are not full archive
+social,mastodon_ie,mastodon.ie,21878,21878,0,False,4,2026-06,2026-09,regional_public_platform_instance,unknown; observed native routes are not full archive
+social,mastodon_uk,mastodon.me.uk,29512,29512,0,False,8,2026-02,2026-09,regional_public_platform_instance,unknown; observed native routes are not full archive
+social,mastodon_us,SFBA.social,29063,29063,0,False,3,2026-07,2026-09,regional_public_platform_instance,unknown; observed native routes are not full archive
+social,midwest_social,midwest.social,185,185,0,False,12,2021-08,2022-09,regional_public_forum_candidate,unknown; observed native routes are not full archive
+social,mpls_issues_freedom2_archive,"Minneapolis Issues public civic forum, 2000 archive",5,5,0,False,1,2000-09,2000-09,civic_mailing_archive,unknown; observed native routes are not full archive
+social,mpls_mnforum_archive,"Minneapolis Issues public civic forum, 2001-2005 archive",5,5,0,False,1,2001-01,2001-01,civic_mailing_archive,unknown; observed native routes are not full archive
+social,openfoodnetwork,Open Food Network Community,0,1837,1837,True,71,2015-01,2023-11,food_network_cooperative_and_software_community,unknown; observed native routes are not full archive
+social,oscedays,Open Source Circular Economy Days,0,48,48,True,6,2015-03,2016-06,civic_circular_economy_community,unknown; observed native routes are not full archive
+social,osm_discourse,OpenStreetMap Community,11258,11258,0,False,233,2006-06,2026-09,mapping_technical_discussion_forum,unknown; observed native routes are not full archive
+social,python_discourse,Python Discussions,7045,7045,0,False,70,2018-09,2026-09,technical_discussion_forum,unknown; observed native routes are not full archive
+social,python_list_archive,Python-list public mailing archive,613429,613429,0,False,162,1999-02,2012-07,technical_mailing_archive,unknown; observed native routes are not full archive
+social,se_bicycles,Bicycles,0,1320,1320,True,107,2010-08,2026-07,cycling_QA,unknown; observed native routes are not full archive
+social,se_cooking,Seasoned Advice,0,1339,1339,True,112,2010-07,2025-12,food_and_cooking_QA,unknown; observed native routes are not full archive
+social,se_earthscience,Earth Science Stack Exchange,18177,18177,0,False,148,2014-04,2026-08,global_specialist_QA,unknown; observed native routes are not full archive
+social,se_gardening,Gardening & Landscaping,0,1329,1329,True,99,2011-03,2026-06,gardening_and_landscaping_QA,unknown; observed native routes are not full archive
+social,se_outdoors,The Great Outdoors,0,1364,1364,True,106,2012-01,2026-08,outdoor_recreation_QA,unknown; observed native routes are not full archive
+social,se_sustainability,Sustainable Living Stack Exchange,11964,11964,0,False,165,2013-01,2026-09,global_specialist_QA,unknown; observed native routes are not full archive
+social,se_travel,Travel,0,1341,1341,True,99,2011-06,2026-09,travel_QA,unknown; observed native routes are not full archive
+social,straight_dope,Straight Dope Message Board,13991,20614,6623,False,92,1999-03,2026-09,everyday_forum,unknown; observed native routes are not full archive
+social,survivefrance,Survive France,0,2386,2386,True,104,2009-12,2026-08,anglophone_resident_general_discussion_community,unknown; observed native routes are not full archive
+social,thesession,The Session traditional-music community discussions,350,5296,4946,False,101,2001-06,2026-08,traditional_music_discussion_community,unknown; observed native routes are not full archive
+social,tildes,Tildes public general-interest discussion,9134,29362,20228,False,60,2018-05,2026-09,multi_interest_public_topic_reply_community,unknown; observed native routes are not full archive
+social,w3_wwwtalk,W3C www-talk public mailing archive,188,188,0,False,11,1991-10,1992-08,technical_mailing_archive,unknown; observed native routes are not full archive

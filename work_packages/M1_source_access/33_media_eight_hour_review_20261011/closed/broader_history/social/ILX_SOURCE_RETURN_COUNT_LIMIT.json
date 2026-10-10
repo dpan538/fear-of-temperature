@@ -1,0 +1,11 @@
+{
+  "at_utc": "2026-10-10T07:51:47.274657+00:00",
+  "default_fixture_request_id": "745f8e332d09f6e4880927d6",
+  "default_returned_own_units": 100,
+  "literal_skip_notice_count": 10654,
+  "sum_if_literal_skip_count_is_exact": 10754,
+  "showall_request_id": "a4e0e3d08ae20525ac731998",
+  "showall_returned_own_units": 10752,
+  "difference": 2,
+  "interpretation": "Source skip badge arithmetic differs from current showall own-unit return by two. Completeness relative to the badge is unresolved; no missing native IDs, deleted-message reason or phantom bodies are invented. Complete actually returned own-message bodies remain retained."
+}

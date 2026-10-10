@@ -1,0 +1,7 @@
+{
+  "at_utc": "2026-10-10T06:07:39.834967+00:00",
+  "checks_passed": 2,
+  "starved_accepted_native_cursor_is_promoted": true,
+  "production_after_two_works_still_eligible": true,
+  "no_corpus_or_network_operation": true
+}

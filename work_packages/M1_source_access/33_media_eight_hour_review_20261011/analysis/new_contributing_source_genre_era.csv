@@ -1,0 +1,25 @@
+stream,source_id,display_title,before,after,delta,new_contributing_source,observed_months,first_observed_month,last_observed_month,structural_purpose_or_genre,historical_inventory_denominator
+newspaper,berkeley_daily_planet,Berkeley Daily Planet,0,625,625,True,12,2000-06,2006-05,professional_regional_newspaper_historical_publisher_web,unknown; observed native routes are not full archive
+newspaper,cambridge_news_nz,Cambridge News (NZ),0,13,13,True,1,2017-07,2017-07,professional_community_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,dublin_gazette,Dublin Gazette,0,3,3,True,2,2012-05,2012-06,professional_newspaper_publisher_web_edition,unknown; observed native routes are not full archive
+newspaper,enfield_dispatch,Enfield Dispatch,0,325,325,True,24,2018-08,2020-07,professional_community_monthly_newspaper,unknown; observed native routes are not full archive
+newspaper,kilkenny_observer,Kilkenny Observer,0,300,300,True,10,2020-03,2021-05,professional_community_newspaper_publisher_web,unknown; observed native routes are not full archive
+newspaper,mountain_times_vt,Mountain Times (Vermont),0,300,300,True,5,2012-09,2014-08,professional_community_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,munster_express,The Munster Express,0,400,400,True,10,2006-08,2008-03,professional_regional_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,te_awamutu_news,Te Awamutu News,0,325,325,True,19,2019-11,2021-06,professional_community_weekly_newspaper,unknown; observed native routes are not full archive
+newspaper,waltham_forest_echo,Waltham Forest Echo,0,325,325,True,29,2014-07,2017-02,professional_community_monthly_newspaper,unknown; observed native routes are not full archive
+newspaper,your_local_examiner_au,Examiner publisher web frame,0,300,300,True,10,2015-02,2015-11,professional_newspaper_publisher_web_edition,unknown; observed native routes are not full archive
+social,cotech,Cooperative Technologists Community,0,1714,1714,True,83,2017-05,2026-09,cooperative_technology_worker_and_civic_community,unknown; observed native routes are not full archive
+social,elektronauts,Elektronauts,0,4156,4156,True,73,2013-07,2024-08,music_device_user_and_creative_expression_community; specialist and technical consumer topics remain,unknown; observed native routes are not full archive
+social,fic_forum,FIC Forum,0,2174,2174,True,54,2021-08,2026-07,intentional_community_public_discussion,unknown; observed native routes are not full archive
+social,foodtalkcentral,Food Talk Central,0,3801,3801,True,103,2015-09,2026-09,food_and_dining_community,unknown; observed native routes are not full archive
+social,goatech,GOATech Community,0,758,758,True,61,2017-12,2026-09,agricultural_practitioner_and_open_technology_community,unknown; observed native routes are not full archive
+social,inaturalist_forum,iNaturalist Community Forum,0,4085,4085,True,91,2019-02,2026-09,naturalist_citizen_science_public_discussion,unknown; observed native routes are not full archive
+social,openfoodnetwork,Open Food Network Community,0,1837,1837,True,71,2015-01,2023-11,food_network_cooperative_and_software_community,unknown; observed native routes are not full archive
+social,oscedays,Open Source Circular Economy Days,0,48,48,True,6,2015-03,2016-06,civic_circular_economy_community,unknown; observed native routes are not full archive
+social,se_bicycles,Bicycles,0,1320,1320,True,107,2010-08,2026-07,cycling_QA,unknown; observed native routes are not full archive
+social,se_cooking,Seasoned Advice,0,1339,1339,True,112,2010-07,2025-12,food_and_cooking_QA,unknown; observed native routes are not full archive
+social,se_gardening,Gardening & Landscaping,0,1329,1329,True,99,2011-03,2026-06,gardening_and_landscaping_QA,unknown; observed native routes are not full archive
+social,se_outdoors,The Great Outdoors,0,1364,1364,True,106,2012-01,2026-08,outdoor_recreation_QA,unknown; observed native routes are not full archive
+social,se_travel,Travel,0,1341,1341,True,99,2011-06,2026-09,travel_QA,unknown; observed native routes are not full archive
+social,survivefrance,Survive France,0,2386,2386,True,104,2009-12,2026-08,anglophone_resident_general_discussion_community,unknown; observed native routes are not full archive

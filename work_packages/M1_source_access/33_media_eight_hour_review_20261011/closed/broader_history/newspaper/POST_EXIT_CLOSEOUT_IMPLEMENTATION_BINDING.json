@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-10T09:45:18.778475+00:00",
+  "writer_exited": true,
+  "network_or_Load_executed": false,
+  "original_closeout_sha256": "4bee58e72f91eed47cfe18398b0422aa62c09a28043be4260fcae4e83b152c06",
+  "post_exit_closeout_sha256": "f5d1948ebea78cbc60dc3055e69537be4074e549799f3a3822f1d675df296cf9",
+  "changes": [
+    "Newtown UUID/originalDate/body mapping check on new tranche",
+    "Archival versus original publisher provenance label",
+    "Frozen predecessor 2026 diagnostic referenced without old raw/body scan",
+    "Final report prepared after conservation checks using measured write peak"
+  ]
+}

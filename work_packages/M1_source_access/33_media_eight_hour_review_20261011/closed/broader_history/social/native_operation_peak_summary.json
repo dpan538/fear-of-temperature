@@ -1,0 +1,95 @@
+{
+  "at_utc": "2026-10-10T09:50:31.799938+00:00",
+  "accepted_prior_verification_at_utc": "2026-10-10T07:00:51.403455+00:00",
+  "accepted_prior_verified_loads": 383,
+  "remaining_changed_loads_checked": 934,
+  "source_classes": {
+    "straight_dope": {
+      "loads_checked": 74,
+      "max_observed_complete_peak_upper_bytes": 1588200,
+      "max_ratio_to_reserved": 0.04457611766433493,
+      "exceedances": 0
+    },
+    "osm_discourse": {
+      "loads_checked": 74,
+      "max_observed_complete_peak_upper_bytes": 1432360,
+      "max_ratio_to_reserved": 0.040113288197435926,
+      "exceedances": 0
+    },
+    "hackernews": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 267240,
+      "max_ratio_to_reserved": 0.007938001605422507,
+      "exceedances": 0
+    },
+    "python_list_archive": {
+      "loads_checked": 70,
+      "max_observed_complete_peak_upper_bytes": 363816864,
+      "max_ratio_to_reserved": 0.571325022712498,
+      "exceedances": 0
+    },
+    "tildes": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 19526480,
+      "max_ratio_to_reserved": 0.29911357574611575,
+      "exceedances": 0
+    },
+    "lemmy_nz": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 747392,
+      "max_ratio_to_reserved": 0.017776078004377232,
+      "exceedances": 0
+    },
+    "mastodon_uk": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 2458664,
+      "max_ratio_to_reserved": 0.0647383675557445,
+      "exceedances": 0
+    },
+    "mastodon_au": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 2516048,
+      "max_ratio_to_reserved": 0.06557565044278879,
+      "exceedances": 0
+    },
+    "mastodon_us": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 2708952,
+      "max_ratio_to_reserved": 0.0710828335142842,
+      "exceedances": 0
+    },
+    "bluesky": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 12788944,
+      "max_ratio_to_reserved": 0.29966085618699634,
+      "exceedances": 0
+    },
+    "w3_wwwtalk": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 213864,
+      "max_ratio_to_reserved": 0.006356362157853346,
+      "exceedances": 0
+    },
+    "python_discourse": {
+      "loads_checked": 73,
+      "max_observed_complete_peak_upper_bytes": 1790008,
+      "max_ratio_to_reserved": 0.05017032046975803,
+      "exceedances": 0
+    },
+    "ilxor": {
+      "loads_checked": 4,
+      "max_observed_complete_peak_upper_bytes": 287051552,
+      "max_ratio_to_reserved": 0.33085887655322216,
+      "exceedances": 0
+    },
+    "thesession": {
+      "loads_checked": 55,
+      "max_observed_complete_peak_upper_bytes": 3172712,
+      "max_ratio_to_reserved": 0.08191711187696807,
+      "exceedances": 0
+    }
+  },
+  "passed": true,
+  "original_precalibration_overshoot_and_receipts_preserved": true,
+  "old_body_or_raw_reaudit": false
+}

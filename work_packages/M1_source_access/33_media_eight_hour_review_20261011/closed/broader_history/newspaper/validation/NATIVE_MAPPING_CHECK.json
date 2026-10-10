@@ -1,0 +1,74 @@
+{
+  "at_utc": "2026-10-10T07:45:33.521158+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "actual_Ant_original_is_pending_other_frame",
+      "passed": true
+    },
+    {
+      "name": "fixture_original_date_separate_from_site_archive_date",
+      "passed": true
+    },
+    {
+      "name": "fixture1997_original_keeps1999_site_date",
+      "passed": true
+    },
+    {
+      "name": "weekday_conflict_never_forced",
+      "passed": true
+    },
+    {
+      "name": "legacy_boundary_missing_remains_pending",
+      "passed": true
+    },
+    {
+      "name": "stable_source_uuid_required",
+      "passed": true
+    },
+    {
+      "name": "retrospective_body_year_does_not_override_published_date",
+      "passed": true
+    },
+    {
+      "name": "no_topic_or_fear_label_or_filter",
+      "passed": true
+    },
+    {
+      "name": "actual_Bee1997_original_and1999_site_fields",
+      "passed": true
+    },
+    {
+      "name": "legacy_metadata_only_is_not_original_article_TEXT",
+      "passed": true
+    },
+    {
+      "name": "legacy_metadata_plus_image_without_original_TEXT_stays_pending",
+      "passed": true
+    },
+    {
+      "name": "short_neutral_original_retained_without_length_or_fear_threshold",
+      "passed": true
+    },
+    {
+      "name": "legacy_title_without_original_header_never_uses_site_date",
+      "passed": true
+    },
+    {
+      "name": "actual_current_saved_Galway_exact_ID_restored",
+      "passed": true
+    },
+    {
+      "name": "wrong_frozen_entry_does_not_guess_identity",
+      "passed": true
+    },
+    {
+      "name": "out_of_queue_reference_is_not_read",
+      "passed": true
+    }
+  ],
+  "real_Load": false,
+  "new_HTTP": false,
+  "no_old_corpus_body_audit": true,
+  "fixture_note": "Three named current-window raw returns only; transformed Newtown fixtures are synthetic and never corpus records"
+}

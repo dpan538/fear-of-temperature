@@ -1,0 +1,9 @@
+{
+  "carrier": "www.mail-archive.com",
+  "request_id": "65335c8f01290c0b6904b12f",
+  "http_status": 502,
+  "retry_after_literal": "60",
+  "effect": "all carrier frontiers preserved_source_stop",
+  "interpretation": "temporarily unavailable server response; does not establish permanent denial, licensing prohibition or absent content",
+  "current_release_action": "Preserve exact attempt and host stop; no reset or uncharged retry. Continue distinct evidenced routes. Prospective future source recheck should distinguish elapsed native backoff from permanent 401/403/451 restrictions."
+}

@@ -1,0 +1,59 @@
+{
+  "at_utc": "2026-10-10T11:04:08.741693+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "exact_affected_frame_116",
+      "passed": true
+    },
+    {
+      "name": "real_month_inventory_more_than_two",
+      "passed": true
+    },
+    {
+      "name": "actual_run_dispatch_accepts_focused_list_payload",
+      "passed": true
+    },
+    {
+      "name": "overlay_changes_expected_hint_only",
+      "passed": true
+    },
+    {
+      "name": "stable_ID_on_saved_replay",
+      "passed": true
+    },
+    {
+      "name": "saved_pending_touch_does_not_suppress_named_replay",
+      "passed": true
+    },
+    {
+      "name": "durable_replay_done_survives_next_selection",
+      "passed": true
+    },
+    {
+      "name": "committed_identity_wins_over_replay_candidate",
+      "passed": true
+    },
+    {
+      "name": "zero_or_pending_issue_advances_to_next_locator",
+      "passed": true
+    },
+    {
+      "name": "new_locator_evidence_allows_reconsideration",
+      "passed": true
+    },
+    {
+      "name": "actual_run_dispatch_accepts_named_missing_month_route",
+      "passed": true
+    },
+    {
+      "name": "month_query_uses_advertised_schema_and_fixed_month",
+      "passed": true
+    }
+  ],
+  "metadata_inventory_only": true,
+  "HTTP_executed": false,
+  "database_Load_executed": false,
+  "real_1994_01_surplus_candidate_URLs": 86,
+  "named_saved_replay_candidates": 0
+}

@@ -1,0 +1,298 @@
+{
+  "at_utc": "2026-10-10T09:58:52.665194+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "partial_end_month": true,
+  "authorized_start_at_utc": "2026-10-10T05:43:58.368759+00:00",
+  "hard_deadline_at_utc": "2026-10-10T09:43:58.368759+00:00",
+  "stop": {
+    "at_utc": "2026-10-10T09:43:58.380358+00:00",
+    "reason": "fixed_deadline",
+    "pid": 35249,
+    "deadline_preserved": true
+  },
+  "new_core_texts": 416529,
+  "new_usable_dated_bodies": 416529,
+  "retained_core_total": 920911,
+  "usable_dated_body_total": 920895,
+  "pooled_observed_months": 343,
+  "study_months": 465,
+  "new_entities": 426661,
+  "new_entity_versions": 584931,
+  "new_body_versions": 427712,
+  "native_entities_total": 964598,
+  "entity_versions_total": 1130212,
+  "round_charged_requests": 1422,
+  "lifetime_charged_requests": 8942,
+  "lifetime_returned_native_keys": 964641,
+  "inherited_key_catalog_difference": 43,
+  "pending_inherited_source_era_dates": 9,
+  "source_year_deltas": {
+    "python_list_archive|2004": 47397,
+    "mastodon_uk|2026": 4115,
+    "mastodon_au|2026": 4072,
+    "mastodon_us|2026": 4021,
+    "bluesky|2023": 5184,
+    "w3_wwwtalk|1992": 83,
+    "python_discourse|2018": 447,
+    "straight_dope|1999": 225,
+    "osm_discourse|2007": 460,
+    "bluesky|2025": 5091,
+    "straight_dope|2011": 34,
+    "straight_dope|2025": 6,
+    "hackernews|2007": 46,
+    "python_list_archive|2005": 58957,
+    "tildes|2025": 272,
+    "tildes|2026": 609,
+    "straight_dope|2001": 1,
+    "osm_discourse|2011": 19,
+    "osm_discourse|2012": 32,
+    "tildes|2023": 7693,
+    "dowire_lists_umn|2003": 15,
+    "osm_discourse|2008": 64,
+    "dowire_tc_umn|2000": 13,
+    "straight_dope|2026": 395,
+    "python_list_archive|2006": 60301,
+    "dowire_newswire|2006": 6,
+    "mpls_mnforum_archive|2001": 5,
+    "mpls_issues_freedom2_archive|2000": 5,
+    "bluesky|2022": 1,
+    "python_discourse|2019": 482,
+    "python_list_archive|2007": 46174,
+    "tildes|2024": 153,
+    "python_discourse|2020": 17,
+    "ilxor|2001": 46,
+    "ilxor|2007": 101,
+    "ilxor|2026": 154,
+    "python_discourse|2022": 5,
+    "osm_discourse|2009": 3,
+    "python_list_archive|2008": 49970,
+    "tildes|2018": 301,
+    "thesession|2001": 309,
+    "thesession|2002": 6,
+    "thesession|2004": 5,
+    "thesession|2005": 4,
+    "thesession|2007": 5,
+    "thesession|2011": 7,
+    "thesession|2014": 2,
+    "thesession|2016": 1,
+    "thesession|2019": 1,
+    "thesession|2020": 1,
+    "thesession|2022": 1,
+    "thesession|2008": 2,
+    "thesession|2009": 1,
+    "lemmy_nz|2023": 1,
+    "ilxor|2008": 608,
+    "ilxor|2009": 861,
+    "ilxor|2010": 565,
+    "ilxor|2011": 850,
+    "ilxor|2012": 485,
+    "ilxor|2013": 725,
+    "ilxor|2014": 446,
+    "ilxor|2015": 429,
+    "ilxor|2016": 329,
+    "ilxor|2017": 284,
+    "ilxor|2018": 618,
+    "ilxor|2019": 621,
+    "ilxor|2020": 1475,
+    "ilxor|2021": 900,
+    "ilxor|2022": 736,
+    "ilxor|2023": 569,
+    "ilxor|2024": 399,
+    "ilxor|2025": 241,
+    "tildes|2019": 106,
+    "python_list_archive|2009": 44541,
+    "thesession|2003": 1,
+    "thesession|2021": 1,
+    "osm_discourse|2010": 3,
+    "straight_dope|2006": 9,
+    "osm_discourse|2014": 10,
+    "straight_dope|2015": 760,
+    "ilxor|2002": 24,
+    "ilxor|2004": 28,
+    "python_list_archive|2010": 31920,
+    "thesession|2025": 3,
+    "python_list_archive|2011": 22284,
+    "ilxor|2005": 50,
+    "ilxor|2006": 81,
+    "python_list_archive|2012": 8246
+  },
+  "source_month_delta_rows": 468,
+  "checks": {
+    "append_version_and_entity_counts_match_Load_counters": true,
+    "changed_identity_links_valid": true,
+    "changed_bodies_checked": 584911,
+    "accepted_body_hash_references_reused": 20,
+    "changed_raw_mapping": {
+      "transport_receipts": 1422,
+      "saved_raw_responses": 1401,
+      "mapped_native_return_observations": 586043,
+      "mapping_issues": 0,
+      "parse_pending_content_responses": 0,
+      "archive_notice_only_version_corrections": 48
+    },
+    "predecessor_full_integrity_result_reused": true,
+    "old_body_or_raw_reaudit": false,
+    "all_changed_versions_have_native_quality_annotations": 584931,
+    "remaining_changed_native_load_peak_reservations": {
+      "at_utc": "2026-10-10T09:50:31.799938+00:00",
+      "accepted_prior_verification_at_utc": "2026-10-10T07:00:51.403455+00:00",
+      "accepted_prior_verified_loads": 383,
+      "remaining_changed_loads_checked": 934,
+      "source_classes": {
+        "straight_dope": {
+          "loads_checked": 74,
+          "max_observed_complete_peak_upper_bytes": 1588200,
+          "max_ratio_to_reserved": 0.04457611766433493,
+          "exceedances": 0
+        },
+        "osm_discourse": {
+          "loads_checked": 74,
+          "max_observed_complete_peak_upper_bytes": 1432360,
+          "max_ratio_to_reserved": 0.040113288197435926,
+          "exceedances": 0
+        },
+        "hackernews": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 267240,
+          "max_ratio_to_reserved": 0.007938001605422507,
+          "exceedances": 0
+        },
+        "python_list_archive": {
+          "loads_checked": 70,
+          "max_observed_complete_peak_upper_bytes": 363816864,
+          "max_ratio_to_reserved": 0.571325022712498,
+          "exceedances": 0
+        },
+        "tildes": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 19526480,
+          "max_ratio_to_reserved": 0.29911357574611575,
+          "exceedances": 0
+        },
+        "lemmy_nz": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 747392,
+          "max_ratio_to_reserved": 0.017776078004377232,
+          "exceedances": 0
+        },
+        "mastodon_uk": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 2458664,
+          "max_ratio_to_reserved": 0.0647383675557445,
+          "exceedances": 0
+        },
+        "mastodon_au": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 2516048,
+          "max_ratio_to_reserved": 0.06557565044278879,
+          "exceedances": 0
+        },
+        "mastodon_us": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 2708952,
+          "max_ratio_to_reserved": 0.0710828335142842,
+          "exceedances": 0
+        },
+        "bluesky": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 12788944,
+          "max_ratio_to_reserved": 0.29966085618699634,
+          "exceedances": 0
+        },
+        "w3_wwwtalk": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 213864,
+          "max_ratio_to_reserved": 0.006356362157853346,
+          "exceedances": 0
+        },
+        "python_discourse": {
+          "loads_checked": 73,
+          "max_observed_complete_peak_upper_bytes": 1790008,
+          "max_ratio_to_reserved": 0.05017032046975803,
+          "exceedances": 0
+        },
+        "ilxor": {
+          "loads_checked": 4,
+          "max_observed_complete_peak_upper_bytes": 287051552,
+          "max_ratio_to_reserved": 0.33085887655322216,
+          "exceedances": 0
+        },
+        "thesession": {
+          "loads_checked": 55,
+          "max_observed_complete_peak_upper_bytes": 3172712,
+          "max_ratio_to_reserved": 0.08191711187696807,
+          "exceedances": 0
+        }
+      },
+      "passed": true,
+      "original_precalibration_overshoot_and_receipts_preserved": true,
+      "old_body_or_raw_reaudit": false
+    }
+  },
+  "metadata": {
+    "memberships": 33031,
+    "quality_annotations": 58735,
+    "new_topic_post_number_aliases": 551,
+    "resolved_post_number_edges": 11
+  },
+  "saved_response_reconciliation": [
+    {
+      "request_id": "76025f36badb887cb09df2c7",
+      "status": "loaded",
+      "result": {
+        "at_utc": "2026-10-10T09:44:32.426793+00:00",
+        "request_id": "76025f36badb887cb09df2c7",
+        "frame_id": "osm_discourse:saved_response_terminal_reconciliation",
+        "returned_entities": 8,
+        "new_entities": 8,
+        "new_entity_versions": 8,
+        "new_qualified_posts": 7,
+        "observed_journal_peak_bytes": 443744,
+        "reserved_operation_bytes": 34430884,
+        "body_and_native_metadata_bytes": 29347,
+        "db_before_bytes": 12162260992,
+        "db_after_bytes": 12162342912,
+        "observed_additional_disk_peak_upper_bytes": 525664,
+        "lifetime_returned_objects": 964641,
+        "raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_broader_history_four_hour/worker/raw/76025f36badb887cb09df2c7.bin.gz",
+        "source_year_deltas": {
+          "osm_discourse|2007": 7
+        }
+      }
+    }
+  ],
+  "export_start_capacity": {
+    "at_utc": "2026-10-10T09:46:58.265082+00:00",
+    "free_bytes": 47408996352,
+    "media_bytes": 16005368204,
+    "social_bytes": 13828365066,
+    "own_lease_bytes": 8388608,
+    "other_lease_bytes": 8388608,
+    "pending_bytes": 642908486,
+    "terminal_tail": {
+      "bytes": 0,
+      "phase": "terminal_incremental_operation_consumes_reserved_tail"
+    },
+    "complete_pending_bytes": 642908486,
+    "reserved_bytes": 651362630,
+    "physical_headroom": 30601174714,
+    "media_headroom": 13343269166,
+    "social_headroom": 528660912
+  },
+  "reserved_export_and_metadata_journal_bytes": 642908486,
+  "predecessor_closed_snapshot_sha256": "f8c32800c3eb504cc72552dc194155ee39811eab13d610e015c78d0e885f08a0",
+  "predecessor_delta_manifest_sha256": "bd5025920c40b688e28512517bc4e31b027b24c729854caf2b6d0a5bb2dbce97",
+  "semantic_or_affect_labels_executed": false,
+  "metadata_counts_basis": "terminal phase only; completed midwindow annotations are included in the all-changed-version check and exported provenance",
+  "midwindow_metadata_settlement": [
+    {
+      "revision": 3,
+      "actual_annotated_new_versions": 526196,
+      "source_requests": 0,
+      "resume_possible": true
+    }
+  ]
+}

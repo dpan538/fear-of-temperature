@@ -1,0 +1,48 @@
+{
+  "source_preflight_exit": 0,
+  "rendered_checks": [
+    {
+      "figure": "01_coverage_and_month_depth",
+      "text_exit": 0,
+      "collision_exit": 0,
+      "collision_report": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/01_coverage_and_month_depth.collision.json"
+    },
+    {
+      "figure": "02_monthly_and_annual_distribution",
+      "text_exit": 0,
+      "collision_exit": 0,
+      "collision_report": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/02_monthly_and_annual_distribution.collision.json"
+    },
+    {
+      "figure": "03_matched_recent_years",
+      "text_exit": 0,
+      "collision_exit": 0,
+      "collision_report": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/03_matched_recent_years.collision.json"
+    },
+    {
+      "figure": "04_source_expansion_and_eras",
+      "text_exit": 0,
+      "collision_exit": 0,
+      "collision_report": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/04_source_expansion_and_eras.collision.json"
+    },
+    {
+      "figure": "05_legacy_recovery_depth",
+      "text_exit": 0,
+      "collision_exit": 0,
+      "collision_report": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/05_legacy_recovery_depth.collision.json"
+    },
+    {
+      "figure": "06_parent_mapping_limits",
+      "text_exit": 0,
+      "collision_exit": 0,
+      "collision_report": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/06_parent_mapping_limits.collision.json"
+    },
+    {
+      "figure": "07_capacity_and_stop_evidence",
+      "text_exit": 0,
+      "collision_exit": 0,
+      "collision_report": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/07_capacity_and_stop_evidence.collision.json"
+    }
+  ],
+  "all_automated_checks_pass": true
+}

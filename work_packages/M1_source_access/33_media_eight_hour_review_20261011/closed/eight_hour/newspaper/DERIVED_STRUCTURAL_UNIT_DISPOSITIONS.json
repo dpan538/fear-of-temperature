@@ -1,0 +1,26 @@
+{
+  "version": 1,
+  "at_utc": "2026-10-10T15:41:38.052539+00:00",
+  "units": {
+    "cambridge_news_nz:article:194": {
+      "article_id": "cambridge_news_nz:article:194",
+      "source_id": "cambridge_news_nz",
+      "source_url": "https://www.cambridgenews.nz/2017/06/example-sports-headline/",
+      "original_load_status": "confirmed_complete",
+      "original_loaded_at_utc": "2026-10-10T15:26:13.121195+00:00",
+      "version_id": "cambridge_news_nz:article:194:body:0dfa875228d2451b8b587bef",
+      "body_sha256": "0dfa875228d2451b8b587bef09e6c4f51274fc848af60e8437e158bc1dbed196",
+      "raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/raw/ff9cff7522884bc1e64c290a.bin.gz",
+      "raw_sha256": "0afeec6dba16bc074af313b88a5016f36017ac736ac103db6240dbba23a7b699",
+      "request_id": "ff9cff7522884bc1e64c290a",
+      "derived_status": "verified_publisher_example_template",
+      "countable_complete_article": false,
+      "basis": "Exact publisher Example Sports Headline and retained placeholder copy, corroborated by native metadata document 8b2a182780e81a37dd797c69. Generated native ID/date/Article schema do not establish an independently published article.",
+      "original_database_row_ID_and_versions_preserved": true,
+      "no_topic_emotion_language_or_length_filter": true
+    }
+  },
+  "scope": "Named structural native-unit disposition only; derived current/new article counts; no database or historical log mutation",
+  "timing_correction": "Original Load at15:26:13.121195 preceded queue hold at15:26:14.509595. Earlier no-Load wording is superseded by this exact committed evidence.",
+  "live_writer_unchanged": true
+}

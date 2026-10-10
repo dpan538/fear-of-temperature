@@ -1,0 +1,73 @@
+{
+  "at_utc": "2026-10-10T13:26:05.341777+00:00",
+  "all_passed": true,
+  "checks": {
+    "apex_www_same_original_native_identity_date_and_wholebody": true,
+    "confirmed_alias_uses_inherited_same_native_charge_key": true,
+    "foreign_host_not_accepted": true,
+    "actual_apex_carrier_native_units_mapped": true,
+    "metadata_native_participants_and_alias_carrier_keep_four_hop_limit": true,
+    "actual_eligible_2017_original_HTML_complete_ID_date_body_mapping": [
+      "Featured",
+      "News"
+    ],
+    "fixed_cutoff_rejects_actual_2026_September24_record": true,
+    "actual_advertised_1000_article_sitemap_reaches_queue": true,
+    "native_sitemap_dates_not_used_as_publication_dates": true
+  },
+  "no_HTTP": true,
+  "no_database_writes": true,
+  "own_named_new_raw_only": true,
+  "confirmed_Berkeley_native_alias_binding": {
+    "status": "confirmed_same_publisher_native_web_alias",
+    "primary_evidence_receipts": [
+      "fd883c002b99ca27f5cc591e",
+      "caadf50e2f791628b7be1ffe",
+      "1eab3b6f9fd4ff251478b034"
+    ],
+    "basis": "Same unique native20100 permalink identity,title,date,wholebody,publisher title and contact route on publisher apex/www; not bodyhash alone; all raw and URLs retained"
+  },
+  "Cambridge_actual_article_record": {
+    "source_id": "cambridge_news_nz",
+    "source": "Cambridge News",
+    "source_url": "https://www.cambridgenews.nz/2017/09/local-reporter-first-in-editors-chair/",
+    "raw_source_url": "https://www.cambridgenews.nz/2017/09/local-reporter-first-in-editors-chair/",
+    "url_aliases": [
+      "https://www.cambridgenews.nz/2017/09/local-reporter-first-in-editors-chair/"
+    ],
+    "stratum": "NZ",
+    "country": "NZ",
+    "edition": "Original publisher community weekly web edition",
+    "source_frame": "professional_community_weekly_newspaper",
+    "retention_limit": "Private authorized research only; publisher retains copyright",
+    "provenance": "direct original newspaper publisher HTML representation; source reprints/quotations separate",
+    "content_version_time": null,
+    "historical_body_equivalence": "unknown; current retrieved archive rendition",
+    "semantic_labels_executed": false,
+    "length_filter_used": false,
+    "article_id": "cambridge_news_nz:article:526",
+    "source_native_article_id": "526",
+    "native_identity_basis": "Unique publisher HTML body postid-class and matching canonical/permalink/Article JSON-LD identity",
+    "title": "Local reporter first in Editor’s chair",
+    "publication_date": "2017-09-14",
+    "publisher_timestamp": "2017-09-14T05:07:38+00:00",
+    "date_field": "Unique original article:published_time agrees with matching canonical source Article JSON-LD datePublished and permalink month",
+    "body_boundary": "Unique main .single-post > .entry contains complete native copy and captions; site navigation/sidebar/header excluded",
+    "article_boundary_evidence": "Named original title, one complete original entry container and persistent publisher native ID/date/canonical binding",
+    "observed_author": {
+      "name": "Sophie Iremonger",
+      "@id": "https://www.cambridgenews.nz/#/schema/person/3491756e39dbcf7648475d76fdbed484"
+    },
+    "publisher_native_genre": [
+      "Featured",
+      "News"
+    ],
+    "paragraph_count": 12
+  },
+  "Berkeley_metadata_native_participants_charge_receipts": [
+    "22fa60799f23b289a840cdc5",
+    "fd883c002b99ca27f5cc591e",
+    "caadf50e2f791628b7be1ffe",
+    "12a5411ff779410a2015838d"
+  ]
+}

@@ -171,3 +171,16 @@ work_packages/M1_source_access/27_newspaper_context_recovery_20261008/**/control
 
 # Preliminary joint-diagnostic run retained locally; v2 is the finalized delivery.
 /work_packages/M1_source_access/31_media_joint_validation_20261010/results_v1/
+
+# Eight-hour repair runtime stays local; select closed implementation/tables once.
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/
+
+# Media review rendering QA stays local; published visuals are PNG.
+/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/*.pdf
+/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/*.svg
+/work_packages/M1_source_access/33_media_eight_hour_review_20261011/analysis/qa/render.log
+
+# Fixed post-review successor runtime state remains local.
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/

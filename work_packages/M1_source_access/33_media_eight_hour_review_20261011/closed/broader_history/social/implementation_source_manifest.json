@@ -1,0 +1,71 @@
+{
+  "at_utc": "2026-10-10T09:58:52.711514+00:00",
+  "files": [
+    {
+      "path": "bootstrap.py",
+      "bytes": 5807,
+      "sha256": "d83f05364e2c27aff7a0719ad077cf065279ee18b483cb543b74f39633081233"
+    },
+    {
+      "path": "collect.py",
+      "bytes": 31188,
+      "sha256": "8cac9d6994e82930dd6e1edd7c9a5df0e104b911c0ca9852646db3b07f1bae62"
+    },
+    {
+      "path": "transport.py",
+      "bytes": 33018,
+      "sha256": "0c74fda52518ef602df54a30032d9e3569d3eab8522cbd845a5b2867b7e43f36"
+    },
+    {
+      "path": "entities.py",
+      "bytes": 21648,
+      "sha256": "2d46579f284c5cc830feb1ab99cf0d9075f8de5b5cf2fe0a8857405ebc25c216"
+    },
+    {
+      "path": "archive_adapter.py",
+      "bytes": 9020,
+      "sha256": "f8b3aac613f0adfd9d9257aef79d100855ef91045527bb3e869768ff2f492dc2"
+    },
+    {
+      "path": "lemmy_adapter.py",
+      "bytes": 3401,
+      "sha256": "0fc52cf25d0a82790994475f60222ade310e97625970b745a2e47a9cfd544468"
+    },
+    {
+      "path": "public_html_adapter.py",
+      "bytes": 12773,
+      "sha256": "be721a8ecefb48d0b1d15dc6b01c0762008658447e3e5a225b851ea489472f59"
+    },
+    {
+      "path": "thesession_adapter.py",
+      "bytes": 4113,
+      "sha256": "2eb834109915f5afb1010b95bd5ee2718d7ecc90b8d09312cf793d71d85ccf77"
+    },
+    {
+      "path": "finalize_metadata.py",
+      "bytes": 8588,
+      "sha256": "66905c5e4b9fa07184eb066f2736ed5d03390a78a96f0e6540fb96db73104187"
+    },
+    {
+      "path": "raw_catalog.py",
+      "bytes": 8516,
+      "sha256": "04822b1a9a795ae2a83fb3d4ca70e0109d80a1720fd863244c0989b747aa7bb3"
+    },
+    {
+      "path": "incremental_closeout.py",
+      "bytes": 31413,
+      "sha256": "d73c113e7e1dee84112a6da19a3ce699b06a33913f93d62675da2fad0038b9a1"
+    },
+    {
+      "path": "schema_v2.sql",
+      "bytes": 3371,
+      "sha256": "513b36b771756ebc3cb8a0fc63375d6430cdb6dd57dace3983b60f319c9864c9"
+    },
+    {
+      "path": "schema_legacy.sql",
+      "bytes": 2233,
+      "sha256": "daea9eafb3caee782b840c8a1694fd163d58c7230f83d96fd64e6b99cb04fd48"
+    }
+  ],
+  "execution_controls_and_owner_handoffs_are_local": true
+}

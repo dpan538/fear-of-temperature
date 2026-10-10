@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-10-10T11:01:32.784373+00:00",
+  "source_ids": [
+    "cotech",
+    "elektronauts",
+    "fic_forum",
+    "foodtalkcentral",
+    "goatech",
+    "inaturalist_forum",
+    "openfoodnetwork",
+    "oscedays",
+    "se_bicycles",
+    "se_cooking",
+    "se_gardening",
+    "se_outdoors",
+    "se_travel",
+    "survivefrance"
+  ],
+  "source_return_quality_verified": true,
+  "only_real_dated_bodies_will_count_as_contributions": true,
+  "software_is_not_independent_parent": true,
+  "preserved_root502": "67a6eb80edb75cfe5f755cbf",
+  "no_provider_stop_cleared": true,
+  "last_amended_at_utc": "2026-10-10T15:06:07.864992+00:00"
+}

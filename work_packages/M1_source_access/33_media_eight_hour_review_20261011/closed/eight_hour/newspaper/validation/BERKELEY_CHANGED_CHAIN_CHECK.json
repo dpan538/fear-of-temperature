@@ -1,0 +1,22 @@
+{
+  "at_utc": "2026-10-10T12:44:56.925311+00:00",
+  "checks": {
+    "saved_native_raw_hash": true,
+    "seventy_distinct_native_ID_units": true,
+    "carrier_date_not_assigned_to_back_stories": true,
+    "complete_originals_keep_all_copy_TEXT": true,
+    "structural_pending_units_preserved": true,
+    "saved_native_charge_idempotent": true,
+    "inherited_four_hop_limit_enforced": true,
+    "actual_dispatch_reaches_native_adapter": true,
+    "future_body_requires_verified_single_mapping": true,
+    "single_native_wholebody_exact_carrier_match": true,
+    "HTML_comment_extraction_artifact_removed": true,
+    "explicit_source_use_stop_has_no_request": true
+  },
+  "all_passed": true,
+  "new_HTTP": false,
+  "database_writes": false,
+  "actual_saved_native_carrier": "cb46d1e7783160ce331859c7",
+  "source_scope": "One own changed carrier only; no old full-corpus sweep"
+}

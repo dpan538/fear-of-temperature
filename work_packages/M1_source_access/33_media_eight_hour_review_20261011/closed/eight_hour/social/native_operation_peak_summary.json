@@ -1,0 +1,126 @@
+{
+  "at_utc": "2026-10-10T16:32:54.990542+00:00",
+  "accepted_prior_verification_at_utc": "2026-10-10T09:50:31.799938+00:00",
+  "accepted_prior_verified_loads": 1317,
+  "accepted_prior_summary_sha256": "d3ded889c8586f98f384d383c8b5808257bdc7f6d13ba98c4772a079f5a47529",
+  "remaining_changed_loads_checked": 4115,
+  "source_classes": {
+    "ilxor": {
+      "loads_checked": 250,
+      "max_observed_complete_peak_upper_bytes": 136423912,
+      "max_ratio_to_reserved": 0.39571921706625096,
+      "exceedances": 0
+    },
+    "tildes": {
+      "loads_checked": 374,
+      "max_observed_complete_peak_upper_bytes": 23730712,
+      "max_ratio_to_reserved": 0.34157304276458306,
+      "exceedances": 0
+    },
+    "thesession": {
+      "loads_checked": 427,
+      "max_observed_complete_peak_upper_bytes": 4679080,
+      "max_ratio_to_reserved": 0.11170990053190097,
+      "exceedances": 0
+    },
+    "straight_dope": {
+      "loads_checked": 660,
+      "max_observed_complete_peak_upper_bytes": 1798216,
+      "max_ratio_to_reserved": 0.04992295908197209,
+      "exceedances": 0
+    },
+    "fic_forum": {
+      "loads_checked": 342,
+      "max_observed_complete_peak_upper_bytes": 1575896,
+      "max_ratio_to_reserved": 0.04367682471145064,
+      "exceedances": 0
+    },
+    "oscedays": {
+      "loads_checked": 17,
+      "max_observed_complete_peak_upper_bytes": 677160,
+      "max_ratio_to_reserved": 0.018849454001609145,
+      "exceedances": 0
+    },
+    "survivefrance": {
+      "loads_checked": 312,
+      "max_observed_complete_peak_upper_bytes": 1456968,
+      "max_ratio_to_reserved": 0.04086596689430567,
+      "exceedances": 0
+    },
+    "inaturalist_forum": {
+      "loads_checked": 302,
+      "max_observed_complete_peak_upper_bytes": 1937720,
+      "max_ratio_to_reserved": 0.054459322900289736,
+      "exceedances": 0
+    },
+    "elektronauts": {
+      "loads_checked": 393,
+      "max_observed_complete_peak_upper_bytes": 1420112,
+      "max_ratio_to_reserved": 0.040004259272509494,
+      "exceedances": 0
+    },
+    "openfoodnetwork": {
+      "loads_checked": 259,
+      "max_observed_complete_peak_upper_bytes": 1645584,
+      "max_ratio_to_reserved": 0.04572153338535071,
+      "exceedances": 0
+    },
+    "foodtalkcentral": {
+      "loads_checked": 277,
+      "max_observed_complete_peak_upper_bytes": 1909016,
+      "max_ratio_to_reserved": 0.05352362500109346,
+      "exceedances": 0
+    },
+    "goatech": {
+      "loads_checked": 195,
+      "max_observed_complete_peak_upper_bytes": 1637496,
+      "max_ratio_to_reserved": 0.04585013155589882,
+      "exceedances": 0
+    },
+    "cotech": {
+      "loads_checked": 195,
+      "max_observed_complete_peak_upper_bytes": 1563648,
+      "max_ratio_to_reserved": 0.04385549424376444,
+      "exceedances": 0
+    },
+    "se_gardening": {
+      "loads_checked": 24,
+      "max_observed_complete_peak_upper_bytes": 5737520,
+      "max_ratio_to_reserved": 0.13394440582149006,
+      "exceedances": 0
+    },
+    "se_bicycles": {
+      "loads_checked": 24,
+      "max_observed_complete_peak_upper_bytes": 5827544,
+      "max_ratio_to_reserved": 0.13450712466547793,
+      "exceedances": 0
+    },
+    "se_outdoors": {
+      "loads_checked": 15,
+      "max_observed_complete_peak_upper_bytes": 5770440,
+      "max_ratio_to_reserved": 0.13486857697061622,
+      "exceedances": 0
+    },
+    "se_travel": {
+      "loads_checked": 24,
+      "max_observed_complete_peak_upper_bytes": 5815592,
+      "max_ratio_to_reserved": 0.13639537093794252,
+      "exceedances": 0
+    },
+    "se_cooking": {
+      "loads_checked": 24,
+      "max_observed_complete_peak_upper_bytes": 5528544,
+      "max_ratio_to_reserved": 0.13153147237468507,
+      "exceedances": 0
+    },
+    "osm_discourse": {
+      "loads_checked": 1,
+      "max_observed_complete_peak_upper_bytes": 62072,
+      "max_ratio_to_reserved": 0.0018028000675207759,
+      "exceedances": 0
+    }
+  },
+  "passed": true,
+  "original_precalibration_overshoot_and_receipts_preserved": true,
+  "old_body_or_raw_reaudit": false
+}

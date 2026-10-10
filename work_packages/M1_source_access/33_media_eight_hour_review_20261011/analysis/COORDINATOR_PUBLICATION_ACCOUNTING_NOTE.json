@@ -1,0 +1,16 @@
+{
+  "basis": "Coordinator-reported publication accounting during the 11 October review; not a new collector capacity check",
+  "new_publication_copy_files": 180,
+  "new_publication_copy_bytes_shared": 56803238,
+  "new_publication_copy_bytes_social": 9455144,
+  "social_nominal_remaining_before_publication_bytes": 147515062,
+  "social_nominal_remaining_after_publication_bytes": 138059918,
+  "existing_smallest_native_operation_reservation_bytes": 117506048,
+  "nominal_margin_before_payload_rows_controls_and_future_operations_bytes": 20553870,
+  "mistaken_generated_uncommitted_publication_copy_bytes_omitted": 28972216,
+  "original_worker_exports_preserved": true,
+  "named_strict_discussion_forums": 16,
+  "named_QA_communities": 7,
+  "community_classification_basis": "Coordinator-reported audited source-frame definitions; these 23 named families are distinct from 39 source IDs and are not independent-parent counts",
+  "claim_limit": "Nominal accounting only. The unchanged minimum reservation can potentially fit a smallest native post, conditional on actual raw/body/row/metadata/control and live operation checks. Sustained four-hour yield is unknown; no collection or allocation is activated here."
+}

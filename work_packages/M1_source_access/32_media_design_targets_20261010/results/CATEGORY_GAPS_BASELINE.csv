@@ -1,0 +1,11 @@
+stream,kind,purpose,source_ids,bodies,mass_share,effective_source_ids,independent_parents
+newspaper,newspaper_title,advocacy,3,3454,0.16579465271444344,1.8832461860294483,unknown
+newspaper,newspaper_title,regional_local_general,10,17211,0.8261412182594922,4.050254983980411,unknown
+newspaper,newspaper_title,specialist_business,1,168,0.008064129026064418,1.0,unknown
+social,federated_instance_community_mapping_pending,mixed_unresolved,4,20375,0.02212521514396321,2.6404811418289813,unknown
+social,social_feed,mixed_unresolved,5,203253,0.22071245907513887,3.4956511129545818,unknown
+social,named_forum_like_community_candidate,general_discussion,3,34750,0.03773502950933603,2.914574241408416,unknown
+social,named_forum_like_community_candidate,technical_scientific,5,48506,0.05267267169438427,3.620192402482218,unknown
+social,named_forum_like_community_candidate,culture_hobbies,1,350,0.0003800650454177729,1.0,unknown
+social,mailing_list_archive,local_civic,5,44,4.7779605709662885e-05,4.033333333333333,unknown
+social,mailing_list_archive,technical_scientific,2,613617,0.6663267799260502,1.000612947814146,unknown

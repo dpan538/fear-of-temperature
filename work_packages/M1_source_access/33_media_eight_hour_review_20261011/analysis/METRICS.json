@@ -1,0 +1,122 @@
+{
+  "newspaper": {
+    "before_units": 20833,
+    "after_units": 27662,
+    "added_units": 6829,
+    "before_observed_months": 441,
+    "after_observed_months": 461,
+    "zero_months_after": 4,
+    "one_months_after": 15,
+    "two_months_before": 137,
+    "two_months_after": 15,
+    "before_contributing_source_ids": 14,
+    "after_contributing_source_ids": 24,
+    "new_contributing_source_ids": [
+      "berkeley_daily_planet",
+      "cambridge_news_nz",
+      "dublin_gazette",
+      "enfield_dispatch",
+      "kilkenny_observer",
+      "mountain_times_vt",
+      "munster_express",
+      "te_awamutu_news",
+      "waltham_forest_echo",
+      "your_local_examiner_au"
+    ],
+    "2026_full_history_share_before": 0.04017664282628522,
+    "2026_full_history_share_after": 0.03582531993348276
+  },
+  "social": {
+    "before_units": 920895,
+    "after_units": 987252,
+    "added_units": 66357,
+    "before_observed_months": 343,
+    "after_observed_months": 343,
+    "zero_months_after": 122,
+    "one_months_after": 0,
+    "two_months_before": 1,
+    "two_months_after": 1,
+    "before_contributing_source_ids": 25,
+    "after_contributing_source_ids": 39,
+    "new_contributing_source_ids": [
+      "cotech",
+      "elektronauts",
+      "fic_forum",
+      "foodtalkcentral",
+      "goatech",
+      "inaturalist_forum",
+      "openfoodnetwork",
+      "oscedays",
+      "se_bicycles",
+      "se_cooking",
+      "se_gardening",
+      "se_outdoors",
+      "se_travel",
+      "survivefrance"
+    ],
+    "2026_full_history_share_before": 0.1761894678546414,
+    "2026_full_history_share_after": 0.16807360228188953,
+    "matched_Jan_Aug_2016_2026_share_before": 0.6122778065915413,
+    "matched_Jan_Aug_2016_2026_share_after": 0.5444680143082938,
+    "baseline_source_panel_share_after": 0.570710843741945,
+    "applicability_state_cells": {
+      "applicability_or_archive_completeness_unresolved": 21330,
+      "dated_native_records_present_historical_public_access_not_proved": 2623,
+      "structurally_inapplicable_before_documented_source_existence": 2371,
+      "outside_observed_archive_span_source_existence_unresolved": 178,
+      "pre_documented_source_existence_conflicting_dated_records_pending": 3
+    },
+    "independently_evidenced_community_family_count": "unresolved in this bounded review; source-frame ledger is not an independent-parent map",
+    "named_strict_discussion_forums": 16,
+    "named_QA_communities": 7,
+    "community_classification_basis": "Coordinator-reported audited source-frame definitions; these 23 named families are distinct from 39 source IDs and are not independent-parent counts"
+  },
+  "legacy_GL": {
+    "affected_months": 116,
+    "months_with_surplus": 116,
+    "new_GL_IDs": 338,
+    "final_total_frequencies": {
+      "3": 1,
+      "4": 69,
+      "5": 29,
+      "6": 6,
+      "7": 5,
+      "8": 1,
+      "9": 1,
+      "13": 2,
+      "28": 1,
+      "58": 1
+    },
+    "final_4_or_5_months": 98,
+    "inventory_exhaustion_claimed": false
+  },
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "social_stop": "complete_operation_capacity_failure_across_remaining_permitted_routes",
+  "newspaper_stop": "fixed_deadline_watchdog_interrupt",
+  "snapshot_at_utc": {
+    "newspaper": "2026-10-10T18:27:56.057747+00:00",
+    "social": "2026-10-10T16:36:34.914040+00:00"
+  },
+  "coordinator_publication_accounting": {
+    "basis": "Coordinator-reported publication accounting during the 11 October review; not a new collector capacity check",
+    "new_publication_copy_files": 180,
+    "new_publication_copy_bytes_shared": 56803238,
+    "new_publication_copy_bytes_social": 9455144,
+    "social_nominal_remaining_before_publication_bytes": 147515062,
+    "social_nominal_remaining_after_publication_bytes": 138059918,
+    "existing_smallest_native_operation_reservation_bytes": 117506048,
+    "nominal_margin_before_payload_rows_controls_and_future_operations_bytes": 20553870,
+    "mistaken_generated_uncommitted_publication_copy_bytes_omitted": 28972216,
+    "original_worker_exports_preserved": true,
+    "named_strict_discussion_forums": 16,
+    "named_QA_communities": 7,
+    "community_classification_basis": "Coordinator-reported audited source-frame definitions; these 23 named families are distinct from 39 source IDs and are not independent-parent counts",
+    "claim_limit": "Nominal accounting only. The unchanged minimum reservation can potentially fit a smallest native post, conditional on actual raw/body/row/metadata/control and live operation checks. Sustained four-hour yield is unknown; no collection or allocation is activated here."
+  },
+  "source_id_proxy_is_not_independent_parent_count": true,
+  "semantic_labels_or_scores_executed": false,
+  "input_scope": "explicit finalized metadata only; no database/raw/body reads"
+}

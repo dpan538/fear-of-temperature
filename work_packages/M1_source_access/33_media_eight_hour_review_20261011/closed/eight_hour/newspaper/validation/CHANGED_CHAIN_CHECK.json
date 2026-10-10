@@ -1,0 +1,270 @@
+{
+  "at_utc": "2026-10-10T11:02:45.251675+00:00",
+  "all_passed": true,
+  "checks": [
+    {
+      "name": "terminal_predecessor_bound",
+      "passed": true,
+      "evidence": "1749fab170e078da6ed19473cd7f499d60b5428b2b9a2e25199d926047e28957"
+    },
+    {
+      "name": "fixed_successor_interval",
+      "passed": true,
+      "evidence": "Absolute interval; preparation delay does not move deadline"
+    },
+    {
+      "name": "quantity_and_score_guards_retired",
+      "passed": true,
+      "evidence": "Provider/access/byte/physical stops retained"
+    },
+    {
+      "name": "runtime_syntax",
+      "passed": true,
+      "evidence": "Prepared code only; no request or Load during check"
+    },
+    {
+      "name": "receipt_and_queue_predecessors_retained",
+      "passed": true,
+      "evidence": "Current terminal plus older lookup roots"
+    },
+    {
+      "name": "source_and_pdf_stops_preserved",
+      "passed": true,
+      "evidence": "All36 consumed slots; every inherited host stop retained unchanged, with new actual stops allowed"
+    },
+    {
+      "name": "materialised_exports_not_reserved_again",
+      "passed": true,
+      "evidence": "Future20MB payload needs40MB temp/final peak; retained prior exports remain inside used bytes, not another487MB reserve"
+    },
+    {
+      "name": "large_incremental_write_still_stops",
+      "passed": true,
+      "evidence": "Real600MB+write peak exceeds500MB remaining capacity"
+    },
+    {
+      "name": "read_decompression_buffers_retained",
+      "passed": true,
+      "evidence": "Measured read/decompression buffers stay in conservative peak"
+    },
+    {
+      "name": "materialised_and_partial_delta_fixtures",
+      "passed": true,
+      "evidence": "Complete/partial metadata creates no negative reserve or fictitious free bytes"
+    }
+  ],
+  "prior_accepted_changed_chain_checks_reused": 26,
+  "prior_check_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_broader_history_four_hour/worker/CHANGED_CHAIN_CHECK.json",
+  "no_old_body_or_raw_audit": true,
+  "real_Load_executed": false,
+  "focused_regression_checks": [
+    {
+      "name": "exact_affected_frame_116",
+      "passed": true
+    },
+    {
+      "name": "real_month_inventory_more_than_two",
+      "passed": true
+    },
+    {
+      "name": "actual_run_dispatch_accepts_focused_list_payload",
+      "passed": true
+    },
+    {
+      "name": "overlay_changes_expected_hint_only",
+      "passed": true
+    },
+    {
+      "name": "stable_ID_on_saved_replay",
+      "passed": true
+    },
+    {
+      "name": "saved_pending_touch_does_not_suppress_named_replay",
+      "passed": true
+    },
+    {
+      "name": "durable_replay_done_survives_next_selection",
+      "passed": true
+    },
+    {
+      "name": "committed_identity_wins_over_replay_candidate",
+      "passed": true
+    },
+    {
+      "name": "zero_or_pending_issue_advances_to_next_locator",
+      "passed": true
+    },
+    {
+      "name": "new_locator_evidence_allows_reconsideration",
+      "passed": true
+    },
+    {
+      "name": "actual_run_dispatch_accepts_named_missing_month_route",
+      "passed": true
+    },
+    {
+      "name": "month_query_uses_advertised_schema_and_fixed_month",
+      "passed": true
+    }
+  ],
+  "named_route_regression_checks": [
+    {
+      "name": "actual_named_issue_dispatch_delivers_selected_locator",
+      "passed": true
+    },
+    {
+      "name": "actual_preparation_dispatch_runs_exact_selected_job",
+      "passed": true
+    },
+    {
+      "name": "named_directory_preserves_processed_flag",
+      "passed": true
+    },
+    {
+      "name": "native_year_issue_matched_candidate_only_queued",
+      "passed": true
+    },
+    {
+      "name": "new_candidates_extend_real_focused_ready_chain",
+      "passed": true
+    },
+    {
+      "name": "empty_success_is_observed_empty_without_body_exhaustion",
+      "passed": true
+    }
+  ],
+  "berkeley_native_changed_chain": {
+    "at_utc": "2026-10-10T12:44:56.925311+00:00",
+    "checks": {
+      "saved_native_raw_hash": true,
+      "seventy_distinct_native_ID_units": true,
+      "carrier_date_not_assigned_to_back_stories": true,
+      "complete_originals_keep_all_copy_TEXT": true,
+      "structural_pending_units_preserved": true,
+      "saved_native_charge_idempotent": true,
+      "inherited_four_hop_limit_enforced": true,
+      "actual_dispatch_reaches_native_adapter": true,
+      "future_body_requires_verified_single_mapping": true,
+      "single_native_wholebody_exact_carrier_match": true,
+      "HTML_comment_extraction_artifact_removed": true,
+      "explicit_source_use_stop_has_no_request": true
+    },
+    "all_passed": true,
+    "new_HTTP": false,
+    "database_writes": false,
+    "actual_saved_native_carrier": "cb46d1e7783160ce331859c7",
+    "source_scope": "One own changed carrier only; no old full-corpus sweep"
+  },
+  "berkeley_multi_carrier_changed_chain": {
+    "at_utc": "2026-10-10T13:02:21.904806+00:00",
+    "checks": {
+      "actual_five_carriers_native_units": true,
+      "all_native_participants_including_retained_have_safe_idempotent_hops": true,
+      "same_native_duplicate_occurrences_preserve_identity_and_raw_evidence": true,
+      "conflicting_same_native_ID_is_typed_pending": true,
+      "rotation_preserves_suspended_frontier_pending_targets_and_loaded_IDs": true,
+      "saved_carrier_activation_preserves_existing_contexts_and_committed_IDs": true,
+      "actual_dispatch_activates_named_saved_carrier": true
+    },
+    "all_passed": true,
+    "no_HTTP": true,
+    "no_database_writes": true,
+    "own_changed_carriers_only": true
+  },
+  "native_alias_and_original_HTML": {
+    "at_utc": "2026-10-10T13:26:05.341777+00:00",
+    "all_passed": true,
+    "checks": {
+      "apex_www_same_original_native_identity_date_and_wholebody": true,
+      "confirmed_alias_uses_inherited_same_native_charge_key": true,
+      "foreign_host_not_accepted": true,
+      "actual_apex_carrier_native_units_mapped": true,
+      "metadata_native_participants_and_alias_carrier_keep_four_hop_limit": true,
+      "actual_eligible_2017_original_HTML_complete_ID_date_body_mapping": [
+        "Featured",
+        "News"
+      ],
+      "fixed_cutoff_rejects_actual_2026_September24_record": true,
+      "actual_advertised_1000_article_sitemap_reaches_queue": true,
+      "native_sitemap_dates_not_used_as_publication_dates": true
+    },
+    "no_HTTP": true,
+    "no_database_writes": true,
+    "own_named_new_raw_only": true,
+    "confirmed_Berkeley_native_alias_binding": {
+      "status": "confirmed_same_publisher_native_web_alias",
+      "primary_evidence_receipts": [
+        "fd883c002b99ca27f5cc591e",
+        "caadf50e2f791628b7be1ffe",
+        "1eab3b6f9fd4ff251478b034"
+      ],
+      "basis": "Same unique native20100 permalink identity,title,date,wholebody,publisher title and contact route on publisher apex/www; not bodyhash alone; all raw and URLs retained"
+    },
+    "Cambridge_actual_article_record": {
+      "source_id": "cambridge_news_nz",
+      "source": "Cambridge News",
+      "source_url": "https://www.cambridgenews.nz/2017/09/local-reporter-first-in-editors-chair/",
+      "raw_source_url": "https://www.cambridgenews.nz/2017/09/local-reporter-first-in-editors-chair/",
+      "url_aliases": [
+        "https://www.cambridgenews.nz/2017/09/local-reporter-first-in-editors-chair/"
+      ],
+      "stratum": "NZ",
+      "country": "NZ",
+      "edition": "Original publisher community weekly web edition",
+      "source_frame": "professional_community_weekly_newspaper",
+      "retention_limit": "Private authorized research only; publisher retains copyright",
+      "provenance": "direct original newspaper publisher HTML representation; source reprints/quotations separate",
+      "content_version_time": null,
+      "historical_body_equivalence": "unknown; current retrieved archive rendition",
+      "semantic_labels_executed": false,
+      "length_filter_used": false,
+      "article_id": "cambridge_news_nz:article:526",
+      "source_native_article_id": "526",
+      "native_identity_basis": "Unique publisher HTML body postid-class and matching canonical/permalink/Article JSON-LD identity",
+      "title": "Local reporter first in Editor’s chair",
+      "publication_date": "2017-09-14",
+      "publisher_timestamp": "2017-09-14T05:07:38+00:00",
+      "date_field": "Unique original article:published_time agrees with matching canonical source Article JSON-LD datePublished and permalink month",
+      "body_boundary": "Unique main .single-post > .entry contains complete native copy and captions; site navigation/sidebar/header excluded",
+      "article_boundary_evidence": "Named original title, one complete original entry container and persistent publisher native ID/date/canonical binding",
+      "observed_author": {
+        "name": "Sophie Iremonger",
+        "@id": "https://www.cambridgenews.nz/#/schema/person/3491756e39dbcf7648475d76fdbed484"
+      },
+      "publisher_native_genre": [
+        "Featured",
+        "News"
+      ],
+      "paragraph_count": 12
+    },
+    "Berkeley_metadata_native_participants_charge_receipts": [
+      "22fa60799f23b289a840cdc5",
+      "fd883c002b99ca27f5cc591e",
+      "caadf50e2f791628b7be1ffe",
+      "12a5411ff779410a2015838d"
+    ]
+  },
+  "progress_capacity_lock_and_native_response_repair": {
+    "at_utc": "2026-10-10T15:47:15.921339+00:00",
+    "all_passed": true,
+    "progress_capacity_call_under_shared_heavy_IO_lock": true,
+    "same_deadline_preserved": true,
+    "compiled_changed_code": true,
+    "actual_locked_preflight": {
+      "at_utc": "2026-10-10T15:47:15.918795+00:00",
+      "free_bytes": 46755430400,
+      "cumulative_bytes": 17106773496,
+      "cap_bytes": 30000000000,
+      "physical_floor_bytes": 16106127360,
+      "recovery_allowance_bytes": 50331648,
+      "own_lease_bytes": 8388608,
+      "other_lease_bytes": 8388608,
+      "actual_pending_footprint_bytes": 35672555,
+      "effective_pending_and_leases_bytes": 44126699,
+      "physical_headroom": 30554844693,
+      "allocation_headroom": 12849099805
+    },
+    "prior_code_archived": "runtime_bindings/53990_after_native_capacity_scan_race/",
+    "native_response_cursor_repair_actual_receipt": "71f7015b0663241c9929ece9"
+  }
+}

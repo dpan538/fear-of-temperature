@@ -1,0 +1,77 @@
+{
+  "at_utc": "2026-10-10T12:56:34.575860+00:00",
+  "actual_saved_carrier_checks": [
+    {
+      "job": "focused_Berkeley_named_gap_carrier_2004-03-05",
+      "native_units": 47,
+      "complete": 45,
+      "native_days": [
+        "2004-03-02",
+        "2004-03-05"
+      ],
+      "duplicate_native_occurrences": 0,
+      "statuses": {
+        "confirmed_complete": 45,
+        "pending_compiled_calendar_letters_or_notice_original_units": 2
+      }
+    },
+    {
+      "job": "focused_Berkeley_named_gap_carrier_2004-04-06",
+      "native_units": 38,
+      "complete": 36,
+      "native_days": [
+        "2004-04-02",
+        "2004-04-06"
+      ],
+      "duplicate_native_occurrences": 0,
+      "statuses": {
+        "confirmed_complete": 36,
+        "pending_compiled_calendar_letters_or_notice_original_units": 2
+      }
+    },
+    {
+      "job": "focused_Berkeley_named_gap_carrier_2004-06-08",
+      "native_units": 42,
+      "complete": 40,
+      "native_days": [
+        "2004-06-04",
+        "2004-06-08"
+      ],
+      "duplicate_native_occurrences": 0,
+      "statuses": {
+        "confirmed_complete": 40,
+        "pending_compiled_calendar_letters_or_notice_original_units": 2
+      }
+    },
+    {
+      "job": "focused_Berkeley_named_gap_carrier_2005-12-30",
+      "native_units": 92,
+      "complete": 92,
+      "native_days": [
+        "2005-12-27",
+        "2005-12-30"
+      ],
+      "duplicate_native_occurrences": 0,
+      "statuses": {
+        "confirmed_complete": 92
+      }
+    },
+    {
+      "job": "focused_Berkeley_named_gap_carrier_2006-05-05",
+      "native_units": 50,
+      "complete": 48,
+      "native_days": [
+        "2006-05-02",
+        "2006-05-05"
+      ],
+      "duplicate_native_occurrences": 4,
+      "statuses": {
+        "confirmed_complete": 48,
+        "pending_compiled_calendar_letters_or_notice_original_units": 2
+      }
+    }
+  ],
+  "all_saved_native_participants_simulated_at_most_four_hops": true,
+  "frontier_context_and_loaded_IDs_preserved": true,
+  "no_HTTP_or_database_writes": true
+}
