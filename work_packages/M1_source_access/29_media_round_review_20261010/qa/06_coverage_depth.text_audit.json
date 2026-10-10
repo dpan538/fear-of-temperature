@@ -1,0 +1,10 @@
+{
+  "pdf": "work_packages/M1_source_access/29_media_round_review_20261010/qa/06_coverage_depth.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 9.0,
+  "text_run_count": 117,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

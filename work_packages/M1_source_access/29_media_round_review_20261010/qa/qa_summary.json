@@ -1,0 +1,56 @@
+[
+  {
+    "figure": "01_round_results",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/01_round_results.pdf\npages: 1\nvisible text boxes: 40\nstroke paths: 0\n\n\nsummary: 0 fail, 0 warn, 36 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "02_monthly_coverage",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/02_monthly_coverage.pdf\npages: 1\nvisible text boxes: 126\nstroke paths: 276\n\n\nsummary: 0 fail, 0 warn, 0 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "03_distribution_and_2026",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/03_distribution_and_2026.pdf\npages: 1\nvisible text boxes: 79\nstroke paths: 74\n\n\nsummary: 0 fail, 0 warn, 22 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "04_parent_source_dimensions",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/04_parent_source_dimensions.pdf\npages: 1\nvisible text boxes: 95\nstroke paths: 65\n\n\nsummary: 0 fail, 0 warn, 26 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "05_source_coverage_tables",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/05_source_coverage_tables.pdf\npages: 1\nvisible text boxes: 158\nstroke paths: 0\n\n\nsummary: 0 fail, 0 warn, 154 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "06_coverage_depth",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/06_coverage_depth.pdf\npages: 1\nvisible text boxes: 96\nstroke paths: 68\n\n\nsummary: 0 fail, 0 warn, 32 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "07_quality_and_native_complexity",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/07_quality_and_native_complexity.pdf\npages: 1\nvisible text boxes: 40\nstroke paths: 0\n\n\nsummary: 0 fail, 0 warn, 36 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "08_next_round_plan",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/08_next_round_plan.pdf\npages: 1\nvisible text boxes: 31\nstroke paths: 0\n\n\nsummary: 0 fail, 0 warn, 27 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  },
+  {
+    "figure": "09_coverage_denominator_limits",
+    "collision_exit": 0,
+    "text_exit": 0,
+    "collision_output": "Nature Figure Rendered Collision Audit\npdf: work_packages/M1_source_access/29_media_round_review_20261010/qa/09_coverage_denominator_limits.pdf\npages: 1\nvisible text boxes: 56\nstroke paths: 22\n\n\nsummary: 0 fail, 0 warn, 24 contained fill overlays, 0 contained image overlays\nverdict: PASS\nnote: contained overlays can be intentional; WARN findings need final-size visual review\n"
+  }
+]

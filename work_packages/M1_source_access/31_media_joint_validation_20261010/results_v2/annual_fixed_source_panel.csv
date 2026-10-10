@@ -1,0 +1,34 @@
+snapshot,stream,comparison_frame,group_dimension,year,pooled_n,fixed_panel_n,fixed_sources,panel_share,status,verified_capture_denominator
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2016,507,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2017,582,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2018,427,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2019,265,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2020,615,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2021,457,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2022,647,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2023,478,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2024,586,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2025,512,,[],,no_common_panel,False
+nine_hour_closed,newspaper,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2026,788,,[],,no_common_panel,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2016,3533,3533,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",1.0,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2017,3925,3925,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",1.0,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2018,3529,3529,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",1.0,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2019,1051,1014,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.9647954329210275,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2020,831,829,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.9975932611311673,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2021,863,798,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.9246813441483198,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2022,837,699,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.8351254480286738,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2023,8953,1409,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.1573774153914889,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2024,15813,1090,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.06893062669955101,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2025,18102,980,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.054137664346481054,observed_panel_only,False
+nine_hour_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2026,107424,1019,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.00948577599046768,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2016,3555,3553,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.99943741209564,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2017,4013,4013,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",1.0,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2018,3570,3570,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",1.0,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2019,1060,1020,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.9622641509433962,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2020,845,840,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.9940828402366864,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2021,869,804,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.9252013808975834,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2022,838,700,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.8353221957040573,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2023,8954,1409,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.157359839178021,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2024,17762,1090,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.06136696317982209,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2025,22299,980,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.043948159110274006,observed_panel_only,False
+social_four_hour_main_closed,social,2016_2026_Jan_Aug,source_id_not_verified_parent_or_noise_class,2026,117224,1019,"[""osm_discourse"", ""se_earthscience"", ""se_sustainability""]",0.008692759161946359,observed_panel_only,False

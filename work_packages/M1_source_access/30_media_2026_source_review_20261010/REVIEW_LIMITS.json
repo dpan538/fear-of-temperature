@@ -1,0 +1,86 @@
+{
+  "review_completed_at_utc": "2026-10-10T05:56:20.143550+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "september_partial": true,
+  "snapshot_times_utc": {
+    "np9_closed": "2026-10-09T20:39:15.304509+00:00",
+    "s9_closed": "2026-10-09T20:38:21.502535+00:00",
+    "s4_closed_pre_resume": "2026-10-10T04:41:12.870432+00:00"
+  },
+  "snapshot_time_semantics": {
+    "np9_closed": "delivery at_utc; not a publication or retrieval time",
+    "s9_closed": "closed export snapshot_at_utc",
+    "s4_closed_pre_resume": "closed early capacity-stop export snapshot_at_utc"
+  },
+  "cross_source_timezone_harmonization_validated": false,
+  "snapshots_not_simultaneous": true,
+  "append_after_s4_closed_snapshot_reviewed": false,
+  "newspaper_current_live_store_reviewed": false,
+  "sealed_prior_evaluator_accessed": false,
+  "all_2026_contributing_source_parents_researched": 14,
+  "parent_dimensions_per_source": 7,
+  "parent_assertion_rows": 98,
+  "publisher_operator_platform_software_instance_community_not_interchangeable": true,
+  "source_month_aggregate_rows": 234,
+  "newspaper_2026_metadata_IDs_checked": 837,
+  "newspaper_named_native_records_checked": 12,
+  "newspaper_named_saved_batches_read": 10,
+  "social_native_endpoint_metadata_records_checked": 24,
+  "social_sample_within_study_day_interval": 17,
+  "social_sample_after_fixed_cutoff": 7,
+  "social_sample_is_qualified_body_sample": false,
+  "social_native_original_bodies_checked": 0,
+  "named_source_primary_metadata_reads": 10,
+  "named_primary_source_compressed_input_bytes": 40126,
+  "named_newspaper_raw_compressed_input_bytes": 362753,
+  "database_reads": 0,
+  "full_raw_body_tree_scans": 0,
+  "corpus_writes": 0,
+  "collector_modifications": 0,
+  "source_quality": "source-native route; current operator evidence; record-level quotation/reproduction and historical validity often unresolved; no opaque score",
+  "sampling": "purposeful source endpoints, July newspaper endpoints and three already named hash pairs; not random; no prevalence extrapolation",
+  "unreviewed": [
+    "all other native newspaper bodies; all native social bodies",
+    "social ID/date/URL outside 24 metadata endpoints",
+    "whole-social-work/cross-instance/repost duplication",
+    "historical corporate/ownership continuity",
+    "all child-community membership inventories",
+    "archive-native denominator/completeness",
+    "natural-event attribution",
+    "semantic climate/emotion/fear content",
+    "later resume/append and newspaper new closeout"
+  ],
+  "inherited_non2026_date_limits": {
+    "count": 9,
+    "independent_new_record_verification": false,
+    "evidence": "worker/pinned/s9_native_date_mapping_limits.csv and s4_named_date.json",
+    "2026_count_correction_from_these_issues": 0
+  },
+  "reason_status_semantics": {
+    "confirmed": "stated bounded descriptive check/assertion supported, not blanket record validity",
+    "supported_candidate": "diagnostic/work/mapping candidate needing evidence before repair",
+    "unresolved": "not decided or source access/evidence insufficient"
+  },
+  "actions_are_advisory": true,
+  "deletion_or_replacement_authorized_or_executed": false,
+  "future_exclusion_or_replacement_candidates_confirmed": 0,
+  "retain_with_context_semantics": "retain observation and diagnostic context; no event cause implied",
+  "adjacent_rule": "same-source count / mean of available +/-3 study months; ratio>=3 is an advisory flag only; missing future context explicit; zero observations not inferred zero expression",
+  "no_composite_quality_score": true,
+  "no_metrics_as_acquisition_controls": true,
+  "latest_annual_share_and_mechanism_clarification": {
+    "annual_share_enters_comparison_sensitivity": true,
+    "native_summary_checks": "NATIVE_MECHANISM_REVIEW.csv and NATIVE_MECHANISM_LIMITS.json",
+    "bot_automation_markers": "unknown; fields not present in pinned schemas",
+    "2026_specific_thread_degree_or_federation_work_join_reviewed": false,
+    "native_type_summaries_are_semantic_noise_labels": false
+  },
+  "physical_floor_bytes": 16106127360,
+  "recovery_allowance_bytes": 50331648,
+  "physical_free_at_pin_bytes": 55043158016,
+  "shared_cap_bytes": 30000000000,
+  "accounting": "All package30 local/final/interim/evidence/code bytes remain charged inside shared media accounting. Existing counters/leases untouched. Output byte inventory supplied for coordinator settlement; no new allocation or simultaneous live cumulative-usage claim."
+}

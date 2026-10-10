@@ -1,0 +1,27 @@
+{
+  "at_utc": "2026-10-10T05:54:48.080337+00:00",
+  "files": [
+    {
+      "path": "capacity_resume.py",
+      "bytes": 5842,
+      "sha256": "90ee667bba7985fa33640842f76dd98bf72905f726f7e90c971dffb2519001ba"
+    },
+    {
+      "path": "delta_closeout.py",
+      "bytes": 11972,
+      "sha256": "342c2ebc2d57648619ec0edb57e4833061758d939457d2e26b4dddfcdb9fb8de"
+    },
+    {
+      "path": "finalize_metadata.py",
+      "bytes": 7040,
+      "sha256": "032da320aa3ace212db073578e6a685ae705986d19f911f6caf3c27949adabc7"
+    },
+    {
+      "path": "raw_catalog.py",
+      "bytes": 7216,
+      "sha256": "060f06d943a48f11f91f42c9dac3954392ad55882eb7192648439c0f13e0f54d"
+    }
+  ],
+  "reused_accepted_implementation_manifest": "../summaries/implementation_source_manifest.json",
+  "no_source_scope_or_database_migration": true
+}

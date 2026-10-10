@@ -1,0 +1,357 @@
+{
+  "newspaper": {
+    "before": 9538,
+    "after": 16138,
+    "added": 6600,
+    "observed_months_before": 380,
+    "observed_months_after": 401,
+    "zero_months": 64,
+    "exactly_two_bodies_before": 157,
+    "exactly_two_bodies_after": 152,
+    "single_source_months": 247,
+    "known_work_exactly_two_after": 152,
+    "longest_gaps": [
+      {
+        "start": "1988-01",
+        "end": "1991-01",
+        "months": 37
+      },
+      {
+        "start": "2005-12",
+        "end": "2006-05",
+        "months": 6
+      },
+      {
+        "start": "2004-03",
+        "end": "2004-06",
+        "months": 4
+      },
+      {
+        "start": "2011-07",
+        "end": "2011-10",
+        "months": 4
+      },
+      {
+        "start": "1999-09",
+        "end": "1999-10",
+        "months": 2
+      },
+      {
+        "start": "2009-04",
+        "end": "2009-05",
+        "months": 2
+      },
+      {
+        "start": "2009-07",
+        "end": "2009-08",
+        "months": 2
+      },
+      {
+        "start": "2009-10",
+        "end": "2009-11",
+        "months": 2
+      },
+      {
+        "start": "2010-09",
+        "end": "2010-10",
+        "months": 2
+      },
+      {
+        "start": "2004-11",
+        "end": "2004-11",
+        "months": 1
+      },
+      {
+        "start": "2010-05",
+        "end": "2010-05",
+        "months": 1
+      },
+      {
+        "start": "2011-02",
+        "end": "2011-02",
+        "months": 1
+      }
+    ],
+    "sources": 10,
+    "parents": 10,
+    "work_keys": 16087,
+    "exact_body_candidate_groups": 94,
+    "exact_body_candidate_ids": 198,
+    "pending_records": 76
+  },
+  "social": {
+    "before": 42488,
+    "after": 239402,
+    "added": 196914,
+    "dated_before": 42478,
+    "dated_after": 239392,
+    "observed_months_before": 165,
+    "observed_months_after": 201,
+    "sources": 14,
+    "new_native_entities": 216717,
+    "native_entities": 268343,
+    "native_versions": 275580,
+    "edges": 505508,
+    "attachment_metadata": 91409,
+    "pending_dates": 9,
+    "publication_key_groups_multi_entity": 0,
+    "native_entities_in_multi_entity_keys": 0,
+    "roles": {
+      "institutional": 221,
+      "unknown": 239181
+    }
+  },
+  "resources": {
+    "shared_snapshot_bytes": 5991164072,
+    "shared_cap": 30000000000,
+    "social_terminal_start_bytes": 3946698623,
+    "social_cap": 8000000000,
+    "free_at_newspaper_delivery_bytes": 60153401344
+  },
+  "source_mix": {
+    "newspaper": {
+      "top_source": "montpelier_bridge",
+      "top_share": 0.3275498822654604,
+      "top2_share": 0.5743586565869376,
+      "year2026": 837,
+      "year2026_share": 0.05186516296938902,
+      "year2026_share_before": 0.020549381421681695,
+      "september2026": 49,
+      "september2026_share": 0.003036311810633288
+    },
+    "social": {
+      "top_source": "bluesky",
+      "top_share": 0.31371975671701646,
+      "top2_share": 0.4059659470659003,
+      "year2026": 139086,
+      "year2026_share": 0.5809968587087287,
+      "year2026_share_before": 0.5957201374829323,
+      "september2026": 31662,
+      "september2026_share": 0.13226005881566635
+    }
+  },
+  "peak_flags": [
+    {
+      "stream": "newspaper",
+      "month": "1991-03",
+      "bodies": 117,
+      "neighbor_mean": 38.0,
+      "ratio": 3.0789473684210527,
+      "boundary_incomplete": false,
+      "largest_source": "green_left",
+      "largest_source_share": 1.0,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "1993-11",
+      "bodies": 72,
+      "neighbor_mean": 2.0,
+      "ratio": 36.0,
+      "boundary_incomplete": false,
+      "largest_source": "green_left",
+      "largest_source_share": 1.0,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "1999-11",
+      "bodies": 16,
+      "neighbor_mean": 1.3333333333333333,
+      "ratio": 12.0,
+      "boundary_incomplete": false,
+      "largest_source": "financial_mirror",
+      "largest_source_share": 0.6875,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2005-02",
+      "bodies": 82,
+      "neighbor_mean": 8.5,
+      "ratio": 9.647058823529411,
+      "boundary_incomplete": false,
+      "largest_source": "financial_mirror",
+      "largest_source_share": 1.0,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2009-12",
+      "bodies": 29,
+      "neighbor_mean": 1.5,
+      "ratio": 19.333333333333332,
+      "boundary_incomplete": false,
+      "largest_source": "camden_new_journal",
+      "largest_source_share": 1.0,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2010-07",
+      "bodies": 5,
+      "neighbor_mean": 0.8333333333333334,
+      "ratio": 6.0,
+      "boundary_incomplete": false,
+      "largest_source": "camden_new_journal",
+      "largest_source_share": 1.0,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2011-04",
+      "bodies": 10,
+      "neighbor_mean": 3.1666666666666665,
+      "ratio": 3.1578947368421053,
+      "boundary_incomplete": false,
+      "largest_source": "otago_daily_times",
+      "largest_source_share": 0.9,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2011-05",
+      "bodies": 15,
+      "neighbor_mean": 2.0,
+      "ratio": 7.5,
+      "boundary_incomplete": false,
+      "largest_source": "camden_new_journal",
+      "largest_source_share": 1.0,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2013-07",
+      "bodies": 101,
+      "neighbor_mean": 2.5,
+      "ratio": 40.4,
+      "boundary_incomplete": false,
+      "largest_source": "indaily",
+      "largest_source_share": 0.9900990099009901,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2013-11",
+      "bodies": 15,
+      "neighbor_mean": 2.5,
+      "ratio": 6.0,
+      "boundary_incomplete": false,
+      "largest_source": "camden_new_journal",
+      "largest_source_share": 1.0,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2014-11",
+      "bodies": 149,
+      "neighbor_mean": 47.5,
+      "ratio": 3.136842105263158,
+      "boundary_incomplete": false,
+      "largest_source": "indaily",
+      "largest_source_share": 0.6711409395973155,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2016-04",
+      "bodies": 157,
+      "neighbor_mean": 48.166666666666664,
+      "ratio": 3.2595155709342563,
+      "boundary_incomplete": false,
+      "largest_source": "indaily",
+      "largest_source_share": 0.6369426751592356,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2018-02",
+      "bodies": 123,
+      "neighbor_mean": 36.666666666666664,
+      "ratio": 3.354545454545455,
+      "boundary_incomplete": false,
+      "largest_source": "indaily",
+      "largest_source_share": 0.7642276422764228,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2020-07",
+      "bodies": 172,
+      "neighbor_mean": 55.666666666666664,
+      "ratio": 3.089820359281437,
+      "boundary_incomplete": false,
+      "largest_source": "indaily",
+      "largest_source_share": 0.5813953488372093,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2024-02",
+      "bodies": 172,
+      "neighbor_mean": 39.166666666666664,
+      "ratio": 4.391489361702128,
+      "boundary_incomplete": false,
+      "largest_source": "indaily",
+      "largest_source_share": 0.5813953488372093,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "newspaper",
+      "month": "2025-09",
+      "bodies": 488,
+      "neighbor_mean": 129.16666666666666,
+      "ratio": 3.7780645161290325,
+      "boundary_incomplete": false,
+      "largest_source": "northern_rivers_times",
+      "largest_source_share": 0.9508196721311475,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "social",
+      "month": "2013-02",
+      "bodies": 733,
+      "neighbor_mean": 182.0,
+      "ratio": 4.027472527472527,
+      "boundary_incomplete": false,
+      "largest_source": "se_sustainability",
+      "largest_source_share": 0.844474761255116,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "social",
+      "month": "2014-04",
+      "bodies": 1153,
+      "neighbor_mean": 314.8333333333333,
+      "ratio": 3.6622551614610908,
+      "boundary_incomplete": false,
+      "largest_source": "se_earthscience",
+      "largest_source_share": 0.8412836079791848,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "social",
+      "month": "2018-10",
+      "bodies": 635,
+      "neighbor_mean": 208.83333333333334,
+      "ratio": 3.040702314445331,
+      "boundary_incomplete": false,
+      "largest_source": "python_discourse",
+      "largest_source_share": 0.7259842519685039,
+      "action": "flag only; retain; event cause unassessed"
+    },
+    {
+      "stream": "social",
+      "month": "2023-06",
+      "bodies": 3896,
+      "neighbor_mean": 875.0,
+      "ratio": 4.452571428571429,
+      "boundary_incomplete": false,
+      "largest_source": "lemmy_nz",
+      "largest_source_share": 0.6257700205338809,
+      "action": "flag only; retain; event cause unassessed"
+    }
+  ],
+  "scope": "1988-01-01 through2026-09-21; September partial; counts are not archive recovery or public representativeness",
+  "inventory_denominators": "unknown: observed cursor endpoints are not complete historical archive denominators"
+}

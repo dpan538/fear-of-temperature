@@ -1,0 +1,31 @@
+{
+  "date_AEST": "2026-10-10",
+  "strategy": "Bounded component-led methodological search, not a systematic review",
+  "tools": "web search/open of primary publishers, PubMed, author institutions and project documentation; scholarly MCP not available in current tools",
+  "query_families": [
+    "Hill1973 diversity evenness effective number",
+    "Chao Jost2012 coverage based rarefaction",
+    "Brown Cai DasGupta2001 Wilson interval institutional primary source",
+    "Eldridge Ashby Kerry2006 unequal cluster size design effect",
+    "Lin1991 Jensen Shannon divergence primary PDF",
+    "Olteanu2019 social data biases",
+    "Grimmer Stewart2013 text as data validation",
+    "Ruths Pfeffer2014 social media studies",
+    "MeCCO primary methodology archive coverage",
+    "Deville Sarndal1992 calibration weighting known population totals"
+  ],
+  "inclusion": "Peer-reviewed primary methodological work with identifiable bibliographic record; official documentation for formula cross-check and primary MeCCO project design",
+  "not_claimed": [
+    "exhaustive literature coverage",
+    "full text read for metadata-only records",
+    "empirical calibration of proposed joint index",
+    "papers endorse this specific project score"
+  ],
+  "access_limits": [
+    "Brown2001 repository direct PDF403; indexed abstract and NIST formula available",
+    "RuthsPfeffer publisher403; institutional metadata only",
+    "Eldridge full text not verified"
+  ],
+  "publication_date_policy": "Use journal issue year; publisher online migration timestamp is not publication year",
+  "references_recorded": 11
+}

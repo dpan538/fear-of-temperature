@@ -1,0 +1,21 @@
+case,n,source_groups,p_effective,rho,n_effective,replicates,seed,theoretical_variance,empirical_variance,relative_error,model_assumptions
+one_parent,1000,1,1.0,0,1000.0,30000,20261010,0.00025,0.00024892268768847886,0.004309249246084557,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+one_parent,1000,1,1.0,0.01,90.99181073703366,30000,20261010,0.0027475000000000004,0.0027696571230141007,0.008064466975104656,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+one_parent,1000,1,1.0,0.05,19.62708537782139,30000,20261010,0.012737500000000002,0.01278873352151294,0.004022258803763501,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+one_parent,1000,1,1.0,0.1,9.910802775024777,30000,20261010,0.025225,0.02526263613381668,0.001492017197886275,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+one_parent,1000,1,1.0,1,1.0,30000,20261010,0.25,0.24997233241108033,0.0001106703556786881,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+ten_balanced,1000,10,9.999999999999998,0,1000.0,30000,20261010,0.00025,0.000251644439703546,0.006577758814183987,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+ten_balanced,1000,10,9.999999999999998,0.01,502.5125628140703,30000,20261010,0.0004975000000000001,0.0004940080276409218,0.00701903991774544,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+ten_balanced,1000,10,9.999999999999998,0.05,168.06722689075627,30000,20261010,0.0014875000000000003,0.0014918108164094362,0.002898027838276196,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+ten_balanced,1000,10,9.999999999999998,0.1,91.74311926605503,30000,20261010,0.0027250000000000004,0.0027459650821427383,0.007693608125775464,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+ten_balanced,1000,10,9.999999999999998,1,9.999999999999998,30000,20261010,0.025000000000000005,0.024865150160560907,0.005393993577563871,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+unequal,1000,11,1.5527950310559002,0,1000.0,30000,20261010,0.00025,0.0002498782675822531,0.00048692967098762363,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+unequal,1000,11,1.5527950310559002,0.01,134.5895020188425,30000,20261010,0.0018575000000000004,0.0018704005088958523,0.006945092272329312,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+unequal,1000,11,1.5527950310559002,0.05,30.16591251885369,30000,20261010,0.008287500000000001,0.008262115499276641,0.003062986512622601,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+unequal,1000,11,1.5527950310559002,0.1,15.313935681470134,30000,20261010,0.016325000000000003,0.016466814127127572,0.008686929686221756,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+unequal,1000,11,1.5527950310559002,1,1.5527950310559004,30000,20261010,0.16100000000000003,0.16111316793893132,0.0007029064529893159,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+two_singletons,2,2,2.0,0,2.0,30000,20261010,0.125,0.12445308065824415,0.004375354734046821,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+two_singletons,2,2,2.0,0.01,2.0,30000,20261010,0.125,0.12512064957720814,0.0009651966176651428,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+two_singletons,2,2,2.0,0.05,2.0,30000,20261010,0.125,0.12451181678278163,0.0039054657377469715,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+two_singletons,2,2,2.0,0.1,2.0,30000,20261010,0.125,0.12430385901752279,0.0055691278598176686,equal marginal p=.5; common nonnegative within-parent ICC; independent parents
+two_singletons,2,2,2.0,1,2.0,30000,20261010,0.125,0.12385405735746752,0.00916754114025986,equal marginal p=.5; common nonnegative within-parent ICC; independent parents

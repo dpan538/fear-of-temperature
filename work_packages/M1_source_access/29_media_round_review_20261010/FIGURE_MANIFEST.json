@@ -1,0 +1,107 @@
+{
+  "figures": [
+    {
+      "file": "01_round_results.png",
+      "width": 4500,
+      "height": 2100,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 445885,
+      "sha256": "ccb225fc8ff21d91baaf0b87e897ae6318f047a61777699c8f0617c47a45b606"
+    },
+    {
+      "file": "02_monthly_coverage.png",
+      "width": 4500,
+      "height": 3900,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 538735,
+      "sha256": "3b9852428b3d2bef9444f2aec24704d4abb0c32e04a7385caede5cb47d80594b"
+    },
+    {
+      "file": "03_distribution_and_2026.png",
+      "width": 4800,
+      "height": 3000,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 720404,
+      "sha256": "2a1f68f4aa957871ad9618ae573ad3145ec1157b6db43c8d9157dfe700eae6a5"
+    },
+    {
+      "file": "04_parent_source_dimensions.png",
+      "width": 4800,
+      "height": 3300,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 610787,
+      "sha256": "3b534c29881ce0cf7e6b0a35eb8eda9358ed9f3b659074be550093d702536acb"
+    },
+    {
+      "file": "05_source_coverage_tables.png",
+      "width": 5400,
+      "height": 3000,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 770728,
+      "sha256": "ea3258bb2030e06b4944d15c22da96998fe79118bdf1a015f99e4f40117f8520"
+    },
+    {
+      "file": "06_coverage_depth.png",
+      "width": 4500,
+      "height": 3000,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 451362,
+      "sha256": "a49a44b18fdd370bc81be76beba282afd02673f0e2ea73e669ef4ecad8322639"
+    },
+    {
+      "file": "07_quality_and_native_complexity.png",
+      "width": 4800,
+      "height": 2700,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 702876,
+      "sha256": "be71c384166552e17285b660e77d66984545e1aba374a63d6360d3592df138bd"
+    },
+    {
+      "file": "08_next_round_plan.png",
+      "width": 4800,
+      "height": 2700,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 665167,
+      "sha256": "f72e12a64ce3d9a6b507e87d0df71c9b4e69440511220160821839b1de9b4687"
+    },
+    {
+      "file": "09_coverage_denominator_limits.png",
+      "width": 5100,
+      "height": 2700,
+      "dpi": [
+        299.9994,
+        299.9994
+      ],
+      "bytes": 474307,
+      "sha256": "0c591085bbc025d9e6fe85daefb1d09d21e8b68d1803d194d65b68c2c2ad2707"
+    }
+  ],
+  "png_only_archive": "media_round_20261010_png.zip",
+  "all_nine_layout_collision_and_glyph_checks_pass": true,
+  "visual_review": "All complete figures reviewed as a contact sheet, final distribution, parent and denominator panels additionally inspected at enlarged size. Filled table cell/text overlays are intentional. No collision warnings remain.",
+  "source_preflight_advisories": "PNG,300dpi and report-size canvas choices explained in figure contract."
+}

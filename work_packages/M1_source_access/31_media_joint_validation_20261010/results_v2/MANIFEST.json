@@ -1,0 +1,22 @@
+{
+  "inputs_sha256": {
+    "work_packages/M1_source_access/29_media_round_review_20261010/tables/source_month.csv": "80f4d4277fe125beae07eff3ebc26f4025fc062c5469fc2701b128de941226a5",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/source_month_calendar.csv": "6ab7423cc6751b68c90490c75b956eebce792e0812536dd728dab7dced6cd515"
+  },
+  "outputs_sha256": {
+    "VALIDATION_REPORT.json": "f2a9330c39d811da1beeed156ff25d1a1dd601f3500475b3b2413788d9c57cb0",
+    "annual_fixed_source_panel.csv": "e5a349c8b4486c67e6e5be53fde332b702aa8d113f47fe15ae9ac5a496fdcea0",
+    "annual_share_scenarios.csv": "152ce8ca34d01ac4a63043f854f88b57923ab8e7aa67e9d55ae55d63859efc0e",
+    "dependence_simulation.csv": "2a73d130d897c578a87757a10a0a661d8b8bb58940ee5f140fe4ad084e81511e",
+    "monthly_joint_diagnostics.csv": "0eb7df8f331a2204f28921a2dda8fc4f8a252b22418245a9eea4d7d462a72aa9",
+    "precision_scenarios.csv": "374c2f2f8984f09ac16bd3ceda215eebb578448d6aae1c3512c057a98f362f74",
+    "snapshot_summary.csv": "f39016f45014abc0e42d5580d2caefab1da8eb7836df6d6b1081f2a7180ec787",
+    "weight_sensitivity_summary.csv": "34b25ae0a4194ac9380f9f424957b1946e8218c191e7fbecec7dcb5f028ea94b",
+    "year_source_weights.csv": "198476c166b49b3d42230bc1e2ab5307ac2d9e8759e1b961176e337622601246"
+  },
+  "implementation_sha256": {
+    "work_packages/M1_source_access/31_media_joint_validation_20261010/run_validation.py": "426e6e86f62d3abc0ad517200477254ebbc7c8cbdcb2827eef8dc254db95d82f",
+    "src/fear_temperature/media_diagnostics.py": "2390c0ddac6e4cca4c9811fa90a4260be679847ca6e0526216bd08afb48f1100",
+    "tests/test_media_diagnostics.py": "fab051a86dd28ef3a9581874c194c033dd0a5a0e3b9ac41caf469759e4ef0ff8"
+  }
+}

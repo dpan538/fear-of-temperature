@@ -1,0 +1,178 @@
+{
+  "snapshots": {
+    "np9_closed": "2026-10-09T20:39:15.304509+00:00",
+    "s9_closed": "2026-10-09T20:38:21.502535+00:00",
+    "s4_closed_pre_resume": "2026-10-10T04:41:12.870432+00:00"
+  },
+  "totals": {
+    "np9_closed": {
+      "total": 16138,
+      "year2026": 837,
+      "september2026": 49,
+      "sources_in_2026": 2,
+      "year2026_share": 0.05186516296938902
+    },
+    "s9_closed": {
+      "total": 239392,
+      "year2026": 139086,
+      "september2026": 31662,
+      "sources_in_2026": 12,
+      "year2026_share": 0.5809968587087287
+    },
+    "s4_closed_pre_resume": {
+      "total": 503044,
+      "year2026": 148886,
+      "september2026": 31662,
+      "sources_in_2026": 12,
+      "year2026_share": 0.29597013382527176
+    }
+  },
+  "newspaper_metadata_rows": 837,
+  "newspaper_duplicate_IDs": 0,
+  "newspaper_group_multiplicity": {
+    "source_url": [],
+    "body_sha256": [
+      [
+        "northern_rivers_times:post:42243",
+        "northern_rivers_times:post:42412"
+      ],
+      [
+        "northern_rivers_times:post:42256",
+        "northern_rivers_times:post:42321"
+      ],
+      [
+        "northern_rivers_times:post:42356",
+        "northern_rivers_times:post:42436"
+      ],
+      [
+        "northern_rivers_times:post:42463",
+        "northern_rivers_times:post:42737"
+      ],
+      [
+        "northern_rivers_times:post:42488",
+        "northern_rivers_times:post:42916"
+      ],
+      [
+        "northern_rivers_times:post:42492",
+        "northern_rivers_times:post:42925"
+      ],
+      [
+        "northern_rivers_times:post:42495",
+        "northern_rivers_times:post:42918"
+      ],
+      [
+        "northern_rivers_times:post:42504",
+        "northern_rivers_times:post:42909"
+      ],
+      [
+        "northern_rivers_times:post:42538",
+        "northern_rivers_times:post:42873"
+      ],
+      [
+        "northern_rivers_times:post:42642",
+        "northern_rivers_times:post:42876"
+      ],
+      [
+        "northern_rivers_times:post:43301",
+        "northern_rivers_times:post:43623"
+      ],
+      [
+        "northern_rivers_times:post:43304",
+        "northern_rivers_times:post:43545"
+      ],
+      [
+        "northern_rivers_times:post:43308",
+        "northern_rivers_times:post:43396"
+      ],
+      [
+        "northern_rivers_times:post:43320",
+        "northern_rivers_times:post:43541"
+      ],
+      [
+        "northern_rivers_times:post:43329",
+        "northern_rivers_times:post:43656"
+      ],
+      [
+        "northern_rivers_times:post:43335",
+        "northern_rivers_times:post:43524"
+      ],
+      [
+        "northern_rivers_times:post:43399",
+        "northern_rivers_times:post:43605"
+      ],
+      [
+        "northern_rivers_times:post:43422",
+        "northern_rivers_times:post:43617"
+      ],
+      [
+        "northern_rivers_times:post:43487",
+        "northern_rivers_times:post:43620"
+      ],
+      [
+        "northern_rivers_times:post:43538",
+        "northern_rivers_times:post:43708"
+      ],
+      [
+        "northern_rivers_times:post:43810",
+        "northern_rivers_times:post:43819"
+      ],
+      [
+        "northern_rivers_times:post:43847",
+        "northern_rivers_times:post:43961"
+      ],
+      [
+        "northern_rivers_times:post:43884",
+        "northern_rivers_times:post:43981"
+      ],
+      [
+        "northern_rivers_times:post:43887",
+        "northern_rivers_times:post:43978"
+      ],
+      [
+        "northern_rivers_times:post:43893",
+        "northern_rivers_times:post:43918"
+      ],
+      [
+        "northern_rivers_times:post:43934",
+        "northern_rivers_times:post:44050"
+      ],
+      [
+        "northern_rivers_times:post:44220",
+        "northern_rivers_times:post:44221"
+      ]
+    ],
+    "work_family_id": [],
+    "version_id": []
+  },
+  "newspaper_reported_date_conflicts": [],
+  "newspaper_missing_metadata_fields": {
+    "raw_reference": 0,
+    "publisher_timestamp": 0,
+    "content_version_time": 0,
+    "date_field": 0,
+    "url_date": 837
+  },
+  "social_selected_native_entities": 24,
+  "record_mark_rows": 861,
+  "source_month_mark_rows": 234,
+  "social_sample_after_fixed_cutoff": 7,
+  "same_source_high_count_candidates": [
+    "np9_closed:northern_rivers_times:2026-07",
+    "s9_closed:mastodon_au:2026-08",
+    "s9_closed:mastodon_us:2026-08",
+    "s9_closed:se_earthscience:2026-08",
+    "s4_closed_pre_resume:mastodon_au:2026-08",
+    "s4_closed_pre_resume:mastodon_us:2026-08",
+    "s4_closed_pre_resume:se_earthscience:2026-08"
+  ],
+  "s9_august_september": {
+    "august": 43045,
+    "september": 31662,
+    "delta": -11383
+  },
+  "unreviewed": "All original bodies; social entities outside selected sample; later append/resume phases; active newspaper; complete parent history; federation same-work mapping; semantic validity; population denominators.",
+  "no_corpus_mutation": true,
+  "no_collectors_contacted": true,
+  "no_composite_score": true,
+  "scope": "initial metadata-only diagnostic pass; final named-native scope is REVIEW_LIMITS.json"
+}

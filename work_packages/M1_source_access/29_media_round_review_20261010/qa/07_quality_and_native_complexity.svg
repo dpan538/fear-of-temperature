@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="1152pt" height="648pt" viewBox="0 0 1152 648" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T11:31:59.970863</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 648 
+L 1152 648 
+L 1152 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 63.36 133.38 
+L 1111.68 133.38 
+L 1111.68 97.2 
+L 63.36 97.2 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #263445"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 63.36 169.56 
+L 1111.68 169.56 
+L 1111.68 133.38 
+L 63.36 133.38 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #f0f4f7"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 63.36 205.74 
+L 1111.68 205.74 
+L 1111.68 169.56 
+L 63.36 169.56 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 63.36 241.92 
+L 1111.68 241.92 
+L 1111.68 205.74 
+L 63.36 205.74 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #f0f4f7"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 63.36 278.1 
+L 1111.68 278.1 
+L 1111.68 241.92 
+L 63.36 241.92 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 63.36 314.28 
+L 1111.68 314.28 
+L 1111.68 278.1 
+L 63.36 278.1 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #f0f4f7"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 63.36 350.46 
+L 1111.68 350.46 
+L 1111.68 314.28 
+L 63.36 314.28 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 63.36 386.64 
+L 1111.68 386.64 
+L 1111.68 350.46 
+L 63.36 350.46 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #f0f4f7"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 63.36 422.82 
+L 1111.68 422.82 
+L 1111.68 386.64 
+L 63.36 386.64 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 63.36 459 
+L 1111.68 459 
+L 1111.68 422.82 
+L 63.36 422.82 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #f0f4f7"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 63.36 495.18 
+L 1111.68 495.18 
+L 1111.68 459 
+L 63.36 459 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #ffffff"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 63.36 531.36 
+L 1111.68 531.36 
+L 1111.68 495.18 
+L 63.36 495.18 
+z
+" clip-path="url(#p3fd129041c)" style="fill: #f0f4f7"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #ffffff" x="75.93984" y="119.41207" transform="rotate(-0 75.93984 119.41207)">检查对象</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #ffffff" x="318.408411" y="119.402227" transform="rotate(-0 318.408411 119.402227)">当前结果</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #ffffff" x="603.665554" y="119.3325" transform="rotate(-0 603.665554 119.3325)">如何解释 / 后续处理</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="154.838203" transform="rotate(-0 75.93984 154.838203)">Newspaper 待处理记录</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="155.181914" transform="rotate(-0 318.408411 155.181914)">76</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="155.207344" transform="rotate(-0 603.665554 155.207344)">正文边界、访问、日期等问题保持显式；未删除原始证据</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="191.113359" transform="rotate(-0 75.93984 191.113359)">Newspaper 完全文本重合候选</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="191.651484" transform="rotate(-0 318.408411 191.651484)">94 组 / 198 个 ID</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="191.356992" transform="rotate(-0 603.665554 191.356992)">候选不是已证实同一作品；保留 ID、版本与转载关系</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="227.874961" transform="rotate(-0 75.93984 227.874961)">Social 类型化原生实体</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="226.865156" transform="rotate(-0 318.408411 226.865156)">268,343</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="227.593594" transform="rotate(-0 603.665554 227.593594)">含正文、上下文、包装、墓碑等；不可全算独立发言</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="263.998359" transform="rotate(-0 75.93984 263.998359)">Social 实体版本 / 关系边</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="263.045156" transform="rotate(-0 318.408411 263.045156)">275,580 / 505,508</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="263.982773" transform="rotate(-0 603.665554 263.982773)">版本和回复 / 引用关系不增加独立正文数</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="300.194766" transform="rotate(-0 75.93984 300.194766)">Social 附件元数据</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="299.225156" transform="rotate(-0 318.408411 299.225156)">91,409</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="300.194766" transform="rotate(-0 603.665554 300.194766)">附件记录不等于已下载媒体文件或新正文</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="336.4125" transform="rotate(-0 75.93984 336.4125)">Social 原生单位中无正文的包装</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="335.1" transform="rotate(-0 318.408411 335.1)">8,212 repost；385 context</text>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="336.028594" transform="rotate(-0 603.665554 336.028594)">按 native_unit 分类；与版本状态表的口径不同</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="372.577734" transform="rotate(-0 75.93984 372.577734)">Social 本轮关系端点未解析</text>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="371.269336" transform="rotate(-0 318.408411 371.269336)">107,335 / 417,417（25.7%）</text>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="372.246328" transform="rotate(-0 603.665554 372.246328)">仅本轮导出的关系边；不等于全库关系的未解析比例</text>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="408.800391" transform="rotate(-0 75.93984 408.800391)">Social 日期映射未决</text>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="408.441914" transform="rotate(-0 318.408411 408.441914)">9</text>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="408.016172" transform="rotate(-0 603.665554 408.016172)">6 条 Bluesky + 3 条 Stack Exchange；从可用日期视图分开</text>
+   </g>
+   <g id="text_28">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="444.982852" transform="rotate(-0 75.93984 444.982852)">Social 作者角色未知</text>
+   </g>
+   <g id="text_29">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="443.629336" transform="rotate(-0 318.408411 443.629336)">239,181 / 239,402（99.91%）</text>
+   </g>
+   <g id="text_30">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="444.626836" transform="rotate(-0 603.665554 444.626836)">可访问不等于普通公众；不得从平台或服务器推断作者角色</text>
+   </g>
+   <g id="text_31">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="481.165312" transform="rotate(-0 75.93984 481.165312)">正文 / raw 映射与数据库完整性</text>
+   </g>
+   <g id="text_32">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="481.074258" transform="rotate(-0 318.408411 481.074258)">两路最终检查通过</text>
+   </g>
+   <g id="text_33">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="480.733008" transform="rotate(-0 603.665554 480.733008)">重用旧验收，只核验新增批次；不是言论真实性认证</text>
+   </g>
+   <g id="text_34">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="75.93984" y="517.340391" transform="rotate(-0 75.93984 517.340391)">运行异常与可追溯限制</text>
+   </g>
+   <g id="text_35">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="318.408411" y="516.633281" transform="rotate(-0 318.408411 516.633281)">间距、元数据 stop、计时延迟</text>
+   </g>
+   <g id="text_36">
+    <text style="font-size: 10.5px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="603.665554" y="516.961406" transform="rotate(-0 603.665554 516.961406)">OlivePress 延迟偏短已修复；协调 H+5 实际迟到约 2 小时</text>
+   </g>
+  </g>
+  <g id="text_37">
+   <text style="font-size: 21px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #263445" x="63.36" y="40.316719" transform="rotate(-0 63.36 40.316719)">质量与复杂性分析表：保留噪声，区分计数层级</text>
+  </g>
+  <g id="text_38">
+   <text style="font-size: 11px; font-family: 'Arial Unicode MS'; text-anchor: start; fill: #566675" x="63.36" y="66.009375" transform="rotate(-0 63.36 66.009375)">数据完整性检查通过，并不代表日期解释、来源独立性或社会代表性全部解决。</text>
+  </g>
+  <g id="text_39">
+   <text style="font-size: 10px; font-family: 'Arial Unicode MS'; fill: #566675" transform="translate(63.36 607.416045)">“零跨实体 publication_key 重复”仅说明当前已建立的键未重叠，不能证明全语料已去重。社交跨实例同源、迁移与版本关系仍需证据映射。</text>
+   <text style="font-size: 10px; font-family: 'Arial Unicode MS'; fill: #566675" transform="translate(63.36 621.844463)">所有数量来自最终元数据，未重扫正文；未执行气候相关性、情绪或 fear 标签，也未按噪声、长度或主题筛除。</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p3fd129041c">
+   <rect x="63.36" y="97.2" width="1048.32" height="434.16"/>
+  </clipPath>
+ </defs>
+</svg>

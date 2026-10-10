@@ -1,0 +1,23 @@
+{
+  "pdf": "work_packages/M1_source_access/29_media_round_review_20261010/qa/04_parent_source_dimensions.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 95,
+  "text_trace_count": 124,
+  "stroke_path_count": 65,
+  "filled_region_count": 88,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 26,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

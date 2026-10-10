@@ -1,0 +1,19 @@
+{
+  "at_utc": "2026-10-10T01:29:24.861571+00:00",
+  "both_writer_mutexes_available": true,
+  "selected_final_delivery_hashes_verified": [
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_nine_hour_newspaper/worker/DELIVERY_SUMMARY.json",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_nine_hour_newspaper/worker/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_nine_hour_social/worker/summaries/source_month_calendar.csv",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_nine_hour_newspaper/worker/SOURCE_PARENT_IDENTITY_REGISTER.csv",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_nine_hour_newspaper/worker/EXACT_BODY_OVERLAP_REVIEW_REGISTER.csv",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_nine_hour_social/worker/summaries/role_summary.csv",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_nine_hour_social/worker/summaries/content_states.csv",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_nine_hour_social/worker/summaries/source_native_type_counts.csv",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_nine_hour_social/worker/summaries/changed_relations_manifest.csv.gz",
+    "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_nine_hour_social/worker/summaries/publication_memberships.csv.gz"
+  ],
+  "owners_idle_completed": true,
+  "fixed_deadline_preserved": true,
+  "no_collection_restarted": true
+}

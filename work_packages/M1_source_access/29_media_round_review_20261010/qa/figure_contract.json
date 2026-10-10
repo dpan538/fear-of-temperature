@@ -1,0 +1,27 @@
+{
+  "archetype": "quantitative report grids and analysis tables",
+  "backend": "Python; saved preference reused",
+  "export_contract": "Nine 300-dpi PNG deliverables, report-size canvases; PDF/SVG are internal QA only, not requested delivery formats",
+  "question": "How did the closed nine-hour round change retained volume, observed calendar support, source/parent composition, and unresolved evidence?",
+  "claims": {
+    "01": "Volume increased without establishing complete archives or representative public speech",
+    "02": "All 465 month bins reveal remaining historical gaps",
+    "03": "The source mixture still concentrates social records in 2026",
+    "04": "Parent dimensions have distinct meanings and cannot be pooled into one quality score",
+    "05": "Most growth came from deeper existing sources, with one new newspaper source",
+    "06": "Sparse and single-source months persist despite corpus growth",
+    "07": "Structural integrity can pass while date, identity and role questions remain",
+    "08": "Next acquisition should follow viable historical and native routes without count gates",
+    "09": "Full-calendar absence, unknown eras, access limits and structural inapplicability remain separate"
+  },
+  "data_integrity": "All closed current newspaper article metadata and social source-month bins retained. Campus frame is separately preserved, per prior source-frame decision. No records deleted or downsampled. Inapplicable/outside-endpoint cells explicitly labeled. Source table/era chart show 14 body-contributing social sources of32 registered opportunities; remaining18 are registered but have no acquired dated bodies.",
+  "statistics": "Exact descriptive snapshot counts; no hypothesis tests, sampling intervals, model confidence intervals, emotion labels or causal attribution. Neighbor peak rule is diagnostic only.",
+  "log_scales": "Heatmaps use within-stream LogNorm for positive counts; zero has its own neutral color, outside-calendar cells masked explicitly. Monthly line plots use symlog with linthresh1 to retain all zero bins.",
+  "parent_scope": "Reuse recorded snapshot mappings; new Galway acquisition-family assertion from final collector register. No promotion to verified historical ownership. Platform-network, software, instance and community dimensions remain separate.",
+  "source_preflight_exemptions": [
+    "PNG at300dpi is the requested deliverable, not a TIFF journal submission",
+    "Report canvases deliberately exceed journal column widths; no target journal specified",
+    "600dpi default is unnecessary for these large report canvases; exported glyph floor exceeds5pt"
+  ],
+  "qa": "Run source validator, final axes-alignment checks, PDF glyph floor and collision checks, plus visual inspection. Exports are not journal-submission certification."
+}

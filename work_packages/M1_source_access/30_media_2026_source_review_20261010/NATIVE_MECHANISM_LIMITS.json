@@ -1,0 +1,133 @@
+{
+  "s9_closed": {
+    "counts": {
+      "posts": 239402,
+      "versions": 239402,
+      "native_entities": 268343,
+      "entity_versions": 275580,
+      "entity_observations": 281131,
+      "native_edges": 505508,
+      "native_attachments": 91409,
+      "responses": 6348
+    },
+    "year2026_share": 0.5809968587087287,
+    "body_top_source": [
+      [
+        "bluesky",
+        75102
+      ]
+    ],
+    "year2026_top_source": [
+      [
+        "bluesky",
+        35678
+      ]
+    ],
+    "native_type_counts": {
+      "forum_reply": 33186,
+      "tombstone": 724,
+      "forum_post": 17848,
+      "link_only_post": 11175,
+      "media_only_post": 1488,
+      "public_platform_post": 158320,
+      "quote_post": 6828,
+      "unresolved_native_entity": 27,
+      "repost_wrapper": 8212,
+      "context_container": 385,
+      "comment": 14377,
+      "answer": 9727,
+      "question": 6046
+    },
+    "extra_entity_versions": 7237,
+    "extra_entity_observations": 12788
+  },
+  "s4_closed_pre_resume": {
+    "counts": {
+      "posts": 503060,
+      "versions": 503060,
+      "native_entities": 536486,
+      "entity_versions": 543810,
+      "entity_observations": 550528,
+      "native_edges": 797682,
+      "native_attachments": 94941,
+      "responses": 7151
+    },
+    "year2026_share": 0.29597013382527176,
+    "body_top_source": [
+      [
+        "python_list_archive",
+        243639
+      ]
+    ],
+    "year2026_top_source": [
+      [
+        "bluesky",
+        35678
+      ]
+    ],
+    "native_type_counts": {
+      "forum_reply": 34900,
+      "tombstone": 731,
+      "forum_post": 17967,
+      "link_only_post": 11175,
+      "media_only_post": 1641,
+      "public_platform_post": 176288,
+      "quote_post": 6964,
+      "unresolved_native_entity": 32,
+      "repost_wrapper": 8334,
+      "comment": 14390,
+      "story": 64,
+      "context_container": 504,
+      "mailing_list_message": 247723,
+      "answer": 9727,
+      "question": 6046
+    },
+    "extra_entity_versions": 7324,
+    "extra_entity_observations": 14042
+  },
+  "s9_changed_relation_edges_only": [
+    {
+      "relation_type": "quote",
+      "resolution_state": "resolved",
+      "edges": "2993"
+    },
+    {
+      "relation_type": "quote",
+      "resolution_state": "unresolved_native_endpoint",
+      "edges": "89"
+    },
+    {
+      "relation_type": "reply",
+      "resolution_state": "resolved",
+      "edges": "49290"
+    },
+    {
+      "relation_type": "reply",
+      "resolution_state": "unresolved_native_endpoint",
+      "edges": "36311"
+    },
+    {
+      "relation_type": "repost",
+      "resolution_state": "resolved",
+      "edges": "3689"
+    },
+    {
+      "relation_type": "root",
+      "resolution_state": "resolved",
+      "edges": "40592"
+    },
+    {
+      "relation_type": "root",
+      "resolution_state": "unresolved_native_endpoint",
+      "edges": "27618"
+    }
+  ],
+  "limitations": [
+    "Annual/source reweighting is a sensitivity view, not a collector control or deletion rule",
+    "No record-level bot marker verified; missing evidence remains unknown",
+    "No 2026-specific reply-degree, same-utterance federation or work/version join performed",
+    "A wrapper/entity/version/edge is not an additional independently authored dated body",
+    "Source/parent/thread leave-one-out sensitivity must preserve native units and applicable-era denominators",
+    "Native forum labels support mechanism bookkeeping; they do not identify semantic noise or infer emotional effects"
+  ]
+}

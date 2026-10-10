@@ -1,0 +1,21 @@
+stream,month,bodies,neighbor_mean,ratio,boundary_incomplete,largest_source,largest_source_share,action
+newspaper,1991-03,117,38.0,3.0789473684210527,False,green_left,1.0,flag only; retain; event cause unassessed
+newspaper,1993-11,72,2.0,36.0,False,green_left,1.0,flag only; retain; event cause unassessed
+newspaper,1999-11,16,1.3333333333333333,12.0,False,financial_mirror,0.6875,flag only; retain; event cause unassessed
+newspaper,2005-02,82,8.5,9.647058823529411,False,financial_mirror,1.0,flag only; retain; event cause unassessed
+newspaper,2009-12,29,1.5,19.333333333333332,False,camden_new_journal,1.0,flag only; retain; event cause unassessed
+newspaper,2010-07,5,0.8333333333333334,6.0,False,camden_new_journal,1.0,flag only; retain; event cause unassessed
+newspaper,2011-04,10,3.1666666666666665,3.1578947368421053,False,otago_daily_times,0.9,flag only; retain; event cause unassessed
+newspaper,2011-05,15,2.0,7.5,False,camden_new_journal,1.0,flag only; retain; event cause unassessed
+newspaper,2013-07,101,2.5,40.4,False,indaily,0.9900990099009901,flag only; retain; event cause unassessed
+newspaper,2013-11,15,2.5,6.0,False,camden_new_journal,1.0,flag only; retain; event cause unassessed
+newspaper,2014-11,149,47.5,3.136842105263158,False,indaily,0.6711409395973155,flag only; retain; event cause unassessed
+newspaper,2016-04,157,48.166666666666664,3.2595155709342563,False,indaily,0.6369426751592356,flag only; retain; event cause unassessed
+newspaper,2018-02,123,36.666666666666664,3.354545454545455,False,indaily,0.7642276422764228,flag only; retain; event cause unassessed
+newspaper,2020-07,172,55.666666666666664,3.089820359281437,False,indaily,0.5813953488372093,flag only; retain; event cause unassessed
+newspaper,2024-02,172,39.166666666666664,4.391489361702128,False,indaily,0.5813953488372093,flag only; retain; event cause unassessed
+newspaper,2025-09,488,129.16666666666666,3.7780645161290325,False,northern_rivers_times,0.9508196721311475,flag only; retain; event cause unassessed
+social,2013-02,733,182.0,4.027472527472527,False,se_sustainability,0.844474761255116,flag only; retain; event cause unassessed
+social,2014-04,1153,314.8333333333333,3.6622551614610908,False,se_earthscience,0.8412836079791848,flag only; retain; event cause unassessed
+social,2018-10,635,208.83333333333334,3.040702314445331,False,python_discourse,0.7259842519685039,flag only; retain; event cause unassessed
+social,2023-06,3896,875.0,4.452571428571429,False,lemmy_nz,0.6257700205338809,flag only; retain; event cause unassessed

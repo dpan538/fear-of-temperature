@@ -1,0 +1,81 @@
+{
+  "at_utc": "2026-10-10T05:54:48.082669+00:00",
+  "files": [
+    {
+      "path": "delta_summaries/raw_object_catalog.csv",
+      "bytes": 116349,
+      "sha256": "83cd45ffb19f84f734504f876fa6371ab0be948e6d4dfb4f3f4a2cdf9991cd01"
+    },
+    {
+      "path": "delta_summaries/native_mapping_issues.csv",
+      "bytes": 55,
+      "sha256": "f884ad1c5bb648aea6d776f6449abf35164dcba4a3ece02154a0f9c2629f8433"
+    },
+    {
+      "path": "delta_summaries/new_native_entities.csv.gz",
+      "bytes": 32507,
+      "sha256": "033b684a07c9c0970992ae6fb995f688466d56a34724b3cd0131b107d67a9307"
+    },
+    {
+      "path": "delta_summaries/phase_entity_versions.csv.gz",
+      "bytes": 191700,
+      "sha256": "abc9e37acf5ead4da5754afa64e0b94a5830309144e37c3919658be25df89530"
+    },
+    {
+      "path": "delta_summaries/phase_observations.csv.gz",
+      "bytes": 65494,
+      "sha256": "3d0fb34ddca88f3ca2b790943b47279ee8313916e25fbb4d6be8a3bae7ec79bc"
+    },
+    {
+      "path": "delta_summaries/new_relations.csv.gz",
+      "bytes": 113867,
+      "sha256": "5d3abdaf8306e579eac86dc24019e10e66bf01df40498e530acadee590ac980f"
+    },
+    {
+      "path": "delta_summaries/affected_incoming_relations.csv.gz",
+      "bytes": 101974,
+      "sha256": "4fca5e1e32eddd2f1a0fe32cc924ca44d4efce53a4744cc04d09ae789f598956"
+    },
+    {
+      "path": "delta_summaries/phase_source_provenance.csv.gz",
+      "bytes": 62611,
+      "sha256": "7c1bf24da22bd491dcc1718b49ad4a265d5249f946733b49844e9b31fabf34a8"
+    },
+    {
+      "path": "delta_summaries/affected_native_aliases.csv.gz",
+      "bytes": 65165,
+      "sha256": "cf546ec1558b828f6904057ed67039240fd6e619a5d69b6993e434e00e63692f"
+    },
+    {
+      "path": "delta_summaries/affected_publication_memberships.csv.gz",
+      "bytes": 70039,
+      "sha256": "6e192f21ad4fcc30552e208a55f4c1ce1b7c223c4832308735708ad729d7a144"
+    },
+    {
+      "path": "delta_summaries/phase_structural_corrections.csv.gz",
+      "bytes": 125,
+      "sha256": "20bde64d1d6bde573bb4eb76b669ddd3de1686907c30fcc360c79adbba7b791b"
+    },
+    {
+      "path": "delta_summaries/phase_date_limits.csv.gz",
+      "bytes": 1034,
+      "sha256": "6ca35dcfbf00bcec1bb0b303fa0ef74dc6d6fc01504a5dabeea397a8ac0dbce3"
+    },
+    {
+      "path": "delta_summaries/source_month_deltas.csv",
+      "bytes": 1364,
+      "sha256": "1bde4e2e2b57dc1792c2493b6d5e4f762b47f48897a0489113699a905867fbad"
+    },
+    {
+      "path": "delta_summaries/implementation_append_manifest.json",
+      "bytes": 824,
+      "sha256": "b82257569d5c8b884dcfbedcbc58d2638e573049b2e4a5478e28f2718269d185"
+    },
+    {
+      "path": "delta_summaries/DELTA_COLLECTION_REPORT.md",
+      "bytes": 2481,
+      "sha256": "381683d6c37028df271395978d457fb491ea7c806109fcae2137ef1e5a6fa733"
+    }
+  ],
+  "delta_collection_manifest_sha256": "bd5025920c40b688e28512517bc4e31b027b24c729854caf2b6d0a5bb2dbce97"
+}

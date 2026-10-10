@@ -1,0 +1,79 @@
+{
+  "at_utc": "2026-10-10T05:44:51.287431+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "baseline_current_newspaper_IDs": 16138,
+  "additional_qualified_IDs": 2103,
+  "current_newspaper_complete_IDs": 18241,
+  "historical_campus_IDs_preserved": 9249,
+  "observed_study_months": 434,
+  "remaining_empty_months": 31,
+  "new_source_year_mix": {
+    "camden_new_journal": {
+      "2021": 3
+    },
+    "falls_church_news_press": {
+      "2009": 50
+    },
+    "green_left": {
+      "1991": 683
+    },
+    "militant_uk_archive": {
+      "1988": 1
+    },
+    "montpelier_bridge": {
+      "2024": 74
+    },
+    "workers_advocate": {
+      "1988": 258,
+      "1989": 240,
+      "1990": 236,
+      "1991": 271,
+      "1992": 184,
+      "1993": 103
+    }
+  },
+  "checks": {
+    "at_utc": "2026-10-10T05:44:50.532441+00:00",
+    "all_passed": true,
+    "SQLite_quick_check": [
+      "ok"
+    ],
+    "foreign_key_errors": 0,
+    "baseline_metadata_IDs_preserved": 25387,
+    "new_complete_IDs_checked": 2103,
+    "new_unique_raw_objects_checked": 752,
+    "errors": [],
+    "verification_scope": "New Load TEXT/raw mapping and immutable baseline identity/date/version memberships only; no old body/raw sweep"
+  },
+  "Workers_Advocate_native_issue_mapping_checks": 60,
+  "retained_record_counts_are_not_independent_work_counts": true,
+  "archive_carrier_and_native_unit_accounting": {
+    "at_utc": "2026-10-10T05:46:10.137659+00:00",
+    "source_id": "workers_advocate",
+    "observed_eligible_HTML_issue_inventory": 62,
+    "returned_issue_containers": 62,
+    "distinct_returned_named_native_units": 2445,
+    "qualified_complete_article_IDs": 1292,
+    "returned_pending_units": 1153,
+    "returned_unprocessed_units": 0,
+    "returned_unit_status_counts": {
+      "confirmed_complete": 1292,
+      "pending_native_article_boundary": 1072,
+      "pending_native_issue_index_masthead_date_conflict": 43,
+      "pending_native_issue_date": 38
+    },
+    "historical_population_denominator": "unknown; this is the observed eligible HTML inventory",
+    "counter_scope": "Original cumulative transport/native charges count their recorded acquisition targets, including issue carriers. This separate native-article accounting changes no charge, quota, allocation or stopping rule.",
+    "issue_containers_counted_as_articles": false,
+    "no_PDF_acquired": true
+  },
+  "additional_source_directness_counts": {
+    "archival_reproduction": 1293,
+    "original_publisher_representation": 810
+  },
+  "retained_identical_body_candidate_IDs": 0,
+  "complete_historical_archive_denominator_known": false
+}

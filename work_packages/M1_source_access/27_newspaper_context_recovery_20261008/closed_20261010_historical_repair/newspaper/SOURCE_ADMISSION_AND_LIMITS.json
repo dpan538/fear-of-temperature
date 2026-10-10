@@ -1,0 +1,67 @@
+{
+  "at_utc": "2026-10-10T02:04:33.013736+00:00",
+  "militant_uk_archive": {
+    "status": "admitted_explicitly_attributed_complete_archival_HTML",
+    "identity_receipt": "receipts/08d8bb4ded7440002e719be2.json",
+    "use_receipt": "receipts/ad26872424e271d5b9a57707.json",
+    "article_receipt": "receipts/ebd9ce613677fb5df74cebc7.json",
+    "source_date": "1988-07-01",
+    "speech_delivery_date": "1988-06-19",
+    "transcription_year": 2007,
+    "whole_issue_PDF_route_unavailable": "All36 inherited slots consumed; no PDF requested",
+    "all_archive_population_unknown": true,
+    "observed_collection_subframe": "One explicitly attributed newspaper speech/transcript article found in a selected author archive; newspaper-wide/author representativeness unknown"
+  },
+  "christian_science_monitor": {
+    "status": "historical_inventory_verified_original_completeness_pending_paywall",
+    "identity_reference": "https://www.csmonitor.com/About",
+    "use_reference": "https://www.csmonitor.com/About/Terms",
+    "inventory_reference": "https://www.csmonitor.com/csm/contentmap/articles/1988-10",
+    "raw_article_reference": "receipts/e7328bdc67022dae61dbecc4.json",
+    "native_date": "1988-01-04",
+    "limitation": "Original HTML carries prem/truncate-for-paywall and subscribe/paywall markers. No account, layout/print bypass, hidden endpoint or complete-body qualification activated. Native dated inventory remains source-era/access evidence."
+  },
+  "workers_advocate": {
+    "status": "admitted_native_anchored_whole_article_HTML",
+    "source_identity_reference": "https://www.marxists.org/history/erol/ncm-1/workers-advocate/",
+    "no_PDF_acquisition": true,
+    "masthead_date_example": "1988-02-01",
+    "native_article_anchor_example": "article2924",
+    "unit_contract": "one native named article anchor through verified end-navigation; issue/container and index never count as articles",
+    "access_policy_reference": "https://www.marxists.org/robots.txt",
+    "source_use_reference": "https://www.marxists.org/admin/legal/terms-of-use.htm",
+    "publication_interval_claim": "1969-1993; index heading1974-1993 differs; recovered article dates independently checked",
+    "source_era_denominator": "observed dated HTML index; complete historical newspaper population unknown",
+    "actual_sample_native_units": 45,
+    "actual_sample_boundary_statuses": {
+      "confirmed_complete": 24,
+      "pending_native_article_boundary": 21
+    },
+    "limits": "Native transcription contains some repeated headlines/blocks; retain source anchors and bodies, leave missing native terminators pending, and flag hash matches as candidate work relations without merging IDs. Advocacy newspaper does not establish general-interest representativeness."
+  },
+  "zeit_de": {
+    "status": "not_admitted_source_use_restriction",
+    "dated_native_inventory": "https://www.zeit.de/1988/01/index",
+    "use_reference": "https://www.zeit.de/administratives/agb-kommentare-artikel-alt",
+    "use_limitation": "Publisher terms prohibit creating a database or electronic archive; collection is not released.",
+    "no_collector_body_HTTP_or_Load": true,
+    "search_result_text_not_qualified_article": true
+  },
+  "taz": {
+    "status": "not_admitted_credential_and_source_use_limits",
+    "historical_route_reference": "https://fid-media.de/en/new-at-fid-media-taz-die-tageszeitung-now-available-in-full-text-via-fid-media/",
+    "route_limitation": "The observed full-text1988 WISO route requires a registered FID account; publisher ePaper terms restrict database copying. No account application, credential or institutional route authorized.",
+    "ordinary_HTML_archive_body_not_established": true,
+    "no_collector_body_HTTP_or_Load": true
+  },
+  "papers_past": {
+    "status": "not_admitted_actual_source_access_challenge",
+    "robots_receipt": "receipts/fbdba7549326e93f245bdd46.json",
+    "ordinary_HTML_robots_permission_verified": true,
+    "PDF_route_disallowed": true,
+    "access_limit": "Saved ordinary help/copyright/about responses have Incapsula challenge scripts/iframes; HTTP200 is not readable original source evidence. No challenge execution, altered identity, private endpoint, alternative-host bypass or credentials requested.",
+    "item_specific_license_search_reference": "https://paperspast.natlib.govt.nz/newspapers/WAIBUL19880315.2.24",
+    "copyright_and_original_article_mapping": "Pending actual readable source; official search-result licence context alone did not admit or qualify corpus body",
+    "unattempted_original_item_and_title_jobs": "Preserved pending queue; will receive host-stop disposition without HTTP"
+  }
+}

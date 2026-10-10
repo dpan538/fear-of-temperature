@@ -154,3 +154,20 @@ work_packages/M1_source_access/27_newspaper_context_recovery_20261008/**/control
 /work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009/**/control/
 /work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009/results_v2/
 /work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009/results_v3/
+
+# Nine-hour media runtime evidence remains local; final artifacts are selected at closeout.
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261009_nine_hour_newspaper/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261009_nine_hour_social/worker/
+
+# Local runtime for the independent 2026 source review
+/work_packages/M1_source_access/30_media_2026_source_review_20261010/control/
+/work_packages/M1_source_access/30_media_2026_source_review_20261010/worker/
+
+# Four-hour collector runtime and handover evidence stay local; publish selected closed deliveries.
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_broader_history_four_hour/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_broader_history_four_hour/worker/
+
+# Preliminary joint-diagnostic run retained locally; v2 is the finalized delivery.
+/work_packages/M1_source_access/31_media_joint_validation_20261010/results_v1/

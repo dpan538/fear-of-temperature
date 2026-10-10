@@ -1,0 +1,549 @@
+{
+  "selection": "Closed reports, implementation, finalized aggregate/article/provenance/raw manifests. Runtime scopes, leases, queues and individual receipts stay local; no corpus body or database copied. Social main large compressed entity exports remain local and are referenced by original delivery manifest.",
+  "files": [
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/ADDITIONAL_ARTICLE_REGISTER.csv",
+      "published_path": "newspaper/ADDITIONAL_ARTICLE_REGISTER.csv",
+      "bytes": 1895433,
+      "sha256": "6a0e883f1d79a10cd41db54379d1083a89c0673c30069c29d28e1f56d19d1173"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/ADDITIONAL_RAW_REFERENCE_MANIFEST.csv",
+      "published_path": "newspaper/ADDITIONAL_RAW_REFERENCE_MANIFEST.csv",
+      "bytes": 398021,
+      "sha256": "d24b01bf4bca1f5c7ea29c4894332509b857e4c06a6b12fe0d5b544d659e65b0"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/ARCHIVE_RETURNED_NATIVE_UNIT_REGISTER.csv",
+      "published_path": "newspaper/ARCHIVE_RETURNED_NATIVE_UNIT_REGISTER.csv",
+      "bytes": 530798,
+      "sha256": "cf1cf71597b27de645bb05468e672d387073899f3ae68fa931301e2a6d6b9cf5"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/BUG_REPAIR_LEDGER.md",
+      "published_path": "newspaper/BUG_REPAIR_LEDGER.md",
+      "bytes": 5979,
+      "sha256": "b8900e59ffc18d4e1b0059c421b51f9277c88750c96ea7394b5e7acef4fc0cb2"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "published_path": "newspaper/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "bytes": 6033339,
+      "sha256": "347b07c854da57087381c8d159f4013ffa862ab0fdefb7e888242fb91e9d9f81"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/DELIVERY_REPORT.md",
+      "published_path": "newspaper/DELIVERY_REPORT.md",
+      "bytes": 6105,
+      "sha256": "243e3bf17e892b91afe1a531819b938bb694cd0fa71364f2028b621937700363"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/HISTORICAL_CAMPUS_PRESERVATION_REGISTER.csv",
+      "published_path": "newspaper/HISTORICAL_CAMPUS_PRESERVATION_REGISTER.csv",
+      "bytes": 3135501,
+      "sha256": "5599da8b0046f7af34a007b438668c3c8a3c6e6fd32de9ae2d980b1ba0bba891"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/MONTHLY_BEFORE_AFTER.csv",
+      "published_path": "newspaper/MONTHLY_BEFORE_AFTER.csv",
+      "bytes": 11443,
+      "sha256": "f3504779ce658cbf288c68c381970936fd74af6b622d7b8f943768edd4ea18c3"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/MONTH_PEAK_CONTEXT_FLAGS.csv",
+      "published_path": "newspaper/MONTH_PEAK_CONTEXT_FLAGS.csv",
+      "bytes": 4878,
+      "sha256": "3afc88f049476a618f4daee55010b4f7b663f9b33128c17c115fa8259a0c9146"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/MONTH_SOURCE_COUNTS_AFTER.csv",
+      "published_path": "newspaper/MONTH_SOURCE_COUNTS_AFTER.csv",
+      "bytes": 21717,
+      "sha256": "340598bb7373312ab8e3184993e9147737774537205a7d4eda5cbcc7efa5b6b3"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/MONTH_SOURCE_COUNTS_BEFORE.csv",
+      "published_path": "newspaper/MONTH_SOURCE_COUNTS_BEFORE.csv",
+      "bytes": 19654,
+      "sha256": "eb3a0bcfe0512f931e72c18ea57d332559226ad7615c56b40f004ab222250f1c"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/PENDING_DISPOSITION_REGISTER.csv",
+      "published_path": "newspaper/PENDING_DISPOSITION_REGISTER.csv",
+      "bytes": 2839111,
+      "sha256": "8274f2dd2f948165e00207b1aaeb4ad8adc97da4c6c1aa73a15a0808c92f3e03"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/RAW_OBJECT_MANIFEST.csv",
+      "published_path": "newspaper/RAW_OBJECT_MANIFEST.csv",
+      "bytes": 362421,
+      "sha256": "a178c00d9cdf62110b3de63e34ac5cf315e56ed68a463cd4830761188def6b5e"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/RESIDUAL_EMPTY_MONTHS.csv",
+      "published_path": "newspaper/RESIDUAL_EMPTY_MONTHS.csv",
+      "bytes": 829,
+      "sha256": "9d014cc823a3d55b8bc438e6e8a5182e2529717dd9663269e7f929379405d040"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/SOURCE_PROVENANCE_AND_DATE_REGISTER.csv",
+      "published_path": "newspaper/SOURCE_PROVENANCE_AND_DATE_REGISTER.csv",
+      "bytes": 2071314,
+      "sha256": "07003076928b412929ceee02d4c03dd5928890c7d0412fec82baae4d11ff6eba"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/SOURCE_YEAR_DELTA.csv",
+      "published_path": "newspaper/SOURCE_YEAR_DELTA.csv",
+      "bytes": 343,
+      "sha256": "fc07f5da6b60052b6b7c2766739f2ab92734ff36bfa622a9b610a1be4f77a291"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/SOURCE_ADMISSION_AND_LIMITS.json",
+      "published_path": "newspaper/SOURCE_ADMISSION_AND_LIMITS.json",
+      "bytes": 4660,
+      "sha256": "19f7c444e69f6a6f3ec55493eacd81600592c4842b6da82582dc11220aca5995"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/archive_html.py",
+      "published_path": "newspaper/implementation/archive_html.py",
+      "bytes": 5251,
+      "sha256": "804c27a77ed8c297ccf294bb8bc37a9bc4dc095acc11ecbe9fdcbc2628d2b3da"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/archive_issues.py",
+      "published_path": "newspaper/implementation/archive_issues.py",
+      "bytes": 10053,
+      "sha256": "4779281035a89bba30e053a18c544af0e22f90e45aaab9d63225af0cfd02413f"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/broaden.py",
+      "published_path": "newspaper/implementation/broaden.py",
+      "bytes": 13776,
+      "sha256": "0e3103ef732d7a288ef9627731cbddae300ca79b960beef55741e1716008acde"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/admit_historical.py",
+      "published_path": "newspaper/implementation/admit_historical.py",
+      "bytes": 7555,
+      "sha256": "4a1eb8f18cfbda4cba3486688338ef610d38458c16dabad87116e15038543d84"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/admit_workers_advocate.py",
+      "published_path": "newspaper/implementation/admit_workers_advocate.py",
+      "bytes": 6102,
+      "sha256": "a881ac0554e447a712f0584a86d06b4a5b8edaaffc355198c610bbb3cbaf51f8"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/check_archive_issue.py",
+      "published_path": "newspaper/implementation/check_archive_issue.py",
+      "bytes": 2315,
+      "sha256": "70adff284a09b3892c042c0e6d97ee0f7ff5eab3cbbe7c7aabafc81d3e3d55fb"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/check_changed_chain.py",
+      "published_path": "newspaper/implementation/check_changed_chain.py",
+      "bytes": 5726,
+      "sha256": "02ec211f09a8dfd0854d00e002f36d040c9490b30ad35dc9fc572e606b5289f0"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/check_historical_admission.py",
+      "published_path": "newspaper/implementation/check_historical_admission.py",
+      "bytes": 2125,
+      "sha256": "a1cd0bbb5249dcc8d91877c7c3a8cd0a8b10674c9fe0ade367b088479f7b41df"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/check_metadata_lookup.py",
+      "published_path": "newspaper/implementation/check_metadata_lookup.py",
+      "bytes": 1469,
+      "sha256": "480ee5138d4268597d321510f45175cc69d3589e2c9258c588ac73a42fca174b"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/check_source_access_challenge.py",
+      "published_path": "newspaper/implementation/check_source_access_challenge.py",
+      "bytes": 1758,
+      "sha256": "77bd4af59583a2f8ae47c54cb5963b465e5ca5dabe0ab8f01c725b3f43fd3d0f"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/close_round.py",
+      "published_path": "newspaper/implementation/close_round.py",
+      "bytes": 16526,
+      "sha256": "aa8c2a13c53710ec286bd14189fa66fc8381cc3bf8916f683ee1ed06da8c4cd6"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/elt.py",
+      "published_path": "newspaper/implementation/elt.py",
+      "bytes": 18148,
+      "sha256": "e971abaf3f9344cc677d491ebc41b4685bd965ead75d3048336010d7b304820e"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/extract_load.py",
+      "published_path": "newspaper/implementation/extract_load.py",
+      "bytes": 1472,
+      "sha256": "d87136656eab5b41434c41a4998cc01587c88131b0f4930e7c093ce92acf4c61"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/galway_html.py",
+      "published_path": "newspaper/implementation/galway_html.py",
+      "bytes": 7914,
+      "sha256": "fd31f59f0b29020ddb2550a467530e333bfda3970bc5ef4fbec8b8f825849406"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/green_left_issue_candidates.py",
+      "published_path": "newspaper/implementation/green_left_issue_candidates.py",
+      "bytes": 1936,
+      "sha256": "90ec4aad13f33e53d141cd941fa4190e0c189290d96cff134517bea2c7421c95"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/indaily.py",
+      "published_path": "newspaper/implementation/indaily.py",
+      "bytes": 8500,
+      "sha256": "c5ea01d77e53b8bd90201ee4dab6f8a1a82d67ae59d5ad8748920627e8b8bc97"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/native_batches.py",
+      "published_path": "newspaper/implementation/native_batches.py",
+      "bytes": 9150,
+      "sha256": "1a0f6f0de21e5aca9252909152edf31703253a1b3c7c8836be570ef992488d28"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/native_html.py",
+      "published_path": "newspaper/implementation/native_html.py",
+      "bytes": 8122,
+      "sha256": "802dd991934864ef1405da53c6a2aa51092d0acd1d2a2f0575b9a3c7b1e51517"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/production.py",
+      "published_path": "newspaper/implementation/production.py",
+      "bytes": 10968,
+      "sha256": "0d9ed47ce6b6cf23f1cd2ae3b87f686e91ed88bddf31750e9a026901a3925186"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_four_hour_historical_repair/worker/run.py",
+      "published_path": "newspaper/implementation/run.py",
+      "bytes": 8493,
+      "sha256": "c1aef5027d116b6a4d0bc9a4adcc1e718e6b0b93500d96cac6c0f17df1c76139"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/COLLECTION_REPORT.md",
+      "published_path": "social/main/COLLECTION_REPORT.md",
+      "bytes": 9465,
+      "sha256": "5063d9b736ffef9ee41f07828928595e71e99546e62a063aad70769312499bc5"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/adjacent_month_flags.csv",
+      "published_path": "social/main/adjacent_month_flags.csv",
+      "bytes": 10954,
+      "sha256": "7653cf3fd18d9cc39b5893539afb110be2f67f718930d141b05798abdffdbcec"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/collection_manifest.json",
+      "published_path": "social/main/collection_manifest.json",
+      "bytes": 10489,
+      "sha256": "d3d17d9cf44c3dbfd1584e9915b9946665b052217cae68549570af723ebf3f88"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/content_states.csv",
+      "published_path": "social/main/content_states.csv",
+      "bytes": 4493,
+      "sha256": "c4a210b6f9bfa8deb78a216a8435104644ae439f249a28488e52f0f6f7b79086"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/delivery_file_manifest.json",
+      "published_path": "social/main/delivery_file_manifest.json",
+      "bytes": 4363,
+      "sha256": "7eda097cae4abfc86c8295ef6e1358f07df842312dc0005f17fcb1f5f0fef6e5"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/historical_route_summary.csv",
+      "published_path": "social/main/historical_route_summary.csv",
+      "bytes": 1979,
+      "sha256": "52970c97703ff23dc8166d74d88d13164f0fbcba99045f06926339056390dfbf"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/implementation_source_manifest.json",
+      "published_path": "social/main/implementation_source_manifest.json",
+      "bytes": 3507,
+      "sha256": "563094549a376945d668f83f910b6a1f1d4112213ec11500583632db33591da0"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/native_date_mapping_limits.csv",
+      "published_path": "social/main/native_date_mapping_limits.csv",
+      "bytes": 2119,
+      "sha256": "32025659bd622d6c21ed9280a0a56c9d17d7d0e571231eb2928e81356bec87b8"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/native_mapping_issues.csv",
+      "published_path": "social/main/native_mapping_issues.csv",
+      "bytes": 55,
+      "sha256": "f884ad1c5bb648aea6d776f6449abf35164dcba4a3ece02154a0f9c2629f8433"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/raw_object_catalog.csv",
+      "published_path": "social/main/raw_object_catalog.csv",
+      "bytes": 446514,
+      "sha256": "474919e161177d93d8718dc74955a1b10a61e1a2cc004859952711ad233f70c9"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/role_summary.csv",
+      "published_path": "social/main/role_summary.csv",
+      "bytes": 688,
+      "sha256": "32a2efb55fa3ff4dec7473cba27ce23732751776464e3c76d16df46ff7faf877"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/round_source_year_deltas.csv",
+      "published_path": "social/main/round_source_year_deltas.csv",
+      "bytes": 1322,
+      "sha256": "d36fb0d54385d2e4604f99d4fae68291719c40ec4f0e22c98f2150c98054ca02"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/source_month_calendar.csv",
+      "published_path": "social/main/source_month_calendar.csv",
+      "bytes": 1187551,
+      "sha256": "6ab7423cc6751b68c90490c75b956eebce792e0812536dd728dab7dced6cd515"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/summaries/source_native_type_counts.csv",
+      "published_path": "social/main/source_native_type_counts.csv",
+      "bytes": 2044,
+      "sha256": "f84a5f0ce08a55d3ae938fbc43e495a3b66e8dd1bfbb48b62000f0987819f680"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/DELTA_COLLECTION_REPORT.md",
+      "published_path": "social/append/DELTA_COLLECTION_REPORT.md",
+      "bytes": 2481,
+      "sha256": "381683d6c37028df271395978d457fb491ea7c806109fcae2137ef1e5a6fa733"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/affected_incoming_relations.csv.gz",
+      "published_path": "social/append/affected_incoming_relations.csv.gz",
+      "bytes": 101974,
+      "sha256": "4fca5e1e32eddd2f1a0fe32cc924ca44d4efce53a4744cc04d09ae789f598956"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/affected_native_aliases.csv.gz",
+      "published_path": "social/append/affected_native_aliases.csv.gz",
+      "bytes": 65165,
+      "sha256": "cf546ec1558b828f6904057ed67039240fd6e619a5d69b6993e434e00e63692f"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/affected_publication_memberships.csv.gz",
+      "published_path": "social/append/affected_publication_memberships.csv.gz",
+      "bytes": 70039,
+      "sha256": "6e192f21ad4fcc30552e208a55f4c1ce1b7c223c4832308735708ad729d7a144"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/delivery_file_manifest.json",
+      "published_path": "social/append/delivery_file_manifest.json",
+      "bytes": 2870,
+      "sha256": "10469e267342344b9a717009f8b6938685be9e4f5db44cff2913dea5b47553c6"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/delta_collection_manifest.json",
+      "published_path": "social/append/delta_collection_manifest.json",
+      "bytes": 2686,
+      "sha256": "bd5025920c40b688e28512517bc4e31b027b24c729854caf2b6d0a5bb2dbce97"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/implementation_append_manifest.json",
+      "published_path": "social/append/implementation_append_manifest.json",
+      "bytes": 824,
+      "sha256": "b82257569d5c8b884dcfbedcbc58d2638e573049b2e4a5478e28f2718269d185"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/native_mapping_issues.csv",
+      "published_path": "social/append/native_mapping_issues.csv",
+      "bytes": 55,
+      "sha256": "f884ad1c5bb648aea6d776f6449abf35164dcba4a3ece02154a0f9c2629f8433"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/new_native_entities.csv.gz",
+      "published_path": "social/append/new_native_entities.csv.gz",
+      "bytes": 32507,
+      "sha256": "033b684a07c9c0970992ae6fb995f688466d56a34724b3cd0131b107d67a9307"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/new_relations.csv.gz",
+      "published_path": "social/append/new_relations.csv.gz",
+      "bytes": 113867,
+      "sha256": "5d3abdaf8306e579eac86dc24019e10e66bf01df40498e530acadee590ac980f"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/phase_date_limits.csv.gz",
+      "published_path": "social/append/phase_date_limits.csv.gz",
+      "bytes": 1034,
+      "sha256": "6ca35dcfbf00bcec1bb0b303fa0ef74dc6d6fc01504a5dabeea397a8ac0dbce3"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/phase_entity_versions.csv.gz",
+      "published_path": "social/append/phase_entity_versions.csv.gz",
+      "bytes": 191700,
+      "sha256": "abc9e37acf5ead4da5754afa64e0b94a5830309144e37c3919658be25df89530"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/phase_observations.csv.gz",
+      "published_path": "social/append/phase_observations.csv.gz",
+      "bytes": 65494,
+      "sha256": "3d0fb34ddca88f3ca2b790943b47279ee8313916e25fbb4d6be8a3bae7ec79bc"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/phase_source_provenance.csv.gz",
+      "published_path": "social/append/phase_source_provenance.csv.gz",
+      "bytes": 62611,
+      "sha256": "7c1bf24da22bd491dcc1718b49ad4a265d5249f946733b49844e9b31fabf34a8"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/phase_structural_corrections.csv.gz",
+      "published_path": "social/append/phase_structural_corrections.csv.gz",
+      "bytes": 125,
+      "sha256": "20bde64d1d6bde573bb4eb76b669ddd3de1686907c30fcc360c79adbba7b791b"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/raw_object_catalog.csv",
+      "published_path": "social/append/raw_object_catalog.csv",
+      "bytes": 116349,
+      "sha256": "83cd45ffb19f84f734504f876fa6371ab0be948e6d4dfb4f3f4a2cdf9991cd01"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_summaries/source_month_deltas.csv",
+      "published_path": "social/append/source_month_deltas.csv",
+      "bytes": 1364,
+      "sha256": "1bde4e2e2b57dc1792c2493b6d5e4f762b47f48897a0489113699a905867fbad"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/archive_adapter.py",
+      "published_path": "social/implementation/archive_adapter.py",
+      "bytes": 9020,
+      "sha256": "f8b3aac613f0adfd9d9257aef79d100855ef91045527bb3e869768ff2f492dc2"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/check_changed.py",
+      "published_path": "social/implementation/check_changed.py",
+      "bytes": 4294,
+      "sha256": "c6df83c016f92614fc24673a517ec3424b9908751058cf3dcfd939b52d7e9cd1"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/closeout.py",
+      "published_path": "social/implementation/closeout.py",
+      "bytes": 28786,
+      "sha256": "8e52ca75ca916f9fe8f5c185baea4d28231e395675892f04562ca386a993f8a6"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/collect.py",
+      "published_path": "social/implementation/collect.py",
+      "bytes": 26151,
+      "sha256": "cd77157e8ee4986aa3ac309376aab55fa40bc4781f2ee9297dfe82012abcd672"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/durability_flush.py",
+      "published_path": "social/implementation/durability_flush.py",
+      "bytes": 3612,
+      "sha256": "8e6e29defa84fb1660c4e80a36c9663724a26447daf0f45cfd156c7d4d5a1eeb"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/entities.py",
+      "published_path": "social/implementation/entities.py",
+      "bytes": 20814,
+      "sha256": "d8bae97e4e4c8bbc7abea880d0c57e67f1bb529042665806dc7008e3d67f0f58"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/finalize_metadata.py",
+      "published_path": "social/implementation/finalize_metadata.py",
+      "bytes": 7042,
+      "sha256": "b3f087a10c4170a4cab778702213870ae9c9a3973db174bbd346b85ac5092904"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/lemmy_adapter.py",
+      "published_path": "social/implementation/lemmy_adapter.py",
+      "bytes": 3401,
+      "sha256": "0fc52cf25d0a82790994475f60222ade310e97625970b745a2e47a9cfd544468"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/raw_catalog.py",
+      "published_path": "social/implementation/raw_catalog.py",
+      "bytes": 7218,
+      "sha256": "3622797456c341ecc5283cd5e7cf9c2831d6415fb06fc780f55a196253ad0b1b"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/test_archive_notice.py",
+      "published_path": "social/implementation/test_archive_notice.py",
+      "bytes": 4183,
+      "sha256": "864657d87ec29f3d0ae8e2d925804b29a07e7c8db08961568545ed006601d6e6"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/test_durability_flush.py",
+      "published_path": "social/implementation/test_durability_flush.py",
+      "bytes": 2676,
+      "sha256": "4386812e97cef8d36c7e6951d83deddbfe3dc1cbadcd35df343a99e10b8673f6"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/test_guards.py",
+      "published_path": "social/implementation/test_guards.py",
+      "bytes": 8670,
+      "sha256": "c284307af756b125f10272bfc2f33b7c1f4b9165c6958736fa24ea35f263d2b5"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/test_historical.py",
+      "published_path": "social/implementation/test_historical.py",
+      "bytes": 4894,
+      "sha256": "71fc13434d6569de0b3dfbe9c13cf6e42af1eb3b1ce6c79b9d6a4cb062bf7025"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/test_metadata_batches.py",
+      "published_path": "social/implementation/test_metadata_batches.py",
+      "bytes": 3173,
+      "sha256": "90d3889f7db74150d8e8023dad14f4bb94e2f684c2dca5b3a0b58d255268e3e0"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/test_metadata_selection.py",
+      "published_path": "social/implementation/test_metadata_selection.py",
+      "bytes": 2292,
+      "sha256": "dbdcb06280f2fcb3e30350f9fd8c5547f24399b607f5d53f87f02dcc5c3cc99e"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/test_tail_accounting.py",
+      "published_path": "social/implementation/test_tail_accounting.py",
+      "bytes": 2649,
+      "sha256": "01a6511681008eda169f0e7cf27bb80972440ab8c525aa369aa5ed569949e28f"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/transport.py",
+      "published_path": "social/implementation/transport.py",
+      "bytes": 32161,
+      "sha256": "22cf7fff8122f2c87a50ffdbb4834e8fbf8cd96a52e09cae1a267cb3ad435089"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/capacity_resume.py",
+      "published_path": "social/append_implementation/capacity_resume.py",
+      "bytes": 5842,
+      "sha256": "90ee667bba7985fa33640842f76dd98bf72905f726f7e90c971dffb2519001ba"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/delta_closeout.py",
+      "published_path": "social/append_implementation/delta_closeout.py",
+      "bytes": 11972,
+      "sha256": "342c2ebc2d57648619ec0edb57e4833061758d939457d2e26b4dddfcdb9fb8de"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/finalize_metadata.py",
+      "published_path": "social/append_implementation/finalize_metadata.py",
+      "bytes": 7040,
+      "sha256": "032da320aa3ace212db073578e6a685ae705986d19f911f6caf3c27949adabc7"
+    },
+    {
+      "original_local_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_four_hour_historical_repair/worker/capacity_resume_1520/raw_catalog.py",
+      "published_path": "social/append_implementation/raw_catalog.py",
+      "bytes": 7216,
+      "sha256": "060f06d943a48f11f91f42c9dac3954392ad55882eb7192648439c0f13e0f54d"
+    }
+  ],
+  "derived_publication_files": [
+    {
+      "path": "README.md",
+      "sha256": "1a75fcb0de61b573999c3156def43693e20bff7d333e534ea4594f62e4d3a795"
+    },
+    {
+      "path": "newspaper/collection_summary.json",
+      "sha256": "d6f0859088c273bc8ca665d3f665a63920bd2b896f121ffeeb524a7c7cf602aa"
+    }
+  ]
+}

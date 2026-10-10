@@ -1,0 +1,126 @@
+{
+  "at_utc": "2026-10-10T04:41:12.881208+00:00",
+  "files": [
+    {
+      "path": "summaries/raw_object_catalog.csv",
+      "bytes": 446514,
+      "sha256": "474919e161177d93d8718dc74955a1b10a61e1a2cc004859952711ad233f70c9"
+    },
+    {
+      "path": "summaries/native_mapping_issues.csv",
+      "bytes": 55,
+      "sha256": "f884ad1c5bb648aea6d776f6449abf35164dcba4a3ece02154a0f9c2629f8433"
+    },
+    {
+      "path": "summaries/native_entities_manifest.csv.gz",
+      "bytes": 19938816,
+      "sha256": "178457ce8e3e88a3822e2d68ed5876668f54a96a632d56ef44100a233be918b8"
+    },
+    {
+      "path": "summaries/changed_content_versions_manifest.csv.gz",
+      "bytes": 40512165,
+      "sha256": "d1f243e6f7508ce13b50244f96a2c95af96994e00e13a11adf303a560df9dfe9"
+    },
+    {
+      "path": "summaries/changed_observations_manifest.csv.gz",
+      "bytes": 10872615,
+      "sha256": "f896ea59d7303dc98b64cfc1bcd4b3005f2b91d33d721fde179152dc24134bd1"
+    },
+    {
+      "path": "summaries/changed_relations_manifest.csv.gz",
+      "bytes": 21730753,
+      "sha256": "438c7a684a0c924e87a520812ff5c1a30c111ec70611f532029a403fd8191931"
+    },
+    {
+      "path": "summaries/acquisition_frames.csv.gz",
+      "bytes": 8278,
+      "sha256": "1ee377fb7c2af54af562cb4ef68e2052c4ad0ea983db5c58fc5793c9084ccde5"
+    },
+    {
+      "path": "summaries/native_aliases.csv.gz",
+      "bytes": 1514192,
+      "sha256": "1bb69c1913fd94ff69486e4555a8750848e6fc60e79c6cf323e93044acd3d11c"
+    },
+    {
+      "path": "summaries/source_registry_catalog.csv.gz",
+      "bytes": 28406,
+      "sha256": "e9a5ba3a8a084a8b18b52115ccd165f1a2cd38d472abfb6f49ea3e37db87eeb7"
+    },
+    {
+      "path": "summaries/source_interface_catalog.csv.gz",
+      "bytes": 1064,
+      "sha256": "1a191df8d72f43e6f97fba83c8390de92a164beefbd60d6dd592d1ecf725015f"
+    },
+    {
+      "path": "summaries/changed_source_provenance.csv.gz",
+      "bytes": 11232911,
+      "sha256": "8930f4f8ff0673e98f056cec2dfeac9768edc13ed8f55db178125fe53521a53a"
+    },
+    {
+      "path": "summaries/changed_structural_corrections.csv.gz",
+      "bytes": 1931,
+      "sha256": "b50abc2d3ba69bd45b6609a5d68b1ccd3d2880151ced364b399d2501ce8da23d"
+    },
+    {
+      "path": "summaries/source_native_type_counts.csv",
+      "bytes": 2044,
+      "sha256": "f84a5f0ce08a55d3ae938fbc43e495a3b66e8dd1bfbb48b62000f0987819f680"
+    },
+    {
+      "path": "summaries/content_states.csv",
+      "bytes": 4493,
+      "sha256": "c4a210b6f9bfa8deb78a216a8435104644ae439f249a28488e52f0f6f7b79086"
+    },
+    {
+      "path": "summaries/role_summary.csv",
+      "bytes": 688,
+      "sha256": "32a2efb55fa3ff4dec7473cba27ce23732751776464e3c76d16df46ff7faf877"
+    },
+    {
+      "path": "summaries/publication_memberships.csv.gz",
+      "bytes": 34852497,
+      "sha256": "3709fcf2860e42bc8d45e603f4927e1bcf9572425254fd3fce2a477ba24bfa66"
+    },
+    {
+      "path": "summaries/native_date_mapping_limits.csv",
+      "bytes": 2119,
+      "sha256": "32025659bd622d6c21ed9280a0a56c9d17d7d0e571231eb2928e81356bec87b8"
+    },
+    {
+      "path": "summaries/source_month_calendar.csv",
+      "bytes": 1187551,
+      "sha256": "6ab7423cc6751b68c90490c75b956eebce792e0812536dd728dab7dced6cd515"
+    },
+    {
+      "path": "summaries/adjacent_month_flags.csv",
+      "bytes": 10954,
+      "sha256": "7653cf3fd18d9cc39b5893539afb110be2f67f718930d141b05798abdffdbcec"
+    },
+    {
+      "path": "summaries/changed_date_resolution_limits.csv.gz",
+      "bytes": 98491,
+      "sha256": "f4a2cf689d6a24988548a19aa8e14df48d6d579e063ae955f12a91b4c11f8171"
+    },
+    {
+      "path": "summaries/round_source_year_deltas.csv",
+      "bytes": 1322,
+      "sha256": "d36fb0d54385d2e4604f99d4fae68291719c40ec4f0e22c98f2150c98054ca02"
+    },
+    {
+      "path": "summaries/historical_route_summary.csv",
+      "bytes": 1979,
+      "sha256": "52970c97703ff23dc8166d74d88d13164f0fbcba99045f06926339056390dfbf"
+    },
+    {
+      "path": "summaries/implementation_source_manifest.json",
+      "bytes": 3507,
+      "sha256": "563094549a376945d668f83f910b6a1f1d4112213ec11500583632db33591da0"
+    },
+    {
+      "path": "summaries/COLLECTION_REPORT.md",
+      "bytes": 9465,
+      "sha256": "5063d9b736ffef9ee41f07828928595e71e99546e62a063aad70769312499bc5"
+    }
+  ],
+  "collection_manifest_sha256": "d3d17d9cf44c3dbfd1584e9915b9946665b052217cae68549570af723ebf3f88"
+}

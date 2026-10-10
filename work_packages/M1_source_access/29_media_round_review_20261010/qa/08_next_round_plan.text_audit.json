@@ -1,0 +1,10 @@
+{
+  "pdf": "work_packages/M1_source_access/29_media_round_review_20261010/qa/08_next_round_plan.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 10.0,
+  "text_run_count": 116,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}

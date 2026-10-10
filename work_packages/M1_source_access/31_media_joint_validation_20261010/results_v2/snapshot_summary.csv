@@ -1,0 +1,4 @@
+snapshot,stream,dated_units,observed_months_of_465,exactly_two_months_historical_diagnostic_only,units_2026,share_2026,contributing_source_ids,source_id_effective_groups_not_verified_parents,top_source_id,top_source_share,publisher_parent_mapping,inventory_completeness,social_four_hour_scope_note
+nine_hour_closed,newspaper,16138,401,152,837,0.05186516296938902,10,4.637106137160461,montpelier_bridge,0.3275498822654604,unknown_in_these_inputs,unknown,not applicable
+nine_hour_closed,social,239392,201,0,139086,0.5809968587087287,14,6.795940525635445,bluesky,0.31371975671701646,unknown_in_these_inputs,unknown,not applicable
+social_four_hour_main_closed,social,503044,294,4,148886,0.29597013382527176,17,3.6353597376089577,python_list_archive,0.48432940259698953,unknown_in_these_inputs,unknown,main closed phase only; subsequent capacity-resume delta excluded

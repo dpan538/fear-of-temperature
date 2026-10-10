@@ -1,0 +1,85 @@
+{
+  "at_utc": "2026-10-10T05:54:47.963119+00:00",
+  "phase_started_at_utc": "2026-10-10T05:20:43.522728+00:00",
+  "original_deadline_at_utc": "2026-10-10T05:43:58.368759+00:00",
+  "closed_snapshot_reference": "../CLOSED.json",
+  "new_core_texts": 1322,
+  "new_entities": 1451,
+  "new_entity_versions": 1471,
+  "phase_charged_requests": 209,
+  "lifetime_charged_requests": 7520,
+  "lifetime_returned_keys": 537980,
+  "retained_core_total": 504382,
+  "usable_dated_body_total": 504366,
+  "pooled_observed_months": 303,
+  "source_year_deltas": {
+    "python_discourse|2018": 408,
+    "straight_dope|1999": 503,
+    "straight_dope|2012": 52,
+    "osm_discourse|2007": 191,
+    "w3_wwwtalk|1992": 35,
+    "osm_discourse|2008": 5,
+    "osm_discourse|2009": 2,
+    "hackernews|2007": 3,
+    "straight_dope|2014": 3,
+    "python_discourse|2019": 53,
+    "python_discourse|2025": 2,
+    "straight_dope|2000": 30,
+    "osm_discourse|2012": 2,
+    "osm_discourse|2013": 1,
+    "osm_discourse|2014": 3,
+    "straight_dope|2003": 10,
+    "osm_discourse|2010": 7,
+    "straight_dope|2001": 6,
+    "osm_discourse|2023": 6
+  },
+  "pending_inherited_source_era_dates": 9,
+  "stop": {
+    "at_utc": "2026-10-10T05:43:59.253294+00:00",
+    "reason": "fixed_deadline",
+    "pid": 12263,
+    "deadline_preserved": true
+  },
+  "checks": {
+    "phase_version_count_matches_Load_counters": true,
+    "changed_foreign_identity_links_valid": true,
+    "new_version_bodies_checked": 1471,
+    "accepted_body_hash_references_reused": 0,
+    "new_raw_mapping": {
+      "transport_receipts": 209,
+      "saved_raw_responses": 203,
+      "mapped_native_return_observations": 1486,
+      "mapping_issues": 0,
+      "parse_pending_content_responses": 0,
+      "archive_notice_only_version_corrections": 0
+    },
+    "old_corpus_or_full_integrity_reaudit": false
+  },
+  "metadata": {
+    "memberships": 0,
+    "quality_annotations": 0,
+    "new_topic_post_number_aliases": 0,
+    "resolved_post_number_edges": 0
+  },
+  "delta_export_reserved_bytes": 18211412,
+  "export_start_capacity": {
+    "at_utc": "2026-10-10T05:51:27.782367+00:00",
+    "free_bytes": 54978949120,
+    "media_bytes": 9687495877,
+    "social_bytes": 7620751831,
+    "own_lease_bytes": 8388608,
+    "other_lease_bytes": 8388608,
+    "pending_bytes": 18211412,
+    "terminal_tail": {
+      "bytes": 0,
+      "phase": "terminal_delta_operation_consumes_reserved_tail"
+    },
+    "complete_pending_bytes": 18211412,
+    "reserved_bytes": 26665556,
+    "physical_headroom": 38795824556,
+    "media_headroom": 20285838567,
+    "social_headroom": 360971221
+  },
+  "semantic_labels": false,
+  "original_closed_snapshot_and_summary_hashes_preserved": true
+}

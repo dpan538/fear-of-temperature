@@ -1,0 +1,25 @@
+{
+  "at_utc": "2026-10-10T05:56:16.476601+00:00",
+  "schema_version": "media-joint-v2-annual-source-sensitivity",
+  "annual_weight_scenario_cases": 36,
+  "noise_and_feedback_class_labels": "not supplied; no semantic classes inferred",
+  "monthly_scenario_rows": 6975,
+  "snapshot_rows": 3,
+  "simulation_cases": 20,
+  "maximum_simulation_relative_variance_error": 0.00916754114025986,
+  "simulation_tolerance": 0.05,
+  "simulation_pass": true,
+  "input_bytes_unchanged": true,
+  "database_or_body_read": false,
+  "parent_mapping_claim": "logical sensitivity bounds; no verified publisher mapping in chosen inputs",
+  "not_validated": [
+    "actual media ICC",
+    "population representativeness",
+    "automatic anomaly classification",
+    "emotional validity",
+    "archive completeness",
+    "collection stopping threshold"
+  ],
+  "collection_gate": false,
+  "deletion_or_replacement_performed": false
+}

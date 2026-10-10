@@ -1,0 +1,23 @@
+{
+  "pdf": "work_packages/M1_source_access/29_media_round_review_20261010/qa/03_distribution_and_2026.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 79,
+  "text_trace_count": 130,
+  "stroke_path_count": 74,
+  "filled_region_count": 133,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 22,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

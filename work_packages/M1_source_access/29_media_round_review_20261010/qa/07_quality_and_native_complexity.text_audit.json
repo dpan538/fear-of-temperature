@@ -1,0 +1,10 @@
+{
+  "pdf": "work_packages/M1_source_access/29_media_round_review_20261010/qa/07_quality_and_native_complexity.pdf",
+  "auditable": true,
+  "minimum_required_pt": 5.0,
+  "minimum_found_pt": 10.0,
+  "text_run_count": 89,
+  "below_minimum_count": 0,
+  "below_minimum": [],
+  "warnings": []
+}
