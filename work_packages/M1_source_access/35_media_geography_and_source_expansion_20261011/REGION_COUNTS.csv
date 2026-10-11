@@ -1,0 +1,13 @@
+stream,source_context_region,retained_units,share_of_stream,contributing_source_IDs,geographic_unit
+newspaper,AU,7840,0.25534132360604483,7,publisher/source-community frame; never individual author country
+newspaper,EU/Europe excluding UK,3526,0.11483845752996352,6,publisher/source-community frame; never individual author country
+newspaper,NZ,1836,0.05979676915059927,4,publisher/source-community frame; never individual author country
+newspaper,UK,1313,0.04276315789473684,5,publisher/source-community frame; never individual author country
+newspaper,US,16189,0.5272602918186555,8,publisher/source-community frame; never individual author country
+social,AU,38979,0.03942445693895323,2,publisher/source-community frame; never individual author country
+social,EU/Europe excluding UK,25223,0.025511251632192138,2,publisher/source-community frame; never individual author country
+social,GLOBAL_COMMUNITY,832976,0.8424953550163296,25,publisher/source-community frame; never individual author country
+social,NZ,6987,0.007066848319158168,1,publisher/source-community frame; never individual author country
+social,UK,29512,0.02984926686632258,1,publisher/source-community frame; never individual author country
+social,UNRESOLVED_COMMUNITY,25776,0.026070571386091448,6,publisher/source-community frame; never individual author country
+social,US,29248,0.029582249840952927,2,publisher/source-community frame; never individual author country

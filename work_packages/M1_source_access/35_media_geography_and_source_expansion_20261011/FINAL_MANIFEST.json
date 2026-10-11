@@ -1,0 +1,83 @@
+{
+  "at_utc": "2026-10-11T02:17:43.662688+00:00",
+  "source_requests_or_Loads": 0,
+  "derived_files": [
+    {
+      "path": "COUNTRY_MONTH_COUNTS.csv",
+      "bytes": 34449,
+      "sha256": "0e74a843d6e2b91b584de561bd1d025486ae757bacbbe5444b28b4f052b001b4"
+    },
+    {
+      "path": "GEOGRAPHY_CONTRACT.md",
+      "bytes": 3126,
+      "sha256": "b85fe5b2a6835003d0cd078457ffe7e4d78919e861e2f764067f38f950156a2a"
+    },
+    {
+      "path": "MULTIPLE_SCALE_SCENARIOS.csv",
+      "bytes": 733,
+      "sha256": "57eb14c944acb972fc7054b099d858f4a5c39b6d5cbfcf20325cb96762aadcde"
+    },
+    {
+      "path": "NEWSPAPER_ROUTE_CANDIDATES.csv",
+      "bytes": 8034,
+      "sha256": "ac40ab9aee6d6ed9eb94fb45c32c9caa9e4d8801854dfa52d95331d08cc3d828"
+    },
+    {
+      "path": "NEW_COUNTRY_EVIDENCE.csv",
+      "bytes": 1344,
+      "sha256": "cf10bb36c0be2868b04a9649af37cb8aad437269c140aee24a58e73bea8472c1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8144,
+      "sha256": "f32b416823341a598d9bf967fee5b5c10730dca7d3432847c23baff962690627"
+    },
+    {
+      "path": "REGION_COUNTS.csv",
+      "bytes": 1434,
+      "sha256": "d49c993cc6309f882472408d105d22c69f0720291f6cd77792c8bcc905ba366c"
+    },
+    {
+      "path": "REGION_MONTH_COUNTS.csv",
+      "bytes": 45255,
+      "sha256": "8c75db7c05a7212e56806222520bdccd4fa77d7819c5c21a5ff7e771e2d93396"
+    },
+    {
+      "path": "SOCIAL_CARRIER_COUNTS.csv",
+      "bytes": 426,
+      "sha256": "e87ccb4373f22d35599f3151e3bf54ee543154b6d5c35a7d194e17a1f0712e1f"
+    },
+    {
+      "path": "SOCIAL_ROUTE_MATRIX.csv",
+      "bytes": 4174,
+      "sha256": "cd73162940d47e76e1c6b3febea545774950d03e86e36dccea8fd1a1b7fda030"
+    },
+    {
+      "path": "SOURCE_CONTEXT_COUNTRY_COUNTS.csv",
+      "bytes": 1354,
+      "sha256": "c97854c2db802bcff6257062d8a92d809a42f8ae275dd58e8cec2c81fb40ef3b"
+    },
+    {
+      "path": "SOURCE_GEOGRAPHY.csv",
+      "bytes": 11818,
+      "sha256": "085b1676dbe463b5d04672e661ed84540fbb392ff90b838b8ca2dec9d2b8c18f"
+    },
+    {
+      "path": "SUMMARY.json",
+      "bytes": 2011,
+      "sha256": "58e588baf1e40f5c6de583081213a9f19f8064ba81a129c36d5feb9bd907be94"
+    },
+    {
+      "path": "derive_geography.py",
+      "bytes": 7759,
+      "sha256": "fb0001100be15318e0d8213223e338d68d1272d3419dfb991d62477e9d22b84f"
+    }
+  ],
+  "manifest_and_accounting_excluded_from_self_hash": true,
+  "frozen_input_receipts": "SUMMARY.json",
+  "reconciled_counts": {
+    "newspaper_regular": 30704,
+    "social_dated": 988701
+  },
+  "input_or_old_scope_mutated": false
+}

@@ -1,0 +1,33 @@
+{
+  "at_utc": "2026-10-11T02:17:43.663898+00:00",
+  "baseline_receipt": "work_packages/M1_source_access/34_media_four_hour_review_20261011/PUBLICATION_ACCOUNTING.json",
+  "baseline_sha256": "d0031289baf5ea803bee528bce31f385b15e8cd50159283b161abd963716f214",
+  "baseline_shared_bytes": 17534242885,
+  "baseline_social_bytes": 14894197579,
+  "new_package_root": "work_packages/M1_source_access/35_media_geography_and_source_expansion_20261011",
+  "all_supplement_bytes_charged_to_shared_and_social": true,
+  "global_document_versions_charged_in_full": [
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "bytes": 43591,
+      "sha256": "cfc2444dc08c8982a84775abe2570f5c55834307d4b4be2af84ca8fb47af1a3d"
+    },
+    {
+      "path": "docs/PROJECT_LOG.md",
+      "bytes": 283862,
+      "sha256": "a5454b1970104ced535d8d09091ea82f0c5f27460b28990ab502847a5e2f31b4"
+    }
+  ],
+  "new_local_proposal_bytes_charged_to_both": 6034,
+  "new_publication_bytes": 467720,
+  "actual_peak_companion_bytes": 283862,
+  "accounting_scope": "Additive accounting for this metadata supplement. Does not rescan post-baseline growth in other common controls, certify current global totals or authorize a production operation. Live canonical accounting must include this package and all subsequent growth before a new release.",
+  "shared_cap_bytes_unchanged": 30000000000,
+  "social_cap_bytes_unchanged": 15000000000,
+  "source_requests_or_Loads": 0,
+  "no_native_or_SQLite_operation": true,
+  "old_joint_report_peak_unchanged": true,
+  "old_snapshot_preserved": true,
+  "supplement_actual_bytes": 134233,
+  "incremental_conservative_peak_bytes": 751582
+}

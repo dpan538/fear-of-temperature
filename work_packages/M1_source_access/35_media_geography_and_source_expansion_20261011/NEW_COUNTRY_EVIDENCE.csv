@@ -1,0 +1,6 @@
+source_id,source_context_country,primary_evidence_url,evidence_summary,observed_at_utc,scope
+limerick_post,IE,https://www.limerickpost.ie/contact-us/,Publisher gives an address in Limerick Ireland.,2026-10-11T02:13:30Z,Current source/publisher location; not historical ownership or author nationality
+munster_express,IE,https://www.munster-express.ie/services/about-us/,Publisher identifies its newspaper as serving southeast Ireland and gives Waterford address.,2026-10-11T02:13:30Z,Current source/publisher location; not historical ownership or author nationality
+galway_advertiser,IE,https://advertiser.ie/contact,Publisher identifies Galway City and County newspaper in Ireland and Galway postal address.,2026-10-11T02:13:30Z,Current source/publisher location; not historical ownership or author nationality
+dublin_gazette,IE,https://dublingazette.com/contact-gazette-group/,Publisher gives Rathfarnham Dublin address; current title distinct from historical government gazette.,2026-10-11T02:13:30Z,Current source/publisher location; not historical ownership or author nationality
+kilkenny_observer,IE,https://kilkennyobserver.ie/contact/,Publisher gives Kilkenny postal address; publisher media pack identifies locally owned newspaper.,2026-10-11T02:13:30Z,Current source/publisher location; not historical ownership or author nationality

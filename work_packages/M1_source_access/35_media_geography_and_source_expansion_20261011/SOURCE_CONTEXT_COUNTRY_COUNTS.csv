@@ -1,0 +1,14 @@
+stream,source_context_country,retained_units,country_unit
+newspaper,AU,7840,source/publisher/community context only; unresolved country remains unresolved
+newspaper,GB,1313,source/publisher/community context only; unresolved country remains unresolved
+newspaper,IE,3358,source/publisher/community context only; unresolved country remains unresolved
+newspaper,NZ,1836,source/publisher/community context only; unresolved country remains unresolved
+newspaper,UNRESOLVED_EUROPE_EX_UK,168,source/publisher/community context only; unresolved country remains unresolved
+newspaper,US,16189,source/publisher/community context only; unresolved country remains unresolved
+social,AU,38979,source/publisher/community context only; unresolved country remains unresolved
+social,GB,29512,source/publisher/community context only; unresolved country remains unresolved
+social,IE,21878,source/publisher/community context only; unresolved country remains unresolved
+social,NZ,6987,source/publisher/community context only; unresolved country remains unresolved
+social,UNRESOLVED,858752,source/publisher/community context only; unresolved country remains unresolved
+social,UNRESOLVED_EUROPE_EX_UK,3345,source/publisher/community context only; unresolved country remains unresolved
+social,US,29248,source/publisher/community context only; unresolved country remains unresolved

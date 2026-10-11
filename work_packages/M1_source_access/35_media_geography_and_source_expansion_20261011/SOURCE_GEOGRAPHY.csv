@@ -1,0 +1,70 @@
+stream,source_id,source_context_region,source_context_country,geographic_evidence_status,individual_author_country,retained_units,source_unit_class,first_month,last_month
+newspaper,berkeley_daily_planet,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,639,newspaper_title,2000-06,2006-05
+newspaper,cambridge_news_nz,NZ,NZ,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,24,newspaper_title,2017-07,2017-08
+newspaper,camden_new_journal,UK,GB,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,310,newspaper_title,2004-07,2025-12
+newspaper,castlemaine_mail,AU,AU,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,75,newspaper_title,2018-04,2018-08
+newspaper,charlotte_news,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,9,newspaper_title,2017-01,2017-01
+newspaper,chester_telegraph,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,73,newspaper_title,2011-08,2012-04
+newspaper,devonport_flagstaff,NZ,NZ,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,1232,newspaper_title,2017-06,2026-09
+newspaper,dublin_gazette,EU/Europe excluding UK,IE,current publisher location primary-evidenced; no historical ownership inference,unmeasured,91,newspaper_title,2012-05,2012-12
+newspaper,enfield_dispatch,UK,GB,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,500,newspaper_title,2018-08,2021-03
+newspaper,falls_church_news_press,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,6825,newspaper_title,1999-11,2011-10
+newspaper,financial_mirror,EU/Europe excluding UK,UNRESOLVED_EUROPE_EX_UK,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,168,newspaper_title,1999-11,2005-08
+newspaper,galway_advertiser,EU/Europe excluding UK,IE,current publisher location primary-evidenced; no historical ownership inference,unmeasured,149,newspaper_title,2008-07,2009-03
+newspaper,gippsland_times,AU,AU,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,9,newspaper_title,2014-08,2014-08
+newspaper,green_left,AU,AU,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,3502,newspaper_title,1991-02,2004-02
+newspaper,indaily,AU,AU,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,796,newspaper_title,2013-07,2024-02
+newspaper,islington_tribune,UK,GB,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,1,newspaper_title,2025-05,2025-05
+newspaper,kilkenny_observer,EU/Europe excluding UK,IE,current publisher location primary-evidenced; no historical ownership inference,unmeasured,353,newspaper_title,2020-03,2021-06
+newspaper,limerick_post,EU/Europe excluding UK,IE,current publisher location primary-evidenced; no historical ownership inference,unmeasured,2191,newspaper_title,2007-04,2011-10
+newspaper,midland_express,AU,AU,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,125,newspaper_title,2017-07,2018-07
+newspaper,militant_uk_archive,UK,GB,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,2,newspaper_title,1988-07,1990-08
+newspaper,montpelier_bridge,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,6838,newspaper_title,2012-02,2026-07
+newspaper,mountain_times_vt,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,471,newspaper_title,2012-09,2014-08
+newspaper,munster_express,EU/Europe excluding UK,IE,current publisher location primary-evidenced; no historical ownership inference,unmeasured,574,newspaper_title,2006-08,2008-05
+newspaper,newtown_bee,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,42,newspaper_title,1997-08,1999-10
+newspaper,northern_rivers_times,AU,AU,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,2858,newspaper_title,2024-06,2026-09
+newspaper,otago_daily_times,NZ,NZ,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,80,newspaper_title,2008-02,2025-10
+newspaper,te_awamutu_news,NZ,NZ,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,500,newspaper_title,2019-11,2021-11
+newspaper,waltham_forest_echo,UK,GB,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,500,newspaper_title,2014-07,2018-04
+newspaper,workers_advocate,US,US,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,1292,newspaper_title,1988-01,1993-11
+newspaper,your_local_examiner_au,AU,AU,accepted frozen source stratum; European country unresolved when not primary-evidenced,unmeasured,475,newspaper_title,2015-02,2016-03
+social,aussie_zone,AU,AU,verified source-declared community frame; no author-country inference,unmeasured_in_export,9858,federated_forum_instance,2023-06,2026-09
+social,bluesky,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,93679,microblog_public_platform,2020-09,2026-09
+social,cotech,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,1714,discussion_forum,2017-05,2026-09
+social,dowire_lists_umn,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,15,civic_list,2003-05,2003-06
+social,dowire_newswire,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,6,civic_list,2006-05,2006-05
+social,dowire_tc_umn,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,13,civic_list,2000-06,2000-06
+social,elektronauts,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,4156,discussion_forum,2013-07,2024-08
+social,feddit_org,EU/Europe excluding UK,UNRESOLVED_EUROPE_EX_UK,verified source-declared community frame; no author-country inference,unmeasured_in_export,3345,federated_forum_instance,2023-10,2024-08
+social,fic_forum,UNRESOLVED_COMMUNITY,UNRESOLVED,provisional or absent geographic evidence; not promoted to a country,unmeasured_in_export,2174,discussion_forum,2021-08,2026-07
+social,foodtalkcentral,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,4004,discussion_forum,2015-09,2026-09
+social,goatech,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,758,discussion_forum,2017-12,2026-09
+social,hackernews,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,62,unresolved,2006-10,2007-02
+social,ilxor,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,18533,discussion_forum,2001-07,2026-09
+social,inaturalist_forum,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,4085,discussion_forum,2019-02,2026-09
+social,lemmy_nz,NZ,NZ,verified source-declared community frame; no author-country inference,unmeasured_in_export,6987,federated_forum_instance,2023-06,2026-09
+social,mastodon_au,AU,AU,verified source-declared community frame; no author-country inference,unmeasured_in_export,29121,microblog_public_platform,2026-07,2026-09
+social,mastodon_ie,EU/Europe excluding UK,IE,verified source-declared community frame; no author-country inference,unmeasured_in_export,21878,microblog_public_platform,2026-06,2026-09
+social,mastodon_uk,UK,GB,verified source-declared community frame; no author-country inference,unmeasured_in_export,29512,microblog_public_platform,2026-02,2026-09
+social,mastodon_us,US,US,verified source-declared community frame; no author-country inference,unmeasured_in_export,29063,microblog_public_platform,2026-07,2026-09
+social,midwest_social,US,US,verified source-declared community frame; no author-country inference,unmeasured_in_export,185,federated_forum_instance,2021-08,2022-09
+social,mpls_issues_freedom2_archive,UNRESOLVED_COMMUNITY,UNRESOLVED,provisional or absent geographic evidence; not promoted to a country,unmeasured_in_export,5,discussion_forum,2000-09,2000-09
+social,mpls_mnforum_archive,UNRESOLVED_COMMUNITY,UNRESOLVED,provisional or absent geographic evidence; not promoted to a country,unmeasured_in_export,5,discussion_forum,2001-01,2001-01
+social,openfoodnetwork,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,1837,discussion_forum,2015-01,2023-11
+social,oscedays,UNRESOLVED_COMMUNITY,UNRESOLVED,provisional or absent geographic evidence; not promoted to a country,unmeasured_in_export,48,discussion_forum,2015-03,2016-06
+social,osm_discourse,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,11258,discussion_forum,2006-06,2026-09
+social,python_discourse,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,7045,discussion_forum,2018-09,2026-09
+social,python_list_archive,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,613429,technical_list,1999-02,2012-07
+social,se_bicycles,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,1320,qa_community,2010-08,2026-07
+social,se_cooking,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,1339,qa_community,2010-07,2025-12
+social,se_earthscience,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,18177,qa_community,2014-04,2026-08
+social,se_gardening,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,1329,qa_community,2011-03,2026-06
+social,se_outdoors,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,1364,qa_community,2012-01,2026-08
+social,se_sustainability,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,11964,qa_community,2013-01,2026-09
+social,se_travel,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,1341,qa_community,2011-06,2026-09
+social,straight_dope,UNRESOLVED_COMMUNITY,UNRESOLVED,provisional or absent geographic evidence; not promoted to a country,unmeasured_in_export,21009,discussion_forum,1999-03,2026-09
+social,survivefrance,UNRESOLVED_COMMUNITY,UNRESOLVED,provisional or absent geographic evidence; not promoted to a country,unmeasured_in_export,2535,discussion_forum,2009-12,2026-08
+social,thesession,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,5998,discussion_forum,2001-06,2026-08
+social,tildes,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,29362,discussion_forum,2018-05,2026-09
+social,w3_wwwtalk,GLOBAL_COMMUNITY,UNRESOLVED,global carrier/community; individual locations unmeasured,unmeasured_in_export,188,technical_list,1991-10,1992-08

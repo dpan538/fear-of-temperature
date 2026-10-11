@@ -1,0 +1,47 @@
+{
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "new_acquisition_performed": false,
+  "baseline_counts": {
+    "newspaper_regular": 30704,
+    "social_dated": 988701
+  },
+  "social_verified_regional_community_mass": 129949,
+  "individual_author_country_distribution_available": false,
+  "reason": "Frozen metadata contains source/community strata, not validated per-body author-country fields. Country of a platform, server, language or topic is not author country.",
+  "social_carrier_counts": {
+    "federated_forum_instance": 20375,
+    "microblog_public_platform": 203253,
+    "discussion_forum": 114526,
+    "civic_list": 34,
+    "unresolved": 62,
+    "technical_list": 613617,
+    "qa_community": 36834
+  },
+  "input_receipts": [
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/newspaper/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "sha256": "a68859d8632d110478a5539ad9e14b5c731a05cf501be2202015f0976dfc91ec"
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/FINAL_SOURCE_MONTH_CALENDAR.csv",
+      "sha256": "b901267f00e350ece0bc49951cefd33174f70b09f63a5366c03ed28e543d5722"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/source_registry_final.json",
+      "sha256": "0adaf3e3eb24c96c431ce2473c927e100e1db489448a1faab4de651893aa895f"
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/finalized/source_contributions_genre_era.csv",
+      "sha256": "d949c02a2e180961f212814d556ddad48a14e9c9d44420bbcefdb36a190d53f9"
+    },
+    {
+      "path": "work_packages/M1_source_access/35_media_geography_and_source_expansion_20261011/NEW_COUNTRY_EVIDENCE.csv",
+      "sha256": "cf10bb36c0be2868b04a9649af37cb8aad437269c140aee24a58e73bea8472c1"
+    }
+  ],
+  "frozen_inputs_preserved": true,
+  "no_topic_affect_fear_or_inferred_location_model_executed": true
+}

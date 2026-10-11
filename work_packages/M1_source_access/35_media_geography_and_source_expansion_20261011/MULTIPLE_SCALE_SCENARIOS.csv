@@ -1,0 +1,7 @@
+multiplier,stream,current_units,scenario_total_units,additional_units_needed,status
+2,newspaper,30704,61408,30704,"development scenario, not a production cap, runtime stop or promised yield"
+2,social,988701,1977402,988701,"development scenario, not a production cap, runtime stop or promised yield"
+3,newspaper,30704,92112,61408,"development scenario, not a production cap, runtime stop or promised yield"
+3,social,988701,2966103,1977402,"development scenario, not a production cap, runtime stop or promised yield"
+5,newspaper,30704,153520,122816,"development scenario, not a production cap, runtime stop or promised yield"
+5,social,988701,4943505,3954804,"development scenario, not a production cap, runtime stop or promised yield"
