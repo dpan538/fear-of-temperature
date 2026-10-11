@@ -1,0 +1,190 @@
+{
+  "at_utc": "2026-10-10T22:21:15.742315+00:00",
+  "status": "checked_conditional_admission_pending_runtime_install",
+  "new_profiles": [
+    {
+      "source_id": "gippsland_times",
+      "title": "Gippsland Times",
+      "country": "AU",
+      "stratum": "AU",
+      "edition": "One evidenced title publisher web edition; print/edition and historical owner relations preserved separately",
+      "source_frame": "general_regional_newspaper_publisher_web",
+      "root_url": "https://www.gippslandtimes.com.au/",
+      "parent_family_id": "gippsland_times_public_web",
+      "classification_verified": true,
+      "source_use_gate_passed": true,
+      "title_classification_reference": "https://www.gippslandtimes.com.au/about/",
+      "source_access_reference": "https://www.gippslandtimes.com.au/robots.txt; observed publisher root/classification; observed linked privacy/subscription policy",
+      "retention_limit": "Publisher/authors retain copyright; no open-content licence or public fulltext redistribution established. Ordinary unprotected public original newspaper articles for private local authorized research only, with source robots, explicit terms, native ID/date/full-body checks and matching currently visible original HTML. No subscription/account/private endpoints, print issue/PDF/media copies, comments or access-control bypass. Absence of a specific ban in observed root/classification/policy documents is scoped evidence, not a universal permission claim; future explicit source restrictions stop their route.",
+      "public_API_documentation_reference": "https://developer.wordpress.org/rest-api/using-the-rest-api/discovery/",
+      "selectors": [
+        ".td-post-content",
+        ".entry-content"
+      ],
+      "root_receipt": "093305692eb708f2c5e0c894",
+      "classification_receipt": "831b046de669bc0c0894c93d",
+      "advertised_schema_receipt": "e9cffbfb8933b28f3df46eb6",
+      "historical_scope": "Publication foundation is not recoverable web history. Actual retained publication dates determine earliest observed article era; current archive bodies do not establish historical-version equivalence.",
+      "source_purpose_category": "general_regional_newspaper",
+      "current_parent_relation_observation": "Public publisher group attribution; not an independently verified historical ownership timeline",
+      "approval_reference": "NEW_TITLE_ADMISSION_EVIDENCE.json",
+      "public_HTML_visibility_required": true,
+      "policy_receipt": "f361a50b334f01d686e28799"
+    },
+    {
+      "source_id": "midland_express",
+      "title": "Midland Express",
+      "country": "AU",
+      "stratum": "AU",
+      "edition": "One evidenced title publisher web edition; print/edition and historical owner relations preserved separately",
+      "source_frame": "general_local_weekly_newspaper_publisher_web",
+      "root_url": "https://midlandexpress.com.au/",
+      "parent_family_id": "elliott_midland_public_web_group",
+      "classification_verified": true,
+      "source_use_gate_passed": true,
+      "title_classification_reference": "https://midlandexpress.com.au/about/",
+      "source_access_reference": "https://midlandexpress.com.au/robots.txt; observed publisher root/classification; observed linked privacy/subscription policy",
+      "retention_limit": "Publisher/authors retain copyright; no open-content licence or public fulltext redistribution established. Ordinary unprotected public original newspaper articles for private local authorized research only, with source robots, explicit terms, native ID/date/full-body checks and matching currently visible original HTML. No subscription/account/private endpoints, print issue/PDF/media copies, comments or access-control bypass. Absence of a specific ban in observed root/classification/policy documents is scoped evidence, not a universal permission claim; future explicit source restrictions stop their route.",
+      "public_API_documentation_reference": "https://developer.wordpress.org/rest-api/using-the-rest-api/discovery/",
+      "selectors": [
+        ".td-post-content",
+        ".entry-content"
+      ],
+      "root_receipt": "d78a5c025a4bd3a0cd36e1bd",
+      "classification_receipt": "747c41ec3af44cfbe0ea04c3",
+      "advertised_schema_receipt": "d4492713caa47443facef986",
+      "historical_scope": "Publication foundation is not recoverable web history. Actual retained publication dates determine earliest observed article era; current archive bodies do not establish historical-version equivalence.",
+      "source_purpose_category": "general_local_weekly_newspaper",
+      "current_parent_relation_observation": "Public publisher group attribution; not an independently verified historical ownership timeline",
+      "approval_reference": "NEW_TITLE_ADMISSION_EVIDENCE.json",
+      "public_HTML_visibility_required": true,
+      "policy_receipt": "a25d2b25f4ac08bead0ad856"
+    },
+    {
+      "source_id": "castlemaine_mail",
+      "title": "Castlemaine Mail",
+      "country": "AU",
+      "stratum": "AU",
+      "edition": "One evidenced title publisher web edition; print/edition and historical owner relations preserved separately",
+      "source_frame": "general_local_weekly_newspaper_publisher_web",
+      "root_url": "https://castlemainemail.com.au/",
+      "parent_family_id": "elliott_midland_public_web_group",
+      "classification_verified": true,
+      "source_use_gate_passed": true,
+      "title_classification_reference": "https://castlemainemail.com.au/about/",
+      "source_access_reference": "https://castlemainemail.com.au/robots.txt; observed publisher root/classification; observed linked privacy/subscription policy",
+      "retention_limit": "Publisher/authors retain copyright; no open-content licence or public fulltext redistribution established. Ordinary unprotected public original newspaper articles for private local authorized research only, with source robots, explicit terms, native ID/date/full-body checks and matching currently visible original HTML. No subscription/account/private endpoints, print issue/PDF/media copies, comments or access-control bypass. Absence of a specific ban in observed root/classification/policy documents is scoped evidence, not a universal permission claim; future explicit source restrictions stop their route.",
+      "public_API_documentation_reference": "https://developer.wordpress.org/rest-api/using-the-rest-api/discovery/",
+      "selectors": [
+        ".td-post-content",
+        ".entry-content"
+      ],
+      "root_receipt": "d6b563602f1f4a77c5fb22c8",
+      "classification_receipt": "adcb18350e02889d3109e053",
+      "advertised_schema_receipt": "026404f55cca82fcaadd4050",
+      "historical_scope": "Publication foundation is not recoverable web history. Actual retained publication dates determine earliest observed article era; current archive bodies do not establish historical-version equivalence.",
+      "source_purpose_category": "general_local_weekly_newspaper",
+      "current_parent_relation_observation": "Public publisher group attribution; not an independently verified historical ownership timeline",
+      "approval_reference": "NEW_TITLE_ADMISSION_EVIDENCE.json",
+      "public_HTML_visibility_required": true,
+      "policy_receipt": "3411eefd07edb2c68f189778"
+    },
+    {
+      "source_id": "chester_telegraph",
+      "title": "The Chester Telegraph",
+      "country": "US",
+      "stratum": "US",
+      "edition": "One evidenced title publisher web edition; print/edition and historical owner relations preserved separately",
+      "source_frame": "digital_native_local_newspaper_publisher_web",
+      "root_url": "https://www.chestertelegraph.org/",
+      "parent_family_id": "chester_telegraph_public_web",
+      "classification_verified": true,
+      "source_use_gate_passed": true,
+      "title_classification_reference": "https://www.chestertelegraph.org/chester-telegraph-home/",
+      "source_access_reference": "https://www.chestertelegraph.org/robots.txt; observed publisher root/classification",
+      "retention_limit": "Publisher/authors retain copyright; no open-content licence or public fulltext redistribution established. Ordinary unprotected public original newspaper articles for private local authorized research only, with source robots, explicit terms, native ID/date/full-body checks and matching currently visible original HTML. No subscription/account/private endpoints, print issue/PDF/media copies, comments or access-control bypass. Absence of a specific ban in observed root/classification/policy documents is scoped evidence, not a universal permission claim; future explicit source restrictions stop their route.",
+      "public_API_documentation_reference": "https://developer.wordpress.org/rest-api/using-the-rest-api/discovery/",
+      "selectors": [
+        ".entry-content"
+      ],
+      "root_receipt": "9eddb453b7c4d69754188c29",
+      "classification_receipt": "b10640d689be4f76d7776659",
+      "advertised_schema_receipt": "6e62b7cd35bc4a9d9f778194",
+      "historical_scope": "Publication foundation is not recoverable web history. Actual retained publication dates determine earliest observed article era; current archive bodies do not establish historical-version equivalence.",
+      "source_purpose_category": "digital_native_local_newspaper",
+      "current_parent_relation_observation": "Public publisher group attribution; not an independently verified historical ownership timeline",
+      "approval_reference": "NEW_TITLE_ADMISSION_EVIDENCE.json",
+      "public_HTML_visibility_required": true,
+      "classification_basis": "Publisher About text and identifiable publisher response explicitly call this an online-only newspaper; printed edition not claimed."
+    },
+    {
+      "source_id": "islington_tribune",
+      "title": "Islington Tribune",
+      "country": "UK",
+      "stratum": "UK",
+      "edition": "One evidenced title publisher web edition; print/edition and historical owner relations preserved separately",
+      "source_frame": "general_local_weekly_newspaper_publisher_web",
+      "root_url": "https://www.islingtontribune.co.uk/",
+      "parent_family_id": "new_journal_public_web_group",
+      "classification_verified": true,
+      "source_use_gate_passed": true,
+      "title_classification_reference": "https://www.islingtontribune.co.uk/article/its-your-paper-how-to-get-more-and-protect-it-for-all",
+      "source_access_reference": "https://www.islingtontribune.co.uk/robots.txt; observed publisher root/classification",
+      "retention_limit": "Private local authorized research of complete ordinary public original title articles through visible HTML/native sitemap; publisher copyright retained; no open licence/public bodies, subscription-only material, comments, private API or PDF. Exact observed Article__container/displayed weekday-date template; paid-content markers remain pending; historical owners/body versions unresolved.",
+      "public_API_documentation_reference": null,
+      "selectors": [
+        ".td-post-content",
+        ".entry-content"
+      ],
+      "root_receipt": "2389eff23bec9da43ac4372c",
+      "classification_receipt": "46de38c6a26102b09dadc31c",
+      "advertised_schema_receipt": null,
+      "historical_scope": "Publication foundation is not recoverable web history. Actual retained publication dates determine earliest observed article era; current archive bodies do not establish historical-version equivalence.",
+      "source_purpose_category": "general_local_weekly_newspaper",
+      "current_parent_relation_observation": "Public publisher group attribution; not an independently verified historical ownership timeline",
+      "approval_reference": "NEW_TITLE_ADMISSION_EVIDENCE.json",
+      "public_HTML_visibility_required": false,
+      "interface_type": "publisher_native_sitemap",
+      "article_template": "Article__container"
+    }
+  ],
+  "actual_titles_not_contribution_counts": true,
+  "blocked_candidates": [
+    "addison_independent",
+    "oamaru_mail",
+    "howick_pakuranga_times",
+    "wairarapa_times_age"
+  ],
+  "no_new_accounts_messages_private_API_or_PDF": true,
+  "public_visibility_regression": {
+    "at_utc": "2026-10-10T22:18:42.709502+00:00",
+    "all_passed": true,
+    "checks": [
+      {
+        "name": "short_routine_full_visible_body_qualifies_without_length_or_topic_gate",
+        "passed": true
+      },
+      {
+        "name": "different_public_body_version_stays_pending",
+        "passed": true
+      },
+      {
+        "name": "conflicting_public_article_date_stays_pending",
+        "passed": true
+      },
+      {
+        "name": "visible_source_paywall_is_not_bypassed_by_JSON",
+        "passed": true
+      },
+      {
+        "name": "source_policy_denial_does_not_request_HTML",
+        "passed": true
+      }
+    ],
+    "fixture_only": true,
+    "HTTP_executed": false,
+    "database_Load_executed": false,
+    "source_access_stops_and_native_hop_counters_not_reset": true
+  },
+  "source_frame_definitions_not_topics_or_emotions": true
+}

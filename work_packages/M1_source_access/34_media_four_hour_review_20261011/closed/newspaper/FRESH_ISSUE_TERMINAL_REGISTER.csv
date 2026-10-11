@@ -1,0 +1,4 @@
+issue,dated_issue_url,native_issue_publication_date,unique_native_candidate_URLs,actual_recorded_article_results,real_new_complete_article_IDs,pending_result_events,touched_uncommitted_candidate_URLs,untouched_uncommitted_candidate_URLs,next_cursor,completed_bounded_operations,body_exhaustion_claimed,operation_bound_not_issue_quota
+293,https://www.greenleft.org.au/issue/293,1997-10-15,70,32,32,0,0,38,32,4,False,True
+294,https://www.greenleft.org.au/issue/294,1997-10-22,60,32,32,0,0,28,32,4,False,True
+295,https://www.greenleft.org.au/issue/295,1997-10-29,57,32,32,0,0,25,32,4,False,True

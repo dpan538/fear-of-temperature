@@ -1,0 +1,21 @@
+{
+  "at_utc": "2026-10-10T22:12:28.586166+00:00",
+  "version": 1,
+  "prior_current_newspaper_frame_preserved": true,
+  "regular_newspaper_frame": "Current non-campus newspaper article view; supplementary editions newly recovered in this window are reported separately",
+  "additional_retained_subframe": "newspaper_supplement_archive",
+  "supplement_source_id": "workers_advocate",
+  "independent_conventional_title_increment": 0,
+  "article_ID_namespace": "workers_advocate:supplement:issue:<volume-number>:<native-anchor>",
+  "required_final_views": [
+    "CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv excludes the newly typed supplementary subframe",
+    "NEWSPAPER_SUPPLEMENT_ARTICLE_REGISTER.csv retains its independently bounded complete transcribed articles",
+    "Combined dated newspaper-family presence shown separately; does not close regular-edition gaps by relabelling"
+  ],
+  "regular_18_11_index_masthead_conflict": "Preserved pending; new independently dated supplementary editions do not repair that original conflict",
+  "source_mapping": "Verified archived title/index/volume/number/date/native article boundary; archival reproduction, current rendition; original-print transcription equivalence and historical body version remain unverified",
+  "publication_dates_not_overridden": true,
+  "cutoff": "2026-09-21",
+  "no_topic_emotion_fear_selection": true,
+  "source_or_coverage_metrics_are_not_stop_conditions": true
+}

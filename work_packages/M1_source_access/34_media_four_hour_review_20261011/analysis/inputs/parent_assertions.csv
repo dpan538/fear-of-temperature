@@ -1,0 +1,103 @@
+stream,source_id,relation_dimension,parent_id,evidence_status,valid_time_limit,evidence_ref
+newspaper,berkeley_daily_planet,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,cambridge_news_nz,publisher_organization,Good Local Media Ltd,supported_current_primary_assertion,current publisher assertion; historical owner/operator periods unresolved,previous eight-hour parent_dimension_mappings.csv; closed_source_admission:cambridge_news_nz
+newspaper,camden_new_journal,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,devonport_flagstaff,publisher_organization,Devonport Publishing Ltd,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; devonport_flagstaff:publisher_organization
+newspaper,dublin_gazette,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,enfield_dispatch,publisher_organization,Social Spider Community News; privacy names Social Spider CIC,supported_current_primary_assertion,current publisher assertion; historical owner/operator periods unresolved,previous eight-hour parent_dimension_mappings.csv; closed_source_admission:enfield_dispatch
+newspaper,falls_church_news_press,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,financial_mirror,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,galway_advertiser,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,green_left,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,indaily,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,kilkenny_observer,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,limerick_post,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,militant_uk_archive,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,montpelier_bridge,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,mountain_times_vt,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,munster_express,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,newtown_bee,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,northern_rivers_times,publisher_organization,unresolved legal publisher; Northern Rivers Regional Media is a recorded family/brand,unresolved,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; northern_rivers_times:publisher_organization
+newspaper,otago_daily_times,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,te_awamutu_news,publisher_organization,Good Local Media Ltd,supported_current_primary_assertion,current publisher assertion; historical owner/operator periods unresolved,previous eight-hour parent_dimension_mappings.csv; closed_source_admission:te_awamutu_news
+newspaper,waltham_forest_echo,publisher_organization,"Social Spider CIC, publisher on behalf of WF WellComm CIC",supported_current_primary_assertion,current publisher assertion; historical owner/operator periods unresolved,previous eight-hour parent_dimension_mappings.csv; closed_source_admission:waltham_forest_echo
+newspaper,workers_advocate,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+newspaper,your_local_examiner_au,publisher_organization,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,aussie_zone,platform_network,Fediverse; source reports federation enabled,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; aussie_zone:platform_network
+social,bluesky,platform_network,AT Protocol; Bluesky application separate,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; bluesky:platform_network
+social,cotech,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,dowire_lists_umn,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,dowire_newswire,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,dowire_tc_umn,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,elektronauts,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,feddit_org,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,fic_forum,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,foodtalkcentral,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,goatech,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,hackernews,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,ilxor,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,inaturalist_forum,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,lemmy_nz,platform_network,Fediverse; source reports federation enabled,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; lemmy_nz:platform_network
+social,mastodon_au,platform_network,Fediverse / ActivityPub,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_au:platform_network
+social,mastodon_ie,platform_network,Fediverse / ActivityPub,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_ie:platform_network
+social,mastodon_uk,platform_network,Fediverse / ActivityPub,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_uk:platform_network
+social,mastodon_us,platform_network,Fediverse / ActivityPub,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_us:platform_network
+social,midwest_social,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,mpls_issues_freedom2_archive,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,mpls_mnforum_archive,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,openfoodnetwork,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,oscedays,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,osm_discourse,platform_network,unresolved / no common discourse network asserted,unresolved,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; osm_discourse:platform_network
+social,python_discourse,platform_network,unresolved / no common discourse network asserted,unresolved,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; python_discourse:platform_network
+social,python_list_archive,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_bicycles,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_cooking,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_earthscience,platform_network,Stack Exchange / Stack Overflow Network,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; se_earthscience:platform_network
+social,se_gardening,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_outdoors,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_sustainability,platform_network,Stack Exchange / Stack Overflow Network,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; se_sustainability:platform_network
+social,se_travel,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,straight_dope,platform_network,unresolved / no common discourse network asserted,unresolved,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; straight_dope:platform_network
+social,survivefrance,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,thesession,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,tildes,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,w3_wwwtalk,platform_network,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,aussie_zone,community,Lemmy for Australians and those that love Australia. All welcome. Signups are open.,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; aussie_zone:community
+social,bluesky,community,Declared collected actor/feed frame; not the entire network,supported_candidate,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; bluesky:community
+social,cotech,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,dowire_lists_umn,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,dowire_newswire,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,dowire_tc_umn,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,elektronauts,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,feddit_org,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,fic_forum,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,foodtalkcentral,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,goatech,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,hackernews,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,ilxor,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,inaturalist_forum,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,lemmy_nz,community,Lemmy for New Zealanders,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; lemmy_nz:community
+social,mastodon_au,community,Welcome to thundertoot! A Mastodon Instance for the People. Extended description explicitly identifies primarily Australian time zones and global eligibility.,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_au:community
+social,mastodon_ie,community,"Irish Mastodon - run from Ireland, we welcome all who respect the community rules and members.",confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_ie:community
+social,mastodon_uk,community,"Open, user-supported, corporation-free social networking for the UK.",confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_uk:community
+social,mastodon_us,community,A Mastodon instance for the San Francisco Bay Area. Come on in and join us!,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; mastodon_us:community
+social,midwest_social,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,mpls_issues_freedom2_archive,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,mpls_mnforum_archive,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,openfoodnetwork,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,oscedays,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,osm_discourse,community,OpenStreetMap community; child categories not exhaustively mapped,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; osm_discourse:community
+social,python_discourse,community,Python discussion community; child categories not exhaustively mapped,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; python_discourse:community
+social,python_list_archive,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_bicycles,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_cooking,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_earthscience,community,Earth Science Q&A community,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; se_earthscience:community
+social,se_gardening,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_outdoors,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,se_sustainability,community,Sustainable Living Q&A community,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; se_sustainability:community
+social,se_travel,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,straight_dope,community,Straight Dope Message Board; child forums not exhaustively mapped,confirmed,current accessed assertion; historical continuity not established,previous eight-hour parent_dimension_mappings.csv; straight_dope:community
+social,survivefrance,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,thesession,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,tildes,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 
+social,w3_wwwtalk,community,unmapped,unmapped_in_bounded_review,no reviewed parent assertion,previous eight-hour parent_dimension_mappings.csv; 

@@ -1,0 +1,8 @@
+{
+  "final_joint_bytes": 3129550,
+  "largest_artifact_bytes": 668263,
+  "maximum_atomic_coexistence_bytes": 668263,
+  "conservative_peak_bytes": 3797813,
+  "joint_reserved_limit_bytes": 4194304,
+  "single_artifact_limit_bytes": 1048576
+}

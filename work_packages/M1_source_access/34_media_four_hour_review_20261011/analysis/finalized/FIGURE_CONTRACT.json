@@ -1,0 +1,79 @@
+[
+  {
+    "figure": "01_frame_coverage_and_depth",
+    "claim_or_question": "Keep the comparable newspaper frame and the family amendment separate",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "size_inches": [
+      16,
+      9
+    ],
+    "uncertainty": "none: exact frozen metadata, no population estimates"
+  },
+  {
+    "figure": "02_time_distribution",
+    "claim_or_question": "Retained publication-time distributions, with all bins and valid peaks",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "size_inches": [
+      16,
+      11
+    ],
+    "uncertainty": "none: exact frozen metadata, no population estimates"
+  },
+  {
+    "figure": "03_matched_recent_years",
+    "claim_or_question": "Compare recent years using the same January\u2013August observation window",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "size_inches": [
+      19,
+      9
+    ],
+    "uncertainty": "none: exact frozen metadata, no population estimates"
+  },
+  {
+    "figure": "04_source_genre_era",
+    "claim_or_question": "Show actual source contributions and their structural genre/era",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "size_inches": [
+      20,
+      12.36
+    ],
+    "uncertainty": "none: exact frozen metadata, no population estimates"
+  },
+  {
+    "figure": "05_legacy_inventory_and_evidence",
+    "claim_or_question": "Distinguish executable inventory from repair and recovery evidence",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "size_inches": [
+      16,
+      9
+    ],
+    "uncertainty": "none: exact frozen metadata, no population estimates"
+  },
+  {
+    "figure": "06_parent_mapping_unknowns",
+    "claim_or_question": "Keep publisher, platform and community mapping limits separate",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "size_inches": [
+      16,
+      9
+    ],
+    "uncertainty": "none: exact frozen metadata, no population estimates"
+  },
+  {
+    "figure": "07_capacity_and_stops",
+    "claim_or_question": "Report timestamped operational capacity and genuine stop boundaries",
+    "archetype": "quantitative grid",
+    "backend": "Python/matplotlib",
+    "size_inches": [
+      16,
+      9
+    ],
+    "uncertainty": "none: exact frozen metadata, no population estimates"
+  }
+]

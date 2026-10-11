@@ -1,0 +1,828 @@
+{
+  "at_utc": "2026-10-10T23:21:02.708994+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "partial_end_month": true,
+  "authorized_start_at_utc": "2026-10-10T21:44:10.127246+00:00",
+  "hard_deadline_at_utc": "2026-10-11T01:44:10.127246+00:00",
+  "stop": {
+    "at_utc": "2026-10-10T23:18:56.615003+00:00",
+    "pid": 99697,
+    "reason": "complete_operation_capacity_failure_across_permitted_small_routes",
+    "deadline_preserved": true
+  },
+  "new_core_texts": 293,
+  "new_usable_dated_bodies": 293,
+  "retained_core_total": 988717,
+  "usable_dated_body_total": 988701,
+  "pooled_observed_months": 343,
+  "study_months": 465,
+  "new_pooled_months": [],
+  "new_entities": 323,
+  "new_entity_versions": 324,
+  "new_body_versions": 293,
+  "native_entities_total": 1037756,
+  "entity_versions_total": 1204490,
+  "round_charged_requests": 210,
+  "lifetime_charged_requests": 13339,
+  "lifetime_returned_native_keys": 1037799,
+  "inherited_key_catalog_difference": 43,
+  "source_year_deltas": {
+    "straight_dope|1999": 97,
+    "straight_dope|2003": 5,
+    "foodtalkcentral|2015": 21,
+    "straight_dope|2015": 54,
+    "thesession|2002": 87,
+    "foodtalkcentral|2017": 16,
+    "thesession|2007": 1,
+    "thesession|2014": 1,
+    "thesession|2015": 1,
+    "foodtalkcentral|2018": 10
+  },
+  "source_month_delta_rows": 18,
+  "checks": {
+    "append_counts_match_Load_counters": true,
+    "changed_bodies_checked": 324,
+    "accepted_body_hash_references_reused": 0,
+    "changed_raw_mapping": {
+      "transport_receipts": 211,
+      "saved_raw_responses": 184,
+      "mapped_native_return_observations": 479,
+      "mapping_issues": 0,
+      "parse_pending_content_responses": 0,
+      "archive_notice_only_version_corrections": 0
+    },
+    "old_body_or_raw_reaudit": false,
+    "native_load_complete_peak_exceedances": 0,
+    "all_changed_versions_provenance_annotated": true
+  },
+  "metadata_terminal_counts": {
+    "memberships": 0,
+    "quality_annotations": 0,
+    "new_topic_post_number_aliases": 0,
+    "resolved_post_number_edges": 0
+  },
+  "export_start_capacity": {
+    "at_utc": "2026-10-10T23:20:35.175376+00:00",
+    "free_bytes": 46282960896,
+    "media_bytes": 17425219597,
+    "social_bytes": 14887812127,
+    "own_lease_bytes": 8388608,
+    "other_lease_bytes": 8388608,
+    "pending_bytes": 78441962,
+    "terminal_tail": {
+      "bytes": 0,
+      "phase": "terminal_incremental_operation_consumes_reserved_tail"
+    },
+    "complete_pending_bytes": 78441962,
+    "reserved_bytes": 86896106,
+    "physical_headroom": 30039605782,
+    "media_headroom": 12487884297,
+    "social_headroom": 33680375,
+    "media_accounting_roots": [
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/24_newspaper_coverage_successor_20261006",
+        "bytes": 22873704
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/29_media_round_review_20261010",
+        "bytes": 18843092
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011",
+        "bytes": 60462630
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/30_media_2026_source_review_20261010",
+        "bytes": 5974687
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006",
+        "bytes": 479745805
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/32_media_design_targets_20261010",
+        "bytes": 1746998
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/26_newspaper_production_collection_20261006",
+        "bytes": 678557472
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/31_media_joint_validation_20261010",
+        "bytes": 6617831
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009",
+        "bytes": 17717648
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008",
+        "bytes": 16025090844
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper",
+        "bytes": 1360310
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005",
+        "bytes": 80408853
+      }
+    ],
+    "social_accounting_roots": [
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api",
+        "bytes": 14878356983
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social",
+        "bytes": 6009567
+      },
+      {
+        "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social",
+        "bytes": 3445577
+      }
+    ],
+    "social_additional_accounting_bytes": 9455144,
+    "exact_once_canonical_disjoint_roots": true,
+    "terminal_reserve_components": {
+      "accepted_phase_A_future_publication_upper_bytes": 2097152,
+      "B_fixed_output_upper_bytes": 8388608,
+      "journal_operation_floor_bytes": 67108864,
+      "all_local_and_future_outputs_reserved_bytes": 11333098,
+      "unannotated_B_version_bytes": 0
+    }
+  },
+  "predecessor_closed_snapshot_sha256": "4d2eb91a63f1bab9ad800034fe93e72c46df7809e166dc5be345526a609db5cf",
+  "predecessor_delivery_manifest_sha256": "87d135e5ae9aa032ff428d691b5230ea44309f98ee95c00a8cb553c76a8e6046",
+  "semantic_or_affect_labels_executed": false,
+  "fixed_output_allowance_reduced_after_evidence_and_amendment": true,
+  "smaller_complete_response_bound": 65536,
+  "phase": "B append inside same four-hour release",
+  "phase_A_prose_unit_correction": {
+    "at_utc": "2026-10-10T23:00:39.764713+00:00",
+    "source": "straight_dope",
+    "request_id": "a2c75d4d4491de4ea8d94814",
+    "native_namespace": "topic",
+    "native_id": "736",
+    "correct_unit": "context_container; not independently authored post/body",
+    "evidence_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/summaries/native_mapping_issues.csv",
+    "evidence_sha256": "127ee17e1d07d4d4159ff08d2f276efa9f9a4b2043f00969d3dc0f72ea06cb33",
+    "phase_A_counts_and_frozen_bytes_unchanged": true,
+    "correction_scope": "phaseA narrative described pending mapping as a post; native table already identified topic736 accurately"
+  },
+  "saved_context_suffix_restored": {
+    "at_utc": "2026-10-10T23:05:07.535717+00:00",
+    "pid": 99697,
+    "scope_sha256": "7a6c264a13fd3f6fde2de1ccd85e7dc6c5f31c6cc8d0f3d8a3e2bf0d32f80e38",
+    "hard_deadline_at_utc": "2026-10-11T01:44:10.127246+00:00",
+    "request_id": "a2c75d4d4491de4ea8d94814",
+    "raw_sha256": "32144a0695cdb320f9d1abcee8faa97ae6e0f2227e0f8c4a7d308ab169a9e281",
+    "new_Load": {
+      "at_utc": "2026-10-10T23:05:07.518458+00:00",
+      "request_id": "a2c75d4d4491de4ea8d94814",
+      "frame_id": "straight_dope:oldest_created_public_topic_inventory",
+      "returned_entities": 1,
+      "new_entities": 1,
+      "new_entity_versions": 1,
+      "new_qualified_posts": 0,
+      "observed_journal_peak_bytes": 82592,
+      "reserved_operation_bytes": 33797040,
+      "body_and_native_metadata_bytes": 14756,
+      "db_before_bytes": 12893569024,
+      "db_after_bytes": 12893593600,
+      "observed_additional_disk_peak_upper_bytes": 107168,
+      "lifetime_returned_objects": 1037477,
+      "raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/raw/a2c75d4d4491de4ea8d94814.bin.gz",
+      "source_year_deltas": {}
+    },
+    "actual_native_unit": "topic736 context_container; not independently authored body",
+    "fresh_HTTP_requests": 0,
+    "cursor_after": {
+      "topic_offset": 7,
+      "chunk_offset": 0,
+      "post_offset": 0,
+      "native_next_url": "https://boards.straightdope.com/latest.json?ascending=true&no_definitions=true&order=created&page=8&per_page=50"
+    },
+    "capacity": {
+      "at_utc": "2026-10-10T23:05:06.750308+00:00",
+      "free_bytes": 46282375168,
+      "media_bytes": 17414829196,
+      "social_bytes": 14881510754,
+      "own_lease_bytes": 8388608,
+      "other_lease_bytes": 8388608,
+      "pending_bytes": 33797040,
+      "terminal_tail": {
+        "bytes": 77599158,
+        "accepted_phase_A_future_publication_upper_bytes": 2097152,
+        "unannotated_changed_versions": 1,
+        "metadata_bytes": 2582,
+        "incremental_export_bytes": 8390560,
+        "bounded_metadata_journal_bytes": 67108864,
+        "materialized_predecessor_export_tail_bytes": 0,
+        "basis": "measured conservative per-version/entity delta output and native metadata; completed predecessor exports remain charged in actual bytes only"
+      },
+      "complete_pending_bytes": 111396198,
+      "reserved_bytes": 119850342,
+      "physical_headroom": 30006065818,
+      "media_headroom": 12465320462,
+      "social_headroom": 7027512,
+      "media_accounting_roots": [
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/30_media_2026_source_review_20261010",
+          "bytes": 5974687
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011",
+          "bytes": 60462630
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008",
+          "bytes": 16015880091
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/31_media_joint_validation_20261010",
+          "bytes": 6617831
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/24_newspaper_coverage_successor_20261006",
+          "bytes": 22873704
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/29_media_round_review_20261010",
+          "bytes": 18843092
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009",
+          "bytes": 17717648
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006",
+          "bytes": 478566157
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/32_media_design_targets_20261010",
+          "bytes": 1746998
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/26_newspaper_production_collection_20261006",
+          "bytes": 678557472
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper",
+          "bytes": 1360310
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005",
+          "bytes": 80408853
+        }
+      ],
+      "social_accounting_roots": [
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api",
+          "bytes": 14872055610
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social",
+          "bytes": 3445577
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social",
+          "bytes": 6009567
+        }
+      ],
+      "social_additional_accounting_bytes": 9455144,
+      "exact_once_canonical_disjoint_roots": true
+    },
+    "phase_A_prefix_reloaded": false,
+    "lifetime_counters_conserved": true
+  },
+  "B_fixed_output_upper_bytes": 8388608,
+  "accepted_phase_A_future_publication_upper_bytes": 2097152,
+  "terminal_reserve_regression": {
+    "at_utc": "2026-10-10T23:20:14.609485+00:00",
+    "passed": true,
+    "actual_terminal_guarded_preflight": {
+      "at_utc": "2026-10-10T23:20:14.608879+00:00",
+      "free_bytes": 46284161024,
+      "media_bytes": 17425143570,
+      "social_bytes": 14887811066,
+      "own_lease_bytes": 8388608,
+      "other_lease_bytes": 8388608,
+      "pending_bytes": 78441962,
+      "terminal_tail": {
+        "bytes": 0,
+        "phase": "terminal_incremental_operation_consumes_reserved_tail"
+      },
+      "complete_pending_bytes": 78441962,
+      "reserved_bytes": 86896106,
+      "physical_headroom": 30040805910,
+      "media_headroom": 12487960324,
+      "social_headroom": 33681436,
+      "media_accounting_roots": [
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/32_media_design_targets_20261010",
+          "bytes": 1746998
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011",
+          "bytes": 60462630
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/24_newspaper_coverage_successor_20261006",
+          "bytes": 22873704
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006",
+          "bytes": 479729421
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008",
+          "bytes": 16025031201
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/26_newspaper_production_collection_20261006",
+          "bytes": 678557472
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/31_media_joint_validation_20261010",
+          "bytes": 6617831
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009",
+          "bytes": 17717648
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/30_media_2026_source_review_20261010",
+          "bytes": 5974687
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/29_media_round_review_20261010",
+          "bytes": 18843092
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper",
+          "bytes": 1360310
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005",
+          "bytes": 80408853
+        }
+      ],
+      "social_accounting_roots": [
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api",
+          "bytes": 14878355922
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social",
+          "bytes": 6009567
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social",
+          "bytes": 3445577
+        }
+      ],
+      "social_additional_accounting_bytes": 9455144,
+      "exact_once_canonical_disjoint_roots": true,
+      "terminal_reserve_components": {
+        "accepted_phase_A_future_publication_upper_bytes": 2097152,
+        "B_fixed_output_upper_bytes": 8388608,
+        "journal_operation_floor_bytes": 67108864,
+        "all_local_and_future_outputs_reserved_bytes": 11333098,
+        "unannotated_B_version_bytes": 0
+      }
+    },
+    "expected_operation_bytes": 78441962,
+    "omitting_A_future_copy_would_underreserve_bytes": 2097152,
+    "verify_uses_identical_delta_closeout_terminal_reservations": true,
+    "terminal_code_sha256": "fd3cb42bba5e1d7f1f50b51d5c9e9ef834e52861385c00cca388ee535d87f038",
+    "native_fixed_margin_bytes": 33554432,
+    "source_requests": 0,
+    "database_access": false,
+    "deadline": "2026-10-11T01:44:10.127246+00:00"
+  },
+  "fixed_output_peak_calibration": {
+    "at_utc": "2026-10-10T23:02:32.888388+00:00",
+    "passed": true,
+    "fixed_output_upper_bytes": 8388608,
+    "allocations": {
+      "new_local_implementation_code_schema_tests": 294912,
+      "future_publication_implementation_code_schema_tests": 294912,
+      "new_local_fixed_month_neighbor_era_tables": 524288,
+      "future_publication_fixed_month_neighbor_era_tables": 524288,
+      "new_local_fixed_controls_reports_readme_manifests": 524288,
+      "future_publication_fixed_reports_readme_manifests": 131072,
+      "preserved_empty_small_and_peak_calibration_fixtures": 655360,
+      "compact_phase_A_preservation_receipts": 65536,
+      "future_combined_PNG_final": 524288,
+      "largest_atomic_temporary_coexistence": 524288
+    },
+    "explicit_safety_margin_bytes": 131072,
+    "phase_A_future_publication_locked_upper_bytes": 2097152,
+    "phase_A_accepted_copy_bytes": 956288,
+    "phase_A_extra_allocations": {
+      "largest_atomic_copy_temporary": 186685,
+      "phase_A_publication_readme_log_final_and_temp": 131072,
+      "phase_A_publication_manifest_final_and_temp": 32768
+    },
+    "phase_A_future_copy_safety_bytes": 790339,
+    "all_combined_PNG_cost_assigned_to_append_fixed_allowance": true,
+    "fixed_month_neighbor_serialization_upper_bytes": 364495,
+    "fixed_table_derivation": "three currently permitted source families across all465 fixed calendar months;11-digit physical15GB formatting upper; reporting only, never a source/count stopping rule",
+    "fixture_final_bytes": 524969,
+    "fixture_complete_write_peak_bytes": 1049257,
+    "atomic_measurements": [
+      {
+        "path": "calibration_fixtures/empty/identities.csv.gz",
+        "old_final_bytes": 0,
+        "temporary_bytes": 60,
+        "coexistence_peak_bytes": 60,
+        "previous_fixture_bytes": 0
+      },
+      {
+        "path": "calibration_fixtures/empty/report.md",
+        "old_final_bytes": 0,
+        "temporary_bytes": 33,
+        "coexistence_peak_bytes": 93,
+        "previous_fixture_bytes": 60
+      },
+      {
+        "path": "calibration_fixtures/empty/manifest.json",
+        "old_final_bytes": 0,
+        "temporary_bytes": 137,
+        "coexistence_peak_bytes": 230,
+        "previous_fixture_bytes": 93
+      },
+      {
+        "path": "calibration_fixtures/empty/manifest.json",
+        "old_final_bytes": 137,
+        "temporary_bytes": 156,
+        "coexistence_peak_bytes": 386,
+        "previous_fixture_bytes": 230
+      },
+      {
+        "path": "calibration_fixtures/small/identities.csv.gz",
+        "old_final_bytes": 0,
+        "temporary_bytes": 137,
+        "coexistence_peak_bytes": 386,
+        "previous_fixture_bytes": 249
+      },
+      {
+        "path": "calibration_fixtures/small/report.md",
+        "old_final_bytes": 0,
+        "temporary_bytes": 139,
+        "coexistence_peak_bytes": 525,
+        "previous_fixture_bytes": 386
+      },
+      {
+        "path": "calibration_fixtures/small/manifest.json",
+        "old_final_bytes": 0,
+        "temporary_bytes": 137,
+        "coexistence_peak_bytes": 662,
+        "previous_fixture_bytes": 525
+      },
+      {
+        "path": "calibration_fixtures/small/manifest.json",
+        "old_final_bytes": 137,
+        "temporary_bytes": 156,
+        "coexistence_peak_bytes": 818,
+        "previous_fixture_bytes": 662
+      },
+      {
+        "path": "calibration_fixtures/largest_fixed_artifact.bin",
+        "old_final_bytes": 0,
+        "temporary_bytes": 524288,
+        "coexistence_peak_bytes": 524969,
+        "previous_fixture_bytes": 681
+      },
+      {
+        "path": "calibration_fixtures/largest_fixed_artifact.bin",
+        "old_final_bytes": 524288,
+        "temporary_bytes": 524288,
+        "coexistence_peak_bytes": 1049257,
+        "previous_fixture_bytes": 524969
+      }
+    ],
+    "publication_atomic_writes_sequential_and_file_upper_bytes": 524288,
+    "dynamic_local_and_future_publication_bytes_per_version_each": 901,
+    "dynamic_local_and_future_publication_bytes_per_entity_each": 75,
+    "unannotated_new_version_bytes": 2582,
+    "additional_new_request_bytes": 1024,
+    "dynamic_rows_raw_SQLite_growth_and_body_reservations_are_additional": true,
+    "native_fixed_margin_bytes": 33554432,
+    "terminal_journal_margin_bytes": 67108864,
+    "network_requests": 0,
+    "canonical_database_access": false,
+    "no_outside_publication_created": true,
+    "source_and_physical_safeguards_unchanged": true,
+    "base_append_local_and_future_output_upper_bytes": 4194304,
+    "coordinator_joint_report_extra_upper_bytes": 4194304,
+    "base4_proof_scope": "append local/future code, tables, ordinary summary and fixture peak; does not cover complete joint seven-PNG report",
+    "joint_PNG_budget_assignment": "entire coordinated joint PNG+analysis metadata/summary/manifest output plus maximum atomic coexistence assigned to additional4MiB; no worker local joint PNG copy",
+    "coordinator_observed_prior_seven_PNG_bytes": 2809129,
+    "coordinator_observed_prior_large_PNG_bytes": [
+      592612,
+      607744
+    ],
+    "joint_report_single_artifact_upper_bytes": 1048576,
+    "joint_report_all_final_plus_max_atomic_temp_upper_bytes": 4194304,
+    "joint_report_remaining_if_same_PNGs_and_max_temp_bytes": 336599,
+    "joint_report_publication_requires_actual_prepublication_size_check": true,
+    "worker_joint_PNG_or_external_publication_created": false,
+    "base4_proof_preserved_sha256": "3736a8ef53e0778f73a328eb3dc651b531f5de92f869d8a7155a555708a80be6",
+    "four_MiB_as_total_formal_output_allowance_rejected": true,
+    "correction_authority": "coordinator same-deadline H+1 mandatory accounting supplement received before any B source request or Load",
+    "allocation_refinement": "256KiB shifted from conservative month-table padding to local fixed control/report overhead; base4 total and extra joint4 unchanged"
+  },
+  "first_append_true_body_Load_proof": {
+    "at_utc": "2026-10-10T23:07:04.667639+00:00",
+    "pid": 99697,
+    "scope_sha256": "7a6c264a13fd3f6fde2de1ccd85e7dc6c5f31c6cc8d0f3d8a3e2bf0d32f80e38",
+    "deadline": "2026-10-11T01:44:10.127246+00:00",
+    "first_true_new_authored_body_Load": {
+      "at_utc": "2026-10-10T23:05:11.012493+00:00",
+      "request_id": "694da1c756b44c5a3dcd8cdf",
+      "frame_id": "straight_dope:oldest_created_public_topic_inventory",
+      "returned_entities": 16,
+      "new_entities": 16,
+      "new_entity_versions": 16,
+      "new_qualified_posts": 15,
+      "observed_journal_peak_bytes": 1051136,
+      "reserved_operation_bytes": 35188512,
+      "body_and_native_metadata_bytes": 48792,
+      "db_before_bytes": 12893593600,
+      "db_after_bytes": 12893741056,
+      "observed_additional_disk_peak_upper_bytes": 1198592,
+      "lifetime_returned_objects": 1037493,
+      "raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/append_h1_capacity_correction/raw/694da1c756b44c5a3dcd8cdf.bin.gz",
+      "source_year_deltas": {
+        "straight_dope|1999": 10,
+        "straight_dope|2003": 5
+      }
+    },
+    "request_source_url": "https://boards.straightdope.com/t/514.json",
+    "request_raw_sha256": "3d9d596e9a9c7feea6f60cdc050a0abe840d8b38fd52f664d4f650c6c874b4fb",
+    "actual_request_complete_preflight": {
+      "at_utc": "2026-10-10T23:05:08.314514+00:00",
+      "free_bytes": 46282317824,
+      "media_bytes": 17414886650,
+      "social_bytes": 14881567389,
+      "own_lease_bytes": 8388608,
+      "other_lease_bytes": 8388608,
+      "pending_bytes": 33751040,
+      "terminal_tail": {
+        "bytes": 77599158,
+        "accepted_phase_A_future_publication_upper_bytes": 2097152,
+        "unannotated_changed_versions": 1,
+        "metadata_bytes": 2582,
+        "incremental_export_bytes": 8390560,
+        "bounded_metadata_journal_bytes": 67108864,
+        "materialized_predecessor_export_tail_bytes": 0,
+        "basis": "measured conservative per-version/entity delta output and native metadata; completed predecessor exports remain charged in actual bytes only"
+      },
+      "complete_pending_bytes": 111350198,
+      "reserved_bytes": 119804342,
+      "physical_headroom": 30006054474,
+      "media_headroom": 12465309008,
+      "social_headroom": 7016877,
+      "media_accounting_roots": [
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/30_media_2026_source_review_20261010",
+          "bytes": 5974687
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011",
+          "bytes": 60462630
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008",
+          "bytes": 16015937545
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/31_media_joint_validation_20261010",
+          "bytes": 6617831
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/24_newspaper_coverage_successor_20261006",
+          "bytes": 22873704
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/29_media_round_review_20261010",
+          "bytes": 18843092
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009",
+          "bytes": 17717648
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006",
+          "bytes": 478566157
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/32_media_design_targets_20261010",
+          "bytes": 1746998
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/26_newspaper_production_collection_20261006",
+          "bytes": 678557472
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper",
+          "bytes": 1360310
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005",
+          "bytes": 80408853
+        }
+      ],
+      "social_accounting_roots": [
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api",
+          "bytes": 14872112245
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social",
+          "bytes": 3445577
+        },
+        {
+          "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social",
+          "bytes": 6009567
+        }
+      ],
+      "social_additional_accounting_bytes": 9455144,
+      "exact_once_canonical_disjoint_roots": true
+    },
+    "after_durable_Load_cursor_evidence": {
+      "at_utc": "2026-10-10T23:05:11.027333+00:00",
+      "frame": "straight_dope:oldest_created_public_topic_inventory",
+      "request_id": "694da1c756b44c5a3dcd8cdf",
+      "native_route": "topic",
+      "native_unit": {
+        "origin": "new",
+        "topic": 514
+      },
+      "state": "parsed_and_durably_committed",
+      "committed_native_keys": [
+        "straight_dope|forum_post|2908598",
+        "straight_dope|forum_post|2908722",
+        "straight_dope|forum_post|2909215",
+        "straight_dope|forum_post|2909242",
+        "straight_dope|forum_post|2909244",
+        "straight_dope|forum_post|5924",
+        "straight_dope|forum_post|5925",
+        "straight_dope|forum_post|5926",
+        "straight_dope|forum_post|5927",
+        "straight_dope|forum_post|5928",
+        "straight_dope|forum_post|5929",
+        "straight_dope|forum_post|5930",
+        "straight_dope|forum_post|5931",
+        "straight_dope|forum_post|5932",
+        "straight_dope|forum_post|5933",
+        "straight_dope|topic|514"
+      ],
+      "returned_entities": 16,
+      "new_core_bodies": 15,
+      "root_seen_is_not_thread_complete": true,
+      "native_next_url": "https://boards.straightdope.com/latest.json?ascending=true&no_definitions=true&order=created&page=8&per_page=50",
+      "old_queue_reference_only": true
+    },
+    "current_cursor_snapshot_observed_at_utc": "2026-10-10T23:07:01.427929+00:00",
+    "current_cursors": [
+      {
+        "source": "straight_dope",
+        "frame": "straight_dope:anonymous_public_native_index_whole_topic_streams",
+        "chunk_offset": 3,
+        "post_offset": 10,
+        "topic_offset": 0,
+        "native_next_url": null
+      },
+      {
+        "source": "straight_dope",
+        "frame": "straight_dope:oldest_created_public_topic_inventory",
+        "chunk_offset": 0,
+        "post_offset": 0,
+        "topic_offset": 7,
+        "native_next_url": "https://boards.straightdope.com/latest.json?ascending=true&no_definitions=true&order=created&page=8&per_page=50"
+      },
+      {
+        "source": "thesession",
+        "frame": "thesession:documented_native_creation_inventory_oldest_observed_first",
+        "chunk_offset": 0,
+        "post_offset": 0,
+        "topic_offset": 32,
+        "native_next_url": null
+      },
+      {
+        "source": "oscedays",
+        "frame": "oscedays:oldest_created_public_topic_inventory",
+        "chunk_offset": 0,
+        "post_offset": 0,
+        "topic_offset": 0,
+        "native_next_url": "https://community.oscedays.org/latest.json?ascending=true&no_definitions=true&order=created&page=1"
+      },
+      {
+        "source": "survivefrance",
+        "frame": "survivefrance:oldest_created_public_topic_inventory",
+        "chunk_offset": 0,
+        "post_offset": 0,
+        "topic_offset": 13,
+        "native_next_url": "https://www.survivefrance.com/latest.json?ascending=true&no_definitions=true&order=created&page=9"
+      },
+      {
+        "source": "foodtalkcentral",
+        "frame": "foodtalkcentral:oldest_created_public_topic_inventory",
+        "chunk_offset": 0,
+        "post_offset": 0,
+        "topic_offset": 7,
+        "native_next_url": "https://www.foodtalkcentral.com/latest.json?ascending=true&no_definitions=true&order=created&page=5"
+      }
+    ],
+    "context_suffix_not_counted_as_authored_body": true,
+    "fixed_B8MiB_and_A_future2MiB_protected": true
+  },
+  "cumulative_outputs_reexported": false,
+  "source_states": [
+    {
+      "source": "straight_dope",
+      "frame": "straight_dope:anonymous_public_native_index_whole_topic_streams",
+      "state": "complete_operation_capacity_blocked",
+      "chunk_offset": 5,
+      "post_offset": 16,
+      "topic_offset": 0,
+      "page": null,
+      "native_next_url": null,
+      "new_core_bodies": 54,
+      "oldest_returned_publication_at": "2015-04-03T21:31:43.000Z"
+    },
+    {
+      "source": "straight_dope",
+      "frame": "straight_dope:oldest_created_public_topic_inventory",
+      "state": "complete_operation_capacity_blocked",
+      "chunk_offset": 0,
+      "post_offset": 0,
+      "topic_offset": 7,
+      "page": null,
+      "native_next_url": "https://boards.straightdope.com/latest.json?ascending=true&no_definitions=true&order=created&page=8&per_page=50",
+      "new_core_bodies": 102,
+      "oldest_returned_publication_at": "1999-05-31T10:57:00.000Z"
+    },
+    {
+      "source": "thesession",
+      "frame": "thesession:documented_native_creation_inventory_oldest_observed_first",
+      "state": "complete_operation_capacity_blocked",
+      "chunk_offset": 0,
+      "post_offset": 0,
+      "topic_offset": 32,
+      "page": 916,
+      "native_next_url": null,
+      "new_core_bodies": 90,
+      "oldest_returned_publication_at": "2002-05-18T11:37:27Z"
+    },
+    {
+      "source": "oscedays",
+      "frame": "oscedays:oldest_created_public_topic_inventory",
+      "state": "preserved_source_stop",
+      "chunk_offset": 0,
+      "post_offset": 0,
+      "topic_offset": 0,
+      "page": null,
+      "native_next_url": "https://community.oscedays.org/latest.json?ascending=true&no_definitions=true&order=created&page=1",
+      "new_core_bodies": 0,
+      "oldest_returned_publication_at": null
+    },
+    {
+      "source": "survivefrance",
+      "frame": "survivefrance:oldest_created_public_topic_inventory",
+      "state": "preserved_source_stop",
+      "chunk_offset": 0,
+      "post_offset": 0,
+      "topic_offset": 13,
+      "page": null,
+      "native_next_url": "https://www.survivefrance.com/latest.json?ascending=true&no_definitions=true&order=created&page=9",
+      "new_core_bodies": 0,
+      "oldest_returned_publication_at": null
+    },
+    {
+      "source": "foodtalkcentral",
+      "frame": "foodtalkcentral:oldest_created_public_topic_inventory",
+      "state": "complete_operation_capacity_blocked",
+      "chunk_offset": 0,
+      "post_offset": 0,
+      "topic_offset": 7,
+      "page": null,
+      "native_next_url": "https://www.foodtalkcentral.com/latest.json?ascending=true&no_definitions=true&order=created&page=5",
+      "new_core_bodies": 47,
+      "oldest_returned_publication_at": "2015-09-30T21:30:16.275Z"
+    }
+  ],
+  "source_cursor_count_basis": "fully settled operations only; partial committed whole-native rows are counted in Load counters and source-era deltas",
+  "remaining_narrowness_sparse_months_or_limits_not_declared_healthy": true,
+  "successor_automatically_authorized": false,
+  "delta_delivery_bytes_before_manifest": 311872,
+  "local_delta_output_reserved_upper_bytes": 8919797,
+  "future_publication_reserved_upper_bytes": 8704757,
+  "implementation_files": 22
+}

@@ -1,0 +1,115 @@
+{
+  "at_utc": "2026-10-10T23:21:02.711238+00:00",
+  "files": [
+    {
+      "path": "archive_adapter.py",
+      "bytes": 9020,
+      "sha256": "f8b3aac613f0adfd9d9257aef79d100855ef91045527bb3e869768ff2f492dc2"
+    },
+    {
+      "path": "calibrate_fixed_output.py",
+      "bytes": 9913,
+      "sha256": "6685c45aafb32fb7a4dd46cfb2e98390b569c59d7f239e317d1c0bede095c99c"
+    },
+    {
+      "path": "cursor_regression.py",
+      "bytes": 1915,
+      "sha256": "13b77358b413e4ebb41d7df8cd0e0afefa68ed3959ff2f6269093bbc10990666"
+    },
+    {
+      "path": "delta_closeout.py",
+      "bytes": 24311,
+      "sha256": "fd3cb42bba5e1d7f1f50b51d5c9e9ef834e52861385c00cca388ee535d87f038"
+    },
+    {
+      "path": "entities.py",
+      "bytes": 21894,
+      "sha256": "51c94847dc9136de15a4a66a95d3525b1fda177a4bf36ba055a465d17cda0e35"
+    },
+    {
+      "path": "finalize_metadata.py",
+      "bytes": 9078,
+      "sha256": "5947b7a6e25e4f8f609f32f68582c6fcfba1c0adeb9646f892fc859fa2a51f41"
+    },
+    {
+      "path": "lemmy_adapter.py",
+      "bytes": 3401,
+      "sha256": "0fc52cf25d0a82790994475f60222ade310e97625970b745a2e47a9cfd544468"
+    },
+    {
+      "path": "native_capacity_sizing.py",
+      "bytes": 1757,
+      "sha256": "0dbe2de94a04084b812d8e55f5cb24ee953431d24b6b6f9f725fff2d71f83f9f"
+    },
+    {
+      "path": "public_html_adapter.py",
+      "bytes": 12773,
+      "sha256": "be721a8ecefb48d0b1d15dc6b01c0762008658447e3e5a225b851ea489472f59"
+    },
+    {
+      "path": "quota_observation.py",
+      "bytes": 4953,
+      "sha256": "4443e081623f30ccbecf8ff5d1ef2a643c7785731ac15702920375eb4cb20018"
+    },
+    {
+      "path": "raw_catalog.py",
+      "bytes": 8694,
+      "sha256": "1c9df5f58e7447822394d09b8d498cb8c6f641b31686a7ae862ee0cc562374ed"
+    },
+    {
+      "path": "run_append.py",
+      "bytes": 3227,
+      "sha256": "e1bc87e86d836b7819292b7929ff47e35ea2415be71c9ab96280614d4c9813bb"
+    },
+    {
+      "path": "schema_legacy.sql",
+      "bytes": 2233,
+      "sha256": "daea9eafb3caee782b840c8a1694fd163d58c7230f83d96fd64e6b99cb04fd48"
+    },
+    {
+      "path": "schema_v2.sql",
+      "bytes": 3371,
+      "sha256": "513b36b771756ebc3cb8a0fc63375d6430cdb6dd57dace3983b60f319c9864c9"
+    },
+    {
+      "path": "setup_append.py",
+      "bytes": 6442,
+      "sha256": "2cc53fde289dea96c50417943611ed17f352c1c56ef05ee311d141e7614e7b5a"
+    },
+    {
+      "path": "small_collect.py",
+      "bytes": 13772,
+      "sha256": "b10c231b118d6b60a1444ba903bf132de90b0617c37bf274bc6de7b647967d3a"
+    },
+    {
+      "path": "smaller_bound_resume.py",
+      "bytes": 3544,
+      "sha256": "4cb4b0b4ae30914be9b982b259e07d391887aed8d1e69ea78f6dddc4aeec8c05"
+    },
+    {
+      "path": "source_era_provenance.py",
+      "bytes": 4225,
+      "sha256": "4ed9930154dc936275e45e2c67176f029a3de780c6c79971bff268fc0b50c544"
+    },
+    {
+      "path": "terminal_reserve_regression.py",
+      "bytes": 2084,
+      "sha256": "4bd8b719d3e0cbd875096006bd386d644c577c31f2d0032a2a14e3a53723f225"
+    },
+    {
+      "path": "thesession_adapter.py",
+      "bytes": 4113,
+      "sha256": "2eb834109915f5afb1010b95bd5ee2718d7ecc90b8d09312cf793d71d85ccf77"
+    },
+    {
+      "path": "transport.py",
+      "bytes": 35991,
+      "sha256": "8cd3511876de7b0c2654818edb554ea7ccb406d8a3d088ed803edfdae0c677fa"
+    },
+    {
+      "path": "verify_delta.py",
+      "bytes": 4711,
+      "sha256": "01a76d28409e2167397015ea9d72d767ae7557ae7d3927215fed6e714e04d87b"
+    }
+  ]
+}

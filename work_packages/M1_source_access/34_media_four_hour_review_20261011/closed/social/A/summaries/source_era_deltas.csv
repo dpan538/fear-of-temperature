@@ -1,0 +1,5 @@
+source_id,new_usable_bodies,earliest_new_publication,latest_new_publication,native_queue_cursor_reference,source_existence_claim
+foodtalkcentral,156,2015-09-25T03:11:39.651Z,2017-08-24T22:17:24.014Z,local NATIVE_CURSORS.json; frozen prior frame referenced,observed new records only; no founding or complete historical access inference
+straight_dope,239,1999-05-29T20:35:00.000Z,2015-12-20T08:03:17.000Z,local NATIVE_CURSORS.json; frozen prior frame referenced,observed new records only; no founding or complete historical access inference
+survivefrance,149,2010-05-23T09:22:08.000Z,2020-11-19T16:32:59.549Z,local NATIVE_CURSORS.json; frozen prior frame referenced,observed new records only; no founding or complete historical access inference
+thesession,612,2002-04-19T07:14:18Z,2012-07-22T09:47:33Z,local NATIVE_CURSORS.json; frozen prior frame referenced,observed new records only; no founding or complete historical access inference

@@ -1,0 +1,42 @@
+{
+  "all_automated_checks_pass": true,
+  "rendered_checks": [
+    {
+      "figure": "01_frame_coverage_and_depth",
+      "automated_pass": true,
+      "manual_visual_inspection_required": true
+    },
+    {
+      "figure": "02_time_distribution",
+      "automated_pass": true,
+      "manual_visual_inspection_required": true
+    },
+    {
+      "figure": "03_matched_recent_years",
+      "automated_pass": true,
+      "manual_visual_inspection_required": true
+    },
+    {
+      "figure": "04_source_genre_era",
+      "automated_pass": true,
+      "manual_visual_inspection_required": true
+    },
+    {
+      "figure": "05_legacy_inventory_and_evidence",
+      "automated_pass": true,
+      "manual_visual_inspection_required": true
+    },
+    {
+      "figure": "06_parent_mapping_unknowns",
+      "automated_pass": true,
+      "manual_visual_inspection_required": true
+    },
+    {
+      "figure": "07_capacity_and_stops",
+      "automated_pass": true,
+      "manual_visual_inspection_required": true
+    }
+  ],
+  "manual_visual_inspection_required": true,
+  "QA_PDF_bytes_held_in_memory_only": true
+}

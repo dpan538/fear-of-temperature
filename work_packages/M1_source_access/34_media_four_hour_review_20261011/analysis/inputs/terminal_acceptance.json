@@ -1,0 +1,43 @@
+{
+  "metadata_frozen": true,
+  "changed_tranche_accepted": true,
+  "fixed_deadline_at_utc": "2026-10-11T01:44:10.127246+00:00",
+  "verification_scope": "Selected final metadata hashes and accepted owner changed-tranche checks; no coordinator store/raw/body reads",
+  "writers": {
+    "newspaper": {
+      "writer_exited": true,
+      "mutex_free": true,
+      "source_requests_stopped_at_utc": "2026-10-11T01:43:54.070762+00:00",
+      "evidence_refs": [
+        {
+          "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/TERMINAL_WRITER_EXIT.json",
+          "sha256": "f108ce9204b3205632f2445a0abe529a171dac3798ee0f2824c881d7cb2e5ed5"
+        },
+        {
+          "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/CHANGED_TRANCHE_FINAL_CHECK.json",
+          "sha256": "2e12a779faf938c55c9eef8181f276f25f52b56960881529b734ff2677232262"
+        }
+      ]
+    },
+    "social": {
+      "writer_exited": true,
+      "mutex_free": true,
+      "source_requests_stopped_at_utc": "2026-10-10T23:18:56.615003+00:00",
+      "evidence_refs": [
+        {
+          "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/FINAL_DELIVERY_VERIFICATION.json",
+          "sha256": "700d561f881c25b89983ff4ccaa5f744878123eb4a728d573402fdf23babc3a9"
+        },
+        {
+          "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/append_h1_capacity_correction/FINAL_DELIVERY_VERIFICATION.json",
+          "sha256": "cc5d04b162f032db1480e43d691e3476199e6c49fc3facb4a0758be4b2e41470"
+        },
+        {
+          "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_four_hour_after_eight_hour/CHECKS/HOUR2_SOCIAL_REVIEW.json",
+          "sha256": "baaf634687d2186af0ba54e02308e039581568f8ddf991c2582e781d9e6b6322"
+        }
+      ]
+    }
+  },
+  "no_new_release_or_extension": true
+}

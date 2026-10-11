@@ -1,0 +1,65 @@
+{
+  "at_utc": "2026-10-10T23:21:02.708302+00:00",
+  "references": [
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/source_month_calendar.csv",
+      "bytes": 2115471,
+      "sha256": "7872e801c49dffc0f3a08fce2ab7848415ca885fc51f3ca20471a66a166c2fac",
+      "scope": "accepted cumulative predecessor; referenced without reexport or body reaudit"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/source_registry_final.json",
+      "bytes": 268115,
+      "sha256": "0adaf3e3eb24c96c431ce2473c927e100e1db489448a1faab4de651893aa895f",
+      "scope": "accepted cumulative predecessor; referenced without reexport or body reaudit"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/source_frame_definitions.json",
+      "bytes": 183878,
+      "sha256": "eb84fa8d99dae5a12f04546698fe2501c24cc7c2f4c05693b600141fd31b0688",
+      "scope": "accepted cumulative predecessor; referenced without reexport or body reaudit"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/matched_year_source_genre_panel.csv",
+      "bytes": 39259,
+      "sha256": "b863e15522db7e6f8e1cb7a9d1084fd437e926349d58b689bbe571e868396091",
+      "scope": "accepted cumulative predecessor; referenced without reexport or body reaudit"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/same_era_source_genre_comparison.json",
+      "bytes": 8694,
+      "sha256": "588cca8b914010449561cfed5ccf1057d82da5e637d1feb2fe1988ce99dd80d6",
+      "scope": "accepted cumulative predecessor; referenced without reexport or body reaudit"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/native_operation_peak_summary.json",
+      "bytes": 4024,
+      "sha256": "dddd32561ced06337b111aa6dedec5aa2482caa20e9f29522b3acea8791cf164",
+      "scope": "accepted cumulative predecessor; referenced without reexport or body reaudit"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/summaries/source_month_deltas.csv",
+      "bytes": 1562,
+      "sha256": "112975a58de9ccb1fbcaac0951b4accb92001a7def7026c37a31d3d073c51f49",
+      "scope": "accepted phaseA; referenced without reexport"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/summaries/collection_manifest.json",
+      "bytes": 11966,
+      "sha256": "4d2eb91a63f1bab9ad800034fe93e72c46df7809e166dc5be345526a609db5cf",
+      "scope": "accepted phaseA; referenced without reexport"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/summaries/native_operation_peak_summary.json",
+      "bytes": 648,
+      "sha256": "de2938d67767e074c6d739f6a8c686bb71f92b31cab1ce195c79c5fed3298681",
+      "scope": "accepted phaseA; referenced without reexport"
+    }
+  ],
+  "full_calendars_registries_frames_panels_not_reexported": true,
+  "additional_accounting_roots": [
+    "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social",
+    "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social"
+  ],
+  "additional_social_bytes_at_binding": 9455144
+}

@@ -1,0 +1,110 @@
+{
+  "rounds": [
+    {
+      "round": "broader_history",
+      "stream": "newspaper",
+      "authorized_hours": 4,
+      "new_comparable_units": 2592,
+      "new_separate_supplement_articles": 0,
+      "recorded_request_attempts": 436,
+      "units_per_authorized_hour": 648.0,
+      "units_per_recorded_request": 5.944954128440367,
+      "rate_denominator": "authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+    },
+    {
+      "round": "broader_history",
+      "stream": "social",
+      "authorized_hours": 4,
+      "new_comparable_units": 416529,
+      "new_separate_supplement_articles": 0,
+      "recorded_request_attempts": 1422,
+      "units_per_authorized_hour": 104132.25,
+      "units_per_recorded_request": 292.9177215189873,
+      "rate_denominator": "authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+    },
+    {
+      "round": "eight_hour",
+      "stream": "newspaper",
+      "authorized_hours": 8,
+      "new_comparable_units": 6829,
+      "new_separate_supplement_articles": 0,
+      "recorded_request_attempts": 1074,
+      "units_per_authorized_hour": 853.625,
+      "units_per_recorded_request": 6.3584729981378025,
+      "rate_denominator": "authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+    },
+    {
+      "round": "eight_hour",
+      "stream": "social",
+      "authorized_hours": 8,
+      "new_comparable_units": 66357,
+      "new_separate_supplement_articles": 0,
+      "recorded_request_attempts": 3886,
+      "units_per_authorized_hour": 8294.625,
+      "units_per_recorded_request": 17.075913535769427,
+      "rate_denominator": "authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+    },
+    {
+      "round": "four_hour",
+      "stream": "newspaper",
+      "authorized_hours": 4,
+      "new_comparable_units": 3042,
+      "new_separate_supplement_articles": 34,
+      "recorded_request_attempts": 1661,
+      "units_per_authorized_hour": 760.5,
+      "units_per_recorded_request": 1.831426851294401,
+      "rate_denominator": "authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+    },
+    {
+      "round": "four_hour",
+      "stream": "social",
+      "authorized_hours": 4,
+      "new_comparable_units": 1449,
+      "new_separate_supplement_articles": 0,
+      "recorded_request_attempts": 511,
+      "units_per_authorized_hour": 362.25,
+      "units_per_recorded_request": 2.835616438356164,
+      "rate_denominator": "authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+    }
+  ],
+  "input_receipts": [
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/newspaper/DELIVERY_SUMMARY.json",
+      "sha256": "e931cbfab1aaa60d19350a6c49a5b7d5a2c55654d5d12461ad665f9ce404f666"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social/collection_manifest.json",
+      "sha256": "8e544721d52c0febe4c370875f6b622f26065a5626e02a53edb9e27012d348b8"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/DELIVERY_SUMMARY.json",
+      "sha256": "0b29eac98fe6ea9adc524c1affa16534ac2739a359c1cb81cceddabeb026e17c"
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/collection_manifest.json",
+      "sha256": "f6b0bcba3af2fd794be4612239951e8d358cc25725e548234aefd8b6eaaefd1c"
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/newspaper/DELIVERY_SUMMARY.json",
+      "sha256": "cf441deaf0ec29bbced6655a54800afc18ebeedde320c4d9b584bc42f4edf94e"
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/A/summaries/collection_manifest.json",
+      "sha256": "4d2eb91a63f1bab9ad800034fe93e72c46df7809e166dc5be345526a609db5cf"
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/B/summaries/collection_manifest.json",
+      "sha256": "f1dd5b17aee3e1a159b996afee134fd0a5f6f6639666c5abc41e758748416557"
+    }
+  ],
+  "four_vs_eight_hour_rate_change": {
+    "newspaper": -0.10909357153316734,
+    "social": -0.9563271395632714
+  },
+  "interpretation_limits": [
+    "Different source/era/native transport mixtures are not interchangeable quantities.",
+    "Authorized-hour rates are realized window yields, not active CPU or HTTP throughput.",
+    "The earlier large technical-list addition does not establish broad public-community coverage.",
+    "No expected natural distribution, archive denominator or causal throughput attribution is inferred."
+  ]
+}

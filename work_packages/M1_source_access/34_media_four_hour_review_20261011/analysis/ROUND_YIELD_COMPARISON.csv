@@ -1,0 +1,7 @@
+round,stream,authorized_hours,new_comparable_units,new_separate_supplement_articles,recorded_request_attempts,units_per_authorized_hour,units_per_recorded_request,rate_denominator
+broader_history,newspaper,4,2592,0,436,648.0,5.944954128440367,"authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+broader_history,social,4,416529,0,1422,104132.25,292.9177215189873,"authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+eight_hour,newspaper,8,6829,0,1074,853.625,6.3584729981378025,"authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+eight_hour,social,8,66357,0,3886,8294.625,17.075913535769427,"authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+four_hour,newspaper,4,3042,34,1661,760.5,1.831426851294401,"authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"
+four_hour,social,4,1449,0,511,362.25,2.835616438356164,"authorized hours, including preparation and capacity-stopped time; not measured active worker throughput"

@@ -1,0 +1,204 @@
+{
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "partial_end_month": true,
+  "fixed_window_deadline_at_utc": "2026-10-11T01:44:10.127246+00:00",
+  "frames": [
+    {
+      "stream": "newspaper",
+      "frame": "final_comparable_legacy_v1",
+      "units": 30704,
+      "observed_months": 461,
+      "zero": 4,
+      "one": 12,
+      "exactly_two": 9,
+      "three_to_nine": 65,
+      "ten_to_49": 163,
+      "fifty_plus": 212
+    },
+    {
+      "stream": "newspaper",
+      "frame": "final_newspaper_family_v2",
+      "units": 30738,
+      "observed_months": 465,
+      "zero": 0,
+      "one": 12,
+      "exactly_two": 9,
+      "three_to_nine": 69,
+      "ten_to_49": 163,
+      "fifty_plus": 212
+    },
+    {
+      "stream": "newspaper",
+      "frame": "frozen_legacy_baseline_v1",
+      "units": 27662,
+      "observed_months": 461,
+      "zero": 4,
+      "one": 15,
+      "exactly_two": 15,
+      "three_to_nine": 149,
+      "ten_to_49": 83,
+      "fifty_plus": 199
+    },
+    {
+      "stream": "social",
+      "frame": "final_social_A_B_merged",
+      "units": 988701,
+      "observed_months": 343,
+      "zero": 122,
+      "one": 0,
+      "exactly_two": 1,
+      "three_to_nine": 3,
+      "ten_to_49": 7,
+      "fifty_plus": 332
+    },
+    {
+      "stream": "social",
+      "frame": "frozen_social_baseline",
+      "units": 987252,
+      "observed_months": 343,
+      "zero": 122,
+      "one": 0,
+      "exactly_two": 1,
+      "three_to_nine": 3,
+      "ten_to_49": 7,
+      "fifty_plus": 332
+    }
+  ],
+  "distribution_shares": {
+    "final_comparable_legacy_v1": {
+      "full_history_2026_share": 0.0379755080771235,
+      "matched_Jan_Aug_2016_2026_share_of_2026": 0.1315200753561757
+    },
+    "final_newspaper_family_v2": {
+      "full_history_2026_share": 0.03793350250504262,
+      "matched_Jan_Aug_2016_2026_share_of_2026": 0.1315200753561757
+    },
+    "final_social_A_B_merged": {
+      "full_history_2026_share": 0.16782728044171089,
+      "matched_Jan_Aug_2016_2026_share_of_2026": 0.5443570688945353,
+      "baseline_source_frame_matched_2026_share": 0.5443570688945353
+    },
+    "frozen_legacy_baseline_v1": {
+      "full_history_2026_share": 0.03582531993348276,
+      "matched_Jan_Aug_2016_2026_share_of_2026": 0.12358960902650223
+    },
+    "frozen_social_baseline": {
+      "full_history_2026_share": 0.16807360228188953,
+      "matched_Jan_Aug_2016_2026_share_of_2026": 0.5444680143082938
+    }
+  },
+  "social_merge": {
+    "deduplication_mode": "stable_body_keys",
+    "overlapping_phase_keys_merged_once": 0,
+    "phase_ids": [
+      "A",
+      "B"
+    ],
+    "merged_dated_increment": 1449,
+    "phase_A_outputs_preserved": true
+  },
+  "family_only_IDs": 34,
+  "family_only_recovered_months": [
+    "1988-11",
+    "1988-12",
+    "1989-04",
+    "1990-11"
+  ],
+  "named_unit_counts": [
+    {
+      "stream": "newspaper",
+      "source_unit_class": "newspaper_title",
+      "contributing_named_units": 30
+    },
+    {
+      "stream": "social",
+      "source_unit_class": "civic_list",
+      "contributing_named_units": 1
+    },
+    {
+      "stream": "social",
+      "source_unit_class": "discussion_forum",
+      "contributing_named_units": 16
+    },
+    {
+      "stream": "social",
+      "source_unit_class": "platform_instance",
+      "contributing_named_units": 8
+    },
+    {
+      "stream": "social",
+      "source_unit_class": "qa_community",
+      "contributing_named_units": 7
+    },
+    {
+      "stream": "social",
+      "source_unit_class": "technical_list",
+      "contributing_named_units": 2
+    }
+  ],
+  "source_classification_coverage": [
+    {
+      "stream": "newspaper",
+      "contributing_source_IDs": 30,
+      "named_classified_source_IDs": 30,
+      "unclassified_source_IDs": 0
+    },
+    {
+      "stream": "social",
+      "contributing_source_IDs": 39,
+      "named_classified_source_IDs": 37,
+      "unclassified_source_IDs": 2
+    }
+  ],
+  "source_ID_counts_are_not_independent_parents": true,
+  "joint_csv_policy": "all source-month cells reconciled in memory; unchanged cells omitted from the new derived changed-cell table; original inputs preserved by hash references",
+  "archive_completeness_not_established": true,
+  "climate_emotion_fear_labels_executed": false,
+  "terminal_acceptance": {
+    "metadata_frozen": true,
+    "changed_tranche_accepted": true,
+    "fixed_deadline_at_utc": "2026-10-11T01:44:10.127246+00:00",
+    "verification_scope": "Selected final metadata hashes and accepted owner changed-tranche checks; no coordinator store/raw/body reads",
+    "writers": {
+      "newspaper": {
+        "writer_exited": true,
+        "mutex_free": true,
+        "source_requests_stopped_at_utc": "2026-10-11T01:43:54.070762+00:00",
+        "evidence_refs": [
+          {
+            "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/TERMINAL_WRITER_EXIT.json",
+            "sha256": "f108ce9204b3205632f2445a0abe529a171dac3798ee0f2824c881d7cb2e5ed5"
+          },
+          {
+            "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/CHANGED_TRANCHE_FINAL_CHECK.json",
+            "sha256": "2e12a779faf938c55c9eef8181f276f25f52b56960881529b734ff2677232262"
+          }
+        ]
+      },
+      "social": {
+        "writer_exited": true,
+        "mutex_free": true,
+        "source_requests_stopped_at_utc": "2026-10-10T23:18:56.615003+00:00",
+        "evidence_refs": [
+          {
+            "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/FINAL_DELIVERY_VERIFICATION.json",
+            "sha256": "700d561f881c25b89983ff4ccaa5f744878123eb4a728d573402fdf23babc3a9"
+          },
+          {
+            "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/append_h1_capacity_correction/FINAL_DELIVERY_VERIFICATION.json",
+            "sha256": "cc5d04b162f032db1480e43d691e3476199e6c49fc3facb4a0758be4b2e41470"
+          },
+          {
+            "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_four_hour_after_eight_hour/CHECKS/HOUR2_SOCIAL_REVIEW.json",
+            "sha256": "baaf634687d2186af0ba54e02308e039581568f8ddf991c2582e781d9e6b6322"
+          }
+        ]
+      }
+    },
+    "no_new_release_or_extension": true
+  },
+  "missing_optional_inputs": []
+}

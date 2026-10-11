@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-10T23:21:02.707968+00:00",
+  "changed_loads_checked": 190,
+  "passed": true,
+  "max_observed_complete_peak_upper_bytes": 1391352,
+  "max_ratio_to_reserved": 0.038960851310248734,
+  "accepted_prior_peak_summary_reference": {
+    "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/summaries/native_operation_peak_summary.json",
+    "bytes": 648,
+    "sha256": "de2938d67767e074c6d739f6a8c686bb71f92b31cab1ce195c79c5fed3298681",
+    "scope": "accepted phaseA; referenced without reexport"
+  }
+}

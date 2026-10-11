@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "at_utc": "2026-10-11T00:48:25.693322+00:00",
+  "units": {
+    "cambridge_news_nz:article:194": {
+      "article_id": "cambridge_news_nz:article:194",
+      "source_id": "cambridge_news_nz",
+      "source_url": "https://www.cambridgenews.nz/2017/06/example-sports-headline/",
+      "original_load_status": "confirmed_complete",
+      "original_loaded_at_utc": "2026-10-10T15:26:13.121195+00:00",
+      "version_id": "cambridge_news_nz:article:194:body:0dfa875228d2451b8b587bef",
+      "body_sha256": "0dfa875228d2451b8b587bef09e6c4f51274fc848af60e8437e158bc1dbed196",
+      "raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261010_eight_hour_focused_repair/worker/raw/ff9cff7522884bc1e64c290a.bin.gz",
+      "raw_sha256": "0afeec6dba16bc074af313b88a5016f36017ac736ac103db6240dbba23a7b699",
+      "request_id": "ff9cff7522884bc1e64c290a",
+      "derived_status": "verified_publisher_example_template",
+      "countable_complete_article": false,
+      "basis": "Exact publisher Example Sports Headline and retained placeholder copy, corroborated by native metadata document 8b2a182780e81a37dd797c69. Generated native ID/date/Article schema do not establish an independently published article.",
+      "original_database_row_ID_and_versions_preserved": true,
+      "no_topic_emotion_language_or_length_filter": true
+    },
+    "gippsland_times:post:8980": {
+      "article_id": "gippsland_times:post:8980",
+      "source_id": "gippsland_times",
+      "source_url": "https://www.gippslandtimes.com.au/sport/2014/08/01/vlad-busy-at-bairnsdale/",
+      "publication_date": "2014-08-01",
+      "request_id": "f54b55c8a458abc3765c58c1",
+      "version_id": "gippsland_times:post:8980:body:82581402784e35fa5495b3a7",
+      "body_sha256": "82581402784e35fa5495b3a7fe8586613807882a5eeb485c9e268e8768e2a10b",
+      "raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/raw/f54b55c8a458abc3765c58c1.bin.gz",
+      "raw_sha256": "414526553590b939f0d3a0e65318f0d403c9414d81e10b97ce09209024773918",
+      "countable_complete_article": false,
+      "derived_disposition": "pending_original_complete_article_membership_access",
+      "reason": "Exact original source article body contains MemberPress unauthorized excerpt and login form; matching public JSON/HTML preview does not establish a complete original article",
+      "public_HTML_raw_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/raw/de5e5187f85b3acdf0cfd6df.bin.gz",
+      "public_HTML_raw_sha256": "b02b6303142141debbbc91f764ab0524df51cbb71cc29f298fc956185874ef44",
+      "derived_access_boundary": {
+        "kind": "publisher_MemberPress_unauthorized_article_excerpt_and_login_form",
+        "body_selector": ".td-post-content",
+        "form_action": "https://www.gippslandtimes.com.au/login/",
+        "form_method": "post",
+        "article_original_complete_body_unverified": true,
+        "login_or_account_attempted": false
+      },
+      "SQL_ID_versions_Load_logs_raw_and_counters_preserved": true,
+      "semantic_or_length_exclusion": false,
+      "evidence_reference": "NAMED_GIPPSLAND_ACCESS_MAPPING_EVIDENCE.json"
+    }
+  },
+  "scope": "Named structural native-unit disposition only; derived current/new article counts; no database or historical log mutation",
+  "timing_correction": "Original Load at15:26:13.121195 preceded queue hold at15:26:14.509595. Earlier no-Load wording is superseded by this exact committed evidence.",
+  "live_writer_unchanged": true
+}

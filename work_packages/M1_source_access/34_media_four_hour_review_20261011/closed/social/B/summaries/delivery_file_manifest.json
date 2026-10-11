@@ -1,0 +1,111 @@
+{
+  "at_utc": "2026-10-10T23:21:02.718339+00:00",
+  "files": [
+    {
+      "path": "summaries/raw_object_catalog.csv",
+      "bytes": 128179,
+      "sha256": "8123c4914e6d500d1bb743ac9b80be5a9aba1a6860a01e1579493edb86f2c7c2"
+    },
+    {
+      "path": "summaries/native_mapping_issues.csv",
+      "bytes": 55,
+      "sha256": "f884ad1c5bb648aea6d776f6449abf35164dcba4a3ece02154a0f9c2629f8433"
+    },
+    {
+      "path": "summaries/new_native_entities.csv.gz",
+      "bytes": 8237,
+      "sha256": "d84ed98c1a13a9f040d82890fe64d1dedf9105240a532092d677c00401e0a904"
+    },
+    {
+      "path": "summaries/changed_entity_versions.csv.gz",
+      "bytes": 43959,
+      "sha256": "8ab910c8f7c0e22dd87b2d325b807534115e77fd41f3a996ab1d29b20d81a8d4"
+    },
+    {
+      "path": "summaries/new_entity_observations.csv.gz",
+      "bytes": 18628,
+      "sha256": "ef92b1933663c429eff30f2471a51165379a68f2cd06863d27fd619cd6e2e7d8"
+    },
+    {
+      "path": "summaries/new_relations.csv.gz",
+      "bytes": 29161,
+      "sha256": "6edbe5c5f8d5d743cacf9af8912a6d46fec37e459914e37a17a6617eab0bc9f2"
+    },
+    {
+      "path": "summaries/affected_incoming_relations.csv.gz",
+      "bytes": 19404,
+      "sha256": "ad3948dcf0cd3eca3d45ffbcabc1a01206d3cc6b04e9fa7194b9683467a09496"
+    },
+    {
+      "path": "summaries/new_attachment_metadata.csv.gz",
+      "bytes": 131,
+      "sha256": "322525cc38504ddc208eba681d9b19a6af65af580aeef32a2121e470e3c3c69d"
+    },
+    {
+      "path": "summaries/changed_source_provenance.csv.gz",
+      "bytes": 14819,
+      "sha256": "748676342cb81f95ed325e99a51967bac0f10401555b9632ad72b77daed394f7"
+    },
+    {
+      "path": "summaries/affected_native_aliases.csv.gz",
+      "bytes": 10809,
+      "sha256": "cdf21d48eebac5a2c3e799e962cbb7176a604603c1e508c86ed6c2b681f8f989"
+    },
+    {
+      "path": "summaries/affected_publication_memberships.csv.gz",
+      "bytes": 15913,
+      "sha256": "77d91e0e45ca9ef1ba556fe37216b76535bd2490ba4d23552fe9480696643c7f"
+    },
+    {
+      "path": "summaries/changed_date_limits.csv.gz",
+      "bytes": 431,
+      "sha256": "70e52efbb268f7953caaaddda646a53ce0b2dd6675e97d8c5055ad9866b2a9fa"
+    },
+    {
+      "path": "summaries/source_month_deltas.csv",
+      "bytes": 691,
+      "sha256": "4a02eb471c0bc2c2e2838196f265200bbd0253c102bcd59ac393002f95e1b493"
+    },
+    {
+      "path": "summaries/changed_source_month_neighbor_context.csv",
+      "bytes": 8801,
+      "sha256": "01e63734ce5a2ce23f6d0a1f16ace9c6430a6ba45917d9064d9f80b6b8551303"
+    },
+    {
+      "path": "summaries/source_era_deltas.csv",
+      "bytes": 734,
+      "sha256": "255622cd476ce397d68580e2ceaf704815f2169e3e055c52fa97ff060abeb214"
+    },
+    {
+      "path": "summaries/native_operation_peak_summary.json",
+      "bytes": 618,
+      "sha256": "ac8136fdf5b6a183ea88a128d010b69311050013a230e8c348fb8ed63f367ed9"
+    },
+    {
+      "path": "summaries/inherited_metadata_references.json",
+      "bytes": 4068,
+      "sha256": "c2f2a4c8efb0729fb97d1135fae36aa04ab0b9e587ad24f2452604e2fd1ff43e"
+    },
+    {
+      "path": "summaries/SOCIAL_COLLECTION_REPORT.md",
+      "bytes": 3784,
+      "sha256": "eb0e02f7ea34a13299b93a82cc498ef3cb079c14d17877b994c458680e30440c"
+    },
+    {
+      "path": "summaries/implementation_source_manifest.json",
+      "bytes": 3450,
+      "sha256": "abec97a929972768e00e55bd68e42615d5cde397193a3e98076f85b922e19bb3"
+    },
+    {
+      "path": "summaries/combined_collection_manifest.json",
+      "bytes": 2336,
+      "sha256": "a3de568a9ae6279856bbec36e5dcaf13ed4ad981c331eef6d177a26896516059"
+    },
+    {
+      "path": "summaries/collection_manifest.json",
+      "bytes": 35950,
+      "sha256": "f1dd5b17aee3e1a159b996afee134fd0a5f6f6639666c5abc41e758748416557"
+    }
+  ],
+  "publication_boundary": "implementation and finalized changed tables/manifests/research summary; referenced prior cumulative outputs; runtime/raw/queues/controls stay local"
+}

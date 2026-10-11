@@ -1,0 +1,121 @@
+{
+  "at_utc": "2026-10-11T01:58:48.367324+00:00",
+  "publication_window_closed": true,
+  "source_requests_and_Loads_performed": 0,
+  "accounting_method": "Canonical disjoint roots by physical file size, excluding symlinks and .git; all Python caches count. Global project documentation versions charged in full conservatively.",
+  "shared_cumulative_bytes": 17534242885,
+  "social_cumulative_bytes": 14894197579,
+  "shared_cap_bytes": 30000000000,
+  "social_cap_bytes": 15000000000,
+  "shared_nominal_remaining_bytes": 12465757115,
+  "social_nominal_remaining_bytes": 105802421,
+  "actual_free_bytes": 47348969472,
+  "physical_floor_bytes": 16106127360,
+  "recovery_bytes": 50331648,
+  "physical_after_largest_atomic_companion_bytes": 31191842201,
+  "joint_final_bytes_including_inputs_code_caches_and_manifest": 3418257,
+  "joint_maximum_atomic_companion_bytes": 668263,
+  "joint_conservative_peak_bytes": 4086520,
+  "joint_peak_limit_bytes": 4194304,
+  "joint_single_artifact_limit_bytes": 1048576,
+  "A_actual_publication_bytes": 1028110,
+  "A_future_publication_limit_bytes": 2097152,
+  "B_actual_publication_and_global_docs_bytes": 1524974,
+  "B_separate_output_publication_limit_bytes": 4194304,
+  "global_document_version_bytes": 322565,
+  "shared_roots": [
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/newspaper",
+      "bytes": 1360310
+    },
+    {
+      "path": "work_packages/M1_source_access/23_newspaper_acquisition_and_transition_20261005/transition_research/acquisition_followthrough_20261005",
+      "bytes": 80408853
+    },
+    {
+      "path": "work_packages/M1_source_access/24_newspaper_coverage_successor_20261006",
+      "bytes": 22873704
+    },
+    {
+      "path": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006",
+      "bytes": 498693901
+    },
+    {
+      "path": "work_packages/M1_source_access/26_newspaper_production_collection_20261006",
+      "bytes": 678557844
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008",
+      "bytes": 16111307284
+    },
+    {
+      "path": "work_packages/M1_source_access/28_media_identity_coverage_and_lakehouse_20261009",
+      "bytes": 17717648
+    },
+    {
+      "path": "work_packages/M1_source_access/29_media_round_review_20261010",
+      "bytes": 18843092
+    },
+    {
+      "path": "work_packages/M1_source_access/30_media_2026_source_review_20261010",
+      "bytes": 5974687
+    },
+    {
+      "path": "work_packages/M1_source_access/31_media_joint_validation_20261010",
+      "bytes": 6617831
+    },
+    {
+      "path": "work_packages/M1_source_access/32_media_design_targets_20261010",
+      "bytes": 1746998
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011",
+      "bytes": 60462630
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011",
+      "bytes": 29355538
+    }
+  ],
+  "social_roots": [
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api",
+      "bytes": 14878771094
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social",
+      "bytes": 6009567
+    },
+    {
+      "path": "work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/broader_history/social",
+      "bytes": 3445577
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social",
+      "bytes": 2230519
+    }
+  ],
+  "documents": [
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "bytes": 41472,
+      "sha256": "81147eb72850ec79e1570bd3dd70068e41ecff2236a4e5c98f287cd4440671a6"
+    },
+    {
+      "path": "docs/PROJECT_LOG.md",
+      "bytes": 281093,
+      "sha256": "9b483c3950fe40fa6e8c8424e0af9988e2b914ee853b3cdc767db84d7d8123b4"
+    }
+  ],
+  "original_code_metadata_copy_hashes_verified": 155,
+  "report_artifact_hashes_verified": 44,
+  "all_originals_preserved": true,
+  "corpus_raw_body_or_store_read": false,
+  "no_next_operation_fit_claim": "This is final publication accounting, not a production preflight or authority to restart; the accepted capacity stop remains preserved.",
+  "full_hash_manifests": [
+    "CLOSED_PUBLICATION_MANIFEST.json",
+    "analysis/finalized/FINAL_MANIFEST.json",
+    "analysis/VISUAL_QA.json",
+    "analysis/YIELD_REVIEW.json"
+  ]
+}

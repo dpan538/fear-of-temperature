@@ -1,0 +1,332 @@
+{
+  "delivery_format": "PNG",
+  "terminal_inputs": [
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/newspaper/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "sha256": "5c6bebd927ba6ba2cc8e1871794ce5a1cfc7d19a2e2e0f952236a7c64d318dd8",
+      "bytes": 9010755
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/33_media_eight_hour_review_20261011/closed/eight_hour/social/source_month_calendar.csv",
+      "sha256": "7872e801c49dffc0f3a08fce2ab7848415ca885fc51f3ca20471a66a166c2fac",
+      "bytes": 2115471
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/inputs/terminal_acceptance.json",
+      "sha256": "56c053b2331df329db1cdd647a5c0e9ee01bb99282b0edf8c2588ce94dce0fc5",
+      "bytes": 2189
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/newspaper/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "sha256": "a68859d8632d110478a5539ad9e14b5c731a05cf501be2202015f0976dfc91ec",
+      "bytes": 9956735
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/newspaper/FAMILY_METADATA_REGISTER.csv",
+      "sha256": "6b4d013d85cb27a736cfc7fd85486a650b07935f04155c5feb1f8ea675e81e92",
+      "bytes": 4553809
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/FINAL_SOURCE_MONTH_CALENDAR.csv",
+      "sha256": "b901267f00e350ece0bc49951cefd33174f70b09f63a5366c03ed28e543d5722",
+      "bytes": 638537
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/A/summaries/source_month_deltas.csv",
+      "sha256": "112975a58de9ccb1fbcaac0951b4accb92001a7def7026c37a31d3d073c51f49",
+      "bytes": 1562
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/A/NEW_INDEPENDENT_DATED_BODY_KEYS.csv",
+      "sha256": "26ca926aab5aaa46a7bbb63847b1b68680f211eb7e67d73fcac34ab84b2355c3",
+      "bytes": 71822
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/B/summaries/source_month_deltas.csv",
+      "sha256": "4a02eb471c0bc2c2e2838196f265200bbd0253c102bcd59ac393002f95e1b493",
+      "bytes": 691
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/social/B/NEW_INDEPENDENT_DATED_BODY_KEYS.csv",
+      "sha256": "a0668ff9292d999d20d9459547247576707741c09d6dbae09d4fe6af990aabbd",
+      "bytes": 18383
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/inputs/source_units.csv",
+      "sha256": "9d46895d145b50b14c498f7d017ae840c0e99de98319ef79b8cb3c1c53dd3620",
+      "bytes": 14218
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/inputs/parent_assertions.csv",
+      "sha256": "54b327bbf77aee033656b44545db33b776e23b7da45a844c28a50a492d1bd4bd",
+      "bytes": 18878
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/inputs/legacy_inventory.csv",
+      "sha256": "71e2c0d40227d8b766f69db1cda82737b08dde744def9bb27a3e0875eaaeb614",
+      "bytes": 15861
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/inputs/evidence_dispositions.csv",
+      "sha256": "1ce7296d57902534f43dca06a95b4ee7dc21bff911ec0008f74345ac0bd1978b",
+      "bytes": 1368
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/inputs/capacity_observations.csv",
+      "sha256": "890ef6a944d2cead98eccd881f33aceca166ca319020168421c6a267e5d84704",
+      "bytes": 674
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/inputs/publication_charges.csv",
+      "sha256": "21b28bfe44c279a0810e40c7cdbb6c7bbbb361a904bc8b0443ab45a4cd757199",
+      "bytes": 14608
+    }
+  ],
+  "script_refs": [
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/analyze_report.py",
+      "sha256": "a437e567e70af6075daabcf21a7299d08597a8bea7f540567646b6569777f04b"
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/render_report.py",
+      "sha256": "aa00995555cd7ba8648069829262d3a56826dd78a7f7a13535a8d634dc5f6022"
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/qa_memory.py",
+      "sha256": "381449a6d5bbc1adedd4188a960c31c080febe74812207b41d93319c00b9dd30"
+    },
+    {
+      "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/34_media_four_hour_review_20261011/analysis/finalize_report.py",
+      "sha256": "2ab3c4e668ea11b0cff1b9e69fd97a40e8adc7cc51329e9720f33876f6fbc23a"
+    }
+  ],
+  "manual_visual_inspection_required": true,
+  "manifest_self_hash_excluded": true,
+  "source_preflight_format_exception": {
+    "check_id": "EXPORT-VECTOR",
+    "reason": "The user requests PNG-only final delivery; the actual generated PDF is audited in memory, without persisted SVG/PDF duplication",
+    "other_failures_block_output": true
+  },
+  "artifacts": [
+    {
+      "path": "FIGURE_CONTRACT.json",
+      "bytes": 2397,
+      "sha256": "21b05112e59466bd14721fd579718752dd297cefecd3d34fb0fb0bca6a0481fe"
+    },
+    {
+      "path": "INPUT_RECEIPT.json",
+      "bytes": 4820,
+      "sha256": "2cfb3d36de8efeeedae7984ac9e1aff9cce215965c28089a1ecccd1e1e227ab9"
+    },
+    {
+      "path": "METRICS.json",
+      "bytes": 6579,
+      "sha256": "8e6a1614c438c225fd6fd4519bd28c04fae16f7f38bd4f1dfe7f5bdacdaab5c9"
+    },
+    {
+      "path": "OUTPUT_FOOTPRINT.json",
+      "bytes": 238,
+      "sha256": "c8d83aab6cfe13043e60c1ec82bb75fb71d1fcc72d106a7c53da61d58d3eb50f"
+    },
+    {
+      "path": "REPORT_NOTES.md",
+      "bytes": 1253,
+      "sha256": "2c9c882a82d962ff7033b6a54d18089ed2d980140b8c6389191e21382585eea8"
+    },
+    {
+      "path": "annual_frames.csv",
+      "bytes": 8491,
+      "sha256": "0f3d1db10215c9876e17eeb17077e71fbf3236e938c50da3f6cfdbe1259069f9"
+    },
+    {
+      "path": "capacity_observations.csv",
+      "bytes": 671,
+      "sha256": "8a90e6061ba0f3999280ebdb008d436c5292a65904c2244c1179a6ca77ad839a"
+    },
+    {
+      "path": "evidence_dispositions.csv",
+      "bytes": 1359,
+      "sha256": "650ccfade59f3078c961454b113309249a8f57ccbcb3c0079f764a54100077c4"
+    },
+    {
+      "path": "figures/01_frame_coverage_and_depth.png",
+      "bytes": 264335,
+      "sha256": "a07ffb12182ce3941ea03ef847085faad6bdf2be21b3e7459ca9700109997a57"
+    },
+    {
+      "path": "figures/02_time_distribution.png",
+      "bytes": 668263,
+      "sha256": "3650dea026218db73f96b698cea247c9e3bd746f45c51dce9333039459e768de"
+    },
+    {
+      "path": "figures/03_matched_recent_years.png",
+      "bytes": 422132,
+      "sha256": "372eeba5942707203213cc995ecd71557c6114e9c6e8a7f034b726fb53aee98e"
+    },
+    {
+      "path": "figures/04_source_genre_era.png",
+      "bytes": 574744,
+      "sha256": "5d0a490a4647996eaa6e1255b9e7f0f27013266bde15428b51f0713441a69b2b"
+    },
+    {
+      "path": "figures/05_legacy_inventory_and_evidence.png",
+      "bytes": 446187,
+      "sha256": "842b950bf7daf7bd9d812a1b48dd57907527f57510e8ae2a362320b98e89f424"
+    },
+    {
+      "path": "figures/06_parent_mapping_unknowns.png",
+      "bytes": 235731,
+      "sha256": "8b50d5670abf53f832330ee187ee608f405de9e44092094dbcbb330c516f029a"
+    },
+    {
+      "path": "figures/07_capacity_and_stops.png",
+      "bytes": 255852,
+      "sha256": "0f4f46bc521fef93eef2846305ea63fa12e89f5f738a21494310d14693c5f630"
+    },
+    {
+      "path": "frame_summary.csv",
+      "bytes": 400,
+      "sha256": "c0108b1adccf1c022599f6c4c0d24dfbc45d894dc1402439c2f9f458f47f7b50"
+    },
+    {
+      "path": "legacy_inventory.csv",
+      "bytes": 15744,
+      "sha256": "3a93ff7526a8bffe1478c6ca9f9e238376265d0f491ffb39079f69da8b4fb8f4"
+    },
+    {
+      "path": "matched_Jan_Aug_2016_2026.csv",
+      "bytes": 2423,
+      "sha256": "dcf418db4e34fbbcb463ae9e6e8cce6d6e9e2a29be4e82a7f1ba0eded6c601f1"
+    },
+    {
+      "path": "monthly_frames.csv",
+      "bytes": 117079,
+      "sha256": "3c23a16db5d2882beb3ba466c89b86529b92fca457956d94a998542e75766197"
+    },
+    {
+      "path": "named_source_units.csv",
+      "bytes": 199,
+      "sha256": "31acf2b21a528f0c02a91a93f324328470753761214d1a2da1b59efc7911cca1"
+    },
+    {
+      "path": "newspaper_family_only_membership.csv",
+      "bytes": 11029,
+      "sha256": "84fec359a8006144e016df9c46f7ada6fdab8177aa7712b05c82498b10c22ee8"
+    },
+    {
+      "path": "newspaper_family_only_source_month.csv",
+      "bytes": 130,
+      "sha256": "8cdddc140c331daab2204938b55055fdaee93e3a08364a10ba85fa6864ee763a"
+    },
+    {
+      "path": "parent_dimension_coverage.csv",
+      "bytes": 19640,
+      "sha256": "adba5424e6035560b8eeb64bbe5285153ed812511576cb34b417c4c83d90d77e"
+    },
+    {
+      "path": "publication_charges.csv",
+      "bytes": 14520,
+      "sha256": "2522c5aa0a9d925a005cfb3316bd5b1b8f386347d4410dec9c2b8ed28747f15b"
+    },
+    {
+      "path": "qa/01_frame_coverage_and_depth.alignment.json",
+      "bytes": 1285,
+      "sha256": "58c69a27138eebabf5a884ea6b0a8cd8fccffbffbab45956c28f1d2d319f70cd"
+    },
+    {
+      "path": "qa/01_frame_coverage_and_depth.rendered.json",
+      "bytes": 786,
+      "sha256": "acb82d49276bea6e74a033452a976eb3c6117a6529e469030a76d61d056cfd5d"
+    },
+    {
+      "path": "qa/02_time_distribution.alignment.json",
+      "bytes": 2240,
+      "sha256": "9fe4d051923b011650f72e6befd003cae5aadfb12aa79e19557a40ef518b28f2"
+    },
+    {
+      "path": "qa/02_time_distribution.rendered.json",
+      "bytes": 786,
+      "sha256": "60e3656ab007d9509849c469f0bb6823435049e305d0b1e59d5f3136e4332fee"
+    },
+    {
+      "path": "qa/03_matched_recent_years.alignment.json",
+      "bytes": 1585,
+      "sha256": "da9edf89d560d49550b4372fc0cbc0470092226d1d1250d71105f226dbc111f7"
+    },
+    {
+      "path": "qa/03_matched_recent_years.rendered.json",
+      "bytes": 788,
+      "sha256": "643f469f6025a35d9842bc65af34a5c3f11970c393e517f64d3ac2ed8bca68c0"
+    },
+    {
+      "path": "qa/04_source_genre_era.alignment.json",
+      "bytes": 1270,
+      "sha256": "bc2b0cf61c6c878e4ae800289f17eaddad5f2394b54cc498d3882ec874aebbc4"
+    },
+    {
+      "path": "qa/04_source_genre_era.rendered.json",
+      "bytes": 788,
+      "sha256": "3d8cf5ffbc07e51c24b3bfb9c88e71d7656323343a2e0a564a052343a7eec4bd"
+    },
+    {
+      "path": "qa/05_legacy_inventory_and_evidence.alignment.json",
+      "bytes": 1285,
+      "sha256": "58c69a27138eebabf5a884ea6b0a8cd8fccffbffbab45956c28f1d2d319f70cd"
+    },
+    {
+      "path": "qa/05_legacy_inventory_and_evidence.rendered.json",
+      "bytes": 786,
+      "sha256": "41f573b95d51448a6e8518199e496b53c87bb5a0f1333d96d9292cf9e8aebc67"
+    },
+    {
+      "path": "qa/06_parent_mapping_unknowns.alignment.json",
+      "bytes": 1274,
+      "sha256": "e4bb7bc94a286586cc5c0320b1cbe01423b1b71ac4a3f25135d34ec9c40b855b"
+    },
+    {
+      "path": "qa/06_parent_mapping_unknowns.rendered.json",
+      "bytes": 786,
+      "sha256": "55a5a11da4d5e3945080decb7f08d0f2d53cf785ac3f4c0b631b3269572b72af"
+    },
+    {
+      "path": "qa/07_capacity_and_stops.alignment.json",
+      "bytes": 1274,
+      "sha256": "e4bb7bc94a286586cc5c0320b1cbe01423b1b71ac4a3f25135d34ec9c40b855b"
+    },
+    {
+      "path": "qa/07_capacity_and_stops.rendered.json",
+      "bytes": 786,
+      "sha256": "9b0c23030011e213b45be22ca62612df76df0237ff6f4b022ab51c4d3f52dee2"
+    },
+    {
+      "path": "qa/QA_SUMMARY.json",
+      "bytes": 1101,
+      "sha256": "e34070a832c4dba069360d1b41c63474c27698187437bf9267a478e97466c788"
+    },
+    {
+      "path": "qa/source_preflight.json",
+      "bytes": 4367,
+      "sha256": "ab341be6c3edf8aa73bfb3ba79f79714e4a3a8d0344ee25ecd953de2413ef989"
+    },
+    {
+      "path": "social_matched_baseline_source_frame.csv",
+      "bytes": 193,
+      "sha256": "768ca78f67f2c2565518139883d4cfd10f4900c28ec82d86c973bb07ac59b415"
+    },
+    {
+      "path": "social_phase_positive_deltas.csv",
+      "bytes": 1680,
+      "sha256": "81f2064be4bb629d25d0726fdc37dac2addc22c172a117d1d919a56641189850"
+    },
+    {
+      "path": "social_source_month_changed_cells.csv",
+      "bytes": 1682,
+      "sha256": "da5983ee44d9a3d496fbafccc6ef7b19b7573e6f93e093c99cf107f6c34f1cd3"
+    },
+    {
+      "path": "source_contributions_genre_era.csv",
+      "bytes": 17049,
+      "sha256": "d949c02a2e180961f212814d556ddad48a14e9c9d44420bbcefdb36a190d53f9"
+    }
+  ]
+}

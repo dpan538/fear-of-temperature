@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-10-10T22:28:20.836705+00:00",
+  "changed_loads_checked": 331,
+  "passed": true,
+  "max_observed_complete_peak_upper_bytes": 2508024,
+  "max_ratio_to_reserved": 0.0665284684476107,
+  "accepted_prior_peak_summary_reference": {
+    "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261010_eight_hour_focused_repair/worker/summaries/native_operation_peak_summary.json",
+    "bytes": 4024,
+    "sha256": "dddd32561ced06337b111aa6dedec5aa2482caa20e9f29522b3acea8791cf164",
+    "scope": "accepted cumulative predecessor; referenced without reexport or body reaudit"
+  }
+}

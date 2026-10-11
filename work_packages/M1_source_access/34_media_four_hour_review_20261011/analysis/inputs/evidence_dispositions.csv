@@ -1,0 +1,9 @@
+issue_id,stream,evidence_level,status,evidence_ref
+GL_live_ready_bridge,newspaper,code_fixed,Live merge and generic fallback installed; fresh cursor scheduling repaired,closed/newspaper/implementation/production.py
+GL_live_ready_bridge,newspaper,data_recovered,Fresh issues293-295 complete native article Load verified,closed/newspaper/FRESH_ISSUE_TERMINAL_REGISTER.csv
+Supplement_four_early_months,newspaper,data_recovered,34 whole archival Supplement articles retained separately,closed/newspaper/NEWSPAPER_SUPPLEMENT_ARTICLE_REGISTER.csv
+membership_preview,newspaper,code_fixed,Article-local access guard installed; one historical preview retained and marked noncountable,closed/newspaper/DERIVED_STRUCTURAL_UNIT_DISPOSITIONS.json
+social_delta_capacity,social,code_fixed,Publication accounting and settled-output reservations corrected,closed/social/B/implementation/transport.py
+social_delta_capacity,social,data_recovered,A+B1449 independently dated new authored bodies,closed/social/FINAL_SOURCE_MONTH_CALENDAR.csv
+social_delta_capacity,social,external_blocked,15GB complete-operation guard prevents further production; inventory not exhausted,closed/social/B/summaries/collection_manifest.json
+historical_source_depth,newspaper,unresolved,Legacy ready inventory and narrow early source frame remain,closed/newspaper/LEGACY_TERMINAL_QUEUE_INVENTORY.csv

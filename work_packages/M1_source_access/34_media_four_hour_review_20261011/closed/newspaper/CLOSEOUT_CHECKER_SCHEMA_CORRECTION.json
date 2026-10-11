@@ -1,0 +1,15 @@
+{
+  "at_utc": "2026-10-11T01:47:40.897534+00:00",
+  "kind": "closeout_checker_schema_assumption_correction",
+  "first_attempt_check_sha256": "497e23bce6dc2e3a9c4697eb99442e5367570b894933ac1ca950edd2c5ffce56",
+  "first_attempt_preserved_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/runtime_bindings/closeout_checker_first_attempt/CHANGED_TRANCHE_FINAL_CHECK.json",
+  "native_SQL_TEXT_without_declared_sidecar_IDs": 1990,
+  "recorded_sidecars_previously_verified": 1087,
+  "native_SQL_TEXT_hash_and_original_response_mapping_passed_in_first_attempt": true,
+  "changed_source_data_or_SQL": false,
+  "network_or_Load": false,
+  "old_body_raw_sweep": false,
+  "body_storage_contract": "Native JSON records may store durable text directly in article_versions.body_text with NULL body_reference. SQL text hash and saved native body mapping remain required. Any declared sidecar must exist and hash-match.",
+  "contract_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/elt.py:71",
+  "targeted_resolution": "Read only metadata for the exact first-attempt IDs; all 1990 have no sidecar in Load, SQL version or provenance, matching native post ID/body/raw hashes. Other first-attempt checks remain preserved."
+}

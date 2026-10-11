@@ -1,0 +1,48 @@
+{
+  "all_seven_pngs_visually_inspected": true,
+  "checks": [
+    "Readable labels and retained zero/peak bins",
+    "Distinct comparable/family newspaper frames",
+    "No clipping or unintended overlaps",
+    "Source genres and eras consistent with final metadata",
+    "Figure7 uses capacity receipt times; actual stop times are separate in README"
+  ],
+  "figures": [
+    {
+      "path": "analysis/finalized/figures/01_frame_coverage_and_depth.png",
+      "sha256": "a07ffb12182ce3941ea03ef847085faad6bdf2be21b3e7459ca9700109997a57",
+      "visual_pass": true
+    },
+    {
+      "path": "analysis/finalized/figures/02_time_distribution.png",
+      "sha256": "3650dea026218db73f96b698cea247c9e3bd746f45c51dce9333039459e768de",
+      "visual_pass": true
+    },
+    {
+      "path": "analysis/finalized/figures/03_matched_recent_years.png",
+      "sha256": "372eeba5942707203213cc995ecd71557c6114e9c6e8a7f034b726fb53aee98e",
+      "visual_pass": true
+    },
+    {
+      "path": "analysis/finalized/figures/04_source_genre_era.png",
+      "sha256": "5d0a490a4647996eaa6e1255b9e7f0f27013266bde15428b51f0713441a69b2b",
+      "visual_pass": true
+    },
+    {
+      "path": "analysis/finalized/figures/05_legacy_inventory_and_evidence.png",
+      "sha256": "842b950bf7daf7bd9d812a1b48dd57907527f57510e8ae2a362320b98e89f424",
+      "visual_pass": true
+    },
+    {
+      "path": "analysis/finalized/figures/06_parent_mapping_unknowns.png",
+      "sha256": "8b50d5670abf53f832330ee187ee608f405de9e44092094dbcbb330c516f029a",
+      "visual_pass": true
+    },
+    {
+      "path": "analysis/finalized/figures/07_capacity_and_stops.png",
+      "sha256": "0f4f46bc521fef93eef2846305ea63fa12e89f5f738a21494310d14693c5f630",
+      "visual_pass": true
+    }
+  ],
+  "automated_qa_reference": "analysis/finalized/qa/QA_SUMMARY.json"
+}

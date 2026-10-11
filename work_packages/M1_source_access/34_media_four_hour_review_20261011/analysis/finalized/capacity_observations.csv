@@ -1,0 +1,3 @@
+stream,phase_id,at_utc,observation_kind,shared_cumulative_bytes,social_cumulative_bytes,outside_store_publication_bytes,pending_reserved_bytes,physical_headroom_bytes,nominal_allocation_headroom_bytes,stop_reason,evidence_ref
+newspaper,final,2026-10-11T01:45:47.480001+00:00,closed_before_publication,17529596514,0,0,16842752,31283224576,12470403486,fixed_deadline_watchdog_interrupt,closed/newspaper/DELIVERY_SUMMARY.json
+social,B,2026-10-10T23:21:23.512281+00:00,closed_before_publication,17425779985,14888216902,9455144,78441962,30037815830,111783098,complete_operation_capacity_failure_across_permitted_small_routes,closed/social/B/summaries/collection_manifest.json

@@ -1,0 +1,69 @@
+{
+  "at_utc": "2026-10-11T01:45:29.114413+00:00",
+  "all_passed": true,
+  "SQLite_quick_check": [
+    "ok"
+  ],
+  "foreign_key_errors": 0,
+  "baseline_metadata_IDs_preserved": 36911,
+  "new_complete_IDs_checked": 3076,
+  "new_retained_Load_IDs_checked": 3077,
+  "named_structural_nonarticle_units_preserved": 2,
+  "new_unique_raw_objects_checked": 1652,
+  "errors": [],
+  "verification_scope": "All new retained SQL TEXT/raw mappings and declared sidecars, named derived structural dispositions and immutable baseline identity/date/version memberships; no old body/raw sweep",
+  "changed_tranche_raw_body_read_serialized_under_shared_heavy_io_lock": true,
+  "final_read_capacity": {
+    "at_utc": "2026-10-11T01:44:57.036052+00:00",
+    "free_bytes": 47522291712,
+    "cumulative_bytes": 17507682137,
+    "cap_bytes": 30000000000,
+    "physical_floor_bytes": 16106127360,
+    "recovery_allowance_bytes": 50331648,
+    "own_lease_bytes": 8388608,
+    "other_lease_bytes": 8388608,
+    "actual_pending_footprint_bytes": 86102986,
+    "effective_pending_and_leases_bytes": 94557130,
+    "physical_headroom": 31271275574,
+    "allocation_headroom": 12397760733
+  },
+  "baseline_native_status_IDs_preserved": true,
+  "exact_named_transport_original_rows_preserved": true,
+  "named_transport_cases": 35,
+  "fresh_issue_real_result_errors": [],
+  "fresh_issue_real_results_SQL_Load_verified": true,
+  "own_saved_request_raw_records_checked": 1652,
+  "own_saved_request_unique_stored_objects_checked": 1652,
+  "unlogged_new_SQL_article_IDs": [],
+  "logged_complete_IDs_missing_from_SQL_delta": [],
+  "own_Load_ID_SQL_conservation": true,
+  "native_HTTP_hops_max": 3,
+  "native_four_hop_ceiling_preserved": true,
+  "native_mapping_checked_counts": {
+    "publisher_original_HTML": 1005,
+    "Berkeley_original_native_story": 14,
+    "publisher_native_WP_theme_HTML": 11,
+    "publisher_native_post": 2003,
+    "matching_public_HTML_native_JSON": 283
+  },
+  "local_body_storage_counts": {
+    "native_SQL_TEXT_without_declared_sidecar": 1990,
+    "declared_sidecars_verified": 1087
+  },
+  "closeout_checker_schema_correction": {
+    "at_utc": "2026-10-11T01:47:40.897534+00:00",
+    "kind": "closeout_checker_schema_assumption_correction",
+    "first_attempt_check_sha256": "497e23bce6dc2e3a9c4697eb99442e5367570b894933ac1ca950edd2c5ffce56",
+    "first_attempt_preserved_reference": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/runtime_bindings/closeout_checker_first_attempt/CHANGED_TRANCHE_FINAL_CHECK.json",
+    "native_SQL_TEXT_without_declared_sidecar_IDs": 1990,
+    "recorded_sidecars_previously_verified": 1087,
+    "native_SQL_TEXT_hash_and_original_response_mapping_passed_in_first_attempt": true,
+    "changed_source_data_or_SQL": false,
+    "network_or_Load": false,
+    "old_body_raw_sweep": false,
+    "body_storage_contract": "Native JSON records may store durable text directly in article_versions.body_text with NULL body_reference. SQL text hash and saved native body mapping remain required. Any declared sidecar must exist and hash-match.",
+    "contract_reference": "work_packages/M1_source_access/25_newspaper_calendar_acquisition_20261006/worker/elt.py:71",
+    "targeted_resolution": "Read only metadata for the exact first-attempt IDs; all 1990 have no sidecar in Load, SQL version or provenance, matching native post ID/body/raw hashes. Other first-attempt checks remain preserved."
+  },
+  "verification_finalized_at_utc": "2026-10-11T01:47:40.897534+00:00"
+}

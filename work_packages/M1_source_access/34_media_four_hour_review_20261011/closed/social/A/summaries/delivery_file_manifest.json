@@ -1,0 +1,106 @@
+{
+  "at_utc": "2026-10-10T22:28:20.847113+00:00",
+  "files": [
+    {
+      "path": "summaries/raw_object_catalog.csv",
+      "bytes": 186685,
+      "sha256": "22d06ab6e1cccfed4f6668ed3aed5c9bfe48fc7ee823057cb11df8c629d3c467"
+    },
+    {
+      "path": "summaries/native_mapping_issues.csv",
+      "bytes": 152,
+      "sha256": "127ee17e1d07d4d4159ff08d2f276efa9f9a4b2043f00969d3dc0f72ea06cb33"
+    },
+    {
+      "path": "summaries/new_native_entities.csv.gz",
+      "bytes": 28374,
+      "sha256": "1bb197f50711fe616ba2ac274e38754f0b6ba9b529d7b3edd6989a6eceefac53"
+    },
+    {
+      "path": "summaries/changed_entity_versions.csv.gz",
+      "bytes": 161985,
+      "sha256": "21a321dac306f73ecb898ae40e554016fbd6bed15b73702fe2f1c50655981c3a"
+    },
+    {
+      "path": "summaries/new_entity_observations.csv.gz",
+      "bytes": 60429,
+      "sha256": "58a0518d4c844410bd85d3bf8dd41fe62dde136c14c311f611a5e2f17c6c60fc"
+    },
+    {
+      "path": "summaries/new_relations.csv.gz",
+      "bytes": 79665,
+      "sha256": "a44fb1fd940ccf239395f4ac7130715f29845b3d4b0202fcafcb9ec8adb5213c"
+    },
+    {
+      "path": "summaries/affected_incoming_relations.csv.gz",
+      "bytes": 68303,
+      "sha256": "5b391b1002ad805d2c2c4cf11334b792f490f2327baae744b505e483b0d75513"
+    },
+    {
+      "path": "summaries/new_attachment_metadata.csv.gz",
+      "bytes": 131,
+      "sha256": "f1ad1b4aac1e5c6045792ef51e8cc73d17819805a688a8597456888c4a4b5961"
+    },
+    {
+      "path": "summaries/changed_source_provenance.csv.gz",
+      "bytes": 55945,
+      "sha256": "12a874a23e750adc0b1e3c781b3af4eebef37f9872a8875a319126babe3d2484"
+    },
+    {
+      "path": "summaries/affected_native_aliases.csv.gz",
+      "bytes": 28073,
+      "sha256": "d7526d6e5b1dcd8efd74708da84e3ae5148b143c4f1543215bb63df8be7eaab4"
+    },
+    {
+      "path": "summaries/affected_publication_memberships.csv.gz",
+      "bytes": 60466,
+      "sha256": "577967a68c62197c77d1b1a6d7297baba2527607d1b7c754be70669fae7f7ac9"
+    },
+    {
+      "path": "summaries/changed_date_limits.csv.gz",
+      "bytes": 689,
+      "sha256": "6565b9997b22c1487b60ffb3bd3e8c43bb35d411fcfd884fbd0ef8931caf7e72"
+    },
+    {
+      "path": "summaries/source_month_deltas.csv",
+      "bytes": 1562,
+      "sha256": "112975a58de9ccb1fbcaac0951b4accb92001a7def7026c37a31d3d073c51f49"
+    },
+    {
+      "path": "summaries/changed_source_month_neighbor_context.csv",
+      "bytes": 17131,
+      "sha256": "e018328a141a590f9c8cfbe7f8cc2f4a4b60b5258e61594722c7992f3ab24152"
+    },
+    {
+      "path": "summaries/source_era_deltas.csv",
+      "bytes": 941,
+      "sha256": "20f3a4a9335402fcb4ea72d863a75b8cb83030473acf70c841501355dc2897aa"
+    },
+    {
+      "path": "summaries/native_operation_peak_summary.json",
+      "bytes": 648,
+      "sha256": "de2938d67767e074c6d739f6a8c686bb71f92b31cab1ce195c79c5fed3298681"
+    },
+    {
+      "path": "summaries/inherited_metadata_references.json",
+      "bytes": 2928,
+      "sha256": "322cc723394b2ef473a690ce3702bfd50c796ec347a3b1d68987a0116f3515c8"
+    },
+    {
+      "path": "summaries/SOCIAL_COLLECTION_REPORT.md",
+      "bytes": 3768,
+      "sha256": "3ba50bd3998f2a00778fe403c550249bcc5dbbe0f9af080237995a258d827675"
+    },
+    {
+      "path": "summaries/implementation_source_manifest.json",
+      "bytes": 3446,
+      "sha256": "7c32a4386aa007879477a75766bbc10b9a5416a073aa37611558a5fb3fca7b27"
+    },
+    {
+      "path": "summaries/collection_manifest.json",
+      "bytes": 11966,
+      "sha256": "4d2eb91a63f1bab9ad800034fe93e72c46df7809e166dc5be345526a609db5cf"
+    }
+  ],
+  "publication_boundary": "implementation and finalized changed tables/manifests/research summary; referenced prior cumulative outputs; runtime/raw/queues/controls stay local"
+}
