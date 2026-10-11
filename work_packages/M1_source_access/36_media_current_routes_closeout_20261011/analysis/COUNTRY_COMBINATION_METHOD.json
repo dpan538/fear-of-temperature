@@ -1,0 +1,8 @@
+{
+  "baseline_label": "Accepted package35 source-context country projection",
+  "baseline_sha256": "c97854c2db802bcff6257062d8a92d809a42f8ae275dd58e8cec2c81fb40ef3b",
+  "combination": "one accepted consolidated baseline plus this round delta once",
+  "unknown_delta_label": "unknown mapped to UNRESOLVED as an explicit unknown category",
+  "global_delta_label": "global preserved as GLOBAL_CONTEXT, not a country",
+  "historical_author_country_inferred": false
+}

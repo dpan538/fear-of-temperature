@@ -1,0 +1,274 @@
+{
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "snapshot_at_utc": "2026-10-11T09:43:36.341879+00:00",
+  "collection_deadline_at_utc": "2026-10-11T09:24:42Z",
+  "delivery_target_at_utc": "2026-10-11T09:57:07Z",
+  "technical_list_retained_dated_numerator": 613617,
+  "figure": {
+    "status": "rendered",
+    "dpi": 300,
+    "visual_review_required": false,
+    "interpretation": "Observed quantities; no statistical uncertainty or inferred emotions",
+    "visual_review_completed": true,
+    "visual_review_receipt": "VISUAL_REVIEW.json"
+  },
+  "missing_fields": [
+    "Newspaper accepted changed retained-work metadata, including separate creative works: carrier unavailable",
+    "Newspaper native genre:764 regular-article rows unmeasured;13 regular rows retain recorded categories;3 separate creative works retain Poetry; analytical_subframe remains separate",
+    "Quantity: social_verified_named_actors final value unavailable; no aggregate invented"
+  ],
+  "input_references": [
+    {
+      "label": "Coordinator frozen input contract",
+      "bytes": 10124,
+      "sha256": "4cc3a1c78ce890b941d691a0b988236688ac11ab0adfe0e10f8c0c0c653723cb"
+    },
+    {
+      "label": "Newspaper frozen final summary",
+      "bytes": 9705,
+      "sha256": "5fddffa3d6df40be8f74108df7c370ce45cb4868a34e9228c533bc9fd23c37ab"
+    },
+    {
+      "label": "Social frozen collection manifest",
+      "bytes": 7031,
+      "sha256": "92a2d739a4f95a35e49f7957b8cafbc4abacfb997005327d300a3520c160296e"
+    },
+    {
+      "label": "Newspaper accepted changed retained-work metadata, including separate creative works",
+      "bytes": 1245442,
+      "sha256": "7e30663a48c9731ccbb0ad4bfedd0a96f553cc3dbc114756ef61f15f5044270c"
+    },
+    {
+      "label": "Social frozen current dated-authored-body metadata",
+      "bytes": 4360509,
+      "sha256": "6e34d233d07627a08822b3dcc2841362025fefa7a514fc5a736bd16282a443a6"
+    },
+    {
+      "label": "Social frozen current author-country status projection",
+      "bytes": 173,
+      "sha256": "4228e61b2f13f0e0463d6442c30418d07504a04ab8409d6f8da40c7573b2ebd6"
+    },
+    {
+      "label": "Accepted regular-newspaper baseline calendar",
+      "bytes": 32570,
+      "sha256": "db6f9b6f674de39ea9b0e4333d9b64c933d361396b3dc0a35c4e639bc37088a8"
+    },
+    {
+      "label": "Current accepted newspaper regular-article delta projection",
+      "bytes": 5401,
+      "sha256": "22e0b66e0cf9952d7f458c3cf2d80251d815d0ddbf56e7c3202fcff306903594"
+    },
+    {
+      "label": "Accepted consolidated A+B social baseline",
+      "bytes": 638537,
+      "sha256": "b901267f00e350ece0bc49951cefd33174f70b09f63a5366c03ed28e543d5722"
+    },
+    {
+      "label": "Current social changed-body delta only",
+      "bytes": 32707,
+      "sha256": "e404d51340f791d9fdbabf488119a9e0c216515bee1ca7fff9fddaa495cdef06"
+    }
+  ],
+  "stores_raw_bodies_read": false,
+  "A_B_calendars_reapplied": false,
+  "geography_inferred": false,
+  "semantic_models_executed": false,
+  "production_stops": {
+    "social": {
+      "at_utc": "2026-10-11T09:24:43.512905+00:00",
+      "reason": "fixed_deadline",
+      "last_HTTP_at_utc": "2026-10-11T09:24:34.536564+00:00",
+      "last_Load_at_utc": "2026-10-11T09:24:37.062779+00:00",
+      "interpretation": "Stop marker after last HTTP/Load; marker time is distinct from operation time"
+    },
+    "newspaper": {
+      "at_utc": "2026-10-11T09:24:42.008172+00:00",
+      "event_kind": "watchdog_SIGINT_collection_stop_event",
+      "reason": "controlled_owner_interrupt_same_deadline",
+      "owner_stop_marker_at_utc": "2026-10-11T09:24:43.720133+00:00",
+      "independent_terminal_exit_receipt_at_utc": "2026-10-11T09:26:34.433575+00:00",
+      "last_HTTP_at_utc": "2026-10-11T09:24:27.885159+00:00",
+      "last_Load_at_utc": "2026-10-11T09:24:29.890397+00:00",
+      "interpretation": "Watchdog stop event is not an exact PID-exit timestamp; last operations and final exit verification remain separate"
+    }
+  },
+  "current_collection_start_at_utc": "2026-10-11T02:24:42+00:00",
+  "amendment_effective_at_utc": "2026-10-11T07:57:07+00:00",
+  "author_country_historical_current_unmeasured": 46688,
+  "technical_list_new_requests": 0,
+  "technical_list_new_bodies": 0,
+  "frozen_builder_source": {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_current_routes_closeout/preparation/coordinator_final_report.py",
+    "bytes": 31055,
+    "sha256": "4fb90d55e7746107229ac38b3bd8752b52b73ac7a3948d6da0f27ef27ad025ae",
+    "plotting_code_unchanged_after_render": true,
+    "postrender_edits": "English span/stop prose and accepted evidence receipt only; no calendar/table/plot recomputation"
+  },
+  "frozen_contract": {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_current_routes_closeout/preparation/FROZEN_REPORT_CONTRACT.json",
+    "bytes": 10124,
+    "sha256": "4cc3a1c78ce890b941d691a0b988236688ac11ab0adfe0e10f8c0c0c653723cb"
+  },
+  "mandatory_figure_QA_passed": true,
+  "visual_review": true,
+  "coordinator_visual_review": true,
+  "quantities": {
+    "newspaper_regular_all_regions": {
+      "before": 30704,
+      "after": 31482,
+      "delta": 778,
+      "unit": "complete_article_ids",
+      "geography_scope": ""
+    },
+    "newspaper_regular_original_five": {
+      "before": 30704,
+      "after": 31482,
+      "delta": 778,
+      "unit": "complete_article_ids",
+      "geography_scope": "original_five_regions"
+    },
+    "newspaper_wider_english": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "unit": "complete_article_ids",
+      "geography_scope": "additive_wider_English"
+    },
+    "newspaper_supplement": {
+      "before": 34,
+      "after": 34,
+      "delta": 0,
+      "unit": "complete_article_ids",
+      "geography_scope": "accepted_separate_Supplement"
+    },
+    "newspaper_family_original": {
+      "before": 30738,
+      "after": 31516,
+      "delta": 778,
+      "unit": "complete_article_ids",
+      "geography_scope": "original_five_regular_plus_Supplement"
+    },
+    "newspaper_titles_original_five": {
+      "before": 30,
+      "after": 38,
+      "delta": 8,
+      "unit": "contributing_title_ids",
+      "geography_scope": "original_five_regions"
+    },
+    "newspaper_titles_wider_english": {
+      "before": 0,
+      "after": 0,
+      "delta": 0,
+      "unit": "contributing_title_ids",
+      "geography_scope": "additive_wider_English"
+    },
+    "campus": {
+      "before": 9249,
+      "after": 9249,
+      "delta": 0,
+      "unit": "retained_article_ids",
+      "geography_scope": "accepted_preserved_campus"
+    },
+    "social_dated": {
+      "before": 988701,
+      "after": 1035389,
+      "delta": 46688,
+      "unit": "dated_authored_body_rows",
+      "geography_scope": ""
+    },
+    "social_core": {
+      "before": 988717,
+      "after": 1035405,
+      "delta": 46688,
+      "unit": "retained_core_texts",
+      "geography_scope": ""
+    },
+    "technical_list": {
+      "before": 613617,
+      "after": 613617,
+      "delta": 0,
+      "unit": "dated_authored_body_rows",
+      "geography_scope": ""
+    },
+    "creative_current_additions": {
+      "before": 0,
+      "after": 7,
+      "delta": 7,
+      "unit": "dated_native_body_rows",
+      "geography_scope": "bear_lakelands_creative_project_only"
+    },
+    "social_new_contributing_sites": {
+      "before": 0,
+      "after": 27,
+      "delta": 27,
+      "unit": "contributing_site_units",
+      "geography_scope": ""
+    },
+    "social_new_native_author_units": {
+      "before": 0,
+      "after": 8750,
+      "delta": 8750,
+      "unit": "source_qualified_native_author_units",
+      "geography_scope": ""
+    },
+    "social_current_contributing_sources": {
+      "before": 0,
+      "after": 32,
+      "delta": 32,
+      "unit": "contributing_source_registry_ids",
+      "geography_scope": ""
+    },
+    "social_current_ordinary_account_units": {
+      "before": 0,
+      "after": 710,
+      "delta": 710,
+      "unit": "source_qualified_self_presented_account_units",
+      "geography_scope": ""
+    },
+    "social_current_historical_author_country_unmeasured": {
+      "before": 0,
+      "after": 46688,
+      "delta": 46688,
+      "unit": "dated_authored_body_rows",
+      "geography_scope": ""
+    },
+    "newspaper_regular_observed_months": {
+      "before": 461,
+      "after": 461,
+      "delta": 0,
+      "unit": "observed_study_months",
+      "geography_scope": ""
+    },
+    "newspaper_family_observed_months": {
+      "before": 465,
+      "after": 465,
+      "delta": 0,
+      "unit": "observed_study_months",
+      "geography_scope": ""
+    },
+    "social_observed_months": {
+      "before": 343,
+      "after": 343,
+      "delta": 0,
+      "unit": "observed_study_months",
+      "geography_scope": ""
+    },
+    "social_verified_named_actors": {
+      "before": null,
+      "after": null,
+      "delta": null,
+      "unit": "verified_named_actor_families",
+      "geography_scope": ""
+    },
+    "newspaper_creative_current_additions": {
+      "before": 0,
+      "after": 3,
+      "delta": 3,
+      "unit": "retained_creative_work_ids",
+      "geography_scope": "current_creative_work_separate"
+    }
+  }
+}

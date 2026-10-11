@@ -1,0 +1,4 @@
+# Local figure diagnostics are preserved locally; publish final PNG/vector figures and JSON QA.
+analysis/qa/*.collision-overlay.pdf
+analysis/qa/*.alignment-overlay.svg
+analysis/mpl-cache/

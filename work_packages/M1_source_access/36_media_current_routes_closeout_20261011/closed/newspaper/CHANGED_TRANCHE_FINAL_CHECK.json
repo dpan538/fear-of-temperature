@@ -1,0 +1,17 @@
+{
+  "at_utc": "2026-10-11T09:26:34.435981+00:00",
+  "checks": {
+    "new_unique_IDs_absent_from_baseline": true,
+    "changed_native_SQL_TEXT_hashes": 781,
+    "declared_sidecars_verified": 261,
+    "new_raw_objects_verified": 566,
+    "source_month_year_deltas_reconcile": true,
+    "last_HTTP_and_Load_within_fixed_deadline": true,
+    "missing_genre_is_unknown_not_inferred_from_source_frame": true,
+    "all_passed": true,
+    "old_raw_body_or_SQL_sweep": false,
+    "source_coverage_climate_emotion_scores_used": false
+  },
+  "additional_complete_IDs": 781,
+  "settlement_implementation_sha256": "3a9e866e3253c98f5cf398e3077164d36e7a671fa4d735686b4733f00a74019a"
+}

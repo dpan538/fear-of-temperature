@@ -1,0 +1,54 @@
+country,region,year,source_id,new_complete_retained_works
+AU,AU,1991,green_left,12
+AU,AU,1992,green_left,18
+AU,AU,1993,green_left,12
+AU,AU,1994,green_left,12
+AU,AU,1995,green_left,12
+AU,AU,1996,green_left,10
+AU,AU,1997,green_left,62
+AU,AU,1998,green_left,12
+AU,AU,1999,green_left,12
+AU,AU,2000,green_left,12
+AU,AU,2001,green_left,12
+AU,AU,2002,green_left,12
+AU,AU,2003,green_left,12
+AU,AU,2013,byron_shire_echo,4
+AU,AU,2014,gippsland_times,1
+AU,AU,2016,your_local_examiner_au,29
+AU,AU,2017,border_watch,4
+AU,AU,2018,castlemaine_mail,53
+AU,AU,2018,midland_express,28
+AU,AU,2024,about_time,3
+DK,EU/Europe excluding UK,2008,copenhagen_post,4
+GB,UK,2010,camden_new_journal,1
+GB,UK,2011,camden_new_journal,1
+GB,UK,2016,haringey_community_press,3
+GB,UK,2017,camden_new_journal,1
+GB,UK,2017,haringey_community_press,3
+GB,UK,2018,waltham_forest_echo,29
+GB,UK,2018,west_highland_free_press,28
+GB,UK,2020,ec1_echo,4
+GB,UK,2020,newham_voices,29
+GB,UK,2021,barnet_post,51
+GB,UK,2021,enfield_dispatch,29
+GB,UK,2022,camden_new_journal,1
+GB,UK,2023,islington_tribune,2
+GB,UK,2024,islington_tribune,2
+IE,EU/Europe excluding UK,2008,galway_advertiser,5
+IE,EU/Europe excluding UK,2008,munster_express,29
+IE,EU/Europe excluding UK,2010,limerick_post,29
+IE,EU/Europe excluding UK,2012,dublin_gazette,1
+IE,EU/Europe excluding UK,2013,dublin_gazette,7
+IE,EU/Europe excluding UK,2021,kilkenny_observer,5
+NZ,NZ,2017,cambridge_news_nz,5
+NZ,NZ,2021,te_awamutu_news,28
+NZ,NZ,2022,te_awamutu_news,1
+US,US,1998,newtown_bee,4
+US,US,2000,berkeley_daily_planet,1
+US,US,2004,berkeley_daily_planet,4
+US,US,2005,berkeley_daily_planet,1
+US,US,2006,berkeley_daily_planet,3
+US,US,2010,falls_church_news_press,29
+US,US,2012,chester_telegraph,51
+US,US,2014,mountain_times_vt,29
+US,US,2026,montpelier_bridge,29

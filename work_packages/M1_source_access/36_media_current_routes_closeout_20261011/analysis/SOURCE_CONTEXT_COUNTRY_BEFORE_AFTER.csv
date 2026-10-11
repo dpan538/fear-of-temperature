@@ -1,0 +1,17 @@
+stream,source_context_country,before,new_delta,after,unit,scope
+newspaper,AU,7840,329,8169,regular_articles,current source/publisher/community context; not historical author country
+newspaper,DK,0,4,4,regular_articles,current source/publisher/community context; not historical author country
+newspaper,GB,1313,184,1497,regular_articles,current source/publisher/community context; not historical author country
+newspaper,IE,3358,76,3434,regular_articles,current source/publisher/community context; not historical author country
+newspaper,NZ,1836,34,1870,regular_articles,current source/publisher/community context; not historical author country
+newspaper,UNRESOLVED_EUROPE_EX_UK,168,0,168,regular_articles,current source/publisher/community context; not historical author country
+newspaper,US,16189,151,16340,regular_articles,current source/publisher/community context; not historical author country
+social,AU,38979,6700,45679,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,CA,0,13,13,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,GB,29512,11613,41125,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,GLOBAL_CONTEXT,0,4182,4182,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,IE,21878,10955,32833,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,NZ,6987,0,6987,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,UNRESOLVED,858752,3910,862662,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,UNRESOLVED_EUROPE_EX_UK,3345,0,3345,dated_authored_bodies,current source/publisher/community context; not historical author country
+social,US,29248,9315,38563,dated_authored_bodies,current source/publisher/community context; not historical author country

@@ -1,0 +1,92 @@
+{
+  "files": [
+    {
+      "file": "run_collect.py",
+      "bytes": 20053,
+      "sha256": "0fb478a05060cf211a0e357bbdfe018b62ca33594be680d0cdd05098aad321d1"
+    },
+    {
+      "file": "entities.py",
+      "bytes": 21903,
+      "sha256": "a5f25b1159b5155ce13e32f771e20539702e2e130edfd57d13fd43510a4b0d45"
+    },
+    {
+      "file": "transport.py",
+      "bytes": 39685,
+      "sha256": "dd4e39fdb843789eb4bdf02f8c6ff049c2b7045932c2c76329382b109c2d6140"
+    },
+    {
+      "file": "ready_scheduler.py",
+      "bytes": 3115,
+      "sha256": "62be1abd8118980fc670403c519178661bf37821031f90007d326ea3c8ec7eb0"
+    },
+    {
+      "file": "personal_blog_adapter.py",
+      "bytes": 8693,
+      "sha256": "389294f828f736c562ceec65bb49baab5644a558f53492d7732424822b913f3f"
+    },
+    {
+      "file": "native_web_adapter.py",
+      "bytes": 3086,
+      "sha256": "83d624b69bad9f4490869bdb5f8400aaeb0dc2818c6040e5c024a4a648044fac"
+    },
+    {
+      "file": "native_web_channel.py",
+      "bytes": 13197,
+      "sha256": "4f765b4f9a33a924e582af6078f8dc95d72d3d275cac53f3cf4ad5661fac5b8d"
+    },
+    {
+      "file": "native_html_adapter.py",
+      "bytes": 19283,
+      "sha256": "3867d833d38acd13da3ce5588152d6f5be6807ade982cf20b1611238e0237418"
+    },
+    {
+      "file": "new_source_contribution.py",
+      "bytes": 2205,
+      "sha256": "2f12bf7f99fa349d1f9ec6655db94045d9c0dab36b1f39e9708e8b6d83d0cfd8"
+    },
+    {
+      "file": "native_capacity_sizing.py",
+      "bytes": 1757,
+      "sha256": "0dbe2de94a04084b812d8e55f5cb24ee953431d24b6b6f9f725fff2d71f83f9f"
+    },
+    {
+      "file": "source_era_provenance.py",
+      "bytes": 7080,
+      "sha256": "ee92d199793674bf803c14b8aa5b7a5a761a49c4dc7f4800c467700e872c5e3b"
+    },
+    {
+      "file": "finalize_metadata.py",
+      "bytes": 10216,
+      "sha256": "ce20ed4981a2590fc7717a87c9777d20caa6f8c8f7df68c88f95b9e14592b578"
+    },
+    {
+      "file": "closeout.py",
+      "bytes": 36995,
+      "sha256": "e89884cbf9cd589326c9fd0e5d0e6435d24d90b092650f8ecbe2290ebe258b75"
+    },
+    {
+      "file": "supervise.py",
+      "bytes": 2136,
+      "sha256": "ee893eb4c3ebc90591520ed5f60a239862e6ffa3836fd16cfdd0b683976b2262"
+    },
+    {
+      "file": "evidence_observer.py",
+      "bytes": 5514,
+      "sha256": "e471c231d560c1bc2d666d2751a75da8e8a28902a787b3a4e45711d4f8ce9587"
+    },
+    {
+      "file": "blogger_channel.py",
+      "bytes": 8251,
+      "sha256": "ca302dbbe8d9e2cfb3a8e2316bcb8baf374fdcea05adccbe296b0e72d8419a00"
+    },
+    {
+      "file": "blogger_adapter.py",
+      "bytes": 6264,
+      "sha256": "ecec63b3881aae2e1c068191ad91380a8917fd06e09531ab709277ea7edafe60"
+    }
+  ],
+  "validation": "Python syntax parsed without importing or executing collector modules; real collection and changed-tranche checks recorded separately.",
+  "dependency_boundary": "Versioned continuation modules depend on the existing social ELT base implementation and local expired execution controls. This package is an implementation snapshot, not an independently released runnable acquisition job.",
+  "local_controls_copied": false
+}

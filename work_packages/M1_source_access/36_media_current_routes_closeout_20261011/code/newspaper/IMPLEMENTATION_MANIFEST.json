@@ -1,0 +1,554 @@
+{
+  "created_at_utc": "2026-10-11T09:31:06.266572+00:00",
+  "status": "publication_code_allowlist_final_metadata_accepted",
+  "selected_python_files": [
+    {
+      "file": "archive_html.py",
+      "bytes": 5251,
+      "sha256": "804c27a77ed8c297ccf294bb8bc37a9bc4dc095acc11ecbe9fdcbc2628d2b3da",
+      "purpose": "Evidenced public HTML archive traversal; article date independently parsed.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "extract_load"
+      ]
+    },
+    {
+      "file": "archive_issues.py",
+      "bytes": 12095,
+      "sha256": "81e41ab9a51165f4b57cf09ab8d5b59b5e01328c48cbbb1a78ddb82f2646eaab",
+      "purpose": "Whole original articles from native anchored newspaper-issue transcriptions.",
+      "local_imports": [
+        "broaden",
+        "elt"
+      ]
+    },
+    {
+      "file": "berkeley_html.py",
+      "bytes": 19732,
+      "sha256": "23476b621044580da54c062124cb6d5041d7402f3a48d7ced4d9e9b8cba2e23a",
+      "purpose": "Native Berkeley story IDs from dated full-text carriers, never arbitrary chunks.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "production"
+      ]
+    },
+    {
+      "file": "bounded_ready_scheduler.py",
+      "bytes": 567,
+      "sha256": "07ef6a520d77b2c68da721c56a8ce1f820f9ecb11d83e233f6ed78a710b8d4bd",
+      "purpose": "Ready-body tie break and waiting-age priority; no article/month/source quota.",
+      "local_imports": []
+    },
+    {
+      "file": "broaden.py",
+      "bytes": 15720,
+      "sha256": "4ebe15d51c07fd1cfde439d50fa30d5bda2128581cbf8c2ddf03521934580c35",
+      "purpose": "Serial evidenced newspaper-frame opportunities; no guessed/private APIs.",
+      "local_imports": [
+        "archive_html",
+        "archive_issues",
+        "cambridge_html",
+        "elt",
+        "extract_load",
+        "galway_html",
+        "native_html",
+        "newtown_html"
+      ]
+    },
+    {
+      "file": "cambridge_html.py",
+      "bytes": 7072,
+      "sha256": "31f6da634365d6b108ac26e318cdfc8381156ae7973ed8f3df7ec7234d8715ef",
+      "purpose": "Publisher-evidenced native HTML/sitemaps for the Cambridge newspaper theme.",
+      "local_imports": [
+        "elt",
+        "extract_load"
+      ]
+    },
+    {
+      "file": "close_delta.py",
+      "bytes": 31765,
+      "sha256": "3a9e866e3253c98f5cf398e3077164d36e7a671fa4d735686b4733f00a74019a",
+      "purpose": "Changed-tranche settlement and final metadata export; no cumulative body export clone.",
+      "local_imports": [
+        "current_tranche_counting",
+        "publication_precision"
+      ]
+    },
+    {
+      "file": "continuity.py",
+      "bytes": 1150,
+      "sha256": "24278f28f5cbc5bf820c9ff8afafcf4670d7850e39c61df063ab9330f75a8c8e",
+      "purpose": "Reuse accepted compact source-era state without repeating predecessor audits.",
+      "local_imports": [
+        "elt",
+        "focused_repair",
+        "production"
+      ]
+    },
+    {
+      "file": "current_tranche_counting.py",
+      "bytes": 1275,
+      "sha256": "23bf7466308945160a660be5126cbd704bc6eda76356fad8699d90533ef11632",
+      "purpose": "Keeps regular, Supplement, expanded-region and creative/native-genre counts distinct.",
+      "local_imports": []
+    },
+    {
+      "file": "elt.py",
+      "bytes": 23703,
+      "sha256": "dea2de2982d494e10773b91f641f615a7c383016f288f7fe326779f3c7396418",
+      "purpose": "Accepted ELT overlay, immediate durable Load, release/capacity/source checks and stable identity.",
+      "local_imports": [
+        "broaden",
+        "live_progress",
+        "migrated_title_boundary",
+        "public_visibility",
+        "publication_precision",
+        "start"
+      ]
+    },
+    {
+      "file": "expansion.py",
+      "bytes": 12302,
+      "sha256": "52793fa2f315e6935371822a842bf19fd62a9d082665deddec45d74df0ff830d",
+      "purpose": "One bounded source-document preparation step per scheduler opportunity.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "extract_load",
+        "native_batches",
+        "production",
+        "run"
+      ]
+    },
+    {
+      "file": "extra_jobs.py",
+      "bytes": 83,
+      "sha256": "d775de0ab888dccb2611c74db51974265061b7f2e4a6d82d0d7b81a74dbae772",
+      "purpose": "No inherited PDF allowance or repeated metadata jobs.",
+      "local_imports": []
+    },
+    {
+      "file": "extract_load.py",
+      "bytes": 2427,
+      "sha256": "bb8c28d0f0da477c6159d2d3e48f22f61ff2c5d40800be67810c742df0629fd0",
+      "purpose": "Accepted article-boundary parser overlay and public-first route dispatch.",
+      "local_imports": [
+        "archive_html",
+        "broaden",
+        "cambridge_html",
+        "elt",
+        "galway_html",
+        "indaily",
+        "native_html",
+        "newtown_html",
+        "public_first"
+      ]
+    },
+    {
+      "file": "focused_repair.py",
+      "bytes": 14223,
+      "sha256": "7cc147c6a0eff29cf38831210b83bd81abaa9bf26554a45035dfc1dccd939572",
+      "purpose": "Named source-era reconciliation and bounded real article operations.",
+      "local_imports": [
+        "current_tranche_counting",
+        "elt",
+        "extract_load",
+        "production"
+      ]
+    },
+    {
+      "file": "fresh_gl_issues.py",
+      "bytes": 6687,
+      "sha256": "442ad10f85533bae465bb78ff48b5819c164575711bffb4d032782467b7f7168",
+      "purpose": "Coordinator-named fresh issue bodies with persistent fair issue rotation.",
+      "local_imports": [
+        "elt",
+        "focused_repair",
+        "production"
+      ]
+    },
+    {
+      "file": "galway_html.py",
+      "bytes": 9221,
+      "sha256": "533e7f6851c5018a6920c0b8b8379b04f63f0ff5158a94b5a3566b4cfdae7c09",
+      "purpose": "Whole Galway original HTML from complete entries in a saved partial sitemap.",
+      "local_imports": [
+        "elt",
+        "extract_load"
+      ]
+    },
+    {
+      "file": "green_left_issue_candidates.py",
+      "bytes": 1936,
+      "sha256": "90ec4aad13f33e53d141cd941fa4190e0c189290d96cff134517bea2c7421c95",
+      "purpose": "Prepared native-issue parser repair; no transport or write side effects.\n\nIntegration belongs to a newly released collector. Frozen collectors are intact.\nThe issue directory's empty state is distinct from successful HTTP transport.",
+      "local_imports": []
+    },
+    {
+      "file": "indaily.py",
+      "bytes": 8500,
+      "sha256": "c5ea01d77e53b8bd90201ee4dab6f8a1a82d67ae59d5ad8748920627e8b8bc97",
+      "purpose": "InDaily's evidenced news subframe, kept separate from other site titles.",
+      "local_imports": [
+        "elt"
+      ]
+    },
+    {
+      "file": "licensed_issue_html.py",
+      "bytes": 11229,
+      "sha256": "8587c1a1dae97df44154fa9e63776afbbd585ddecb4071eba6e1f8ead8596bca",
+      "purpose": "Licensed native issue/HTML route and month-precision metadata; no PDF article substitution.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "publication_precision"
+      ]
+    },
+    {
+      "file": "live_progress.py",
+      "bytes": 3192,
+      "sha256": "8f2a6792b6bb6a65cef4e0af89f40075c82d982b4e1383708dde904baa3d57b0",
+      "purpose": "Compact in-operation observations; no corpus/raw/SQL audit or control score.",
+      "local_imports": [
+        "broaden",
+        "current_tranche_counting",
+        "elt",
+        "expansion",
+        "production",
+        "run"
+      ]
+    },
+    {
+      "file": "migrated_title_boundary.py",
+      "bytes": 1447,
+      "sha256": "d0b04edf49ad5117445a7292b520a004119e125f4a40dc61af984dfb32f590ab",
+      "purpose": "Named publisher migration wrapper that does not establish an original body.",
+      "local_imports": []
+    },
+    {
+      "file": "month_routes.py",
+      "bytes": 5677,
+      "sha256": "0d1cb0dfae711eecd4ddd9f22aa67dd872d04f36289b49e200f22e849fe5a951",
+      "purpose": "Executable named gap routes through already advertised public interfaces.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "extract_load",
+        "focused_repair",
+        "native_batches",
+        "production"
+      ]
+    },
+    {
+      "file": "named_boundary_correction.py",
+      "bytes": 1748,
+      "sha256": "2f815c3d0dc7644d1a8db3e04ac2f09e024918082946820aa9d476c982b45663",
+      "purpose": "One named current-tranche boundary disposition, by the sole writer.",
+      "local_imports": [
+        "elt",
+        "live_progress"
+      ]
+    },
+    {
+      "file": "named_issue_routes.py",
+      "bytes": 3478,
+      "sha256": "8c08a57e7bf0490423590bd845cb478a335b10c04d247f5310719ac3a2f3f563",
+      "purpose": "Nine named processed issue locators without article queues; old flags retained.",
+      "local_imports": [
+        "elt",
+        "focused_repair",
+        "green_left_issue_candidates",
+        "production"
+      ]
+    },
+    {
+      "file": "named_source_time_recovery.py",
+      "bytes": 3010,
+      "sha256": "c80bb41525a337657092714a629189701f795e31824e1e476caf06735ecd194d",
+      "purpose": "Named saved six-unit source-local publication-time replay; original pending rows retained.",
+      "local_imports": [
+        "elt",
+        "production",
+        "source_local_publication_time"
+      ]
+    },
+    {
+      "file": "named_visible_template_recovery.py",
+      "bytes": 3467,
+      "sha256": "c5e39b20fb1fc30926e9d25486788ef5bbc0e84c5643218a3ebdeb3e92270f38",
+      "purpose": "Named saved visible-template replay with exact identity/body checks and no new HTTP.",
+      "local_imports": [
+        "elt",
+        "production",
+        "public_visibility"
+      ]
+    },
+    {
+      "file": "native_batches.py",
+      "bytes": 10462,
+      "sha256": "685ad72bc4336b9f38e1d4b75b0ddd8df1bc6749b0ae81c5fb7630074a6a5d68",
+      "purpose": "Public documented WP collection batches; each original post stays one article.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "extract_load",
+        "migrated_title_boundary",
+        "production"
+      ]
+    },
+    {
+      "file": "native_html.py",
+      "bytes": 8122,
+      "sha256": "802dd991934864ef1405da53c6a2aa51092d0acd1d2a2f0575b9a3c7b1e51517",
+      "purpose": "Observed Camden publisher HTML and public sitemap/category frontiers; no private API.",
+      "local_imports": [
+        "elt",
+        "extract_load"
+      ]
+    },
+    {
+      "file": "new_title_recovery.py",
+      "bytes": 2655,
+      "sha256": "b871a6b8040a059f5513219395f85fa071ba20105cf4c46b26fc8f099e488318",
+      "purpose": "Named saved pending-title response replay without new HTTP; original evidence and identity retained.",
+      "local_imports": [
+        "elt",
+        "native_batches",
+        "production",
+        "run"
+      ]
+    },
+    {
+      "file": "newtown_html.py",
+      "bytes": 11580,
+      "sha256": "aef1fdfcbcab67e5a1fef6091330399a94a02df943a2b276183d66f387918ca5",
+      "purpose": "Observed Newtown public archive hrefs and explicit original publication fields.",
+      "local_imports": [
+        "elt",
+        "extract_load"
+      ]
+    },
+    {
+      "file": "production.py",
+      "bytes": 13036,
+      "sha256": "13e0a8811a15e5187eb58db6b2aaaa0c5daef6a8987bb9efc760efd6c952b181",
+      "purpose": "Restartable continuing article/native-index production without coverage/count stopping.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "extra_jobs",
+        "extract_load",
+        "focused_repair",
+        "green_left_issue_candidates",
+        "native_batches"
+      ]
+    },
+    {
+      "file": "public_first.py",
+      "bytes": 2988,
+      "sha256": "e4c372153a72dd6a92ef63aca7864d1f946f949fa73212dfad7dea6493ba571b",
+      "purpose": "Requires complete unprotected original HTML before native body fetch for subscription sources.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "native_batches",
+        "public_visibility"
+      ]
+    },
+    {
+      "file": "public_visibility.py",
+      "bytes": 4513,
+      "sha256": "6382c79545973bee69dc8cc0f566975ccc623615d8fca89f415742ed99abf3fb",
+      "purpose": "Complete public original HTML/native identity, date and body comparison.",
+      "local_imports": [
+        "broaden",
+        "elt",
+        "extract_load",
+        "migrated_title_boundary",
+        "source_local_publication_time",
+        "visible_template_markup"
+      ]
+    },
+    {
+      "file": "publication_precision.py",
+      "bytes": 1149,
+      "sha256": "91e4fd1c418cb141c5fd2d26b8b5e2bd79703eb6168074db719bcd0e31b73fcd",
+      "purpose": "Explicit day/month date precision; no invented publication day.",
+      "local_imports": []
+    },
+    {
+      "file": "publisher_template_rules.py",
+      "bytes": 3498,
+      "sha256": "0c2b658e3549b6f9209a3b2be40155c0720d50dc07b687b3d8bf96eb10b162e3",
+      "purpose": "Evidence-bound publisher widget/template removal followed by native-body mapping.",
+      "local_imports": []
+    },
+    {
+      "file": "run.py",
+      "bytes": 17737,
+      "sha256": "920c099a0cace838d702d3d0631412d57594839897213c37c32113ee00f19cec",
+      "purpose": "Persistent counter/age recovery and bounded preparation/body dispatch; fixed deadline and admission freeze.",
+      "local_imports": [
+        "archive_issues",
+        "berkeley_html",
+        "bounded_ready_scheduler",
+        "broaden",
+        "continuity",
+        "current_tranche_counting",
+        "elt",
+        "expansion",
+        "extract_load",
+        "focused_repair",
+        "fresh_gl_issues",
+        "licensed_issue_html",
+        "month_routes",
+        "named_boundary_correction",
+        "named_issue_routes",
+        "native_batches",
+        "new_title_recovery",
+        "production"
+      ]
+    },
+    {
+      "file": "source_local_publication_time.py",
+      "bytes": 2363,
+      "sha256": "bae9045b20ffbdd9fc63f450fabb3c66ca87f45171577c2b69da574da579e5d4",
+      "purpose": "Reconciles native/public-HTML dates only with evidenced source-local publication time.",
+      "local_imports": [
+        "elt"
+      ]
+    },
+    {
+      "file": "start.py",
+      "bytes": 4933,
+      "sha256": "0b8375b82f43a66036467222a801039cb0f6142d9611438165a689b21ebebc0f",
+      "purpose": "Owner, scope-digest, actual-duration and lease/deadline binding; preserves predecessor handover safeguards.",
+      "local_imports": [
+        "elt",
+        "run"
+      ]
+    },
+    {
+      "file": "visible_template_markup.py",
+      "bytes": 2863,
+      "sha256": "ad04a6cc44ccb7b1fa347673f168ebea688e03d45fada4b2f120d59f3be8b7c4",
+      "purpose": "Visible article markup cleanup before complete public-HTML/native identity comparison.",
+      "local_imports": [
+        "elt",
+        "publisher_template_rules"
+      ]
+    },
+    {
+      "file": "watch_deadline.py",
+      "bytes": 1478,
+      "sha256": "1b7ee72da9c90e3b9cb6f640192aef3aeaaa5e04ea0fbc6ee8221c95d4387efd",
+      "purpose": "PID-bound fixed-deadline watchdog; preserves terminal evidence.",
+      "local_imports": []
+    },
+    {
+      "file": "check_berkeley.py",
+      "bytes": 3666,
+      "sha256": "1105bdc3bc6b27c3fc0f5a3498c4000dddf47d0d8560aab863442ae90fb3e56d",
+      "docstring": "Changed native newspaper chain checks; no HTTP or database writes."
+    },
+    {
+      "file": "check_berkeley_carriers.py",
+      "bytes": 4660,
+      "sha256": "f7ff07d840d17d5457cea05d43a7ac3abf2efdedc9985307dc74ea052713c176",
+      "docstring": "Changed saved native carrier/frontier conservation checks, no HTTP/DB writes."
+    },
+    {
+      "file": "check_live_bridge.py",
+      "bytes": 5723,
+      "sha256": "ab9d5de3ce13f548e712bbe1636cbd978cf7c09589b9df85ece79365755d7a9e",
+      "docstring": "Exercise actual dispatch/eligibility/bridge and date validation, no real I/O."
+    },
+    {
+      "file": "check_named_routes.py",
+      "bytes": 3632,
+      "sha256": "8bb87f13813b75d008afcf268eec51c2b2ecaf7c1b406a0a5d1f5a97a36310b7",
+      "docstring": "Changed named-issue/preparation dispatch regression; no HTTP or database Load."
+    },
+    {
+      "file": "check_native_alias_and_HTML.py",
+      "bytes": 5239,
+      "sha256": "6f27c54f68d5eb722090867fe88fe1be0330b11d03a02dc316a9df40ae0ab4bc",
+      "docstring": "Actual saved native publisher mapping checks; no HTTP or database writes."
+    }
+  ],
+  "selected_file_count": 45,
+  "selected_bytes": 317254,
+  "entrypoints": [
+    "start.py",
+    "run.py",
+    "watch_deadline.py",
+    "close_delta.py"
+  ],
+  "static_and_constant_dynamic_import_closure_count": 38,
+  "additional_named_replay_helpers_count": 2,
+  "optional_changed_chain_validation_files": [
+    {
+      "file": "check_berkeley.py",
+      "bytes": 3666,
+      "sha256": "1105bdc3bc6b27c3fc0f5a3498c4000dddf47d0d8560aab863442ae90fb3e56d",
+      "docstring": "Changed native newspaper chain checks; no HTTP or database writes."
+    },
+    {
+      "file": "check_berkeley_carriers.py",
+      "bytes": 4660,
+      "sha256": "f7ff07d840d17d5457cea05d43a7ac3abf2efdedc9985307dc74ea052713c176",
+      "docstring": "Changed saved native carrier/frontier conservation checks, no HTTP/DB writes."
+    },
+    {
+      "file": "check_live_bridge.py",
+      "bytes": 5723,
+      "sha256": "ab9d5de3ce13f548e712bbe1636cbd978cf7c09589b9df85ece79365755d7a9e",
+      "docstring": "Exercise actual dispatch/eligibility/bridge and date validation, no real I/O."
+    },
+    {
+      "file": "check_named_routes.py",
+      "bytes": 3632,
+      "sha256": "8bb87f13813b75d008afcf268eec51c2b2ecaf7c1b406a0a5d1f5a97a36310b7",
+      "docstring": "Changed named-issue/preparation dispatch regression; no HTTP or database Load."
+    },
+    {
+      "file": "check_native_alias_and_HTML.py",
+      "bytes": 5239,
+      "sha256": "6f27c54f68d5eb722090867fe88fe1be0330b11d03a02dc316a9df40ae0ab4bc",
+      "docstring": "Actual saved native publisher mapping checks; no HTTP or database writes."
+    }
+  ],
+  "excluded_current_python_files": [
+    "barnet_template.py",
+    "close_post_review.py",
+    "close_round.py",
+    "close_round_focused.py",
+    "final_post_review_report.py",
+    "final_report_builder.py",
+    "incremental_exports.py",
+    "supervise_closeout.py"
+  ],
+  "dependency_limits": [
+    {
+      "consumer": "elt.py",
+      "dependency": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/worker/elt.py",
+      "basis": "Reads and executes accepted original-context implementation after exact textual patches."
+    },
+    {
+      "consumer": "extract_load.py",
+      "dependency": "elt.PREVIOUS / extract_load.py",
+      "basis": "Reads and executes accepted predecessor parser prefix; PREVIOUS is inherited from base ELT."
+    },
+    {
+      "consumer": "production.py",
+      "dependency": "elt.PREVIOUS / calendar_run.py",
+      "basis": "Reads and executes accepted discovery-only predecessor code."
+    }
+  ],
+  "import_closure_limit": "AST parse plus constant __import__ names; inherited/dynamic donor imports cannot be fully certified from current worker alone. Preserve already-published dependency layout; this allowlist is not a standalone runnable snapshot.",
+  "publication_boundary": "Publish implementation and finalized metadata/source documentation; exclude scopes, leases, owner/chat controls, queues, checkpoints, logs and per-target receipts. No acquisition helper executed, DB/raw/body read or Git/docs edit.",
+  "validation": "AST syntax and recorded code hashes verified; modules were not imported or executed."
+}

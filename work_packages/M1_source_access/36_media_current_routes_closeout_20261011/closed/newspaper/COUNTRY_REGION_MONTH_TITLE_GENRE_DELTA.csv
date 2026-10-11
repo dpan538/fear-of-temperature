@@ -1,0 +1,110 @@
+country,region,month,source_id,genre,new_complete_retained_works
+AU,AU,1991-09,green_left,unknown_genre,12
+AU,AU,1992-11,green_left,unknown_genre,18
+AU,AU,1993-02,green_left,unknown_genre,10
+AU,AU,1993-05,green_left,unknown_genre,1
+AU,AU,1993-07,green_left,unknown_genre,1
+AU,AU,1994-01,green_left,unknown_genre,10
+AU,AU,1994-02,green_left,unknown_genre,1
+AU,AU,1994-03,green_left,unknown_genre,1
+AU,AU,1995-01,green_left,unknown_genre,10
+AU,AU,1995-02,green_left,unknown_genre,1
+AU,AU,1995-03,green_left,unknown_genre,1
+AU,AU,1996-01,green_left,unknown_genre,9
+AU,AU,1996-03,green_left,unknown_genre,1
+AU,AU,1997-01,green_left,unknown_genre,10
+AU,AU,1997-02,green_left,unknown_genre,1
+AU,AU,1997-03,green_left,unknown_genre,1
+AU,AU,1997-10,green_left,unknown_genre,50
+AU,AU,1998-01,green_left,unknown_genre,10
+AU,AU,1998-02,green_left,unknown_genre,1
+AU,AU,1998-03,green_left,unknown_genre,1
+AU,AU,1999-02,green_left,unknown_genre,10
+AU,AU,1999-03,green_left,unknown_genre,1
+AU,AU,1999-05,green_left,unknown_genre,1
+AU,AU,2000-01,green_left,unknown_genre,10
+AU,AU,2000-02,green_left,unknown_genre,1
+AU,AU,2000-03,green_left,unknown_genre,1
+AU,AU,2001-01,green_left,unknown_genre,10
+AU,AU,2001-02,green_left,unknown_genre,1
+AU,AU,2001-03,green_left,unknown_genre,1
+AU,AU,2002-01,green_left,unknown_genre,10
+AU,AU,2002-02,green_left,unknown_genre,1
+AU,AU,2002-03,green_left,unknown_genre,1
+AU,AU,2003-01,green_left,unknown_genre,10
+AU,AU,2003-02,green_left,unknown_genre,1
+AU,AU,2003-03,green_left,unknown_genre,1
+AU,AU,2013-05,byron_shire_echo,unknown_genre,2
+AU,AU,2013-07,byron_shire_echo,unknown_genre,2
+AU,AU,2014-08,gippsland_times,unknown_genre,1
+AU,AU,2016-03,your_local_examiner_au,unknown_genre,11
+AU,AU,2016-04,your_local_examiner_au,unknown_genre,18
+AU,AU,2017-03,border_watch,unknown_genre,1
+AU,AU,2017-05,border_watch,unknown_genre,3
+AU,AU,2018-07,midland_express,unknown_genre,14
+AU,AU,2018-08,castlemaine_mail,unknown_genre,15
+AU,AU,2018-08,midland_express,unknown_genre,14
+AU,AU,2018-09,castlemaine_mail,unknown_genre,21
+AU,AU,2018-10,castlemaine_mail,unknown_genre,7
+AU,AU,2018-11,castlemaine_mail,unknown_genre,10
+AU,AU,2024-07,about_time,Poetry,3
+DK,EU/Europe excluding UK,2008-02,copenhagen_post,unknown_genre,1
+DK,EU/Europe excluding UK,2008-06,copenhagen_post,unknown_genre,2
+DK,EU/Europe excluding UK,2008-08,copenhagen_post,unknown_genre,1
+GB,UK,2010-02,camden_new_journal,unknown_genre,1
+GB,UK,2011-06,camden_new_journal,unknown_genre,1
+GB,UK,2016-10,haringey_community_press,unknown_genre,1
+GB,UK,2016-11,haringey_community_press,unknown_genre,1
+GB,UK,2016-12,haringey_community_press,unknown_genre,1
+GB,UK,2017-03,haringey_community_press,unknown_genre,1
+GB,UK,2017-10,camden_new_journal,unknown_genre,1
+GB,UK,2017-10,haringey_community_press,unknown_genre,2
+GB,UK,2018-04,waltham_forest_echo,unknown_genre,16
+GB,UK,2018-05,waltham_forest_echo,unknown_genre,13
+GB,UK,2018-06,west_highland_free_press,unknown_genre,9
+GB,UK,2018-07,west_highland_free_press,unknown_genre,8
+GB,UK,2018-08,west_highland_free_press,unknown_genre,11
+GB,UK,2020-07,newham_voices,unknown_genre,2
+GB,UK,2020-08,newham_voices,unknown_genre,4
+GB,UK,2020-09,newham_voices,unknown_genre,23
+GB,UK,2020-11,ec1_echo,unknown_genre,4
+GB,UK,2021-02,barnet_post,unknown_genre,12
+GB,UK,2021-03,barnet_post,unknown_genre,27
+GB,UK,2021-03,enfield_dispatch,unknown_genre,23
+GB,UK,2021-04,barnet_post,unknown_genre,12
+GB,UK,2021-04,enfield_dispatch,unknown_genre,6
+GB,UK,2022-05,camden_new_journal,unknown_genre,1
+GB,UK,2023-07,islington_tribune,unknown_genre,2
+GB,UK,2024-03,islington_tribune,unknown_genre,1
+GB,UK,2024-08,islington_tribune,unknown_genre,1
+IE,EU/Europe excluding UK,2008-05,munster_express,unknown_genre,29
+IE,EU/Europe excluding UK,2008-09,galway_advertiser,unknown_genre,5
+IE,EU/Europe excluding UK,2010-04,limerick_post,unknown_genre,16
+IE,EU/Europe excluding UK,2010-06,limerick_post,unknown_genre,13
+IE,EU/Europe excluding UK,2012-12,dublin_gazette,unknown_genre,1
+IE,EU/Europe excluding UK,2013-01,dublin_gazette,unknown_genre,7
+IE,EU/Europe excluding UK,2021-05,kilkenny_observer,unknown_genre,5
+NZ,NZ,2017-08,cambridge_news_nz,"[""Featured"", ""News""]",2
+NZ,NZ,2017-08,cambridge_news_nz,"[""Featured"", ""Sport""]",1
+NZ,NZ,2017-08,cambridge_news_nz,"[""News""]",2
+NZ,NZ,2021-11,te_awamutu_news,unknown_genre,3
+NZ,NZ,2021-12,te_awamutu_news,unknown_genre,25
+NZ,NZ,2022-01,te_awamutu_news,unknown_genre,1
+US,US,1998-07,newtown_bee,unknown_genre,4
+US,US,2000-06,berkeley_daily_planet,Editorials,1
+US,US,2004-02,berkeley_daily_planet,Page One,1
+US,US,2004-05,berkeley_daily_planet,Page One,1
+US,US,2004-06,berkeley_daily_planet,Page One,1
+US,US,2004-11,berkeley_daily_planet,Page One,1
+US,US,2005-12,berkeley_daily_planet,Page One,1
+US,US,2006-01,berkeley_daily_planet,Page One,1
+US,US,2006-01,berkeley_daily_planet,Public Comment,1
+US,US,2006-03,berkeley_daily_planet,Public Comment,1
+US,US,2010-02,falls_church_news_press,unknown_genre,29
+US,US,2012-04,chester_telegraph,unknown_genre,3
+US,US,2012-05,chester_telegraph,unknown_genre,16
+US,US,2012-06,chester_telegraph,unknown_genre,14
+US,US,2012-07,chester_telegraph,unknown_genre,18
+US,US,2014-08,mountain_times_vt,unknown_genre,13
+US,US,2014-09,mountain_times_vt,unknown_genre,16
+US,US,2026-07,montpelier_bridge,unknown_genre,29

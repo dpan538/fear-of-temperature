@@ -1,0 +1,98 @@
+{
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "files": {
+    "AUTHOR_COUNTRY_AND_UNKNOWN.csv": {
+      "bytes": 1328,
+      "sha256": "f5923e6c46bde5829b69fd5c1742b1bdc219eeac26c6ebe131119ca134b53d6e"
+    },
+    "CURRENT_AUTHOR_ROLE_COUNTS.csv": {
+      "bytes": 702,
+      "sha256": "5b8c2497383f87806eb664fa58e68d12f72c9d2ce02d2b1c1924cc0d5287d29b"
+    },
+    "ERA_TOTALS.csv": {
+      "bytes": 4535,
+      "sha256": "6c258fd3779cf1ec982d129dc9af714372b48f364ba86dfe939e86c6cd29df6a"
+    },
+    "FIGURE_ALIGNMENT.json": {
+      "bytes": 2709,
+      "sha256": "a6eba5ebc44080cd70f63b8f72d701242c40d8473cbf3c2b39c4b509de838ca4"
+    },
+    "FIGURE_ALIGNMENT.svg": {
+      "bytes": 1113,
+      "sha256": "9f22a5d597586b6e208cb76b47aba8cda245f32386d62c73bd06c4bc2243429b"
+    },
+    "FIGURE_COLLISION_QA.json": {
+      "bytes": 619,
+      "sha256": "e82ea5d136bda2540c3c5b1f8521dc3560d224c5ee09cf7f1a8673db1c792512"
+    },
+    "FIGURE_TEXT_QA.json": {
+      "bytes": 338,
+      "sha256": "f7a5a569f62b25dface865c0bccc844c8f94015a3ee8029ddfc71a9ea1337e04"
+    },
+    "GENRE_TOTALS.csv": {
+      "bytes": 3788,
+      "sha256": "2ed0c00ef2385cba6ddbbb09d31ae1ffd0d096790f8cf84205a2b1d943e412ee"
+    },
+    "MEDIA_CLOSEOUT_ZH.pdf": {
+      "bytes": 74987,
+      "sha256": "9c2ad4b8268ae7165c9883e5edae988c88801d82970dbff6f82bba45dc197c3d"
+    },
+    "MEDIA_CLOSEOUT_ZH.png": {
+      "bytes": 389687,
+      "sha256": "30dabca9e57502902bcd3de7d0e23cc1df161f0b411b3816702a2914b0ebfd7b"
+    },
+    "MEDIA_CLOSEOUT_ZH.svg": {
+      "bytes": 71569,
+      "sha256": "a78da2c88fe8dbd826bcb357c4ee71696f69e4a34afa4d5c0c105b92abcd64fd"
+    },
+    "MONTHLY_DISTRIBUTION.csv": {
+      "bytes": 82806,
+      "sha256": "6ab00377b9fb36f778ce28f7821713dc9cf211702f3b7ff12b12fb2d34ef6703"
+    },
+    "QUANTITIES_BEFORE_AFTER.csv": {
+      "bytes": 1741,
+      "sha256": "2a596173f50438c601dca29e4c4a485fbfd5af9550b864ff6ab10257f19738cb"
+    },
+    "README.md": {
+      "bytes": 5953,
+      "sha256": "32e70f6fcbb3498eab571f7de02f87f5ea4019f0b6acf57356cec0a762313a73"
+    },
+    "SOURCE_COUNTRY_TOTALS.csv": {
+      "bytes": 3732,
+      "sha256": "fc5f105c3033d91651486240a7091d1097ce0883c4b69b459eb1e998dcdad34a"
+    },
+    "SOURCE_GENRE_ERA_COUNTRY.csv": {
+      "bytes": 41023,
+      "sha256": "72fa2cdacbf676541f4b19a0ad2e874b56f309878c4d6cc479fabc02db709a27"
+    },
+    "SOURCE_TOTALS.csv": {
+      "bytes": 7499,
+      "sha256": "961e4bada63a30bee91751a81ff6b0d56647f91ab80e8662940ce11b91a4fb58"
+    },
+    "SUMMARY.json": {
+      "bytes": 9300,
+      "sha256": "53a378bf8925cb40b8661e4dd8d9e4d82d7c8e558089b409c6eac71143622be8"
+    },
+    "VISUAL_REVIEW.json": {
+      "bytes": 1810,
+      "sha256": "594cd940e616df1dd803271e6c16e365fc4868b3a8e5016d20b223306bef7721"
+    }
+  },
+  "file_bytes_excluding_this_manifest": 705239,
+  "frozen_builder_source": {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_current_routes_closeout/preparation/coordinator_final_report.py",
+    "bytes": 31055,
+    "sha256": "4fb90d55e7746107229ac38b3bd8752b52b73ac7a3948d6da0f27ef27ad025ae",
+    "plotting_code_unchanged_after_render": true,
+    "postrender_edits": "English span/stop prose and accepted evidence receipt only; no calendar/table/plot recomputation"
+  },
+  "frozen_contract": {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_current_routes_closeout/preparation/FROZEN_REPORT_CONTRACT.json",
+    "bytes": 10124,
+    "sha256": "4cc3a1c78ce890b941d691a0b988236688ac11ab0adfe0e10f8c0c0c653723cb"
+  },
+  "accounting": "Charge all publication files, this manifest and largest atomic companion in shared/social accounting as applicable; no historical calendars or stores rescanned."
+}

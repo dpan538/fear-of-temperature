@@ -1,0 +1,22 @@
+{
+  "at_utc": "2026-10-11T09:41:14.218524+00:00",
+  "passed": true,
+  "saved_changed_raws_digest_checked": 3292,
+  "separate_new_source_metadata_raws_digest_checked": 81,
+  "changed_request_receipts": 3356,
+  "new_body_metadata_exact_SQL_ID_match": true,
+  "changed_complete_operation_peaks_checked": 2733,
+  "peak_violations": 0,
+  "delivery_files": 21,
+  "delivery_bytes": 43396106,
+  "future_publication_and_largest_temp_actual_bytes": 56879247,
+  "no_old_raw_body_or_whole_store_audit": true,
+  "database_journal_absent": true,
+  "accepted_capacity_snapshot": {
+    "at_utc": "2026-10-11T09:41:14.217853+00:00",
+    "media_bytes": 19535587410,
+    "social_bytes": 16761223738,
+    "free_bytes": 36695109632,
+    "global_document_version_bytes": 1360772
+  }
+}

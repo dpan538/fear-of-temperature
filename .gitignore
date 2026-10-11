@@ -184,3 +184,7 @@ work_packages/M1_source_access/27_newspaper_context_recovery_20261008/**/control
 # Fixed post-review successor runtime state remains local.
 /work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_four_hour_after_eight_hour/worker/
 /work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_four_hour_after_eight_hour/worker/
+
+# Completed source-expansion collector runtimes remain local; publish finalized package36.
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_six_hour_source_expansion/worker/
+/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_six_hour_source_expansion/worker/

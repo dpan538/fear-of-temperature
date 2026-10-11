@@ -1,0 +1,46 @@
+{
+  "at_utc": "2026-10-11T09:44:50.266007+00:00",
+  "figure": "MEDIA_CLOSEOUT_ZH.png",
+  "native_resolution_pixels": [
+    3300,
+    2460
+  ],
+  "intended_size_inches": [
+    11,
+    8.2
+  ],
+  "dpi": 300,
+  "whole_figure_reviewed": true,
+  "panels_reviewed": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "observations": [
+    "Chinese text, quantity annotations, axes and legend readable",
+    "No observed clipping, panel-label collision or text/graphic obstruction",
+    "Original linear monthly distributions and natural peaks retained; no event attribution"
+  ],
+  "mandatory_alignment_fail": 0,
+  "mandatory_alignment_warn": 0,
+  "mandatory_text_auditor_exit": 0,
+  "mandatory_collision_fail": 0,
+  "mandatory_collision_warn": 0,
+  "derived_data_or_store_rescan": false,
+  "visual_review": true,
+  "coordinator_independent_visual_pass": true,
+  "coordinator_observation": "All four panels readable/aligned, no clipping, natural peaks preserved",
+  "frozen_source": {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_current_routes_closeout/preparation/coordinator_final_report.py",
+    "bytes": 31055,
+    "sha256": "4fb90d55e7746107229ac38b3bd8752b52b73ac7a3948d6da0f27ef27ad025ae",
+    "plotting_code_unchanged_after_render": true,
+    "postrender_edits": "English span/stop prose and accepted evidence receipt only; no calendar/table/plot recomputation"
+  },
+  "frozen_contract": {
+    "path": "/Users/jarlgiovanni/Desktop/fear_of_temperature/work_packages/M1_source_access/27_newspaper_context_recovery_20261008/control/20261011_current_routes_closeout/preparation/FROZEN_REPORT_CONTRACT.json",
+    "bytes": 10124,
+    "sha256": "4cc3a1c78ce890b941d691a0b988236688ac11ab0adfe0e10f8c0c0c653723cb"
+  }
+}

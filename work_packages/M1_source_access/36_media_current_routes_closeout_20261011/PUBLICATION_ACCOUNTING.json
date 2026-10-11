@@ -1,0 +1,52 @@
+{
+  "snapshot_at_utc": "2026-10-11T09:41:14.217853+00:00",
+  "accepted_base_shared_bytes": 19535587410,
+  "accepted_base_social_bytes": 16761223738,
+  "actual_package36_bytes_before_accounting_and_root_manifest": 1848796,
+  "actual_current_control_growth_bytes": 80713,
+  "additional_full_global_document_and_ignore_versions_bytes": 702855,
+  "late_named_metadata_full_version_upper_bytes": 13728,
+  "late_named_metadata_versions": [
+    {
+      "file": "FINAL_OWNER_CLOSEOUT_ACK.json",
+      "bytes_full_latest_version": 1637
+    },
+    {
+      "file": "TERMINAL_EXIT.json",
+      "bytes_full_latest_version": 155
+    },
+    {
+      "file": "terminal.log",
+      "bytes_full_latest_version": 107
+    },
+    {
+      "file": "CLOSEOUT_PROGRESS.json",
+      "bytes_full_latest_version": 746
+    },
+    {
+      "file": "TERMINAL_COMPLETE.json",
+      "bytes_full_latest_version": 199
+    },
+    {
+      "file": "FINAL_DELIVERY_VERIFICATION.json",
+      "bytes_full_latest_version": 5839
+    },
+    {
+      "file": "LAST_CAPACITY.json",
+      "bytes_full_latest_version": 5045
+    }
+  ],
+  "dependency_probe_temp_cache_actual_bytes": 0,
+  "cumulative_shared_conservative_bound_bytes": 19538233502,
+  "cumulative_social_conservative_bound_bytes": 16763869830,
+  "largest_output_atomic_companion_bytes": 389687,
+  "native32MiB_journal64MiB_preserved_in_peak_guard": true,
+  "physical_free_bytes": 36526874624,
+  "physical_floor_bytes": 16106127360,
+  "recovery_bytes": 50331648,
+  "shared_cap_bytes": 60000000000,
+  "social_cap_bytes": 45000000000,
+  "all_passed": true,
+  "basis": "Accepted disjoint-root final receipt plus measured new publication/control growth/full document versions; late named metadata changes charged conservatively in full. No old raw/body/DB scan. Root accounting and final manifest final bytes are added in final completion receipt.",
+  "no_budget_reset": true
+}

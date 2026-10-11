@@ -1,0 +1,127 @@
+source_context_country,source_context_region,year,carrier,genre,new_usable_bodies
+AU,AU,2020,microblog,short_post,2
+AU,AU,2022,microblog,short_post,32
+AU,AU,2023,microblog,short_post,79
+AU,AU,2024,microblog,short_post,168
+AU,AU,2025,microblog,short_post,823
+AU,AU,2026,microblog,short_post,5596
+CA,Prince Edward Island,1999,personal_blog,personal_journal,13
+GB,UK,2018,microblog,short_post,1
+GB,UK,2019,microblog,short_post,1
+GB,UK,2021,microblog,short_post,6
+GB,UK,2022,microblog,short_post,1488
+GB,UK,2023,microblog,short_post,2395
+GB,UK,2024,microblog,short_post,1480
+GB,UK,2025,microblog,short_post,2643
+GB,UK,2026,microblog,short_post,3599
+IE,Europe_excluding_UK,2018,microblog,short_post,1
+IE,Europe_excluding_UK,2022,microblog,short_post,152
+IE,Europe_excluding_UK,2023,microblog,short_post,812
+IE,Europe_excluding_UK,2024,microblog,short_post,876
+IE,Europe_excluding_UK,2025,microblog,short_post,1984
+IE,Europe_excluding_UK,2026,microblog,short_post,7130
+US,US,2022,microblog,short_post,68
+US,US,2023,microblog,short_post,1092
+US,US,2024,microblog,short_post,771
+US,US,2025,microblog,short_post,1904
+US,US,2026,microblog,short_post,5465
+US,eastern United States,2003,personal_blog,personal_creative_journal,10
+US,eastern United States,2026,personal_blog,personal_creative_journal,5
+global,global,2023,microblog,short_post,9
+global,global,2024,microblog,short_post,50
+global,global,2025,microblog,short_post,282
+global,global,2026,microblog,short_post,3841
+unknown,Ireland association in coordinator candidate; dated author-location mapping pending,2009,personal_blog,personal_civic_professional_journal,1
+unknown,Ireland association in coordinator candidate; dated author-location mapping pending,2010,personal_blog,personal_civic_professional_journal,10
+unknown,Ireland association in coordinator candidate; dated author-location mapping pending,2012,personal_blog,personal_civic_professional_journal,5
+unknown,transnational author site; South African-origin biography pending dated country mapping,2011,personal_blog,personal_food_history_journal,90
+unknown,transnational author site; South African-origin biography pending dated country mapping,2012,personal_blog,personal_food_history_journal,111
+unknown,transnational author site; South African-origin biography pending dated country mapping,2013,personal_blog,personal_food_history_journal,96
+unknown,transnational author site; South African-origin biography pending dated country mapping,2014,personal_blog,personal_food_history_journal,64
+unknown,transnational author site; South African-origin biography pending dated country mapping,2015,personal_blog,personal_food_history_journal,21
+unknown,unknown,2002,personal_blog,personal_professional_book_journal,28
+unknown,unknown,2003,personal_blog,personal_family_travel_professional_journal,4
+unknown,unknown,2003,personal_blog,personal_professional_book_journal,130
+unknown,unknown,2004,personal_blog,personal_family_travel_professional_journal,1
+unknown,unknown,2004,personal_blog,personal_professional_book_journal,112
+unknown,unknown,2004,personal_blog,personal_weblog,12
+unknown,unknown,2005,personal_blog,personal_family_travel_professional_journal,12
+unknown,unknown,2005,personal_blog,personal_professional_book_journal,20
+unknown,unknown,2005,personal_blog,personal_teacher_nature_diary,91
+unknown,unknown,2006,personal_blog,personal_family_travel_professional_journal,20
+unknown,unknown,2006,personal_blog,personal_professional_travel_journal,1
+unknown,unknown,2006,personal_blog,personal_teacher_nature_diary,99
+unknown,unknown,2006,personal_blog,personal_weblog,2
+unknown,unknown,2007,personal_blog,blog_post,1
+unknown,unknown,2007,personal_blog,personal_family_travel_professional_journal,198
+unknown,unknown,2007,personal_blog,personal_microjournal,21
+unknown,unknown,2007,personal_blog,personal_musician_writer_essay,1
+unknown,unknown,2007,personal_blog,personal_weblog,2
+unknown,unknown,2008,personal_blog,blog_post,170
+unknown,unknown,2008,personal_blog,personal_weblog,4
+unknown,unknown,2009,personal_blog,blog_post,206
+unknown,unknown,2009,personal_blog,personal_humour_life_journal,97
+unknown,unknown,2009,personal_blog,personal_religious_life_journal,13
+unknown,unknown,2009,personal_blog,personal_weblog,1
+unknown,unknown,2010,personal_blog,blog_post,360
+unknown,unknown,2010,personal_blog,personal_education_reflection,1
+unknown,unknown,2010,personal_blog,personal_humour_life_journal,204
+unknown,unknown,2011,personal_blog,blog_post,292
+unknown,unknown,2011,personal_blog,personal_education_reflection,11
+unknown,unknown,2011,personal_blog,personal_humour_life_journal,106
+unknown,unknown,2012,personal_blog,blog_post,238
+unknown,unknown,2012,personal_blog,personal_education_reflection,14
+unknown,unknown,2012,personal_blog,personal_professional_travel_journal,16
+unknown,unknown,2012,personal_blog,personal_weblog,2
+unknown,unknown,2013,personal_blog,blog_post,214
+unknown,unknown,2013,personal_blog,personal_education_reflection,14
+unknown,unknown,2013,personal_blog,personal_professional_travel_journal,2
+unknown,unknown,2013,personal_blog,personal_weblog,6
+unknown,unknown,2014,personal_blog,blog_post,205
+unknown,unknown,2014,personal_blog,personal_education_reflection,9
+unknown,unknown,2014,personal_blog,personal_weblog,22
+unknown,unknown,2015,personal_blog,blog_post,129
+unknown,unknown,2015,personal_blog,personal_education_reflection,10
+unknown,unknown,2015,personal_blog,personal_professional_travel_journal,1
+unknown,unknown,2015,personal_blog,personal_weblog,12
+unknown,unknown,2016,personal_blog,blog_post,126
+unknown,unknown,2016,personal_blog,personal_education_reflection,8
+unknown,unknown,2016,personal_blog,personal_professional_travel_journal,3
+unknown,unknown,2016,personal_blog,personal_weblog,10
+unknown,unknown,2017,personal_blog,blog_post,45
+unknown,unknown,2017,personal_blog,personal_education_reflection,10
+unknown,unknown,2017,personal_blog,personal_professional_travel_journal,3
+unknown,unknown,2017,personal_blog,personal_weblog,1
+unknown,unknown,2018,personal_blog,blog_post,18
+unknown,unknown,2018,personal_blog,personal_education_reflection,10
+unknown,unknown,2018,personal_blog,personal_weblog,1
+unknown,unknown,2019,personal_blog,blog_post,6
+unknown,unknown,2019,personal_blog,personal_education_reflection,1
+unknown,unknown,2019,personal_blog,personal_weblog,2
+unknown,unknown,2020,personal_blog,blog_post,8
+unknown,unknown,2020,personal_blog,personal_education_reflection,3
+unknown,unknown,2020,personal_blog,personal_weblog,2
+unknown,unknown,2021,personal_blog,blog_post,4
+unknown,unknown,2021,personal_blog,personal_education_reflection,1
+unknown,unknown,2021,personal_blog,personal_weblog,2
+unknown,unknown,2022,personal_blog,blog_post,1
+unknown,unknown,2022,personal_blog,personal_education_reflection,8
+unknown,unknown,2022,personal_blog,personal_weblog,1
+unknown,unknown,2023,personal_blog,personal_education_reflection,5
+unknown,unknown,2023,personal_blog,personal_weblog,4
+unknown,unknown,2024,personal_blog,blog_post,5
+unknown,unknown,2024,personal_blog,personal_education_reflection,3
+unknown,unknown,2024,personal_blog,personal_family_travel_journal,1
+unknown,unknown,2024,personal_blog,personal_professional_travel_journal,1
+unknown,unknown,2024,personal_blog,personal_weblog,25
+unknown,unknown,2025,personal_blog,blog_post,3
+unknown,unknown,2025,personal_blog,hobby_fiction_project,5
+unknown,unknown,2025,personal_blog,personal_education_reflection,5
+unknown,unknown,2025,personal_blog,personal_professional_travel_journal,2
+unknown,unknown,2025,personal_blog,personal_weblog,25
+unknown,unknown,2026,personal_blog,blog_post,7
+unknown,unknown,2026,personal_blog,hobby_fiction_project,2
+unknown,unknown,2026,personal_blog,personal_musician_writer_essay,22
+unknown,unknown,2026,personal_blog,personal_professional_travel_journal,1
+unknown,unknown,2026,personal_blog,personal_religious_life_journal,5
+unknown,unknown,2026,personal_blog,personal_weblog,3
