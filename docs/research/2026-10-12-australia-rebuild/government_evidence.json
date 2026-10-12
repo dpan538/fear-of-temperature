@@ -1,0 +1,3790 @@
+{
+  "schema_version": "1.0",
+  "recorded_at_utc": "2026-10-12T07:01:08.742549+00:00",
+  "status": "Bounded public interface/native-text confirmation; no bulk import or active collector",
+  "publication_interval": {
+    "minimum": "1988-01-01",
+    "maximum": "2026-09-21",
+    "boundary_month": "partial"
+  },
+  "scope": "Australian institutional source context; not individual speaker residence or national representativeness",
+  "working_envelope": {
+    "peak_bytes": 100000000000,
+    "physical_floor_bytes": 16106127360,
+    "free_bytes_before_confirmation": 35961688064,
+    "free_bytes_after_confirmation": 35865227264,
+    "local_capacity_establishes_100GB": false,
+    "protected_international_holdings": "preserved outside new Australian analytical envelope"
+  },
+  "confirmation_operation": {
+    "source_http_requests": 16,
+    "response_bytes": 24160712,
+    "response_cap_bytes": 26214400,
+    "requests_status_counts": {
+      "200": 10,
+      "206": 4,
+      "403": 2
+    },
+    "default_sandbox_network_failure_separately_recorded": true,
+    "receipt_storage": "local unpublished package38 local_government",
+    "no_pdf_download": true,
+    "no_full_paragraph_download": true,
+    "paragraph_file_full_checksum_verified": false,
+    "no_old_store_reads_or_writes": true,
+    "no_models_or_semantic_filters": true,
+    "no_accounts_bypass_messages_or_expired_leases": true
+  },
+  "rapid": {
+    "record_url": "https://zenodo.org/records/22868754",
+    "metadata_url": "https://zenodo.org/api/records/22868754",
+    "doi": "10.5281/zenodo.22868754",
+    "version": "2026-09-21",
+    "deposit_publication_date": "2026-09-21",
+    "deposit_created_at": "2026-09-22T05:28:36.151539+00:00",
+    "institution": "Parliament of Australia",
+    "curator": "UQ RAPID-CDL",
+    "provenance": "Derived analytical export from official parliamentary XML/SGML; sitting links to original ParlInfo/PDF retained",
+    "licence": "cc-by-nc-nd-4.0",
+    "licence_basis": "Deposit API plus deposited README linking Parliament terms; APH copyright page returned403 to browsing tool",
+    "access": "Public keyless Zenodo API and file content GET; bounded HTTP206 Range requests actually honoured",
+    "pagination_date_filter": "Static versioned four-table files; no HTTP row/date query. Date/chamber selection requires session join. IDs/file row groups are not chronological.",
+    "manifest": [
+      {
+        "name": "paragraph.parquet",
+        "bytes": 500382872,
+        "md5": "06300f04e7a27ba6d2045be08229d6af"
+      },
+      {
+        "name": "README.md",
+        "bytes": 6514,
+        "md5": "46e52dae32b76924dac8056147abecd4"
+      },
+      {
+        "name": "debate_title.parquet",
+        "bytes": 1934097,
+        "md5": "04a5dcd10604e84697d5c59a760c5dce"
+      },
+      {
+        "name": "session.parquet",
+        "bytes": 101818,
+        "md5": "cc15e90d3c20c57064f9d94a9ad225f4"
+      },
+      {
+        "name": "speaker_detail.parquet",
+        "bytes": 17150,
+        "md5": "fae43b939fdb771d3d66b31ca81d3884"
+      }
+    ],
+    "total_deposit_bytes": 502442451,
+    "full_download_checksum_verified_tables": {
+      "README.md": {
+        "bytes_match": true,
+        "md5_match": true
+      },
+      "session.parquet": {
+        "bytes_match": true,
+        "md5_match": true
+      },
+      "speaker_detail.parquet": {
+        "bytes_match": true,
+        "md5_match": true
+      }
+    },
+    "paragraph_rows_in_metadata": 6911269,
+    "paragraph_row_groups": 57,
+    "paragraph_schema_fields": [
+      "para_id",
+      "session_id",
+      "sequence_number",
+      "speaker_id",
+      "speaker_detail_id",
+      "debate_id",
+      "procedural_unit_number",
+      "procedural_unit_type",
+      "text"
+    ],
+    "session_inventory": {
+      "unit": "native session rows: one chamber sitting on nominal start date; cross-midnight possible",
+      "total_rows": 3300,
+      "distinct_session_ids": 3300,
+      "null_dates": 0,
+      "null_chambers": 0,
+      "null_original_urls": 0,
+      "null_pdf_urls": 4,
+      "duplicate_chamber_dates": 2,
+      "date_bounds": {
+        "minimum": "1996-05-30",
+        "maximum": "2026-09-08"
+      },
+      "by_chamber": {
+        "House": 1775,
+        "Senate": 1525
+      },
+      "year_chamber": [
+        {
+          "year": 1996,
+          "chamber": "House",
+          "sittings": 2
+        },
+        {
+          "year": 1996,
+          "chamber": "Senate",
+          "sittings": 1
+        },
+        {
+          "year": 1997,
+          "chamber": "House",
+          "sittings": 0
+        },
+        {
+          "year": 1997,
+          "chamber": "Senate",
+          "sittings": 0
+        },
+        {
+          "year": 1998,
+          "chamber": "House",
+          "sittings": 56
+        },
+        {
+          "year": 1998,
+          "chamber": "Senate",
+          "sittings": 59
+        },
+        {
+          "year": 1999,
+          "chamber": "House",
+          "sittings": 73
+        },
+        {
+          "year": 1999,
+          "chamber": "Senate",
+          "sittings": 79
+        },
+        {
+          "year": 2000,
+          "chamber": "House",
+          "sittings": 73
+        },
+        {
+          "year": 2000,
+          "chamber": "Senate",
+          "sittings": 70
+        },
+        {
+          "year": 2001,
+          "chamber": "House",
+          "sittings": 56
+        },
+        {
+          "year": 2001,
+          "chamber": "Senate",
+          "sittings": 52
+        },
+        {
+          "year": 2002,
+          "chamber": "House",
+          "sittings": 69
+        },
+        {
+          "year": 2002,
+          "chamber": "Senate",
+          "sittings": 60
+        },
+        {
+          "year": 2003,
+          "chamber": "House",
+          "sittings": 74
+        },
+        {
+          "year": 2003,
+          "chamber": "Senate",
+          "sittings": 64
+        },
+        {
+          "year": 2004,
+          "chamber": "House",
+          "sittings": 58
+        },
+        {
+          "year": 2004,
+          "chamber": "Senate",
+          "sittings": 48
+        },
+        {
+          "year": 2005,
+          "chamber": "House",
+          "sittings": 67
+        },
+        {
+          "year": 2005,
+          "chamber": "Senate",
+          "sittings": 57
+        },
+        {
+          "year": 2006,
+          "chamber": "House",
+          "sittings": 68
+        },
+        {
+          "year": 2006,
+          "chamber": "Senate",
+          "sittings": 56
+        },
+        {
+          "year": 2007,
+          "chamber": "House",
+          "sittings": 50
+        },
+        {
+          "year": 2007,
+          "chamber": "Senate",
+          "sittings": 41
+        },
+        {
+          "year": 2008,
+          "chamber": "House",
+          "sittings": 69
+        },
+        {
+          "year": 2008,
+          "chamber": "Senate",
+          "sittings": 51
+        },
+        {
+          "year": 2009,
+          "chamber": "House",
+          "sittings": 68
+        },
+        {
+          "year": 2009,
+          "chamber": "Senate",
+          "sittings": 53
+        },
+        {
+          "year": 2010,
+          "chamber": "House",
+          "sittings": 55
+        },
+        {
+          "year": 2010,
+          "chamber": "Senate",
+          "sittings": 40
+        },
+        {
+          "year": 2011,
+          "chamber": "House",
+          "sittings": 64
+        },
+        {
+          "year": 2011,
+          "chamber": "Senate",
+          "sittings": 56
+        },
+        {
+          "year": 2012,
+          "chamber": "House",
+          "sittings": 63
+        },
+        {
+          "year": 2012,
+          "chamber": "Senate",
+          "sittings": 57
+        },
+        {
+          "year": 2013,
+          "chamber": "House",
+          "sittings": 48
+        },
+        {
+          "year": 2013,
+          "chamber": "Senate",
+          "sittings": 37
+        },
+        {
+          "year": 2014,
+          "chamber": "House",
+          "sittings": 76
+        },
+        {
+          "year": 2014,
+          "chamber": "Senate",
+          "sittings": 63
+        },
+        {
+          "year": 2015,
+          "chamber": "House",
+          "sittings": 75
+        },
+        {
+          "year": 2015,
+          "chamber": "Senate",
+          "sittings": 60
+        },
+        {
+          "year": 2016,
+          "chamber": "House",
+          "sittings": 51
+        },
+        {
+          "year": 2016,
+          "chamber": "Senate",
+          "sittings": 42
+        },
+        {
+          "year": 2017,
+          "chamber": "House",
+          "sittings": 64
+        },
+        {
+          "year": 2017,
+          "chamber": "Senate",
+          "sittings": 56
+        },
+        {
+          "year": 2018,
+          "chamber": "House",
+          "sittings": 65
+        },
+        {
+          "year": 2018,
+          "chamber": "Senate",
+          "sittings": 58
+        },
+        {
+          "year": 2019,
+          "chamber": "House",
+          "sittings": 45
+        },
+        {
+          "year": 2019,
+          "chamber": "Senate",
+          "sittings": 40
+        },
+        {
+          "year": 2020,
+          "chamber": "House",
+          "sittings": 58
+        },
+        {
+          "year": 2020,
+          "chamber": "Senate",
+          "sittings": 46
+        },
+        {
+          "year": 2021,
+          "chamber": "House",
+          "sittings": 67
+        },
+        {
+          "year": 2021,
+          "chamber": "Senate",
+          "sittings": 52
+        },
+        {
+          "year": 2022,
+          "chamber": "House",
+          "sittings": 41
+        },
+        {
+          "year": 2022,
+          "chamber": "Senate",
+          "sittings": 34
+        },
+        {
+          "year": 2023,
+          "chamber": "House",
+          "sittings": 67
+        },
+        {
+          "year": 2023,
+          "chamber": "Senate",
+          "sittings": 66
+        },
+        {
+          "year": 2024,
+          "chamber": "House",
+          "sittings": 63
+        },
+        {
+          "year": 2024,
+          "chamber": "Senate",
+          "sittings": 52
+        },
+        {
+          "year": 2025,
+          "chamber": "House",
+          "sittings": 40
+        },
+        {
+          "year": 2025,
+          "chamber": "Senate",
+          "sittings": 36
+        },
+        {
+          "year": 2026,
+          "chamber": "House",
+          "sittings": 50
+        },
+        {
+          "year": 2026,
+          "chamber": "Senate",
+          "sittings": 39
+        }
+      ],
+      "fixed_study_1988_01_to_2026_09": {
+        "House": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 465,
+          "observed_months": 247,
+          "zero_rows_months": 218,
+          "sittings": 1775,
+          "observed_ranges": [
+            {
+              "from": "1996-05",
+              "through": "1996-05",
+              "months": 1
+            },
+            {
+              "from": "1996-11",
+              "through": "1996-11",
+              "months": 1
+            },
+            {
+              "from": "1998-03",
+              "through": "1998-07",
+              "months": 5
+            },
+            {
+              "from": "1998-11",
+              "through": "1998-12",
+              "months": 2
+            },
+            {
+              "from": "1999-02",
+              "through": "1999-03",
+              "months": 2
+            },
+            {
+              "from": "1999-05",
+              "through": "1999-06",
+              "months": 2
+            },
+            {
+              "from": "1999-08",
+              "through": "1999-12",
+              "months": 5
+            },
+            {
+              "from": "2000-02",
+              "through": "2000-06",
+              "months": 5
+            },
+            {
+              "from": "2000-08",
+              "through": "2000-12",
+              "months": 5
+            },
+            {
+              "from": "2001-02",
+              "through": "2001-06",
+              "months": 5
+            },
+            {
+              "from": "2001-08",
+              "through": "2001-09",
+              "months": 2
+            },
+            {
+              "from": "2002-02",
+              "through": "2002-03",
+              "months": 2
+            },
+            {
+              "from": "2002-05",
+              "through": "2002-06",
+              "months": 2
+            },
+            {
+              "from": "2002-08",
+              "through": "2002-12",
+              "months": 5
+            },
+            {
+              "from": "2003-02",
+              "through": "2003-03",
+              "months": 2
+            },
+            {
+              "from": "2003-05",
+              "through": "2003-06",
+              "months": 2
+            },
+            {
+              "from": "2003-08",
+              "through": "2003-12",
+              "months": 5
+            },
+            {
+              "from": "2004-02",
+              "through": "2004-06",
+              "months": 5
+            },
+            {
+              "from": "2004-08",
+              "through": "2004-08",
+              "months": 1
+            },
+            {
+              "from": "2004-11",
+              "through": "2004-12",
+              "months": 2
+            },
+            {
+              "from": "2005-02",
+              "through": "2005-03",
+              "months": 2
+            },
+            {
+              "from": "2005-05",
+              "through": "2005-06",
+              "months": 2
+            },
+            {
+              "from": "2005-08",
+              "through": "2005-12",
+              "months": 5
+            },
+            {
+              "from": "2006-02",
+              "through": "2006-03",
+              "months": 2
+            },
+            {
+              "from": "2006-05",
+              "through": "2006-06",
+              "months": 2
+            },
+            {
+              "from": "2006-08",
+              "through": "2006-12",
+              "months": 5
+            },
+            {
+              "from": "2007-02",
+              "through": "2007-03",
+              "months": 2
+            },
+            {
+              "from": "2007-05",
+              "through": "2007-06",
+              "months": 2
+            },
+            {
+              "from": "2007-08",
+              "through": "2007-09",
+              "months": 2
+            },
+            {
+              "from": "2008-02",
+              "through": "2008-03",
+              "months": 2
+            },
+            {
+              "from": "2008-05",
+              "through": "2008-06",
+              "months": 2
+            },
+            {
+              "from": "2008-08",
+              "through": "2008-12",
+              "months": 5
+            },
+            {
+              "from": "2009-02",
+              "through": "2009-03",
+              "months": 2
+            },
+            {
+              "from": "2009-05",
+              "through": "2009-06",
+              "months": 2
+            },
+            {
+              "from": "2009-08",
+              "through": "2009-11",
+              "months": 4
+            },
+            {
+              "from": "2010-02",
+              "through": "2010-03",
+              "months": 2
+            },
+            {
+              "from": "2010-05",
+              "through": "2010-06",
+              "months": 2
+            },
+            {
+              "from": "2010-09",
+              "through": "2010-11",
+              "months": 3
+            },
+            {
+              "from": "2011-02",
+              "through": "2011-03",
+              "months": 2
+            },
+            {
+              "from": "2011-05",
+              "through": "2011-11",
+              "months": 7
+            },
+            {
+              "from": "2012-02",
+              "through": "2012-03",
+              "months": 2
+            },
+            {
+              "from": "2012-05",
+              "through": "2012-06",
+              "months": 2
+            },
+            {
+              "from": "2012-08",
+              "through": "2012-11",
+              "months": 4
+            },
+            {
+              "from": "2013-02",
+              "through": "2013-03",
+              "months": 2
+            },
+            {
+              "from": "2013-05",
+              "through": "2013-06",
+              "months": 2
+            },
+            {
+              "from": "2013-11",
+              "through": "2013-12",
+              "months": 2
+            },
+            {
+              "from": "2014-02",
+              "through": "2014-03",
+              "months": 2
+            },
+            {
+              "from": "2014-05",
+              "through": "2014-12",
+              "months": 8
+            },
+            {
+              "from": "2015-02",
+              "through": "2015-03",
+              "months": 2
+            },
+            {
+              "from": "2015-05",
+              "through": "2015-06",
+              "months": 2
+            },
+            {
+              "from": "2015-08",
+              "through": "2015-12",
+              "months": 5
+            },
+            {
+              "from": "2016-02",
+              "through": "2016-05",
+              "months": 4
+            },
+            {
+              "from": "2016-08",
+              "through": "2016-12",
+              "months": 5
+            },
+            {
+              "from": "2017-02",
+              "through": "2017-03",
+              "months": 2
+            },
+            {
+              "from": "2017-05",
+              "through": "2017-06",
+              "months": 2
+            },
+            {
+              "from": "2017-08",
+              "through": "2017-10",
+              "months": 3
+            },
+            {
+              "from": "2017-12",
+              "through": "2017-12",
+              "months": 1
+            },
+            {
+              "from": "2018-02",
+              "through": "2018-03",
+              "months": 2
+            },
+            {
+              "from": "2018-05",
+              "through": "2018-06",
+              "months": 2
+            },
+            {
+              "from": "2018-08",
+              "through": "2018-12",
+              "months": 5
+            },
+            {
+              "from": "2019-02",
+              "through": "2019-02",
+              "months": 1
+            },
+            {
+              "from": "2019-04",
+              "through": "2019-04",
+              "months": 1
+            },
+            {
+              "from": "2019-07",
+              "through": "2019-12",
+              "months": 6
+            },
+            {
+              "from": "2020-02",
+              "through": "2020-06",
+              "months": 5
+            },
+            {
+              "from": "2020-08",
+              "through": "2020-12",
+              "months": 5
+            },
+            {
+              "from": "2021-02",
+              "through": "2021-03",
+              "months": 2
+            },
+            {
+              "from": "2021-05",
+              "through": "2021-06",
+              "months": 2
+            },
+            {
+              "from": "2021-08",
+              "through": "2021-12",
+              "months": 5
+            },
+            {
+              "from": "2022-02",
+              "through": "2022-03",
+              "months": 2
+            },
+            {
+              "from": "2022-07",
+              "through": "2022-12",
+              "months": 6
+            },
+            {
+              "from": "2023-02",
+              "through": "2023-03",
+              "months": 2
+            },
+            {
+              "from": "2023-05",
+              "through": "2023-12",
+              "months": 8
+            },
+            {
+              "from": "2024-02",
+              "through": "2024-03",
+              "months": 2
+            },
+            {
+              "from": "2024-05",
+              "through": "2024-11",
+              "months": 7
+            },
+            {
+              "from": "2025-02",
+              "through": "2025-03",
+              "months": 2
+            },
+            {
+              "from": "2025-07",
+              "through": "2025-11",
+              "months": 5
+            },
+            {
+              "from": "2026-01",
+              "through": "2026-09",
+              "months": 9
+            }
+          ],
+          "zero_rows_ranges": [
+            {
+              "from": "1988-01",
+              "through": "1996-04",
+              "months": 100
+            },
+            {
+              "from": "1996-06",
+              "through": "1996-10",
+              "months": 5
+            },
+            {
+              "from": "1996-12",
+              "through": "1998-02",
+              "months": 15
+            },
+            {
+              "from": "1998-08",
+              "through": "1998-10",
+              "months": 3
+            },
+            {
+              "from": "1999-01",
+              "through": "1999-01",
+              "months": 1
+            },
+            {
+              "from": "1999-04",
+              "through": "1999-04",
+              "months": 1
+            },
+            {
+              "from": "1999-07",
+              "through": "1999-07",
+              "months": 1
+            },
+            {
+              "from": "2000-01",
+              "through": "2000-01",
+              "months": 1
+            },
+            {
+              "from": "2000-07",
+              "through": "2000-07",
+              "months": 1
+            },
+            {
+              "from": "2001-01",
+              "through": "2001-01",
+              "months": 1
+            },
+            {
+              "from": "2001-07",
+              "through": "2001-07",
+              "months": 1
+            },
+            {
+              "from": "2001-10",
+              "through": "2002-01",
+              "months": 4
+            },
+            {
+              "from": "2002-04",
+              "through": "2002-04",
+              "months": 1
+            },
+            {
+              "from": "2002-07",
+              "through": "2002-07",
+              "months": 1
+            },
+            {
+              "from": "2003-01",
+              "through": "2003-01",
+              "months": 1
+            },
+            {
+              "from": "2003-04",
+              "through": "2003-04",
+              "months": 1
+            },
+            {
+              "from": "2003-07",
+              "through": "2003-07",
+              "months": 1
+            },
+            {
+              "from": "2004-01",
+              "through": "2004-01",
+              "months": 1
+            },
+            {
+              "from": "2004-07",
+              "through": "2004-07",
+              "months": 1
+            },
+            {
+              "from": "2004-09",
+              "through": "2004-10",
+              "months": 2
+            },
+            {
+              "from": "2005-01",
+              "through": "2005-01",
+              "months": 1
+            },
+            {
+              "from": "2005-04",
+              "through": "2005-04",
+              "months": 1
+            },
+            {
+              "from": "2005-07",
+              "through": "2005-07",
+              "months": 1
+            },
+            {
+              "from": "2006-01",
+              "through": "2006-01",
+              "months": 1
+            },
+            {
+              "from": "2006-04",
+              "through": "2006-04",
+              "months": 1
+            },
+            {
+              "from": "2006-07",
+              "through": "2006-07",
+              "months": 1
+            },
+            {
+              "from": "2007-01",
+              "through": "2007-01",
+              "months": 1
+            },
+            {
+              "from": "2007-04",
+              "through": "2007-04",
+              "months": 1
+            },
+            {
+              "from": "2007-07",
+              "through": "2007-07",
+              "months": 1
+            },
+            {
+              "from": "2007-10",
+              "through": "2008-01",
+              "months": 4
+            },
+            {
+              "from": "2008-04",
+              "through": "2008-04",
+              "months": 1
+            },
+            {
+              "from": "2008-07",
+              "through": "2008-07",
+              "months": 1
+            },
+            {
+              "from": "2009-01",
+              "through": "2009-01",
+              "months": 1
+            },
+            {
+              "from": "2009-04",
+              "through": "2009-04",
+              "months": 1
+            },
+            {
+              "from": "2009-07",
+              "through": "2009-07",
+              "months": 1
+            },
+            {
+              "from": "2009-12",
+              "through": "2010-01",
+              "months": 2
+            },
+            {
+              "from": "2010-04",
+              "through": "2010-04",
+              "months": 1
+            },
+            {
+              "from": "2010-07",
+              "through": "2010-08",
+              "months": 2
+            },
+            {
+              "from": "2010-12",
+              "through": "2011-01",
+              "months": 2
+            },
+            {
+              "from": "2011-04",
+              "through": "2011-04",
+              "months": 1
+            },
+            {
+              "from": "2011-12",
+              "through": "2012-01",
+              "months": 2
+            },
+            {
+              "from": "2012-04",
+              "through": "2012-04",
+              "months": 1
+            },
+            {
+              "from": "2012-07",
+              "through": "2012-07",
+              "months": 1
+            },
+            {
+              "from": "2012-12",
+              "through": "2013-01",
+              "months": 2
+            },
+            {
+              "from": "2013-04",
+              "through": "2013-04",
+              "months": 1
+            },
+            {
+              "from": "2013-07",
+              "through": "2013-10",
+              "months": 4
+            },
+            {
+              "from": "2014-01",
+              "through": "2014-01",
+              "months": 1
+            },
+            {
+              "from": "2014-04",
+              "through": "2014-04",
+              "months": 1
+            },
+            {
+              "from": "2015-01",
+              "through": "2015-01",
+              "months": 1
+            },
+            {
+              "from": "2015-04",
+              "through": "2015-04",
+              "months": 1
+            },
+            {
+              "from": "2015-07",
+              "through": "2015-07",
+              "months": 1
+            },
+            {
+              "from": "2016-01",
+              "through": "2016-01",
+              "months": 1
+            },
+            {
+              "from": "2016-06",
+              "through": "2016-07",
+              "months": 2
+            },
+            {
+              "from": "2017-01",
+              "through": "2017-01",
+              "months": 1
+            },
+            {
+              "from": "2017-04",
+              "through": "2017-04",
+              "months": 1
+            },
+            {
+              "from": "2017-07",
+              "through": "2017-07",
+              "months": 1
+            },
+            {
+              "from": "2017-11",
+              "through": "2017-11",
+              "months": 1
+            },
+            {
+              "from": "2018-01",
+              "through": "2018-01",
+              "months": 1
+            },
+            {
+              "from": "2018-04",
+              "through": "2018-04",
+              "months": 1
+            },
+            {
+              "from": "2018-07",
+              "through": "2018-07",
+              "months": 1
+            },
+            {
+              "from": "2019-01",
+              "through": "2019-01",
+              "months": 1
+            },
+            {
+              "from": "2019-03",
+              "through": "2019-03",
+              "months": 1
+            },
+            {
+              "from": "2019-05",
+              "through": "2019-06",
+              "months": 2
+            },
+            {
+              "from": "2020-01",
+              "through": "2020-01",
+              "months": 1
+            },
+            {
+              "from": "2020-07",
+              "through": "2020-07",
+              "months": 1
+            },
+            {
+              "from": "2021-01",
+              "through": "2021-01",
+              "months": 1
+            },
+            {
+              "from": "2021-04",
+              "through": "2021-04",
+              "months": 1
+            },
+            {
+              "from": "2021-07",
+              "through": "2021-07",
+              "months": 1
+            },
+            {
+              "from": "2022-01",
+              "through": "2022-01",
+              "months": 1
+            },
+            {
+              "from": "2022-04",
+              "through": "2022-06",
+              "months": 3
+            },
+            {
+              "from": "2023-01",
+              "through": "2023-01",
+              "months": 1
+            },
+            {
+              "from": "2023-04",
+              "through": "2023-04",
+              "months": 1
+            },
+            {
+              "from": "2024-01",
+              "through": "2024-01",
+              "months": 1
+            },
+            {
+              "from": "2024-04",
+              "through": "2024-04",
+              "months": 1
+            },
+            {
+              "from": "2024-12",
+              "through": "2025-01",
+              "months": 2
+            },
+            {
+              "from": "2025-04",
+              "through": "2025-06",
+              "months": 3
+            },
+            {
+              "from": "2025-12",
+              "through": "2025-12",
+              "months": 1
+            }
+          ]
+        },
+        "Senate": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 465,
+          "observed_months": 248,
+          "zero_rows_months": 217,
+          "sittings": 1525,
+          "observed_ranges": [
+            {
+              "from": "1996-11",
+              "through": "1996-11",
+              "months": 1
+            },
+            {
+              "from": "1998-03",
+              "through": "1998-07",
+              "months": 5
+            },
+            {
+              "from": "1998-11",
+              "through": "1998-12",
+              "months": 2
+            },
+            {
+              "from": "1999-02",
+              "through": "1999-06",
+              "months": 5
+            },
+            {
+              "from": "1999-08",
+              "through": "1999-12",
+              "months": 5
+            },
+            {
+              "from": "2000-02",
+              "through": "2000-06",
+              "months": 5
+            },
+            {
+              "from": "2000-08",
+              "through": "2000-12",
+              "months": 5
+            },
+            {
+              "from": "2001-02",
+              "through": "2001-06",
+              "months": 5
+            },
+            {
+              "from": "2001-08",
+              "through": "2001-09",
+              "months": 2
+            },
+            {
+              "from": "2002-02",
+              "through": "2002-03",
+              "months": 2
+            },
+            {
+              "from": "2002-05",
+              "through": "2002-06",
+              "months": 2
+            },
+            {
+              "from": "2002-08",
+              "through": "2002-12",
+              "months": 5
+            },
+            {
+              "from": "2003-02",
+              "through": "2003-03",
+              "months": 2
+            },
+            {
+              "from": "2003-05",
+              "through": "2003-06",
+              "months": 2
+            },
+            {
+              "from": "2003-08",
+              "through": "2003-12",
+              "months": 5
+            },
+            {
+              "from": "2004-02",
+              "through": "2004-06",
+              "months": 5
+            },
+            {
+              "from": "2004-08",
+              "through": "2004-08",
+              "months": 1
+            },
+            {
+              "from": "2004-11",
+              "through": "2004-12",
+              "months": 2
+            },
+            {
+              "from": "2005-02",
+              "through": "2005-03",
+              "months": 2
+            },
+            {
+              "from": "2005-05",
+              "through": "2005-06",
+              "months": 2
+            },
+            {
+              "from": "2005-08",
+              "through": "2005-12",
+              "months": 5
+            },
+            {
+              "from": "2006-02",
+              "through": "2006-03",
+              "months": 2
+            },
+            {
+              "from": "2006-05",
+              "through": "2006-06",
+              "months": 2
+            },
+            {
+              "from": "2006-08",
+              "through": "2006-12",
+              "months": 5
+            },
+            {
+              "from": "2007-02",
+              "through": "2007-03",
+              "months": 2
+            },
+            {
+              "from": "2007-05",
+              "through": "2007-06",
+              "months": 2
+            },
+            {
+              "from": "2007-08",
+              "through": "2007-09",
+              "months": 2
+            },
+            {
+              "from": "2008-02",
+              "through": "2008-03",
+              "months": 2
+            },
+            {
+              "from": "2008-05",
+              "through": "2008-06",
+              "months": 2
+            },
+            {
+              "from": "2008-08",
+              "through": "2008-12",
+              "months": 5
+            },
+            {
+              "from": "2009-02",
+              "through": "2009-03",
+              "months": 2
+            },
+            {
+              "from": "2009-05",
+              "through": "2009-06",
+              "months": 2
+            },
+            {
+              "from": "2009-08",
+              "through": "2009-11",
+              "months": 4
+            },
+            {
+              "from": "2010-02",
+              "through": "2010-03",
+              "months": 2
+            },
+            {
+              "from": "2010-05",
+              "through": "2010-06",
+              "months": 2
+            },
+            {
+              "from": "2010-09",
+              "through": "2010-11",
+              "months": 3
+            },
+            {
+              "from": "2011-02",
+              "through": "2011-03",
+              "months": 2
+            },
+            {
+              "from": "2011-05",
+              "through": "2011-11",
+              "months": 7
+            },
+            {
+              "from": "2012-02",
+              "through": "2012-03",
+              "months": 2
+            },
+            {
+              "from": "2012-05",
+              "through": "2012-06",
+              "months": 2
+            },
+            {
+              "from": "2012-08",
+              "through": "2012-11",
+              "months": 4
+            },
+            {
+              "from": "2013-02",
+              "through": "2013-03",
+              "months": 2
+            },
+            {
+              "from": "2013-05",
+              "through": "2013-06",
+              "months": 2
+            },
+            {
+              "from": "2013-11",
+              "through": "2013-12",
+              "months": 2
+            },
+            {
+              "from": "2014-02",
+              "through": "2014-03",
+              "months": 2
+            },
+            {
+              "from": "2014-05",
+              "through": "2014-12",
+              "months": 8
+            },
+            {
+              "from": "2015-02",
+              "through": "2015-03",
+              "months": 2
+            },
+            {
+              "from": "2015-05",
+              "through": "2015-06",
+              "months": 2
+            },
+            {
+              "from": "2015-08",
+              "through": "2015-12",
+              "months": 5
+            },
+            {
+              "from": "2016-02",
+              "through": "2016-05",
+              "months": 4
+            },
+            {
+              "from": "2016-08",
+              "through": "2016-12",
+              "months": 5
+            },
+            {
+              "from": "2017-02",
+              "through": "2017-03",
+              "months": 2
+            },
+            {
+              "from": "2017-05",
+              "through": "2017-06",
+              "months": 2
+            },
+            {
+              "from": "2017-08",
+              "through": "2017-12",
+              "months": 5
+            },
+            {
+              "from": "2018-02",
+              "through": "2018-03",
+              "months": 2
+            },
+            {
+              "from": "2018-05",
+              "through": "2018-06",
+              "months": 2
+            },
+            {
+              "from": "2018-08",
+              "through": "2018-12",
+              "months": 5
+            },
+            {
+              "from": "2019-02",
+              "through": "2019-02",
+              "months": 1
+            },
+            {
+              "from": "2019-04",
+              "through": "2019-04",
+              "months": 1
+            },
+            {
+              "from": "2019-07",
+              "through": "2019-12",
+              "months": 6
+            },
+            {
+              "from": "2020-02",
+              "through": "2020-06",
+              "months": 5
+            },
+            {
+              "from": "2020-08",
+              "through": "2020-12",
+              "months": 5
+            },
+            {
+              "from": "2021-02",
+              "through": "2021-03",
+              "months": 2
+            },
+            {
+              "from": "2021-05",
+              "through": "2021-06",
+              "months": 2
+            },
+            {
+              "from": "2021-08",
+              "through": "2021-12",
+              "months": 5
+            },
+            {
+              "from": "2022-02",
+              "through": "2022-03",
+              "months": 2
+            },
+            {
+              "from": "2022-07",
+              "through": "2022-12",
+              "months": 6
+            },
+            {
+              "from": "2023-02",
+              "through": "2023-03",
+              "months": 2
+            },
+            {
+              "from": "2023-05",
+              "through": "2023-12",
+              "months": 8
+            },
+            {
+              "from": "2024-02",
+              "through": "2024-03",
+              "months": 2
+            },
+            {
+              "from": "2024-05",
+              "through": "2024-11",
+              "months": 7
+            },
+            {
+              "from": "2025-02",
+              "through": "2025-03",
+              "months": 2
+            },
+            {
+              "from": "2025-07",
+              "through": "2025-11",
+              "months": 5
+            },
+            {
+              "from": "2026-01",
+              "through": "2026-09",
+              "months": 9
+            }
+          ],
+          "zero_rows_ranges": [
+            {
+              "from": "1988-01",
+              "through": "1996-10",
+              "months": 106
+            },
+            {
+              "from": "1996-12",
+              "through": "1998-02",
+              "months": 15
+            },
+            {
+              "from": "1998-08",
+              "through": "1998-10",
+              "months": 3
+            },
+            {
+              "from": "1999-01",
+              "through": "1999-01",
+              "months": 1
+            },
+            {
+              "from": "1999-07",
+              "through": "1999-07",
+              "months": 1
+            },
+            {
+              "from": "2000-01",
+              "through": "2000-01",
+              "months": 1
+            },
+            {
+              "from": "2000-07",
+              "through": "2000-07",
+              "months": 1
+            },
+            {
+              "from": "2001-01",
+              "through": "2001-01",
+              "months": 1
+            },
+            {
+              "from": "2001-07",
+              "through": "2001-07",
+              "months": 1
+            },
+            {
+              "from": "2001-10",
+              "through": "2002-01",
+              "months": 4
+            },
+            {
+              "from": "2002-04",
+              "through": "2002-04",
+              "months": 1
+            },
+            {
+              "from": "2002-07",
+              "through": "2002-07",
+              "months": 1
+            },
+            {
+              "from": "2003-01",
+              "through": "2003-01",
+              "months": 1
+            },
+            {
+              "from": "2003-04",
+              "through": "2003-04",
+              "months": 1
+            },
+            {
+              "from": "2003-07",
+              "through": "2003-07",
+              "months": 1
+            },
+            {
+              "from": "2004-01",
+              "through": "2004-01",
+              "months": 1
+            },
+            {
+              "from": "2004-07",
+              "through": "2004-07",
+              "months": 1
+            },
+            {
+              "from": "2004-09",
+              "through": "2004-10",
+              "months": 2
+            },
+            {
+              "from": "2005-01",
+              "through": "2005-01",
+              "months": 1
+            },
+            {
+              "from": "2005-04",
+              "through": "2005-04",
+              "months": 1
+            },
+            {
+              "from": "2005-07",
+              "through": "2005-07",
+              "months": 1
+            },
+            {
+              "from": "2006-01",
+              "through": "2006-01",
+              "months": 1
+            },
+            {
+              "from": "2006-04",
+              "through": "2006-04",
+              "months": 1
+            },
+            {
+              "from": "2006-07",
+              "through": "2006-07",
+              "months": 1
+            },
+            {
+              "from": "2007-01",
+              "through": "2007-01",
+              "months": 1
+            },
+            {
+              "from": "2007-04",
+              "through": "2007-04",
+              "months": 1
+            },
+            {
+              "from": "2007-07",
+              "through": "2007-07",
+              "months": 1
+            },
+            {
+              "from": "2007-10",
+              "through": "2008-01",
+              "months": 4
+            },
+            {
+              "from": "2008-04",
+              "through": "2008-04",
+              "months": 1
+            },
+            {
+              "from": "2008-07",
+              "through": "2008-07",
+              "months": 1
+            },
+            {
+              "from": "2009-01",
+              "through": "2009-01",
+              "months": 1
+            },
+            {
+              "from": "2009-04",
+              "through": "2009-04",
+              "months": 1
+            },
+            {
+              "from": "2009-07",
+              "through": "2009-07",
+              "months": 1
+            },
+            {
+              "from": "2009-12",
+              "through": "2010-01",
+              "months": 2
+            },
+            {
+              "from": "2010-04",
+              "through": "2010-04",
+              "months": 1
+            },
+            {
+              "from": "2010-07",
+              "through": "2010-08",
+              "months": 2
+            },
+            {
+              "from": "2010-12",
+              "through": "2011-01",
+              "months": 2
+            },
+            {
+              "from": "2011-04",
+              "through": "2011-04",
+              "months": 1
+            },
+            {
+              "from": "2011-12",
+              "through": "2012-01",
+              "months": 2
+            },
+            {
+              "from": "2012-04",
+              "through": "2012-04",
+              "months": 1
+            },
+            {
+              "from": "2012-07",
+              "through": "2012-07",
+              "months": 1
+            },
+            {
+              "from": "2012-12",
+              "through": "2013-01",
+              "months": 2
+            },
+            {
+              "from": "2013-04",
+              "through": "2013-04",
+              "months": 1
+            },
+            {
+              "from": "2013-07",
+              "through": "2013-10",
+              "months": 4
+            },
+            {
+              "from": "2014-01",
+              "through": "2014-01",
+              "months": 1
+            },
+            {
+              "from": "2014-04",
+              "through": "2014-04",
+              "months": 1
+            },
+            {
+              "from": "2015-01",
+              "through": "2015-01",
+              "months": 1
+            },
+            {
+              "from": "2015-04",
+              "through": "2015-04",
+              "months": 1
+            },
+            {
+              "from": "2015-07",
+              "through": "2015-07",
+              "months": 1
+            },
+            {
+              "from": "2016-01",
+              "through": "2016-01",
+              "months": 1
+            },
+            {
+              "from": "2016-06",
+              "through": "2016-07",
+              "months": 2
+            },
+            {
+              "from": "2017-01",
+              "through": "2017-01",
+              "months": 1
+            },
+            {
+              "from": "2017-04",
+              "through": "2017-04",
+              "months": 1
+            },
+            {
+              "from": "2017-07",
+              "through": "2017-07",
+              "months": 1
+            },
+            {
+              "from": "2018-01",
+              "through": "2018-01",
+              "months": 1
+            },
+            {
+              "from": "2018-04",
+              "through": "2018-04",
+              "months": 1
+            },
+            {
+              "from": "2018-07",
+              "through": "2018-07",
+              "months": 1
+            },
+            {
+              "from": "2019-01",
+              "through": "2019-01",
+              "months": 1
+            },
+            {
+              "from": "2019-03",
+              "through": "2019-03",
+              "months": 1
+            },
+            {
+              "from": "2019-05",
+              "through": "2019-06",
+              "months": 2
+            },
+            {
+              "from": "2020-01",
+              "through": "2020-01",
+              "months": 1
+            },
+            {
+              "from": "2020-07",
+              "through": "2020-07",
+              "months": 1
+            },
+            {
+              "from": "2021-01",
+              "through": "2021-01",
+              "months": 1
+            },
+            {
+              "from": "2021-04",
+              "through": "2021-04",
+              "months": 1
+            },
+            {
+              "from": "2021-07",
+              "through": "2021-07",
+              "months": 1
+            },
+            {
+              "from": "2022-01",
+              "through": "2022-01",
+              "months": 1
+            },
+            {
+              "from": "2022-04",
+              "through": "2022-06",
+              "months": 3
+            },
+            {
+              "from": "2023-01",
+              "through": "2023-01",
+              "months": 1
+            },
+            {
+              "from": "2023-04",
+              "through": "2023-04",
+              "months": 1
+            },
+            {
+              "from": "2024-01",
+              "through": "2024-01",
+              "months": 1
+            },
+            {
+              "from": "2024-04",
+              "through": "2024-04",
+              "months": 1
+            },
+            {
+              "from": "2024-12",
+              "through": "2025-01",
+              "months": 2
+            },
+            {
+              "from": "2025-04",
+              "through": "2025-06",
+              "months": 3
+            },
+            {
+              "from": "2025-12",
+              "through": "2025-12",
+              "months": 1
+            }
+          ]
+        },
+        "pooled": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 465,
+          "observed_months": 249,
+          "zero_rows_months": 216,
+          "sittings": 3300,
+          "observed_ranges": [
+            {
+              "from": "1996-05",
+              "through": "1996-05",
+              "months": 1
+            },
+            {
+              "from": "1996-11",
+              "through": "1996-11",
+              "months": 1
+            },
+            {
+              "from": "1998-03",
+              "through": "1998-07",
+              "months": 5
+            },
+            {
+              "from": "1998-11",
+              "through": "1998-12",
+              "months": 2
+            },
+            {
+              "from": "1999-02",
+              "through": "1999-06",
+              "months": 5
+            },
+            {
+              "from": "1999-08",
+              "through": "1999-12",
+              "months": 5
+            },
+            {
+              "from": "2000-02",
+              "through": "2000-06",
+              "months": 5
+            },
+            {
+              "from": "2000-08",
+              "through": "2000-12",
+              "months": 5
+            },
+            {
+              "from": "2001-02",
+              "through": "2001-06",
+              "months": 5
+            },
+            {
+              "from": "2001-08",
+              "through": "2001-09",
+              "months": 2
+            },
+            {
+              "from": "2002-02",
+              "through": "2002-03",
+              "months": 2
+            },
+            {
+              "from": "2002-05",
+              "through": "2002-06",
+              "months": 2
+            },
+            {
+              "from": "2002-08",
+              "through": "2002-12",
+              "months": 5
+            },
+            {
+              "from": "2003-02",
+              "through": "2003-03",
+              "months": 2
+            },
+            {
+              "from": "2003-05",
+              "through": "2003-06",
+              "months": 2
+            },
+            {
+              "from": "2003-08",
+              "through": "2003-12",
+              "months": 5
+            },
+            {
+              "from": "2004-02",
+              "through": "2004-06",
+              "months": 5
+            },
+            {
+              "from": "2004-08",
+              "through": "2004-08",
+              "months": 1
+            },
+            {
+              "from": "2004-11",
+              "through": "2004-12",
+              "months": 2
+            },
+            {
+              "from": "2005-02",
+              "through": "2005-03",
+              "months": 2
+            },
+            {
+              "from": "2005-05",
+              "through": "2005-06",
+              "months": 2
+            },
+            {
+              "from": "2005-08",
+              "through": "2005-12",
+              "months": 5
+            },
+            {
+              "from": "2006-02",
+              "through": "2006-03",
+              "months": 2
+            },
+            {
+              "from": "2006-05",
+              "through": "2006-06",
+              "months": 2
+            },
+            {
+              "from": "2006-08",
+              "through": "2006-12",
+              "months": 5
+            },
+            {
+              "from": "2007-02",
+              "through": "2007-03",
+              "months": 2
+            },
+            {
+              "from": "2007-05",
+              "through": "2007-06",
+              "months": 2
+            },
+            {
+              "from": "2007-08",
+              "through": "2007-09",
+              "months": 2
+            },
+            {
+              "from": "2008-02",
+              "through": "2008-03",
+              "months": 2
+            },
+            {
+              "from": "2008-05",
+              "through": "2008-06",
+              "months": 2
+            },
+            {
+              "from": "2008-08",
+              "through": "2008-12",
+              "months": 5
+            },
+            {
+              "from": "2009-02",
+              "through": "2009-03",
+              "months": 2
+            },
+            {
+              "from": "2009-05",
+              "through": "2009-06",
+              "months": 2
+            },
+            {
+              "from": "2009-08",
+              "through": "2009-11",
+              "months": 4
+            },
+            {
+              "from": "2010-02",
+              "through": "2010-03",
+              "months": 2
+            },
+            {
+              "from": "2010-05",
+              "through": "2010-06",
+              "months": 2
+            },
+            {
+              "from": "2010-09",
+              "through": "2010-11",
+              "months": 3
+            },
+            {
+              "from": "2011-02",
+              "through": "2011-03",
+              "months": 2
+            },
+            {
+              "from": "2011-05",
+              "through": "2011-11",
+              "months": 7
+            },
+            {
+              "from": "2012-02",
+              "through": "2012-03",
+              "months": 2
+            },
+            {
+              "from": "2012-05",
+              "through": "2012-06",
+              "months": 2
+            },
+            {
+              "from": "2012-08",
+              "through": "2012-11",
+              "months": 4
+            },
+            {
+              "from": "2013-02",
+              "through": "2013-03",
+              "months": 2
+            },
+            {
+              "from": "2013-05",
+              "through": "2013-06",
+              "months": 2
+            },
+            {
+              "from": "2013-11",
+              "through": "2013-12",
+              "months": 2
+            },
+            {
+              "from": "2014-02",
+              "through": "2014-03",
+              "months": 2
+            },
+            {
+              "from": "2014-05",
+              "through": "2014-12",
+              "months": 8
+            },
+            {
+              "from": "2015-02",
+              "through": "2015-03",
+              "months": 2
+            },
+            {
+              "from": "2015-05",
+              "through": "2015-06",
+              "months": 2
+            },
+            {
+              "from": "2015-08",
+              "through": "2015-12",
+              "months": 5
+            },
+            {
+              "from": "2016-02",
+              "through": "2016-05",
+              "months": 4
+            },
+            {
+              "from": "2016-08",
+              "through": "2016-12",
+              "months": 5
+            },
+            {
+              "from": "2017-02",
+              "through": "2017-03",
+              "months": 2
+            },
+            {
+              "from": "2017-05",
+              "through": "2017-06",
+              "months": 2
+            },
+            {
+              "from": "2017-08",
+              "through": "2017-12",
+              "months": 5
+            },
+            {
+              "from": "2018-02",
+              "through": "2018-03",
+              "months": 2
+            },
+            {
+              "from": "2018-05",
+              "through": "2018-06",
+              "months": 2
+            },
+            {
+              "from": "2018-08",
+              "through": "2018-12",
+              "months": 5
+            },
+            {
+              "from": "2019-02",
+              "through": "2019-02",
+              "months": 1
+            },
+            {
+              "from": "2019-04",
+              "through": "2019-04",
+              "months": 1
+            },
+            {
+              "from": "2019-07",
+              "through": "2019-12",
+              "months": 6
+            },
+            {
+              "from": "2020-02",
+              "through": "2020-06",
+              "months": 5
+            },
+            {
+              "from": "2020-08",
+              "through": "2020-12",
+              "months": 5
+            },
+            {
+              "from": "2021-02",
+              "through": "2021-03",
+              "months": 2
+            },
+            {
+              "from": "2021-05",
+              "through": "2021-06",
+              "months": 2
+            },
+            {
+              "from": "2021-08",
+              "through": "2021-12",
+              "months": 5
+            },
+            {
+              "from": "2022-02",
+              "through": "2022-03",
+              "months": 2
+            },
+            {
+              "from": "2022-07",
+              "through": "2022-12",
+              "months": 6
+            },
+            {
+              "from": "2023-02",
+              "through": "2023-03",
+              "months": 2
+            },
+            {
+              "from": "2023-05",
+              "through": "2023-12",
+              "months": 8
+            },
+            {
+              "from": "2024-02",
+              "through": "2024-03",
+              "months": 2
+            },
+            {
+              "from": "2024-05",
+              "through": "2024-11",
+              "months": 7
+            },
+            {
+              "from": "2025-02",
+              "through": "2025-03",
+              "months": 2
+            },
+            {
+              "from": "2025-07",
+              "through": "2025-11",
+              "months": 5
+            },
+            {
+              "from": "2026-01",
+              "through": "2026-09",
+              "months": 9
+            }
+          ],
+          "zero_rows_ranges": [
+            {
+              "from": "1988-01",
+              "through": "1996-04",
+              "months": 100
+            },
+            {
+              "from": "1996-06",
+              "through": "1996-10",
+              "months": 5
+            },
+            {
+              "from": "1996-12",
+              "through": "1998-02",
+              "months": 15
+            },
+            {
+              "from": "1998-08",
+              "through": "1998-10",
+              "months": 3
+            },
+            {
+              "from": "1999-01",
+              "through": "1999-01",
+              "months": 1
+            },
+            {
+              "from": "1999-07",
+              "through": "1999-07",
+              "months": 1
+            },
+            {
+              "from": "2000-01",
+              "through": "2000-01",
+              "months": 1
+            },
+            {
+              "from": "2000-07",
+              "through": "2000-07",
+              "months": 1
+            },
+            {
+              "from": "2001-01",
+              "through": "2001-01",
+              "months": 1
+            },
+            {
+              "from": "2001-07",
+              "through": "2001-07",
+              "months": 1
+            },
+            {
+              "from": "2001-10",
+              "through": "2002-01",
+              "months": 4
+            },
+            {
+              "from": "2002-04",
+              "through": "2002-04",
+              "months": 1
+            },
+            {
+              "from": "2002-07",
+              "through": "2002-07",
+              "months": 1
+            },
+            {
+              "from": "2003-01",
+              "through": "2003-01",
+              "months": 1
+            },
+            {
+              "from": "2003-04",
+              "through": "2003-04",
+              "months": 1
+            },
+            {
+              "from": "2003-07",
+              "through": "2003-07",
+              "months": 1
+            },
+            {
+              "from": "2004-01",
+              "through": "2004-01",
+              "months": 1
+            },
+            {
+              "from": "2004-07",
+              "through": "2004-07",
+              "months": 1
+            },
+            {
+              "from": "2004-09",
+              "through": "2004-10",
+              "months": 2
+            },
+            {
+              "from": "2005-01",
+              "through": "2005-01",
+              "months": 1
+            },
+            {
+              "from": "2005-04",
+              "through": "2005-04",
+              "months": 1
+            },
+            {
+              "from": "2005-07",
+              "through": "2005-07",
+              "months": 1
+            },
+            {
+              "from": "2006-01",
+              "through": "2006-01",
+              "months": 1
+            },
+            {
+              "from": "2006-04",
+              "through": "2006-04",
+              "months": 1
+            },
+            {
+              "from": "2006-07",
+              "through": "2006-07",
+              "months": 1
+            },
+            {
+              "from": "2007-01",
+              "through": "2007-01",
+              "months": 1
+            },
+            {
+              "from": "2007-04",
+              "through": "2007-04",
+              "months": 1
+            },
+            {
+              "from": "2007-07",
+              "through": "2007-07",
+              "months": 1
+            },
+            {
+              "from": "2007-10",
+              "through": "2008-01",
+              "months": 4
+            },
+            {
+              "from": "2008-04",
+              "through": "2008-04",
+              "months": 1
+            },
+            {
+              "from": "2008-07",
+              "through": "2008-07",
+              "months": 1
+            },
+            {
+              "from": "2009-01",
+              "through": "2009-01",
+              "months": 1
+            },
+            {
+              "from": "2009-04",
+              "through": "2009-04",
+              "months": 1
+            },
+            {
+              "from": "2009-07",
+              "through": "2009-07",
+              "months": 1
+            },
+            {
+              "from": "2009-12",
+              "through": "2010-01",
+              "months": 2
+            },
+            {
+              "from": "2010-04",
+              "through": "2010-04",
+              "months": 1
+            },
+            {
+              "from": "2010-07",
+              "through": "2010-08",
+              "months": 2
+            },
+            {
+              "from": "2010-12",
+              "through": "2011-01",
+              "months": 2
+            },
+            {
+              "from": "2011-04",
+              "through": "2011-04",
+              "months": 1
+            },
+            {
+              "from": "2011-12",
+              "through": "2012-01",
+              "months": 2
+            },
+            {
+              "from": "2012-04",
+              "through": "2012-04",
+              "months": 1
+            },
+            {
+              "from": "2012-07",
+              "through": "2012-07",
+              "months": 1
+            },
+            {
+              "from": "2012-12",
+              "through": "2013-01",
+              "months": 2
+            },
+            {
+              "from": "2013-04",
+              "through": "2013-04",
+              "months": 1
+            },
+            {
+              "from": "2013-07",
+              "through": "2013-10",
+              "months": 4
+            },
+            {
+              "from": "2014-01",
+              "through": "2014-01",
+              "months": 1
+            },
+            {
+              "from": "2014-04",
+              "through": "2014-04",
+              "months": 1
+            },
+            {
+              "from": "2015-01",
+              "through": "2015-01",
+              "months": 1
+            },
+            {
+              "from": "2015-04",
+              "through": "2015-04",
+              "months": 1
+            },
+            {
+              "from": "2015-07",
+              "through": "2015-07",
+              "months": 1
+            },
+            {
+              "from": "2016-01",
+              "through": "2016-01",
+              "months": 1
+            },
+            {
+              "from": "2016-06",
+              "through": "2016-07",
+              "months": 2
+            },
+            {
+              "from": "2017-01",
+              "through": "2017-01",
+              "months": 1
+            },
+            {
+              "from": "2017-04",
+              "through": "2017-04",
+              "months": 1
+            },
+            {
+              "from": "2017-07",
+              "through": "2017-07",
+              "months": 1
+            },
+            {
+              "from": "2018-01",
+              "through": "2018-01",
+              "months": 1
+            },
+            {
+              "from": "2018-04",
+              "through": "2018-04",
+              "months": 1
+            },
+            {
+              "from": "2018-07",
+              "through": "2018-07",
+              "months": 1
+            },
+            {
+              "from": "2019-01",
+              "through": "2019-01",
+              "months": 1
+            },
+            {
+              "from": "2019-03",
+              "through": "2019-03",
+              "months": 1
+            },
+            {
+              "from": "2019-05",
+              "through": "2019-06",
+              "months": 2
+            },
+            {
+              "from": "2020-01",
+              "through": "2020-01",
+              "months": 1
+            },
+            {
+              "from": "2020-07",
+              "through": "2020-07",
+              "months": 1
+            },
+            {
+              "from": "2021-01",
+              "through": "2021-01",
+              "months": 1
+            },
+            {
+              "from": "2021-04",
+              "through": "2021-04",
+              "months": 1
+            },
+            {
+              "from": "2021-07",
+              "through": "2021-07",
+              "months": 1
+            },
+            {
+              "from": "2022-01",
+              "through": "2022-01",
+              "months": 1
+            },
+            {
+              "from": "2022-04",
+              "through": "2022-06",
+              "months": 3
+            },
+            {
+              "from": "2023-01",
+              "through": "2023-01",
+              "months": 1
+            },
+            {
+              "from": "2023-04",
+              "through": "2023-04",
+              "months": 1
+            },
+            {
+              "from": "2024-01",
+              "through": "2024-01",
+              "months": 1
+            },
+            {
+              "from": "2024-04",
+              "through": "2024-04",
+              "months": 1
+            },
+            {
+              "from": "2024-12",
+              "through": "2025-01",
+              "months": 2
+            },
+            {
+              "from": "2025-04",
+              "through": "2025-06",
+              "months": 3
+            },
+            {
+              "from": "2025-12",
+              "through": "2025-12",
+              "months": 1
+            }
+          ]
+        }
+      },
+      "declared_recent_2024_06_to_2026_08": {
+        "House": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 27,
+          "observed_months": 21,
+          "zero_rows_months": 6,
+          "sittings": 127,
+          "observed_ranges": [
+            {
+              "from": "2024-06",
+              "through": "2024-11",
+              "months": 6
+            },
+            {
+              "from": "2025-02",
+              "through": "2025-03",
+              "months": 2
+            },
+            {
+              "from": "2025-07",
+              "through": "2025-11",
+              "months": 5
+            },
+            {
+              "from": "2026-01",
+              "through": "2026-08",
+              "months": 8
+            }
+          ],
+          "zero_rows_ranges": [
+            {
+              "from": "2024-12",
+              "through": "2025-01",
+              "months": 2
+            },
+            {
+              "from": "2025-04",
+              "through": "2025-06",
+              "months": 3
+            },
+            {
+              "from": "2025-12",
+              "through": "2025-12",
+              "months": 1
+            }
+          ]
+        },
+        "Senate": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 27,
+          "observed_months": 21,
+          "zero_rows_months": 6,
+          "sittings": 108,
+          "observed_ranges": [
+            {
+              "from": "2024-06",
+              "through": "2024-11",
+              "months": 6
+            },
+            {
+              "from": "2025-02",
+              "through": "2025-03",
+              "months": 2
+            },
+            {
+              "from": "2025-07",
+              "through": "2025-11",
+              "months": 5
+            },
+            {
+              "from": "2026-01",
+              "through": "2026-08",
+              "months": 8
+            }
+          ],
+          "zero_rows_ranges": [
+            {
+              "from": "2024-12",
+              "through": "2025-01",
+              "months": 2
+            },
+            {
+              "from": "2025-04",
+              "through": "2025-06",
+              "months": 3
+            },
+            {
+              "from": "2025-12",
+              "through": "2025-12",
+              "months": 1
+            }
+          ]
+        },
+        "pooled": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 27,
+          "observed_months": 21,
+          "zero_rows_months": 6,
+          "sittings": 235,
+          "observed_ranges": [
+            {
+              "from": "2024-06",
+              "through": "2024-11",
+              "months": 6
+            },
+            {
+              "from": "2025-02",
+              "through": "2025-03",
+              "months": 2
+            },
+            {
+              "from": "2025-07",
+              "through": "2025-11",
+              "months": 5
+            },
+            {
+              "from": "2026-01",
+              "through": "2026-08",
+              "months": 8
+            }
+          ],
+          "zero_rows_ranges": [
+            {
+              "from": "2024-12",
+              "through": "2025-01",
+              "months": 2
+            },
+            {
+              "from": "2025-04",
+              "through": "2025-06",
+              "months": 3
+            },
+            {
+              "from": "2025-12",
+              "through": "2025-12",
+              "months": 1
+            }
+          ]
+        }
+      },
+      "partial_2026_09": {
+        "House": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 1,
+          "observed_months": 1,
+          "zero_rows_months": 0,
+          "sittings": 2,
+          "observed_ranges": [
+            {
+              "from": "2026-09",
+              "through": "2026-09",
+              "months": 1
+            }
+          ],
+          "zero_rows_ranges": []
+        },
+        "Senate": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 1,
+          "observed_months": 1,
+          "zero_rows_months": 0,
+          "sittings": 2,
+          "observed_ranges": [
+            {
+              "from": "2026-09",
+              "through": "2026-09",
+              "months": 1
+            }
+          ],
+          "zero_rows_ranges": []
+        },
+        "pooled": {
+          "unit": "sittings in deposited session table; no speech/paragraph count",
+          "calendar_months": 1,
+          "observed_months": 1,
+          "zero_rows_months": 0,
+          "sittings": 4,
+          "observed_ranges": [
+            {
+              "from": "2026-09",
+              "through": "2026-09",
+              "months": 1
+            }
+          ],
+          "zero_rows_ranges": []
+        }
+      },
+      "missing_month_interpretation": "Zero rows indicate no sittings in this deposited table; distinguish actual non-sitting periods from collection omissions using official calendars before classifying an acquisition gap. No completeness assertion."
+    },
+    "session_month_csv": {
+      "path": "government_session_month_counts.csv",
+      "rows": 930,
+      "sha256": "ad12944bd20366f0f78264172514d165bfb2c9d0402fcb292973df3f389d8722",
+      "counts_basis": "Complete checksum-matched deposited session table, unchanged; two date conflicts below unresolved"
+    },
+    "native_text_confirmation": {
+      "design": "Nonrandom file-block convenience check: Parquet groups 22 (House) and 52 (Senate), chosen after session-statistics joins for substantial recent membership and small bounded compressed returns. Every row in these blocks is decoded; only 72 stratified native examples are retained as JSON. File row order is not chronological. Block boundaries can truncate sittings/procedural units. No national/genre/era representativeness or full-corpus length extrapolation is claimed.",
+      "row_groups": [
+        {
+          "group": 22,
+          "rows_decoded": 122880,
+          "sample_examples_retained": 36,
+          "native_text_utf8_bytes": {
+            "n": 122880,
+            "total": 48740272,
+            "minimum": 0,
+            "p25": 63,
+            "median": 318.0,
+            "p75": 646,
+            "p95": 1065,
+            "maximum": 2975,
+            "mean": 396.64934895833335
+          },
+          "native_whitespace_words": {
+            "n": 122880,
+            "total": 8147730,
+            "minimum": 0,
+            "p25": 10,
+            "median": 53.0,
+            "p75": 108,
+            "p95": 179,
+            "maximum": 562,
+            "mean": 66.306396484375
+          },
+          "procedural_type_counts": {
+            "speech": 104152,
+            "question": 3454,
+            "answer": 15102,
+            "None": 172
+          },
+          "null_texts": 0,
+          "empty_texts": 3000,
+          "missing_session_foreign_keys": 0,
+          "missing_speaker_detail_foreign_keys_nonnull": 0,
+          "null_speaker_detail_ids": 4984,
+          "distinct_para_ids": 122880,
+          "dates": {
+            "minimum": "2011-05-24",
+            "maximum": "2026-09-08"
+          },
+          "paragraph_month_chamber_counts": [
+            {
+              "month": "2011-05",
+              "chamber": "House",
+              "sample_block_paragraphs": 1448
+            },
+            {
+              "month": "2011-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 1154
+            },
+            {
+              "month": "2011-11",
+              "chamber": "House",
+              "sample_block_paragraphs": 1742
+            },
+            {
+              "month": "2012-03",
+              "chamber": "House",
+              "sample_block_paragraphs": 2066
+            },
+            {
+              "month": "2012-05",
+              "chamber": "House",
+              "sample_block_paragraphs": 1731
+            },
+            {
+              "month": "2012-08",
+              "chamber": "House",
+              "sample_block_paragraphs": 1552
+            },
+            {
+              "month": "2012-10",
+              "chamber": "House",
+              "sample_block_paragraphs": 1103
+            },
+            {
+              "month": "2012-11",
+              "chamber": "House",
+              "sample_block_paragraphs": 3201
+            },
+            {
+              "month": "2013-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 5778
+            },
+            {
+              "month": "2014-02",
+              "chamber": "House",
+              "sample_block_paragraphs": 1032
+            },
+            {
+              "month": "2014-05",
+              "chamber": "House",
+              "sample_block_paragraphs": 1394
+            },
+            {
+              "month": "2014-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 1465
+            },
+            {
+              "month": "2014-07",
+              "chamber": "House",
+              "sample_block_paragraphs": 1444
+            },
+            {
+              "month": "2014-09",
+              "chamber": "House",
+              "sample_block_paragraphs": 1448
+            },
+            {
+              "month": "2014-12",
+              "chamber": "House",
+              "sample_block_paragraphs": 2204
+            },
+            {
+              "month": "2015-05",
+              "chamber": "House",
+              "sample_block_paragraphs": 1339
+            },
+            {
+              "month": "2015-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 1561
+            },
+            {
+              "month": "2015-09",
+              "chamber": "House",
+              "sample_block_paragraphs": 2439
+            },
+            {
+              "month": "2015-10",
+              "chamber": "House",
+              "sample_block_paragraphs": 3698
+            },
+            {
+              "month": "2016-02",
+              "chamber": "House",
+              "sample_block_paragraphs": 1781
+            },
+            {
+              "month": "2016-03",
+              "chamber": "House",
+              "sample_block_paragraphs": 988
+            },
+            {
+              "month": "2016-10",
+              "chamber": "House",
+              "sample_block_paragraphs": 3074
+            },
+            {
+              "month": "2017-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 2508
+            },
+            {
+              "month": "2017-10",
+              "chamber": "House",
+              "sample_block_paragraphs": 999
+            },
+            {
+              "month": "2017-12",
+              "chamber": "House",
+              "sample_block_paragraphs": 1545
+            },
+            {
+              "month": "2018-02",
+              "chamber": "House",
+              "sample_block_paragraphs": 1021
+            },
+            {
+              "month": "2018-05",
+              "chamber": "House",
+              "sample_block_paragraphs": 2548
+            },
+            {
+              "month": "2018-09",
+              "chamber": "House",
+              "sample_block_paragraphs": 1448
+            },
+            {
+              "month": "2018-10",
+              "chamber": "House",
+              "sample_block_paragraphs": 1855
+            },
+            {
+              "month": "2019-02",
+              "chamber": "House",
+              "sample_block_paragraphs": 1267
+            },
+            {
+              "month": "2019-07",
+              "chamber": "House",
+              "sample_block_paragraphs": 2865
+            },
+            {
+              "month": "2019-12",
+              "chamber": "House",
+              "sample_block_paragraphs": 1152
+            },
+            {
+              "month": "2020-03",
+              "chamber": "House",
+              "sample_block_paragraphs": 1470
+            },
+            {
+              "month": "2020-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 1033
+            },
+            {
+              "month": "2020-10",
+              "chamber": "House",
+              "sample_block_paragraphs": 7371
+            },
+            {
+              "month": "2021-05",
+              "chamber": "House",
+              "sample_block_paragraphs": 907
+            },
+            {
+              "month": "2021-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 992
+            },
+            {
+              "month": "2024-10",
+              "chamber": "House",
+              "sample_block_paragraphs": 3363
+            },
+            {
+              "month": "2024-11",
+              "chamber": "House",
+              "sample_block_paragraphs": 13347
+            },
+            {
+              "month": "2025-02",
+              "chamber": "House",
+              "sample_block_paragraphs": 1124
+            },
+            {
+              "month": "2025-03",
+              "chamber": "House",
+              "sample_block_paragraphs": 1090
+            },
+            {
+              "month": "2025-07",
+              "chamber": "House",
+              "sample_block_paragraphs": 2180
+            },
+            {
+              "month": "2025-11",
+              "chamber": "House",
+              "sample_block_paragraphs": 3778
+            },
+            {
+              "month": "2026-03",
+              "chamber": "House",
+              "sample_block_paragraphs": 7373
+            },
+            {
+              "month": "2026-06",
+              "chamber": "House",
+              "sample_block_paragraphs": 10334
+            },
+            {
+              "month": "2026-07",
+              "chamber": "House",
+              "sample_block_paragraphs": 3543
+            },
+            {
+              "month": "2026-08",
+              "chamber": "House",
+              "sample_block_paragraphs": 1156
+            },
+            {
+              "month": "2026-09",
+              "chamber": "House",
+              "sample_block_paragraphs": 2969
+            }
+          ]
+        },
+        {
+          "group": 52,
+          "rows_decoded": 122880,
+          "sample_examples_retained": 36,
+          "native_text_utf8_bytes": {
+            "n": 122880,
+            "total": 37692082,
+            "minimum": 0,
+            "p25": 42,
+            "median": 162.0,
+            "p75": 496,
+            "p95": 1000,
+            "maximum": 2909,
+            "mean": 306.73894856770835
+          },
+          "native_whitespace_words": {
+            "n": 122880,
+            "total": 6275043,
+            "minimum": 0,
+            "p25": 7,
+            "median": 26.0,
+            "p75": 82,
+            "p95": 169,
+            "maximum": 486,
+            "mean": 51.0664306640625
+          },
+          "procedural_type_counts": {
+            "speech": 99070,
+            "question": 5213,
+            "answer": 18422,
+            "None": 175
+          },
+          "null_texts": 0,
+          "empty_texts": 3694,
+          "missing_session_foreign_keys": 0,
+          "missing_speaker_detail_foreign_keys_nonnull": 0,
+          "null_speaker_detail_ids": 5963,
+          "distinct_para_ids": 122880,
+          "dates": {
+            "minimum": "2011-06-15",
+            "maximum": "2026-09-07"
+          },
+          "paragraph_month_chamber_counts": [
+            {
+              "month": "2011-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 3614
+            },
+            {
+              "month": "2011-10",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 4250
+            },
+            {
+              "month": "2012-03",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1474
+            },
+            {
+              "month": "2012-05",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2954
+            },
+            {
+              "month": "2012-09",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1010
+            },
+            {
+              "month": "2013-02",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 10473
+            },
+            {
+              "month": "2013-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 4920
+            },
+            {
+              "month": "2013-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1280
+            },
+            {
+              "month": "2013-12",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1087
+            },
+            {
+              "month": "2014-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1636
+            },
+            {
+              "month": "2014-08",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1365
+            },
+            {
+              "month": "2014-09",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1134
+            },
+            {
+              "month": "2014-10",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1254
+            },
+            {
+              "month": "2014-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1375
+            },
+            {
+              "month": "2014-12",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1336
+            },
+            {
+              "month": "2015-02",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1585
+            },
+            {
+              "month": "2015-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1692
+            },
+            {
+              "month": "2015-08",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2898
+            },
+            {
+              "month": "2016-03",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 3358
+            },
+            {
+              "month": "2016-10",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1751
+            },
+            {
+              "month": "2016-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2395
+            },
+            {
+              "month": "2017-09",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 3051
+            },
+            {
+              "month": "2018-02",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1317
+            },
+            {
+              "month": "2018-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1891
+            },
+            {
+              "month": "2018-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1399
+            },
+            {
+              "month": "2019-07",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2391
+            },
+            {
+              "month": "2019-09",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2361
+            },
+            {
+              "month": "2020-04",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1205
+            },
+            {
+              "month": "2020-08",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 60
+            },
+            {
+              "month": "2020-10",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1166
+            },
+            {
+              "month": "2020-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1127
+            },
+            {
+              "month": "2020-12",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1101
+            },
+            {
+              "month": "2021-05",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1124
+            },
+            {
+              "month": "2021-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 4820
+            },
+            {
+              "month": "2021-08",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1110
+            },
+            {
+              "month": "2023-03",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2104
+            },
+            {
+              "month": "2023-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1092
+            },
+            {
+              "month": "2023-08",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 3275
+            },
+            {
+              "month": "2023-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 929
+            },
+            {
+              "month": "2024-02",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 6078
+            },
+            {
+              "month": "2024-03",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1120
+            },
+            {
+              "month": "2024-06",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1709
+            },
+            {
+              "month": "2024-08",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1399
+            },
+            {
+              "month": "2024-09",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2597
+            },
+            {
+              "month": "2024-10",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1853
+            },
+            {
+              "month": "2024-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1592
+            },
+            {
+              "month": "2025-02",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1342
+            },
+            {
+              "month": "2025-07",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1714
+            },
+            {
+              "month": "2025-09",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1472
+            },
+            {
+              "month": "2025-11",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 6141
+            },
+            {
+              "month": "2026-01",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 718
+            },
+            {
+              "month": "2026-03",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 7176
+            },
+            {
+              "month": "2026-08",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 2279
+            },
+            {
+              "month": "2026-09",
+              "chamber": "Senate",
+              "sample_block_paragraphs": 1326
+            }
+          ]
+        }
+      ],
+      "retained_example_lengths": {
+        "utf8_bytes": {
+          "n": 72,
+          "total": 17582,
+          "minimum": 0,
+          "p25": 35,
+          "median": 112.5,
+          "p75": 328,
+          "p95": 920,
+          "maximum": 1184,
+          "mean": 244.19444444444446
+        },
+        "whitespace_words": {
+          "n": 72,
+          "total": 2918,
+          "minimum": 0,
+          "p25": 6,
+          "median": 20.0,
+          "p75": 49,
+          "p95": 148,
+          "maximum": 214,
+          "mean": 40.52777777777778
+        }
+      }
+    },
+    "speaker_validity_check": [
+      {
+        "group": 22,
+        "counts": {
+          "within_exported_validity": 117896,
+          "speaker_unknown": 4984
+        },
+        "conflict_examples": []
+      },
+      {
+        "group": 52,
+        "counts": {
+          "within_exported_validity": 116917,
+          "speaker_unknown": 5963
+        },
+        "conflict_examples": []
+      }
+    ],
+    "identified_session_date_conflicts": [
+      {
+        "session_id": 2146,
+        "sitting_date_in_table": "2009-06-04",
+        "chamber": "House",
+        "date_in_url_path": "2009-06-03",
+        "date_in_pdf_filename": null,
+        "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22chamber%2Fhansardr%2F2009-06-03%2F0000%22;src1=sm1",
+        "pdf_url": "https://parlinfo.aph.gov.au/parlInfo/download/chamber/hansardr/2009-06-03/toc_pdf/6859-3.pdf;fileType=application%2Fpdf#search=%22chamber/hansardr/2009-06-03/0000%22",
+        "status": "Conflict candidate; table retained unchanged pending original source check"
+      },
+      {
+        "session_id": 4891,
+        "sitting_date_in_table": "2010-03-09",
+        "chamber": "Senate",
+        "date_in_url_path": "2010-02-23",
+        "date_in_pdf_filename": null,
+        "url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22chamber%2Fhansards%2F2010-02-23%2F0000%22;src1=sm1",
+        "pdf_url": "https://parlinfo.aph.gov.au/parlInfo/download/chamber/hansards/2010-02-23/toc_pdf/7414-4.pdf;fileType=application%2Fpdf#search=%22chamber/hansards/2010-02-23/0000%22",
+        "status": "Conflict candidate; table retained unchanged pending original source check"
+      }
+    ],
+    "no_office_field": true,
+    "government_opposition_mapping": "Not acquired; dated governing/opposition and ministerial-office evidence required independently of party membership",
+    "paragraph_unit_limit": "Recorded paragraph in procedural context; not independent speech, author, government voice or fear observation. Row-group boundaries may truncate complete sittings/procedural units.",
+    "admission": "Choose versioned ready-data route for clean importer preparation; full four-table intake, FK/date/procedural checks, complete-unit acceptance and role mapping remain subsequent bounded work"
+  },
+  "pm": {
+    "source": "Department of the Prime Minister and Cabinet, Australian Government",
+    "documentation_url": "https://pmtranscripts.pmc.gov.au/developers",
+    "copyright_url": "https://pmtranscripts.pmc.gov.au/copyright",
+    "licence": "CC BY4.0 transcript text; Coat of Arms, photographs/graphics and specified items excluded",
+    "selected_interface": "https://pmtranscripts.pmc.gov.au/query?transcript=<native_id>",
+    "one_id_interface_confirmed": true,
+    "named_records": [
+      {
+        "id": "46220",
+        "title": "Opening remarks - National Cabinet",
+        "root": "response",
+        "item": "item",
+        "keys": [
+          "transcript-id",
+          "title",
+          "prime-minister",
+          "period-of-service",
+          "field_date",
+          "release-type",
+          "document",
+          "subjects",
+          "content"
+        ],
+        "native_date_key": "field_date",
+        "native_date": "06/09/2024",
+        "publication_date": "2024-09-06",
+        "eligible_fixed_interval": true,
+        "prime_minister": "Albanese, Anthony",
+        "release_type": "Transcript",
+        "content_html_utf8_bytes": 1920,
+        "readable_text_utf8_bytes": 1896,
+        "native_whitespace_words": 323,
+        "html_paragraphs": 1,
+        "speaker_labels": [
+          "ANTHONY ALBANESE, PRIME MINISTER"
+        ],
+        "url": "https://pmtranscripts.pmc.gov.au/release/transcript-46220",
+        "date_filter": "one fixed native ID per request; native date checked after return; not date-index confirmation",
+        "document_value": "https://pmtranscripts.pmc.gov.au",
+        "content_sha256": "b9659a02d8698ef63e616a0ce3abb524e36477daeebfa5ebcae2ce0a698fe4b0",
+        "attribution_limit": "Prime minister/host/journalist/joint or quoted holders require separate turns; no whole-document government emotion label",
+        "historical_body_equality_verified": false
+      },
+      {
+        "id": "46784",
+        "title": "Radio interview - 94.5FM Perth",
+        "root": "response",
+        "item": "item",
+        "keys": [
+          "transcript-id",
+          "title",
+          "prime-minister",
+          "period-of-service",
+          "field_date",
+          "release-type",
+          "document",
+          "subjects",
+          "content"
+        ],
+        "native_date_key": "field_date",
+        "native_date": "04/06/2025",
+        "publication_date": "2025-06-04",
+        "eligible_fixed_interval": true,
+        "prime_minister": "Albanese, Anthony",
+        "release_type": "Transcript",
+        "content_html_utf8_bytes": 7369,
+        "readable_text_utf8_bytes": 6101,
+        "native_whitespace_words": 1123,
+        "html_paragraphs": 54,
+        "speaker_labels": [
+          "PETE CURULLI, HOST",
+          "ANTHONY ALBANESE, PRIME MINISTER",
+          "CURULLI",
+          "KYMBA CAHILL, HOST",
+          "PRIME MINISTER",
+          "CAHILL"
+        ],
+        "url": "https://pmtranscripts.pmc.gov.au/release/transcript-46784",
+        "date_filter": "one fixed native ID per request; native date checked after return; not date-index confirmation",
+        "document_value": "https://pmtranscripts.pmc.gov.au",
+        "content_sha256": "b49f6853db99a5a6fc6f68f456a8f7c5d3b2806ff78e182e2758dbee5540cb10",
+        "attribution_limit": "Prime minister/host/journalist/joint or quoted holders require separate turns; no whole-document government emotion label",
+        "historical_body_equality_verified": false
+      },
+      {
+        "id": "47643",
+        "title": "Press conference - United Nations, New York",
+        "root": "response",
+        "item": "item",
+        "keys": [
+          "transcript-id",
+          "title",
+          "prime-minister",
+          "period-of-service",
+          "field_date",
+          "release-type",
+          "document",
+          "subjects",
+          "content"
+        ],
+        "native_date_key": "field_date",
+        "native_date": "21/09/2026",
+        "publication_date": "2026-09-21",
+        "eligible_fixed_interval": true,
+        "prime_minister": "Albanese, Anthony",
+        "release_type": "Transcript",
+        "content_html_utf8_bytes": 23478,
+        "readable_text_utf8_bytes": 22490,
+        "native_whitespace_words": 3886,
+        "html_paragraphs": 41,
+        "speaker_labels": [
+          "ANTHONY ALBANESE, PRIME MINISTER",
+          "JOURNALIST",
+          "PRIME MINISTER"
+        ],
+        "url": "https://pmtranscripts.pmc.gov.au/release/transcript-47643",
+        "date_filter": "one fixed native ID per request; native date checked after return; not date-index confirmation",
+        "document_value": "https://pmtranscripts.pmc.gov.au",
+        "content_sha256": "d862b18cfe1ca193cee73ce20d265408f8c5e16106c7c35624187cb54c07e397",
+        "attribution_limit": "Prime minister/host/journalist/joint or quoted holders require separate turns; no whole-document government emotion label",
+        "historical_body_equality_verified": false
+      },
+      {
+        "id": "7370",
+        "title": "UNKNOWN",
+        "root": "response",
+        "item": "item",
+        "keys": [
+          "transcript-id",
+          "title",
+          "prime-minister",
+          "period-of-service",
+          "field_date",
+          "release-type",
+          "document",
+          "subjects",
+          "content"
+        ],
+        "native_date_key": "field_date",
+        "native_date": "07/08/1988",
+        "publication_date": "1988-08-07",
+        "eligible_fixed_interval": true,
+        "prime_minister": "Hawke, Robert",
+        "release_type": "Media Release",
+        "content_html_utf8_bytes": 2863,
+        "readable_text_utf8_bytes": 2641,
+        "native_whitespace_words": 431,
+        "html_paragraphs": 2,
+        "speaker_labels": [],
+        "url": "https://pmtranscripts.pmc.gov.au/release/transcript-7370",
+        "date_filter": "one fixed native ID per request; native date checked after return; not date-index confirmation",
+        "document_value": "https://pmtranscripts.pmc.gov.au/sites/default/files/original/00007370.pdf",
+        "content_sha256": "b1c256264d5f3e85b6abe2645d03de7a40e93a9c6cba359899f13a20810b5954",
+        "attribution_limit": "Prime minister/host/journalist/joint or quoted holders require separate turns; no whole-document government emotion label",
+        "historical_body_equality_verified": false
+      }
+    ],
+    "actual_schema": {
+      "root": "response",
+      "record": "item",
+      "id": "transcript-id",
+      "publication_date": "field_date in DD/MM/YYYY",
+      "body": "content CDATA containing HTML",
+      "documentation_difference": "Documented example uses transcripts/transcript and release-date; actual four replies use response/item and field_date"
+    },
+    "modern_document_field_limit": "Three tested born-digital records return site-root URL in document, not an original file URL; retain canonical release URL. Older7370 returns original PDF URL. No PDF fetched.",
+    "catalogue_total": null,
+    "fixed_study_count": null,
+    "recent_window_count": null,
+    "month_inventory": null,
+    "working_native_date_filter_or_pagination_confirmed": false,
+    "protected_routes": "Prior frozen XML index redirects to404 batch route; prior date-filter search returns Incapsula challenge. Neither retried. Single-ID success does not repair catalogue discovery.",
+    "historical_limit": "1988 example has UNKNOWN title and OCR artifacts; scan quality/equality not checked. None of the four current bodies is independently proved identical to its historical publication version.",
+    "source_holder_limit": "Australian institutional archive includes journalists/hosts/quotations and overseas venues; separate recorded holders and turns. Institutional source provenance does not assign every utterance to government or establish fear.",
+    "admission": "Working executive single-record supplement for named eligible IDs; scalable inventory/date discovery remains conditional. No monthly completeness or26000 eligible count claim"
+  },
+  "pending_acceptance": [
+    "RAPID full four-table checksum verification and complete-unit/procedural/debate lineage checks, without treating paragraph count as speech count",
+    "Official sitting-calendar comparison for zero deposited months; no automatic historical backfill",
+    "Two named session date/URL conflicts and four null PDF links; do not overwrite table or discard raw",
+    "Dated executive/governing/opposition/independent/office and quoted-holder mapping",
+    "PM usable bounded catalogue/date discovery and exact eligible source-month inventory",
+    "Older PM OCR/original comparison, rights for intended derivative distribution, and historical text-version assurance"
+  ],
+  "evidence_levels": {
+    "dated_original_readability": "Live PM official XML/full interview HTML, and readable RAPID derived parliamentary blocks with original links; official ParlInfo originals not fetched successfully",
+    "climate_relevance": "Not assessed; no inclusion/cleaning filter",
+    "affect_risk_association": "Not assessed; not inferred from institutional provenance",
+    "fear_specific_interpretation": "Not assessed; no pre-attribution or time-series claim"
+  }
+}

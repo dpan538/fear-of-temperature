@@ -1,0 +1,423 @@
+{
+  "recorded_at_utc": "2026-10-12T07:17:42.978233+00:00",
+  "purpose": "Latest user-authorized bounded exploratory climate-attention candidate inventory before deciding minimum analytical coverage; not corpus inclusion/exclusion or topic/affect/fear measurement",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "scope": "Only already downloaded nonrandom RAPID blocks22/52 and4 named PMXML files; no new network/model/corpus-wide scan",
+  "source_unit_totals": {
+    "rapid_house_block22": 122880,
+    "rapid_senate_block52": 122880,
+    "pm_named_xml4": 98
+  },
+  "source_candidate_totals": {
+    "rapid_house_block22": 1335,
+    "rapid_senate_block52": 1701,
+    "pm_named_xml4": 1
+  },
+  "source_inspected_months": {
+    "rapid_house_block22": 48,
+    "rapid_senate_block52": 54,
+    "pm_named_xml4": 4
+  },
+  "source_candidate_months": {
+    "rapid_house_block22": 48,
+    "rapid_senate_block52": 53,
+    "pm_named_xml4": 1
+  },
+  "source_term_hits_nonadditive": {
+    "rapid_house_block22": {
+      "climate": 1249,
+      "climate_change": 874,
+      "greenhouse": 100,
+      "global_warming": 37
+    },
+    "rapid_senate_block52": {
+      "climate_change": 842,
+      "climate": 1519,
+      "greenhouse": 167,
+      "global_warming": 87
+    },
+    "pm_named_xml4": {
+      "climate_change": 1,
+      "climate": 1
+    }
+  },
+  "source_procedural_candidate_counts": {
+    "rapid_house_block22": {
+      "speech": 1113,
+      "question": 105,
+      "answer": 117
+    },
+    "rapid_senate_block52": {
+      "speech": 1438,
+      "question": 125,
+      "answer": 138
+    },
+    "pm_named_xml4": {
+      "pm_html_paragraph": 1
+    }
+  },
+  "source_aggregate_counts": {
+    "rapid_house_block22": {
+      "inspected_units": 122880,
+      "empty_units": 3000,
+      "candidate_units": 1335,
+      "strong_phrase_units": 897,
+      "ambiguous_only_units": 438,
+      "risk_review_cue_units": 176,
+      "negation_review_cue_units": 613,
+      "quotation_review_cue_units": 3,
+      "pm_labelled_candidate_units": 0,
+      "other_or_unresolved_holder_candidate_units": 1335
+    },
+    "rapid_senate_block52": {
+      "inspected_units": 122880,
+      "empty_units": 3694,
+      "candidate_units": 1701,
+      "strong_phrase_units": 905,
+      "ambiguous_only_units": 796,
+      "risk_review_cue_units": 246,
+      "negation_review_cue_units": 899,
+      "quotation_review_cue_units": 11,
+      "pm_labelled_candidate_units": 0,
+      "other_or_unresolved_holder_candidate_units": 1701
+    },
+    "pm_named_xml4": {
+      "inspected_units": 98,
+      "empty_units": 0,
+      "candidate_units": 1,
+      "strong_phrase_units": 1,
+      "ambiguous_only_units": 0,
+      "risk_review_cue_units": 0,
+      "negation_review_cue_units": 0,
+      "quotation_review_cue_units": 1,
+      "pm_labelled_candidate_units": 1,
+      "other_or_unresolved_holder_candidate_units": 0
+    }
+  },
+  "rules": {
+    "case_insensitive_body_only_regex": {
+      "climate_change": "\\bclimate[\\s‐‑–—-]+change\\b",
+      "global_warming": "\\bglobal[\\s‐‑–—-]+warming\\b",
+      "greenhouse": "\\bgreenhouse\\b",
+      "climate": "\\bclimate\\b"
+    },
+    "strong_phrase": "climate_change or global_warming; still provisional and context-dependent",
+    "ambiguous_candidates": "standalone climate or greenhouse without strong phrase; political/business climate and horticulture remain possible",
+    "risk_review_regex": "\\b(?:risk(?:s)?|warn(?:s|ed|ing|ings)?|threat(?:s|en|ened|ening)?|danger(?:s|ous)?|harm(?:s|ful|ed)?|hazard(?:s|ous)?)\\b",
+    "risk_interpretation": "triage cue only; not affect prevalence or fear",
+    "negation_review_regex": "\\b(?:no|not|never|without|cannot)\\b",
+    "quotation_review_regex": "[\"“”‘’]",
+    "negative_and_quoted_context_checked": "not validated; punctuation/negation words only prompt manual review"
+  },
+  "native_unit_limits": [
+    "Parliament paragraphs are not complete speeches; file-block boundaries can truncate sessions/procedural units",
+    "Party/time-validity is not governing/opposition/office evidence; every parliamentary role remains unresolved here",
+    "PM explicit speaker labels distinguish minister from journalists/hosts but inherited continuations and quotations need manual checking",
+    "PM1988 OCR and UNKNOWN title remain unresolved"
+  ],
+  "csv": {
+    "path": "government_climate_inventory_pilot.csv",
+    "rows": 1395,
+    "empty_cells_mean": "not inspected/unknown, not zero",
+    "positive_counts_mean": "lexical candidate matches in partial convenience sample, not validated climate-government attention"
+  },
+  "short_context_examples": [
+    {
+      "source_id": "pm_named_xml4",
+      "publication_or_nominal_sitting_date": "2026-09-21",
+      "native_unit_id": "47643:html_p:0",
+      "text_sha256": "0b5a2819556a92a2d3b531c169e5d57035627437dac4161487930a92c170e2c4",
+      "patterns": [
+        "climate_change",
+        "climate"
+      ],
+      "strong_phrase": true,
+      "risk_review_cue": false,
+      "negation_review_cue": false,
+      "quotation_review_cue": true,
+      "unit": "PM returned HTML paragraph; not automatically complete turn",
+      "chamber": null,
+      "release_id": "47643",
+      "html_paragraph_index": 0,
+      "release_type": "Transcript",
+      "prime_minister_metadata": "Albanese, Anthony",
+      "literal_speaker_label": "ANTHONY ALBANESE, PRIME MINISTER",
+      "speaker_class": "explicit_prime_minister_label",
+      "speaker_label_inherited": false,
+      "original_source_url": "https://pmtranscripts.pmc.gov.au/release/transcript-47643",
+      "complete_unit_verified": false,
+      "source_version": "current official XML retrieved2026-10-12; historical body equality unverified",
+      "candidate_status": "Context-reviewed by Codex; independent annotation, full original mapping and measurement validation remain pending.",
+      "short_context_excerpt": "And the challenge of climate change is another one where,"
+    },
+    {
+      "source_id": "rapid_house_block22",
+      "publication_or_nominal_sitting_date": "2011-11-02",
+      "native_unit_id": "2707054",
+      "text_sha256": "b64b1dfb46f935962f4d30e2245ff83dc37b03d6497aa336e3b925e557330545",
+      "patterns": [
+        "climate_change",
+        "climate"
+      ],
+      "strong_phrase": true,
+      "risk_review_cue": true,
+      "negation_review_cue": true,
+      "quotation_review_cue": false,
+      "unit": "recorded parliamentary paragraph",
+      "chamber": "House",
+      "session_id": 2281,
+      "sequence_number": 1561,
+      "speaker_id": "HWR",
+      "speaker_detail_id": 3457367,
+      "speaker_name": "Melissa PARKE",
+      "speaker_party_at_recorded_date": "Australian Labor Party",
+      "speaker_class": "unresolved_parliamentary_role",
+      "debate_id": 108033,
+      "procedural_unit_number": 117,
+      "procedural_unit_type": "speech",
+      "original_source_url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22chamber%2Fhansardr%2F3641b583-a42e-4045-9472-07db51574a42%2F0000%22;src1=sm1",
+      "complete_unit_verified": false,
+      "source_version": "DOI10.5281/zenodo.22868754 version2026-09-21",
+      "row_group": 22,
+      "candidate_status": "Context-reviewed by Codex; independent annotation, full original mapping and measurement validation remain pending."
+    }
+  ],
+  "validation_status": {
+    "manual_relevance_labels": 5,
+    "government_holder_validated_candidates": 1,
+    "full_month_true_zeros": 0,
+    "fear_labels": 0,
+    "source_month_completeness_established": false,
+    "manual_context_relevant_units": 5,
+    "parliamentary_governing_or_opposition_roles_validated": 0,
+    "independent_human_annotation_labels": 0,
+    "context_review_by": "Codex; preliminary context checks, not independent human annotation or retrieval/classifier validation"
+  },
+  "coverage_contract": "Pooled source-frame coverage throughout465months is long-runRQ1/RQ2 objective; three roles have separately declared missingness/applicability; no forced climate-hit quota or acquisition stop. Minimum analytical months not determined by this biased pilot.",
+  "manual_context_review": [
+    {
+      "source_id": "rapid_house_block22",
+      "publication_or_nominal_sitting_date": "2011-11-02",
+      "native_unit_id": "2707054",
+      "text_sha256": "b64b1dfb46f935962f4d30e2245ff83dc37b03d6497aa336e3b925e557330545",
+      "patterns": [
+        "climate_change",
+        "climate"
+      ],
+      "strong_phrase": true,
+      "risk_review_cue": true,
+      "negation_review_cue": true,
+      "quotation_review_cue": false,
+      "unit": "recorded parliamentary paragraph",
+      "chamber": "House",
+      "session_id": 2281,
+      "sequence_number": 1561,
+      "speaker_id": "HWR",
+      "speaker_detail_id": 3457367,
+      "speaker_name": "Melissa PARKE",
+      "speaker_party_at_recorded_date": "Australian Labor Party",
+      "speaker_class": "unresolved_parliamentary_role",
+      "debate_id": 108033,
+      "procedural_unit_number": 117,
+      "procedural_unit_type": "speech",
+      "original_source_url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22chamber%2Fhansardr%2F3641b583-a42e-4045-9472-07db51574a42%2F0000%22;src1=sm1",
+      "complete_unit_verified": false,
+      "source_version": "DOI10.5281/zenodo.22868754 version2026-09-21",
+      "row_group": 22,
+      "manual_climate_context_relevant": true,
+      "manual_review_method": "Codex contextual reading of entire sampled paragraph; quoted case additionally checks prior paragraph 2811366 in same procedural unit",
+      "manual_context_result": "Climate explanation about oceans, carbon capture and emissions. The local negation cannot be undervalued stresses importance; it does not deny climate change. Harmful refers to runoff.",
+      "short_context_excerpt": "climate change cannot be",
+      "holder_context": "recorded speaker; government/opposition/office unresolved",
+      "government_or_opposition_role": null,
+      "ministerial_office": null,
+      "original_parliament_link_mapping_verified": false,
+      "fear_label": null,
+      "validated_exec_holder": false,
+      "independent_human_annotation_validation": false
+    },
+    {
+      "source_id": "rapid_senate_block52",
+      "publication_or_nominal_sitting_date": "2025-11-24",
+      "native_unit_id": "6393642",
+      "text_sha256": "24377213988775724b23fd35c238455e0454af71a00f446d9cd84ff55f18160b",
+      "patterns": [
+        "climate_change",
+        "climate"
+      ],
+      "strong_phrase": true,
+      "risk_review_cue": true,
+      "negation_review_cue": false,
+      "quotation_review_cue": false,
+      "unit": "recorded parliamentary paragraph",
+      "chamber": "Senate",
+      "session_id": 5304,
+      "sequence_number": 401,
+      "speaker_id": "195565",
+      "speaker_detail_id": 6515690,
+      "speaker_name": "Peter WHISH-WILSON",
+      "speaker_party_at_recorded_date": "Australian Greens",
+      "speaker_class": "unresolved_parliamentary_role",
+      "debate_id": 244206,
+      "procedural_unit_number": 126,
+      "procedural_unit_type": "speech",
+      "original_source_url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22chamber%2Fhansards%2F28882%2F0000%22;src1=sm1",
+      "complete_unit_verified": false,
+      "source_version": "DOI10.5281/zenodo.22868754 version2026-09-21",
+      "row_group": 52,
+      "manual_climate_context_relevant": true,
+      "manual_review_method": "Codex contextual reading of entire sampled paragraph; quoted case additionally checks prior paragraph 2811366 in same procedural unit",
+      "manual_context_result": "Climate explanation and climate-action argument with an explicit future-generation risk cue. The opening reports a Cornell study; this check does not verify that scientific claim or classify fear.",
+      "short_context_excerpt": "Action on climate change",
+      "holder_context": "recorded speaker with reported scientific claim; government/opposition/office unresolved",
+      "government_or_opposition_role": null,
+      "ministerial_office": null,
+      "original_parliament_link_mapping_verified": false,
+      "fear_label": null,
+      "validated_exec_holder": false,
+      "independent_human_annotation_validation": false
+    },
+    {
+      "source_id": "rapid_senate_block52",
+      "publication_or_nominal_sitting_date": "2025-11-24",
+      "native_unit_id": "6393747",
+      "text_sha256": "947780c8cd21ae230832e08d4e34ab00cf390223f3882d26d95c43e8b3f77dbe",
+      "patterns": [
+        "climate_change",
+        "climate"
+      ],
+      "strong_phrase": true,
+      "risk_review_cue": false,
+      "negation_review_cue": true,
+      "quotation_review_cue": false,
+      "unit": "recorded parliamentary paragraph",
+      "chamber": "Senate",
+      "session_id": 5304,
+      "sequence_number": 506,
+      "speaker_id": "00AOU",
+      "speaker_detail_id": 6515099,
+      "speaker_name": "Penelope  WONG",
+      "speaker_party_at_recorded_date": "Australian Labor Party",
+      "speaker_class": "unresolved_parliamentary_role",
+      "debate_id": 244219,
+      "procedural_unit_number": 155,
+      "procedural_unit_type": "answer",
+      "original_source_url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22chamber%2Fhansards%2F28882%2F0000%22;src1=sm1",
+      "complete_unit_verified": false,
+      "source_version": "DOI10.5281/zenodo.22868754 version2026-09-21",
+      "row_group": 52,
+      "manual_climate_context_relevant": true,
+      "manual_review_method": "Codex contextual reading of entire sampled paragraph; quoted case additionally checks prior paragraph 2811366 in same procedural unit",
+      "manual_context_result": "Climate/COP explanation about Pacific representation and negotiations. The negative wording concerns agreement to the bid, not denial of climate change.",
+      "short_context_excerpt": "most by climate change",
+      "holder_context": "recorded answer; government/opposition/office unresolved",
+      "government_or_opposition_role": null,
+      "ministerial_office": null,
+      "original_parliament_link_mapping_verified": false,
+      "fear_label": null,
+      "validated_exec_holder": false,
+      "independent_human_annotation_validation": false
+    },
+    {
+      "source_id": "rapid_house_block22",
+      "publication_or_nominal_sitting_date": "2015-10-20",
+      "native_unit_id": "2811367",
+      "text_sha256": "18fc94a9a8983857ea49f963d5f6c9f26ed55fdd9dbbb3a78e836da2233fa12b",
+      "patterns": [
+        "climate_change",
+        "climate"
+      ],
+      "strong_phrase": true,
+      "risk_review_cue": false,
+      "negation_review_cue": true,
+      "quotation_review_cue": true,
+      "unit": "recorded parliamentary paragraph",
+      "chamber": "House",
+      "session_id": 2349,
+      "sequence_number": 484,
+      "speaker_id": "HWR",
+      "speaker_detail_id": 3457367,
+      "speaker_name": "Melissa PARKE",
+      "speaker_party_at_recorded_date": "Australian Labor Party",
+      "speaker_class": "unresolved_parliamentary_role",
+      "debate_id": 114392,
+      "procedural_unit_number": 83,
+      "procedural_unit_type": "speech",
+      "original_source_url": "https://parlinfo.aph.gov.au/parlInfo/search/display/display.w3p;query=Id%3A%22chamber%2Fhansardr%2F51ef71ed-8735-4265-917d-e3ae650d4de6%2F0000%22;src1=sm1",
+      "complete_unit_verified": false,
+      "source_version": "DOI10.5281/zenodo.22868754 version2026-09-21",
+      "row_group": 22,
+      "manual_climate_context_relevant": true,
+      "manual_review_method": "Codex contextual reading of entire sampled paragraph; quoted case additionally checks prior paragraph 2811366 in same procedural unit",
+      "manual_context_result": "Climate-related quoted material. Preceding paragraph2811366 in the same sitting/debate/procedural unit introduces Christiana Figuerres as the quoted holder; preserve that spelling in the evidence and do not assign her claim or emotion to Melissa Parke.",
+      "short_context_excerpt": "to address climate change",
+      "holder_context": "quoted holder named in immediately preceding paragraph; government/opposition/office unresolved",
+      "government_or_opposition_role": null,
+      "ministerial_office": null,
+      "original_parliament_link_mapping_verified": false,
+      "fear_label": null,
+      "validated_exec_holder": false,
+      "independent_human_annotation_validation": false
+    },
+    {
+      "source_id": "pm_named_xml4",
+      "publication_or_nominal_sitting_date": "2026-09-21",
+      "native_unit_id": "47643:html_p:0",
+      "text_sha256": "0b5a2819556a92a2d3b531c169e5d57035627437dac4161487930a92c170e2c4",
+      "patterns": [
+        "climate_change",
+        "climate"
+      ],
+      "strong_phrase": true,
+      "risk_review_cue": false,
+      "negation_review_cue": false,
+      "quotation_review_cue": true,
+      "unit": "PM returned HTML paragraph; not automatically complete turn",
+      "chamber": null,
+      "release_id": "47643",
+      "html_paragraph_index": 0,
+      "release_type": "Transcript",
+      "prime_minister_metadata": "Albanese, Anthony",
+      "literal_speaker_label": "ANTHONY ALBANESE, PRIME MINISTER",
+      "speaker_class": "explicit_prime_minister_label",
+      "speaker_label_inherited": false,
+      "original_source_url": "https://pmtranscripts.pmc.gov.au/release/transcript-47643",
+      "complete_unit_verified": false,
+      "source_version": "current official XML retrieved2026-10-12; historical body equality unverified",
+      "manual_climate_context_relevant": true,
+      "manual_review_method": "Codex contextual reading of entire sampled paragraph; quoted case additionally checks prior paragraph 2811366 in same procedural unit",
+      "manual_context_result": "Current official PM XML has an explicit Anthony Albanese, Prime Minister label. This introductory turn directly frames climate change as a challenge and links it to Pacific neighbours and Australia's UN role. Curly apostrophes generated the quotation-marker flag; the climate clause itself is not an attributed external quotation. No fear inference.",
+      "short_context_excerpt": "challenge of climate change",
+      "holder_context": "explicit prime minister, own current official turn",
+      "government_or_opposition_role": "prime_minister",
+      "ministerial_office": "Prime Minister of Australia (explicit literal source label)",
+      "original_parliament_link_mapping_verified": null,
+      "fear_label": null,
+      "validated_exec_holder": true,
+      "independent_human_annotation_validation": false
+    }
+  ],
+  "manual_reviewed_months": [
+    "2011-11",
+    "2015-10",
+    "2025-11",
+    "2026-09"
+  ],
+  "manual_exec_holder_months": [
+    "2026-09"
+  ],
+  "pooled_sampled_months": 81,
+  "pooled_lexical_candidate_months": 78,
+  "reproducibility": {
+    "public_regex_and_count_rules": "The rules and denominators are published in this JSON and the report. Match the readable body only; retain all supplied units and count overlapping term hits separately from unique candidates.",
+    "data_query_mask": "Only explicitly supplied Parquet row groups 22/52 and PM native IDs 46220, 46784, 47643, 7370. Dates are native release or nominal sitting dates inside 1988-01-01–2026-09-21; no topic term removes an input.",
+    "local_helper_reference": "work_packages/M1_source_access/38_australia_rebuild_verified_20261012/local_government_coverage/climate_inventory_pilot.py",
+    "local_helper_sha256": "66c7a6f167fb947b77000b57ec85319bb4fb8e8f74221db17fac48164425b007",
+    "helper_public_standalone": false,
+    "replay_limit": "The current helper includes explicit local raw paths and the verified bounded row-group decoder. It is preserved locally; a standalone public input-CLI replay is pending and is not claimed here.",
+    "manual_context_reviews": "Five targeted Codex readings and one preceding-paragraph quotation check; not a random validation set or independent human annotation."
+  }
+}

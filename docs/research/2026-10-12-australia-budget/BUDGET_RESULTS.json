@@ -1,0 +1,325 @@
+{
+  "status": "planning scenarios, not measured workload or execution gates",
+  "budget_scope": "New Australian source data, segmentation, vectors, indexes, caches, outputs and peak temporary files. Preserved international holdings are outside this envelope and methods-reference only.",
+  "current_storage": {
+    "available_bytes": 35237253120,
+    "available_decimal_GB": 35.23725312,
+    "physical_floor_bytes": 16106127360,
+    "new_peak_headroom_bytes": 19131125760,
+    "new_peak_headroom_decimal_GB": 19.13112576
+  },
+  "cases": [
+    {
+      "name": "100k_passage_feasibility_envelope",
+      "passages": 100000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": false,
+      "basis": "hypothetical manageable passage count; not an inclusion quota",
+      "dense_vector_bytes": 153600000,
+      "text_and_lineage_bytes": 190000000,
+      "optional_index_bytes": 0,
+      "retained_bytes": 5343600000,
+      "temporary_bytes": 2000000000,
+      "peak_bytes": 7343600000,
+      "retained_decimal_GB": 5.3436,
+      "peak_decimal_GB": 7.3436,
+      "fits_preferred_50GB_peak": true,
+      "fits_alternative_100GB_peak": true,
+      "fits_observed_disk_after_existing_reserve": true,
+      "runtime_sensitivity_not_a_benchmark": [
+        {
+          "assumed_passages_per_second": 1,
+          "encoding_only_hours": 27.77777777777778,
+          "with_assumed_overhead_hours": 34.72222222222222,
+          "continuous_days_with_assumed_overhead": 1.4467592592592593
+        },
+        {
+          "assumed_passages_per_second": 10,
+          "encoding_only_hours": 2.7777777777777777,
+          "with_assumed_overhead_hours": 3.4722222222222223,
+          "continuous_days_with_assumed_overhead": 0.14467592592592593
+        },
+        {
+          "assumed_passages_per_second": 50,
+          "encoding_only_hours": 0.5555555555555556,
+          "with_assumed_overhead_hours": 0.6944444444444444,
+          "continuous_days_with_assumed_overhead": 0.028935185185185185
+        }
+      ]
+    },
+    {
+      "name": "500k_passages_384_float32_one_index",
+      "passages": 500000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "hypothetical source/time analysis workload",
+      "dense_vector_bytes": 768000000,
+      "text_and_lineage_bytes": 950000000,
+      "optional_index_bytes": 832000000.0,
+      "retained_bytes": 7550000000.0,
+      "temporary_bytes": 2000000000,
+      "peak_bytes": 9550000000.0,
+      "retained_decimal_GB": 7.55,
+      "peak_decimal_GB": 9.55,
+      "fits_preferred_50GB_peak": true,
+      "fits_alternative_100GB_peak": true,
+      "fits_observed_disk_after_existing_reserve": true,
+      "runtime_sensitivity_not_a_benchmark": [
+        {
+          "assumed_passages_per_second": 1,
+          "encoding_only_hours": 138.88888888888889,
+          "with_assumed_overhead_hours": 173.61111111111111,
+          "continuous_days_with_assumed_overhead": 7.233796296296297
+        },
+        {
+          "assumed_passages_per_second": 10,
+          "encoding_only_hours": 13.88888888888889,
+          "with_assumed_overhead_hours": 17.36111111111111,
+          "continuous_days_with_assumed_overhead": 0.7233796296296297
+        },
+        {
+          "assumed_passages_per_second": 50,
+          "encoding_only_hours": 2.7777777777777777,
+          "with_assumed_overhead_hours": 3.4722222222222223,
+          "continuous_days_with_assumed_overhead": 0.14467592592592593
+        }
+      ]
+    },
+    {
+      "name": "1m_passages_384_float32_one_index",
+      "passages": 1000000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "hypothetical source/time analysis workload",
+      "dense_vector_bytes": 1536000000,
+      "text_and_lineage_bytes": 1900000000,
+      "optional_index_bytes": 1664000000.0,
+      "retained_bytes": 10100000000.0,
+      "temporary_bytes": 2550000000,
+      "peak_bytes": 12650000000.0,
+      "retained_decimal_GB": 10.1,
+      "peak_decimal_GB": 12.65,
+      "fits_preferred_50GB_peak": true,
+      "fits_alternative_100GB_peak": true,
+      "fits_observed_disk_after_existing_reserve": true,
+      "runtime_sensitivity_not_a_benchmark": [
+        {
+          "assumed_passages_per_second": 1,
+          "encoding_only_hours": 277.77777777777777,
+          "with_assumed_overhead_hours": 347.22222222222223,
+          "continuous_days_with_assumed_overhead": 14.467592592592593
+        },
+        {
+          "assumed_passages_per_second": 10,
+          "encoding_only_hours": 27.77777777777778,
+          "with_assumed_overhead_hours": 34.72222222222222,
+          "continuous_days_with_assumed_overhead": 1.4467592592592593
+        },
+        {
+          "assumed_passages_per_second": 50,
+          "encoding_only_hours": 5.555555555555555,
+          "with_assumed_overhead_hours": 6.944444444444445,
+          "continuous_days_with_assumed_overhead": 0.28935185185185186
+        }
+      ]
+    },
+    {
+      "name": "1m_passages_1024_float32_one_index",
+      "passages": 1000000,
+      "dimensions": 1024,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "dimension sensitivity only",
+      "dense_vector_bytes": 4096000000,
+      "text_and_lineage_bytes": 1900000000,
+      "optional_index_bytes": 4224000000.0,
+      "retained_bytes": 15220000000.0,
+      "temporary_bytes": 5110000000,
+      "peak_bytes": 20330000000.0,
+      "retained_decimal_GB": 15.22,
+      "peak_decimal_GB": 20.33,
+      "fits_preferred_50GB_peak": true,
+      "fits_alternative_100GB_peak": true,
+      "fits_observed_disk_after_existing_reserve": false,
+      "runtime_sensitivity_not_a_benchmark": [
+        {
+          "assumed_passages_per_second": 1,
+          "encoding_only_hours": 277.77777777777777,
+          "with_assumed_overhead_hours": 347.22222222222223,
+          "continuous_days_with_assumed_overhead": 14.467592592592593
+        },
+        {
+          "assumed_passages_per_second": 10,
+          "encoding_only_hours": 27.77777777777778,
+          "with_assumed_overhead_hours": 34.72222222222222,
+          "continuous_days_with_assumed_overhead": 1.4467592592592593
+        },
+        {
+          "assumed_passages_per_second": 50,
+          "encoding_only_hours": 5.555555555555555,
+          "with_assumed_overhead_hours": 6.944444444444445,
+          "continuous_days_with_assumed_overhead": 0.28935185185185186
+        }
+      ]
+    },
+    {
+      "name": "3m_passages_384_float32_one_index",
+      "passages": 3000000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "larger hypothetical workload",
+      "dense_vector_bytes": 4608000000,
+      "text_and_lineage_bytes": 5700000000,
+      "optional_index_bytes": 4992000000.0,
+      "retained_bytes": 20300000000.0,
+      "temporary_bytes": 7650000000,
+      "peak_bytes": 27950000000.0,
+      "retained_decimal_GB": 20.3,
+      "peak_decimal_GB": 27.95,
+      "fits_preferred_50GB_peak": true,
+      "fits_alternative_100GB_peak": true,
+      "fits_observed_disk_after_existing_reserve": false,
+      "runtime_sensitivity_not_a_benchmark": [
+        {
+          "assumed_passages_per_second": 1,
+          "encoding_only_hours": 833.3333333333334,
+          "with_assumed_overhead_hours": 1041.6666666666667,
+          "continuous_days_with_assumed_overhead": 43.40277777777778
+        },
+        {
+          "assumed_passages_per_second": 10,
+          "encoding_only_hours": 83.33333333333333,
+          "with_assumed_overhead_hours": 104.16666666666667,
+          "continuous_days_with_assumed_overhead": 4.340277777777778
+        },
+        {
+          "assumed_passages_per_second": 50,
+          "encoding_only_hours": 16.666666666666668,
+          "with_assumed_overhead_hours": 20.833333333333332,
+          "continuous_days_with_assumed_overhead": 0.8680555555555556
+        }
+      ]
+    },
+    {
+      "name": "all_RAPID_rows_as_384_float32_units_stress_case",
+      "passages": 6911269,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "verified row count; hypothetical one vector per paragraph with assumed text/metadata overhead, before date/role/analysis selection; not recommended",
+      "dense_vector_bytes": 10615709184,
+      "text_and_lineage_bytes": 13131411100,
+      "optional_index_bytes": 11500351616.0,
+      "retained_bytes": 40247471900.0,
+      "temporary_bytes": 17623735950,
+      "peak_bytes": 57871207850.0,
+      "retained_decimal_GB": 40.2474719,
+      "peak_decimal_GB": 57.87120785,
+      "fits_preferred_50GB_peak": false,
+      "fits_alternative_100GB_peak": true,
+      "fits_observed_disk_after_existing_reserve": false,
+      "runtime_sensitivity_not_a_benchmark": [
+        {
+          "assumed_passages_per_second": 1,
+          "encoding_only_hours": 1919.7969444444445,
+          "with_assumed_overhead_hours": 2399.7461805555554,
+          "continuous_days_with_assumed_overhead": 99.98942418981481
+        },
+        {
+          "assumed_passages_per_second": 10,
+          "encoding_only_hours": 191.97969444444445,
+          "with_assumed_overhead_hours": 239.97461805555557,
+          "continuous_days_with_assumed_overhead": 9.998942418981482
+        },
+        {
+          "assumed_passages_per_second": 50,
+          "encoding_only_hours": 38.39593888888889,
+          "with_assumed_overhead_hours": 47.99492361111111,
+          "continuous_days_with_assumed_overhead": 1.9997884837962963
+        }
+      ]
+    },
+    {
+      "name": "all_RAPID_rows_as_1024_float32_units_stress_case",
+      "passages": 6911269,
+      "dimensions": 1024,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "same raw paragraph count and explicit unmeasured overhead; does not include any extra splitting, title vectors or media/community additions",
+      "dense_vector_bytes": 28308557824,
+      "text_and_lineage_bytes": 13131411100,
+      "optional_index_bytes": 29193200256.0,
+      "retained_bytes": 75633169180.0,
+      "temporary_bytes": 35316584590,
+      "peak_bytes": 110949753770.0,
+      "retained_decimal_GB": 75.63316918,
+      "peak_decimal_GB": 110.94975377,
+      "fits_preferred_50GB_peak": false,
+      "fits_alternative_100GB_peak": false,
+      "fits_observed_disk_after_existing_reserve": false,
+      "runtime_sensitivity_not_a_benchmark": [
+        {
+          "assumed_passages_per_second": 1,
+          "encoding_only_hours": 1919.7969444444445,
+          "with_assumed_overhead_hours": 2399.7461805555554,
+          "continuous_days_with_assumed_overhead": 99.98942418981481
+        },
+        {
+          "assumed_passages_per_second": 10,
+          "encoding_only_hours": 191.97969444444445,
+          "with_assumed_overhead_hours": 239.97461805555557,
+          "continuous_days_with_assumed_overhead": 9.998942418981482
+        },
+        {
+          "assumed_passages_per_second": 50,
+          "encoding_only_hours": 38.39593888888889,
+          "with_assumed_overhead_hours": 47.99492361111111,
+          "continuous_days_with_assumed_overhead": 1.9997884837962963
+        }
+      ]
+    }
+  ],
+  "planning_envelopes": [
+    {
+      "name": "preferred",
+      "peak_limit_GB": 50,
+      "component_GB": {
+        "source_originals": 10,
+        "canonical_text_and_source_metadata": 4,
+        "passages_and_lineage": 6,
+        "vectors_and_one_optional_index": 8,
+        "AntConc_subset_database": 2,
+        "model_cache": 3,
+        "quality_logs_and_research_outputs": 1,
+        "temporary_write_peak": 12,
+        "uncommitted_budget_headroom": 4
+      }
+    },
+    {
+      "name": "alternative",
+      "peak_limit_GB": 100,
+      "component_GB": {
+        "source_originals": 20,
+        "canonical_text_and_source_metadata": 8,
+        "passages_and_lineage": 14,
+        "vectors_and_one_optional_index": 20,
+        "AntConc_subset_database": 4,
+        "model_cache": 4,
+        "quality_logs_and_research_outputs": 2,
+        "temporary_write_peak": 20,
+        "uncommitted_budget_headroom": 8
+      }
+    }
+  ],
+  "researcher_hours": {
+    "minimum": 72,
+    "maximum": 148,
+    "hours_per_working_day_assumption": 8
+  },
+  "benchmark_executed": false,
+  "corpus_or_model_run": false
+}

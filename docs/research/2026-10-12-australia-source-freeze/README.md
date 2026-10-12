@@ -1,0 +1,31 @@
+# Australian archive and rebuild planning report
+
+12 October 2026. Dai's latest direction is to archive the extracted corpus, preserve schemas/extraction logic, optionally carry verified Australian records, and build a cleaner Australian active dataset from ready databases plus small named gaps. **100 GB decimal is the primary peak working-data envelope**; the earlier 50 GB preference is superseded. Diversity, actual coverage and distribution govern the design, without volume equalisation, fixed role ratios, source-count quotas or passage-count caps.
+
+The empirical boundary is Australian institutions, publishers and evidenced Australian community contexts. It does not require inferred historical residence for every author. Publication eligibility remains **1988-01-01–2026-09-21**; September is partial and actual source windows can be narrower. RQ1/RQ2 precede the deferred RQ3. Thesis-stage NLP/models and the prototype have not started; this plan adds no prediction objective.
+
+## References and candidate sources
+
+The two supervisor recommendations serve different purposes. [Canadian Climate Framing, supplied Zenodo record 22019204](https://zenodo.org/records/22019204) is an external methods/resource reference for segmentation and embeddings, not Australian empirical data. [AntConc](https://www.laurenceanthony.net/software/antconc/) is a concordance and lexical-comparison tool for traceable context reading before bulk vectors; it is not a corpus source or a validated fear measure. See the [CCF computing assessment](../2026-10-12-australia-scope/CCF_COMPUTING_REFERENCE.md) and [AntConc workflow](../2026-10-12-australia-budget/ANTCONC_WORKFLOW.md).
+
+The Australian [UQ RAPID-CDL deposit 22868754](https://zenodo.org/records/22868754) is a separate ready-data candidate. Inspected metadata identify **502,442,451 deposited bytes**, **6,911,269 paragraphs**, **3,300 sittings**, and session bounds **1996-05-30–2026-09-08**. It has not been imported or accepted as a full-text analytical corpus. Paragraphs are not independent speeches; dated speaker/office and procedural-unit mapping remain necessary.
+
+The old Australian candidate projection contains **8,169 article IDs** and, separately, **45,679 community-context bodies**. These are accepted historical metadata quantities, not new imports or validated analytical denominators. The seven sealed government originals overlap 821 catalogue candidates; neither establishes Australian monthly coverage.
+
+## Archive, carry-forward and source preparation
+
+Preserve old international and suspect holdings as archival/reference evidence, with their original scopes, IDs, versions, manifests and counters. Preserve public schemas, extractor code and donor dependencies. Separate reusable parsers and identity/version/lineage contracts from absolute old store paths, import-time controls, queues and expired leases. Retired `coverage >= 2` and source-count schedulers remain historical code, not new operating rules. The [preservation map](SCHEMA_EXTRACTION_REUSE.md) records exact paths and code hashes.
+
+A new active view should admit only explicitly verified source/date/unit/content relationships. Optional Australian carry-forward retains an archive-to-new mapping and original version lineage. Unresolved structural anomalies belong in a quarantine/disposition ledger; correcting the active view does not delete or overwrite archived originals. Climate relevance, neutral wording and absent fear cues are not structural admission or quarantine gates.
+
+Prefer the ready parliamentary candidate, then a permitted recent executive route. The **PM API is currently unresolved**: its advertised XML index redirects to a batch path returning **404**, and the tested date filter returns HTTP 200 containing an **Incapsula challenge**, not results. Named readable 2024–2026 releases, including 21 September, establish availability but no exact recent inventory, operational bulk route or end-of-day completeness. No bypass was attempted. Parliamentary pre-May-1996 and post-8-September-2026 coverage remains unestablished. See [government scope and access evidence](GOV_SCOPE_NOTE.md).
+
+Existing Northern Rivers Times, Aus.Social and Aussie.zone metadata share **28 observed months, June 2024–September 2026**, with substantial concentration and unequal density. This is a regional newspaper/community candidate case, not national three-role coverage. Government common-period counts require separate confirmation. Historical public expression needs an evidenced historical frame rather than retrospective modern-platform coverage. Conditional supplements address one recent conventional-newspaper gap and one civic-expression gap; historical Trove/letters work is optional. See [news/public source selection](SOURCE_SELECTION_NEWS_PUBLIC.md).
+
+## Capacity and acceptance
+
+The 100 GB ceiling includes Australian source evidence, canonical text, segmentation/lineage, vectors/indexes, model caches, results, backups/checkpoints and concurrent temporary writes. Protected international archives remain outside this new envelope. It is not a target to fill or proof of available disk/RAM; the existing 15 GiB physical floor remains additional. Measure native-form lengths, passage multiplicity and complete-operation peaks before scaling. The existing encoder's whole float32 matrix output requires bounded, resumable input/output engineering.
+
+Freeze a source × year/month × native-form matrix, applicability/missingness states, parent/source concentration and named structural dispositions before selecting actual RQ1/RQ2 windows. Keep source/work/utterance/paragraph/version counts distinct, retain valid peaks and disclose unresolved mappings. Later relevance, affect and fear measures require their own validation. The [review criteria](REVIEW_CRITERIA.md) define that boundary without an opaque score.
+
+**Completed here:** documentation, source/API evidence review, closed-metadata summaries and public-code preservation checks. **Not performed:** physical archiving, destructive clearing, file relocation, database migration, corpus transfer, bulk downloads, model execution or a new active-data release. Public API confirmation and the full rebuild belong to the newly requested execution chat under its explicit scope.

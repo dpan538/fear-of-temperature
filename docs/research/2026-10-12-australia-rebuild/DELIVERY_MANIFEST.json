@@ -1,0 +1,184 @@
+{
+  "version": "AU-rebuild-government-inventory-v3",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "scientific_peak_ceiling_bytes": 100000000000,
+  "primary_work_order": "government dated climate/context inventory to justify minimum contiguous analysis windows; full465month pooled coverage/distribution with separate role gaps maintained long term; no forced month-filling",
+  "files": [
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/ARCHIVE_INVENTORY.json",
+      "bytes": 25655,
+      "sha256": "c53bfa4f9a57856bf789bc973e8423c92a55ae7cc2c4df89f69cb63b02218d08"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/BUDGET_AND_EXECUTION.md",
+      "bytes": 11570,
+      "sha256": "c6f2de9fd2158824e946c354ed24bbeaf6af744c2c469fdcdcc2d771677570ad"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/COMPARISON_FRAME.json",
+      "bytes": 3302,
+      "sha256": "c85e04eba150b8655c98f4bc8f2e526c2c9c9c1c8acd64d6d51b597948b2f081"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/FULL_PERIOD_COVERAGE.json",
+      "bytes": 14574,
+      "sha256": "bf078420a96f4d9ea2b2a642c48056da99b66c1785f9e76770bf752e7bb7d2d5"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/GOVERNMENT_CLIMATE_INVENTORY_PILOT.md",
+      "bytes": 8131,
+      "sha256": "2ad48993a35160fd9a669ba52760ea8c229ad5bd75699a70b517b574d88e5529"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/GOVERNMENT_CONFIRMATION.md",
+      "bytes": 11362,
+      "sha256": "dc14dc06fb71498a07e98cb59158a34fd292851d4ed45106524adba3b292bf84"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/GOVERNMENT_FULL_PERIOD_COVERAGE.md",
+      "bytes": 11826,
+      "sha256": "fda2006f9f3a285c290a19ac5bc70cd55a86ce2a22accb641bac154a5aad16d4"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/LENGTH_SAMPLE_SUMMARY.json",
+      "bytes": 9509,
+      "sha256": "20b15380f68fbbfec6edc85671ca9f518d54233e88fe5823d07606975a3ba510"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/MAPPING_EXAMPLES.json",
+      "bytes": 5567,
+      "sha256": "c32f4a442ec3a77aaa89f9b248281f7170560e1c6269acead208e878e20cc4b6"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/MEDIA_CIVIC_CONFIRMATION.md",
+      "bytes": 16396,
+      "sha256": "cf2f66f831f62a707d5468ec1a9228bf1c0d793af90b2433714300c88c70c90d"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/MEDIA_CIVIC_FULL_PERIOD_COVERAGE.md",
+      "bytes": 14531,
+      "sha256": "c3f414a968942304d89bc4ec6cb80729ea8141c29b481fc6657a293afe93eaca"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/README.md",
+      "bytes": 13645,
+      "sha256": "fe8f5aa484f7e7a855d84ae2a087689857eed37f5ef2c33b063a9df9024204f6"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/REBUILD_ARCHITECTURE.md",
+      "bytes": 21272,
+      "sha256": "1769bc22a1198c0866c0b351e8f964b71645d74cdc2c5d532a09dde45387dbde"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/SUPERVISOR_BRIEF_ZH.md",
+      "bytes": 6443,
+      "sha256": "16b1214e5389d7a1763d3bc0c7f8e8fe4abd06eb5498f2a640b460ab4c6c7e65"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/VERIFIED_BUDGET_SENSITIVITY.json",
+      "bytes": 13024,
+      "sha256": "2148223e55da178d54152a734c42ad4349f5c89d95aab34ded5be9ed4b09ff5e"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/adapter_contract.py",
+      "bytes": 26532,
+      "sha256": "71043f697ae2afec272a15d7d073ecd670652b856000bc387e8332416c76e4f8"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/build_comparison_frame.py",
+      "bytes": 5512,
+      "sha256": "30e3a932e0b10b58e61d20de5dcdf3c2a4f79555d256178ed1adfba44db3db2a"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/build_full_period_coverage.py",
+      "bytes": 7014,
+      "sha256": "ace5377c41765e79c7868ede50c9afaa19b28f7b145862f612637ef9f059804d"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/estimate_verified_budget.py",
+      "bytes": 8230,
+      "sha256": "ec8aff564a7495548f49d93e551e5e1141bc873d34d6130a963a8b39bc2fd678"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/full_period_coverage_months.csv",
+      "bytes": 226483,
+      "sha256": "dcce854b3173c4b36707b0655a773cc1d0b8aff03dd187a9d5938301f776b9f7"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/government_climate_inventory_pilot.csv",
+      "bytes": 252755,
+      "sha256": "c9da426f656ca3c7a035de324cefaa352e02ff6904204bcb4c9652a7d3bcc3fb"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/government_climate_inventory_pilot.json",
+      "bytes": 19997,
+      "sha256": "988b1de215633041f06d9bc6c93663cef14248d291e6a21dc9c673a49a9680aa"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/government_evidence.json",
+      "bytes": 103036,
+      "sha256": "917835ffa84c028c9a7baeceb6d77742fdf0c84f1963e1e6d5157c98f2447858"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/government_full_period_routes.json",
+      "bytes": 15543,
+      "sha256": "d530c2bf9a6777695db2b16c1d7098b83222464136d3be3d497d8739401c0cef"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/government_session_month_counts.csv",
+      "bytes": 149275,
+      "sha256": "ad12944bd20366f0f78264172514d165bfb2c9d0402fcb292973df3f389d8722"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/media_civic_evidence.json",
+      "bytes": 39256,
+      "sha256": "12a0b54abb092944fb4e62d54c757f7dfb8f6a2c530d1589eb856b7ebc4cc98b"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/media_civic_full_period_routes.json",
+      "bytes": 202076,
+      "sha256": "681461ffe073958f761a8db81bb2d548a0526536e0141ec92fe489619502b962"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/media_community_source_month.csv",
+      "bytes": 1168683,
+      "sha256": "649cc20599f77f3a80a31bdc12b49449df78574cb2523dec6a6302d5520ed07f"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/recent_comparison_months.csv",
+      "bytes": 4657,
+      "sha256": "9e5c69bf280ec644b684b18dd2fcec39f1b1d8a38934575f065ff9c472b2f471"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/schema.sql",
+      "bytes": 25697,
+      "sha256": "a397705fbd6d7f4c72dcd184050a168f041b4c84a5c571c444ed9737756a8a29"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/test_adapter_contract.py",
+      "bytes": 13876,
+      "sha256": "994a08cd74b72380329df60da052ef0766ca8488abeefa57d7f757ceaf7a72b5"
+    }
+  ],
+  "verification": {
+    "independent_adapter_tests_passed": 17,
+    "real_parliamentary_projection_tests": 3,
+    "real_projection_admission_state": "pending rights/utterance mapping",
+    "metadata_rows": {
+      "media_source_months": 5115,
+      "chamber_source_months": 930,
+      "full_period_months": 465,
+      "climate_pilot_source_months": 1395,
+      "recent_verification_months": 28
+    },
+    "JSON_and_relative_links": "passed",
+    "counter_no_reset": true
+  },
+  "completed_scope": "reviewable archive/source/schema/admission/budget plan, real bounded public-interface/text confirmation and explicitly requested bounded government-climate pilot",
+  "production_imports": 0,
+  "bulk_models_or_semantic_exclusion": false,
+  "local_evidence_publication": "excluded; raw/native excerpts and individual receipts preserved locally"
+}

@@ -1,0 +1,294 @@
+{
+  "status": "candidate analytical source frame from accepted metadata",
+  "recorded_date": "2026-10-12",
+  "timezone": "Australia/Brisbane",
+  "source_boundary": "Australian institutions, media, and evidenced Australian community context; confirmed by Dai",
+  "publication_interval": {
+    "start": "1988-01-01",
+    "end": "2026-09-21",
+    "last_month_partial": true,
+    "actual_source_windows_may_be_narrower": true
+  },
+  "author_residence_required": false,
+  "historical_author_geography_inferred": false,
+  "topic_or_affect_selection_performed": false,
+  "bodies_audited": false,
+  "source_stores_modified": false,
+  "candidate_pools": [
+    {
+      "stream": "newspaper",
+      "unit": "regular complete article IDs",
+      "count": 8169,
+      "contributing_source_ids": 9
+    },
+    {
+      "stream": "social",
+      "unit": "dated authored bodies under source-declared community contexts",
+      "count": 45679,
+      "source_counts": {
+        "aussie_zone": 9858,
+        "mastodon_au": 35821
+      }
+    },
+    {
+      "stream": "government",
+      "unit": "original publication parents at sealed checkpoint",
+      "count": 7,
+      "day_month_precision": 5,
+      "year_only_precision": 2,
+      "overlaps_catalogue_candidates": 821,
+      "monthly_corpus_coverage_unestablished": true
+    }
+  ],
+  "selected_source_metadata": [
+    {
+      "source": "border_watch",
+      "source_label": "Border Watch",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "4",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package36 closed source registry; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "Primary publisher FindMyNewspaper4e3c84c3d5c13d8e8a99d46a explicitly names The Border Watch paid regional newspaper, Friday printdistribution; Contactfa43508b0c5b03f030ebab29 namesSA Today and MtGambierSouthAustralia. Root logo/template has a GoondiwindiArgus remnant; no other title counted.",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/newspaper/SOURCE_FRAME_AND_GEOGRAPHY.csv"
+    },
+    {
+      "source": "byron_shire_echo",
+      "source_label": "The Byron Shire Echo",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "4",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package36 closed source registry; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "Primary About 8a3657a7176eb144de480932 and da89f07af4667e2f8d07d09b: weekly tabloid newspaper Byron Shire NSW Australia, founded1986. Primary archive87e07b95dbec4762d5f17c89 and native category541d0bc46d6d06660016ee1f establish category152 Byron Echo; Echonetdaily and other titles not included.",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/newspaper/SOURCE_FRAME_AND_GEOGRAPHY.csv"
+    },
+    {
+      "source": "castlemaine_mail",
+      "source_label": "Castlemaine Mail",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "128",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package36 closed source registry; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "https://castlemainemail.com.au/about/",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/newspaper/SOURCE_FRAME_AND_GEOGRAPHY.csv"
+    },
+    {
+      "source": "gippsland_times",
+      "source_label": "Gippsland Times",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "10",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package36 closed source registry; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "https://www.gippslandtimes.com.au/about/",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/newspaper/SOURCE_FRAME_AND_GEOGRAPHY.csv"
+    },
+    {
+      "source": "green_left",
+      "source_label": "green_left",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "3712",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package35 frozen geography; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/35_media_geography_and_source_expansion_20261011/SOURCE_GEOGRAPHY.csv"
+    },
+    {
+      "source": "indaily",
+      "source_label": "indaily",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "796",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package35 frozen geography; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/35_media_geography_and_source_expansion_20261011/SOURCE_GEOGRAPHY.csv"
+    },
+    {
+      "source": "midland_express",
+      "source_label": "Midland Express",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "153",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package36 closed source registry; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "https://midlandexpress.com.au/about/",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/newspaper/SOURCE_FRAME_AND_GEOGRAPHY.csv"
+    },
+    {
+      "source": "northern_rivers_times",
+      "source_label": "The Northern Rivers Times",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "2858",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package36 closed source registry; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "https://thenorthernriverstimes.com.au/the-northern-rivers-times-latest-editions/",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/newspaper/SOURCE_FRAME_AND_GEOGRAPHY.csv"
+    },
+    {
+      "source": "your_local_examiner_au",
+      "source_label": "The Examiner / Examiner Newspapers publisher web edition",
+      "stream": "newspaper",
+      "frame": "regular_newspaper_frame",
+      "country": "AU",
+      "context_status": "recorded_publisher_source_context",
+      "count": "504",
+      "unit": "complete regular article IDs",
+      "count_basis": "package34/35 baseline plus package36 regular delta once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package36 closed source registry; 2026-10-11",
+      "context_limit": "Publisher/source context, not the locations or nationalities of article authors.",
+      "primary_reference": "https://www.yourlocalexaminer.com.au/about/",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/newspaper_38_title_catalog.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/newspaper/SOURCE_FRAME_AND_GEOGRAPHY.csv"
+    },
+    {
+      "source": "aussie_zone",
+      "source_label": "aussie_zone",
+      "stream": "social",
+      "frame": "federated_forum_instance",
+      "country": "AU",
+      "context_status": "verified_source_declared_community_frame",
+      "count": "9858",
+      "unit": "usable dated independent authored bodies",
+      "count_basis": "package34 consolidated source calendar plus package36 new_usable_bodies once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "package35 frozen source-declared community frame",
+      "context_limit": "Regional community/source context; participants can live elsewhere. Historical author country remains unmeasured.",
+      "primary_reference": "",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/social_source_carrier_mapping.csv | work_packages/M1_source_access/35_media_geography_and_source_expansion_20261011/SOURCE_GEOGRAPHY.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/social/source_registry_final.json"
+    },
+    {
+      "source": "mastodon_au",
+      "source_label": "Aus.Social",
+      "stream": "social",
+      "frame": "microblog_public_platform",
+      "country": "AU",
+      "context_status": "verified_source_declared_community_frame",
+      "count": "35821",
+      "unit": "usable dated independent authored bodies",
+      "count_basis": "package34 consolidated source calendar plus package36 new_usable_bodies once",
+      "historical_author_country": "unmeasured; no backfill",
+      "context_asof": "2026-10-08T10:50:25.523525+00:00 | 2026-10-11T02:31:08.408381+00:00 | 2026-10-11T02:40:20.051815+00:00 | 2026-10-11T02:52:25.028481+00:00 | 2026-10-11T02:52:43.303235+00:00 | 2026-10-11T03:20:04.997272+00:00 | 2026-10-11T03:20:22.048172+00:00 | 2026-10-11T04:25:48.777213+00:00 | 2026-10-11T04:26:22.060962+00:00",
+      "context_limit": "Regional community/source context; participants can live elsewhere. Historical author country remains unmeasured.",
+      "primary_reference": "https://aus.social",
+      "provenance": "outputs/seminar/build_v14/figure_source_data/social_source_carrier_mapping.csv | work_packages/M1_source_access/35_media_geography_and_source_expansion_20261011/SOURCE_GEOGRAPHY.csv | work_packages/M1_source_access/36_media_current_routes_closeout_20261011/closed/social/source_registry_final.json"
+    },
+    {
+      "source": "AU_VERIFIED_ORIGINAL",
+      "source_label": "AU independently checked original subset",
+      "stream": "government",
+      "frame": "AU:VERIFIED_ORIGINAL_SUBSET",
+      "country": "AU",
+      "context_status": "saved_verified_original_subset_source_context",
+      "count": "7",
+      "unit": "original publication parent, overlapping catalogue subset",
+      "count_basis": "known_inventory_count in frozen government frame register; not a refreshed readable-body count",
+      "historical_author_country": "not inferred from source jurisdiction",
+      "context_asof": "AU browser DB checkpoint 2026-09-26T17:12:20.944330+00:00",
+      "context_limit": "seven saved verified originals at prior checkpoint; not reread here | named subset only, no complete historical AU government denominator | subset of821, never additive",
+      "primary_reference": "",
+      "provenance": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/FINAL_GOV_FRAME_REGISTER.csv | work_packages/M1_source_access/13_parallel_data_audit_20261004/02_distribution/RESULT.json"
+    }
+  ],
+  "government_catalogue_and_access_frames": [
+    {
+      "frame_id": "AU:DCCEEW:CATALOGUE",
+      "source_id": "au_dcceew_current_catalogue_2026_snapshot",
+      "known_inventory_count": "821",
+      "source_native_unit": "unique landing URL candidate, not verified independent policy Work",
+      "date_basis": "CMS created time is separate; original issue date unknown for most",
+      "source_text_presence_level": "catalogue/link observations; seven verified originals overlap this inventory",
+      "coverage_limits": "original-date month denominator unknown; access timeout/challenges retained as unresolved",
+      "overlap_rule": "verified originals are subset, do not add seven to821"
+    },
+    {
+      "frame_id": "AU:VERIFIED_ORIGINAL_SUBSET",
+      "source_id": "AU_VERIFIED_ORIGINAL",
+      "known_inventory_count": "7",
+      "source_native_unit": "original publication parent, overlapping catalogue subset",
+      "date_basis": "five day/month originals, two year-only; year-only not placed in exact months",
+      "source_text_presence_level": "seven saved verified originals at prior checkpoint; not reread here",
+      "coverage_limits": "named subset only, no complete historical AU government denominator",
+      "overlap_rule": "subset of821, never additive"
+    },
+    {
+      "frame_id": "AU_PARLIAMENT",
+      "source_id": "AU_PARLIAMENT",
+      "known_inventory_count": "",
+      "source_native_unit": "entrance/route observation only",
+      "date_basis": "not established for a population",
+      "source_text_presence_level": "named route or bounded original evidence only",
+      "coverage_limits": "saved HTTP403; not enumerated",
+      "overlap_rule": "route is not new documents"
+    }
+  ],
+  "separate_frames_not_automatically_merged": [
+    {
+      "source": "about_time",
+      "frame": "creative_work_separate",
+      "count": "3",
+      "unit": "separately bounded creative works"
+    }
+  ],
+  "input_receipts": [
+    {
+      "path": "outputs/seminar/build_v14/figure_source_data/cross_role_geography.csv",
+      "sha256": "7469268ef4dae388978d258aa8ab2ebc5033227468e1081cd33df8ab90b5b259",
+      "bytes": 94124
+    },
+    {
+      "path": "work_packages/M1_source_access/36_media_current_routes_closeout_20261011/analysis/SOURCE_CONTEXT_COUNTRY_BEFORE_AFTER.csv",
+      "sha256": "e1a217e474f0ef5b996eaed4f2237d51e2e68c5cb5cc244d3b096ad1d2facd8e",
+      "bytes": 2044
+    },
+    {
+      "path": "work_packages/M1_source_access/21_government_phase1_seal_20261005/tables/FINAL_GOV_FRAME_REGISTER.csv",
+      "sha256": "6a9c4b2e9e91a99fb5b42164b5698001a4bc6d729971bd4c038226349c8caa06",
+      "bytes": 33393
+    }
+  ]
+}

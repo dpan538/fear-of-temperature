@@ -1,0 +1,180 @@
+{
+  "recorded_date": "2026-10-12",
+  "timezone": "Australia/Brisbane",
+  "budget_scope": "New Australian source data, segmentation, vectors, indexes, caches, outputs and peak temporary files. Preserved international holdings are outside this envelope and methods-reference only.",
+  "preferred_peak_GB": 50,
+  "alternative_peak_GB": 100,
+  "GB_definition": "decimal; 1GB = 1,000,000,000 bytes",
+  "execution_authorisation": "Research/planning only; no corpus download, collection, model, data rewrite, runtime quota or migration is released by this calculator.",
+  "observed_storage": {
+    "source": "df -k .; one read-only filesystem check",
+    "available_1024_blocks": 34411380,
+    "existing_physical_floor_GiB": 15,
+    "hardware_inference_throughput_measured": false,
+    "hardware_memory_probe": "not accessible in sandbox; no RAM capacity asserted"
+  },
+  "planning_envelopes": [
+    {
+      "name": "preferred",
+      "peak_limit_GB": 50,
+      "component_GB": {
+        "source_originals": 10,
+        "canonical_text_and_source_metadata": 4,
+        "passages_and_lineage": 6,
+        "vectors_and_one_optional_index": 8,
+        "AntConc_subset_database": 2,
+        "model_cache": 3,
+        "quality_logs_and_research_outputs": 1,
+        "temporary_write_peak": 12,
+        "uncommitted_budget_headroom": 4
+      }
+    },
+    {
+      "name": "alternative",
+      "peak_limit_GB": 100,
+      "component_GB": {
+        "source_originals": 20,
+        "canonical_text_and_source_metadata": 8,
+        "passages_and_lineage": 14,
+        "vectors_and_one_optional_index": 20,
+        "AntConc_subset_database": 4,
+        "model_cache": 4,
+        "quality_logs_and_research_outputs": 2,
+        "temporary_write_peak": 20,
+        "uncommitted_budget_headroom": 8
+      }
+    }
+  ],
+  "scenario_assumptions": {
+    "status": "All values below are explicit unmeasured planning inputs, not observed corpus averages or index benchmarks.",
+    "fixed_retained_bytes": 5000000000,
+    "fixed_breakdown_GB": {
+      "source_packages_and_originals": 2,
+      "canonical_text_and_metadata": 1,
+      "AntConc_subset_database": 0.5,
+      "model_cache": 1,
+      "outputs_and_quality_logs": 0.5
+    },
+    "text_and_lineage_bytes_per_passage": 1900,
+    "text_bytes_per_passage_assumption": 1500,
+    "lineage_bytes_per_passage_assumption": 400,
+    "index_additional_payload_multiplier": 1.0,
+    "index_metadata_bytes_per_passage": 128,
+    "minimum_temporary_bytes": 2000000000,
+    "temporary_fraction_of_variable_outputs": 0.5,
+    "assumed_passages_per_second": [
+      1,
+      10,
+      50
+    ],
+    "runtime_overhead_factor": 1.25,
+    "index_formula_note": "Planning extra one dense payload plus 128B per item; not a measured HNSW or AntConc size.",
+    "temporary_formula_note": "max(2GB, 50% of variable outputs); replace with measured largest complete operation and incremental shard/journal peaks before execution.",
+    "model_selection_note": "384/1024 dimensions compare capacity only. Neither model nor float16 precision is adopted without task validation; current helper stores float32."
+  },
+  "passage_scenarios": [
+    {
+      "name": "100k_passage_feasibility_envelope",
+      "passages": 100000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": false,
+      "basis": "hypothetical manageable passage count; not an inclusion quota"
+    },
+    {
+      "name": "500k_passages_384_float32_one_index",
+      "passages": 500000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "hypothetical source/time analysis workload"
+    },
+    {
+      "name": "1m_passages_384_float32_one_index",
+      "passages": 1000000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "hypothetical source/time analysis workload"
+    },
+    {
+      "name": "1m_passages_1024_float32_one_index",
+      "passages": 1000000,
+      "dimensions": 1024,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "dimension sensitivity only"
+    },
+    {
+      "name": "3m_passages_384_float32_one_index",
+      "passages": 3000000,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "larger hypothetical workload"
+    },
+    {
+      "name": "all_RAPID_rows_as_384_float32_units_stress_case",
+      "passages": 6911269,
+      "dimensions": 384,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "verified row count; hypothetical one vector per paragraph with assumed text/metadata overhead, before date/role/analysis selection; not recommended"
+    },
+    {
+      "name": "all_RAPID_rows_as_1024_float32_units_stress_case",
+      "passages": 6911269,
+      "dimensions": 1024,
+      "bytes_per_value": 4,
+      "build_index": true,
+      "basis": "same raw paragraph count and explicit unmeasured overhead; does not include any extra splitting, title vectors or media/community additions"
+    }
+  ],
+  "staff_work_phases": [
+    {
+      "phase": "source, licence and coverage feasibility",
+      "hours_min": 8,
+      "hours_max": 16
+    },
+    {
+      "phase": "derived Australian view, joins, date and source lineage",
+      "hours_min": 8,
+      "hours_max": 16
+    },
+    {
+      "phase": "named structural noise checks and dated speaker/role mapping",
+      "hours_min": 16,
+      "hours_max": 32
+    },
+    {
+      "phase": "AntConc subset, concordances and comparison recipe",
+      "hours_min": 8,
+      "hours_max": 20
+    },
+    {
+      "phase": "passage and candidate-model benchmark preparation/evaluation",
+      "hours_min": 8,
+      "hours_max": 16
+    },
+    {
+      "phase": "first bounded RQ1/RQ2 analysis and original-passage checks",
+      "hours_min": 24,
+      "hours_max": 48
+    }
+  ],
+  "staff_estimate_boundary": "72-148 active researcher hours is a judgement-based ready-data route estimate, not measured throughput or final thesis/prototype duration. It excludes access waits, unknown archive recovery, machine runtime and later extended annotation validation. 8 hours/day is a planning conversion, not an assumption about Dai availability.",
+  "ready_data_candidate": {
+    "url": "https://zenodo.org/records/22868754",
+    "version": "2026-09-21",
+    "files_bytes": 502442451,
+    "paragraph_rows": 6911269,
+    "observed_session_date_min": "1996-05-30",
+    "observed_session_date_max": "2026-09-08",
+    "note": "metadata-footer inspection; no text rows/full parquet acquired"
+  },
+  "source_pages": {
+    "MiniLM_384_dimensions": "https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2",
+    "BGE_M3": "https://huggingface.co/BAAI/bge-m3",
+    "AntConc": "https://www.laurenceanthony.net/software/antconc/"
+  }
+}

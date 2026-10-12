@@ -1,0 +1,145 @@
+{
+  "status": "synthetic_conformance_examples_only_no_real_corpus_admission",
+  "examples": [
+    {
+      "disposition": "admitted",
+      "reasons": [],
+      "checks": [
+        {
+          "check_name": "source",
+          "check_state": "verified",
+          "reason_code": "australian_source_context_verified",
+          "evidence_locator": "fixture:Australian-publisher-evidence"
+        },
+        {
+          "check_name": "identity",
+          "check_state": "verified",
+          "reason_code": "native_identity_verified",
+          "evidence_locator": "fixture:native-ID"
+        },
+        {
+          "check_name": "publication_date",
+          "check_state": "verified",
+          "reason_code": "publication_interval_verified",
+          "evidence_locator": "fixture:original-publication-label"
+        },
+        {
+          "check_name": "native_unit",
+          "check_state": "verified",
+          "reason_code": "native_boundary_verified",
+          "evidence_locator": "fixture:complete-native-boundary"
+        },
+        {
+          "check_name": "content",
+          "check_state": "verified",
+          "reason_code": "original_content_mapping_verified",
+          "evidence_locator": "fixture:body-to-native-ID"
+        },
+        {
+          "check_name": "rights",
+          "check_state": "verified",
+          "reason_code": "intended_internal_operations_supported",
+          "evidence_locator": "fixture:internal-use-authority"
+        },
+        {
+          "check_name": "lineage",
+          "check_state": "not_applicable",
+          "reason_code": "no_required_parent_lineage",
+          "evidence_locator": "fixture:complete-native-boundary"
+        }
+      ],
+      "mapping": {
+        "archive_record_id": "archive-record-v1:1f7dbcfbce289212dc7d8b8790e76afa0bd075bd717ecf8df1cb1deb30b97f28",
+        "unit_version_id": "unit-version-v1:036dbb799ad55261acca9a5fabaca37ec93f2bce14b23e33702fbdca0074fae5",
+        "decision_id": "admission-v1:5b4a2a8183317c003bc24fa61f0ef69a7ef322f3d0f56bfe8ef60e553de42790",
+        "mapping_state": "accepted",
+        "original_id": "synthetic-complete-work",
+        "original_version_id": "old-v1",
+        "original_recorded_hash": "39ac42c1a109219e92b233a7b825ebc07a3820ec6b950b6ae66adbd5a969d5cc",
+        "new_unit_id": "au-unit-v1:b5500a5e638c2cd4caec7c2c74660c669fcf41764a37c34b0795dcfe01daa323",
+        "new_content_version_id": "content-v1:5db27ac808852b7ea9a33cc10d9274179ac8150e182ee8a4b2cf7c1c65dca84e",
+        "new_original_text_hash": "39ac42c1a109219e92b233a7b825ebc07a3820ec6b950b6ae66adbd5a969d5cc"
+      }
+    },
+    {
+      "disposition": "pending",
+      "reasons": [
+        "publication_boundary_overlap"
+      ],
+      "checks": [
+        {
+          "check_name": "source",
+          "check_state": "verified",
+          "reason_code": "australian_source_context_verified",
+          "evidence_locator": "fixture:Australian-publisher-evidence"
+        },
+        {
+          "check_name": "identity",
+          "check_state": "verified",
+          "reason_code": "native_identity_verified",
+          "evidence_locator": "fixture:native-ID"
+        },
+        {
+          "check_name": "publication_date",
+          "check_state": "pending",
+          "reason_code": "publication_boundary_overlap",
+          "evidence_locator": "fixture:original-publication-label"
+        },
+        {
+          "check_name": "native_unit",
+          "check_state": "verified",
+          "reason_code": "native_boundary_verified",
+          "evidence_locator": "fixture:complete-native-boundary"
+        },
+        {
+          "check_name": "content",
+          "check_state": "verified",
+          "reason_code": "original_content_mapping_verified",
+          "evidence_locator": "fixture:body-to-native-ID"
+        },
+        {
+          "check_name": "rights",
+          "check_state": "verified",
+          "reason_code": "intended_internal_operations_supported",
+          "evidence_locator": "fixture:internal-use-authority"
+        },
+        {
+          "check_name": "lineage",
+          "check_state": "not_applicable",
+          "reason_code": "no_required_parent_lineage",
+          "evidence_locator": "fixture:complete-native-boundary"
+        }
+      ],
+      "mapping": {
+        "archive_record_id": "archive-record-v1:39fa4900221fe3415f1f55088c360b1f3de7771b776909692a3500a95757d8ae",
+        "unit_version_id": "unit-version-v1:21d88f0942b9cb5e5eb499656273fddfa38eb005f1df638830fe3b280cab3812",
+        "decision_id": "admission-v1:66bee506d54e717626819efa5c05eb7d82770c351d02552230fdb8a7868dc5e5",
+        "mapping_state": "proposed",
+        "original_id": "synthetic-unresolved",
+        "original_version_id": "old-v1",
+        "original_recorded_hash": "39ac42c1a109219e92b233a7b825ebc07a3820ec6b950b6ae66adbd5a969d5cc",
+        "new_unit_id": "au-unit-v1:cd73573ea937d5bf94b2f58daf6b56545797972efe50381af5142876c35b58ff",
+        "new_content_version_id": "content-v1:9d8740244adca2ebfee9010acb928f8253c34a8a6fde51b3ed8f01c39d8c2266",
+        "new_original_text_hash": "39ac42c1a109219e92b233a7b825ebc07a3820ec6b950b6ae66adbd5a969d5cc"
+      }
+    }
+  ],
+  "validation": {
+    "integrity": "ok",
+    "foreign_key_failures": [],
+    "dispositions": {
+      "admitted": 1,
+      "pending": 1
+    },
+    "accepted_units_by_kind": {
+      "news_article": 1
+    },
+    "monthly_units_by_kind": {
+      "news_article": 1
+    },
+    "passages_created": 0,
+    "active_database_created": false,
+    "protected_store_connections": 0,
+    "semantic_checks": 0
+  }
+}

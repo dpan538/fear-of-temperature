@@ -1,0 +1,774 @@
+{
+  "version": "2026-10-12-media-civic-confirmation-v1",
+  "as_of_utc": "2026-10-12T06:56:07.038430+00:00",
+  "status": "final bounded source/API and frozen metadata review; no active corpus import",
+  "scope": {
+    "start": "1988-01-01",
+    "end": "2026-09-21",
+    "calendar_months": 465,
+    "last_month_partial": true
+  },
+  "source_boundary": "Australian institution/publisher/evidenced Australian community context; author historical residence not required or inferred",
+  "working_envelope_bytes": 100000000000,
+  "existing_candidates": {
+    "newspaper_article_ids": 8169,
+    "dated_community_bodies": 45679,
+    "new_imports": 0,
+    "new_external_full_text_records": 0
+  },
+  "input_manifest": [
+    {
+      "path": "docs/research/2026-10-12-australia-source-freeze/NEWS_PUBLIC_METADATA_SUMMARY.json",
+      "bytes": 35401,
+      "sha256": "5b602a1928ff30628f1bfc55b20009bd5e838ce2c10c9334f0403e2b256ad500"
+    },
+    {
+      "path": "outputs/seminar/build_v14/figure_source_data/newspaper_final_source_month.csv",
+      "bytes": 34026,
+      "sha256": "eccf55352ecbcaf7359a7b90865540932f176a4582ad0d3f122c2e9fa456925a"
+    },
+    {
+      "path": "outputs/seminar/build_v14/figure_source_data/social_final_source_month.csv",
+      "bytes": 147358,
+      "sha256": "d93685bde2ccdcf3a619d58057a831fc082ea0f987563e66a5635b99e2366bd5"
+    },
+    {
+      "path": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/newspaper/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "bytes": 9956735,
+      "sha256": "a68859d8632d110478a5539ad9e14b5c731a05cf501be2202015f0976dfc91ec"
+    },
+    {
+      "path": "work_packages/M1_source_access/30_media_2026_source_review_20261010/REVIEW_REPORT.md",
+      "bytes": 16346,
+      "sha256": "67f926f7141e527d4ba6944de56a33b2066c5622a444f83b5e5875d9356ea446"
+    },
+    {
+      "path": "work_packages/M1_source_access/30_media_2026_source_review_20261010/DIAGNOSTICS.json",
+      "bytes": 4992,
+      "sha256": "1b13a8054156318e3966d4f0886b1e6a4c3944405052d96f1331e661621bfee8"
+    },
+    {
+      "path": "work_packages/M1_source_access/30_media_2026_source_review_20261010/PARENT_SOURCE_EVIDENCE.csv",
+      "bytes": 85335,
+      "sha256": "67262a4ae17cbd0c05dcc6cbefe2cb81b56c5f450173bd51fc6c4b83573ac8d6"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/review_20261009/tables/source_frontier_interpretation.csv",
+      "bytes": 4026,
+      "sha256": "50b82808c91b92032a4d2b64b8355693e53e5d87ea9626f36a8e796bf7bd06dd"
+    },
+    {
+      "path": "work_packages/M1_source_access/27_newspaper_context_recovery_20261008/closed_20261010_historical_repair/newspaper/implementation/indaily.py",
+      "bytes": 8500,
+      "sha256": "c5ea01d77e53b8bd90201ee4dab6f8a1a82d67ae59d5ad8748920627e8b8bc97"
+    }
+  ],
+  "chosen_existing_sources": [
+    {
+      "source_id": "border_watch",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 4,
+      "actual_first_observed_month": "2017-03",
+      "actual_last_observed_month": "2017-05",
+      "present_months": 2,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "byron_shire_echo",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 4,
+      "actual_first_observed_month": "2013-05",
+      "actual_last_observed_month": "2013-07",
+      "present_months": 2,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "castlemaine_mail",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 128,
+      "actual_first_observed_month": "2018-04",
+      "actual_last_observed_month": "2018-11",
+      "present_months": 7,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "gippsland_times",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 10,
+      "actual_first_observed_month": "2014-08",
+      "actual_last_observed_month": "2014-08",
+      "present_months": 1,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "green_left",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 3712,
+      "actual_first_observed_month": "1991-02",
+      "actual_last_observed_month": "2004-02",
+      "present_months": 155,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "indaily",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 796,
+      "actual_first_observed_month": "2013-07",
+      "actual_last_observed_month": "2024-02",
+      "present_months": 10,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "midland_express",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 153,
+      "actual_first_observed_month": "2017-07",
+      "actual_last_observed_month": "2018-08",
+      "present_months": 8,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "northern_rivers_times",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": true,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 2858,
+      "actual_first_observed_month": "2024-06",
+      "actual_last_observed_month": "2026-09",
+      "present_months": 28,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "your_local_examiner_au",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": false,
+      "native_unit": "complete stable newspaper article ID",
+      "count": 504,
+      "actual_first_observed_month": "2015-02",
+      "actual_last_observed_month": "2016-04",
+      "present_months": 15,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "aussie_zone",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": true,
+      "native_unit": "dated independently authored native body; not unique person",
+      "count": 9858,
+      "actual_first_observed_month": "2023-06",
+      "actual_last_observed_month": "2026-09",
+      "present_months": 40,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    },
+    {
+      "source_id": "mastodon_au",
+      "decision": "chosen_existing_carry_forward_candidate",
+      "recent_main_case_member": true,
+      "native_unit": "dated independently authored native body; not unique person",
+      "count": 35821,
+      "actual_first_observed_month": "2020-04",
+      "actual_last_observed_month": "2026-09",
+      "present_months": 50,
+      "full_text_status": "saved accepted complete/readable body evidence inherited; no new body audit",
+      "rights_status": "frozen source-use/local research limits retained; source-specific copyright and redistribution unresolved here; not an openly licensed full-text release",
+      "version": "2026-10-12-source-freeze-v1; original IDs and all versions preserved",
+      "dataset_size_bytes": null,
+      "size_status": "per-source body/storage bytes not in accepted metadata; must measure approved intake, not infer from count",
+      "independent_parent_count": null,
+      "provenance": "original publisher/native author evidence or replicated context at record level; parent/origin mapping retained separately"
+    }
+  ],
+  "recent_comparison": {
+    "start": "2024-06-01",
+    "end": "2026-08-31",
+    "calendar_months": 27,
+    "sources": {
+      "northern_rivers_times": {
+        "count": 2821,
+        "present_months": 27,
+        "monthly_counts": {
+          "2024-06": 1,
+          "2024-07": 78,
+          "2024-08": 198,
+          "2024-09": 181,
+          "2024-10": 123,
+          "2024-11": 128,
+          "2024-12": 100,
+          "2025-01": 73,
+          "2025-02": 128,
+          "2025-03": 21,
+          "2025-04": 18,
+          "2025-05": 42,
+          "2025-06": 37,
+          "2025-07": 4,
+          "2025-08": 30,
+          "2025-09": 464,
+          "2025-10": 252,
+          "2025-11": 195,
+          "2025-12": 119,
+          "2026-01": 39,
+          "2026-02": 33,
+          "2026-03": 101,
+          "2026-04": 112,
+          "2026-05": 59,
+          "2026-06": 43,
+          "2026-07": 196,
+          "2026-08": 46
+        },
+        "main_comparison_count": 2821,
+        "main_comparison_present_months": 27,
+        "partial_September_count": 37,
+        "all_saved_overlap_including_partial_September_count": 2858
+      },
+      "mastodon_au": {
+        "count": 24237,
+        "present_months": 27,
+        "monthly_counts": {
+          "2024-06": 7,
+          "2024-07": 32,
+          "2024-08": 28,
+          "2024-09": 8,
+          "2024-10": 12,
+          "2024-11": 19,
+          "2024-12": 10,
+          "2025-01": 19,
+          "2025-02": 25,
+          "2025-03": 26,
+          "2025-04": 26,
+          "2025-05": 46,
+          "2025-06": 46,
+          "2025-07": 25,
+          "2025-08": 57,
+          "2025-09": 82,
+          "2025-10": 123,
+          "2025-11": 123,
+          "2025-12": 225,
+          "2026-01": 169,
+          "2026-02": 196,
+          "2026-03": 250,
+          "2026-04": 281,
+          "2026-05": 307,
+          "2026-06": 475,
+          "2026-07": 8462,
+          "2026-08": 13158
+        },
+        "main_comparison_count": 24237,
+        "main_comparison_present_months": 27,
+        "partial_September_count": 11419,
+        "all_saved_overlap_including_partial_September_count": 35656
+      },
+      "aussie_zone": {
+        "count": 5884,
+        "present_months": 27,
+        "monthly_counts": {
+          "2024-06": 193,
+          "2024-07": 159,
+          "2024-08": 156,
+          "2024-09": 175,
+          "2024-10": 225,
+          "2024-11": 197,
+          "2024-12": 177,
+          "2025-01": 189,
+          "2025-02": 178,
+          "2025-03": 226,
+          "2025-04": 210,
+          "2025-05": 201,
+          "2025-06": 211,
+          "2025-07": 221,
+          "2025-08": 243,
+          "2025-09": 175,
+          "2025-10": 188,
+          "2025-11": 168,
+          "2025-12": 163,
+          "2026-01": 195,
+          "2026-02": 249,
+          "2026-03": 345,
+          "2026-04": 285,
+          "2026-05": 288,
+          "2026-06": 324,
+          "2026-07": 279,
+          "2026-08": 264
+        },
+        "main_comparison_count": 5884,
+        "main_comparison_present_months": 27,
+        "partial_September_count": 200,
+        "all_saved_overlap_including_partial_September_count": 6084
+      }
+    },
+    "scope_label": "Northern Rivers regional newspaper and two Australian community contexts; separate native units; government comparison independently pending",
+    "complete_archive_claim": false,
+    "national_representativeness_claim": false,
+    "June2024_newspaper_count": 1,
+    "September2026_partial": true,
+    "observed_overlap_calendar_months": 28,
+    "main_comparison_start": "2024-06-01",
+    "main_comparison_end": "2026-08-31",
+    "main_comparison_calendar_months": 27,
+    "partial_extension_start": "2026-09-01",
+    "partial_extension_end": "2026-09-21",
+    "partial_extension_complete_exposure": false
+  },
+  "structural_findings": {
+    "indaily": {
+      "input": "work_packages/M1_source_access/34_media_four_hour_review_20261011/closed/newspaper/CURRENT_NEWSPAPER_ARTICLE_REGISTER.csv",
+      "input_sha256": "a68859d8632d110478a5539ad9e14b5c731a05cf501be2202015f0976dfc91ec",
+      "input_bytes": 9956735,
+      "indaily_check": [
+        {
+          "year": "2013",
+          "articles": 100,
+          "first_date": "2013-07-19",
+          "last_date": "2013-07-25",
+          "distinct_days": 6,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:13:07.516156+00:00",
+          "first_loaded_max": "2026-10-08T02:07:07.908890+00:00"
+        },
+        {
+          "year": "2014",
+          "articles": 100,
+          "first_date": "2014-11-04",
+          "last_date": "2014-11-13",
+          "distinct_days": 9,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:14:31.315806+00:00",
+          "first_loaded_max": "2026-10-08T02:59:42.318817+00:00"
+        },
+        {
+          "year": "2016",
+          "articles": 100,
+          "first_date": "2016-04-14",
+          "last_date": "2016-04-21",
+          "distinct_days": 6,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:20:24.041745+00:00",
+          "first_loaded_max": "2026-10-08T03:51:20.988992+00:00"
+        },
+        {
+          "year": "2017",
+          "articles": 100,
+          "first_date": "2017-05-25",
+          "last_date": "2017-06-05",
+          "distinct_days": 8,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:22:14.330737+00:00",
+          "first_loaded_max": "2026-10-06T14:46:18.810269+00:00"
+        },
+        {
+          "year": "2018",
+          "articles": 100,
+          "first_date": "2018-02-15",
+          "last_date": "2018-03-01",
+          "distinct_days": 11,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:23:37.340837+00:00",
+          "first_loaded_max": "2026-10-08T04:23:25.243888+00:00"
+        },
+        {
+          "year": "2020",
+          "articles": 100,
+          "first_date": "2020-07-17",
+          "last_date": "2020-07-28",
+          "distinct_days": 10,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:27:16.182711+00:00",
+          "first_loaded_max": "2026-10-08T03:33:54.400618+00:00"
+        },
+        {
+          "year": "2022",
+          "articles": 96,
+          "first_date": "2022-06-06",
+          "last_date": "2022-06-14",
+          "distinct_days": 6,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:31:48.197626+00:00",
+          "first_loaded_max": "2026-10-06T16:11:16.008261+00:00"
+        },
+        {
+          "year": "2024",
+          "articles": 100,
+          "first_date": "2024-02-12",
+          "last_date": "2024-02-20",
+          "distinct_days": 7,
+          "duplicate_article_ids": 0,
+          "duplicate_URLs": 0,
+          "URL_date_conflicts": [],
+          "first_loaded_min": "2026-10-06T13:37:26.497906+00:00",
+          "first_loaded_max": "2026-10-08T05:04:05.073171+00:00"
+        }
+      ]
+    },
+    "indaily_disposition": "Retain all 796 metadata-qualified articles. Scattered recovered slices and selection lineage remain unresolved; no confirmed date/ID invalidity. This source has zero records in the recent main frame.",
+    "aus_social": {
+      "count": 35821,
+      "year2026_count": 34717,
+      "year2026_share": 0.9691800898914045,
+      "July_to_partial_September2026_count": 33039,
+      "July_to_partial_September2026_share": 0.9223360598531588,
+      "historicalmechanism": "Package30 documents recent-first local timeline max_id recovery and a retained earlier cursor. This is a contributor to the former snapshot concentration, not proof of current archive exhaustion, historical source growth or complete recent coverage.",
+      "disposition": "Retain all source-qualified records. Mark uneven observation depth and native origin, thread and actor-role unknowns; no concentration-based quarantine."
+    },
+    "northern_rivers_2026_repeat_content_candidates": {
+      "pairs": 27,
+      "IDs": 54,
+      "status": "package30 bounded hash/nativechecks, candidateworkrelations not invalidIDs",
+      "disposition": "retain publicationIDs/dates; preserve originals; derivedworklineage only withsupported evidence"
+    }
+  },
+  "external_source_decisions": [
+    {
+      "source_id": "qld_parliament_petitions",
+      "decision": "conditional_access_blocked",
+      "source_context": "Queensland formal civic petition channel",
+      "actual_dates": "Electronic petitions began in 2002; no real returned recent list/date inventory confirmed.",
+      "native_unit": "one petition text, with petitioner/sponsor and petition number; signatures are aggregate participation metadata",
+      "full_text_status": "official documentation describes list/detail routes; no live JSON/native body obtained",
+      "licence": "petition-authored content/reuse terms unverified; government website licensing must not be imputed to third-party authors",
+      "version": "Official indexed OpenAPI 1.0; live swagger blocked on 12 October 2026.",
+      "dataset_size_bytes": null,
+      "new_probe_bytes": 7944,
+      "eligible_recent_count": null,
+      "API_routes": [
+        "GET /api/petitions/closed",
+        "GET /api/petitions/open",
+        "GET /api/petitions/{id}"
+      ],
+      "pagination": "PetitionListModelPagedList indexed; actual parameter names/page sizes/next links unconfirmed",
+      "date_fields": "certification/opening/closing/presentation/response/publication/retrieval must remain separate; live schema unconfirmed",
+      "response_distinction": "minister response is a separate government utterance, not petition-author text",
+      "primary_links": [
+        "https://data.parliament.qld.gov.au/api/index.html",
+        "https://www.parliament.qld.gov.au/Work-of-the-Assembly/Petitions",
+        "https://documents.parliament.qld.gov.au/TableOffice/bulletins/3-JultoDec12.pdf"
+      ]
+    },
+    {
+      "source_id": "federal_e_petitions",
+      "decision": "conditional_access_blocked",
+      "source_context": "Australian House of Representatives formal civic petitions",
+      "actual_dates": "System began in2016; indexed EN6856 closes on18 December2024. Original publication/certification date is unverified.",
+      "native_unit": "one petition reason+request; signatures not separately authored bodies",
+      "full_text_status": "Indexed primary example EN6856 includes petition reason/request and a separate response link; direct request returned HTTP403.",
+      "licence": "host general copyright terms do not establish petition-author content rights",
+      "version": "One indexed current page; direct request on 12 October 2026.",
+      "dataset_size_bytes": null,
+      "new_probe_bytes": 411,
+      "eligible_recent_count": null,
+      "primary_links": [
+        "https://www.aph.gov.au/e-petitions/petition/EN6856",
+        "https://www.aph.gov.au/infosheets/11"
+      ]
+    },
+    {
+      "source_id": "proquest_anz_newsstream",
+      "decision": "conditional_institutional_media_supplement",
+      "source_context": "title-qualified Australian newspapers only; NZ/broadcast/wire/blog separately framed",
+      "actual_dates": "Provider describes title-specific backfiles to the late 1990 s; requested June 2024\u2013August 2026 holdings are not verified in the user\u2019s account.",
+      "native_unit": "provider newspaper story/article full text",
+      "full_text_status": "subscription full text documented; authenticated title inventory and eligible mining content unknown",
+      "licence": "6 July 2026 TDM terms permit designated Workbench mining and compliant derived-data exports; they do not establish local original-body export.",
+      "version": "Current provider terms last updated 6 July 2026.",
+      "dataset_size_bytes": null,
+      "eligible_recent_count": null,
+      "primary_links": [
+        "https://about.proquest.com/en/about/supplemental-terms-of-use-tdm-studio/",
+        "https://pq-static-content.proquest.com/collateral/media2/documents/newsresources-catalog.pdf"
+      ]
+    },
+    {
+      "source_id": "newsbank_nla",
+      "decision": "conditional_institutional_alternative_same_media_gap",
+      "source_context": "NLA lists over600 Australian newspaper titles, including national and regional titles.",
+      "actual_dates": "Title-specific modern holdings; the requested recent window is not verified.",
+      "native_unit": "full-text/image newspaper stories; images may need article reconstruction",
+      "full_text_status": "subscription full text documented; user rights and automated/local export unverified",
+      "licence": "library reading access is not evidence of mining/retention/export grant",
+      "version": "NLA official guide dated 22 September 2025; checked 12 October 2026.",
+      "dataset_size_bytes": null,
+      "primary_links": [
+        "https://www.library.gov.au/research/research-guides-0/australian-newspapers-research-guide/australian-newspapers-online"
+      ]
+    },
+    {
+      "source_id": "trove_canberra_times",
+      "decision": "conditional_historical_only",
+      "source_context": "Canberra Times Australian archival newspaper reproduction",
+      "actual_dates": "Archive 1926\u20131995; eligible intersection 1988\u20131995.",
+      "native_unit": "restored complete article/letter with OCR/page lineage; not page or OCR segment",
+      "full_text_status": "official public archive documented; no bounded API sample in this task",
+      "licence": "copyright/publisher permission and reproduction terms item-specific; not blanket open reuse",
+      "version": "Current NLA 2026 archive note; no API request in this task.",
+      "dataset_size_bytes": null,
+      "primary_links": [
+        "https://www.library.gov.au/sites/default/files/documents/2026-02/friends-newsletter-autumn-2026.pdf.pdf"
+      ]
+    },
+    {
+      "source_id": "NOW_Australia",
+      "decision": "unsuitable_complete_original_article_replacement",
+      "source_context": "supplier country-labelled web news, mixed newspaper/broadcaster/commentary sources",
+      "actual_dates": "2010 onward; Australian title/date slice not verified.",
+      "native_unit": "Supplier text record with 10 words per 200 deliberately removed, plus acknowledged missing text, duplicates and country errors.",
+      "full_text_status": "paid downloadable text is deliberately incomplete",
+      "licence": "separate paid licence; no procurement",
+      "version": "Provider limitations checked 12 October 2026.",
+      "dataset_size_bytes": null,
+      "primary_links": [
+        "https://www.corpusdata.org/limitations_now.asp",
+        "https://www.english-corpora.org/now/help/now-sources.asp"
+      ]
+    },
+    {
+      "source_id": "ABC_million_headlines",
+      "decision": "unsuitable_full_article_or_recent_gap",
+      "source_context": "ABC broadcaster headlines",
+      "actual_dates": "2003-02-19\u20132021-12-31",
+      "native_unit": "headline/date row",
+      "full_text_status": "no full bodies/stable article URLs",
+      "licence": "Compiler labels the headline/date dataset CC0; this does not supply original bodies.",
+      "version": "compiler snapshot, not current broadcaster archive",
+      "dataset_size_bytes": 64000000,
+      "size_status": "Approximately 64 MB advertised; no download or local measurement.",
+      "primary_links": [
+        "https://www.kaggle.com/therohk/million-headlines/data"
+      ]
+    },
+    {
+      "source_id": "CASS_Australia_2015_2016",
+      "decision": "parked_non_recent_access_unverified",
+      "source_context": "18 Australian newspapers selected on Australia, Australian or Australians.",
+      "actual_dates": "2015-08\u20132016-07",
+      "native_unit": "Nearly 13,000 article records;7.4 million words.",
+      "full_text_status": "author describes downloadable corpus; legacy route/currentfiles not verified",
+      "licence": "underlying newspaper-text licence unverified",
+      "version": "Author\u2019s 2016 source description.",
+      "dataset_size_bytes": null,
+      "primary_links": [
+        "https://theconversation.com/he-vs-she-in-australian-media-coverage-what-the-language-of-news-tells-us-about-gender-imbalance-67139"
+      ]
+    },
+    {
+      "source_id": "LDaCA_AusNC",
+      "decision": "parked_distinct_historical_speech_reference",
+      "source_context": "Australian English collections; not coherent recent newspaper/public corpus",
+      "actual_dates": "ACE 1986 is outside scope; ICE-AUS 1992\u20131995 and ART 2004\u20132006 are distinct historical frames.",
+      "native_unit": "collection-specific texts or speaker-turn/transcript recordings",
+      "full_text_status": "custodian documents text/transcripts; item access/terms require verification",
+      "licence": "collection/file-specific terms",
+      "version": "AusNC transferred in 2023 to separate LDaCA collections.",
+      "dataset_size_bytes": null,
+      "primary_links": [
+        "https://www.ldaca.edu.au/about/sample-collections/",
+        "https://www.ldaca.edu.au/news/posts/ausnc/"
+      ]
+    },
+    {
+      "source_id": "ANU_Data_for_Good_Factiva",
+      "decision": "method_reference_not_ready_recent_corpus",
+      "source_context": "researchers selected Australian-labelled Factiva records",
+      "actual_dates": "1990\u20132022;184,401 Australian-labelled articles after international selection.",
+      "native_unit": "Factiva article full text in original research, derived topic-modelling data",
+      "full_text_status": "author paper documents full-text inputs; no open original corpus/export right verified",
+      "licence": "licensed provider inputs; paper licence is not article rights",
+      "version": "ANU 2024 report; original article file package not verified.",
+      "dataset_size_bytes": null,
+      "primary_links": [
+        "https://giwl.anu.edu.au/files/2024-11/ssrn-4851963.pdf"
+      ]
+    },
+    {
+      "source_id": "PIJI_ANSP",
+      "decision": "source_frame_reference_not_verified_fulltext_dump",
+      "source_context": "Australian geographic news-outlet content samples",
+      "actual_dates": "2020\u20132024 project; geographic/monthly sampled frames, not complete recent calendar",
+      "native_unit": "coded story observations/aggregate reports",
+      "full_text_status": "official ACMA documents sampling data; no ready original article-text dump verified",
+      "licence": "report/database access does not demonstrate original-body redistribution",
+      "version": "ACMA source description updated 20 August 2026; original-body dump unverified.",
+      "dataset_size_bytes": null,
+      "primary_links": [
+        "https://www.acma.gov.au/data-sources",
+        "https://www.acma.gov.au/sites/default/files/2026-05/News%20media%20in%20Australia_2025%20report_1.pdf"
+      ]
+    },
+    {
+      "source_id": "ADGEfficiency_climate_news_db",
+      "decision": "unsuitable_verified_recent_conventional_AU_gap",
+      "source_context": "22 mixed international brands; the only explicitly Australian publisher in the manifest is Sky News Australia (broadcaster). The generic Guardian entry lacks Australian edition qualification.",
+      "actual_dates": "No eligible Australian inventory established. Repository main commit dated 3 June 2024.",
+      "native_unit": "Crawler article JSONL/database; URLs discovered by daily Google searches for climate change and climate crisis.",
+      "full_text_status": "Public README describes scraped article artifacts, but no Australian full-body/date/licence-qualified bulk package was verified.",
+      "licence": "Publisher article redistribution permission is unverified; repository branding/code does not establish original-text rights.",
+      "version": "0340d884e41d3b204849a429c4603fae4add134d",
+      "dataset_size_bytes": null,
+      "metadata_probe_bytes": 17139,
+      "primary_links": [
+        "https://github.com/ADGEfficiency/climate-news-db",
+        "https://github.com/ADGEfficiency/climate-news-db/blob/0340d884e41d3b204849a429c4603fae4add134d/newspapers.json"
+      ]
+    },
+    {
+      "source_id": "Peisker_replication_MOEYDD",
+      "decision": "external_method_reference_non_Australian_no_original_articles",
+      "source_context": "European NUTS/Eurobarometer/weather/media derived panels",
+      "actual_dates": "Panel dates not established here; deposit 4 April 2025, version 2 released 17 December 2025.",
+      "native_unit": "Derived panel RData, event/source tables and R scripts.",
+      "full_text_status": "small primary README confirms panels; no original article corpus listed",
+      "licence": "Repository CC0 applies to deposited replication materials.",
+      "version": "Harvard Dataverse version 2.0.",
+      "dataset_size_bytes": 87674675,
+      "downloaded_corpus_bytes": 0,
+      "metadata_probe_bytes": 16187,
+      "primary_links": [
+        "https://doi.org/10.7910/DVN/MOEYDD",
+        "https://dataverse.harvard.edu/api/datasets/:persistentId/?persistentId=doi:10.7910/DVN/MOEYDD"
+      ]
+    }
+  ],
+  "public_confirmation": {
+    "request_attempts": 8,
+    "successful_small_metadata_README_responses": 5,
+    "blocked_live_petition_routes": [
+      "qld_data_API_Azure_WAF_JS403",
+      "federal_petition_HTTP403"
+    ],
+    "retained_response_bytes": 41681,
+    "no_challenge_bypass": true,
+    "no_private_API": true,
+    "no_account_registration": true,
+    "web_lookup_transport_fanout_unknown": true,
+    "public_documentation_is_not_live_API_success": true,
+    "local_request_manifest_reference": "work_packages/M1_source_access/38_australia_rebuild_verified_20261012/local_media_civic/confirmation_request_manifest.json",
+    "local_request_manifest_sha256": "0e7a6ad5dacb89524d45c6095e5053eb1c7c1041b9769d97e81e13630c6964ea",
+    "DNS_failures": 1,
+    "HTTP403_responses": 2,
+    "source_level_access_summary": {
+      "qld_petitions_API": {
+        "live_access": "HTTP403 Azure WAF JavaScript challenge; route stopped",
+        "native_petition_IDs_returned": 0,
+        "native_petition_texts_returned": 0,
+        "live_date_schema_confirmed": false,
+        "live_pagination_confirmed": false,
+        "documented_routes": [
+          "GET /api/petitions/closed",
+          "GET /api/petitions/open",
+          "GET /api/petitions/{id}"
+        ],
+        "documented_schema_names": [
+          "PetitionListModelPagedList",
+          "PetitionModel"
+        ],
+        "documentation_is_not_live_data": true
+      },
+      "federal_named_petition": {
+        "live_access": "HTTP403; route stopped",
+        "native_petition_texts_returned": 0,
+        "indexed_primary_example": "EN6856",
+        "indexed_reason_request_response_distinction": true,
+        "original_publication_date_confirmed": false
+      },
+      "successful_small_primary_metadata": {
+        "Harvard_Dataverse": "Version2 metadata and README; European derived panels, not Australian original articles.",
+        "climate_news_db": "README, publisher manifest and main commit; no Australian recent full-text package confirmed"
+      }
+    }
+  },
+  "decision": "Choose the existing regional newspaper and two Australian community contexts in June 2024\u2013August 2026; report September 2026 separately through the fixed 21 September cutoff. Retain all original versions and resolve named structural lineage checks. No external open ready conventional Australian full-article corpus covering this recent window was verified in this bounded search. One institutional media title and one civic petition line remain conditional; no collector is dispatched.",
+  "limits": [
+    "No old database/body sweep or overwrite.",
+    "No licence-qualified total follows from count metadata.",
+    "Saved presence is not completeness, relevance, affect, fear or national coverage.",
+    "No topic, emotion or fear inclusion rule was applied.",
+    "Signatures, headlines or paragraph sums are not counted as independent full articles or people.",
+    "Local capacity for100 GB has not been demonstrated.",
+    "No active acquisition, migration or old lease revival."
+  ]
+}

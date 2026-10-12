@@ -188,3 +188,7 @@ work_packages/M1_source_access/27_newspaper_context_recovery_20261008/**/control
 # Completed source-expansion collector runtimes remain local; publish finalized package36.
 /work_packages/M1_source_access/27_newspaper_context_recovery_20261008/continuations/20261011_six_hour_source_expansion/worker/
 /work_packages/M1_source_access/27_newspaper_context_recovery_20261008/social_public_api/continuations/20261011_six_hour_source_expansion/worker/
+
+# Australian public-interface samples, individual receipts and sandbox checks.
+# Final source/schema/month/budget artifacts are in docs/research.
+/work_packages/M1_source_access/38_australia_rebuild_verified_20261012/

@@ -1,0 +1,743 @@
+{
+  "version": "AU-full-period-coverage-v3",
+  "steering": "Dai prioritises dated government climate explanations/warnings to justify minimum analytical windows, while maintaining full-period pooled coverage and role gaps for long-run distribution/RQ1/RQ2. Avoid forced calendar filling; recent subset is verification only.",
+  "fixed_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "calendar_months": 465,
+  "new_active_imports": 0,
+  "coverage_contract_status": "Dai confirms pooled overall monthly full-period coverage with separate three-role gaps. Latest priority: first map dated government climate explanations/warnings to choose supported minimum analytical windows; full-calendar coverage/distribution remain long-run RQ1/RQ2 requirements, without forced acquisition or an automatic completeness claim.",
+  "newspaper": {
+    "saved_candidate_articles": 8169,
+    "observed_months": 220,
+    "no_saved_candidate_months": 245,
+    "no_saved_candidate_ranges": [
+      {
+        "start": "1988-01",
+        "end": "1991-01",
+        "months": 37
+      },
+      {
+        "start": "1999-09",
+        "end": "1999-10",
+        "months": 2
+      },
+      {
+        "start": "2004-03",
+        "end": "2013-04",
+        "months": 110
+      },
+      {
+        "start": "2013-06",
+        "end": "2013-06",
+        "months": 1
+      },
+      {
+        "start": "2013-08",
+        "end": "2014-07",
+        "months": 12
+      },
+      {
+        "start": "2014-09",
+        "end": "2014-10",
+        "months": 2
+      },
+      {
+        "start": "2014-12",
+        "end": "2015-01",
+        "months": 2
+      },
+      {
+        "start": "2016-05",
+        "end": "2017-02",
+        "months": 10
+      },
+      {
+        "start": "2017-04",
+        "end": "2017-04",
+        "months": 1
+      },
+      {
+        "start": "2017-08",
+        "end": "2017-09",
+        "months": 2
+      },
+      {
+        "start": "2017-11",
+        "end": "2018-01",
+        "months": 3
+      },
+      {
+        "start": "2018-12",
+        "end": "2020-06",
+        "months": 19
+      },
+      {
+        "start": "2020-08",
+        "end": "2022-05",
+        "months": 22
+      },
+      {
+        "start": "2022-07",
+        "end": "2024-01",
+        "months": 19
+      },
+      {
+        "start": "2024-03",
+        "end": "2024-05",
+        "months": 3
+      }
+    ]
+  },
+  "public_community": {
+    "saved_candidate_bodies": 45679,
+    "observed_months": 50,
+    "no_saved_candidate_months": 415,
+    "no_saved_candidate_ranges": [
+      {
+        "start": "1988-01",
+        "end": "2020-03",
+        "months": 387
+      },
+      {
+        "start": "2020-05",
+        "end": "2020-10",
+        "months": 6
+      },
+      {
+        "start": "2020-12",
+        "end": "2022-04",
+        "months": 17
+      },
+      {
+        "start": "2022-06",
+        "end": "2022-10",
+        "months": 5
+      }
+    ]
+  },
+  "parliament_metadata": {
+    "sittings": 3300,
+    "observed_months": 249,
+    "no_sitting_row_months": 216,
+    "no_sitting_row_ranges": [
+      {
+        "start": "1988-01",
+        "end": "1996-04",
+        "months": 100
+      },
+      {
+        "start": "1996-06",
+        "end": "1996-10",
+        "months": 5
+      },
+      {
+        "start": "1996-12",
+        "end": "1998-02",
+        "months": 15
+      },
+      {
+        "start": "1998-08",
+        "end": "1998-10",
+        "months": 3
+      },
+      {
+        "start": "1999-01",
+        "end": "1999-01",
+        "months": 1
+      },
+      {
+        "start": "1999-07",
+        "end": "1999-07",
+        "months": 1
+      },
+      {
+        "start": "2000-01",
+        "end": "2000-01",
+        "months": 1
+      },
+      {
+        "start": "2000-07",
+        "end": "2000-07",
+        "months": 1
+      },
+      {
+        "start": "2001-01",
+        "end": "2001-01",
+        "months": 1
+      },
+      {
+        "start": "2001-07",
+        "end": "2001-07",
+        "months": 1
+      },
+      {
+        "start": "2001-10",
+        "end": "2002-01",
+        "months": 4
+      },
+      {
+        "start": "2002-04",
+        "end": "2002-04",
+        "months": 1
+      },
+      {
+        "start": "2002-07",
+        "end": "2002-07",
+        "months": 1
+      },
+      {
+        "start": "2003-01",
+        "end": "2003-01",
+        "months": 1
+      },
+      {
+        "start": "2003-04",
+        "end": "2003-04",
+        "months": 1
+      },
+      {
+        "start": "2003-07",
+        "end": "2003-07",
+        "months": 1
+      },
+      {
+        "start": "2004-01",
+        "end": "2004-01",
+        "months": 1
+      },
+      {
+        "start": "2004-07",
+        "end": "2004-07",
+        "months": 1
+      },
+      {
+        "start": "2004-09",
+        "end": "2004-10",
+        "months": 2
+      },
+      {
+        "start": "2005-01",
+        "end": "2005-01",
+        "months": 1
+      },
+      {
+        "start": "2005-04",
+        "end": "2005-04",
+        "months": 1
+      },
+      {
+        "start": "2005-07",
+        "end": "2005-07",
+        "months": 1
+      },
+      {
+        "start": "2006-01",
+        "end": "2006-01",
+        "months": 1
+      },
+      {
+        "start": "2006-04",
+        "end": "2006-04",
+        "months": 1
+      },
+      {
+        "start": "2006-07",
+        "end": "2006-07",
+        "months": 1
+      },
+      {
+        "start": "2007-01",
+        "end": "2007-01",
+        "months": 1
+      },
+      {
+        "start": "2007-04",
+        "end": "2007-04",
+        "months": 1
+      },
+      {
+        "start": "2007-07",
+        "end": "2007-07",
+        "months": 1
+      },
+      {
+        "start": "2007-10",
+        "end": "2008-01",
+        "months": 4
+      },
+      {
+        "start": "2008-04",
+        "end": "2008-04",
+        "months": 1
+      },
+      {
+        "start": "2008-07",
+        "end": "2008-07",
+        "months": 1
+      },
+      {
+        "start": "2009-01",
+        "end": "2009-01",
+        "months": 1
+      },
+      {
+        "start": "2009-04",
+        "end": "2009-04",
+        "months": 1
+      },
+      {
+        "start": "2009-07",
+        "end": "2009-07",
+        "months": 1
+      },
+      {
+        "start": "2009-12",
+        "end": "2010-01",
+        "months": 2
+      },
+      {
+        "start": "2010-04",
+        "end": "2010-04",
+        "months": 1
+      },
+      {
+        "start": "2010-07",
+        "end": "2010-08",
+        "months": 2
+      },
+      {
+        "start": "2010-12",
+        "end": "2011-01",
+        "months": 2
+      },
+      {
+        "start": "2011-04",
+        "end": "2011-04",
+        "months": 1
+      },
+      {
+        "start": "2011-12",
+        "end": "2012-01",
+        "months": 2
+      },
+      {
+        "start": "2012-04",
+        "end": "2012-04",
+        "months": 1
+      },
+      {
+        "start": "2012-07",
+        "end": "2012-07",
+        "months": 1
+      },
+      {
+        "start": "2012-12",
+        "end": "2013-01",
+        "months": 2
+      },
+      {
+        "start": "2013-04",
+        "end": "2013-04",
+        "months": 1
+      },
+      {
+        "start": "2013-07",
+        "end": "2013-10",
+        "months": 4
+      },
+      {
+        "start": "2014-01",
+        "end": "2014-01",
+        "months": 1
+      },
+      {
+        "start": "2014-04",
+        "end": "2014-04",
+        "months": 1
+      },
+      {
+        "start": "2015-01",
+        "end": "2015-01",
+        "months": 1
+      },
+      {
+        "start": "2015-04",
+        "end": "2015-04",
+        "months": 1
+      },
+      {
+        "start": "2015-07",
+        "end": "2015-07",
+        "months": 1
+      },
+      {
+        "start": "2016-01",
+        "end": "2016-01",
+        "months": 1
+      },
+      {
+        "start": "2016-06",
+        "end": "2016-07",
+        "months": 2
+      },
+      {
+        "start": "2017-01",
+        "end": "2017-01",
+        "months": 1
+      },
+      {
+        "start": "2017-04",
+        "end": "2017-04",
+        "months": 1
+      },
+      {
+        "start": "2017-07",
+        "end": "2017-07",
+        "months": 1
+      },
+      {
+        "start": "2018-01",
+        "end": "2018-01",
+        "months": 1
+      },
+      {
+        "start": "2018-04",
+        "end": "2018-04",
+        "months": 1
+      },
+      {
+        "start": "2018-07",
+        "end": "2018-07",
+        "months": 1
+      },
+      {
+        "start": "2019-01",
+        "end": "2019-01",
+        "months": 1
+      },
+      {
+        "start": "2019-03",
+        "end": "2019-03",
+        "months": 1
+      },
+      {
+        "start": "2019-05",
+        "end": "2019-06",
+        "months": 2
+      },
+      {
+        "start": "2020-01",
+        "end": "2020-01",
+        "months": 1
+      },
+      {
+        "start": "2020-07",
+        "end": "2020-07",
+        "months": 1
+      },
+      {
+        "start": "2021-01",
+        "end": "2021-01",
+        "months": 1
+      },
+      {
+        "start": "2021-04",
+        "end": "2021-04",
+        "months": 1
+      },
+      {
+        "start": "2021-07",
+        "end": "2021-07",
+        "months": 1
+      },
+      {
+        "start": "2022-01",
+        "end": "2022-01",
+        "months": 1
+      },
+      {
+        "start": "2022-04",
+        "end": "2022-06",
+        "months": 3
+      },
+      {
+        "start": "2023-01",
+        "end": "2023-01",
+        "months": 1
+      },
+      {
+        "start": "2023-04",
+        "end": "2023-04",
+        "months": 1
+      },
+      {
+        "start": "2024-01",
+        "end": "2024-01",
+        "months": 1
+      },
+      {
+        "start": "2024-04",
+        "end": "2024-04",
+        "months": 1
+      },
+      {
+        "start": "2024-12",
+        "end": "2025-01",
+        "months": 2
+      },
+      {
+        "start": "2025-04",
+        "end": "2025-06",
+        "months": 3
+      },
+      {
+        "start": "2025-12",
+        "end": "2025-12",
+        "months": 1
+      }
+    ],
+    "not_government_text_coverage": true
+  },
+  "all_three_source_presence_proxy_months": 23,
+  "pooled_source_presence_proxy_months": 371,
+  "pooled_proxy_without_presence_ranges": [
+    {
+      "start": "1988-01",
+      "end": "1991-01",
+      "months": 37
+    },
+    {
+      "start": "2004-07",
+      "end": "2004-07",
+      "months": 1
+    },
+    {
+      "start": "2004-09",
+      "end": "2004-10",
+      "months": 2
+    },
+    {
+      "start": "2005-01",
+      "end": "2005-01",
+      "months": 1
+    },
+    {
+      "start": "2005-04",
+      "end": "2005-04",
+      "months": 1
+    },
+    {
+      "start": "2005-07",
+      "end": "2005-07",
+      "months": 1
+    },
+    {
+      "start": "2006-01",
+      "end": "2006-01",
+      "months": 1
+    },
+    {
+      "start": "2006-04",
+      "end": "2006-04",
+      "months": 1
+    },
+    {
+      "start": "2006-07",
+      "end": "2006-07",
+      "months": 1
+    },
+    {
+      "start": "2007-01",
+      "end": "2007-01",
+      "months": 1
+    },
+    {
+      "start": "2007-04",
+      "end": "2007-04",
+      "months": 1
+    },
+    {
+      "start": "2007-07",
+      "end": "2007-07",
+      "months": 1
+    },
+    {
+      "start": "2007-10",
+      "end": "2008-01",
+      "months": 4
+    },
+    {
+      "start": "2008-04",
+      "end": "2008-04",
+      "months": 1
+    },
+    {
+      "start": "2008-07",
+      "end": "2008-07",
+      "months": 1
+    },
+    {
+      "start": "2009-01",
+      "end": "2009-01",
+      "months": 1
+    },
+    {
+      "start": "2009-04",
+      "end": "2009-04",
+      "months": 1
+    },
+    {
+      "start": "2009-07",
+      "end": "2009-07",
+      "months": 1
+    },
+    {
+      "start": "2009-12",
+      "end": "2010-01",
+      "months": 2
+    },
+    {
+      "start": "2010-04",
+      "end": "2010-04",
+      "months": 1
+    },
+    {
+      "start": "2010-07",
+      "end": "2010-08",
+      "months": 2
+    },
+    {
+      "start": "2010-12",
+      "end": "2011-01",
+      "months": 2
+    },
+    {
+      "start": "2011-04",
+      "end": "2011-04",
+      "months": 1
+    },
+    {
+      "start": "2011-12",
+      "end": "2012-01",
+      "months": 2
+    },
+    {
+      "start": "2012-04",
+      "end": "2012-04",
+      "months": 1
+    },
+    {
+      "start": "2012-07",
+      "end": "2012-07",
+      "months": 1
+    },
+    {
+      "start": "2012-12",
+      "end": "2013-01",
+      "months": 2
+    },
+    {
+      "start": "2013-04",
+      "end": "2013-04",
+      "months": 1
+    },
+    {
+      "start": "2013-08",
+      "end": "2013-10",
+      "months": 3
+    },
+    {
+      "start": "2014-01",
+      "end": "2014-01",
+      "months": 1
+    },
+    {
+      "start": "2014-04",
+      "end": "2014-04",
+      "months": 1
+    },
+    {
+      "start": "2015-01",
+      "end": "2015-01",
+      "months": 1
+    },
+    {
+      "start": "2016-06",
+      "end": "2016-07",
+      "months": 2
+    },
+    {
+      "start": "2017-01",
+      "end": "2017-01",
+      "months": 1
+    },
+    {
+      "start": "2017-04",
+      "end": "2017-04",
+      "months": 1
+    },
+    {
+      "start": "2018-01",
+      "end": "2018-01",
+      "months": 1
+    },
+    {
+      "start": "2019-01",
+      "end": "2019-01",
+      "months": 1
+    },
+    {
+      "start": "2019-03",
+      "end": "2019-03",
+      "months": 1
+    },
+    {
+      "start": "2019-05",
+      "end": "2019-06",
+      "months": 2
+    },
+    {
+      "start": "2020-01",
+      "end": "2020-01",
+      "months": 1
+    },
+    {
+      "start": "2021-01",
+      "end": "2021-01",
+      "months": 1
+    },
+    {
+      "start": "2021-04",
+      "end": "2021-04",
+      "months": 1
+    },
+    {
+      "start": "2021-07",
+      "end": "2021-07",
+      "months": 1
+    },
+    {
+      "start": "2022-01",
+      "end": "2022-01",
+      "months": 1
+    },
+    {
+      "start": "2022-04",
+      "end": "2022-04",
+      "months": 1
+    }
+  ],
+  "proxy_warning": "Pooled proxy includes sitting metadata, not a verified original-text union. It does not certify complete coverage; original-unit admission remains pending.",
+  "all_three_ready_or_complete_months": 0,
+  "complete_study_claim_supported": false,
+  "no_new_rule": [
+    "No coverage>=2 completion revival",
+    "No fixed article/post/passages count or source quotas",
+    "No climate/fear/affect gate",
+    "No old data deletion or downsampling",
+    "No automatic collector or expired lease"
+  ],
+  "next_work": "Build government dated climate-expression candidate/validated inventory, preserving uninspected/missing/zero distinctions, then justify minimum analytical windows. Maintain full465month source/genre/role distribution and lawful route gap plan; historical public genres remain distinct. No semantic deletion or forced month-filling."
+}

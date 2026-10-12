@@ -1,0 +1,384 @@
+{
+  "status": "bounded archived-body length check, no admission decision or active import",
+  "selection": "news: up to12 evenly spaced by date/native-ID among currently undisposed archive IDs for9 AU source IDs; this is not certification of frozen8169 accepted IDs. Social: first3 interval-eligible independently authored entity bodies among first8 source/date-index rows in six named months. Deliberately nonprobability, no representative extrapolation. Hash basis follows each donor schema: article text versus social original native body.",
+  "word_proxy": "Unicode whitespace-separated words, not model tokens;220-word windows/20-word overlap for arithmetic only",
+  "local_receipt_path": "work_packages/M1_source_access/38_australia_rebuild_verified_20261012/local_budget/LENGTH_SAMPLE_LOCAL.json",
+  "local_receipt_sha256": "4f5c8f27b1142c3675518c70e39d07a108fab6ae21f32f32fcf100472b99482d",
+  "sample_n": 127,
+  "groups": [
+    {
+      "source_id": "aussie_zone",
+      "sample_n": 18,
+      "native_units": [
+        "forum_post"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2024-06-01T04:47:41.015886Z",
+      "date_max": "2026-09-01T04:40:16.849414Z",
+      "utf8_bytes": {
+        "min": 26,
+        "median": 97.0,
+        "mean": 647.1111111111111,
+        "p90_nearest_rank": 3415,
+        "max": 5536,
+        "sum": 11648
+      },
+      "word_proxy": {
+        "min": 4,
+        "median": 14.5,
+        "mean": 103.27777777777777,
+        "p90_nearest_rank": 555,
+        "max": 852,
+        "sum": 1859
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 1.0,
+        "mean": 1.3333333333333333,
+        "p90_nearest_rank": 3,
+        "max": 5,
+        "sum": 24
+      }
+    },
+    {
+      "source_id": "border_watch",
+      "sample_n": 4,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2017-03-27",
+      "date_max": "2017-05-09",
+      "utf8_bytes": {
+        "min": 2240,
+        "median": 5017.5,
+        "mean": 4526.25,
+        "p90_nearest_rank": 5830,
+        "max": 5830,
+        "sum": 18105
+      },
+      "word_proxy": {
+        "min": 369,
+        "median": 839.0,
+        "mean": 771.25,
+        "p90_nearest_rank": 1038,
+        "max": 1038,
+        "sum": 3085
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 2,
+        "median": 4.5,
+        "mean": 4.25,
+        "p90_nearest_rank": 6,
+        "max": 6,
+        "sum": 17
+      }
+    },
+    {
+      "source_id": "byron_shire_echo",
+      "sample_n": 4,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2013-05-06",
+      "date_max": "2013-07-18",
+      "utf8_bytes": {
+        "min": 1482,
+        "median": 2558.0,
+        "mean": 2753.75,
+        "p90_nearest_rank": 4417,
+        "max": 4417,
+        "sum": 11015
+      },
+      "word_proxy": {
+        "min": 275,
+        "median": 411.0,
+        "mean": 455,
+        "p90_nearest_rank": 723,
+        "max": 723,
+        "sum": 1820
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 2,
+        "median": 2.5,
+        "mean": 2.75,
+        "p90_nearest_rank": 4,
+        "max": 4,
+        "sum": 11
+      }
+    },
+    {
+      "source_id": "castlemaine_mail",
+      "sample_n": 12,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2018-04-04",
+      "date_max": "2018-11-26",
+      "utf8_bytes": {
+        "min": 356,
+        "median": 1608.5,
+        "mean": 1569.75,
+        "p90_nearest_rank": 2732,
+        "max": 2798,
+        "sum": 18837
+      },
+      "word_proxy": {
+        "min": 55,
+        "median": 265.5,
+        "mean": 254.08333333333334,
+        "p90_nearest_rank": 449,
+        "max": 466,
+        "sum": 3049
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 1.5,
+        "mean": 1.6666666666666667,
+        "p90_nearest_rank": 3,
+        "max": 3,
+        "sum": 20
+      }
+    },
+    {
+      "source_id": "gippsland_times",
+      "sample_n": 11,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2014-08-01",
+      "date_max": "2014-08-19",
+      "utf8_bytes": {
+        "min": 347,
+        "median": 2116,
+        "mean": 2751.818181818182,
+        "p90_nearest_rank": 5836,
+        "max": 5933,
+        "sum": 30270
+      },
+      "word_proxy": {
+        "min": 52,
+        "median": 368,
+        "mean": 454.27272727272725,
+        "p90_nearest_rank": 963,
+        "max": 998,
+        "sum": 4997
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 2,
+        "mean": 2.6363636363636362,
+        "p90_nearest_rank": 5,
+        "max": 5,
+        "sum": 29
+      }
+    },
+    {
+      "source_id": "green_left",
+      "sample_n": 12,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "1991-02-18",
+      "date_max": "2004-02-04",
+      "utf8_bytes": {
+        "min": 1284,
+        "median": 3757.5,
+        "mean": 4800.5,
+        "p90_nearest_rank": 8809,
+        "max": 9942,
+        "sum": 57606
+      },
+      "word_proxy": {
+        "min": 215,
+        "median": 614.0,
+        "mean": 772.25,
+        "p90_nearest_rank": 1408,
+        "max": 1633,
+        "sum": 9267
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 3.5,
+        "mean": 4.25,
+        "p90_nearest_rank": 7,
+        "max": 9,
+        "sum": 51
+      }
+    },
+    {
+      "source_id": "indaily",
+      "sample_n": 12,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2013-07-19",
+      "date_max": "2024-02-20",
+      "utf8_bytes": {
+        "min": 1172,
+        "median": 5033.5,
+        "mean": 5209.583333333333,
+        "p90_nearest_rank": 9013,
+        "max": 13824,
+        "sum": 62515
+      },
+      "word_proxy": {
+        "min": 189,
+        "median": 808.0,
+        "mean": 852.6666666666666,
+        "p90_nearest_rank": 1439,
+        "max": 2305,
+        "sum": 10232
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 4.5,
+        "mean": 4.75,
+        "p90_nearest_rank": 8,
+        "max": 12,
+        "sum": 57
+      }
+    },
+    {
+      "source_id": "mastodon_au",
+      "sample_n": 18,
+      "native_units": [
+        "public_platform_post"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2024-06-02T02:39:11.571Z",
+      "date_max": "2026-09-01T00:06:29.372Z",
+      "utf8_bytes": {
+        "min": 4,
+        "median": 110.5,
+        "mean": 284,
+        "p90_nearest_rank": 611,
+        "max": 2674,
+        "sum": 5112
+      },
+      "word_proxy": {
+        "min": 1,
+        "median": 16.5,
+        "mean": 44.5,
+        "p90_nearest_rank": 64,
+        "max": 452,
+        "sum": 801
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 1.0,
+        "mean": 1.1111111111111112,
+        "p90_nearest_rank": 1,
+        "max": 3,
+        "sum": 20
+      }
+    },
+    {
+      "source_id": "midland_express",
+      "sample_n": 12,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2017-07-31",
+      "date_max": "2018-08-08",
+      "utf8_bytes": {
+        "min": 1115,
+        "median": 2040.5,
+        "mean": 2092.5,
+        "p90_nearest_rank": 3098,
+        "max": 3280,
+        "sum": 25110
+      },
+      "word_proxy": {
+        "min": 172,
+        "median": 330.0,
+        "mean": 335.25,
+        "p90_nearest_rank": 486,
+        "max": 510,
+        "sum": 4023
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 2.0,
+        "mean": 2.0833333333333335,
+        "p90_nearest_rank": 3,
+        "max": 3,
+        "sum": 25
+      }
+    },
+    {
+      "source_id": "northern_rivers_times",
+      "sample_n": 12,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2024-06-07",
+      "date_max": "2026-09-18",
+      "utf8_bytes": {
+        "min": 183,
+        "median": 2331.0,
+        "mean": 2253.6666666666665,
+        "p90_nearest_rank": 3153,
+        "max": 3676,
+        "sum": 27044
+      },
+      "word_proxy": {
+        "min": 23,
+        "median": 351.0,
+        "mean": 328.8333333333333,
+        "p90_nearest_rank": 463,
+        "max": 511,
+        "sum": 3946
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 2.0,
+        "mean": 2.0833333333333335,
+        "p90_nearest_rank": 3,
+        "max": 3,
+        "sum": 25
+      }
+    },
+    {
+      "source_id": "your_local_examiner_au",
+      "sample_n": 12,
+      "native_units": [
+        "newspaper_article"
+      ],
+      "hash_mismatches": 0,
+      "date_min": "2015-02-12",
+      "date_max": "2016-04-21",
+      "utf8_bytes": {
+        "min": 1173,
+        "median": 2414.0,
+        "mean": 2670.6666666666665,
+        "p90_nearest_rank": 4985,
+        "max": 5204,
+        "sum": 32048
+      },
+      "word_proxy": {
+        "min": 187,
+        "median": 396.5,
+        "mean": 456.8333333333333,
+        "p90_nearest_rank": 873,
+        "max": 916,
+        "sum": 5482
+      },
+      "window220_overlap20_word_proxy": {
+        "min": 1,
+        "median": 2.0,
+        "mean": 2.6666666666666665,
+        "p90_nearest_rank": 5,
+        "max": 5,
+        "sum": 32
+      }
+    }
+  ]
+}

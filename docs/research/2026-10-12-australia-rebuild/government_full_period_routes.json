@@ -1,0 +1,249 @@
+{
+  "recorded_at_utc": "2026-10-12T07:26:45.055409+00:00",
+  "latest_scope": "Map actual dated climate explanations, warnings and related discussion first, then decide minimum analytical coverage from context-reviewed native units. Long-run pooled source-frame coverage and distribution across 1988-01-01–2026-09-21 remains the RQ1/RQ2 objective. Declare three-role gaps separately; neither all three roles every month nor positive climate/fear hits every month are required.",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "calendar_months": 465,
+  "complete_corpus_claim": false,
+  "source_presence_is_validated_climate_attention": false,
+  "prior_recent_frame": "Verification subset only, not final adequate thesis coverage",
+  "rapid_observed_source_presence": {
+    "export_sitting_rows": 3300,
+    "observed_calendar_months": 249,
+    "zero_row_calendar_months": 216,
+    "by_chamber": {
+      "House": {
+        "observed_months": 247,
+        "zero_rows_months": 218,
+        "sittings": 1775
+      },
+      "Senate": {
+        "observed_months": 248,
+        "zero_rows_months": 217,
+        "sittings": 1525
+      },
+      "pooled": {
+        "observed_months": 249,
+        "zero_rows_months": 216,
+        "sittings": 3300
+      }
+    },
+    "small_session_inventory_downloaded": true,
+    "complete_monthly_text_acquired": false,
+    "whole_table_text_imported": false,
+    "dated_text_confirmed_only": "Nonrandom blocks 22/52 were decoded, with sitting and speaker joins and retained original URLs; this is not 249 complete accepted monthly text imports."
+  },
+  "calendar_reconciliation": {
+    "year_chamber_export_counts": [
+      {
+        "year": 1996,
+        "chamber": "House",
+        "sittings": 2
+      },
+      {
+        "year": 1996,
+        "chamber": "Senate",
+        "sittings": 1
+      },
+      {
+        "year": 1997,
+        "chamber": "House",
+        "sittings": 0
+      },
+      {
+        "year": 1997,
+        "chamber": "Senate",
+        "sittings": 0
+      },
+      {
+        "year": 1998,
+        "chamber": "House",
+        "sittings": 56
+      },
+      {
+        "year": 1998,
+        "chamber": "Senate",
+        "sittings": 59
+      }
+    ],
+    "official_senate_sitting_days": {
+      "1988": 89,
+      "1996": 71,
+      "1997": 82,
+      "1998": 57
+    },
+    "primary_sources": [
+      "https://www.aph.gov.au/Parliamentary_Business/Statistics/~/link.aspx?_id=2A55B28674694255AF931AC210BBFCD6&_z=z",
+      "https://www.aph.gov.au/Parliamentary_Business/Statistics/Senate_StatsNet_Classic/General/parliaments"
+    ],
+    "status": "The 1997 export has zero Senate rows against 82 official sitting days, establishing an export omission rather than a year-long recess. In 1996 the export has one Senate row against 71 days; in 1998 it has 59 against 57. Reconcile native-unit, date and version definitions before computing precise missing-work counts. No dates or originals are overwritten.",
+    "month_denominator": "Obtain actual dated chamber sitting lists or journals, because planned calendars can change. A genuine non-sitting month is inapplicable to the chamber-sitting unit only; executive and other government expression may still occur."
+  },
+  "routes": [
+    {
+      "id": "official_hansard_history",
+      "source": "Australian federal Parliament Hansard",
+      "institutional_role": "Parliament; government/opposition/independent/office holders separate",
+      "documented_era": "1901–present in official NLA GovPubs. The APH report states that Hansard was online from 1981 before the older digitisation.",
+      "needed_bridge": "1988–1995, sparse 1996, absent 1997, early 1998, and independently identified missing sittings later.",
+      "native_unit": "Complete chamber sitting, debate/procedural unit, recorded speaker turn and paragraph; retain original native IDs and URLs.",
+      "primary_urls": [
+        "https://www.nla.gov.au/apps/govpubs/?action=HoldingDisplay&institutionId=10&resourceId=42",
+        "https://www.aph.gov.au/-/media/05_About_Parliament/54_Parliamentary_Depts/543_DPS/Publication/anrep2011/Part_3.pdf"
+      ],
+      "access": "Official House/Senate ParlInfo browse and search are documented; APH direct PDF browsing is documented from 1996. Prior original-page requests returned 403. No retry, bypass or additional PDF request was performed.",
+      "monthly_readable_text_verified": false,
+      "rights": "Parliament CC BY-NC-ND 4.0 with item exceptions; assess intended transformed-text redistribution.",
+      "next_action": "Prepare a dated source-calendar/native-ID manifest before a bounded lawful intake. If access remains blocked, retain unavailable status and use a legitimate accessible official archival copy only when verified. No private interface or provider message is authorized."
+    },
+    {
+      "id": "pm_full_period",
+      "source": "Australian PM&C Prime Ministerial transcripts",
+      "documented_era": "Early 1940s–current. Older material has scanned originals and OCR; electronic HTML exists from late 1997. Formats around the transition require item-level checks.",
+      "native_unit": "Native release ID, release date and type; preserve separate turns and quoted holders.",
+      "primary_urls": [
+        "https://pmtranscripts.pmc.gov.au/about-collection",
+        "https://pmtranscripts.pmc.gov.au/developers",
+        "https://pmtranscripts.pmc.gov.au/copyright"
+      ],
+      "access": "Public single-ID XML is live-confirmed for four named records, including 1988. Full eligible catalogue/date enumeration remains unresolved.",
+      "enumeration_alternatives": [
+        {
+          "route": "Official native catalogue and pagination",
+          "status": "An earlier unfiltered response is preserved, but the extension probe was rejected before execution as a retry of a blocked route. No variant or workaround followed."
+        },
+        {
+          "route": "Official XML URL index",
+          "status": "The prior request redirected to a 404 batch route. It remains stopped and was not retried."
+        },
+        {
+          "route": "NLA archived PM websites referenced by PM&C",
+          "status": "A legitimate named-original/version fallback from the Howard web era. It cannot supply pre-web 1988–1995 material; no bulk WARC/export was tested."
+        },
+        {
+          "route": "Parliamentary Library information files and press-release holdings",
+          "status": "The APH 2024–25 report documents mixed 1950s–2000s press releases, clippings and speeches. Actual issuer, date and complete original must be established. Mixed archival pages are not automatically government discourse; no inventory or intake was verified."
+        }
+      ],
+      "do_not_bruteforce_ids": true,
+      "monthly_text_acquired": false,
+      "exact_eligible_release_count": null,
+      "rights": "CC BY 4.0 transcript text with specified visual and item exceptions.",
+      "next_action": "Check known eligible native IDs and original contexts while resolving a reproducible authorized catalogue manifest. Do not infer contiguous IDs or monthly completeness from the approximate 26,000-item headline."
+    },
+    {
+      "id": "commonwealth_gazette_1988_2012",
+      "source": "Commonwealth Government Notices Gazette via Office of Parliamentary Counsel",
+      "documented_era": "The historical index lists 1901–December 2012; explanatory text describes Government Notices PDFs through the October 2012 electronic transition. Preserve overlap and native dates.",
+      "native_unit": "Dated issue parent, then separately reconstructed notice, issuer and version. Special and Periodic issues may also be bound into a Government Notices issue.",
+      "primary_urls": [
+        "https://www.legislation.gov.au/gazettes",
+        "https://www.legislation.gov.au/gazettes/historic",
+        "https://www.legislation.gov.au/gazettes/historic/1988",
+        "https://www.legislation.gov.au/gazettes/historic/1997",
+        "https://www.legislation.gov.au/gazettes/historic/2012"
+      ],
+      "observed_index_samples": [
+        {
+          "year": 1988,
+          "GNissues_listed": 48,
+          "GNdate_minimum": "1988-01-13",
+          "GNdate_maximum": "1988-12-21",
+          "months_with_datedGNissue_links": 12
+        },
+        {
+          "year": 1997,
+          "GNissues_listed": 50,
+          "GNdate_minimum": "1997-01-08",
+          "GNdate_maximum": "1997-12-17",
+          "months_with_datedGNissue_links": 12
+        }
+      ],
+      "evidence_level": "Official dated index entries and PDF availability only. No issue PDF or readable monthly original was accepted.",
+      "all_1988_2012_months_inventory_verified": false,
+      "OCR_text_coverage_verified": false,
+      "size_observation": "1988 GN1 is advertised as 16.7 MB and 2012 GN1 as 74.75 MB. The full footprint is unknown; no constant per-issue extrapolation is validated.",
+      "rights": "Current Register reuse terms apply subject to item exceptions; the 1988 printed index contains a restrictive copyright notice. Assess actual item terms and intended derivative use.",
+      "genre_limit": "Administrative/regulatory notices are distinct from PM speeches and explanations. Unrelated notice presence does not automatically replace missing executive climate discussion.",
+      "next_action": "Prepare a metadata-only year/issue/native-date inventory, then inspect actual source/genre gaps. Bind readable/OCR original checks to future complete-operation capacity; do not impose positive-climate quotas."
+    },
+    {
+      "id": "commonwealth_gazette_modern",
+      "source": "Federal Register electronic Gazette notices",
+      "documented_era": "Individually searchable electronic notices from October 2012 onward.",
+      "native_unit": "An original individually identified notice, with publication, registration, commencement and version times kept separate.",
+      "primary_urls": [
+        "https://www.legislation.gov.au/gazettes",
+        "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/data-share-and-reuse",
+        "https://api.prod.legislation.gov.au/swagger/index.html"
+      ],
+      "documented_api": "Keyless free REST API at https://api.prod.legislation.gov.au/v1/; returns JSON and documents. Official OpenAPI 3.0.1 documentation is linked by the Register.",
+      "runtime_api_and_date_filter_confirmed": false,
+      "named_notice_C2013G00654_browser_access": "Inaccessible to the web tool. The route was stopped, with no variant and no original-text acceptance.",
+      "monthly_complete_inventory": null,
+      "next_action": "Inspect the documented schemas and validate native notice ID, actual publication date and pagination with a bounded public return. Apply the fixed cutoff locally; registration/effective date alone does not establish publication.",
+      "source_rules": "Respect robots crawl-delay and source load conditions. No full crawl or provider message is authorized in this task."
+    },
+    {
+      "id": "policy_context_only",
+      "source": "FederalRegister Acts/instruments/explanatory statements and Treasurybudgetarchive",
+      "documented_era": "Acts as made from 1901; most legislative instruments and prepared explanatory statements from 1991; all point-in-time compilations from 2013; historical annual budget material.",
+      "primary_urls": [
+        "https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/about-the-federal-register-of-legislation",
+        "https://archive.budget.gov.au/"
+      ],
+      "native_unit": "As-made explanatory/policy document with native ID and actual publication date. Annual budgets are not monthly observations.",
+      "ready_fullperiod_executive_explanation_corpus": false,
+      "next_action": "Use named climate-explanation or policy-context originals where the declared comparison needs their genre. Do not count successive legal compilations as new utterances or treat annual availability as 465-month coverage."
+    }
+  ],
+  "historical_pm_climate_opportunities_browser_only": [
+    {
+      "id": "8280",
+      "date": "1991-04-12",
+      "type": "Speech",
+      "url": "https://pmtranscripts.pmc.gov.au/release/transcript-8280",
+      "topic_evidence": "Hawke discusses anthropogenic climate change, greenhouse effects, energy conservation and government emission targets; OCR errors are visible.",
+      "local_pilot_included": false
+    },
+    {
+      "id": "8573",
+      "date": "1992-07-09",
+      "type": "Transcript",
+      "url": "https://pmtranscripts.pmc.gov.au/release/transcript-8573",
+      "topic_evidence": "Keating discusses global warming and Pacific concerns. Reported concern holders include other Forum countries, rather than automatically the Prime Minister.",
+      "local_pilot_included": false
+    },
+    {
+      "id": "10595",
+      "date": "1997-11-20",
+      "type": "Media Release",
+      "url": "https://pmtranscripts.pmc.gov.au/release/transcript-10595",
+      "topic_evidence": "Howard explains Australian climate/greenhouse policy and concerns about burdens and jobs.",
+      "local_pilot_included": false
+    }
+  ],
+  "proposed_coverage_ledger_states": {
+    "uninspected": "No claim about source absence or climate absence.",
+    "unavailable": "A named expected original, date mapping or access route is missing; this is not zero expression.",
+    "source_frame_present": "A dated readable work exists; climate context remains unreviewed or may be routine.",
+    "lexical_candidate": "A high-recall retrieval match requiring context/holder review; not validated monthly climate attention.",
+    "validated_climate_context": "A context-reviewed native passage with source, date and holder; preliminary Codex checks are distinct from independent human annotation and measurement validation.",
+    "true_zero_within_declared_frame": "Requires an applicable complete/readable source inventory and validated retrieval/negative-context checks for the defined unit. No universal absence claim.",
+    "not_applicable": "Independent evidence confirms no event for the particular source/native unit, for example no chamber sitting. Other government expression remains possible."
+  },
+  "minimum_analysis_decision": "This bounded pilot cannot determine sufficient full-period density or comparability. Codex context review checks five climate-context units across four months, with one explicit executive holder. Independent human annotation/measurement validation remains pending. Freeze source/genre/native-unit/dated-role and independent before/after/event-anchor rules; keep contiguous baselines and no-hit months. No positive-hit acquisition quota or semantic exclusion.",
+  "network_accounting": {
+    "inherited_direct_response_bytes": 24160712,
+    "additional_direct_response_bytes": 0,
+    "cumulative_direct_response_bytes": 24160712,
+    "original_cap_bytes": 26214400,
+    "allowance_reset": false,
+    "counter_source_sha256": "9f364712a9a1af17047a874efc2d75a70bd2a943832ef0a62c22d7483dbaef3d",
+    "auto_review_rejection": "The combined probe was rejected before execution because it included a PM catalogue retry classified as previously blocked. No workaround or variant was used. Work continued with primary-source browsing and existing local inputs only.",
+    "source_body_fetches": "No additional direct source-body requests. Primary-source browser observations are separate from direct-response byte accounting."
+  },
+  "no_pdf_models_bulk_import_lease_archive_migration": true
+}

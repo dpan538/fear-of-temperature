@@ -1,0 +1,360 @@
+{
+  "version": "100GB-primary-native-form-sensitivity-v1",
+  "peak_working_ceiling_bytes": 100000000000,
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "observed_capacity": {
+    "free_bytes": 35898519552,
+    "physical_floor_bytes": 16106127360,
+    "recovery_bytes": 50331648,
+    "upper_new_operation_headroom_bytes": 19742060544,
+    "time": "2026-10-12, point-in-time; concurrent work and operation footprints must be rechecked"
+  },
+  "media_source_cases": [
+    {
+      "name": "all_saved_AU_candidate_stock",
+      "basis": "counts observed in frozen metadata; lengths/windows extrapolate a NONPROBABILITY archive sample and are sensitivity arithmetic, not forecasts or final tokenizer passages",
+      "sources": [
+        {
+          "source_id": "border_watch",
+          "native_units": 4,
+          "length_sample_n": 4,
+          "conditional_text_bytes": 18105,
+          "conditional_word_windows": 17
+        },
+        {
+          "source_id": "byron_shire_echo",
+          "native_units": 4,
+          "length_sample_n": 4,
+          "conditional_text_bytes": 11015,
+          "conditional_word_windows": 11
+        },
+        {
+          "source_id": "castlemaine_mail",
+          "native_units": 128,
+          "length_sample_n": 12,
+          "conditional_text_bytes": 200928,
+          "conditional_word_windows": 214
+        },
+        {
+          "source_id": "gippsland_times",
+          "native_units": 10,
+          "length_sample_n": 11,
+          "conditional_text_bytes": 27519,
+          "conditional_word_windows": 27
+        },
+        {
+          "source_id": "green_left",
+          "native_units": 3712,
+          "length_sample_n": 12,
+          "conditional_text_bytes": 17819456,
+          "conditional_word_windows": 15776
+        },
+        {
+          "source_id": "indaily",
+          "native_units": 796,
+          "length_sample_n": 12,
+          "conditional_text_bytes": 4146829,
+          "conditional_word_windows": 3781
+        },
+        {
+          "source_id": "midland_express",
+          "native_units": 153,
+          "length_sample_n": 12,
+          "conditional_text_bytes": 320153,
+          "conditional_word_windows": 319
+        },
+        {
+          "source_id": "northern_rivers_times",
+          "native_units": 2858,
+          "length_sample_n": 12,
+          "conditional_text_bytes": 6440980,
+          "conditional_word_windows": 5955
+        },
+        {
+          "source_id": "your_local_examiner_au",
+          "native_units": 504,
+          "length_sample_n": 12,
+          "conditional_text_bytes": 1346016,
+          "conditional_word_windows": 1344
+        },
+        {
+          "source_id": "aussie_zone",
+          "native_units": 9858,
+          "length_sample_n": 18,
+          "conditional_text_bytes": 6379222,
+          "conditional_word_windows": 13144
+        },
+        {
+          "source_id": "mastodon_au",
+          "native_units": 35821,
+          "length_sample_n": 18,
+          "conditional_text_bytes": 10173164,
+          "conditional_word_windows": 39802
+        }
+      ],
+      "conditional_text_bytes": 46883387,
+      "conditional_windows": 80390
+    },
+    {
+      "name": "recent_27_full_months",
+      "basis": "counts observed in frozen metadata; lengths/windows extrapolate a NONPROBABILITY archive sample and are sensitivity arithmetic, not forecasts or final tokenizer passages",
+      "sources": [
+        {
+          "source_id": "northern_rivers_times",
+          "native_units": 2821,
+          "length_sample_n": 12,
+          "conditional_text_bytes": 6357594,
+          "conditional_word_windows": 5878
+        },
+        {
+          "source_id": "aussie_zone",
+          "native_units": 5884,
+          "length_sample_n": 18,
+          "conditional_text_bytes": 3807602,
+          "conditional_word_windows": 7846
+        },
+        {
+          "source_id": "mastodon_au",
+          "native_units": 24237,
+          "length_sample_n": 18,
+          "conditional_text_bytes": 6883308,
+          "conditional_word_windows": 26930
+        }
+      ],
+      "conditional_text_bytes": 17048504,
+      "conditional_windows": 40654
+    }
+  ],
+  "parliamentary_stress_basis": {
+    "paragraphs": 6911269,
+    "conditional_utf8_bytes_per_paragraph": 351.69414876302085,
+    "conditional_text_bytes": 2430652868,
+    "sample_rows": 245760,
+    "basis": "known deposit row count; nonrandom2block text mean transferred ONLY as a stress sensitivity. One vector per raw paragraph assumed, including empty/procedural rows; no adopted segmentation/role filter."
+  },
+  "unmeasured_assumptions": {
+    "source_package_bytes": 502442451,
+    "metadata_bytes_per_native_item": 600,
+    "lineage_bytes_per_window": 400,
+    "passage_text_overlap_factor": 1.1,
+    "index_extra_dense_payload_copies": 1,
+    "index_graph_and_ID_bytes_per_window": 128,
+    "model_cache_bytes": 2000000000,
+    "research_outputs_bytes": 250000000,
+    "unmeasured_media_raw_intake_allowance_bytes": 1000000000,
+    "engineering_shard_rows": 100000,
+    "input_shard_buffer_bytes": 268435456,
+    "database_journal_and_atomic_write_allowance_bytes": 536870912,
+    "basis": "Explicit unmeasured overhead assumptions. Shard rows bound an operation, not corpus inclusion/count/collector stopping. Replace with observed per-operation and actual index/cache sizes before scaling."
+  },
+  "cases": [
+    {
+      "name": "media_community_saved_candidates",
+      "dimensions": 384,
+      "dtype": "float32",
+      "build_one_optional_index": false,
+      "conditional_windows": 80390,
+      "canonical_text_and_metadata_bytes": 79192187,
+      "passages_and_lineage_bytes": 83727726,
+      "dense_vectors_bytes": 123479040,
+      "index_bytes": 0,
+      "retained_bytes": 4038841404,
+      "streamed_operation_scratch_assumption_bytes": 1052264448,
+      "conditional_streamed_peak_bytes": 5091105852,
+      "legacy_additional_whole_dense_matrix_bytes": 123479040,
+      "conditional_legacy_peak_bytes": 5214584892,
+      "fits_primary_100GB_streamed_arithmetic": true,
+      "runtime_sensitivity_hours_NOT_benchmark": {
+        "1": 22.33,
+        "10": 2.23,
+        "50": 0.45
+      },
+      "fits_current_snapshot_headroom_arithmetic": true
+    },
+    {
+      "name": "media_community_saved_candidates",
+      "dimensions": 384,
+      "dtype": "float32",
+      "build_one_optional_index": true,
+      "conditional_windows": 80390,
+      "canonical_text_and_metadata_bytes": 79192187,
+      "passages_and_lineage_bytes": 83727726,
+      "dense_vectors_bytes": 123479040,
+      "index_bytes": 133768960,
+      "retained_bytes": 4172610364,
+      "streamed_operation_scratch_assumption_bytes": 1052264448,
+      "conditional_streamed_peak_bytes": 5224874812,
+      "legacy_additional_whole_dense_matrix_bytes": 123479040,
+      "conditional_legacy_peak_bytes": 5348353852,
+      "fits_primary_100GB_streamed_arithmetic": true,
+      "runtime_sensitivity_hours_NOT_benchmark": {
+        "1": 22.33,
+        "10": 2.23,
+        "50": 0.45
+      },
+      "fits_current_snapshot_headroom_arithmetic": true
+    },
+    {
+      "name": "media_community_saved_candidates",
+      "dimensions": 1024,
+      "dtype": "float32",
+      "build_one_optional_index": true,
+      "conditional_windows": 80390,
+      "canonical_text_and_metadata_bytes": 79192187,
+      "passages_and_lineage_bytes": 83727726,
+      "dense_vectors_bytes": 329277440,
+      "index_bytes": 339567360,
+      "retained_bytes": 4584207164,
+      "streamed_operation_scratch_assumption_bytes": 1463861248,
+      "conditional_streamed_peak_bytes": 6048068412,
+      "legacy_additional_whole_dense_matrix_bytes": 329277440,
+      "conditional_legacy_peak_bytes": 6377345852,
+      "fits_primary_100GB_streamed_arithmetic": true,
+      "runtime_sensitivity_hours_NOT_benchmark": {
+        "1": 22.33,
+        "10": 2.23,
+        "50": 0.45
+      },
+      "fits_current_snapshot_headroom_arithmetic": true
+    },
+    {
+      "name": "all_RAPID_paragraphs_plus_media_stress",
+      "dimensions": 384,
+      "dtype": "float32",
+      "build_one_optional_index": false,
+      "conditional_windows": 6991659,
+      "canonical_text_and_metadata_bytes": 6656606455,
+      "passages_and_lineage_bytes": 5521953481,
+      "dense_vectors_bytes": 10739188224,
+      "index_bytes": 0,
+      "retained_bytes": 26670190611,
+      "streamed_operation_scratch_assumption_bytes": 1112506368,
+      "conditional_streamed_peak_bytes": 27782696979,
+      "legacy_additional_whole_dense_matrix_bytes": 10739188224,
+      "conditional_legacy_peak_bytes": 38521885203,
+      "fits_primary_100GB_streamed_arithmetic": true,
+      "runtime_sensitivity_hours_NOT_benchmark": {
+        "1": 1942.13,
+        "10": 194.21,
+        "50": 38.84
+      },
+      "fits_current_snapshot_headroom_arithmetic": false
+    },
+    {
+      "name": "all_RAPID_paragraphs_plus_media_stress",
+      "dimensions": 384,
+      "dtype": "float32",
+      "build_one_optional_index": true,
+      "conditional_windows": 6991659,
+      "canonical_text_and_metadata_bytes": 6656606455,
+      "passages_and_lineage_bytes": 5521953481,
+      "dense_vectors_bytes": 10739188224,
+      "index_bytes": 11634120576,
+      "retained_bytes": 38304311187,
+      "streamed_operation_scratch_assumption_bytes": 1112506368,
+      "conditional_streamed_peak_bytes": 39416817555,
+      "legacy_additional_whole_dense_matrix_bytes": 10739188224,
+      "conditional_legacy_peak_bytes": 50156005779,
+      "fits_primary_100GB_streamed_arithmetic": true,
+      "runtime_sensitivity_hours_NOT_benchmark": {
+        "1": 1942.13,
+        "10": 194.21,
+        "50": 38.84
+      },
+      "fits_current_snapshot_headroom_arithmetic": false
+    },
+    {
+      "name": "all_RAPID_paragraphs_plus_media_stress",
+      "dimensions": 1024,
+      "dtype": "float32",
+      "build_one_optional_index": true,
+      "conditional_windows": 6991659,
+      "canonical_text_and_metadata_bytes": 6656606455,
+      "passages_and_lineage_bytes": 5521953481,
+      "dense_vectors_bytes": 28637835264,
+      "index_bytes": 29532767616,
+      "retained_bytes": 74101605267,
+      "streamed_operation_scratch_assumption_bytes": 1624506368,
+      "conditional_streamed_peak_bytes": 75726111635,
+      "legacy_additional_whole_dense_matrix_bytes": 28637835264,
+      "conditional_legacy_peak_bytes": 104363946899,
+      "fits_primary_100GB_streamed_arithmetic": true,
+      "runtime_sensitivity_hours_NOT_benchmark": {
+        "1": 1942.13,
+        "10": 194.21,
+        "50": 38.84
+      },
+      "fits_current_snapshot_headroom_arithmetic": false
+    }
+  ],
+  "limitations": [
+    "No model throughput, peak RAM, tokenizer count, source-representative length or actual index-build peak has been measured.",
+    "Exact recent parliamentary paragraph/utterance total remains unknown; sitting counts cannot substitute.",
+    "Raw rehydration, additional versions/attachments, backups and index-build copies can exceed these sensitivities; add their simultaneous bytes explicitly before an intake.",
+    "AntConc corpus/index export copies are separately measured on a bounded subset; no 100GB tool capacity claim.",
+    "Old protected holdings remain outside scientific cap but occupy the same physical disk."
+  ],
+  "researcher_effort_estimates": [
+    {
+      "phase": "source-rights/native-unit and inventory acceptance",
+      "active_hours": [
+        6,
+        12
+      ]
+    },
+    {
+      "phase": "clean importer and selective carry-forward",
+      "active_hours": [
+        8,
+        16
+      ]
+    },
+    {
+      "phase": "structural checks and dated speaker/office mapping",
+      "active_hours": [
+        12,
+        28
+      ]
+    },
+    {
+      "phase": "AntConc recipe and original-context reading",
+      "active_hours": [
+        8,
+        16
+      ]
+    },
+    {
+      "phase": "later relevance/passage/model benchmark validation",
+      "active_hours": [
+        8,
+        16
+      ]
+    },
+    {
+      "phase": "first supported RQ1/RQ2 comparison and evidence review",
+      "active_hours": [
+        20,
+        40
+      ]
+    }
+  ],
+  "effort_status": "62\u2013128 active researcher hours is judgement for ready-data path; excludes access waits, unknown supplementation, machine runtime, extended fear annotation and prototype. Not a delivery guarantee.",
+  "input_digests": [
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/LENGTH_SAMPLE_SUMMARY.json",
+      "sha256": "20b15380f68fbbfec6edc85671ca9f518d54233e88fe5823d07606975a3ba510"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-source-freeze/NEWS_PUBLIC_METADATA_SUMMARY.json",
+      "sha256": "5b602a1928ff30628f1bfc55b20009bd5e838ce2c10c9334f0403e2b256ad500"
+    },
+    {
+      "path": "work_packages/M1_source_access/38_australia_rebuild_verified_20261012/local_government/paragraph_sample_summary.json",
+      "sha256": "1b52fbca84ebe64f5e5a3766d63256e9aef980f5ca77313ec99c391e524d738a"
+    }
+  ],
+  "models_or_bulk_segmentation_executed": false
+}

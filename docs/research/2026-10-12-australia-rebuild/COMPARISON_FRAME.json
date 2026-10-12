@@ -1,0 +1,118 @@
+{
+  "version": "AU-rebuild-confirmation-v3",
+  "new_active_import_count": 0,
+  "fixed_publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "bounded_verification_window": [
+    "2024-06",
+    "2026-08"
+  ],
+  "priority_minimum_analysis_window": "not frozen; derive from dated validated government climate explanations/warnings and source comparability",
+  "full_period_contract": "pooled overall monthly coverage with separate role gaps; retain full465month distribution/coverage long term, avoid forced month-filling",
+  "partial_boundary": "2026-09 through fixed21September, source-specific narrower observation",
+  "source_month_rows": 5115,
+  "total_stock_by_source": {
+    "border_watch": 4,
+    "byron_shire_echo": 4,
+    "castlemaine_mail": 128,
+    "gippsland_times": 10,
+    "green_left": 3712,
+    "indaily": 796,
+    "midland_express": 153,
+    "northern_rivers_times": 2858,
+    "your_local_examiner_au": 504,
+    "aussie_zone": 9858,
+    "mastodon_au": 35821
+  },
+  "recent_full_month_sources": [
+    {
+      "source_id": "border_watch",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "byron_shire_echo",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "castlemaine_mail",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "gippsland_times",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "green_left",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "indaily",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "midland_express",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "northern_rivers_times",
+      "count": 2821,
+      "observed_months": 27,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "your_local_examiner_au",
+      "count": 0,
+      "observed_months": 0,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "aussie_zone",
+      "count": 5884,
+      "observed_months": 27,
+      "calendar_months": 27
+    },
+    {
+      "source_id": "mastodon_au",
+      "count": 24237,
+      "observed_months": 27,
+      "calendar_months": 27
+    }
+  ],
+  "RAPID_recent_sittings": 235,
+  "RAPID_recent_sitting_presence_months": 21,
+  "RAPID_recent_months_without_saved_sitting": [
+    "2024-12",
+    "2025-01",
+    "2025-04",
+    "2025-05",
+    "2025-06",
+    "2025-12"
+  ],
+  "interpretation": "Counts are independent within native unit only. Sittings do not certify paragraphs/speeches or executive government expression. A no-row parliament month needs an official sitting-calendar check; it is not zero emotion or a proven download gap.",
+  "inputs": [
+    {
+      "path": "docs/research/2026-10-12-australia-source-freeze/NEWS_PUBLIC_METADATA_SUMMARY.json",
+      "sha256": "5b602a1928ff30628f1bfc55b20009bd5e838ce2c10c9334f0403e2b256ad500"
+    },
+    {
+      "path": "docs/research/2026-10-12-australia-rebuild/government_session_month_counts.csv",
+      "sha256": "ad12944bd20366f0f78264172514d165bfb2c9d0402fcb292973df3f389d8722"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "status": "published CCF counts and arithmetic only; not an Australian workload or runtime forecast",
+  "supplied_record": "https://zenodo.org/records/22019204",
+  "supplied_version": "2.0.2",
+  "newer_record": "https://zenodo.org/records/22019287",
+  "newer_version": "2.1.0",
+  "authors_repository": "https://github.com/ccf-organization/CCF-canadian-climate-framing",
+  "empirical_country": "Canada",
+  "articles": 283964,
+  "analytical_units": 9908776,
+  "analytical_units_per_article": 34.89447958191884,
+  "embeddings": 10192740,
+  "title_count_identity_verified": true,
+  "reported_dimension_and_precision": {
+    "dimensions": 1024,
+    "dtype": "float16"
+  },
+  "reported_database_archive_GB": 43.2,
+  "dense_payload_examples": [
+    {
+      "vectors": 1000000,
+      "dimensions": 1024,
+      "bytes_per_value": 4,
+      "payload_bytes": 4096000000,
+      "decimal_GB": 4.096,
+      "GiB": 3.814697265625
+    },
+    {
+      "vectors": 1000000,
+      "dimensions": 1024,
+      "bytes_per_value": 2,
+      "payload_bytes": 2048000000,
+      "decimal_GB": 2.048,
+      "GiB": 1.9073486328125
+    },
+    {
+      "vectors": 10192740,
+      "dimensions": 1024,
+      "bytes_per_value": 2,
+      "payload_bytes": 20874731520,
+      "decimal_GB": 20.87473152,
+      "GiB": 19.44110870361328
+    }
+  ],
+  "payload_exclusions": [
+    "IDs",
+    "offsets",
+    "array and database row headers",
+    "metadata",
+    "indexes",
+    "model memory",
+    "temporary copies",
+    "backups"
+  ],
+  "Australian_multiplier_assumed": false,
+  "Australian_processing_time_estimated": false,
+  "large_archive_downloaded": false,
+  "model_or_corpus_execution_performed": false
+}
