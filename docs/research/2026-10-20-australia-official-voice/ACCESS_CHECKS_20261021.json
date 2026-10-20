@@ -1,0 +1,59 @@
+{
+  "recorded_at": "2026-10-20T14:42:39.954001+00:00",
+  "scope": "actual named public-route probes in this task, not general provider unavailability",
+  "checks": [
+    {
+      "url": "https://trove.nla.gov.au/search/category/official-record?q=heatwave",
+      "http": 200,
+      "result": "JavaScript shell; browser did not establish an official-record/RSS category; q did not supply a usable typed search"
+    },
+    {
+      "url": "https://trove.nla.gov.au/search/advanced/category/newspapers",
+      "result": "public browser Gazette type and fixed date filters verified;33queries86pages; dateAsc recheck25pages recovers1nativeID from a shifted offset boundary; public article HTML200"
+    },
+    {
+      "url": "http://www.austlii.edu.au/au/other/dfat/",
+      "http": 403,
+      "collection_type": "DFAT treaty material, not Gazette"
+    },
+    {
+      "url": "https://www.austlii.edu.au/au/other/dfat/",
+      "http": 403
+    },
+    {
+      "url": "https://www5.austlii.edu.au/au/other/sa_gazette/",
+      "http": 403,
+      "evidence": "SLSA guide explicitly links this1839–1999 Gazette collection"
+    },
+    {
+      "url": "https://www.bom.gov.au/climate/current/statements/",
+      "http": 200,
+      "result": "eight regional fragments linked from public index"
+    },
+    {
+      "url": "https://www.bom.gov.au/climate/current/scripts/summary-archive.js?20220207",
+      "http": 200,
+      "result": "public annual generator plus legacy national list;300eligible-reference-year targets attempted; release date separately parsed"
+    },
+    {
+      "url": "https://www.data.qld.gov.au/api/3/action/package_search",
+      "http": 200,
+      "result": "33phrase queries repeated to actual terminal empty response"
+    },
+    {
+      "url": "https://statements.qld.gov.au/?Search=True",
+      "http": 200,
+      "result": "13actual government terms; default current-term limitation avoided; publication date via public NewsArticle metadata"
+    },
+    {
+      "url": "https://data.qld.gov.au/api/3/action/package_activity_list",
+      "http": 200,
+      "result": "All public activity pages for72catalogues traversed through empty pages.47retained public+active creation events support catalogue publication month/year;25remain pending. No hidden activity requested.",
+      "documentation": "https://docs.ckan.org/en/2.11/api/"
+    },
+    {
+      "url": "https://trove.nla.gov.au/search/category/books",
+      "result": "Public Government publication facet verified, but work-level edition dates and Australian issuer mapping unresolved. Australian geographical-subject facet does not establish Australian publisher."
+    }
+  ]
+}

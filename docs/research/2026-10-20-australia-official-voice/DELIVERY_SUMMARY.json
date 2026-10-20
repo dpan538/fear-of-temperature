@@ -1,0 +1,118 @@
+{
+  "snapshot": "2026-10-20T15:27:17+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "all_available_sources_complete": true,
+  "all_sources_complete": false,
+  "retained_all_date_states": 42006,
+  "matrix_in_interval_counts": {
+    "baseline26": 3676,
+    "extended33_union": 41689
+  },
+  "extended_only": 38013,
+  "monthly_allocated": {
+    "baseline26": 3332,
+    "extended33_union": 39187
+  },
+  "zero_observed_month_counts": {
+    "baseline26": 91,
+    "extended33_union": 15
+  },
+  "zero_observed_extended_months": [
+    "1988-02",
+    "1988-03",
+    "1988-05",
+    "1988-06",
+    "1988-07",
+    "1988-08",
+    "1989-01",
+    "1989-02",
+    "1989-04",
+    "1989-06",
+    "1990-05",
+    "1992-08",
+    "1992-11",
+    "1994-02",
+    "2003-01"
+  ],
+  "source_counts": [
+    {
+      "source_channel": "bom_annual",
+      "all_retained": 179,
+      "in_interval": 160
+    },
+    {
+      "source_channel": "bom_scs",
+      "all_retained": 43,
+      "in_interval": 43
+    },
+    {
+      "source_channel": "csiro_dap",
+      "all_retained": 751,
+      "in_interval": 750
+    },
+    {
+      "source_channel": "hansard_federal_rapid",
+      "all_retained": 26952,
+      "in_interval": 26873
+    },
+    {
+      "source_channel": "qld_opendata",
+      "all_retained": 72,
+      "in_interval": 47
+    },
+    {
+      "source_channel": "qld_statements",
+      "all_retained": 3018,
+      "in_interval": 3018
+    },
+    {
+      "source_channel": "trove_web_gazette",
+      "all_retained": 1100,
+      "in_interval": 1100
+    },
+    {
+      "source_channel": "uq_espace",
+      "all_retained": 9891,
+      "in_interval": 9698
+    }
+  ],
+  "native_id_validation": {
+    "aggregated_cells_checked": 9072,
+    "errors": [],
+    "in_interval_unique_ids": {
+      "baseline26": 3676,
+      "extended33_union": 41689
+    },
+    "retained_rows": 42006,
+    "scope": "native ID uniqueness; cross-source/work-family semantic deduplication not asserted",
+    "status": "PASS",
+    "unique_doc_ids": 42006,
+    "unique_source_native_pairs": 42006
+  },
+  "contract_tests": "30 passed; actual schema42,006rows and rendered figure checks separately passed",
+  "available_pagination": "No nonterminal executable jobs remain. UQ6086pages/608570observations ends at null token; Hansard57/57rowgroups; all other actual next/empty/index targets terminal.",
+  "formal_jsonl_export": "withheld under requested all_sources_complete condition; previous frozen export retained",
+  "figures": [
+    "annual_distribution",
+    "monthly_distribution",
+    "density_heatmap",
+    "source_proportions",
+    "terminology_groups_final_20261021",
+    "event_alignment_final_20261021"
+  ],
+  "pending_routes": [
+    "austlii_dfat",
+    "austlii_sa_gazette",
+    "csiro_publications",
+    "hansard_nsw",
+    "other_university_repositories",
+    "slq",
+    "trove",
+    "trove_web_official_publications"
+  ],
+  "calendar_validated": false,
+  "semantic_deduplication_claimed": false
+}

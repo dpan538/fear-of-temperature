@@ -1,0 +1,21 @@
+{
+  "matrix_version": "official-voice-query-matrix-20261020-v1",
+  "role": "historical partial baseline prefix; not final comparison, not active resume controls",
+  "source_prefix_observations": [
+    {
+      "source_channel": "hansard_federal_rapid",
+      "pages": 20,
+      "scanned_native_rows": 2457600,
+      "matched_record_observations": 364
+    },
+    {
+      "source_channel": "uq_espace",
+      "pages": 1200,
+      "scanned_native_rows": 120000,
+      "matched_record_observations": 101
+    }
+  ],
+  "raw_cursor_controls": "kept locally under work_packages/official_voice_20261020/control/",
+  "all_rows_unique_claimed": false,
+  "reason_for_replay": "User confirmed Extended33 after prefix had been processed; full originals were not retained"
+}
