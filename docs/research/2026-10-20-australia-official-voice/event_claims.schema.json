@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fear-temperature:official-voice:event-claim:20261020-v1",
+  "title": "Evidence-linked event claim; no default verification",
+  "type": "object",
+  "required": ["event_id", "doc_id", "event_type", "verification_status", "evidence_excerpt", "evidence_locator"],
+  "properties": {
+    "event_id": {"type": "string", "minLength": 1},
+    "doc_id": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "event_group_id": {"type": ["string", "null"]},
+    "event_type": {"type": "string", "minLength": 1},
+    "location_region": {"type": ["string", "null"]},
+    "state": {"type": ["string", "null"]},
+    "start_date": {"type": ["string", "null"], "format": "date"},
+    "end_date": {"type": ["string", "null"], "format": "date"},
+    "date_granularity": {"enum": ["day", "month", "season", "year", "unknown"]},
+    "temp_definition": {"type": ["string", "null"]},
+    "temp_value_celsius": {"type": ["number", "null"]},
+    "verification_status": {"enum": ["draft", "verified", "duplicate_candidate", "disputed"], "default": "draft"},
+    "evidence_excerpt": {"type": "string", "minLength": 1, "maxLength": 500},
+    "evidence_locator": {"type": "string", "minLength": 1},
+    "verified_by": {"type": ["string", "null"]},
+    "verified_at": {"type": ["string", "null"], "format": "date-time"},
+    "notes": {"type": ["string", "null"]}
+  },
+  "allOf": [{
+    "if": {"properties": {"verification_status": {"const": "verified"}}},
+    "then": {"required": ["verified_by", "verified_at"], "properties": {
+      "verified_by": {"type": "string", "minLength": 1},
+      "verified_at": {"type": "string", "format": "date-time"}
+    }}
+  }],
+  "additionalProperties": false
+}

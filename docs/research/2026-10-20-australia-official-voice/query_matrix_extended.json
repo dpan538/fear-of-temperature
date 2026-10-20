@@ -1,0 +1,20 @@
+{
+  "version": "official-voice-query-matrix-20261020-v2-extended33",
+  "baseline_version": "official-voice-query-matrix-20261020-v1",
+  "publication_interval": ["1988-01-01", "2026-09-21"],
+  "definition": "Union of the unchanged Baseline26 and seven user-confirmed additional phrases; not a replacement baseline",
+  "additions": {
+    "acute_thermal": ["heat wave", "extreme temperature event"],
+    "chronic_warming": ["global warming", "greenhouse effect", "greenhouse gas"],
+    "impacts": ["climate change", "extreme weather"],
+    "official_action": []
+  },
+  "dimensions": {
+    "acute_thermal": ["heatwave", "extreme heat", "heat spike", "record hot day", "hot spell", "heat dome", "extreme temperature", "heat wave", "extreme temperature event"],
+    "chronic_warming": ["rising temperature", "long-term warming", "warm winter", "hot night", "warm spell", "temperature trend", "annual mean temperature", "unseasonal warmth", "global warming", "greenhouse effect", "greenhouse gas"],
+    "impacts": ["heat stress", "thermal comfort", "heat vulnerability", "bushfire risk", "heat hazard", "heat-related health", "climate change", "extreme weather"],
+    "official_action": ["heat policy", "climate adaptation", "extreme heat plan", "temperature threshold", "heat warning system"]
+  },
+  "broad_context_warning": "climate change, greenhouse gas and extreme weather matches are not automatically verified rising-temperature statements",
+  "report_groups": ["baseline26", "extended33_union", "extended_only", "baseline_subset_of_extended"]
+}

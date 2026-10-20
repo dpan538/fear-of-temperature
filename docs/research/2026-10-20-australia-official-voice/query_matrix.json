@@ -1,0 +1,14 @@
+{
+  "version": "official-voice-query-matrix-20261020-v1",
+  "publication_interval": ["1988-01-01", "2026-09-21"],
+  "dimensions": {
+    "acute_thermal": ["heatwave", "extreme heat", "heat spike", "record hot day", "hot spell", "heat dome", "extreme temperature"],
+    "chronic_warming": ["rising temperature", "long-term warming", "warm winter", "hot night", "warm spell", "temperature trend", "annual mean temperature", "unseasonal warmth"],
+    "impacts": ["heat stress", "thermal comfort", "heat vulnerability", "bushfire risk", "heat hazard", "heat-related health"],
+    "official_action": ["heat policy", "climate adaptation", "extreme heat plan", "temperature threshold", "heat warning system"]
+  },
+  "match_rule": "case-insensitive phrase; whitespace and hyphen variants; optional plural s on final word; no semantic/emotion scoring",
+  "required_unique_in_interval_rows_exclusive": 15000,
+  "required_hansard_rows_exclusive": 10000,
+  "quantity_warning_is_not_proof_of_missing_pages": true
+}

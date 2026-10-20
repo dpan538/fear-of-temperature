@@ -1,0 +1,171 @@
+{
+  "version": "official-source-modules-20261021-v2-exhaustion",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "credential_policy": "public routes first; missing credentials pending; no account creation or private-interface fallback",
+  "sources": [
+    {
+      "module": 1,
+      "channel": "hansard_federal_rapid",
+      "endpoint": "https://zenodo.org/api/records/22868754",
+      "verification": "HTTP200 metadata and lookup tables; HTTP206 checked byte ranges",
+      "adapter": "hansard_federal_rapid",
+      "unit": "session-qualified procedural unit, not validated independent speech",
+      "date_field": "session.date nominal sitting start",
+      "date_filter": "join every paragraph row group to source session table; strict local interval",
+      "publication_coverage": "1996-05-30–2026-09-08 nominal; 1997 absent; other gaps documented",
+      "government_voice_verified": false
+    },
+    {
+      "module": 1,
+      "channel": "hansard_nsw",
+      "endpoint": "https://api.parliament.nsw.gov.au/api/hansard/search/year/2026",
+      "documentation": "https://parliament-api-docs.readthedocs.io/en/latest/new-south-wales/",
+      "verification": "year index and named table of contents HTTP200; named fragment HTTP403",
+      "adapter": null,
+      "status": "pending_fragment_access_and_complete_unit_adapter",
+      "publication_coverage": "official API description September 1991 onward, not gap-free whole study",
+      "government_voice_verified": false
+    },
+    {
+      "module": 2,
+      "channel": "csiro_dap",
+      "endpoint": "https://data.csiro.au/dap/ws/v2/collections.json",
+      "documentation": "https://research.csiro.au/dap/developer-tools/web-services-ws-v2/",
+      "specification": "https://data.csiro.au/dap/v3/api-docs/@DAP-WS-V2",
+      "verification": "public JSON search HTTP200; q/p/rpp/psd/ped and next links confirmed",
+      "adapter": "csiro_dap",
+      "unit": "dataset_catalogue_metadata",
+      "date_field": "published: collection publication timestamp",
+      "date_filter": "native psd/ped using Australia/Sydney + local strict date verification",
+      "government_voice_verified": false
+    },
+    {
+      "module": 2,
+      "channel": "csiro_publications",
+      "endpoint": "https://publications.csiro.au/publications/",
+      "verification": "HTTP403",
+      "adapter": null,
+      "status": "blocked_public_access; DAP is not an equivalent publications corpus"
+    },
+    {
+      "module": 2,
+      "channel": "bom_scs",
+      "endpoint": "https://www.bom.gov.au/climate/current/statements/",
+      "public_index": "https://www.bom.gov.au/climate/current/statements/",
+      "adapter": "bom_scs",
+      "status": "public root and eight regional index fragments verified",
+      "unit": "official statement document",
+      "date_field": "first issued date on official index; revisions retained separately"
+    },
+    {
+      "module": 3,
+      "channel": "trove",
+      "endpoint": "https://api.trove.nla.gov.au/v3/result",
+      "documentation": "https://trove.nla.gov.au/about/create-something/using-api",
+      "verification": "HTTP401 without credentials",
+      "adapter": "trove",
+      "status": "pending_credentials; government publisher/title scope and response contract pending",
+      "unit": "gazette article or catalogue publication, to be typed separately"
+    },
+    {
+      "module": 4,
+      "channel": "uq_espace",
+      "endpoint": "https://espace.library.uq.edu.au/v2/oai",
+      "verification": "Identify/ListMetadataFormats/ListRecords HTTP200; oai_dc and resumptionToken observed",
+      "adapter": "uq_espace",
+      "unit": "publication_metadata",
+      "date_field": "dc:date source-reported publication date, not OAI datestamp",
+      "date_filter": "all OAI pages, then local publication interval; OAI from/until do not mean publication dates",
+      "government_voice_verified": false
+    },
+    {
+      "module": 4,
+      "channel": "other_university_repositories",
+      "endpoint": null,
+      "adapter": null,
+      "status": "not yet configured or counted; UQ coverage does not establish other Go8 coverage"
+    },
+    {
+      "module": 5,
+      "channel": "qld_opendata",
+      "endpoint": "https://www.data.qld.gov.au/api/3/action/package_search",
+      "documentation": "https://www.data.qld.gov.au/article/standards-and-guidance/publishing-guides-standards",
+      "verification": "HTTP200 public CKAN action API",
+      "adapter": "qld_opendata",
+      "unit": "dataset_catalogue_metadata",
+      "date_field": "explicit issued/publication fields, or retained public+active new-package activity for catalogue first publication only",
+      "date_filter": "strict local interval; activity timestamps unzoned so conservative month/year precision; no metadata_created/modified substitution",
+      "government_voice_verified": false
+    },
+    {
+      "module": 5,
+      "channel": "slq",
+      "endpoint": null,
+      "documentation": "https://www.slq.qld.gov.au/get-involved/open-data/open-datasets-released-state-library",
+      "adapter": null,
+      "status": "SLQ open datasets can use QLD portal; One Search unrestricted bulk API not established"
+    },
+    {
+      "module": 2,
+      "channel": "bom_annual",
+      "adapter": "bom_annual",
+      "endpoint": "https://www.bom.gov.au/climate/current/statement_archives.shtml",
+      "unit": "annual_climate_summary_document",
+      "status": "public index generator and legacy national list verified; national legacy index begins1996; region starts differ",
+      "date_field": "explicit release heading/time; reference year is separate"
+    },
+    {
+      "module": 5,
+      "channel": "qld_statements",
+      "adapter": "qld_statements",
+      "endpoint": "https://statements.qld.gov.au/?Search=True",
+      "unit": "ministerial_media_statement",
+      "status": "public search; all13 government terms required, default current-term limitation corrected",
+      "date_field": "NewsArticle.datePublished in Australia/Brisbane; native and local fixed interval filters"
+    },
+    {
+      "module": 5,
+      "channel": "qld_resources",
+      "adapter": "qld_resources",
+      "endpoint": "saved CKAN resource URLs",
+      "unit": "official_linked_resource_document",
+      "status": "expand all saved resources; structured data not relabelled as historical notices"
+    },
+    {
+      "module": 3,
+      "channel": "trove_web_gazette",
+      "adapter": "trove_web_gazette",
+      "endpoint": "https://trove.nla.gov.au/search/advanced/category/newspapers",
+      "status": "33phrase queries/86public result pages plus25date-sort recheck pages exhausted;1100unique IDs; public article HTML or visible search-card metadata; not RSS/OpenSearch",
+      "unit": "gazette_article",
+      "provenance": "NLA archival reproduction; exact notice holder unresolved"
+    },
+    {
+      "module": 3,
+      "channel": "trove_web_official_publications",
+      "adapter": null,
+      "endpoint": "https://trove.nla.gov.au/search/category/books",
+      "status": "public government-publication format available, but work-level edition ranges and Australian publisher identity unresolved; Australian subject/holding facets do not identify publisher"
+    },
+    {
+      "module": 3,
+      "channel": "austlii_dfat",
+      "adapter": null,
+      "endpoint": "http://www.austlii.edu.au/au/other/dfat/",
+      "verification": "HTTP403 on stated HTTP path and canonical HTTPS transport",
+      "status": "blocked public access; DFAT treaty collection is not a government-gazette corpus"
+    },
+    {
+      "module": 3,
+      "channel": "austlii_sa_gazette",
+      "adapter": null,
+      "endpoint": "https://www5.austlii.edu.au/au/other/sa_gazette/",
+      "documentation": "https://guides.slsa.sa.gov.au/c.php?g=410249&p=2796187",
+      "verification": "SLSA identifies1839–1999 gazette collection; direct linked target403",
+      "status": "blocked public access; separate from DFAT treaties"
+    }
+  ]
+}

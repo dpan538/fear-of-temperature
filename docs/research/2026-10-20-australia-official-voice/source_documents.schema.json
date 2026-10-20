@@ -1,0 +1,239 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:fear-temperature:official-voice:source-document:20261020-v1",
+  "title": "Official source metadata and bounded excerpt",
+  "type": "object",
+  "required": [
+    "doc_id",
+    "source_channel",
+    "institutional_tier",
+    "native_id",
+    "native_unit",
+    "source_version",
+    "date_granularity",
+    "date_status",
+    "voice_role",
+    "url_source",
+    "query_matched",
+    "query_dimensions",
+    "excerpt_kind",
+    "retrieved_at"
+  ],
+  "properties": {
+    "doc_id": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "source_channel": {
+      "type": "string",
+      "minLength": 1
+    },
+    "institutional_tier": {
+      "type": "string",
+      "minLength": 1
+    },
+    "native_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "native_unit": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_version": {
+      "type": "string"
+    },
+    "parent_native_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_date": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "publication_date_raw": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "publication_start": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "publication_end": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    },
+    "publication_month": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "pattern": "^[0-9]{4}-[0-9]{2}$"
+    },
+    "date_granularity": {
+      "enum": [
+        "day",
+        "month",
+        "season",
+        "year",
+        "unknown"
+      ]
+    },
+    "date_status": {
+      "enum": [
+        "inside_fixed_interval",
+        "outside_fixed_interval",
+        "pending_publication_date",
+        "pending_boundary_precision",
+        "pending_source_date_conflict",
+        "invalid_source_date"
+      ]
+    },
+    "voice_role": {
+      "type": "string"
+    },
+    "query_match_basis": {
+      "type": "string"
+    },
+    "url_source": {
+      "type": "string",
+      "format": "uri"
+    },
+    "doi_or_handle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "query_matched": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "query_dimensions": {
+      "type": "array",
+      "items": {
+        "enum": [
+          "acute_thermal",
+          "chronic_warming",
+          "impacts",
+          "official_action"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "excerpt_text": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "maxLength": 500
+    },
+    "excerpt_kind": {
+      "type": "string"
+    },
+    "excerpt_locator": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "related_work_ids": {
+      "type": "array"
+    },
+    "source_context_json": {
+      "type": "object"
+    },
+    "retrieved_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "date_basis": {
+      "type": "string"
+    },
+    "author_speaker": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "role_evidence": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "text_readability": {
+      "type": "string"
+    },
+    "research_use_status": {
+      "type": "string"
+    },
+    "source_metadata_hash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "metadata_version_history": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "excerpt_text": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "maxLength": 500
+          }
+        }
+      }
+    },
+    "created_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "matrix_membership": {
+      "type": "object",
+      "required": [
+        "baseline26",
+        "extended33_union",
+        "extended_only"
+      ],
+      "properties": {
+        "baseline26": {
+          "type": "boolean"
+        },
+        "extended33_union": {
+          "type": "boolean"
+        },
+        "extended_only": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false,
+  "$comment": "metadata_version_history contains only prior compact metadata/excerpts. No full source body field. PostgreSQL maps arrays/objects to JSONB; MongoDB can store the same JSON documents with doc_id unique indexing."
+}
