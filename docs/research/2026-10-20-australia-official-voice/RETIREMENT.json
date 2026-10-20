@@ -1,0 +1,406 @@
+{
+  "retired_on": "2026-10-20",
+  "scope": "former government/event research pipeline v1-v7 only; social/dataset/other historical collectors unchanged",
+  "former_root": "docs/research/2026-10-16-australia-event-periods",
+  "retired_root": "archives/superseded_event_pipeline_20261020/australia-event-periods",
+  "operation": "same-filesystem atomic rename; original scripts/conclusions removed from active path; recoverable historical evidence preserved outside active pipeline; no compression or unique-copy purge",
+  "file_count": 288,
+  "total_bytes": 2096528977,
+  "checked_scripts_and_notes": [
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/README.au-early-history-v5-preserved.md",
+      "bytes": 2364,
+      "sha256": "f03da06b4cfdc5dfd05045dd3de38f321c5ea1db8f3b6f87c4daab9155e1859a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/schema.sql",
+      "bytes": 4092,
+      "sha256": "d7794a1a3d9b28058a82895f16e8d484b97b72b9e17ca10f4e512217f1ca3bc8"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/README.au-reaudit-v6-preserved.md",
+      "bytes": 2834,
+      "sha256": "afc5f65105defb67e2de5d105e7ebe266b74f8f9ba31d5013edfef751c393858"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/README.au-basic-inventory-v2-preserved.md",
+      "bytes": 7234,
+      "sha256": "ecd86510f425420ab531812fe7ee133189811433fe5358597ddbbc10b166781e"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/SCHEMA_GUIDE_ZH.md",
+      "bytes": 5072,
+      "sha256": "0ffc6dd5dba3e72550d8abb25be16076493b2908c98948f1999474f2c87c287e"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/README.md",
+      "bytes": 2122,
+      "sha256": "7147ea738688f7e19899c986f2f528c1e3b447912acaba01d8392371fe2e80b0"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/README.au-rising-air-temperature-v4-preserved.md",
+      "bytes": 1928,
+      "sha256": "1438c5d315b9c2783f0c8a19400cb0c5cdd29dab1d7cd879f73e6a53402a07ec"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/build_registry_tables.py",
+      "bytes": 14304,
+      "sha256": "de2013ebd23130ea39e8a85ccd78a8cd218e6c715e4df62ef368db76fb1089b4"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/README.au-event-only-v3-preserved.md",
+      "bytes": 1579,
+      "sha256": "b9bedae8300fcf957f1ebaf4937b85fa2230576d8e945ea6ee9a3a3cf3e04893"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/plot_overlap.py",
+      "bytes": 10217,
+      "sha256": "1d338fc1ea4dfc3fb66538c939948ccde3fd43392d6123fd2d4294a0d0f99897"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/finalize_delivery.py",
+      "bytes": 24645,
+      "sha256": "d7437a534e46ea694ee261d83b7946fe2a69a2d2c6d1ae9d1e5c085759e750e1"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/SCHEMA_GUIDE_ZH.md",
+      "bytes": 4163,
+      "sha256": "1d39519aa2c2007b60bcf8ba920727567788e4162ae17aaee8277c99acef37ed"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/FIGURE_QA.md",
+      "bytes": 1541,
+      "sha256": "ec7fddc5b776d91c8c3b81b257c78e623afe9b203220ab2f78c6293413243b24"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/README.md",
+      "bytes": 9919,
+      "sha256": "115a0c5046ec7bc7d38bd83f6fb599db2377813ec3a88682f53d0fd68e39d1e7"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/FIGURE_CONTRACT.md",
+      "bytes": 2003,
+      "sha256": "e4dc4bca0c1e425f51db04fc76061b1010627b662c066cc11333e48d641c1394"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/delivery_schema.sql",
+      "bytes": 2884,
+      "sha256": "367bbb7aa1a7ca4410f83d5b779ffcffbd28ba37cf9dd5dcdc662034748c97b8"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/delivery_1988_2026/build_two_tables.py",
+      "bytes": 40611,
+      "sha256": "6cb61eb5c43bbf8a82b4527f329877f40bc99ff4d7539889faea19b2ce945ecd"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/rawdata.schema.sql",
+      "bytes": 549,
+      "sha256": "928c99108952b1946a8934ae38cd73b432f18401fd2a1ece4b42294de8ffd19a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/verify_and_package.py",
+      "bytes": 6437,
+      "sha256": "ce0685f1ab70aa2fbf0d738e153402c6d1b508cab42a4ef6fe1a51e47240da4e"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/events.schema.sql",
+      "bytes": 651,
+      "sha256": "5be673adfae47983f3bce191c4522721c54c55b2eeec9bd439742f43250b4311"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/plot_temperature_timeline.py",
+      "bytes": 6855,
+      "sha256": "2d83c2801e7178b25934275b982cf4ac65dcfafc01d47a05f66549c77cc2ccbc"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/SCHEMA_GUIDE_ZH.md",
+      "bytes": 4301,
+      "sha256": "3bd8caa422b6ebd8cb9f33aa13f712cf2dde82ca338b825f9b4d0b7f81b52c9e"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/FIGURE_QA.md",
+      "bytes": 1561,
+      "sha256": "16516eddbeff3f9a36139654bc96ac72fb863c3ad72964be037b93aae985a31d"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/README.md",
+      "bytes": 3961,
+      "sha256": "a76ac880fc655ca5548779f586bc2c42a89b1155b23bb302778a174cd3dd21c2"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/FIGURE_CONTRACT.md",
+      "bytes": 1905,
+      "sha256": "4198bca62be91b95a88e55b73729ba627b14c7984cd0372f8ca6cee178e729ec"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/REVIEW_AND_GAPS.md",
+      "bytes": 3308,
+      "sha256": "13a9c09856e024b2613ed0beae0c7cc6c14fecf01553b0f433efeeb2e0008a3d"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/write_notes.py",
+      "bytes": 12008,
+      "sha256": "a8b0b370dadcf922948654a5601e5b41f370f5811015e23d1b9c31dc51500b2a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_rise_only/build_temperature_tables.py",
+      "bytes": 27003,
+      "sha256": "3435e057573b830fa5927dbf02008ca388834199041c3e2a84bb1d7850bed959"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/deferred/schema.sql",
+      "bytes": 9918,
+      "sha256": "d0cc0500c43656fe0c03bc02d8bc57a2c012042d79841ba7fa68c22e0debe4b0"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/deferred/SCHEMA_GUIDE_ZH.md",
+      "bytes": 4194,
+      "sha256": "1d3bed7c513e53434169807b3168f50b80a22238a104cb47194ce758895edf8a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/deferred/README.md",
+      "bytes": 449,
+      "sha256": "5ac7e699363f4cdcdcf8cd10e71a3d99cfd8052280d0a963ba25a68ee2c6af98"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/deferred/build_registry_tables.py",
+      "bytes": 26595,
+      "sha256": "f4f7611a198dc61554e965f5e99ff8bb5aa246e1a7760322bd8ec4feb18864df"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/rawdata.schema.sql",
+      "bytes": 507,
+      "sha256": "d1c9644c4f37c6115bc48dfbe0c2e8a64c054d9efb41e1adf3ad80acb709e9d8"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/RESEARCH_AND_GAPS.md",
+      "bytes": 6744,
+      "sha256": "ec917f110af4af9d1ba931ae527c5ff2d5cfc663a25946aa6722f30c5e9b6de5"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/events.schema.sql",
+      "bytes": 767,
+      "sha256": "55517ba19d9b6a07678d0fa9ccdec0f3c08d31553c4a682758e4453f5c49c102"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/build_tables.py",
+      "bytes": 13635,
+      "sha256": "9dc5210e9b710f1ec2af0b80d25fc83a2037772698ac0009a25f00251820abe9"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/package_delivery.py",
+      "bytes": 6499,
+      "sha256": "44e92bd966c9a85dcf1755ed9fdbf167a838b1f5f529658cbac4d3b9f7fba30d"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/SCHEMA_GUIDE_ZH.md",
+      "bytes": 5741,
+      "sha256": "6d33c85e3becd623e8da84e9e925f642d55dc5ce37e2a094e51f78197ca10a84"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/FIGURE_QA.md",
+      "bytes": 2289,
+      "sha256": "ae6db4c67eb0ba251d4b7a616ed5f6daa2d0caa187bc0b8cf3aa295537faf991"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/prepare_evidence.py",
+      "bytes": 39798,
+      "sha256": "74dc1d3dd193719592131db4f062da73929866ee3c895a16cc68e0e649cdcf25"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/README.md",
+      "bytes": 3592,
+      "sha256": "5417bd7a7f60e8ef7c7baf9c289fa3096eb046bc5843ff4e5af582829c7c8d3a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/FIGURE_CONTRACT.md",
+      "bytes": 2741,
+      "sha256": "8dc7a60de0f5686b8be34eaf3a66044c3b428a3d0e0d2118e89c0c3162bc4cd8"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/plot_event_timeline.py",
+      "bytes": 10733,
+      "sha256": "5dd29c8749274be052f98501dcdcc01d93ef62a009cf136a348187f361927be2"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/event_only/write_delivery_notes.py",
+      "bytes": 9876,
+      "sha256": "1828e675b9de9fcb73c39de3a4a049ea97b56c0c4841601cdea7a7c5e829467f"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/rawdata.schema.sql",
+      "bytes": 549,
+      "sha256": "928c99108952b1946a8934ae38cd73b432f18401fd2a1ece4b42294de8ffd19a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/verify_and_package.py",
+      "bytes": 8350,
+      "sha256": "19e3f1b2b415b18e858fb6f19e1a65bd41dbfd3fecb3d7deb843f0b065226094"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/events.schema.sql",
+      "bytes": 651,
+      "sha256": "5be673adfae47983f3bce191c4522721c54c55b2eeec9bd439742f43250b4311"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/plot_temperature_timeline.py",
+      "bytes": 13193,
+      "sha256": "bd17b0622072878e8b2493f3f42379702c20f6b7db7fd1f4111287a225823729"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/SCHEMA_GUIDE_ZH.md",
+      "bytes": 4102,
+      "sha256": "6f6c55a0420336d710167e70c9b3c461a14805a076a229ddefe0d91f18d74fe4"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/FIGURE_QA.md",
+      "bytes": 2756,
+      "sha256": "40fe1d87706f34404d035ec18c3ff47112086324198cb171d8a172aacd1d4cb4"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/README.md",
+      "bytes": 4051,
+      "sha256": "0f5b3608bf532457408ad3be2736f9e1ceb4bb1d2281f65243e89917421f9773"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/FIGURE_CONTRACT.md",
+      "bytes": 2346,
+      "sha256": "fd2d7260a9ab09cb9fb923c892587ed977069419eab9a7bdfa4b3d5881487a7a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/REVIEW_AND_GAPS.md",
+      "bytes": 9885,
+      "sha256": "5a7fcf874cbabc43a0d0312069cfe00a9d121f9785ea6309a82d14360118807a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/write_notes.py",
+      "bytes": 13806,
+      "sha256": "0c07e6cbde342eb596d26b6906db391375e07fb0f430eadbdf73d024ffe0cb30"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_early_history_v5/build_temperature_tables.py",
+      "bytes": 46278,
+      "sha256": "c4fed119ccc857d2646b36802395c9960b30ec5a4395b9ffc82a86b2b58959da"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/rawdata.schema.sql",
+      "bytes": 626,
+      "sha256": "181de74ff4d1854b748e6037bd214ed8c85bcf6d6bce7e5c74cdd3634c693c68"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/events.schema.sql",
+      "bytes": 605,
+      "sha256": "0114c657e6ed76dc6265adba6face4d1fb8ad65159c4165ae7bd4205481ac126"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/build_tables.py",
+      "bytes": 14369,
+      "sha256": "f2c0646b14d31efb3509c01c97320eeda97a712ea3992df6d4fec7cd7095a160"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/DOCUMENT_REAUDIT.md",
+      "bytes": 10592,
+      "sha256": "c5e4eef21f8633172335d8653d2d1cb9e4c1e2ef27e19feac96f30f5e10773a0"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/SCHEMA_GUIDE_ZH.md",
+      "bytes": 2540,
+      "sha256": "bd1ea049fb3cc48c0221803bc7733c754d4e18942a4cce3209b5c1f54a588371"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/FIGURE_QA.md",
+      "bytes": 1619,
+      "sha256": "a8443db90d18c68de87bfd6782a34d720455b0b78ac61e356f6f77779a4c014d"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/README.md",
+      "bytes": 2466,
+      "sha256": "6fa60c1b7756d8f9220fe66ffcc7bd69d673b41219ee43cd2d3913aaf705bd6a"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/FIGURE_CONTRACT.md",
+      "bytes": 1473,
+      "sha256": "fc28b338ec9ed6fa0b6a57a15dd50c41f9bb74f95aa5bb5e54eee8d38d3e0c01"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/plot_timeline.py",
+      "bytes": 10401,
+      "sha256": "7d13a1ae127ec8f77e4e8f48856a74610c5dd4855a0e53842abb9f92bbfff584"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/REVIEW_AND_GAPS.md",
+      "bytes": 2885,
+      "sha256": "fbeae6df610c08859f99c846edb39b2df6de5f89c9f25dbd05c9b1dd4acfe211"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/DESIGN_FOR_SUPERVISOR_ZH.md",
+      "bytes": 9314,
+      "sha256": "d1d71311deab0ad9be5245907442385547139d9d3b583a7f35cf089b32c8f4eb"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/verify_delivery.py",
+      "bytes": 11012,
+      "sha256": "2d043c24a58ee7e7ff72ca11cb7f17b2cd4751ef324b95d2981805c14bc688ab"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v7/build_review.py",
+      "bytes": 6983,
+      "sha256": "cdd6d9da4cf3fa8f6eddeb9a8bf70a1ef4664519577ac7a4624fd71657dd2e36"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/rawdata.schema.sql",
+      "bytes": 626,
+      "sha256": "181de74ff4d1854b748e6037bd214ed8c85bcf6d6bce7e5c74cdd3634c693c68"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/events.schema.sql",
+      "bytes": 605,
+      "sha256": "0114c657e6ed76dc6265adba6face4d1fb8ad65159c4165ae7bd4205481ac126"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/build_tables.py",
+      "bytes": 60144,
+      "sha256": "db32ea469ababe82b5d6e347f61354510070968d7fef228f834c13fedae29aa9"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/SCHEMA_GUIDE_ZH.md",
+      "bytes": 3968,
+      "sha256": "cc06b7135bdf811c433a71d5b88e9d628d7b20b6851fb2edcde00f842da784f9"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/FIGURE_QA.md",
+      "bytes": 1915,
+      "sha256": "b24405ce0bdad0a17e59d8e6ed70556278d591fa347e0caabd29d98ac5507943"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/README.md",
+      "bytes": 4126,
+      "sha256": "9dee55c493496410a4476f1f6a35d1d3e096b770594f8c23abe0d9e123fafe61"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/FIGURE_CONTRACT.md",
+      "bytes": 2332,
+      "sha256": "56dce06b555b27c6f151f744eee268e832cb03c03ce7564a630f15c545fdd5b4"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/plot_timeline.py",
+      "bytes": 10357,
+      "sha256": "02195a6edf88a84753aa1ab50b57f6d3cc1c96cdb68abf0024cfcd1ca42435da"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/REVIEW_AND_GAPS.md",
+      "bytes": 4346,
+      "sha256": "15f2d1596391aed46f0a86b66fbd22d3de891cb8a7be042d46216e3de42345ef"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/write_notes.py",
+      "bytes": 14867,
+      "sha256": "5f66de166db778b46af4909450dae338dba827accea97ca1539bf6e4477366ec"
+    },
+    {
+      "former_path": "docs/research/2026-10-16-australia-event-periods/temperature_reaudit_v6/verify_delivery.py",
+      "bytes": 9577,
+      "sha256": "96e1445744d3de9f16ba2e18d1e034cbb977fb33827d65033360e343c21f82c0"
+    }
+  ]
+}

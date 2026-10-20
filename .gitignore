@@ -192,3 +192,7 @@ work_packages/M1_source_access/27_newspaper_context_recovery_20261008/**/control
 # Australian public-interface samples, individual receipts and sandbox checks.
 # Final source/schema/month/budget artifacts are in docs/research.
 /work_packages/M1_source_access/38_australia_rebuild_verified_20261012/
+
+# Retired event pipeline and active lightweight official-voice runtime.
+/archives/superseded_event_pipeline_20261020/
+/work_packages/official_voice_20261020/
