@@ -1,0 +1,19 @@
+matrix,source_channel,native_unit,in_interval_total,monthly_allocated,year_only_or_month_unallocated,date_pending_or_outside
+baseline26,hansard_federal_rapid,procedural records,1323,1323,0,1
+baseline26,uq_espace,publication metadata,1450,1106,344,66
+baseline26,trove_web_gazette,reproduced gazette articles,187,187,0,0
+baseline26,bom_scs,statement documents,40,40,0,0
+baseline26,bom_annual,summary documents,159,159,0,18
+baseline26,qld_statements,release documents,243,243,0,0
+baseline26,csiro_dap,dataset catalogues,267,267,0,1
+baseline26,qld_opendata,dataset catalogues,7,7,0,0
+baseline26,qld_resources,linked publication documents,0,0,0,0
+extended33_union,hansard_federal_rapid,procedural records,26873,26873,0,79
+extended33_union,uq_espace,publication metadata,9698,7196,2502,193
+extended33_union,trove_web_gazette,reproduced gazette articles,1100,1100,0,0
+extended33_union,bom_scs,statement documents,43,43,0,0
+extended33_union,bom_annual,summary documents,160,160,0,19
+extended33_union,qld_statements,release documents,3018,3018,0,0
+extended33_union,csiro_dap,dataset catalogues,750,750,0,1
+extended33_union,qld_opendata,dataset catalogues,47,47,0,25
+extended33_union,qld_resources,linked publication documents,0,0,0,0

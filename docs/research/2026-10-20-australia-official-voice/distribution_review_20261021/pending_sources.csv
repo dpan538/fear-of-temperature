@@ -1,0 +1,9 @@
+source_channel,exhaustion_status,reason,endpoint
+hansard_nsw,BLOCKED_OR_PENDING,pending_fragment_access_and_complete_unit_adapter,https://api.parliament.nsw.gov.au/api/hansard/search/year/2026
+csiro_publications,BLOCKED_OR_PENDING,blocked_public_access; DAP is not an equivalent publications corpus,https://publications.csiro.au/publications/
+trove,PENDING_CREDENTIALS,pending_credentials; government publisher/title scope and response contract pending,https://api.trove.nla.gov.au/v3/result
+other_university_repositories,PENDING_ADAPTER,not yet configured or counted; UQ coverage does not establish other Go8 coverage,
+slq,PENDING_ADAPTER,SLQ open datasets can use QLD portal; One Search unrestricted bulk API not established,
+trove_web_official_publications,BLOCKED_OR_PENDING,"public government-publication format available, but work-level edition ranges and Australian publisher identity unresolved; Australian subject/holding facets do not identify publisher",https://trove.nla.gov.au/search/category/books
+austlii_dfat,BLOCKED_OR_PENDING,blocked public access; DFAT treaty collection is not a government-gazette corpus,http://www.austlii.edu.au/au/other/dfat/
+austlii_sa_gazette,BLOCKED_OR_PENDING,blocked public access; separate from DFAT treaties,https://www5.austlii.edu.au/au/other/sa_gazette/

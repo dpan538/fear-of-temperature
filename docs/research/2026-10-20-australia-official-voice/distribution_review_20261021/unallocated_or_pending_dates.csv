@@ -1,0 +1,14 @@
+matrix,source_channel,state,unique_native_records
+baseline26,uq_espace,in_interval_month_unallocated,344
+extended33_union,uq_espace,in_interval_month_unallocated,2502
+baseline26,csiro_dap,outside_fixed_interval,1
+extended33_union,csiro_dap,outside_fixed_interval,1
+baseline26,uq_espace,outside_fixed_interval,40
+extended33_union,uq_espace,outside_fixed_interval,108
+extended33_union,qld_opendata,pending_publication_date,25
+extended33_union,hansard_federal_rapid,pending_source_date_conflict,79
+baseline26,hansard_federal_rapid,pending_source_date_conflict,1
+baseline26,bom_annual,pending_publication_date,18
+extended33_union,bom_annual,pending_publication_date,19
+extended33_union,uq_espace,pending_boundary_precision,85
+baseline26,uq_espace,pending_boundary_precision,26

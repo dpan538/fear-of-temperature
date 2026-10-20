@@ -1,0 +1,11 @@
+institutional_tier,source_channel,unique_native_records,percent_of_extended33
+Academic,uq_espace,9698,23.262731176089616
+Scientific Agency,csiro_dap,750,1.7990357168557654
+Federal Parliament,hansard_federal_rapid,26873,64.46064909208664
+State Gov,qld_opendata,47,0.11273957158962795
+Scientific Agency,bom_annual,160,0.3837942862625633
+State Gov,qld_statements,3018,7.2393197246276
+Scientific Agency,bom_scs,43,0.10314471443306387
+State Gov,trove_web_gazette,149,0.35740842908201204
+Federal Gov / Gazette,trove_web_gazette,942,2.259588860370841
+Gazette issuer unresolved,trove_web_gazette,9,0.021588428602269182

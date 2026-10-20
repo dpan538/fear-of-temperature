@@ -1,0 +1,91 @@
+reference_event_id,original_event_kind,display_group,start_or_release_value,display_year,title,original_source_url
+AU-19880106-15-VIC-HEAT,land_heat_episode,temperature_case,1988-01-06,1988,Victoria: ten-day hot sequence,https://www.bom.gov.au/climate/current/statements/scs55.pdf
+AU-19880129-0222-PERTH-HEAT,land_heat_episode,temperature_case,1988-01-29,1988,Perth: 25 consecutive hot days,https://www.bom.gov.au/climate/current/month/wa/archive/201102.perth.shtml
+AU-19890227-0308-SE-HEAT,land_heat_episode,temperature_case,1989-02-27,1989,Southeastern heat: Victorian ten-day sequence,https://www.bom.gov.au/climate/current/statements/scs55.pdf
+AU-19900223-0307-PERTH-WARM-NIGHTS,land_warm_spell,temperature_case,1990-02-23,1990,1990 Perth: 13 warm nights,https://www.bom.gov.au/climate/current/season/wa/archive/201102.perth.shtml
+AU-199011-QLD-HEAT,land_heat_episode,temperature_case,1990-11-18,1990,Queensland coastal heatwave: verified hot phase,https://www.bom.gov.au/climate/current/statements/scs67.pdf
+AU-199012-SE-HISTORICAL-HEAT,land_heat_episode,temperature_case,1990-12,1990,1990-12 Southeast heat (month known),https://nccarf.edu.au/wp-content/uploads/2019/03/QUT_2010_Southern_cities_heatwaves.pdf
+AU-19910131-PERTH-RECORD,temperature_record_day,temperature_case,1991-01-31,1991,1991 Perth January record,https://www.bom.gov.au/climate/current/season/wa/archive/201002.perth.shtml
+AU-199211-CSIRO-SCENARIOS,warming_report_release,report_release,1992-11,1992,CSIRO Australian warming scenarios issued,https://www.cmar.csiro.au/e-print/open/CIG_1992a.pdf
+AU-19930131-0203-ADELAIDE-HEAT,land_heat_episode,temperature_case,1993-01-31,1993,1993 Adelaide: known hot phase,https://nccarf.edu.au/wp-content/uploads/2019/03/QUT_2010_Southern_cities_heatwaves.pdf
+AU-199401-QLD-HEAT,land_heat_episode,temperature_case,1994-01-03,1994,Queensland coastal heatwave: Townsville sequence,https://www.bom.gov.au/climate/current/statements/scs67.pdf
+AU-199512-QLD-HEAT,land_heat_episode,temperature_case,1995-12-20,1995,Queensland coastal heatwave: verified peak phase,https://www.bom.gov.au/climate/current/statements/scs67.pdf
+AU-199611-CSIRO-COMPARISON,warming_report_release,report_release,1996-11,1996,CSIRO warming scenarios comparison supplement,https://www.cmar.csiro.au/e-print/open/hennessy_2000a.pdf
+AU-199701-SE-HISTORICAL-HEAT,land_heat_episode,temperature_case,1997-01,1997,1997-01 Southeast heat (month known),https://nccarf.edu.au/wp-content/uploads/2019/03/QUT_2010_Southern_cities_heatwaves.pdf
+AU-19970214-22-VIC-HEAT,land_heat_episode,temperature_case,1997-02-14,1997,Victoria: nine-day hot sequence,https://www.bom.gov.au/climate/current/statements/scs55.pdf
+AU-19981209-11-MELBOURNE-HEAT,land_heat_episode,temperature_case,1998-12-09,1998,Melbourne December EHF heatwave,https://pmc.ncbi.nlm.nih.gov/articles/PMC6265727/
+AU-19990105-TEMPERATURE-STATEMENT,warming_report_release,report_release,1999-01-05,1999,Bureau releases record-warm-1998 statement,https://www.bom.gov.au/climate/change/archive/media99.shtml
+AU-19990110-SA-HEAT,land_heat_episode,temperature_case,1999-01-10,1999,1999 January SA known hot day,https://www.australianweathernews.com/news/1999/news9901.html
+AU-200001-SE-HISTORICAL-HEAT,land_heat_episode,temperature_case,2000-01,2000,2000-01 Southeast heat (month known),https://nccarf.edu.au/wp-content/uploads/2019/03/QUT_2010_Southern_cities_heatwaves.pdf
+AU-20000202-04-SE-HEAT,land_heat_episode,temperature_case,2000-02-02,2000,2000 Adelaide / NW Victoria,https://nccarf.edu.au/wp-content/uploads/2019/03/QUT_2010_Southern_cities_heatwaves.pdf
+AU-20001230-20010213-MARREE-HEAT,land_heat_episode,temperature_case,2000-12-30,2000,Marree: 46 consecutive hot days,https://www.bom.gov.au/climate/current/statements/scs15.pdf
+AU-20010108-13-ADELAIDE-HEAT,land_heat_episode,temperature_case,2001-01-08,2001,2001 Adelaide >35 C,https://nccarf.edu.au/wp-content/uploads/2019/03/QUT_2010_Southern_cities_heatwaves.pdf
+AU-20010119-25-SNOWTOWN-HEAT,land_heat_episode,temperature_case,2001-01-19,2001,2001 Snowtown >=37.8 C,https://www.bom.gov.au/climate/current/statements/scs15.pdf
+AU-200105-CSIRO-PROJECTIONS,warming_report_release,report_release,2001-05,2001,CSIRO Australian warming projections released,https://www.cmar.csiro.au/e-print/open/projections2001.pdf
+AU-20020126-0213-BRISBANE-HEAT,land_heat_episode,temperature_case,2002-01-26,2002,Brisbane City: 19 consecutive hot days,https://www.bom.gov.au/climate/current/statements/scs55.pdf
+AU-20020615-17-EAST-WARMTH,land_warm_spell,temperature_case,2002-06-15,2002,2002 June eastern winter warmth,https://www.bom.gov.au/climate/annual_sum/2002/page9-10-11.pdf
+AU-20021021-22-PILBARA-HEAT,land_heat_episode,temperature_case,2002-10-21,2002,2002 October Pilbara hot phase,https://www.bom.gov.au/climate/annual_sum/2002/page9-10-11.pdf
+AU-20021125-26-SYDNEY-HEAT,land_heat_episode,temperature_case,2002-11-25,2002,2002 November Sydney >37.8 C,https://www.bom.gov.au/climate/annual_sum/2002/page9-10-11.pdf
+AU-20030125-SE-HOT-PHASE,land_heat_episode,temperature_case,2003-01-25,2003,2003 January southeast hot peak,https://www.bom.gov.au/climate/annual_sum/2003/page13-15.pdf
+AU-20030307-10-PERTH-HEAT,land_heat_episode,temperature_case,2003-03-07,2003,2003 March Perth hot phase,https://www.bom.gov.au/climate/annual_sum/2003/page13-15.pdf
+AU-20040206-22-EASTERN-HEAT,land_heat_episode,temperature_case,2004-02-06,2004,Eastern Australian February heatwave,https://www.bom.gov.au/climate/current/cmb/2004-02.pdf
+AU-20050216-0302-CHARLEVILLE-HEAT,land_heat_episode,temperature_case,2005-02-16,2005,Charleville: 15 consecutive very hot days,https://www.bom.gov.au/climate/annual_sum/2005/page13-15.pdf
+AU-200504-RECORD-WARM-MONTH,record_warm_period,temperature_case,2005-04-01,2005,2005 Aprilrecord warmmonth,https://www.bom.gov.au/climate/current/cmb/2005-04.pdf
+AU-20060104-TEMPERATURE-STATEMENT,warming_report_release,report_release,2006-01-04,2006,Bureau releases 2005 warming statement,https://www.bom.gov.au/climate/current/annual/aus/2005/
+AU-200601-ADELAIDE-HEAT,land_heat_episode,temperature_case,2006-01-19,2006,Adelaide January heatwave: two date definitions,https://www.escosa.sa.gov.au/ArticleDocuments/992/060907-NetworkPerformanceHeatwave2006-FinalReport.pdf.aspx?Embed=Y
+AU-20070116-0227-MARBLE-BAR-HEAT,land_heat_episode,temperature_case,2007-01-16,2007,Marble Bar: 43 consecutive days above 42 °C,https://www.bom.gov.au/climate/current/statements/scs11.pdf
+AU-20070305-07-PERTH-HEAT,land_heat_episode,temperature_case,2007-03-05,2007,2007 March Perth heat,https://www.bom.gov.au/climate/current/month/wa/archive/200703.perth.shtml
+AU-2007AUTUMN-EASTERN-WARMTH,land_heat_sequence,temperature_case,2007-05-03,2007,2007 easternwarm May/autumn+heatphase,https://www.bom.gov.au/climate/current/statements/scs12.pdf
+AU-20071002-CLIMATE-PROJECTIONS,warming_report_release,report_release,2007-10-02,2007,Climate Change in Australia 2007 released,https://www.cmar.csiro.au/publications/docsreps.html
+AU-20071228-20080106-KERANG-HEAT,land_heat_episode,temperature_case,2007-12-28,2007,2007/08 Kerang hot spell,https://www.bom.gov.au/climate/current/statements/scs15.pdf
+AU-20080303-17-ADELAIDE-HEAT,land_heat_episode,temperature_case,2008-03-03,2008,Adelaide 15-day heatwave,https://www.bom.gov.au/climate/current/statements/scs15.pdf
+AU-20090127-0208-HEAT,land_heat_episode,temperature_case,2009-01-27,2009,Southeastern Australian heatwave,https://www.bom.gov.au/climate/current/statements/scs17c.pdf
+AU-200908-SUBTROPICAL-HEAT,land_heat_sequence,temperature_case,2009-08-14,2009,2009 winter heat: two phases,https://www.bom.gov.au/climate/current/statements/scs18.pdf
+AU-200911-CENTRAL-SE-HEAT,land_heat_sequence,temperature_case,2009-11-08,2009,2009 spring heat: two phases,https://www.bom.gov.au/climate/current/statements/scs19.pdf
+AU-20100102-PERTH-HEAT,land_heat_episode,temperature_case,2010-01-02,2010,2010-01-02 Perth >35 C,https://www.bom.gov.au/climate/current/season/wa/archive/201002.perth.shtml
+AU-20100117-PERTH-HEAT,land_heat_episode,temperature_case,2010-01-17,2010,2010-01-17 Perth >35 C,https://www.bom.gov.au/climate/current/season/wa/archive/201002.perth.shtml
+AU-20100224-PERTH-HEAT,land_heat_episode,temperature_case,2010-02-24,2010,2010-02-24 Perth >35 C,https://www.bom.gov.au/climate/current/season/wa/archive/201002.perth.shtml
+AU-20101225-PERTH-HEAT,land_heat_episode,temperature_case,2010-12-25,2010,2010-12-25 Perth >=35 C,https://www.bom.gov.au/climate/current/season/wa/archive/201102.perth.shtml
+AU-20110101-PERTH-HEAT,land_heat_episode,temperature_case,2011-01-01,2011,2011-01-01 Perth >=35 C,https://www.bom.gov.au/climate/current/season/wa/archive/201102.perth.shtml
+AU-20110127-PERTH-HEAT,land_heat_episode,temperature_case,2011-01-27,2011,2011-01-27 Perth >=35 C,https://www.bom.gov.au/climate/current/season/wa/archive/201102.perth.shtml
+AU-20110130-0206-SYDNEY-HUNTER-HEAT,land_heat_episode,temperature_case,2011-01-30,2011,2011 Sydney / Hunter heat,https://www.bom.gov.au/climate/current/statements/scs27.pdf
+AU-20110206-0304-PERTH-HEAT-SEQUENCE,land_heat_sequence,temperature_case,2011-02-06,2011,2011 Perth: extended hot spell,https://www.bom.gov.au/climate/current/month/wa/archive/201102.perth.shtml
+AU-20110324-26-PERTH-HEAT,land_heat_episode,temperature_case,2011-03-24,2011,2011 late-March Perth heat,https://www.bom.gov.au/climate/current/month/wa/archive/201103.perth.shtml
+AU-2012JAN-MAR-PERTH-HEAT-SEQUENCE,land_heat_sequence,temperature_case,2012-01-11,2012,2012 Perth: repeated heat episodes,https://www.bom.gov.au/climate/current/annual/wa/archive/2012.perth.shtml
+AU-20120314-STATE-CLIMATE,warming_report_release,report_release,2012-03-14,2012,2012-03-14 State of the Climate,https://csiropedia.csiro.au/state-of-the-climate-2012/
+AU-201301-HEAT,land_heat_episode,temperature_case,2012-12-13,2012,"Australian heatwave, late December 2012 to January 2013",https://www.bom.gov.au/climate/current/statements/scs43d.pdf
+AU-20130302-13-SE-HEAT,land_heat_episode,temperature_case,2013-03-02,2013,2013 March southeast heat,https://www.bom.gov.au/climate/current/statements/scs45.pdf
+AU-2013AUG-SEP-EARLY-SEASON-HEAT,land_heat_sequence,temperature_case,2013-08-27,2013,2013 late-winter / September heat,https://www.bom.gov.au/climate/current/statements/scs46.pdf
+AU-20131227-201401-CENTRAL-EAST-HEAT,land_heat_episode,temperature_case,2013-12-27,2013,2013/14 New Year heat,https://www.bom.gov.au/climate/current/statements/scs47.pdf
+AU-20140113-18-SE-HEAT,land_heat_episode,temperature_case,2014-01-08,2014,Southeastern Australian January heatwave,https://www.bom.gov.au/climate/current/statements/scs48.pdf
+AU-20140304-STATE-CLIMATE,warming_report_release,report_release,2014-03-04,2014,2014-03-04 State of the Climate,https://www.csiro.au/en/news/All/News/2014/March/State-of-the-Climate-2014-A-clear-picture-of-Australias-climate
+AU-201405-AUTUMN-WARM-SPELL,land_warm_spell,temperature_case,2014-05-10,2014,2014 May persistent warmth,https://www.bom.gov.au/climate/current/statements/scs49.pdf
+AU-2014SPRING-HEAT-SEQUENCE,land_heat_sequence,temperature_case,2014-10-08,2014,2014 spring: heat phases + seasonal mean,https://www.bom.gov.au/climate/current/statements/scs50.pdf
+AU-20150127-CLIMATE-PROJECTIONS,warming_report_release,report_release,2015-01-27,2015,Australian climate projections released: air-temperature evidence,https://www.csiro.au/en/news/all/news/2015/january/new-climate-change-projections-for-australia
+AU-201503-NORTH-CENTRAL-HOT-SPELL,land_heat_sequence,temperature_case,2015-03-05,2015,2015 March north / central heat,https://www.bom.gov.au/climate/current/statements/scs51.pdf
+AU-201510-SOUTHERN-HEAT,land_heat_sequence,temperature_case,2015-10-01,2015,2015 October heat + monthly mean,https://www.bom.gov.au/climate/current/statements/scs52.pdf
+AU-201512-SE-HEAT,land_heat_episode,temperature_case,2015-12-16,2015,2015 December southeast heat,https://www.bom.gov.au/climate/current/statements/scs53.pdf
+AU-2016FEB-MAR-COASTAL-WARMTH,land_warm_spell,temperature_case,2016-02-05,2016,2016 coastal / city persistent warmth,https://www.bom.gov.au/climate/current/statements/scs55.pdf
+AU-2016FEB-MAR-INLAND-HEAT,land_heat_sequence,temperature_case,2016-02-12,2016,2016 inland heat: regional phases,https://www.bom.gov.au/climate/current/statements/scs55.pdf
+AU-2016AUTUMN-RECORD-WARMTH,record_warm_period,temperature_case,2016-03-01,2016,2016 record warmautumn,https://www.bom.gov.au/climate/current/statements/scs56.pdf
+AU-2016DEC-2017FEB-LAND-HEAT,land_heat_sequence,temperature_case,2016-12,2016,Eastern Australian prolonged heat and distinct heatwaves,https://www.bom.gov.au/climate/current/statements/scs61.pdf
+AU-201711-TAS-VIC-WARM-SPELL,land_warm_spell,temperature_case,2017-11-18,2017,2017 Tasmania / Victoria warmth,https://www.bom.gov.au/climate/current/statements/scs63.pdf
+AU-2018MAR-APR-PERSISTENT-HEAT,land_heat_sequence,temperature_case,2018-03-13,2018,2018 March / April persistent heat,https://www.bom.gov.au/climate/current/statements/scs65.pdf
+AU-20181124-30-QLD-COAST-HEAT,land_heat_episode,temperature_case,2018-11-24,2018,2018 tropical Queensland heat,https://www.bom.gov.au/climate/current/statements/scs67.pdf
+AU-2018DEC-2019FEB-HEAT-SEQUENCE,land_heat_sequence,temperature_case,2018-12-02,2018,2018/19 widespread heat: regional spans,https://www.bom.gov.au/climate/current/statements/scs68.pdf
+AU-20181220-STATE-CLIMATE,warming_report_release,report_release,2018-12-20,2018,2018-12-20 State of the Climate,https://www.csiro.au/en/news/all/news/2018/december/state-of-the-climate-2018-shows-continued-warming-of-climate-and-oceans
+AU-20191113-16-PERTH-HEAT,land_heat_episode,temperature_case,2019-11-13,2019,2019 November Perth>35 C,https://www.bom.gov.au/climate/current/statements/scs78.pdf
+AU-20191218-TMAX-RECORD,land_heat_sequence,temperature_case,2019-12,2019,Summer 2019–20 heat sequence and 18 December national temperature record,https://www.bom.gov.au/climate/current/statements/scs73.pdf
+AU-202011-EASTERN-HEAT,land_heat_sequence,temperature_case,2020-11,2020,2020 November eastern heat,https://www.bom.gov.au/climate/mwr/aus/mwr-aus-202011.pdf
+AU-20201113-STATE-CLIMATE,warming_report_release,report_release,2020-11-13,2020,2020-11-13 State of the Climate,https://www.csiro.au/en/news/all/news/2020/november/state-of-the-climate-2020-shows-continued-warming-and-increase-in-extreme-weather-events
+AU-20210122-26-NSW-HEAT,land_heat_episode,temperature_case,2021-01-22,2021,2021 late January NSWheat,https://www.bom.gov.au/climate/current/month/nsw/archive/202101.summary.shtml
+AU-20211225-28-JANDAKOT-HEAT-PHASE,land_heat_episode,temperature_case,2021-12-25,2021,2021 Christmas Jandakot heat,https://www.bom.gov.au/climate/current/month/wa/archive/202201.perth.shtml
+AU-20220118-24-PERTH-HEAT,land_heat_episode,temperature_case,2022-01-18,2022,2022 January Perth severe heat,https://www.bom.gov.au/climate/current/month/wa/archive/202201.perth.shtml
+AU-20221123-STATE-CLIMATE,warming_report_release,report_release,2022-11-23,2022,State of the Climate 2022 released: Australian warming,https://www.csiro.au/en/news/All/News/2022/November/State-of-the-Climate-Report-2022
+AU-20230911-20-SOUTHERN-WARMTH,land_warm_spell,temperature_case,2023-09-11,2023,2023 September early-season warmth,https://www.bom.gov.au/clim_data/IDCKGC1AR0/202309.summary.shtml
+AU-202311-SW-WA-HEAT,land_heat_episode,temperature_case,2023-11-21,2023,2023 November southwest WAheat,https://www.bom.gov.au/climate/current/statements/scs78.pdf
+AU-202402-REGIONAL-HEAT-SEQUENCE,land_heat_sequence,temperature_case,2024-01,2024,2024 February: WAand southeastheat,https://www.bom.gov.au/clim_data/IDCKGC1AR0/202402.summary.shtml
+AU-20241031-STATE-CLIMATE,warming_report_release,report_release,2024-10-31,2024,State of the Climate 2024 released: land-air warming,https://www.bom.gov.au/weather-and-climate/past-weather-and-climate/state-of-the-climate-2024/report-at-a-glance
+AU-20250201-03-WA-HEAT-PHASE,land_heat_episode,temperature_case,2025-02-01,2025,2025 early February WAheat,https://www.bom.gov.au/clim_data/IDCKGC1AR0/202502.summary.shtml
+AU-20260104-10-WA-HEAT,land_heat_episode,temperature_case,2026-01-04,2026,4–10 January 2026 heatwave across Western and southeastern Australia,https://www.bom.gov.au/climate/current/month/wa/archive/202601.summary.shtml
+AU-20260120-31-HEAT,land_heat_episode,temperature_case,2026-01-20,2026,Central and southern Australian land heatwave,https://www.bom.gov.au/climate/current/financial-year/aus/summary.shtml

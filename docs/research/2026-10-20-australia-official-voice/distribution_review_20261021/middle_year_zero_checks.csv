@@ -1,0 +1,15 @@
+matrix,source_channel,publication_year,previous_year_count,next_year_count,exhaustion_status,diagnostic_status,recheck_evidence
+baseline26,uq_espace,1989,5,1,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,trove_web_gazette,2009,5,1,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,trove_web_gazette,2011,1,1,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,bom_scs,2010,3,2,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,bom_scs,2021,1,0,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,bom_scs,2022,0,0,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,bom_scs,2023,0,1,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,csiro_dap,2013,1,110,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,qld_opendata,2019,2,0,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+baseline26,qld_opendata,2020,0,2,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+extended33_union,hansard_federal_rapid,1997,14,121,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,checksum-verified session lookup has no sittings in this year
+extended33_union,uq_espace,1989,7,2,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+extended33_union,bom_scs,2010,3,2,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
+extended33_union,bom_scs,2021,1,1,COMPLETED_LAST_PAGE,FLAGGED_ZERO_RECOUNTED,"zero native-ID count confirmed after full source enumeration; lexical/date/source limits remain, not validated discourse absence"
