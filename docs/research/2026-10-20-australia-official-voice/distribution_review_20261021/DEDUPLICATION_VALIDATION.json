@@ -1,0 +1,1 @@
+{"aggregated_cells_checked": 9072, "errors": [], "in_interval_unique_ids": {"baseline26": 3676, "extended33_union": 41689}, "retained_rows": 42006, "scope": "native ID uniqueness; cross-source/work-family semantic deduplication not asserted", "status": "PASS", "unique_doc_ids": 42006, "unique_source_native_pairs": 42006}

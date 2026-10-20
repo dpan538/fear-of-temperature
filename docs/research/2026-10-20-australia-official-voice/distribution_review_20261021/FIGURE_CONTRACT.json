@@ -1,0 +1,26 @@
+{
+  "backend": "python/matplotlib",
+  "purpose": "Observed query-defined metadata distribution and source/date validation; no inferred population trend or causal/calendar validation",
+  "count_unit": "source-qualified native record; heterogeneous procedural/publication/gazette/release/catalogue units remain labelled",
+  "matrices": "Baseline26 subset of Extended33; separate counts, never added",
+  "main_message": "Source availability and lexical selection affect temporal coverage; exact counts retain their original denominators",
+  "figure_map": {
+    "annual_distribution": "16 independent-Y panels comparing the two matrices for8 sources",
+    "monthly_distribution": "465month bins with year-only dates kept unallocated",
+    "density_heatmap": "6 source groups; log10(count+1); matched scale for matrix comparison",
+    "source_proportions": "Nested institutional/source shares of Extended33 native records; federal executive distinct from parliament",
+    "terminology_groups_v3": "Four curves in one panel; shared log10(count+1) axis with count ticks; fractional1/k lexical grouping",
+    "event_alignment_v3": "Independent zero-based axes; annual metadata against77 temperature-case starts and13 report releases from preserved non-exhaustive v7"
+  },
+  "phase_and_peak_labels": "user specified, not empirically validated interpretation",
+  "statistics": {
+    "center": "exact count/sum of fractional allocations",
+    "uncertainty": "none; not a population estimate",
+    "test": "none",
+    "smoothing": "none"
+  },
+  "reference_integrity": "90-case CSV read-only; SHA256 recorded in EVENT_REFERENCE_VALIDATION; no old collectors or claims imported",
+  "format": "12-inch desktop research figures; editable PDF/SVG plus300dpi PNG; no journal-specific size or TIFF requirement",
+  "qa": "strict native-ID/month/year reconciliation; rendered font/collision checks; grid/heatmap1.5pt alignment; manual visual review",
+  "image_integrity": "all marks drawn from source counts; no image retouching or manual quantitative editing"
+}

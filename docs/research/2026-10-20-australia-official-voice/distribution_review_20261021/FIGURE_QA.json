@@ -1,0 +1,166 @@
+{
+  "alignment": "Grids and heatmap measured at1.5pt tolerance; revised terminology/overlay each use one data panel",
+  "checked_at": "2026-10-20T15:27:48+00:00",
+  "figures": {
+    "annual_distribution": {
+      "collision_exit_code": 0,
+      "collision_summary": {
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0,
+        "fail": 0,
+        "warn": 0
+      },
+      "collision_verdict": "PASS",
+      "font_exit_code": 0,
+      "font_report": {
+        "auditable": true,
+        "below_minimum": [],
+        "below_minimum_count": 0,
+        "minimum_found_pt": 8.0,
+        "minimum_required_pt": 5.0,
+        "pdf": "/Users/jarlgiovanni/Desktop/fear_of_temperature/docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/annual_distribution.pdf",
+        "text_run_count": 125,
+        "warnings": []
+      },
+      "pdf_sha256": "d3c53600d57e32d7d16bcb45b72b1eb395a2a18640865dae51765452c48f1b0a"
+    },
+    "density_heatmap": {
+      "collision_exit_code": 0,
+      "collision_summary": {
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0,
+        "fail": 0,
+        "warn": 0
+      },
+      "collision_verdict": "PASS",
+      "font_exit_code": 0,
+      "font_report": {
+        "auditable": true,
+        "below_minimum": [],
+        "below_minimum_count": 0,
+        "minimum_found_pt": 8.0,
+        "minimum_required_pt": 5.0,
+        "pdf": "/Users/jarlgiovanni/Desktop/fear_of_temperature/docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/density_heatmap.pdf",
+        "text_run_count": 41,
+        "warnings": []
+      },
+      "pdf_sha256": "3400194a8caa24293439bf2f0713bcf0c495332d857bc89c3573d0d21a5dbca6"
+    },
+    "event_alignment_final_20261021": {
+      "collision_exit_code": 0,
+      "collision_summary": {
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0,
+        "fail": 0,
+        "warn": 0
+      },
+      "collision_verdict": "PASS",
+      "font_exit_code": 0,
+      "font_report": {
+        "auditable": true,
+        "below_minimum": [],
+        "below_minimum_count": 0,
+        "minimum_found_pt": 8.0,
+        "minimum_required_pt": 5.0,
+        "pdf": "/Users/jarlgiovanni/Desktop/fear_of_temperature/docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/event_alignment_final_20261021.pdf",
+        "text_run_count": 31,
+        "warnings": []
+      },
+      "pdf_sha256": "39d68641251dbcc83adf44738229e2b913169e26a080e9522beb5c89245ac080"
+    },
+    "monthly_distribution": {
+      "collision_exit_code": 0,
+      "collision_summary": {
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0,
+        "fail": 0,
+        "warn": 0
+      },
+      "collision_verdict": "PASS",
+      "font_exit_code": 0,
+      "font_report": {
+        "auditable": true,
+        "below_minimum": [],
+        "below_minimum_count": 0,
+        "minimum_found_pt": 8.0,
+        "minimum_required_pt": 5.0,
+        "pdf": "/Users/jarlgiovanni/Desktop/fear_of_temperature/docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/monthly_distribution.pdf",
+        "text_run_count": 125,
+        "warnings": []
+      },
+      "pdf_sha256": "a31c9f5be6f30d7c41cd5bd64798254ec39651ff0932c47ad3ee0e3691eba415"
+    },
+    "source_proportions": {
+      "collision_exit_code": 0,
+      "collision_summary": {
+        "contained_fill_overlays": 10,
+        "contained_image_overlays": 0,
+        "fail": 0,
+        "warn": 1
+      },
+      "collision_verdict": "REVIEW REQUIRED",
+      "font_exit_code": 0,
+      "font_report": {
+        "auditable": true,
+        "below_minimum": [],
+        "below_minimum_count": 0,
+        "minimum_found_pt": 8.0,
+        "minimum_required_pt": 5.0,
+        "pdf": "/Users/jarlgiovanni/Desktop/fear_of_temperature/docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/source_proportions.pdf",
+        "text_run_count": 32,
+        "warnings": []
+      },
+      "pdf_sha256": "5ee5d92003ab8a536ecdd46f51cbe1e09526896e6fa607012e563b5dd26fff34"
+    },
+    "terminology_groups_final_20261021": {
+      "collision_exit_code": 0,
+      "collision_summary": {
+        "contained_fill_overlays": 0,
+        "contained_image_overlays": 0,
+        "fail": 0,
+        "warn": 0
+      },
+      "collision_verdict": "PASS",
+      "font_exit_code": 0,
+      "font_report": {
+        "auditable": true,
+        "below_minimum": [],
+        "below_minimum_count": 0,
+        "minimum_found_pt": 8.0,
+        "minimum_required_pt": 5.0,
+        "pdf": "/Users/jarlgiovanni/Desktop/fear_of_temperature/docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/terminology_groups_final_20261021.pdf",
+        "text_run_count": 30,
+        "warnings": []
+      },
+      "pdf_sha256": "65fddf7cf1c58c34f8894809bf1a231402e7a0ca8980c0555b6482e9fc6931d2"
+    }
+  },
+  "format_exemptions": [
+    "Desktop research report at12 inches wide; no target-journal dimensions requested",
+    "300dpi PNG previews; editable PDF/SVG primary vector exports; no TIFF requested"
+  ],
+  "image_integrity": "All marks are generated in Python from CSV/counts; no image retouching",
+  "intentional_overlays_reviewed": "Final donut has1filled-shape bounding-box warning. Percentage labels were visually inspected inside wedges; none crosses a visible wedge edge.",
+  "source_csv_hashes": {
+    "annual_by_source_matrix.csv": "fae233895a40b1868ea7cd71703fadfc5d138bb2532326cbc389998fbee1873a",
+    "annual_terminology_fractional.csv": "74177ef1532d44e6d180bebd9b63f615babfab1b4882c4c6efa6686f40e237ed",
+    "annual_terminology_multihit.csv": "6f57a671062b131a2cd8c0c98bfecc280539282fd81a34a58ced5935b57622af",
+    "event_distribution_alignment.csv": "32784a39eba038c21085a03149b6d96ec0dd0c381c6d2bfa86f480a06437c9e5",
+    "event_reference_lineage.csv": "cdf8427124f9c59f2bdd000620ebf5427d0cee9023a2948b5113ee6a21306501",
+    "extended33_annual_phases.csv": "7fdbec3452e94a6aa80c2ac3df11a44d0cb91670dd391a81c41da4136019f982",
+    "middle_year_zero_checks.csv": "d2587f0781363079d248e2dd77d13bb7ba4b9daf5f3b742f9e30aa6cf8f0b647",
+    "missing_months.csv": "2b8327556746c1c4df5eb4a23573c0484e59e3a33bed2c4863f1ac3471fc29bf",
+    "monthly_by_source_matrix.csv": "408d8ed765ae82867949ed93e7f52b0061944cd75e20077a501b9e7434c8ec0a",
+    "monthly_pooled_matrix.csv": "1c6fc838a33afadbc42eb5e9b55062d0bc4e6c8dc25fdfc821044787bbb22507",
+    "pending_date_records.csv": "11c7128a8e1408b7ae9691b1ce07f01d5fa05730f159f40b8aab6889cdfbc2d1",
+    "pending_sources.csv": "230219e52fb44ab959fee1a59d9faca9663ca7510c905b56e229190c58014a43",
+    "pooled_missing_months.csv": "05431f3f9f73b6dc6429dc9e0a4d37b153d2c7f5e98e457e3c06eab3853b6168",
+    "qld_date_allocation.csv": "a3c96c5a9acfd00f02cec339e6e9c871118e5025a2e944a22078b8f967442f1a",
+    "source_tier_proportions.csv": "7e835978d0380355aeefd1b9cf20910a13f3c44f19a9134da6a9bcad2cb14408",
+    "source_totals.csv": "89b023af60198e6ad9b607b6266c475570b3cac9e21c80071a1f621e3352d4cd",
+    "unallocated_or_pending_dates.csv": "c147fa3597879ab065e695d1debee39e5b652477aa948ca9df67295d2d2b6dfc"
+  },
+  "source_preflight_exit_code": 0,
+  "statistics": "Exact inventory counts; no inferential tests, smoothing or error bars",
+  "status": "PASS"
+}
