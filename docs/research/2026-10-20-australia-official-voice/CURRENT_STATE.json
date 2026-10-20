@@ -1,0 +1,67 @@
+{
+  "status": "closed_by_user",
+  "recorded_at": "2026-10-21T01:47:23+10:00",
+  "decision": "CLOSEOUT_SCOPE_DECISION.json",
+  "frozen_delivery": "DELIVERY_SUMMARY.json",
+  "frozen_snapshot": "2026-10-20T15:27:17+00:00",
+  "publication_interval": [
+    "1988-01-01",
+    "2026-09-21"
+  ],
+  "acquisition_closed": true,
+  "all_available_sources_complete": true,
+  "all_sources_complete": false,
+  "available_routes_terminal": 9,
+  "pending_route_count": 8,
+  "pending_routes": [
+    "austlii_dfat",
+    "austlii_sa_gazette",
+    "csiro_publications",
+    "hansard_nsw",
+    "other_university_repositories",
+    "slq",
+    "trove",
+    "trove_web_official_publications"
+  ],
+  "automatic_followup_acquisition": false,
+  "next_collection_window": {
+    "decision_status": "selected_priority_collection_window",
+    "geographical_frame": "Australian institutions, sources and evidenced public/community context; not inferred individual residence",
+    "main_material": [
+      "social_media",
+      "personal_discourse"
+    ],
+    "source_frames": [
+      "native social posts",
+      "forum discussions and replies",
+      "reader comments",
+      "personal and community blogs"
+    ],
+    "traditional_editorial_news_role": "separate media/background; not a substitute for public expression",
+    "start_year": 2003,
+    "precision": "approximate years; day-level boundaries not yet specified",
+    "end_year": null,
+    "candidate_end_years": [
+      2024,
+      2025
+    ],
+    "exact_endpoint_status": "awaiting user instruction in a new window",
+    "historical_background_years": [
+      1988,
+      2002
+    ],
+    "outer_publication_interval_unchanged": [
+      "1988-01-01",
+      "2026-09-21"
+    ],
+    "user_period_labels": {
+      "1988-2002": "基础孵化期 / historical background",
+      "2003-2024/2025 approximately": "黄金观察窗口 / selected priority dense-collection window"
+    },
+    "period_label_basis": "User-selected working labels, not validated historical regimes or a fitted change point",
+    "analytical_event_windows_vector_subset_and_model_design": "not selected by this collection-scope decision",
+    "existing_raw_preservation_no_fear_filter_and_real_source_month_admission_rules": "unchanged"
+  },
+  "calendar_validated": false,
+  "next_user_instruction_location": "new window opened and instructed by user"
+}

@@ -1,0 +1,294 @@
+{
+  "decision_id": "2026-10-21-official-voice-closeout-public-expression-window",
+  "recorded_at": "2026-10-21T01:47:23+10:00",
+  "authority": "Direct user instruction in this government/institutional chat; documentation and handoff only",
+  "official_voice_acquisition": {
+    "status": "closed_by_user",
+    "available_routes_terminal": 9,
+    "all_available_sources_complete": true,
+    "all_sources_complete": false,
+    "pending_routes": [
+      "austlii_dfat",
+      "austlii_sa_gazette",
+      "csiro_publications",
+      "hansard_nsw",
+      "other_university_repositories",
+      "slq",
+      "trove",
+      "trove_web_official_publications"
+    ],
+    "pending_routes_are_automatic_queue": false,
+    "preserve_raw_metadata_frozen_exports_reports_and_retirement_catalog": true,
+    "frozen_snapshot": "2026-10-20T15:27:17+00:00",
+    "retained_all_date_states": 42006,
+    "in_interval_matrix_counts": {
+      "baseline26": 3676,
+      "extended33_union": 41689
+    },
+    "formal_new_jsonl_export": "withheld under requested all_sources_complete condition; previous frozen export retained"
+  },
+  "selected_next_collection_scope": {
+    "decision_status": "selected_priority_collection_window",
+    "geographical_frame": "Australian institutions, sources and evidenced public/community context; not inferred individual residence",
+    "main_material": [
+      "social_media",
+      "personal_discourse"
+    ],
+    "source_frames": [
+      "native social posts",
+      "forum discussions and replies",
+      "reader comments",
+      "personal and community blogs"
+    ],
+    "traditional_editorial_news_role": "separate media/background; not a substitute for public expression",
+    "start_year": 2003,
+    "precision": "approximate years; day-level boundaries not yet specified",
+    "end_year": null,
+    "candidate_end_years": [
+      2024,
+      2025
+    ],
+    "exact_endpoint_status": "awaiting user instruction in a new window",
+    "historical_background_years": [
+      1988,
+      2002
+    ],
+    "outer_publication_interval_unchanged": [
+      "1988-01-01",
+      "2026-09-21"
+    ],
+    "user_period_labels": {
+      "1988-2002": "基础孵化期 / historical background",
+      "2003-2024/2025 approximately": "黄金观察窗口 / selected priority dense-collection window"
+    },
+    "period_label_basis": "User-selected working labels, not validated historical regimes or a fitted change point",
+    "analytical_event_windows_vector_subset_and_model_design": "not selected by this collection-scope decision",
+    "existing_raw_preservation_no_fear_filter_and_real_source_month_admission_rules": "unchanged"
+  },
+  "rationale_and_evidence": {
+    "user_rationale": [
+      "Prioritise the later, denser part of the observed official inventory",
+      "Seek feasible digital public-expression sources",
+      "Use dated temperature/report references as contextual comparison points"
+    ],
+    "annual_counts_2003_to_2006": {
+      "2003": 438,
+      "2004": 487,
+      "2005": 479,
+      "2006": 986
+    },
+    "first_observed_year_above_1000": 2007,
+    "window_checks": [
+      {
+        "start_year": 1988,
+        "end_year": 2002,
+        "extended33_native_metadata_records": 2049,
+        "annual_min": 10,
+        "annual_max": 420,
+        "reference_inventory_rows": 27,
+        "reference_inventory_groups": {
+          "temperature_case": 23,
+          "report_release": 4
+        },
+        "zero_observed_months": {
+          "baseline26": [
+            "1988-02",
+            "1988-03",
+            "1988-05",
+            "1988-06",
+            "1988-07",
+            "1988-08",
+            "1988-12",
+            "1989-01",
+            "1989-02",
+            "1989-04",
+            "1989-05",
+            "1989-06",
+            "1989-08",
+            "1989-10",
+            "1989-12",
+            "1990-01",
+            "1990-02",
+            "1990-05",
+            "1990-07",
+            "1990-11",
+            "1991-02",
+            "1991-03",
+            "1991-04",
+            "1991-05",
+            "1991-06",
+            "1991-08",
+            "1991-09",
+            "1991-10",
+            "1991-11",
+            "1992-01",
+            "1992-03",
+            "1992-04",
+            "1992-05",
+            "1992-06",
+            "1992-08",
+            "1992-09",
+            "1992-10",
+            "1992-11",
+            "1992-12",
+            "1993-01",
+            "1993-03",
+            "1993-04",
+            "1993-05",
+            "1993-06",
+            "1993-08",
+            "1993-11",
+            "1993-12",
+            "1994-02",
+            "1994-03",
+            "1995-01",
+            "1995-02",
+            "1995-03",
+            "1995-04",
+            "1995-10",
+            "1995-12",
+            "1996-02",
+            "1996-03",
+            "1996-10",
+            "1997-02",
+            "1997-03",
+            "1997-05",
+            "1997-07",
+            "1997-08",
+            "1997-09",
+            "1998-01",
+            "1998-05",
+            "1998-07",
+            "1999-01",
+            "1999-02",
+            "2000-01",
+            "2001-01",
+            "2001-02",
+            "2001-05",
+            "2001-07",
+            "2001-09",
+            "2002-06",
+            "2002-08"
+          ],
+          "extended33_union": [
+            "1988-02",
+            "1988-03",
+            "1988-05",
+            "1988-06",
+            "1988-07",
+            "1988-08",
+            "1989-01",
+            "1989-02",
+            "1989-04",
+            "1989-06",
+            "1990-05",
+            "1992-08",
+            "1992-11",
+            "1994-02"
+          ]
+        }
+      },
+      {
+        "start_year": 2003,
+        "end_year": 2024,
+        "extended33_native_metadata_records": 36348,
+        "annual_min": 438,
+        "annual_max": 3023,
+        "reference_inventory_rows": 60,
+        "reference_inventory_groups": {
+          "temperature_case": 51,
+          "report_release": 9
+        },
+        "zero_observed_months": {
+          "baseline26": [
+            "2003-01",
+            "2003-04",
+            "2003-05",
+            "2003-07",
+            "2004-10",
+            "2005-01",
+            "2005-04",
+            "2006-05",
+            "2006-06",
+            "2006-07",
+            "2007-01",
+            "2009-07",
+            "2010-08",
+            "2013-04"
+          ],
+          "extended33_union": [
+            "2003-01"
+          ]
+        }
+      },
+      {
+        "start_year": 2003,
+        "end_year": 2025,
+        "extended33_native_metadata_records": 38356,
+        "annual_min": 438,
+        "annual_max": 3023,
+        "reference_inventory_rows": 61,
+        "reference_inventory_groups": {
+          "temperature_case": 52,
+          "report_release": 9
+        },
+        "zero_observed_months": {
+          "baseline26": [
+            "2003-01",
+            "2003-04",
+            "2003-05",
+            "2003-07",
+            "2004-10",
+            "2005-01",
+            "2005-04",
+            "2006-05",
+            "2006-06",
+            "2006-07",
+            "2007-01",
+            "2009-07",
+            "2010-08",
+            "2013-04"
+          ],
+          "extended33_union": [
+            "2003-01"
+          ]
+        }
+      }
+    ],
+    "reference_inventory": {
+      "total_rows": 90,
+      "temperature_case_starts": 77,
+      "report_releases": 13,
+      "scope": "non-exhaustive preserved external inventory; possible overlap, not independent shocks or a validated calendar"
+    },
+    "not_established": [
+      "a structural or exponential jump in 2003/2004",
+      "statistical power or sample independence from metadata volume",
+      "official discourse as an exogenous stimulus",
+      "complete platform or personal-expression coverage over 2003-2025",
+      "absence of all personal/public expression before 2003",
+      "a verified physical event or report match for every future collection window",
+      "physical warming, emotion, fear or attention prevalence from query-hit counts"
+    ],
+    "coverage_caveats": [
+      "Counts are source-native query matches with heterogeneous units, source holdings and date precision",
+      "Catalogue or repository membership is not an institutional position; parliamentary speech is not automatically executive speech",
+      "Official availability does not establish social-source availability; distinguish pre-launch inapplicability from archival/access gaps",
+      "Existing phase-tagged CSV and charts retain their frozen labels and values"
+    ],
+    "source_files_sha256": {
+      "docs/research/2026-10-20-australia-official-voice/DELIVERY_SUMMARY.json": "8722f282ad36a17198e1906fb292c6cacf24dd137799fd158fb307bbf4b7b5ef",
+      "docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/extended33_annual_phases.csv": "7fdbec3452e94a6aa80c2ac3df11a44d0cb91670dd391a81c41da4136019f982",
+      "docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/event_reference_lineage.csv": "cdf8427124f9c59f2bdd000620ebf5427d0cee9023a2948b5113ee6a21306501",
+      "docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/monthly_pooled_matrix.csv": "1c6fc838a33afadbc42eb5e9b55062d0bc4e6c8dc25fdfc821044787bbb22507"
+    }
+  },
+  "handoff": {
+    "new_window_opened_by": "user",
+    "next_action": "await the user's separately supplied task and exact endpoint; read current direction and latest log",
+    "new_collection_or_official_reopening_authorized_by_this_update": false,
+    "new_chats_created": false,
+    "other_chats_messaged": false,
+    "cleaning_deletion_models_or_migration_launched": false
+  }
+}

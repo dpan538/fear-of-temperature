@@ -9,18 +9,19 @@
 
 ## 30-second overview
 
-**Current direction:** build an international temporal record of climate and warming discourse,
-its affective associations and macro feedback across government, media and public sources.
-Fear is a later evidence-linked interpretation, not an early collection filter. Prioritise real event and
-documentary evidence across months and research checkpoints, with shared knowledge, memory
-and culture as the interpretive perspective. Follow
-[`docs/PROJECT_DIRECTION.md`](docs/PROJECT_DIRECTION.md) for priorities and stopping rules;
-exhaustive national coverage is not a prerequisite for advancing the research.
+**Latest government/institutional status, 21 October:** [Official Voice](docs/research/2026-10-20-australia-official-voice/README.md)
+acquisition is **closed by Dai**. Nine available routes are exhausted; eight named routes remain
+pending, so full-registry completeness remains false. Preserve the metadata/excerpt inventory,
+frozen reports and 1988-01-01–2026-09-21 official reference interval. See the
+[closeout and selected scope](docs/research/2026-10-20-australia-official-voice/CLOSEOUT_SCOPE_DECISION.json).
 
-**Current stage (4 October):** the publication interval is fixed at 1 January 1988–21 September
-2026. Audit source/genre distributions, provenance quality and structural/numerical defects.
-Climate relevance and emotion interpretation belong to later analysis, not current data-quality
-gates. Retrieval and report dates may advance without extending the study endpoint.
+**Selected next collection scope:** approximately **2003–2024/2025** for dense Australian social
+media and personal discourse; retain **1988–2002** as historical/background reference. The exact
+endpoint awaits Dai's separate instructions in a new window. This is a research priority, not proof
+of exponential discourse growth, statistical power, exogenous stimuli or complete social coverage.
+No new acquisition or automatic official follow-up is launched by this closeout.
+
+**Current stage:** the completed official inventory provides descriptive source/time context for the next Australian public-expression collection. Native social posts, forum discussion, reader comments and personal/community blogs remain distinct from editorial news. The next task and exact endpoint await the user's separate instructions; this closeout does not launch collection or models.
 
 | Question | Answer |
 |---|---|
@@ -79,21 +80,21 @@ to `outputs/demo/`. The main notebooks are
 
 ## Project context and research questions
 
-The corpus combines English-language policy, media and public discourse across regions
-during 1988–2026 to study temporal macro feedback. UK, US, EU and Australian government
-acquisition is the current focus; additional Ireland/New Zealand acquisition is deferred.
-Source and region remain identifiable, while the primary questions concern the international
-record rather than compulsory national comparisons. The project asks:
+The empirical scope is Australian institutions, media and sources with evidenced Australian
+public/community context, within the fixed 1988-01-01–2026-09-21 publication interval.
+International holdings and the submitted proposal retain their historical scope.
 
-1. When do the three discourse roles lead, lag, move together or appear to feed back?
-2. What changes around independently dated physical, scientific and policy events?
-3. How are fear expressions organised through similarity structures and original passages?
+The current operational design for RQ1/RQ2 uses events/checkpoints grounded in dated data,
+statements or reporting to define periods and compare social-data activity distributions before
+and after events. Government original articles provide event/context evidence. Social datasets
+provide the main analysis material, with text paragraphs converted to vectors for analysis and
+prediction. Paragraph counts and native post/activity counts remain distinct.
 
-RQ1/RQ2 take priority. Acquisition, cleaning and validated climate-topic similarity retrieval
-precede temporal estimation. Early role/time measures concern documented attention and
-affective or risk associations where valid; they do not directly score population fear.
-RQ3 returns to traceable passages to interpret fear, its targets and attributed causes.
-Available experimental modules do not add compulsory research tasks.
+The exact question wording, activity unit, period boundaries, vector algorithm, prediction target
+and horizon still need specification. The phrase paragraph-to-vector does not select the literal
+Word2Vec algorithm. RQ3 remains a later return to traceable passages to interpret fear, its
+targets and attributed causes. Available experimental modules do not add compulsory tasks,
+and before/after associations or successful prediction do not establish causal influence.
 
 Publisher, quoted speaker and emotion holder remain separate; direct heat danger and
 longer-term concern are separately labelled. Textual emotion is not a population diagnosis.

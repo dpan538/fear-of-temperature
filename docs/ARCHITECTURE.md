@@ -4,7 +4,31 @@ Current research priorities and acquisition stopping rules are set by
 [PROJECT_DIRECTION.md](PROJECT_DIRECTION.md). This document inventories implemented
 infrastructure; available modules do not establish additional compulsory research tasks.
 
-## Execution flow
+## Current planned research flow, updated 21 October 2026
+
+**21 October closeout:** Official Voice acquisition is closed by Dai. All 9 executable routes
+are exhausted; 8 named routes remain pending, with `all_sources_complete:false` unchanged.
+The full official 1988-01-01–2026-09-21 inventory and frozen evidence remain preserved.
+Dai selects approximately **2003–2024/2025** as the priority dense-collection window for Australian
+Social Media and Personal Discourse, with 1988–2002 as historical/background reference.
+The exact endpoint awaits a separately instructed new window; this decision launches no collector,
+new chat, corpus cleaning, model or migration. See the
+[scope decision](research/2026-10-20-australia-official-voice/CLOSEOUT_SCOPE_DECISION.json).
+Observed official counts/reference events do not establish statistical power, causal exogeneity,
+complete social coverage or an event match for every proposed window.
+
+**20 October amendment, official-voice workstream:** the search-led event pipeline is retired.
+The [replacement](research/2026-10-20-australia-official-voice/README.md) uses documented public
+source interfaces or frozen ready-made Hansard exports, the four-dimensional query matrix,
+and two research tables: `source_documents` and `event_claims`. Only compact metadata and
+at most 500-character excerpts persist; complete original bodies are transient. PostgreSQL DDL
+and JSON validation accompany a local SQLite acquisition store, without production warehouse
+migration. Operational page/cursor receipts are separate from the two research tables. Claims
+default to draft, missing/coarse dates remain explicit, and a source-native record count does
+not imply independently authored speech or institutional endorsement. Dai removed the fixed
+15 GiB floor for this task; actual-operation capacity checks remain. The text stream is unchanged.
+
+## Implemented demonstration flow
 
 ```text
 CSV / JSONL / Parquet
