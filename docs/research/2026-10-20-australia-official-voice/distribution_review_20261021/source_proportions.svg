@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="864pt" height="540pt" viewBox="0 0 864 540" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-21T01:27:22.519966</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 540 
+L 864 540 
+L 864 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 272.16 134.46 
+C 246.874842 134.46 222.000722 140.894574 199.887385 153.155876 
+C 177.774047 165.417178 159.140446 183.106568 145.746812 204.553008 
+C 132.353178 225.999448 124.634969 250.505668 123.321287 275.756677 
+C 122.007605 301.007686 127.141162 326.182518 138.237014 348.903022 
+C 149.332866 371.623526 166.030262 391.151008 186.751876 405.640795 
+C 207.473489 420.130583 231.545615 429.111581 256.69427 431.735397 
+C 281.842924 434.359212 307.250468 430.540538 330.516768 420.640108 
+C 353.783068 410.739678 374.151684 395.079376 389.698487 375.13856 
+L 359.13848 351.312534 
+C 347.633846 366.068738 332.56107 377.657361 315.344009 384.98368 
+C 298.126947 392.309998 279.325364 395.135817 260.71536 393.194193 
+C 242.105355 391.25257 224.291982 384.606631 208.957988 373.884189 
+C 193.623994 363.161746 181.26792 348.711409 173.05699 331.898236 
+C 164.84606 315.085064 161.047228 296.455688 162.019352 277.769941 
+C 162.991477 259.084194 168.702952 240.949592 178.614241 225.079226 
+C 188.52553 209.20886 202.314395 196.118712 218.678265 187.045348 
+C 235.042134 177.971984 253.448983 173.2104 272.16 173.2104 
+z
+" style="fill: #1f77b4; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 389.698487 375.13856 
+C 412.267555 346.190767 423.365864 309.901623 420.849313 273.281895 
+C 418.332762 236.662166 402.374564 202.232378 376.057712 176.644083 
+L 349.044307 204.426621 
+C 368.518778 223.36196 380.327844 248.840003 382.190092 275.938602 
+C 384.05234 303.037201 375.839591 329.891167 359.13848 351.312534 
+z
+" style="fill: #ff7f0e; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 376.057712 176.644083 
+C 375.931557 176.521421 375.805185 176.398982 375.678597 176.276767 
+C 375.552009 176.154552 375.425204 176.032562 375.298183 175.910796 
+L 348.482256 203.883989 
+C 348.576251 203.974096 348.670086 204.064369 348.763762 204.154808 
+C 348.857437 204.245247 348.950952 204.335851 349.044307 204.426621 
+z
+" style="fill: #e377c2; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 375.298183 175.910796 
+C 367.133069 168.083477 358.103387 161.211032 348.383672 155.426297 
+C 338.663956 149.641562 328.317237 144.98205 317.543503 141.537825 
+L 305.743793 178.44799 
+C 313.716355 180.996717 321.372928 184.444756 328.565517 188.72546 
+C 335.758107 193.006163 342.440071 198.091773 348.482256 203.883989 
+z
+" style="fill: #7f7f7f; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 317.543503 141.537825 
+C 317.01217 141.367964 316.479887 141.201088 315.94668 141.037204 
+C 315.413473 140.87332 314.879349 140.712431 314.344336 140.554544 
+L 303.376408 177.720362 
+C 303.772319 177.837199 304.16757 177.956257 304.562143 178.077531 
+C 304.956716 178.198805 305.350606 178.322293 305.743793 178.44799 
+z
+" style="fill: #2ca02c; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 314.344336 140.554544 
+C 311.651142 139.759761 308.936024 139.041249 306.202234 138.399869 
+C 303.468444 137.75849 300.717075 137.194497 297.95142 136.708569 
+L 291.24565 174.874341 
+C 293.292235 175.233928 295.328249 175.651282 297.351253 176.125903 
+C 299.374258 176.600525 301.383445 177.132223 303.376408 177.720362 
+z
+" style="fill: #8c564b; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 297.95142 136.708569 
+C 297.361451 136.604911 296.770862 136.50481 296.179686 136.408273 
+C 295.58851 136.311735 294.996758 136.218763 294.404461 136.12936 
+L 288.620901 174.445726 
+C 289.059201 174.511884 289.497098 174.580684 289.934568 174.652122 
+C 290.372038 174.723559 290.809073 174.797634 291.24565 174.874341 
+z
+" style="fill: #9467bd; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 294.404461 136.12936 
+C 294.245282 136.105333 294.086064 136.081564 293.926807 136.058053 
+C 293.767551 136.034542 293.608257 136.011289 293.448925 135.988294 
+L 287.913804 174.341338 
+C 288.03171 174.358354 288.149588 174.375561 288.267437 174.392959 
+C 288.385287 174.410357 288.503109 174.427946 288.620901 174.445726 
+z
+" style="fill: #d62728; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 293.448925 135.988294 
+C 289.958084 135.484495 286.450458 135.10477 282.932676 134.849837 
+C 279.414893 134.594903 275.889169 134.464921 272.362164 134.460137 
+L 272.309601 173.210501 
+C 274.919585 173.214042 277.528621 173.310228 280.13178 173.498879 
+C 282.734939 173.68753 285.330582 173.968527 287.913804 174.341338 
+z
+" style="fill: #2ca02c; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 272.362164 134.460137 
+C 272.32847 134.460091 272.294776 134.460057 272.261082 134.460034 
+C 272.227388 134.460011 272.193694 134.46 272.16 134.46 
+L 272.16 173.2104 
+C 272.184934 173.2104 272.209867 173.210408 272.234801 173.210425 
+C 272.259734 173.210442 272.284668 173.210468 272.309601 173.210501 
+z
+" style="fill: #2ca02c; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 272.16 176.1912 
+C 253.954686 176.1912 236.04532 180.824093 220.123717 189.652231 
+C 204.202114 198.480368 190.785921 211.216729 181.142505 226.658166 
+C 171.499088 242.099603 165.941977 259.744081 164.996126 277.924807 
+C 164.050276 296.105534 167.746436 314.231413 175.73545 330.590176 
+C 183.724463 346.948939 195.746588 361.008726 210.66615 371.441373 
+C 225.585712 381.87402 242.917643 388.340338 261.024674 390.229486 
+C 279.131705 392.118633 297.425137 389.369187 314.176873 382.240878 
+C 330.928609 375.112568 345.594013 363.837151 356.787711 349.479763 
+L 327.403089 326.570123 
+C 320.096092 335.942307 310.522842 343.302649 299.587681 347.955851 
+C 288.65252 352.609053 276.710974 354.40383 264.891107 353.170636 
+C 253.071239 351.937443 241.75734 347.716374 232.018182 340.906174 
+C 222.279023 334.095974 214.431247 324.918057 209.216196 314.23942 
+C 204.001146 303.560784 201.588374 291.728613 202.205805 279.860638 
+C 202.823235 267.992664 206.450794 256.474741 212.745802 246.394914 
+C 219.04081 236.315087 227.798602 228.001074 238.191871 222.238262 
+C 248.585139 216.47545 260.275976 213.4512 272.16 213.4512 
+z
+" style="fill: #8dd3c7; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 356.787711 349.479763 
+C 373.037439 328.637352 381.028222 302.509169 379.216306 276.142964 
+C 377.404389 249.77676 365.914486 224.987312 346.966353 206.56374 
+L 320.991925 233.277719 
+C 333.360845 245.304218 340.861198 261.486218 342.043977 278.697491 
+C 343.226756 295.908763 338.010551 312.96466 327.403089 326.570123 
+z
+" style="fill: #ffffb3; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 346.966353 206.56374 
+C 340.747449 200.517001 333.818269 195.246534 326.330634 190.867819 
+C 318.842999 186.489104 310.851999 183.034356 302.532722 180.579272 
+L 291.986638 216.315636 
+C 297.417277 217.91826 302.633624 220.173443 307.521386 223.031771 
+C 312.409148 225.890098 316.932363 229.330542 320.991925 233.277719 
+z
+" style="fill: #bebada; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 302.532722 180.579272 
+C 300.068672 179.852111 297.579302 179.213673 295.069427 178.665193 
+C 292.559551 178.116713 290.030788 177.658544 287.488026 177.291572 
+L 282.165795 214.169498 
+C 283.825653 214.40905 285.476374 214.708132 287.114765 215.066168 
+C 288.753156 215.424203 290.378161 215.840961 291.986638 216.315636 
+z
+" style="fill: #fb8072; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 287.488026 177.291572 
+C 284.97462 176.928837 282.44913 176.655435 279.916326 176.471882 
+C 277.383523 176.28833 274.845002 176.194743 272.305558 176.191299 
+L 272.255017 213.451264 
+C 273.912709 213.453513 275.5698 213.514604 277.223158 213.634423 
+C 278.876515 213.754242 280.525099 213.932713 282.165795 214.169498 
+z
+" style="fill: #80b1d3; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 272.305558 176.191299 
+C 272.281298 176.191266 272.257039 176.191241 272.232779 176.191225 
+C 272.208519 176.191208 272.18426 176.1912 272.16 176.1912 
+L 272.16 213.4512 
+C 272.175836 213.4512 272.191672 213.451205 272.207509 213.451216 
+C 272.223345 213.451227 272.239181 213.451243 272.255017 213.451264 
+z
+" style="fill: #fdb462; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="155.647002" y="342.729731" transform="rotate(-0 155.647002 342.729731)">64.5%</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="401.519703" y="276.93935" transform="rotate(-0 401.519703 276.93935)">23.3%</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: middle" x="338.474595" y="174.40498" transform="rotate(-0 338.474595 174.40498)">7.2%</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(237.46625 272.715332)">Extended33</text>
+    <text style="font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(252.281172 286.864258)">41,689</text>
+    <text style="font-size: 13px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(229.164531 301.013184)">unique records</text>
+   </g>
+  </g>
+  <g id="text_5">
+   <text style="font-weight: 700; font-size: 15px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="69.12" y="27.12041" transform="rotate(-0 69.12 27.12041)">Institutional tiers and source shares</text>
+  </g>
+  <g id="text_6">
+   <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="69.12" y="45.9" transform="rotate(-0 69.12 45.9)">Extended33 in-interval records; all slice percentages use the same unique-ID denominator.</text>
+  </g>
+  <g id="text_7">
+   <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="69.12" y="526.5" transform="rotate(-0 69.12 526.5)">Observed metadata; source-native units differ. 2026 ends 21 September. Pending routes remain disclosed.</text>
+  </g>
+  <g id="text_8">
+   <text style="font-size: 8px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start; fill: #555555" x="69.12" y="56.7" transform="rotate(-0 69.12 56.7)">Snapshot: 2026-10-20T15:27:17+00:00</text>
+  </g>
+  <g id="text_9">
+   <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(69.12 489.704414)">Federal executive Gazettes are separate from Parliament. Gazette issuer ≠ every notice holder.</text>
+   <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif" transform="translate(69.12 499.5)">Repository membership and agency hosting do not establish institutional endorsement.</text>
+  </g>
+  <g id="legend_1">
+   <g id="text_10">
+    <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="564.775469" y="123.380273" transform="rotate(-0 564.775469 123.380273)">Inner ring: institutional tier</text>
+   </g>
+   <g id="patch_18">
+    <path d="M 535.14 136.537207 
+L 553.14 136.537207 
+L 553.14 130.237207 
+L 535.14 130.237207 
+z
+" style="fill: #8dd3c7; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="136.537207" transform="rotate(-0 560.34 136.537207)">Federal Parliament  26,873 (64.5%)</text>
+   </g>
+   <g id="patch_19">
+    <path d="M 535.14 149.483672 
+L 553.14 149.483672 
+L 553.14 143.183672 
+L 535.14 143.183672 
+z
+" style="fill: #ffffb3; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="149.483672" transform="rotate(-0 560.34 149.483672)">Academic  9,698 (23.3%)</text>
+   </g>
+   <g id="patch_20">
+    <path d="M 535.14 162.430137 
+L 553.14 162.430137 
+L 553.14 156.130137 
+L 535.14 156.130137 
+z
+" style="fill: #bebada; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="162.430137" transform="rotate(-0 560.34 162.430137)">State Gov  3,214 (7.7%)</text>
+   </g>
+   <g id="patch_21">
+    <path d="M 535.14 175.376602 
+L 553.14 175.376602 
+L 553.14 169.076602 
+L 535.14 169.076602 
+z
+" style="fill: #fb8072; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="175.376602" transform="rotate(-0 560.34 175.376602)">Scientific Agency  953 (2.3%)</text>
+   </g>
+   <g id="patch_22">
+    <path d="M 535.14 188.323066 
+L 553.14 188.323066 
+L 553.14 182.023066 
+L 535.14 182.023066 
+z
+" style="fill: #80b1d3; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="188.323066" transform="rotate(-0 560.34 188.323066)">Federal Gov / Gazette  942 (2.3%)</text>
+   </g>
+   <g id="patch_23">
+    <path d="M 535.14 201.269531 
+L 553.14 201.269531 
+L 553.14 194.969531 
+L 535.14 194.969531 
+z
+" style="fill: #fdb462; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="201.269531" transform="rotate(-0 560.34 201.269531)">Gazette issuer unresolved  9 (0.02%)</text>
+   </g>
+  </g>
+  <g id="legend_2">
+   <g id="text_17">
+    <text style="font-size: 10px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="561.442812" y="296.185938" transform="rotate(-0 561.442812 296.185938)">Outer ring: specific source</text>
+   </g>
+   <g id="patch_24">
+    <path d="M 535.14 309.342871 
+L 553.14 309.342871 
+L 553.14 303.042871 
+L 535.14 303.042871 
+z
+" style="fill: #1f77b4; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="309.342871" transform="rotate(-0 560.34 309.342871)">Federal Hansard  26,873 (64.5%)</text>
+   </g>
+   <g id="patch_25">
+    <path d="M 535.14 322.294434 
+L 553.14 322.294434 
+L 553.14 315.994434 
+L 535.14 315.994434 
+z
+" style="fill: #ff7f0e; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="322.294434" transform="rotate(-0 560.34 322.294434)">UQ eSpace  9,698 (23.3%)</text>
+   </g>
+   <g id="patch_26">
+    <path d="M 535.14 335.245996 
+L 553.14 335.245996 
+L 553.14 328.945996 
+L 535.14 328.945996 
+z
+" style="fill: #e377c2; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="335.245996" transform="rotate(-0 560.34 335.245996)">QLD Open Data  47 (0.1%)</text>
+   </g>
+   <g id="patch_27">
+    <path d="M 535.14 348.197559 
+L 553.14 348.197559 
+L 553.14 341.897559 
+L 535.14 341.897559 
+z
+" style="fill: #7f7f7f; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_21">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="348.197559" transform="rotate(-0 560.34 348.197559)">QLD releases  3,018 (7.2%)</text>
+   </g>
+   <g id="patch_28">
+    <path d="M 535.14 361.144023 
+L 553.14 361.144023 
+L 553.14 354.844023 
+L 535.14 354.844023 
+z
+" style="fill: #2ca02c; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="361.144023" transform="rotate(-0 560.34 361.144023)">Trove Gazette  149 (0.4%) [state]</text>
+   </g>
+   <g id="patch_29">
+    <path d="M 535.14 374.095586 
+L 553.14 374.095586 
+L 553.14 367.795586 
+L 535.14 367.795586 
+z
+" style="fill: #8c564b; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_23">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="374.095586" transform="rotate(-0 560.34 374.095586)">CSIRO DAP  750 (1.8%)</text>
+   </g>
+   <g id="patch_30">
+    <path d="M 535.14 387.042051 
+L 553.14 387.042051 
+L 553.14 380.742051 
+L 535.14 380.742051 
+z
+" style="fill: #9467bd; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_24">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="387.042051" transform="rotate(-0 560.34 387.042051)">BoM annual summaries  160 (0.4%)</text>
+   </g>
+   <g id="patch_31">
+    <path d="M 535.14 399.988516 
+L 553.14 399.988516 
+L 553.14 393.688516 
+L 535.14 393.688516 
+z
+" style="fill: #d62728; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_25">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="399.988516" transform="rotate(-0 560.34 399.988516)">BoM SCS  43 (0.1%)</text>
+   </g>
+   <g id="patch_32">
+    <path d="M 535.14 412.93498 
+L 553.14 412.93498 
+L 553.14 406.63498 
+L 535.14 406.63498 
+z
+" style="fill: #2ca02c; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_26">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="412.93498" transform="rotate(-0 560.34 412.93498)">Trove Gazette  942 (2.3%) [federal]</text>
+   </g>
+   <g id="patch_33">
+    <path d="M 535.14 425.881445 
+L 553.14 425.881445 
+L 553.14 419.581445 
+L 535.14 419.581445 
+z
+" style="fill: #2ca02c; stroke: #ffffff; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_27">
+    <text style="font-size: 9px; font-family: 'Arial', 'DejaVu Sans', sans-serif; text-anchor: start" x="560.34" y="425.881445" transform="rotate(-0 560.34 425.881445)">Trove Gazette  9 (0.02%)</text>
+   </g>
+  </g>
+ </g>
+</svg>

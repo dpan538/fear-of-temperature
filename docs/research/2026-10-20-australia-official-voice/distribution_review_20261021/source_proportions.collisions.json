@@ -1,0 +1,48 @@
+{
+  "pdf": "/Users/jarlgiovanni/Desktop/fear_of_temperature/docs/research/2026-10-20-australia-official-voice/distribution_review_20261021/source_proportions.pdf",
+  "auditable": true,
+  "verdict": "REVIEW REQUIRED",
+  "page_count": 1,
+  "visible_text_box_count": 30,
+  "text_trace_count": 32,
+  "stroke_path_count": 32,
+  "filled_region_count": 33,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 1,
+    "contained_fill_overlays": 10,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": [
+    {
+      "severity": "WARN",
+      "kind": "text-fill-edge",
+      "page": 1,
+      "message": "Text partially overlaps the edge of 1 filled region(s)",
+      "text": "64.5%",
+      "text_bbox": [
+        142.89700317382812,
+        335.52972412109375,
+        168.3968505859375,
+        344.52972412109375
+      ],
+      "other_text": null,
+      "other_bbox": [
+        164.05027770996094,
+        176.19119262695312,
+        356.7877197265625,
+        392.11865234375
+      ],
+      "object_count": 1,
+      "object_indexes": [
+        11
+      ]
+    }
+  ]
+}
