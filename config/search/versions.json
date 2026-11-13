@@ -1,0 +1,176 @@
+{
+  "stages": [
+    {
+      "label": "v3.0",
+      "version": "au-temperature-query-clusters-v3-broad-20261102",
+      "children": 158,
+      "public_definition": "config/search/history/01_v3_0.json",
+      "original_source": "docs/research/2026-11-02-broad-recall-active/QUERY_CLUSTERS.json",
+      "original_source_sha256": "376528967dfc64d51d31b6ad85cf99e5d9c14455386fad8bf21e0e911453baa5",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.1",
+      "version": "au-temperature-query-clusters-v3.1-broad-20261102",
+      "children": 172,
+      "public_definition": "config/search/history/02_v3_1.json",
+      "original_source": "docs/research/2026-11-02-broad-recall-active/QUERY_CLUSTERS_v3_1.json",
+      "original_source_sha256": "fbec0c14c7aad3eb1a601283c51b61bee895f4844de39e3bb4c6797f71d25080",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.2",
+      "version": "au-temperature-query-clusters-v3.2-regional-longform-20261102",
+      "children": 188,
+      "public_definition": "config/search/history/03_v3_2.json",
+      "original_source": "docs/research/2026-11-02-local-publications/QUERY_CLUSTERS_v3_2.json",
+      "original_source_sha256": "8b94e57e6b5084171a60f7e5d6deecb4832fa97704e91325d1175aed81197300",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.3",
+      "version": "au-temperature-query-clusters-v3.3-local-publications-20261102",
+      "children": 205,
+      "public_definition": "config/search/history/04_v3_3.json",
+      "original_source": "docs/research/2026-11-02-local-publications/QUERY_CLUSTERS_v3_3.json",
+      "original_source_sha256": "345f6ff14554e6dc136441475384d8b2986450f1f36b8d963a7049a64bf7aa4e",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.4",
+      "version": "au-temperature-query-clusters-v3.4-remote-depth-20261102",
+      "children": 230,
+      "public_definition": "config/search/history/05_v3_4.json",
+      "original_source": "docs/research/2026-11-02-body-growth/QUERY_CLUSTERS_v3_4.json",
+      "original_source_sha256": "530b28963179c209d163946560e0d651dd60021c10a526b76c7d6cb8c8c47990",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.5",
+      "version": "au-temperature-query-clusters-v3.5-body-growth-20261102",
+      "children": 253,
+      "public_definition": "config/search/history/06_v3_5.json",
+      "original_source": "docs/research/2026-11-02-body-growth/QUERY_CLUSTERS_v3_5.json",
+      "original_source_sha256": "b429879eefd7fb212295c0c69f68a600be4b6b456964e85a75670fda0a4a3e97",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.6",
+      "version": "au-temperature-query-clusters-v3.6-personal-west-south-20261102",
+      "children": 267,
+      "public_definition": "config/search/history/07_v3_6.json",
+      "original_source": "docs/research/2026-11-02-personal-west-south/QUERY_CLUSTERS_v3_6.json",
+      "original_source_sha256": "d8363eea61f349ee17a42f7ade8fb3cf52499ee349a675cbfd447f39bc728ebd",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.7",
+      "version": "au-temperature-query-clusters-v3.7-personal-literary-round2-20261102",
+      "children": 283,
+      "public_definition": "config/search/history/08_v3_7.json",
+      "original_source": "docs/research/2026-11-02-personal-literary-round2/QUERY_CLUSTERS_v3_7.json",
+      "original_source_sha256": "57a94562783ab4c3bcd9f74ea9935acc40b0f71a5d6612a0bad1656d40baa3f1",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.8",
+      "version": "au-temperature-query-clusters-v3.8-linked-authors-round3-20261102",
+      "children": 294,
+      "public_definition": "config/search/history/09_v3_8.json",
+      "original_source": "docs/research/2026-11-02-linked-authors-round3/QUERY_CLUSTERS_v3_8.json",
+      "original_source_sha256": "525c13971c8d40581b0d1fbc15530c1ba34a86921d08d5f2bc681f3a8b081150",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.9",
+      "version": "au-temperature-query-clusters-v3.9-columns-transcripts-round4-20261102",
+      "children": 311,
+      "public_definition": "config/search/history/10_v3_9.json",
+      "original_source": "docs/research/2026-11-02-columns-transcripts-round4/QUERY_CLUSTERS_v3_9.json",
+      "original_source_sha256": "db2c1b0af2b3ccea492bf756fc4b2fcb42df625d209371071a63904d28f94a2e",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.10",
+      "version": "au-temperature-query-clusters-v3.10-authors-interviews-round5-20261102",
+      "children": 326,
+      "public_definition": "config/search/history/11_v3_10.json",
+      "original_source": "docs/research/2026-11-02-authors-interviews-round5/QUERY_CLUSTERS_v3_10.json",
+      "original_source_sha256": "08b41afc3d6adfde2ec07ba8f93faab9a706f4c81358e9eccb35a0f9b74ae527",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.11",
+      "version": "au-temperature-query-clusters-v3.11-community-narratives-round6-20261102",
+      "children": 334,
+      "public_definition": "config/search/history/12_v3_11.json",
+      "original_source": "docs/research/2026-11-02-community-narratives-round6/QUERY_CLUSTERS_v3_11.json",
+      "original_source_sha256": "b8fcf627a6e2a772e3dd3625340bda89495a4358f7c05954c1ec524e40fbb343",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.12",
+      "version": "au-temperature-query-clusters-v3.12-community-narratives-continuation-20261102",
+      "children": 341,
+      "public_definition": "config/search/history/13_v3_12.json",
+      "original_source": "docs/research/2026-11-02-community-narratives-round6/QUERY_CLUSTERS_v3_12.json",
+      "original_source_sha256": "b28f43e5b78ecf23dcd0c00075f8052b9f8b74501ae510794ed2240b85c000e5",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.13",
+      "version": "au-temperature-query-clusters-v3.13-parent-related-20261102",
+      "children": 343,
+      "public_definition": "config/search/history/14_v3_13.json",
+      "original_source": "docs/research/2026-11-02-parent-linked-round12/QUERY_CLUSTERS_v3_13.json",
+      "original_source_sha256": "06c776b75229812f2f0c631cd057afce41499ce104d8adf3cc1b6c31cbdd2278",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.14 / Sub-parent",
+      "version": "au-temperature-query-clusters-v3.14-emotion-subparents-20261104",
+      "children": 423,
+      "public_definition": "config/search/history/15_v3_14_sub_parent.json",
+      "original_source": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14.json",
+      "original_source_sha256": "77bda62c0a25be74224357dc8a6c59a701d57c349c65c6d3951fe0beee20b849",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.14 / Fear",
+      "version": "au-temperature-query-clusters-v3.14-fear-related-layer-20261104",
+      "children": 482,
+      "public_definition": "config/search/history/16_v3_14_fear.json",
+      "original_source": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14_FEAR_LAYER.json",
+      "original_source_sha256": "fadaaa5634a8ecbfcc00ef741b2bd02049acd76df8bea31ed5e8f7341997af14",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.14 / Variants",
+      "version": "au-temperature-query-clusters-v3.14-fear-cultural-variants-20261104",
+      "children": 524,
+      "public_definition": "config/search/history/17_v3_14_variants.json",
+      "original_source": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14_FEAR_VARIANTS.json",
+      "original_source_sha256": "f435aa4fc5887702e5c37dfc78bf72bebe8232c83de5df195e4b744830fdf28b",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.14 / Colloquial",
+      "version": "au-temperature-query-clusters-v3.14-fear-colloquial-cultural-20261104",
+      "children": 570,
+      "public_definition": "config/search/history/18_v3_14_colloquial.json",
+      "original_source": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14_FEAR_COLLOQUIAL.json",
+      "original_source_sha256": "5858677b684211395e3cd7ac9efb9c7b2a8bfb45684f99ee04c8af4449954c7f",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    },
+    {
+      "label": "v3.15",
+      "version": "au-temperature-query-clusters-v3.15-affect-continuum-20261105",
+      "children": 638,
+      "public_definition": "config/search/history/19_v3_15.json",
+      "original_source": "docs/research/2026-11-05-affect-continuum-round30/QUERY_CLUSTERS_v3_15_AFFECT_CONTINUUM.json",
+      "original_source_sha256": "2fc0c35537bf3eba9802bcab8b392a7acdff37406ccd39c277f6905b0066fbc3",
+      "evidence_scope": "saved_definition; not proof every expression was individually searched"
+    }
+  ],
+  "coverage": "19 v3.x stages; earlier v1/v2 material remains historical, not a complete search-runtime archive"
+}

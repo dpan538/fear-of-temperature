@@ -1,0 +1,27 @@
+{
+  "scope": "Publication artifacts only; no corpus/database/body checks run",
+  "english_new_content": "PASS",
+  "offline_job_reproduction": {
+    "saved_jobs": 4169,
+    "generated_jobs": 4169,
+    "ordered_IDs_match": true,
+    "query_weight_hint_child_fields_mismatches": 0,
+    "searches_executed": 0
+  },
+  "execution_rows": 942,
+  "saved_jobs": 4169,
+  "version_stages": 19,
+  "canonical_children": 638,
+  "annual_bins": 23,
+  "round31_domain_bins": 530,
+  "embedded_notebook_figures": 7,
+  "original_input_hashes_unchanged": true,
+  "all_new_relative_links_resolve_in_public_tree": true,
+  "failures": [],
+  "status": "PASS",
+  "checks_not_run": [
+    "No full code-suite claim for unrelated concurrent preprocessing work",
+    "No corpus bodies/databases inspected",
+    "No new acquisition or training"
+  ]
+}

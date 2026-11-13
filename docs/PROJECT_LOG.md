@@ -1,3 +1,9 @@
+# Current Progress — 13 November 2026
+
+Acquisition is complete: **776,559 baseline + 25,000 net new = 801,559 formal records**, with **1,383 current-phase reversible holds** retained outside the new-record count. The working study window is **2003-01-01–2025-12-31**. Three revised RQs and the complete query-matrix/search-process documentation are now consolidated in the [corpus closeout package](research/2026-11-13-corpus-release/README.md). See [decision history](research/2026-11-13-corpus-release/DECISION_HISTORY.md), [research questions](research/2026-11-13-corpus-release/RESEARCH_QUESTIONS.md) and [next steps](research/2026-11-13-corpus-release/NEXT_STEPS.md). Acquisition completion is not a claim of semantic gold labels, representative prevalence or validated cultural transmission. The dated entries below retain historical scopes and statuses.
+
+---
+
 # Project development log
 
 This is the ongoing record of implementation progress, decisions and weekly plans. The proposal remains the planning baseline; development findings are recorded here rather than repeatedly incorporated into the proposal.

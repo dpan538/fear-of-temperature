@@ -1,3 +1,9 @@
+# Current Research Architecture — 13 November 2026
+
+The current frame is Australian **2003–2025** text, with completed acquisition, preserved raw/identity/version layers and separately derived preprocessing. The prospective route is structural text views → work/version/thread/context grouping → frozen parent splits → train-only learned transformations → model-compatible chunks → validated affect/Fear measurement → longitudinal and event analysis. The old numerical-inventory-first question order is superseded; see [current RQs](research/2026-11-13-corpus-release/RESEARCH_QUESTIONS.md) and [next-stage design](research/2026-11-13-corpus-release/NEXT_STEPS.md). Infrastructure and historical stage descriptions below are not completed empirical findings.
+
+---
+
 # NLP workspace architecture
 
 Current research priorities and acquisition stopping rules are set by

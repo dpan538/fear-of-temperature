@@ -1,0 +1,409 @@
+{
+  "release_id": "corpus-methods-20261113",
+  "date": "2026-11-13",
+  "timezone": "Australia/Brisbane",
+  "role": "Methods, decisions, aggregate closeout and visualization publication; not a raw corpus snapshot",
+  "original_sources": [
+    {
+      "path": "docs/research/2026-11-05-affect-continuum-round30/QUERY_CLUSTERS_v3_15_AFFECT_CONTINUUM.json",
+      "sha256": "2fc0c35537bf3eba9802bcab8b392a7acdff37406ccd39c277f6905b0066fbc3"
+    },
+    {
+      "path": "outputs/01a1a3c8-b516-7692-86b3-92a80f3ad5f4/query_matrix_visuals_20261113/support/figure_data.json",
+      "sha256": "cfb8a57c76b59b6c535e7bac55b78a991f59315d94303adcd5bfb4e46f54c70f"
+    },
+    {
+      "path": "docs/research/2026-11-06-targeted-diversity-round31/TARGETED25K_FINAL_REQUIREMENT_EVIDENCE_REPORT.json",
+      "sha256": "2e5f44a7c59c2e2a631522f2780abab0136f3138aa8347d7bf80790d92e0caec"
+    },
+    {
+      "path": "docs/research/2026-11-06-targeted-diversity-round31/TARGETED_INTAKE_POLICY.json",
+      "sha256": "9c160438851934599a8bf90d1023d0e3e7bbd13a9c67d34daa21d2041ebafdcf"
+    },
+    {
+      "path": "docs/research/2026-11-06-targeted-diversity-round31/QUERY_PIPELINE_CONFIG.json",
+      "sha256": "fcfe84fb54392f46f06d9444bdd10429b991e4c79e6352e1942761cdb1491f88"
+    },
+    {
+      "path": "docs/research/2026-11-06-targeted-diversity-round31/TARGETED_SEARCH_QUERY_EXECUTIONS.json",
+      "sha256": "14ea68e48de456bcf4c2b8918ca46ac31b93dc18cebb6cb794025ca18a8b4e05"
+    },
+    {
+      "path": "docs/research/2026-11-06-targeted-diversity-round31/TARGETED_WEIGHTED_QUERY_JOBS.json",
+      "sha256": "ac20c92b4dcb755363defb2aac175baeedf8e2230eaa2572c29fcc4dee76c9c0"
+    },
+    {
+      "path": "docs/research/2026-11-06-targeted-diversity-round31/FINAL_CAPTURE_GOAL_COMPLETION_ATTESTATION_20261113.json",
+      "sha256": "b084cd6fb43604f09aecc6283c1bdbc6197ae161d83917000bb78de3da34b3e1"
+    },
+    {
+      "path": "docs/research/2026-11-02-broad-recall-active/QUERY_CLUSTERS.json",
+      "sha256": "376528967dfc64d51d31b6ad85cf99e5d9c14455386fad8bf21e0e911453baa5"
+    },
+    {
+      "path": "docs/research/2026-11-02-broad-recall-active/QUERY_CLUSTERS_v3_1.json",
+      "sha256": "fbec0c14c7aad3eb1a601283c51b61bee895f4844de39e3bb4c6797f71d25080"
+    },
+    {
+      "path": "docs/research/2026-11-02-local-publications/QUERY_CLUSTERS_v3_2.json",
+      "sha256": "8b94e57e6b5084171a60f7e5d6deecb4832fa97704e91325d1175aed81197300"
+    },
+    {
+      "path": "docs/research/2026-11-02-local-publications/QUERY_CLUSTERS_v3_3.json",
+      "sha256": "345f6ff14554e6dc136441475384d8b2986450f1f36b8d963a7049a64bf7aa4e"
+    },
+    {
+      "path": "docs/research/2026-11-02-body-growth/QUERY_CLUSTERS_v3_4.json",
+      "sha256": "530b28963179c209d163946560e0d651dd60021c10a526b76c7d6cb8c8c47990"
+    },
+    {
+      "path": "docs/research/2026-11-02-body-growth/QUERY_CLUSTERS_v3_5.json",
+      "sha256": "b429879eefd7fb212295c0c69f68a600be4b6b456964e85a75670fda0a4a3e97"
+    },
+    {
+      "path": "docs/research/2026-11-02-personal-west-south/QUERY_CLUSTERS_v3_6.json",
+      "sha256": "d8363eea61f349ee17a42f7ade8fb3cf52499ee349a675cbfd447f39bc728ebd"
+    },
+    {
+      "path": "docs/research/2026-11-02-personal-literary-round2/QUERY_CLUSTERS_v3_7.json",
+      "sha256": "57a94562783ab4c3bcd9f74ea9935acc40b0f71a5d6612a0bad1656d40baa3f1"
+    },
+    {
+      "path": "docs/research/2026-11-02-linked-authors-round3/QUERY_CLUSTERS_v3_8.json",
+      "sha256": "525c13971c8d40581b0d1fbc15530c1ba34a86921d08d5f2bc681f3a8b081150"
+    },
+    {
+      "path": "docs/research/2026-11-02-columns-transcripts-round4/QUERY_CLUSTERS_v3_9.json",
+      "sha256": "db2c1b0af2b3ccea492bf756fc4b2fcb42df625d209371071a63904d28f94a2e"
+    },
+    {
+      "path": "docs/research/2026-11-02-authors-interviews-round5/QUERY_CLUSTERS_v3_10.json",
+      "sha256": "08b41afc3d6adfde2ec07ba8f93faab9a706f4c81358e9eccb35a0f9b74ae527"
+    },
+    {
+      "path": "docs/research/2026-11-02-community-narratives-round6/QUERY_CLUSTERS_v3_11.json",
+      "sha256": "b8fcf627a6e2a772e3dd3625340bda89495a4358f7c05954c1ec524e40fbb343"
+    },
+    {
+      "path": "docs/research/2026-11-02-community-narratives-round6/QUERY_CLUSTERS_v3_12.json",
+      "sha256": "b28f43e5b78ecf23dcd0c00075f8052b9f8b74501ae510794ed2240b85c000e5"
+    },
+    {
+      "path": "docs/research/2026-11-02-parent-linked-round12/QUERY_CLUSTERS_v3_13.json",
+      "sha256": "06c776b75229812f2f0c631cd057afce41499ce104d8adf3cc1b6c31cbdd2278"
+    },
+    {
+      "path": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14.json",
+      "sha256": "77bda62c0a25be74224357dc8a6c59a701d57c349c65c6d3951fe0beee20b849"
+    },
+    {
+      "path": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14_FEAR_LAYER.json",
+      "sha256": "fadaaa5634a8ecbfcc00ef741b2bd02049acd76df8bea31ed5e8f7341997af14"
+    },
+    {
+      "path": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14_FEAR_VARIANTS.json",
+      "sha256": "f435aa4fc5887702e5c37dfc78bf72bebe8232c83de5df195e4b744830fdf28b"
+    },
+    {
+      "path": "docs/research/2026-11-04-source-scale-round29/QUERY_CLUSTERS_v3_14_FEAR_COLLOQUIAL.json",
+      "sha256": "5858677b684211395e3cd7ac9efb9c7b2a8bfb45684f99ee04c8af4449954c7f"
+    },
+    {
+      "path": "docs/research/2026-11-06-targeted-diversity-round31/targeted_query_queue.py",
+      "sha256": "6b8308dfa7961152de37a7918508c0e736ee7b0c129dd9b53b35f6d49c73d370"
+    },
+    {
+      "path": "docs/decisions/2026-11-13-learned-temperature-fear-and-ml-research-questions.md",
+      "sha256": "4d8960474f7401735be8edcedcae43209f237bd44d47a6983e01d151f67cca64"
+    }
+  ],
+  "public_artifacts": [
+    {
+      "path": "README.md",
+      "sha256": "3c03b1ba1ad18fe4ab3b9b69d5777d0313dc6349920303cfa2f9991a4743215a",
+      "bytes": 10601
+    },
+    {
+      "path": "config/search/current.json",
+      "sha256": "157e516a3df4071cfb7dcd16d20880ef53de2d732fdc6b6fcad4e87631cc39d7",
+      "bytes": 484463
+    },
+    {
+      "path": "config/search/history/01_v3_0.json",
+      "sha256": "356673199978320b7cf15075d0611be1113653eda658b4ee82449993eb126a40",
+      "bytes": 77482
+    },
+    {
+      "path": "config/search/history/02_v3_1.json",
+      "sha256": "90bf70801c76c22bca1ed5206e50e0b65d8e810b9334b7cb1df8babb6796680f",
+      "bytes": 83299
+    },
+    {
+      "path": "config/search/history/03_v3_2.json",
+      "sha256": "8269ac382d38e5b3d3982ed6e9182476cb2b0555c4a9bdfdd5033543790a5073",
+      "bytes": 99775
+    },
+    {
+      "path": "config/search/history/04_v3_3.json",
+      "sha256": "735d4bbe9957a0cecf973814e3caecf0a4be851d42bbfa0c4fc117d969ffce5f",
+      "bytes": 114117
+    },
+    {
+      "path": "config/search/history/05_v3_4.json",
+      "sha256": "5f558f6af657ca1a562f90621ba468744be85274352d9960cc576ba3d165fb66",
+      "bytes": 134330
+    },
+    {
+      "path": "config/search/history/06_v3_5.json",
+      "sha256": "5964327babff2a0a778cdf26fecde0841bfb19c441bf4563531858b2adf9eb21",
+      "bytes": 153172
+    },
+    {
+      "path": "config/search/history/07_v3_6.json",
+      "sha256": "59286bea609626df0b08087cac56a5d4c60edc8d4f359dd6e782f49fafcc0afe",
+      "bytes": 170378
+    },
+    {
+      "path": "config/search/history/08_v3_7.json",
+      "sha256": "5cdd53cf8af58ad7785248fb6334740ed6bc030fdac2ff736b625c1b844c6185",
+      "bytes": 190876
+    },
+    {
+      "path": "config/search/history/09_v3_8.json",
+      "sha256": "3b84e2e3f4d263b997185f305b10ae8d27ebd267c109619e1d3f828d1bfb5330",
+      "bytes": 204899
+    },
+    {
+      "path": "config/search/history/10_v3_9.json",
+      "sha256": "ded67716e07a4338f85895936bc90687e83a1656d38e144166716b69bd09a824",
+      "bytes": 227623
+    },
+    {
+      "path": "config/search/history/11_v3_10.json",
+      "sha256": "71bd1850ea8f0c28828aeda3d030e5b942f836a3c7ae1c0b8048db8e443a26e7",
+      "bytes": 246650
+    },
+    {
+      "path": "config/search/history/12_v3_11.json",
+      "sha256": "0a82e8e94a0351d12a6ee4e4ddc36d17c7d048b9caf0f58d41314df0f971026f",
+      "bytes": 256822
+    },
+    {
+      "path": "config/search/history/13_v3_12.json",
+      "sha256": "7288c7378377dfd4ac3941da141e5d4e73ae945a3cae2d78a798949c0374a320",
+      "bytes": 264921
+    },
+    {
+      "path": "config/search/history/14_v3_13.json",
+      "sha256": "3fb6388efe1952640a6f40151d28588d0681654dcbe20c1513addd19184dad42",
+      "bytes": 268252
+    },
+    {
+      "path": "config/search/history/15_v3_14_sub_parent.json",
+      "sha256": "17da989898870aa060073c110ed0c0b40dfa8c50d8a1e0feceac8e1cfd7311f3",
+      "bytes": 324096
+    },
+    {
+      "path": "config/search/history/16_v3_14_fear.json",
+      "sha256": "0fc8a389dfb04fa38aa2f647861ea61c34201a8f00e65928ee880d8630ac6044",
+      "bytes": 366849
+    },
+    {
+      "path": "config/search/history/17_v3_14_variants.json",
+      "sha256": "4b779ef97e05319f9bb3150160fbde9637361504b4e4640edb2dadfa6888b1f2",
+      "bytes": 397121
+    },
+    {
+      "path": "config/search/history/18_v3_14_colloquial.json",
+      "sha256": "eca6dab1398f15fde32b5ec46d91de16554e4daf40d4f2d70dac98b809944aab",
+      "bytes": 436132
+    },
+    {
+      "path": "config/search/history/19_v3_15.json",
+      "sha256": "157e516a3df4071cfb7dcd16d20880ef53de2d732fdc6b6fcad4e87631cc39d7",
+      "bytes": 484463
+    },
+    {
+      "path": "config/search/profiles.json",
+      "sha256": "db2da850a66d75edc885c393cc236c796d1b5ee98ae2e4ff637e32e3da4db398",
+      "bytes": 3529
+    },
+    {
+      "path": "config/search/versions.json",
+      "sha256": "c6a3d2fe968a13ef7d180c27b6ba6f77e427221bbe48f730f7e5381f95965ecf",
+      "bytes": 9882
+    },
+    {
+      "path": "config/search/weights.json",
+      "sha256": "8814f2ba5f6147dc934308d68108992071730f75819bd5acfd082f6189d999fe",
+      "bytes": 1109
+    },
+    {
+      "path": "docs/methodology/search/QUERY_MATRIX.md",
+      "sha256": "8112d06975088ca6f352e4854cdae27c853f585b494a0a300d19f43c7655312b",
+      "bytes": 74318
+    },
+    {
+      "path": "docs/methodology/search/README.md",
+      "sha256": "29a7082fefd3ac66e9d876bf1e1f67b35416d4678ac39b0a2b4cd5505a4444d4",
+      "bytes": 2981
+    },
+    {
+      "path": "docs/methodology/search/executions/round31_queries.csv",
+      "sha256": "d5da6e04423005ca352c6e78a85c8912128b75448bce816cd782d93987a32bfb",
+      "bytes": 221909
+    },
+    {
+      "path": "docs/methodology/search/executions/round31_saved_jobs.csv",
+      "sha256": "fed3c968f34998bc2e98ae3899f372034b42380d5b9d262e784ee702527a0eeb",
+      "bytes": 1154388
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/ACQUISITION_PROCESS.md",
+      "sha256": "bd9126513d4f45ca4595f235f883214b3e2505de7ca291362510671e05df7609",
+      "bytes": 6349
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/DECISION_HISTORY.md",
+      "sha256": "4751d618adb7ba86e716e6402636cfdf7ced95ae20ba826c5e88bb9802950de6",
+      "bytes": 4729
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/FIGURES.md",
+      "sha256": "a0a0697a076cd595e2cf61190878eccfa24ed185da87368a261d4c1add5aa502",
+      "bytes": 2127
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/FIGURE_CONTRACT.md",
+      "sha256": "67a5dcd946048591087f0eb732dc841dcd591afa3c6d4496eeb84e01a54573d9",
+      "bytes": 2617
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/NEXT_STEPS.md",
+      "sha256": "ee4b6bbca1428e7ca28d02bcd26a9eb642c67d100f9bcce064fa3a1752ef8fba",
+      "bytes": 4647
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/PUBLICATION_QA.json",
+      "sha256": "e90f6445354af0a13262c8c76a953c8df9a07264630f3208ff2a3b3c59ea7501",
+      "bytes": 819
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/README.md",
+      "sha256": "33d28fe502a0298355df928aa8c825d677163338afe6bdf1da4914b5c63b81eb",
+      "bytes": 5900
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/RESEARCH_QUESTIONS.md",
+      "sha256": "1e3f7171b76186df00e85ba76612b1bb91bded974b3cf6ff775cf570db0dedb4",
+      "bytes": 7322
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/annual_counts.csv",
+      "sha256": "7dff84821b83b5fa2ed6f8b256533a017035afa0163303fc629e79fd1aeb9515",
+      "bytes": 547
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/collection_summary.json",
+      "sha256": "1c57288d77cd561834d2ad14ea5f27c7a8113a443e441263c3b818f2738d4f2a",
+      "bytes": 1813
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/figures/figure_01_matrix_architecture.png",
+      "sha256": "d79473ab353d7464e3c497210edb89527af9f185c6f95f61f099405266474a86",
+      "bytes": 639975
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/figures/figure_02_nested_hierarchy.png",
+      "sha256": "209130a56288e66a94c8a2de319c253d41c02a288eab9fb1a184b9528450d7b5",
+      "bytes": 985805
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/figures/figure_03_fear_taxonomy.png",
+      "sha256": "bd98f41f7fb69e6189d94b265bc680e74ff961eb58fb038ca0a2309fe3c7f5b5",
+      "bytes": 825187
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/figures/figure_04_version_and_coverage.png",
+      "sha256": "5f8d977546650cc5b99edbbd5392f7cad40096a7dadb333ecee84e5f5821001c",
+      "bytes": 687321
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/figures/figure_05_search_focus_progress.png",
+      "sha256": "f411229e62948715f96ddff421b5d3b21a8722d0815f314b5b8e116f28e44196",
+      "bytes": 622026
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/figures/figure_06_query_feature_evolution.png",
+      "sha256": "46ec05cb1b78bcf181802c381a060a7f3360a3fe9f10025185b125b25861e355",
+      "bytes": 768441
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/figures/figure_07_year_targeting_and_additions.png",
+      "sha256": "2c479159638fb07ec7aaeb1f5ea90dd3e11028de1ab8d94af919595763daaf45",
+      "bytes": 739429
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/plot_all_figures.py",
+      "sha256": "fc46c7b3d1346440e62970a86689b520e8e48fc349a4268000b2e8366f4424b6",
+      "bytes": 549194
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/query_matrix_visualizations.ipynb",
+      "sha256": "a1399596f4eb7e6ff4225db6be7499a7a1fb32d66e93211e63382521e00ccd95",
+      "bytes": 5070226
+    },
+    {
+      "path": "docs/research/2026-11-13-corpus-release/round31_domains.csv",
+      "sha256": "b185cd5bcdd1de5b39871ef97d5d12df38d8741f0fc27b3e2a64d5b56f4191d5",
+      "bytes": 14449
+    },
+    {
+      "path": "scripts/search/build_query_jobs.py",
+      "sha256": "3a1f0192fec0d72e142f298ab787103014fb7558155dc7e89fc736fc0af9c7b8",
+      "bytes": 12639
+    },
+    {
+      "path": "docs/PROJECT_DIRECTION.md",
+      "sha256": "84a4742cff9c4e12099c006f85623bc090149db868ab277c24b6206e3e69a7c5",
+      "bytes": 61577,
+      "mode": "current header plus preserved tracked historical version; unrelated working edits remain local"
+    },
+    {
+      "path": "docs/PROJECT_LOG.md",
+      "sha256": "4b8618cd94225328ac73d12ced17d4c333b18933079555dcf7c06b8f404cfe52",
+      "bytes": 343130,
+      "mode": "current header plus preserved tracked historical version; unrelated working edits remain local"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256": "ef47e56c739bc4fe30078b76862c5d80e4ae7c66e84a6dc43588be812d7356ea",
+      "bytes": 6987,
+      "mode": "current header plus preserved tracked historical version; unrelated working edits remain local"
+    },
+    {
+      "path": "docs/decisions/README.md",
+      "sha256": "0f3b93c9a3a364c1130c07ce173a38e778148e0429dc8ed997ee1103978291ea",
+      "bytes": 5437,
+      "mode": "current header plus preserved tracked historical version; unrelated working edits remain local"
+    }
+  ],
+  "self_hash_policy": "This manifest excludes its own hash; use the Git blob/commit for its identity.",
+  "transformations": [
+    "Semantic JSON projections omit runtime/dispatch authority and translate descriptive labels into English; expressions and native query IDs remain unchanged.",
+    "Query/execution CSVs preserve compact fields but omit result snippets, raw result URLs, headers and machine paths.",
+    "Collection summaries inherit existing final proofs and aggregate tables; no body or database review was rerun.",
+    "Shared-file headers are published without unrelated concurrent local changes."
+  ],
+  "excluded": [
+    "raw bodies/API/HTML/PDF responses",
+    "databases and WALs",
+    "per-target receipts and identities",
+    "agent/chat dispatch and leases",
+    "live queues/checkpoints/recovery state",
+    "unfinished preprocessing implementation"
+  ],
+  "no_new_raw_snapshot_or_restore_test": true,
+  "no_new_collection": true,
+  "no_corpus_mutation": true
+}

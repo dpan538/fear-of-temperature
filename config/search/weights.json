@@ -1,0 +1,46 @@
+{
+  "family_weights": {
+    "somatic_daily_impact": 1.6,
+    "ecological_grief_memory": 1.5,
+    "irony_metaphor": 1.35,
+    "psychological_cultural_response": 1.6,
+    "broad_forum_exploration": 1.0
+  },
+  "saved_scheduler_year_counts": {
+    "2004": 26293,
+    "2003": 26324,
+    "2005": 26535,
+    "2006": 26702,
+    "2007": 26782,
+    "2008": 26929,
+    "2009": 27347,
+    "2010": 27648,
+    "2011": 27847,
+    "2012": 27867,
+    "2013": 29304,
+    "2018": 31232,
+    "2016": 31348,
+    "2014": 32001,
+    "2017": 32578,
+    "2015": 40549,
+    "2020": 42214,
+    "2021": 43038,
+    "2023": 43705,
+    "2022": 43878,
+    "2024": 44429,
+    "2025": 47518,
+    "2019": 68185
+  },
+  "year_weight_formula": "minimum(saved year counts) / saved count for this year",
+  "year_count_role": "frozen scheduling input, not final corpus counts",
+  "effort_not_admission_quota": true,
+  "source_diversity": "soft discovery preference; large forums remain eligible subject to source access",
+  "length_preference": {
+    "tokens": [
+      1000,
+      2500
+    ],
+    "hard_minimum": null,
+    "hard_maximum": null
+  }
+}

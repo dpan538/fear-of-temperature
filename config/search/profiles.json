@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "cities": [
+    "Brisbane",
+    "Melbourne",
+    "Sydney",
+    "Adelaide",
+    "Perth",
+    "Darwin",
+    "Hobart",
+    "Canberra"
+  ],
+  "families": {
+    "somatic_daily_impact": {
+      "matrix_terms": [
+        "sleeping",
+        "heat-related"
+      ],
+      "expressions": [
+        "\"too hot to sleep\" OR \"couldn't sleep\" OR \"stinking hot\"",
+        "\"no air conditioning\" OR \"sweating\" OR \"hot nights\""
+      ]
+    },
+    "ecological_grief_memory": {
+      "matrix_terms": [
+        "wilting",
+        "garden is dying"
+      ],
+      "expressions": [
+        "\"my garden\" OR \"our garden\" OR \"plants wilted\"",
+        "\"water restrictions\" OR \"no rain\" OR \"scorched leaves\""
+      ]
+    },
+    "irony_metaphor": {
+      "matrix_terms": [
+        "scorching heat",
+        "hot"
+      ],
+      "expressions": [
+        "\"oven\" OR \"furnace\" OR \"melting\"",
+        "\"bloody hot\" OR \"hell on earth\" OR \"cooked\""
+      ]
+    },
+    "psychological_cultural_response": {
+      "matrix_terms": [
+        "dreading the heat",
+        "climate alarmists"
+      ],
+      "expressions": [
+        "\"dread summer\" OR \"afraid\" OR \"anxious\"",
+        "\"climate alarmists\" OR \"climate fear\" OR \"heat panic\""
+      ]
+    },
+    "broad_forum_exploration": {
+      "matrix_terms": [
+        "hot",
+        "heat"
+      ],
+      "fallback_weight": 1.0,
+      "expressions": [
+        "\"hot\" OR \"heat\" OR \"summer\""
+      ]
+    }
+  },
+  "document_search_terms": "diary OR blog OR essay OR memoir OR \"personal story\"",
+  "document_focus": "prefer long original native bodies, collect other complete canonical matches without hard length or intensity threshold",
+  "preferred_minimum_owned_tokens": 1000,
+  "short_post_search_deprioritized": true,
+  "length_preference_at": "2026-11-11T04:15:51.850420+00:00",
+  "broad_matrix_queries_enabled": true,
+  "broad_search_order": "4 broad original-parent/child/relaxed discovery jobs then1existing full-corpus-year-deficit job; no admission quota",
+  "mandatory_year_city_genre_for_all_searches": false,
+  "broad_search_publication_window": "",
+  "broad_matrix_query_terms_per_job": 1,
+  "broad_matrix_query_surfaces": [
+    "blog",
+    "essay",
+    "",
+    "diary"
+  ],
+  "native_request_effort_schedule": [
+    "public_native_batch",
+    "preferred_long_archive",
+    "public_native_batch",
+    "native_batch_archive",
+    "public_native_batch",
+    "independent_article",
+    "public_native_batch",
+    "new_source_root"
+  ],
+  "native_public_API_batch_effort_multiplier": 4.0,
+  "native_public_API_body_batch_size": 100,
+  "public_native_batch_schedule_explanation": "Dedicated half of request attempts to source-advertised native public batches; long-archive, other archive, article and new-root lanes retain slots and fall back when empty. Effort only; all admission and native access guards unchanged.",
+  "native_public_API_body_effort_multiplier": 4.0,
+  "broad_matrix_include_genre_free_variant": true,
+  "broad_matrix_include_base_parent_queries": true,
+  "broad_matrix_include_relaxed_discovery_variants": true,
+  "broad_geographic_OR_terms": [
+    "Australia",
+    "Australian",
+    "Aussie",
+    "Melbourne",
+    "Sydney",
+    "Brisbane",
+    "Queensland",
+    "Tasmania"
+  ],
+  "broad_search_jobs_per_cycle": 4,
+  "deficit_search_jobs_per_cycle": 1,
+  "year_deficit_include_city_genre_free_variant": true,
+  "dispatch_enabled": false,
+  "publication_role": "offline reproduction only; acquisition is closed"
+}

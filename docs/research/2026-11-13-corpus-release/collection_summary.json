@@ -1,0 +1,49 @@
+{
+  "release_id": "corpus-methods-20261113",
+  "recorded_date": "2026-11-13",
+  "collection_status": "complete",
+  "study_frame": {
+    "start": "2003-01-01",
+    "end": "2025-12-31",
+    "basis": "activity window selected from the government/official acquisition inventory; exact public-expression window subsequently fixed"
+  },
+  "formal_total": 801559,
+  "formal_baseline": 776559,
+  "round31_gross_new": 26383,
+  "round31_reversible_holds": 1383,
+  "round31_net_new": 25000,
+  "hard_cap": 810000,
+  "dated_formal_2003_2025": 801516,
+  "baseline_unresolved_date": 43,
+  "round31_domains": 530,
+  "round31_years": 23,
+  "round31_native_types": {
+    "forum_post": 196,
+    "personal_blog_post": 3142,
+    "published_authored_article": 21576,
+    "public_blog_comment": 86
+  },
+  "round31_stored_projection_tokens": {
+    "n": 25000,
+    "total": 27317787,
+    "minimum": 7,
+    "maximum": 54330,
+    "below1000": 15285,
+    "in1000_2500": 8005,
+    "above2500": 1710
+  },
+  "length_scope": "Unchanged stored extraction projection after native quote rules; source DOM UI diagnostics above distinguish retained context. Not universal pure speaker-utterance or affect-gold lengths.",
+  "query_registrations_round31": 942,
+  "saved_query_jobs": {
+    "search_completed": 710,
+    "pending_search": 3459
+  },
+  "source_evidence": {
+    "requirement_report": "2e5f44a7c59c2e2a631522f2780abab0136f3138aa8347d7bf80790d92e0caec",
+    "completion_attestation": "b084cd6fb43604f09aecc6283c1bdbc6197ae161d83917000bb78de3da34b3e1"
+  },
+  "completion_scope": "bounded acquisition target and final current-phase verification; not exhaustive source history or whole-corpus semantic clearance",
+  "gold_emotion_labels": false,
+  "whole_corpus_negative_share": null,
+  "new_corpus_snapshot_created_by_this_publication": false
+}

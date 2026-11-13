@@ -1,3 +1,9 @@
+# Current Research Decisions — 13 November 2026
+
+The current study uses **2003–2025**, selected with the government/official activity inventory as temporal reference. Acquisition is complete. [Accepted RQ1–RQ3](../research/2026-11-13-corpus-release/RESEARCH_QUESTIONS.md) supersede the earlier inventory-first/deferred-Fear framing. [The dated decision history](../research/2026-11-13-corpus-release/DECISION_HISTORY.md) records scope, matrix, weighting, preservation and closure decisions without publishing agent dispatch or recovery controls. Older decisions below remain historical.
+
+---
+
 # Decision records
 
 Important methodological and engineering decisions will be recorded here rather than changed silently.
