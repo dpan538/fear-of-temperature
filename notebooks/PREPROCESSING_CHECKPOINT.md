@@ -45,9 +45,23 @@ as local snapshot locations relative to the project root.
 | `data/processed/preprocessing/formal_layout_step_v1_handoff_v1_chunk_review_v1` | `80ec3a0a745bf5c810432b2fe6f6051e095fb64c6ab43f33c36eeea35863b526` |
 | `data/processed/preprocessing/formal_layout_step_v1_handoff_v1_chunk_review_v1_calibration_v1` | `36fae27dc5de8e463dd64f2a2ea2b9073df5821fed5b60325165064a3890da6c` |
 
-## Next completed batch
+## Continuing from the checkpoint
 
-The live paired review and its transport check await an approved model route. The current
-pilot inventory represents 480 pending model decisions. Production execution belongs in
-Notebook 07 after live calibration. Record a subsequent verified checkpoint when that phase
-has finished.
+The paired pilot row describes the historical offline checkpoint. For current work use the
+[Codex window handoff](PREPROCESSING_WINDOW_HANDOFF.md) and the reference plan produced by
+Notebook 06. The local window assignment and its verified receipt determine pilot progress.
+Record the next repository checkpoint after the corresponding stage has passed validation.
+
+## Verified parallel development pilot
+
+Notebook 06 verified 1,526,588 reference chunks across 718,330 parents. Notebook 07
+replayed all 13 development pilot receipts, covering 240 units in 177 complete parents.
+The reviewers accepted 134 proposed unit plans and adjusted 106. All 177 parent plans
+passed coverage and the 512-reference-token budget. The controlled handoff preserved
+two original decisions and added 17 decisions in a different window.
+
+Three GPT-6.2 Sol Extra High windows reviewed the remaining 228 pilot units over
+15 minutes and 24 seconds, measured from the first dispatch to the last completed
+review turn. The observed aggregate rate was 888.3 units per wall hour over this run.
+The pilot contains a deliberately selected development cohort. Production review
+coverage and sustained throughput require separate measurement.

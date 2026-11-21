@@ -1,9 +1,5 @@
 # Preprocessing: start here
 
-See the [preprocessing checkpoint](PREPROCESSING_CHECKPOINT.md) for validation, inputs
-and scope. Notebooks 01 and 02 use the public synthetic fixture. Restore the bound local
-research snapshots before running Notebooks 03–06.
-
 Notebook 04 applies the fixed first preprocessing pass to all 718,330 eligible records in the
 verified Notebook 03 release. It keeps an edit ledger for text changes and compares two
 paragraph-based chunk budgets on the same records. The output reports show which expressions
@@ -62,8 +58,13 @@ extras from the project lockfile.
 
 ## Historical main-training baseline
 
-The historical main-training notebook and its 614,519-record cohort belong to the
-local research archive under `archives/` and `data/processed/preprocessing/`.
+The earlier [main-training notebook](../archives/04_preprocessing_main_train_baseline.ipynb)
+preserves the historical scan and light-cleaning code for its 614,519-eligible-record cohort.
+Its previous result remains under `data/processed/preprocessing/light_urls_v1_20261113/`.
+See [training scan and negation policy](../docs/research/2026-11-13-prechunk-pilot/TRAINING_SCAN_AND_NEGATION.md)
+and the [eligibility audit](../docs/research/2026-11-13-preprocessing-eligibility-audit/README.md)
+for the earlier denominators and review evidence.
+
 
 ## Handoff to Notebook 05
 
@@ -108,13 +109,25 @@ windows to the source text and baseline plan. Set `FOT06_COMPLEX_SOURCE_IDS` to 
 sources by ID, and `FOT06_REVIEW_OUTPUT` to a new sibling directory for a revised scope.
 The decision validator checks every unit before assembling an accepted parent's offsets.
 
-The next comparison evaluates tokenizer-aware boundaries on the same release groups.
-Review decisions bind to the selected plan version. The Notebook 05 research handoff
-records the later unsupervised, self-supervised and supervised experiments.
+The full reference candidate is published beside the 05 handoff with the suffix
+`_reference_chunks_v1`. It records Unicode offsets and exact `cl100k_base` token
+counts under a 512-content-token budget. Use `tiktoken==0.14.0` and the pinned
+local vocabulary for this comparison. A downstream model can require a different
+tokenizer and budget. Notebook 06 recomputes exact cross-split chunk reuse on this plan.
 
-The paired Medium and High calibration inventory is published beside the review queue
-with the suffix `_calibration_v1`. It records 240 units from complete development parents,
-the model settings, and the input and packet hashes. Read the frozen packet inventory when
-starting or resuming calibration. Notebook 06 also rehearses process interruption and
-recovery with a local fixture provider. Its fixture receipts are separate from live model
-results.
+Notebook 06 freezes 240 reference-plan review units from complete development parents.
+The coordinating Codex desktop window dispatches a small batch of selected parents to
+another window in the same workspace. Both use the same read-only packet file. See the
+[window handoff](PREPROCESSING_WINDOW_HANDOFF.md) for batch assignments, review receipts
+and continuation. Routine boundaries come from the local planner.
+
+The Notebook 05 research handoff records the later unsupervised, self-supervised and
+supervised experiments.
+
+## Run Notebook 07
+
+[Notebook 07](07_parallel_chunk_review_pilot.ipynb) partitions the existing frozen
+development pilot into disjoint assignments for parallel Codex desktop review. It
+checks window receipts, replays the resulting boundaries on the original parent text,
+and reports the handoff and duration. See [window handoff](PREPROCESSING_WINDOW_HANDOFF.md)
+for checkpoint and dispatch details.
