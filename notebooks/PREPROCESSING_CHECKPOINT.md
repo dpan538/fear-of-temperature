@@ -65,3 +65,22 @@ Three GPT-6.2 Sol Extra High windows reviewed the remaining 228 pilot units over
 review turn. The observed aggregate rate was 888.3 units per wall hour over this run.
 The pilot contains a deliberately selected development cohort. Production review
 coverage and sustained throughput require separate measurement.
+
+## Completed targeted review sample
+
+Notebook 09 replayed the complete frozen sample of 4,635 parents. It reconciled
+77 earlier parent reviews and 177 additional batch receipts covering 4,558 parents
+and 8,293 windows. The final handoff retained all 26 checkpointed decisions in the
+affected receipt. Bulk desktop review from the first new dispatch to the final receipt
+took about two hours and 26 minutes across three Codex windows.
+
+The reconciled dispositions are 4,318 boundary reviews complete, 204 semantic
+escalations, 112 reference-token budget reviews, and one explicit model-input hold.
+The five independent first-batch adjudications accounted for four retained reference
+plans and the explicit hold. The weighted first-pass material-finding shares were
+43.2% for the nonparagraph sample and 11.2% for paragraph and terminal controls.
+
+The sample-reviewed candidate contains 1,527,714 chunks. Its exact chunk scan
+found 444 cross-split groups and zero surviving groups after applying the candidate
+occurrence holds. Adoption remains a separate decision after open cases and the
+downstream tokenizer have been evaluated.

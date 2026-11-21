@@ -131,3 +131,28 @@ development pilot into disjoint assignments for parallel Codex desktop review. I
 checks window receipts, replays the resulting boundaries on the original parent text,
 and reports the handoff and duration. See [window handoff](PREPROCESSING_WINDOW_HANDOFF.md)
 for checkpoint and dispatch details.
+
+## Run Notebook 08
+
+[Notebook 08](08_targeted_chunk_review.ipynb) measures nonparagraph boundary risk
+on the full reference corpus. It freezes the targeted sample and paragraph controls,
+publishes an exact cross-split hold ledger, and prepares a small first review tranche
+for the existing Codex desktop windows. The paragraph-only fallback retains oversized
+paragraphs with an explicit hold from token-limited use. The candidate receipt records
+which decisions remain open before adopting a chunk policy.
+
+The default `sample-001` batch uses training parents from the frozen samples and
+emphasizes paragraph controls from News and Article. Set `FOT08_REVIEW_BATCH=diagnostic`
+in a fresh kernel to open the earlier 47-window diagnostic. For `sample-001`, the final
+cells replay the decisions and check newly formed training slices against the unchanged
+validation and test reference chunks.
+
+## Run Notebook 09
+
+[Notebook 09](09_targeted_sample_review.ipynb) binds all 4,635 frozen sample
+parents to the review ledger. It registers verified receipts from the diagnostic
+and first sample batch, stages the remaining assignments in three Codex reviewer
+lanes, and replays batches after they return. Use the local `PROGRESS.json` for
+replayed parent dispositions and the lane checklists for resumption. The first
+sample batch's five adjudications retain their original receipts and record the
+independent verified outcome.
