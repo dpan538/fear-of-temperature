@@ -203,7 +203,10 @@ def run_demo(
         "models": {
             "sentence_encoder": {**encoder_config, **encoder.metadata()},
             "emotion_candidate": {**emotion_config, **emotion_model.metadata()},
-            "parser": models["parser"],
+            "parser": {
+                **models["parser"],
+                "loaded_version": relations.attrs.get("loaded_parser_version"),
+            },
         },
         "python": {"version": platform.python_version(), "executable": sys.executable},
         "packages": _package_versions(

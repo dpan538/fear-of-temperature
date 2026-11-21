@@ -48,6 +48,9 @@ notebook = [
 viz = ["plotly>=5.24,<7"]
 postgres = ["psycopg[binary]>=3.2,<4"]
 legacy = ["pdfplumber>=0.11,<1", "pillow>=12,<13"]
+spark = [
+    "pyspark==4.2.1",
+]
 
 [dependency-groups]
 dev = [

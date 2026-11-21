@@ -1,0 +1,48 @@
+{
+  "stage": "preprocessing",
+  "spark_version": "4.2.1",
+  "default_profile": "local6",
+  "profiles": {
+    "daily": {
+      "master": "local[2]",
+      "threads": 2,
+      "driver_memory": "2g",
+      "shuffle_partitions": 4,
+      "description": "Light profile for concurrent everyday work; monitor memory pressure and responsiveness."
+    },
+    "balanced": {
+      "master": "local[4]",
+      "threads": 4,
+      "driver_memory": "3g",
+      "shuffle_partitions": 8,
+      "description": "Balanced preprocessing profile for periods with a light background workload."
+    },
+    "local6": {
+      "master": "local[6]",
+      "threads": 6,
+      "driver_memory": "4g",
+      "shuffle_partitions": 12,
+      "description": "Requested six-thread profile for idle periods or overnight batches."
+    }
+  },
+  "inputs": {
+    "main_metadata": "work_packages/prechunk_pilot_20261113/v2/POOL_FORMAL_METADATA.parquet",
+    "main_metadata_sha256": "602eca9e84478b83f94bc5e675d5d603d4a955d924b862b138f9ae17eafdaca1",
+    "pilot_records": "work_packages/prechunk_pilot_20261113/runs/20261113T043459101019Z_bf183f3f24b8/records.jsonl",
+    "pilot_selection": "work_packages/prechunk_pilot_20261113/runs/20261113T043459101019Z_bf183f3f24b8/selection.jsonl",
+    "effective_oot_metadata": "work_packages/prechunk_pilot_20261113/runs/20261113T043459101019Z_bf183f3f24b8/oot_after_predeclared_pilot_exposure.parquet",
+    "effective_oot_metadata_sha256": "4f4168f141a8839d937cfe0fd7cab63102080b5dff61383731bba83f413f38d5"
+  },
+  "output_directory": "data/processed/preprocessing",
+  "runtime_directory": ".cache/spark_preprocessing",
+  "automatic_corpus_processing": false,
+  "automatic_training": false,
+  "training_scan": {
+    "directory": "work_packages/prechunk_training_scan_20261113/main_train_scan_v1",
+    "experiment": "main",
+    "text_scope": "train_only",
+    "automatic_rescan": false,
+    "candidate_terms_are_not_stopwords": true,
+    "length_preview": "previously_authenticated_UI_spans_only"
+  }
+}

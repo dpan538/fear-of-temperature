@@ -22,6 +22,7 @@ class SentenceEncoder:
 
         self.model_id = model_id
         self.revision = revision
+        self.loaded_snapshot_revision: str | None = None
         self.cache_dir = Path(cache_dir)
         self.requested_device = device
         self.actual_device = device
@@ -52,6 +53,8 @@ class SentenceEncoder:
             self.fallback_reason = f"Model load on {device} failed: {exc}"
             kwargs["device"] = "cpu"
             self.model = SentenceTransformer(model_source, **kwargs)
+        if local_files_only:
+            self.loaded_snapshot_revision = Path(model_source).name
 
     def encode(self, texts: Sequence[str], batch_size: int = 16) -> np.ndarray:
         try:
@@ -81,6 +84,7 @@ class SentenceEncoder:
         return {
             "model_id": self.model_id,
             "revision": self.revision,
+            "loaded_snapshot_revision": self.loaded_snapshot_revision,
             "requested_device": self.requested_device,
             "actual_device": self.actual_device,
             "fallback_reason": self.fallback_reason,

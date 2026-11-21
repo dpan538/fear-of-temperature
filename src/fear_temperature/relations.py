@@ -99,4 +99,6 @@ def extract_relation_candidates(passages: pd.DataFrame) -> pd.DataFrame:
         "entities_json",
         "method",
     ]
-    return pd.DataFrame(rows, columns=columns)
+    result = pd.DataFrame(rows, columns=columns)
+    result.attrs["loaded_parser_version"] = nlp.meta.get("version")
+    return result

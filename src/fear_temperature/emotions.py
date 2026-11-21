@@ -60,6 +60,7 @@ class GoEmotionsCandidate:
         self.torch = torch
         self.model_id = model_id
         self.revision = revision
+        self.loaded_snapshot_revision: str | None = None
         self.requested_device = device
         self.actual_device = device
         self.fallback_reason: str | None = None
@@ -93,6 +94,8 @@ class GoEmotionsCandidate:
             self.model.to("cpu")
         self.model.eval()
         self.id2label = {int(index): label for index, label in self.model.config.id2label.items()}
+        if local_files_only:
+            self.loaded_snapshot_revision = Path(model_source).name
 
     def _infer_batch(self, texts: Sequence[str]) -> list[list[float]]:
         encoded = self.tokenizer(
@@ -139,6 +142,7 @@ class GoEmotionsCandidate:
         return {
             "model_id": self.model_id,
             "revision": self.revision,
+            "loaded_snapshot_revision": self.loaded_snapshot_revision,
             "requested_device": self.requested_device,
             "actual_device": self.actual_device,
             "fallback_reason": self.fallback_reason,

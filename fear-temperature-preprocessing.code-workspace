@@ -1,0 +1,28 @@
+{
+  "folders": [
+    {"name": "Fear of Temperature · preprocessing", "path": "."}
+  ],
+  "settings": {
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "jupyter.notebookFileRoot": "${workspaceFolder}",
+    "files.watcherExclude": {
+      "**/.cache/**": true,
+      "**/.venv/**": true,
+      "**/archives/**": true,
+      "**/models/**": true,
+      "**/work_packages/**": true,
+      "**/outputs/**": true
+    },
+    "search.exclude": {
+      "**/.cache": true,
+      "**/.venv": true,
+      "**/archives": true,
+      "**/models": true,
+      "**/work_packages": true,
+      "**/outputs": true
+    }
+  },
+  "extensions": {
+    "recommendations": ["ms-python.python", "ms-toolsai.jupyter", "ms-python.vscode-pylance"]
+  }
+}
