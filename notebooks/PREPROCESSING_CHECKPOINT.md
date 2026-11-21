@@ -84,3 +84,49 @@ The sample-reviewed candidate contains 1,527,714 chunks. Its exact chunk scan
 found 444 cross-split groups and zero surviving groups after applying the candidate
 occurrence holds. Adoption remains a separate decision after open cases and the
 downstream tokenizer have been evaluated.
+
+## Completed full nonparagraph review
+
+Notebook 10 replayed all 16,540 nonparagraph parents. It reused 4,135 completed
+sample reviews and reconciled 484 new receipts covering 12,405 parents and 22,727
+targeted windows. The new decisions comprise 16,564 accepts, 5,132 adjustments,
+and 1,031 escalations. Two mid-run handoffs preserved 13 checkpointed decisions
+byte-for-byte. The elapsed time from the first new review receipt to the final
+receipt was about four hours and 35 minutes.
+
+All 204 original semantic escalations and all 112 original reference-budget
+cases have verified dispositions. The former account for 152 repairs, 38 retained
+reference plans, and 14 explicit model-input holds. All 112 budget cases received
+verified repairs. In the full nonparagraph scope, 15,589 parents passed boundary
+review, 15 have explicit holds, and another 936 remain outside model-input
+eligibility pending review. Those 936 comprise 691 semantic escalations and 245
+reference-budget cases discovered during the expanded review.
+
+The revised candidate contains 1,530,300 chunks and 437 exact cross-split groups
+before holds. A bound ledger of 2,101 held occurrences reduced the exact
+cross-split group count to zero. This checkpoint records the reference-token
+candidate. Model-specific tokenizer checks and the remaining review decisions
+govern adoption.
+
+## Completed full nonparagraph review
+
+Notebook 10 replayed all 16,540 nonparagraph parents. It reused 4,135 sample
+reviews and reconciled 484 final receipts for the other 12,405 parents and 22,727
+targeted windows. The registered window decisions include 16,564 accepts, 5,132
+adjustments and 1,031 escalations. Both handoffs preserved all 13 checkpointed
+decisions. The bulk run took approximately four hours and 35 minutes from its
+first published review receipt to its final receipt, with three windows in the
+first wave and six in the later waves.
+
+All 316 original sample blockers have verified dispositions. Of the 204 semantic
+escalations, 152 were repaired, 38 retained the reference plan, and 14 received
+explicit model-input holds. All 112 original reference-budget cases received
+verified repairs. The full nonparagraph dispositions are 15,589 completed
+boundary reviews, 15 explicit holds, 691 new semantic escalations, and 245 new
+reference-budget cases. The 936 newly identified cases remain held from
+model-input use pending review.
+
+The revised candidate contains 1,530,300 chunks. Its independent exact scan
+identified 437 cross-split groups and retained 2,101 held occurrences. Zero
+exact cross-split groups remained after applying the holds. The checked result
+is a reference-token candidate for the later model-specific tokenizer step.

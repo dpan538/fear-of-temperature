@@ -156,3 +156,12 @@ lanes, and replays batches after they return. Use the local `PROGRESS.json` for
 replayed parent dispositions and the lane checklists for resumption. The first
 sample batch's five adjudications retain their original receipts and record the
 independent verified outcome.
+
+## Run Notebook 10
+
+[Notebook 10](10_full_nonparagraph_review.ipynb) expands semantic review to all
+16,540 frozen nonparagraph parents and independently resolves the 316 open cases
+from the sampled parents. It retains earlier receipts, gives each window a
+disjoint review lane, and distinguishes a verified repair from an explicit
+model-input hold. The final cells reconcile the full target and recheck exact
+cross-split chunk reuse on the revised candidate.
