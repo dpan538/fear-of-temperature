@@ -10,7 +10,7 @@ row order and file metadata even when the records are equivalent.
 | Checkpoint | Compare on a local replay |
 | --- | --- |
 | 01–02, environment and synthetic gate | Use the registered project kernel with the locked dependencies. Verify the fixture hash and the assertions in the notebooks. Keep the optional model path disabled for the default fixture replay. |
-| 03–05, document preprocessing | Bind the same formal release and metadata fingerprints. Compare record keys, inherited splits, body hashes, offsets, hold reasons, known overlap evidence and reconciled counts. |
+| 03–05, document preprocessing | Bind the same formal release and metadata fingerprints. Reconcile the source-use roster in 03. Compare record keys, inherited splits, body hashes, offsets, hold reasons, known overlap evidence and reconciled counts. Notebook 05 recomputes every handoff body hash. |
 | 06–08, reference planning and frozen review scopes | Use the same PySpark profile, Notebook 05 handoff, reference tokenizer and pinned vocabulary. Compare parent IDs, offsets, exact token counts, hashed scope membership and occurrence holds. |
 | 07–11, recorded semantic decisions | Restore the frozen assignments, packets, reviewer decisions and adjudication receipts. Replay them through the corresponding notebook cells. Compare the final per-parent offset, disposition and exact hold ledgers. A fresh reviewer pass is a separate measurement. |
 | 12, reference text materialization | Compare the set of parent IDs, chunk ordinals, half-open ranges, slice hashes and split eligibility. The accepted reference checkpoint has 1,511,656 chunks and zero surviving exact cross-split groups. |
@@ -32,7 +32,8 @@ row order and file metadata even when the records are equivalent.
 3. Reopen the existing snapshots for a receipt replay. Where a notebook supports a
    new output path, put a full rebuild into a separate versioned snapshot and compare
    its records to the frozen run before adopting it. Earlier immutable checkpoint
-   artifacts are inputs to the comparison.
+   artifacts are inputs to the comparison. For sequential batch replays, a dedicated
+   `SPARK_LOCAL_DIRS` per kernel lets you clear its shuffle files after the kernel exits.
 4. The original Notebook 11 snapshot binds the whole code-only notebook file SHA.
    Use the source copy from the backed-up checkpoint when validating that historical
    snapshot. Saving editor outputs into that particular file changes its file SHA.

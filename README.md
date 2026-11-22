@@ -56,7 +56,7 @@ reference holds, with 663 in train, 42 in validation and 27 in test. Applying
 this hold alone leaves **645,751 train**, **36,068 validation** and **35,779
 test**. After the remaining overlap and input holds and exact-text
 canonicalization, the document EDA uses **641,180** eligible training documents.
-Its development cohort contains **20,000** documents. [Replay the corpus freeze](notebooks/17_corpus_freeze_replay.ipynb)
+Its development cohort contains **20,000** documents. [Verify the corpus and holds in Notebook 03](notebooks/03_structure_normalization.ipynb) · [Replay the document handoff in Notebook 05](notebooks/05_preprocessing_refinement.ipynb)
 
 The successor target is **about 720,000 training records**. An exact
 90:5:5 allocation at 720,000 training records needs **800,000 eligible

@@ -56,6 +56,17 @@ extras from the project lockfile.
   The reporting cells quantify the saved operations, describe complete record lengths and
   format composition, and compare the two chunk plans by format and parent length.
 
+## Verify the frozen corpus and source-use inventory
+
+[Notebook 03](03_structure_normalization.ipynb) reconciles the normalized roster
+with `formal-corpus-release-20261117-v1`. It writes the reference metadata index for
+67,222 historical source-use holds, the 732 exact native-body matches to that archive,
+and the canonical release inventory in `structure-v2-source-use-v1/` alongside its
+structural snapshot. The inventory has 722,160 distinct native bodies, including
+4,826 from structural holds. The database retains all 723,158 source records and
+their provenance. The frozen formal catalog assigns 646,414 train, 36,110 validation
+and 35,806 test records.
+
 ## Historical main-training baseline
 
 The earlier [main-training notebook](../archives/04_preprocessing_main_train_baseline.ipynb)
@@ -89,6 +100,8 @@ The complete handoff is under `data/processed/preprocessing/formal_layout_step_v
 It includes one text row per formal parent with a body hash, publication metadata, paragraph
 offsets, both baseline plans, residual marker counts and overlap evidence. `05_CLOSURE.json`
 records the corpus-wide validation and the exact cross-split body check for each edit step.
+Every Notebook 05 replay also compares all handoff keys with the normalized formal roster
+and recomputes the SHA-256 and code-point length of every derived body.
 The Parquet files are local, derived research data.
 
 The neighbouring `formal_layout_step_v1_handoff_v1_near_delta_v1/` snapshot compares
@@ -186,9 +199,11 @@ model's tokenizer and input limit.
 
 [Notebook 13](13_document_eda_and_unsupervised_preparation.ipynb) describes the
 formal records, verifies the completed chunk QA receipts, and prepares a
-fixed training-only document cohort for unsupervised experiments. The local
-snapshot in `.cache/corpus-eda/document-eda-v2-source-use` contains figures, source tables,
-the development cohort, and its fitted vocabulary and sparse TF–IDF features.
+training-only document cohort for unsupervised experiments. It applies the Notebook 03
+source-use holds with the existing overlap and chunk input holds. The local snapshot
+in `.cache/corpus-eda/document-eda-v3-source-use` contains figures, source tables, the
+20,000-document development cohort drawn from 641,180 eligible canonical training
+documents, and its fitted vocabulary and sparse TF–IDF features.
 
 ## Run Notebook 14
 
@@ -208,23 +223,6 @@ provides the first NMF pilot. The fit is disabled by default. The researcher
 sets the run switch and starts the final cell in the project kernel.
 The [local replay guide](REPRODUCIBILITY.md) specifies which artifacts and
 results to compare when replaying or rebuilding earlier stages.
-
-## Reproduce the formal corpus freeze
-
-Run [Notebook 17](17_corpus_freeze_replay.ipynb) in a fresh project kernel to
-verify the frozen `formal-corpus-release-20261117-v1` roster against the
-Notebook 05 handoff and reproduce the original Notebook 13 document cohort. The
-catalog assigns 646,414 train, 36,110 validation and 35,806 test records. Notebook
-17 records a separate input hold for 732 exact native-body matches to historical
-source-use holds. Run Notebook 13 after Notebook 17 to rebuild the screened
-feature snapshot with 641,180 canonical training documents and a new 20,000-document
-development sample. The reference-only metadata index for 67,222 historical
-source-use holds, the canonical release inventory and the verification receipt
-are stored under `.cache/corpus-freeze/`. The inventory keys **722,160** distinct
-native bodies to the release database by `release_row`. It covers the **4,826**
-distinct native bodies from structural holds alongside the eligible bodies.
-The original database retains all **723,158** records and their provenance.
-Notebooks 15 and 16 require the source-use-screened feature snapshot.
 
 ## Run the document comparison locally
 

@@ -123,11 +123,13 @@ from the paragraph-only cohort. Its weighted first-pass material finding rate
 was 49.6%. The chunk branch awaits case adjudication and validation against
 the selected model's tokenizer and input limit.
 
-Notebook 13 completed the descriptive census of 718,330 formal records and
-froze a stratified 20,000-document cohort from 641,820 eligible canonical
-training documents. It prepared a 24,000-feature sparse word and bigram TF–IDF
-matrix and generated source, date, length and lexical diagnostics. Topic
-model fitting and supervised annotation remain subsequent stages.
+Notebook 13 completed the descriptive census of 718,330 formal records. Its
+historical feature snapshot drew a stratified 20,000-document cohort from
+641,820 eligible canonical training documents. The current replay draws a
+20,000-document cohort from **641,180** eligible canonical training documents
+after applying the Notebook 03 source-use inventory. It prepares a 24,000-feature
+sparse word and bigram TF–IDF matrix and generates source, date, length and lexical
+diagnostics. Notebooks 15 and 16 use the current source-use-screened snapshot.
 
 ## Paragraph boundary refinement
 
