@@ -187,7 +187,7 @@ model's tokenizer and input limit.
 [Notebook 13](13_document_eda_and_unsupervised_preparation.ipynb) describes the
 formal records, verifies the completed chunk QA receipts, and prepares a
 fixed training-only document cohort for unsupervised experiments. The local
-snapshot in `.cache/corpus-eda/document-eda-v1` contains figures, source tables,
+snapshot in `.cache/corpus-eda/document-eda-v2-source-use` contains figures, source tables,
 the development cohort, and its fitted vocabulary and sparse TF–IDF features.
 
 ## Run Notebook 14
@@ -213,16 +213,18 @@ results to compare when replaying or rebuilding earlier stages.
 
 Run [Notebook 17](17_corpus_freeze_replay.ipynb) in a fresh project kernel to
 verify the frozen `formal-corpus-release-20261117-v1` roster against the
-Notebook 05 handoff and reproduce the Notebook 13 document cohort. The formal
-splits contain 646,414 train, 36,110 validation and 35,806 test records. The
-canonical document training frame contains 641,820 records and its development
-sample contains 20,000. The reference-only metadata index for 67,222 historical
+Notebook 05 handoff and reproduce the original Notebook 13 document cohort. The
+catalog assigns 646,414 train, 36,110 validation and 35,806 test records. Notebook
+17 records a separate input hold for 732 exact native-body matches to historical
+source-use holds. Run Notebook 13 after Notebook 17 to rebuild the screened
+feature snapshot with 641,180 canonical training documents and a new 20,000-document
+development sample. The reference-only metadata index for 67,222 historical
 source-use holds, the canonical release inventory and the verification receipt
 are stored under `.cache/corpus-freeze/`. The inventory keys **722,160** distinct
 native bodies to the release database by `release_row`. It covers the **4,826**
 distinct native bodies from structural holds alongside the eligible bodies.
 The original database retains all **723,158** records and their provenance.
-Use the formal split views to select records for model preparation.
+Notebooks 15 and 16 require the source-use-screened feature snapshot.
 
 ## Run the document comparison locally
 

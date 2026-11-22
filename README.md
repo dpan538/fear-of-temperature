@@ -44,11 +44,16 @@ records in its database. This includes **4,828** structural holds with native
 body locators in `quarantine_records`. The canonical release inventory covers
 **722,160** distinct native bodies, including **4,826** from structural holds.
 The **67,222** historical records with recorded source-use holds are indexed
-separately for reference and are outside the v1 materialized roster.
+separately for reference. Their native identities are outside the v1
+materialized roster.
 
 The **718,330** eligible records are assigned to **646,414 train**, **36,110
-validation** and **35,806 test**. The document EDA applies its own holds and
-exact-text canonicalization, yielding **641,820** eligible training documents.
+validation** and **35,806 test** in the v1 catalog. The document workflow
+separately holds **732** records whose original bodies exactly match historical
+reference holds, with 663 in train, 42 in validation and 27 in test. Applying
+this hold alone leaves **645,751 train**, **36,068 validation** and **35,779
+test**. After the remaining overlap and input holds and exact-text
+canonicalization, the document EDA uses **641,180** eligible training documents.
 Its development cohort contains **20,000** documents. [Replay the corpus freeze](notebooks/17_corpus_freeze_replay.ipynb)
 
 The successor target is **about 720,000 training records**. An exact
