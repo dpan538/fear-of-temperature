@@ -8,6 +8,7 @@
 [![Stage: chunk refinement](https://img.shields.io/badge/stage-chunk%20refinement-4F6395)](notebooks/PREPROCESSING_CHECKPOINT.md)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-233B53)](LICENSE)
+[![Dataset DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24434839.svg)](https://doi.org/10.5281/zenodo.24434839)
 
 **Current formal analysis release: 718,330 records.**
 The project examines how climate/temperature-related affect, bodily experience and Fear
@@ -183,9 +184,9 @@ To reproduce the closed phase's designed jobs without network or corpus access:
 | [Historical project log](docs/PROJECT_LOG.md) | Dated earlier decisions and stages; latest status appears first |
 
 Raw text, source responses, PDFs, databases, detailed record evidence and holding tracks
-remain local. **Cloning this repository does not provide the corpus.** No raw snapshot,
-data deposit, migration or acquisition restart is performed by this methods release.
-Source-specific rights/privacy review is required before any text redistribution.
+remain in the controlled research workspace. The public [Zenodo aggregate deposit](https://doi.org/10.5281/zenodo.24434839)
+provides summary tables, figures and verification materials for the frozen version.
+Text redistribution depends on source-specific rights and privacy review.
 
 ## Research boundaries
 
@@ -197,7 +198,7 @@ Validated annotation and group-disjoint model evaluation precede substantive emo
 
 ## Citation
 
-Cite the software with [CITATION.cff](CITATION.cff) and the exact commit. The [frozen corpus companion](docs/research/2026-11-17-formal-corpus-release/deposit_v1/README.md) records the dataset citation and DOI status.
+Cite the software with [CITATION.cff](CITATION.cff) and the exact commit. Cite the public aggregate companion v1.0.2 with [DOI 10.5281/zenodo.24434839](https://doi.org/10.5281/zenodo.24434839). [Corpus and citation details](docs/research/2026-11-17-formal-corpus-release/deposit_v1/README.md)
 
 ```bibtex
 @software{pan_fear_of_temperature_2026,
@@ -228,6 +229,6 @@ retain their applicable terms.
 
 ## Contact
 
-Project owner: **Dai Pan** ([@dpan538](https://github.com/dpan538)).
+Project owner [Dai Pan (潘岱)](https://github.com/dpan538).
 Use [GitHub Issues](https://github.com/dpan538/fear-of-temperature/issues) for public
 code/documentation questions; keep private or restricted evidence out of public issues.

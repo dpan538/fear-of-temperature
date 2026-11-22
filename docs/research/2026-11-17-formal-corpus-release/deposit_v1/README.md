@@ -129,16 +129,15 @@ privacy review and applicable institutional requirements.
 
 ## Deposit and citation
 
-The aggregate companion is prepared for a Zenodo Dataset record. Review the
-aggregate licence, creator information and deposit fields, then reserve the DOI
-in the Zenodo draft. After publication and verification of the record, cite the
-registered **version DOI** for these exact files and link it from the repository.
-A future software DOI would cite a tagged software release.
-[Zenodo DOI reservation](https://help.zenodo.org/docs/deposit/describe-records/reserve-doi/) · [GitHub software archiving](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content)
+Zenodo archives the aggregate companion under the registered version DOI.
+CC BY 4.0 covers the project-authored aggregate tables and figures. The
+underlying corpus version is `formal-corpus-release-20261117-v1`.
 
-The provisional aggregate citation is Pan, D. *Fear of Temperature — Australian
-corpus aggregates, 2003–2025*, version 1.0.2. The underlying corpus version is
-`formal-corpus-release-20261117-v1`. [Project repository](https://github.com/dpan538/fear-of-temperature)
+Pan, D. (2026). *Fear of Temperature — Australian corpus aggregates, 2003–2025*
+(Version 1.0.2) [Data set]. Zenodo.
+[DOI 10.5281/zenodo.24434839](https://doi.org/10.5281/zenodo.24434839)
+
+[Dai Pan (潘岱)](https://github.com/dpan538) · [GitHub Release](https://github.com/dpan538/fear-of-temperature/releases/tag/formal-corpus-release-20261117-v1)
 
 For software citation, use the repository's `CITATION.cff` and the exact Git
 commit. The MIT terms cover project-authored software and associated
