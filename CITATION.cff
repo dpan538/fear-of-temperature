@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the software and the exact Git commit used. Cite the corpus release separately."
+type: software
+title: "Fear of Temperature: Australian Climate Affect and Cultural Learning, 2003–2025"
+authors:
+  - family-names: Pan
+    given-names: Dai
+repository-code: https://github.com/dpan538/fear-of-temperature
+license: MIT

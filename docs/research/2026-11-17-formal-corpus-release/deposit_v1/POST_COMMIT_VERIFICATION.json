@@ -1,0 +1,39 @@
+{
+  "verified_at_utc": "2026-11-17T13:39:36.427533+00:00",
+  "method": "Independent post-commit read-only SQL, all clean-text hashes and all Parquet part hashes",
+  "results": {
+    "catalog_hash_matches_receipt": true,
+    "membership_hash_matches_receipt": true,
+    "passage_hash_matches_receipt": true,
+    "materialized_parts_verified": 150,
+    "part_file_hash_failures": 0,
+    "clean_text_hash_length_or_retention_failures": 0,
+    "formal_empty_texts": 0,
+    "formal_records": 718330,
+    "quarantine_records": 4828,
+    "formal_unique_native_identities": 718330,
+    "formal_unique_clean_text_SHA": 716529,
+    "group_cross_split_leaks": 0,
+    "clean_body_cross_split_leaks": 0,
+    "long_passage_cross_split_leaks": 0,
+    "long_passage_minimum_words_observed": 100,
+    "long_passage_rule": "At least 100 whitespace-delimited words AND 500 Unicode codepoints in a complete paragraph; whitespace/casefold fingerprint for grouping only.",
+    "baseline_original_metadata_hash_unchanged": true,
+    "baseline_metadata_row_hash_mismatches": 0,
+    "split_counts": {
+      "train": 646414,
+      "validation": 36110,
+      "test": 35806
+    },
+    "formal_groups_by_split": {
+      "train": 641040,
+      "validation": 35849,
+      "test": 35673
+    }
+  },
+  "elapsed_seconds": 16.39493929198943,
+  "native_body_rereplay_not_repeated": true,
+  "notebook_accessed": false,
+  "model_fit_or_training": false,
+  "semantic_Gold_or_legal_certification": false
+}

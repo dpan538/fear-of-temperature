@@ -1,0 +1,28 @@
+{
+  "release_version": "formal-corpus-release-20261117-v1",
+  "duckdb_version": "1.5.5",
+  "original_catalog_sha256": "a2834a79f0956206df3113e82e9b4ac69ea3394fc3ebbc1ab53cb3538c7edee2",
+  "membership_sha256": "abe5fbca4d1a0596c03e351cd38232fb60e041c28277c83cc6e802766d8bd5ae",
+  "passage_fingerprint_sha256": "b8ab70cb1db3d877e0657f3e2d2562d17147af88447060478567d9617a130e0d",
+  "materialized_parts_verified": 150,
+  "parts_roster_sha256": "1ec3c106943bfdcc6487044d50910b6bffe95c56fbfd421cd6bb3fb42ca0f11c",
+  "relocated_external_views_verified": [
+    "release_membership",
+    "release_records",
+    "supplement_audit",
+    "supplement_native_metadata"
+  ],
+  "view_record_counts": {
+    "release_records": 723158,
+    "corpus_records": 718330,
+    "quarantine_records": 4828,
+    "ml_train": 646414,
+    "ml_validation": 36110,
+    "ml_test": 35806
+  },
+  "distinct_native_body_sha_by_view": {
+    "release_records": 722160,
+    "corpus_records": 717334,
+    "quarantine_records": 4826
+  }
+}

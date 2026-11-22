@@ -1,0 +1,27 @@
+{
+  "release_version": "formal-corpus-release-20261117-v1",
+  "frozen_view_counts": {
+    "train": 646414,
+    "validation": 36110,
+    "test": 35806
+  },
+  "historical_source_use_holds": 67222,
+  "original_body_sha_matches": 714,
+  "matching_v1_records_by_split": {
+    "train": 663,
+    "validation": 42,
+    "test": 27
+  },
+  "matching_v1_records": 732,
+  "counts_after_original_body_sha_hold_only": {
+    "train": 645751,
+    "validation": 36068,
+    "test": 35779
+  },
+  "canonical_eligible_document_training_frame": 641180,
+  "development_cohort_documents": 20000,
+  "cohort_records_without_canonical_match": 0,
+  "eda_manifest_sha256": "3af627a75b2ca15790095715c07d109a9160266221f2805b596ca6cf5f933b05",
+  "source_use_body_hold_manifest_sha256": "2192f764fcb2460883a33e235d559f805945dc53229aff7bbbe4130d41018ea5",
+  "scope": "Document-level preparation overlay on frozen v1; aggregate counts from read-only verification."
+}

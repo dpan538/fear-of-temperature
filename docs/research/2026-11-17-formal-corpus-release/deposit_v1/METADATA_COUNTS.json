@@ -1,0 +1,48 @@
+{
+  "observed_at_utc": "2026-11-18T07:46:40.629493+00:00",
+  "formal_release_version": "formal-corpus-release-20261117-v1",
+  "phase32_admissions_gross": 88465,
+  "phase32_appendix_counts": {
+    "appendix_hold": 40386,
+    "long_candidate_not_selected": 7584,
+    "promoted_formal": 5624,
+    "screened_outside_long_pool": 32025,
+    "selected_structural_hold": 3,
+    "unscreened_or_case_pending": 2843
+  },
+  "baseline_plus_active_appendix": 765610,
+  "active_supplement_not_in_formal": 42455,
+  "formal_source_hosts": 2582,
+  "formal_source_ids": 3023,
+  "historical_eligibility_audit": {
+    "formal_original_records": 801559,
+    "frozen_main_split_counts": {
+      "train": 721793,
+      "validation": 39990,
+      "test": 39776
+    },
+    "topic_quarantine_records": 16805,
+    "known_usage_signal_reference_holds": 67222,
+    "access_provenance_pending": 1,
+    "current_active_candidate_records": 717531
+  },
+  "cross_snapshot_holdings": {
+    "method": "Read-only SQL over historical metadata and committed appendix metadata; counts by native_identity",
+    "historical_snapshot": {
+      "records": 801559,
+      "metadata_sha256": "602eca9e84478b83f94bc5e675d5d603d4a955d924b862b138f9ae17eafdaca1"
+    },
+    "phase32_appendix": {
+      "records": 88465,
+      "active": 48079,
+      "held": 40386,
+      "metadata_catalog_sha256": "116c4b090feea024fd39f67dd89f41f7901b8c02b9f481bbd3e1d07da6679984"
+    },
+    "shared_native_identities": 0,
+    "phase32_records_matching_historical_body_sha256": 0,
+    "phase32_records_matching_historical_doc_id": 0,
+    "phase32_records_matching_historical_exact_nonempty_url": 0,
+    "preserved_native_record_union": 890024,
+    "historical_union_plus_active_phase32": 849638
+  }
+}

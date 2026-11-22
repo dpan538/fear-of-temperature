@@ -42,4 +42,7 @@ Model installation proves that the software can run locally. It does not prove c
 
 The proposal's supervisory and UQ ethics gates remain in force. Public availability does not automatically permit collection, quotation, inference or redistribution. Source terms govern originals, metadata, derived features and embeddings separately. Restricted originals remain separate from releasable derivatives; only permission-reviewed material may be published.
 
-No blanket open-source licence has been applied to the repository, and no licence is asserted for third-party corpora.
+The [MIT License](../LICENSE) applies to project-authored software and associated
+documentation. Source texts and third-party dependencies and weights retain their
+applicable terms. See the [frozen corpus companion](research/2026-11-17-formal-corpus-release/deposit_v1/README.md)
+for the public aggregate and restricted access route.

@@ -1,0 +1,24 @@
+{
+  "title": "Fear of Temperature — Australian corpus aggregates, 2003–2025",
+  "resource_type": {"id": "dataset"},
+  "creators": [
+    {"person_or_org": {"type": "personal", "family_name": "Pan", "given_name": "Dai"}}
+  ],
+  "version": "1.0.2",
+  "description": "Aggregate tables, figures and release verification for the Australian public-discourse corpus formal-corpus-release-20261117-v1. The preserved acquisition holdings comprise 890,024 native record identities, including holds. The active candidate pool contains 765,610 records. The v1 database retains 723,158 records, including 4,828 structural holds. The eligible v1 roster contains 718,330 records from 2,582 publication hosts. Its frozen catalog assigns 646,414 train, 36,110 validation and 35,806 test records. A separate source-use review ledger holds 732 exact native-body matches for document model preparation. Annual counts describe publication coverage for 2003–2025. The deposit contains aggregate statistics and release evidence.",
+  "languages": [{"id": "eng"}],
+  "subjects": [
+    {"subject": "Australian public discourse"},
+    {"subject": "Climate affect"},
+    {"subject": "Cultural learning"},
+    {"subject": "Corpus linguistics"}
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/dpan538/fear-of-temperature",
+      "scheme": "url",
+      "relation_type": {"id": "isdocumentedby"},
+      "resource_type": {"id": "software"}
+    }
+  ]
+}

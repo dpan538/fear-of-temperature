@@ -1,0 +1,65 @@
+{
+  "committed_at_utc": "2026-11-17T13:24:41.790556+00:00",
+  "version": "formal-corpus-release-20261117-v1",
+  "catalog": "work_packages/formal_corpus_release_20261117/release_v1/formal_corpus.duckdb",
+  "records_materialized": 723158,
+  "formal_records": 718330,
+  "counts": {
+    "materialized": 723158,
+    "formal_eligible": 718330,
+    "formal:baseline": 712706,
+    "split:train": 646414,
+    "split:validation": 36110,
+    "split:test": 35806,
+    "retained_quarantine": 4828,
+    "formal:supplement": 5624
+  },
+  "quarantine_reasons": {
+    "empty_after_fixed_structural_cleanup": 112,
+    "native_interface_projection_requires_review": 4688,
+    "residual_native_interface_requires_review": 4697,
+    "native_replacement_character_requires_review": 19
+  },
+  "baseline_metadata_fields_preserved": 60,
+  "baseline_metadata_field_mismatches": 0,
+  "groups_by_split": {
+    "train": 645286,
+    "validation": 36072,
+    "test": 35915
+  },
+  "historical_groups_by_content_split": {
+    "train": 640847,
+    "test": 35153,
+    "validation": 35383,
+    "quarantine": 380,
+    "not_in_historical_frame": 5510
+  },
+  "split_policy": "New versioned approximately 90/5/5 content-group partition, independent of sentiment/year; agent-development-reviewed new groups train-only. Historical main_split fields preserved and separately exposed; this is not an untouched historical evaluation set.",
+  "content_edges": {
+    "exact_clean_text": 1906,
+    "preserved_historical_group": 998,
+    "exact_100word_500char_passage": 32083
+  },
+  "long_passage_instances": 640230,
+  "reused_long_passage_hashes": 16390,
+  "max_long_passage_reuse": 567,
+  "group_cross_split_leaks": 0,
+  "exact_clean_body_cross_split_leaks": 0,
+  "unreadable_or_empty_formal_records": 0,
+  "native_stores_modified": false,
+  "notebook_accessed": false,
+  "model_fit_or_training": false,
+  "emotion_Gold": false,
+  "every_record_manual_semantic_clearance": false,
+  "unknown_near_copy_or_quote_clearance": false,
+  "training_permission_certificate": false,
+  "source_eligibility_scope": "Current recorded native-use holds and preserved eligible-baseline snapshot; no legal permission inference.",
+  "elapsed_seconds": 66.73201999999583,
+  "preferred_total_interval": [
+    720000,
+    750000
+  ],
+  "membership_sha256": "abe5fbca4d1a0596c03e351cd38232fb60e041c28277c83cc6e802766d8bd5ae",
+  "passage_fingerprint_sha256": "b8ab70cb1db3d877e0657f3e2d2562d17147af88447060478567d9617a130e0d",
+  "catalog_sha256": "a2834a79f0956206df3113e82e9b4ac69ea3394fc3ebbc1ab53cb3538c7edee2"
+}

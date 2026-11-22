@@ -7,7 +7,7 @@
 [![Acquisition: paused](https://img.shields.io/badge/acquisition-paused-64748B)](docs/research/2026-11-13-corpus-release/ACQUISITION_PROCESS.md)
 [![Stage: chunk refinement](https://img.shields.io/badge/stage-chunk%20refinement-4F6395)](notebooks/PREPROCESSING_CHECKPOINT.md)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
-[![License: not assigned](https://img.shields.io/badge/license-not%20assigned-lightgrey)](#license)
+[![Code license: MIT](https://img.shields.io/badge/code%20license-MIT-233B53)](LICENSE)
 
 **Current formal analysis release: 718,330 records.**
 The project examines how climate/temperature-related affect, bodily experience and Fear
@@ -31,6 +31,8 @@ The Australian case does not by itself establish global generality.
 | **5. Annotation and model evaluation** | Establish the annotation rubric and use group-disjoint evaluation for supervised comparisons. Representation experiments that consume chunks depend on Stage 3 adoption. |
 
 ### Corpus counts and the training target
+
+[![Preserved holdings, active candidates and frozen v1 corpus split counts](docs/research/2026-11-17-formal-corpus-release/deposit_v1/corpus_accounting.png)](docs/research/2026-11-17-formal-corpus-release/deposit_v1/README.md#corpus-accounting)
 
 The two acquisition snapshots preserve **890,024 native records** in total,
 including retained holds. The **801,559-record** historical snapshot assigned
@@ -60,6 +62,8 @@ The successor target is **about 720,000 training records**. An exact
 90:5:5 allocation at 720,000 training records needs **800,000 eligible
 records**, including 40,000 each for validation and test. This requires a separately
 versioned and verified split. [Historical closeout](docs/research/2026-11-13-corpus-release/README.md) · [Preprocessing checkpoint](notebooks/PREPROCESSING_CHECKPOINT.md)
+
+[![Eligible corpus by publication year, 2003–2025](docs/research/2026-11-17-formal-corpus-release/deposit_v1/publication_coverage.png)](docs/research/2026-11-17-formal-corpus-release/deposit_v1/year_by_stage.csv)
 
 ### Document preprocessing checkpoint
 
@@ -165,6 +169,7 @@ To reproduce the closed phase's designed jobs without network or corpus access:
 
 | Document | Purpose |
 |---|---|
+| [Frozen corpus companion](docs/research/2026-11-17-formal-corpus-release/deposit_v1/README.md) | Aggregate tables, checksum evidence and catalog restoration |
 | [Preprocessing and chunking checkpoint](notebooks/PREPROCESSING_CHECKPOINT.md) | Current formal scope, verified notebook outputs and open acceptance gates |
 | [Historical closeout](docs/research/2026-11-13-corpus-release/README.md) | Earlier collection quantities, qualification scope, storage and data access |
 | [Research questions](docs/research/2026-11-13-corpus-release/RESEARCH_QUESTIONS.md) | Current RQ1–RQ3 and hypotheses |
@@ -192,7 +197,7 @@ Validated annotation and group-disjoint model evaluation precede substantive emo
 
 ## Citation
 
-No DOI or archival data release has been assigned. Cite the repository and the exact commit:
+Cite the software with [CITATION.cff](CITATION.cff) and the exact commit. The [frozen corpus companion](docs/research/2026-11-17-formal-corpus-release/deposit_v1/README.md) records the dataset citation and DOI status.
 
 ```bibtex
 @software{pan_fear_of_temperature_2026,
@@ -217,8 +222,9 @@ restricted text, credentials or unlicensed corpora. Existing code checks are:
 
 ## License
 
-No repository-wide licence has been assigned. Third-party packages, models and source
-materials retain their own terms; public access is not a blanket redistribution licence.
+The project's original software and associated documentation are available under
+the [MIT License](LICENSE). Third-party packages, models and source materials
+retain their applicable terms.
 
 ## Contact
 
