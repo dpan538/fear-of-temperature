@@ -27,8 +27,27 @@ The Australian case does not by itself establish global generality.
 | **1. Acquisition and formal release** | The formal analysis input contains **718,330 eligible records** from **2,582 publication hosts**. Acquisition is paused. |
 | **2. Document preprocessing** | [Notebooks 03–05](notebooks/03_structure_normalization.ipynb) normalize metadata, apply auditable format-specific cleaning, and bind cleaned documents to provenance, paragraph offsets and overlap evidence. The full document handoff is verified. |
 | **3. Chunking and quality review** | [Notebook 12](notebooks/12_reference_chunk_materialization.ipynb) materialized **1,511,656 reference chunks**. The 1,500-document semantic audit is complete. [Notebook 14](notebooks/14_paragraph_boundary_refinement.ipynb) generated 464 training-side alternatives for paired review. Model-ready chunk adoption is pending. |
-| **4. Document EDA and unsupervised preparation** | [Notebook 13](notebooks/13_document_eda_and_unsupervised_preparation.ipynb) uses the document handoff for corpus diagnostics and a 20,000-document training-only TF–IDF cohort. [Notebook 15](notebooks/15_unsupervised_research_plan_and_local_pilot.ipynb) defines the hypotheses and provides a researcher-started local NMF pilot. |
+| **4. Document EDA and unsupervised preparation** | [Notebook 13](notebooks/13_document_eda_and_unsupervised_preparation.ipynb) uses the document handoff for corpus diagnostics and a 20,000-document training-only TF–IDF cohort. [Notebook 15](notebooks/15_unsupervised_research_plan_and_local_pilot.ipynb) defines the hypotheses and provides a researcher-started local NMF pilot. [Run All comparison](notebooks/16_document_unsupervised_comparison.ipynb) |
 | **5. Annotation and model evaluation** | Establish the annotation rubric and use group-disjoint evaluation for supervised comparisons. Representation experiments that consume chunks depend on Stage 3 adoption. |
+
+### Corpus counts and the training target
+
+The two acquisition snapshots preserve **890,024 native records** in total,
+including retained holds. The **801,559-record** historical snapshot assigned
+**721,793** records to its historical training split. Phase 32 replenished the
+candidate pool following eligibility screening and contributed 88,465 new
+native identities, including 40,386 appendix holds. The resulting active
+candidate pool contains **765,610** records.
+
+Formal v1 contains **718,330 eligible records**. Its frozen split has **646,414
+train**, **36,110 validation** and **35,806 test** records. The document EDA
+has **641,820** eligible canonical training parents under its documented
+exclusions and exact-body deduplication.
+
+The successor target is **about 720,000 training records**. An exact
+90:5:5 allocation at 720,000 training records needs **800,000 eligible
+records** and 40,000 each for validation and test. This requires a separately
+versioned and verified split. [Historical closeout](docs/research/2026-11-13-corpus-release/README.md) · [Preprocessing checkpoint](notebooks/PREPROCESSING_CHECKPOINT.md)
 
 ### Document preprocessing checkpoint
 

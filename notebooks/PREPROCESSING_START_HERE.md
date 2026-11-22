@@ -208,3 +208,17 @@ provides the first NMF pilot. The fit is disabled by default. The researcher
 sets the run switch and starts the final cell in the project kernel.
 The [local replay guide](REPRODUCIBILITY.md) specifies which artifacts and
 results to compare when replaying or rebuilding earlier stages.
+
+## Run the document comparison locally
+
+Open [Notebook 16](16_document_unsupervised_comparison.ipynb) in the project
+kernel and use **Run All** to start the 54 planned fits. Three separate seed
+cells use the same six-pipeline registry. The experimental cohort comes from
+formal v1 and is separate from the successor full-training target. The
+comparison uses only document-level assignments and inherits the frozen
+validation boundary.
+
+The local run directory under `.cache/document-model-comparison/` contains
+shared representations, fitted estimators, document assignments, component
+terms, per-run metrics, failures and versioned PNG/PDF reports. Rerunning a
+seed verifies and skips its completed fits.
