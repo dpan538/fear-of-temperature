@@ -39,14 +39,21 @@ candidate pool following eligibility screening and contributed 88,465 new
 native identities, including 40,386 appendix holds. The resulting active
 candidate pool contains **765,610** records.
 
-Formal v1 contains **718,330 eligible records**. Its frozen split has **646,414
-train**, **36,110 validation** and **35,806 test** records. The document EDA
-has **641,820** eligible canonical training parents under its documented
-exclusions and exact-body deduplication.
+The frozen release, `formal-corpus-release-20261117-v1`, retains **723,158**
+records in its database. This includes **4,828** structural holds with native
+body locators in `quarantine_records`. The canonical release inventory covers
+**722,160** distinct native bodies, including **4,826** from structural holds.
+The **67,222** historical records with recorded source-use holds are indexed
+separately for reference and are outside the v1 materialized roster.
+
+The **718,330** eligible records are assigned to **646,414 train**, **36,110
+validation** and **35,806 test**. The document EDA applies its own holds and
+exact-text canonicalization, yielding **641,820** eligible training documents.
+Its development cohort contains **20,000** documents. [Replay the corpus freeze](notebooks/17_corpus_freeze_replay.ipynb)
 
 The successor target is **about 720,000 training records**. An exact
 90:5:5 allocation at 720,000 training records needs **800,000 eligible
-records** and 40,000 each for validation and test. This requires a separately
+records**, including 40,000 each for validation and test. This requires a separately
 versioned and verified split. [Historical closeout](docs/research/2026-11-13-corpus-release/README.md) · [Preprocessing checkpoint](notebooks/PREPROCESSING_CHECKPOINT.md)
 
 ### Document preprocessing checkpoint

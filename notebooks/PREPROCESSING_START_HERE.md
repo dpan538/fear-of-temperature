@@ -209,6 +209,21 @@ sets the run switch and starts the final cell in the project kernel.
 The [local replay guide](REPRODUCIBILITY.md) specifies which artifacts and
 results to compare when replaying or rebuilding earlier stages.
 
+## Reproduce the formal corpus freeze
+
+Run [Notebook 17](17_corpus_freeze_replay.ipynb) in a fresh project kernel to
+verify the frozen `formal-corpus-release-20261117-v1` roster against the
+Notebook 05 handoff and reproduce the Notebook 13 document cohort. The formal
+splits contain 646,414 train, 36,110 validation and 35,806 test records. The
+canonical document training frame contains 641,820 records and its development
+sample contains 20,000. The reference-only metadata index for 67,222 historical
+source-use holds, the canonical release inventory and the verification receipt
+are stored under `.cache/corpus-freeze/`. The inventory keys **722,160** distinct
+native bodies to the release database by `release_row`. It covers the **4,826**
+distinct native bodies from structural holds alongside the eligible bodies.
+The original database retains all **723,158** records and their provenance.
+Use the formal split views to select records for model preparation.
+
 ## Run the document comparison locally
 
 Open [Notebook 16](16_document_unsupervised_comparison.ipynb) in the project
