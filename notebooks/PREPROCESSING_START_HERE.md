@@ -227,13 +227,21 @@ results to compare when replaying or rebuilding earlier stages.
 ## Run the document comparison locally
 
 Open [Notebook 16](16_document_unsupervised_comparison.ipynb) in the project
-kernel and use **Run All** to start the 54 planned fits. Three separate seed
-cells use the same six-pipeline registry. The experimental cohort comes from
-formal v1 and is separate from the successor full-training target. The
-comparison uses only document-level assignments and inherits the frozen
-validation boundary.
+kernel and use **Run All**. The notebook retains all 54 planned configurations.
+When the original checkpoint verifies, it reuses 45 saved fits, the MiniLM
+vectors and the SVD representations and starts the nine BERTopic retries.
+The comparison uses the same 20,000-document development cohort and frozen
+validation boundary. [Dated experiment log](../docs/research/2026-11-22-document-comparison/EXPERIMENT_LOG.md)
+
+The RQ1 cells check NMF convergence, source composition and common support,
+then run the 20K temporal alignment and adjustment pilot. Use
+`FOT16_TEMPORAL_PILOT=0` before starting the kernel to run just the comparison
+and evidence-readiness cells. The temporal cache has its own manifest. RQ2
+produces a training review roster, and RQ3 records which event evidence remains
+pending.
 
 The local run directory under `.cache/document-model-comparison/` contains
 shared representations, fitted estimators, document assignments, component
-terms, per-run metrics, failures and versioned PNG/PDF reports. Rerunning a
+terms, per-run metrics, failures and versioned PNG/PDF reports. The report's
+failure history includes the dated initial and retry attempts. Rerunning a
 seed verifies and skips its completed fits.
