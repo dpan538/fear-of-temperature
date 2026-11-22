@@ -189,3 +189,13 @@ formal records, verifies the completed chunk QA receipts, and prepares a
 fixed training-only document cohort for unsupervised experiments. The local
 snapshot in `.cache/corpus-eda/document-eda-v1` contains figures, source tables,
 the development cohort, and its fitted vocabulary and sparse TF–IDF features.
+
+## Run Notebook 14
+
+[Notebook 14](14_paragraph_boundary_refinement.ipynb) applies a bounded paragraph
+search to training-side material findings from the completed program-only QA
+sample. It retains the original plans and ranks alternatives by reported
+evidence boundaries, new context risks, and the number of changed edges.
+The local snapshot in `.cache/chunk-refinement/paragraph-v2` contains the trial
+ledger, the exact-reuse check, and paired packets for semantic review. Offset
+adoption requires the paired review and the model input checks.

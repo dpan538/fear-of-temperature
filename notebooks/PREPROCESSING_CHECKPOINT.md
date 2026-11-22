@@ -128,3 +128,19 @@ froze a stratified 20,000-document cohort from 641,820 eligible canonical
 training documents. It prepared a 24,000-feature sparse word and bigram TF–IDF
 matrix and generated source, date, length and lexical diagnostics. Topic
 model fitting and supervised annotation remain subsequent stages.
+
+## Paragraph boundary refinement
+
+Notebook 14 verified the full QA receipt roster and developed alternatives for
+the 494 training documents with material findings. It kept 96 validation and
+test findings outside rule development. A paired diagnostic on four shorter
+documents showed that moving a reported cut can introduce another context
+dependency, so the second search flags risky openings and lead-ins at new cuts.
+
+The second search produced 464 full-edge alternatives for paired review.
+Another 11 alternatives have new context cues to adjudicate, 12 resolve only
+some reported edges, six have no repair within the search constraints, and one
+needs adjudication of an existing exact occurrence hold. The projected
+replacement offsets preserve the 512-content-token reference budget and give
+zero exact cross-split groups. The 32 frozen paired comparisons support the
+next semantic gate. Reference release offsets remain as published.

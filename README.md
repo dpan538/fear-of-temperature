@@ -3,13 +3,13 @@
 ### Learning to fear temperature as shared cultural heritage — the Australian case
 
 [![Study window: 2003–2025](https://img.shields.io/badge/study%20window-2003%E2%80%932025-24465F)](docs/research/2026-11-13-corpus-release/README.md)
-[![Formal records: 801,559](https://img.shields.io/badge/formal%20records-801%2C559-4F8A83)](docs/research/2026-11-13-corpus-release/collection_summary.json)
-[![Acquisition: complete](https://img.shields.io/badge/acquisition-complete-2ea44f)](docs/research/2026-11-13-corpus-release/ACQUISITION_PROCESS.md)
-[![Stage: preprocessing design](https://img.shields.io/badge/stage-preprocessing%20design-D5A064)](docs/research/2026-11-13-corpus-release/NEXT_STEPS.md)
+[![Formal records: 718,330](https://img.shields.io/badge/formal%20records-718%2C330-28786E)](notebooks/PREPROCESSING_CHECKPOINT.md)
+[![Acquisition: paused](https://img.shields.io/badge/acquisition-paused-64748B)](docs/research/2026-11-13-corpus-release/ACQUISITION_PROCESS.md)
+[![Stage: chunk refinement](https://img.shields.io/badge/stage-chunk%20refinement-4F6395)](notebooks/PREPROCESSING_CHECKPOINT.md)
 [![Python 3.12](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![License: not assigned](https://img.shields.io/badge/license-not%20assigned-lightgrey)](#license)
 
-**Updated 13 November 2026. Raw acquisition is complete: 801,559 formal records.**
+**Current formal analysis release: 718,330 records.**
 The project examines how climate/temperature-related affect, bodily experience and Fear
 develop and circulate in Australian discourse during **1 January 2003–31 December 2025**.
 This activity window was selected using the government/official acquisition inventory as
@@ -20,24 +20,40 @@ The macro hypothesis is **learning to fear temperature as shared cultural herita
 It is a hypothesis to test, not a result embedded in collection labels or an assumed rising curve.
 The Australian case does not by itself establish global generality.
 
-## Current progress
+## Research stages
 
-| Workstream | Status and evidence |
-|---|---|
-| Raw acquisition | **Complete:** 776,559 frozen baseline + 25,000 actual net additions = **801,559 formal records** |
-| Final targeted phase | 26,383 gross receipts minus 1,383 reversible holds; 530 domains and all 23 publication years |
-| Search documentation | Frozen v3.15: 10 parents, 24 sub-parents, 638 children; 942 actual query registrations and 4,169 saved jobs |
-| Review and design | Final-phase verification and bounded independent review recorded; preprocessing and evaluation design documented |
-| Next stage | Derived text views and bounded pilot implementation, followed by gold annotation and validated measurement |
-| Empirical findings | Full-corpus labels, validated Fear trends and cultural-learning conclusions **not yet established** |
+| Stage | Scope and current checkpoint |
+| --- | --- |
+| **1. Acquisition and formal release** | The formal analysis input contains **718,330 eligible records** from **2,582 publication hosts**. Acquisition is paused. |
+| **2. Document preprocessing** | [Notebooks 03–05](notebooks/03_structure_normalization.ipynb) normalize metadata, apply auditable format-specific cleaning, and bind cleaned documents to provenance, paragraph offsets and overlap evidence. The full document handoff is verified. |
+| **3. Chunking and quality review** | [Notebook 12](notebooks/12_reference_chunk_materialization.ipynb) materialized **1,511,656 reference chunks**. The 1,500-document semantic audit is complete. [Notebook 14](notebooks/14_paragraph_boundary_refinement.ipynb) generated 464 training-side alternatives for paired review. Model-ready chunk adoption is pending. |
+| **4. Document EDA and unsupervised preparation** | [Notebook 13](notebooks/13_document_eda_and_unsupervised_preparation.ipynb) uses the document handoff for corpus diagnostics and a 20,000-document training-only TF–IDF cohort. Topic model fitting is a later step. |
+| **5. Annotation and model evaluation** | Establish the annotation rubric and use group-disjoint evaluation for supervised comparisons. Representation experiments that consume chunks depend on Stage 3 adoption. |
 
-The dated 2003–2025 formal view contains 801,516 records; 43 baseline records with unresolved
-dates remain separately preserved. Counts are native records, not independent people,
-purely negative texts, keyword occurrences or model chunks.
+### Document preprocessing checkpoint
 
-Start with the [collection closeout](docs/research/2026-11-13-corpus-release/README.md),
-[decision history](docs/research/2026-11-13-corpus-release/DECISION_HISTORY.md) and
-[next-stage plan](docs/research/2026-11-13-corpus-release/NEXT_STEPS.md).
+The versioned handoff preserves source and date provenance, release keys and inherited
+splits. Source and format rules produce derived text and audit records. Native source
+text and missing metadata remain available through their provenance links. Review
+flags and overlap evidence follow each document into downstream eligibility checks.
+
+### Chunking checkpoints
+
+1. Plan reference offsets and materialize the original slices with a 512-content-token
+   `cl100k_base` budget. Verify coverage and hashes and apply parent and exact-reuse holds.
+2. Check semantic boundaries with the targeted nonparagraph review and the program-only
+   sample. Record material evidence breaks separately from readability preferences.
+3. Develop a bounded repair on training cases. Verify offset coverage and exact reuse,
+   then review the original and proposed spans side by side before applying changes.
+4. Validate the selected model's tokenizer and full input limit, including special
+   tokens. Recheck exact cross-split reuse on the resulting offsets and version the
+   approved chunk policy with its remaining holds.
+
+The document EDA branch reads complete derived bodies from Stage 2. The
+[preprocessing checkpoint](notebooks/PREPROCESSING_CHECKPOINT.md) records what was
+run, what was held and which decisions are still open.
+
+Earlier collection totals and search effort are documented in the [historical collection closeout](docs/research/2026-11-13-corpus-release/README.md).
 
 ## Research questions
 
@@ -118,12 +134,13 @@ To reproduce the closed phase's designed jobs without network or corpus access:
 
 | Document | Purpose |
 |---|---|
-| [Closeout and accounting](docs/research/2026-11-13-corpus-release/README.md) | Final quantities, qualification scope, storage and data access |
+| [Preprocessing and chunking checkpoint](notebooks/PREPROCESSING_CHECKPOINT.md) | Current formal scope, verified notebook outputs and open acceptance gates |
+| [Historical closeout](docs/research/2026-11-13-corpus-release/README.md) | Earlier collection quantities, qualification scope, storage and data access |
 | [Research questions](docs/research/2026-11-13-corpus-release/RESEARCH_QUESTIONS.md) | Current RQ1–RQ3 and hypotheses |
 | [Decision history](docs/research/2026-11-13-corpus-release/DECISION_HISTORY.md) | Scope, matrix, weighting and closure decisions |
 | [Acquisition process](docs/research/2026-11-13-corpus-release/ACQUISITION_PROCESS.md) | Discovery-to-commit implementation and provenance |
 | [Search definitions and registers](docs/methodology/search/README.md) | Complete matrix, historical versions, weights and actual/planned distinctions |
-| [Next-stage design](docs/research/2026-11-13-corpus-release/NEXT_STEPS.md) | Derived preprocessing, grouping, evaluation and measurement |
+| [Research notebook guide](notebooks/PREPROCESSING_START_HERE.md) | Preprocessing, chunking and exploratory analysis run order |
 | [Publication manifest](docs/research/2026-11-13-corpus-release/PUBLICATION_MANIFEST.json) | Public file hashes and original source references |
 | [Environment](docs/ENVIRONMENT.md) | Installation and device/model configuration |
 | [Data, models and governance](docs/DATA_MODELS_AND_GOVERNANCE.md) | Licences, provenance and research-use limits |
