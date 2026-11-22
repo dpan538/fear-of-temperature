@@ -165,3 +165,27 @@ from the sampled parents. It retains earlier receipts, gives each window a
 disjoint review lane, and distinguishes a verified repair from an explicit
 model-input hold. The final cells reconcile the full target and recheck exact
 cross-split chunk reuse on the revised candidate.
+
+## Run Notebook 11
+
+[Notebook 11](11_program_chunk_qa.ipynb) applies the whole-parent exclusions
+and rechecks exact chunk reuse. It freezes 1,500 program-only QA parents in
+`.cache/chunk-policy-review/program-chunk-qa-v1`. Completed batch receipts are
+under `decisions`. Review assignments and resumable partial receipts are under
+`dispatch`.
+
+## Run Notebook 12
+
+[Notebook 12](12_reference_chunk_materialization.ipynb) writes and verifies
+the reference text slices under `.cache/chunk-materialization/reference-v1`.
+The manifest binds the input snapshots and split-specific Parquet parts.
+Model-input eligibility requires semantic QA and validation with the selected
+model's tokenizer and input limit.
+
+## Run Notebook 13
+
+[Notebook 13](13_document_eda_and_unsupervised_preparation.ipynb) describes the
+formal records, verifies the completed chunk QA receipts, and prepares a
+fixed training-only document cohort for unsupervised experiments. The local
+snapshot in `.cache/corpus-eda/document-eda-v1` contains figures, source tables,
+the development cohort, and its fitted vocabulary and sparse TF–IDF features.

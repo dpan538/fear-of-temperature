@@ -108,3 +108,23 @@ before holds. A bound ledger of 2,101 held occurrences reduced the exact
 cross-split group count to zero. This checkpoint records the reference-token
 candidate. Model-specific tokenizer checks and the remaining review decisions
 govern adoption.
+
+## Reference materialization and document exploration
+
+Notebooks 11 and 12 materialized 1,511,656 reference chunks from 717,371
+documents after excluding 951 held parents and 2,090 exact chunk occurrences.
+The stored text slices had zero invalid hashes or ranges and zero surviving
+exact cross-split groups. This is a reference snapshot with a 512-content-token
+`cl100k_base` limit.
+
+The completed program-only QA sample contains 1,150 paragraph-only and 350
+single-chunk documents. Reviewers reported 590 material boundary breaks, all
+from the paragraph-only cohort. Its weighted first-pass material finding rate
+was 49.6%. The chunk branch awaits case adjudication and validation against
+the selected model's tokenizer and input limit.
+
+Notebook 13 completed the descriptive census of 718,330 formal records and
+froze a stratified 20,000-document cohort from 641,820 eligible canonical
+training documents. It prepared a 24,000-feature sparse word and bigram TF–IDF
+matrix and generated source, date, length and lexical diagnostics. Topic
+model fitting and supervised annotation remain subsequent stages.
