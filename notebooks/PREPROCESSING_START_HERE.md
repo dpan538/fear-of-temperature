@@ -224,24 +224,27 @@ sets the run switch and starts the final cell in the project kernel.
 The [local replay guide](REPRODUCIBILITY.md) specifies which artifacts and
 results to compare when replaying or rebuilding earlier stages.
 
-## Run the document comparison locally
+## Run the hypothesis-driven document pilot
 
 Open [Notebook 16](16_document_unsupervised_comparison.ipynb) in the project
-kernel and use **Run All**. The notebook retains all 54 planned configurations.
-When the original checkpoint verifies, it reuses 45 saved fits, the MiniLM
-vectors and the SVD representations and starts the nine BERTopic retries.
-The comparison uses the same 20,000-document development cohort and frozen
-validation boundary. [Dated experiment log](../docs/research/2026-11-22-document-comparison/EXPERIMENT_LOG.md)
+kernel and use **Run All**. It verifies the original development sample and
+validation panel, reports heat-linked Fear, worry, bodily, memory and
+transmission cues, and compares observed and source/format-standardised cue
+rates. The policy and sports controls and both evidence distances remain in
+the report. The earlier 54-fit comparison remains available at checkpoint
+`2f685da` and in the [experiment log](../docs/research/2026-11-22-document-comparison/EXPERIMENT_LOG.md).
 
-The RQ1 cells check NMF convergence, source composition and common support,
-then run the 20K temporal alignment and adjustment pilot. Use
-`FOT16_TEMPORAL_PILOT=0` before starting the kernel to run just the comparison
-and evidence-readiness cells. The temporal cache has its own manifest. RQ2
-produces a training review roster, and RQ3 records which event evidence remains
-pending.
+Keep the sealed `document_input` snapshot under
+`.cache/document-model-comparison/ee0a82a0e8ce8f3b90d0/` when moving the workspace.
+Notebook 16 verifies its manifest and data files before analysis. Restore
+this snapshot from the research workspace backup if the local cache is absent.
+The historical fitted models and reports are optional for running this pilot.
 
-The local run directory under `.cache/document-model-comparison/` contains
-shared representations, fitted estimators, document assignments, component
-terms, per-run metrics, failures and versioned PNG/PDF reports. The report's
-failure history includes the dated initial and retry attempts. Rerunning a
-seed verifies and skips its completed fits.
+The local reports under `.cache/hypothesis-document-pilot/` contain exact
+document offsets, period and annual counts, the source composition comparison,
+a training-only review roster and a blank form. The optional review cell opens
+one selected training document locally. The default run leaves the labelled
+learning stage pending. After independent adjudication, provide the bound
+annotation files described in the notebook and explicitly start the labelled
+development pilot. Event analysis and full-frame projection remain subject
+to their evidence checks.
