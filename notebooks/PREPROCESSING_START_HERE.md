@@ -199,3 +199,12 @@ evidence boundaries, new context risks, and the number of changed edges.
 The local snapshot in `.cache/chunk-refinement/paragraph-v2` contains the trial
 ledger, the exact-reuse check, and paired packets for semantic review. Offset
 adoption requires the paired review and the model input checks.
+
+## Plan and run Notebook 15 locally
+
+[Notebook 15](15_unsupervised_research_plan_and_local_pilot.ipynb) records the
+exploratory research hypotheses, verifies the document feature matrix, and
+provides the first NMF pilot. The fit is disabled by default. The researcher
+sets the run switch and starts the final cell in the project kernel.
+The [local replay guide](REPRODUCIBILITY.md) specifies which artifacts and
+results to compare when replaying or rebuilding earlier stages.
